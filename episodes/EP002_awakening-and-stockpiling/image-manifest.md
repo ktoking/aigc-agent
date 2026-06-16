@@ -5,11 +5,29 @@
 ## 总览
 
 - 总览审片图：`EP002-contact-sheet.png`
+- 完整视觉包审片图：`EP002-visual-package-contact-sheet.png`
+- 整集导演总览图：`overview-storyboard.png`
+- 发布封面海报：`cover-poster.png`
+- 开播标题图：`opening-title-card.png`
+- 结尾钩子图：`ending-cliffhanger.png`
+- 空间异能参考图：`spatial-power-vfx-reference.png`
 - 每段图片数量：3 张。
 - 每段固定图片：
   - `frames/storyboard-sheet.png`：4 镜头故事板图。
   - `frames/first-frame.png`：图生视频首帧参考。
   - `frames/last-frame.png`：图生视频尾帧参考。
+
+## 整集视觉资产
+
+| 文件 | 用途 | 画面重点 |
+| --- | --- | --- |
+| `EP002-contact-sheet.png` | 快速审片 | 12 张分段图并排检查 |
+| `EP002-visual-package-contact-sheet.png` | 完整视觉包审片 | 整集级图片与 12 张分段图合并检查 |
+| `overview-storyboard.png` | 整集导演故事板 | 4 个 15 秒段落的核心画面总览 |
+| `cover-poster.png` | 发布封面 | 林晚、仓库物资、蓝色空间裂痕、顾景辰监视感 |
+| `opening-title-card.png` | 开播标题图 | 手机日期、林晚重生醒来、末日前 30 天 |
+| `ending-cliffhanger.png` | 结尾钩子 / EP003 预告 | 顾景辰发现林晚异常采购记录 |
+| `spatial-power-vfx-reference.png` | 空间异能特效参考 | 林晚在仓库中用蓝色空间裂痕收纳物资 |
 
 ## Segment 01 倒计时三十天
 
