@@ -7,3 +7,4 @@
 - AI 漫剧生产工作流、资产库结构、每集 4 段拆分规则、首尾帧连续性规则见 `docs/workflow.md`；新剧集应优先复制 `templates/` 的结构并参考 `episodes/EP001_rebirth-before-apocalypse/`。
 - 双女主最终定妆参考图是 `assets/characters/double-hero-final-reference.png`：林晚按左侧人物，沈清雪按右侧人物。后续不得重新设计双女主外貌；所有提示词和分镜必须以该图为最高优先级。
 - 每一集除了 4 个分段故事板外，还必须生成 `overview-storyboard.md`，作为 60 秒总览故事板，汇总每个视频段落的背景叙事、分镜描述、首帧和尾帧。
+- 继续生成 EP003 及后续剧集时，优先使用项目内 skill：`skills/ai-microdrama-episode-production/`，按固定剧集目录、首尾帧、分段故事板和视频提示词格式输出。

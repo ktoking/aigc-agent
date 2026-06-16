@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Microdrama Episodes"
+  short_description: "Create structured AI drama episodes"
+  default_prompt: "Use $ai-microdrama-episode-production to generate the next structured episode package."
+
+policy:
+  allow_implicit_invocation: true
