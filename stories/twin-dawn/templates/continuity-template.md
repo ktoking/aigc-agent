@@ -1,4 +1,4 @@
-# EPXXX 连续性表
+# 连续性表
 
 ## 上一集承接
 
@@ -17,17 +17,17 @@
 
 ## 人物连续性
 
-| 角色 ID | 服装 | 发型/脸部锁定 | 伤口/标记 | 道具 | 站位 |
+| 角色 | 服装 | 发型 | 伤口/血迹 | 道具 | 站位 |
 | --- | --- | --- | --- | --- | --- |
-| CHARACTER_ID |  |  |  |  |  |
-| CHARACTER_ID |  |  |  |  |  |
+| LIN_WAN_001 |  |  |  |  |  |
+| SHEN_QINGXUE_001 |  |  |  |  |  |
 
 ## 场景与道具连续性
 
 | 资产 ID | 必须保持 | 允许变化 |
 | --- | --- | --- |
-| SCENE_ID |  |  |
-| PROP_ID |  |  |
+| SCENE_MODERN_APARTMENT / SCENE_INDUSTRIAL_WAREHOUSE / SCENE_APOCALYPSE_STREET |  |  |
+| blue-space-energy-core / blue-mental-wave / phone / modified-suv |  |  |
 
 ## 分段桥接
 

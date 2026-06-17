@@ -1,143 +1,122 @@
-# AI 漫剧生产仓库
+# AI 短剧 / AI 漫剧生产框架
 
-本项目用于生产 AI 短剧 / AI 漫剧《末日重生：双生曙光》。仓库不是普通文本大纲，而是一套可持续迭代的“角色资产 + 场景资产 + 剧集分镜 + 视频提示词 + 制作规范”工作台。核心目标是让每一集都能按固定格式拆成 4 个 15 秒以内的竖屏视频段，并保持角色、人脸、场景、首尾帧连续。
+本仓库是一套通用 AI 短剧生产工作台，用来把不同剧本整理成可持续生产的“故事记忆 + 资产库 + 剧集分镜 + 首尾帧 + 视频 API 提示词”结构。
 
-## 项目定位
+根目录只放通用能力；每个具体剧本都放进独立的 `stories/<story-id>/` 文件夹。这样当前剧本、后续新剧本、不同题材项目都可以共用同一套生产流程，但各自保留自己的角色设定、视觉锁定、对白、世界观和禁忌规则。
 
-- 类型：末日重生、双女主、异能、囤货、基地建设、复仇反派线。
-- 画幅：9:16 竖屏短剧。
-- 单集时长：60 秒。
-- 单集结构：4 段，每段 15 秒以内。
-- 核心生产链路：故事记忆 -> 资产库 -> 剧集大纲 -> 连续性表 -> 分段故事板 -> 首尾帧 -> 图生视频 -> 剪辑交付。
+## 根目录放什么
 
-## 核心故事
+- `docs/`：通用生产流程和架构说明。
+- `templates/`：通用中文模板，默认按 `twin-dawn` 的剧集格式输出。
+- `skills/`：通用 Codex skill，用于分析剧本、创建故事包、生成剧集生产文件。
+- `stories/`：每个剧本一个独立 story 文件夹。
 
-林晚是重生者和 SSS 级空间异能者，前世末日中为保护沈清雪而死。她重生回病毒爆发前 30 天，带着前世记忆开始囤货、验证空间能力、寻找沈清雪，并逐步揭开顾景辰和病毒计划的真相。沈清雪是 SSS 级精神系异能者，是林晚未来并肩建立幸存者基地的关键伙伴。
+根目录不要写死某个剧本的人名、剧情、人脸锁、世界观或具体剧集产物。
 
-完整设定记忆见 [docs/story-memory.md](/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/docs/story-memory.md)。
+## Story 文件夹约定
 
-## 目录结构
+每个剧本放在 `stories/<story-id>/`：
 
 ```text
-.
-├── assets/
-│   ├── characters/      # 角色卡、定妆图、表情、服装、动作姿势
-│   ├── scenes/          # 场景卡和场景参考图
-│   ├── props/           # 道具、异能特效、关键剧情物件
-│   ├── enemies/         # 感染者、尸王等敌方资产
-│   └── style/           # 全局风格、镜头语言、负面提示词
-├── docs/
-│   ├── story-memory.md  # 故事圣经、人设、视觉锚点、剧情规则
-│   └── workflow.md      # AI 漫剧生产流程
-├── episodes/
-│   ├── EP001_rebirth-before-apocalypse/
-│   └── EP002_awakening-and-stockpiling/
-├── templates/           # 剧集、连续性、故事板模板
-└── skills/              # 项目专属 Codex skill
+stories/<story-id>/
+  README.md
+  AGENTS.md
+  docs/
+    story-memory.md          # 故事圣经、人物、世界观、剧情阶段、对白记忆
+    workflow.md              # 本剧本自己的生产流程补充
+    production-rules.md      # 本剧本自己的视觉锁、禁忌、风格规则
+    season-arc.md            # 长线剧情阶段和前 10 集规划
+    audience-strategy.md     # 抖音短剧受众、钩子、标题封面策略
+  assets/
+    characters/
+    scenes/
+    props/
+    enemies/
+    style/
+  episodes/
+    EP001_slug/
+  templates/                 # 可选：本剧本专属模板覆盖
 ```
 
-## 资产库
+## 默认剧集格式
 
-### 角色
-
-- `LIN_WAN_001`：林晚，重生者，SSS 级空间异能者。最高优先级参考图为 `assets/characters/double-hero-final-reference.png` 左侧人物。
-- `SHEN_QINGXUE_001`：沈清雪，SSS 级精神系异能者。最高优先级参考图为 `assets/characters/double-hero-final-reference.png` 右侧人物。
-- `GU_JINGCHEN_001`：顾景辰，科技集团继承人，前男友，病毒计划幕后参与者。
-
-### 场景
-
-- `SCENE_MODERN_APARTMENT`：林晚重生醒来的现代公寓。
-- `SCENE_INDUSTRIAL_WAREHOUSE`：囤货爽点场景。
-- `SCENE_SPACE_BASE`：林晚空间异能内部基地。
-- `SCENE_APOCALYPSE_STREET`：前世末日废弃街道。
-- `SCENE_SURVIVOR_BASE`：中后期幸存者基地。
-- `SCENE_BASE_WALL`：最终尸潮攻防场景。
-
-### 风格
-
-所有生成必须遵守：
-
-- [assets/style/global-style.md](/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/assets/style/global-style.md)
-- [assets/style/camera-language.md](/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/assets/style/camera-language.md)
-- [assets/style/negative-prompts.md](/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/assets/style/negative-prompts.md)
-
-## 剧集格式
-
-每集目录固定包含：
+后续所有新 story 的 episodes 默认按照当前 `twin-dawn` 格式生成：
 
 ```text
 episodes/EPXXX_slug/
   episode.md
   continuity.md
   overview-storyboard.md
+  image-manifest.md
+  qa-checklist.md
+  publish-package.md
   segment_01_00-15s/
+    storyboard.md
+    first-frame.md
+    last-frame.md
+    prompt.md
+    api-request.md
+    frames/
+    output/
+  segment_02_15-30s/
     storyboard.md
     first-frame.md
     last-frame.md
     prompt.md
     frames/
     output/
-  segment_02_15-30s/
   segment_03_30-45s/
+    storyboard.md
+    first-frame.md
+    last-frame.md
+    prompt.md
+    frames/
+    output/
   segment_04_45-60s/
+    storyboard.md
+    first-frame.md
+    last-frame.md
+    prompt.md
+    frames/
+    output/
 ```
 
-每集必须满足：
+固定要求：
 
-- 开头 5 秒有视觉钩子或情绪钩子。
-- 每集至少一个反转、揭示或爽点释放。
-- 结尾必须留下下一集悬念。
-- 每段首帧继承上一段尾帧，除非使用明确转场。
-- 双女主人脸优先级高于所有文字设定。
-- 不生成完整长视频，先生成首尾帧，再做图生视频。
+- 一集 60 秒。
+- 一集拆成 4 段。
+- 每段 15 秒以内。
+- 每段必须有 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`。
+- `prompt.md` 要能直接服务后续视频 API / 图生视频工具。
+- `first-frame.md` 和 `last-frame.md` 要明确首尾帧画面，方便连续生成。
+- `segment_02` 首帧继承 `segment_01` 尾帧，依次类推。
+- 推荐每集生成 `qa-checklist.md` 和 `publish-package.md`。
+- 推荐每段生成 `api-request.md`，记录视频 API 参数、提交结果和重试策略。
 
-## 已有剧集
+## 通用能力地图
 
-### EP001 重生前夜
+- [通用生产工作流](docs/workflow.md)
+- [Story 包契约](docs/contracts/story-package-contract.md)
+- [视频 API 交付规范](docs/contracts/video-api-handoff.md)
+- [新剧本分析方法](docs/methods/story-analysis-method.md)
+- [抖音短剧方法论](docs/methods/douyin-short-drama-method.md)
+- [剧集质量检查清单](docs/checklists/episode-quality-checklist.md)
 
-林晚和沈清雪在末日街道被尸潮围困。林晚牺牲自己释放最后的空间异能，随后重生回末日前 30 天。钩子是手机日期显示 `2030年10月15日`。
+## 当前故事包
 
-目录：[episodes/EP001_rebirth-before-apocalypse](/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/episodes/EP001_rebirth-before-apocalypse)
+- [stories/twin-dawn](stories/twin-dawn/README.md)：《末日重生：双生曙光 / 末日降临：我和闺蜜觉醒双SSS异能》。
 
-### EP002 觉醒囤货
+## 新增剧本流程
 
-林晚从重生震惊中恢复，验证空间异能仍在，立刻取消与顾景辰的晚宴并租下大型工业仓库开始囤货。顾景辰察觉异常，反派线首次进入现代时间线。
+1. 创建 `stories/<story-id>/`。
+2. 写入 `README.md`、`AGENTS.md`、`docs/story-memory.md`、`docs/production-rules.md`。
+3. 补齐 `docs/season-arc.md` 和 `docs/audience-strategy.md`。
+4. 把角色、场景、道具、风格资产放入 `assets/`。
+5. 如果剧本需要特殊字段，再添加 `stories/<story-id>/templates/`；否则使用根目录中文通用模板。
+6. 使用 `skills/ai-microdrama-episode-production/` 生成剧集。
 
-目录：[episodes/EP002_awakening-and-stockpiling](/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/episodes/EP002_awakening-and-stockpiling)
-
-## 如何继续生成新剧集
-
-后续生成 EP003、EP004 时，优先使用项目 skill：
+示例：
 
 ```text
-使用 skills/ai-microdrama-episode-production 生成 EP003，承接 EP002，保持现有格式。
+使用 stories/twin-dawn，承接 EP004，生成 EP005。
 ```
-
-生成前必须读取：
-
-1. `docs/story-memory.md`
-2. `docs/workflow.md`
-3. 上一集的 `episode.md`、`continuity.md`、`overview-storyboard.md`
-4. `assets/characters/*/00-character-card.md`
-5. 本集会用到的场景卡、道具卡、风格文件
-6. `templates/` 中对应模板
-
-## 视频平台建议
-
-本项目的文本和首尾帧结构适合接入即梦、可灵、豆包、Seedance、LiblibAI 等工具。建议生产顺序：
-
-1. 用角色参考图生成本集关键首尾帧。
-2. 每段使用 `first-frame.md` + `last-frame.md` + `prompt.md` 做图生视频。
-3. 输出结果放入对应 `segment_xx/output/`。
-4. 失败时只重做偏差段，不重做整集。
-
-## 质量检查
-
-- 林晚是否始终匹配参考图左侧人物。
-- 沈清雪是否始终匹配参考图右侧人物。
-- 林晚左眼下淡痣是否保留。
-- 沈清雪是否保持短发和白色服装方向。
-- 顾景辰是否保持表面温和、眼神隐藏控制欲。
-- 本集是否有明确爽点、情绪点和结尾钩子。
-- 四段视频首尾帧是否能自然衔接。
-- 是否避免动漫、游戏 UI、AI 脸、过度血腥和低成本 cosplay 感。

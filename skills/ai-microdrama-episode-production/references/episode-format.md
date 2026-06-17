@@ -1,26 +1,48 @@
-# Episode Format Reference
+# 剧集格式参考
 
-## Files To Create
+## 必须创建的文件
 
-Each episode must create exactly these narrative files:
+默认每集创建这些叙事文件：
 
 - `episode.md`
 - `continuity.md`
 - `overview-storyboard.md`
+- `image-manifest.md`，推荐用于跟踪图片和视频 API 任务
+- `qa-checklist.md`，推荐用于交付质检
+- `publish-package.md`，推荐用于标题、封面、评论和标签
 - `segment_01_00-15s/storyboard.md`
 - `segment_01_00-15s/first-frame.md`
 - `segment_01_00-15s/last-frame.md`
 - `segment_01_00-15s/prompt.md`
-- Repeat the same four segment files for `segment_02_15-30s`, `segment_03_30-45s`, and `segment_04_45-60s`.
+- `segment_01_00-15s/api-request.md`，推荐用于视频 API 任务记录
+- `segment_02_15-30s/storyboard.md`
+- `segment_02_15-30s/first-frame.md`
+- `segment_02_15-30s/last-frame.md`
+- `segment_02_15-30s/prompt.md`
+- `segment_02_15-30s/api-request.md`
+- `segment_03_30-45s/storyboard.md`
+- `segment_03_30-45s/first-frame.md`
+- `segment_03_30-45s/last-frame.md`
+- `segment_03_30-45s/prompt.md`
+- `segment_03_30-45s/api-request.md`
+- `segment_04_45-60s/storyboard.md`
+- `segment_04_45-60s/first-frame.md`
+- `segment_04_45-60s/last-frame.md`
+- `segment_04_45-60s/prompt.md`
+- `segment_04_45-60s/api-request.md`
 
-Also create empty `frames/` and `output/` directories for each segment if missing.
+每个 segment 目录还应包含：
+
+- `frames/`：首帧、尾帧、故事板图等图片产物。
+- `output/`：视频 API 任务提交、返回结果、生成视频等产物。
 
 ## `episode.md`
 
-Use these sections:
+使用这些章节：
 
-- Title: `# EPXXX 标题`
+- 标题：`# EPXXX 标题`
 - `## 基本信息`
+- `## 必读故事资料`
 - `## 出场角色`
 - `## 剧情梗概`
 - `## 情绪曲线`
@@ -31,22 +53,23 @@ Use these sections:
 
 ## `continuity.md`
 
-Use these sections:
+使用这些章节：
 
-- Title: `# EPXXX 连续性表`
+- 标题：`# EPXXX 连续性表`
 - `## 上一集承接`
 - `## 本集固定状态`
 - `## 人物连续性`
+- `## 场景与道具连续性`
 - `## 分段桥接`
 - `## 禁止偏差`
 
-Always include the sentence that the double-hero final reference image has highest priority.
+如果 story 有固定参考图、人脸锁或风格锁，必须写入连续性表。
 
 ## `overview-storyboard.md`
 
-Use these sections:
+使用这些章节：
 
-- Title: `# EPXXX 60秒概述故事板：标题`
+- 标题：`# EPXXX 60秒概述故事板`
 - `## 本集一句话`
 - `## 总体节奏`
 - `## 总览表`
@@ -57,44 +80,103 @@ Use these sections:
 
 ## Segment `storyboard.md`
 
-Use these sections:
+使用这些章节：
 
-- Title: `# Segment XX 故事板：段落标题`
+- 标题：`# Segment XX 故事板`
 - `## 分段信息`
-- Shot table with columns: `镜头 | 时间 | 画面内容 | 运镜方式 | 台词 | 音效`
+- 镜头表字段：`镜头 | 时间 | 画面内容 | 运镜方式 | 台词 | 音效`
 - `## 首帧要求`
 - `## 尾帧要求`
-- `## 优化后提示词`
+- `## 优化后视频提示词`
 - `## 连续性检查`
+
+## Segment `first-frame.md`
+
+按这个顺序写：
+
+1. 所属 story、集数、分段。
+2. 首帧画面精确描述。
+3. 角色锁定和可见状态。
+4. 场景、道具、特效、光线、构图、镜头。
+5. 与上一段尾帧的继承关系。
+6. 负面提示词。
+
+## Segment `last-frame.md`
+
+按这个顺序写：
+
+1. 所属 story、集数、分段。
+2. 尾帧画面精确描述。
+3. 角色锁定和可见状态。
+4. 场景、道具、特效、光线、构图、镜头。
+5. 给下一段首帧继承的画面状态。
+6. 负面提示词。
 
 ## Segment `prompt.md`
 
-Use this order:
+按这个顺序写，方便后续视频 API / 图生视频工具使用：
 
-1. Video spec: 9:16, duration, style, live-action quality, lighting, resolution.
-2. Character locks and reference image instructions.
-3. Narrative action and camera movement.
-4. Dialogue.
-5. Sound design.
-6. Negative prompt.
+1. 视频规格：9:16、时长 15 秒以内、风格、清晰度、运动质量。
+2. 角色锁定和 story 参考。
+3. 叙事动作和运镜。
+4. 台词。
+5. 音效。
+6. 负面提示词。
 
-## Naming
+## Segment `api-request.md`
 
-- Use `EP003_short-english-slug` for new episode directories.
-- Use Chinese titles inside content.
-- Keep segment directory names fixed:
+使用这些章节：
+
+- 标题：`# Segment XX 视频 API 请求`
+- `## 任务信息`
+- `## 输入文件`
+- `## 请求参数`
+- `## 提交记录`
+- `## 返回记录`
+- `## 失败原因与重试策略`
+
+## `qa-checklist.md`
+
+必须检查：
+
+- 剧情与留存。
+- 四段结构。
+- 首尾帧连续性。
+- 视频 API 可提交性。
+- story 资产引用。
+- 发布包装。
+
+## `publish-package.md`
+
+必须包含：
+
+- 3 个标题候选。
+- 封面画面建议。
+- 封面大字。
+- 抖音简介。
+- 评论区引导。
+- 标签方向。
+- 适合二次切片的瞬间。
+
+## 命名
+
+- 新 episode 目录使用 `EPXXX_short-english-slug`。
+- segment 目录固定：
   - `segment_01_00-15s`
   - `segment_02_15-30s`
   - `segment_03_30-45s`
   - `segment_04_45-60s`
 
-## Director Checklist
+## 导演检查清单
 
-- Does the opening connect to the previous hook?
-- Does the first 5 seconds create pressure or curiosity?
-- Is there one unmistakable payoff or reversal?
-- Does the final shot force the next episode?
-- Are all faces locked to reference images?
-- Are all props and scene cards used consistently?
-- Can each segment be generated independently with first/last frames?
-- Are negative prompts specific enough to prevent face drift, style drift, and video artifacts?
+- 开头是否承接上一集钩子或剧本开场。
+- 前 5 秒是否有压力、情绪或好奇点。
+- 本集是否有清晰爽点、揭示、反转或情绪爆发。
+- 最后一个镜头是否强迫观众想看下一集。
+- 是否明确引用 story 的角色锁、场景锁、道具锁。
+- 每段是否都有故事板、首帧、尾帧和视频 prompt。
+- 每段是否能独立交给视频 API 生成。
+- 是否有 API 任务记录位置。
+- 是否有标题、封面、评论引导和标签。
+- 首尾帧是否能连续剪辑。
+- 负面提示词是否足够防止人脸漂移、风格漂移和视频伪影。

@@ -2,11 +2,11 @@
 
 ## 基本信息
 
-- Story ID：
+- Story ID：twin-dawn
 - 时长：60 秒。
 - 画幅：9:16 竖屏。
 - 分段：4 段，每段 15 秒以内。
-- 目标观众：
+- 目标观众：末日重生、双女主、囤货爽文、异能升级受众。
 - 本集任务：
 - 本集冲突：
 - 本集爽点/揭示：
@@ -16,8 +16,10 @@
 
 ## 必读故事资料
 
-- 故事记忆：
-- 生产规则：
+- 故事记忆：`docs/story-memory.md`
+- 生产规则：`docs/production-rules.md`
+- 受众策略：`docs/audience-strategy.md`
+- 长线规划：`docs/season-arc.md`
 - 上一集：
 - 角色资产：
 - 场景资产：
@@ -26,8 +28,9 @@
 
 ## 出场角色
 
-- `CHARACTER_ID`：
-- `CHARACTER_ID`：
+- `LIN_WAN_001`：
+- `SHEN_QINGXUE_001`：
+- `GU_JINGCHEN_001`：
 
 ## 剧情梗概
 

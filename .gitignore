@@ -1,1 +1,8 @@
-/.idea/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Video/API generation outputs are local run artifacts and may contain signed
+# URLs, task metadata, or provider-side identifiers.
+**/output/*
+!**/output/.gitkeep

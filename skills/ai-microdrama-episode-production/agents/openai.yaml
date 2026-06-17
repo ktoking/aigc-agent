@@ -1,7 +1,7 @@
 interface:
-  display_name: "AI Microdrama Episodes"
-  short_description: "Create structured AI drama episodes"
-  default_prompt: "Use $ai-microdrama-episode-production to generate the next structured episode package."
+  display_name: "AI 短剧剧集生产"
+  short_description: "从 story 包生成一集四段的 AI 短剧生产文件"
+  default_prompt: "使用 $ai-microdrama-episode-production，基于 stories/<story-id> 生成下一集结构化剧集包。"
 
 policy:
   allow_implicit_invocation: true
