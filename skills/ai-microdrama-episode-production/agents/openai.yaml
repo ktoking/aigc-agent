@@ -1,7 +1,7 @@
 interface:
   display_name: "AI 短剧剧集生产"
-  short_description: "从 story 包生成一集四段的 AI 短剧生产文件"
-  default_prompt: "使用 $ai-microdrama-episode-production，基于 stories/<story-id> 生成下一集结构化剧集包。"
+  short_description: "生成剧集包并整理校验首尾帧资产"
+  default_prompt: "使用 $ai-microdrama-episode-production，基于 stories/<story-id> 生成或整理一集结构化短剧包，并校验首尾帧图片。"
 
 policy:
   allow_implicit_invocation: true

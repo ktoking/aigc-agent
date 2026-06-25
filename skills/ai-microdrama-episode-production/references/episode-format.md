@@ -2,7 +2,7 @@
 
 ## 必须创建的文件
 
-默认每集创建这些叙事文件：
+默认每集创建这些叙事文件。除非 story 规则明确要求扩展，否则使用 4 段；如果扩展为样片或长集，按同一文件结构复制到所有 segment。
 
 - `episode.md`
 - `continuity.md`
@@ -35,6 +35,13 @@
 
 - `frames/`：首帧、尾帧、故事板图等图片产物。
 - `output/`：视频 API 任务提交、返回结果、生成视频等产物。
+
+最终首尾帧标准命名：
+
+- `frames/first-frame.png`
+- `frames/last-frame.png`
+
+不要把未确认归属的候选图直接放成最终名。候选图可暂存到 `frames/archive/`、`output/` 或临时目录。
 
 ## `episode.md`
 
@@ -161,11 +168,18 @@
 ## 命名
 
 - 新 episode 目录使用 `EPXXX_short-english-slug`。
-- segment 目录固定：
+- 默认 60 秒 4 段时，segment 目录固定：
   - `segment_01_00-15s`
   - `segment_02_15-30s`
   - `segment_03_30-45s`
   - `segment_04_45-60s`
+- 如果 story 明确要求 2-3 分钟样片或长集，可以继续递增，例如：
+  - `segment_05_60-75s`
+  - `segment_06_75-90s`
+  - `segment_07_90-105s`
+  - `segment_08_105-120s`
+  - `segment_09_120-135s`
+  - `segment_10_135-150s`
 
 ## 导演检查清单
 
@@ -180,3 +194,5 @@
 - 是否有标题、封面、评论引导和标签。
 - 首尾帧是否能连续剪辑。
 - 负面提示词是否足够防止人脸漂移、风格漂移和视频伪影。
+- 最终图片是否已运行 `scripts/verify_episode_frames.py`。
+- 是否打开最终 contact sheet 做视觉检查。

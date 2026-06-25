@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance 视频生成"
+  short_description: "从 story segment 生成火山 Seedance 视频"
+  default_prompt: "使用 $seedance-video-generation 为指定 story segment 生成 15 秒竖屏视频。"
+
+policy:
+  allow_implicit_invocation: true

@@ -6,3 +6,8 @@ __pycache__/
 # URLs, task metadata, or provider-side identifiers.
 **/output/*
 !**/output/.gitkeep
+
+# Provider submission payloads and hosted-asset manifests may contain access
+# keys, signed URLs, task identifiers, or other provider-side credentials.
+**/*-submit.json
+**/trusted-assets.json

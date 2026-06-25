@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <marker id="ffb14a" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M 0 0 L 14 7 L 0 14 z" fill="#ffb14a"/></marker><marker id="e94b4b" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M 0 0 L 14 7 L 0 14 z" fill="#e94b4b"/></marker><marker id="77ddff" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M 0 0 L 14 7 L 0 14 z" fill="#77ddff"/></marker><marker id="d8f0ff" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M 0 0 L 14 7 L 0 14 z" fill="#d8f0ff"/></marker><marker id="8899aa" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M 0 0 L 14 7 L 0 14 z" fill="#8899aa"/></marker>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <style>
+      .title { font: 700 42px "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+      .label { font: 600 28px "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+      .note { font: 500 27px "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+      .small { font: 500 23px "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+    </style>
+  </defs>
+  <rect width="1672" height="941" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1564" height="832" rx="28" fill="#0d1523" stroke="#2c3a4f" stroke-width="2"/>
+  <text x="92" y="124" class="title" fill="#f7fbff">Segment 05 动作指导：偏离最短路线躲避火力</text>
+  <text x="92" y="168" class="small" fill="#93a7bd">用途：动作指导建议图，不作为视频首帧或尾帧；用于稳定 15 秒内的运动方向、爆点和镜头调度。</text>
+  <rect x="92" y="205" width="1488" height="470" rx="18" fill="#101b2b" stroke="#26364c" stroke-width="2"/>
+  <line x1="150" y1="600" x2="1520" y2="600" stroke="#23354a" stroke-width="3" stroke-dasharray="16 16" opacity="0.8"/>
+  <text x="150" y="642" class="small" fill="#60758c">画面地面 / 行动平面</text>
+  
+    <line x1="300" y1="650" x2="760" y2="650" stroke="#e94b4b" stroke-width="8" stroke-linecap="round" marker-end="url(#e94b4b)" opacity="0.94"/>
+    <text x="530.0" y="636.0" class="label" text-anchor="middle" fill="#e94b4b">原路线被击中</text>
+    
+    <line x1="420" y1="650" x2="780" y2="430" stroke="#77ddff" stroke-width="8" stroke-linecap="round" marker-end="url(#77ddff)" opacity="0.94"/>
+    <text x="600.0" y="526.0" class="label" text-anchor="middle" fill="#77ddff">斜向躲避</text>
+    
+    <line x1="840" y1="400" x2="1030" y2="300" stroke="#d8f0ff" stroke-width="8" stroke-linecap="round" marker-end="url(#d8f0ff)" opacity="0.94"/>
+    <text x="935.0" y="336.0" class="label" text-anchor="middle" fill="#d8f0ff">餐箱投影</text>
+    
+  
+    <circle cx="420" cy="650" r="34" fill="#e94b4b" opacity="0.92"/>
+    <circle cx="420" cy="650" r="46" fill="none" stroke="#e94b4b" stroke-width="3" opacity="0.45"/>
+    <text x="420" y="720" class="label" text-anchor="middle" fill="#f5f7fb">原路线</text>
+    
+    <circle cx="760" cy="420" r="34" fill="#77ddff" opacity="0.92"/>
+    <circle cx="760" cy="420" r="46" fill="none" stroke="#77ddff" stroke-width="3" opacity="0.45"/>
+    <text x="760" y="490" class="label" text-anchor="middle" fill="#f5f7fb">新路线</text>
+    
+    <circle cx="780" cy="430" r="34" fill="#ffb14a" opacity="0.92"/>
+    <circle cx="780" cy="430" r="46" fill="none" stroke="#ffb14a" stroke-width="3" opacity="0.45"/>
+    <text x="780" y="500" class="label" text-anchor="middle" fill="#f5f7fb">小满抱箱</text>
+    
+    <circle cx="1030" cy="300" r="34" fill="#d8f0ff" opacity="0.92"/>
+    <circle cx="1030" cy="300" r="46" fill="none" stroke="#d8f0ff" stroke-width="3" opacity="0.45"/>
+    <text x="1030" y="370" class="label" text-anchor="middle" fill="#f5f7fb">记忆投影</text>
+    
+  <rect x="92" y="695" width="1488" height="150" rx="18" fill="#09111e" stroke="#26364c" stroke-width="2"/>
+  <text x="92" y="725" class="note" fill="#dce6f2">1. 地面导航线一分为二，小满选择斜向躲避路线</text><text x="92" y="767" class="note" fill="#dce6f2">2. 无人机激光打中原路线，爆点留在身后</text><text x="92" y="809" class="note" fill="#dce6f2">3. 餐箱投影生日蜡烛，动作段里埋情绪信息</text>
+</svg>

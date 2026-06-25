@@ -115,6 +115,14 @@ def image_part(path: Path) -> dict[str, Any]:
     }
 
 
+def image_url_part(url: str) -> dict[str, Any]:
+    return {
+        "type": "image_url",
+        "role": "reference_image",
+        "image_url": {"url": url},
+    }
+
+
 def load_prompt(segment_dir: Path, prompt_file: str | None, prompt_text: str | None) -> str:
     if prompt_text:
         return prompt_text.strip()
@@ -137,9 +145,10 @@ def default_image_paths(segment_dir: Path) -> list[Path]:
     return [p for p in candidates if p.exists()]
 
 
-def build_content(prompt: str, image_paths: list[Path]) -> list[dict[str, Any]]:
+def build_content(prompt: str, image_paths: list[Path], image_urls: list[str]) -> list[dict[str, Any]]:
     content: list[dict[str, Any]] = [{"type": "text", "text": prompt}]
     content.extend(image_part(path) for path in image_paths)
+    content.extend(image_url_part(url) for url in image_urls)
     return content
 
 
@@ -175,10 +184,12 @@ def write_api_request_md(
     segment_dir: Path,
     args: argparse.Namespace,
     image_paths: list[Path],
+    image_urls: list[str],
     task_id: str | None,
     status: str,
 ) -> None:
     rel_images = "\n".join(f"- {p}" for p in image_paths) or "- 无"
+    rel_image_urls = "\n".join(f"- 平台信任 URL {idx}（已脱敏）" for idx, _ in enumerate(image_urls, start=1)) or "- 无"
     path = segment_dir / "api-request.md"
     path.write_text(
         f"""# Segment 视频 API 请求
@@ -198,8 +209,10 @@ def write_api_request_md(
 ## 输入文件
 
 - Prompt：{args.prompt_file or segment_dir / "prompt.md"}
-- 参考图：
+- 本地参考图：
 {rel_images}
+- 平台信任参考图 URL：
+{rel_image_urls}
 
 ## 请求参数
 
@@ -238,6 +251,7 @@ def submit(args: argparse.Namespace) -> int:
 
     prompt = load_prompt(segment_dir, args.prompt_file, args.prompt_text)
     image_paths = [Path(p).resolve() for p in args.image]
+    image_urls = [url.strip() for url in args.image_url if url.strip()]
     if not image_paths and args.auto_images:
         image_paths = [p.resolve() for p in default_image_paths(segment_dir)]
     missing_images = [p for p in image_paths if not p.exists()]
@@ -250,7 +264,7 @@ def submit(args: argparse.Namespace) -> int:
         dry_prompt = with_virtual_person_notice(prompt) if args.virtual_person_notice else prompt
         payload: dict[str, Any] = {
             "model": args.model,
-            "content": build_content(dry_prompt, image_paths),
+            "content": build_content(dry_prompt, image_paths, image_urls),
             "duration": args.duration,
             "ratio": args.ratio,
             "resolution": args.resolution,
@@ -260,16 +274,22 @@ def submit(args: argparse.Namespace) -> int:
         if args.seed is not None:
             payload["seed"] = args.seed
         redacted = dict(payload)
-        redacted["content"] = [
-            part
-            if part.get("type") == "text"
-            else {
+        redacted["content"] = []
+        for part in payload["content"]:
+            if part.get("type") == "text":
+                redacted["content"].append(part)
+            elif str(part.get("image_url", {}).get("url", "")).startswith("data:"):
+                redacted["content"].append({
                 "type": "image_url",
                 "role": part.get("role", "reference_image"),
                 "image_url": {"url": "<base64-redacted>"},
-            }
-            for part in payload["content"]
-        ]
+                })
+            else:
+                redacted["content"].append({
+                    "type": "image_url",
+                    "role": part.get("role", "reference_image"),
+                    "image_url": {"url": "<url-redacted>"},
+                })
         print(json.dumps(redacted, ensure_ascii=False, indent=2))
         return 0
 
@@ -284,7 +304,7 @@ def submit(args: argparse.Namespace) -> int:
     for attempt, attempt_prompt in enumerate(prompt_attempts, start=1):
         payload = {
             "model": args.model,
-            "content": build_content(attempt_prompt, image_paths),
+            "content": build_content(attempt_prompt, image_paths, image_urls),
             "duration": args.duration,
             "ratio": args.ratio,
             "resolution": args.resolution,
@@ -319,6 +339,7 @@ def submit(args: argparse.Namespace) -> int:
         segment_dir,
         args,
         image_paths,
+        image_urls,
         task_id,
         "submitted" if task_id else f"http-{final_status_code}",
     )
@@ -415,6 +436,7 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p.add_argument("--prompt-file")
     submit_p.add_argument("--prompt-text")
     submit_p.add_argument("--image", action="append", default=[], help="Reference image path; repeatable.")
+    submit_p.add_argument("--image-url", action="append", default=[], help="Reference image URL; repeatable.")
     submit_p.add_argument("--no-auto-images", dest="auto_images", action="store_false")
     submit_p.add_argument("--require-images", action="store_true")
     submit_p.add_argument("--duration", type=int, default=15)
@@ -426,7 +448,7 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p.add_argument("--no-poll", action="store_true")
     submit_p.add_argument("--dry-run", action="store_true")
     submit_p.add_argument("--virtual-person-notice", action=argparse.BooleanOptionalAction, default=True)
-    submit_p.add_argument("--privacy-retry", type=int, default=2)
+    submit_p.add_argument("--privacy-retry", type=int, default=0)
     submit_p.set_defaults(func=submit)
 
     poll_p = sub.add_parser("poll", help="Poll an existing task and download the result.")

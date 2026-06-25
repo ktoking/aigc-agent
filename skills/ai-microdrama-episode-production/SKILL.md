@@ -1,15 +1,23 @@
 ---
 name: ai-microdrama-episode-production
-description: 生成或更新 AI 短剧 / AI 漫剧的结构化剧集。适用于创建新 story、分析新剧本、继续生成下一集、生成 episode.md/continuity.md/overview-storyboard.md/segment 文件、保持角色资产、首尾帧和视频 API prompt 格式一致。
+description: 生成、更新、排查和交付 AI 短剧 / AI 漫剧的结构化 story 与 episode 包。适用于创建新 story、分析新剧本、继续生成下一集、生成 episode.md/continuity.md/overview-storyboard.md/segment 文件、生成或整理首尾帧图片、从 Codex 会话记录找回已生成图片、把 first-frame.png/last-frame.png 放入各 segment 的 frames/、校验最终图片完整性、保持角色资产和视频 API prompt 格式一致。
 ---
 
 # AI 短剧剧集生产
 
 ## 目的
 
-这是仓库通用剧集生产 skill，必须适用于 `stories/<story-id>/` 下的任意剧本，而不是只服务某一个故事。
+这是仓库通用短剧制作 skill，必须适用于 `stories/<story-id>/` 下的任意剧本，而不是只服务某一个故事。
 
 默认输出语言为中文。文件名和目录名可以使用英文 slug，但剧集说明、故事板、首尾帧提示词、连续性检查、视频 prompt 主体都应使用中文。
+
+## 工作原则
+
+- 先读真实项目结构和 story 规则，再写内容或移动资产。
+- 不要把某个 story 的人物、世界观、脸部参考、视觉锁带到另一个 story。
+- 不要重复生成已经存在的图片；先查项目目录、临时目录、会话 JSONL、manifest，再决定是否缺图。
+- 图片、视频和脚本执行不接入 Skynet 统计流程；不要运行 `skynet gen`、`skynet fast`、`skynet test-code-gen`。
+- 任何“已完成”都必须有落地文件和校验结果支撑。
 
 ## 必须识别 Story Root
 
@@ -35,7 +43,7 @@ stories/<story-id>/
   templates/              # 可选
 ```
 
-## 必读上下文
+## 必读上下文与资源
 
 生成剧集前必须读取：
 
@@ -60,11 +68,16 @@ stories/<story-id>/
 19. 相关风格文件：story `assets/style/`
 20. Story `templates/`，如果存在；story-local templates 优先级高于根模板
 
+如果任务涉及首尾帧、图片已经生成但位置不明、图片落位、视频 API handoff 或最终交付校验，必须读取：
+
+- `references/frame-asset-workflow.md`
+- `references/production-playbook.md`
+
 不要把一个 story 的人物、人脸锁、世界观或剧情设定带到另一个 story。
 
 ## 默认剧集规格
 
-除非用户明确要求改格式，所有 story 的 episodes 都按 `twin-dawn` 当前格式生成：
+除非用户或 story 规则明确要求改格式，默认按仓库标准生成：
 
 - 一集 60 秒。
 - 一集拆成 4 段。
@@ -75,6 +88,8 @@ stories/<story-id>/
 - 每段可独立生成，但首尾帧要能连续剪辑。
 - 每段推荐生成 `api-request.md`，用于记录视频 API 参数、提交返回和重试策略。
 - 每集推荐生成 `qa-checklist.md` 和 `publish-package.md`，用于质检和发布包装。
+
+如果 story 明确要求样片、横屏或长集，可以扩展为更多 segment，例如 10 段、150 秒、16:9 横屏样片。扩展时仍然必须保持每段有 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`、`api-request.md`、`frames/`、`output/`，并按真实时间段命名。
 
 默认目录：
 
@@ -117,6 +132,16 @@ episodes/EPXXX_slug/
     output/
 ```
 
+扩展剧集目录示例：
+
+```text
+episodes/SF001_slug/
+  segment_01_00-15s/
+  segment_02_15-30s/
+  ...
+  segment_10_135-150s/
+```
+
 ## 生产规则
 
 - 保持每段一个清晰戏剧功能。
@@ -130,6 +155,7 @@ episodes/EPXXX_slug/
   - Segment 02 首帧继承 Segment 01 尾帧。
   - Segment 03 首帧继承 Segment 02 尾帧。
   - Segment 04 首帧继承 Segment 03 尾帧。
+  - 扩展到更多 segment 时，按编号持续继承。
   - 如果必须跳切，必须写清楚可见转场。
 
 ## 剧集设计模式
@@ -155,7 +181,13 @@ episodes/EPXXX_slug/
    - 四段 `last-frame.md`
    - 四段 `prompt.md`
    - 四段 `api-request.md`，推荐生成
-7. **自检**：
+7. **首尾帧生产与落位**：
+   - 先写清每段 `first-frame.md` 和 `last-frame.md`，再生成或整理图片。
+   - 每张图必须引用 story 的角色锁、场景锁、道具锁、风格锁和负面提示词。
+   - 已生成图片优先找回和归档，不要重复生成。
+   - 标准落位为 `segment_XX_*/frames/first-frame.png` 和 `segment_XX_*/frames/last-frame.png`。
+   - 若有修正版，使用最新明确修正版覆盖旧版，并在 manifest 或工作记录里保留来源。
+8. **最终自检**：
    - 是否引用 story 资料。
    - 是否明确角色和资产锁定。
    - 每段是否都有故事板、首帧、尾帧、视频 prompt。
@@ -163,6 +195,7 @@ episodes/EPXXX_slug/
    - 是否生成视频 API 任务记录位置。
    - 是否生成发布包装。
    - 结尾钩子是否自然推动下一集。
+   - 是否运行首尾帧校验脚本并查看最终拼图或缩略图预览。
 
 ## 新剧本分析模式
 
@@ -193,6 +226,8 @@ episodes/EPXXX_slug/
 - 负面提示词。
 - 至少 3 个发布标题候选。
 - 视频 API 任务记录位置。
+- 首尾帧图片落在对应 `frames/` 目录。
+- 最终图片校验结果，包括数量、尺寸、hash 和视觉预览。
 
 ## 题材通用原则
 
@@ -200,4 +235,9 @@ episodes/EPXXX_slug/
 - AI 漫剧生产应保持资产优先：角色 -> 场景 -> 故事板 -> 首尾帧 -> 视频。
 - 题材规则属于 story 包，不要在根 skill 中写死末日、恋爱、玄幻、喜剧等特定类型。
 
-输出格式和检查清单见 `references/episode-format.md`。
+## 可用脚本
+
+- `scripts/extract_session_images.py`：从 Codex JSONL 会话记录中解包 `image_generation_end` 的 base64 图片，按 revised prompt 推断 segment 和 first/last 类型。
+- `scripts/verify_episode_frames.py`：检查 episode 下每个 segment 是否有 `frames/first-frame.png` 和 `frames/last-frame.png`，输出尺寸、hash、缺失项，并可生成 contact sheet。
+
+输出格式见 `references/episode-format.md`。首尾帧资产流程见 `references/frame-asset-workflow.md`。制作方法论见 `references/production-playbook.md`。
