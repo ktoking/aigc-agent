@@ -5,6 +5,9 @@
 ## 当前 story
 
 - `twin-dawn/`：《末日重生：双生曙光 / 末日降临：我和闺蜜觉醒双SSS异能》
+- `last-mile-robot/`：《请不要攻击送餐机器人》
+- `robot-dream-ban/`：《机器人禁止做梦》
+- `hunt-yesterday-self/`：《猎杀昨日的我》
 
 ## 新增 story
 
