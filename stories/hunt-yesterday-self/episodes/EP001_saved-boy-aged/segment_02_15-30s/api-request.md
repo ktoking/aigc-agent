@@ -5,6 +5,10 @@
 - Segment：`02`
 - 画幅/时长：9:16 / 15 秒
 - 状态：未提交
-- 输入：本段首尾帧、prompt、上一段验收尾帧
+- 首帧：`frames/first-frame.png`
+- 尾帧：`frames/last-frame.png`
+- 故事板：`frames/storyboard-sheet.png`
+- Prompt：`prompt.md`
+- 输入策略：本段首帧与上一段验收尾帧为同一文件内容
 - 生成策略：优先以上一段成片末尾作为连续性参考
 - 本轮不记录 key、URL、任务 ID 或返回 JSON。

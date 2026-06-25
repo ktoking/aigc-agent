@@ -5,5 +5,9 @@
 - Segment：`04`
 - 画幅/时长：9:16 / 15 秒
 - 状态：未提交
-- 参考重点：裂面猎手、老年少年、破裂怀表、六块旧表
+- 首帧：`frames/first-frame.png`
+- 尾帧：`frames/last-frame.png`
+- 故事板：`frames/storyboard-sheet.png`
+- Prompt：`prompt.md`
+- 参考重点：裂面猎手、老年少年、破裂第七表、准确六块旧表
 - 本轮不写平台 key、签名 URL、任务 ID 或返回 JSON。

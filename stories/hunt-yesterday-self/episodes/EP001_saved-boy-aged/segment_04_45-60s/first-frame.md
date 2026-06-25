@@ -1,3 +1,8 @@
 # Segment 04 首帧提示词
 
 与 Segment 03 尾帧相同：裂面猎手露出与米拉相同的冷青右眼、旧铜耳坠和左手起势。怀表悬在两人之间，老年少年戴红围巾站在背景。镜头从近景开始缓慢拉开。
+
+## 最终图片
+
+- 路径：`frames/first-frame.png`
+- 来源：Segment 03 `frames/last-frame.png` 同源复制。
