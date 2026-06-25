@@ -92,3 +92,23 @@
 - [ ] **Step 2:** 运行脚本检查每段文档与目录；图片仅为概念资产时，不伪称首尾帧已交付。
 - [ ] **Step 3:** 运行 `git diff --check -- stories/hunt-yesterday-self docs/superpowers`。
 - [ ] **Step 4:** 扫描 `output/`、API key、提交返回和签名 URL，预期没有敏感产物。
+
+### Task 7: 建立制作级角色与战斗参考资产
+
+**Files:**
+- Create: `stories/hunt-yesterday-self/assets/asset-manifest.md`
+- Create: `stories/hunt-yesterday-self/assets/action-choreography/README.md`
+- Create: `stories/hunt-yesterday-self/assets/action-choreography/CHOREO_EP001_01_chase-and-miss.md`
+- Create: `stories/hunt-yesterday-self/assets/action-choreography/CHOREO_EP001_02_watch-defense.md`
+- Create: `stories/hunt-yesterday-self/assets/characters/HYS_MIRA_001/{01-face-reference,02-expression-sheet,03-360-turnaround,04-outfits,05-action-poses,06-negative-reference}/`
+- Create: `stories/hunt-yesterday-self/assets/characters/HYS_HUNTER_001/{01-face-reference,02-expression-sheet,03-360-turnaround,04-outfits,05-action-poses,06-negative-reference}/`
+- Create: `stories/hunt-yesterday-self/assets/characters/HYS_BOY_001/{01-face-reference,02-age-progression,03-outfits,04-action-poses,05-negative-reference}/`
+- Create: corresponding PNG reference sheets under the directories above.
+- Create: prop reference sheets and clock-city chase spatial reference.
+
+- [x] **Step 1:** 以现有米拉和猎手概念图为身份参考，生成两人的三视图、表情表和动作表。
+- [x] **Step 2:** 生成两张三拍式双人战斗编排图，锁定左右站位、持械手、攻防方向和结束状态。
+- [x] **Step 3:** 生成少年四阶段年龄渐变、怀表/时间刃比例和黑雨钟城追逐空间参考。
+- [x] **Step 4:** 在角色卡、道具卡和资产清单中登记文件、用途、引用顺序与禁止漂移项。
+- [x] **Step 5:** 用图像尺寸、hash 和人工预览检查所有新增图片；不把预览或生成中间产物提交到 `output/`。
+- [x] **Step 6:** 运行 `git diff --check`、敏感信息扫描和 `git status --ignored`，只提交 story 资产与文档。

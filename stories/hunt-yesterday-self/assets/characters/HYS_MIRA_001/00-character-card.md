@@ -19,6 +19,16 @@
 - 右手抓取栏杆、缆索或齿轮支点。
 - 战斗目标是逃脱，不主动追杀。
 
+## 制作参考优先级
+
+1. `mira-concept.png`：最高优先级身份与气质参考。
+2. `03-360-turnaround/mira-turnaround.png`：身体比例、服装正侧背结构。
+3. `01-face-reference/mira-face-reference.png`：脸型、异色右眼、耳坠和发型。
+4. `05-action-poses/mira-action-poses.png`：逃脱型动作语法。
+5. `02-expression-sheet/mira-expression-sheet.png`：无对白微表情。
+
+镜头生成时至少同时引用身份参考和当前镜头对应的结构/动作参考。
+
 ## 禁止变化
 
 长发、双眼同色、华丽礼服、重甲、枪械、甜美笑容、塑料皮肤、鳞片纹理。

@@ -18,6 +18,16 @@
 - 所有刺击避开米拉心脏、头部和颈部。
 - 动作精准、疲惫、克制。
 
+## 制作参考优先级
+
+1. `hunter-concept.png`：最高优先级身份、面具和长风衣参考。
+2. `03-360-turnaround/hunter-turnaround.png`：身体比例、服装和武器佩挂结构。
+3. `01-face-reference/hunter-mask-face-reference.png`：面具裂纹、右眼和半脸揭示范围。
+4. `05-action-poses/hunter-action-poses.png`：精准压制型动作语法。
+5. `02-expression-sheet/hunter-expression-sheet.png`：面具与露眼状态下的克制情绪。
+
+镜头生成时至少同时引用身份参考和当前镜头对应的结构/动作参考。
+
 ## 禁止变化
 
 邪恶笑容、嗜血表情、巨型镰刀、全身尖刺、怪物化、鱼鳞盔甲、网格皮肤。

@@ -15,3 +15,11 @@
 ## 剧情职责
 
 以身体变化证明怀表的真实代价。全程不说话，最后把怀表推回米拉手中。
+
+## 制作参考优先级
+
+1. `02-age-progression/boy-age-progression.png`：四阶段年龄变化与统一红围巾。
+2. `01-face-reference/boy-face-reference.png`：初始少年脸和发型。
+3. `03-outfits/boy-outfit-reference.png`：旧灰校服结构。
+
+年龄变化只改变皮肤、头发和体态，不改变服装、红围巾、人物身份和镜头站位。
