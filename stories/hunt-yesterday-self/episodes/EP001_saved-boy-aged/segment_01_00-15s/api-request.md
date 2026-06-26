@@ -14,7 +14,7 @@
 - 首帧：`frames/first-frame.png`
 - 尾帧：`frames/last-frame.png`
 - 故事板：`frames/storyboard-sheet.png`
-- Prompt：`prompt.md`
+- Prompt：`director-promt.txt`
 - 参考：米拉、猎手、黑雨钟城和追逐动作资产
 
 ## 请求参数

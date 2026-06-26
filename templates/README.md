@@ -17,6 +17,7 @@
 - `first-frame-template.md`：首帧提示词。
 - `last-frame-template.md`：尾帧提示词。
 - `prompt-template.md`：视频 API / 图生视频提示词。
+- `director-promt-template.txt`：视频 API 直投导演提示词模板，生成到每个 segment 的 `director-promt.txt`。
 - `api-request-template.md`：视频 API 请求记录。
 
 ## Story 初始化模板

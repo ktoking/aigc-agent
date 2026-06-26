@@ -16,7 +16,7 @@
 
 - 首帧：
 - 尾帧：
-- Prompt：
+- Prompt：`director-promt.txt`
 - 参考图：
 
 ## 请求参数

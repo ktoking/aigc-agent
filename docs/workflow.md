@@ -50,6 +50,7 @@ episodes/EPXXX_slug/
     first-frame.md
     last-frame.md
     prompt.md
+    director-promt.txt
     api-request.md
     frames/
     output/
@@ -58,6 +59,7 @@ episodes/EPXXX_slug/
     first-frame.md
     last-frame.md
     prompt.md
+    director-promt.txt
     frames/
     output/
   segment_03_30-45s/
@@ -65,6 +67,7 @@ episodes/EPXXX_slug/
     first-frame.md
     last-frame.md
     prompt.md
+    director-promt.txt
     frames/
     output/
   segment_04_45-60s/
@@ -72,6 +75,7 @@ episodes/EPXXX_slug/
     first-frame.md
     last-frame.md
     prompt.md
+    director-promt.txt
     frames/
     output/
 ```
@@ -85,6 +89,7 @@ episodes/EPXXX_slug/
 - 4 个 `first-frame.md`：每段首帧图提示词。
 - 4 个 `last-frame.md`：每段尾帧图提示词。
 - 4 个 `prompt.md`：可交给视频 API / 图生视频工具的完整视频提示词。
+- 4 个 `director-promt.txt`：可直接作为视频 API prompt-file 的纯文本导演提示词，沿用项目既有文件名拼写。
 - 4 个 `api-request.md`：推荐生成，记录视频 API 参数、提交记录、返回记录和重试策略。
 - `image-manifest.md`：可选但推荐，用于跟踪首尾帧、故事板图、封面、视频任务等生成产物。
 - `qa-checklist.md`：推荐生成，用于检查剧情、留存、连续性、视频 API 和发布项。
@@ -118,18 +123,19 @@ episodes/EPXXX_slug/
 7. 编写 `continuity.md`。
 8. 编写 4 段 `storyboard.md`。
 9. 编写 4 段 `first-frame.md` 和 `last-frame.md`。
-10. 编写 4 段 `prompt.md`，服务视频 API / 图生视频工具。
-11. 编写 4 段 `api-request.md`，预留 API 参数和提交记录。
-12. 编写 `qa-checklist.md` 和 `publish-package.md`。
-13. 做连续性和提示词质量检查。
-14. 外部生成图片和视频后，把产物放入对应 segment 的 `frames/` 和 `output/`。
+10. 编写 4 段 `prompt.md`，作为可读的完整视频提示词。
+11. 编写 4 段 `director-promt.txt`，作为视频 API 直投导演提示词。
+12. 编写 4 段 `api-request.md`，Prompt 默认指向 `director-promt.txt`，预留 API 参数和提交记录。
+13. 编写 `qa-checklist.md` 和 `publish-package.md`。
+14. 做连续性和提示词质量检查。
+15. 外部生成图片和视频后，把产物放入对应 segment 的 `frames/` 和 `output/`。
 
 ## 质量检查
 
 - 开头 5 秒是否有钩子。
 - 本集是否有明确冲突、情绪推进、爽点/揭示和结尾钩子。
 - 四段是否各自能独立交给视频 API 生成。
-- 每段是否都有故事板、首帧、尾帧、视频 prompt。
+- 每段是否都有故事板、首帧、尾帧、视频 prompt 和 `director-promt.txt`。
 - 首尾帧是否能自然桥接。
 - 角色、服装、发型、伤口、道具、光线、场景是否遵循 story 规则。
 - 负面提示词是否针对本剧本和视频模型的真实风险。

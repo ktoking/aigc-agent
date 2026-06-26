@@ -7,7 +7,7 @@ description: Use when generating, polling, downloading, retrying, or writing pro
 
 ## 目的
 
-用于把 `stories/<story-id>/episodes/<episode>/segment_XX_xx-xxs/` 里的首帧、尾帧、故事板文字、角色参考、背景/场景资产和 `prompt.md` 提交给火山 Ark Seedance，生成 15 秒竖屏短剧视频。
+用于把 `stories/<story-id>/episodes/<episode>/segment_XX_xx-xxs/` 里的首帧、尾帧、故事板文字、角色参考、背景/场景资产和 `director-promt.txt` 提交给火山 Ark Seedance，生成 15 秒竖屏短剧视频。若旧 segment 缺少 `director-promt.txt`，再回退使用 `prompt.md`。
 
 Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸一致性时，先用 Seedream 5.0 lite 文生图生成平台信任产物，再把 Seedream 返回的 URL 传给 Seedance。
 
@@ -29,7 +29,7 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 ## 生成前检查
 
 1. 确认 segment 目录存在。
-2. 读取 segment 的 `prompt.md`、`storyboard.md`、`first-frame.md`、`last-frame.md`。
+2. 读取 segment 的 `director-promt.txt`、`prompt.md`、`storyboard.md`、`first-frame.md`、`last-frame.md`。正式提交优先使用 `director-promt.txt`。
 3. 确认图片存在：
    - `frames/first-frame.png`
    - `frames/last-frame.png`
@@ -69,6 +69,8 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 ```
 
 ## 提示词写法
+
+项目中 `prompt.md` 是可读维护版视频提示词，`director-promt.txt` 是 API 直投版导演提示词。正式提交给 `scripts/ark_video.py --prompt-file` 时优先使用 `director-promt.txt`；文件名沿用项目既有拼写 `promt`。
 
 Seedance 2.0 支持文字、图片、音频、视频等多模态参考输入；提示词不要写成散文，要写成导演执行指令。官方和实践指南的共同结论是：参考素材负责“长相/构图/风格”，文本负责“动作/运镜/时间轴/约束”。
 
@@ -130,7 +132,7 @@ Seedance 2.0 支持文字、图片、音频、视频等多模态参考输入；�
 - 如果画面像静态拉伸，下一次减少参考图数量，并把动作、景别变化、镜头切换写进 prompt。
 - 如果没有声音，检查命令是否加了 `--generate-audio`；只在 prompt 写音效不会自动生成音频。
 
-短剧 prompt 模板：
+`director-promt.txt` 短剧模板：
 
 ```text
 9:16竖屏AI漫剧视频，时长15秒，720p，3D动画电影风，明显非真人。
@@ -193,7 +195,7 @@ python3 scripts/ark_video.py submit \
   --duration 15 \
   --ratio 9:16 \
   --resolution 720p \
-  --prompt-file /tmp/segment-video-prompt.txt \
+  --prompt-file stories/<story-id>/episodes/<episode>/segment_01_00-15s/director-promt.txt \
   --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/<style>/clean/character-turnaround.png \
   --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/<style>/clean/first-frame.png \
   --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/<style>/clean/last-frame.png \
@@ -210,7 +212,7 @@ python3 scripts/ark_video.py submit \
   --duration 15 \
   --ratio 9:16 \
   --resolution 720p \
-  --prompt-file /tmp/segment-video-prompt.txt \
+  --prompt-file stories/<story-id>/episodes/<episode>/segment_01_00-15s/director-promt.txt \
   --image <character-reference.png> \
   --image <first-frame.png> \
   --image <last-frame.png> \

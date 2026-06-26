@@ -123,10 +123,17 @@ def image_url_part(url: str) -> dict[str, Any]:
     }
 
 
+def default_prompt_path(segment_dir: Path) -> Path:
+    director_prompt = segment_dir / "director-promt.txt"
+    if director_prompt.exists():
+        return director_prompt
+    return segment_dir / "prompt.md"
+
+
 def load_prompt(segment_dir: Path, prompt_file: str | None, prompt_text: str | None) -> str:
     if prompt_text:
         return prompt_text.strip()
-    path = Path(prompt_file) if prompt_file else segment_dir / "prompt.md"
+    path = Path(prompt_file) if prompt_file else default_prompt_path(segment_dir)
     if not path.exists():
         raise ArkVideoError(f"prompt file not found: {path}")
     text = path.read_text(encoding="utf-8").strip()
@@ -188,6 +195,7 @@ def write_api_request_md(
     task_id: str | None,
     status: str,
 ) -> None:
+    prompt_path = Path(args.prompt_file) if args.prompt_file else default_prompt_path(segment_dir)
     rel_images = "\n".join(f"- {p}" for p in image_paths) or "- 无"
     rel_image_urls = "\n".join(f"- 平台信任 URL {idx}（已脱敏）" for idx, _ in enumerate(image_urls, start=1)) or "- 无"
     path = segment_dir / "api-request.md"
@@ -208,7 +216,7 @@ def write_api_request_md(
 
 ## 输入文件
 
-- Prompt：{args.prompt_file or segment_dir / "prompt.md"}
+- Prompt：{prompt_path}
 - 本地参考图：
 {rel_images}
 - 平台信任参考图 URL：
@@ -433,7 +441,7 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p = sub.add_parser("submit", help="Submit a new video task and optionally poll/download.")
     common(submit_p)
     submit_p.add_argument("--episode", default="")
-    submit_p.add_argument("--prompt-file")
+    submit_p.add_argument("--prompt-file", help="Prompt file. Defaults to director-promt.txt if present, otherwise prompt.md.")
     submit_p.add_argument("--prompt-text")
     submit_p.add_argument("--image", action="append", default=[], help="Reference image path; repeatable.")
     submit_p.add_argument("--image-url", action="append", default=[], help="Reference image URL; repeatable.")

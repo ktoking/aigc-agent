@@ -1,6 +1,6 @@
 # Ark 视频脚本使用说明
 
-`scripts/ark_video.py` 用于把每个 segment 的 `prompt.md`、首帧、尾帧和故事板图提交给火山 Ark / Seedance，并在本地静默轮询、下载结果，避免 Codex 对话里出现大量轮询 JSON。
+`scripts/ark_video.py` 用于把每个 segment 的 `director-promt.txt`、首帧、尾帧和故事板图提交给火山 Ark / Seedance，并在本地静默轮询、下载结果，避免 Codex 对话里出现大量轮询 JSON。若 `director-promt.txt` 不存在，脚本回退读取 `prompt.md`。
 
 `scripts/ark_image.py` 用于通过 Seedream 5.0 lite 文生图生成平台信任图片资产。Seedance 2.0 / 2.0 Fast 不要直接上传本地含人脸参考图；需要人脸连续性时，先生成 Seedream 信任图，再把返回 URL 传给 Seedance。
 
@@ -40,9 +40,13 @@ python scripts/ark_video.py submit \
   --quiet
 ```
 
+没有显式 `--prompt-file` 时，默认优先读取：
+
+- `director-promt.txt`
+- 如果缺失，再回退 `prompt.md`
+
 没有显式 `--image-url` 或 `--image` 时，默认会自动读取本地图片：
 
-- `prompt.md`
 - `frames/first-frame.png`
 - `frames/last-frame.png`
 - `frames/storyboard-sheet.png` 或 `frames/storyboard.png`

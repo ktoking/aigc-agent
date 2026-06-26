@@ -47,7 +47,9 @@
 
 -
 
-## 可直接复制的视频 Prompt
+## 视频 Prompt 摘要
+
+本文件用于人审阅和维护完整视频提示词；视频 API 直投版本请同步生成 `director-promt.txt`。
 
 ```text
 

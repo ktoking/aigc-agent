@@ -68,8 +68,8 @@ stories/<story-id>/
 - 一集 4 段。
 - 每段 15 秒以内。
 - 9:16 竖屏。
-- 每段包含 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`。
-- 每段可独立交给视频 API 生成。
+- 每段包含 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`、`director-promt.txt`。
+- 每段可独立交给视频 API 生成，视频 API 默认读取 `director-promt.txt`。
 - 首尾帧必须能连续剪辑。
 
 ## Episode 目录契约
@@ -87,6 +87,7 @@ episodes/EPXXX_slug/
     first-frame.md
     last-frame.md
     prompt.md
+    director-promt.txt
     api-request.md
     frames/
     output/
@@ -95,7 +96,7 @@ episodes/EPXXX_slug/
   segment_04_45-60s/
 ```
 
-其中 `api-request.md`、`qa-checklist.md`、`publish-package.md` 是推荐增强文件。已有旧剧集可以不补齐，但新剧集应优先生成。
+其中 `api-request.md`、`qa-checklist.md`、`publish-package.md` 是推荐增强文件。`director-promt.txt` 是新剧集必备的 API 直投提示词文件；已有旧剧集可以不补齐，但新剧集应优先生成。
 
 ## 生成前检查
 

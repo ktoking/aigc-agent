@@ -9,6 +9,7 @@
 - [ ] 每段都有 `first-frame.md`。
 - [ ] 每段都有 `last-frame.md`。
 - [ ] 每段都有 `prompt.md`。
+- [ ] 每段都有 `director-promt.txt`。
 - [ ] 每段都有 `frames/` 和 `output/`。
 - [ ] 推荐补齐 `api-request.md`。
 
@@ -48,6 +49,8 @@
 - [ ] `prompt.md` 包含运镜。
 - [ ] `prompt.md` 包含台词和音效。
 - [ ] `prompt.md` 包含负面提示词。
+- [ ] `director-promt.txt` 能直接作为视频 API prompt-file 使用。
+- [ ] `director-promt.txt` 包含参考图用途、角色锁、逐秒动作因果、声音和禁止项。
 - [ ] `api-request.md` 或 `output/` 中预留任务记录。
 
 ## 资产检查

@@ -78,4 +78,5 @@
 - 4 段 `first-frame.md`
 - 4 段 `last-frame.md`
 - 4 段 `prompt.md`
+- 4 段 `director-promt.txt`
 - 可选但推荐：`api-request.md`、`publish-package.md`、`qa-checklist.md`

@@ -19,8 +19,8 @@
 - 一集 60 秒。
 - 一集拆成 4 段。
 - 每段 15 秒以内。
-- 每段必须有 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`。
-- 每段 prompt 必须能直接交给视频 API / 图生视频工具。
+- 每段必须有 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`、`director-promt.txt`。
+- `prompt.md` 是可读的完整视频提示词；`director-promt.txt` 是能直接交给视频 API / 图生视频工具的纯文本导演提示词。
 - 每集推荐生成 `qa-checklist.md` 和 `publish-package.md`。
 
 ## 本剧本核心锁定

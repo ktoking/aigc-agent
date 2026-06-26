@@ -1,0 +1,19 @@
+9:16 竖屏 AI 漫剧视频，时长 15 秒，720p，STYLE_DESCRIPTION，明显非真人。生成一段连续短剧视频，不是几张独立图片；以下时间为本 15 秒视频内相对时间，镜头自然衔接，不做静态拉图。
+
+参考图用途：首帧锁定 0 秒开场构图和人物站位；尾帧锁定 15 秒结束构图和下一段承接状态；角色参考锁定人物外貌、服装和关键标记；场景参考锁定地点、天气、光线和色调。不要把故事板表格当成视频画面拉伸。
+
+角色锁定：CHARACTER_A_LOCK。CHARACTER_B_LOCK。关键道具：PROP_LOCK。禁止变脸、换发型、换服装、添加多余角色或道具。
+
+本段戏剧任务：SEGMENT_DRAMATIC_TASK。
+
+0-3 秒：第 0-1 秒 START_BEAT；第 1-2 秒 THREAT_OR_ACTION_SETUP；第 2-3 秒 HIT_OR_REACTION。运镜：CAMERA_0_3，必须看清 ACTION_CAUSALITY_0_3。
+
+3-7 秒：第 3-4 秒 BEAT_3_4；第 4-5 秒 BEAT_4_5；第 5-6 秒 BEAT_5_6；第 6-7 秒 BEAT_6_7。运镜：CAMERA_3_7，主体、威胁源和命中点/受力点要连续可读。
+
+7-11 秒：第 7-8 秒 BEAT_7_8；第 8-9 秒 BEAT_8_9；第 9-10 秒 BEAT_9_10；第 10-11 秒 BEAT_10_11。运镜：CAMERA_7_11，不要让动作无原因停止。
+
+11-15 秒：第 11-12 秒 BEAT_11_12；第 12-13 秒 BEAT_12_13；第 13-14 秒 BEAT_13_14；第 14-15 秒 BEAT_14_15，准确进入尾帧并保留下一段承接状态。运镜：CAMERA_11_15，最后 1 秒保持构图稳定。
+
+声音：SOUND_DESIGN。对白如有，必须短促且有动作触发条件；无对白时明确无对白、无旁白。
+
+禁止：字幕、水印、logo、可读文字；静态图片变形过渡、PPT 拉图、突然换场、角色瞬移、角色变脸、换发型、换服装；STORY_SPECIFIC_NEGATIVE。Avoid fish scale texture, grid patterns, plastic skin, grid-like artifacts, aliasing, over-processed appearance, visible grains, repetitive scales, plastic texture, moire, crunchy outlines and excessive sharpening. Smooth even skin texture, soft lighting transitions, uniform matte surfaces.

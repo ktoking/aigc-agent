@@ -24,6 +24,7 @@ episodes/EPXXX_slug/
     first-frame.md
     last-frame.md
     prompt.md
+    director-promt.txt
     api-request.md
     frames/
     output/
@@ -49,8 +50,9 @@ episodes/EPXXX_slug/
 6. 写 4 段 `storyboard.md`。
 7. 写 4 段 `first-frame.md` 和 `last-frame.md`。
 8. 写 4 段 `prompt.md`。
-9. 写 4 段 `api-request.md`。
-10. 写 `qa-checklist.md` 和 `publish-package.md`。
+9. 写 4 段 `director-promt.txt`，用于视频 API 直投。
+10. 写 4 段 `api-request.md`，Prompt 默认指向 `director-promt.txt`。
+11. 写 `qa-checklist.md` 和 `publish-package.md`。
 
 ## 质量检查
 

@@ -14,21 +14,25 @@
 - `segment_01_00-15s/first-frame.md`
 - `segment_01_00-15s/last-frame.md`
 - `segment_01_00-15s/prompt.md`
+- `segment_01_00-15s/director-promt.txt`
 - `segment_01_00-15s/api-request.md`，推荐用于视频 API 任务记录
 - `segment_02_15-30s/storyboard.md`
 - `segment_02_15-30s/first-frame.md`
 - `segment_02_15-30s/last-frame.md`
 - `segment_02_15-30s/prompt.md`
+- `segment_02_15-30s/director-promt.txt`
 - `segment_02_15-30s/api-request.md`
 - `segment_03_30-45s/storyboard.md`
 - `segment_03_30-45s/first-frame.md`
 - `segment_03_30-45s/last-frame.md`
 - `segment_03_30-45s/prompt.md`
+- `segment_03_30-45s/director-promt.txt`
 - `segment_03_30-45s/api-request.md`
 - `segment_04_45-60s/storyboard.md`
 - `segment_04_45-60s/first-frame.md`
 - `segment_04_45-60s/last-frame.md`
 - `segment_04_45-60s/prompt.md`
+- `segment_04_45-60s/director-promt.txt`
 - `segment_04_45-60s/api-request.md`
 
 每个 segment 目录还应包含：
@@ -129,6 +133,20 @@
 4. 台词。
 5. 音效。
 6. 负面提示词。
+
+## Segment `director-promt.txt`
+
+这是视频 API 直投提示词，沿用项目既有文件名拼写 `director-promt.txt`。内容应是纯文本导演执行指令，不要写成 Markdown 报告，也不要包含 key、URL、任务 ID 或 output 产物信息。
+
+按这个顺序写：
+
+1. 全局规格：9:16、15 秒、720p、风格、明显非真人、是否生成声音。
+2. 参考图用途：首帧锁什么、尾帧锁什么、角色/场景参考锁什么、不要把故事板表格拉成视频。
+3. 角色锁定：角色 ID 或角色名、发型、服装、关键标记、禁止变化项。
+4. 本段戏剧任务：本 15 秒要让观众看懂的一个核心问题。
+5. 逐秒动作因果：0-3 秒、3-7 秒、7-11 秒、11-15 秒，每块写清动作、命中点/受力点、路径和运镜。
+6. 声音：无对白/有对白、环境声、动作声、台词落点。
+7. 禁止项：字幕、水印、logo、静态拉图、角色漂移、场景跳变、故事专属禁忌和画质负面词。
 
 ## Segment `api-request.md`
 

@@ -20,14 +20,15 @@ segment_XX_xx-xxs/
   first-frame.md
   last-frame.md
   prompt.md
+  director-promt.txt
   api-request.md
   frames/
   output/
 ```
 
-## `prompt.md` 内容
+## `prompt.md` 与 `director-promt.txt` 内容
 
-`prompt.md` 是给视频模型的主提示词，必须包含：
+`prompt.md` 是给人审阅和维护的完整视频提示词，必须包含：
 
 - 视频规格：9:16、15 秒以内、清晰度、真实/漫剧风格。
 - 首帧引用：说明从 `first-frame.md` 生成或导入。
@@ -38,6 +39,15 @@ segment_XX_xx-xxs/
 - 运镜方式：推、拉、摇、移、跟、特写、过肩等。
 - 台词和音效。
 - 负面提示词。
+
+`director-promt.txt` 是给视频 API 直投的纯文本导演提示词，沿用项目既有文件名拼写。它应从 `prompt.md` 提炼而来，但更适合 `scripts/ark_video.py --prompt-file` 直接读取：
+
+- 第一行写清 9:16、15 秒、720p、风格、明显非真人。
+- 写清首帧、尾帧、角色参考、场景参考各自负责锁定什么。
+- 写清角色锁、道具锁、禁止变化项。
+- 用 0-3 秒、3-7 秒、7-11 秒、11-15 秒写逐秒动作因果、命中点/受力点、路径和运镜。
+- 写清声音/对白策略。
+- 写清负面约束；不得包含 key、URL、任务 ID、签名链接或 output 返回内容。
 
 ## `api-request.md` 内容
 
@@ -62,7 +72,7 @@ segment_XX_xx-xxs/
 
 - 首帧:
 - 尾帧:
-- Prompt:
+- Prompt: `director-promt.txt`
 - 参考图:
 
 ## 请求参数
