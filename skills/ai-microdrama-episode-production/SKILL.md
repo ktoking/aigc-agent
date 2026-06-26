@@ -85,9 +85,9 @@ stories/<story-id>/
 - 默认 9:16 竖屏短剧 / AI 漫剧。
 - 每段必须包含 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`、`director-promt.txt`。
 - `prompt.md` 是可读的完整视频提示词；`director-promt.txt` 是给视频 API / 图生视频工具直接使用的纯文本导演提示词。
-- `director-promt.txt` 沿用项目既有文件名拼写，必须包含规格、参考图用途、角色锁、逐秒动作因果、运镜、声音和负面约束。
+- `director-promt.txt` 沿用项目既有文件名拼写，必须包含规格、按 API 输入顺序编号的参考图用途、角色锁、逐秒动作因果、运镜、声音和负面约束。
 - 每段可独立生成，但首尾帧要能连续剪辑。
-- 每段推荐生成 `api-request.md`，用于记录视频 API 参数、提交返回和重试策略；其中 Prompt 默认指向 `director-promt.txt`。
+- 每段推荐生成 `api-request.md`，用于记录视频 API 参数、参考图上传计划、提交返回和重试策略；其中 Prompt 默认指向 `director-promt.txt`。
 - 每集推荐生成 `qa-checklist.md` 和 `publish-package.md`，用于质检和发布包装。
 
 如果 story 明确要求样片、横屏或长集，可以扩展为更多 segment，例如 10 段、150 秒、16:9 横屏样片。扩展时仍然必须保持每段有 `storyboard.md`、`first-frame.md`、`last-frame.md`、`prompt.md`、`director-promt.txt`、`api-request.md`、`frames/`、`output/`，并按真实时间段命名。
@@ -186,7 +186,7 @@ episodes/SF001_slug/
    - 四段 `last-frame.md`
    - 四段 `prompt.md`
    - 四段 `director-promt.txt`
-   - 四段 `api-request.md`，推荐生成
+   - 四段 `api-request.md`，推荐生成，必须包含“参考图上传计划”
 7. **首尾帧生产与落位**：
    - 先写清每段 `first-frame.md` 和 `last-frame.md`，再生成或整理图片。
    - 每张图必须引用 story 的角色锁、场景锁、道具锁、风格锁和负面提示词。
@@ -199,6 +199,8 @@ episodes/SF001_slug/
    - 每段是否都有故事板、首帧、尾帧、视频 prompt。
    - `prompt.md` 是否包含画幅、时长、风格、角色锁、动作、运镜、对白、音效、负面提示词。
    - `director-promt.txt` 是否能直接作为 `scripts/ark_video.py --prompt-file` 输入，且比 `prompt.md` 更少 Markdown 结构和解释性文字。
+   - `director-promt.txt` 是否用“参考图1/参考图2/参考图3”绑定 API 传图顺序，且没有笼统写“参考所有图片”。
+   - `api-request.md` 是否列出本段真正要上传的图片、每张图用途、不上传的故事板图，以及可 dry-run 的命令。
    - 是否生成视频 API 任务记录位置。
    - 是否生成发布包装。
    - 结尾钩子是否自然推动下一集。
@@ -241,6 +243,7 @@ episodes/SF001_slug/
 
 - 竖屏短剧每段只承载一个清晰情绪点或信息点。
 - AI 漫剧生产应保持资产优先：角色 -> 场景 -> 故事板 -> 首尾帧 -> 视频。
+- 生成了资产就要安排用途：`image-manifest.md` 必须区分“人类审阅资产”和“视频 API 参考图上传计划”。故事板表格默认只做人类审阅，不默认传给视频模型。
 - 题材规则属于 story 包，不要在根 skill 中写死末日、恋爱、玄幻、喜剧等特定类型。
 
 ## 可用脚本

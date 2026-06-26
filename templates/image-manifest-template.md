@@ -33,6 +33,17 @@
 | 03 |  |  |  |
 | 04 |  |  |  |
 
+故事板图默认只做人类审阅和提示词转写，不默认上传给视频 API。
+
+## 视频 API 参考图上传计划
+
+| Segment | 默认参考图 | 显式追加参考图 | 不上传 |
+| --- | --- | --- | --- |
+| 01 | `segment_01_00-15s/frames/first-frame.png`、`segment_01_00-15s/frames/last-frame.png` | 角色/动作/场景/道具中最关键的 1-3 张 | `segment_01_00-15s/frames/storyboard-sheet.png` |
+| 02 | `segment_02_15-30s/frames/first-frame.png`、`segment_02_15-30s/frames/last-frame.png` | 角色/动作/场景/道具中最关键的 1-3 张 | `segment_02_15-30s/frames/storyboard-sheet.png` |
+| 03 | `segment_03_30-45s/frames/first-frame.png`、`segment_03_30-45s/frames/last-frame.png` | 角色/动作/场景/道具中最关键的 1-3 张 | `segment_03_30-45s/frames/storyboard-sheet.png` |
+| 04 | `segment_04_45-60s/frames/first-frame.png`、`segment_04_45-60s/frames/last-frame.png` | 角色/动作/场景/道具中最关键的 1-3 张 | `segment_04_45-60s/frames/storyboard-sheet.png` |
+
 ## 视频任务
 
 | Segment | API 状态 | 输出路径 | 是否通过质检 | 重试次数 |

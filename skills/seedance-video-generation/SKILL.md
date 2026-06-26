@@ -7,7 +7,7 @@ description: Use when generating, polling, downloading, retrying, or writing pro
 
 ## 目的
 
-用于把 `stories/<story-id>/episodes/<episode>/segment_XX_xx-xxs/` 里的首帧、尾帧、故事板文字、角色参考、背景/场景资产和 `director-promt.txt` 提交给火山 Ark Seedance，生成 15 秒竖屏短剧视频。若旧 segment 缺少 `director-promt.txt`，再回退使用 `prompt.md`。
+用于把 `stories/<story-id>/episodes/<episode>/segment_XX_xx-xxs/` 里的首帧、尾帧、故事板文字、按段选择的角色/动作/场景/道具参考资产和 `director-promt.txt` 提交给火山 Ark Seedance，生成 15 秒竖屏短剧视频。若旧 segment 缺少 `director-promt.txt`，再回退使用 `prompt.md`。
 
 Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸一致性时，先用 Seedream 5.0 lite 文生图生成平台信任产物，再把 Seedream 返回的 URL 传给 Seedance。
 
@@ -17,6 +17,7 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 - 正式分段默认 `duration=15`、`ratio=9:16`、`resolution=720p`。
 - 视频生成是高成本操作；默认先做提交前门禁检查和 dry-run 计划，除非用户明确说“直接生成/立即提交/可以烧”，否则不要提交正式视频任务。
 - 必须优先使用本段 `frames/first-frame.png` 和 `frames/last-frame.png`；角色一致性优先用角色三视图、定妆图或尾帧。
+- `scripts/ark_video.py` 的自动参考图只应依赖首帧和尾帧；故事板图只能显式 `--include-storyboard` 才传。
 - 故事板表格图主要给人审阅，不默认作为视频参考图上传；把故事板内容转写进 prompt，避免模型把表格当静态图片拉伸。
 - 背景/场景资产要来自当前 story 的 `assets/scenes/`，不可用错误人物图或无关场景图兜底。
 - 输入人物图必须声明为 AI 生成的虚拟角色，不包含真人身份、肖像或隐私信息。
@@ -35,15 +36,40 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
    - `frames/last-frame.png`
    - 角色三视图/定妆图，如 `frames/**/character-turnaround.png`
    - 故事板表格图仅用于人工核对，不默认上传。
-4. 按剧情选择相关背景/场景资产，例如 `stories/<story-id>/assets/scenes/<SCENE_ID>/*.png`。
+4. 按本段最容易漂移的问题选择相关背景/场景、角色、动作、道具资产，例如 `stories/<story-id>/assets/scenes/<SCENE_ID>/*.png`。
 5. 确认 `scripts/ark_video.py` 存在，并优先使用该脚本提交、轮询、下载。
 6. 如果本地参考图被隐私审核拦截，优先停止；只有用户确认继续时，才改走 Seedream 5.0 lite 信任图片 URL。
+
+## 参考图选择协议
+
+参考图不是素材越多越好；每张图必须有明确职责，并在 `director-promt.txt` 中按 API 输入顺序写成“参考图1/参考图2/参考图3”。API 没有真正的 `@图片` 语法，`@` 只会变成普通文本；靠图片输入顺序和文字说明建立对应关系。
+
+默认策略：
+
+1. 参考图1：`frames/first-frame.png`，锁定 0 秒桥接画面和人物站位。
+2. 参考图2：`frames/last-frame.png`，锁定 15 秒收束画面和下一段衔接。
+3. 参考图3：本段最容易漂移的一张资产，如角色脸/三视图、场景路线、动作编排或关键道具。
+4. 参考图4-5：只在复杂打斗、精确空间路线、道具数量或身份反转证据确有必要时追加。
+
+优先选择能解决“本段最大风险”的图：
+
+| 风险 | 追加图 |
+| --- | --- |
+| 脸或服装漂移 | 角色脸部参考、三视图、定妆图 |
+| 路线和空间跳变 | 场景路线图、空间关系图 |
+| 打斗动作乱 | 动作编排图、角色 action poses |
+| 道具数量/比例错 | 道具比例图、关键道具图 |
+| 风格偏移 | 风格 key art，仅在首尾帧风格不足时追加 |
+
+如果参考图是路线图、动作图、比例图或带标注生产图，必须写清：只用于理解空间/动作/比例，不要把箭头、文字、网格、标注画进最终视频。
+
+不要默认上传 `storyboard-sheet.png`：它适合人审阅和 prompt 转写，直接上传容易带来文字污染、表格污染和静态拉图。确实要上传时，命令必须显式加 `--include-storyboard`，并在计划里解释原因。
 
 ## 提交前门禁
 
 在任何正式 `submit` 之前，必须先给出或保存一份“视频提交计划”，并逐项检查：
 
-- **参考图数量**：默认 2-4 张，不上传整张故事板表格；建议为角色图、首帧、尾帧、必要关键镜头。
+- **参考图数量**：默认 3-5 张；自动默认只有首帧和尾帧，其他资产必须按段显式追加；不上传整张故事板表格。
 - **角色锁定**：列出每个角色的不可变特征；对特殊标记（例如“林晚左眼角下一颗痣”）单独标成 QA 项。
 - **首尾帧一致**：首帧负责开场环境，尾帧负责收束构图；不要用错误角色或旧版本尾帧。
 - **时间轴完整**：15 秒必须拆成明确时间段，不能只写一段泛泛描述。
@@ -62,6 +88,7 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 - 是否生成声音：
 - 参考图：
 - 不上传的图：
+- 每张图用途：
 - 角色 QA：
 - 时间轴：
 - 风险与停止线：
@@ -78,7 +105,7 @@ Seedance 2.0 支持文字、图片、音频、视频等多模态参考输入；�
 
 ```text
 全局规格：9:16，15秒，720p，3D动画电影风，非真人，是否生成声音。
-参考图用途：哪张锁角色，哪张锁首帧，哪张锁尾帧；不要笼统说“参考所有图片”。
+参考图用途：按 API 输入顺序写“参考图1/2/3/4”，每张图只负责一个主要约束；不要笼统说“参考所有图片”。
 角色锁定：姓名、发型、服装、面部特征、禁止变化项。
 时间轴镜头：0-4s / 4-8s / 8-11s / 11-15s，每段写主体动作、场景变化、镜头运动。
 音效/声音：需要声音时写风声、警报、人声、能量声，并在命令中加 `--generate-audio`。
@@ -128,7 +155,7 @@ Seedance 2.0 支持文字、图片、音频、视频等多模态参考输入；�
 - 一段 15 秒最多 4 个镜头；每个镜头写清楚时间点和镜头运动。
 - 用“切到/推进/后拉/固定/低角度/中景/特写”等镜头语言，不只写剧情。
 - 不要把整张故事板表格图作为参考图上传；它会增加“拉图感”和文字污染风险。
-- 图生视频优先上传 2-4 张关键图：角色定妆图、首帧、尾帧、必要时 1 张关键镜头图。
+- 图生视频优先上传 3-5 张关键图：首帧、尾帧、本段最关键的角色/动作/场景/道具参考图。
 - 如果画面像静态拉伸，下一次减少参考图数量，并把动作、景别变化、镜头切换写进 prompt。
 - 如果没有声音，检查命令是否加了 `--generate-audio`；只在 prompt 写音效不会自动生成音频。
 
@@ -136,7 +163,7 @@ Seedance 2.0 支持文字、图片、音频、视频等多模态参考输入；�
 
 ```text
 9:16竖屏AI漫剧视频，时长15秒，720p，3D动画电影风，明显非真人。
-参考图1用于锁定角色外貌和服装；参考图2为首帧构图；参考图3为尾帧构图。不要把参考图做成静态拉伸。
+参考图按 API 输入顺序使用：参考图1 `frames/first-frame.png` 锁定 0 秒桥接画面和人物站位；参考图2 `frames/last-frame.png` 锁定 15 秒收束画面和下一段衔接；参考图3 `<角色/场景/动作/道具参考图>` 只用于锁定本段最容易漂移的对象；如参考图带路线箭头、文字、网格或标注，只用于理解空间/动作/比例，不要画进最终视频。不要把参考图做成静态拉伸，不要上传故事板表格图。
 
 角色锁定：<角色A特征>；<角色B特征>。禁止变脸、换发型、换服装、添加多余面部标记。
 
@@ -196,9 +223,10 @@ python3 scripts/ark_video.py submit \
   --ratio 9:16 \
   --resolution 720p \
   --prompt-file stories/<story-id>/episodes/<episode>/segment_01_00-15s/director-promt.txt \
-  --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/<style>/clean/character-turnaround.png \
-  --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/<style>/clean/first-frame.png \
-  --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/<style>/clean/last-frame.png \
+  --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/first-frame.png \
+  --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/last-frame.png \
+  --image stories/<story-id>/assets/characters/<CHARACTER_ID>/03-360-turnaround/character-turnaround.png \
+  --image stories/<story-id>/assets/scenes/<SCENE_ID>/<scene-reference>.png \
   --generate-audio \
   --privacy-retry 0 \
   --quiet
@@ -213,9 +241,9 @@ python3 scripts/ark_video.py submit \
   --ratio 9:16 \
   --resolution 720p \
   --prompt-file stories/<story-id>/episodes/<episode>/segment_01_00-15s/director-promt.txt \
-  --image <character-reference.png> \
   --image <first-frame.png> \
   --image <last-frame.png> \
+  --image <segment-critical-character-action-scene-or-prop-reference.png> \
   --generate-audio \
   --privacy-retry 0 \
   --dry-run
