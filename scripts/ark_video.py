@@ -146,6 +146,12 @@ def default_image_paths(segment_dir: Path) -> list[Path]:
     candidates = [
         segment_dir / "frames" / "first-frame.png",
         segment_dir / "frames" / "last-frame.png",
+    ]
+    return [p for p in candidates if p.exists()]
+
+
+def default_storyboard_image_paths(segment_dir: Path) -> list[Path]:
+    candidates = [
         segment_dir / "frames" / "storyboard-sheet.png",
         segment_dir / "frames" / "storyboard.png",
     ]
@@ -262,6 +268,13 @@ def submit(args: argparse.Namespace) -> int:
     image_urls = [url.strip() for url in args.image_url if url.strip()]
     if not image_paths and args.auto_images:
         image_paths = [p.resolve() for p in default_image_paths(segment_dir)]
+    if args.include_storyboard:
+        existing = {p.resolve() for p in image_paths}
+        for storyboard_path in default_storyboard_image_paths(segment_dir):
+            resolved = storyboard_path.resolve()
+            if resolved not in existing:
+                image_paths.append(resolved)
+                existing.add(resolved)
     missing_images = [p for p in image_paths if not p.exists()]
     if missing_images:
         raise ArkVideoError("image file not found: " + ", ".join(map(str, missing_images)))
@@ -446,6 +459,7 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p.add_argument("--image", action="append", default=[], help="Reference image path; repeatable.")
     submit_p.add_argument("--image-url", action="append", default=[], help="Reference image URL; repeatable.")
     submit_p.add_argument("--no-auto-images", dest="auto_images", action="store_false")
+    submit_p.add_argument("--include-storyboard", action="store_true", help="Also include frames/storyboard-sheet.png or frames/storyboard.png as reference images.")
     submit_p.add_argument("--require-images", action="store_true")
     submit_p.add_argument("--duration", type=int, default=15)
     submit_p.add_argument("--ratio", default="9:16")

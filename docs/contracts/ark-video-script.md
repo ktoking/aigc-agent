@@ -1,6 +1,6 @@
 # Ark 视频脚本使用说明
 
-`scripts/ark_video.py` 用于把每个 segment 的 `director-promt.txt`、首帧、尾帧和故事板图提交给火山 Ark / Seedance，并在本地静默轮询、下载结果，避免 Codex 对话里出现大量轮询 JSON。若 `director-promt.txt` 不存在，脚本回退读取 `prompt.md`。
+`scripts/ark_video.py` 用于把每个 segment 的 `director-promt.txt`、首帧、尾帧和按段选择的参考资产提交给火山 Ark / Seedance，并在本地静默轮询、下载结果，避免 Codex 对话里出现大量轮询 JSON。若 `director-promt.txt` 不存在，脚本回退读取 `prompt.md`。
 
 `scripts/ark_image.py` 用于通过 Seedream 5.0 lite 文生图生成平台信任图片资产。Seedance 2.0 / 2.0 Fast 不要直接上传本地含人脸参考图；需要人脸连续性时，先生成 Seedream 信任图，再把返回 URL 传给 Seedance。
 
@@ -36,7 +36,7 @@ python scripts/ark_video.py submit \
   --resolution 720p \
   --image-url "<Seedream trusted first-frame url>" \
   --image-url "<Seedream trusted last-frame url>" \
-  --image-url "<Seedream trusted storyboard url>" \
+  --image-url "<Seedream trusted character-or-key-shot url>" \
   --quiet
 ```
 
@@ -49,7 +49,14 @@ python scripts/ark_video.py submit \
 
 - `frames/first-frame.png`
 - `frames/last-frame.png`
-- `frames/storyboard-sheet.png` 或 `frames/storyboard.png`
+
+故事板表格图默认不上传，只作为人类审阅材料。确实需要上传故事板图时，显式增加：
+
+```bash
+--include-storyboard
+```
+
+动作、场景路线、道具比例、角色三视图等资产应按段显式追加 `--image` 或 `--image-url`，并在 `director-promt.txt` 中用“参考图1/参考图2/参考图3”说明每张图的用途。不要笼统写“参考所有图片”。
 
 输出会写入：
 
@@ -95,7 +102,7 @@ python scripts/ark_video.py poll \
 - 不包含真人身份信息、真人肖像授权信息或个人隐私。
 - 参考图只用于保持虚构短剧角色的脸型、发型、服装和镜头连续性。
 
-如果火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，优先改走 Seedream 5.0 lite 文生图信任资产 URL。脚本仍支持保留原首尾帧、故事板图和角色参考图，自动换更明确的虚拟人物说明重试，默认最多 `--privacy-retry 2` 次，但这只是兜底，不是首选方案。
+如果火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，优先改走 Seedream 5.0 lite 文生图信任资产 URL。脚本仍支持保留原首尾帧和角色参考图，自动换更明确的虚拟人物说明重试；默认 `--privacy-retry 0`，这只是兜底，不是首选方案。
 
 如果重试后仍被拦截，脚本会停止并输出 `submit_failed privacy_review_blocked`。不要自动改用场景图或其他不含正确人脸的图片继续生成，否则会导致角色脸不一致并浪费额度。
 

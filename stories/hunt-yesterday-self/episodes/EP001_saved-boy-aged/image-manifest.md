@@ -33,6 +33,17 @@
 | 03 | `segment_03_30-45s/frames/storyboard-sheet.png` | 齿轮脱身、二次按表、击飞怀表、揭面 |
 | 04 | `segment_04_45-60s/frames/storyboard-sheet.png` | 身份确认、六次反光、归还选择、六表钩子 |
 
+故事板图只做人类审阅和提示词转写，不默认上传给视频 API。
+
+## 视频 API 参考图上传计划
+
+| Segment | 默认参考图 | 显式追加参考图 | 不上传 |
+| --- | --- | --- | --- |
+| 01 | `segment_01_00-15s/frames/first-frame.png`、`segment_01_00-15s/frames/last-frame.png` | `../../assets/scenes/SCENE_BLACK_RAIN_CLOCK_CITY/chase-spatial-reference.png`、`../../assets/action-choreography/choreo-ep001-01-chase-and-miss.png` | `segment_01_00-15s/frames/storyboard-sheet.png` |
+| 02 | `segment_02_15-30s/frames/first-frame.png`、`segment_02_15-30s/frames/last-frame.png` | `../../assets/characters/HYS_BOY_001/02-age-progression/boy-age-progression.png`、`../../assets/props/prop-scale-reference.png` | `segment_02_15-30s/frames/storyboard-sheet.png` |
+| 03 | `segment_03_30-45s/frames/first-frame.png`、`segment_03_30-45s/frames/last-frame.png` | `../../assets/action-choreography/choreo-ep001-02-watch-defense.png`、`../../assets/characters/HYS_HUNTER_001/05-action-poses/hunter-action-poses.png`、`../../assets/characters/HYS_BOY_001/02-age-progression/boy-age-progression.png` | `segment_03_30-45s/frames/storyboard-sheet.png` |
+| 04 | `segment_04_45-60s/frames/first-frame.png`、`segment_04_45-60s/frames/last-frame.png` | `../../assets/characters/HYS_HUNTER_001/01-face-reference/hunter-mask-face-reference.png`、`../../assets/characters/HYS_MIRA_001/01-face-reference/mira-face-reference.png`、`../../assets/props/prop-scale-reference.png` | `segment_04_45-60s/frames/storyboard-sheet.png` |
+
 ## 图片规则
 
 - 相邻段桥接帧使用同一源文件复制，不重新生成近似图。
