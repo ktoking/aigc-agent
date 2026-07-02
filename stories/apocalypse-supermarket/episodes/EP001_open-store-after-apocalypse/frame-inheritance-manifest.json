@@ -1,0 +1,35 @@
+{
+  "episode_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse",
+  "mode": "apply",
+  "overwrite": true,
+  "generated_at": "2026-06-28T14:42:27+08:00",
+  "links": [
+    {
+      "from_segment": "segment_01_00-15s",
+      "to_segment": "segment_02_15-30s",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_01_00-15s/frames/last-frame.png",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_02_15-30s/frames/first-frame.png",
+      "action": "copy",
+      "source_sha256": "6933195f5bf502b30e4301e943f530af668ca3815dfaf003ac6050def26f3489",
+      "target_sha256": "6933195f5bf502b30e4301e943f530af668ca3815dfaf003ac6050def26f3489"
+    },
+    {
+      "from_segment": "segment_02_15-30s",
+      "to_segment": "segment_03_30-45s",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_02_15-30s/frames/last-frame.png",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_03_30-45s/frames/first-frame.png",
+      "action": "copy",
+      "source_sha256": "80da05c10e7c03d2a89abffc845b3c4c0098cb72d83f647985a41af1effc1ae1",
+      "target_sha256": "80da05c10e7c03d2a89abffc845b3c4c0098cb72d83f647985a41af1effc1ae1"
+    },
+    {
+      "from_segment": "segment_03_30-45s",
+      "to_segment": "segment_04_45-60s",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_03_30-45s/frames/last-frame.png",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_04_45-60s/frames/first-frame.png",
+      "action": "copy",
+      "source_sha256": "1c318b464cc9bf634488fdb07a9df79b6ee8cd3d8dcb753d282a9dc983855edb",
+      "target_sha256": "1c318b464cc9bf634488fdb07a9df79b6ee8cd3d8dcb753d282a9dc983855edb"
+    }
+  ]
+}

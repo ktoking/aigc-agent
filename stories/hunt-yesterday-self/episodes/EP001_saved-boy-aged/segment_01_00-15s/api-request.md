@@ -1,58 +1,53 @@
-# Segment 01 视频 API 请求
+# Segment 视频 API 请求
 
 ## 任务信息
 
-- Story ID：`hunt-yesterday-self`
-- Episode：`EP001_saved-boy-aged`
-- Segment：`01`
-- 时长：15 秒
+- Episode：EP001_saved-boy-aged
+- Segment：segment_01_00-15s
+- 时长：15
 - 画幅：9:16
-- 状态：未提交
+- 模型/平台：doubao-seedance-2-0-mini-260615（下一次草稿默认）
+- 任务状态：上一版已生成但判定废片；下一次待提交前 dry-run
+- 提交时间：2026-06-26T14:23:21+08:00
+- 完成时间：
+- Task ID：cgt-20260626142319-vv4w4
 
 ## 输入文件
 
-- Prompt：`director-promt.txt`
-
-## 参考图上传计划
-
-按以下顺序传给 API，并与 `director-promt.txt` 内“参考图1/2/3/4”保持一致：
-
-1. `frames/first-frame.png`：锁定 0 秒黑雨高架、米拉被追杀的开场构图。
-2. `frames/last-frame.png`：锁定 15 秒米拉抱少年滚离轨道、少年第一次衰老证据。
-3. `../../../assets/scenes/SCENE_BLACK_RAIN_CLOCK_CITY/chase-spatial-reference.png`：锁定高架、坠落点、下层逆行轨道和扑救路线；只做空间参考，不生成箭头、文字、网格或标注。
-4. `../../../assets/action-choreography/choreo-ep001-01-chase-and-miss.png`：锁定追逐、斩链、坠落、扑救的身体方向；只做动作参考，不生成分格漫画。
-
-不上传：`frames/storyboard-sheet.png`。故事板表格只做人类审阅，避免文字/表格污染和静态拉图。
+- Prompt：stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s/director-promt.txt
+- 本地参考图：
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s/frames/first-frame.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s/frames/last-frame.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/hunt-yesterday-self/assets/scenes/SCENE_BLACK_RAIN_CLOCK_CITY/chase-spatial-reference.png
+- 不建议上传动作编排图：上一版容易被模型理解成姿势拼贴，下一次 mini 草稿先减少参考图数量。
+- 平台信任参考图 URL：
+- 无
 
 ## 请求参数
 
 | 参数 | 值 |
 | --- | --- |
-| aspect_ratio | 9:16 |
-| duration | 15 |
+| ratio | 9:16 |
+| duration | 5 秒动作小样优先；15 秒整段需先 dry-run |
 | resolution | 720p |
-| prompt | director-promt.txt |
-| auto_images | 首帧 + 尾帧 |
-| include_storyboard | false |
+| generate_audio | True |
+| return_last_frame | True |
+| virtual_person_notice | True |
+| privacy_retry | 0 |
 
-## 推荐 dry-run 命令
+## 提交记录
 
-```bash
-python3 scripts/ark_video.py submit \
-  --segment stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s \
-  --duration 15 \
-  --ratio 9:16 \
-  --resolution 720p \
-  --prompt-file stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s/director-promt.txt \
-  --image stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s/frames/first-frame.png \
-  --image stories/hunt-yesterday-self/episodes/EP001_saved-boy-aged/segment_01_00-15s/frames/last-frame.png \
-  --image stories/hunt-yesterday-self/assets/scenes/SCENE_BLACK_RAIN_CLOCK_CITY/chase-spatial-reference.png \
-  --image stories/hunt-yesterday-self/assets/action-choreography/choreo-ep001-01-chase-and-miss.png \
-  --generate-audio \
-  --privacy-retry 0 \
-  --dry-run
-```
+详见 `output/api-submit.json`。
 
-## 提交与返回
+## 返回记录
 
-本轮不提交视频任务。记录文件仅保留空状态，不写 key、URL 或任务 ID。
+详见 `output/api-result.json`。
+
+## 失败原因与重试策略
+
+- 上一版视频像首尾帧硬插姿势图：人物第 6 秒悬空平移，缺少起跳、受力、坠落速度、落地冲击；时间回溯只是一闪光，缺少“事故路径倒序播放”的过程。
+- 下一版 prompt 已改为：切链 -> 抓表 -> 撞栏 -> 踩空 -> 翻转下坠 -> 钢梁擦手 -> 膝盖/手掌落地滑行 -> 3 秒局部倒序回溯 -> 拖少年滚离轨道 -> 寿命丝线回流。
+- 下一次正式提交前必须先 dry-run，优先用 `doubao-seedance-2-0-mini-260615`，先做 5 秒小样验证“切链坠落”或“时间回溯”单个动作，不要直接烧 15 秒复杂正片。
+- 若火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，脚本会保留原首尾帧/故事板图，
+  自动追加“图中人物均为 AI 生成虚拟角色，不包含真人隐私信息”的说明后有限重试。
+- 若重试后仍被拦截，脚本停止，不自动替换为场景图或其他错误参考图，避免人脸不一致和无效消耗。

@@ -75,3 +75,13 @@
 - 不主动运行 `skynet gen`、`skynet fast`、`skynet test-code-gen` 或任何会产生 Skynet 统计/上报记录的命令。
 - 提交或推送本仓库改动时，使用不会触发本地 Git hook 的方式；如需执行 `git commit` 或 `git push`，默认使用 `--no-verify`。
 - 不新增、启用或依赖 `pre-commit`、`prepare-commit-msg`、`commit-msg`、`post-commit`、`pre-push` 等前置或后置 hook。
+
+## Learned Workspace Facts
+
+- 火山 Ark API key 不写入仓库、AGENTS 或记忆正文；需要提交 Ark/Seedance 任务时，从 macOS Keychain 的 `codex-ark-api-key` service 读取并注入 `ARK_API_KEY`，不要在输出中打印完整 key。
+- 火山费用中心 AK/SK 不写入仓库、AGENTS 或记忆正文；需要查询资源包或账单 OpenAPI 时，分别从 macOS Keychain 的 `codex-volcengine-access-key-id` 和 `codex-volcengine-secret-access-key` service 读取。
+- 本仓库视频生成默认以 Seedance 2.0-mini `doubao-seedance-2-0-mini-260615` 做低成本草稿主力；标准 Seedance 2.0/2.0 Fast 只在动作逻辑验证后用于定稿镜头。可用 `ARK_VIDEO_MODEL` 临时覆盖脚本默认模型。
+
+## Learned User Preferences
+
+- 生成图片时避免过度锐化、鱼鳞状网格、满屏微纹理和过量细节堆叠；优先使用干净大形、清晰人物轮廓、可读封面构图和适度精细度。

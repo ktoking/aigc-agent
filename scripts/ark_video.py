@@ -21,7 +21,7 @@ from typing import Any
 
 
 API_BASE = "https://ark.cn-beijing.volces.com/api/v3"
-DEFAULT_MODEL = "doubao-seedance-2-0-fast-260128"
+DEFAULT_MODEL = os.environ.get("ARK_VIDEO_MODEL", "doubao-seedance-2-0-mini-260615")
 TERMINAL_SUCCESS = {"succeeded", "success", "completed", "finished"}
 TERMINAL_FAILURE = {"failed", "error", "canceled", "cancelled"}
 PRIVACY_ERROR_KEYWORDS = (

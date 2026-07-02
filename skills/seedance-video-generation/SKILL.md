@@ -15,7 +15,9 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 
 - 不把 Ark key 写入任何仓库文件；只从当前 shell 的 `ARK_API_KEY` 读取。
 - 正式分段默认 `duration=15`、`ratio=9:16`、`resolution=720p`。
+- 本仓库默认以 Seedance 2.0-mini `doubao-seedance-2-0-mini-260615` 作为低成本草稿主力；标准 Seedance 2.0/2.0 Fast 只用于动作逻辑验证后的定稿镜头。
 - 视频生成是高成本操作；默认先做提交前门禁检查和 dry-run 计划，除非用户明确说“直接生成/立即提交/可以烧”，否则不要提交正式视频任务。
+- 动作戏默认先生成 4-5 秒 mini 小样，每条只验证一个动作任务；不要直接用高价模型抽 15 秒复杂正片。
 - 必须优先使用本段 `frames/first-frame.png` 和 `frames/last-frame.png`；角色一致性优先用角色三视图、定妆图或尾帧。
 - `scripts/ark_video.py` 的自动参考图只应依赖首帧和尾帧；故事板图只能显式 `--include-storyboard` 才传。
 - 故事板表格图主要给人审阅，不默认作为视频参考图上传；把故事板内容转写进 prompt，避免模型把表格当静态图片拉伸。
@@ -198,7 +200,7 @@ python3 scripts/ark_image.py \
 ```bash
 python3 scripts/ark_video.py submit \
   --segment stories/<story-id>/episodes/<episode>/segment_01_00-15s \
-  --model doubao-seedance-2-0-fast-260128 \
+  --model doubao-seedance-2-0-mini-260615 \
   --duration 15 \
   --ratio 9:16 \
   --resolution 720p \
@@ -218,7 +220,7 @@ python3 scripts/ark_video.py submit \
 ```bash
 python3 scripts/ark_video.py submit \
   --segment stories/<story-id>/episodes/<episode>/segment_01_00-15s \
-  --model doubao-seedance-2-0-fast-260128 \
+  --model doubao-seedance-2-0-mini-260615 \
   --duration 15 \
   --ratio 9:16 \
   --resolution 720p \

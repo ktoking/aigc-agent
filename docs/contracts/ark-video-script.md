@@ -12,6 +12,12 @@
 export ARK_API_KEY="你的火山 Ark key"
 ```
 
+本仓库默认把 Seedance 2.0-mini 作为视频草稿主力模型，用于低成本批量试错。若火山控制台中的实际模型 ID 有变化，或需要临时切回更高质量模型，可以只在当前 shell 覆盖：
+
+```bash
+export ARK_VIDEO_MODEL="doubao-seedance-2-0-fast-260128"
+```
+
 ## 正式生成 15 秒视频
 
 如果本地首尾帧含人脸，先生成信任图：
@@ -30,7 +36,7 @@ python3 scripts/ark_image.py \
 ```bash
 python scripts/ark_video.py submit \
   --segment stories/twin-dawn/episodes/EP001_rebirth-before-apocalypse/segment_01_00-15s \
-  --model doubao-seedance-2-0-fast-260128 \
+  --model doubao-seedance-2-0-mini-260615 \
   --duration 15 \
   --ratio 9:16 \
   --resolution 720p \
@@ -88,8 +94,9 @@ python scripts/ark_video.py poll \
 
 ## 成本建议
 
-- 草稿验证：`--duration 5 --resolution 720p`
-- 正式分段：`--duration 15 --resolution 720p`
+- 草稿验证：默认使用 Seedance 2.0-mini `doubao-seedance-2-0-mini-260615`，优先 `--duration 5 --resolution 720p`
+- 正式分段：确认动作逻辑成立后再 `--duration 15 --resolution 720p`
+- 定稿重制：只有关键镜头需要更高质感时，才显式 `--model doubao-seedance-2-0-fast-260128` 或用 `ARK_VIDEO_MODEL` 切回贵模型
 - 无需声音时不要加 `--generate-audio`
 - 需要段落衔接时保持默认 `--return-last-frame`
 

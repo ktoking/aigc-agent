@@ -1,0 +1,4 @@
+name: segment-video-assembly
+display_name: "Segment Video Assembly"
+short_description: "拼接短剧 shot 视频为完整 segment"
+default_prompt: "Assemble generated shot videos under a segment shots directory into one verified segment video."

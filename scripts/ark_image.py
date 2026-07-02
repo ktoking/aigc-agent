@@ -80,15 +80,16 @@ def extract_url(data: dict[str, Any]) -> str | None:
 
 
 def build_prompt(args: argparse.Namespace) -> str:
+    aspect_note = args.aspect_note.strip()
     parts = [
         read_text(Path(args.prompt_file).resolve()) if args.prompt_file else "",
         args.prompt_text or "",
         read_text(Path(args.context_file).resolve()) if args.context_file else "",
-        """
+        f"""
 
 信任资产生成要求：画面中的所有人物都是 AI 生成的虚构短剧角色，不对应、不冒充、不还原任何真实人物；
 不要生成名人、公众人物、真人照片、证件照、监控画面或任何个人隐私信息。保持原创虚拟人物、影视剧照质感、
-9:16 竖屏构图、可作为后续 Seedance 2.0 视频参考图的可信图像资产。
+{aspect_note}、可作为后续 Seedance 2.0 视频参考图的可信图像资产。
 """,
     ]
     prompt = "\n\n".join(part.strip() for part in parts if part.strip())
@@ -161,6 +162,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--size", default="1440x2560")
+    parser.add_argument("--aspect-note", default="9:16 竖屏构图")
     parser.add_argument("--prompt-file")
     parser.add_argument("--prompt-text")
     parser.add_argument("--context-file")

@@ -1,0 +1,81 @@
+{
+  "episode_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse",
+  "segments": 4,
+  "frames": 8,
+  "expected_frames": 8,
+  "dimensions": [
+    [
+      1672,
+      941
+    ]
+  ],
+  "errors": [],
+  "warnings": [],
+  "contact_sheet": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/EP001-frames-contact-sheet.png",
+  "items": [
+    {
+      "segment": "segment_01_00-15s",
+      "name": "first-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_01_00-15s/frames/first-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "95d74295473fc839e95455167c33678c42278b0d11d1dd80185c4ab77a264984"
+    },
+    {
+      "segment": "segment_01_00-15s",
+      "name": "last-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_01_00-15s/frames/last-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6933195f5bf502b30e4301e943f530af668ca3815dfaf003ac6050def26f3489"
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "name": "first-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_02_15-30s/frames/first-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6933195f5bf502b30e4301e943f530af668ca3815dfaf003ac6050def26f3489"
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "name": "last-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_02_15-30s/frames/last-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "80da05c10e7c03d2a89abffc845b3c4c0098cb72d83f647985a41af1effc1ae1"
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "name": "first-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_03_30-45s/frames/first-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "80da05c10e7c03d2a89abffc845b3c4c0098cb72d83f647985a41af1effc1ae1"
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "name": "last-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_03_30-45s/frames/last-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1c318b464cc9bf634488fdb07a9df79b6ee8cd3d8dcb753d282a9dc983855edb"
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "name": "first-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_04_45-60s/frames/first-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1c318b464cc9bf634488fdb07a9df79b6ee8cd3d8dcb753d282a9dc983855edb"
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "name": "last-frame.png",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/apocalypse-supermarket/episodes/EP001_open-store-after-apocalypse/segment_04_45-60s/frames/last-frame.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4e0f0e10e8a396ce00d19e317106bc95de82e8833b896c2a4048b51efbddde4e"
+    }
+  ]
+}
