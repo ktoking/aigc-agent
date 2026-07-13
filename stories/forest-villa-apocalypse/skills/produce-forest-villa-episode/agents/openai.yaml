@@ -1,0 +1,4 @@
+interface:
+  display_name: "林中别墅剧集生产"
+  short_description: "生成四段真人分镜提示词、无人物资产图及视频提交包"
+  default_prompt: "使用 $produce-forest-villa-episode 按固定项目结构生成下一集：每段四镜头，完整写出景别、构图、运镜手法、画面内容和正常台词，并补齐匹配的16:9真人无人物资产图。"

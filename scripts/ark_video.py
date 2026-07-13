@@ -72,7 +72,7 @@ def request_json(
     path_or_url: str,
     api_key: str,
     payload: dict[str, Any] | None = None,
-    timeout: int = 60,
+    timeout: int = 180,
 ) -> tuple[int, dict[str, Any]]:
     url = path_or_url if path_or_url.startswith("http") else f"{API_BASE}{path_or_url}"
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8") if payload is not None else None
@@ -158,11 +158,28 @@ def default_storyboard_image_paths(segment_dir: Path) -> list[Path]:
     return [p for p in candidates if p.exists()]
 
 
-def build_content(prompt: str, image_paths: list[Path], image_urls: list[str]) -> list[dict[str, Any]]:
+def build_content(
+    prompt: str,
+    image_paths: list[Path],
+    image_urls: list[str],
+    digital_humans: list[str],
+) -> list[dict[str, Any]]:
     content: list[dict[str, Any]] = [{"type": "text", "text": prompt}]
+    content.extend(image_url_part(asset_url) for asset_url in digital_humans)
     content.extend(image_part(path) for path in image_paths)
     content.extend(image_url_part(url) for url in image_urls)
     return content
+
+
+def validate_digital_humans(values: list[str]) -> list[str]:
+    assets: list[str] = []
+    for value in values:
+        asset = value.strip()
+        if not asset.startswith("asset://asset-"):
+            raise ArkVideoError(f"invalid digital human asset URL: {value}")
+        if asset not in assets:
+            assets.append(asset)
+    return assets
 
 
 def with_virtual_person_notice(prompt: str, notice: str | None = None) -> str:
@@ -198,12 +215,14 @@ def write_api_request_md(
     args: argparse.Namespace,
     image_paths: list[Path],
     image_urls: list[str],
+    digital_humans: list[str],
     task_id: str | None,
     status: str,
 ) -> None:
     prompt_path = Path(args.prompt_file) if args.prompt_file else default_prompt_path(segment_dir)
     rel_images = "\n".join(f"- {p}" for p in image_paths) or "- 无"
     rel_image_urls = "\n".join(f"- 平台信任 URL {idx}（已脱敏）" for idx, _ in enumerate(image_urls, start=1)) or "- 无"
+    digital_human_lines = "\n".join(f"- `{asset}`" for asset in digital_humans) or "- 无"
     path = segment_dir / "api-request.md"
     path.write_text(
         f"""# Segment 视频 API 请求
@@ -225,6 +244,8 @@ def write_api_request_md(
 - Prompt：{prompt_path}
 - 本地参考图：
 {rel_images}
+- 数字人资产（作为 image_url 提交）：
+{digital_human_lines}
 - 平台信任参考图 URL：
 {rel_image_urls}
 
@@ -266,6 +287,7 @@ def submit(args: argparse.Namespace) -> int:
     prompt = load_prompt(segment_dir, args.prompt_file, args.prompt_text)
     image_paths = [Path(p).resolve() for p in args.image]
     image_urls = [url.strip() for url in args.image_url if url.strip()]
+    digital_humans = validate_digital_humans(args.digital_human)
     if not image_paths and args.auto_images:
         image_paths = [p.resolve() for p in default_image_paths(segment_dir)]
     if args.include_storyboard:
@@ -285,7 +307,7 @@ def submit(args: argparse.Namespace) -> int:
         dry_prompt = with_virtual_person_notice(prompt) if args.virtual_person_notice else prompt
         payload: dict[str, Any] = {
             "model": args.model,
-            "content": build_content(dry_prompt, image_paths, image_urls),
+            "content": build_content(dry_prompt, image_paths, image_urls, digital_humans),
             "duration": args.duration,
             "ratio": args.ratio,
             "resolution": args.resolution,
@@ -306,10 +328,11 @@ def submit(args: argparse.Namespace) -> int:
                 "image_url": {"url": "<base64-redacted>"},
                 })
             else:
+                url = str(part.get("image_url", {}).get("url", ""))
                 redacted["content"].append({
                     "type": "image_url",
                     "role": part.get("role", "reference_image"),
-                    "image_url": {"url": "<url-redacted>"},
+                    "image_url": {"url": url if url.startswith("asset://") else "<url-redacted>"},
                 })
         print(json.dumps(redacted, ensure_ascii=False, indent=2))
         return 0
@@ -325,7 +348,7 @@ def submit(args: argparse.Namespace) -> int:
     for attempt, attempt_prompt in enumerate(prompt_attempts, start=1):
         payload = {
             "model": args.model,
-            "content": build_content(attempt_prompt, image_paths, image_urls),
+            "content": build_content(attempt_prompt, image_paths, image_urls, digital_humans),
             "duration": args.duration,
             "ratio": args.ratio,
             "resolution": args.resolution,
@@ -334,6 +357,17 @@ def submit(args: argparse.Namespace) -> int:
         }
         if args.seed is not None:
             payload["seed"] = args.seed
+
+        request_record = json.loads(json.dumps(payload))
+        for part in request_record["content"]:
+            url = str(part.get("image_url", {}).get("url", ""))
+            if url.startswith("data:"):
+                part["image_url"]["url"] = "<base64-redacted>"
+            elif url and not url.startswith("asset://"):
+                part["image_url"]["url"] = "<url-redacted>"
+        (output_dir / "api-request-payload.json").write_text(
+            json.dumps(request_record, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
 
         status_code, data = request_json("POST", "/contents/generations/tasks", api_key, payload)
         final_status_code = status_code
@@ -361,6 +395,7 @@ def submit(args: argparse.Namespace) -> int:
         args,
         image_paths,
         image_urls,
+        digital_humans,
         task_id,
         "submitted" if task_id else f"http-{final_status_code}",
     )
@@ -458,6 +493,12 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p.add_argument("--prompt-text")
     submit_p.add_argument("--image", action="append", default=[], help="Reference image path; repeatable.")
     submit_p.add_argument("--image-url", action="append", default=[], help="Reference image URL; repeatable.")
+    submit_p.add_argument(
+        "--digital-human",
+        action="append",
+        default=[],
+        help="Ark digital-human asset URL in asset://asset-... form; repeatable.",
+    )
     submit_p.add_argument("--no-auto-images", dest="auto_images", action="store_false")
     submit_p.add_argument("--include-storyboard", action="store_true", help="Also include frames/storyboard-sheet.png or frames/storyboard.png as reference images.")
     submit_p.add_argument("--require-images", action="store_true")
