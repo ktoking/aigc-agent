@@ -47,3 +47,10 @@
 - 若火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，脚本会保留原首尾帧/故事板图，
   自动追加“图中人物均为 AI 生成虚拟角色，不包含真人隐私信息”的说明后有限重试。
 - 若重试后仍被拦截，脚本停止，不自动替换为场景图或其他错误参考图，避免人脸不一致和无效消耗。
+
+## 首轮结果复盘
+
+- 首轮命令未加 `--generate-audio`，因此生成视频无声音；后续剧情测试默认加 `--generate-audio`。
+- 画面效果可用：中段出现宴会厅、香槟塔和家族后景，说明“五段式 + 按镜头切片”的提示词结构有效。
+- 主要问题：参考图顺序使用 `heroine-reference -> first-frame -> last-frame`，生成尾帧漂回女主定妆图，弱化了尾帧里的家族楼梯和香槟塔屏障。
+- 下一轮建议：参考图顺序改为 `first-frame -> last-frame -> heroine-reference`，并保留 `--generate-audio`。
