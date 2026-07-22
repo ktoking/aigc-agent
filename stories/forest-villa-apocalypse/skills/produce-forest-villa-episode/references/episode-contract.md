@@ -39,14 +39,24 @@ Keep one continuous action chain per segment. Each shot must inherit the previou
 
 Every director prompt must also include numbered `参考图N：` descriptions, a `声音：` line, and a segment-specific `禁止：` line. Follow [director-prompt-and-assets.md](director-prompt-and-assets.md).
 
+When a recurring character appears, wardrobe is part of continuity. Require the corresponding canonical outfit ID and the full visible garment description in the director prompt; digital-human face assets do not satisfy this requirement.
+
 ## Dialogue
 
-- Require 6-8 useful lines and normally 70-110 spoken Chinese characters per segment; the validator rejects fewer than 6 lines, fewer than 70 characters, or more than 120 characters.
+- Require at least 4 useful lines and normally 45-80 spoken Chinese characters per segment; the validator rejects fewer than 4 lines, fewer than 45 characters, or more than 90 characters. Action-heavy shots should use one short line at most.
 - Keep each spoken line natural and mostly within 10-22 Chinese characters.
-- Use one main visible speaker per shot when possible.
+- Treat a `角色名：` label as writing metadata, not as an API speaker-binding field. The video request has no structured `character_id -> line -> voice` mapping.
+- Every in-video line must be preceded by a `说话者绑定：` sentence that names the speaker, their exact screen position, expression, and mouth state. Example: `说话者绑定：本镜头仅沈知夏开口。她坐在画面右侧后座，未戴口罩，正面中近景，先看见许砚手臂再说话；许砚只露侧背，不开口。`
+- For any spoken line, show exactly one uncovered, readable mouth in frame. All non-speakers must be out of frame, back-facing, face-occluded, or remain silent with closed lips. Never ask a masked character to speak.
+- Put dialogue only in a stable medium or close shot. Running, combat, loading, driving, closing a door, or injury-impact shots are silent action shots; move the line into the following reaction shot instead.
+- Pass digital-human assets only for characters physically visible in the segment. Do not submit an absent character's asset solely because that character has an off-screen line.
+- If a precise actor-to-voice match is mandatory, generate the action clip without dialogue and add a separately produced character voice in post. Seedance prompt labels alone cannot make this deterministic.
 - Use dialogue to explain what, why, how much, and what happens next.
 - Remove lines that merely repeat visible actions.
 - Avoid clipped telegraph speech and abstract slogans.
+- Before writing the four segments, give the episode a pressure chain: `goal -> obstacle -> choice -> consequence`. Each segment must move that chain; a segment that only explains tools, plans, or backstory must be merged into an action segment.
+- Give every line one purpose only: verified fact, concrete cost, decision, changed plan, or professional judgment. Delete dialogue that merely lists equipment or describes the camera image.
+- For rescue, battle, escape, and repair scenes, the middle must fail or worsen once after the plan starts. The resulting cost must have a visible cause and matter in the next segment.
 
 ## Resource Progression
 

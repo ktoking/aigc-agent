@@ -27,9 +27,19 @@ Read [references/episode-contract.md](references/episode-contract.md) before cre
 4. Preserve this field order in every shot: `景别` -> `构图` -> `运镜手法` -> `画面内容` -> speaker and dialogue. Never collapse these fields into prose.
 5. Give each shot one primary action and one narrative fact. Let the next shot begin from the physical state left by the previous shot.
 6. Write normal spoken Chinese. 白棠 asks only questions a reasonable viewer would ask at that moment; 许砚 answers with concrete reasons, quantities, consequences, or the next action. Do not let either person predict information they have not received.
-7. Keep dialogue substantial enough to explain the action, but pronounceable in 15 seconds. Require 6-8 complete spoken lines and normally 70-110 spoken Chinese characters per segment. Use one visible speaker per shot when possible. Remove duplicate narration of clearly visible actions.
-8. Keep upgrades costly. Attach at least one limit such as inventory use, power draw, payload, noise, maintenance, illness, weather, or exposure.
-9. Create every required episode and segment file from the contract. Put runtime outputs only under each segment's `output/` directory.
+7. Before splitting shots, write four beat cards: each card must state the character's immediate goal, what blocks it, the choice made under pressure, and the visible change by the next shot. If a card lacks a choice or a changed situation, it is exposition, not drama.
+8. Keep dialogue substantial enough to explain the action, but leave room for visible movement. Require at least 4 complete spoken lines and normally 45-80 spoken Chinese characters per segment; never exceed 90. Use at most one short line per shot when driving, fighting, running, lifting, wearing a mask, or performing precise work. Remove duplicate narration of clearly visible actions.
+9. Give each line one dramatic job: reveal a verified fact, state a concrete cost, force a decision, change the plan, or expose a character's professional judgment. Do not let dialogue narrate what the camera already proves. Dialogue may not be a checklist of equipment or a slogan detached from the immediate action.
+10. In action episodes, write the scene as `goal -> obstacle -> temporary solution -> new cost`, not `information -> preparation -> information -> conclusion`. A rescue must contain an actual point of failure after the plan begins; the injured person must be hurt by a visible, established cause.
+11. Give every face shot a performance path: `starting emotion -> one visible micro-action -> ending emotion`. Use physical evidence such as a tightened jaw, held breath, eyes shifting to a sound, a delayed blink, or a hand stopping mid-task; never write only “紧张/愤怒/害怕”. Reserve one short face-only shot per important turn when the emotional change can replace dialogue.
+12. Put speech only in stable mouth-readable shots: one visible speaker, mouth unobscured, no sprinting, driving, fighting, lifting, turning away, or mask-covered lips. Keep a spoken line to one short sentence. Put radio lines over an object, route, or listener reaction so the model does not invent an absent speaker.
+13. Treat the camera as part of the action: choose one motivated move and state its finish state. Use slow push-ins for a decision, over-the-shoulder long lens for two-person tension, locked-off framing plus off-screen sound for unseen danger, and follow-tracking only when the character is actually moving. Keep direction continuous across cuts (`exit right -> enter left`).
+14. Use `scripts/build_ep008_014_accelerated.py` only for EP008. For the current EP009-EP016 fish-loop, doctor-rescue, and raider canon, use `scripts/build_ep009_016_raider_arc.py`; never run the deprecated `build_ep009_016.py`.
+15. Keep upgrades costly. Attach at least one limit such as inventory use, power draw, payload, noise, maintenance, illness, weather, or exposure.
+16. Create every required episode and segment file from the contract. Put runtime outputs only under each segment's `output/` directory.
+17. Lock wardrobe independently from the digital-human face asset. Every segment with 许砚 must spell out `FVA_XU_YAN_OUTFIT_001`; every segment with 白棠 must spell out `FVA_BAI_TANG_OUTFIT_001`. Never rely on “same outfit” alone, because the asset's original clothing may leak into generation.
+18. Treat draw cards as multi-episode dependencies. Before adding a new card, check the episode outline and continuity for unused cards, equipment, animals, materials, vehicles, or facilities. Reuse an existing resource whenever it can credibly solve the problem.
+19. Do not use medicine as routine barter. Prefer renewable outputs or capacity such as filtered water, charging, vegetables, eggs, seedlings, seed stock, drone delivery, repair work, or information, and state the operating cost of each trade.
 
 ## Generate Assets
 
@@ -48,8 +58,12 @@ Read [references/episode-contract.md](references/episode-contract.md) before cre
 
 - Use `asset://asset-20260320075237-29hdx` for 许砚.
 - Use `asset://asset-20260320075131-k78qt` for 白棠.
-- Pass both through repeated `--digital-human asset://...` arguments. Text mentions do not lock a character.
-- Inspect `output/api-request-payload.json` before accepting a submission; both asset URLs must appear as independent `image_url` content parts.
+- Use `asset://asset-20260310030618-88hlb` for 沈知夏 whenever she appears.
+- Treat these assets as face/identity locks only. In every prompt, repeat the canonical outfit colors, layers, pants, and footwear from both character cards, and use the preceding segment tail frame as a wardrobe reference when available.
+- Pass only the digitally locked characters who are physically visible in that segment through repeated `--digital-human asset://...` arguments. Text mentions do not lock a character, and an absent character's asset creates avoidable speaker ambiguity.
+- Every line intended to be heard in the generated video needs a `说话者绑定：` instruction immediately before it: the named character, screen position, expression, visible unmasked mouth, and an explicit instruction that every other person remains silent. Do not rely on a name label alone.
+- Do not place speech on a run, fight, vehicle maneuver, door-closing, impact, or masked shot. Use a short reaction shot with a single visible mouth, or generate clean action and add the assigned voice in post when the role-to-voice match matters.
+- Inspect `output/api-request-payload.json` before accepting a submission; every on-screen character asset URL must appear as an independent `image_url` content part.
 - Use `doubao-seedance-2-0-mini-260615`, `15s`, `16:9`, `720p`, and audio for draft requests unless the user overrides them.
 - Prefer two or three no-person local references plus the two digital-human assets.
 - Do not upload storyboard sheets.

@@ -28,10 +28,26 @@ EXPECTED_SEGMENTS = [
 ]
 SHOT_FIELDS = ("景别：", "构图：", "运镜手法：", "画面内容：")
 EXPECTED_SHOT_NAMES = ("一", "二", "三", "四")
-DIGITAL_HUMANS = (
-    "asset://asset-20260320075237-29hdx",
-    "asset://asset-20260320075131-k78qt",
-)
+DIGITAL_HUMANS = {
+    "许砚": "asset://asset-20260320075237-29hdx",
+    "白棠": "asset://asset-20260320075131-k78qt",
+    "沈知夏": "asset://asset-20260310030618-88hlb",
+    "罗彪": "asset://asset-20260310022222-kjz8z",
+}
+OUTFIT_LOCKS = {
+    "许砚": (
+        "FVA_XU_YAN_OUTFIT_001",
+        ("炭灰", "工装夹克", "黑灰", "工装裤", "深棕", "登山靴"),
+    ),
+    "白棠": (
+        "FVA_BAI_TANG_OUTFIT_001",
+        ("鼠尾草绿", "工装外套", "浅灰", "深灰", "工装裤", "黑色", "工作靴"),
+    ),
+    "沈知夏": (
+        "FVA_SHEN_ZHIXIA_OUTFIT_001",
+        ("暗酒红", "医护", "工装外套", "黑色", "炭灰", "工装裤", "防滑", "短靴"),
+    ),
+}
 
 
 def find_repo_root(path: Path) -> Path:
@@ -43,6 +59,12 @@ def find_repo_root(path: Path) -> Path:
 
 def add_error(errors: list[str], path: Path, message: str) -> None:
     errors.append(f"{path}: {message}")
+
+
+def story_body(text: str) -> str:
+    """Exclude global wardrobe text when inferring which actors appear in a shot."""
+    marker = "Segment "
+    return text[text.find(marker):] if marker in text else text
 
 
 def validate_segment(repo_root: Path, segment: Path, errors: list[str]) -> None:
@@ -57,10 +79,23 @@ def validate_segment(repo_root: Path, segment: Path, errors: list[str]) -> None:
     if not director.is_file():
         return
     text = director.read_text(encoding="utf-8")
+    body = story_body(text)
     if "16:9" not in text:
         add_error(errors, director, "missing 16:9 specification")
     if "15秒" not in text and "15 秒" not in text:
         add_error(errors, director, "missing 15-second specification")
+    for character, (outfit_id, garment_terms) in OUTFIT_LOCKS.items():
+        if character not in text:
+            continue
+        if outfit_id not in text:
+            add_error(errors, director, f"missing canonical outfit id for {character}: {outfit_id}")
+        missing_terms = [term for term in garment_terms if term not in text]
+        if missing_terms:
+            add_error(
+                errors,
+                director,
+                f"incomplete wardrobe description for {character}; missing {', '.join(missing_terms)}",
+            )
 
     shots = list(re.finditer(r"^镜头([一二三四五六七八九十])｜[^\n]+$", text, re.MULTILINE))
     if len(shots) != 4:
@@ -89,26 +124,31 @@ def validate_segment(repo_root: Path, segment: Path, errors: list[str]) -> None:
         add_error(errors, director, "missing formatted dialogue")
     dialogue_lines = re.findall(r"^[“\"]([^”\"\n]+)[”\"]$", text, re.MULTILINE)
     dialogue_chars = sum(len(re.sub(r"[，。！？、；：,.!?]", "", line)) for line in dialogue_lines)
-    if len(dialogue_lines) < 6:
-        add_error(errors, director, f"dialogue too sparse: expected at least 6 lines, found {len(dialogue_lines)}")
-    if dialogue_chars < 70:
-        add_error(errors, director, f"dialogue too sparse: expected at least 70 spoken Chinese characters, found {dialogue_chars}")
-    if dialogue_chars > 120:
+    if len(dialogue_lines) < 4:
+        add_error(errors, director, f"dialogue too sparse: expected at least 4 lines, found {len(dialogue_lines)}")
+    if dialogue_chars < 45:
+        add_error(errors, director, f"dialogue too sparse: expected at least 45 spoken Chinese characters, found {dialogue_chars}")
+    if dialogue_chars > 90:
         add_error(errors, director, f"dialogue too dense for 15 seconds: found {dialogue_chars} spoken characters")
 
     api_request = segment / "api-request.md"
+    required_humans = {
+        name: asset_id
+        for name, asset_id in DIGITAL_HUMANS.items()
+        if name in body
+    }
     if api_request.is_file():
         api_text = api_request.read_text(encoding="utf-8")
-        for asset_id in DIGITAL_HUMANS:
+        for name, asset_id in required_humans.items():
             if asset_id not in api_text:
-                add_error(errors, api_request, f"missing digital human {asset_id}")
+                add_error(errors, api_request, f"missing digital human for {name}: {asset_id}")
 
     request_payload = segment / "output" / "api-request-payload.json"
     if request_payload.is_file():
         payload_text = request_payload.read_text(encoding="utf-8")
-        for asset_id in DIGITAL_HUMANS:
+        for name, asset_id in required_humans.items():
             if asset_id not in payload_text:
-                add_error(errors, request_payload, f"digital human was not submitted as image_url: {asset_id}")
+                add_error(errors, request_payload, f"digital human for {name} was not submitted as image_url: {asset_id}")
     elif (segment / "output" / "api-submit.json").is_file():
         add_error(errors, request_payload, "missing submitted request payload; digital-human inputs cannot be verified")
 

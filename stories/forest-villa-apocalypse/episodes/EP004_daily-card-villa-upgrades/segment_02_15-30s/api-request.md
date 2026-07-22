@@ -15,6 +15,7 @@
 ## 输入文件
 
 - Prompt：/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/episodes/EP004_daily-card-villa-upgrades/segment_02_15-30s/director-promt.txt
+- 数字人资产（角色锁）：`asset://asset-20260320075237-29hdx`、`asset://asset-20260320075131-k78qt`
 - 本地参考图：
 - /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/wall-manual-construction-background-modern-v2-16x9.png
 - /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/props/references/outer-gate-trade-intercom-box-16x9.png

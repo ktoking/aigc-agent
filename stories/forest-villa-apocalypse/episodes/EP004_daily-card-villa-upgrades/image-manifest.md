@@ -11,8 +11,10 @@
 | --- | --- | --- |
 | 铁门与加固材料 | `assets/props/references/draw-card-gate-reinforcement-materials-16x9.png` | Segment 01，锁定钢板、螺栓和门锁 |
 | 别墅外门结构 | `assets/props/references/outer-gate-trade-intercom-box-16x9.png` | Segment 01，锁定高墙和黑色铁门 |
+| EP003 外门交易尾帧 | `episodes/EP003_mountain-road-car-outer-gate-trade/segment_04_45-60s/output/last-frame-generated.png` | Segment 01，承接实际铁门内侧和夜间院落状态 |
 | 现代围墙人工施工背景 V2 | `assets/scenes/SCENE_FOREST_VILLA_001/references/wall-manual-construction-background-modern-v2-16x9.png` | Segment 02，锁定与别墅三视图一致的冷灰墙面、深灰压顶、砌块、砂浆和脚手架，不锁人物 |
 | 现代无线绊线安装背景 V2 | `assets/props/references/wireless-tripwire-installation-background-modern-v2-16x9.png` | Segment 03，锁定现代门区、感应器、防水盒、备用铃铛和接线工具，不锁人物 |
+| 别墅铁门夜景 | `assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-gate-generator-night-16x9.png` | Segment 03，锁定夜间铁门、监控和山林光线，不锁人物 |
 | 地下室改造前 | `assets/scenes/SCENE_FOREST_VILLA_001/references/basement-storage-16x9.png` | Segment 04，锁定潮湿空置储藏间 |
 | 现代地下室储存测试 V3 | `assets/scenes/SCENE_FOREST_VILLA_001/references/basement-storage-function-test-high-tech-v3-16x9.png` | Segment 04，锁定现代墙板、新风除湿、环境监测、配电柜、分区货架和测试物资，不锁人物 |
 

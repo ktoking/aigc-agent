@@ -22,6 +22,7 @@
 ## 场景资产需求
 
 - `references/forest-villa-structure-three-view.png`：别墅结构三视图，视频空间锚点。
+- `references/forest-villa-structure-three-view-perimeter-electric-v2-16x9.png`：加固完成版三视图，锁定整圈围墙顶部内侧三道低压警戒线、墙内控制箱和院内农业区安全距离。
 - `references/forest-villa-exterior-day.png`：白天外观，山路尽头、高围墙、电动铁门、林地。
 - `references/forest-villa-exterior-night.png`：夜晚外观，铁门、监控、发电机棚、冷蓝山林。
 - `references/ground-floor-storage-command.png`：一楼大厅仓储和指挥区。
@@ -39,4 +40,5 @@
 - 三视图必须包含：正面外观、侧面剖面/动线、俯视平面布局。
 - 不要出现人物，不要出现文字大段标注。可以有少量图例符号，但最终视频参考图优先使用无文字版本。
 - 必须清楚展示：高围墙、电动铁门、三层平层主体、一楼大厅、车库/仓储入口、地下室、二楼阳台、三楼露台、屋顶太阳能板、旧井、后院、独立发电机房、山路入口、林地边界。
+- 加固完成版还必须展示：电网沿整圈围墙顶部内侧闭环，绝缘支架和墙内控制箱可见；菜地、鸡鸭棚和车库通道都在围墙内且不接触电网。
 - 结构要像现代山林别墅，不要像破旧民宿、古宅、军事基地或科幻避难所。

@@ -17,7 +17,7 @@ Write sections in this exact order:
 ## Header Template
 
 ```text
-16:9横屏，15秒，720p，真人末日生存短剧质感。使用许砚数字人 asset://asset-20260320075237-29hdx 和白棠数字人 asset://asset-20260320075131-k78qt，锁定脸、年龄、体型和本段服装。
+16:9横屏，15秒，720p，真人末日生存短剧质感。许砚使用固定数字人并穿 FVA_XU_YAN_OUTFIT_001：炭灰防水工装夹克、黑色肩部拼片、深灰内搭、黑灰工装裤、深棕高帮登山靴。白棠使用固定数字人并穿 FVA_BAI_TANG_OUTFIT_001：鼠尾草绿短款工装外套、浅灰内搭、深灰工装裤、黑色工作靴，发型严格沿用数字人资产。数字人只锁脸和身份，禁止沿用资产原始服装。
 
 参考图1：[无人背景或资产名称]，只锁定[空间结构、色调、固定物位置]；图中没有人物，不锁人物动作。
 参考图2：[无人道具或设备名称]，只锁定[外观、数量、连接方式]；图中没有人物，不改变参考图1的场地。
@@ -28,6 +28,14 @@ Segment 0N：[一句话说明本段发生什么]
 ```
 
 Use two or three reference images. Do not say only “参考某图”; explain each image's responsibility. Do not use a storyboard grid as a reference image.
+
+## Wardrobe Lock
+
+- Never treat a digital-human asset as a wardrobe reference. It locks identity, face, age, and body only.
+- Repeat the full canonical base outfit in every segment. Writing only `同一套工装`, `延续上一段服装`, or an outfit ID without visible garment details is insufficient.
+- Carry dirt, wetness, rolled sleeves, apron, gloves, mask, and tool-belt state across adjacent shots and segments.
+- Task accessories layer over the canonical base outfit. They never replace its jacket, inner shirt, pants, or footwear unless the story explicitly records damage or a seasonal change.
+- Add `数字人原始服装`, `人物随机换装`, and the likely accessory continuity error to the negative prompt.
 
 ## Shot Template
 
@@ -43,7 +51,7 @@ Use two or three reference images. Do not say only “参考某图”; explain e
 “直接解释原因或下一步。”
 ```
 
-All four fields are mandatory. A shot may omit dialogue only when speech would damage rhythm; the segment as a whole requires 6-8 complete lines and normally 70-110 spoken Chinese characters.
+All four fields are mandatory. A shot may omit dialogue when speech would damage rhythm; the segment as a whole requires at least 4 complete lines and normally 45-80 spoken Chinese characters, with no more than one short line per action-heavy shot.
 
 ## Shot Design Rules
 
@@ -56,6 +64,42 @@ All four fields are mandatory. A shot may omit dialogue only when speech would d
 - Do not switch to an unexplained monitor, intercom, phone, or first-person view. Establish the device before showing its feed.
 - Do not assign dialogue to a speaker who is absent unless marked `画外音` or transmitted through a clearly established radio/intercom.
 - Never add individual shot seconds. The segment runtime is fixed at 15 seconds.
+
+## Performance And Dialogue Direction
+
+Digital-human assets lock identity but do not direct a performance. For every close or medium-close face shot, write one short path:
+
+```text
+起点情绪：听到未知声音后的警觉。
+微动作：手停在工具上，视线先移向电台再看同伴，短暂停顿后下颌收紧。
+终点情绪：从犹豫变成决定。
+```
+
+Use one physical cue, not a pile of acting adjectives. Good cues include a held breath, delayed blink, eyes checking a route, a hand stopping mid-task, a jaw tightening, shoulders lowering after danger passes, or a glance that avoids an injury. Do not write only `紧张`、`愤怒`、`害怕`、`高冷`.
+
+Use a face-only reaction shot when a character's changed expression is the story beat. Do not force dialogue into that shot. For example: `听到铁门外的刮擦声，白棠的视线停在监控屏上，手指离开开门键，脸上从疑惑变成警觉。`
+
+For spoken lines, require all of the following:
+
+- one visible speaker and one short sentence;
+- the mouth is visible and the body is stationary or moving slowly;
+- no line while the speaker drives, runs, fights, lifts, wears a mask, or turns away;
+- radio/intercom dialogue is written as `画外音` or `通过设备`, while the image stays on an object, route, or listener reaction;
+- cut to a reaction, an over-the-shoulder view, or a physical consequence when a line ends; do not keep one talking head speaking twice.
+
+## Camera Motivation
+
+The camera move must contribute one clear narrative function:
+
+| Situation | Recommended move | Required finish state |
+| --- | --- | --- |
+| Decision or realization | Extremely slow push-in | Hold on the committed expression or the chosen object |
+| Two-person tension | Long-lens over-the-shoulder | Both eye-lines and their physical distance remain readable |
+| Unseen danger | Locked-off wide plus off-screen sound | Keep the threat outside the frame; show a reaction or object shift |
+| Escape or rescue | Side follow-tracking | End with the character reaching the car, door, or cover |
+| Information reveal | Rack focus or slow lateral reveal | The new object or figure becomes the final focus |
+
+Use only one main move per shot. Preserve screen direction between cuts: a character exiting frame right must enter the next setup from frame left unless the edit explicitly re-establishes the geography.
 
 ## Dialogue Test
 
