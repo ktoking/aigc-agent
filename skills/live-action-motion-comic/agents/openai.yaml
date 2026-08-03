@@ -1,0 +1,4 @@
+interface:
+  display_name: "真人静帧动态漫制作流程"
+  short_description: "为短剧段落生成真人镜头、情绪配音、字幕与动态漫成片"
+  default_prompt: "使用 $live-action-motion-comic 制作指定短剧段落的真人静帧动态漫。"

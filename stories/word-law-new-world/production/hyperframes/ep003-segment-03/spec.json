@@ -1,0 +1,48 @@
+{
+  "title": "EP003 Segment 03",
+  "composition_id": "ep003-s03",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep003-segment-03",
+  "render_output": "output/ep003-segment-03-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP003_rule-auction/segment_03_30-45s/output/segment03-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "冷静者样本，进入拍卖。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷宣告。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "放开我。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚咬牙反抗。", "output": "audio/ning-01.mp3", "speech_rate": 5},
+    {"text": "他们不是在抢她的命。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压低。", "output": "audio/inner-01.mp3", "speech_rate": 4},
+    {"text": "是在抢她还清醒的脑子。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，愤怒。", "output": "audio/inner-02.mp3", "speech_rate": 4},
+    {"text": "宁晚！", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野急喊。", "output": "audio/lu-01.mp3", "speech_rate": 8},
+    {"text": "我已经死过一次。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，急促但稳。", "output": "audio/inner-03.mp3", "speech_rate": 5},
+    {"text": "不会再看她被规则拖走第二次。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，坚定。", "output": "audio/inner-04.mp3", "speech_rate": 4},
+    {"text": "她不是货。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野对规则喊话，愤怒、清晰。", "output": "audio/lu-02.mp3", "speech_rate": 0},
+    {"text": "拍卖不接受否认。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷驳回。", "output": "audio/broadcast-02.mp3", "speech_rate": -2},
+    {"text": "那就不否认。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，突然找到破口。", "output": "audio/inner-05.mp3", "speech_rate": 3},
+    {"text": "我只需要改一个字。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，痛中冷静。", "output": "audio/inner-06.mp3", "speech_rate": 4},
+    {"text": "把她的价格，改成零。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，结尾狠劲。", "output": "audio/inner-07.mp3", "speech_rate": 3}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.38, "src": "audio/ambient-rumble.m4a"},
+    {"id": "broadcast1", "start": 0.12, "duration": 1.05, "track": 11, "src": "audio/broadcast-01.mp3"},
+    {"id": "ning1", "start": 1.25, "duration": 0.55, "track": 12, "src": "audio/ning-01.mp3"},
+    {"id": "inner1", "start": 1.95, "duration": 1.05, "track": 13, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 2.95, "duration": 1.08, "track": 14, "src": "audio/inner-02.mp3"},
+    {"id": "lu1", "start": 4.25, "duration": 0.5, "track": 15, "src": "audio/lu-01.mp3"},
+    {"id": "inner3", "start": 4.9, "duration": 0.92, "track": 16, "src": "audio/inner-03.mp3"},
+    {"id": "inner4", "start": 5.82, "duration": 1.32, "track": 17, "src": "audio/inner-04.mp3"},
+    {"id": "lu2", "start": 7.55, "duration": 0.78, "track": 18, "src": "audio/lu-02.mp3"},
+    {"id": "broadcast2", "start": 8.55, "duration": 0.95, "track": 19, "src": "audio/broadcast-02.mp3"},
+    {"id": "inner5", "start": 9.65, "duration": 0.78, "track": 20, "src": "audio/inner-05.mp3"},
+    {"id": "inner6", "start": 11.0, "duration": 1.0, "track": 21, "src": "audio/inner-06.mp3"},
+    {"id": "inner7", "start": 12.02, "duration": 1.05, "track": 22, "src": "audio/inner-07.mp3"},
+    {"id": "impact", "start": 13.4, "duration": 0.3, "track": 23, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_ning_lifted.png", "start": 0, "duration": 4.1, "from_scale": 1.02, "from_x": 0, "from_y": 65, "to_scale": 1.24, "to_x": 0, "to_y": -80, "caption": "冷静者样本，进入拍卖。", "caption_start": 0.12, "bubble": "放开我。", "bubble_start": 1.25, "caption2": "是在抢她还清醒的脑子。", "caption2_start": 2.95, "rift": true},
+    {"image": "shot_02_lu_pushes.png", "start": 4.1, "duration": 3.25, "from_scale": 1.02, "from_x": -60, "from_y": 25, "to_scale": 1.23, "to_x": 55, "to_y": -50, "bubble": "宁晚！", "bubble_start": 4.25, "caption": "我已经死过一次。", "caption_start": 4.9, "caption2": "不会再看她被规则拖走第二次。", "caption2_start": 5.82},
+    {"image": "shot_03_lu_challenges.png", "start": 7.35, "duration": 3.25, "from_scale": 1.0, "from_x": 0, "from_y": 80, "to_scale": 1.24, "to_x": 0, "to_y": -90, "bubble": "她不是货。", "bubble_start": 7.55, "caption": "拍卖不接受否认。", "caption_start": 8.55, "caption2": "那就不否认。", "caption2_start": 9.65, "gold": true},
+    {"image": "shot_04_backlash_chains.png", "start": 10.6, "duration": 4.4, "from_scale": 1.02, "from_x": 30, "from_y": 45, "to_scale": 1.25, "to_x": -40, "to_y": -65, "caption": "我只需要改一个字。", "caption_start": 11.0, "caption2": "把她的价格，改成零。", "caption2_start": 12.02, "rift": true, "gold": true}
+  ]
+}

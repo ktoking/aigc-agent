@@ -1,0 +1,54 @@
+{
+  "title": "EP002 Segment 04",
+  "composition_id": "ep002-s04",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep002-segment-04",
+  "render_output": "output/ep002-segment-04-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP002_second-scribe/segment_04_45-60s/output/segment04-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "你还撑得住吗？", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚担心但克制，声音压低。", "output": "audio/ning-01.mp3", "speech_rate": 3},
+    {"text": "反噬像钉子，从骨头里往外顶。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，痛苦但压住。", "output": "audio/inner-01.mp3", "speech_rate": 3},
+    {"text": "可拍卖还没结束。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静撑住。", "output": "audio/inner-02.mp3", "speech_rate": 4},
+    {"text": "我出价。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野低声开口，坚定。", "output": "audio/lu-01.mp3", "speech_rate": -1},
+    {"text": "你疯了？", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚惊慌质问。", "output": "audio/ning-02.mp3", "speech_rate": 5},
+    {"text": "寿命不能给。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，快速判断。", "output": "audio/inner-03.mp3", "speech_rate": 5},
+    {"text": "记忆不能给。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，快速判断。", "output": "audio/inner-04.mp3", "speech_rate": 5},
+    {"text": "那就拿它最想要的东西。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，低沉、冒险。", "output": "audio/inner-05.mp3", "speech_rate": 4},
+    {"text": "检测到真名抵押。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷读取。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "拍卖暂停。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，短促停顿。", "output": "audio/broadcast-02.mp3", "speech_rate": -3},
+    {"text": "我赌的不是命。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静反制。", "output": "audio/inner-06.mp3", "speech_rate": 4},
+    {"text": "是它不敢立刻收我的命。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，聪明、狠。", "output": "audio/inner-07.mp3", "speech_rate": 4},
+    {"text": "陆野，准入规则拍卖场。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，宣布资格。", "output": "audio/broadcast-03.mp3", "speech_rate": -2},
+    {"text": "它终于不再把我当猎物。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷下来。", "output": "audio/inner-08.mp3", "speech_rate": 4},
+    {"text": "它开始把我当玩家。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，结尾钩子，带狠劲。", "output": "audio/inner-09.mp3", "speech_rate": 2}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.38, "src": "audio/ambient-rumble.m4a"},
+    {"id": "ning1", "start": 0.1, "duration": 0.85, "track": 11, "src": "audio/ning-01.mp3"},
+    {"id": "inner1", "start": 1.0, "duration": 1.25, "track": 12, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 2.22, "duration": 0.88, "track": 13, "src": "audio/inner-02.mp3"},
+    {"id": "lu1", "start": 3.35, "duration": 0.55, "track": 14, "src": "audio/lu-01.mp3"},
+    {"id": "ning2", "start": 3.95, "duration": 0.58, "track": 15, "src": "audio/ning-02.mp3"},
+    {"id": "inner3", "start": 4.75, "duration": 0.72, "track": 16, "src": "audio/inner-03.mp3"},
+    {"id": "inner4", "start": 5.48, "duration": 0.72, "track": 17, "src": "audio/inner-04.mp3"},
+    {"id": "inner5", "start": 6.2, "duration": 1.08, "track": 18, "src": "audio/inner-05.mp3"},
+    {"id": "broadcast1", "start": 7.55, "duration": 0.95, "track": 19, "src": "audio/broadcast-01.mp3"},
+    {"id": "broadcast2", "start": 8.52, "duration": 0.58, "track": 20, "src": "audio/broadcast-02.mp3"},
+    {"id": "inner6", "start": 9.3, "duration": 0.82, "track": 21, "src": "audio/inner-06.mp3"},
+    {"id": "inner7", "start": 10.12, "duration": 1.08, "track": 22, "src": "audio/inner-07.mp3"},
+    {"id": "broadcast3", "start": 11.52, "duration": 1.1, "track": 23, "src": "audio/broadcast-03.mp3"},
+    {"id": "inner8", "start": 12.76, "duration": 1.0, "track": 24, "src": "audio/inner-08.mp3"},
+    {"id": "inner9", "start": 13.7, "duration": 0.92, "track": 25, "src": "audio/inner-09.mp3"},
+    {"id": "impact", "start": 14.35, "duration": 0.3, "track": 26, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_backlash.png", "start": 0, "duration": 3.25, "from_scale": 1.02, "from_x": 30, "from_y": 40, "to_scale": 1.22, "to_x": -30, "to_y": -60, "bubble": "你还撑得住吗？", "bubble_start": 0.1, "caption": "反噬像钉子，从骨头里往外顶。", "caption_start": 1.0, "caption2": "可拍卖还没结束。", "caption2_start": 2.22, "gold": true},
+    {"image": "shot_02_true_name_bid.png", "start": 3.25, "duration": 4.2, "from_scale": 1.02, "from_x": 65, "from_y": 20, "to_scale": 1.24, "to_x": -60, "to_y": -60, "bubble": "我出价。", "bubble_start": 3.35, "caption": "寿命不能给。记忆不能给。", "caption_start": 4.75, "caption2": "那就拿它最想要的东西。", "caption2_start": 6.2, "gold": true},
+    {"image": "shot_03_auction_pauses.png", "start": 7.45, "duration": 3.95, "from_scale": 1.0, "from_x": 0, "from_y": 90, "to_scale": 1.22, "to_x": 0, "to_y": -90, "caption": "检测到真名抵押。拍卖暂停。", "caption_start": 7.55, "caption2": "是它不敢立刻收我的命。", "caption2_start": 10.12, "rift": true, "gold": true},
+    {"image": "shot_04_scribe_interest.png", "start": 11.4, "duration": 3.6, "from_scale": 1.0, "from_x": 0, "from_y": 120, "to_scale": 1.24, "to_x": 0, "to_y": -110, "caption": "陆野，准入规则拍卖场。", "caption_start": 11.52, "caption2": "它开始把我当玩家。", "caption2_start": 13.7, "rift": true, "gold": true}
+  ]
+}

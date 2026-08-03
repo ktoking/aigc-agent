@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family:"Hiragino Sans GB"; src:local("Hiragino Sans GB"); }
+      @font-face { font-family:"Songti SC"; src:local("Songti SC"); }
+      :root { --ink:#17130e; --sun:#f4d38a; --leaf:#d8a647; --paper:#f5efe2; }
+      * { box-sizing:border-box; }
+      html, body { margin:0; width:1080px; height:1920px; overflow:hidden; background:var(--ink); }
+      body { font-family:"Hiragino Sans GB", sans-serif; }
+      #root { position:relative; width:1080px; height:1920px; overflow:hidden; background:var(--ink); }
+      #photo-wrap { position:absolute; inset:-70px; overflow:hidden; transform-origin:51% 47%; }
+      #photo { width:100%; height:100%; object-fit:cover; object-position:center center; filter:saturate(.92) contrast(.98) brightness(.91); }
+      #warmth { position:absolute; inset:0; background:radial-gradient(circle at 19% 18%, rgba(255,228,158,.25), transparent 31%), linear-gradient(180deg, rgba(23,19,14,.02) 42%, rgba(23,19,14,.38) 100%); mix-blend-mode:screen; }
+      #shade { position:absolute; inset:0; background:linear-gradient(180deg, rgba(23,19,14,.06), transparent 48%, rgba(23,19,14,.66)); }
+      .leaf { position:absolute; width:52px; height:32px; border-radius:85% 10% 85% 10%; background:var(--leaf); box-shadow:0 8px 18px rgba(62,42,6,.24); opacity:0; transform-origin:50% 60%; }
+      #leaf-1 { top:430px; left:98px; transform:rotate(24deg); }
+      #leaf-2 { top:1045px; right:55px; width:38px; height:24px; transform:rotate(-38deg); background:#edc55e; }
+      #leaf-3 { top:1380px; left:210px; width:32px; height:20px; transform:rotate(67deg); background:#c8922f; }
+      #caption { position:absolute; left:74px; right:74px; bottom:154px; color:var(--paper); text-shadow:0 2px 16px rgba(0,0,0,.45); }
+      #rule { width:112px; height:3px; background:var(--sun); margin-bottom:26px; transform-origin:left center; }
+      #label { font-size:22px; letter-spacing:.19em; font-weight:500; color:rgba(245,239,226,.88); margin-bottom:18px; }
+      #line { font-family:"Songti SC", serif; font-size:57px; letter-spacing:.02em; line-height:1.18; font-weight:500; }
+      #grain { position:absolute; inset:0; opacity:.075; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E"); mix-blend-mode:soft-light; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1080" data-height="1920">
+      <div id="photo-wrap"><img id="photo" class="clip" data-start="0" data-duration="6" data-track-index="0" src="assets/campus-heroine.png" alt="秋日校园里的女主角" /></div>
+      <div id="warmth" class="clip" data-start="0" data-duration="6" data-track-index="1"></div>
+      <div id="shade" class="clip" data-start="0" data-duration="6" data-track-index="2"></div>
+      <div id="leaf-1" class="clip leaf" data-start="0" data-duration="6" data-track-index="3"></div>
+      <div id="leaf-2" class="clip leaf" data-start="0" data-duration="6" data-track-index="4"></div>
+      <div id="leaf-3" class="clip leaf" data-start="0" data-duration="6" data-track-index="5"></div>
+      <div id="caption" class="clip" data-start="0" data-duration="6" data-track-index="6"><div id="rule"></div><div id="label">AUTUMN, AFTER SCHOOL</div><div id="line">那年秋天，她回过头。</div></div>
+      <div id="grain" class="clip" data-start="0" data-duration="6" data-track-index="7"></div>
+      <audio id="narration" data-start="2.8" data-duration="2.976" data-track-index="8" src="assets/narration-edge.mp3" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused:true });
+      tl.set("#photo-wrap", { scale:1.035, x:-16, y:18 }, 0);
+      tl.to("#photo-wrap", { scale:1.095, x:20, y:-34, duration:5.82, ease:"sine.inOut" }, .18);
+      tl.set("#warmth", { opacity:0 }, 0);
+      tl.to("#warmth", { opacity:1, duration:1.1, ease:"power1.out" }, .28);
+      tl.set("#shade", { opacity:0 }, 0);
+      tl.to("#shade", { opacity:1, duration:1.6, ease:"power2.out" }, .35);
+      tl.set("#leaf-1", { opacity:0, x:-70, y:-85, rotation:-58 }, 0);
+      tl.to("#leaf-1", { opacity:.77, x:280, y:510, rotation:142, duration:4.65, ease:"sine.inOut" }, .55);
+      tl.set("#leaf-2", { opacity:0, x:90, y:-30, rotation:37 }, 0);
+      tl.to("#leaf-2", { opacity:.52, x:-185, y:350, rotation:-104, duration:3.8, ease:"sine.inOut" }, 1.15);
+      tl.set("#leaf-3", { opacity:0, y:-60, rotation:-35 }, 0);
+      tl.to("#leaf-3", { opacity:.5, x:120, y:240, rotation:136, duration:3.1, ease:"sine.inOut" }, 1.65);
+      tl.from("#rule", { scaleX:0, duration:.55, ease:"expo.out" }, 2.65);
+      tl.from("#label", { opacity:0, x:-18, duration:.55, ease:"power3.out" }, 2.82);
+      tl.from("#line", { opacity:0, y:28, duration:.9, ease:"sine.out" }, 3.1);
+      tl.to("#caption", { opacity:0, y:-10, duration:.45, ease:"power2.in" }, 5.5);
+      tl.to("#shade", { opacity:.72, duration:.6, ease:"power2.in" }, 5.38);
+      window.__timelines.main = tl;
+    </script>
+  </body>
+</html>

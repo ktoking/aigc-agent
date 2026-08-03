@@ -1,0 +1,48 @@
+{
+  "title": "EP003 Segment 02",
+  "composition_id": "ep003-s02",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep003-segment-02",
+  "render_output": "output/ep003-segment-02-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP003_rule-auction/segment_02_15-30s/output/segment02-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "所有入场者，自动估价。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷宣告。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "在这里，人不是人。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，低沉。", "output": "audio/inner-01.mp3", "speech_rate": 5},
+    {"text": "是可以被写进规则的材料。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷、压迫。", "output": "audio/inner-02.mp3", "speech_rate": 4},
+    {"text": "它盯上我了。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚低声，警惕和恐惧。", "output": "audio/ning-01.mp3", "speech_rate": 3},
+    {"text": "她的标签比别人亮。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，发现异常。", "output": "audio/inner-03.mp3", "speech_rate": 5},
+    {"text": "因为她一直保持清醒。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压低。", "output": "audio/inner-04.mp3", "speech_rate": 5},
+    {"text": "冷静，在这个世界也是一种货。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，怒意开始。", "output": "audio/inner-05.mp3", "speech_rate": 4},
+    {"text": "站到我身后。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野低声命令，保护。", "output": "audio/lu-01.mp3", "speech_rate": 0},
+    {"text": "我不可能再让规则把她带走。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，坚定。", "output": "audio/inner-06.mp3", "speech_rate": 4},
+    {"text": "样本锁定。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷短句。", "output": "audio/broadcast-02.mp3", "speech_rate": -2},
+    {"text": "陆野！", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚突然惊呼。", "output": "audio/ning-02.mp3", "speech_rate": 8},
+    {"text": "下一秒，拍卖开始点她的名。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，结尾钩子。", "output": "audio/inner-07.mp3", "speech_rate": 4}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.38, "src": "audio/ambient-rumble.m4a"},
+    {"id": "broadcast1", "start": 0.15, "duration": 1.05, "track": 11, "src": "audio/broadcast-01.mp3"},
+    {"id": "inner1", "start": 1.35, "duration": 0.85, "track": 12, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 2.18, "duration": 1.08, "track": 13, "src": "audio/inner-02.mp3"},
+    {"id": "ning1", "start": 3.55, "duration": 0.82, "track": 14, "src": "audio/ning-01.mp3"},
+    {"id": "inner3", "start": 4.55, "duration": 0.9, "track": 15, "src": "audio/inner-03.mp3"},
+    {"id": "inner4", "start": 5.42, "duration": 1.0, "track": 16, "src": "audio/inner-04.mp3"},
+    {"id": "inner5", "start": 6.7, "duration": 1.12, "track": 17, "src": "audio/inner-05.mp3"},
+    {"id": "lu1", "start": 7.85, "duration": 0.72, "track": 18, "src": "audio/lu-01.mp3"},
+    {"id": "inner6", "start": 8.65, "duration": 1.22, "track": 19, "src": "audio/inner-06.mp3"},
+    {"id": "broadcast2", "start": 10.35, "duration": 0.72, "track": 20, "src": "audio/broadcast-02.mp3"},
+    {"id": "ning2", "start": 11.15, "duration": 0.52, "track": 21, "src": "audio/ning-02.mp3"},
+    {"id": "inner7", "start": 11.9, "duration": 1.35, "track": 22, "src": "audio/inner-07.mp3"},
+    {"id": "impact", "start": 14.0, "duration": 0.3, "track": 23, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_crowd_priced.png", "start": 0, "duration": 3.35, "from_scale": 1.0, "from_x": 0, "from_y": 80, "to_scale": 1.22, "to_x": 0, "to_y": -90, "caption": "所有入场者，自动估价。", "caption_start": 0.15, "caption2": "人，是可以被写进规则的材料。", "caption2_start": 2.18, "rift": true},
+    {"image": "shot_02_ning_marked.png", "start": 3.35, "duration": 3.2, "from_scale": 1.03, "from_x": 40, "from_y": 20, "to_scale": 1.23, "to_x": -45, "to_y": -50, "bubble": "它盯上我了。", "bubble_start": 3.55, "caption": "她的标签比别人亮。", "caption_start": 4.55, "caption2": "因为她一直保持清醒。", "caption2_start": 5.42},
+    {"image": "shot_03_lu_reacts.png", "start": 6.55, "duration": 3.65, "from_scale": 1.02, "from_x": -50, "from_y": 25, "to_scale": 1.22, "to_x": 50, "to_y": -45, "caption": "冷静，在这个世界也是一种货。", "caption_start": 6.7, "bubble": "站到我身后。", "bubble_start": 7.85, "caption2": "我不可能再让规则把她带走。", "caption2_start": 8.65, "gold": true},
+    {"image": "shot_04_tags_chain.png", "start": 10.2, "duration": 4.8, "from_scale": 1.0, "from_x": 0, "from_y": 70, "to_scale": 1.24, "to_x": 0, "to_y": -80, "caption": "样本锁定。", "caption_start": 10.35, "bubble": "陆野！", "bubble_start": 11.15, "caption2": "拍卖开始点她的名。", "caption2_start": 11.9, "rift": true}
+  ]
+}

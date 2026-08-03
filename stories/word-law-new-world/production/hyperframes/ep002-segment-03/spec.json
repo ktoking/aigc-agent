@@ -1,0 +1,50 @@
+{
+  "title": "EP002 Segment 03",
+  "composition_id": "ep002-s03",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep002-segment-03",
+  "render_output": "output/ep002-segment-03-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP002_second-scribe/segment_03_30-45s/output/segment03-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "临时规则，火焰听命。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷淡宣告规则生效。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "真的成了。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陌生幸存者惊喜、发抖，像不敢相信。", "output": "audio/survivor-01.mp3", "speech_rate": 4},
+    {"text": "他以为自己赢了。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静、带怜悯。", "output": "audio/inner-01.mp3", "speech_rate": 5},
+    {"text": "可规则给出的力量，从来不带刹车。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压低，危险预感。", "output": "audio/inner-02.mp3", "speech_rate": 4},
+    {"text": "我的言灵还能用一次。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，快速判断。", "output": "audio/inner-03.mp3", "speech_rate": 5},
+    {"text": "命令越短，反噬越轻。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静规则说明。", "output": "audio/inner-04.mp3", "speech_rate": 5},
+    {"text": "但要让火听懂，就必须足够明确。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，紧张计算。", "output": "audio/inner-05.mp3", "speech_rate": 5},
+    {"text": "后退！", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚急促大喊，保护人群。", "output": "audio/ning-01.mp3", "speech_rate": 8},
+    {"text": "宁晚，低头！", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野急喊，命令但不是言灵。", "output": "audio/lu-01.mp3", "speech_rate": 8},
+    {"text": "上一世，我没来得及喊她的名字。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，痛感闪回。", "output": "audio/inner-06.mp3", "speech_rate": 4},
+    {"text": "伏。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野言灵命令，极短、低沉、有压迫。", "output": "audio/lu-command.mp3", "speech_rate": -4},
+    {"text": "这一次，我只用一个字。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压住反噬。", "output": "audio/inner-07.mp3", "speech_rate": 4},
+    {"text": "也要把她从死局里拉回来。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，坚定、收尾。", "output": "audio/inner-08.mp3", "speech_rate": 4}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.38, "src": "audio/ambient-rumble.m4a"},
+    {"id": "broadcast1", "start": 0.12, "duration": 1.0, "track": 11, "src": "audio/broadcast-01.mp3"},
+    {"id": "survivor1", "start": 1.25, "duration": 0.62, "track": 12, "src": "audio/survivor-01.mp3"},
+    {"id": "inner1", "start": 1.95, "duration": 0.92, "track": 13, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 2.9, "duration": 1.25, "track": 14, "src": "audio/inner-02.mp3"},
+    {"id": "inner3", "start": 4.22, "duration": 0.95, "track": 15, "src": "audio/inner-03.mp3"},
+    {"id": "inner4", "start": 5.12, "duration": 0.95, "track": 16, "src": "audio/inner-04.mp3"},
+    {"id": "inner5", "start": 6.08, "duration": 1.22, "track": 17, "src": "audio/inner-05.mp3"},
+    {"id": "ning1", "start": 7.55, "duration": 0.45, "track": 18, "src": "audio/ning-01.mp3"},
+    {"id": "lu1", "start": 8.12, "duration": 0.65, "track": 19, "src": "audio/lu-01.mp3"},
+    {"id": "inner6", "start": 8.82, "duration": 1.35, "track": 20, "src": "audio/inner-06.mp3"},
+    {"id": "command", "start": 10.85, "duration": 0.42, "track": 21, "src": "audio/lu-command.mp3"},
+    {"id": "inner7", "start": 11.62, "duration": 1.0, "track": 22, "src": "audio/inner-07.mp3"},
+    {"id": "inner8", "start": 12.65, "duration": 1.22, "track": 23, "src": "audio/inner-08.mp3"},
+    {"id": "impact", "start": 10.86, "duration": 0.3, "track": 24, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_fire_obeys.png", "start": 0, "duration": 4.15, "from_scale": 1.02, "from_x": 40, "from_y": 30, "to_scale": 1.26, "to_x": -45, "to_y": -80, "caption": "临时规则，火焰听命。", "caption_start": 0.12, "caption2": "可规则给出的力量，从来不带刹车。", "caption2_start": 2.9, "gold": true},
+    {"image": "shot_02_lu_calculates.png", "start": 4.15, "duration": 3.25, "from_scale": 1.03, "from_x": 60, "from_y": 15, "to_scale": 1.23, "to_x": -50, "to_y": -45, "caption": "命令越短，反噬越轻。", "caption_start": 5.12, "caption2": "必须足够明确。", "caption2_start": 6.08, "gold": true},
+    {"image": "shot_03_fire_rushes_ning.png", "start": 7.4, "duration": 3.35, "from_scale": 1.02, "from_x": -70, "from_y": 45, "to_scale": 1.24, "to_x": 55, "to_y": -55, "bubble": "后退！", "bubble_start": 7.55, "caption": "宁晚，低头！", "caption_start": 8.12, "caption2": "上一世，我没来得及喊她的名字。", "caption2_start": 8.82},
+    {"image": "shot_04_fire_kneels.png", "start": 10.75, "duration": 4.25, "from_scale": 1.0, "from_x": 0, "from_y": 70, "to_scale": 1.23, "to_x": 0, "to_y": -70, "bubble": "伏。", "bubble_start": 10.85, "caption": "这一次，我只用一个字。", "caption_start": 11.62, "caption2": "也要把她从死局里拉回来。", "caption2_start": 12.65, "gold": true}
+  ]
+}

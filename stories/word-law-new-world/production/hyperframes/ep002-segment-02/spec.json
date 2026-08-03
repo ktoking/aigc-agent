@@ -1,0 +1,54 @@
+{
+  "title": "EP002 Segment 02",
+  "composition_id": "ep002-s02",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep002-segment-02",
+  "render_output": "output/ep002-segment-02-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP002_second-scribe/segment_02_15-30s/output/segment02-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "竞价物，可为记忆。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷淡宣告规则。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "可为寿命。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷淡宣告规则。", "output": "audio/broadcast-02.mp3", "speech_rate": -2},
+    {"text": "可为真名。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，最后一项更危险。", "output": "audio/broadcast-03.mp3", "speech_rate": -2},
+    {"text": "它没有解释活下去。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静识破陷阱。", "output": "audio/inner-01.mp3", "speech_rate": 5},
+    {"text": "它只解释拿什么换。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，低沉、危险。", "output": "audio/inner-02.mp3", "speech_rate": 5},
+    {"text": "我出价！让我活！", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陌生幸存者崩溃喊叫，急促、绝望。", "output": "audio/survivor-01.mp3", "speech_rate": 8},
+    {"text": "上一世，我见过这种眼神。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，回忆感，压低。", "output": "audio/inner-03.mp3", "speech_rate": 5},
+    {"text": "快死的人，最容易相信交易。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静且沉痛。", "output": "audio/inner-04.mp3", "speech_rate": 4},
+    {"text": "你放手。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚压低声音，警惕且生气。", "output": "audio/ning-01.mp3", "speech_rate": 3},
+    {"text": "别碰那东西。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野低声命令，短促、急。", "output": "audio/lu-01.mp3", "speech_rate": 0},
+    {"text": "凭什么信你？", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚质问，防备、不服。", "output": "audio/ning-02.mp3", "speech_rate": 4},
+    {"text": "因为我见过它收账。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，低沉、确定。", "output": "audio/inner-05.mp3", "speech_rate": 4},
+    {"text": "出价成立。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷确认。", "output": "audio/broadcast-04.mp3", "speech_rate": -2},
+    {"text": "规则从不骗人。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷。", "output": "audio/inner-06.mp3", "speech_rate": 4},
+    {"text": "它只是不说完整。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，收尾压迫。", "output": "audio/inner-07.mp3", "speech_rate": 2}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.42, "src": "audio/ambient-rumble.m4a"},
+    {"id": "broadcast1", "start": 0.12, "duration": 0.72, "track": 11, "src": "audio/broadcast-01.mp3"},
+    {"id": "broadcast2", "start": 0.86, "duration": 0.58, "track": 12, "src": "audio/broadcast-02.mp3"},
+    {"id": "broadcast3", "start": 1.48, "duration": 0.62, "track": 13, "src": "audio/broadcast-03.mp3"},
+    {"id": "inner1", "start": 2.15, "duration": 1.0, "track": 14, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 3.08, "duration": 1.0, "track": 15, "src": "audio/inner-02.mp3"},
+    {"id": "survivor1", "start": 4.2, "duration": 0.92, "track": 16, "src": "audio/survivor-01.mp3"},
+    {"id": "inner3", "start": 5.12, "duration": 1.1, "track": 17, "src": "audio/inner-03.mp3"},
+    {"id": "inner4", "start": 6.15, "duration": 1.28, "track": 18, "src": "audio/inner-04.mp3"},
+    {"id": "ning1", "start": 7.65, "duration": 0.55, "track": 19, "src": "audio/ning-01.mp3"},
+    {"id": "lu1", "start": 8.25, "duration": 0.7, "track": 20, "src": "audio/lu-01.mp3"},
+    {"id": "ning2", "start": 9.05, "duration": 0.7, "track": 21, "src": "audio/ning-02.mp3"},
+    {"id": "inner5", "start": 9.78, "duration": 1.05, "track": 22, "src": "audio/inner-05.mp3"},
+    {"id": "broadcast4", "start": 11.05, "duration": 0.72, "track": 23, "src": "audio/broadcast-04.mp3"},
+    {"id": "inner6", "start": 12.05, "duration": 0.88, "track": 24, "src": "audio/inner-06.mp3"},
+    {"id": "inner7", "start": 12.95, "duration": 1.05, "track": 25, "src": "audio/inner-07.mp3"},
+    {"id": "impact", "start": 14.08, "duration": 0.3, "track": 26, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_auction_panels.png", "start": 0, "duration": 4.1, "from_scale": 1.02, "from_x": 0, "from_y": 70, "to_scale": 1.24, "to_x": 0, "to_y": -100, "caption": "竞价物，可为记忆。可为寿命。可为真名。", "caption_start": 0.12, "caption2": "它只解释拿什么换。", "caption2_start": 3.08, "rift": true},
+    {"image": "shot_02_survivor_bids.png", "start": 4.1, "duration": 3.4, "from_scale": 1.02, "from_x": 50, "from_y": 40, "to_scale": 1.25, "to_x": -50, "to_y": -40, "bubble": "我出价！让我活！", "bubble_start": 4.2, "caption": "快死的人，最容易相信交易。", "caption_start": 6.15, "gold": true},
+    {"image": "shot_03_lu_blocks_ning.png", "start": 7.5, "duration": 3.45, "from_scale": 1.02, "from_x": -60, "from_y": 35, "to_scale": 1.22, "to_x": 50, "to_y": -40, "bubble": "你放手。", "bubble_start": 7.65, "caption": "别碰那东西。", "caption_start": 8.25, "caption2": "因为我见过它收账。", "caption2_start": 9.78},
+    {"image": "shot_04_cost_drained.png", "start": 10.95, "duration": 4.05, "from_scale": 1.02, "from_x": 0, "from_y": 70, "to_scale": 1.26, "to_x": -40, "to_y": -90, "caption": "出价成立。", "caption_start": 11.05, "caption2": "它只是不说完整。", "caption2_start": 12.95, "rift": true}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "EP003 Segment 01",
+  "composition_id": "ep003-s01",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep003-segment-01",
+  "render_output": "output/ep003-segment-01-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP003_rule-auction/segment_01_00-15s/output/segment01-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "拍卖场不是另一个地方。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，低沉，进入新空间的震撼。", "output": "audio/inner-01.mp3", "speech_rate": 5},
+    {"text": "它就藏在现实下面。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷静解释。", "output": "audio/inner-02.mp3", "speech_rate": 5},
+    {"text": "只要规则点头，整座城都会变成它的桌面。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压迫、电影感。", "output": "audio/inner-03.mp3", "speech_rate": 4},
+    {"text": "这是什么地方？", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚压低声音，警惕、震惊。", "output": "audio/ning-01.mp3", "speech_rate": 4},
+    {"text": "规则的后台。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野低声回答，短、稳。", "output": "audio/lu-01.mp3", "speech_rate": 0},
+    {"text": "上一世没人活着走到这里。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，沉重。", "output": "audio/inner-04.mp3", "speech_rate": 4},
+    {"text": "准入者，陆野。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷淡宣告。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "携带未登记同行者一名。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，危险地读出宁晚。", "output": "audio/broadcast-02.mp3", "speech_rate": -2},
+    {"text": "它在数人。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，短促。", "output": "audio/inner-05.mp3", "speech_rate": 4},
+    {"text": "也在数价。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压低收紧。", "output": "audio/inner-06.mp3", "speech_rate": 4},
+    {"text": "下一轮拍卖，开始。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，庄严开启。", "output": "audio/broadcast-03.mp3", "speech_rate": -2},
+    {"text": "我看见门后站着很多人。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，压迫感。", "output": "audio/inner-07.mp3", "speech_rate": 4},
+    {"text": "每个人头顶，都有一个价格。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，结尾钩子。", "output": "audio/inner-08.mp3", "speech_rate": 3}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.38, "src": "audio/ambient-rumble.m4a"},
+    {"id": "inner1", "start": 0.15, "duration": 0.95, "track": 11, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 1.08, "duration": 0.88, "track": 12, "src": "audio/inner-02.mp3"},
+    {"id": "inner3", "start": 1.92, "duration": 1.45, "track": 13, "src": "audio/inner-03.mp3"},
+    {"id": "ning1", "start": 3.55, "duration": 0.75, "track": 14, "src": "audio/ning-01.mp3"},
+    {"id": "lu1", "start": 4.35, "duration": 0.62, "track": 15, "src": "audio/lu-01.mp3"},
+    {"id": "inner4", "start": 5.05, "duration": 1.05, "track": 16, "src": "audio/inner-04.mp3"},
+    {"id": "broadcast1", "start": 6.45, "duration": 0.75, "track": 17, "src": "audio/broadcast-01.mp3"},
+    {"id": "broadcast2", "start": 7.22, "duration": 1.05, "track": 18, "src": "audio/broadcast-02.mp3"},
+    {"id": "inner5", "start": 8.55, "duration": 0.62, "track": 19, "src": "audio/inner-05.mp3"},
+    {"id": "inner6", "start": 9.15, "duration": 0.62, "track": 20, "src": "audio/inner-06.mp3"},
+    {"id": "broadcast3", "start": 10.55, "duration": 0.95, "track": 21, "src": "audio/broadcast-03.mp3"},
+    {"id": "inner7", "start": 11.75, "duration": 1.05, "track": 22, "src": "audio/inner-07.mp3"},
+    {"id": "inner8", "start": 12.85, "duration": 1.25, "track": 23, "src": "audio/inner-08.mp3"},
+    {"id": "impact", "start": 14.2, "duration": 0.3, "track": 24, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_auction_field.png", "start": 0, "duration": 3.45, "from_scale": 1.0, "from_x": 0, "from_y": 120, "to_scale": 1.24, "to_x": 0, "to_y": -120, "caption": "拍卖场不是另一个地方。", "caption_start": 0.15, "caption2": "整座城都会变成它的桌面。", "caption2_start": 1.92, "rift": true},
+    {"image": "shot_02_lu_ning_react.png", "start": 3.45, "duration": 2.8, "from_scale": 1.03, "from_x": -50, "from_y": 20, "to_scale": 1.22, "to_x": 45, "to_y": -40, "bubble": "这是什么地方？", "bubble_start": 3.55, "caption": "规则的后台。", "caption_start": 4.35, "caption2": "上一世没人活着走到这里。", "caption2_start": 5.05},
+    {"image": "shot_03_scribe_presides.png", "start": 6.25, "duration": 4.1, "from_scale": 1.0, "from_x": 0, "from_y": 120, "to_scale": 1.23, "to_x": 0, "to_y": -130, "caption": "准入者，陆野。", "caption_start": 6.45, "caption2": "它在数人，也在数价。", "caption2_start": 8.55, "rift": true, "gold": true},
+    {"image": "shot_04_gate_opens.png", "start": 10.35, "duration": 4.65, "from_scale": 1.0, "from_x": 0, "from_y": 70, "to_scale": 1.22, "to_x": 0, "to_y": -90, "caption": "下一轮拍卖，开始。", "caption_start": 10.55, "caption2": "每个人头顶，都有一个价格。", "caption2_start": 12.85, "rift": true, "gold": true}
+  ]
+}

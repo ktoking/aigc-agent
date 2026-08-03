@@ -1,0 +1,46 @@
+{
+  "title": "EP003 Segment 04",
+  "composition_id": "ep003-s04",
+  "project_dir": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep003-segment-04",
+  "render_output": "output/ep003-segment-04-draft.mp4",
+  "copy_output_to": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/episodes/EP003_rule-auction/segment_04_45-60s/output/segment04-live-motion-comic.mp4",
+  "tts_script": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/scripts/synthesize_doubao_tts.py",
+  "copy_audio": [
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/ambient-rumble.m4a", "to": "audio/ambient-rumble.m4a"},
+    {"from": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/word-law-new-world/production/hyperframes/ep001-segment-04/audio/impact.m4a", "to": "audio/impact.m4a"}
+  ],
+  "tts": [
+    {"text": "拍卖不接受否认。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，痛中冷静。", "output": "audio/inner-01.mp3", "speech_rate": 4},
+    {"text": "但它接受价格。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，找到破口。", "output": "audio/inner-02.mp3", "speech_rate": 4},
+    {"text": "归零。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "陆野言灵命令，低沉、狠、短。", "output": "audio/lu-command.mp3", "speech_rate": -5},
+    {"text": "底价异常。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，出现系统异常。", "output": "audio/broadcast-01.mp3", "speech_rate": -2},
+    {"text": "陆野！", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "宁晚脱困后急喊。", "output": "audio/ning-01.mp3", "speech_rate": 7},
+    {"text": "她的价格消失了。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，松一口气但还危险。", "output": "audio/inner-03.mp3", "speech_rate": 4},
+    {"text": "我没有赢。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，清醒。", "output": "audio/inner-04.mp3", "speech_rate": 4},
+    {"text": "我只是把桌子掀开了一角。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，冷、爽。", "output": "audio/inner-05.mp3", "speech_rate": 4},
+    {"text": "规则污染确认。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，危险警报。", "output": "audio/broadcast-02.mp3", "speech_rate": -2},
+    {"text": "清除程序，启动。", "speaker": "ICL_uranus_zh_female_xingganmeihuo_tob", "context": "机械广播女声，冷酷宣判。", "output": "audio/broadcast-03.mp3", "speech_rate": -2},
+    {"text": "下一秒，拍卖场派出了真正的猎犬。", "speaker": "zh_male_taocheng_uranus_bigtts", "context": "男主陆野内心旁白，结尾钩子。", "output": "audio/inner-06.mp3", "speech_rate": 3}
+  ],
+  "audio": [
+    {"id": "ambient", "start": 0, "duration": 15, "track": 10, "volume": 0.38, "src": "audio/ambient-rumble.m4a"},
+    {"id": "inner1", "start": 0.15, "duration": 0.95, "track": 11, "src": "audio/inner-01.mp3"},
+    {"id": "inner2", "start": 1.12, "duration": 0.82, "track": 12, "src": "audio/inner-02.mp3"},
+    {"id": "command", "start": 2.15, "duration": 0.45, "track": 13, "src": "audio/lu-command.mp3"},
+    {"id": "broadcast1", "start": 3.65, "duration": 0.72, "track": 14, "src": "audio/broadcast-01.mp3"},
+    {"id": "ning1", "start": 4.55, "duration": 0.52, "track": 15, "src": "audio/ning-01.mp3"},
+    {"id": "inner3", "start": 5.15, "duration": 0.92, "track": 16, "src": "audio/inner-03.mp3"},
+    {"id": "inner4", "start": 6.55, "duration": 0.72, "track": 17, "src": "audio/inner-04.mp3"},
+    {"id": "inner5", "start": 7.25, "duration": 1.12, "track": 18, "src": "audio/inner-05.mp3"},
+    {"id": "broadcast2", "start": 8.65, "duration": 0.82, "track": 19, "src": "audio/broadcast-02.mp3"},
+    {"id": "broadcast3", "start": 10.65, "duration": 0.9, "track": 20, "src": "audio/broadcast-03.mp3"},
+    {"id": "inner6", "start": 11.8, "duration": 1.45, "track": 21, "src": "audio/inner-06.mp3"},
+    {"id": "impact", "start": 14.05, "duration": 0.3, "track": 22, "volume": 0.85, "src": "audio/impact.m4a"}
+  ],
+  "shots": [
+    {"image": "shot_01_lu_zero_bid.png", "start": 0, "duration": 3.35, "from_scale": 1.02, "from_x": 40, "from_y": 35, "to_scale": 1.24, "to_x": -40, "to_y": -55, "caption": "拍卖不接受否认。", "caption_start": 0.15, "caption2": "归零。", "caption2_start": 2.15, "gold": true},
+    {"image": "shot_02_ning_freed.png", "start": 3.35, "duration": 3.0, "from_scale": 1.02, "from_x": 0, "from_y": 60, "to_scale": 1.22, "to_x": 0, "to_y": -55, "caption": "底价异常。", "caption_start": 3.65, "bubble": "陆野！", "bubble_start": 4.55, "caption2": "她的价格消失了。", "caption2_start": 5.15, "rift": true},
+    {"image": "shot_03_auction_glitches.png", "start": 6.35, "duration": 4.1, "from_scale": 1.02, "from_x": -35, "from_y": 35, "to_scale": 1.23, "to_x": 45, "to_y": -55, "caption": "我没有赢。", "caption_start": 6.55, "caption2": "规则污染确认。", "caption2_start": 8.65, "gold": true},
+    {"image": "shot_04_rule_hunter.png", "start": 10.45, "duration": 4.55, "from_scale": 1.0, "from_x": 0, "from_y": 70, "to_scale": 1.24, "to_x": 0, "to_y": -80, "caption": "清除程序，启动。", "caption_start": 10.65, "caption2": "拍卖场派出了真正的猎犬。", "caption2_start": 11.8, "rift": true}
+  ]
+}
