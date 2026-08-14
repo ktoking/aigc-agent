@@ -46,6 +46,8 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 
 参考图不是素材越多越好；每张图必须有明确职责，并在 `director-promt.txt` 中按 API 输入顺序写成“参考图1/参考图2/参考图3”。API 没有真正的 `@图片` 语法，`@` 只会变成普通文本；靠图片输入顺序和文字说明建立对应关系。
 
+`scripts/ark_video.py` 的 API content 顺序固定为：所有 `--digital-human`，然后所有本地 `--image`，最后所有 `--image-url`。但提示词要把两类输入分层：数字人资产在最上方写成“数字人身份锁”，不占 `参考图N` 编号；`参考图1..N` 只按本地 `--image`、再按 `--image-url` 的顺序编号。上一段尾帧只要通过 `--image` 传入，就必须占一个连续编号。多人物任务必须使用 `--digital-human "角色名=asset://asset-..."`，并为每个非人物图片提供同序标签。脚本会校验数字人是否在参考图区块之前具名声明，以及非人物图片标签、数量和编号是否一致。
+
 默认策略：
 
 1. 参考图1：`frames/first-frame.png`，锁定 0 秒桥接画面和人物站位。
@@ -73,6 +75,7 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 
 - **参考图数量**：默认 3-5 张；自动默认只有首帧和尾帧，其他资产必须按段显式追加；不上传整张故事板表格。
 - **角色锁定**：列出每个角色的不可变特征；对特殊标记（例如“林晚左眼角下一颗痣”）单独标成 QA 项。
+- **角色与图片映射**：多数字人必须具名提交并放在提示词最上方的身份锁中，不计入 `参考图`；检查 `参考图1..N` 与尾帧、场景图、道具图和平台图片 URL 的顺序完全一致。两个男性数字人跨空间切换时，优先拆成单角色短片后拼接。
 - **首尾帧一致**：首帧负责开场环境，尾帧负责收束构图；不要用错误角色或旧版本尾帧。
 - **时间轴完整**：15 秒必须拆成明确时间段，不能只写一段泛泛描述。
 - **运镜明确**：每段必须写景别、镜头运动和主体动作，避免只做静态拉图。
@@ -81,8 +84,20 @@ Seedance 2.0/2.0 Fast 不要直接上传本地含人脸参考图。需要人脸�
 - **原生音频边界**：Seedance 原生音频优先当作环境声、动作声、群体反应声使用。不要在一个 15 秒任务里依赖多角色精准对白和精确说话人归属；如果台词归属很重要，优先后期配音/剪辑，或只保留一个可见说话人、一句短台词，并明确其他角色全程不说话。
 - **合规说明**：本地人物图必须包含“AI 虚构角色，不含真人隐私信息”说明。
 - **失败停止线**：隐私拦截、角色错脸、参考图缺失、参数 400 时停止，不自动换图重试。
+- **四段串行验收**：用户要求提交整集四段时，只能按 Segment01、02、03、04 串行执行。上一段必须完成下载、抽帧和视听检查，并以 `scripts/ark_video.py qa --status passed` 写入 `output/video-qa.json` 后，才允许提交下一段。任何一段标记 `rejected`，立即停止整集后续提交，不自动重生成问题段，也不继续生成下一段。
 
 只有当以上门禁都通过，且用户已经明确授权生成，才提交正式视频任务。若用户已经明确说“用这些图生成视频”，视为授权一次提交；失败后仍需再次确认才可重试或换平台。
+
+禁止并发提交同一集的四段视频。`scripts/ark_video.py` 默认检查上一段的 `output/video-qa.json`；Segment02 至 Segment04 在上一段未验收通过时会拒绝正式提交。每段完成后至少检查开头、中段、结尾和每次切镜附近的画面，确认人物脸、发型、服装、人数、场景、道具动作、口型归属和音频都没有明显错误，再记录：
+
+```bash
+python3 scripts/ark_video.py qa \
+  --segment stories/<story-id>/episodes/<episode>/segment_01_00-15s \
+  --status passed \
+  --notes "已检查人物、服装、场景、动作、口型和声音，未发现阻断问题"
+```
+
+发现错脸、人物增生、服装漂移、动作因果错误、口型错人、嘴瓢严重或画面断裂时，改用 `--status rejected` 记录问题并停止，不得提交下一段。
 
 门禁计划格式：
 
@@ -282,10 +297,16 @@ python3 scripts/ark_video.py submit \
   --ratio 9:16 \
   --resolution 720p \
   --prompt-file stories/<story-id>/episodes/<episode>/segment_01_00-15s/director-promt.txt \
+  --digital-human "角色A=asset://asset-..." \
+  --digital-human "角色B=asset://asset-..." \
   --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/first-frame.png \
+  --image-label "本段首帧" \
   --image stories/<story-id>/episodes/<episode>/segment_01_00-15s/frames/last-frame.png \
+  --image-label "本段尾帧" \
   --image stories/<story-id>/assets/characters/<CHARACTER_ID>/03-360-turnaround/character-turnaround.png \
+  --image-label "角色动作参考" \
   --image stories/<story-id>/assets/scenes/<SCENE_ID>/<scene-reference>.png \
+  --image-label "场景结构参考" \
   --generate-audio \
   --privacy-retry 0 \
   --quiet

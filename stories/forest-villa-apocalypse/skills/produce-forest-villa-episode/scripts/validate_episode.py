@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import re
 import sys
 from pathlib import Path
@@ -33,6 +34,7 @@ DIGITAL_HUMANS = {
     "白棠": "asset://asset-20260320075131-k78qt",
     "沈知夏": "asset://asset-20260310030618-88hlb",
     "罗彪": "asset://asset-20260310022222-kjz8z",
+    "顾承泽": "asset://asset-20260720210545-pxk4m",
 }
 OUTFIT_LOCKS = {
     "许砚": (
@@ -132,16 +134,20 @@ def validate_segment(repo_root: Path, segment: Path, errors: list[str]) -> None:
         add_error(errors, director, f"dialogue too dense for 15 seconds: found {dialogue_chars} spoken characters")
 
     api_request = segment / "api-request.md"
+    # A radio-only character can be named in the prompt without appearing on screen.
+    # Require an asset only when the prompt actually locks that character's asset.
     required_humans = {
         name: asset_id
         for name, asset_id in DIGITAL_HUMANS.items()
-        if name in body
+        if asset_id in body or asset_id.removeprefix("asset://") in body
     }
     if api_request.is_file():
         api_text = api_request.read_text(encoding="utf-8")
         for name, asset_id in required_humans.items():
             if asset_id not in api_text:
                 add_error(errors, api_request, f"missing digital human for {name}: {asset_id}")
+    else:
+        api_text = ""
 
     request_payload = segment / "output" / "api-request-payload.json"
     if request_payload.is_file():
@@ -149,6 +155,47 @@ def validate_segment(repo_root: Path, segment: Path, errors: list[str]) -> None:
         for name, asset_id in required_humans.items():
             if asset_id not in payload_text:
                 add_error(errors, request_payload, f"digital human for {name} was not submitted as image_url: {asset_id}")
+        if "- 任务状态：submitted" in api_text:
+            try:
+                payload = json.loads(payload_text)
+            except json.JSONDecodeError as exc:
+                add_error(errors, request_payload, f"invalid JSON: {exc}")
+            else:
+                image_parts = [part for part in payload.get("content", []) if part.get("type") == "image_url"]
+                digital_parts = [
+                    part for part in image_parts
+                    if str(part.get("image_url", {}).get("url", "")).startswith("asset://")
+                ]
+                non_human_parts = [
+                    part for part in image_parts
+                    if not str(part.get("image_url", {}).get("url", "")).startswith("asset://")
+                ]
+                reference_lines = {
+                    int(match.group(1)): match.group(2).strip()
+                    for match in re.finditer(r"^参考图(\d+)[：:]\s*(.+)$", text, re.MULTILINE)
+                }
+                expected_numbers = list(range(1, len(non_human_parts) + 1))
+                if sorted(reference_lines) != expected_numbers:
+                    add_error(
+                        errors,
+                        director,
+                        "reference numbering does not match submitted non-human images: "
+                        f"expected {expected_numbers}, found {sorted(reference_lines)}",
+                    )
+                first_reference = re.search(r"^参考图\d+[：:]", text, re.MULTILINE)
+                identity_header = text[: first_reference.start()] if first_reference else text
+                for part in digital_parts:
+                    url = str(part.get("image_url", {}).get("url", ""))
+                    name = next((key for key, asset_id in DIGITAL_HUMANS.items() if asset_id == url), None)
+                    asset_id = url.removeprefix("asset://")
+                    if name and (name not in identity_header or asset_id not in identity_header):
+                        add_error(
+                            errors,
+                            director,
+                            f"identity header does not bind {name} to {asset_id}",
+                        )
+                    if any(asset_id in description for description in reference_lines.values()):
+                        add_error(errors, director, f"digital human {name or asset_id} must not be numbered as 参考图")
     elif (segment / "output" / "api-submit.json").is_file():
         add_error(errors, request_payload, "missing submitted request payload; digital-human inputs cannot be verified")
 

@@ -1,34 +1,30 @@
 # EP002 图像资产清单
 
-## 人类审阅资产
+## 角色与场景参考
 
-| 类型 | 资产 | 状态 | 用途 |
+| 类型 | 资产 | 用途 | 状态 |
 | --- | --- | --- | --- |
-| 风格 | `assets/style/user-anime-style-reference.png` | 已有 | 暗黑都市幻想动漫总风格 |
-| 角色 | `assets/characters/SMA_GU_CHEN_001/canonical-turnaround.png` | 已有 | 顾沉脸与服装锁定 |
-| 角色 | `assets/characters/SMA_GU_XIAOMAN_001/canonical-turnaround.png` | 已有 | 顾小满黑发病号服锁定 |
-| 场景 | `assets/scenes/SCENE_LOW_PERMISSION_CLINIC_001/canonical-concept.png` | 已有 | Segment 01 病房 |
-| 场景 | `assets/scenes/SCENE_SYSTEM_RECYCLE_STATION_001/canonical-concept.png` | 已生成并目检 | Segment 01 尾部至 Segment 04 主空间 |
-| 道具 | `assets/props/PROP_DISCARDED_SYSTEM_CORE_001/canonical-concept.png` | 已生成并目检 | 废核心外观与尺度锁定；已移除设计稿文字版 |
+| 风格 | assets/style/user-anime-style-reference.png | 暗黑都市幻想动漫风格 | 已有 |
+| 角色 | assets/characters/SMA_GU_CHEN_001/canonical-turnaround.png | 顾沉脸、发型、工装 | 已有 |
+| 角色 | assets/characters/SMA_ZHAO_TIANLIN_001/canonical-turnaround.png | 赵天麟脸、礼服、腕环 | 已有 |
+| 场景 | assets/scenes/SCENE_AWAKENING_HALL_001/canonical-concept.png | 觉醒礼堂空间、阶级站位 | 已有 |
+| 道具 | assets/props/PROP_AWAKENING_TERMINAL_001/prop-card.md | 觉醒终端形态与管理员裂线 | 已有 |
 
-## 本集首尾帧
+## 本集关键帧
 
-| 段落 | 首帧 | 尾帧 | 状态 |
-| --- | --- | --- | --- |
-| Segment 01 | `segment_01_00-15s/frames/first-frame.png` | `segment_01_00-15s/frames/last-frame.png` | 已生成并目检 |
-| Segment 02 | `segment_02_15-30s/frames/first-frame.png` | `segment_02_15-30s/frames/last-frame.png` | 已生成并目检 |
-| Segment 03 | `segment_03_30-45s/frames/first-frame.png` | `segment_03_30-45s/frames/last-frame.png` | 已生成并目检 |
-| Segment 04 | `segment_04_45-60s/frames/first-frame.png` | `segment_04_45-60s/frames/last-frame.png` | 已生成并目检 |
+| 资产 | 用途 | 状态 |
+| --- | --- | --- |
+| segment_01_00-15s/frames/first-frame.png | 五类系统升空、顾沉位于最低层 | 已用本地 ImageGen 覆盖 |
+| segment_01_00-15s/frames/last-frame.png | 赵天麟启动神豪腕环、付款卡落地、顾沉仍站立 | 已用本地 ImageGen 覆盖 |
+| segment_02_15-30s/frames/first-frame.png | 复用 Segment 01 尾帧 | 已复用 |
+| segment_02_15-30s/frames/last-frame.png | 封禁后腕环失灵、顾沉与终端暗红线连续 | 已用本地 ImageGen 覆盖 |
+| segment_03_30-45s/frames/first-frame.png | 复用 Segment 02 尾帧 | 已复用 |
+| segment_03_30-45s/frames/last-frame.png | 神豪节点空白、赵天麟惊讶、顾沉站在台阶中央 | 已用本地 ImageGen 覆盖 |
+| segment_04_45-60s/frames/first-frame.png | 复用 Segment 03 尾帧空白神豪节点 | 已复用 |
+| segment_04_45-60s/frames/last-frame.png | 顾沉走入暗处，直播关闭、空白神豪节点留在高处，升级提示不对外显示 | 已用本地 ImageGen 覆盖 |
 
-## 连续性复用
+## 生成约束
 
-- Segment 02 首帧复用 Segment 01 尾帧。
-- Segment 03 首帧复用 Segment 02 尾帧。
-- Segment 04 首帧复用 Segment 03 尾帧。
-- 每段视频默认上传该段首尾帧，再按漂移风险追加顾沉、场景或废核心 canonical 图。
-
-## 生成记录
-
-- 2026-08-01：所有新增图片均使用本地内置 ImageGen 生成，未调用豆包图片模型。
-- 2026-08-01：回收站母版、废核心母版与五张独立边界关键帧已落位；三处跨段首帧复用上一段尾帧。
-- 2026-08-01：回收站门牌英文已通过局部重绘移除；废核心第一版文字设计稿未落入项目。
+- 新版关键帧使用本地内置 ImageGen，以顾沉、赵天麟和觉醒礼堂 canonical 作为参考。
+- 视频模型只接收首帧、尾帧和必要角色/场景参考，不上传旧版回收站或废核心图片。
+- 画面文字只保留少量短词：无系统、神豪系统、权限剥夺、直播中止；权限升级只用顾沉眼底短暂暗红反光表达，其余信息用对白和声音表达。

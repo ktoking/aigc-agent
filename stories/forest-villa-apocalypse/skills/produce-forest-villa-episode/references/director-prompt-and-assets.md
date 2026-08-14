@@ -135,13 +135,24 @@ For exact counts, state the count in both the object list and negative constrain
 
 ## Reference Selection And Ordering
 
-Order references by narrative importance:
+Declare every digital human above `参考图1` in a separate identity-lock header. Each entry must contain the character name and full `asset-...` ID and must say that identities cannot be exchanged. Digital-human assets do not consume reference-image numbers.
+
+Number only non-human references:
+
+1. Every local `--image` in CLI order, including the preceding segment tail frame when it is actually submitted.
+2. Every hosted `--image-url` in CLI order.
+
+Within the non-human references, order by narrative importance:
 
 1. Current location and construction state
 2. Main equipment, prop, vehicle, animal, or route
 3. Special state needed later in the segment
 
 Use the same location anchor across adjacent segments when the action remains there. Do not mix modern and rustic versions, day and night states without instructions, or two incompatible wall/villa layouts.
+
+For multi-person submission, use `--digital-human "角色名=asset://..."` and one `--image-label`/`--image-url-label` per non-human input. A missing or stale `参考图N` is a blocking error, not a warning. When two male digital humans occupy different spaces in one segment, explicitly isolate their permitted shots and locations; split the generation if identity accuracy is more important than a single 15-second render.
+
+For a four-segment request, formal tasks are sequential: submit Segment01, wait for completion, inspect representative frames and audio, and record `output/video-qa.json` through `scripts/ark_video.py qa`. Submit Segment02 only after Segment01 is `passed`, and repeat through Segment04. Any `rejected` result stops the sequence; keep the failed output for diagnosis and do not regenerate or submit later segments without a new user instruction.
 
 ## Footer Template
 

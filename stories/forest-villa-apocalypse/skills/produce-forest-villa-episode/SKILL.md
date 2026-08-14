@@ -60,15 +60,18 @@ Read [references/episode-contract.md](references/episode-contract.md) before cre
 - Use `asset://asset-20260320075131-k78qt` for 白棠.
 - Use `asset://asset-20260310030618-88hlb` for 沈知夏 whenever she appears.
 - Treat these assets as face/identity locks only. In every prompt, repeat the canonical outfit colors, layers, pants, and footwear from both character cards, and use the preceding segment tail frame as a wardrobe reference when available.
-- Pass only the digitally locked characters who are physically visible in that segment through repeated `--digital-human asset://...` arguments. Text mentions do not lock a character, and an absent character's asset creates avoidable speaker ambiguity.
+- Pass only the digitally locked characters who are physically visible in that segment through repeated `--digital-human` arguments. A single character may use `asset://...`; two or more visible characters must use `角色名=asset://...`. Text mentions do not lock a character, and an absent character's asset creates avoidable speaker ambiguity.
+- For two or more visible digital humans, submit each as `--digital-human "角色名=asset://..."` and declare the same role/asset pairs in an identity-lock header above `参考图1`. Digital humans do not consume `参考图N` numbers. Number only non-human inputs: preceding tail frame and other local images first, then hosted image URLs. Supply a matching label for every non-human reference.
+- If the preceding tail frame is submitted, never omit it from the numbered prompt map. Do not force it into the request when its visible male identity conflicts with the next segment's main space; in that case omit it deliberately, document the reason in `api-request.md`, and rely on the relevant no-person scene anchor or split the spaces into separate single-character clips.
 - Every line intended to be heard in the generated video needs a `说话者绑定：` instruction immediately before it: the named character, screen position, expression, visible unmasked mouth, and an explicit instruction that every other person remains silent. Do not rely on a name label alone.
 - Do not place speech on a run, fight, vehicle maneuver, door-closing, impact, or masked shot. Use a short reaction shot with a single visible mouth, or generate clean action and add the assigned voice in post when the role-to-voice match matters.
 - Inspect `output/api-request-payload.json` before accepting a submission; every on-screen character asset URL must appear as an independent `image_url` content part.
-- Use `doubao-seedance-2-0-mini-260615`, `15s`, `16:9`, `720p`, and audio for draft requests unless the user overrides them.
+- Use `doubao-seedance-2-0-mini-260615`, `15s`, `16:9`, `480p`, and audio for draft requests unless the user overrides them.
 - Prefer two or three no-person local references plus the two digital-human assets.
 - Do not upload storyboard sheets.
-- Run `scripts/ark_video.py submit ... --dry-run` for every segment.
+- Run `scripts/ark_video.py submit ... --dry-run` for every segment. Accept the plan only when the strict reference-map check passes; inspect the resolved digital-human names and `参考图1..N` order before any paid submission.
 - Submit paid video tasks only when the user explicitly asks to generate video.
+- When the user asks for all four segments, submit strictly in order and never in parallel. Wait for Segment01 to finish, inspect representative frames and audio, then record `scripts/ark_video.py qa --status passed` before Segment02. Repeat for every boundary. If any segment has wrong identity, wrong wardrobe, extra people, broken action, wrong speaker/lip sync, severe garbled speech, or discontinuity, record `rejected` and stop; do not regenerate it and do not submit later segments unless the user gives a new instruction.
 
 ## Validate
 

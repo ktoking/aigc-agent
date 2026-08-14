@@ -9,12 +9,15 @@ from __future__ import annotations
 
 import argparse
 import base64
+import hashlib
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.request
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -54,6 +57,12 @@ PRIVACY_RETRY_NOTICES = [
 
 class ArkVideoError(RuntimeError):
     pass
+
+
+@dataclass(frozen=True)
+class DigitalHumanReference:
+    name: str | None
+    asset_url: str
 
 
 def now_iso() -> str:
@@ -158,28 +167,234 @@ def default_storyboard_image_paths(segment_dir: Path) -> list[Path]:
     return [p for p in candidates if p.exists()]
 
 
+def previous_segment_dir(segment_dir: Path) -> Path | None:
+    match = re.match(r"segment_(\d{2})_", segment_dir.name)
+    if not match:
+        return None
+    index = int(match.group(1))
+    if index <= 1:
+        return None
+    candidates = sorted(segment_dir.parent.glob(f"segment_{index - 1:02d}_*"))
+    if len(candidates) != 1:
+        raise ArkVideoError(
+            f"expected exactly one preceding segment for {segment_dir.name}, found {len(candidates)}"
+        )
+    return candidates[0]
+
+
+def require_previous_segment_qa(segment_dir: Path) -> None:
+    previous = previous_segment_dir(segment_dir)
+    if previous is None:
+        return
+    qa_path = previous / "output" / "video-qa.json"
+    if not qa_path.is_file():
+        raise ArkVideoError(
+            f"preceding segment has not passed visual QA: {qa_path}. "
+            "Wait for its video, inspect extracted frames and audio, then run the qa command."
+        )
+    try:
+        qa = json.loads(qa_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ArkVideoError(f"invalid preceding video QA record {qa_path}: {exc}") from exc
+    if qa.get("status") != "passed":
+        raise ArkVideoError(
+            f"preceding segment QA status is {qa.get('status', 'unknown')}; "
+            f"stop before submitting {segment_dir.name}"
+        )
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as file_obj:
+        for chunk in iter(lambda: file_obj.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def record_video_qa(args: argparse.Namespace) -> int:
+    segment_dir = Path(args.segment).resolve()
+    output_dir = segment_dir / "output"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    video_path = output_dir / args.video_name
+    if args.status == "passed" and not video_path.is_file():
+        raise ArkVideoError(f"cannot pass QA before the generated video exists: {video_path}")
+    if not args.notes.strip():
+        raise ArkVideoError("video QA notes cannot be empty")
+
+    record: dict[str, Any] = {
+        "status": args.status,
+        "checked_at": now_iso(),
+        "video": str(video_path),
+        "notes": args.notes.strip(),
+    }
+    if video_path.is_file():
+        record["video_sha256"] = sha256_file(video_path)
+    qa_path = output_dir / "video-qa.json"
+    qa_path.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"video_qa status={args.status} record={qa_path}")
+    return 0
+
+
 def build_content(
     prompt: str,
     image_paths: list[Path],
     image_urls: list[str],
-    digital_humans: list[str],
+    digital_humans: list[DigitalHumanReference],
 ) -> list[dict[str, Any]]:
     content: list[dict[str, Any]] = [{"type": "text", "text": prompt}]
-    content.extend(image_url_part(asset_url) for asset_url in digital_humans)
+    content.extend(image_url_part(reference.asset_url) for reference in digital_humans)
     content.extend(image_part(path) for path in image_paths)
     content.extend(image_url_part(url) for url in image_urls)
     return content
 
 
-def validate_digital_humans(values: list[str]) -> list[str]:
-    assets: list[str] = []
+def validate_digital_humans(values: list[str]) -> list[DigitalHumanReference]:
+    references: list[DigitalHumanReference] = []
     for value in values:
-        asset = value.strip()
+        raw = value.strip()
+        name = None
+        asset = raw
+        if "=" in raw:
+            name, asset = (part.strip() for part in raw.split("=", 1))
+            if not name:
+                raise ArkVideoError(f"digital human role name is empty: {value}")
         if not asset.startswith("asset://asset-"):
             raise ArkVideoError(f"invalid digital human asset URL: {value}")
-        if asset not in assets:
-            assets.append(asset)
-    return assets
+        if any(reference.asset_url == asset for reference in references):
+            continue
+        if name and any(reference.name == name for reference in references):
+            raise ArkVideoError(f"duplicate digital human role name: {name}")
+        references.append(DigitalHumanReference(name=name, asset_url=asset))
+    if len(references) > 1 and any(reference.name is None for reference in references):
+        raise ArkVideoError(
+            "multiple digital humans require explicit role binding, for example "
+            "--digital-human '许砚=asset://asset-...'"
+        )
+    return references
+
+
+def validate_reference_labels(labels: list[str], count: int, option: str) -> list[str]:
+    cleaned = [label.strip() for label in labels]
+    if cleaned and len(cleaned) != count:
+        raise ArkVideoError(f"{option} count {len(cleaned)} does not match input count {count}")
+    if any(not label for label in cleaned):
+        raise ArkVideoError(f"{option} cannot be empty")
+    return cleaned
+
+
+def parse_prompt_reference_lines(prompt: str) -> dict[int, str]:
+    references: dict[int, str] = {}
+    for match in re.finditer(r"^参考图(\d+)[：:]\s*(.+)$", prompt, re.MULTILINE):
+        index = int(match.group(1))
+        if index in references:
+            raise ArkVideoError(f"duplicate prompt reference number: 参考图{index}")
+        references[index] = match.group(2).strip()
+    return references
+
+
+def build_reference_map(
+    digital_humans: list[DigitalHumanReference],
+    image_paths: list[Path],
+    image_urls: list[str],
+    image_labels: list[str],
+    image_url_labels: list[str],
+) -> list[dict[str, Any]]:
+    references: list[dict[str, Any]] = []
+    for reference in digital_humans:
+        references.append({
+            "index": len(references) + 1,
+            "kind": "digital_human",
+            "label": reference.name or "未具名数字人",
+            "asset_url": reference.asset_url,
+        })
+    for index, path in enumerate(image_paths):
+        references.append({
+            "index": len(references) + 1,
+            "kind": "local_image",
+            "label": image_labels[index] if image_labels else path.stem,
+            "path": str(path),
+        })
+    for index, _url in enumerate(image_urls):
+        references.append({
+            "index": len(references) + 1,
+            "kind": "image_url",
+            "label": image_url_labels[index] if image_url_labels else f"平台参考图{index + 1}",
+            "url": "<url-redacted>",
+        })
+    return references
+
+
+def validate_prompt_reference_map(
+    prompt: str,
+    digital_humans: list[DigitalHumanReference],
+    image_paths: list[Path],
+    image_urls: list[str],
+    image_labels: list[str],
+    image_url_labels: list[str],
+) -> list[dict[str, Any]]:
+    if len(digital_humans) > 1:
+        if image_paths and len(image_labels) != len(image_paths):
+            raise ArkVideoError("multi-person submissions require --image-label for every --image")
+        if image_urls and len(image_url_labels) != len(image_urls):
+            raise ArkVideoError("multi-person submissions require --image-url-label for every --image-url")
+
+    reference_map = build_reference_map(
+        digital_humans,
+        image_paths,
+        image_urls,
+        image_labels,
+        image_url_labels,
+    )
+    prompt_references = parse_prompt_reference_lines(prompt)
+    non_human_count = len(image_paths) + len(image_urls)
+    legacy_numbers = list(range(1, non_human_count + 1))
+    exact_numbers = list(range(1, len(reference_map) + 1))
+    actual_numbers = sorted(prompt_references)
+    exact_numbering = actual_numbers == exact_numbers
+    legacy_numbering = actual_numbers == legacy_numbers
+    if not exact_numbering and not legacy_numbering:
+        raise ArkVideoError(
+            "prompt reference numbers do not match either the exact API image order "
+            f"{exact_numbers} or the legacy non-human image order {legacy_numbers}: "
+            f"found {actual_numbers}"
+        )
+
+    if exact_numbering:
+        for reference in reference_map:
+            description = prompt_references[reference["index"]]
+            if reference["label"] not in description:
+                raise ArkVideoError(
+                    f"参考图{reference['index']} must contain input label {reference['label']}"
+                )
+        return reference_map
+
+    first_reference = re.search(r"^参考图\d+[：:]", prompt, re.MULTILINE)
+    identity_header = prompt[: first_reference.start()] if first_reference else prompt
+    for reference in digital_humans:
+        name = reference.name or "未具名数字人"
+        asset_id = reference.asset_url.removeprefix("asset://")
+        if name not in identity_header or asset_id not in identity_header:
+            raise ArkVideoError(
+                f"digital human {name} / {asset_id} must be declared above 参考图1"
+            )
+
+    prompt_index = 1
+    for reference in reference_map:
+        if reference["kind"] == "digital_human":
+            continue
+        description = prompt_references[prompt_index]
+        if reference["kind"] == "local_image" and image_labels:
+            if reference["label"] not in description:
+                raise ArkVideoError(
+                    f"参考图{prompt_index} must contain image label {reference['label']}"
+                )
+        elif reference["kind"] == "image_url" and image_url_labels:
+            if reference["label"] not in description:
+                raise ArkVideoError(
+                    f"参考图{prompt_index} must contain image URL label {reference['label']}"
+                )
+        prompt_index += 1
+    return reference_map
 
 
 def with_virtual_person_notice(prompt: str, notice: str | None = None) -> str:
@@ -215,14 +430,39 @@ def write_api_request_md(
     args: argparse.Namespace,
     image_paths: list[Path],
     image_urls: list[str],
-    digital_humans: list[str],
+    digital_humans: list[DigitalHumanReference],
+    reference_map: list[dict[str, Any]],
     task_id: str | None,
     status: str,
 ) -> None:
     prompt_path = Path(args.prompt_file) if args.prompt_file else default_prompt_path(segment_dir)
     rel_images = "\n".join(f"- {p}" for p in image_paths) or "- 无"
     rel_image_urls = "\n".join(f"- 平台信任 URL {idx}（已脱敏）" for idx, _ in enumerate(image_urls, start=1)) or "- 无"
-    digital_human_lines = "\n".join(f"- `{asset}`" for asset in digital_humans) or "- 无"
+    digital_human_lines = "\n".join(
+        f"- {reference.name or '未具名数字人'}：`{reference.asset_url}`"
+        for reference in digital_humans
+    ) or "- 无"
+    reference_lines = "\n".join(
+        f"- API图片{reference['index']}：{reference['kind']} / {reference['label']}"
+        for reference in reference_map
+    ) or "- 无"
+    prompt = load_prompt(segment_dir, args.prompt_file, args.prompt_text)
+    prompt_references = parse_prompt_reference_lines(prompt)
+    exact_numbering = sorted(prompt_references) == list(range(1, len(reference_map) + 1))
+    mapped_references = (
+        reference_map
+        if exact_numbering
+        else [item for item in reference_map if item["kind"] != "digital_human"]
+    )
+    prompt_reference_lines = "\n".join(
+        f"- 参考图{index}：{reference['label']}"
+        for index, reference in enumerate(mapped_references, start=1)
+    ) or "- 无"
+    numbering_note = (
+        "数字人资产与场景素材统一计入提示词的 `参考图` 编号，编号与 API 图片输入顺序完全一致。"
+        if exact_numbering
+        else "兼容旧剧集：数字人资产位于顶部身份锁，提示词 `参考图` 仅编号非人物素材。"
+    )
     path = segment_dir / "api-request.md"
     path.write_text(
         f"""# Segment 视频 API 请求
@@ -248,6 +488,16 @@ def write_api_request_md(
 {digital_human_lines}
 - 平台信任参考图 URL：
 {rel_image_urls}
+
+## 实际 API 图片输入顺序
+
+{reference_lines}
+
+{numbering_note}
+
+## 提示词参考图顺序
+
+{prompt_reference_lines}
 
 ## 请求参数
 
@@ -302,6 +552,16 @@ def submit(args: argparse.Namespace) -> int:
         raise ArkVideoError("image file not found: " + ", ".join(map(str, missing_images)))
     if args.require_images and not image_paths:
         raise ArkVideoError("no input images found; expected frames/first-frame.png or explicit --image")
+    image_labels = validate_reference_labels(args.image_label, len(image_paths), "--image-label")
+    image_url_labels = validate_reference_labels(args.image_url_label, len(image_urls), "--image-url-label")
+    reference_map = validate_prompt_reference_map(
+        prompt,
+        digital_humans,
+        image_paths,
+        image_urls,
+        image_labels,
+        image_url_labels,
+    )
 
     if args.dry_run:
         dry_prompt = with_virtual_person_notice(prompt) if args.virtual_person_notice else prompt
@@ -337,7 +597,13 @@ def submit(args: argparse.Namespace) -> int:
         print(json.dumps(redacted, ensure_ascii=False, indent=2))
         return 0
 
+    if not args.allow_unchecked_predecessor:
+        require_previous_segment_qa(segment_dir)
+
     api_key = require_api_key()
+    (output_dir / "reference-map.json").write_text(
+        json.dumps(reference_map, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     retry_notices = PRIVACY_RETRY_NOTICES[: max(args.privacy_retry, 0)]
     prompt_attempts = [with_virtual_person_notice(prompt) if args.virtual_person_notice else prompt]
     prompt_attempts.extend(with_virtual_person_notice(prompt, notice) for notice in retry_notices)
@@ -396,6 +662,7 @@ def submit(args: argparse.Namespace) -> int:
         image_paths,
         image_urls,
         digital_humans,
+        reference_map,
         task_id,
         "submitted" if task_id else f"http-{final_status_code}",
     )
@@ -494,10 +761,25 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p.add_argument("--image", action="append", default=[], help="Reference image path; repeatable.")
     submit_p.add_argument("--image-url", action="append", default=[], help="Reference image URL; repeatable.")
     submit_p.add_argument(
+        "--image-label",
+        action="append",
+        default=[],
+        help="Prompt label for each --image in the same order; required for multi-person submissions.",
+    )
+    submit_p.add_argument(
+        "--image-url-label",
+        action="append",
+        default=[],
+        help="Prompt label for each --image-url in the same order; required for multi-person submissions.",
+    )
+    submit_p.add_argument(
         "--digital-human",
         action="append",
         default=[],
-        help="Ark digital-human asset URL in asset://asset-... form; repeatable.",
+        help=(
+            "Ark digital-human reference; use NAME=asset://asset-... for role binding. "
+            "Named form is required when more than one digital human is supplied."
+        ),
     )
     submit_p.add_argument("--no-auto-images", dest="auto_images", action="store_false")
     submit_p.add_argument("--include-storyboard", action="store_true", help="Also include frames/storyboard-sheet.png or frames/storyboard.png as reference images.")
@@ -512,12 +794,23 @@ def build_parser() -> argparse.ArgumentParser:
     submit_p.add_argument("--dry-run", action="store_true")
     submit_p.add_argument("--virtual-person-notice", action=argparse.BooleanOptionalAction, default=True)
     submit_p.add_argument("--privacy-retry", type=int, default=0)
+    submit_p.add_argument(
+        "--allow-unchecked-predecessor",
+        action="store_true",
+        help="Bypass the preceding segment visual-QA gate. Use only when the user explicitly requests it.",
+    )
     submit_p.set_defaults(func=submit)
 
     poll_p = sub.add_parser("poll", help="Poll an existing task and download the result.")
     common(poll_p)
     poll_p.add_argument("--task-id")
     poll_p.set_defaults(func=poll)
+
+    qa_p = sub.add_parser("qa", help="Record visual/audio QA for one completed segment video.")
+    common(qa_p)
+    qa_p.add_argument("--status", required=True, choices=("passed", "rejected"))
+    qa_p.add_argument("--notes", required=True)
+    qa_p.set_defaults(func=record_video_qa)
     return parser
 
 

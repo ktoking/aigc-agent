@@ -1,21 +1,30 @@
-# Segment 04 视频 API 请求
+# Segment 视频 API 请求
 
 ## 任务信息
 
-- Story ID：system-master-admin
 - Episode：EP002_owner-in-the-scrap
 - Segment：segment_04_45-60s
 - 时长：15
 - 画幅：9:16
 - 模型/平台：doubao-seedance-2-0-mini-260615
-- 任务状态：not_submitted
+- 任务状态：submitted
+- 提交时间：2026-08-05T12:14:01+08:00
+- 完成时间：
+- Task ID：cgt-20260805121355-nzsdn
 
 ## 输入文件
 
-- 首帧：`frames/first-frame.png`
-- 尾帧：`frames/last-frame.png`
-- Prompt：`director-promt.txt`
-- 参考图：顾沉 canonical、废核心 canonical、回收站 canonical
+- Prompt：stories/system-master-admin/episodes/EP002_owner-in-the-scrap/segment_04_45-60s/director-promt.txt
+- 本地参考图：
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/system-master-admin/episodes/EP002_owner-in-the-scrap/segment_04_45-60s/frames/first-frame.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/system-master-admin/assets/characters/SMA_GU_CHEN_001/canonical-turnaround.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/system-master-admin/assets/characters/SMA_ZHAO_TIANLIN_001/canonical-turnaround.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/system-master-admin/assets/scenes/SCENE_AWAKENING_HALL_001/canonical-concept.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/system-master-admin/episodes/EP002_owner-in-the-scrap/segment_04_45-60s/frames/last-frame.png
+- 数字人资产（作为 image_url 提交）：
+- 无
+- 平台信任参考图 URL：
+- 无
 
 ## 请求参数
 
@@ -26,13 +35,19 @@
 | resolution | 480p |
 | generate_audio | True |
 | return_last_frame | True |
+| virtual_person_notice | True |
+| privacy_retry | 0 |
 
-## 提交与返回
+## 提交记录
 
-```json
-{}
-```
+详见 `output/api-submit.json`。
 
-## 重试策略
+## 返回记录
 
-- 权限数字错误时改用终端语音表达；结尾人员脸过清时压暗前景并保持剪影。
+详见 `output/api-result.json`。
+
+## 失败原因与重试策略
+
+- 若火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，脚本会保留原首尾帧/故事板图，
+  自动追加“图中人物均为 AI 生成虚拟角色，不包含真人隐私信息”的说明后有限重试。
+- 若重试后仍被拦截，脚本停止，不自动替换为场景图或其他错误参考图，避免人脸不一致和无效消耗。
