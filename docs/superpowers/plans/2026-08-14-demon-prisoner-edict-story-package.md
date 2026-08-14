@@ -6,7 +6,7 @@
 
 **Architecture:** 参考 `stories/forest-villa-apocalypse/` 的 story-local 文档、资产卡、剧集根文件和 segment 交付结构，但内容完全独立。先固定人物、场景、道具和视觉规范，再编写 EP001 的动作链与连续性，最后用内置图像生成按“角色锚点 → 场景锚点 → 连续分镜”的顺序生成并验收资产。
 
-**Tech Stack:** Markdown story package、内置 image generation、仓库现有 episode validator、`rg`/`find`/ImageMagick 或 `sips` 图像元数据检查。
+**Tech Stack:** Markdown story package、内置 image generation、`rg`/`find`/shell 结构验证、ImageMagick 或 `sips` 图像元数据检查。
 
 ## Global Constraints
 
@@ -262,15 +262,19 @@ git commit --no-verify -m "feat: generate demon prisoner episode assets"
 - Consumes: Task 1–5 的完整 story 包。
 - Produces: 可追踪的 PASS/PARTIAL/BLOCKED 结果和最终文件地址。
 
-- [ ] **Step 1: 运行仓库现有 episode validator**
+- [ ] **Step 1: 运行通用 episode 结构验证**
 
 Run:
 
 ```bash
-python3 scripts/validate_episode.py stories/demon-prisoner-edict/episodes/EP001_a-word-stops-the-arrows
+episode=stories/demon-prisoner-edict/episodes/EP001_a-word-stops-the-arrows
+for f in episode.md overview-storyboard.md continuity.md image-manifest.md qa-checklist.md publish-package.md; do test -s "$episode/$f" || exit 1; done
+for d in "$episode"/segment_*; do for f in storyboard.md first-frame.md last-frame.md prompt.md director-promt.txt api-request.md; do test -s "$d/$f" || exit 1; done; test -d "$d/frames" || exit 1; test -d "$d/output" || exit 1; done
+test "$(find "$episode" -maxdepth 1 -type d -name 'segment_*' | wc -l | tr -d ' ')" = "4"
+test "$(find "$episode" -type f -name 'shot-*.png' | wc -l | tr -d ' ')" = "12"
 ```
 
-Expected: validation passes；若脚本参数契约不同，先运行 `python3 scripts/validate_episode.py --help`，按实际参数执行并记录命令。
+Expected: exit 0；剧集根文件齐全、4 个 segment 结构完整、12 张分镜图全部落盘。`forest-villa-apocalypse` 的 story-local validator 写死了 16:9、末日角色和四镜头规则，不用于本 9:16 三镜头项目。
 
 - [ ] **Step 2: 检查占位符、泄密和禁用视觉词**
 
