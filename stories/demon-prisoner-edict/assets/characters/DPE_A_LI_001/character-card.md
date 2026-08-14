@@ -10,7 +10,8 @@
 - 妖影状态：人物本身仍保持正常人脸，只有身后雾中出现巨大长角妖王剪影
 - 表情范围：警惕、轻声提醒、担心、带秘密的平静；不媚笑、不妖艳浓妆
 - 禁止漂移：散发、刘海齐眉、红衣、现代妆容、兽耳、直接妖化脸、暴露服装
-- 参考图：`references/a-li-character-anchor-16x9.png`
+- 定妆参考：`references/a-li-character-anchor-16x9.png`
+- 三视图参考：`references/a-li-turnaround-front-side-back-16x9.png`
 
 ## 生成锚点
 

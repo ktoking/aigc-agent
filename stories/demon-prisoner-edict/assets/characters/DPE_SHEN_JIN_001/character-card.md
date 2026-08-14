@@ -10,7 +10,8 @@
 - 觉醒变化：仅瞳孔深处浮现细小暗金古篆，皮肤和头发不发光
 - 表情范围：昏迷、警觉睁眼、克制愤怒、忍痛；不邪笑、不夸张咆哮
 - 禁止漂移：短发、发冠、盔甲、现代服装、健美壮汉、欧美五官、胡须、整张脸发光
-- 参考图：`references/shen-jin-character-anchor-16x9.png`
+- 定妆参考：`references/shen-jin-character-anchor-16x9.png`
+- 三视图参考：`references/shen-jin-turnaround-front-side-back-16x9.png`
 
 ## 生成锚点
 

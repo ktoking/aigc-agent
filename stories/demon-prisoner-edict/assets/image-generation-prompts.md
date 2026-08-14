@@ -25,6 +25,14 @@ No text, subtitles, speech bubbles, watermark, logo, border, arrows, diagram, re
 - 输出：`assets/characters/DPE_HAN_XIAO_001/references/han-xiao-character-anchor-16x9.png`
 - Prompt：16:9 landscape character anchor. Han Xiao, 36-year-old tall strong East Asian man, square-long face, narrow eyes, diagonal scar from right eyebrow toward temple, short black hair in low knot, matte black iron scale armor over black robe, old leather bracers, dark-red waist badge, right hand resting on a sheathed black straight blade. Three-quarter intimidating pose, uncovered face, blurred fog-valley road.
 
+## 角色三视图补充（3 张）
+
+角色三视图均以对应定妆图作为身份、脸型、发型、服装和伤痕参考，生成 16:9 横屏无字资产面板；正面、严格左侧面、背面三个人体等比例并列，中性 A-pose，中性灰摄影棚背景，明确为原创成年半写实 3D 动画电影角色，不复刻现实人物。
+
+- 沈烬：`assets/characters/DPE_SHEN_JIN_001/references/shen-jin-turnaround-front-side-back-16x9.png`
+- 阿璃：`assets/characters/DPE_A_LI_001/references/a-li-turnaround-front-side-back-16x9.png`
+- 韩枭：`assets/characters/DPE_HAN_XIAO_001/references/han-xiao-turnaround-front-side-back-16x9.png`
+
 ## 场景锚点（3 张）
 
 ### A04 雾谷囚车外景

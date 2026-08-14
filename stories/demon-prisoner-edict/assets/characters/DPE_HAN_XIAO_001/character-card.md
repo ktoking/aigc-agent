@@ -8,7 +8,8 @@
 - 武器：`DPE_DEMON_BLADE_001` 黑刃镇妖刀
 - 表情范围：漠然审视、冷笑、拔刀威胁、认出敕令后的恐惧
 - 禁止漂移：头盔遮脸、金色重甲、长白发、络腮胡、现代军装、巨型奇幻武器
-- 参考图：`references/han-xiao-character-anchor-16x9.png`
+- 定妆参考：`references/han-xiao-character-anchor-16x9.png`
+- 三视图参考：`references/han-xiao-turnaround-front-side-back-16x9.png`
 
 ## 生成锚点
 
