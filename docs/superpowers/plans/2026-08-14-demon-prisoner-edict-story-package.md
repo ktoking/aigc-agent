@@ -11,7 +11,7 @@
 ## Global Constraints
 
 - 新内容只能写入 `stories/demon-prisoner-edict/`，设计与计划文档除外。
-- 9:16，60 秒，4 个不超过 15 秒的 segment，目录名固定为 `segment_01_00-15s` 至 `segment_04_45-60s`。
+- 16:9 横屏，60 秒，4 个不超过 15 秒的 segment，目录名固定为 `segment_01_00-15s` 至 `segment_04_45-60s`。
 - 风格固定为半写实 3D 东方玄幻动画电影；冷灰蓝低饱和、体积雾、空气透视、浅景深、自然皮肤与布料。
 - 不复制参考作品角色、对白、专有设定或逐镜构图；只采用通用电影镜头方法。
 - 避免过度锐化、鱼鳞状网格、蜡像皮肤、满屏微纹理、七彩霓虹、游戏 UI、文字、水印和红圈标记。
@@ -243,7 +243,7 @@ find stories/demon-prisoner-edict -type f -name '*.png' | sort
 find stories/demon-prisoner-edict/episodes/EP001_a-word-stops-the-arrows -type f -name 'shot-*.png' | wc -l
 ```
 
-Expected: 12 张 `shot-*.png`，每个 segment 均有非空 `first-frame.png` 和 `last-frame.png`，所有构图为竖屏或明确标注的资产卡构图。
+Expected: 12 张 `shot-*.png`，每个 segment 均有非空 `first-frame.png` 和 `last-frame.png`，所有剧集画面与封面均为 16:9 横屏，角色卡和道具卡采用明确标注的资产构图。
 
 - [ ] **Step 6: 更新清单并独立提交媒体资产**
 
@@ -274,7 +274,7 @@ test "$(find "$episode" -maxdepth 1 -type d -name 'segment_*' | wc -l | tr -d ' 
 test "$(find "$episode" -type f -name 'shot-*.png' | wc -l | tr -d ' ')" = "12"
 ```
 
-Expected: exit 0；剧集根文件齐全、4 个 segment 结构完整、12 张分镜图全部落盘。`forest-villa-apocalypse` 的 story-local validator 写死了 16:9、末日角色和四镜头规则，不用于本 9:16 三镜头项目。
+Expected: exit 0；剧集根文件齐全、4 个 segment 结构完整、12 张分镜图全部落盘。`forest-villa-apocalypse` 的 story-local validator 虽同为 16:9，但写死了末日角色和四镜头规则，不用于本东方玄幻三镜头项目。
 
 - [ ] **Step 2: 检查占位符、泄密和禁用视觉词**
 
