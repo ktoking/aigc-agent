@@ -24,7 +24,7 @@
 | --- | --- |
 | ratio | 16:9 |
 | duration | 15；若对白未说完则以完整语音时长为准 |
-| resolution | 720p draft |
+| resolution | 480p draft |
 | generate_audio | True |
 | return_last_frame | True |
 | motion_strength | low-medium |

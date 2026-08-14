@@ -24,7 +24,7 @@
 | --- | --- |
 | ratio | 16:9 |
 | duration | 先做 5 秒无付费动作验证候选；正式段以完整语音为准 |
-| resolution | 720p draft |
+| resolution | 480p draft |
 | generate_audio | True |
 | return_last_frame | True |
 | motion_strength | medium |
