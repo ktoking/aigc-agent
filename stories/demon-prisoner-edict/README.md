@@ -1,6 +1,6 @@
 # 镇妖囚徒
 
-原创半写实 3D 东方玄幻动态漫 story 包。
+原创手绘材质半写实 3D 东方玄幻动态漫 story 包；视觉唯一基准为 `assets/style-candidates/style-b-painterly-3d.png`。
 
 - Story ID：`demon-prisoner-edict`
 - 主角能力：敕令，言出法随但存在反噬

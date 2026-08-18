@@ -2,11 +2,11 @@
 
 ## 共用风格前缀
 
-Use case: stylized-concept. Asset type: 16:9 landscape cinematic frame for an original motion comic. Original characters, semi-realistic 3D Eastern fantasy animated film, ancient demon-disaster world, cinematic physically based materials, natural skin and fabric, clean large shapes, clear silhouettes, cold desaturated gray-blue grade, volumetric fog, atmospheric perspective, restrained detail, shallow depth of field, realistic weight, no resemblance to an existing franchise.
+Use case: stylized-concept. Asset type: 16:9 landscape cinematic frame for an original motion comic. Mandatory style reference: `assets/style-candidates/style-b-painterly-3d.png`. Original characters, premium hand-painted-material semi-realistic 3D Eastern fantasy animation, softly sculpted forms, broad painterly textures on skin, cloth, hair and armor, matte materials, clean large shapes, clear silhouettes, cold desaturated gray-blue grade, soft cinematic form lighting, gray volumetric fog, atmospheric perspective, restrained detail, shallow depth of field and realistic weight. Dimensional 3D but clearly not live-action photography, not realistic game CG and not black-outline cel shading.
 
 ## 共用负面约束
 
-No text, subtitles, speech bubbles, watermark, logo, border, arrows, diagram, red targeting circle or game UI. Avoid live-action photography, flat 2D anime, plastic-doll skin, excessive sharpening, fish-scale mesh, dense microtexture, neon rainbow particles, malformed hands, extra people, duplicate bodies and identity drift.
+No text, subtitles, speech bubbles, watermark, logo, border, arrows, diagram, red targeting circle or game UI. Avoid live-action photography, photographic skin pores, lens-photo look, realistic game CG, black ink outlines, flat 2D anime, hard cel shading, plastic-doll skin, excessive sharpening, fish-scale mesh, dense microtexture, neon rainbow particles, malformed hands, extra people, duplicate bodies and identity drift.
 
 ## 角色锚点（3 张）
 
@@ -27,7 +27,7 @@ No text, subtitles, speech bubbles, watermark, logo, border, arrows, diagram, re
 
 ## 角色三视图补充（3 张）
 
-角色三视图均以对应定妆图作为身份、脸型、发型、服装和伤痕参考，生成 16:9 横屏无字资产面板；正面、严格左侧面、背面三个人体等比例并列，中性 A-pose，中性灰摄影棚背景，明确为原创成年半写实 3D 动画电影角色，不复刻现实人物。
+角色三视图均同时引用 B 风格总板与对应定妆图，生成 16:9 横屏无字资产面板；正面、严格左侧面、背面三个人体等比例并列，中性 A-pose，中性灰雾背景。锁定脸型、发型、服装层级、伤痕和道具数量，明确为原创成年手绘材质半写实 3D 动画角色，不复刻现实人物。
 
 - 沈烬：`assets/characters/DPE_SHEN_JIN_001/references/shen-jin-turnaround-front-side-back-16x9.png`
 - 阿璃：`assets/characters/DPE_A_LI_001/references/a-li-turnaround-front-side-back-16x9.png`

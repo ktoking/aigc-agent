@@ -1,5 +1,7 @@
 # EP001 图像清单
 
+> 视觉版本：B「手绘材质 3D」，唯一风格基准为 `assets/style-candidates/style-b-painterly-3d.png`。角色锚点、三视图及 12 张剧集分镜已按该版本统一生成。
+
 ## 资产锚点
 
 | ID | 文件 | 状态 |
