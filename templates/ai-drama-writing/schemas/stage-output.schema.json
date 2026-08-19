@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI drama writer stage output envelope",
+  "type": "object",
+  "required": ["stage", "story_id", "episode_id", "result"],
+  "properties": {
+    "stage": {"enum": ["episode_planner", "scene_planner", "roleplay", "dialogue_director", "continuity_checker"]},
+    "story_id": {"type": "string"},
+    "episode_id": {"type": "string"},
+    "result": {"type": "object"}
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "story_id": "system-master-admin",
+  "episode_id": "EP003",
+  "series_bible": {
+    "premise": "全民绑定系统决定阶层；无系统者顾沉意外获得管理员级规则权限。",
+    "world_rules": ["十八岁觉醒系统决定教育、医疗和职业权限。", "公开使用管理员能力会向系统议会暴露顾沉的位置。"],
+    "tone": "暗黑都市幻想漫剧，反转具体、台词克制。"
+  },
+  "season_arc": {
+    "current_phase": "隐忍积累期",
+    "must_preserve": ["EP010 前顾沉不能公开彻底复仇。", "每集必须得到证据、权限进度或反派代价。"]
+  },
+  "episode_brief": {
+    "goal": "让观众第一次确认顾沉能影响系统识别规则。",
+    "required_hook": "后台出现红色警报：检测到未登记规则级权限。",
+    "duration_seconds": 60,
+    "segment_count": 4
+  },
+  "characters": [
+    {
+      "id": "SMA_GU_CHEN_001",
+      "name": "顾沉",
+      "role_card": {
+        "core_personality": ["极度冷静", "观察优先", "不爱证明自己"],
+        "speech_rules": ["短句，通常 6-15 字", "少用感叹句", "真实想法只说约三成"],
+        "signature_lines": ["然后呢？", "你继续。", "你确定？"],
+        "banned_lines": ["我一定会成为最强者", "这个世界终究属于我"],
+        "emotion_rules": ["愤怒时更平静", "杀意出现时台词更少"]
+      },
+      "current_state": {"emotion": "克制", "current_goal": "确认异常来源且不暴露管理员权限", "relationship_deltas": {}},
+      "knowledge": {"known": ["自己没有系统", "能看见灰色文字"], "unknown": ["自己拥有规则级权限", "苏见月真实身份"]}
+    },
+    {
+      "id": "SMA_ZHAO_TIANLIN_001",
+      "name": "赵天麟",
+      "role_card": {
+        "core_personality": ["特权惯性", "害怕被无视", "并非纯粹愚蠢"],
+        "speech_rules": ["喜欢报数字", "把钱和资格绑定", "常用反问"],
+        "signature_lines": ["知道这东西多少钱吗？", "你也配？"],
+        "banned_lines": ["无逻辑吼叫", "主动承认自己害怕"]
+      },
+      "current_state": {"emotion": "得意", "current_goal": "让顾沉在公开场合承认自己低等", "relationship_deltas": {"SMA_GU_CHEN_001": -40}},
+      "knowledge": {"known": ["自己拥有 SSS 神豪系统", "财富可以兑换部分权限"], "unknown": ["顾沉有异常权限", "测试装置会失效"]}
+    }
+  ],
+  "previous_episode_state": {"tail_hook": "顾沉在回收站看到一条灰色系统残页。", "facts_that_must_continue": ["顾沉仍未公开管理员能力。"]}
+}

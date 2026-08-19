@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI drama writer pipeline input",
+  "type": "object",
+  "required": ["schema_version", "story_id", "episode_id", "series_bible", "season_arc", "episode_brief", "characters"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "story_id": {"type": "string", "minLength": 1},
+    "episode_id": {"type": "string", "pattern": "^EP[0-9]{3}"},
+    "series_bible": {"type": "object", "required": ["premise", "world_rules", "tone"]},
+    "season_arc": {"type": "object", "required": ["current_phase", "must_preserve"]},
+    "episode_brief": {"type": "object", "required": ["goal", "required_hook", "duration_seconds", "segment_count"]},
+    "characters": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["id", "name", "role_card", "current_state", "knowledge"], "properties": {"id": {"type": "string"}, "name": {"type": "string"}, "knowledge": {"type": "object", "required": ["known", "unknown"]}}}},
+    "previous_episode_state": {"type": "object"}
+  }
+}
