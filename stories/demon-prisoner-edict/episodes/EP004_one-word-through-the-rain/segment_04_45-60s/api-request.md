@@ -1,5 +1,6 @@
 # Segment 04 视频 API 请求
 
 - 模型：`doubao-seedance-2-0-mini-260615`；16:9、12–15 秒、480p、生成声音；状态：未提交。
-- 参考图：1. `frames/first-frame.png`；2. `frames/last-frame.png`；3. 沈烬/阿璃双人定妆或雨林场景锚点。Prompt：`director-promt.txt`。
-- 重试优先：符纸必须无字、远景、快速烧灰；驮车只是骤停，不出现法阵或大型光效。
+- 参考图上传顺序：1. `frames/first-frame.png`；2. `frames/last-frame.png`；3. 沈烬/阿璃双人定妆或镇口长街空间锚点。不上传故事板表格。
+- Prompt：`director-promt.txt`。提交前先运行 `scripts/ark_video.py` 的 dry-run；不记录密钥、URL 或任务 ID。
+- 重试优先：三个小妖必须手脚并用爬出镇口，不拍飞、不击杀；最后停在小女孩提问与阿璃回答。
