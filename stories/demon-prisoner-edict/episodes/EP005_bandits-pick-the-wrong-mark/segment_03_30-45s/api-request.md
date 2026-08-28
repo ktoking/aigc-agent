@@ -1,6 +1,65 @@
-# segment_03_30-45s 视频 API 请求
+# Segment 视频 API 请求
 
-- 模型：`doubao-seedance-2-0-mini-260615`；16:9、12–15 秒、480p、生成声音；状态：未提交。
-- 参考图上传顺序：1. `frames/first-frame.png`（跪地嘴硬初态）；2. `frames/last-frame.png`（捡符印记尾态）；3. 沈烬/阿璃定妆或场景锚点（脸、外衫）。不上传故事板表格。
-- Prompt：`director-promt.txt`。提交前先运行 `scripts/ark_video.py` 的 dry-run；不记录密钥、URL 或任务 ID。
-- 重试优先：互扇耳光不破皮不出血、不夸张到飞起；持续型命令的细纹只"每两秒一闪"，不得常驻发光；若生成暴力血腥，改为"左右开弓互扇，巴掌声连片，无血"。
+## 任务信息
+
+- Episode：
+- Segment：segment_03_30-45s
+- 时长：15
+- 画幅：16:9
+- 模型/平台：doubao-seedance-2-0-mini-260615
+- 任务状态：submitted
+- 提交时间：2026-08-21T15:28:54+08:00
+- 完成时间：
+- Task ID：cgt-20260821152852-h6q59
+
+## 输入文件
+
+- Prompt：/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/demon-prisoner-edict/episodes/EP005_bandits-pick-the-wrong-mark/segment_03_30-45s/director-promt.txt
+- 本地参考图：
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/demon-prisoner-edict/assets/scenes/DPE_ANHUN_TOWN_MARKET_001/references/anhun-town-market-after-rain-16x9.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/demon-prisoner-edict/assets/style-candidates/style-b-painterly-3d.png
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/demon-prisoner-edict/episodes/EP005_bandits-pick-the-wrong-mark/segment_03_30-45s/frames/last-frame.png
+- 数字人资产（作为 image_url 提交）：
+- 无
+- 平台信任参考图 URL：
+- 无
+
+## 实际 API 图片输入顺序
+
+- API图片1：local_image / anhun-town-market-after-rain-16x9
+- API图片2：local_image / style-b-painterly-3d
+- API图片3：local_image / last-frame
+
+数字人资产与场景素材统一计入提示词的 `参考图` 编号，编号与 API 图片输入顺序完全一致。
+
+## 提示词参考图顺序
+
+- 参考图1：anhun-town-market-after-rain-16x9
+- 参考图2：style-b-painterly-3d
+- 参考图3：last-frame
+
+## 请求参数
+
+| 参数 | 值 |
+| --- | --- |
+| ratio | 16:9 |
+| duration | 15 |
+| resolution | 480p |
+| generate_audio | True |
+| return_last_frame | True |
+| virtual_person_notice | True |
+| privacy_retry | 1 |
+
+## 提交记录
+
+详见 `output/api-submit.json`。
+
+## 返回记录
+
+详见 `output/api-result.json`。
+
+## 失败原因与重试策略
+
+- 若火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，脚本会保留原首尾帧/故事板图，
+  自动追加“图中人物均为 AI 生成虚拟角色，不包含真人隐私信息”的说明后有限重试。
+- 若重试后仍被拦截，脚本停止，不自动替换为场景图或其他错误参考图，避免人脸不一致和无效消耗。

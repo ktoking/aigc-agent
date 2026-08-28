@@ -2,7 +2,9 @@
 
 角色锁定沿用 Segment 01：黄鼠狼妖领队、野猪妖差、蜥蜴妖差保持明确兽首与直立妖身。新增镇民：衣着朴素的卖菜老人和约七岁的小女孩。老人灰发、旧棕布衣；女孩穿洗旧浅灰短袄，始终躲在老人身后。
 
-参考图1：`frames/first-frame.png`，锁定老人守着菜摊、小妖伸手要钱的中景。参考图2：`frames/shot-02.png`，锁定菜摊翻倒、女孩被抓住手腕的冲突画面。参考图3：`frames/last-frame.png`，锁定沈烬从围观镇民后方走出的收束。
+参考图1：`assets/scenes/DPE_ANHUN_TOWN_MARKET_001/references/anhun-town-market-after-rain-16x9.png`，仅锁定雨后安魂镇集市的冷灰蓝青石长街与菜摊空间，不把图中人物照搬进画面。
+参考图2：`assets/style-candidates/style-b-painterly-3d.png`，仅锁定 B 款手绘材质半写实 3D 的体块、布料与低饱和质感，不复刻人物。
+参考图3：`frames/last-frame.png`，锁定沈烬从围观镇民后方走出的收束、三只兽首小妖与街面空间关系。
 
 因果硬锁：小妖向卖菜老人索税 → 老人拿不出三钱，请求宽限 → 妖头掀翻菜摊，命手下抓走女孩抵税 → 老人抱住妖差的腿被甩开 → 沈烬看见女孩求救，从围观人群后方走出。
 

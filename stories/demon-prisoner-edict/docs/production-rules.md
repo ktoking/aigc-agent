@@ -7,12 +7,34 @@
 | 角色 | 沈烬 | `DPE_SHEN_JIN_001` |
 | 角色 | 阿璃 | `DPE_A_LI_001` |
 | 角色 | 韩枭 | `DPE_HAN_XIAO_001` |
+| 角色 | 辘魇 | `DPE_LU_YAN_001` |
+| 角色 | 听骨侯 | `DPE_TING_GU_HOU_001` |
+| 角色 | 无悲 | `DPE_WU_BEI_001` |
+| 角色 | 戚九两 | `DPE_QI_JIULIANG_001` |
+| 角色 | 缄律侯 | `DPE_JIAN_LU_HOU_001` |
+| 角色 | 搜查使 | `DPE_SEARCH_ENVOY_001` |
+| 角色群 | 无耳猎兵 | `DPE_EARLESS_HUNTERS_GROUP_001` |
 | 场景 | 雾谷囚车外景 | `DPE_FOG_VALLEY_CART_001` |
 | 场景 | 囚车内部 | `DPE_CART_INTERIOR_001` |
 | 场景 | 祭坛山道 | `DPE_ALTAR_ROAD_001` |
+| 场景 | 断崖运输祭道 | `DPE_BROKEN_SACRIFICE_ROAD_001` |
+| 场景 | 无声岭 | `DPE_SILENT_RIDGE_001` |
+| 场景 | 千愿殿 | `DPE_THOUSAND_WISH_HALL_001` |
+| 场景 | 百妖夜市 | `DPE_HUNDRED_DEMON_NIGHT_MARKET_001` |
+| 场景 | 镇妖司外门 | `DPE_DEMON_SUBDUING_OUTER_GATE_001` |
 | 道具 | 骨针 | `DPE_BONE_NEEDLE_001` |
 | 道具 | 符文锁链 | `DPE_RUNE_SHACKLE_001` |
 | 道具 | 镇妖刀 | `DPE_DEMON_BLADE_001` |
+| 道具 | 无字克妖剑 | `DPE_EDICT_SWORD_001` |
+| 道具 | 六人祭车 | `DPE_SACRIFICE_CART_001` |
+| 道具 | 听骨侯声囊 | `DPE_VOICE_SAC_001` |
+| 道具 | 无字白灯 | `DPE_WISH_LAMP_001` |
+| 道具 | 黑色契柱 | `DPE_CONTRACT_PILLAR_001` |
+| 道具 | 魁冥旧铁牌 | `DPE_KUIMING_IRON_PASS_001` |
+| 道具 | 夜市契秤 | `DPE_CONTRACT_SCALE_001` |
+| 道具 | 债砝总吊链 | `DPE_DEBT_WEIGHT_CHAIN_001` |
+| 道具 | 外门牌阵 | `DPE_OUTER_GATE_PASS_ARRAY_001` |
+| 道具 | 共伤锁扣 | `DPE_SHARED_WOUND_LOCK_001` |
 
 ## 连续性硬锁
 

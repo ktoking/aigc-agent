@@ -11,6 +11,8 @@
 7. 角色、场景、道具资产卡
 8. 上一集与上一段尾帧
 
+新写或重写 episode 导演剧本时，同时遵循 `skills/episode-director-ep005-style/SKILL.md`；该 skill 以 EP005 的逐镜字段与对白格式为生产基准。
+
 ## 固定规格
 
 - 一集 60 秒，拆成 4 个不超过 15 秒的 segment。
