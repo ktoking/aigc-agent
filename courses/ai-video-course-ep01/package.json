@@ -1,0 +1,11 @@
+{
+  "name": "ai-video-course-ep01",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.17 preview",
+    "check": "npx --yes hyperframes@0.8.17 check",
+    "render": "npx --yes hyperframes@0.8.17 render --output output/ai-video-course-ep01-4min.mp4",
+    "snapshot": "npx --yes hyperframes@0.8.17 snapshot --time 120"
+  }
+}

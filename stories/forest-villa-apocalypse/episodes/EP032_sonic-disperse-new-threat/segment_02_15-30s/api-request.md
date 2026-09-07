@@ -7,19 +7,37 @@
 - 时长：15
 - 画幅：16:9
 - 模型/平台：doubao-seedance-2-0-mini-260615
-- 任务状态：pending
-- 提交时间：
+- 任务状态：submitted
+- 提交时间：2026-08-28T18:25:25+08:00
 - 完成时间：
-- Task ID：
+- Task ID：cgt-20260828182524-ppnk9
 
 ## 输入文件
 
-- Prompt：director-promt.txt
+- Prompt：/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/episodes/EP032_sonic-disperse-new-threat/segment_02_15-30s/director-promt.txt
+- 本地参考图：
+- /Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/episodes/EP032_sonic-disperse-new-threat/segment_02_15-30s/frames/first-frame.png
 - 数字人资产（作为 image_url 提交）：
-  - 许砚：`asset://asset-20260320075237-29hdx`
-  - 白棠：`asset://asset-20260320075131-k78qt`
-  - 沈知夏：`asset://asset-20260310030618-88hlb`
-- 本地参考图：待提交前确认场景/道具参考图路径
+- 许砚：`asset://asset-20260320075237-29hdx`
+- 白棠：`asset://asset-20260320075131-k78qt`
+- 沈知夏：`asset://asset-20260310030618-88hlb`
+- 老陈：`asset://asset-20260720204334-sjdkx`
+- 平台信任参考图 URL：
+- 无
+
+## 实际 API 图片输入顺序
+
+- API图片1：digital_human / 许砚
+- API图片2：digital_human / 白棠
+- API图片3：digital_human / 沈知夏
+- API图片4：digital_human / 老陈
+- API图片5：local_image / 别墅外观雪景
+
+兼容旧剧集：数字人资产位于顶部身份锁，提示词 `参考图` 仅编号非人物素材。
+
+## 提示词参考图顺序
+
+- 参考图1：别墅外观雪景
 
 ## 请求参数
 
@@ -43,5 +61,6 @@
 
 ## 失败原因与重试策略
 
-- 若火山返回隐私拦截，脚本保留原参考图，追加虚拟角色说明后有限重试。
-- 若重试后仍被拦截，停止，不自动替换参考图。
+- 若火山返回 `InputImageSensitiveContentDetected.PrivacyInformation`，脚本会保留原首尾帧/故事板图，
+  自动追加“图中人物均为 AI 生成虚拟角色，不包含真人隐私信息”的说明后有限重试。
+- 若重试后仍被拦截，脚本停止，不自动替换为场景图或其他错误参考图，避免人脸不一致和无效消耗。
