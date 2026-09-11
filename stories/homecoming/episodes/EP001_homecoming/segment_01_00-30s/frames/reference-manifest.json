@@ -1,0 +1,104 @@
+{
+  "status": "partial",
+  "references": [
+    {
+      "file": "ref-male-protagonist-three-view.jpg",
+      "role": "人物身份、服装及菜篮",
+      "sha256": "61dacc599e192df67a2bb977ec6054416cc03a0350c93a434e9897f2ee30db8b",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "file": "ref-world-scene-grade.png",
+      "role": "场景及统一阴天色调",
+      "sha256": "8d60c0f5e7308731c4a0d5a31a81f0173aa22044cecc7e4194c3008c6fa04a2f",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-speed-type-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "3cedcc435e4dd732fba00122b951ea9955bcb51faa0479d026ba61fef2b20677",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-bomber-type-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "6fe0fc86f3f6ff6b4e88b04230c40eab7304fffc1a221a85017746a47f5d4998",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-giant-arm-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "347607454447503855fb909cc1629922020555431e318d52dd6cf0e868a3bbf2",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-scout-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "5033aa4f050775eed49a3676a8e6c58638776982605ff9c0eb08079981e34d27",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-muscle-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "fbcee65f07afecf080d739001d9d0d6af4f6ff5f06cf9aa93e078f08830302b1",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-tentacle-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "c1de70dfc163be64b97d5fb06a3f1b91b955ae236422cdddb70047221af2b139",
+      "mime_type": "image/png"
+    }
+  ],
+  "keyframes": [
+    {
+      "file": "keyframe_01_city_overview.png",
+      "role": "关键帧",
+      "sha256": "9f07f2d46091bee6b67e2aab20803d5dca7552927c46f11ed471709e6a3df8ac"
+    },
+    {
+      "file": "keyframe_02_ruined_street.png",
+      "role": "关键帧",
+      "sha256": "f61311947c9a9b7319427a2703dd8efddbcdd62ae7c9596b86bab8900f0873a6"
+    },
+    {
+      "file": "keyframe_03_resistance_graffiti.png",
+      "role": "关键帧",
+      "sha256": "12b67ed94cea192b9fe1fbf86061a0f5b713435bfce480bdef5b01ed145a6188"
+    },
+    {
+      "file": "keyframe_04_protagonist_entry.png",
+      "role": "关键帧",
+      "sha256": "6a47d7aeef5f8bd724b6ce5f741dee448d8824e9a03c23ffdd626fbd71045de9"
+    },
+    {
+      "file": "keyframe_05_footstep_glass.png",
+      "role": "关键帧",
+      "sha256": "f6bc0b8fa6a3e8a044a25ece245c9a266f1f0f1dbb324649a99d273e610572a1"
+    },
+    {
+      "file": "keyframe_06_basket_hand_sideface.png",
+      "role": "关键帧",
+      "sha256": "ea74c6b486acc287173d535e6a0f0c2d2ab1bf1531f86b760811d66c5bd63622"
+    },
+    {
+      "file": "keyframe_08_monster_head_tilt.png",
+      "role": "关键帧",
+      "sha256": "dc6d9a9d4a197bc9816c1ffca1cbe5cea0bea03819b1d977e54a1c431fb6bed4"
+    },
+    {
+      "file": "keyframe_09_aerial_siege.png",
+      "role": "关键帧",
+      "sha256": "e21f05a144dfe9e1f7f4762bf808a1a14643251c28cfd79cbcc70b9742e25784"
+    },
+    {
+      "file": "keyframe_10_small_followers.png",
+      "role": "关键帧",
+      "sha256": "f9bf04cff961b7eccf7b4924b41a1d8697e76ffcab459c062c0e3de35cdd80d6"
+    }
+  ],
+  "missing_keyframes": [
+    "keyframe_07_monster_claw_wall.png"
+  ],
+  "submission_rule": "只读取本frames目录，按镜头选择参考，不把所有图一次性全部提交。"
+}

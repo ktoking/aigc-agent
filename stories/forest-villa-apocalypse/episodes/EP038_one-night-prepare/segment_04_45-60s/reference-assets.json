@@ -1,0 +1,53 @@
+{
+  "status": "references_prepared_not_submitted",
+  "digital_assets": [
+    {
+      "name": "叶凝霜",
+      "uri": "asset://asset-20260720212023-wwndz"
+    },
+    {
+      "name": "白棠",
+      "uri": "asset://asset-20260320075131-k78qt"
+    },
+    {
+      "name": "许砚",
+      "uri": "asset://asset-20260320075237-29hdx"
+    }
+  ],
+  "reference_images": [
+    {
+      "label": "参考图1",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/outer-wall-ice-layer-16x9.png",
+      "description": "原三视图对应墙外局部与附加冰层，只锁灰墙、黑门和墙外冰层，不锁新增通风口，不堵既有排热口；图中没有人物。"
+    },
+    {
+      "label": "参考图2",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png",
+      "description": "银白长发，只锁发色发量，不锁脸；图中没有人物。"
+    },
+    {
+      "label": "参考图3",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-winter-outfit-flatlay-16x9.png",
+      "description": "叶凝霜白风衣服装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图4",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "description": "白棠工装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图5",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "description": "许砚工装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图6",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/night-control-room-convoy-16x9.png",
+      "description": "夜间控制室，只锁空间、录音设备和桌面；车队屏幕仅Segment04镜头三后采用，此前只显示空林道；图中没有人物。"
+    }
+  ],
+  "total_inputs": 9,
+  "first_frame": null,
+  "last_frame": null,
+  "notes": "白棠在Segment03的服装按文字锁定，有限参考位优先保留地下室与控制室两处场景。不要把参考图描述视为已提交API。"
+}

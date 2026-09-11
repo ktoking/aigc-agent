@@ -1,0 +1,93 @@
+{
+  "segment": "segment_06_150-180s",
+  "target_count": 12,
+  "ready_count": 12,
+  "mode": "seedance-2.5-reference",
+  "status": "ready-for-review",
+  "references": [
+    {
+      "reference_index": 1,
+      "file": "first-frame.png",
+      "role": "本段首帧，锁定0秒状态",
+      "status": "ready",
+      "sha256": "2d99849675a5420f55f5c87b847f8fd6d007b44454bc2982aed4d0dcd2a656cf"
+    },
+    {
+      "reference_index": 2,
+      "file": "last-frame.png",
+      "role": "本段尾帧，锁定30秒状态",
+      "status": "ready",
+      "sha256": "de157e2874c7827b846de7e5c171b29ef92163181a9af86d029d3f4f25767bd4"
+    },
+    {
+      "reference_index": 3,
+      "file": "ref-core-cradle.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "d4cd5641569d9612c653ba169e2607c7c51f66a167084769b2677259149c4e9a"
+    },
+    {
+      "reference_index": 4,
+      "file": "ref-core-portable.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "84a09bfc211f9d37bf2171333cf9cd7ab9f2772f98597881fb6fed9ddc33b2f9"
+    },
+    {
+      "reference_index": 5,
+      "file": "ref-original-canyon-bridge.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "22fb8c93768f5c60040b250cb8dac22571cdd3cd03ac9ef6cdc902b8c6d65e42"
+    },
+    {
+      "reference_index": 6,
+      "file": "ref-original-giant-brute.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "f4aaabc0c07d9a4a5265bf2ed3810c0ac8f903da70e4fd66ad5c1e0b7a6a67f4"
+    },
+    {
+      "reference_index": 7,
+      "file": "ref-original-lead-sniper.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "23bc535237eb0cb899dbe98534eeb92d4368d51f376540d3a2e4eb6c98ebcdaa"
+    },
+    {
+      "reference_index": 8,
+      "file": "ref-original-purification-chamber.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "4ef49ca7892e214653f2a5138dca32e45295892cdce1ac5e36af9a0c1423424f"
+    },
+    {
+      "reference_index": 9,
+      "file": "ref-station-direction.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "72df093d9c07523871664882b160d9ac652b10fed0b26a0ad7021080e9a9df19"
+    },
+    {
+      "reference_index": 10,
+      "file": "ref-station-tracks.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "a204980d264ced0076d1489448f944dae184419c18233afaa57bbadee49163c2"
+    },
+    {
+      "reference_index": 11,
+      "file": "ref-train-coupler.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "a20a21c2f57474c2cec4155c7a0721c2fa01f74a2965ad0954217ab94e6ac289"
+    },
+    {
+      "reference_index": 12,
+      "file": "ref-train-shape.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "a993c9aa25cd99b694fd44165bb9e7bd8aa43244ceb6f4914ab868d0dac8ff9b"
+    }
+  ]
+}

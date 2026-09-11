@@ -1,0 +1,21 @@
+{
+  "segment_counts": [
+    8,
+    10,
+    8,
+    8,
+    11,
+    12,
+    11,
+    12
+  ],
+  "ready_slots": 80,
+  "status": "ready-for-review",
+  "requested_model": "Image-2.5",
+  "actual_model": "built-in imagegen; exact version not reported",
+  "notes": [
+    "All eight segments have first and last frames.",
+    "User originals are preserved and reused by explicit role.",
+    "Minor portrait generation was skipped after safety rejection; ending uses object and environment storytelling."
+  ]
+}

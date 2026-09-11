@@ -1,0 +1,90 @@
+{
+  "status": "generated",
+  "references": [
+    {
+      "file": "ref-male-protagonist-three-view.jpg",
+      "role": "人物身份、服装及菜篮",
+      "sha256": "61dacc599e192df67a2bb977ec6054416cc03a0350c93a434e9897f2ee30db8b",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "file": "ref-world-scene-grade.png",
+      "role": "场景及统一阴天色调",
+      "sha256": "8d60c0f5e7308731c4a0d5a31a81f0173aa22044cecc7e4194c3008c6fa04a2f",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-speed-type-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "3cedcc435e4dd732fba00122b951ea9955bcb51faa0479d026ba61fef2b20677",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-bomber-type-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "6fe0fc86f3f6ff6b4e88b04230c40eab7304fffc1a221a85017746a47f5d4998",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-muscle-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "fbcee65f07afecf080d739001d9d0d6af4f6ff5f06cf9aa93e078f08830302b1",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-tentacle-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "c1de70dfc163be64b97d5fb06a3f1b91b955ae236422cdddb70047221af2b139",
+      "mime_type": "image/png"
+    }
+  ],
+  "keyframes": [
+    {
+      "file": "keyframe_01_speed_attack.png",
+      "role": "关键帧",
+      "sha256": "f7619318596e1d5e47d71282f215002d78ea41a1836564b379aff94fdf2a3fce"
+    },
+    {
+      "file": "keyframe_02_one_hand_blast.png",
+      "role": "关键帧",
+      "sha256": "342b1fea47acaeb199a22d677304536699141dc1601f48e21d3bb8688a36a7f1"
+    },
+    {
+      "file": "keyframe_03_veg_drop_pickup.png",
+      "role": "关键帧",
+      "sha256": "6245adf10becfce0ce32cdb5c0fad76579b3b71cad0ef605adeffdf1dd89c914"
+    },
+    {
+      "file": "keyframe_05_speed_monster_leap.png",
+      "role": "关键帧",
+      "sha256": "87c30432766adf08c9e2d18d0fd21ff06753a390e316966aed30c66a38edf4fb"
+    },
+    {
+      "file": "keyframe_06_tentacle_wrap.png",
+      "role": "关键帧",
+      "sha256": "3dbe30578b04d73653db17e93b2e4aa164de5c757a21d1c9fae3727b84e351b5"
+    },
+    {
+      "file": "keyframe_07_sneeze_blast.png",
+      "role": "关键帧",
+      "sha256": "0a585810b9f7205e98ed1972032c7c32d3c65a78cf409102e82637f965ca43b9"
+    },
+    {
+      "file": "keyframe_08_bomber_firing.png",
+      "role": "关键帧",
+      "sha256": "001c5be88d9f9547757df5ae4bbcb46f8572a9c572cded6db9001c2a92e9b679"
+    },
+    {
+      "file": "keyframe_09_street_explosion.png",
+      "role": "关键帧",
+      "sha256": "1b599dc9ff69a240109ea7338956df3bca7869b8849c648a3c5585f5e70afd92"
+    },
+    {
+      "file": "keyframe_10_sale_ad_run.png",
+      "role": "关键帧",
+      "sha256": "088b226f65c41c8002ea481289936da2b46f3878aea36a0441b7ec0371f293fe"
+    }
+  ],
+  "missing_keyframes": [],
+  "submission_rule": "只读取本frames目录，按镜头选择参考，不把所有图一次性全部提交。"
+}

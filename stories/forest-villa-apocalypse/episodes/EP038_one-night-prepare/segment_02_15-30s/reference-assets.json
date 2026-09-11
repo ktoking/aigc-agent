@@ -1,0 +1,54 @@
+{
+  "status": "references_prepared_not_submitted",
+  "digital_assets": [
+    {
+      "name": "许砚",
+      "uri": "asset://asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "uri": "asset://asset-20260320075131-k78qt"
+    }
+  ],
+  "reference_images": [
+    {
+      "label": "参考图1",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/night-control-room-convoy-16x9.png",
+      "description": "夜间控制室，只锁空间、录音设备和桌面；车队屏幕仅Segment04镜头三后采用，此前只显示空林道；图中没有人物。"
+    },
+    {
+      "label": "参考图2",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/three-choice-explosive-cards-16x9.png",
+      "description": "手机三选一卡面，只锁三张卡布局，不复制背景设备；图中没有人物。"
+    },
+    {
+      "label": "参考图3",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "description": "许砚工装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图4",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "description": "白棠工装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图5",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/printer-remote-output-16x9.png",
+      "description": "既有打印仓与遥控成品，只锁机器和成品外观；开门出件状态仅Segment03镜头一采用；图中没有人物。"
+    },
+    {
+      "label": "参考图6",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/system-explosive-box-projection-16x9.png",
+      "description": "手机投影实体化封闭炸药箱，仅Segment02镜头四采用，不展示内部；图中没有人物。"
+    },
+    {
+      "label": "参考图7",
+      "path": "stories/forest-villa-apocalypse/assets/props/FVA_INDUSTRIAL_METAL_PRINTER_001/references/industrial-metal-printer-installed-utilities-16x9.png",
+      "description": "工作间材质与工作台，只锁灰黑机器和台面，不复制白天绿树或开门状态；图中没有人物。"
+    }
+  ],
+  "total_inputs": 9,
+  "first_frame": null,
+  "last_frame": null,
+  "notes": "白棠在Segment03的服装按文字锁定，有限参考位优先保留地下室与控制室两处场景。不要把参考图描述视为已提交API。"
+}

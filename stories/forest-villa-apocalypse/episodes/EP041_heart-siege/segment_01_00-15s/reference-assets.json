@@ -1,0 +1,105 @@
+{
+  "episode": "EP041_heart-siege",
+  "segment": "segment_01_00-15s",
+  "local_reference_count": 9,
+  "digital_humans": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    }
+  ],
+  "first_last_frames": false,
+  "api_submission": {
+    "status": "not_submitted",
+    "max_total_images": 9,
+    "scene_slots": 7,
+    "candidate_local_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "note": "仅本地素材库，不能直接将9张背景图加数字人一起上传。正式提交时按实际内容顺序重新编号，生成独立提交提示词；不得自动扫描frames目录或用首尾帧。"
+  },
+  "references": [
+    {
+      "number": 1,
+      "file": "frames/参考图1.png",
+      "source": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "scope": "canonical别墅冬季外观，只锁定同一栋三层主楼、连续阳台、灰石高墙、墙顶电网和关闭黑门；不锁定本镜战斗进度，不据此撤除已有炮台",
+      "status": "image_visually_reviewed",
+      "kind": "reused"
+    },
+    {
+      "number": 2,
+      "file": "frames/参考图2.png",
+      "source": "assets/production/ep039-041-reference-completion/references/controlClean-16x9.png",
+      "scope": "现代控制室，只锁定监控台、桌椅、窗边和灯光布局；屏幕内容依本镜剧情替换，不能把屏幕内林道当成室内背景",
+      "status": "image_visually_reviewed",
+      "kind": "generated"
+    },
+    {
+      "number": 3,
+      "file": "frames/参考图3.png",
+      "source": "assets/production/ep039-041-reference-completion/references/wreck-v2-16x9.png",
+      "scope": "林道爆炸后第一辆炮车侧翻、后车停驶，只锁定车队受损结果；后续已冻结的第二车按对应镜头状态呈现",
+      "status": "image_visually_reviewed",
+      "kind": "generated"
+    },
+    {
+      "number": 4,
+      "file": "frames/参考图4.png",
+      "source": "assets/production/ep039-041-reference-completion/references/loudspeaker-16x9.png",
+      "scope": "冬狼车载扩音器，只锁定黑色喇叭外形和装甲车安装背景；不展示设备内部",
+      "status": "image_visually_reviewed",
+      "kind": "generated"
+    },
+    {
+      "number": 5,
+      "file": "frames/参考图5.png",
+      "source": "assets/production/ep039-041-reference-completion/references/yancostume-16x9.png",
+      "scope": "炎魁无人物服装平铺，只锁定炭黑外套、暗红内搭和余烬质感；不锁人物脸，不生成平铺画面",
+      "status": "image_visually_reviewed",
+      "kind": "generated"
+    },
+    {
+      "number": 6,
+      "file": "frames/参考图6.png",
+      "source": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "scope": "许砚工装平铺，只锁定炭灰防水夹克、深灰内搭、黑灰工装裤与深棕登山靴；不生成平铺画面",
+      "status": "image_visually_reviewed",
+      "kind": "reused"
+    },
+    {
+      "number": 7,
+      "file": "frames/参考图7.png",
+      "source": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "scope": "白棠工装平铺，只锁定鼠尾草绿短外套、浅灰内搭、深灰裤和黑色工作鞋；不生成平铺画面",
+      "status": "image_visually_reviewed",
+      "kind": "reused"
+    },
+    {
+      "number": 8,
+      "file": "frames/参考图8.png",
+      "source": "assets/production/ep036-defrost-and-intel/references/winter-overcast-snowfall-sky-16x9.png",
+      "scope": "阴雪天空，只锁定云层、飘雪和冬季冷色环境光",
+      "status": "image_visually_reviewed",
+      "kind": "reused"
+    },
+    {
+      "number": 9,
+      "file": "frames/参考图9.png",
+      "source": "assets/production/ep036-defrost-and-intel/references/winter-wolf-armored-truck-16x9.png",
+      "scope": "冬狼黑色无炮装甲运输车，只锁定车体外壳、轮胎和车窗；不是别墅的柴油皮卡",
+      "status": "image_visually_reviewed",
+      "kind": "reused"
+    }
+  ]
+}

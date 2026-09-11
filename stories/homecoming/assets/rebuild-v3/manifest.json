@@ -1,0 +1,301 @@
+{
+  "version": "v3",
+  "assets": [
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_01_city_overview.png",
+      "original_sha256": "7476d548e20302ca168800a85cb72e55fc2226a46b221395fe894141bc450f7f",
+      "status": "generated",
+      "sha256": "9f07f2d46091bee6b67e2aab20803d5dca7552927c46f11ed471709e6a3df8ac"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_02_ruined_street.png",
+      "original_sha256": "c5f95757c3c2c21ba0c37ac5184cce31111520299fceb88aea3605fab090b5ef",
+      "status": "generated",
+      "sha256": "f61311947c9a9b7319427a2703dd8efddbcdd62ae7c9596b86bab8900f0873a6"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_03_resistance_graffiti.png",
+      "original_sha256": "5de2f51b93adad3bf0c720cb206742296ce97b18a83cfacdccc7ae533626e88e",
+      "status": "generated",
+      "sha256": "12b67ed94cea192b9fe1fbf86061a0f5b713435bfce480bdef5b01ed145a6188"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_04_protagonist_entry.png",
+      "original_sha256": "afdb39b93537e8ed7b672029d0d1e4b8b3f59d495fe1469b9795b53bf14b9f73",
+      "status": "generated",
+      "sha256": "6a47d7aeef5f8bd724b6ce5f741dee448d8824e9a03c23ffdd626fbd71045de9"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_05_footstep_glass.png",
+      "original_sha256": "9b2d1602cc0bd098dc89f2f4bd2c0fe676c9b8fefe1cd16431a7cdb153c4c4c4",
+      "status": "generated",
+      "sha256": "f6bc0b8fa6a3e8a044a25ece245c9a266f1f0f1dbb324649a99d273e610572a1"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_06_basket_hand_sideface.png",
+      "original_sha256": "a03b69cdd1e93006b788dd147b137b5e8be35af471af9a0d89ac2d825e35ce28",
+      "status": "generated",
+      "sha256": "ea74c6b486acc287173d535e6a0f0c2d2ab1bf1531f86b760811d66c5bd63622"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_07_monster_claw_wall.png",
+      "original_sha256": "5dd298e9fe4ad91b7517b6ea9b69332a77eb9a87eff33ee487b0125e9200a6ee",
+      "status": "pending_generation",
+      "last_error": "moderation_blocked: output violence; static non-injury hand-detail retry also rejected"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_08_monster_head_tilt.png",
+      "original_sha256": "1e4c8a556b163bad6a77333e6699f5cfceed3779d08a8685432b88fd3724fe05",
+      "status": "generated",
+      "sha256": "dc6d9a9d4a197bc9816c1ffca1cbe5cea0bea03819b1d977e54a1c431fb6bed4"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_09_aerial_siege.png",
+      "original_sha256": "4ccc287bfa9f46262de505edb1727c2729b22da2aba7d80ef41d86aef9c6a18d",
+      "status": "generated",
+      "sha256": "e21f05a144dfe9e1f7f4762bf808a1a14643251c28cfd79cbcc70b9742e25784"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_01_00-30s/frames/keyframe_10_small_followers.png",
+      "original_sha256": "58f4e1b6db8c349ca10651940593c1a69523e6276f89991512cf7c2d19e176a3",
+      "status": "generated",
+      "sha256": "f9bf04cff961b7eccf7b4924b41a1d8697e76ffcab459c062c0e3de35cdd80d6"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_01_speed_attack.png",
+      "original_sha256": "44618c79795f78440d31c7f9cedcb764f5e2235bd2f95b823ef1e13dd4610d90",
+      "status": "generated",
+      "sha256": "f7619318596e1d5e47d71282f215002d78ea41a1836564b379aff94fdf2a3fce"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_02_one_hand_blast.png",
+      "original_sha256": "c714b862a51ddad57cfcf3c31c35e8565806e4680a2c3b7cf2cb5e2aa99c07b4",
+      "status": "generated",
+      "sha256": "342b1fea47acaeb199a22d677304536699141dc1601f48e21d3bb8688a36a7f1"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_03_veg_drop_pickup.png",
+      "original_sha256": "68cdcd700af3ad2e50560c7f4252014d99c1244e0ba2197e8f614c29fa149cfe",
+      "status": "generated",
+      "sha256": "6245adf10becfce0ce32cdb5c0fad76579b3b71cad0ef605adeffdf1dd89c914"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_05_speed_monster_leap.png",
+      "original_sha256": "7abfe9a757e965b417248ff260d8ef01f6bec892a7661203e5c1615b9b7466f2",
+      "status": "generated",
+      "sha256": "87c30432766adf08c9e2d18d0fd21ff06753a390e316966aed30c66a38edf4fb"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_06_tentacle_wrap.png",
+      "original_sha256": "6c4789de61a16659045656b36c1684cf7b7dd6884fe290599c3f5fd42b140d85",
+      "status": "generated",
+      "sha256": "3dbe30578b04d73653db17e93b2e4aa164de5c757a21d1c9fae3727b84e351b5"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_07_sneeze_blast.png",
+      "original_sha256": "58166a1f74d8a208598d9870d316fdd61f75ea91b145743e4ea3a8c2371fb669",
+      "status": "generated",
+      "sha256": "0a585810b9f7205e98ed1972032c7c32d3c65a78cf409102e82637f965ca43b9"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_08_bomber_firing.png",
+      "original_sha256": "e0e4638bd8991d6119a6bdb0dfb0870f8a437fd60aefa4cf6780aadc624deb25",
+      "status": "generated",
+      "sha256": "001c5be88d9f9547757df5ae4bbcb46f8572a9c572cded6db9001c2a92e9b679"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_09_street_explosion.png",
+      "original_sha256": "14e3320e5a1e593502aff082c51bd0fb1c5929a6bcc43fc77ce9040e400ef2cf",
+      "status": "generated",
+      "sha256": "1b599dc9ff69a240109ea7338956df3bca7869b8849c648a3c5585f5e70afd92"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_02_30-60s/frames/keyframe_10_sale_ad_run.png",
+      "original_sha256": "ddc527f6648ed98928bc25a1d14aa68c6c13347bb889a233c5f57a34ca93c746",
+      "status": "generated",
+      "sha256": "088b226f65c41c8002ea481289936da2b46f3878aea36a0441b7ec0371f293fe"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_01_rubble_jump.png",
+      "original_sha256": "009a94bdf406164df1c217837f8c9eb70c6f6cb3aefc9821f998346009628a87",
+      "status": "generated",
+      "sha256": "bed53cc5046c9364a670796b951445f87d11c48eaba8b945691dcac02ba6229a"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_02_wall_run.png",
+      "original_sha256": "031add4e94a6eaad1cfe5301e59a84eb47f9bc040716b0aea5b8451a7c92d614",
+      "status": "generated",
+      "sha256": "d8763e5698b411e71451eb4f2a2458fae150f00ae7b5a60ca4c7180aaa301459"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_03_city_destroy_panorama.png",
+      "original_sha256": "a6ea20eb04c04d8efd0ce4a5cea7149bf8a9d47d78fa797b7b0bbed411adf6db",
+      "status": "generated",
+      "sha256": "88e4f9bd5f5816a1d4f3785f95779db93b8e0f203ab8806e71c6374bf54da1e0"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_04_giant_pit.png",
+      "original_sha256": "1309c3ab5a03c50f4f388be699a5fd40f1007124b69a299aa98a0548bf9503e6",
+      "status": "generated",
+      "sha256": "4dcc545e6dc01d763bb5f405dd3cced06ac83dca2933d94d010c484743197179"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_05_head_scratch.png",
+      "original_sha256": "eefa94660c475b673aa2ba562027dde3c5f573945ab55e56c15d079a986d7a18",
+      "status": "generated",
+      "sha256": "2010fd35d7554db5015c118f1763c3b015b10bcccdc6b47bae8ba19825fbad72"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_06_flying_monster_sleep.png",
+      "original_sha256": "1f9717575127ff4afbaf3bf416510c8dee80eb693ed093128c03acbaa41565f9",
+      "status": "generated",
+      "sha256": "050d62b729b6d5c4a1e8c7f95dbee0755498b52f9de67c0064b2a264c7194889"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_07_evil_grin.png",
+      "original_sha256": "820a16c2c89ef88fd71083b69798d584a38b8fa2fb6a6e63be269b461dff7b10",
+      "status": "generated",
+      "sha256": "393a89ca11829a689c795f9004ed85db2ca7b839850cfd5b6a32de8bf5e0e01c"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_08_fly_over_pit.png",
+      "original_sha256": "abcf4dd66fac12406157cf4705ae0df6a522fb86720ca6db2d23b54cdd9d71ac",
+      "status": "generated",
+      "sha256": "91491ed1e00e97d9c1e824f07fe54e5499f49e9bd48d4163678e293705842261"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_09_bald_flying_monster.png",
+      "original_sha256": "5c03df09e1c8f11548a269d5ab022d807b59fa5ae5e09de2dd2f4a2e7dbb3318",
+      "status": "generated",
+      "sha256": "7de76a2d051f391c81a43e537977b36aad178324fe435e3574c57bc5654269b9"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_03_60-90s/frames/keyframe_10_king_block.png",
+      "original_sha256": "78cb52b7de837f8dd739abbd8d338efec5811d12d951ba7c6245cd461df8deef",
+      "status": "generated",
+      "sha256": "89061e728c3453c63f045a094caafe8ec8d33fdefc4fd6f204ca2ff56dedd6b3"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_01_king_charge_fist.png",
+      "original_sha256": "75aeadcaa38b320dba055754bb4819cdbe1b5a48d03186f54c530002b3da1ae3",
+      "status": "generated",
+      "sha256": "afad6a797c932c15e9702c959a771df29ed90b366413bfcf4850406e34d89f3d"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_02_pov_fist.png",
+      "original_sha256": "dc10542e3293a29c01f57734abb6513193ffb468e62ef38c01b706c1cc29b183",
+      "status": "generated",
+      "sha256": "aaa0e987899be992a707d26e846c9ee9f0b6daafb9a151eb573f449e9b48ef5b"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_03_crater_unscathed.png",
+      "original_sha256": "629089ad958fd50615c330ba31c5cda8c59bd0d001dfaee1cf59a26044955c60",
+      "status": "generated",
+      "sha256": "82cc92465f5fdd7324acfe21a323f6970ffc55ea5938599b06cb7280168779aa"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_04_hand_shade_jump.png",
+      "original_sha256": "6890e7dd6548e1ea80d283fbe2ce70aede529ca2e5df74b62c27abeb1553df73",
+      "status": "generated",
+      "sha256": "4d76fdba1e6d82a96caecc3a40340f85aefba852b05d9eeb6d80e1addb034821"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_05_climb_arm_dodge.png",
+      "original_sha256": "1394f897252a5d2547fb35f872283546a366dfb7431525af2c460aa44a270699",
+      "status": "generated",
+      "sha256": "7dc2316f9c0eaffa3862a7f9303b5cbd1e88753116c225dc60b4427e9006ce00"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_06_aerial_ant_view.png",
+      "original_sha256": "7b9a6798f75f6e28401787f444872a4f461df2b8157c968073ad4624a1277f19",
+      "status": "generated",
+      "sha256": "b504c3d00d28b3cb74b4bd2fa2381fb926535fddd1c2a49c8d5d8f7cbac27425"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_07_punch_king.png",
+      "original_sha256": "0c63633711c4f7c1e54f4749cb8e4d1d5b438e55c79165327319fd429fa549f6",
+      "status": "generated",
+      "sha256": "63216915472137bb2a3aa019766a2535a40bd1ebe33b342d05f16a73d04cf3ca"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_08_king_fall_city.png",
+      "original_sha256": "6fe969ef68a7a1722e640c97b06c33c74e81aef91897a8a97d07240974b43c75",
+      "status": "generated",
+      "sha256": "30f60d40ae415c95171c10a301327ec4053f987c090d5af78a82336d2698f103"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_09_supermarket_coin.png",
+      "original_sha256": "2da4264b1aa78db15606b08f15d1cb38e3d58b5dc3bc0e069faeb37cc62586b1",
+      "status": "generated",
+      "sha256": "3fa8397cf5924aa5a117044d2074fb1b46b116bbd196d2ab59f1d5331ae0bac6"
+    },
+    {
+      "target": "episodes/EP001_homecoming/segment_04_90-120s/frames/keyframe_10_backview_sunset.png",
+      "original_sha256": "65982b1ba72d3139ddb5c5f9a2ea31399c5a43ab18f7956ec87bcef634b1e8c9",
+      "status": "generated",
+      "sha256": "b00174d655a05782674957f0334a0464224516995abf3dd957a8af6b4ffe503d"
+    },
+    {
+      "target": "assets/enemies/bomber-type-monster.png",
+      "original_sha256": "1f72f57b7b4dc563332bf28266b68fc302edfcc2bd92c34ef857da322c45ddd3",
+      "status": "generated",
+      "sha256": "6fe0fc86f3f6ff6b4e88b04230c40eab7304fffc1a221a85017746a47f5d4998"
+    },
+    {
+      "target": "assets/enemies/flying-monster.png",
+      "original_sha256": "151f471123212d93863e8d111e844c5c3d30168f425ce58fc57fe066dd031745",
+      "status": "generated",
+      "sha256": "8e92cd7f09cbee3862d8d2b459bf124b274de3b1b8dc793c059433aa07c0f503"
+    },
+    {
+      "target": "assets/enemies/giant-arm-monster.png",
+      "original_sha256": "4b151b7d6277cd0d8b677d1ca37764d5126486902f5022dc79e3b9608ef0198a",
+      "status": "generated",
+      "sha256": "347607454447503855fb909cc1629922020555431e318d52dd6cf0e868a3bbf2"
+    },
+    {
+      "target": "assets/enemies/monster-king-charged.png",
+      "original_sha256": "03db32f304282001c50847d44af946183522cff668e8d387635870d4ec6aa1fe",
+      "status": "generated",
+      "sha256": "ac006813b189da68066bb77b89b747a57fb08dbc48e19a1f73656162ad440a33"
+    },
+    {
+      "target": "assets/enemies/monster-king-normal.png",
+      "original_sha256": "f2a7de7803447300591b3c18c423c5a7bce779a501d99e8d407084297c41962b",
+      "status": "generated",
+      "sha256": "feeb276820c95b0cddb56f1ad62282a424b9ad879f19208eb3d77be2ebe95f18"
+    },
+    {
+      "target": "assets/enemies/muscle-monster.png",
+      "original_sha256": "f14d6736cf85658d165a9ac4510da488e75e652304b4d23313ed5810fa2e6f21",
+      "status": "generated",
+      "sha256": "fbcee65f07afecf080d739001d9d0d6af4f6ff5f06cf9aa93e078f08830302b1"
+    },
+    {
+      "target": "assets/enemies/scout-monster.png",
+      "original_sha256": "6ae9d6fc2da2de0f60433b8204bd0ad483e42b231bc93dc8005bd4f96ae85c0a",
+      "status": "generated",
+      "sha256": "5033aa4f050775eed49a3676a8e6c58638776982605ff9c0eb08079981e34d27"
+    },
+    {
+      "target": "assets/enemies/speed-type-monster.png",
+      "original_sha256": "be78ba13b7bacef6c779ade4b8968208d645563924714b7ecccf5747aab37e25",
+      "status": "generated",
+      "sha256": "3cedcc435e4dd732fba00122b951ea9955bcb51faa0479d026ba61fef2b20677"
+    },
+    {
+      "target": "assets/enemies/tentacle-monster.png",
+      "original_sha256": "d619a47ce69129458826f61afe0d5acd8b677260c22a1cf9a48cd521063299f5",
+      "status": "generated",
+      "sha256": "c1de70dfc163be64b97d5fb06a3f1b91b955ae236422cdddb70047221af2b139"
+    }
+  ],
+  "protected_characters": {
+    "assets/characters/male-protagonist-v3-japanese-stripe.png": "7f6a458df7cd718655090ab684304bb0a637c984ff7f14bd21ad61ff1db40f29",
+    "assets/characters/male-protagonist-v3-japanese-casual.png": "61dacc599e192df67a2bb977ec6054416cc03a0350c93a434e9897f2ee30db8b",
+    "assets/characters/male-protagonist-v2-jacket.png": "7eeb961c58de234c0bc245b072fb2da1f3f2c9b5e0b90c309a9619848166e38d",
+    "assets/characters/male-protagonist-final.png": "61dacc599e192df67a2bb977ec6054416cc03a0350c93a434e9897f2ee30db8b",
+    "assets/characters/male-protagonist-v2-hoodie.png": "d83a4872228730a9bc55cdf67696eda5269629e0b5721370c185ab2f62de509e"
+  },
+  "status": "partial"
+}

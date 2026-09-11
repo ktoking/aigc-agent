@@ -1,0 +1,89 @@
+{
+  "status": "generated",
+  "references": [
+    {
+      "file": "ref-male-protagonist-three-view.jpg",
+      "role": "人物身份、服装及菜篮",
+      "sha256": "61dacc599e192df67a2bb977ec6054416cc03a0350c93a434e9897f2ee30db8b",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "file": "ref-world-scene-grade.png",
+      "role": "场景及统一阴天色调",
+      "sha256": "8d60c0f5e7308731c4a0d5a31a81f0173aa22044cecc7e4194c3008c6fa04a2f",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-flying-monster.png",
+      "role": "怪人身份与造型",
+      "sha256": "8e92cd7f09cbee3862d8d2b459bf124b274de3b1b8dc793c059433aa07c0f503",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-monster-king-normal.png",
+      "role": "怪人身份与造型",
+      "sha256": "feeb276820c95b0cddb56f1ad62282a424b9ad879f19208eb3d77be2ebe95f18",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-pit-scene.png",
+      "role": "深坑场景",
+      "sha256": "4dcc545e6dc01d763bb5f405dd3cced06ac83dca2933d94d010c484743197179",
+      "mime_type": "image/png"
+    }
+  ],
+  "keyframes": [
+    {
+      "file": "keyframe_01_rubble_jump.png",
+      "role": "关键帧",
+      "sha256": "bed53cc5046c9364a670796b951445f87d11c48eaba8b945691dcac02ba6229a"
+    },
+    {
+      "file": "keyframe_02_wall_run.png",
+      "role": "关键帧",
+      "sha256": "d8763e5698b411e71451eb4f2a2458fae150f00ae7b5a60ca4c7180aaa301459"
+    },
+    {
+      "file": "keyframe_03_city_destroy_panorama.png",
+      "role": "关键帧",
+      "sha256": "88e4f9bd5f5816a1d4f3785f95779db93b8e0f203ab8806e71c6374bf54da1e0"
+    },
+    {
+      "file": "keyframe_04_giant_pit.png",
+      "role": "关键帧",
+      "sha256": "4dcc545e6dc01d763bb5f405dd3cced06ac83dca2933d94d010c484743197179"
+    },
+    {
+      "file": "keyframe_05_head_scratch.png",
+      "role": "关键帧",
+      "sha256": "2010fd35d7554db5015c118f1763c3b015b10bcccdc6b47bae8ba19825fbad72"
+    },
+    {
+      "file": "keyframe_06_flying_monster_sleep.png",
+      "role": "关键帧",
+      "sha256": "050d62b729b6d5c4a1e8c7f95dbee0755498b52f9de67c0064b2a264c7194889"
+    },
+    {
+      "file": "keyframe_07_evil_grin.png",
+      "role": "关键帧",
+      "sha256": "393a89ca11829a689c795f9004ed85db2ca7b839850cfd5b6a32de8bf5e0e01c"
+    },
+    {
+      "file": "keyframe_08_fly_over_pit.png",
+      "role": "关键帧",
+      "sha256": "91491ed1e00e97d9c1e824f07fe54e5499f49e9bd48d4163678e293705842261"
+    },
+    {
+      "file": "keyframe_09_bald_flying_monster.png",
+      "role": "关键帧",
+      "sha256": "7de76a2d051f391c81a43e537977b36aad178324fe435e3574c57bc5654269b9"
+    },
+    {
+      "file": "keyframe_10_king_block.png",
+      "role": "关键帧",
+      "sha256": "89061e728c3453c63f045a094caafe8ec8d33fdefc4fd6f204ca2ff56dedd6b3"
+    }
+  ],
+  "missing_keyframes": [],
+  "submission_rule": "只读取本frames目录，按镜头选择参考，不把所有图一次性全部提交。"
+}

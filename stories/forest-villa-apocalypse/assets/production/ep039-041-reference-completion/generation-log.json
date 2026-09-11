@@ -1,0 +1,254 @@
+{
+  "generator": "Codex built-in imagegen",
+  "base_prompt": "生成单张横屏16:9（建议1536x864）真人末日短剧场景/道具参考资产，摄影写实、自然清楚曝光、现代灰白石材与黑金属色调，干净大形、适度细节，非动漫，不要复古建筑、不添加文字水印logo；无人物，无人脸、无手、无背景人影。不要拼图。保持参考中物件造型及建筑结构。",
+  "canonical_villa": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+  "assets": [
+    {
+      "key": "convoy",
+      "prompt": "阴雪黎明，松林山路上两辆深灰带炮卡车与一辆参考装甲卡车前后停放，先头炮车离镜头最近，两辆炮车外形相同，封闭驾驶室看不到人，车载炮只展示外形；远景，雪地轮迹，别墅不入镜。",
+      "reference_keys": [
+        "truck"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/convoy-v2-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-d62f48d1-8797-4fdd-a7de-3e6431c458ff.png"
+    },
+    {
+      "key": "wreck",
+      "prompt": "沿用参考车队同一条路和车辆：先头带炮卡车已侧翻到路旁，少量电影烟雾和扬雪，后方第二辆炮车和装甲车刹停。画面清楚、无火海、无人伤亡、无爆炸装置。保持可辨认的车载炮轮廓。",
+      "reference_keys": [
+        "convoy"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/wreck-v2-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-14ad9dfe-d237-4f1c-a1cf-9d0856c8f921.png"
+    },
+    {
+      "key": "frozen",
+      "prompt": "同一车队的第二辆带炮卡车单车中全景，整辆车被厚透明蓝白异能冰壳包裹，车轮和炮身都被冻结，车形清楚能辨识，雪松道路，别墅不入镜。无人物。",
+      "reference_keys": [
+        "convoy"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/frozen-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-34f33645-a6c9-4f47-83cb-92e204804042.png"
+    },
+    {
+      "key": "inside",
+      "prompt": "参考别墅前院内侧的值守点，摄影机位在院内朝向关闭的黑色大门，只见高墙内壁和门，避免重造主楼。门内侧一组炭灰防护挡板，旁边一个带保温毯的休息凳、小监控通讯工作台；雪地，现代灰石黑金属，暖色工作灯，无人。挡板在门内不挡门开启路径。",
+      "reference_keys": [
+        "villa"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/inside-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-8cadccc9-788b-4993-b4c1-768a1d308fe1.png"
+    },
+    {
+      "key": "icecar",
+      "prompt": "同一黑色装甲车在别墅门外撞上厚重冰障之后完全停住，轮胎陷在碎冰中，车头朝关闭大门。采用侧面远景清楚同时显示装甲车、车前冰障、冰障后完好的高围墙与封闭黑门，车在院外，墙顶电网完整。别墅主体尽量不入镜，只沿用参考图高墙门材料。无爆炸、无人。",
+      "reference_keys": [
+        "truck",
+        "villa"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/icecar-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-2b7500ce-66f2-457f-b6be-cdcc6afd6fd9.png"
+    },
+    {
+      "key": "cage",
+      "prompt": "阴雪松林山道，车队尾部一辆深灰运输货车的厚钢兽笼，两个空笼门向外打开，锁链落在雪里，车厢深处全黑无人物无生物，悬念中全景。车辆设计沿用参考黑色车队风格。",
+      "reference_keys": [
+        "truck"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/cage-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-c1f8047d-ec1a-46c5-a1ed-7ffb1ae6b5b7.png"
+    },
+    {
+      "key": "beast",
+      "prompt": "电影特效参考：一只巨大完全非人形地面变异怪兽，四肢着地、前肢粗壮，岩灰色甲壳，楔形兽颅，没有人脸鼻子或头发，没有衣物，体高约装甲车一半，壮硕凶狠。完整侧前三分之四全身在雪松林道上，清楚轮廓，远处极小两只同类；无血腥，无建筑，无人。",
+      "reference_keys": [],
+      "final_file": "assets/production/ep039-041-reference-completion/references/beast-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-37a214aa-d232-4959-bb2f-f611adcc9f8e.png"
+    },
+    {
+      "key": "swarm",
+      "prompt": "同一非人四足灰甲变异怪兽群在参考别墅高围墙外的雪地上逼近，七只分散层次，墙外根部有蓝白冰障，主墙、电网、黑门完整，只有一栋参考三层连续阳台别墅，画面高处广角从院外侧面观察，所有怪物都在墙外，没有侵入院内，没有人物，没有额外炮台。",
+      "reference_keys": [
+        "villa",
+        "beast"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/swarm-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-d26cd1fe-e2c4-44db-8da7-04b0371494a7.png"
+    },
+    {
+      "key": "bound",
+      "prompt": "同一非人四足巨大灰甲怪兽的腿被蓝白冰柱限制在别墅墙外，它撞裂的是墙外附加的冰障，不是石墙。侧面中全景，一只怪兽完整入画，完整高石墙与顶端电网在后侧，外冰障大块裂开，雪尘，无人物、无血腥。",
+      "reference_keys": [
+        "villa",
+        "beast"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/bound-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-df35dc98-870a-4464-becb-603f157bb468.png"
+    },
+    {
+      "key": "fallen",
+      "prompt": "同一巨大四足灰甲怪兽侧躺倒在别墅高墙外的积雪与破冰上，停止活动，无血无伤口特写。墙本体和封闭门、电网完好，仅墙外冰层破损。中远景所有尸体在院外，干净可读，无人物。",
+      "reference_keys": [
+        "bound"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/fallen-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-1602647c-d846-43e5-bd11-541bf49c668d.png"
+    },
+    {
+      "key": "steam",
+      "prompt": "参考别墅同一外墙局部，外加的蓝白冰障被一股画外橙金虚构异能火焰融化，蒸汽沿墙外升腾，石墙与黑色封闭大门、电网保持完好，地上有融水和碎冰。火焰只作用在外侧冰层，墙体没有火灾。侧面宽景，不出现施法者、不出现怪物。",
+      "reference_keys": [
+        "villa"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/steam-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-badc1a4e-55a2-486b-be5a-84c47418f736.png"
+    },
+    {
+      "key": "medbay",
+      "prompt": "把参考现代医疗区的白灰金属和临床照明风格移到别墅院内门侧独立医疗位：近处可调检查椅、不锈钢检查托盘、保温毯、医疗柜，侧边宽开口能看到同一门内防护挡板与关闭外门。受保护的小型门廊内，不是新建一栋楼；无人物，非隔离囚室，无字。",
+      "reference_keys": [
+        "medical",
+        "inside"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/medbay-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-aecc3078-9881-459f-9352-c69310033c86.png"
+    },
+    {
+      "key": "tray",
+      "prompt": "现代白灰医疗位桌面近景：不锈钢检查托盘、封装纱布、医用笔灯、干净毛巾、一副未佩戴检查手套，背景虚化检查椅。无药品可读文字、无手、无人物。",
+      "reference_keys": [
+        "medical"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/tray-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-d14e6359-0c2f-45bc-9da6-666b72d97c3e.png"
+    },
+    {
+      "key": "brand",
+      "prompt": "真人影视特效道具摄影：一块淡灰色硅胶材质弧面训练模型放在现代医疗台上，非真人非人体，仅用于展示虚构烙印。表面一小圈断裂的冷蓝几何纹路已变成很淡灰痕，不像伤口，无血。中近景，干净，无文字无脸无手。",
+      "reference_keys": [],
+      "final_file": "assets/production/ep039-041-reference-completion/references/brand-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-f11569fb-a67c-4268-876e-21e6f789201d.png"
+    },
+    {
+      "key": "heal",
+      "prompt": "沿用参考同一灰色硅胶弧面特效模型在医疗台上的构图，淡淡温白修复光正覆盖断裂几何灰痕，灰痕大部分消失。仅模型和光效，没有人物或手，没有医疗操作步骤。",
+      "reference_keys": [
+        "brand"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/heal-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-faa4a0d7-eadc-4d7a-b9f1-bcc69d9506a6.png"
+    },
+    {
+      "key": "stretcher",
+      "prompt": "门内休息和值守点的一辆折叠救援担架展开在干净地面，保温毯和小医疗包置于担架旁，关闭黑门和灰石内墙背景、防护挡板在远侧。材质位置严格继承参考门内图；没有伤员、没有人员。",
+      "reference_keys": [
+        "inside"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/stretcher-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-04b74617-6689-4836-a383-fb53b0a5a567.png"
+    },
+    {
+      "key": "loudspeaker",
+      "prompt": "黑色装甲车外部上角的一只灰黑车载扩音喇叭中近景，参考车金属外壳和雪松背景，设备无字无商标，无人无车内人影，不展示电子内部。",
+      "reference_keys": [
+        "truck"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/loudspeaker-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-b70b4bb1-2d88-4f14-b74a-b851f763512b.png"
+    },
+    {
+      "key": "iceeffect",
+      "prompt": "雪地小范围蓝白冰柱从地面升起并形成约束环的电影特效图，仅三四根粗冰柱与薄冰霜，清楚中景，门外灰石墙边雪地，墙完整，特效不穿入院内。没有人形、没有人、没有动物。",
+      "reference_keys": [
+        "villa"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/iceeffect-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-c7611deb-0b98-4ddd-bbc7-9170e5a3e968.png"
+    },
+    {
+      "key": "yancostume",
+      "prompt": "真人电影服装平铺摄影：成年男性火系异能者的炭黑厚重冬季外套、暗红内搭、黑色耐磨长裤和黑色靴子平铺，外套边缘有少量橙红余烬光，灰色摄影背景，衣服是空的，没有模特没有脸没有手，没有字。",
+      "reference_keys": [],
+      "final_file": "assets/production/ep039-041-reference-completion/references/yancostume-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-98333e6d-1270-4052-a0af-854c4158d481.png"
+    },
+    {
+      "key": "controlClean",
+      "prompt": "保持参考控制室全部室内结构、家具和窗户完全不变，只将所有屏幕内图像替换为无人的积雪松林山路实时监控画面，不出现任何房子、建筑、人脸、人影，也无文字坐标。清晨自然光，现代设备已正常开启，没有故障。",
+      "reference_keys": [
+        "control"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/controlClean-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-7521a5f2-d7b4-478b-9f20-5d8668ccf0cc.png"
+    },
+    {
+      "key": "turretActive",
+      "prompt": "保持参考唯一一座炮台的炮管、雷达、光学镜头、底座及原二楼阳台背景位置不变。清除炮台和炮管表面的所有冰壳冰柱，设备为正常运转的黑灰金属干燥外观，雷达状态有小绿灯，阳台外沿少许自然积雪即可。改成阴雪白天。不要增加第二座设备，禁止人物。",
+      "reference_keys": [
+        "turret"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/turretActive-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-5050775e-59e9-41b4-ac08-2686caae8327.png"
+    },
+    {
+      "key": "yeoutMatch",
+      "prompt": "以参考白色风衣的剪裁为基础，生成对应本集角色的无人物冬装平铺图：白色修身长款防寒风衣、冰灰色高领厚内搭、白灰色战术长裤（不是丝袜，必须裤腿有口袋），白色雪地靴。只服装平铺，没有模特、没有脸、没有字。",
+      "reference_keys": [
+        "yeout"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/yeoutMatch-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-780df17f-4acf-41bd-8eab-a99c86c20923.png"
+    },
+    {
+      "key": "remoteClose",
+      "prompt": "把参考打印托盘上那个小型银边黑面封闭遥控道具，单独放在现代灰色控制室桌面中近景，清楚可辨小物件外形，背景没有打印仓。封闭无内部结构，无线材，无操作标记，不显示技术结构或按钮特写，无手、无人。",
+      "reference_keys": [
+        "remote"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/remoteClose-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-a94da423-24b2-4aae-8c38-1926863e7d04.png"
+    },
+    {
+      "key": "phoneUnlock",
+      "prompt": "沿用参考同一黑色加固手机摆在控制桌上，屏幕不再显示先前具体物品，只显示一道抽卡卡池解锁的金白光圈和三张无文字空白卡背，轻微投影光，不出现实际抽中的物资，不写字幕文字，无手、无人。",
+      "reference_keys": [
+        "phone"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/phoneUnlock-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-03ecc96a-f11c-4f9b-9008-197336c92f0b.png"
+    },
+    {
+      "key": "shenoutMatch",
+      "prompt": "以参考医护外套为基础，服装平铺图：暗酒红医护工装外套、米白色厚高领长袖内搭、深灰工装长裤、深色医护靴，符合严冬工作装备，无模特无人无脸。尤其替换黑色短袖为米白高领，其他外套色与剪裁保持。",
+      "reference_keys": [
+        "shenout"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/shenoutMatch-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-45ee7e13-f2f3-4fa5-8aa8-ca409acf070a.png"
+    },
+    {
+      "key": "controlExit",
+      "prompt": "同一参考现代控制室的侧面出入口镜位，保持炭灰柜体、灰色石面、暖色细灯带材质，画面左侧仅露监控桌角，右侧一扇厚实玻璃金属外门打开通向同一别墅院内积雪门廊，冷空气雪花进入，视线不越过院内高围墙，没有新增主楼、没有人物。控制室内清晰温暖，门外冷雪，门正在打开后的静止结果。",
+      "reference_keys": [
+        "controlClean",
+        "villa"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/controlExit-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-dce1b6ce-1274-4de7-875e-1079a3f4ca38.png"
+    },
+    {
+      "key": "medicalBag",
+      "prompt": "现代控制室灰色桌面近景，放着一个便携黑色医护包，暗酒红拼边，有宽背带、闭合拉链和扣带，外观无文字logo，侧边放一枚小医用笔灯和两包密封纱布。背景虚化但保持参考控制室材质，无人无手，没有担架，没有新医疗房间。",
+      "reference_keys": [
+        "controlClean"
+      ],
+      "final_file": "assets/production/ep039-041-reference-completion/references/medicalBag-16x9.png",
+      "original_generated_path": "/Users/kaiyi.wang/.codex/generated_images/019f3bca-b4af-7511-ba12-072c53a9e938/exec-38ee8342-481e-4674-b0d4-800e23959cfb.png"
+    }
+  ],
+  "corrections": {
+    "convoy": "v2 removes third vehicle cannon",
+    "wreck": "v2 removes last vehicle cannon"
+  },
+  "note": "不是所有生成图都进入最终segment；以各段reference-assets.json为准。初版convoy-16x9.png与wreck-16x9.png未使用，采用v2。无视频提交。"
+}

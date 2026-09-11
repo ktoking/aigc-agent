@@ -1,0 +1,53 @@
+{
+  "status": "references_prepared_not_submitted",
+  "digital_assets": [
+    {
+      "name": "许砚",
+      "uri": "asset://asset-20260320075237-29hdx"
+    },
+    {
+      "name": "叶凝霜",
+      "uri": "asset://asset-20260720212023-wwndz"
+    },
+    {
+      "name": "沈知夏",
+      "uri": "asset://asset-20260310030618-88hlb"
+    }
+  ],
+  "reference_images": [
+    {
+      "label": "参考图1",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/night-control-room-convoy-16x9.png",
+      "description": "夜间控制室，只锁空间、录音设备和桌面；车队屏幕仅Segment04镜头三后采用，此前只显示空林道；图中没有人物。"
+    },
+    {
+      "label": "参考图2",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png",
+      "description": "银白长发，只锁发色发量，不锁脸；图中没有人物。"
+    },
+    {
+      "label": "参考图3",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-winter-outfit-flatlay-16x9.png",
+      "description": "叶凝霜白风衣服装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图4",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "description": "许砚工装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图5",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png",
+      "description": "沈知夏医护工装平铺，只锁衣服；图中没有人物。"
+    },
+    {
+      "label": "参考图6",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep038-one-night-prepare/references/basement-last-shelter-16x9.png",
+      "description": "地下室最后保险，只锁既有门、通道、被子、饮水与医疗包；图中没有人物。"
+    }
+  ],
+  "total_inputs": 9,
+  "first_frame": null,
+  "last_frame": null,
+  "notes": "白棠在Segment03的服装按文字锁定，有限参考位优先保留地下室与控制室两处场景。不要把参考图描述视为已提交API。"
+}

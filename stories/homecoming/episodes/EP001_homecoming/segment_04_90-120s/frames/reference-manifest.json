@@ -1,0 +1,83 @@
+{
+  "status": "generated",
+  "references": [
+    {
+      "file": "ref-male-protagonist-three-view.jpg",
+      "role": "人物身份、服装及菜篮",
+      "sha256": "61dacc599e192df67a2bb977ec6054416cc03a0350c93a434e9897f2ee30db8b",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "file": "ref-world-scene-grade.png",
+      "role": "场景及统一阴天色调",
+      "sha256": "8d60c0f5e7308731c4a0d5a31a81f0173aa22044cecc7e4194c3008c6fa04a2f",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-monster-king-normal.png",
+      "role": "怪人身份与造型",
+      "sha256": "feeb276820c95b0cddb56f1ad62282a424b9ad879f19208eb3d77be2ebe95f18",
+      "mime_type": "image/png"
+    },
+    {
+      "file": "ref-monster-king-charged.png",
+      "role": "怪人身份与造型",
+      "sha256": "ac006813b189da68066bb77b89b747a57fb08dbc48e19a1f73656162ad440a33",
+      "mime_type": "image/png"
+    }
+  ],
+  "keyframes": [
+    {
+      "file": "keyframe_01_king_charge_fist.png",
+      "role": "关键帧",
+      "sha256": "afad6a797c932c15e9702c959a771df29ed90b366413bfcf4850406e34d89f3d"
+    },
+    {
+      "file": "keyframe_02_pov_fist.png",
+      "role": "关键帧",
+      "sha256": "aaa0e987899be992a707d26e846c9ee9f0b6daafb9a151eb573f449e9b48ef5b"
+    },
+    {
+      "file": "keyframe_03_crater_unscathed.png",
+      "role": "关键帧",
+      "sha256": "82cc92465f5fdd7324acfe21a323f6970ffc55ea5938599b06cb7280168779aa"
+    },
+    {
+      "file": "keyframe_04_hand_shade_jump.png",
+      "role": "关键帧",
+      "sha256": "4d76fdba1e6d82a96caecc3a40340f85aefba852b05d9eeb6d80e1addb034821"
+    },
+    {
+      "file": "keyframe_05_climb_arm_dodge.png",
+      "role": "关键帧",
+      "sha256": "7dc2316f9c0eaffa3862a7f9303b5cbd1e88753116c225dc60b4427e9006ce00"
+    },
+    {
+      "file": "keyframe_06_aerial_ant_view.png",
+      "role": "关键帧",
+      "sha256": "b504c3d00d28b3cb74b4bd2fa2381fb926535fddd1c2a49c8d5d8f7cbac27425"
+    },
+    {
+      "file": "keyframe_07_punch_king.png",
+      "role": "关键帧",
+      "sha256": "63216915472137bb2a3aa019766a2535a40bd1ebe33b342d05f16a73d04cf3ca"
+    },
+    {
+      "file": "keyframe_08_king_fall_city.png",
+      "role": "关键帧",
+      "sha256": "30f60d40ae415c95171c10a301327ec4053f987c090d5af78a82336d2698f103"
+    },
+    {
+      "file": "keyframe_09_supermarket_coin.png",
+      "role": "关键帧",
+      "sha256": "3fa8397cf5924aa5a117044d2074fb1b46b116bbd196d2ab59f1d5331ae0bac6"
+    },
+    {
+      "file": "keyframe_10_backview_sunset.png",
+      "role": "关键帧",
+      "sha256": "b00174d655a05782674957f0334a0464224516995abf3dd957a8af6b4ffe503d"
+    }
+  ],
+  "missing_keyframes": [],
+  "submission_rule": "只读取本frames目录，按镜头选择参考，不把所有图一次性全部提交。"
+}

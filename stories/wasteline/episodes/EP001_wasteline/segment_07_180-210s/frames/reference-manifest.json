@@ -1,0 +1,86 @@
+{
+  "segment": "segment_07_180-210s",
+  "target_count": 11,
+  "ready_count": 11,
+  "mode": "seedance-2.5-reference",
+  "status": "ready-for-review",
+  "references": [
+    {
+      "reference_index": 1,
+      "file": "first-frame.png",
+      "role": "本段首帧，锁定0秒状态",
+      "status": "ready",
+      "sha256": "f12894397325c5126f33f03f7f41301633178dec3a4ed0ecc7b544d07ec0672e"
+    },
+    {
+      "reference_index": 2,
+      "file": "last-frame.png",
+      "role": "本段尾帧，锁定30秒状态",
+      "status": "ready",
+      "sha256": "25656ca2e03e281e2c22609251c314daff5cb974c6c33888e6b8084ff680ae9b"
+    },
+    {
+      "reference_index": 3,
+      "file": "ref-core-cradle.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "d4cd5641569d9612c653ba169e2607c7c51f66a167084769b2677259149c4e9a"
+    },
+    {
+      "reference_index": 4,
+      "file": "ref-core-portable.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "84a09bfc211f9d37bf2171333cf9cd7ab9f2772f98597881fb6fed9ddc33b2f9"
+    },
+    {
+      "reference_index": 5,
+      "file": "ref-drone-context.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "921a036cd6bddfd71340e2257b0ee109dd2b84bd507e5797f9aaa820be08a72a"
+    },
+    {
+      "reference_index": 6,
+      "file": "ref-original-canyon-bridge.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "22fb8c93768f5c60040b250cb8dac22571cdd3cd03ac9ef6cdc902b8c6d65e42"
+    },
+    {
+      "reference_index": 7,
+      "file": "ref-original-giant-brute.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "f4aaabc0c07d9a4a5265bf2ed3810c0ac8f903da70e4fd66ad5c1e0b7a6a67f4"
+    },
+    {
+      "reference_index": 8,
+      "file": "ref-original-lead-sniper.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "23bc535237eb0cb899dbe98534eeb92d4368d51f376540d3a2e4eb6c98ebcdaa"
+    },
+    {
+      "reference_index": 9,
+      "file": "ref-original-water-station-active.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "72df093d9c07523871664882b160d9ac652b10fed0b26a0ad7021080e9a9df19"
+    },
+    {
+      "reference_index": 10,
+      "file": "ref-station-tracks.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "a204980d264ced0076d1489448f944dae184419c18233afaa57bbadee49163c2"
+    },
+    {
+      "reference_index": 11,
+      "file": "ref-train-coupler.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "a20a21c2f57474c2cec4155c7a0721c2fa01f74a2965ad0954217ab94e6ac289"
+    }
+  ]
+}

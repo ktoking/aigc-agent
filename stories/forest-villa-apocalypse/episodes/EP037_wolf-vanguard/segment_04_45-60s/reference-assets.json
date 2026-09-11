@@ -1,0 +1,54 @@
+{
+  "status": "references_prepared_not_submitted",
+  "digital_assets": [
+    {
+      "name": "叶凝霜",
+      "uri": "asset://asset-20260720212023-wwndz"
+    }
+  ],
+  "reference_images": [
+    {
+      "label": "参考图1",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png",
+      "description": "银白长发造型，只锁发色发量，不锁脸；图中没有人物。"
+    },
+    {
+      "label": "参考图2",
+      "path": "stories/forest-villa-apocalypse/assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-winter-outfit-flatlay-16x9.png",
+      "description": "白风衣服装平铺，只锁叶凝霜服装材质剪裁；图中没有人物。"
+    },
+    {
+      "label": "参考图3",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep037-wolf-vanguard/references/snow-road-before-fight-16x9.png",
+      "description": "战斗前林道地面全景，只锁左岩壁右针叶林与空地，不添加建筑；图中没有人物。"
+    },
+    {
+      "label": "参考图4",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep037-wolf-vanguard/references/vanguard-outfit-flatlay-16x9.png",
+      "description": "先遣队装备平铺，只锁白色防寒服与滑雪板材质，不锁板数和人物身份；图中没有人物。"
+    },
+    {
+      "label": "参考图5",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep037-wolf-vanguard/references/ice-wall-bullet-impact-no-person-16x9.png",
+      "description": "挡弹冰墙，只用于开枪后的冰墙材质和弹痕；图中没有人物。"
+    },
+    {
+      "label": "参考图6",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep037-wolf-vanguard/references/wolf-vanguard-frozen-ski-bindings-16x9.png",
+      "description": "滑雪板冻结固定器，只用于冻地后的状态；图中没有人物。"
+    },
+    {
+      "label": "参考图7",
+      "path": "stories/forest-villa-apocalypse/assets/effects/FVA_ICE_CONTROLLER_ATTACK_001/references/ice-controller-three-stage-attack-16x9.png",
+      "description": "冰系三阶段特效，只锁冰雾冰晶材质，不照搬分格；图中没有人物。"
+    },
+    {
+      "label": "参考图8",
+      "path": "stories/forest-villa-apocalypse/assets/production/ep037-wolf-vanguard/references/collapsed-ice-remnants-16x9.png",
+      "description": "三处崩塌残冰，只用于镜头四最终雪雾散后的地面终态，不提前出现；图中没有人物、血肉或直立人形。"
+    }
+  ],
+  "total_inputs": 9,
+  "first_frame": null,
+  "last_frame": null
+}

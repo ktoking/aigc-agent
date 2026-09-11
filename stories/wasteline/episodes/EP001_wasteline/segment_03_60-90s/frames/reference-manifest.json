@@ -1,0 +1,65 @@
+{
+  "segment": "segment_03_60-90s",
+  "target_count": 8,
+  "ready_count": 8,
+  "mode": "seedance-2.5-reference",
+  "status": "ready-for-review",
+  "references": [
+    {
+      "reference_index": 1,
+      "file": "first-frame.png",
+      "role": "本段首帧，锁定0秒状态",
+      "status": "ready",
+      "sha256": "7c85152dd39850f63a572e4d6df30f5c20690ababa372f523d1d3dc93132d7f7"
+    },
+    {
+      "reference_index": 2,
+      "file": "last-frame.png",
+      "role": "本段尾帧，锁定30秒状态",
+      "status": "ready",
+      "sha256": "bfbc41ed7a0c9cdd61c1c9372b0a02ebad65002d420710fb9476577424d1b61b"
+    },
+    {
+      "reference_index": 3,
+      "file": "ref-canyon-direction.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "22fb8c93768f5c60040b250cb8dac22571cdd3cd03ac9ef6cdc902b8c6d65e42"
+    },
+    {
+      "reference_index": 4,
+      "file": "ref-drone-front.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "921a036cd6bddfd71340e2257b0ee109dd2b84bd507e5797f9aaa820be08a72a"
+    },
+    {
+      "reference_index": 5,
+      "file": "ref-dry-wasteland.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "878c3de5aafd125eb01efe82d5ca371485f5b8c3c00437d2cdf0cbcac1db35b9"
+    },
+    {
+      "reference_index": 6,
+      "file": "ref-lead-lock.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "23bc535237eb0cb899dbe98534eeb92d4368d51f376540d3a2e4eb6c98ebcdaa"
+    },
+    {
+      "reference_index": 7,
+      "file": "ref-original-armored-train.png",
+      "role": "用户提供的原始关键帧，仅按README指定职责使用",
+      "status": "ready",
+      "sha256": "a993c9aa25cd99b694fd44165bb9e7bd8aa43244ceb6f4914ab868d0dac8ff9b"
+    },
+    {
+      "reference_index": 8,
+      "file": "ref-train-coupler.png",
+      "role": "剧情补充参考资产；用途由文件名及本段prompt.md确定",
+      "status": "ready",
+      "sha256": "a20a21c2f57474c2cec4155c7a0721c2fa01f74a2965ad0954217ab94e6ac289"
+    }
+  ]
+}
