@@ -1,7 +1,7 @@
 # 《裂界行者 / Rift Breakers》OP 生产交接文档
 
 > 本文档供另一个 AI/人工接手时快速了解项目状态、已完成工作和后续步骤。
-> 最后更新：2026-09-17
+> 最后更新：2026-09-19（v2 合成）
 
 ## 项目一句话
 
@@ -24,7 +24,12 @@
 | P2 关键帧图 | ✅ 完成 | 30个镜头全覆盖（每segment 10张） |
 | P3 视频生成 | ✅ 完成 | Seg01/Seg02/Seg03 三段720p成片齐 |
 | P4 后期拼接+卡点 | ✅ 完成 | 三段升频1080p硬切拼接+BGM+标题落版，精确90.000s |
-| P5 交付 | ✅ 完成 | `episodes/OP00_opening/output/OP00_rift-breakers_90s_1080p.mp4` |
+| P5 交付 | ✅ 完成 | `episodes/OP00_opening/output/OP00_rift-breakers_90s_1080p.mp4`（v2 成片） |
+
+### 迭代记录
+
+- **v2（2026-09-19）**：三段整段用 seedance_2.5 重做后重新合成。三段均为 721 帧，统一 `select='lt(n,720)'` 裁到 720 帧=30.000s，硬切 concat 后 2160 帧=精确 90.000s；BGM `atrim=0:90` 锁定，0:30 / 1:00 边界对齐 BGM 段落切换。复用 `title_card.png`，标题 86.0s 起 0.2s 淡入至 90.0s。v1 成片保留为 `.v1-backup`（勿动）。
+- **已知偏差（v2 直接用，不重做）**：L25 六格群像 montage 被模型跳过，Seg03 约 13.5s 处重复了夜臣斩击镜头；另新段背景模型自行烧入若干环境霓虹招牌/竖排日文文字（画面内景，非叠加字幕）。
 
 ---
 
@@ -83,10 +88,10 @@
 
 | Segment | 视频文件 | 规格 | 状态 |
 |---|---|---|---|
-| 01 (00-30s) | `segment_01_00-30s/output/video-30s.mp4` | 1280×720 24fps HEVC 30s 6.4MB | ✅ 已完成 |
-| 02 (30-60s) | `segment_02_30-60s/output/video-30s.mp4` | 1280×720 24fps HEVC 30s ~16.9MB | ✅ 已完成 |
-| 03 (60-90s) | `segment_03_60-90s/output/video-30s.mp4` | 1280×720 24fps HEVC 30s ~18.2MB | ✅ 已完成 |
-| **最终成片** | `OP00_opening/output/OP00_rift-breakers_90s_1080p.mp4` | 1920×1080 24fps H.264 90s + AAC BGM ~74.4MB | ✅ 已交付 |
+| 01 (00-30s) | `segment_01_00-30s/output/video-30s.mp4` | 1280×720 24fps HEVC 30s ~11.3MB（v2 seedance_2.5） | ✅ 已完成 |
+| 02 (30-60s) | `segment_02_30-60s/output/video-30s.mp4` | 1280×720 24fps HEVC 30s ~10.4MB（v2 seedance_2.5） | ✅ 已完成 |
+| 03 (60-90s) | `segment_03_60-90s/output/video-30s.mp4` | 1280×720 24fps HEVC 30s ~13.0MB（v2 seedance_2.5，含 L25 偏差） | ✅ 已完成 |
+| **最终成片** | `OP00_opening/output/OP00_rift-breakers_90s_1080p.mp4` | 1920×1080 24fps H.264 90s + AAC BGM ~87.7MB（v2） | ✅ 已交付 |
 
 ### BGM
 
