@@ -1,0 +1,115 @@
+{
+  "revision": "2026-09-23-dialogue-rebuild-eight-shots",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb"
+    }
+  ],
+  "api_submission": {
+    "status": "assets_ready_duration_unverified",
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "scene_slots": 6,
+    "auto_images": false,
+    "note": "九项输入已逐项落盘并核对，数字人仍用asset ID；未提交新版视频。30秒、模型与九项引用上限须在提交前核实。旧frames根目录为历史素材，不自动上传。"
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "scope": "只绑定白棠本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "scope": "只绑定许砚本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "kind": "digital_human",
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb",
+      "uri": "asset://asset-20260310030618-88hlb",
+      "scope": "只绑定沈知夏本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "key": "workshop",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png",
+      "scope": "只锁现代车库独立维修区、唯一打印仓及接线；门外已改冬季雪林",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 4
+    },
+    {
+      "key": "armorCards",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-three-choice-cards-16x9.png",
+      "scope": "手机投影三选一：短时防护外骨骼、便携观察镜、未知卡",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 5
+    },
+    {
+      "key": "armor",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/industrial-protective-exoskeleton-16x9.png",
+      "scope": "一件暗灰工业防护外骨骼与人工扣合结构",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 6
+    },
+    {
+      "key": "chargeStand",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-charge-stand-night-16x9.png",
+      "scope": "外骨骼人工卸下后挂回的充电支架",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 7
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "reviewed_existing_16x9",
+      "number": 8
+    },
+    {
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "reviewed_existing_16x9",
+      "number": 9
+    }
+  ],
+  "previous_local_library": [],
+  "exclusions": [
+    "frames中的人物三视图仅保留人工核对，不与数字人同时自动上传",
+    "旧剧情关键帧不锁新动作、新结果或新服装",
+    "不上传首尾帧",
+    "不上传未出场人物",
+    "不以旧output内容替代新请求"
+  ]
+}

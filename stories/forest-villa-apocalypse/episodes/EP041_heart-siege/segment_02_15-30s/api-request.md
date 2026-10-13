@@ -1,31 +1,38 @@
-素材更新：2026-09-08
+# EP041 Segment 2 视频交接
 
-本段未提交新视频任务。旧output记录不代表当前提示词。
-模型计划：doubao-seedance-2-0-mini-260615；480p，16:9，15秒以内，有声音。
-数字人身份：叶凝霜=asset://asset-20260720212023-wwndz；白棠=asset://asset-20260320075131-k78qt；沈知夏=asset://asset-20260310030618-88hlb。
-本地参考图库共9张，按director-promt.txt顺序保存于frames/参考图1.png至参考图9.png。
-人物身份仍使用独立asset://输入，不是本地图片。背景图没有真人。
+版本：2026-09-23-dialogue-rebuild-eight-shots
+状态：新版剧本文本完成；未提交新版视频。旧output及视频均为历史版本，未改动。
 
-参考图1：现代控制室，只锁定监控台、桌椅、窗边和灯光布局；屏幕内容依本镜剧情替换，不能把屏幕内林道当成室内背景；图中没有真人。对应文件：frames/参考图1.png。
-参考图2：非人体硅胶模型上的破碎烙印淡痕，只锁定断裂几何纹样；模型本体不进入成片，不作为脸或身体参考；图中没有真人。对应文件：frames/参考图2.png。
-参考图3：银白长发无脸头模，只锁定叶凝霜发色、长度与发尾层次；不生成头模、不据此生成脸；图中没有真人。对应文件：frames/参考图3.png。
-参考图4：叶凝霜当前冬装平铺，只锁定白色长款风衣、冰灰高领、白灰战术长裤和白色雪地靴；不沿用旧黑丝袜造型；图中没有真人。对应文件：frames/参考图4.png。
-参考图5：沈知夏当前冬装平铺，只锁定暗酒红外套、米白高领、深灰工装裤和深色医护靴；不锁背景，不生成平铺画面；图中没有真人。对应文件：frames/参考图5.png。
-参考图6：白棠工装平铺，只锁定鼠尾草绿短外套、浅灰内搭、深灰裤和黑色工作鞋；不生成平铺画面；图中没有真人。对应文件：frames/参考图6.png。
-参考图7：沈知夏便携医护包，只锁定黑色酒红拼边包体、背带和扣带；不增加人员或额外医疗房间；图中没有真人。对应文件：frames/参考图7.png。
-参考图8：医护检查托盘，只锁定纱布、笔灯、毛巾和未佩戴手套；不锁定远处车库背景，不生成额外医护；图中没有真人。对应文件：frames/参考图8.png。
-参考图9：阴雪天空，只锁定云层、飘雪和冬季冷色环境光；图中没有真人。对应文件：frames/参考图9.png。
+## 参数意图
+- 时长：15秒；16:9；有声音；480p为当前草稿清晰度意图。
+- 可沿用已有15秒分段方案；本次不调用API。
+- 无首尾帧；禁止auto-images；禁止自动重生成。
+- Prompt：director-promt.txt，SHA256：0843e9cff5a3587ee6b9e25362e8b5569f956ad677888d3c72a63f5721275863。
 
-正式提交约束：本段3个数字人，最多选择6张场景/道具图，总输入不得超过9项。本地候选序号：1、2、3、4、5、6。这不是已提交请求。
-必须按实际输入顺序重新生成提交副本和image-label，移除未上传的参考图条目并核对角色绑定；原始director-promt.txt与台词保持不变。必要时调整候选以覆盖关键镜头，不可仅按文件名自动全选。
-禁止首尾帧；不得把frames/目录作为首尾帧自动读取。提交前仍需dry-run核对数字人、参考图编号与请求内容。
-逐图来源和用途见reference-assets.json。
+## 具名数字人，按首次清晰出场排序
+- 参考图1：叶凝霜=asset://asset-20260720212023-wwndz
+- 参考图2：沈知夏=asset://asset-20260310030618-88hlb
 
-已有文本版本差异：本次只同步参考图。director-promt.txt为当前导演稿；prompt.md中的既有台词差异未覆盖，提交不得误用旧版。
+## 参考图上传计划
+九项规划见reference-assets.json，数字人计入九项。当前所有非人物图均待新稿验收或待生图，不能把旧frames编号直接当API编号。
 
-## 2026-09-08 30s合并段提交记录（s01+s02）
-- 合并稿：segment_01_00-15s/output/merged_s01s02_prompt.txt
-- 模型：seedance_2.5；时长30s；比例16:9
-- 参考图：角色正脸4张（白棠/许砚/叶凝霜/沈知夏 aka.doubaocdn.com 短链）
-- 返回视频URL：https://aka.doubaocdn.com/s/UoplCRNKYj
-- 本地下载：segment_01_00-15s/output/video-30s.mp4
+| 请求编号 | 用途 | 当前候选路径（相对story root） | 状态 |
+| --- | --- | --- | --- |
+| 1 | 只绑定叶凝霜本人脸和身份，服装按正文 | asset://asset-20260720212023-wwndz | user_registered_identity |
+| 2 | 只绑定沈知夏本人脸和身份，服装按正文 | asset://asset-20260310030618-88hlb | user_registered_identity |
+| 3 | 现代控制室的监控台、座位与空间，不沿用旧屏幕剧情 | assets/production/ep039-041-reference-completion/references/controlClean-16x9.png | candidate_needs_current_visual_review |
+| 4 | 控制室相邻的休整椅与医疗观察位置 | 尚无可确认的新稿对应图 | needs_generation_for_new_script |
+| 5 | 叶凝霜旧印记边缘的少量残留微光 | 尚无可确认的新稿对应图 | needs_generation_for_new_script |
+| 6 | 现有医疗工作台与急救包外观，不生成隔离剧情 | assets/scenes/SCENE_FOREST_VILLA_001/references/garage-quarantine-medical-bay-16x9.png | candidate_needs_current_visual_review |
+| 7 | 叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-winter-outfit-flatlay-16x9.png | candidate_needs_current_visual_review |
+| 8 | 沈知夏无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png | candidate_needs_current_visual_review |
+| 9 | 无脸头模的银白长发颜色、长度和层次，不生成人脸或头模 | assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png | candidate_needs_current_visual_review |
+
+## 提交前门禁
+- [ ] 逐图人工确认人物、服装、建筑、时段和道具状态。旧蓝西装炎魁、古风冬狼、旧黑丝袜凝霜图不得控制新稿服装。
+- [ ] 生成缺图，显式绑定路径与image-label；重排本地frames时另做清单，不改旧任务证据。
+- [ ] 确认真实模型、时长、清晰度支持；正式请求与本段9项规划一致。
+- [ ] dry-run回读asset ID、标签、顺序、数量与prompt哈希。
+- [ ] 试听实际合成对白与动作空间，不拿字数检查替代音画验收。
+
+本次提交记录：无。任务ID：无。既有任务历史仍在output，不代表本轮提示词已生成。

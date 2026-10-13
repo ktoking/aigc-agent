@@ -1,0 +1,487 @@
+{
+  "revision": "2026-10-08-every-shot-dialogue-ep042-050",
+  "scope": "EP041-EP050",
+  "episodes": 10,
+  "segments": 22,
+  "total_shots": 160,
+  "shot_policy": {
+    "15s": 4,
+    "30s_minimum": 8,
+    "30s_dialogue": "at least one clearly attributed spoken line per shot for EP042-EP050"
+  },
+  "checks": "text_static_only",
+  "media_regenerated": false,
+  "video_submitted": false,
+  "segments_detail": [
+    {
+      "episode": "EP041_heart-siege",
+      "segment": "segment_01_00-15s",
+      "duration": 15,
+      "dialogue_chars": 38,
+      "estimated_speech_seconds": 9.5,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "冬狼"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 2,
+      "local_image_count": 9,
+      "prompt_sha256": "4e9933f7ea191daee114ad0982642575825a57252a0d8ad1b31240504dde525f",
+      "submission_status": "blocked_pending_asset_review_and_duration_check"
+    },
+    {
+      "episode": "EP041_heart-siege",
+      "segment": "segment_02_15-30s",
+      "duration": 15,
+      "dialogue_chars": 49,
+      "estimated_speech_seconds": 12.3,
+      "shots": 4,
+      "visible_cast": [
+        "叶凝霜",
+        "沈知夏"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 2,
+      "local_image_count": 9,
+      "prompt_sha256": "0843e9cff5a3587ee6b9e25362e8b5569f956ad677888d3c72a63f5721275863",
+      "submission_status": "blocked_pending_asset_review_and_duration_check"
+    },
+    {
+      "episode": "EP041_heart-siege",
+      "segment": "segment_03_30-45s",
+      "duration": 15,
+      "dialogue_chars": 41,
+      "estimated_speech_seconds": 10.3,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚",
+        "叶凝霜"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 1,
+      "local_image_count": 9,
+      "prompt_sha256": "fd84aa4a1fb63026f81614162b6ced23862d09d5ac48b432fddcdcb6b41ca694",
+      "submission_status": "blocked_pending_asset_review_and_duration_check"
+    },
+    {
+      "episode": "EP041_heart-siege",
+      "segment": "segment_04_45-60s",
+      "duration": 15,
+      "dialogue_chars": 38,
+      "estimated_speech_seconds": 9.5,
+      "shots": 4,
+      "visible_cast": [
+        "叶凝霜",
+        "沈知夏",
+        "许砚"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 1,
+      "local_image_count": 9,
+      "prompt_sha256": "2c0203a852bb0a47094674830599419750eedd41d90c434ea813d2e6405c0169",
+      "submission_status": "blocked_pending_asset_review_and_duration_check"
+    },
+    {
+      "episode": "EP042_wolf-hunt",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 67,
+      "estimated_speech_seconds": 16.8,
+      "shots": 8,
+      "visible_cast": [
+        "叶凝霜",
+        "炎魁",
+        "沈知夏"
+      ],
+      "offscreen": [
+        "许砚"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 2,
+      "local_image_count": 10,
+      "prompt_sha256": "f9e6a6ab4f94d639db4c5f79cd997e8ff92b09466c9f048cc8d1b1d23d3c1e7f",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP042_wolf-hunt",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 58,
+      "estimated_speech_seconds": 14.5,
+      "shots": 8,
+      "visible_cast": [
+        "叶凝霜",
+        "炎魁",
+        "沈知夏"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 2,
+      "local_image_count": 10,
+      "prompt_sha256": "6b8a65dd0018f5739ee7bb8f07d9c8a47828b67b4fd1ec262c248017284ab7f5",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP043_final-battle",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 55,
+      "estimated_speech_seconds": 13.8,
+      "shots": 8,
+      "visible_cast": [
+        "炎魁",
+        "叶凝霜",
+        "冬狼"
+      ],
+      "offscreen": [
+        "许砚"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 1,
+      "local_image_count": 10,
+      "prompt_sha256": "ffba4466976b3ddb88e2831fcb0ddc263f798df3e3a4c99cd0037e988afc533c",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP043_final-battle",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 65,
+      "estimated_speech_seconds": 16.3,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚",
+        "沈知夏"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "ec70dfbc1a0434c67b8e82e01a44ff8757b21c7ea3915e1e03ec271dfd675e20",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 62,
+      "estimated_speech_seconds": 15.5,
+      "shots": 8,
+      "visible_cast": [
+        "冬狼",
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [
+        "沈知夏"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "5cb465d4393b3f4b4c995b886596365e228ff3beae8ed205de3f75c515b4fdd0",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 66,
+      "estimated_speech_seconds": 16.5,
+      "shots": 8,
+      "visible_cast": [
+        "冬狼",
+        "叶凝霜",
+        "许砚"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "7175224e7821e079d853c706c9a59af67df204e494e60b96bd8388cfff641c2e",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 95,
+      "estimated_speech_seconds": 23.8,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": ["白棠", "许砚"],
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 2,
+      "local_image_count": 10,
+      "prompt_sha256": "a97c2c677d1727a52d43df125354f0160d443e60a2a2ee53c8911acaf1b351ff",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 102,
+      "estimated_speech_seconds": 25.5,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": ["白棠"],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 4,
+      "local_image_count": 10,
+      "prompt_sha256": "a9464f18fd51897fc16135fb60a74af4c0f935d2c130eab8611df9ce53e1295e",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 84,
+      "estimated_speech_seconds": 21,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚",
+        "叶凝霜"
+      ],
+      "offscreen": ["白棠", "许砚", "叶凝霜"],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 2,
+      "local_image_count": 10,
+      "prompt_sha256": "44a125378a3c957a8af3159ec82c0dedefcd6f91d414c8dde9e4844a4a2f5433",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 91,
+      "estimated_speech_seconds": 22.8,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "叶凝霜",
+        "许砚"
+      ],
+      "offscreen": ["白棠", "许砚"],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "dc1059b73d8b2f3cb2b2a147ce3bd7153403ba93377dca99b770dee7ff47fc24",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 64,
+      "estimated_speech_seconds": 16,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚",
+        "沈知夏"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 2,
+      "local_image_count": 10,
+      "prompt_sha256": "86dc1e466896eb70ea8db4a6625a940c3fb237f1a68a0819095015473f6dfcb0",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 71,
+      "estimated_speech_seconds": 17.8,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "沈知夏",
+        "白棠"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 2,
+      "local_image_count": 10,
+      "prompt_sha256": "13bfb3014f9a02e2985fd7d523ed2d6cb14e0d531b909d10749f3812f93b9115",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 85,
+      "estimated_speech_seconds": 21.3,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": ["白棠", "许砚"],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 4,
+      "local_image_count": 10,
+      "prompt_sha256": "3f2f0c583a2891074f330223cd62065251c86764b56af6b277ee47bd144ce13d",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 64,
+      "estimated_speech_seconds": 16,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "门外来客"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "a3652a751545abd94fb5700879d0e778556730d0645c0adc5497f3ae29e5e225",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 70,
+      "estimated_speech_seconds": 17.5,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "门外来客"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "4a7e5abade91de0d4b2029b080be01f65d37462cbc7edf7d39ebd095ff0060e6",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 73,
+      "estimated_speech_seconds": 18.3,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "门外来客"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 4,
+      "local_image_count": 10,
+      "prompt_sha256": "393bda58357e42b8f9791bcaeb73fe9c69a4998c93b65e1ebf33c437dec1514a",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "dialogue_chars": 64,
+      "estimated_speech_seconds": 16,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "叶凝霜"
+      ],
+      "offscreen": [],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 4,
+      "local_image_count": 10,
+      "prompt_sha256": "152ebbca7b4c6d8db846eebe3bccb3a75806d7c30ca671f9f2a4c5ee66ce1a4b",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "dialogue_chars": 70,
+      "estimated_speech_seconds": 17.5,
+      "shots": 8,
+      "visible_cast": [
+        "沈知夏",
+        "叶凝霜",
+        "许砚"
+      ],
+      "offscreen": [
+        "门外来客"
+      ],
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 3,
+      "local_image_count": 10,
+      "prompt_sha256": "642d013d65b56a46960bd8bfe2c997c38777320add242c02fdec78b3d4f0619f",
+      "submission_status": "blocked_pending_asset_review_and_duration_check",
+      "dialogue_revision": "2026-10-08-every-shot-dialogue"
+    }
+  ],
+  "latest_dialogue_polish": "2026-10-08-human-dialogue"
+}

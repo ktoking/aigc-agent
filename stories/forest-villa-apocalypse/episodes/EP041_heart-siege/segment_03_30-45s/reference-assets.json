@@ -1,37 +1,110 @@
 {
-  "episode": "EP041_heart-siege",
-  "segment": "segment_03_30-45s",
-  "local_reference_count": 9,
+  "revision": "2026-09-23-dialogue-rebuild-eight-shots",
+  "first_last_frames": false,
   "digital_humans": [
-    {
-      "name": "许砚",
-      "asset": "asset-20260320075237-29hdx"
-    },
     {
       "name": "白棠",
       "asset": "asset-20260320075131-k78qt"
     },
     {
-      "name": "沈知夏",
-      "asset": "asset-20260310030618-88hlb"
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz"
     }
   ],
-  "first_last_frames": false,
   "api_submission": {
-    "status": "not_submitted",
+    "status": "blocked_pending_asset_review_and_duration_check",
     "max_total_images": 9,
+    "planned_total_images": 9,
     "scene_slots": 6,
-    "candidate_local_numbers": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "note": "仅本地素材库，不能直接将9张背景图加数字人一起上传。正式提交时按实际内容顺序重新编号，生成独立提交提示词；不得自动扫描frames目录或用首尾帧。"
+    "auto_images": false,
+    "note": "本次只重写剧本，未提交新版视频。编号为数字人+非人物的全输入顺序；旧frames文件名不是新请求编号。不得自动上传整个目录，候选图未经新稿复核不得当成已验收。"
   },
   "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "scope": "只绑定白棠本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "scope": "只绑定许砚本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "kind": "digital_human",
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz",
+      "uri": "asset://asset-20260720212023-wwndz",
+      "scope": "只绑定叶凝霜本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "key": "control",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep039-041-reference-completion/references/controlClean-16x9.png",
+      "scope": "现代控制室的监控台、座位与空间，不沿用旧屏幕剧情",
+      "note": null,
+      "status": "candidate_needs_current_visual_review",
+      "number": 4
+    },
+    {
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "scope": "既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造",
+      "note": null,
+      "status": "candidate_needs_current_visual_review",
+      "number": 5
+    },
+    {
+      "key": "wreck",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep039-041-reference-completion/references/wreck-v2-16x9.png",
+      "scope": "此前停驶的受损敌车和雪地，不让敌车重新行驶",
+      "note": null,
+      "status": "candidate_needs_current_visual_review",
+      "number": 6
+    },
+    {
+      "key": "meltingIce",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "围墙完整、门外薄冰障被火烧融的状态",
+      "note": "新稿要薄冰障融水，不能把主围墙画成塌毁",
+      "status": "needs_generation_for_new_script",
+      "number": 7
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "candidate_needs_current_visual_review",
+      "number": 8
+    },
+    {
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "candidate_needs_current_visual_review",
+      "number": 9
+    }
+  ],
+  "previous_local_library": [
     {
       "number": 1,
       "file": "frames/参考图1.png",
@@ -104,5 +177,12 @@
       "status": "image_visually_reviewed",
       "kind": "reused"
     }
+  ],
+  "exclusions": [
+    "frames中的人物三视图仅保留人工核对，不与数字人同时自动上传",
+    "旧剧情关键帧不锁新动作、新结果或新服装",
+    "不上传首尾帧",
+    "不上传未出场人物",
+    "不以旧output内容替代新请求"
   ]
 }

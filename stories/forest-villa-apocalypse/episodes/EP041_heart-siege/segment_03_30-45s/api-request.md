@@ -1,31 +1,39 @@
-素材更新：2026-09-08
+# EP041 Segment 3 视频交接
 
-本段未提交新视频任务。旧output记录不代表当前提示词。
-模型计划：doubao-seedance-2-0-mini-260615；480p，16:9，15秒以内，有声音。
-数字人身份：许砚=asset://asset-20260320075237-29hdx；白棠=asset://asset-20260320075131-k78qt；沈知夏=asset://asset-20260310030618-88hlb。
-本地参考图库共9张，按director-promt.txt顺序保存于frames/参考图1.png至参考图9.png。
-人物身份仍使用独立asset://输入，不是本地图片。背景图没有真人。
+版本：2026-09-23-dialogue-rebuild-eight-shots
+状态：新版剧本文本完成；未提交新版视频。旧output及视频均为历史版本，未改动。
 
-参考图1：现代控制室，只锁定监控台、桌椅、窗边和灯光布局；屏幕内容依本镜剧情替换，不能把屏幕内林道当成室内背景；图中没有真人。对应文件：frames/参考图1.png。
-参考图2：沈知夏便携医护包，只锁定黑色酒红拼边包体、背带和扣带；不增加人员或额外医疗房间；图中没有真人。对应文件：frames/参考图2.png。
-参考图3：院门内侧值守与休息位，只锁定关闭大门内壁、右侧挡板、左侧通讯台和保温毯休息位；守方始终在墙内；图中没有真人。对应文件：frames/参考图3.png。
-参考图4：沈知夏当前冬装平铺，只锁定暗酒红外套、米白高领、深灰工装裤和深色医护靴；不锁背景，不生成平铺画面；图中没有真人。对应文件：frames/参考图4.png。
-参考图5：白棠工装平铺，只锁定鼠尾草绿短外套、浅灰内搭、深灰裤和黑色工作鞋；不生成平铺画面；图中没有真人。对应文件：frames/参考图5.png。
-参考图6：许砚工装平铺，只锁定炭灰防水夹克、深灰内搭、黑灰工装裤与深棕登山靴；不生成平铺画面；图中没有真人。对应文件：frames/参考图6.png。
-参考图7：正常运行的单座自动炮台，只锁定既有炮管、雷达、光学镜头和二楼阳台位置；无结冰故障，不增加第二座；图中没有真人。对应文件：frames/参考图7.png。
-参考图8：炎魁无人物服装平铺，只锁定炭黑外套、暗红内搭和余烬质感；不锁人物脸，不生成平铺画面；图中没有真人。对应文件：frames/参考图8.png。
-参考图9：canonical别墅冬季外观，只锁定同一栋三层主楼、连续阳台、灰石高墙、墙顶电网和关闭黑门；不锁定本镜战斗进度，不据此撤除已有炮台；图中没有真人。对应文件：frames/参考图9.png。
+## 参数意图
+- 时长：15秒；16:9；有声音；480p为当前草稿清晰度意图。
+- 可沿用已有15秒分段方案；本次不调用API。
+- 无首尾帧；禁止auto-images；禁止自动重生成。
+- Prompt：director-promt.txt，SHA256：fd84aa4a1fb63026f81614162b6ced23862d09d5ac48b432fddcdcb6b41ca694。
 
-正式提交约束：本段3个数字人，最多选择6张场景/道具图，总输入不得超过9项。本地候选序号：1、2、3、4、5、6。这不是已提交请求。
-必须按实际输入顺序重新生成提交副本和image-label，移除未上传的参考图条目并核对角色绑定；原始director-promt.txt与台词保持不变。必要时调整候选以覆盖关键镜头，不可仅按文件名自动全选。
-禁止首尾帧；不得把frames/目录作为首尾帧自动读取。提交前仍需dry-run核对数字人、参考图编号与请求内容。
-逐图来源和用途见reference-assets.json。
+## 具名数字人，按首次清晰出场排序
+- 参考图1：白棠=asset://asset-20260320075131-k78qt
+- 参考图2：许砚=asset://asset-20260320075237-29hdx
+- 参考图3：叶凝霜=asset://asset-20260720212023-wwndz
 
-已有文本版本差异：本次只同步参考图。director-promt.txt为当前导演稿；prompt.md中的既有台词差异未覆盖，提交不得误用旧版。
+## 参考图上传计划
+九项规划见reference-assets.json，数字人计入九项。当前所有非人物图均待新稿验收或待生图，不能把旧frames编号直接当API编号。
 
-## 2026-09-08 30s合并段提交记录（s03+s04）
-- 合并稿：segment_03_30-45s/output/merged_s03s04_prompt.txt
-- 模型：seedance_2.5；时长30s；比例16:9
-- 参考图：角色正脸4张（白棠/许砚/叶凝霜/沈知夏 aka.doubaocdn.com 短链）
-- 返回视频URL：https://aka.doubaocdn.com/s/uwmc4N0vaD
-- 本地下载：segment_03_30-45s/output/video-30s.mp4
+| 请求编号 | 用途 | 当前候选路径（相对story root） | 状态 |
+| --- | --- | --- | --- |
+| 1 | 只绑定白棠本人脸和身份，服装按正文 | asset://asset-20260320075131-k78qt | user_registered_identity |
+| 2 | 只绑定许砚本人脸和身份，服装按正文 | asset://asset-20260320075237-29hdx | user_registered_identity |
+| 3 | 只绑定叶凝霜本人脸和身份，服装按正文 | asset://asset-20260720212023-wwndz | user_registered_identity |
+| 4 | 现代控制室的监控台、座位与空间，不沿用旧屏幕剧情 | assets/production/ep039-041-reference-completion/references/controlClean-16x9.png | candidate_needs_current_visual_review |
+| 5 | 既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | candidate_needs_current_visual_review |
+| 6 | 此前停驶的受损敌车和雪地，不让敌车重新行驶 | assets/production/ep039-041-reference-completion/references/wreck-v2-16x9.png | candidate_needs_current_visual_review |
+| 7 | 围墙完整、门外薄冰障被火烧融的状态 | 尚无可确认的新稿对应图 | needs_generation_for_new_script |
+| 8 | 白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png | candidate_needs_current_visual_review |
+| 9 | 许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png | candidate_needs_current_visual_review |
+
+## 提交前门禁
+- [ ] 逐图人工确认人物、服装、建筑、时段和道具状态。旧蓝西装炎魁、古风冬狼、旧黑丝袜凝霜图不得控制新稿服装。
+- [ ] 生成缺图，显式绑定路径与image-label；重排本地frames时另做清单，不改旧任务证据。
+- [ ] 确认真实模型、时长、清晰度支持；正式请求与本段9项规划一致。
+- [ ] dry-run回读asset ID、标签、顺序、数量与prompt哈希。
+- [ ] 试听实际合成对白与动作空间，不拿字数检查替代音画验收。
+
+本次提交记录：无。任务ID：无。既有任务历史仍在output，不代表本轮提示词已生成。

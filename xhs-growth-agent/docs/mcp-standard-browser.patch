@@ -1,0 +1,145 @@
+diff --git a/browser/browser.go b/browser/browser.go
+index 59bbe39..36c5c8c 100644
+--- a/browser/browser.go
++++ b/browser/browser.go
+@@ -64,26 +64,8 @@ func NewBrowser(headless bool, options ...Option) *headless_browser.Browser {
+ 
+ 	opts := []headless_browser.Option{
+ 		headless_browser.WithHeadless(headless),
+-		// 用内置浏览器的默认配置，不强制 UA。
+-		headless_browser.WithFingerprint(""), // 空 = 按运行 OS 自动：Linux→windows，mac→macos
+ 		headless_browser.WithStealthJS(false),
+-		headless_browser.WithLanguage("zh-CN"), // 面向小红书
+-		// 品牌报 Chrome。
+-		// 注：hardware-concurrency 不设，交给 seed 派生。
+-		headless_browser.WithExtraFlags(map[string]string{"fingerprint-brand": "Chrome"}),
+-	}
+-	opts = append(opts, headless_browser.WithChromeBinPath(binPath))
+-
+-	// 代理（由调用方经 Option 传入，env 读取放在入口层）。
+-	if cfg.proxy != "" {
+-		opts = append(opts, headless_browser.WithProxy(cfg.proxy))
+-		logrus.Infof("Using proxy: %s", maskProxyCredentials(cfg.proxy))
+-	}
+-
+-	// 固定指纹 seed（由调用方经 Option 传入，env 读取放在入口层）。
+-	if cfg.fingerprintSeed > 0 {
+-		opts = append(opts, headless_browser.WithFingerprintSeed(cfg.fingerprintSeed))
+-		logrus.Infof("fingerprint seed pinned: %d", cfg.fingerprintSeed)
++		headless_browser.WithChromeBinPath(binPath),
+ 	}
+ 
+ 	// 加载 cookies
+diff --git a/browser/browser_download.go b/browser/browser_download.go
+index 1d9173c..4d11e8d 100644
+--- a/browser/browser_download.go
++++ b/browser/browser_download.go
+@@ -69,59 +69,14 @@ func browserCacheDir() (string, error) {
+ // EnsureBrowser 确保本地存在内置浏览器二进制，返回其路径。
+ // 已缓存则直接返回；否则下载 → 校验 SHA256 → 解压。当前平台无预编译二进制时返回 error。
+ func EnsureBrowser() (string, error) {
+-	asset, binName, ok := platformAsset()
+-	if !ok {
+-		return "", fmt.Errorf("当前平台 %s/%s 无预编译浏览器，暂不支持", runtime.GOOS, runtime.GOARCH)
+-	}
+-
+-	cacheDir, err := browserCacheDir()
+-	if err != nil {
+-		return "", err
+-	}
+-
+-	// 已缓存：遍历查找二进制
+-	if bin := findBinary(cacheDir, binName); bin != "" {
+-		return bin, nil
+-	}
+-
+-	if err := os.MkdirAll(cacheDir, 0o755); err != nil {
+-		return "", err
+-	}
+-
+-	// 下载（重试 3 次）
+-	logrus.Infof("首次运行：下载内置浏览器 %s（%s，约 140-190MB，仅一次）...", browserVersion, asset)
+-	archivePath := filepath.Join(cacheDir, asset)
+-	var dlErr error
+-	for attempt := 1; attempt <= 3; attempt++ {
+-		if dlErr = downloadFile(browserURL(asset), archivePath); dlErr == nil {
+-			break
+-		}
+-		logrus.Warnf("下载失败（第 %d/3 次）: %v", attempt, dlErr)
+-		_ = os.Remove(archivePath)
+-		time.Sleep(2 * time.Second)
+-	}
+-	if dlErr != nil {
+-		return "", fmt.Errorf("下载内置浏览器失败: %w\n"+
+-			"  本项目只用内置浏览器，缺它不继续。请检查网络后重试；\n"+
+-			"  离线环境可手动下载 %s，解压到 %s 后重启。", dlErr, browserURL(asset), cacheDir)
+-	}
+-	defer os.Remove(archivePath)
+-
+-	// 校验 SHA256（本地已成分发点，必须校验完整性）
+-	if err := verifySHA256(archivePath, asset); err != nil {
+-		return "", fmt.Errorf("校验失败: %w", err)
+-	}
+-
+-	logrus.Infof("解压内置浏览器 ...")
+-	if err := extractArchive(archivePath, cacheDir); err != nil {
+-		return "", fmt.Errorf("解压失败: %w", err)
+-	}
+-
+-	bin := findBinary(cacheDir, binName)
++	bin := os.Getenv("XHS_CHROME_PATH")
+ 	if bin == "" {
+-		return "", fmt.Errorf("解压后未找到二进制 %s", binName)
++		bin = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
++	}
++	info, err := os.Stat(bin)
++	if err != nil || info.IsDir() {
++		return "", fmt.Errorf("普通 Chrome 不可用，请安装 Chrome 或配置 XHS_CHROME_PATH")
+ 	}
+-	logrus.Infof("内置浏览器就绪: %s", bin)
+ 	return bin, nil
+ }
+ 
+diff --git a/main.go b/main.go
+index bbcbb62..3e7c766 100644
+--- a/main.go
++++ b/main.go
+@@ -7,7 +7,6 @@ import (
+ 	"github.com/sirupsen/logrus"
+ 	"github.com/xpzouying/xiaohongshu-mcp/browser"
+ 	"github.com/xpzouying/xiaohongshu-mcp/configs"
+-	"github.com/xpzouying/xiaohongshu-mcp/cookies"
+ )
+ 
+ // version 构建版本号，发布时通过 -ldflags "-X main.version=vX.Y.Z" 注入。
+@@ -37,11 +36,6 @@ func main() {
+ 	logrus.Infof("using browser binary: %s", binPath)
+ 
+ 	configs.InitHeadless(headless)
+-	// 入口层解析出 seed 和代理，经 configs 透传给浏览器工厂。
+-	// seed 取值：环境变量 > 会话文件 > 新生成并写回，保证同一账号每次启动一致。
+-	configs.SetFingerprintSeed(configs.ResolveFingerprintSeed(
+-		cookies.NewLoadCookie(cookies.GetCookiesFilePath())))
+-	configs.SetProxy(configs.ProxyFromEnv())
+ 
+ 	// 初始化服务
+ 	xiaohongshuService := NewXiaohongshuService()
+diff --git a/service.go b/service.go
+index 499b216..09a50a1 100644
+--- a/service.go
++++ b/service.go
+@@ -280,9 +280,13 @@ func (s *XiaohongshuService) publishContent(ctx context.Context, content xiaohon
+ 
+ 	action, err := xiaohongshu.NewPublishImageAction(page)
+ 	if err != nil {
+-		return err
++		return fmt.Errorf("[PRE_SUBMIT] 发布页初始化失败，尚未上传或提交笔记: %w", err)
+ 	}
+ 
++	// 正常登录建立的主站及创作者会话由服务自身保存在现有私密登录文件。
++	if err := saveCookies(page); err != nil {
++		return fmt.Errorf("[PRE_SUBMIT] 保存发布会话失败，尚未上传或提交笔记: %w", err)
++	}
+ 	return action.Publish(ctx, content)
+ }
+ 

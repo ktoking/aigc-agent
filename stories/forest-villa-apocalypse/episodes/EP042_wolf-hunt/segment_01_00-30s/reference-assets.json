@@ -1,0 +1,117 @@
+{
+  "revision": "2026-09-23-dialogue-rebuild-eight-shots",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz"
+    },
+    {
+      "name": "炎魁",
+      "asset": "asset-20260804202241-z9zcp"
+    },
+    {
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb"
+    }
+  ],
+  "api_submission": {
+    "status": "assets_ready_duration_unverified",
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "scene_slots": 6,
+    "auto_images": false,
+    "note": "九项输入已逐项落盘并核对，数字人仍用asset ID；未提交新版视频。30秒、模型与九项引用上限须在提交前核实。旧frames根目录为历史素材，不自动上传。"
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz",
+      "uri": "asset://asset-20260720212023-wwndz",
+      "scope": "只绑定叶凝霜本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "炎魁",
+      "asset": "asset-20260804202241-z9zcp",
+      "uri": "asset://asset-20260804202241-z9zcp",
+      "scope": "只绑定炎魁本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "kind": "digital_human",
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb",
+      "uri": "asset://asset-20260310030618-88hlb",
+      "scope": "只绑定沈知夏本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "scope": "既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造",
+      "note": null,
+      "status": "reviewed_existing_16x9",
+      "number": 4
+    },
+    {
+      "key": "gate",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/canonical-gate-closed-winter-16x9.png",
+      "scope": "只锁正确别墅原有黑色双扇铁门、灰墙和门柱；开闭按镜头变化，别墅全貌只服从参考图4",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 5
+    },
+    {
+      "key": "iceFire",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/ice-fire-steam-snow-16x9.png",
+      "scope": "门外雪地的短冰障、火焰、蒸汽连续因果",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 6
+    },
+    {
+      "key": "yanMark",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/yan-control-mark-close-16x9.png",
+      "scope": "炎魁后颈印记及受控火焰状态",
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份",
+      "status": "generated_reviewed_16x9",
+      "number": 7
+    },
+    {
+      "key": "outfit_叶凝霜",
+      "kind": "outfit",
+      "file": "assets/production/ep042-044-reference-refresh/references/ye-winter-long-coat-flatlay-16x9.png",
+      "scope": "叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "generated_reviewed_16x9",
+      "number": 8,
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份"
+    },
+    {
+      "key": "outfit_炎魁",
+      "kind": "outfit",
+      "file": "assets/production/ep042-044-reference-refresh/references/yan-winter-outfit-flatlay-16x9.png",
+      "scope": "炎魁无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "generated_reviewed_16x9",
+      "number": 9,
+      "note": "Codex imagegen 2026-10-08；仅按本项scope使用，不锁人物身份"
+    }
+  ],
+  "previous_local_library": [],
+  "exclusions": [
+    "frames中的人物三视图仅保留人工核对，不与数字人同时自动上传",
+    "旧剧情关键帧不锁新动作、新结果或新服装",
+    "不上传首尾帧",
+    "不上传未出场人物",
+    "不以旧output内容替代新请求"
+  ]
+}

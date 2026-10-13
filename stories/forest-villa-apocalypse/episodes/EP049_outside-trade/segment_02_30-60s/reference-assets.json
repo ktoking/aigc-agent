@@ -1,0 +1,110 @@
+{
+  "revision": "2026-09-23-dialogue-rebuild-eight-shots",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "blocked_pending_asset_review_and_duration_check",
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "scene_slots": 7,
+    "auto_images": false,
+    "note": "本次只重写剧本，未提交新版视频。编号为数字人+非人物的全输入顺序；旧frames文件名不是新请求编号。不得自动上传整个目录，候选图未经新稿复核不得当成已验收。"
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "scope": "只绑定许砚本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "scope": "只绑定白棠本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "key": "workshop",
+      "kind": "scene_or_prop",
+      "file": "assets/props/FVA_INDUSTRIAL_METAL_PRINTER_001/references/industrial-metal-printer-installed-utilities-16x9.png",
+      "scope": "现代车库独立维修区、打印仓和工作台，不改变机组数量",
+      "note": null,
+      "status": "candidate_needs_current_visual_review",
+      "number": 3
+    },
+    {
+      "key": "brokenPump",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "一台小型故障水泵与可见变形外部支架",
+      "note": "不展示内部电气维修图",
+      "status": "needs_generation_for_new_script",
+      "number": 4
+    },
+    {
+      "key": "feedstockLabel",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "未开封打印料桶外包装标识的道具方向",
+      "note": "只是待验货，不显示已经成为别墅库存；视频不拍可读品牌",
+      "status": "needs_generation_for_new_script",
+      "number": 5
+    },
+    {
+      "key": "saltShelf",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "收到的有限盐包、自用与交易物分开放的现代储物架",
+      "note": "不生成大量药品等新收入",
+      "status": "needs_generation_for_new_script",
+      "number": 6
+    },
+    {
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "candidate_needs_current_visual_review",
+      "number": 7
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "candidate_needs_current_visual_review",
+      "number": 8
+    },
+    {
+      "key": "clean_detail",
+      "kind": "scene_detail",
+      "file": null,
+      "scope": "本段「故障泵进入待检台」的无人物局部机位，锁同一空间材质、光向与物件比例",
+      "status": "needs_generation_for_new_script",
+      "number": 9
+    }
+  ],
+  "previous_local_library": [],
+  "exclusions": [
+    "frames中的人物三视图仅保留人工核对，不与数字人同时自动上传",
+    "旧剧情关键帧不锁新动作、新结果或新服装",
+    "不上传首尾帧",
+    "不上传未出场人物",
+    "不以旧output内容替代新请求"
+  ]
+}

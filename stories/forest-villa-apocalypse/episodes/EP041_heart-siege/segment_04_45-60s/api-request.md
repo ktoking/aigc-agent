@@ -1,31 +1,41 @@
-素材更新：2026-09-08
+# EP041 Segment 4 视频交接
 
-本段未提交新视频任务。旧output记录不代表当前提示词。
-模型计划：doubao-seedance-2-0-mini-260615；480p，16:9，15秒以内，有声音。
-数字人身份：叶凝霜=asset://asset-20260720212023-wwndz；沈知夏=asset://asset-20260310030618-88hlb；许砚=asset://asset-20260320075237-29hdx；白棠=asset://asset-20260320075131-k78qt。
-本地参考图库共9张，按director-promt.txt顺序保存于frames/参考图1.png至参考图9.png。
-人物身份仍使用独立asset://输入，不是本地图片。背景图没有真人。
+版本：2026-09-23-dialogue-rebuild-eight-shots
+状态：新版剧本文本完成；未提交新版视频。旧output及视频均为历史版本，未改动。
 
-参考图1：canonical别墅冬季外观，只锁定同一栋三层主楼、连续阳台、灰石高墙、墙顶电网和关闭黑门；不锁定本镜战斗进度，不据此撤除已有炮台；图中没有真人。对应文件：frames/参考图1.png。
-参考图2：现代控制室，只锁定监控台、桌椅、窗边和灯光布局；屏幕内容依本镜剧情替换，不能把屏幕内林道当成室内背景；图中没有真人。对应文件：frames/参考图2.png。
-参考图3：沈知夏便携医护包，只锁定黑色酒红拼边包体、背带和扣带；不增加人员或额外医疗房间；图中没有真人。对应文件：frames/参考图3.png。
-参考图4：正常运行的单座自动炮台，只锁定既有炮管、雷达、光学镜头和二楼阳台位置；无结冰故障，不增加第二座；图中没有真人。对应文件：frames/参考图4.png。
-参考图5：控制室通向院内的开门镜位，只锁定室内门框、打开的门扇与风雪冷暖反差；不改变别墅外门状态；图中没有真人。对应文件：frames/参考图5.png。
-参考图6：叶凝霜当前冬装平铺，只锁定白色长款风衣、冰灰高领、白灰战术长裤和白色雪地靴；不沿用旧黑丝袜造型；图中没有真人。对应文件：frames/参考图6.png。
-参考图7：沈知夏当前冬装平铺，只锁定暗酒红外套、米白高领、深灰工装裤和深色医护靴；不锁背景，不生成平铺画面；图中没有真人。对应文件：frames/参考图7.png。
-参考图8：许砚工装平铺，只锁定炭灰防水夹克、深灰内搭、黑灰工装裤与深棕登山靴；不生成平铺画面；图中没有真人。对应文件：frames/参考图8.png。
-参考图9：白棠工装平铺，只锁定鼠尾草绿短外套、浅灰内搭、深灰裤和黑色工作鞋；不生成平铺画面；图中没有真人。对应文件：frames/参考图9.png。
+## 参数意图
+- 时长：15秒；16:9；有声音；480p为当前草稿清晰度意图。
+- 可沿用已有15秒分段方案；本次不调用API。
+- 无首尾帧；禁止auto-images；禁止自动重生成。
+- Prompt：director-promt.txt，SHA256：2c0203a852bb0a47094674830599419750eedd41d90c434ea813d2e6405c0169。
 
-正式提交约束：本段4个数字人，最多选择5张场景/道具图，总输入不得超过9项。本地候选序号：1、2、3、4、5。这不是已提交请求。
-必须按实际输入顺序重新生成提交副本和image-label，移除未上传的参考图条目并核对角色绑定；原始director-promt.txt与台词保持不变。必要时调整候选以覆盖关键镜头，不可仅按文件名自动全选。
-禁止首尾帧；不得把frames/目录作为首尾帧自动读取。提交前仍需dry-run核对数字人、参考图编号与请求内容。
-逐图来源和用途见reference-assets.json。
+## 具名数字人，按首次清晰出场排序
+- 参考图1：叶凝霜=asset://asset-20260720212023-wwndz
+- 参考图2：沈知夏=asset://asset-20260310030618-88hlb
+- 参考图3：许砚=asset://asset-20260320075237-29hdx
 
-已有文本版本差异：本次只同步参考图。director-promt.txt为当前导演稿；prompt.md中的既有台词差异未覆盖，提交不得误用旧版。本段当前导演稿列4人，超出以往最多3人的习惯上限；本次未改出场或台词，视频提交前需另行确认，不可静默遗漏数字人。
+仅画外音：白棠，不上传这些角色的脸。
 
-## 2026-09-08 30s合并段提交记录（s03+s04）
-- 合并稿：segment_03_30-45s/output/merged_s03s04_prompt.txt
-- 模型：seedance_2.5；时长30s；比例16:9
-- 参考图：角色正脸4张（白棠/许砚/叶凝霜/沈知夏 aka.doubaocdn.com 短链）
-- 返回视频URL：https://aka.doubaocdn.com/s/uwmc4N0vaD
-- 本地下载：segment_03_30-45s/output/video-30s.mp4
+## 参考图上传计划
+九项规划见reference-assets.json，数字人计入九项。当前所有非人物图均待新稿验收或待生图，不能把旧frames编号直接当API编号。
+
+| 请求编号 | 用途 | 当前候选路径（相对story root） | 状态 |
+| --- | --- | --- | --- |
+| 1 | 只绑定叶凝霜本人脸和身份，服装按正文 | asset://asset-20260720212023-wwndz | user_registered_identity |
+| 2 | 只绑定沈知夏本人脸和身份，服装按正文 | asset://asset-20260310030618-88hlb | user_registered_identity |
+| 3 | 只绑定许砚本人脸和身份，服装按正文 | asset://asset-20260320075237-29hdx | user_registered_identity |
+| 4 | 既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | candidate_needs_current_visual_review |
+| 5 | 外门内外同一门柱、交易槽和门机位置；开闭按当镜状态 | assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-warm-gate-entry-16x9.png | candidate_needs_current_visual_review |
+| 6 | 围墙完整、门外薄冰障被火烧融的状态 | 尚无可确认的新稿对应图 | needs_generation_for_new_script |
+| 7 | 门柱对讲设备与手持终端，不增加广播大喇叭 | assets/props/references/outer-gate-trade-intercom-box-16x9.png | candidate_needs_current_visual_review |
+| 8 | 叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-winter-outfit-flatlay-16x9.png | candidate_needs_current_visual_review |
+| 9 | 沈知夏无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png | candidate_needs_current_visual_review |
+
+## 提交前门禁
+- [ ] 逐图人工确认人物、服装、建筑、时段和道具状态。旧蓝西装炎魁、古风冬狼、旧黑丝袜凝霜图不得控制新稿服装。
+- [ ] 生成缺图，显式绑定路径与image-label；重排本地frames时另做清单，不改旧任务证据。
+- [ ] 确认真实模型、时长、清晰度支持；正式请求与本段9项规划一致。
+- [ ] dry-run回读asset ID、标签、顺序、数量与prompt哈希。
+- [ ] 试听实际合成对白与动作空间，不拿字数检查替代音画验收。
+
+本次提交记录：无。任务ID：无。既有任务历史仍在output，不代表本轮提示词已生成。
