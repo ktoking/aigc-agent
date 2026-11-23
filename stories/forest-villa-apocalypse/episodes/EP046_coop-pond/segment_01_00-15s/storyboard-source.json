@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP046_coop-pond",
   "segment": "segment_01_00-15s",
   "title": "水口冻住了",
@@ -43,7 +44,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<饮水器轻碰，一粒冰落>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        350
+      ],
+      "speech_window": [
+        35,
+        306
+      ],
+      "lens_mm": 80,
+      "position": "饮水器旁低机位，绿袖、出水口、接盘在同一平面",
+      "focus": "固定出口，看一粒冰落到干盘，不跟着鸡抬头",
+      "transition": "以白棠托住壶底的动作切接壶"
     },
     {
       "title": "先把眼前这壶救回来",
@@ -59,7 +72,19 @@
         "许砚"
       ],
       "sound": "<水壶交接，脚步向主楼>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        350,
+        720
+      ],
+      "speech_window": [
+        380,
+        651
+      ],
+      "lens_mm": 42,
+      "position": "禽舍门内一侧斜拍，室内方向留空",
+      "focus": "先看另一双手接稳，许砚开口时焦点提到嘴部",
+      "transition": "冻壶离开入屋方向，硬切工具车经过鱼池"
     },
     {
       "title": "膜不能全给鸡棚",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<薄冰轻碰，循环水声>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        720,
+        1090
+      ],
+      "speech_window": [
+        755,
+        1050
+      ],
+      "lens_mm": 65,
+      "position": "从鱼池低矮边缘侧拍，出水口保持在右侧",
+      "focus": "滑过薄冰边，在仍有水流的开口停住",
+      "transition": "按工具车停下的方向切凝霜脚边"
     },
     {
       "title": "有人主动接手",
@@ -89,7 +126,19 @@
         "叶凝霜"
       ],
       "sound": "<轻铲浮雪，棚架接触>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1090,
+        1500
+      ],
+      "speech_window": [
+        1150,
+        1445
+      ],
+      "lens_mm": 45,
+      "position": "和旧架同侧平视，只让凝霜露脸，余人不补",
+      "focus": "脚边雪被拨开时看鞋尖与杆脚，扶稳后交焦给她",
+      "transition": "结束时她仍扶住这一根立柱，接下一段扣膜动作"
     }
   ]
 }

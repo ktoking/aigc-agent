@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP047_reactor-cold",
   "segment": "segment_01_00-15s",
   "title": "灯亮着，地板却冷了",
@@ -43,7 +44,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<客厅电器低噪，拖鞋摩擦>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        350
+      ],
+      "speech_window": [
+        25,
+        320
+      ],
+      "lens_mm": 58,
+      "position": "客厅低于膝部，脚边厚毯、窗边正常灯光一并可见",
+      "focus": "焦点从拖鞋停步处到被拿起毯角，白棠脸不入镜",
+      "transition": "白棠问句后切许砚看分水器，灯亮状态不变"
     },
     {
       "title": "许砚也试了一下",
@@ -59,7 +72,19 @@
         "许砚"
       ],
       "sound": "<衣料与手电轻碰>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        350,
+        750
+      ],
+      "speech_window": [
+        395,
+        713
+      ],
+      "lens_mm": 44,
+      "position": "分水器侧面齐腰起步，随许砚站起，不翻越主轴",
+      "focus": "手背离管后提焦到他抬眼，出门所用手电只作留景",
+      "transition": "沿许砚看门的方向切知夏到门边"
     },
     {
       "title": "知夏一起去",
@@ -75,21 +100,45 @@
         "沈知夏"
       ],
       "sound": "<抽屉合上，外套拉链>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        750,
+        1120
+      ],
+      "speech_window": [
+        785,
+        1080
+      ],
+      "lens_mm": 59,
+      "position": "门内一侧平视拍知夏，不把门口背景加成第三人",
+      "focus": "知夏放好毯子后焦点留在她开口的脸和攥稳的终端",
+      "transition": "手电光到门边即硬切能源棚，只略去走过去的时间"
     },
     {
       "title": "热水还在柜里",
       "size": "外部供暖柜双管近景",
       "composition": "暖侧与回屋侧分开可辨，密封反应堆只在远景完整外壳。",
       "camera": "沿同一条外部管路短横移，落在不动的阀件。",
-      "action": "许砚确认支路停机并隔离，打开的是外部供暖柜。检测笔在源侧有热、屋侧偏冷，设备灯仍亮；不画出反应堆内部。",
+      "action": "硬切到能源棚，外部支路已停机隔离。镜头只给柜外两根管与终端上的热冷差异，不展示机组内部或操作步骤。许砚看见差别，才从画外指出。",
       "speaker": "许砚",
       "dialogue": "这头是热的，进屋那根却不热。",
       "delivery": "现场画外音，把检查结果说给知夏。",
       "mode": "voiceover",
       "faces": [],
       "sound": "<外部供暖柜打开，主机低噪稳定>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1120,
+        1500
+      ],
+      "speech_window": [
+        1160,
+        1455
+      ],
+      "lens_mm": 68,
+      "position": "外部供暖柜侧前，门外冷光与柜外工作灯分明",
+      "focus": "在两根外部管间短移，落到仍不动的阀件；内部不可见",
+      "transition": "在同一柜和原位置接下段知夏检查"
     }
   ]
 }

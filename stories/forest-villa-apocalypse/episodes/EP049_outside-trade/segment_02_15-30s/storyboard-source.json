@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP049_outside-trade",
   "segment": "segment_02_15-30s",
   "title": "货换完了，还有台坏泵",
@@ -43,7 +44,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<双门交易槽按顺序开合，箱由手推>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        370
+      ],
+      "speech_window": [
+        25,
+        296
+      ],
+      "lens_mm": 57,
+      "position": "内侧交易托盘低机位，手、箱底、托盘同框",
+      "focus": "焦跟箱底到托盘止位，停住后手才撤，不见两门同开",
+      "transition": "略去等对方取走的时间，切收盐时白棠"
     },
     {
       "title": "一笔换完了",
@@ -59,7 +72,19 @@
         "白棠"
       ],
       "sound": "<盐包封口轻响>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        370,
+        760
+      ],
+      "speech_window": [
+        395,
+        713
+      ],
+      "lens_mm": 54,
+      "position": "储架斜前齐胸，盐包在白棠脸下沿",
+      "focus": "封口扫一眼后交焦她的脸；盐放进原架时不再切",
+      "transition": "一笔换完，以再一声对讲通知转回门外"
     },
     {
       "title": "还带了一件不值钱的",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<小泵有重量地落入外侧箱>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        760,
+        1160
+      ],
+      "speech_window": [
+        785,
+        1127
+      ],
+      "lens_mm": 61,
+      "position": "门外箱沿齐腰，住户只露袖，旧泵完整居中",
+      "focus": "从抱入画的旧泵到倾斜支架，落箱触底才收手",
+      "transition": "对讲声音带回内侧，不新增随行者"
     },
     {
       "title": "先看，不能空口答应",
@@ -89,7 +126,19 @@
         "许砚"
       ],
       "sound": "<对讲轻电噪，门保持关闭>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1160,
+        1500
+      ],
+      "speech_window": [
+        1190,
+        1485
+      ],
+      "lens_mm": 62,
+      "position": "门内侧前拍许砚，右边监控有同一只没拆的泵",
+      "focus": "许砚看清扭曲支架后再开口，焦点从屏交到嘴",
+      "transition": "下一段硬切泵已按规则取回工作台"
     }
   ]
 }

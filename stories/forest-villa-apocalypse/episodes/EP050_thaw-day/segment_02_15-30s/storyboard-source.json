@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP050_thaw-day",
   "segment": "segment_02_15-30s",
   "title": "留一把，晚上煮面",
@@ -45,7 +46,19 @@
         "白棠"
       ],
       "sound": "<极轻能力声，叶片自然展开>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        430
+      ],
+      "speech_window": [
+        130,
+        307
+      ],
+      "lens_mm": 49,
+      "position": "白棠和近熟一盘在温室架前斜拍，邻盘留在画边",
+      "focus": "从掌下叶片展开交到白棠开口，邻盘一直可辨没受影响",
+      "transition": "弱光停了才切手剪菜，不在发光时搬盘"
     },
     {
       "title": "收下来才算到手",
@@ -59,7 +72,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<一次采收，菜落小篮>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        430,
+        800
+      ],
+      "speech_window": [
+        465,
+        760
+      ],
+      "lens_mm": 67,
+      "position": "沿原菜盘边近拍，剪下的菜落进旁边的小篮",
+      "focus": "剪下的叶沿同一方向进入焦内，画外许砚不补脸",
+      "transition": "按同一把菜落下的方向切分装"
     },
     {
       "title": "她早给家里留了",
@@ -75,7 +100,19 @@
         "白棠"
       ],
       "sound": "<叶菜分别入碗入篮>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        800,
+        1150
+      ],
+      "speech_window": [
+        830,
+        1101
+      ],
+      "lens_mm": 53,
+      "position": "分装台斜前平视，自用碗左、交换篮右",
+      "focus": "先看她留好的一把菜，再到回应许砚的嘴和目光",
+      "transition": "自用份不跟泵走，匹配硬切另一处工具托盘"
     },
     {
       "title": "带着结果去见客人",
@@ -89,7 +126,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<工具收好，泵由人手抱起>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1150,
+        1500
+      ],
+      "speech_window": [
+        1180,
+        1404
+      ],
+      "lens_mm": 49,
+      "position": "工作间托盘齐腰，许砚只拍手和肩，通往门口方向留空",
+      "focus": "从原新支架转到双手抱稳后离开的位置",
+      "transition": "下一段同一泵到外门观察位，原料还在住户手里"
     }
   ]
 }

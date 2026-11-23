@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP046_coop-pond",
   "segment": "segment_04_45-60s",
   "title": "巡查拍到一缕烟",
@@ -43,14 +44,26 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<托盘落台，不加庆祝音效>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        350
+      ],
+      "speech_window": [
+        35,
+        259
+      ],
+      "lens_mm": 65,
+      "position": "厨房工作台齐盘面斜拍，托盘入画后不追人",
+      "focus": "跟随一枚蛋落稳，背景窗外温室自然虚化",
+      "transition": "餐台声落完再切控制台，许砚接刚才的话"
     },
     {
       "title": "收工也要看一圈",
       "size": "许砚控制台单人中景",
       "composition": "许砚在左操作普通无人机终端，右侧监控仍显示唯一炮台空仓。",
       "camera": "短推看他放下手套、起飞确认。",
-      "action": "回到例行值守，许砚检查无人机电量后从院内起飞；不是收到警报突然出动。厨房的话还在，他接话同时做平常巡查。",
+      "action": "许砚放下手套，确认终端的例行巡查画面已亮起，回应厨房那边的白棠。起飞过程省略，下镜直接到已经飞行一段时间的远视角。",
       "speaker": "许砚",
       "dialogue": "你先收好，我巡完就回来。",
       "delivery": "接住她的玩笑，语气平和。",
@@ -59,7 +72,19 @@
         "许砚"
       ],
       "sound": "<终端按键，起飞声短暂>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        350,
+        710
+      ],
+      "speech_window": [
+        375,
+        623
+      ],
+      "lens_mm": 48,
+      "position": "控制台侧前平视，许砚和终端前后分层",
+      "focus": "从他放下手套移到开口的脸，终端界面不抢焦",
+      "transition": "让终端提示声引出无人机远视角"
     },
     {
       "title": "雪地里只有这一缕烟",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<远处风声与无人机低嗡>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        710,
+        1140
+      ],
+      "speech_window": [
+        775,
+        1023
+      ],
+      "lens_mm": 95,
+      "position": "无人机远处高视角，林隙包住山谷旧泵房",
+      "focus": "一直锁泵房屋檐和细烟，不追踪具体人或路线",
+      "transition": "烟刚抬过屋顶时切回终端旁许砚"
     },
     {
       "title": "先记下来",
@@ -89,7 +126,19 @@
         "许砚"
       ],
       "sound": "<操纵杆回中，记录笔轻响>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1140,
+        1500
+      ],
+      "speech_window": [
+        1190,
+        1391
+      ],
+      "lens_mm": 56,
+      "position": "控制室原拍摄轴，屏幕边框一侧、人脸另一侧",
+      "focus": "从终端的烟影提到他记录后松开的手与眼",
+      "transition": "画面仅停在保存记录；下一集以客厅冷地板另起"
     }
   ]
 }

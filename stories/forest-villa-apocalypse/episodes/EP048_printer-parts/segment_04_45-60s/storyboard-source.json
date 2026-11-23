@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP048_printer-parts",
   "segment": "segment_04_45-60s",
   "title": "灯亮了，门口也来人了",
@@ -45,7 +46,19 @@
         "白棠"
       ],
       "sound": "<苗盘落架，种子袋封好>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        360
+      ],
+      "speech_window": [
+        30,
+        278
+      ],
+      "lens_mm": 49,
+      "position": "工作台侧面齐腰，白棠托同一盘、背后灯未亮",
+      "focus": "托盘放稳才转她的脸，湿土留在下方同一位置",
+      "transition": "从同一盘切至灯下固定机位，不重放一次落盘"
     },
     {
       "title": "灯亮了，种子还得长",
@@ -59,7 +72,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<电源开关，灯板稳定低噪>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        360,
+        720
+      ],
+      "speech_window": [
+        390,
+        661
+      ],
+      "lens_mm": 50,
+      "position": "架子正侧交界固定机位，不拍电源结构",
+      "focus": "焦点起于暗灯下的湿土；灯亮后土纹清楚、苗不长",
+      "transition": "灯光稳后以对讲提示音硬切门柱"
     },
     {
       "title": "门口有人先开口",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<门柱呼叫提示，对讲轻电噪>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        720,
+        1110
+      ],
+      "speech_window": [
+        755,
+        1062
+      ],
+      "lens_mm": 70,
+      "position": "门柱斜侧近景，只让对讲、主门边和画外来声入场",
+      "focus": "呼叫灯亮时留在原面板，模糊背影不拉焦露脸",
+      "transition": "对讲底噪带回工作间许砚，不重录住户的话"
     },
     {
       "title": "先把生意问明白",
@@ -89,7 +126,19 @@
         "许砚"
       ],
       "sound": "<工具放下，对讲按键>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1110,
+        1500
+      ],
+      "speech_window": [
+        1140,
+        1435
+      ],
+      "lens_mm": 55,
+      "position": "回到亮苗架同侧，许砚侧前近景，白棠退到焦外",
+      "focus": "手停工具后交焦到嘴和按键手，灯的亮度不变",
+      "transition": "下一集先看盐包和自用份量，不让住户进院"
     }
   ]
 }

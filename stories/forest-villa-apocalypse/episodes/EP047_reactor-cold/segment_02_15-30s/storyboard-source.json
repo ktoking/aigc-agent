@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP047_reactor-cold",
   "segment": "segment_02_15-30s",
   "title": "最后一个备用件",
@@ -43,7 +44,19 @@
         "沈知夏"
       ],
       "sound": "<指尖接触，极轻弱光声>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        380
+      ],
+      "speech_window": [
+        25,
+        296
+      ],
+      "lens_mm": 52,
+      "position": "外柜侧前齐胸，知夏指尖在画下、正脸斜对镜头",
+      "focus": "先在她示意暂停的眼神，触到外部传感器时短转指尖",
+      "transition": "手不换位置，切相邻两件的运行差异"
     },
     {
       "title": "一次检查给出区别",
@@ -57,7 +70,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<一次测试，卡住部件轻响>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        380,
+        710
+      ],
+      "speech_window": [
+        440,
+        688
+      ],
+      "lens_mm": 80,
+      "position": "柜外靠近支路，两个执行件居相邻焦面",
+      "focus": "同一视野拍正常件短动、故障件轻抖停住；画外音不出嘴",
+      "transition": "故障件停住后切打开的原备件盒"
     },
     {
       "title": "最后一个备用件",
@@ -73,7 +98,19 @@
         "许砚"
       ],
       "sound": "<备件盒打开，一件被取出>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        710,
+        1110
+      ],
+      "speech_window": [
+        745,
+        1016
+      ],
+      "lens_mm": 52,
+      "position": "许砚侧前略俯，空格与一只备件占画下",
+      "focus": "先看空格，再抬至许砚隔着盒向知夏确认",
+      "transition": "备件不离盒跳位，切知夏收手示意决定"
     },
     {
       "title": "她不让他硬扛",
@@ -89,7 +126,19 @@
         "沈知夏"
       ],
       "sound": "<手收回，柜边工具轻碰>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1110,
+        1500
+      ],
+      "speech_window": [
+        1140,
+        1411
+      ],
+      "lens_mm": 64,
+      "position": "知夏外柜同侧近景，留工具位置给后续",
+      "focus": "她先看备件、再抬眼，让出位置时脸仍清楚",
+      "transition": "校准弱光已经熄灭，下段以人手和实物换件开场"
     }
   ]
 }

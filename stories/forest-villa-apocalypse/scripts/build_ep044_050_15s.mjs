@@ -4,6 +4,8 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { episodes as oldMetadata } from './ep044-050-seedance25-plan.mjs';
 import { revision, directories, timelines, additions, layouts, languageEvidence } from './ep044-050-15s-layout.mjs';
+import { directorRevision } from './ep044-050-camera-plan.mjs';
+import { renderDirector } from './render_ep044_050_director.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const oldDirs = ['segment_01_00-30s', 'segment_02_30-60s'];
@@ -20,12 +22,23 @@ const write = (file, text) => {
 };
 const writeJson = (file, value) => write(file, `${JSON.stringify(value, null, 2)}\n`);
 const table = text => String(text).replaceAll('|', '／').replaceAll('\n', ' ');
-const nums = ['一', '二', '三', '四'];
 const model = 'doubao-seedance-2-5-260628';
 const voices = { 许砚: '成年男性中低声，平稳清楚，临战果断', 白棠: '成年女性自然中声，利落，情绪有起伏但不尖叫',
   沈知夏: '成年女性偏低声，成熟克制，与白棠音色区分', 叶凝霜: '成年女性清冷中低声，稳，不甜腻',
   冬狼: '成年男性偏低声，命令口吻，受困后才提高音量', 泵房住户: '门柱对讲中的成年男性声音，礼貌拘谨，有轻微通道底噪' };
 const building = '同一栋现代三层主楼、连续阳台、灰色高围墙、黑色双扇外门和墙顶电网；屋顶与建筑比例服从既定别墅参考。唯一炮台仍在二楼阳台，EP044打空后不凭空补弹。温室、禽舍、鱼池、能源棚均在围墙内，主路塌方未恢复。';
+
+function writeDirectorFiles(dir, episode, segment, index, director, roles) {
+  const formatWindow = times => times.map(t => t / 100).join('–');
+  const rows = director.shots.map((shot, i) => {
+    const speaker = `${shot.speaker}${shot.mode === 'voiceover' ? '（画外音）' : ''}`;
+    return `| ${i + 1} ${table(shot.title)} | ${formatWindow(shot.time)} | ${shot.lens_mm}mm；${table(shot.size)} | ${table(shot.position)}；${table(shot.composition)} | ${table(shot.camera)}；${table(shot.focus)} | ${table(shot.action)} | ${formatWindow(shot.speech_window)}：${speaker}：${table(shot.dialogue)}；${table(shot.sound)} | ${table(shot.transition)} |`;
+  });
+  write(`${dir}/director-promt.txt`, director.text);
+  write(`${dir}/prompt.md`, director.text);
+  writeJson(`${dir}/storyboard-source.json`, { revision, director_revision: directorRevision, episode, segment: segment.directory, ...segment, shots: director.shots });
+  write(`${dir}/storyboard.md`, `# ${episode.slice(0, 5)} Segment ${index + 1}：${segment.title}\n\n导演版本：${directorRevision}。15秒、四镜、16:9真人。时码与对白窗口为预排，不是实测。\n\n首状态：${segment.opening}\n\n尾状态：${segment.ending}\n\n清晰人物及完整服装：\n${segment.cast.map(n => `- ${n}：${roles[n].description}`).join('\n')}\n\n| 镜头 | 段内秒 | 焦段及景别 | 机位与构图 | 运镜及焦点 | 动作 | 对白窗口与声音 | 剪辑衔接 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n${rows.join('\n')}\n\n跨段衔接：${segment.bridge}\n`);
+}
 
 function outputInventory() {
   const files = [];
@@ -174,7 +187,48 @@ if (!fs.existsSync(absolute(masterFile))) writeJson(masterFile, makeMaster(sourc
 const master = readJson(masterFile);
 master.episodes.forEach((e, ei) => e.segments.forEach((s, si) => { s.time = timelines[ei][si]; }));
 validateMaster(master);
-if (!process.argv.includes('--check')) {
+const checkOnly = process.argv.includes('--check');
+const promptsOnly = process.argv.includes('--prompts-only');
+if (checkOnly && promptsOnly) throw new Error('Choose either --check or --prompts-only');
+const render = (e, s, si, refs) => renderDirector(e.dir, s, si, refs, master.roles, voices, building);
+
+if (promptsOnly) {
+  // Validate every current input before changing the first file.
+  const pending = master.episodes.flatMap(e => e.segments.map((s, si) => {
+    const dir = `episodes/${e.dir}/${s.directory}`;
+    const refs = readJson(`${dir}/reference-assets.json`);
+    const handoff = readJson(`${dir}/seedance25-handoff.json`);
+    const inputOrder = refs.references.map(r => [r.number, r.uri || r.file]);
+    if (JSON.stringify(inputOrder) !== JSON.stringify(referencesFor(master, e, s).references.map(r => [r.number, r.uri || r.file]))) throw new Error(`Reference order drift: ${dir}`);
+    const oldPrompt = read(`${dir}/director-promt.txt`);
+    const api = read(`${dir}/api-request.md`);
+    if (oldPrompt !== read(`${dir}/prompt.md`) || sha(oldPrompt) !== handoff.prompt_sha256 ||
+        !api.includes(`SHA256=${handoff.prompt_sha256}`) || handoff.submitted) throw new Error(`Prompt or handoff drift: ${dir}`);
+    const currentShots = readJson(`${dir}/storyboard-source.json`).shots;
+    if (JSON.stringify(currentShots.map(x => [x.speaker, x.mode, x.dialogue])) !== JSON.stringify(s.shots.map(x => [x.speaker, x.mode, x.dialogue]))) {
+      throw new Error(`Dialogue source drift: ${dir}`);
+    }
+    return { e, s, si, dir, api, handoff, director: render(e, s, si, refs) };
+  }));
+  const hashes = new Map();
+  for (const { e, s, si, dir, api, handoff, director } of pending) {
+    const hash = sha(director.text);
+    writeDirectorFiles(dir, e.dir, s, si, director, master.roles);
+    write(`${dir}/api-request.md`, api
+      .replace(`SHA256=${handoff.prompt_sha256}`, `SHA256=${hash}`)
+      .replace(/^版本：.*$/m, `版本：${revision}。导演稿：${directorRevision}；时码为文字预排，未生成视频。`));
+    writeJson(`${dir}/seedance25-handoff.json`, { ...handoff, director_revision: directorRevision, prompt_sha256: hash });
+    hashes.set(`${e.dir}/${s.directory}`, hash);
+  }
+  for (const file of ['docs/ep044-050-15s-validation.json', 'docs/ep044-050-seedance25-validation.json', 'docs/ep041-050-rewrite-validation.json']) {
+    const report = readJson(file);
+    for (const item of report.segments_detail) {
+      const hash = hashes.get(`${item.episode}/${item.segment}`);
+      if (hash) Object.assign(item, { director_revision: directorRevision, prompt_sha256: hash });
+    }
+    writeJson(file, report);
+  }
+} else if (!checkOnly) {
   writeJson(masterFile, master);
   archiveOld(source);
   const checks = [], allReadthrough = [], outline = [], uses = new Map();
@@ -184,34 +238,13 @@ if (!process.argv.includes('--check')) {
     for (const [si, s] of e.segments.entries()) {
       const dir = `${ep}/${s.directory}`, refs = referencesFor(master, e, s);
       const spoken = count(s.shots.map(x => x.dialogue).join(''));
-      const lines = [`16:9横屏，15秒，4个实际镜头，有声音，真人电影实拍质感。${e.dir.slice(0, 5)} Segment ${si + 1}：${s.title}。`,
-        `开始状态：${s.opening}`, `结束状态：${s.ending}`, '', '数字人身份锁（只传本段清晰露脸者，按首次露脸顺序）：',
-        ...refs.references.filter(r => r.uri).map(r => `参考图${r.number}：${r.name}，数字人身份锁=${r.uri}；${r.description}`),
-        `本段清晰出镜仅${s.cast.join('、')}；仅声音、不露脸：${s.offscreen.join('、') || '无'}。单个机位最多两张清晰脸，不补其他常驻者。`,
-        ...s.offscreen.filter(n => master.roles[n]).map(n => `不露脸角色${n}：只有声音时不生成其画面；仅当下文明确写手部、袖口或肩背入画时，服装沿用${master.roles[n].description.split('。')[0]}。不能因此新增头部或正脸。`),
-        '', '场景与道具参考（继续实际输入编号，图中不绑定人物脸）：',
-        ...refs.references.filter(r => r.file).map(r => `参考图${r.number}：${r.label}；${r.scope}。`),
-        '', `空间与承接：${building}`, `时间与转场：${s.time}。具体本段以开始、结束状态为准。`,
-        '摄影：自然肤色、冷灰冬雪与室内暖功能灯，沿用原场景轴线。每镜拍出实际动作、观察、反应或结果，不靠重复慢推填时。四镜按台词与动作分配时长，不写死等长秒数；需要略去施工或试转等待时用明确硬切。',
-        '声音：中文自然对话，声音来自现场或明确的内线。每镜只有下列一人发声；一人说完再接另一人，不抢台词。动作可以在对白下继续；先前段末的问句不重复重念。画外音不配给镜中他人。音效随动作，音乐极轻，不盖词。',
-        `声音角色：${[...new Set(s.shots.map(x => x.speaker))].map(name => `${name}为${voices[name]}`).join('；')}。`, ''];
-      const board = [];
-      s.shots.forEach((shot, i) => {
-        const ids = shot.faces.map(name => `参考图${refs.references.find(r => r.name === name).number}的${name}`);
-        const faces = ids.length ? `本镜只出现${ids.join('、')}的清晰脸；其余人仅按正文保留手部、背部或声音，不补脸` : '本镜不出现清晰人脸；人物只按正文保留手部或不可辨认背影，不能加说话的脸';
-        const binding = shot.mode === 'voiceover' ? `仅${shot.speaker}按表演所述来源发画外音；镜内人物、器械和动物都不补口型。` : `仅${shot.speaker}开口，嘴部清楚并与声音同步；另一人在场时闭口回应。`;
-        lines.push(`镜头${nums[i]}｜${shot.title}`, `景别：${shot.size}。`, `构图：${shot.composition}`, `运镜手法：${shot.camera}`,
-          `画面内容：${shot.action}`, `人物与参考绑定：${faces}。`, `表演：${shot.delivery}`, `说话者绑定：${binding}`,
-          `${shot.speaker}台词${shot.mode === 'voiceover' ? '（画外音）' : ''}：{${shot.dialogue}}`, `声音：${shot.sound}`, '');
+      const director = render(e, s, si, refs);
+      const hash = sha(director.text);
+      for (const [i, shot] of director.shots.entries()) {
         const who = `${shot.speaker}${shot.mode === 'voiceover' ? '（画外音）' : ''}`;
-        board.push(`| ${i + 1} ${shot.title} | ${table(shot.size)}；${table(shot.composition)} | ${table(shot.camera)} | ${table(shot.action)} | ${who}：${table(shot.dialogue)} |`);
         episodeRows.push(`| ${si + 1} | ${i + 1} | ${who} | ${table(shot.dialogue)} |`);
-      });
-      lines.push(`收束状态：${s.ending}`, `接下一段：${s.bridge}`, '排除内容：字幕、水印、logo、可读坐标、换脸换衣、额外人物、第二栋主楼、第二座炮台、自动飞入的零件或交易箱、器械开口说话。没有首尾帧输入；不要把参考图拼接成画面。', '');
-      const prompt = lines.join('\n'), hash = sha(prompt);
-      write(`${dir}/director-promt.txt`, prompt); write(`${dir}/prompt.md`, prompt);
-      writeJson(`${dir}/storyboard-source.json`, { revision, episode: e.dir, segment: s.directory, ...s });
-      write(`${dir}/storyboard.md`, `# ${e.dir.slice(0, 5)} Segment ${si + 1}：${s.title}\n\n版本：${revision}。15秒、四镜、16:9真人，有声音。\n\n首状态：${s.opening}\n\n尾状态：${s.ending}\n\n清晰人物及完整服装：\n${s.cast.map(n => `- ${n}：${master.roles[n].description}`).join('\n')}\n\n| 镜头 | 景别与构图 | 运镜 | 动作与结果 | 发声 |\n| --- | --- | --- | --- | --- |\n${board.join('\n')}\n\n衔接：${s.bridge}\n`);
+      }
+      writeDirectorFiles(dir, e.dir, s, si, director, master.roles);
       write(`${dir}/dialogue.txt`, `${s.shots.map((x, i) => `${i + 1}. ${x.speaker}${x.mode === 'voiceover' ? '（画外音）' : ''}：${x.dialogue}`).join('\n')}\n`);
       write(`${dir}/first-frame.md`, `# 首状态（不生首帧、不上传）\n\n${s.opening}\n\n首镜：${s.shots[0].size}；${s.shots[0].composition}\n\n仅文字连续性记录；不能据此传旧视频帧。\n`);
       write(`${dir}/last-frame.md`, `# 尾状态（不生尾帧、不上传）\n\n${s.ending}\n\n衔接：${s.bridge}\n\n末镜：${s.shots[3].size}；${s.shots[3].composition}\n`);
@@ -227,7 +260,7 @@ if (!process.argv.includes('--check')) {
       write(`${dir}/frames/参考图顺序.md`, `# 本段实际输入顺序\n\n数字人通过asset URI提供，没有对应本地PNG；其余文件按同一编号命名。只按清单上传，不遍历目录。\n\n${refs.references.map(r => `${r.number}：${r.label} → ${r.uri || path.basename(r.segment_file)}`).join('\n')}\n\n原30秒段的三视图和关键帧均不进入本段。\n`);
       const imageTable = refs.references.map(r => `| ${r.number} | ${r.label} | ${r.uri || r.file} | ${table(r.scope)} |`).join('\n');
       write(`${dir}/api-request.md`, `# ${e.dir.slice(0, 5)} Segment ${si + 1} 视频交接\n\n版本：${revision}。这是重做后的15秒段，没有提交视频。\n\n- model=${model}（沿用既定目标；本次未验证账号或服务端参数）。\n- duration=15，ratio=16:9，resolution=480p，generate_audio=true。\n- prompt_file=director-promt.txt；SHA256=${hash}；prompt.md逐字一致。\n- first_frame=null，last_frame=null，auto_images=false。\n- 台词${spoken}个有效字；4字/秒粗估${spoken / 4}秒，非实测语音。\n- 只按reference-assets.json上传具名数字人和图片；九项包括人物，无旧首尾帧。\n- 整集四段串行，前一段完成、下载并验收后再提交下一段；发现问题停止，不自动重试。\n\n| 实际输入序号 | 标签 | story根目录来源或asset URI | 职责 |\n| --- | --- | --- | --- |\n${imageTable}\n\n本地文件齐全不代表身份、服装、动作或语音已通过生成验证。正式提交前核对实际payload的角色名、URI、图片标签、编号和prompt哈希。任务ID：无。\n`);
-      writeJson(`${dir}/seedance25-handoff.json`, { revision, submitted: false, model, duration: 15, ratio: '16:9', resolution: '480p',
+      writeJson(`${dir}/seedance25-handoff.json`, { revision, director_revision: directorRevision, submitted: false, model, duration: 15, ratio: '16:9', resolution: '480p',
         generate_audio: true, prompt_file: 'director-promt.txt', prompt_sha256: hash, first_frame: null, last_frame: null,
         auto_images: false, references_file: 'reference-assets.json', readiness: 'needs_visual_review', missing_reference_numbers: [],
         sequence: si + 1, previous_segment: si ? directories[si - 1] : null, generation_policy: 'sequential_wait_download_review_stop_on_error' });
@@ -238,7 +271,7 @@ if (!process.argv.includes('--check')) {
       readthrough.push(`## Segment ${si + 1}：${s.title}\n\n${s.shots.map((x, i) => `${i + 1}. ${x.speaker}${x.mode === 'voiceover' ? '（画外音）' : ''}：${x.dialogue}`).join('\n')}\n`);
       continuity.push(`## Segment ${si + 1}\n\n清晰人物：${s.cast.join('、')}。仅声音：${s.offscreen.join('、') || '无'}。\n\n开始：${s.opening}\n\n结束：${s.ending}\n\n衔接：${s.bridge}\n`);
       imageSections.push(`## Segment ${si + 1}：${s.title}\n\n数字人${s.cast.length}项＋本地图${9 - s.cast.length}张＝9项，无缺失。\n\n| 输入 | 标签 | 来源 | 职责 |\n| --- | --- | --- | --- |\n${imageTable}\n`);
-      checks.push({ episode: e.dir, segment: s.directory, title: s.title, duration: 15, shots: 4, visible_cast: s.cast, offscreen: s.offscreen,
+      checks.push({ episode: e.dir, segment: s.directory, director_revision: directorRevision, title: s.title, duration: 15, shots: 4, visible_cast: s.cast, offscreen: s.offscreen,
         dialogue_chars: spoken, estimated_speech_seconds_at_4cps: spoken / 4, prompt_sha256: hash, prompt_copy_equal: true,
         planned_references: 9, local_images: 9 - s.cast.length, missing_reference_numbers: [], submission_status: 'needs_visual_review',
         video_submitted: false, video_reviewed: false });
@@ -301,19 +334,23 @@ if (!process.argv.includes('--check')) {
   }
 }
 
-const verification = { revision, segments: 0, shots: 0, digital_human_inputs: 0, local_reference_slots: 0,
+const verification = { revision, director_revision: directorRevision, editorial_timing_only: true, segments: 0, shots: 0, digital_human_inputs: 0, local_reference_slots: 0,
   dialogue_min: Infinity, dialogue_max: 0, missing: [], errors: [], video_submitted: false };
 for (const e of master.episodes) {
   const oldSpeech = source.episodes.find(x => x.dir === e.dir).sources.flatMap(x => x.shotSource.shots.map(s => s.dialogue));
   const newSpeech = e.segments.flatMap(s => s.shots.map(x => x.dialogue));
   if (JSON.stringify(oldSpeech) !== JSON.stringify(newSpeech)) verification.errors.push(`${e.dir}: dialogue changed`);
-  for (const s of e.segments) {
+  for (const [si, s] of e.segments.entries()) {
     const dir = `episodes/${e.dir}/${s.directory}`, prompt = read(`${dir}/director-promt.txt`);
     const manifest = readJson(`${dir}/reference-assets.json`), handoff = readJson(`${dir}/seedance25-handoff.json`);
+    const expected = render(e, s, si, manifest);
     verification.segments++; verification.shots += s.shots.length;
     const chars = count(s.shots.map(x => x.dialogue).join(''));
     verification.dialogue_min = Math.min(verification.dialogue_min, chars); verification.dialogue_max = Math.max(verification.dialogue_max, chars);
     if (prompt !== read(`${dir}/prompt.md`) || sha(prompt) !== handoff.prompt_sha256) verification.errors.push(`${dir}: hash/copy`);
+    if (prompt !== expected.text || handoff.director_revision !== directorRevision ||
+        !read(`${dir}/api-request.md`).includes(`SHA256=${handoff.prompt_sha256}`) ||
+        JSON.stringify(readJson(`${dir}/storyboard-source.json`).shots) !== JSON.stringify(expected.shots)) verification.errors.push(`${dir}: timed director/storyboard drift`);
     if (!prompt.startsWith('16:9横屏，15秒，4个实际镜头') || [...prompt.matchAll(/^镜头[一二三四]｜/gm)].length !== 4) verification.errors.push(`${dir}: format`);
     if (s.shots.some(x => !prompt.includes(`{${x.dialogue}}`)) || [...prompt.matchAll(/台词(?:（画外音）)?：\{/g)].length !== 4) verification.errors.push(`${dir}: dialogue`);
     for (const ref of manifest.references) {
@@ -326,5 +363,5 @@ for (const e of master.episodes) {
 }
 if (JSON.stringify(source.outputs) !== JSON.stringify(outputInventory())) verification.errors.push('Historical output inventory changed');
 if (verification.errors.length || verification.missing.length) throw new Error(JSON.stringify(verification));
-writeJson('docs/ep044-050-15s-files-verified.json', verification);
+if (!checkOnly) writeJson('docs/ep044-050-15s-files-verified.json', verification);
 console.log(JSON.stringify(verification, null, 2));

@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP046_coop-pond",
   "segment": "segment_02_15-30s",
   "title": "剩膜两边都用上",
@@ -43,7 +44,19 @@
         "许砚"
       ],
       "sound": "<薄膜与旧扣件摩擦>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        360
+      ],
+      "speech_window": [
+        35,
+        259
+      ],
+      "lens_mm": 42,
+      "position": "顺禽舍旧架从一侧横看，顶边空隙留在上缘",
+      "focus": "从许砚压着的膜边扫到顶部透气口，拍清脸与手的关系",
+      "transition": "按保留的膜边硬切白棠检查迎风处"
     },
     {
       "title": "这一边已经够了",
@@ -59,7 +72,19 @@
         "白棠"
       ],
       "sound": "<收卷轻响，棚外风声>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        360,
+        730
+      ],
+      "speech_window": [
+        395,
+        666
+      ],
+      "lens_mm": 55,
+      "position": "在白棠靠原栏一侧，不进鸡活动的低处",
+      "focus": "看她手背伸进光里试风，再交给转向鱼池的视线",
+      "transition": "剩膜向鱼池画外递出，下一镜同向接实物"
     },
     {
       "title": "罩住水面，设备留外面",
@@ -75,7 +100,19 @@
         "许砚"
       ],
       "sound": "<原过滤泵持续低噪>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        730,
+        1120
+      ],
+      "speech_window": [
+        770,
+        1041
+      ],
+      "lens_mm": 43,
+      "position": "鱼池旁沿既有罩架拍，管与过滤桶在右后",
+      "focus": "罩边落进原架时清楚，随后查出水口仍留空",
+      "transition": "循回流水声切罩内，不另起一座池"
     },
     {
       "title": "鱼还活着",
@@ -89,7 +126,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<少量气泡，鱼游过水面>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1120,
+        1500
+      ],
+      "speech_window": [
+        1190,
+        1414
+      ],
+      "lens_mm": 72,
+      "position": "贴近原检修口看向水面，不越过右侧管位",
+      "focus": "先是罩边水汽被拭开，后见水面下鱼影经过气泡",
+      "transition": "原流水声自然落下，下段先回禽舍看恢复饮水"
     }
   ]
 }

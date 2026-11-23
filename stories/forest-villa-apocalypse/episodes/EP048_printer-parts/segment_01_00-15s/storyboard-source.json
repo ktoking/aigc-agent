@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP048_printer-parts",
   "segment": "segment_01_00-15s",
   "title": "先备能打印的零件",
@@ -43,7 +44,19 @@
         "白棠"
       ],
       "sound": "<旧件落台，料盒轻碰>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        390
+      ],
+      "speech_window": [
+        25,
+        343
+      ],
+      "lens_mm": 54,
+      "position": "工作台一角齐胸对白棠，空盒在她手前",
+      "focus": "看空格再随她提旧件到胸下，开口时提焦到她",
+      "transition": "由旧件的视线切许砚将两个部分分开放"
     },
     {
       "title": "许砚指出真正的限制",
@@ -59,7 +72,19 @@
         "许砚"
       ],
       "sound": "<部件分开放置，衣袖摩擦>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        390,
+        790
+      ],
+      "speech_window": [
+        420,
+        738
+      ],
+      "lens_mm": 60,
+      "position": "同侧反打许砚，设备在他肩背后保持方位",
+      "focus": "先从普通支架转到一旁封装件，解释时抬至嘴",
+      "transition": "用外部支架轮廓匹配硬切到成品托盘"
     },
     {
       "title": "先把可做的补足",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<一轮打印停机，托盘出件>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        790,
+        1110
+      ],
+      "speech_window": [
+        830,
+        1078
+      ],
+      "lens_mm": 70,
+      "position": "接料盘对面略俯，区分少量小件和单块护板",
+      "focus": "托盘动完保持焦在成品，料盒虚在后方；不录加工内部",
+      "transition": "跟白棠接件的方向切回备件格"
     },
     {
       "title": "白棠把数量收住",
@@ -89,7 +126,19 @@
         "白棠"
       ],
       "sound": "<机械小件依次入盒>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1110,
+        1500
+      ],
+      "speech_window": [
+        1145,
+        1393
+      ],
+      "lens_mm": 54,
+      "position": "备件盒侧前齐胸，白棠和未用完的料同框",
+      "focus": "一只小件入格后转她开口的脸，料盒始终留画边",
+      "transition": "最后留一块护板，下一段直接带它到门外"
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP047_reactor-cold",
   "segment": "segment_04_45-60s",
   "title": "带着终端回屋看",
@@ -43,7 +44,19 @@
         "沈知夏"
       ],
       "sound": "<柜门闭合，轻呼吸>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        350
+      ],
+      "speech_window": [
+        35,
+        330
+      ],
+      "lens_mm": 57,
+      "position": "知夏侧前平视，柜边可给她手靠住",
+      "focus": "先清楚终端稳定，知夏手按柜边时移到她脸",
+      "transition": "顺她看向许砚的目光切对面，不再查一轮设备"
     },
     {
       "title": "许砚接住她的谨慎",
@@ -59,7 +72,19 @@
         "许砚"
       ],
       "sound": "<便携终端被接过>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        350,
+        760
+      ],
+      "speech_window": [
+        380,
+        698
+      ],
+      "lens_mm": 61,
+      "position": "外柜同侧反打，终端在场两人之间",
+      "focus": "先看他的目光落到画边的手，随后嘴部清楚，终端交接不中断",
+      "transition": "用端着终端回去的动作跳切室内放空盒"
     },
     {
       "title": "把缺口留在眼前",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<空盒落台，旧件另放>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        760,
+        1140
+      ],
+      "speech_window": [
+        785,
+        1103
+      ],
+      "lens_mm": 74,
+      "position": "工作台边缘齐盒口，旧件在另一格、灯暖色",
+      "focus": "空盒落桌时定焦空格，保持旧件仍在旁边",
+      "transition": "空盒留在桌上，硬切同屋门口挂外套"
     },
     {
       "title": "这一夜先睡一觉",
@@ -89,7 +126,19 @@
         "沈知夏"
       ],
       "sound": "<手电关闭，室内轻底噪>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1140,
+        1500
+      ],
+      "speech_window": [
+        1170,
+        1441
+      ],
+      "lens_mm": 50,
+      "position": "暖屋门边侧拍，知夏近处，许砚仅留规定肩背",
+      "focus": "她放下手电后落焦在眼和嘴部，留一拍看他停手",
+      "transition": "次日EP048打开工作间，从同一空盒继续"
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP048_printer-parts",
   "segment": "segment_02_15-30s",
   "title": "门加一层，苗也得育",
@@ -41,7 +42,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<护板落在门外固定位置>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        400
+      ],
+      "speech_window": [
+        25,
+        343
+      ],
+      "lens_mm": 50,
+      "position": "沿黑门外侧斜拍，只看人手托住的单块护板",
+      "focus": "板边与原门划痕同焦，门后房屋不过景抢焦",
+      "transition": "按同一板角的形状切白棠扶稳"
     },
     {
       "title": "两个人装牢",
@@ -57,7 +70,19 @@
         "白棠"
       ],
       "sound": "<普通紧固工具轻响>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        400,
+        730
+      ],
+      "speech_window": [
+        450,
+        604
+      ],
+      "lens_mm": 45,
+      "position": "门外同侧齐腰，白棠脸在板沿上方",
+      "focus": "开口时稳在她脸，撤手后由板边不晃给结果",
+      "transition": "金属声止后硬切靠窗苗架，不在门外抽卡"
     },
     {
       "title": "机械件有了，灯还缺",
@@ -71,7 +96,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<空盘落架，种子袋摩擦>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        730,
+        1130
+      ],
+      "speech_window": [
+        770,
+        1065
+      ],
+      "lens_mm": 62,
+      "position": "工作间靠墙端平移看旧架，窗光由一侧进",
+      "focus": "亮处种子袋先清楚，沿空盘转至光照够不到的一端",
+      "transition": "暗侧保留不变，接许砚顺白棠的判断看手机"
     },
     {
       "title": "把下一茬写进今天选择",
@@ -87,7 +124,19 @@
         "许砚"
       ],
       "sound": "<手机被拿起，工作间底噪>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1130,
+        1500
+      ],
+      "speech_window": [
+        1165,
+        1436
+      ],
+      "lens_mm": 55,
+      "position": "许砚台面侧前齐眼，原手机压在下方，不提前亮卡",
+      "focus": "先看他朝旧架抬眼，拿手机时落焦回手",
+      "transition": "下一段从同一手机展开三种选项"
     }
   ]
 }

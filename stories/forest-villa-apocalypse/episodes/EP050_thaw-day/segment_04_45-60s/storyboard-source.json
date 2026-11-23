@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP050_thaw-day",
   "segment": "segment_04_45-60s",
   "title": "这顿饭，坐下来吃",
@@ -43,7 +44,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<面碗落桌，厨房轻响>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        360
+      ],
+      "speech_window": [
+        30,
+        325
+      ],
+      "lens_mm": 52,
+      "position": "桌沿略低侧拍，碗被人端来，窗在后景",
+      "focus": "从碗沿的热气到木桌上的落点，全程不抬到白棠脸",
+      "transition": "落碗响之后切同一张桌边知夏放终端"
     },
     {
       "title": "知夏把工作留在饭后",
@@ -59,7 +72,19 @@
         "沈知夏"
       ],
       "sound": "<终端扣下，椅子移近>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        360,
+        750
+      ],
+      "speech_window": [
+        400,
+        648
+      ],
+      "lens_mm": 57,
+      "position": "知夏座侧平视，终端与碗的位置让开她的脸",
+      "focus": "先是屏幕扣下的动作，随后稳在她说话的脸",
+      "transition": "椅子停稳后切凝霜的筷子和第一口"
     },
     {
       "title": "叶凝霜也有了家常一句",
@@ -75,7 +100,19 @@
         "叶凝霜"
       ],
       "sound": "<筷子轻放碗沿，留咀嚼停顿>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        750,
+        1140
+      ],
+      "speech_window": [
+        885,
+        1062
+      ],
+      "lens_mm": 67,
+      "position": "凝霜桌边三分之四正面，雪窗虚、碗沿在画下",
+      "focus": "筷子落回碗沿才转到她抬眼的脸，咽下后再说",
+      "transition": "沿眼线回到许砚，其他人不被拉进清楚焦面"
     },
     {
       "title": "许砚让这一刻停住",
@@ -91,7 +128,19 @@
         "许砚"
       ],
       "sound": "<筷子与碗轻碰，屋外风雪渐低>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1140,
+        1500
+      ],
+      "speech_window": [
+        1185,
+        1433
+      ],
+      "lens_mm": 49,
+      "position": "许砚座对面仍在桌轴同侧，后景带窗边小苗",
+      "focus": "先稳在浅笑与口型，放下话才微拉保留面碗和雪窗",
+      "transition": "筷子碰碗后留一点屋内声，画面以暖桌与小苗收束"
     }
   ]
 }

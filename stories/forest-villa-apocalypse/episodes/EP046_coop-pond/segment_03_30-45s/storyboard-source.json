@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP046_coop-pond",
   "segment": "segment_03_30-45s",
   "title": "窝里又有蛋了",
@@ -43,7 +44,19 @@
         "叶凝霜"
       ],
       "sound": "<出水口轻滴，鸡喝水>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        380
+      ],
+      "speech_window": [
+        45,
+        269
+      ],
+      "lens_mm": 46,
+      "position": "禽舍入口侧拍，凝霜和壶分居左右、鸡只居画下",
+      "focus": "先看到壶底站稳和清水流下，确认后回她脸",
+      "transition": "切相邻窝箱；不演成鸡喝水即下蛋"
     },
     {
       "title": "窝里多了一点东西",
@@ -59,7 +72,19 @@
         "白棠"
       ],
       "sound": "<垫草轻响，鸡低鸣>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        380,
+        720
+      ],
+      "speech_window": [
+        425,
+        626
+      ],
+      "lens_mm": 60,
+      "position": "窝箱低沿旁三分之四拍白棠，垫草在前",
+      "focus": "从被拨开的草交到唯一一枚蛋，再到她抬头的笑",
+      "transition": "保留蛋在白棠手里的状态，切凝霜看过去"
     },
     {
       "title": "她不再只会战斗",
@@ -75,7 +100,19 @@
         "叶凝霜"
       ],
       "sound": "<量勺挂回栏边>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        720,
+        1110
+      ],
+      "speech_window": [
+        750,
+        1021
+      ],
+      "lens_mm": 60,
+      "position": "原料盒一侧齐眼，凝霜看向画外的白棠",
+      "focus": "眼睛随蛋移动，问话时焦点稳在她嘴与手中的勺",
+      "transition": "沿她递向料盒的勺切分量特写"
     },
     {
       "title": "按它们吃得完的量",
@@ -91,7 +128,19 @@
         "白棠"
       ],
       "sound": "<饲料入勺，料盒扣好>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1110,
+        1500
+      ],
+      "speech_window": [
+        1165,
+        1389
+      ],
+      "lens_mm": 62,
+      "position": "料盒侧边低一点，托盘上的蛋和勺不混放",
+      "focus": "勺面刮平后抬到白棠侧脸，她的口型不被勺遮住",
+      "transition": "勺回原位，下一段干净托盘携同一枚蛋回屋"
     }
   ]
 }

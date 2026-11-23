@@ -1,10 +1,10 @@
 # EP045 Segment 1 视频交接
 
-版本：2026-11-12-four-15s。这是重做后的15秒段，没有提交视频。
+版本：2026-11-12-four-15s。导演稿：2026-11-23-cinematic-director-v1；时码为文字预排，未生成视频。
 
 - model=doubao-seedance-2-5-260628（沿用既定目标；本次未验证账号或服务端参数）。
 - duration=15，ratio=16:9，resolution=480p，generate_audio=true。
-- prompt_file=director-promt.txt；SHA256=f01e0394f49deb7b021bbec3ae3be6d2bc8f9ba65759cef20e54d878cf5f4df0；prompt.md逐字一致。
+- prompt_file=director-promt.txt；SHA256=849b3e4e8de5393523a92957a303e2b6f89061d2da097e3278364e6bcdb39ab7；prompt.md逐字一致。
 - first_frame=null，last_frame=null，auto_images=false。
 - 台词39个有效字；4字/秒粗估9.75秒，非实测语音。
 - 只按reference-assets.json上传具名数字人和图片；九项包括人物，无旧首尾帧。

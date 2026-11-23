@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP050_thaw-day",
   "segment": "segment_03_30-45s",
   "title": "先验结果，再交货",
@@ -43,7 +44,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<短时试转，稳定出水后断电>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        380
+      ],
+      "speech_window": [
+        40,
+        323
+      ],
+      "lens_mm": 54,
+      "position": "门内试水位侧拍，泵与桶同框，门外只见袖口",
+      "focus": "先停在稳定出水，收测试管时把焦点移向台边的对讲",
+      "transition": "断电后略去试打等待，切到已有试件的台面"
     },
     {
       "title": "原料也要看结果",
@@ -57,7 +70,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<小试件与包装轻碰，不加打印大场面>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        380,
+        770
+      ],
+      "speech_window": [
+        415,
+        710
+      ],
+      "lens_mm": 68,
+      "position": "验料台斜上方，封口袋与小试片左右落位",
+      "focus": "试片边先清楚，再移到封好的料袋，许砚的声音从画外来",
+      "transition": "验料完成后硬切门外来客已提泵，不凭镜头形变换货"
     },
     {
       "title": "对方开始惦记下一回",
@@ -71,7 +96,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<交易槽开合，泵由人提走>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        770,
+        1170
+      ],
+      "speech_window": [
+        800,
+        1118
+      ],
+      "lens_mm": 48,
+      "position": "外侧小门旁朝雪路看，来客背光背身",
+      "focus": "先看泵提稳，再保持对讲与背影同侧，不抓正脸",
+      "transition": "留在请求菜苗的尾音，切许砚看温室"
     },
     {
       "title": "订单也有分寸",
@@ -87,7 +124,19 @@
         "许砚"
       ],
       "sound": "<对讲按键，工具车移动>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1170,
+        1500
+      ],
+      "speech_window": [
+        1205,
+        1453
+      ],
+      "lens_mm": 56,
+      "position": "院内斜拍许砚，工具车和已验小袋在下沿",
+      "focus": "视线先越过门内方向，再收在许砚回答后的嘴和手",
+      "transition": "硬切当晚餐桌，交货和开饭不在同一时刻"
     }
   ]
 }

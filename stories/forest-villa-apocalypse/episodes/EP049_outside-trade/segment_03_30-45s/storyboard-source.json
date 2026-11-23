@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP049_outside-trade",
   "segment": "segment_03_30-45s",
   "title": "维修能不能换原料",
@@ -45,7 +46,19 @@
         "许砚"
       ],
       "sound": "<旧泵落台轻晃>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        350
+      ],
+      "speech_window": [
+        35,
+        259
+      ],
+      "lens_mm": 49,
+      "position": "工作台前沿齐腰，旧泵近前，许砚在背后一侧",
+      "focus": "看泵脚一晃，视线随许砚检查落向外壳与脸",
+      "transition": "把未检完的泵留台上，切白棠看原料余量"
     },
     {
       "title": "白棠看见另一种可能",
@@ -61,7 +74,19 @@
         "白棠"
       ],
       "sound": "<记录卡与原料盒接触>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        350,
+        730
+      ],
+      "speech_window": [
+        385,
+        680
+      ],
+      "lens_mm": 55,
+      "position": "旧料盒斜对面侧拍，白棠朝同一个画外位置说话",
+      "focus": "盒里留少量原料，当她把眼神移向许砚时交焦到嘴",
+      "transition": "问题落完才能切许砚拿同一对讲询问"
     },
     {
       "title": "先问对方有没有",
@@ -77,7 +102,19 @@
         "许砚"
       ],
       "sound": "<工具放稳，对讲按键>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        730,
+        1100
+      ],
+      "speech_window": [
+        755,
+        1038
+      ],
+      "lens_mm": 58,
+      "position": "许砚工作台一侧固定，对讲压低不挡口型",
+      "focus": "从他放开工具的动作接到开口，旧泵保留在前景",
+      "transition": "住户先从对讲答话，画面接手机照片载入"
     },
     {
       "title": "只有照片，先别当成货",
@@ -91,7 +128,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<手机收到照片一声轻提示>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1100,
+        1500
+      ],
+      "speech_window": [
+        1125,
+        1443
+      ],
+      "lens_mm": 72,
+      "position": "桌面斜上，手机与旧标签并排留缝",
+      "focus": "先见屏内货架包装，再看旁边原包装，旁边不是新货",
+      "transition": "保留手机在同一桌面，下一段先看过才约验实物"
     }
   ]
 }

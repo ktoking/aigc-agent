@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP050_thaw-day",
   "segment": "segment_01_00-15s",
   "title": "旧水泵重新转起来",
@@ -45,7 +46,19 @@
         "许砚"
       ],
       "sound": "<新支架贴合，普通工具固定>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        380
+      ],
+      "speech_window": [
+        30,
+        301
+      ],
+      "lens_mm": 54,
+      "position": "工作台斜前齐腰，泵不挡许砚口型",
+      "focus": "先看新件、旧件与原壳并列，开口提焦到许砚，再落回稳住的泵身",
+      "transition": "省略收工具时间，切原试水台"
     },
     {
       "title": "让结果自己说话",
@@ -59,7 +72,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<泵启动，水流由断续转稳定>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        380,
+        740
+      ],
+      "speech_window": [
+        420,
+        691
+      ],
+      "lens_mm": 52,
+      "position": "防溅台靠桶一侧，回流管和原旧泵在一焦面附近",
+      "focus": "顺气泡出现到出水稳定，停在水流，白棠只从画外说",
+      "transition": "流水延续到许砚继续观察的反打"
     },
     {
       "title": "他还要多看一会",
@@ -75,7 +100,19 @@
         "许砚"
       ],
       "sound": "<稳定运行，不额外报警>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        740,
+        1100
+      ],
+      "speech_window": [
+        775,
+        1046
+      ],
+      "lens_mm": 55,
+      "position": "许砚所在的防溅台侧前方，水流留下一个画角",
+      "focus": "水流稳定后转到许砚擦手、看住泵时的脸",
+      "transition": "以硬切换成温室叶面，不把泵部件带到温室"
     },
     {
       "title": "另一边也等着收获",
@@ -89,7 +126,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<小苗盘移开，温室底噪>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1100,
+        1500
+      ],
+      "speech_window": [
+        1135,
+        1453
+      ],
+      "lens_mm": 64,
+      "position": "温室架前齐盘面，较大的菜盘居中，幼苗在另一侧",
+      "focus": "视线从并列两盘收在白棠挑中的近熟一盘，她手停在盘边",
+      "transition": "下一段从这盘接异能，邻盘尺寸不变"
     }
   ]
 }

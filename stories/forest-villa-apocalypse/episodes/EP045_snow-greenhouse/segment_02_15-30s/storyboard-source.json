@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP045_snow-greenhouse",
   "segment": "segment_02_15-30s",
   "title": "把两盘苗救回来",
@@ -41,7 +42,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<旧膜被风扯动，少量雪落>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        340
+      ],
+      "speech_window": [
+        35,
+        283
+      ],
+      "lens_mm": 55,
+      "position": "温室内侧斜拍破口下方，膜边在上，两盘苗在下",
+      "focus": "循下落的几粒雪把焦点从膜边交到被打湿的叶片",
+      "transition": "雪落同一盘，接白棠伸手挡一下"
     },
     {
       "title": "先搬走能活的",
@@ -57,7 +70,19 @@
         "白棠"
       ],
       "sound": "<盘底接触临时台>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        340,
+        720
+      ],
+      "speech_window": [
+        380,
+        581
+      ],
+      "lens_mm": 40,
+      "position": "温室工作侧横跟，门口始终在画面左侧",
+      "focus": "看白棠托稳盘底，再提到她看出路的脸",
+      "transition": "第一盘离架后切临时夹膜，第二盘搬运在之后省略"
     },
     {
       "title": "只靠夹子撑一夜",
@@ -73,7 +98,19 @@
         "许砚"
       ],
       "sound": "<普通夹子扣合，拍膜声变小>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        720,
+        1080
+      ],
+      "speech_window": [
+        750,
+        998
+      ],
+      "lens_mm": 65,
+      "position": "原立柱内侧，许砚肩旁斜拍，夹点留在手边",
+      "focus": "夹子合上时焦点落在手，松手后抬至许砚侧脸",
+      "transition": "仍见旧裂边；切到两盘已搬进屋，不让膜变新"
     },
     {
       "title": "两盘苗先过夜",
@@ -89,7 +126,19 @@
         "白棠"
       ],
       "sound": "<坏叶落台，覆盖布轻响>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1080,
+        1500
+      ],
+      "speech_window": [
+        1115,
+        1386
+      ],
+      "lens_mm": 52,
+      "position": "工作台斜前方，暖灯侧照白棠，两盘分开排",
+      "focus": "坏叶在前景先清楚，白棠停手抬眼时落到她",
+      "transition": "保留两个苗盘，下一段以夜色和同一台面接零点"
     }
   ]
 }

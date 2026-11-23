@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP045_snow-greenhouse",
   "segment": "segment_03_30-45s",
   "title": "这次选保温膜",
@@ -43,7 +44,19 @@
         "许砚"
       ],
       "sound": "<手机一次短提示，工作灯底噪>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        360
+      ],
+      "speech_window": [
+        30,
+        290
+      ],
+      "lens_mm": 45,
+      "position": "台面斜前齐胸，手机低于许砚脸，窗外保留夜色",
+      "focus": "三种图形依次可辨，随后落到许砚扫过选项的视线",
+      "transition": "按他停下的目光切到白棠与苗"
     },
     {
       "title": "她想要的是明天",
@@ -59,21 +72,45 @@
         "白棠"
       ],
       "sound": "<覆盖布与苗盘轻碰>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        360,
+        720
+      ],
+      "speech_window": [
+        385,
+        680
+      ],
+      "lens_mm": 58,
+      "position": "桌对面保持同侧反打，白棠脸和苗盘前后分层",
+      "focus": "由她压住覆盖角的指尖传到抬起来的眼睛",
+      "transition": "她视线回到手机，切选卡手指"
     },
     {
       "title": "只拿这一卷",
       "size": "许砚手指与手机近景",
       "composition": "手指触碰膜卷卡，另两张卡按原位置变暗。",
       "camera": "固定，选中后不再切换选项。",
-      "action": "许砚点选保温膜，便携灯与未知同时退去。投影先在空台面勾出卷材轮廓，再逐渐凝成一卷有包装束带的实物，落台一声轻响。",
+      "action": "指尖点选保温膜，另两张先变暗并退去。空台上出现卷材的投影轮廓，硬切到同一轮廓凝成实物并落台；留一声落台重音，不追加其他物资。",
       "speaker": "许砚",
       "dialogue": "就它了。明早一起把棚补上。",
       "delivery": "选择干脆，实体化时用现场画外音承接。",
       "mode": "voiceover",
       "faces": [],
       "sound": "<一次选择提示，卷材落台轻响>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        720,
+        1090
+      ],
+      "speech_window": [
+        755,
+        1026
+      ],
+      "lens_mm": 72,
+      "position": "手机侧上方近景，左边手机、右边是空台面",
+      "focus": "点击留在原卡焦面，未选光退去才把焦点移到成形卷材",
+      "transition": "卷材落台一声轻响，接白棠摸上束带"
     },
     {
       "title": "能补多少先看多少",
@@ -87,7 +124,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<束带解开，薄膜轻摩擦>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1090,
+        1500
+      ],
+      "speech_window": [
+        1115,
+        1410
+      ],
+      "lens_mm": 62,
+      "position": "从桌边略低于卷轴中心侧拍，切口方向可见",
+      "focus": "只随膜边打开的一小段移动，收回后停在完整卷材",
+      "transition": "夜间声收掉，以清晨光硬切同一卷膜到棚边"
     }
   ]
 }

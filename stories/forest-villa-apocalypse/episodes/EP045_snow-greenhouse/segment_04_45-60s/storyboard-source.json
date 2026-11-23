@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP045_snow-greenhouse",
   "segment": "segment_04_45-60s",
   "title": "把漏风那面补好",
@@ -43,7 +44,19 @@
         "许砚"
       ],
       "sound": "<清晨风声与卷材展开>",
-      "source_shot": 5
+      "source_shot": 5,
+      "time": [
+        0,
+        380
+      ],
+      "speech_window": [
+        35,
+        283
+      ],
+      "lens_mm": 38,
+      "position": "温室内工作侧齐腰横拍，两人和原接缝一起入画",
+      "focus": "先焦同一膜边，两人各扶一端时以中等景深保留受力",
+      "transition": "沿膜面水平延伸方向切远端扣件"
     },
     {
       "title": "她扣住最后一处",
@@ -59,7 +72,19 @@
         "白棠"
       ],
       "sound": "<扣件合拢，话后松手>",
-      "source_shot": 6
+      "source_shot": 6,
+      "time": [
+        380,
+        710
+      ],
+      "speech_window": [
+        425,
+        649
+      ],
+      "lens_mm": 65,
+      "position": "远端立柱缝旁斜拍，白棠手下一扣在脸下方",
+      "focus": "先见指尖扣紧，扣住后提焦到她抬眼和嘴部",
+      "transition": "对白末尾接许砚指节放松，不重扣"
     },
     {
       "title": "这次真的没有风",
@@ -75,7 +100,19 @@
         "许砚"
       ],
       "sound": "<棚外风声仍在，棚内不拍膜>",
-      "source_shot": 7
+      "source_shot": 7,
+      "time": [
+        710,
+        1090
+      ],
+      "speech_window": [
+        765,
+        1036
+      ],
+      "lens_mm": 54,
+      "position": "回立柱近端平视，许砚脸和手背在同侧",
+      "focus": "先读接缝不再动，手退开后交给他的脸",
+      "transition": "他望向入口，下一镜苗盘沿同一入口回来"
     },
     {
       "title": "把自己的菜放回去",
@@ -91,7 +128,19 @@
         "白棠"
       ],
       "sound": "<苗盘落架，原灌溉点轻滴水>",
-      "source_shot": 8
+      "source_shot": 8,
+      "time": [
+        1090,
+        1500
+      ],
+      "speech_window": [
+        1125,
+        1443
+      ],
+      "lens_mm": 43,
+      "position": "从原苗架一端侧拍入口，工作车和余膜不过焦抢画",
+      "focus": "跟苗盘落位，白棠说话时让脸与最近一簇绿叶同在焦内",
+      "transition": "收在剩余膜卷与放稳的苗盘，不继续催长"
     }
   ]
 }

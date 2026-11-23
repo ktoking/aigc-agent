@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP049_outside-trade",
   "segment": "segment_01_00-15s",
   "title": "这一筐菜换一包盐",
@@ -45,7 +46,19 @@
         "白棠"
       ],
       "sound": "<食品箱轻响，蛋落软垫>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        380
+      ],
+      "speech_window": [
+        25,
+        320
+      ],
+      "lens_mm": 47,
+      "position": "备货台尽头斜拍白棠，自用碗和交换筐分居两侧",
+      "focus": "先看留下自用，再跟手把有限余量放进交换筐",
+      "transition": "从分好菜蛋切门外举起的盐包"
     },
     {
       "title": "对方把盐拿近",
@@ -59,7 +72,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<盐包接触外侧台面>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        380,
+        700
+      ],
+      "speech_window": [
+        420,
+        621
+      ],
+      "lens_mm": 68,
+      "position": "外门小槽上沿近拍，来客只留厚袖与手",
+      "focus": "封口压纹在盐包落稳时清楚，不追到来客的脸",
+      "transition": "由包的静止接门内许砚看屏幕"
     },
     {
       "title": "双方说清楚一次",
@@ -75,7 +100,19 @@
         "许砚"
       ],
       "sound": "<对讲按键，内侧箱落盘>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        700,
+        1100
+      ],
+      "speech_window": [
+        735,
+        1018
+      ],
+      "lens_mm": 56,
+      "position": "内侧对讲处齐胸斜拍，托盘在画下，盐只出现在屏上",
+      "focus": "先看盐已经放好，许砚指尖按键时转到脸",
+      "transition": "报价落完才响起来客应答；真人空间只用硬切"
     },
     {
       "title": "来客答应了",
@@ -89,7 +126,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<门外靴底退半步>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1100,
+        1500
+      ],
+      "speech_window": [
+        1135,
+        1430
+      ],
+      "lens_mm": 52,
+      "position": "仍在门外小槽边，来客脸藏在机位与衣领外",
+      "focus": "对着肩背退半步和停住的托盘，不向脸部找焦",
+      "transition": "承接已谈妥、尚未交接，下一段从箱子起步"
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "revision": "2026-11-12-four-15s",
+  "director_revision": "2026-11-23-cinematic-director-v1",
   "episode": "EP044_afterglow",
   "segment": "segment_03_30-45s",
   "title": "她不再听他的命令",
@@ -43,7 +44,19 @@
         "冬狼"
       ],
       "sound": "<门柱对讲轻电噪，踩雪声停住>",
-      "source_shot": 1
+      "source_shot": 1,
+      "time": [
+        0,
+        350
+      ],
+      "speech_window": [
+        40,
+        241
+      ],
+      "lens_mm": 55,
+      "position": "门外沿墙侧平视，门柱占一侧，冬狼从另一侧靠近",
+      "focus": "先见他的目光扫过阳台；开口前落回脸和门柱对讲",
+      "transition": "声尾经对讲传入院内，再硬切叶凝霜"
     },
     {
       "title": "她没有再低头",
@@ -59,7 +72,19 @@
         "叶凝霜"
       ],
       "sound": "<衣袖碰门柱，近处呼吸>",
-      "source_shot": 2
+      "source_shot": 2,
+      "time": [
+        350,
+        770
+      ],
+      "speech_window": [
+        395,
+        666
+      ],
+      "lens_mm": 75,
+      "position": "门内齐眼三分之四正面，柱面在边缘",
+      "focus": "发梢虚化，稳住她抬起来的眼睛，嘴部仍在焦面",
+      "transition": "她不移脚，切外侧靴底在雪面一顿"
     },
     {
       "title": "他的脚停住了",
@@ -73,7 +98,19 @@
       "mode": "voiceover",
       "faces": [],
       "sound": "<雪面冻结与靴底受阻>",
-      "source_shot": 3
+      "source_shot": 3,
+      "time": [
+        770,
+        1100
+      ],
+      "speech_window": [
+        805,
+        1006
+      ],
+      "lens_mm": 75,
+      "position": "贴雪地侧拍，只取靴子、雪和门槛外缘",
+      "focus": "先对着靴边碎雪，失去平衡时对上已经出现的冰边",
+      "transition": "声音仍来自门外，切回院内脸与手"
     },
     {
       "title": "她给出回答",
@@ -89,7 +126,19 @@
         "叶凝霜"
       ],
       "sound": "<细碎结冰由近及远>",
-      "source_shot": 4
+      "source_shot": 4,
+      "time": [
+        1100,
+        1500
+      ],
+      "speech_window": [
+        1135,
+        1347
+      ],
+      "lens_mm": 60,
+      "position": "仍在院内同侧，门柱在她手边，不翻轴",
+      "focus": "手指收拢前看她的眼睛，最后短拉焦至贴柱指尖",
+      "transition": "下一段冰层接同一靴位继续上升，不重做锁脚"
     }
   ]
 }

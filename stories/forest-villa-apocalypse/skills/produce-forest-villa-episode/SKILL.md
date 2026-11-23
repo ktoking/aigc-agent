@@ -19,6 +19,8 @@ Read in this order before editing:
 
 Read [references/episode-contract.md](references/episode-contract.md) before creating episode files. Read [references/director-prompt-and-assets.md](references/director-prompt-and-assets.md) before writing any segment prompt. Read [references/asset-reference-map.md](references/asset-reference-map.md) before selecting or generating images.
 
+For the EP044–EP050 cinematic director edition, the story's `docs/ep044-050-cinematic-director-review.md` controls the shot fields and timing. Use the four-shot timeline with planning timecodes, full-frame lens, blocking, focus, speech windows and cut cues. Preserve the existing nine-item inclusive digital-human reference order and no-first/last-frame rule; use the story builder's `--check` for this edition instead of the legacy format validator below. These are local production instructions, not permission to submit video.
+
 ## Build The Episode
 
 1. First write the plain-language episode chain: current state -> new practical problem -> action -> useful result -> cost or next risk. Resolve logic before splitting shots.
