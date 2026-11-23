@@ -1,0 +1,16 @@
+{
+  "provider_speed": 1.0,
+  "voice_id": "Chinese_worker_male",
+  "postprocess": "ffmpeg atempo",
+  "tempo_multiplier": 1.3,
+  "preserve_pitch": true,
+  "user_reason": "当前感觉慢，要求更快；原来实际是1.0，并非1.2",
+  "text_changes": 0,
+  "source_audio_retained": true,
+  "status": "PASS_10_EPISODE_AUDIO",
+  "active_variant": "speed1p3",
+  "active_timeline_pattern": "episodes/EPxxx/timeline-speed1p3.json",
+  "active_image_queue": "production/user-script-v2/image-queue-speed1p3.json",
+  "audio_summary": "production/user-script-v2/audio-master-summary-speed1p3.json",
+  "renderer_command": "render_episode.py EPxxx --variant speed1p3"
+}

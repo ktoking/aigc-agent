@@ -1,0 +1,706 @@
+{
+  "episode": "EP016",
+  "version": "paradise-v1",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 1899,
+  "duration_seconds": 63.3,
+  "cues": [
+    {
+      "cue_id": "EP016-C01",
+      "episode": "EP016",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "群里最后一段语音，是有人拧着干涩的水龙头骂人。紧跟着，一串消息挤上来，问我借水，借药，借一个晚上。我把手机扣在桌上。",
+      "tts_text": "群里最后一段语音，是有人拧着干涩的水龙头骂人。紧跟着，一串消息挤上来，问我借水，借药，借一个晚上。我把手机扣在桌上。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "events": [
+        "陈屿坐在餐桌边将收到密集消息的手机扣下，屏幕无可读字",
+        "餐桌旁整齐饮水库存与药柜状态完好，外门方向关闭"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C01.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C01.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C01.wav",
+      "raw_duration_seconds": 12.4,
+      "actual_duration_seconds": 9.546958,
+      "audio_frames_30fps": 287,
+      "audio_sha256": "bd61cc5c7fa7c1fec31bda8b435ee41b5dd0face185be604b9b10178e3f4698f",
+      "human_listening": "NOT_RUN",
+      "start_frame": 0,
+      "end_frame": 287,
+      "external_gap_before_frames": 0,
+      "display_text": "群里最后一段语音 是有人拧着干涩的水龙头骂人 紧跟着 一串消息挤上来 问我借水 借药 借一个晚上 我把手机扣在桌上"
+    },
+    {
+      "cue_id": "EP016-C02",
+      "episode": "EP016",
+      "speaker": "XU",
+      "speaker_name": "许知意",
+      "voice_id": "female-chengshu",
+      "pitch": 0,
+      "source_text": "该换药了。你今天只用了这一只手？",
+      "tts_text": "该换药了。你今天只用了这一只手？",
+      "scene": "HOME2",
+      "character_ids": [
+        "XU",
+        "CHEN"
+      ],
+      "events": [
+        "许知意坐近陈屿检查他手背的纱布边缘"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C02.txt",
+      "status": "PASS",
+      "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C02.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C02.wav",
+      "raw_duration_seconds": 3.7,
+      "actual_duration_seconds": 2.850625,
+      "audio_frames_30fps": 86,
+      "audio_sha256": "d247cfbe2d630fedfecfcd7161a35c63f365f2fc3c5a64e5be8271340830b6b6",
+      "human_listening": "NOT_RUN",
+      "start_frame": 290,
+      "end_frame": 376,
+      "external_gap_before_frames": 3,
+      "display_text": "该换药了 你今天只用了这一只手"
+    },
+    {
+      "cue_id": "EP016-C03",
+      "episode": "EP016",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "许知意拆开纱布，夏凛从厨房端来牛肉和蒸蛋。乔星野刚把外灯改成分路，便把空出来的一小块桌面占了，伏着画图。她画了十分钟，笔尖在纸上拖出一道长线。",
+      "tts_text": "许知意拆开纱布，夏凛从厨房端来牛肉和蒸蛋。乔星野刚把外灯改成分路，便把空出来的一小块桌面占了，伏着画图。她画了十分钟，笔尖在纸上拖出一道长线。",
+      "scene": "HOME2",
+      "character_ids": [
+        "XU",
+        "XIA",
+        "QIAO"
+      ],
+      "events": [
+        "许知意准备换药，夏凛把牛肉与蒸蛋端上桌，乔星野坐在桌角画图",
+        "乔星野画图时困得低头，笔尖在纸上留下长线"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C03.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C03.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C03.wav",
+      "raw_duration_seconds": 15.4,
+      "actual_duration_seconds": 11.839563,
+      "audio_frames_30fps": 356,
+      "audio_sha256": "0379fd3a5beb777d70cf955c96f8cf04ac9cf0d193157cabfb7ed7174e840fb9",
+      "human_listening": "NOT_RUN",
+      "start_frame": 379,
+      "end_frame": 735,
+      "external_gap_before_frames": 3,
+      "display_text": "许知意拆开纱布 夏凛从厨房端来牛肉和蒸蛋 乔星野刚把外灯改成分路 便把空出来的一小块桌面占了 伏着画图 她画了十分钟 笔尖在纸上拖出一道长线"
+    },
+    {
+      "cue_id": "EP016-C04",
+      "episode": "EP016",
+      "speaker": "QIAO",
+      "speaker_name": "乔星野",
+      "voice_id": "female-tianmei",
+      "pitch": 0,
+      "source_text": "没睡。这个地方……还差一根线。",
+      "tts_text": "没睡。这个地方……还差一根线。",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO"
+      ],
+      "events": [
+        "乔星野撑着脸抬头，手里仍捏着笔，带轻微傲娇困意"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C04.txt",
+      "status": "PASS",
+      "direction": "成年元气甜声，轻傲娇，谈技术利落；不模仿幼童，不尖叫卖萌",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C04.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C04.wav",
+      "raw_duration_seconds": 3.622344,
+      "actual_duration_seconds": 2.780063,
+      "audio_frames_30fps": 84,
+      "audio_sha256": "ac9da0d8e413d675edac60d866be5d9c0e567e4c125bd1be7108617b968a9ba9",
+      "human_listening": "NOT_RUN",
+      "start_frame": 738,
+      "end_frame": 822,
+      "external_gap_before_frames": 3,
+      "display_text": "没睡 这个地方 还差一根线"
+    },
+    {
+      "cue_id": "EP016-C05",
+      "episode": "EP016",
+      "speaker": "CHEN",
+      "speaker_name": "陈屿对白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "图留着。去床上补觉。",
+      "tts_text": "图留着。去床上补觉。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "QIAO"
+      ],
+      "events": [
+        "陈屿把笔从乔星野手边轻轻收起，示意卧室方向"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C05.txt",
+      "status": "PASS",
+      "direction": "少而直接，判断和命令落稳",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C05.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C05.wav",
+      "raw_duration_seconds": 2.380063,
+      "actual_duration_seconds": 1.806854,
+      "audio_frames_30fps": 55,
+      "audio_sha256": "5a29ee693c69f0abe6bd8c53d95d184561caaf5bddad2ab4888c25809e28696a",
+      "human_listening": "NOT_RUN",
+      "start_frame": 825,
+      "end_frame": 880,
+      "external_gap_before_frames": 3,
+      "display_text": "图留着 去床上补觉"
+    },
+    {
+      "cue_id": "EP016-C06",
+      "episode": "EP016",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "我把她画好的那半张图夹平，又给夏凛留了满满一碗饭。许知意换好药，握住我的手腕，让我别急着起身。她的手已经不像刚进门时那么凉。",
+      "tts_text": "我把她画好的那半张图夹平，又给夏凛留了满满一碗饭。许知意换好药，握住我的手腕，让我别急着起身。她的手已经不像刚进门时那么凉。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XU",
+        "XIA"
+      ],
+      "events": [
+        "陈屿将半张接线图放入平整文件夹，夏凛面前有一碗留好的饭",
+        "许知意轻握陈屿手腕检查伤口恢复，二人神态自然"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C06.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C06.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C06.wav",
+      "raw_duration_seconds": 13.7,
+      "actual_duration_seconds": 10.551625,
+      "audio_frames_30fps": 317,
+      "audio_sha256": "7d328c70ea6172e22ba4bd3c2fb9c40b8406687237ef5c16ff253164bf6925fd",
+      "human_listening": "NOT_RUN",
+      "start_frame": 883,
+      "end_frame": 1200,
+      "external_gap_before_frames": 3,
+      "display_text": "我把她画好的那半张图夹平 又给夏凛留了满满一碗饭 许知意换好药 握住我的手腕 让我别急着起身 她的手已经不像刚进门时那么凉"
+    },
+    {
+      "cue_id": "EP016-C07",
+      "episode": "EP016",
+      "speaker": "XU",
+      "speaker_name": "许知意",
+      "voice_id": "female-chengshu",
+      "pitch": 0,
+      "source_text": "好了。今天不用再包那么紧。",
+      "tts_text": "好了。今天不用再包那么紧。",
+      "scene": "HOME2",
+      "character_ids": [
+        "XU",
+        "CHEN"
+      ],
+      "events": [
+        "许知意给陈屿贴上小块干净敷料，收起剪刀"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C07.txt",
+      "status": "PASS",
+      "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C07.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C07.wav",
+      "raw_duration_seconds": 3.1,
+      "actual_duration_seconds": 2.383938,
+      "audio_frames_30fps": 72,
+      "audio_sha256": "f4d250ba2d8293caaec650a7aee0e1b97fc267f28e338ba063e84006ed98c9eb",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1203,
+      "end_frame": 1275,
+      "external_gap_before_frames": 3,
+      "display_text": "好了 今天不用再包那么紧"
+    },
+    {
+      "cue_id": "EP016-C08",
+      "episode": "EP016",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "下午，两间卧室先后安静下来。安心值到了四百五十五。奖励页在我手里展开：耕地能继续扩，花园、温泉浴池、诊疗室都还暗着。最下方写着，住客持续安居，可领取后续扩展。",
+      "tts_text": "下午，两间卧室先后安静下来。安心值到了四百五十五。奖励页在我手里展开：耕地能继续扩，花园、温泉浴池、诊疗室都还暗着。最下方写着，住客持续安居，可领取后续扩展。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "events": [
+        "陈屿独自坐在餐桌边看手机，身后卧室门关着，桌上饭菜已收好",
+        "陈屿手中手机显示抽象房间模块与土地缩略图，无可读文字"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C08.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C08.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C08.wav",
+      "raw_duration_seconds": 18.073563,
+      "actual_duration_seconds": 13.868563,
+      "audio_frames_30fps": 417,
+      "audio_sha256": "87f950b694ea774ba3b8477b51aa2faa718ad7a6cd489c769910989e7596f6c9",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1278,
+      "end_frame": 1695,
+      "external_gap_before_frames": 3,
+      "display_text": "下午 两间卧室先后安静下来 安心值到了四百五十五 奖励页在我手里展开 耕地能继续扩 花园 温泉浴池 诊疗室都还暗着 最下方写着 住客持续安居 可领取后续扩展"
+    },
+    {
+      "cue_id": "EP016-C09",
+      "episode": "EP016",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "我把刚烧好的水留在保温壶里，关掉走廊那盏顶灯。门外有人又喊了一声，屋里的呼吸没有被惊动。",
+      "tts_text": "我把刚烧好的水留在保温壶里，关掉走廊那盏顶灯。门外有人又喊了一声，屋里的呼吸没有被惊动。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "events": [
+        "陈屿把保温壶放好，调暗卧室走廊照明",
+        "安静的暖色走廊，卧室门关好，小夜灯低亮"
+      ],
+      "text_path": "episodes/EP016/text-cues/EP016-C09.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP016/audio/EP016-C09.mp3",
+      "audio_path": "episodes/EP016/audio-speed1p3/EP016-C09.wav",
+      "raw_duration_seconds": 8.695875,
+      "actual_duration_seconds": 6.671333,
+      "audio_frames_30fps": 201,
+      "audio_sha256": "bcea4ac449a735c1d0fbfa63997f21ec5d642ededd9172d907f93f25242bb0d3",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1698,
+      "end_frame": 1899,
+      "external_gap_before_frames": 3,
+      "display_text": "我把刚烧好的水留在保温壶里 关掉走廊那盏顶灯 门外有人又喊了一声 屋里的呼吸没有被惊动"
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP016-S001",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C01",
+      "start_frame": 0,
+      "end_frame": 146,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿坐在餐桌边将收到密集消息的手机扣下，屏幕无可读字",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S001.txt",
+      "image_path": "episodes/EP016/frames/EP016-S001.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "1ae737997adb734134cd24bc1356a023e0dc9225278ca057d737db0b3d430f82",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S001.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c876f8a8-bf91-4bc8-91e9-a63a3ee9d1ec.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S002",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C01",
+      "start_frame": 146,
+      "end_frame": 292,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "餐桌旁整齐饮水库存与药柜状态完好，外门方向关闭",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S002.txt",
+      "image_path": "episodes/EP016/frames/EP016-S002.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "8f85b89f90652265a40824175fae00cb4ba7ad92b56d89b285475143446ed642",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S002.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3eb6a944-c872-4a8d-b747-00e7ab0dd268.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S003",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C02",
+      "start_frame": 292,
+      "end_frame": 438,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "许知意坐近陈屿检查他手背的纱布边缘",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XU"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S003.txt",
+      "image_path": "episodes/EP016/frames/EP016-S003.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "3d81f642f75e1e3bae693e947e79db913d8103663311c42580effb4f0c2da696",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S003.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e1be3805-8f35-426e-9e7f-6a0ffb17c832.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S004",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C03",
+      "start_frame": 438,
+      "end_frame": 584,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "许知意准备换药，夏凛把牛肉与蒸蛋端上桌，乔星野坐在桌角画图",
+      "scene": "HOME2",
+      "character_ids": [
+        "XIA",
+        "XU",
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S004.txt",
+      "image_path": "episodes/EP016/frames/EP016-S004.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "309524a1e63754222cbfbfbe983a1518124a81dd43c0020555186f8408c5f169",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S004.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ee4eb6e6-d3e7-4fe9-a4ef-e00e21e3e819.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S005",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C03",
+      "start_frame": 584,
+      "end_frame": 730,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "乔星野画图时困得低头，笔尖在纸上留下长线",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S005.txt",
+      "image_path": "episodes/EP016/frames/EP016-S005.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "0e97a1a1ed6dad2363576fda9cdb7efec8cf5ffa267ecffe9e8e406ddb7b9c61",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S005.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0db0749d-955d-4763-9040-4bea011a2e22.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S006",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C04",
+      "start_frame": 730,
+      "end_frame": 876,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "乔星野撑着脸抬头，手里仍捏着笔，带轻微傲娇困意",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S006.txt",
+      "image_path": "episodes/EP016/frames/EP016-S006.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "d327002105eabe068e56886692430b516bccffe0c6c0ba5c8546b42c991c7fd7",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S006.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a905a003-2c00-41ba-ac78-b8ddd28c6c8f.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S007",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C06",
+      "start_frame": 876,
+      "end_frame": 1022,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿将半张接线图放入平整文件夹，夏凛面前有一碗留好的饭",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S007.txt",
+      "image_path": "episodes/EP016/frames/EP016-S007.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "b9ed689df3e34312288acc87726a4332df741dd84b2539de730966e5c04a218b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S007.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-96207d44-0a83-4795-b64c-e0e4e6ce83ac.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S008",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C06",
+      "start_frame": 1022,
+      "end_frame": 1168,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "许知意轻握陈屿手腕检查伤口恢复，二人神态自然",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XU"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S008.txt",
+      "image_path": "episodes/EP016/frames/EP016-S008.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "98f61bd488303dfb6377a94e01788fef9b4e74cc88c7bcdad0d24ef21adab3de",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S008.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-66887a94-a963-4a24-9d04-4a039c49f6c2.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S009",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C07",
+      "start_frame": 1168,
+      "end_frame": 1314,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "许知意给陈屿贴上小块干净敷料，收起剪刀",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XU"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S009.txt",
+      "image_path": "episodes/EP016/frames/EP016-S009.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "b910dc434962817356d964c232665832aafdf749cff39a5cb2e3a91cd976f3b6",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S009.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f98c5f4f-b11f-4918-9119-620247720503.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S010",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C08",
+      "start_frame": 1314,
+      "end_frame": 1460,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿独自坐在餐桌边看手机，身后卧室门关着，桌上饭菜已收好",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S010.txt",
+      "image_path": "episodes/EP016/frames/EP016-S010.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "ccc128003a5f5e12bff976ca881a9d178a9cf3758196040c5e37af945e7ade10",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S010.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e2e1109b-49db-46aa-887f-fc1129bd89ac.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S011",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C08",
+      "start_frame": 1460,
+      "end_frame": 1606,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿手中手机显示抽象房间模块与土地缩略图，无可读文字",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S011.txt",
+      "image_path": "episodes/EP016/frames/EP016-S011.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "63ed294f6bc120163398359bedbf583955030c33acea0630abd1f9ae25d2925f",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S011.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5fac5f0c-881b-42cb-8229-a6a51247842d.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S012",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C08",
+      "start_frame": 1606,
+      "end_frame": 1752,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿将手机上的未解锁房间规划放在餐桌边，回头确认两扇卧室门已经关好，小夜灯亮着",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S012.txt",
+      "image_path": "episodes/EP016/frames/EP016-S012.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "f66be995a16fe540904993a3566dbbd50092a14e3ad153ac0985f4a77b6ca733",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S012.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-672d1c5b-5eb7-4464-aaeb-2a710ecdb05c.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP016-S013",
+      "episode": "EP016",
+      "anchor_cue": "EP016-C09",
+      "start_frame": 1752,
+      "end_frame": 1899,
+      "display_seconds": 4.9,
+      "unique_event": "安静的暖色走廊，卧室门关好，小夜灯低亮",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP016/image-prompts/EP016-S013.txt",
+      "image_path": "episodes/EP016/frames/EP016-S013.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "b95a45a6c421f5dbe0393a9aec71fe1dd4a5a7897fa50c937d138194433dfd52",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP016-S013.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-24bc538f-fddc-4098-86c2-1094bfe80dd3.png",
+      "take": null
+    }
+  ],
+  "audio_status": "PASS_GENERATED_DECODED",
+  "post_atempo": 1.3,
+  "human_full_listening": "NOT_RUN",
+  "timing_note": "每cue最终1.3倍WAV实测；镜头按约5秒的整数帧格划分，角色对白可跨同一镜头；字幕与声轨读取同一cue边界。"
+}

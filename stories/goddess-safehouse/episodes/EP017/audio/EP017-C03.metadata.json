@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e445a8b7287664b31c62f8e5282fc",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我展开旧地图。到物流园，三个路口，一段地下通道。即使摸到仓库，还要装车、掉头，再从同一条路回来。我把钥匙放回抽屉，关上了地图。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 13392,
+    "audio_sample_rate": 32000,
+    "audio_size": 215988,
+    "bitrate": 128000,
+    "word_count": 63,
+    "invisible_character_ratio": 0,
+    "usage_characters": 116,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP017/audio/EP017-C03.mp3",
+  "bytes": 215988,
+  "sha256": "3d289770fa71781df585ad8797d36a568b2e4332a5ff969eccba5a5933054f7f",
+  "subtitle_files_generated": false
+}

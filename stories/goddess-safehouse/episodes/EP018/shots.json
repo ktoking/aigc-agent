@@ -1,0 +1,352 @@
+[
+  {
+    "shot_id": "EP018-S001",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C01",
+    "start_frame": 0,
+    "end_frame": 149,
+    "display_seconds": 4.966666666666667,
+    "unique_event": "陈屿在旧客厅关掉对讲设备，夏凛肩上背着尚未外出的工具包",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S001.txt",
+    "image_path": "episodes/EP018/frames/EP018-S001.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "0a16c560eb509f123386d01e68f5de012efaf772ec236f4861b254cfb3afa53d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S001.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b5f486af-0096-4867-9ea1-f473078cb436.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S002",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C01",
+    "start_frame": 149,
+    "end_frame": 299,
+    "display_seconds": 5.0,
+    "unique_event": "陈屿接过夏凛肩上的包，夏凛没有碰门锁",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S002.txt",
+    "image_path": "episodes/EP018/frames/EP018-S002.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "179254ec50631d3d77ce8086de7c15093068fcf69e1085edd83edb1034f29aca",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S002.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-60fb2db3-7061-489f-9505-1822240bd1a6.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S003",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C03",
+    "start_frame": 299,
+    "end_frame": 449,
+    "display_seconds": 5.0,
+    "unique_event": "许知意在卧室铺平干净床单",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S003.txt",
+    "image_path": "episodes/EP018/frames/EP018-S003.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "a4e4349991a001f56c580f3cb55d0a3ee8729d22d256968b996c6aad06dad58f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S003.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-05f55100-10fc-4e43-8348-760892a25f2d.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S004",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C03",
+    "start_frame": 449,
+    "end_frame": 599,
+    "display_seconds": 5.0,
+    "unique_event": "乔星野将完成接线的控制器交给陈屿，配电箱整齐合盖",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S004.txt",
+    "image_path": "episodes/EP018/frames/EP018-S004.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "285418ba43eda9c2ab2e4cda4cf26007505e54f62cfa356706852dc2e04913ec",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S004.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a9f34322-f446-4e56-9391-a9a8139bdf56.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S005",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C04",
+    "start_frame": 599,
+    "end_frame": 749,
+    "display_seconds": 5.0,
+    "unique_event": "乔星野指向装在旧客厅内侧的观察屏，屏中只有门廊二维影像",
+    "scene": "旧客厅",
+    "character_ids": [
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S005.txt",
+    "image_path": "episodes/EP018/frames/EP018-S005.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "809e9fd679b5b9bd0f7a0e74b95de374f34b77e148d2355034206de657f4de75",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S005.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-cc422660-8567-45a8-82d5-580720e8ea09.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S006",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C05",
+    "start_frame": 749,
+    "end_frame": 899,
+    "display_seconds": 5.0,
+    "unique_event": "夏凛在自己卧室门口摘下脖子上的旧狗牌",
+    "scene": "卧室XIA",
+    "character_ids": [
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S006.txt",
+    "image_path": "episodes/EP018/frames/EP018-S006.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "dd2972284cb75be618affbbe5f6b2b4d9f9abee815a8d7b7be654e475dc5a586",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S006.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-99a38bf2-1c9a-4994-85ac-ca95f2136c6b.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S007",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C05",
+    "start_frame": 899,
+    "end_frame": 1049,
+    "display_seconds": 5.0,
+    "unique_event": "陈屿掌心接住夏凛的旧金属狗牌，夏凛手指刚松开",
+    "scene": "卧室XIA",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S007.txt",
+    "image_path": "episodes/EP018/frames/EP018-S007.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "8e1b7f711e21ff5047b022f98930425e2ac5e42ad6f1edcb215fada5a875acac",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S007.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-243bf781-baad-419f-9058-7160c5f67fc5.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S008",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C07",
+    "start_frame": 1049,
+    "end_frame": 1199,
+    "display_seconds": 5.0,
+    "unique_event": "陈屿将狗牌放进夏凛床头抽屉，旁边留半杯水",
+    "scene": "卧室XIA",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S008.txt",
+    "image_path": "episodes/EP018/frames/EP018-S008.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "3a6113ab37f7f6785230f6c5999660f10a327fcd5111f0a6114fb026b678af8b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S008.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4c83afbc-c6fb-4ec2-9fde-e466243a3397.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S009",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C07",
+    "start_frame": 1199,
+    "end_frame": 1349,
+    "display_seconds": 5.0,
+    "unique_event": "夏凛躺在独立卧室的床上，手放在空枕边，短棍不在床上",
+    "scene": "卧室XIA",
+    "character_ids": [
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S009.txt",
+    "image_path": "episodes/EP018/frames/EP018-S009.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "b00aa30f566c0df88abb12b37439567f3625097a0e6d5034565186c228e3ec88",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S009.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d62b8e38-9a70-47a8-ba4a-6257eeae4f9a.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S010",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C08",
+    "start_frame": 1349,
+    "end_frame": 1499,
+    "display_seconds": 5.0,
+    "unique_event": "许知意在卧室门外轻声提醒陈屿，手里拿整理好的医疗记录本",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S010.txt",
+    "image_path": "episodes/EP018/frames/EP018-S010.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "642db296a90b6914d25dc15c0d29d8c54c530a066a9d1acaebe5e3bb02f94c06",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S010.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7dcabde4-5254-4e92-8085-aee3e98512e7.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S011",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C09",
+    "start_frame": 1499,
+    "end_frame": 1649,
+    "display_seconds": 5.0,
+    "unique_event": "陈屿轻关夏凛卧室门，转向客厅里的扩建金属箱",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S011.txt",
+    "image_path": "episodes/EP018/frames/EP018-S011.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "ebdf477cc0d6df5a27e9e8efd3a5bf4b8abf63cc809e25a981e6c935d7c96559",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S011.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c39dbf57-7a9b-4c4d-b563-835726c98627.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP018-S012",
+    "episode": "EP018",
+    "anchor_cue": "EP018-C09",
+    "start_frame": 1649,
+    "end_frame": 1799,
+    "display_seconds": 5.0,
+    "unique_event": "旧客厅温度计下降，观察屏显示门廊开始薄霜",
+    "scene": "旧客厅",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP018/image-prompts/EP018-S012.txt",
+    "image_path": null,
+    "generation_status": "PLANNED_TARGETED_REPAIR",
+    "visual_review": null,
+    "image_sha256": null,
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP018-S012.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-34ce0966-651a-423c-bb20-18f8478f1447.png",
+    "take": 2
+  }
+]

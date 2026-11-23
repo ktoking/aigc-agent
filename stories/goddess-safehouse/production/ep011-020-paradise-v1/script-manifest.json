@@ -1,0 +1,86 @@
+{
+  "version": "paradise-v1",
+  "episodes": 10,
+  "cues": 95,
+  "characters": {
+    "N": 3083,
+    "CHEN": 117,
+    "XIA": 133,
+    "XU": 141,
+    "QIAO": 232,
+    "GU": 47,
+    "WANG": 34
+  },
+  "episode_files": [
+    {
+      "episode": "EP011",
+      "title": "只开这一次",
+      "sha256": "77826a7aee2880ecea4c0d06722972e44303d3d9545f60985651f1d8ab891117",
+      "cues": 10,
+      "characters": 387
+    },
+    {
+      "episode": "EP012",
+      "title": "医生在我屋里",
+      "sha256": "3d4dd83019d6cc31e120e0a607e7dfeb6dae728f50136635f6d74bd3bfb4ab5f",
+      "cues": 10,
+      "characters": 358
+    },
+    {
+      "episode": "EP013",
+      "title": "灯灭以后",
+      "sha256": "1294d56b87779d2ad41207486273f89a362010e3adb1b89cf8d17e6dc4d53e03",
+      "cues": 10,
+      "characters": 348
+    },
+    {
+      "episode": "EP014",
+      "title": "楼上的女孩",
+      "sha256": "0140a260f03ec825a90166b7c923b7386ba70189081c79d0ee52a89c3231ddd6",
+      "cues": 8,
+      "characters": 368
+    },
+    {
+      "episode": "EP015",
+      "title": "接进来就关门",
+      "sha256": "536766cd1f0425c0a36404188af07347856e7da996507ad49d90551f1da6932e",
+      "cues": 10,
+      "characters": 370
+    },
+    {
+      "episode": "EP016",
+      "title": "她们睡着以后",
+      "sha256": "85e9100cf2e6b3efd7e2359fd36e99a96e0eed40bb004fdab5272c2128fedd0c",
+      "cues": 9,
+      "characters": 368
+    },
+    {
+      "episode": "EP017",
+      "title": "仓库先放着",
+      "sha256": "426f64b4fc1e2a156c88b8f7bdf8736030de0305b8cd716d26020147660d1810",
+      "cues": 9,
+      "characters": 373
+    },
+    {
+      "episode": "EP018",
+      "title": "狗牌交给我",
+      "sha256": "e190aa53b5df77d91ba152b777ad0307d7bd3f2cc91e8c2ca5067c06d8a8f661",
+      "cues": 9,
+      "characters": 340
+    },
+    {
+      "episode": "EP019",
+      "title": "门外寒潮门内田",
+      "sha256": "6aad3aa87815cf29e8f6337cdfdae5e8c65a6be74d9fb14b90f238e7a5452372",
+      "cues": 9,
+      "characters": 395
+    },
+    {
+      "episode": "EP020",
+      "title": "世外桃源的第一粒种子",
+      "sha256": "52b13039516657f6a4d87051a7a574bb26d2666709280849ebde41226403a5de",
+      "cues": 11,
+      "characters": 480
+    }
+  ]
+}

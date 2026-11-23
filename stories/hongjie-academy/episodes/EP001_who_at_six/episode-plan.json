@@ -1,0 +1,319 @@
+{
+  "story_id": "hongjie-academy",
+  "episode": "EP001",
+  "title": "今晚六点，你陪谁？",
+  "draft_model": "doubao-seedance-2-0-mini-260615",
+  "status": "PROMPTS_AND_REFERENCES_READY",
+  "timing_status": "TEXT_ESTIMATE_NOT_AUDIO_MEASURED",
+  "fps": 30,
+  "aspect_ratio": "9:16",
+  "delivery_resolution": [
+    1080,
+    1920
+  ],
+  "duration_frames": 1350,
+  "duration_seconds": 45,
+  "transition": "hard_cut",
+  "segments": [
+    {
+      "id": "segment_01_00-15s",
+      "title": "雨停了，她还等在那儿",
+      "character": "C01",
+      "scene": "S01",
+      "start_frame": 0,
+      "end_frame_exclusive": 450,
+      "video_input": "segment_01_00-15s/frames/first-frame.png",
+      "imported_clip": "segment_01_00-15s/output/video.mp4",
+      "director_prompt": "segment_01_00-15s/director-promt.txt",
+      "beats": [
+        {
+          "start_frame": 0,
+          "end_frame_exclusive": 111,
+          "title": "拿公事口吻叫住他"
+        },
+        {
+          "start_frame": 111,
+          "end_frame_exclusive": 195,
+          "title": "被当面问中，先躲到窗边"
+        },
+        {
+          "start_frame": 195,
+          "end_frame_exclusive": 288,
+          "title": "松手装镇定，反问拖一拍"
+        },
+        {
+          "start_frame": 288,
+          "end_frame_exclusive": 357,
+          "title": "只说一个字，先看他有没有听见"
+        },
+        {
+          "start_frame": 357,
+          "end_frame_exclusive": 432,
+          "title": "直视，问能不能只和他去"
+        },
+        {
+          "start_frame": 432,
+          "end_frame_exclusive": 450,
+          "title": "等答复"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "S01D01",
+          "start_frame": 6,
+          "end_frame_exclusive": 105,
+          "speaker": "C01",
+          "delivery": "on_camera",
+          "text": "今晚六点。陪我去天台看烟花吧。",
+          "audio_path": "segment_01_00-15s/output/dialogue/S01D01.wav"
+        },
+        {
+          "id": "S01D02",
+          "start_frame": 126,
+          "end_frame_exclusive": 165,
+          "speaker": "P01",
+          "delivery": "off_camera",
+          "text": "你……这是在约我？",
+          "audio_path": "segment_01_00-15s/output/dialogue/S01D02.wav"
+        },
+        {
+          "id": "S01D03",
+          "start_frame": 216,
+          "end_frame_exclusive": 273,
+          "speaker": "C01",
+          "delivery": "on_camera",
+          "text": "你非要问这么清楚啊？",
+          "audio_path": "segment_01_00-15s/output/dialogue/S01D03.wav"
+        },
+        {
+          "id": "S01D04",
+          "start_frame": 312,
+          "end_frame_exclusive": 333,
+          "speaker": "C01",
+          "delivery": "on_camera",
+          "text": "……是。",
+          "audio_path": "segment_01_00-15s/output/dialogue/S01D04.wav"
+        },
+        {
+          "id": "S01D05",
+          "start_frame": 366,
+          "end_frame_exclusive": 432,
+          "speaker": "C01",
+          "delivery": "on_camera",
+          "text": "就我们俩……好吗？",
+          "audio_path": "segment_01_00-15s/output/dialogue/S01D05.wav"
+        }
+      ],
+      "video_inputs": [
+        "segment_01_00-15s/frames/first-frame.png",
+        "segment_01_00-15s/frames/mid-frame.png",
+        "segment_01_00-15s/frames/last-frame.png"
+      ]
+    },
+    {
+      "id": "segment_02_15-30s",
+      "title": "我练过了，你把手给我",
+      "character": "C02",
+      "scene": "S02",
+      "start_frame": 450,
+      "end_frame_exclusive": 900,
+      "video_input": "segment_02_15-30s/frames/first-frame.png",
+      "imported_clip": "segment_02_15-30s/output/video.mp4",
+      "director_prompt": "segment_02_15-30s/director-promt.txt",
+      "beats": [
+        {
+          "start_frame": 0,
+          "end_frame_exclusive": 105,
+          "title": "先把手给他，才开口邀约"
+        },
+        {
+          "start_frame": 105,
+          "end_frame_exclusive": 201,
+          "title": "以为他要退，先把手收回来"
+        },
+        {
+          "start_frame": 201,
+          "end_frame_exclusive": 252,
+          "title": "低头承认自己也不会"
+        },
+        {
+          "start_frame": 252,
+          "end_frame_exclusive": 330,
+          "title": "决定把练舞的原因告诉他"
+        },
+        {
+          "start_frame": 330,
+          "end_frame_exclusive": 432,
+          "title": "重新递出去，打个小趣"
+        },
+        {
+          "start_frame": 432,
+          "end_frame_exclusive": 450,
+          "title": "手还给他留着"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "S02D01",
+          "start_frame": 12,
+          "end_frame_exclusive": 81,
+          "speaker": "C02",
+          "delivery": "on_camera",
+          "text": "六点，陪我跳开场舞。",
+          "audio_path": "segment_02_15-30s/output/dialogue/S02D01.wav"
+        },
+        {
+          "id": "S02D02",
+          "start_frame": 126,
+          "end_frame_exclusive": 174,
+          "speaker": "P01",
+          "delivery": "off_camera",
+          "text": "我不太会呀。",
+          "audio_path": "segment_02_15-30s/output/dialogue/S02D02.wav"
+        },
+        {
+          "id": "S02D03",
+          "start_frame": 216,
+          "end_frame_exclusive": 243,
+          "speaker": "C02",
+          "delivery": "on_camera",
+          "text": "其实,我也不会。",
+          "audio_path": "segment_02_15-30s/output/dialogue/S02D03.wav"
+        },
+        {
+          "id": "S02D04",
+          "start_frame": 255,
+          "end_frame_exclusive": 321,
+          "speaker": "C02",
+          "delivery": "on_camera",
+          "text": "为了约你才去学的。",
+          "audio_path": "segment_02_15-30s/output/dialogue/S02D04.wav"
+        },
+        {
+          "id": "S02D05",
+          "start_frame": 333,
+          "end_frame_exclusive": 432,
+          "speaker": "C02",
+          "delivery": "on_camera",
+          "text": "可以吗？我都举半天了。",
+          "audio_path": "segment_02_15-30s/output/dialogue/S02D05.wav"
+        }
+      ],
+      "video_inputs": [
+        "segment_02_15-30s/frames/first-frame.png",
+        "segment_02_15-30s/frames/mid-frame.png",
+        "segment_02_15-30s/frames/last-frame.png"
+      ]
+    },
+    {
+      "id": "segment_03_30-45s",
+      "title": "那我就约现在",
+      "character": "C03",
+      "scene": "S03",
+      "start_frame": 900,
+      "end_frame_exclusive": 1350,
+      "video_input": "segment_03_30-45s/frames/first-frame.png",
+      "imported_clip": "segment_03_30-45s/output/video.mp4",
+      "director_prompt": "segment_03_30-45s/director-promt.txt",
+      "beats": [
+        {
+          "start_frame": 0,
+          "end_frame_exclusive": 108,
+          "title": "靠近一点，用合掌求陪"
+        },
+        {
+          "start_frame": 108,
+          "end_frame_exclusive": 204,
+          "title": "听到“也”，手和表情一起顿住"
+        },
+        {
+          "start_frame": 204,
+          "end_frame_exclusive": 255,
+          "title": "确认六点，已在找别的办法"
+        },
+        {
+          "start_frame": 255,
+          "end_frame_exclusive": 330,
+          "title": "侧身让路，干脆改约现在"
+        },
+        {
+          "start_frame": 330,
+          "end_frame_exclusive": 366,
+          "title": "听到五分钟，点一下又停"
+        },
+        {
+          "start_frame": 366,
+          "end_frame_exclusive": 435,
+          "title": "把计时起点谈到目的地"
+        },
+        {
+          "start_frame": 435,
+          "end_frame_exclusive": 450,
+          "title": "忍不住先笑"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "S03D01",
+          "start_frame": 6,
+          "end_frame_exclusive": 99,
+          "speaker": "C03",
+          "delivery": "on_camera",
+          "text": "陪我去挂第一盏灯，好不好？",
+          "audio_path": "segment_03_30-45s/output/dialogue/S03D01.wav"
+        },
+        {
+          "id": "S03D02",
+          "start_frame": 126,
+          "end_frame_exclusive": 192,
+          "speaker": "P01",
+          "delivery": "off_camera",
+          "text": "你该不会也要约我六点吧？",
+          "audio_path": "segment_03_30-45s/output/dialogue/S03D02.wav"
+        },
+        {
+          "id": "S03D03",
+          "start_frame": 213,
+          "end_frame_exclusive": 252,
+          "speaker": "C03",
+          "delivery": "on_camera",
+          "text": "六点你很忙吗？",
+          "audio_path": "segment_03_30-45s/output/dialogue/S03D03.wav"
+        },
+        {
+          "id": "S03D04",
+          "start_frame": 270,
+          "end_frame_exclusive": 315,
+          "speaker": "C03",
+          "delivery": "on_camera",
+          "text": "那我约现在。",
+          "audio_path": "segment_03_30-45s/output/dialogue/S03D04.wav"
+        },
+        {
+          "id": "S03D05",
+          "start_frame": 333,
+          "end_frame_exclusive": 357,
+          "speaker": "P01",
+          "delivery": "off_camera",
+          "text": "五分钟？",
+          "audio_path": "segment_03_30-45s/output/dialogue/S03D05.wav"
+        },
+        {
+          "id": "S03D06",
+          "start_frame": 366,
+          "end_frame_exclusive": 435,
+          "speaker": "C03",
+          "delivery": "on_camera",
+          "text": "嗯……从我们到了再开始算嘛。",
+          "audio_path": "segment_03_30-45s/output/dialogue/S03D06.wav"
+        }
+      ],
+      "video_inputs": [
+        "segment_03_30-45s/frames/first-frame.png",
+        "segment_03_30-45s/frames/mid-frame.png",
+        "segment_03_30-45s/frames/last-frame.png"
+      ]
+    }
+  ],
+  "acting_revision": "galgame-v4"
+}

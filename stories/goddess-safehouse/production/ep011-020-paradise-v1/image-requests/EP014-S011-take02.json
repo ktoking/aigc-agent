@@ -1,0 +1,12 @@
+{
+  "shot_id": "EP014-S011",
+  "take": 2,
+  "generator": "built-in image_gen",
+  "prompt": "单张横屏16:9真人写实电影静帧，清楚主体、自然材质、适度细节，干燥整洁，没有字幕水印，不是拼贴。参考1仅锁乔星野的成年身份，参考2是需要校正的既有候选镜头。保留参考2的乔星野脸、服装、姿势、书桌、拆开的便携电源、房间布局与构图，仍只有她一个人在201普通卧室内检查设备。只将窗外错误的冬季景色改为常温日照下的普通住宅绿树景观，窗玻璃干净干燥，没有任何雪、霜、冰柱、雨水或雾。屋内光线随正常暖日光协调，其他内容保持。\n",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP014/frames/EP014-S011.png"
+  ],
+  "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-604f5279-0adc-4ccb-bd2b-1e1828c348eb.png",
+  "transparent_background": false
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e441246911bc22b8c075bc43730ca",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "许知意拆开纱布，夏凛从厨房端来牛肉和蒸蛋。乔星野刚把外灯改成分路，便把空出来的一小块桌面占了，伏着画图。她画了十分钟，笔尖在纸上拖出一道长线。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 15444,
+    "audio_sample_rate": 32000,
+    "audio_size": 248820,
+    "bitrate": 128000,
+    "word_count": 71,
+    "invisible_character_ratio": 0,
+    "usage_characters": 135,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP016/audio/EP016-C03.mp3",
+  "bytes": 248820,
+  "sha256": "edfd2d188bb2a2e74710c84ab4fec4499008c5844584187c4f872396164e71ae",
+  "subtitle_files_generated": false
+}

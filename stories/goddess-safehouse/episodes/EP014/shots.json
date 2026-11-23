@@ -1,0 +1,349 @@
+[
+  {
+    "shot_id": "EP014-S001",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C01",
+    "start_frame": 0,
+    "end_frame": 150,
+    "display_seconds": 5.0,
+    "unique_event": "白昼101檐下伏行个体，画面无人",
+    "scene": "外檐",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S001.txt",
+    "image_path": "episodes/EP014/frames/EP014-S001-take03.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "5cbaa2f3614afe363d2b8bad38f7e5adb45000139a364d970c804c7f41af7a5c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S001-take03.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-470dd63a-7794-4962-8957-15e9c9eb44cb.png",
+    "take": 3
+  },
+  {
+    "shot_id": "EP014-S002",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C01",
+    "start_frame": 150,
+    "end_frame": 301,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "上层检修光照出檐下伏行个体，画面无人",
+    "scene": "外檐",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S002.txt",
+    "image_path": "episodes/EP014/frames/EP014-S002-take03.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "bf1837c732ef33344c5014c54e3c5aab872efe456878fcb9580b8ff4922e0967",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S002-take03.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-12454e00-7cd4-448c-a35a-48224163d0ed.png",
+    "take": 3
+  },
+  {
+    "shot_id": "EP014-S003",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C02",
+    "start_frame": 301,
+    "end_frame": 452,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "成年乔星野在二楼室内窗后，手持小检修灯和手机，神色专注",
+    "scene": "QIAO窗内",
+    "character_ids": [
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S003.txt",
+    "image_path": "episodes/EP014/frames/EP014-S003-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "9eba88dcb9e0d9b8457ce8544dedf00a71c24c4cc9fd0b98c3bd7fe89d371909",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S003-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-50fc4a05-af60-4641-aba8-7a0c81c72be2.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S004",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C03",
+    "start_frame": 452,
+    "end_frame": 603,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "陈屿留在门内看手机，屏幕照片只作为小块二维图像",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S004.txt",
+    "image_path": "episodes/EP014/frames/EP014-S004-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "a5687b57c5fec18285d73f5d596194e1af6e85cd89a96b2ab819885ea93ff8aa",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S004-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-80d4ff58-1fd7-4f33-bf3c-62fe485bd06c.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S005",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C03",
+    "start_frame": 603,
+    "end_frame": 753,
+    "display_seconds": 5.0,
+    "unique_event": "固定院灯交叉照亮屋外檐口，画面无人",
+    "scene": "外檐",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S005.txt",
+    "image_path": "episodes/EP014/frames/EP014-S005-take03.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "8d5707c54ef15232f2489822dc773dd4e4dbd25344024ba058e1e76441dafc64",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S005-take03.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-507ebff6-0c06-4930-b153-18880d21d552.png",
+    "take": 3
+  },
+  {
+    "shot_id": "EP014-S006",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C04",
+    "start_frame": 753,
+    "end_frame": 904,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "乔星野在二楼窗内抱着小电源箱，成年漂亮面孔带克制紧张",
+    "scene": "QIAO窗内",
+    "character_ids": [
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S006.txt",
+    "image_path": "episodes/EP014/frames/EP014-S006-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "9f6e9c8df5499c44bf3db87fd4862cecd07ba3a1297b1425b61185b86b858caf",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S006-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f0eb65be-cbcc-489f-ad4e-065c022f4ffc.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S007",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C04",
+    "start_frame": 904,
+    "end_frame": 1055,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "乔星野仍在201窗内自荐，未入安全屋",
+    "scene": "QIAO窗内",
+    "character_ids": [
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S007.txt",
+    "image_path": "episodes/EP014/frames/EP014-S007-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "9d7998efb8492af07ae595f7a8ade8d98566b575ef576244ab13e55c9a78da0a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S007-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-554477eb-b4f5-44f2-aa5a-0e98c932d55a.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S008",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C05",
+    "start_frame": 1055,
+    "end_frame": 1206,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "旧客厅的小木桌上放着一卷整齐的安全绳与普通检查工具，只有道具，绳索没有接触任何身体；本镜不出现人物、脸或身体，只表现接引前的绳具已被查验",
+    "scene": "旧客厅",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S008.txt",
+    "image_path": "episodes/EP014/frames/EP014-S008-take03.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "40acdb96c127873b63b1bb0698867c8da31925f3b5457fc6b773212bbe6d1bbd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S008-take03.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a6d65c71-f12f-480d-93c0-0b1cb5dc5b95.png",
+    "take": 3
+  },
+  {
+    "shot_id": "EP014-S009",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C05",
+    "start_frame": 1206,
+    "end_frame": 1356,
+    "display_seconds": 5.0,
+    "unique_event": "101门廊与正上方201窗户的位置关系",
+    "scene": "门外",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S009.txt",
+    "image_path": "episodes/EP014/frames/EP014-S009-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "6a93e88ae9ab66d60a2b8c681b18d7f3667642bef7c35123630b51287eebd782",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S009-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-98c4b037-8665-4c34-82dd-a2b48ee1353e.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S010",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C06",
+    "start_frame": 1356,
+    "end_frame": 1507,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "夏凛在旧客厅取出绳索和软垫，陈屿把入口附近物件移开",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S010.txt",
+    "image_path": "episodes/EP014/frames/EP014-S010-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "2c00fd34638c028d79d9bbc33f93748cb8954c7e4e491fbdafa89740824e3a8a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S010-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1789693f-2d93-4fd7-b441-2c533afcdcaa.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S011",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C07",
+    "start_frame": 1507,
+    "end_frame": 1658,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "乔星野在201检查电源，窗外改成常温绿色街景",
+    "scene": "QIAO窗内",
+    "character_ids": [
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP014/frames/EP014-S011.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S011.txt",
+    "image_path": "episodes/EP014/frames/EP014-S011-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "07c1a2a3dbaf8747ac9dc7bc28a4a634286deaf957056d8f533a773a687d1305",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S011-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-604f5279-0adc-4ccb-bd2b-1e1828c348eb.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP014-S012",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C08",
+    "start_frame": 1658,
+    "end_frame": 1809,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "陈屿在纸上绘出简洁窗位与落点草图，图上无可读文字",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S012.txt",
+    "image_path": "episodes/EP014/frames/EP014-S012.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "96bda0a8216375bc2c4f0c2c74f6d81c663d824535de3824d43132969b101345",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S012.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-85d736ee-6abf-4b3b-99e8-5e7803564a16.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP014-S013",
+    "episode": "EP014",
+    "anchor_cue": "EP014-C08",
+    "start_frame": 1809,
+    "end_frame": 1960,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "封闭外门内侧，绳索工具准备好，门镜方向保持戒备",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "prompt_path": "episodes/EP014/image-prompts/EP014-S013.txt",
+    "image_path": "episodes/EP014/frames/EP014-S013.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "327cc65257dd7be0b0a89c8bc8cd843a0d1f1bf1cbcc6fee34d6f1b329fd23a0",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP014-S013.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a9df248a-7f93-476d-b4be-3b86d1d19f10.png",
+    "take": null
+  }
+]

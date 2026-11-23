@@ -1,0 +1,29 @@
+[
+  {
+    "id": "EP009-S04",
+    "take": 2,
+    "prompt": "Use case: precise-object-edit\n输入图为唯一编辑目标。16:9真人写实电影帧。\n只修改右侧天空：去掉圆形红月，替换成普通深红云层，没有任何月亮圆盘。此时距离血月仍有一天，只有红云预兆。保留门、楼梯、两盏灯及其白色照明、墙面纹理、相机位置和全部其他细节。\n无字幕、水印或新增文字；保存为新的版本，不改变构图。",
+    "prompt_path": "episodes/EP009/image-prompts/EP009-S04-edit02.txt",
+    "refs": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP009/frames/EP009-S04-release-take01.png"
+    ]
+  },
+  {
+    "id": "EP010-S05",
+    "take": 2,
+    "prompt": "Use case: precise-object-edit\n输入图为唯一编辑目标。16:9真人写实电影帧。\n只修改火锅内部：彻底去除鸳鸯锅的S形金属隔板，把整锅全部改为同一种红油麻辣汤底，不留白汤区域。保留锅的外形、锅沿、把手、食材盘位置，以及陈屿的脸、头部角度、手和筷子姿势、服装、表情、背景、相机与光线。不能增加人物，不能改变任何其他元素。\n无字幕、水印或新增文字；保存为新的版本，不改变构图。",
+    "prompt_path": "episodes/EP010/image-prompts/EP010-S05-edit02.txt",
+    "refs": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP010/frames/EP010-S05-release-take01.png"
+    ]
+  },
+  {
+    "id": "EP010-S05B",
+    "take": 2,
+    "prompt": "Use case: precise-object-edit\n输入图为唯一编辑目标。16:9真人写实电影帧。\n只修改火锅内部：彻底去除鸳鸯锅的S形金属隔板，把整锅全部改为同一种红油麻辣汤底，不留白汤区域。保留锅的外形、锅沿、把手、食材盘位置，以及陈屿的脸、头部角度、手和筷子姿势、服装、表情、背景、相机与光线。不能增加人物，不能改变任何其他元素。\n无字幕、水印或新增文字；保存为新的版本，不改变构图。",
+    "prompt_path": "episodes/EP010/image-prompts/EP010-S05B-edit02.txt",
+    "refs": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP010/frames/EP010-S05B-release-take01.png"
+    ]
+  }
+]

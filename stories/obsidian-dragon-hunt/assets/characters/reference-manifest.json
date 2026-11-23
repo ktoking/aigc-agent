@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ORC",
+    "name": "格鲁姆",
+    "race": "兽人",
+    "role": "破甲",
+    "look": "魁梧男性，绿皮、獠牙、黑灰编辫，黑钢重甲、暗红披肩。",
+    "gear": "双手战斧约八公斤；本片用斧，原试样的锤不沿用。命中后斧刃留一个缺角。只能撬开旧伤鳞片，不能砍穿整条龙颈。",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-98e4b97f-2c95-4758-ad55-ec02c16ca5cc.png",
+    "local_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ORC/look-reference-v1.png",
+    "sha256": "e76763b1290cf4e75ec68bf82f6521c1088f595e268ea49b4e4827b7cddf5785",
+    "status": "暂定参考，非最终定脸"
+  },
+  {
+    "id": "RANGER",
+    "name": "莱娅",
+    "race": "人类与精灵混血／半精灵",
+    "role": "致盲",
+    "look": "成年女性，赤褐长发与松辫、绿眼、短尖耳；深绿轻皮甲、短披风。",
+    "gear": "反曲弓；仅一支箭头装乳白晶囊的灼光箭。只造成短暂视觉过曝，龙会恢复视力。第一人称旁白限于她所知所见。",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-7ba58e68-4337-4c1f-bc7e-7bfa13eb1dfd.png",
+    "local_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/look-reference-v1.png",
+    "sha256": "6fdfffab0afee0ba37046e5d5eedd1604ca6c6be99fae38ce9c1ecb8898d5d5c",
+    "status": "暂定参考，非最终定脸"
+  },
+  {
+    "id": "MAGE",
+    "name": "塞维恩",
+    "race": "人类",
+    "role": "冻结",
+    "look": "约四十五岁男性，银黑长发、冷峻面孔，深蓝硬挺长袍、冰蓝棱晶法杖。",
+    "gear": "霜流沿地面推进，只冻住两只前爪及趾间地缝。维持冻结时不能兼顾保护；冰会因挣扎、热量而开裂。",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-82e65be2-429a-4f13-a19b-31d46107062a.png",
+    "local_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/look-reference-v1.png",
+    "sha256": "e6b64c5484216d7927d5cf15767a40095dbe177e3f93386cec031b9d62f00f1e",
+    "status": "暂定参考，非最终定脸"
+  },
+  {
+    "id": "ROBOT",
+    "name": "堡垒—07",
+    "race": "自主机械生命",
+    "role": "保护",
+    "look": "象牙白装甲、黄铜骨架、石墨关节，青蓝眼与胸核、短蓝披肩。",
+    "gear": "脚跟地锚、前臂折叠盾板；护盾只覆盖身后约十二米宽扇区。仍被推行一米，右盾板烧裂，只硬挡一次正面龙息。",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-9bc77468-c1be-4acb-96ea-bc08d0e41c3b.png",
+    "local_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/look-reference-v1.png",
+    "sha256": "128deba3b9f52cecf0c50382591522a54b634879901e1fab218317f69cede33f",
+    "status": "暂定参考，非最终定脸"
+  },
+  {
+    "id": "ELF",
+    "name": "瑟琳",
+    "race": "高等精灵",
+    "role": "束缚",
+    "look": "成年女性，银色直长发、长尖耳、冷蓝眼；月白与靛蓝长袍、细银冠、月牙杖。",
+    "gear": "两条月银索开场已从东西基岩桩铺到中央地面；杖负责抬索收束。必须先接触龙颈、消除松弛，再受力；掌心会被勒伤。",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-83d05aa4-612f-435c-b0b5-c46dce589e52.png",
+    "local_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/look-reference-v1.png",
+    "sha256": "549eaef633483f5151294f41b3c71750802340ce40b2a937c3813844174a5ed1",
+    "status": "暂定参考，非最终定脸"
+  },
+  {
+    "id": "DRAGONBORN",
+    "name": "烬",
+    "race": "人类与龙族混血／龙裔",
+    "role": "斩杀",
+    "look": "成年男性，黑发、后掠黑角、金色竖瞳、颈侧少量铜黑鳞，黑金长衣、暗红晶扣。",
+    "gear": "新增约一米四的窄身龙骨长剑，右腰佩带，拔出后双手刺击。不使用试样里的掌中龙焰；耐热但不能硬接龙息，必须等破口与束颈。",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-b4345d7c-5a21-4a23-88fe-bbb971bc3022.png",
+    "local_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/look-reference-v1.png",
+    "sha256": "15f73a265a56cfcba3db0e0f25af0a157f6e9c0ecf5c8d3da5f9ee297447b1b6",
+    "status": "暂定参考，非最终定脸"
+  }
+]

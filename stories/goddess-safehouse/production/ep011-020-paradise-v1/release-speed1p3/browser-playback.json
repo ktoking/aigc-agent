@@ -1,0 +1,30 @@
+{
+  "status": "PASS_SAMPLED_NORMAL_SPEED_PLAYBACK",
+  "samples": [
+    {
+      "currentTime": 112.19789,
+      "duration": 654.267,
+      "error": null,
+      "paused": false,
+      "playbackRate": 1,
+      "sample": "opening"
+    },
+    {
+      "currentTime": 524.323016,
+      "error": null,
+      "paused": false,
+      "playbackRate": 1,
+      "sample": "upgrade_playback"
+    },
+    {
+      "currentTime": 654.267,
+      "duration": 654.267,
+      "ended": true,
+      "error": null,
+      "paused": true,
+      "playbackRate": 1,
+      "sample": "ending_complete"
+    }
+  ],
+  "full_human_watch": "NOT_RUN"
+}

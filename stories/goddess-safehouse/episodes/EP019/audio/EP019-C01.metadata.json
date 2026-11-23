@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e44da478d3ab9e32e9589acdd1c6a",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "寒潮到来那天，门外的呼吸声更近了。观察窗里，骨甲个体站在薄霜上，身后还有一只伏在檐下。我按住升级确认，五百安心值归零。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 12744,
+    "audio_sample_rate": 32000,
+    "audio_size": 205620,
+    "bitrate": 128000,
+    "word_count": 59,
+    "invisible_character_ratio": 0,
+    "usage_characters": 111,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP019/audio/EP019-C01.mp3",
+  "bytes": 205620,
+  "sha256": "1593c8fd21a54d92488729325fc17f588e10cb4c016fa9e67b1ef6fbc703c34c",
+  "subtitle_files_generated": false
+}

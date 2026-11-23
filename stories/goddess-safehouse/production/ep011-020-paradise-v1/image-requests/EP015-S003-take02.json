@@ -1,0 +1,12 @@
+{
+  "shot_id": "EP015-S003",
+  "take": 2,
+  "generator": "built-in image_gen",
+  "prompt": "单张16:9真人写实电影静帧。参考1只锁成年24岁乔星野身份，参考2是要校正的原镜头。保留参考2的乔星野脸、服装、手扶窗框动作、室内书桌电源与构图。只将窗外冬季雪景改成常温、初暮蓝色天空下的正常普通住宅楼与绿色树叶，窗玻璃保持干净干燥，绝无霜、雪、冰、雨、雾。她仍在二楼201房间内，未落地未进入安全屋。其他人物与室内布局均不添加或改变，没有字幕水印。\n",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP015/frames/EP015-S003.png"
+  ],
+  "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5d990e52-05a4-48b8-973d-da868741b184.png",
+  "transparent_background": false
+}

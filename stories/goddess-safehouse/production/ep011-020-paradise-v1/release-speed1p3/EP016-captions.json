@@ -1,0 +1,361 @@
+{
+  "episode": "EP016",
+  "audio_sha256": "c62b711776f38f974b90d4d46ba749b4246459a31d5e5fb19f9ba7efc2748d60",
+  "frames": 1899,
+  "entries": [
+    {
+      "cue_id": "EP016-C01",
+      "speaker": "N",
+      "text": "群里最后一段语音，",
+      "display_text": "群里最后一段语音",
+      "start_frame": 0,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 47
+    },
+    {
+      "cue_id": "EP016-C01",
+      "speaker": "N",
+      "text": "是有人拧着干涩的水龙头骂人。紧跟着，",
+      "display_text": "是有人拧着干涩的水龙头骂人 紧跟着",
+      "start_frame": 47,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 131
+    },
+    {
+      "cue_id": "EP016-C01",
+      "speaker": "N",
+      "text": "一串消息挤上来，问我借水，借药，",
+      "display_text": "一串消息挤上来 问我借水 借药",
+      "start_frame": 131,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 210
+    },
+    {
+      "cue_id": "EP016-C01",
+      "speaker": "N",
+      "text": "借一个晚上。",
+      "display_text": "借一个晚上",
+      "start_frame": 210,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 242
+    },
+    {
+      "cue_id": "EP016-C01",
+      "speaker": "N",
+      "text": "我把手机扣在桌上。",
+      "display_text": "我把手机扣在桌上",
+      "start_frame": 242,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 287
+    },
+    {
+      "cue_id": "EP016-C02",
+      "text": "该换药了。你今天只用了这一只手？",
+      "display_text": "该换药了 你今天只用了这一只手",
+      "start_frame": 290,
+      "end_frame": 376,
+      "timing": "EXACT_MEASURED_CUE",
+      "speaker": "XU"
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "许知意拆开纱布，",
+      "display_text": "许知意拆开纱布",
+      "start_frame": 386,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 432
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "夏凛从厨房端来牛肉和蒸蛋。",
+      "display_text": "夏凛从厨房端来牛肉和蒸蛋",
+      "start_frame": 432,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 498
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "乔星野刚把外灯改成分路，",
+      "display_text": "乔星野刚把外灯改成分路",
+      "start_frame": 498,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 556
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "便把空出来的一小块桌面占了，",
+      "display_text": "便把空出来的一小块桌面占了",
+      "start_frame": 556,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 615
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "伏着画图。",
+      "display_text": "伏着画图",
+      "start_frame": 615,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 642
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "她画了十分钟，",
+      "display_text": "她画了十分钟",
+      "start_frame": 642,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 678
+    },
+    {
+      "cue_id": "EP016-C03",
+      "speaker": "N",
+      "text": "笔尖在纸上拖出一道长线。",
+      "display_text": "笔尖在纸上拖出一道长线",
+      "start_frame": 678,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 735
+    },
+    {
+      "cue_id": "EP016-C04",
+      "text": "没睡。这个地方……还差一根线。",
+      "display_text": "没睡 这个地方 还差一根线",
+      "start_frame": 738,
+      "end_frame": 822,
+      "timing": "EXACT_MEASURED_CUE",
+      "speaker": "QIAO"
+    },
+    {
+      "cue_id": "EP016-C05",
+      "text": "图留着。去床上补觉。",
+      "display_text": "图留着 去床上补觉",
+      "start_frame": 825,
+      "end_frame": 880,
+      "timing": "EXACT_MEASURED_CUE",
+      "speaker": "CHEN"
+    },
+    {
+      "cue_id": "EP016-C06",
+      "speaker": "N",
+      "text": "我把她画好的那半张图夹平，",
+      "display_text": "我把她画好的那半张图夹平",
+      "start_frame": 883,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 949
+    },
+    {
+      "cue_id": "EP016-C06",
+      "speaker": "N",
+      "text": "又给夏凛留了满满一碗饭。",
+      "display_text": "又给夏凛留了满满一碗饭",
+      "start_frame": 949,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1011
+    },
+    {
+      "cue_id": "EP016-C06",
+      "speaker": "N",
+      "text": "许知意换好药，",
+      "display_text": "许知意换好药",
+      "start_frame": 1011,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1050
+    },
+    {
+      "cue_id": "EP016-C06",
+      "speaker": "N",
+      "text": "握住我的手腕，",
+      "display_text": "握住我的手腕",
+      "start_frame": 1050,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1085
+    },
+    {
+      "cue_id": "EP016-C06",
+      "speaker": "N",
+      "text": "让我别急着起身。",
+      "display_text": "让我别急着起身",
+      "start_frame": 1085,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1121
+    },
+    {
+      "cue_id": "EP016-C06",
+      "speaker": "N",
+      "text": "她的手已经不像刚进门时那么凉。",
+      "display_text": "她的手已经不像刚进门时那么凉",
+      "start_frame": 1121,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1200
+    },
+    {
+      "cue_id": "EP016-C07",
+      "text": "好了。今天不用再包那么紧。",
+      "display_text": "好了 今天不用再包那么紧",
+      "start_frame": 1203,
+      "end_frame": 1275,
+      "timing": "EXACT_MEASURED_CUE",
+      "speaker": "XU"
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "下午，",
+      "display_text": "下午",
+      "start_frame": 1285,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1305
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "两间卧室先后安静下来。",
+      "display_text": "两间卧室先后安静下来",
+      "start_frame": 1305,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1361
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "安心值到了四百五十五。",
+      "display_text": "安心值到了四百五十五",
+      "start_frame": 1361,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1410
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "奖励页在我手里展开：耕地能继续扩，",
+      "display_text": "奖励页在我手里展开 耕地能继续扩",
+      "start_frame": 1410,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1488
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "花园、温泉浴池、",
+      "display_text": "花园 温泉浴池",
+      "start_frame": 1488,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1532
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "诊疗室都还暗着。",
+      "display_text": "诊疗室都还暗着",
+      "start_frame": 1532,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1583
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "最下方写着，",
+      "display_text": "最下方写着",
+      "start_frame": 1583,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1614
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "住客持续安居，",
+      "display_text": "住客持续安居",
+      "start_frame": 1614,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1652
+    },
+    {
+      "cue_id": "EP016-C08",
+      "speaker": "N",
+      "text": "可领取后续扩展。",
+      "display_text": "可领取后续扩展",
+      "start_frame": 1652,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1695
+    },
+    {
+      "cue_id": "EP016-C09",
+      "speaker": "N",
+      "text": "我把刚烧好的水留在保温壶里，",
+      "display_text": "我把刚烧好的水留在保温壶里",
+      "start_frame": 1698,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1761
+    },
+    {
+      "cue_id": "EP016-C09",
+      "speaker": "N",
+      "text": "关掉走廊那盏顶灯。",
+      "display_text": "关掉走廊那盏顶灯",
+      "start_frame": 1761,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1805
+    },
+    {
+      "cue_id": "EP016-C09",
+      "speaker": "N",
+      "text": "门外有人又喊了一声，",
+      "display_text": "门外有人又喊了一声",
+      "start_frame": 1805,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1849
+    },
+    {
+      "cue_id": "EP016-C09",
+      "speaker": "N",
+      "text": "屋里的呼吸没有被惊动。",
+      "display_text": "屋里的呼吸没有被惊动",
+      "start_frame": 1849,
+      "timing": "ASR_MATCHED_WITH_INTERPOLATION",
+      "end_frame": 1899
+    }
+  ],
+  "alignment": [
+    {
+      "cue_id": "EP016-C01",
+      "coverage": 0.98,
+      "recognized_text": "群里最后一段语音是有人拧着干涉的水龙头骂人紧跟着一串消息挤上来问我借水借药借一个晚上我把手机扣在桌上",
+      "source_text": "群里最后一段语音，是有人拧着干涩的水龙头骂人。紧跟着，一串消息挤上来，问我借水，借药，借一个晚上。我把手机扣在桌上。",
+      "route": "EPISODE_ASR"
+    },
+    {
+      "cue_id": "EP016-C03",
+      "coverage": 0.921875,
+      "recognized_text": "许知意拆开纱布夏凛从厨房端来牛肉和蒸蛋乔星野刚把外灯改成纷路便把空出来的一小块桌面站了扶着画图他画了十分钟笔尖在纸上托出一道长线",
+      "source_text": "许知意拆开纱布，夏凛从厨房端来牛肉和蒸蛋。乔星野刚把外灯改成分路，便把空出来的一小块桌面占了，伏着画图。她画了十分钟，笔尖在纸上拖出一道长线。",
+      "route": "EPISODE_ASR"
+    },
+    {
+      "cue_id": "EP016-C06",
+      "coverage": 0.9285714285714286,
+      "recognized_text": "我把他画好的那半张图夹平又给夏岭留了满满一碗饭许致意换好药握住我的手腕让我别急着起身他的手已经不像刚进门时那么凉",
+      "source_text": "我把她画好的那半张图夹平，又给夏凛留了满满一碗饭。许知意换好药，握住我的手腕，让我别急着起身。她的手已经不像刚进门时那么凉。",
+      "route": "EPISODE_ASR"
+    },
+    {
+      "cue_id": "EP016-C08",
+      "coverage": 0.9117647058823529,
+      "recognized_text": "下午两间卧室先后安静下来安心直到了四百五十五奖励业在我手里展开耕地能继续扩花园温泉玉池整疗室都还按着最下方写着祝客持续安居可领取后续扩展",
+      "source_text": "下午，两间卧室先后安静下来。安心值到了四百五十五。奖励页在我手里展开：耕地能继续扩，花园、温泉浴池、诊疗室都还暗着。最下方写着，住客持续安居，可领取后续扩展。",
+      "route": "EPISODE_ASR"
+    },
+    {
+      "cue_id": "EP016-C09",
+      "coverage": 0.975,
+      "recognized_text": "我把刚烧好的水留在保温湖里关掉走廊那盏顶灯门外有人又喊了一声屋里的呼吸没有被惊动",
+      "source_text": "我把刚烧好的水留在保温壶里，关掉走廊那盏顶灯。门外有人又喊了一声，屋里的呼吸没有被惊动。",
+      "route": "EPISODE_ASR"
+    }
+  ],
+  "text_changes": 0,
+  "human_listening": "NOT_RUN"
+}

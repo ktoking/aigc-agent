@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e44e28b09794e7fe2bf2f550e13b2",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "货架后的白墙向远处退开。木地板延伸到一片翻好的黑土前，顶上是一整面柔和的天光。四十平方米耕地，旁边新开一间诊疗室和一间卧室。厨房没动，原来的货也一件没少。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 16560,
+    "audio_sample_rate": 32000,
+    "audio_size": 266676,
+    "bitrate": 128000,
+    "word_count": 77,
+    "invisible_character_ratio": 0,
+    "usage_characters": 147,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP019/audio/EP019-C02.mp3",
+  "bytes": 266676,
+  "sha256": "6be482f86bbddfb19fb1540ac812b16769fb8db01bd133629f97436917a6211a",
+  "subtitle_files_generated": false
+}

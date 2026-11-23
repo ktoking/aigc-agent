@@ -1,0 +1,46 @@
+{
+  "status": "REFERENCES_READY",
+  "character": "C02",
+  "default_inputs": [
+    {
+      "path": "frames/first-frame.png",
+      "role": "original_first_frame_and_identity",
+      "anchor_seconds": 0,
+      "exists": true,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "98dfdc469d6ac2e6092ce9b677e4c0699d28d744135ba9fdcaf2a221600d6f49",
+      "purpose": "锁开场构图、人物、制服和布景",
+      "source": "../../../assets/reference/hina.png",
+      "index": 1,
+      "label": "开场首帧"
+    },
+    {
+      "path": "frames/mid-frame.png",
+      "role": "generated_acting_turn",
+      "anchor_seconds": 8.3,
+      "exists": true,
+      "width": 992,
+      "height": 1585,
+      "sha256": "72548cfb5cfecfa5f0f3c55bd6fd64ea1368d10cdb962872a320bea012c1b05f",
+      "purpose": "左手收回腰带前，上半身从髋部向前俯约二十度，肩头和脸明显低于开场，眼睛在看收回的掌心，马尾跟着垂下来。",
+      "source": "ImageGen，以暖金食堂尾帧复核人物、制服和布景，强化上半身动作，2026-11-20",
+      "index": 2,
+      "label": "表演转折"
+    },
+    {
+      "path": "frames/last-frame.png",
+      "role": "generated_tail_expression_reference",
+      "anchor_seconds": 14.8,
+      "exists": true,
+      "width": 992,
+      "height": 1586,
+      "sha256": "c7bd8dfde1d303a249ca8969ef09d394bc052599e74356f6048f2e9066c64691",
+      "purpose": "尾图宽高比约5:8，保留展掌全轮廓。用于核对掌心方向和克制的笑。全段保持首帧机位、脸部尺度和手的实际距离。",
+      "source": "ImageGen，以该角色附件原图指导生成，2026-11-19",
+      "index": 3,
+      "label": "终态尾帧"
+    }
+  ],
+  "revision": "galgame-v4"
+}

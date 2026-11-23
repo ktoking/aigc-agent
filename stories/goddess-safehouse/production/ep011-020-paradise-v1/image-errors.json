@@ -1,0 +1,22 @@
+[
+  {
+    "shot_id": "EP011-S001",
+    "attempt": 1,
+    "status": "OUTPUT_MODERATION_REJECTED",
+    "category": "violence",
+    "revision": "Only inside doorway reception, no visible wounds, blood or monster attack; script unchanged."
+  },
+  {
+    "shot_id": "EP011-S005",
+    "status": "OUTPUT_MODERATION_REJECTED",
+    "category": "violence",
+    "revision": "Closed interior door lock and controller only, no creature or wound."
+  },
+  {
+    "shot_id": "EP014-S008",
+    "attempt": 2,
+    "status": "OUTPUT_MODERATION_REJECTED",
+    "category": "sexual",
+    "revision": "Object-only rope and inspection tools, no person or body."
+  }
+]

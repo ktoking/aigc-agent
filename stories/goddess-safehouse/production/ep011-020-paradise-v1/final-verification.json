@@ -1,0 +1,36 @@
+{
+  "scripts": 10,
+  "voice_cues": 95,
+  "audio_files": 10,
+  "audio_decode": "PASS_PRIOR_ASSEMBLY",
+  "images": 132,
+  "unique_hashes": 132,
+  "png_verify": "PASS",
+  "native_dimensions": [
+    [
+      1671,
+      941
+    ],
+    [
+      1672,
+      940
+    ],
+    [
+      1672,
+      941
+    ]
+  ],
+  "old_episode_texts_unchanged": true,
+  "no_old_episode_image_reuse": true,
+  "delivery_links_readback": "PASS",
+  "model_visual_review": "PASS_132_SELECTED_IMAGES",
+  "full_human_listening": "NOT_RUN",
+  "video_render": "PASS_RENDERED_SUBTITLED_DECODED",
+  "delivery": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/delivery/后10集_世外桃源_剧本图片多角色配音",
+  "collection_video": "delivery/后10集_世外桃源_剧本图片多角色配音/末世囤货_第11-20集合集_1.3倍速_多角色_字幕版.mp4",
+  "normal_speed_playback": "PASS_SAMPLED_OPENING_SEEK_ENDING",
+  "video_full_decode": "PASS",
+  "caption_count": 351,
+  "video_frames": 19628,
+  "video_duration_seconds": 654.2666666666667
+}

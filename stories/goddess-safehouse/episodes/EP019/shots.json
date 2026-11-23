@@ -1,0 +1,411 @@
+[
+  {
+    "shot_id": "EP019-S001",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C01",
+    "start_frame": 0,
+    "end_frame": 145,
+    "display_seconds": 4.833333333333333,
+    "unique_event": "陈屿站在旧客厅查看观察屏，屏内显示薄霜外的骨甲个体和高处伏行轮廓",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S001.txt",
+    "image_path": "episodes/EP019/frames/EP019-S001.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "54a4112999923d78da78855fbc7a46c90721d3bddd33376f70b572ede05a9e8e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S001.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ae4bd712-680a-47dd-ab9e-69da8be0a4c7.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S002",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C01",
+    "start_frame": 145,
+    "end_frame": 291,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "陈屿手指按下手机扩建确认，屏幕为抽象光块，无可读文字",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S002.txt",
+    "image_path": "episodes/EP019/frames/EP019-S002.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "fcbb1502b6216b420ff493e6619ea7798ec28506f95b51abb6e5c81dd9d6f2cd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S002.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dd557dcf-86dd-49e0-937c-f55ffebcd014.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S003",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C02",
+    "start_frame": 291,
+    "end_frame": 437,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "扩建后的宽拱口与新区域全景，没有人物",
+    "scene": "PARADISE",
+    "character_ids": [],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S003.txt",
+    "image_path": "episodes/EP019/frames/EP019-S003-take02.png",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "visual_review": null,
+    "image_sha256": "44cfc96eed4bb96afecb934d14834def2efffc494cf0fb2f14c6845b60a5c471",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S003-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-17c31dc5-66c0-4a33-b18d-7de3276a5b3c.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP019-S004",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C02",
+    "start_frame": 437,
+    "end_frame": 583,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "新开40平方米空耕地区的土畦与滴灌管特写",
+    "scene": "PARADISE",
+    "character_ids": [],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S004.txt",
+    "image_path": "episodes/EP019/frames/EP019-S004-take02.png",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "visual_review": null,
+    "image_sha256": "ce7c61565dcdea4a0ee262eca810ffaa000383300e3eb69e51cae3af29feb362",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S004-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-44578f20-6494-407f-9551-1b0965aff330.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP019-S005",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C02",
+    "start_frame": 583,
+    "end_frame": 729,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "Lv3新增诊疗室与第五卧室的空间与家具展示，无人物",
+    "scene": "PARADISE",
+    "character_ids": [],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S005.txt",
+    "image_path": "episodes/EP019/frames/EP019-S005-take02.png",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "visual_review": null,
+    "image_sha256": "cb699aba0a4b3f39eb5128390115e505bdeed44a393c614cc8e52d3b00591eec",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S005-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7805744d-0908-4c08-8a83-c416ba556828.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP019-S006",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C04",
+    "start_frame": 729,
+    "end_frame": 875,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "许知意推开新诊疗室门，看见药柜检查床和清洗台",
+    "scene": "诊疗室",
+    "character_ids": [
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S006.txt",
+    "image_path": "episodes/EP019/frames/EP019-S006.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "4cfac72fc92e7912a029414de7c4ce145394f97466f204d6479f718e3f07a7a9",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S006.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d3918213-5abb-420a-91eb-08200c2ea9cd.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S007",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C04",
+    "start_frame": 875,
+    "end_frame": 1021,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "夏凛站在室内耕地旁抬手试人工天光，脚仍在干燥步道上",
+    "scene": "PARADISE",
+    "character_ids": [
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S007.txt",
+    "image_path": "episodes/EP019/frames/EP019-S007.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "03b24dfceb849f3960c8b23dbd3a93a6d7a2732739d750c002e81fe8c7a37500",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S007.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-649bdb86-47a7-458e-b4b7-f16712fd5969.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S008",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C04",
+    "start_frame": 1021,
+    "end_frame": 1167,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "乔星野将脱下的短外套搭在椅背上，俯身检查新水循环接口，干燥地面整洁",
+    "scene": "诊疗室",
+    "character_ids": [
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S008.txt",
+    "image_path": "episodes/EP019/frames/EP019-S008.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "50c4b21bcebb7c1275a1e25d151d4a1a66d5552c9351526c26a7b50aa85b8c12",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S008.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8f203eac-5857-4972-acff-da96a38af285.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S009",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C06",
+    "start_frame": 1167,
+    "end_frame": 1313,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "陈屿将旧库存种子盒摆到种植区操作台上，夏凛在旁边",
+    "scene": "PARADISE",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S009.txt",
+    "image_path": "episodes/EP019/frames/EP019-S009.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "b72853dc1e902a3a9dbe042d671ac0186be33505e0e423277caf63e6467bdcf7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S009.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-24b0bdfa-2835-4703-bd26-3a216ff31a64.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S010",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C07",
+    "start_frame": 1313,
+    "end_frame": 1459,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "陈屿切西瓜，夏凛许知意乔星野按固定身份服装同桌",
+    "scene": "PARADISE餐桌",
+    "character_ids": [
+      "CHEN",
+      "XIA",
+      "XU",
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S010.txt",
+    "image_path": "episodes/EP019/frames/EP019-S010-take02.png",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "visual_review": null,
+    "image_sha256": "6e4d929e2d8f5327d6d6f33a69aed12ebaff8bdd2eff6b4a7208cbb11856da86",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S010-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-6ed1b264-ce4d-47f2-9469-8ed204b10aa5.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP019-S011",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C07",
+    "start_frame": 1459,
+    "end_frame": 1605,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "乔星野拿起一块西瓜，夏凛将外套搭在椅背，许知意在远处水槽洗手",
+    "scene": "PARADISE",
+    "character_ids": [
+      "XIA",
+      "XU",
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S011.txt",
+    "image_path": "episodes/EP019/frames/EP019-S011.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "924f782b0fc669f4f3cc33ff42c49899c32a9d361237941f85425b7a48407c52",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S011.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0a447a94-7b4b-4c65-9cfe-27240fa43e75.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S012",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C08",
+    "start_frame": 1605,
+    "end_frame": 1751,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "乔星野捧着西瓜抬眼看陈屿，带轻微傲娇笑意，成年气质",
+    "scene": "PARADISE",
+    "character_ids": [
+      "CHEN",
+      "QIAO"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S012.txt",
+    "image_path": "episodes/EP019/frames/EP019-S012.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "06bd398698fe7bf1f538375f3a17d34adabe330e0d82c5336abbb03913470b9e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S012.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-56da9113-54ef-458e-94bd-0c41b816613f.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S013",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C09",
+    "start_frame": 1751,
+    "end_frame": 1897,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "陈屿调暗入口观察屏，怪物仅存在于屏中二维影像",
+    "scene": "PARADISE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S013.txt",
+    "image_path": "episodes/EP019/frames/EP019-S013.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "a609ed0a3e34a361bb4c25dd2614742c473bd5420da0a9d7a178cd7e51a85439",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S013.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-814e22ba-8e71-4c0f-a063-100fc3142bf7.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP019-S014",
+    "episode": "EP019",
+    "anchor_cue": "EP019-C09",
+    "start_frame": 1897,
+    "end_frame": 2043,
+    "display_seconds": 4.866666666666666,
+    "unique_event": "陈屿将种子盒放进新柜子，室内耕地区旁宽步道被暖色人工天光照亮",
+    "scene": "PARADISE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/PARADISE-v1.png"
+    ],
+    "prompt_path": "episodes/EP019/image-prompts/EP019-S014.txt",
+    "image_path": "episodes/EP019/frames/EP019-S014.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "15fead54b8e739b42826676637248b5854eedfb4f17345bdaffb3126e74532ed",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP019-S014.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-128e26b8-2459-4bc9-9d40-acf4291d7da6.png",
+    "take": null
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "version": "paradise-v1",
+  "scripts_complete": 10,
+  "scripts_review": "PASS_TEXT_ONLY",
+  "voice_complete": 95,
+  "voice_total": 95,
+  "images_complete": 132,
+  "images_total": 132,
+  "timing": "MEASURED_AUDIO_1P3_LOCKED",
+  "videos": "PASS_RENDERED_SUBTITLED_DECODED",
+  "human_full_listening": "NOT_RUN",
+  "voice_status": "PASS_GENERATED_DECODED",
+  "voice_last": {
+    "cue_id": "EP020-C11",
+    "status": "PASS",
+    "speaker": "N",
+    "voice_id": "Chinese_worker_male",
+    "raw_audio_path": "episodes/EP020/audio/EP020-C11.mp3",
+    "audio_path": "episodes/EP020/audio-speed1p3/EP020-C11.wav",
+    "raw_duration_seconds": 12.6,
+    "actual_duration_seconds": 9.679417,
+    "audio_frames_30fps": 291,
+    "audio_sha256": "d2a881051d1fd4fc35fd559b1a3a47ed2273b6d0c85476bf9158e1561a354f63",
+    "source_text": "许知意把热汤放到桌子中间。乔星野关小收音机，拿起刚才没画完的工作间。耕地的水路开始缓缓滴灌，头顶那片天光，已经到了傍晚。",
+    "human_listening": "NOT_RUN"
+  },
+  "image_visual_review": "PASS_MODEL_VISUAL_REVIEW",
+  "delivery_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/delivery/后10集_世外桃源_剧本图片多角色配音",
+  "production_status": "COLLECTION_VIDEO_COMPLETE",
+  "collection_video": "delivery/后10集_世外桃源_剧本图片多角色配音/末世囤货_第11-20集合集_1.3倍速_多角色_字幕版.mp4",
+  "normal_speed_playback": "PASS_SAMPLED_OPENING_SEEK_ENDING"
+}

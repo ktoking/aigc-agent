@@ -1,0 +1,725 @@
+{
+  "episode": "EP015",
+  "version": "paradise-v1",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 1908,
+  "duration_seconds": 63.6,
+  "cues": [
+    {
+      "cue_id": "EP015-C01",
+      "episode": "EP015",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "楼上先放下一只工具包。随后，乔星野出现在窗沿，腰间系着夏凛检查过的安全绳。两盏院灯同时亮起，照明只留在门廊和入口前。",
+      "tts_text": "楼上先放下一只工具包。随后，乔星野出现在窗沿，腰间系着夏凛检查过的安全绳。两盏院灯同时亮起，照明只留在门廊和入口前。",
+      "scene": "门廊",
+      "character_ids": [
+        "QIAO"
+      ],
+      "events": [
+        "一只工具包垂到101门廊前亮区，二楼乔星野仍在窗内",
+        "成年乔星野在二楼窗沿系好安全绳，正下方门廊照明清楚"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C01.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C01.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C01.wav",
+      "raw_duration_seconds": 12.8,
+      "actual_duration_seconds": 9.853375,
+      "audio_frames_30fps": 296,
+      "audio_sha256": "45b49e25db863bdb2a4688ca972bfe2f4b0e7e87fa7979e93db9fe884d91c309",
+      "human_listening": "NOT_RUN",
+      "start_frame": 0,
+      "end_frame": 296,
+      "external_gap_before_frames": 0,
+      "display_text": "楼上先放下一只工具包 随后 乔星野出现在窗沿 腰间系着夏凛检查过的安全绳 两盏院灯同时亮起 照明只留在门廊和入口前"
+    },
+    {
+      "cue_id": "EP015-C02",
+      "episode": "EP015",
+      "speaker": "QIAO",
+      "speaker_name": "乔星野",
+      "voice_id": "female-tianmei",
+      "pitch": 0,
+      "source_text": "别催。我手没抖。是窗框太窄。",
+      "tts_text": "别催。我手没抖。是窗框太窄。",
+      "scene": "QIAO窗内",
+      "character_ids": [
+        "QIAO"
+      ],
+      "events": [
+        "乔星野抓稳窗框，嘴唇紧抿但不哭喊，合体短外套与长裤便于行动"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C02.txt",
+      "status": "PASS",
+      "direction": "成年元气甜声，轻傲娇，谈技术利落；不模仿幼童，不尖叫卖萌",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C02.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C02.wav",
+      "raw_duration_seconds": 3.622344,
+      "actual_duration_seconds": 2.773333,
+      "audio_frames_30fps": 84,
+      "audio_sha256": "eed4fc9e335b42e0d3f0861efad8ead1a2a6d3fb7dc315fe6cd9d6b2a49c3295",
+      "human_listening": "NOT_RUN",
+      "start_frame": 299,
+      "end_frame": 383,
+      "external_gap_before_frames": 3,
+      "display_text": "别催 我手没抖 是窗框太窄"
+    },
+    {
+      "cue_id": "EP015-C03",
+      "episode": "EP015",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "她落到门前的软垫上，腿一软，手里的电源箱碰响了地面。转角立刻传来急促的脚步。夏凛伸手抓住她的手臂，我接过箱子，把人一并带过门槛。",
+      "tts_text": "她落到门前的软垫上，腿一软，手里的电源箱碰响了地面。转角立刻传来急促的脚步。夏凛伸手抓住她的手臂，我接过箱子，把人一并带过门槛。",
+      "scene": "入口",
+      "character_ids": [
+        "CHEN",
+        "XIA",
+        "QIAO"
+      ],
+      "events": [
+        "乔星野落在门前软垫上，抱住小电源箱，入口已开启",
+        "夏凛从门内拉住乔星野手臂，陈屿接过电源箱，三人集中门槛内侧"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C03.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C03.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C03.wav",
+      "raw_duration_seconds": 13.5,
+      "actual_duration_seconds": 10.383917,
+      "audio_frames_30fps": 312,
+      "audio_sha256": "8b5923349a0f13f4b5a7e029d7f931325b607e2816411d0ced7ac104eccf84ef",
+      "human_listening": "NOT_RUN",
+      "start_frame": 386,
+      "end_frame": 698,
+      "external_gap_before_frames": 3,
+      "display_text": "她落到门前的软垫上 腿一软 手里的电源箱碰响了地面 转角立刻传来急促的脚步 夏凛伸手抓住她的手臂 我接过箱子 把人一并带过门槛"
+    },
+    {
+      "cue_id": "EP015-C04",
+      "episode": "EP015",
+      "speaker": "XIA",
+      "speaker_name": "夏凛",
+      "voice_id": "female-yujie",
+      "pitch": 0,
+      "source_text": "抬脚！",
+      "tts_text": "抬脚！",
+      "scene": "入口",
+      "character_ids": [
+        "XIA",
+        "QIAO"
+      ],
+      "events": [
+        "夏凛提醒乔星野抬过门槛，怪物仅在门外远处阴影"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C04.txt",
+      "status": "PASS",
+      "direction": "冷御姐，低稳短句；关心藏在行动里，软化时不换音色",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C04.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C04.wav",
+      "raw_duration_seconds": 1.230688,
+      "actual_duration_seconds": 0.959313,
+      "audio_frames_30fps": 29,
+      "audio_sha256": "7531cf1db205c16257f78e01eaf5871b8581d0cba8b654a3158fecdae9a62cc1",
+      "human_listening": "NOT_RUN",
+      "start_frame": 701,
+      "end_frame": 730,
+      "external_gap_before_frames": 3,
+      "display_text": "抬脚"
+    },
+    {
+      "cue_id": "EP015-C05",
+      "episode": "EP015",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "外门合上，第一下撞击紧跟着落下。乔星野蹲在地上，抱住箱子喘了两口气，抬头看见厨房和四扇卧室门，整个人不动了。",
+      "tts_text": "外门合上，第一下撞击紧跟着落下。乔星野蹲在地上，抱住箱子喘了两口气，抬头看见厨房和四扇卧室门，整个人不动了。",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO"
+      ],
+      "events": [
+        "乔星野进入暖色折叠空间后蹲在地上抱电源箱",
+        "乔星野抬头看见厨房、满货架与四卧室走廊，表情震惊"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C05.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C05.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C05.wav",
+      "raw_duration_seconds": 12.0,
+      "actual_duration_seconds": 9.233667,
+      "audio_frames_30fps": 278,
+      "audio_sha256": "8ea9eacba805984a4be0b43da0a44b72e30434bc2bae24d9d6523112c7496943",
+      "human_listening": "NOT_RUN",
+      "start_frame": 733,
+      "end_frame": 1011,
+      "external_gap_before_frames": 3,
+      "display_text": "外门合上 第一下撞击紧跟着落下 乔星野蹲在地上 抱住箱子喘了两口气 抬头看见厨房和四扇卧室门 整个人不动了"
+    },
+    {
+      "cue_id": "EP015-C06",
+      "episode": "EP015",
+      "speaker": "QIAO",
+      "speaker_name": "乔星野",
+      "voice_id": "female-tianmei",
+      "pitch": 0,
+      "source_text": "外面就一套老房子……你把这里藏哪儿了？",
+      "tts_text": "外面就一套老房子……你把这里藏哪儿了？",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO",
+        "CHEN"
+      ],
+      "events": [
+        "乔星野站在折叠入口内侧，望向陈屿，视线指向空间深处"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C06.txt",
+      "status": "PASS",
+      "direction": "成年元气甜声，轻傲娇，谈技术利落；不模仿幼童，不尖叫卖萌",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C06.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C06.wav",
+      "raw_duration_seconds": 3.831313,
+      "actual_duration_seconds": 2.933667,
+      "audio_frames_30fps": 89,
+      "audio_sha256": "484aea2f334a463de34b2476223838cc40b4ead9a3d2cee84a063e5a72ac977a",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1014,
+      "end_frame": 1103,
+      "external_gap_before_frames": 3,
+      "display_text": "外面就一套老房子 你把这里藏哪儿了"
+    },
+    {
+      "cue_id": "EP015-C07",
+      "episode": "EP015",
+      "speaker": "CHEN",
+      "speaker_name": "陈屿对白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "先洗手，吃饭。吃完再拆你的箱子。",
+      "tts_text": "先洗手，吃饭。吃完再拆你的箱子。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "QIAO"
+      ],
+      "events": [
+        "陈屿指向餐桌的热饭，乔星野把工具包放在旁边"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C07.txt",
+      "status": "PASS",
+      "direction": "少而直接，判断和命令落稳",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C07.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C07.wav",
+      "raw_duration_seconds": 4.0,
+      "actual_duration_seconds": 3.057063,
+      "audio_frames_30fps": 92,
+      "audio_sha256": "b82ae48e732abfcb0c205d01da1629b10068ccc2eba1f621c7860effb2c37fed",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1106,
+      "end_frame": 1198,
+      "external_gap_before_frames": 3,
+      "display_text": "先洗手 吃饭 吃完再拆你的箱子"
+    },
+    {
+      "cue_id": "EP015-C08",
+      "episode": "EP015",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "她签完屋规，吃掉满满一碗饭，筷子还攥着就开始点头。我把工具包放到她房间门边。第二天，她顶着睡乱的头发出来，手里已经画好了分路图。",
+      "tts_text": "她签完屋规，吃掉满满一碗饭，筷子还攥着就开始点头。我把工具包放到她房间门边。第二天，她顶着睡乱的头发出来，手里已经画好了分路图。",
+      "scene": "卧室QIAO",
+      "character_ids": [
+        "QIAO"
+      ],
+      "events": [
+        "乔星野在餐桌旁吃完饭困得点头，工具包靠在椅边",
+        "清晨乔星野站在自己房门口，头发稍乱，拿着手绘接线图"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C08.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C08.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C08.wav",
+      "raw_duration_seconds": 13.7,
+      "actual_duration_seconds": 10.548542,
+      "audio_frames_30fps": 317,
+      "audio_sha256": "ebb02f5cc7d572efd5e6414e9a8b9219c9af8df501a2d059ce6a498f8fb0e295",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1201,
+      "end_frame": 1518,
+      "external_gap_before_frames": 3,
+      "display_text": "她签完屋规 吃掉满满一碗饭 筷子还攥着就开始点头 我把工具包放到她房间门边 第二天 她顶着睡乱的头发出来 手里已经画好了分路图"
+    },
+    {
+      "cue_id": "EP015-C09",
+      "episode": "EP015",
+      "speaker": "QIAO",
+      "speaker_name": "乔星野",
+      "voice_id": "female-tianmei",
+      "pitch": 0,
+      "source_text": "线太乱了。看着难受，我顺手改一下。",
+      "tts_text": "线太乱了。看着难受，我顺手改一下。",
+      "scene": "工作角",
+      "character_ids": [
+        "QIAO"
+      ],
+      "events": [
+        "乔星野在整齐工作角摊开工具和接线图，神态恢复自信"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C09.txt",
+      "status": "PASS",
+      "direction": "成年元气甜声，轻傲娇，谈技术利落；不模仿幼童，不尖叫卖萌",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C09.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C09.wav",
+      "raw_duration_seconds": 4.214438,
+      "actual_duration_seconds": 3.225313,
+      "audio_frames_30fps": 97,
+      "audio_sha256": "959c4db7c1264cde1264b2ed8b0ded6f3547bebbc48f1cbc5ee988febdf2cfd6",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1521,
+      "end_frame": 1618,
+      "external_gap_before_frames": 3,
+      "display_text": "线太乱了 看着难受 我顺手改一下"
+    },
+    {
+      "cue_id": "EP015-C10",
+      "episode": "EP015",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "好感三十的检修套件落在桌上，配电组件正好补上她缺的接口。安心值四百四十。她摸了摸新电表，耳尖发红，把椅子往我旁边挪了半寸。",
+      "tts_text": "好感三十的检修套件落在桌上，配电组件正好补上她缺的接口。安心值四百四十。她摸了摸新电表，耳尖发红，把椅子往我旁边挪了半寸。",
+      "scene": "工作角",
+      "character_ids": [
+        "QIAO",
+        "CHEN"
+      ],
+      "events": [
+        "工作台上出现检修工具与整齐配电组件，无漂浮界面",
+        "乔星野坐在工作台边摸着新电表，陈屿坐在旁边观察"
+      ],
+      "text_path": "episodes/EP015/text-cues/EP015-C10.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP015/audio/EP015-C10.mp3",
+      "audio_path": "episodes/EP015/audio-speed1p3/EP015-C10.wav",
+      "raw_duration_seconds": 12.4,
+      "actual_duration_seconds": 9.544146,
+      "audio_frames_30fps": 287,
+      "audio_sha256": "87094253deee4582c9636ff26015e5338d6ef9b72d223c0a2af602dfcdb38d13",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1621,
+      "end_frame": 1908,
+      "external_gap_before_frames": 3,
+      "display_text": "好感三十的检修套件落在桌上 配电组件正好补上她缺的接口 安心值四百四十 她摸了摸新电表 耳尖发红 把椅子往我旁边挪了半寸"
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP015-S001",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C01",
+      "start_frame": 0,
+      "end_frame": 146,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "单独一只小工具包由绳子悬放到一楼101门廊前，仍悬在软垫上方，二楼窗框仅在上缘可见；本镜不出现任何人，不出现乔星野本人",
+      "scene": "门廊",
+      "character_ids": [],
+      "reference_paths": [],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S001.txt",
+      "image_path": "episodes/EP015/frames/EP015-S001-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "7940721dd88e5fdb06ddd8f53eb219a6f0de1c013ed7db3330343e205cc4e82e",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S001-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e6d731c4-9c40-42d6-addc-27a5a558ecf3.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP015-S002",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C01",
+      "start_frame": 146,
+      "end_frame": 293,
+      "display_seconds": 4.9,
+      "unique_event": "成年乔星野在二楼窗沿系好安全绳，正下方门廊照明清楚",
+      "scene": "门廊",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S002.txt",
+      "image_path": "episodes/EP015/frames/EP015-S002.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "aec3768bc64b96909796ea2ec31c7d8fcb4b65c1d0af297f6c11001a0588c717",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S002.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e6dd92ef-376e-413c-b85b-ffc11d7a87a6.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S003",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C02",
+      "start_frame": 293,
+      "end_frame": 440,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野扶窗准备下行，窗外改成常温住宅绿树",
+      "scene": "QIAO窗内",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP015/frames/EP015-S003.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S003.txt",
+      "image_path": "episodes/EP015/frames/EP015-S003-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "b27e50b911e8958a4720a9c628abf8a7c5f01a3a0b6dc97df9cc6ecfacb1bf97",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S003-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5d990e52-05a4-48b8-973d-da868741b184.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP015-S004",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C03",
+      "start_frame": 440,
+      "end_frame": 587,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野刚落在101外门前干燥软垫上，蹲姿抱稳小电源箱，箱角碰到地面；拍摄机位在公共门廊，她仍在门外，外门刚开启很窄的接引缝，门内不展示厨房库存",
+      "scene": "门廊",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S004.txt",
+      "image_path": "episodes/EP015/frames/EP015-S004-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "dbefcc2a7568373c9e7fcc0e919d98baeb324642345d54c1314262d913c33b01",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S004-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-879755bb-a981-4a26-9add-a0ad0e1c28b9.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP015-S005",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C03",
+      "start_frame": 587,
+      "end_frame": 733,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "夏凛从门内拉住乔星野手臂，陈屿接过电源箱，三人集中门槛内侧",
+      "scene": "入口",
+      "character_ids": [
+        "CHEN",
+        "XIA",
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S005.txt",
+      "image_path": "episodes/EP015/frames/EP015-S005.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "48b456e9e9b1e95a462eb384abd4271078e3c361887d6c910ca2ef5aafea416f",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S005.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-9dd83736-5faa-4750-9793-6710f9a86422.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S006",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C05",
+      "start_frame": 733,
+      "end_frame": 880,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野进入暖色折叠空间后蹲在地上抱电源箱",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S006.txt",
+      "image_path": "episodes/EP015/frames/EP015-S006.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "25dd2808f8085e89b531b152f0f2d25f1916ec0a61bdb677d4ee0dfcae119800",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S006.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-38e194f5-0794-4ab2-a49a-196fe481ecd6.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S007",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C05",
+      "start_frame": 880,
+      "end_frame": 1027,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野抬头看见厨房、满货架与四卧室走廊，表情震惊",
+      "scene": "HOME2",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S007.txt",
+      "image_path": "episodes/EP015/frames/EP015-S007.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "0f1025ee5ca9da20778790708cb2fcf74bfc1247ce81a50568241c31a790ad37",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S007.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8d09b6f9-1fd9-4204-8db9-a10aebdec173.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S008",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C06",
+      "start_frame": 1027,
+      "end_frame": 1174,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野站在折叠入口内侧，望向陈屿，视线指向空间深处",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S008.txt",
+      "image_path": "episodes/EP015/frames/EP015-S008.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "e898b3b76df29467776354afca556eae53d79e1c575bd88986cf82b15dff9c83",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S008.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4d21fe9b-5101-4a3c-bcb9-7afbcae6b42e.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S009",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C08",
+      "start_frame": 1174,
+      "end_frame": 1320,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "乔星野在餐桌旁吃完饭困得点头，工具包靠在椅边",
+      "scene": "卧室QIAO",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S009.txt",
+      "image_path": "episodes/EP015/frames/EP015-S009.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "fa87a4dab5379f9801c5735290fc4b70321982e8495cae95382e2cab2b719d2c",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S009.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1852c3c8-7247-4fc6-b09a-b4a607be3e8a.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S010",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C08",
+      "start_frame": 1320,
+      "end_frame": 1467,
+      "display_seconds": 4.9,
+      "unique_event": "清晨乔星野站在自己房门口，头发稍乱，拿着手绘接线图",
+      "scene": "卧室QIAO",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S010.txt",
+      "image_path": "episodes/EP015/frames/EP015-S010.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "44d7ce5dcf472d1e4063edecad3e630d10eecef7321f4be0ee8764622703240b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S010.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3135b9f5-24f3-4d39-947e-fd96c8f1310e.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S011",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C09",
+      "start_frame": 1467,
+      "end_frame": 1614,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野在整齐工作角摊开工具和接线图，神态恢复自信",
+      "scene": "工作角",
+      "character_ids": [
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S011.txt",
+      "image_path": "episodes/EP015/frames/EP015-S011.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "5fc67c1f6020327a5c50675bd94da3c3b9972e281b49c965a051bdc8682eb888",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S011.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ffda8363-026f-46ed-8903-c48aec87a606.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S012",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C10",
+      "start_frame": 1614,
+      "end_frame": 1761,
+      "display_seconds": 4.9,
+      "unique_event": "工作台上出现检修工具与整齐配电组件，无漂浮界面",
+      "scene": "工作角",
+      "character_ids": [
+        "QIAO",
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S012.txt",
+      "image_path": "episodes/EP015/frames/EP015-S012.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "4183d2e580792acc643023b27ac4cd758596a2f41c6dd289fdbca6327ac9edd6",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S012.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4f4368a4-2f5f-48bc-9ee9-a6d065955060.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP015-S013",
+      "episode": "EP015",
+      "anchor_cue": "EP015-C10",
+      "start_frame": 1761,
+      "end_frame": 1908,
+      "display_seconds": 4.9,
+      "unique_event": "乔星野坐在工作台边摸着新电表，陈屿坐在旁边观察",
+      "scene": "工作角",
+      "character_ids": [
+        "CHEN",
+        "QIAO"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/QIAO-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP015/image-prompts/EP015-S013.txt",
+      "image_path": "episodes/EP015/frames/EP015-S013.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "7221c34ff8a3bf2bc018f5a3452769c95cd47dd8a1f5006099c9866b4fbb7aa5",
+      "native_dimensions": [
+        1671,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP015-S013.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5a124c29-4290-4c08-be95-f918719d2b36.png",
+      "take": null
+    }
+  ],
+  "audio_status": "PASS_GENERATED_DECODED",
+  "post_atempo": 1.3,
+  "human_full_listening": "NOT_RUN",
+  "timing_note": "每cue最终1.3倍WAV实测；镜头按约5秒的整数帧格划分，角色对白可跨同一镜头；字幕与声轨读取同一cue边界。"
+}

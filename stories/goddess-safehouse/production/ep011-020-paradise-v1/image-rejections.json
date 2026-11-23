@@ -1,0 +1,310 @@
+[
+  {
+    "shot_id": "EP011-S002",
+    "image_path": "episodes/EP011/frames/EP011-S002.png",
+    "sha256": "1ec416b2413bedcbb256c828419291aa3a6aa2b29995888e7d3e83626888de77",
+    "reason": "门内旧客厅被画成折叠空间，厨房与货架不应在外门后直接可见",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S003",
+    "image_path": "episodes/EP011/frames/EP011-S003.png",
+    "sha256": "b8dacf3fca0838881920463247d085ee7c893ba8a4c6533c49dacd85b4a005bb",
+    "reason": "外门未明确闭合且后方带折叠空间库存，与旧客厅边界冲突",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S004",
+    "image_path": "episodes/EP011/frames/EP011-S004.png",
+    "sha256": "31e0e01cf30912a89eb6a0484fa6953abe5b8c23cc7a919e97703476833b23b7",
+    "reason": "旧客厅出现库存与厨房，应为朴素小起居室",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S006",
+    "image_path": "episodes/EP011/frames/EP011-S006.png",
+    "sha256": "6c5606253a9d1217aca0e9ebff4557a0923de564f8e251c3704a411c9475cd71",
+    "reason": "入内层前的包扎错误出现在带厨房货架的大空间",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S008",
+    "image_path": "episodes/EP011/frames/EP011-S008.png",
+    "sha256": "1050f69b4dbb9494e14ecaff755f7aebedb562a3411f012101181fe2360f5203",
+    "reason": "入内层前的医疗镜头空间错误",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S009",
+    "image_path": "episodes/EP011/frames/EP011-S009.png",
+    "sha256": "71f632a5b7551099d0c5d2ec123da7bca6c4d229900ba19062525a5eb98889d4",
+    "reason": "饮水发生在旧客厅，背景不应带内层厨房库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP012-S002",
+    "image_path": "episodes/EP012/frames/EP012-S002.png",
+    "sha256": "b5affa03b28f5e3522318840b79b5c1aa2543d03d72d3258b71b8282b976708c",
+    "reason": "王大富位于门外，镜头却带内层厨房与库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S001",
+    "image_path": "episodes/EP013/frames/EP013-S001.png",
+    "sha256": "9d0b631faf9a3d9e517327c6b2a3ea090666d06fea5482b5ac692836554e81bc",
+    "reason": "持械逼门应为紧闭外门且不出现实体女主，生成了开门与女主",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S003",
+    "image_path": "episodes/EP013/frames/EP013-S003.png",
+    "sha256": "9736372bd24ed1cc1fd97a3c987b81c73ec1a293343e8cc80ea7d7920eb39bee",
+    "reason": "制止夏凛接战发生在外层旧客厅，背景不应带库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S001",
+    "image_path": "episodes/EP011/frames/EP011-S001.png",
+    "sha256": "a4f86131e80ef08803d6e04c36a3ce97d8d51eba4cad8df0b03bf0288ed47757",
+    "reason": "入门镜头背景直接通大厨房库存，破坏旧客厅到内层的边界",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S007",
+    "image_path": "episodes/EP011/frames/EP011-S007.png",
+    "sha256": "566b7110ed4b508fa400bf545ce64bee1730d2515be741fdd1f4d9c03b8051ac",
+    "reason": "包扎镜头在进入内层前，背景错误画厨房库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP012-S001",
+    "image_path": "episodes/EP012/frames/EP012-S001.png",
+    "sha256": "d24ef1b42116561236a2d5f90917824df620156a5dab4ec0d4867cf704f57a33",
+    "reason": "外层门镜镜头不应直接露出折叠空间库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S002",
+    "image_path": "episodes/EP013/frames/EP013-S002.png",
+    "sha256": "9a49b6ab881d6e2c60d536bbd67cf8f736a90f7374e2edf97ad53d155102fb11",
+    "reason": "门外逼门镜头出现女主及重复陈屿，外门开着",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S004",
+    "image_path": "episodes/EP013/frames/EP013-S004.png",
+    "sha256": "0cb3a177e79075ca170ede514af61a2e483253f95fa9a7117a752c5cd8e783f1",
+    "reason": "查看防护发生在旧客厅，不应有大开间厨房库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S005",
+    "image_path": "episodes/EP013/frames/EP013-S005.png",
+    "sha256": "82d0af28d4196f131719f8f8801de1076e90c8c5165bee0f382337bd149debc3",
+    "reason": "掉落撬棍应为门外无主角道具镜头，生成了女主和开门",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S006",
+    "image_path": "episodes/EP013/frames/EP013-S006.png",
+    "sha256": "d2c7dcb8c36c1d4355515bff91bad7d58d670adf365a202226c8a76d5b95da8d",
+    "reason": "扶手怪爪应为屋外无主角镜头，生成了屋内主角与开门",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP013-S007",
+    "image_path": "episodes/EP013/frames/EP013-S007.png",
+    "sha256": "d8e591019726e4f196a71d149fbc66edbb4277268022ca3d8d787b6a3acb6e51",
+    "reason": "倾听发生在旧客厅，背景错误连通厨房库存",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S001",
+    "image_path": "episodes/EP014/frames/EP014-S001.png",
+    "sha256": "5fe79199bae52b621c191bd5fb9937cbf008481265d1c28640002057f88cbe9c",
+    "reason": "檐下怪物镜头不应出现四名主角站屋外，且D2未到寒潮",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S002",
+    "image_path": "episodes/EP014/frames/EP014-S002.png",
+    "sha256": "43ed42fd1eefb64fa26b6bdffbeb141f845819113ec24c38f0e67dda42dc2c5e",
+    "reason": "怪物检修光镜头误加夏凛，且提前有冰雪",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S003",
+    "image_path": "episodes/EP014/frames/EP014-S003.png",
+    "sha256": "a67d7c5e4234729bbc826567b93db05fbc52325179ae214fbc0b5bb4f1dd08b1",
+    "reason": "D2的201窗外提前出现寒潮雪景",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S004",
+    "image_path": "episodes/EP014/frames/EP014-S004.png",
+    "sha256": "264c39b029d32be3a7b4ea642aa4496f026ff2b4b0c9fa44fd15c3267a3bd0d6",
+    "reason": "陈屿查信息应在旧客厅，不在大厨房旁",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S005",
+    "image_path": "episodes/EP014/frames/EP014-S005.png",
+    "sha256": "8bf8931cd4e04e45bec18f8031bab52e31eb6281d58af6f7641d33c849573b6f",
+    "reason": "远控院灯被画成开门手持双手电，边界与道具错误",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S006",
+    "image_path": "episodes/EP014/frames/EP014-S006.png",
+    "sha256": "c1e3d98e40535ceba53f469b461dadcdcc000c64af8c5811744b4ab7a9cb1739",
+    "reason": "D2窗外提前有寒潮霜雪",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S008",
+    "image_path": "episodes/EP014/frames/EP014-S008.png",
+    "sha256": "7aae35112b37b4a64d54bc3a6e9978f8bd278715cb211267a4b7e3564c7d573e",
+    "reason": "绳索检查被画成举起硬质长管，且空间错误",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S010",
+    "image_path": "episodes/EP014/frames/EP014-S010.png",
+    "sha256": "e9440ea725f9c09b4192ccfd66bbf2ccd95b9da4211606fe9a4dbda21212d0e7",
+    "reason": "旧客厅检查工具被画成内层大库存空间",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP015-S001",
+    "image_path": "episodes/EP015/frames/EP015-S001.png",
+    "sha256": "285981c1c0a35db354133c45fd8a6f9e75c366a83a253f833e89ffe49fe74cb9",
+    "reason": "接引阶段/门内外状态或骨甲外形、寒潮时间不符，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP015-S004",
+    "image_path": "episodes/EP015/frames/EP015-S004.png",
+    "sha256": "c138d15dd4d013574be9f38824c8b402282e0c522a601b8c21156426e3676669",
+    "reason": "接引阶段/门内外状态或骨甲外形、寒潮时间不符，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP017-S001",
+    "image_path": "episodes/EP017/frames/EP017-S001.png",
+    "sha256": "168aeaf35fc722c80ff1ea1cc78e9b916b7729418cd2f555b781fcb0c810acf6",
+    "reason": "接引阶段/门内外状态或骨甲外形、寒潮时间不符，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP017-S002",
+    "image_path": "episodes/EP017/frames/EP017-S002.png",
+    "sha256": "51d6df8ceb76c52a2b3d88b506c1ee4805e25ad158b0662377ccec61919a75bb",
+    "reason": "接引阶段/门内外状态或骨甲外形、寒潮时间不符，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S005",
+    "image_path": "episodes/EP011/frames/EP011-S005.png",
+    "sha256": "a4be175e19e1061d7491ecd0680ccf8e5b54a05e9b94b5b9beea1c88d6b35694",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP011-S006",
+    "image_path": "episodes/EP011/frames/EP011-S006-take02.png",
+    "sha256": "ed12cb7f468f1a4b0e834f0b72d2d9398474984b154e85ac7d5ccff2e4c11c40",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S001",
+    "image_path": "episodes/EP014/frames/EP014-S001-take02.png",
+    "sha256": "704c35f97965e98f661f4fa2df3e10efee42331be0b63638fbfdf311bbd2f25e",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S002",
+    "image_path": "episodes/EP014/frames/EP014-S002-take02.png",
+    "sha256": "d4615b6b5222bc61efe694f085b2bdd5e000cb54ec0b26ecceafcb7e75a32d6f",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S005",
+    "image_path": "episodes/EP014/frames/EP014-S005-take02.png",
+    "sha256": "1bfdf9fde418a2e22fee4f270c0bb3db55622982406fc7b75a017adeb89faec5",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S007",
+    "image_path": "episodes/EP014/frames/EP014-S007.png",
+    "sha256": "4cb44d9d14df545df8453494d298c2bed617160aeefee1a3b4af32a301f1a78c",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S009",
+    "image_path": "episodes/EP014/frames/EP014-S009.png",
+    "sha256": "74f23ed074751405ca70bdd7e2474d0bfdc065df9c759520270f9f0e2743f61a",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP014-S011",
+    "image_path": "episodes/EP014/frames/EP014-S011.png",
+    "sha256": "ed2bbedbb22e22cbfbd260465cb0c02ba922baf162df115fb5d1cc4a9014f069",
+    "reason": "复核门闭合、无人外景与寒潮前常温状态，收紧为单一事件镜头",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP019-S003",
+    "image_path": "episodes/EP019/frames/EP019-S003.png",
+    "sha256": "9380c8880e66ea2d12f2dca38e2196ee18385cbb843771ed57d2f8dd96ce8704",
+    "reason": "扩建展示误增农夫/提前播种、四人身份服装或观察屏误作真实窗，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP019-S004",
+    "image_path": "episodes/EP019/frames/EP019-S004.png",
+    "sha256": "7a88f877ad9cf4ff8adccea0c8badc91357fc80b8665e723d7826a77af5141b7",
+    "reason": "扩建展示误增农夫/提前播种、四人身份服装或观察屏误作真实窗，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP019-S005",
+    "image_path": "episodes/EP019/frames/EP019-S005.png",
+    "sha256": "1f2f31a3bb5a2b1c077ffe1fc70cc4adeef8c4a487270c6ee0c4e1656010db1a",
+    "reason": "扩建展示误增农夫/提前播种、四人身份服装或观察屏误作真实窗，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP019-S010",
+    "image_path": "episodes/EP019/frames/EP019-S010.png",
+    "sha256": "1e5f82862dc898859562112a4ca9dee09a9160c472942f634420d12d5e846a36",
+    "reason": "扩建展示误增农夫/提前播种、四人身份服装或观察屏误作真实窗，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP020-S001",
+    "image_path": "episodes/EP020/frames/EP020-S001.png",
+    "sha256": "4779b658419bba7f1e870d53b6b352143f6a718e5744508032484852c015e7a7",
+    "reason": "扩建展示误增农夫/提前播种、四人身份服装或观察屏误作真实窗，定点修正",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP015-S003",
+    "image_path": "episodes/EP015/frames/EP015-S003.png",
+    "sha256": "da4e4c20e6d7fb3f39e309478b6622771af27865d65b5efe332a9bbb779e4d7a",
+    "reason": "修正早期窗外雪景或将薄霜监视画面误作真实开门",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  },
+  {
+    "shot_id": "EP018-S012",
+    "image_path": "episodes/EP018/frames/EP018-S012.png",
+    "sha256": "6796d000ecf0d00b19a5528f3e3257e926079204c3c1974734bd1cc249bc7f21",
+    "reason": "修正早期窗外雪景或将薄霜监视画面误作真实开门",
+    "status": "REJECTED_MODEL_VISUAL_REVIEW"
+  }
+]

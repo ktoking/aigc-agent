@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e40951e529ea161bad92f794b413c",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "门关好了。先坐下，把手给我，别动。剩下的事，等你休息好了再说。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "female-yujie",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 8352,
+    "audio_sample_rate": 32000,
+    "audio_size": 135348,
+    "bitrate": 128000,
+    "word_count": 31,
+    "invisible_character_ratio": 0,
+    "usage_characters": 56,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/production/ep011-020-paradise-v1/voice-tests/XIA.mp3",
+  "bytes": 135348,
+  "sha256": "7b07126765da3754c1a6cb64e1da286a6b7d595299005f03e481457784ed86b7",
+  "subtitle_files_generated": false
+}

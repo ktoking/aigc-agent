@@ -1,0 +1,203 @@
+[
+  {
+    "cue_id": "EP016-C01",
+    "episode": "EP016",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "群里最后一段语音，是有人拧着干涩的水龙头骂人。紧跟着，一串消息挤上来，问我借水，借药，借一个晚上。我把手机扣在桌上。",
+    "tts_text": "群里最后一段语音，是有人拧着干涩的水龙头骂人。紧跟着，一串消息挤上来，问我借水，借药，借一个晚上。我把手机扣在桌上。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "events": [
+      "陈屿坐在餐桌边将收到密集消息的手机扣下，屏幕无可读字",
+      "餐桌旁整齐饮水库存与药柜状态完好，外门方向关闭"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C01.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C02",
+    "episode": "EP016",
+    "speaker": "XU",
+    "speaker_name": "许知意",
+    "voice_id": "female-chengshu",
+    "pitch": 0,
+    "source_text": "该换药了。你今天只用了这一只手？",
+    "tts_text": "该换药了。你今天只用了这一只手？",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU",
+      "CHEN"
+    ],
+    "events": [
+      "许知意坐近陈屿检查他手背的纱布边缘"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C02.txt",
+    "status": "PENDING",
+    "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C03",
+    "episode": "EP016",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "许知意拆开纱布，夏凛从厨房端来牛肉和蒸蛋。乔星野刚把外灯改成分路，便把空出来的一小块桌面占了，伏着画图。她画了十分钟，笔尖在纸上拖出一道长线。",
+    "tts_text": "许知意拆开纱布，夏凛从厨房端来牛肉和蒸蛋。乔星野刚把外灯改成分路，便把空出来的一小块桌面占了，伏着画图。她画了十分钟，笔尖在纸上拖出一道长线。",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU",
+      "XIA",
+      "QIAO"
+    ],
+    "events": [
+      "许知意准备换药，夏凛把牛肉与蒸蛋端上桌，乔星野坐在桌角画图",
+      "乔星野画图时困得低头，笔尖在纸上留下长线"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C03.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C04",
+    "episode": "EP016",
+    "speaker": "QIAO",
+    "speaker_name": "乔星野",
+    "voice_id": "female-tianmei",
+    "pitch": 0,
+    "source_text": "没睡。这个地方……还差一根线。",
+    "tts_text": "没睡。这个地方……还差一根线。",
+    "scene": "HOME2",
+    "character_ids": [
+      "QIAO"
+    ],
+    "events": [
+      "乔星野撑着脸抬头，手里仍捏着笔，带轻微傲娇困意"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C04.txt",
+    "status": "PENDING",
+    "direction": "成年元气甜声，轻傲娇，谈技术利落；不模仿幼童，不尖叫卖萌",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C05",
+    "episode": "EP016",
+    "speaker": "CHEN",
+    "speaker_name": "陈屿对白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "图留着。去床上补觉。",
+    "tts_text": "图留着。去床上补觉。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "QIAO"
+    ],
+    "events": [
+      "陈屿把笔从乔星野手边轻轻收起，示意卧室方向"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C05.txt",
+    "status": "PENDING",
+    "direction": "少而直接，判断和命令落稳",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C06",
+    "episode": "EP016",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "我把她画好的那半张图夹平，又给夏凛留了满满一碗饭。许知意换好药，握住我的手腕，让我别急着起身。她的手已经不像刚进门时那么凉。",
+    "tts_text": "我把她画好的那半张图夹平，又给夏凛留了满满一碗饭。许知意换好药，握住我的手腕，让我别急着起身。她的手已经不像刚进门时那么凉。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XU",
+      "XIA"
+    ],
+    "events": [
+      "陈屿将半张接线图放入平整文件夹，夏凛面前有一碗留好的饭",
+      "许知意轻握陈屿手腕检查伤口恢复，二人神态自然"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C06.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C07",
+    "episode": "EP016",
+    "speaker": "XU",
+    "speaker_name": "许知意",
+    "voice_id": "female-chengshu",
+    "pitch": 0,
+    "source_text": "好了。今天不用再包那么紧。",
+    "tts_text": "好了。今天不用再包那么紧。",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU",
+      "CHEN"
+    ],
+    "events": [
+      "许知意给陈屿贴上小块干净敷料，收起剪刀"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C07.txt",
+    "status": "PENDING",
+    "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C08",
+    "episode": "EP016",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "下午，两间卧室先后安静下来。安心值到了四百五十五。奖励页在我手里展开：耕地能继续扩，花园、温泉浴池、诊疗室都还暗着。最下方写着，住客持续安居，可领取后续扩展。",
+    "tts_text": "下午，两间卧室先后安静下来。安心值到了四百五十五。奖励页在我手里展开：耕地能继续扩，花园、温泉浴池、诊疗室都还暗着。最下方写着，住客持续安居，可领取后续扩展。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "events": [
+      "陈屿独自坐在餐桌边看手机，身后卧室门关着，桌上饭菜已收好",
+      "陈屿手中手机显示抽象房间模块与土地缩略图，无可读文字"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C08.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP016-C09",
+    "episode": "EP016",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "我把刚烧好的水留在保温壶里，关掉走廊那盏顶灯。门外有人又喊了一声，屋里的呼吸没有被惊动。",
+    "tts_text": "我把刚烧好的水留在保温壶里，关掉走廊那盏顶灯。门外有人又喊了一声，屋里的呼吸没有被惊动。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "events": [
+      "陈屿把保温壶放好，调暗卧室走廊照明",
+      "安静的暖色走廊，卧室门关好，小夜灯低亮"
+    ],
+    "text_path": "episodes/EP016/text-cues/EP016-C09.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  }
+]

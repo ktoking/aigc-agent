@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e446a0c500fc9deb7f1420759638e",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "夏凛站了片刻，卸下刚挂好的装备，连同短棍放回柜边。那张一直绷着的脸松了一点。她伸手，把我衣领上没翻好的半边捋平。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 12348,
+    "audio_sample_rate": 32000,
+    "audio_size": 199284,
+    "bitrate": 128000,
+    "word_count": 56,
+    "invisible_character_ratio": 0,
+    "usage_characters": 106,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP017/audio/EP017-C05.mp3",
+  "bytes": 199284,
+  "sha256": "8f03681cff82b159c1cfc43da36e9477c79e0dd5b2a4250c6e76e0d754dfefb2",
+  "subtitle_files_generated": false
+}

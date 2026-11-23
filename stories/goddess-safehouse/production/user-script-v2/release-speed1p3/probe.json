@@ -1,0 +1,294 @@
+{
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1088,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 4,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 13198336,
+      "duration": "859.266667",
+      "bit_rate": "713174",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "25778",
+      "nb_read_frames": "25778",
+      "extradata_size": 46,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc62.11.100 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 41244768,
+      "duration": "859.266000",
+      "bit_rate": "192957",
+      "nb_frames": "40280",
+      "nb_read_frames": "40279",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    {
+      "index": 2,
+      "codec_name": "bin_data",
+      "codec_long_name": "binary data",
+      "codec_type": "data",
+      "codec_tag_string": "text",
+      "codec_tag": "0x74786574",
+      "id": "0x3",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/1000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 859267,
+      "duration": "859.267000",
+      "bit_rate": "3",
+      "nb_frames": "10",
+      "extradata_size": 63,
+      "disposition": {
+        "default": 0,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "eng",
+        "handler_name": "SubtitleHandler"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 102000,
+      "end_time": "102.000000",
+      "tags": {
+        "title": "第1集《倒计时90天》"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 102000,
+      "start_time": "102.000000",
+      "end": 177933,
+      "end_time": "177.933000",
+      "tags": {
+        "title": "第2集《验证》"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 177933,
+      "start_time": "177.933000",
+      "end": 253533,
+      "end_time": "253.533000",
+      "tags": {
+        "title": "第3集《砸锅卖铁》"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 253533,
+      "start_time": "253.533000",
+      "end": 345067,
+      "end_time": "345.067000",
+      "tags": {
+        "title": "第4集《内行》"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 345067,
+      "start_time": "345.067000",
+      "end": 420067,
+      "end_time": "420.067000",
+      "tags": {
+        "title": "第5集《冷面保安》"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 420067,
+      "start_time": "420.067000",
+      "end": 507733,
+      "end_time": "507.733000",
+      "tags": {
+        "title": "第6集《月薪五万》"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 507733,
+      "start_time": "507.733000",
+      "end": 598700,
+      "end_time": "598.700000",
+      "tags": {
+        "title": "第7集《热水澡》"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/1000",
+      "start": 598700,
+      "start_time": "598.700000",
+      "end": 678300,
+      "end_time": "678.300000",
+      "tags": {
+        "title": "第8集《药店》"
+      }
+    },
+    {
+      "id": 8,
+      "time_base": "1/1000",
+      "start": 678300,
+      "start_time": "678.300000",
+      "end": 762267,
+      "end_time": "762.267000",
+      "tags": {
+        "title": "第9集《最后24小时》"
+      }
+    },
+    {
+      "id": 9,
+      "time_base": "1/1000",
+      "start": 762267,
+      "start_time": "762.267000",
+      "end": 859267,
+      "end_time": "859.267000",
+      "tags": {
+        "title": "第10集《血月》"
+      }
+    }
+  ],
+  "format": {
+    "filename": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/production/user-script-v2/release-speed1p3/末世囤货_前10集合集_1.3倍速_字幕版.mp4",
+    "nb_streams": 3,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "859.267000",
+    "size": "98275247",
+    "bit_rate": "914968",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "末世囤货：我的安全屋住满了女神 · 前10集合集",
+      "encoder": "Lavf62.3.100"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e450a513f9897563d1eec723b312e",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我从保鲜货架拿出西瓜，切成四份。乔星野忙完回来，发梢都翘着，抢先拿走最薄皮的那块。夏凛脱下厚外套，许知意在水槽洗手。屋里四个人，谁都没再提外出的事。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 15804,
+    "audio_sample_rate": 32000,
+    "audio_size": 254580,
+    "bitrate": 128000,
+    "word_count": 74,
+    "invisible_character_ratio": 0,
+    "usage_characters": 139,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP019/audio/EP019-C07.mp3",
+  "bytes": 254580,
+  "sha256": "357ba7220cd43beacc0b8a071aa9e833ce4ad4c9a6936c6ecdae4b130f77537f",
+  "subtitle_files_generated": false
+}

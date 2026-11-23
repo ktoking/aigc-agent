@@ -1,0 +1,12 @@
+{
+  "shot_id": "EP011-S006",
+  "take": 3,
+  "generator": "built-in image_gen",
+  "prompt": "单张横屏16:9真人写实电影静帧，清楚主体、自然材质、适度细节，干燥整洁，没有字幕水印，不是拼贴。仅两位成年主角，参考1锁陈屿、参考2锁许知意的脸。陈屿深灰夹克灰T，许知意完整白大褂浅蓝上衣浅灰裙。两人坐在灰色沙发上，许知意为陈屿已干净包覆的手背整理白纱布，专注温柔。中近景背景只有暖灰墙与一角旧木茶几，医疗箱在桌上。不画任何门窗、厨房、货架、外景或怪物，不展示伤口血迹。\n",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+  ],
+  "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-42d6951c-2576-48e7-b732-66049e80b742.png",
+  "transparent_background": false
+}

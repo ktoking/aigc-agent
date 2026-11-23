@@ -1,0 +1,132 @@
+{
+  "episode": "EP001",
+  "original_count": 3,
+  "generated_count": 7,
+  "segments": [
+    {
+      "segment": "segment_01_00-15s",
+      "character": "C01",
+      "first_frame": {
+        "path": "frames/first-frame.png",
+        "exists": true,
+        "width": 941,
+        "height": 1672,
+        "sha256": "f98ef712a62df3272f79b4bf72c8d31fcac77737e04b5e80ebc768daf193887d",
+        "role": "revised_first_frame_and_identity",
+        "anchor_seconds": 0,
+        "revision": "v2",
+        "purpose": "锁定六花侧目、服装、站位和从袖口自然伸出捏翻领的右手。",
+        "source": "ImageGen，使用修复尾帧及附件侧目表情作为参考，2026-11-19"
+      },
+      "tail_reference": {
+        "path": "frames/last-frame.png",
+        "exists": true,
+        "width": 941,
+        "height": 1672,
+        "sha256": "65617b314df4b09c23c376479a09591622e682f8588ff982b243d446e58594d0",
+        "role": "generated_tail_expression_reference",
+        "anchor_seconds": 14.8,
+        "revision": "v2",
+        "purpose": "锁定直视、同一处翻领握点和肩旁悬滴。",
+        "source": "ImageGen，在 v1 尾帧上修复手腕与袖口穿模，2026-11-19"
+      },
+      "archive": {
+        "attachment": "../../../assets/reference/rikka.png",
+        "rejected_tail": {
+          "path": "frames/rejected/last-frame-v1.png",
+          "exists": true,
+          "width": 941,
+          "height": 1672,
+          "sha256": "1228d8c38f3e4afe07e0d4569b61de9151c475d78fcdbba3fdc8cb9bb9b75562",
+          "reason": "手腕从翻领与外套之间穿出，未接到袖口。"
+        }
+      },
+      "mid_frame": {
+        "path": "frames/mid-frame.png",
+        "role": "generated_acting_turn",
+        "anchor_seconds": 9.4,
+        "exists": true,
+        "width": 941,
+        "height": 1672,
+        "sha256": "6f17d115eb3b52a1e320c74493cef95aeb7a1ad1139ab9ad58c478b7863b11f9",
+        "purpose": "重心移向画右窗侧，胸口和腰线朝窗转约四十度，近肩遮住部分远肩。头跟到接近侧脸，右肘降低，松开的手指落在胸口下方。",
+        "source": "ImageGen，以修正版首帧复核人物、制服和布景，强化上半身动作，2026-11-20"
+      }
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "character": "C02",
+      "first_frame": {
+        "path": "frames/first-frame.png",
+        "role": "original_first_frame_and_identity",
+        "anchor_seconds": 0,
+        "exists": true,
+        "width": 1122,
+        "height": 1402,
+        "sha256": "98dfdc469d6ac2e6092ce9b677e4c0699d28d744135ba9fdcaf2a221600d6f49",
+        "purpose": "锁开场构图、人物、制服和布景",
+        "source": "../../../assets/reference/hina.png"
+      },
+      "tail_reference": {
+        "path": "frames/last-frame.png",
+        "role": "generated_tail_expression_reference",
+        "anchor_seconds": 14.8,
+        "exists": true,
+        "width": 992,
+        "height": 1586,
+        "sha256": "c7bd8dfde1d303a249ca8969ef09d394bc052599e74356f6048f2e9066c64691",
+        "purpose": "尾图宽高比约5:8，保留展掌全轮廓。用于核对掌心方向和克制的笑。全段保持首帧机位、脸部尺度和手的实际距离。",
+        "source": "ImageGen，以该角色附件原图指导生成，2026-11-19"
+      },
+      "mid_frame": {
+        "path": "frames/mid-frame.png",
+        "role": "generated_acting_turn",
+        "anchor_seconds": 8.3,
+        "exists": true,
+        "width": 992,
+        "height": 1585,
+        "sha256": "72548cfb5cfecfa5f0f3c55bd6fd64ea1368d10cdb962872a320bea012c1b05f",
+        "purpose": "左手收回腰带前，上半身从髋部向前俯约二十度，肩头和脸明显低于开场，眼睛在看收回的掌心，马尾跟着垂下来。",
+        "source": "ImageGen，以暖金食堂尾帧复核人物、制服和布景，强化上半身动作，2026-11-20"
+      }
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "character": "C03",
+      "first_frame": {
+        "path": "frames/first-frame.png",
+        "role": "original_first_frame_and_identity",
+        "anchor_seconds": 0,
+        "exists": true,
+        "width": 1122,
+        "height": 1402,
+        "sha256": "f7040da770d25105792f4b38c5b37e5ebdb2a7028efd56c9df1e0f4bdd458be3",
+        "purpose": "锁开场构图、人物、制服和布景",
+        "source": "../../../assets/reference/mio.png"
+      },
+      "tail_reference": {
+        "path": "frames/last-frame.png",
+        "role": "generated_tail_expression_reference",
+        "anchor_seconds": 14.8,
+        "exists": true,
+        "width": 941,
+        "height": 1672,
+        "sha256": "c32babd488dcbdb5448a18d7132f1a7d204ad6f5ace54fea87a3af6841fff63a",
+        "purpose": "尾图只参考合掌高度、闭嘴偷笑与视线。生成图衬衣领口多了一颗装饰扣，视频以原图领口为准，不复制该新增细节。",
+        "source": "ImageGen，以该角色附件原图指导生成，2026-11-19"
+      },
+      "mid_frame": {
+        "path": "frames/mid-frame.png",
+        "role": "generated_acting_turn",
+        "anchor_seconds": 10.7,
+        "exists": true,
+        "width": 1122,
+        "height": 1402,
+        "sha256": "9b19ab49640918b727d10e5412592c0aaeb11830c2b6fba29f0463cfdfa82e5c",
+        "purpose": "半步跨到画面右侧，腰胯和胸口朝画左约四十度，肩前后错开，薄荷裙褶随重心偏移。回头看男主，右食指朝左点出通道。",
+        "source": "ImageGen，以图书馆附件首帧复核人物、制服和布景，强化上半身动作，2026-11-20"
+      }
+    }
+  ],
+  "active_anchor_count": 9
+}

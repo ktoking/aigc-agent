@@ -1,0 +1,59 @@
+{
+  "status": "REFERENCES_READY",
+  "character": "C01",
+  "default_inputs": [
+    {
+      "path": "frames/first-frame.png",
+      "exists": true,
+      "width": 941,
+      "height": 1672,
+      "sha256": "f98ef712a62df3272f79b4bf72c8d31fcac77737e04b5e80ebc768daf193887d",
+      "role": "revised_first_frame_and_identity",
+      "anchor_seconds": 0,
+      "revision": "v2",
+      "purpose": "锁定六花侧目、服装、站位和从袖口自然伸出捏翻领的右手。",
+      "source": "ImageGen，使用修复尾帧及附件侧目表情作为参考，2026-11-19",
+      "index": 1,
+      "label": "开场首帧"
+    },
+    {
+      "path": "frames/mid-frame.png",
+      "role": "generated_acting_turn",
+      "anchor_seconds": 9.4,
+      "exists": true,
+      "width": 941,
+      "height": 1672,
+      "sha256": "6f17d115eb3b52a1e320c74493cef95aeb7a1ad1139ab9ad58c478b7863b11f9",
+      "purpose": "重心移向画右窗侧，胸口和腰线朝窗转约四十度，近肩遮住部分远肩。头跟到接近侧脸，右肘降低，松开的手指落在胸口下方。",
+      "source": "ImageGen，以修正版首帧复核人物、制服和布景，强化上半身动作，2026-11-20",
+      "index": 2,
+      "label": "表演转折"
+    },
+    {
+      "path": "frames/last-frame.png",
+      "exists": true,
+      "width": 941,
+      "height": 1672,
+      "sha256": "65617b314df4b09c23c376479a09591622e682f8588ff982b243d446e58594d0",
+      "role": "generated_tail_expression_reference",
+      "anchor_seconds": 14.8,
+      "revision": "v2",
+      "purpose": "锁定直视、同一处翻领握点和肩旁悬滴。",
+      "source": "ImageGen，在 v1 尾帧上修复手腕与袖口穿模，2026-11-19",
+      "index": 3,
+      "label": "终态尾帧"
+    }
+  ],
+  "archive": {
+    "attachment": "../../../assets/reference/rikka.png",
+    "rejected_tail": {
+      "path": "frames/rejected/last-frame-v1.png",
+      "exists": true,
+      "width": 941,
+      "height": 1672,
+      "sha256": "1228d8c38f3e4afe07e0d4569b61de9151c475d78fcdbba3fdc8cb9bb9b75562",
+      "reason": "手腕从翻领与外套之间穿出，未接到袖口。"
+    }
+  },
+  "revision": "galgame-v4"
+}
