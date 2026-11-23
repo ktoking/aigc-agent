@@ -1,0 +1,20 @@
+{
+  "id": "F01_action_v2",
+  "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/action-frame.png",
+  "prompt": "Use case: identity-preserve. 编辑这张已生成电影画面，仅修正构图以免错误持剑手进入画面。保持这同一位黑发男主的脸、发冠、黑银甲胄、愤怒说话表情、看向右方师弟的视线、右侧虚焦师弟肩膀、桥与仙山背景、光色完全不变。将镜头推近为男主胸口以上的65mm近景，画面下边缘严格在胸骨中部，双手、手腕、剑柄、剑鞘全部在画面之外，画面中绝对不要出现任何手或武器。不是加遮挡物，不是涂抹，重新给出自然的胸上近景。仍为16:9单幅写实国风CG电影画面，无文字无水印。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_01/action-frame.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 1,
+  "phase": "action",
+  "script_time_seconds": 8,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-84772ebd-a7d8-470f-95cc-3c9d5f7a5901.png",
+  "status": "UNSELECTED_EXTRA_DRAFT",
+  "path": "frames/segment_01/action-frame-v2.png",
+  "sha256": "630e2775dc8088f13130bec51de4867a855e4ea0aaa32de67930495ee74a5e2d",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

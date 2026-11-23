@@ -1,0 +1,16 @@
+{
+  "id": "S02",
+  "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单幅电影场景资产。无人。28mm广角，视线从石桥后门洞进入青玄宗外院：左前门洞通向画外石桥，中间约8米宽的整洁灰石院地，右后方短宽石阶通向关闭的深色丹殿木门；门前只是一组矮阶，不是百级天梯。两根承重石柱左右分列，右柱紧邻门前台阶，可在刀剑战斗中被击中；地面极淡浅金阵纹但不写字，不升起光墙。延续石桥同一黄昏冷灰光、屋檐暖边光与远处云海，布旗低调。场景可供两守卫先后交战、白发长老阻门，确保门、右柱与台阶在同一2米近战区域。无角色、无血、无尸体、无飘浮武器。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-05.png"
+  ],
+  "kind": "asset",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-e52a1c23-63b3-454b-9d4f-0d2e5c8d332e.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "path": "scenes/S02-sword-court-reference.png",
+  "sha256": "74da7c43105ea4a7c14baee71dc85096238bccbc7970c2b846e24c40875de0dc",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

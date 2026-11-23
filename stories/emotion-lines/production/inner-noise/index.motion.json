@@ -1,0 +1,111 @@
+{
+  "duration": 60,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#phrase-0",
+      "bySec": 1
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#failure",
+      "bySec": 4
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#leaf-0",
+      "bySec": 24
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#label-prepare",
+      "bySec": 36
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#phrase-18",
+      "bySec": 59
+    },
+    {
+      "kind": "keepsMoving",
+      "withinSelector": "#drawing-layer",
+      "maxStaticSec": 6
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-0"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-1"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-2"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-3"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-4"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-5"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-6"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-7"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-8"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-9"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-10"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-11"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-12"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-13"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-14"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-15"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-16"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-17"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#phrase-18"
+    }
+  ]
+}

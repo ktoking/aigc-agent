@@ -1,0 +1,37 @@
+2026-10-18T06:30:27Z ERR Configuration file /dev/null was empty
+2026-10-18T06:30:27Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-10-18T06:30:27Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-10-18T06:30:32Z INF +--------------------------------------------------------------------------------------------+
+2026-10-18T06:30:32Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-10-18T06:30:32Z INF |  https://radius-hypothetical-clicks-bestsellers.trycloudflare.com                          |
+2026-10-18T06:30:32Z INF +--------------------------------------------------------------------------------------------+
+2026-10-18T06:30:32Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-10-18T06:30:32Z INF Version 2026.1.2 (Checksum 4a2c4394d9f8a01b9e010120a3a4c96a145c6b24f82460248687284683d1141c)
+2026-10-18T06:30:32Z INF GOOS: darwin, GOVersion: go1.25.6, GoArch: arm64
+2026-10-18T06:30:32Z INF Settings: map[config:/dev/null ha-connections:1 no-autoupdate:true p:http2 protocol:http2 url:http://127.0.0.1:61886]
+2026-10-18T06:30:32Z INF cloudflared will not automatically update if installed by a package manager.
+2026-10-18T06:30:32Z INF Generated Connector ID: f5306980-045d-448f-989e-663e7ab09150
+2026-10-18T06:30:32Z INF Initial protocol http2
+2026-10-18T06:30:32Z INF ICMP proxy will use 10.12.202.151 as source for IPv4
+2026-10-18T06:30:32Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-10-18T06:30:32Z INF Created ICMP proxy listening on 10.12.202.151:0
+2026-10-18T06:30:32Z INF Created ICMP proxy listening on [::1]:0
+2026-10-18T06:30:32Z INF ICMP proxy will use 10.12.202.151 as source for IPv4
+2026-10-18T06:30:32Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-10-18T06:30:32Z INF Starting metrics server on 127.0.0.1:20243/metrics
+2026-10-18T06:30:33Z INF Registered tunnel connection connIndex=0 connection=21948cd6-13a7-450b-ab6c-069e0fe2e931 event=0 ip=198.41.192.27 location=hkg01 protocol=http2
+2026-10-18T06:32:04Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T06:32:04Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-10-18T06:32:12Z ERR  error="context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T06:32:12Z ERR failed to serve incoming request error="Failed to proxy HTTP: context canceled"
+2026-10-18T06:42:43Z ERR  error="context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T06:42:43Z ERR failed to serve incoming request error="Failed to proxy HTTP: context canceled"
+2026-10-18T06:53:23Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T06:53:23Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-10-18T11:28:08Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T11:28:08Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-10-18T11:53:23Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T11:53:23Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-10-18T12:00:49Z ERR  error="context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:61886
+2026-10-18T12:00:49Z ERR failed to serve incoming request error="Failed to proxy HTTP: context canceled"
+2026-10-19T02:03:27Z INF Initiating graceful shutdown due to signal terminated ...

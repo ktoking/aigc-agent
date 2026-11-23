@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><title>跌怕了吗｜炒股低谷期</title><script src="assets/gsap.min.js"></script><style>
+@font-face{font-family:LocalSong;src:url(assets/songti.ttc)}
+@font-face{font-family:LocalSans;src:url(assets/sans.ttc)}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111b1c}
+#root{position:absolute;inset:0;width:100%;height:100%;color:#f2ead9;font-family:LocalSans,sans-serif}
+.clip{position:absolute;inset:0;width:100%;height:100%}
+.bg{position:absolute;inset:0;background:#111b1c}
+.topline{position:absolute;left:88px;right:88px;top:132px;display:flex;justify-content:space-between;font-size:25px;letter-spacing:4px;color:#bdc6bd}
+.footer{position:absolute;left:88px;right:88px;bottom:120px;display:flex;justify-content:space-between;font-size:23px;color:#bdc6bd;letter-spacing:2px}
+.captionclip{position:absolute;inset:auto;left:100px;right:100px;top:1460px;height:225px;width:auto}.caption-box{position:absolute;left:100px;right:100px;top:1460px;height:225px;display:flex;align-items:flex-start;justify-content:center}
+.caption{position:absolute;inset:0;font-size:51px;line-height:1.65;text-align:center;display:flex;align-items:flex-start;justify-content:center;color:#f2ead9;font-weight:500;letter-spacing:1px}
+.caption span{display:block;max-width:860px}
+.meter{position:absolute;left:88px;bottom:192px;width:904px;height:3px;background:#334344}
+.progress{width:100%;height:100%;background:#d8ad70;transform-origin:left center}
+.headline{position:absolute;left:80px;right:80px;top:270px;text-align:center;font-family:LocalSong,serif;font-size:154px;font-weight:700;line-height:1.2;letter-spacing:-4px;margin:0}
+.kicker{position:absolute;left:80px;right:80px;top:485px;text-align:center;font-size:28px;letter-spacing:5px;color:#bdc6bd}
+.visual{position:absolute;left:0;top:560px;width:1080px;height:860px;overflow:hidden}
+.world{transform-origin:540px 1050px}
+.svg-label{font-family:LocalSans,sans-serif;font-weight:500;letter-spacing:2px}
+</style></head><body>
+ <div id="root" data-composition-id="drawdown" data-width="1080" data-height="1920" data-duration="10" data-fps="30"><div class="bg"></div><div id="theater" style="position:absolute;inset:0"><div id="mount-scene-1" class="clip" data-composition-id="scene-1" data-composition-src="compositions/scene-1.html" data-start="0" data-duration="8.535" data-track-index="1"></div><div id="mount-scene-2" class="clip" data-composition-id="scene-2" data-composition-src="compositions/scene-2.html" data-start="8.535" data-duration="1.4649999999999999" data-track-index="2"></div></div><div id="caption-clip-0" class="clip captionclip" data-start="0" data-duration="2.185" data-track-index="8"><span class="caption" id="cue0"><span>跌怕了吗</span></span></div><div id="caption-clip-1" class="clip captionclip" data-start="2.185" data-duration="2.1300000000000003" data-track-index="8"><span class="caption" id="cue1"><span>明明已经很小心了，</span></span></div><div id="caption-clip-2" class="clip captionclip" data-start="4.315" data-duration="4.22" data-track-index="8"><span class="caption" id="cue2"><span>账户，还是一片绿。</span></span></div><div id="caption-clip-3" class="clip captionclip" data-start="8.535" data-duration="1.4649999999999999" data-track-index="9"><span class="caption" id="cue3"><span>最沉的，可能不只是亏损。</span></span></div>
+ <div class="topline"><span>写给投资低谷中的你</span><span>慢 慢 站 稳</span></div>
+ <div class="meter"><div class="progress" id="progress"></div></div>
+ <div class="footer"><span>跌怕了吗</span><span>让生活，先回到自己手里</span></div>
+ <audio id="original-music" src="assets/reference-soundtrack.m4a" data-start="0" data-duration="10" data-media-start="0" data-track-index="20" data-volume="1"></audio>
+ </div><script>document.fonts.ready.then(()=>{const tl=gsap.timeline({paused:true});tl.fromTo("#cue0",{scale:1.06,opacity:0},{scale:1,x:0,y:0,opacity:1,duration:.28,ease:"power3.out"},0);tl.fromTo("#cue1",{x:-30,opacity:0},{scale:1,x:0,y:0,opacity:1,duration:.28,ease:"power3.out"},2.185);tl.fromTo("#cue2",{y:24,opacity:0},{scale:1,x:0,y:0,opacity:1,duration:.28,ease:"power3.out"},4.315);tl.fromTo("#cue3",{scale:1.06,opacity:0},{scale:1,x:0,y:0,opacity:1,duration:.28,ease:"power3.out"},8.535);tl.fromTo("#progress",{scaleX:0},{scaleX:1,duration:10,ease:"none"},0);window.__timelines["drawdown"]=tl;});</script></body></html>

@@ -1,0 +1,787 @@
+{
+  "story_id": "blood-debt-at-the-sect",
+  "episode": "EP001_return-to-the-sect",
+  "version": "v4",
+  "status": "IMAGES_AND_PROMPTS_READY_VIDEO_NOT_GENERATED",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 120,
+  "fps": 30,
+  "planned_total_frames": 3600,
+  "segments": [
+    {
+      "id": "segment_01_00-15s",
+      "title": "山门怒斥",
+      "start_seconds": 0,
+      "end_seconds": 15,
+      "duration_seconds": 15,
+      "planned_start_frame": 0,
+      "planned_end_frame_exclusive": 450,
+      "director_prompt": "segment_01_00-15s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "0.0–4.5秒",
+          "陆青",
+          "师兄，你住手吧，师傅已经原谅你了。"
+        ],
+        [
+          "5.0–10.8秒",
+          "谢无咎",
+          "去他的修仙，不过是吃人的世界。"
+        ],
+        [
+          "11.3–13.8秒",
+          "谢无咎",
+          "我看谁敢拦我。"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 4,
+      "start_state": "35mm中近景，男主黑银肩背占画面左侧四分之一，陆青在右侧清晰对焦，铁剑横在胸前，男主青霜剑仍在左腰鞘内，双方未接触。",
+      "end_state": "85mm手部特写，男主左手扣住左腰鞘口，左腕半截银簪在画面中央；右手只将青霜剑拔出约12厘米，冰蓝刃光掠过半簪焦黑断口。陆青在右后方虚焦，未受伤。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 4.7,
+          "title": "横剑劝阻"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 4.7,
+          "end_seconds": 10.9,
+          "title": "压怒反打"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 10.9,
+          "end_seconds": 13.9,
+          "title": "拔剑前的警告"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 13.9,
+          "end_seconds": 15,
+          "title": "蓝光照见遗物"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "石桥横剑劝阻，男主尚未拔剑；锁两人身份、桥面轴线与黄昏光",
+          "segment_time_hint_seconds": 0,
+          "sha256": "bde7448d17aa3238a86a8338b2cb3fc1f58331d6223c17c08d0f092625886e16",
+          "source_generation_id": "F01_first"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "右手只抽出约12厘米剑刃，左腕半簪特写；锁遗物、正确持握与回忆转场锚点",
+          "segment_time_hint_seconds": 15,
+          "sha256": "c09a224544b7d36b51d25e39df4aefade0cfd5141c0909302dc0e87768663571",
+          "source_generation_id": "F01_last"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-reference.png",
+          "role": "陆青身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22"
+        }
+      ]
+    },
+    {
+      "id": "segment_02_15-30s",
+      "title": "师姐入炉",
+      "start_seconds": 15,
+      "end_seconds": 30,
+      "duration_seconds": 15,
+      "planned_start_frame": 450,
+      "planned_end_frame_exclusive": 900,
+      "director_prompt": "segment_02_15-30s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "1.8–7.8秒",
+          "谢无咎／第一人称回忆旁白",
+          "他们抓活人炼丹。师姐去救人，也被扔了进去。"
+        ],
+        [
+          "8.0–8.6秒",
+          "沈照月",
+          "快逃！"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 5,
+      "start_state": "继承前段85mm左腕半簪特写，青霜剑只拔出12厘米，半簪断口被蓝光照亮，背景仍是当前石桥。",
+      "end_state": "回到当前石桥的50mm男主半身，右手把青霜剑完全拔出并垂在身体右侧，左腕半簪仍固定红绳上；陆青在右后方虚焦。男主尚未击剑。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 1.8,
+          "title": "断簪触发回忆"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 1.8,
+          "end_seconds": 4.8,
+          "title": "看见活人丹房"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 4.8,
+          "end_seconds": 9.2,
+          "title": "回锋手势与最后一声快逃"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 9.2,
+          "end_seconds": 11.6,
+          "title": "合盖与断簪"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 11.6,
+          "end_seconds": 15,
+          "title": "回到当下出鞘"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "此前的丹殿回忆：师姐在炉内、玄衡控盖、男主受束；只用于回忆段，暖色炉光",
+          "segment_time_hint_seconds": 8.2,
+          "sha256": "344f0c3450b28571ca2d562ecfb01f6007302e09f9cb7c12cddb2e31503cd16e",
+          "source_generation_id": "F02_action"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "回到当前石桥，男主右手完整出鞘、师弟仍在去路一侧；不把师姐带到当前",
+          "segment_time_hint_seconds": 15,
+          "sha256": "593c64ed7d0d7dc41b4b7776eef82aff1fe493ec430f121a2359c4162e395660",
+          "source_generation_id": "F02_last"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-reference.png",
+          "role": "沈照月身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "1ccab26c99db0d6e0f14a8286d434cc69b7c9b71e846498ec181138845d89d87"
+        },
+        {
+          "index": 5,
+          "kind": "character_turnaround",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-reference.png",
+          "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+        },
+        {
+          "index": 6,
+          "kind": "character_turnaround",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-reference.png",
+          "role": "陆青只在返回当前石桥时的右后景虚焦出现，不进入丹殿回忆",
+          "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22"
+        }
+      ]
+    },
+    {
+      "id": "segment_03_30-45s",
+      "title": "破山门剑阵",
+      "start_seconds": 30,
+      "end_seconds": 45,
+      "duration_seconds": 15,
+      "planned_start_frame": 900,
+      "planned_end_frame_exclusive": 1350,
+      "director_prompt": "segment_03_30-45s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "3.2–6.8秒",
+          "领头守卫",
+          "封山！别让丹房的事传出去！"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 4,
+      "start_state": "50mm桥端中景，男主在左、陆青在右，两剑尚未相触；男主右手完整青霜剑低垂，陆青铁剑横拦。",
+      "end_state": "35mm外院中景，男主已跨过两守卫，站在通向丹殿台阶前，青霜剑右手下垂并有一处小缺口；一名守卫倒在画面左地面，一名倒在右后地面，金色阵纹全灭。陆青留在画外石桥，没有追杀。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "拨剑过桥"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.9,
+          "title": "封山剑阵成形"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.9,
+          "end_seconds": 10.8,
+          "title": "先破左阵脚"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10.8,
+          "end_seconds": 15,
+          "title": "避刺反击与破阵"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "外院与第一名守卫碰刃，另一名在后方待攻，三人各一实体",
+          "segment_time_hint_seconds": 9,
+          "sha256": "a01b6369c8e2e552450d86a87a4c9d813e98c42210c1a9317aceff7a0a945a1a",
+          "source_generation_id": "F03_action"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "两守卫倒地、阵灭、男主提剑看台阶；无血浆或伤口特写",
+          "segment_time_hint_seconds": 15,
+          "sha256": "4133a5ee97ad825c6c413944abd3a3b536621fa6cb0c2fbab5310f550cfd6f6b",
+          "source_generation_id": "F03_last"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-reference.png",
+          "role": "陆青身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22"
+        },
+        {
+          "index": 5,
+          "kind": "character_turnaround",
+          "character_id": "C06",
+          "path": "frames/C06-two-guards-reference.png",
+          "role": "两名执剑守卫身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "935fa63c660ecfcdc04d85a8990f4bfa30b0827982adc28b2373cb4a81321eb8"
+        }
+      ]
+    },
+    {
+      "id": "segment_04_45-60s",
+      "title": "斩执法长老",
+      "start_seconds": 45,
+      "end_seconds": 60,
+      "duration_seconds": 15,
+      "planned_start_frame": 1350,
+      "planned_end_frame_exclusive": 1800,
+      "director_prompt": "segment_04_45-60s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "0.3–2.8秒",
+          "白璃",
+          "丹成之前，你进不去。"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 5,
+      "start_state": "35mm低机位双人中景，男主右手缺口直剑在左下前景，白璃位于右上方台阶，右手暗红弯刀斜垂，丹殿半掩门在她后方。",
+      "end_state": "50mm男主肩侧近景，左手将丹殿门推开一道窄缝，左上臂衣袖有新刀伤；白璃倒在门边石阶、暗红弯刀脱手留地，右侧石柱有新刀痕。男主右手仍是缺口青霜直剑。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "长老封门"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.5,
+          "title": "下劈造成第一处伤"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.5,
+          "end_seconds": 10.5,
+          "title": "借横斩把刀引入石柱"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10.5,
+          "end_seconds": 13.2,
+          "title": "抓住卡刀的半拍"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 13.2,
+          "end_seconds": 15,
+          "title": "推门承接丹殿"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "男主右手直剑将白璃弯刀导入右柱，左上臂已受刀伤；不复制错误左右手",
+          "segment_time_hint_seconds": 9.5,
+          "sha256": "398aadbf7e068e9315a653827ac5d0f66c1a258c7dcf4e7f4adf278b086738e3",
+          "source_generation_id": "F04_action_v2"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "白璃已倒地，弯刀留阶，男主右手提剑、左手推半掩门扉",
+          "segment_time_hint_seconds": 15,
+          "sha256": "0321499395ddc27ecdd4c1b0cdaa9b32560443541a788e023212b3f81dae4b89",
+          "source_generation_id": "F04_last"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-reference.png",
+          "role": "白璃身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "5a79f9847d073834e5669a100bfd6109761ec0d9d13f424e5e46b5829551b5ae"
+        }
+      ]
+    },
+    {
+      "id": "segment_05_60-75s",
+      "title": "丹殿见师傅",
+      "start_seconds": 60,
+      "end_seconds": 75,
+      "duration_seconds": 15,
+      "planned_start_frame": 1800,
+      "planned_end_frame_exclusive": 2250,
+      "director_prompt": "segment_05_60-75s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "3.0–7.7秒",
+          "谢无咎",
+          "她叫你一声师傅，你却把她炼成了丹。"
+        ],
+        [
+          "8.0–10.8秒",
+          "玄衡",
+          "她的灵根，正好补老夫的伤。"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 4,
+      "start_state": "50mm肩后近景，男主左掌抵着只开一掌宽的门，右剑斜下；门缝金光照到他左上臂破袖。",
+      "end_state": "35mm双人中景，男主退到左侧石柱前，右剑仍在手；玄衡在右侧举玄金剑，左掌仍连丹炉金线。炉眼上方旧裂纹、侧沿衣角与遗骨都已建立。 男主下唇右侧新增一丝鲜血。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "门开交代对决空间"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 7.8,
+          "title": "看到师姐遗物后质问"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 7.8,
+          "end_seconds": 11,
+          "title": "玄衡纳气与回答"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 11,
+          "end_seconds": 15,
+          "title": "第一剑被护体震退"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "丹殿对峙，玄衡右手金剑、左掌吸炉气；左上臂旧伤在远侧可被遮挡",
+          "segment_time_hint_seconds": 9,
+          "sha256": "8e97ab94a3acc377b2d31a7bd5b516ab89d40d558e4ea4470648091bfbb45e91",
+          "source_generation_id": "F05_action_v2"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "金罡震退后的屈膝卸力，男主嘴角有细血，玄衡仍有金罡与供能",
+          "segment_time_hint_seconds": 15,
+          "sha256": "338c68e851f1c55df9e3980b103d6479dd29e728abc037590b3fcfdfeecffbf5",
+          "source_generation_id": "F05_last_v2"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-reference.png",
+          "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+        }
+      ]
+    },
+    {
+      "id": "segment_06_75-90s",
+      "title": "试出丹炉弱点",
+      "start_seconds": 75,
+      "end_seconds": 90,
+      "duration_seconds": 15,
+      "planned_start_frame": 2250,
+      "planned_end_frame_exclusive": 2700,
+      "director_prompt": "segment_06_75-90s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "10.0–14.4秒",
+          "玄衡",
+          "你别忘了，你的剑法，也是我教的。"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 4,
+      "start_state": "35mm男主左柱前与玄衡同框，男主右手缺口直剑向上，左上臂伤未变；玄衡右剑准备压制、左掌金线连炉。 男主嘴角细血痕保留。",
+      "end_state": "40mm双人中景，玄衡右剑前压，正挡在炉前；男主在左前约一剑半距离，前脚退回近柱位置、抬右剑露右肩，目光已落在炉眼新缺口。 男主嘴角细血痕保留；右腕已露出极小的沉腕回锋准备动作。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "压剑逼近"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.8,
+          "title": "斜切落到炉眼"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.8,
+          "end_seconds": 10.0,
+          "title": "供能中断被看见"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10,
+          "end_seconds": 15,
+          "title": "师傅以授剑之恩压人"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "炉眼缺口形成后的半拍，供能变弱，玄衡回看炉眼；不是全殿爆炸",
+          "segment_time_hint_seconds": 7.3,
+          "sha256": "5ef2fbf58b5c71b9fc427c66550f5df25324bb640aa4e7e5175da5b650c476a6",
+          "source_generation_id": "F06_action"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "玄衡挡炉恢复金罡，男主抬剑准备诱招；新缺口不能愈合",
+          "segment_time_hint_seconds": 15,
+          "sha256": "c098efe6a269d8a28af30ce6a1be3ee3b443b2f25f812b7c96c04342b7241ccf",
+          "source_generation_id": "F06_last"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-reference.png",
+          "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+        }
+      ]
+    },
+    {
+      "id": "segment_07_90-105s",
+      "title": "毁炉回锋，反制师傅",
+      "start_seconds": 90,
+      "end_seconds": 105,
+      "duration_seconds": 15,
+      "planned_start_frame": 2700,
+      "planned_end_frame_exclusive": 3150,
+      "director_prompt": "segment_07_90-105s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "0.0–1.9秒",
+          "谢无咎",
+          "师姐的命，你拿什么还？"
+        ],
+        [
+          "2.0–3.4秒",
+          "玄衡",
+          "孽徒，找死！"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 6,
+      "start_state": "男主左前近柱抬右剑佯攻，左上臂旧伤、嘴角细血；玄衡右金剑待刺、左掌连炉，新炉眼缺口仍在。",
+      "end_state": "以参考图2为准：玄衡活着背靠炉台，男主右手青霜剑抵其胸前，右肩甲边缘擦伤与嘴角血保留；左腕半簪在，金罡已灭，玄金剑脱手后近竖直卡在左柱缝内。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3.4,
+          "title": "血债质问与师傅压杀"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3.4,
+          "end_seconds": 5.8,
+          "title": "擦肩入柱，低身让出剑路"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 5.8,
+          "end_seconds": 8.8,
+          "title": "借近身通道破炉并拔剑"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 8.8,
+          "end_seconds": 10.8,
+          "title": "丹火反噬，玄衡失防松剑"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 10.8,
+          "end_seconds": 12,
+          "title": "离开剑路，回锋蓄势"
+        },
+        {
+          "id": "L06",
+          "start_seconds": 12,
+          "end_seconds": 15,
+          "title": "以师姐的回锋势制住玄衡"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "男主已缩身避开肩侧致命线，右肩擦伤；右手青剑击炉眼，玄衡右金剑仍近柱",
+          "segment_time_hint_seconds": 7.6,
+          "sha256": "8e93bc9e3a52a66328dadb3ddcb4665fa82a454ece7737d93653f9f69a620d9c",
+          "source_generation_id": "F07_action"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "金罡已破，男主右剑抵玄衡胸前、师傅活着受制；金剑脱手后近竖直卡在左柱缝内",
+          "segment_time_hint_seconds": 15,
+          "sha256": "6f1382c995d5d625b7d0295eeec7c40b1b3314a90c65aff32f4bf4e56f3f1858",
+          "source_generation_id": "F07_last"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-reference.png",
+          "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+        }
+      ]
+    },
+    {
+      "id": "segment_08_105-120s",
+      "title": "替天行道，血债了结",
+      "start_seconds": 105,
+      "end_seconds": 120,
+      "duration_seconds": 15,
+      "planned_start_frame": 3150,
+      "planned_end_frame_exclusive": 3600,
+      "director_prompt": "segment_08_105-120s/director-promt.txt",
+      "frame_status": "2_KEYFRAMES_GENERATED",
+      "generation_status": "VIDEO_NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "0.5–3.7秒",
+          "玄衡",
+          "你……是如何习得这剑法的？"
+        ],
+        [
+          "4.6–6.3秒",
+          "谢无咎",
+          "不过是替天行道。"
+        ]
+      ],
+      "prompt_version": "v4",
+      "shot_count": 6,
+      "start_state": "参考图1：玄衡活着惊惧、男主右剑抵胸，右肩甲边缘擦伤和嘴角血保留；金剑近竖直留在左柱。",
+      "end_state": "文字结束状态：玄衡已死在炉台旁；男主带遗物提青剑向殿门走，左腕只留红绳，嘴角血已擦去，右肩擦伤保留，金剑仍卡柱。两张参考不额外生成尾图。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3.8,
+          "title": "玄衡惊问剑法来历"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3.8,
+          "end_seconds": 6.4,
+          "title": "左拇指抹血，冷声回答"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.4,
+          "end_seconds": 7.8,
+          "title": "最后一剑，师徒恩断"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 7.8,
+          "end_seconds": 8.5,
+          "title": "放剑腾手"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 8.5,
+          "end_seconds": 12.6,
+          "title": "半簪归于遗骨"
+        },
+        {
+          "id": "L06",
+          "start_seconds": 12.6,
+          "end_seconds": 15,
+          "title": "提剑向殿外走去"
+        }
+      ],
+      "reference_images": [
+        {
+          "index": 1,
+          "kind": "keyframe",
+          "path": "frames/keyframe_01.png",
+          "role": "玄衡活着惊惧、青剑抵胸，先问剑法来历；不能提前死亡",
+          "segment_time_hint_seconds": 0,
+          "sha256": "f72a2f51701b80cad2773a99339e9ecabe864e769f2e83f258ff2cb31ea67fa0",
+          "source_generation_id": "F08_first"
+        },
+        {
+          "index": 2,
+          "kind": "keyframe",
+          "path": "frames/keyframe_02.png",
+          "role": "男主左拇指抹血、右手稳剑，右肩甲边缘擦伤；背景炉眼仍缺损，随后答话并最后刺击",
+          "segment_time_hint_seconds": 4.3,
+          "sha256": "4762f3902f802702b27453164c9cf312f6786775533ba7560920ab3e5738fc6a",
+          "source_generation_id": "F08_action_v2"
+        },
+        {
+          "index": 3,
+          "kind": "character_turnaround",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-reference.png",
+          "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+        },
+        {
+          "index": 4,
+          "kind": "character_turnaround",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-reference.png",
+          "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+          "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+        }
+      ]
+    }
+  ],
+  "script_version": "v4",
+  "dialogue_version": "v3",
+  "latest_summary": "完整剧情与分段提示词-v4.md",
+  "prompt_revision": "按用户修改五句台词；新增师姐回锋势铺垫与最后两段对白，惊问后抹血回答再杀师。",
+  "reference_policy": "每段2张关键帧＋仅实际出场人物三视图，均在本段frames"
+}

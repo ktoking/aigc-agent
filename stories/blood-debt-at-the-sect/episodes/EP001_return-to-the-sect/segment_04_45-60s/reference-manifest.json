@@ -1,0 +1,41 @@
+{
+  "version": "v4",
+  "segment": "segment_04_45-60s",
+  "policy": "2 keyframes plus appearing-character turnarounds only",
+  "references": [
+    {
+      "index": 1,
+      "kind": "keyframe",
+      "path": "frames/keyframe_01.png",
+      "role": "男主右手直剑将白璃弯刀导入右柱，左上臂已受刀伤；不复制错误左右手",
+      "segment_time_hint_seconds": 9.5,
+      "sha256": "398aadbf7e068e9315a653827ac5d0f66c1a258c7dcf4e7f4adf278b086738e3",
+      "source_generation_id": "F04_action_v2"
+    },
+    {
+      "index": 2,
+      "kind": "keyframe",
+      "path": "frames/keyframe_02.png",
+      "role": "白璃已倒地，弯刀留阶，男主右手提剑、左手推半掩门扉",
+      "segment_time_hint_seconds": 15,
+      "sha256": "0321499395ddc27ecdd4c1b0cdaa9b32560443541a788e023212b3f81dae4b89",
+      "source_generation_id": "F04_last"
+    },
+    {
+      "index": 3,
+      "kind": "character_turnaround",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+    },
+    {
+      "index": 4,
+      "kind": "character_turnaround",
+      "character_id": "C03",
+      "path": "frames/C03-bai-li-reference.png",
+      "role": "白璃身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "5a79f9847d073834e5669a100bfd6109761ec0d9d13f424e5e46b5829551b5ae"
+    }
+  ]
+}

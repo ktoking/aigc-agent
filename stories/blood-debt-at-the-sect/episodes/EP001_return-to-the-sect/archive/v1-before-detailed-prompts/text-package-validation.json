@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "文本结构与引用一致性；不是媒体验收",
+  "segments": 8,
+  "duration_seconds": 120,
+  "planned_frames": 3600,
+  "reference_hashes_checked": 5,
+  "required_segment_items": 9,
+  "opening_lines_preserved": 3,
+  "summary_and_segment_prompts_equal": true,
+  "unfilled_template_tokens": [],
+  "media_generation": "NOT_RUN"
+}

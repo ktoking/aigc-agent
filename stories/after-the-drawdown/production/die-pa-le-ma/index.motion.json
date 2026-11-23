@@ -1,0 +1,23 @@
+{
+  "duration": 60,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#cue0",
+      "bySec": 0.8
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#cue0"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#cue15"
+    },
+    {
+      "kind": "keepsMoving",
+      "withinSelector": "#theater",
+      "maxStaticSec": 3.0
+    }
+  ]
+}

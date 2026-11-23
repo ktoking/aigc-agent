@@ -1,0 +1,641 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 35,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-composition-id=\"01-pressure\" data-start=\"0\" data-track-index=\"1\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id=\"01-pressure\"]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-composition-id=\"02-perspective\" data-start=\"16.533\" data-track-index=\"2\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id=\"02-perspective\"]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div data-composition-id=\"03-life\" data-start=\"35.689\" data-track-index=\"3\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id=\"03-life\"]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"0\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"3.808\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"8.057\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"12.307\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"16.533\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"20.828\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"25.078\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"29.327\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"33.576\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"37.825\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"42.075\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"46.324\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"50.573\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"captionclip\" data-start=\"54.799\" data-track-index=\"5\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 5 has 14 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div> is a timeline element that contains nested <div id=\"cue0\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 3.81s to 8.06s, but it sits inside <div>, which only shows from 0s to 3.81s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 0s to 3.81s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 8.06s to 12.31s, but it sits inside <div>, which only shows from 3.81s to 8.06s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 3.81s to 8.06s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 12.31s to 16.53s, but it sits inside <div>, which only shows from 8.06s to 12.31s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 8.06s to 12.31s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 16.53s to 20.83s, but it sits inside <div>, which only shows from 12.31s to 16.53s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 12.31s to 16.53s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 20.83s to 25.08s, but it sits inside <div>, which only shows from 16.53s to 20.83s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 16.53s to 20.83s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 25.08s to 29.33s, but it sits inside <div>, which only shows from 20.83s to 25.08s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 20.83s to 25.08s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 29.33s to 33.58s, but it sits inside <div>, which only shows from 25.08s to 29.33s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 25.08s to 29.33s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 33.58s to 37.83s, but it sits inside <div>, which only shows from 29.33s to 33.58s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 29.33s to 33.58s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 37.83s to 42.08s, but it sits inside <div>, which only shows from 33.58s to 37.83s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 33.58s to 37.83s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 42.08s to 46.32s, but it sits inside <div>, which only shows from 37.83s to 42.08s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 37.83s to 42.08s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 46.32s to 50.57s, but it sits inside <div>, which only shows from 42.08s to 46.32s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 42.08s to 46.32s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 50.57s to 54.8s, but it sits inside <div>, which only shows from 46.32s to 50.57s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 46.32s to 50.57s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "nested_clip_never_visible",
+        "severity": "warning",
+        "message": "<div> plays from 54.8s to 60s, but it sits inside <div>, which only shows from 50.57s to 54.8s, so it never appears. A nested data-start counts from the composition's start, not from <div>.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Give <div> a data-start between 50.57s to 54.8s in composition time, or move it out of <div>."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#p-question, #p-future, #p-free\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#p-question, #p-future, #p-free",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/compositions/frames/01-pressure.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#h-later, #h-then, #h-worth, #h-thanks\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#h-later, #h-then, #h-worth, #h-thanks",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/compositions/frames/02-perspective.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      },
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#a-adjust, #a-life, #a-final\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#a-adjust, #a-life, #a-final",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/after-the-drawdown/production/hold-yourself/compositions/frames/03-life.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      }
+    ],
+    "filesScanned": 4
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 60,
+    "samples": [
+      3.333,
+      10,
+      16.667,
+      23.333,
+      30,
+      36.667,
+      43.333,
+      50,
+      56.667
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3.333,
+      16.667,
+      30,
+      43.333,
+      56.667
+    ],
+    "checked": 24,
+    "passed": 24
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

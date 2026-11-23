@@ -1,0 +1,21 @@
+{
+  "id": "F04_action_v2",
+  "prompt": "Use case: identity-preserve. 精确修正输入图1中左侧黑发男主的双臂持握，其他人物、脸、衣服、背景、白发女子、弯刀卡石柱动作、光线、构图均保持。输入图2锁同一男主身份。现在图中男主错误用受伤左手握直剑，请改成明确的解剖正确右手持剑：他的右肩在画面左侧，右上臂从该肩伸向胸前，右肘在画面左下，右前臂横过腹前，右手握住银色直剑柄，右手腕无红绳；他的受伤左肩在画面右侧，左上臂有原刀伤破袖，左肘向后收在身侧，左手空着张开放在腰侧，左腕红绳半簪保留，不能碰剑柄。把当前伸向身后的空右臂改为前伸握剑，把当前握剑的受伤左臂改为空手低位，合理连接肩肘腕，只有两只手两条胳膊，不新增手。银色直剑仍与女子暗红弯刀外侧接触，把弯刀引入右侧石柱，女子仍由右手持弯刀。伤口克制、不喷血，16:9单幅写实国风CG。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_04/action-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 4,
+  "phase": "action",
+  "script_time_seconds": 9.5,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a432060b-87b7-4150-b2f0-ed6d8e3efc6a.png",
+  "status": "SELECTED_REFERENCE",
+  "path": "frames/segment_04/action-frame-v2.png",
+  "sha256": "398aadbf7e068e9315a653827ac5d0f66c1a258c7dcf4e7f4adf278b086738e3",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+}

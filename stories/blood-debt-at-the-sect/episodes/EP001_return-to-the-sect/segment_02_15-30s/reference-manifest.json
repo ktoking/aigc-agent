@@ -1,0 +1,57 @@
+{
+  "version": "v4",
+  "segment": "segment_02_15-30s",
+  "policy": "2 keyframes plus appearing-character turnarounds only",
+  "references": [
+    {
+      "index": 1,
+      "kind": "keyframe",
+      "path": "frames/keyframe_01.png",
+      "role": "此前的丹殿回忆：师姐在炉内、玄衡控盖、男主受束；只用于回忆段，暖色炉光",
+      "segment_time_hint_seconds": 8.2,
+      "sha256": "344f0c3450b28571ca2d562ecfb01f6007302e09f9cb7c12cddb2e31503cd16e",
+      "source_generation_id": "F02_action"
+    },
+    {
+      "index": 2,
+      "kind": "keyframe",
+      "path": "frames/keyframe_02.png",
+      "role": "回到当前石桥，男主右手完整出鞘、师弟仍在去路一侧；不把师姐带到当前",
+      "segment_time_hint_seconds": 15,
+      "sha256": "593c64ed7d0d7dc41b4b7776eef82aff1fe493ec430f121a2359c4162e395660",
+      "source_generation_id": "F02_last"
+    },
+    {
+      "index": 3,
+      "kind": "character_turnaround",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+    },
+    {
+      "index": 4,
+      "kind": "character_turnaround",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-reference.png",
+      "role": "沈照月身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "1ccab26c99db0d6e0f14a8286d434cc69b7c9b71e846498ec181138845d89d87"
+    },
+    {
+      "index": 5,
+      "kind": "character_turnaround",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-reference.png",
+      "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+    },
+    {
+      "index": 6,
+      "kind": "character_turnaround",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-reference.png",
+      "role": "陆青只在返回当前石桥时的右后景虚焦出现，不进入丹殿回忆",
+      "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22"
+    }
+  ]
+}

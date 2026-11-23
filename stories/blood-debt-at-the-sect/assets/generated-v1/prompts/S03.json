@@ -1,0 +1,17 @@
+{
+  "id": "S03",
+  "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单幅丹殿场景资产，严格用输入图1的同一青铜三足炉，不重新设计。35mm中广角，从殿门左前侧看入室内；大门位于左后近侧，交锋空间在中间，右侧偏后放青铜丹炉，正面碗口炉眼朝向画面左前的交锋区，有同一短旧裂纹；左侧中前有一根承重石柱，柱面到炉眼约2米，炉前有小步近身空间，不做巨大空旷宫殿。丹炉侧面内沿连接低石台，石台一角摊着很小的焦黑布料，其上不展示骨骼细节；台面另一侧留放直剑的空位。殿内布局庄严简洁、暗木梁、灰石哑光地面，黄昏冷天光从左门进入，炉眼微弱红光与几盏暖灯照明。墙侧远处两组空铁栏只在景深，不画囚徒。无人物、无武器、无金气连接线，无爆炸、无血，无文字。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P03-furnace-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png"
+  ],
+  "kind": "asset",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-330667f0-fd39-4e90-895d-ea58f2b44c8b.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "path": "scenes/S03-pill-hall-reference.png",
+  "sha256": "0d0ea434d0faa6c3afc4132e9adef6eff0155d672d2b12b854044c8792096599",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

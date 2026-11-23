@@ -1,0 +1,16 @@
+{
+  "id": "P03",
+  "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单一关键道具青铜丹炉的资产设定板。参考图仅锁国风CG材质。浅灰背景，左边主体大幅三分之二正视、右侧两个较小同一炉子的侧面及正面状态视图。单一低矮三足青铜炉，炉体直径约1.2米、总高1.4米，圆腹、沉重圆盖，两侧小兽耳，整体适度古朴铜纹而不是满身鱼鳞。炉体正面距地约1米有一个清楚碗口大的圆形炉眼，炉眼上方向外延一条短旧裂纹。主视完整仅有旧裂纹，右下小图是同一炉眼局部崩掉少量铜片的受损状态，炉子不炸碎。炉眼内仅微暗红火光，无人物、无骨骼、无人体、无供能线。明确可供后续镜头重复同一三足炉、同一炉眼位置。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png"
+  ],
+  "kind": "asset",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-aaa338a3-bef8-44fd-8a98-5dc39451dd18.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "path": "props/P03-furnace-reference.png",
+  "sha256": "bde7fc125b566a03376cd23613744cc5ea870e38d88c8da4c5ebb75fdfdbd2ae",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

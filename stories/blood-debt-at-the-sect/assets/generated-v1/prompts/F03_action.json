@@ -1,0 +1,30 @@
+{
+  "id": "F03_action",
+  "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/action-frame.png",
+  "prompt": "Use case: stylized-concept. Asset type: 修仙短片第3段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是C06-two-guards-reference资产，只锁人物脸与服装（多视图只是同一人）。 图4是S02-sword-court-reference资产，只锁建筑布局、材质与光线。\n本张画面：40mm外院清楚的近身攻防瞬间。只男主与两名资产守卫。男主在左前屈膝，右手青霜直剑刚挑开画面左壮守卫的右手铁剑，接触点有极少小火星；壮守卫失去剑路、胸甲未出现血腥。另一名瘦守卫在右后等待进攻，不同时挥成一团。地面两道细金阵纹，半边开始黯淡；人物全身落脚可见。男主还没有左臂伤。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/first-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/C06-two-guards-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/S02-sword-court-reference.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 3,
+  "phase": "action",
+  "script_time_seconds": 9,
+  "source_refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_03/first-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C06-two-guards-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S02-sword-court-reference.png"
+  ],
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b95f4ac7-9a74-4000-b10f-62d178968e4d.png",
+  "status": "SELECTED_REFERENCE",
+  "path": "frames/segment_03/action-frame.png",
+  "sha256": "a01b6369c8e2e552450d86a87a4c9d813e98c42210c1a9317aceff7a0a945a1a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+}

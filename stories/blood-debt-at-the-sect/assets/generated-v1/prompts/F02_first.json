@@ -1,0 +1,29 @@
+{
+  "id": "F02_first",
+  "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/first-frame.png",
+  "prompt": "Use case: stylized-concept. Asset type: 修仙短片第2段的首帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是P01-moon-hairpin-reference资产，只锁该道具器型。 图4是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：当前石桥的85mm左腕特写，匹配上一段半簪位置：左手稳住左腰鞘口，红绳固定同一焦黑断口月牙半簪，右手仅抽出12厘米冰蓝直刃。无伤、无血、无师姐师傅、无回忆丹炉。近处银簪清楚，背景仍是黄昏冷灰云海。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/ref-prev-segment-01-last-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/P01-moon-hairpin-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/S01-gate-bridge-reference.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 2,
+  "phase": "first",
+  "script_time_seconds": 0,
+  "source_refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_01/last-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P01-moon-hairpin-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+  ],
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a8ba1b04-6fed-412f-876c-ee5c94ade899.png",
+  "status": "UNSELECTED_EXTRA_DRAFT",
+  "path": "frames/segment_02/first-frame.png",
+  "sha256": "357950e95b86e5cb174cb0adfe244c3e76bff31c3d0acdbdbc4119e3c088b8f7",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

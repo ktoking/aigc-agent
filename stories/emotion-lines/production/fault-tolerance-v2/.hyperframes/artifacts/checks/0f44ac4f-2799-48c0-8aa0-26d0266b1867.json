@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "gsap_callback_dom_measurement",
+        "severity": "warning",
+        "message": "Timeline callback reaches DOM measurement (getBoundingClientRect/getTotalLength/getComputedStyle/...). The renderer seeks with suppressEvents=false, so callbacks re-fire on every seek, and a cold render worker runs them against whatever DOM state its own non-linear seek order produced. Measured geometry is seek-order-dependent, and values measured at build time (before the callback ran) are stale or zero.",
+        "selector": "onUpdate:()=>render(time.value)",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/emotion-lines/production/fault-tolerance-v2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Do all measurement and DOM setup synchronously at build time, before registering the timeline, or derive geometry from fixed composition coordinates instead of measuring."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"drawing\"> is a timeline element that contains nested <svg id=\"journey-svg\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#drawing",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/emotion-lines/production/fault-tolerance-v2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"drawing\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"writing\"> is a timeline element that contains nested <section id=\"caption-0\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#writing",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/emotion-lines/production/fault-tolerance-v2/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"writing\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 60,
+    "samples": [
+      1.6,
+      6.8,
+      10.9,
+      12.5,
+      15.9,
+      18,
+      21.5,
+      24.2,
+      27.8,
+      32,
+      35.5,
+      39.5,
+      42.9,
+      45.5,
+      49.5,
+      53.5,
+      58
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.6,
+      15.9,
+      27.8,
+      42.9,
+      58
+    ],
+    "checked": 25,
+    "passed": 25
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes/artifacts/snapshots/c3b011e3-9eae-43ef-8507-08d63114998b/frame-00-at-1.6s.png",
+      ".hyperframes/artifacts/snapshots/c3b011e3-9eae-43ef-8507-08d63114998b/frame-01-at-15.9s.png",
+      ".hyperframes/artifacts/snapshots/c3b011e3-9eae-43ef-8507-08d63114998b/frame-02-at-27.8s.png",
+      ".hyperframes/artifacts/snapshots/c3b011e3-9eae-43ef-8507-08d63114998b/frame-03-at-42.9s.png",
+      ".hyperframes/artifacts/snapshots/c3b011e3-9eae-43ef-8507-08d63114998b/frame-04-at-58.0s.png"
+    ],
+    "times": [
+      1.6,
+      15.9,
+      27.8,
+      42.9,
+      58
+    ],
+    "findingFiles": []
+  }
+}

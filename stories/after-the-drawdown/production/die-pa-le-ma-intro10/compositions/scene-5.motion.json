@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene-5",
+  "duration": 8.5,
+  "rules": [
+    "kinetic-beat-slam",
+    "depth-scatter-assemble",
+    "multi-phase-camera"
+  ],
+  "objects": "三座基石随拍落稳，人物落脚于稳固平台。",
+  "entry": "实测节拍上的transform入场",
+  "exit": "节拍硬切",
+  "deterministic": true
+}

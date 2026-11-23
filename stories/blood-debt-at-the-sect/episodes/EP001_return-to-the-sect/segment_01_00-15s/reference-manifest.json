@@ -1,0 +1,41 @@
+{
+  "version": "v4",
+  "segment": "segment_01_00-15s",
+  "policy": "2 keyframes plus appearing-character turnarounds only",
+  "references": [
+    {
+      "index": 1,
+      "kind": "keyframe",
+      "path": "frames/keyframe_01.png",
+      "role": "石桥横剑劝阻，男主尚未拔剑；锁两人身份、桥面轴线与黄昏光",
+      "segment_time_hint_seconds": 0,
+      "sha256": "bde7448d17aa3238a86a8338b2cb3fc1f58331d6223c17c08d0f092625886e16",
+      "source_generation_id": "F01_first"
+    },
+    {
+      "index": 2,
+      "kind": "keyframe",
+      "path": "frames/keyframe_02.png",
+      "role": "右手只抽出约12厘米剑刃，左腕半簪特写；锁遗物、正确持握与回忆转场锚点",
+      "segment_time_hint_seconds": 15,
+      "sha256": "c09a224544b7d36b51d25e39df4aefade0cfd5141c0909302dc0e87768663571",
+      "source_generation_id": "F01_last"
+    },
+    {
+      "index": 3,
+      "kind": "character_turnaround",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+    },
+    {
+      "index": 4,
+      "kind": "character_turnaround",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-reference.png",
+      "role": "陆青身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22"
+    }
+  ]
+}

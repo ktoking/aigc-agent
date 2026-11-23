@@ -1,0 +1,92 @@
+{
+  "status": "PASS_LOCAL_DELIVERY",
+  "video": {
+    "file": "die-pa-le-ma_1080x1920_60s.mp4",
+    "duration": 60.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "frames": "1800",
+    "full_decode": "PASS",
+    "bytes": 12464411,
+    "sha256": "fa63bd357eaa16f820066051e3de9045aa2e183d7050ff97c6d7fd654d84e8c6"
+  },
+  "audio": {
+    "music_user_confirmed": "we never 若如初见",
+    "range": [
+      0,
+      60
+    ],
+    "rate": 1,
+    "new_voiceover": false,
+    "first_12_seconds_waveform": {
+      "correlation": 0.999910328290654,
+      "lag_ms": 0.0,
+      "boundary": "与参考AAC的前12秒波形比较；非全曲版权或曲名鉴定"
+    }
+  },
+  "beat_sync": {
+    "bpm_estimate": 112.9,
+    "scene_boundaries": [
+      0,
+      8.535,
+      19.195,
+      31.945,
+      42.575,
+      51.075
+    ],
+    "max_frame_quantization_ms": 15.000000000000568,
+    "scope": "同一实测节拍表驱动场景、文案与主要物体动作；BPM为估计值"
+  },
+  "subtitles": {
+    "cues": 16,
+    "srt": "die-pa-le-ma.zh-CN.srt",
+    "vtt": "die-pa-le-ma.zh-CN.vtt",
+    "continuous_timing": "PASS"
+  },
+  "segments": [
+    {
+      "file": "segment_01_00-15s/output/video.mp4",
+      "duration": 15.0
+    },
+    {
+      "file": "segment_02_15-30s/output/video.mp4",
+      "duration": 15.0
+    },
+    {
+      "file": "segment_03_30-45s/output/video.mp4",
+      "duration": 15.0
+    },
+    {
+      "file": "segment_04_45-60s/output/video.mp4",
+      "duration": 15.0
+    }
+  ],
+  "hyperframes": {
+    "ok": true,
+    "runtime_errors": 0,
+    "layout_errors": 0,
+    "motion_samples": 300,
+    "motion_errors": 0,
+    "contrast_checked": 39,
+    "contrast_passed": 39,
+    "lint_warnings": 0
+  },
+  "intro10": {
+    "file": "intro10.mp4",
+    "duration": 10.0,
+    "gate": "已检查实际编码逐秒联系表及本地播放器"
+  },
+  "browser_playback": {
+    "played_from_start_to_end": false,
+    "status": "PENDING"
+  },
+  "boundaries": {
+    "market_data": "未使用真实行情；全部金融物体为隐喻",
+    "external_video_api": "NOT_RUN",
+    "social_publication": "NOT_RUN",
+    "cloudflare": "PENDING"
+  }
+}

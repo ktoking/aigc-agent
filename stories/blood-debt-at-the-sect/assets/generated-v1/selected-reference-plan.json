@@ -1,0 +1,114 @@
+[
+  {
+    "id": "F01_first",
+    "dest": "frames/segment_01/first-frame.png",
+    "segment": 1,
+    "phase": "first",
+    "script_time_seconds": 0
+  },
+  {
+    "id": "F01_last",
+    "dest": "frames/segment_01/last-frame.png",
+    "segment": 1,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F02_action",
+    "dest": "frames/segment_02/action-frame.png",
+    "segment": 2,
+    "phase": "action",
+    "script_time_seconds": 8.2
+  },
+  {
+    "id": "F02_last",
+    "dest": "frames/segment_02/last-frame.png",
+    "segment": 2,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F03_action",
+    "dest": "frames/segment_03/action-frame.png",
+    "segment": 3,
+    "phase": "action",
+    "script_time_seconds": 9
+  },
+  {
+    "id": "F03_last",
+    "dest": "frames/segment_03/last-frame.png",
+    "segment": 3,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F04_action_v2",
+    "dest": "frames/segment_04/action-frame-v2.png",
+    "segment": 4,
+    "phase": "action",
+    "script_time_seconds": 9.5
+  },
+  {
+    "id": "F04_last",
+    "dest": "frames/segment_04/last-frame.png",
+    "segment": 4,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F05_action_v2",
+    "dest": "frames/segment_05/action-frame-v2.png",
+    "segment": 5,
+    "phase": "action",
+    "script_time_seconds": 9
+  },
+  {
+    "id": "F05_last_v2",
+    "dest": "frames/segment_05/last-frame-v2.png",
+    "segment": 5,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F06_action",
+    "dest": "frames/segment_06/action-frame.png",
+    "segment": 6,
+    "phase": "action",
+    "script_time_seconds": 7.3
+  },
+  {
+    "id": "F06_last",
+    "dest": "frames/segment_06/last-frame.png",
+    "segment": 6,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F07_action",
+    "dest": "frames/segment_07/action-frame.png",
+    "segment": 7,
+    "phase": "action",
+    "script_time_seconds": 7.6
+  },
+  {
+    "id": "F07_last",
+    "dest": "frames/segment_07/last-frame.png",
+    "segment": 7,
+    "phase": "last",
+    "script_time_seconds": 15
+  },
+  {
+    "id": "F08_first",
+    "dest": "frames/segment_08/first-frame.png",
+    "segment": 8,
+    "phase": "first",
+    "script_time_seconds": 0
+  },
+  {
+    "id": "F08_action_v2",
+    "dest": "frames/segment_08/action-frame-v2.png",
+    "segment": 8,
+    "phase": "action",
+    "script_time_seconds": 4.3
+  }
+]

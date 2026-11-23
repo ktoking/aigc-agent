@@ -1,0 +1,20 @@
+{
+  "id": "F05_action_v2",
+  "prompt": "Use case: precise-object-edit. 保持这张画面的构图、两位角色身份与站位、表情、左右手持握、剑、丹炉、光线和背景完全不变。只修正画面左前景男主靠镜头这一侧上臂的衣袖：这只握银蓝剑的手属于右臂，右臂本来没有受刀伤，请把其上臂外侧目前破开的布料和两道血痕修复为完整的墨黑窄袖，延续原衣服纹理，不改变肩甲。真正受伤的是另一只戴红绳的左臂，位于身体远侧，其伤口被身体和衣料遮挡即可，不要新增可见伤口。男主依旧右手握蓝剑、左手空有红绳半簪，师傅右手金剑左掌吸炉气不变。仅修这块错误侧的伤，不增删任何人物道具，不裁剪，不镜像，16:9写实国风CG，无文字。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/action-frame.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 5,
+  "phase": "action",
+  "script_time_seconds": 9,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-9faf6b79-d23a-4410-a5b1-59b8da8a0f88.png",
+  "status": "SELECTED_REFERENCE",
+  "path": "frames/segment_05/action-frame-v2.png",
+  "sha256": "8e97ab94a3acc377b2d31a7bd5b516ab89d40d558e4ea4470648091bfbb45e91",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+}

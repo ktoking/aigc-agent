@@ -1,0 +1,801 @@
+{
+  "version": "assets-v1",
+  "script_version": "v3",
+  "tool": "built-in image_gen",
+  "status": "COMPLETE",
+  "items": [
+    {
+      "id": "C01",
+      "prompt": "Use case: stylized-concept. Asset type: 单一角色的电影级三视图与面部基准设定板，用于《焚宗：师姐的血债》后续视频保持同一身份。\n输入参考图1与图2是同一位黑发男主，只锁其五官、黑色长发、发冠、黑银甲胄和写实国风CG画风，不能生出两个角色。保留这个人清俊但带锋利感的眼睛、挺直鼻梁、下颌线和黑银层叠肩甲，避免换脸。\n生成一张16:9横幅角色资产图：干净浅冷灰背景，左侧至中间依次展示同一位约25岁成年男主的正面全身、侧面全身、背面全身，最右是一张较大的三分之二侧脸胸像；这四个视图全都是同一个人的不同角度。身高比例一致，头脚完整，有足够间隔，无文字、无标题、无分格线。\n服装固定：黑色长发半束、同一枚银色发冠，黑银窄袖轻甲，银色肩甲，墨黑长袍、皮革腰带、黑靴，衣摆干净完整，适度雕纹，不做密集鳞片。黑银剑鞘挂左腰，右手握一柄约95厘米银色直刃长剑自然斜下，剑刃只一线很淡冰蓝光，剑柄黑银，不能变弯刀。左腕以细红绳固定一段小小的半截月牙银簪，明确是遗物而非护腕。无伤口、无血迹，这是开场造型。神态压抑愤怒、眼神锐利，不夸张歪嘴，不微笑。\n柔和侧光，发丝暖色轮廓光，材质写实但属于高端国风3D CG人物，保持参考图的画风。自然皮肤、清晰大形、哑光衣料、不过度锐化，无鱼鳞网格、无满屏微纹理、无水印、无logo。只画这个角色的设定板，不画场景剧情、炉火或其他人。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-01.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-05.png"
+      ],
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-93a23241-2f2b-46ff-a431-20248fe45126.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "qa": "角色三视与胸像清楚，发冠、黑银甲胄和脸部特征可作为后续基准；武器与遗物以独立道具卡继续锁定。",
+      "path": "characters/C01-xie-wujiu-reference.png",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C02",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n角色资产设定板：严格用参考黑发女修同一张脸、额饰、黑发、耳坠与黑银修行服，生成同一位约25岁成年师姐沈照月的正面全身、侧面全身、背面全身及大幅脸部胸像。浅灰纯净背景，四个角度不是四个人，头脚完整。完整墨黑长发，绝无白发，神情冷静温柔而坚决，无伤。银色月牙发簪作为头饰之一；胸甲窄袖、长袍、黑靴，与男主属于同一门派但不是同一套男性衣服。正面右手食中指并拢、低位沉腕回勾的自然小手势，左手放松。手部结构清楚、不发光、不施法，不画丹炉、不画被焚烧、不添加其他角色。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-02.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-f969ebb4-7d05-4a7e-9b86-6334312c327f.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "characters/C02-shen-zhaoyue-reference.png",
+      "sha256": "1ccab26c99db0d6e0f14a8286d434cc69b7c9b71e846498ec181138845d89d87",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C03",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n角色资产设定板：严格用参考白发女修的同一张脸、白色长发、两道面颊旧红痕、黑红甲胄，生成白璃的正面全身、侧面全身、背面全身及大幅面部胸像。浅灰背景四视角，头脚完整，约30岁成年女子，眼神冷厉。右手单柄暗红刃口弯刀斜向下，左手空；黑红层叠轻甲、暗红衣带、黑靴，保持曲刃不要直剑。没有新伤、无血浆，不画黑发师姐，不把她与师姐混为一人。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-03.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-7d6724ad-7e43-4678-a5ba-3ea5385472dd.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "characters/C03-bai-li-reference.png",
+      "sha256": "5a79f9847d073834e5669a100bfd6109761ec0d9d13f424e5e46b5829551b5ae",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C04",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n角色资产设定板：用参考持剑长者同一张脸、灰黑长发和胡须、金属发冠、深色银纹宽袖修行袍，生成玄衡师傅的正面全身、侧面全身、背面全身及大幅三分之二侧脸胸像。约55岁成年男子，稳重强势冷硬，不能年轻化，不能变无胡须男主。浅灰干净背景四视角，头脚完整。右手一柄细长直刃玄金剑斜下，剑柄暗金，剑刃浅金细光；左手空、半抬掌心向内，不握第二把剑。柔和光，甲袍雕纹克制，无伤、无火焰、无其他人。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-66920f9a-8c4f-4344-9c6d-676404230c3c.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "characters/C04-xuanheng-reference.png",
+      "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C05",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n为师弟陆青设计单一角色资产设定板。参考图仅供同世界CG画风，绝不能复制谢无咎的脸。20岁成年男子，偏圆的年轻脸、较宽鼻翼、眉眼柔和略慌张、无胡须，黑发普通发髻，无华丽发冠。灰蓝色素布弟子袍、深蓝腰带、简单黑靴，无金属肩甲。右手持普通灰银铁剑，左手空。浅灰背景：正面全身、侧面全身、背面全身及大脸胸像，同一个人。与黑银甲胄男主有明显脸型和服装区别；无伤、不笑、无血，不添加门派可读文字。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-3f53c86b-7854-4dd4-9e3f-dca162d54608.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "characters/C05-lu-qing-reference.png",
+      "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C06",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n背景群演资产图：两名不同脸的成年男性执剑守卫站在浅灰背景，一名壮实方脸、一名较瘦长脸，灰黑素布执法袍、深灰护胸和护腕、黑靴，各右手持一把普通铁剑。全身并排有间距，画面右侧各一小幅脸部胸像供锁身份，不能复制男主脸、不能穿男主银肩甲。两个人都活着无伤，仅供外院剑阵群演，禁止武器增生。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a1711dbe-169e-411c-8e9e-8b45be39f7b7.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "characters/C06-two-guards-reference.png",
+      "sha256": "935fa63c660ecfcdc04d85a8990f4bfa30b0827982adc28b2373cb4a81321eb8",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "P01",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n关键遗物资产设定板，画面为哑光灰石台上的同一月牙银簪的物理状态对照：左边一枚约8厘米完整简洁银簪，末端是小巧月牙弧形；中间是这根银簪断成的两块，断口轻微焦黑；右边只展示其中半截，用细暗红绳活扣固定在中性成人左腕上，手掌自然放松。确保完整与断裂段形状对应，同样银材质，无魔法发光，不是手镯、戒指或巨大武器；三个状态为同一件遗物的资产对照，不是首尾帧。干净近摄、柔和暖边光，无文字无标注。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-02.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b30c4401-e9b8-412b-8b4f-8867189ba8f1.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "props/P01-moon-hairpin-reference.png",
+      "sha256": "d8eb6d122a95daf3038971cb069b3b561b427fe6fa257eefd44718cf6994e4c5",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "P02",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n武器组资产设定板：纯灰背景上自上而下整齐横放三件不同武器，间隔足够，完整器型可见，无人物无文字。第一：男主青霜剑，一柄95厘米细长银色双刃直剑、黑银剑格与黑银柄、很淡冰蓝刃缘；其下配一个同长度黑银剑鞘，二者对应。第二：玄衡玄金剑，略宽直刃，古朴暗金剑格与柄、淡金细光，保持直刃且明显区别于第一把。第三：白璃赤刃弯刀，只有一柄弧形刀身，黑红刀柄、暗红刃缘，严格参考白发女修所持弯刃形状，不做镰刀或双刀。材质清楚、雕纹适中，无全屏光晕。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-03.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a5f1d105-bde4-4a9a-af7b-b2817c9e6dbf.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "props/P02-three-weapons-reference.png",
+      "sha256": "a63c97d92a6470ef00e2091964fba00a6707df156b757ffbfe6acf21137c8b54",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "P03",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单一关键道具青铜丹炉的资产设定板。参考图仅锁国风CG材质。浅灰背景，左边主体大幅三分之二正视、右侧两个较小同一炉子的侧面及正面状态视图。单一低矮三足青铜炉，炉体直径约1.2米、总高1.4米，圆腹、沉重圆盖，两侧小兽耳，整体适度古朴铜纹而不是满身鱼鳞。炉体正面距地约1米有一个清楚碗口大的圆形炉眼，炉眼上方向外延一条短旧裂纹。主视完整仅有旧裂纹，右下小图是同一炉眼局部崩掉少量铜片的受损状态，炉子不炸碎。炉眼内仅微暗红火光，无人物、无骨骼、无人体、无供能线。明确可供后续镜头重复同一三足炉、同一炉眼位置。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-aaa338a3-bef8-44fd-8a98-5dc39451dd18.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "props/P03-furnace-reference.png",
+      "sha256": "bde7fc125b566a03376cd23613744cc5ea870e38d88c8da4c5ebb75fdfdbd2ae",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "S01",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单幅电影场景资产，不是设定拼图。无人。28mm三分之二水平视角，看一座宽约3米、长约12米的干燥灰石桥，桥两边低石栏，近端在左前，远端通向右后青玄宗石门与短门洞；门洞后隐约有外院台阶。桥下冷灰云海，远处悬崖仙宫暖窗、瀑布仅在遥远背景，保留参考仙山世界，不用过多楼阁挤满画面。黄昏柔和冷天光与低饱和暖金逆光，桥面有足够连续平地供两人对话与拨剑。无人物、无武器、无旗上文字、无雨、无积水、无垃圾。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-05.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-52f17bca-08f5-4096-830c-dfe3f9f06a29.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "scenes/S01-gate-bridge-reference.png",
+      "sha256": "899f931405c6e0e08a9eebdf430788064fa2a7bca435a8ffe81f647e3716c25b",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "S02",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单幅电影场景资产。无人。28mm广角，视线从石桥后门洞进入青玄宗外院：左前门洞通向画外石桥，中间约8米宽的整洁灰石院地，右后方短宽石阶通向关闭的深色丹殿木门；门前只是一组矮阶，不是百级天梯。两根承重石柱左右分列，右柱紧邻门前台阶，可在刀剑战斗中被击中；地面极淡浅金阵纹但不写字，不升起光墙。延续石桥同一黄昏冷灰光、屋檐暖边光与远处云海，布旗低调。场景可供两守卫先后交战、白发长老阻门，确保门、右柱与台阶在同一2米近战区域。无角色、无血、无尸体、无飘浮武器。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-05.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-e52a1c23-63b3-454b-9d4f-0d2e5c8d332e.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "scenes/S02-sword-court-reference.png",
+      "sha256": "74da7c43105ea4a7c14baee71dc85096238bccbc7970c2b846e24c40875de0dc",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "S03",
+      "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单幅丹殿场景资产，严格用输入图1的同一青铜三足炉，不重新设计。35mm中广角，从殿门左前侧看入室内；大门位于左后近侧，交锋空间在中间，右侧偏后放青铜丹炉，正面碗口炉眼朝向画面左前的交锋区，有同一短旧裂纹；左侧中前有一根承重石柱，柱面到炉眼约2米，炉前有小步近身空间，不做巨大空旷宫殿。丹炉侧面内沿连接低石台，石台一角摊着很小的焦黑布料，其上不展示骨骼细节；台面另一侧留放直剑的空位。殿内布局庄严简洁、暗木梁、灰石哑光地面，黄昏冷天光从左门进入，炉眼微弱红光与几盏暖灯照明。墙侧远处两组空铁栏只在景深，不画囚徒。无人物、无武器、无金气连接线，无爆炸、无血，无文字。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P03-furnace-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png"
+      ],
+      "kind": "asset",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-330667f0-fd39-4e90-895d-ea58f2b44c8b.png",
+      "status": "SHARED_ASSET_REVIEWED",
+      "path": "scenes/S03-pill-hall-reference.png",
+      "sha256": "0d0ea434d0faa6c3afc4132e9adef6eff0155d672d2b12b854044c8792096599",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "F01_first",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/first-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第1段的首帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图2是C05-lu-qing-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：35mm过肩中近景。石桥上男主黑银肩背占画面左四分之一，右方约两米处陆青灰蓝素袍、急切眼神、右手普通铁剑横在胸前拦路，望向左侧师兄。男主青霜剑完全在左腰剑鞘中，无出鞘刃光，双人尚未接触。只两人，男主无伤、陆青无伤，远处右后门洞通向外院。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/S01-gate-bridge-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 1,
+      "phase": "first",
+      "script_time_seconds": 0,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-afb8b10a-b7c8-4e76-8f23-7ce57549e68d.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_01/first-frame.png",
+      "sha256": "bde7448d17aa3238a86a8338b2cb3fc1f58331d6223c17c08d0f092625886e16",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F01_action",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/action-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第1段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是C05-lu-qing-reference资产，只锁人物脸与服装（多视图只是同一人）。 图4是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：50mm男主胸上三分之二侧面近景，面部与参考同一人，愤怒克制、下颌绷紧，眼睛看画面右侧师弟，嘴唇正说话；右前景只有师弟灰蓝肩袖虚焦。右手在画面下方握左腰剑柄，青霜剑仍在鞘，左腕半簪红绳隐约可见，无伤无血。远处冷灰仙山背景轻虚化。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_01/first-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 1,
+      "phase": "action",
+      "script_time_seconds": 8,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-00648c67-5e08-4bee-b83a-cebf836105a9.png",
+      "status": "REJECTED_HANDEDNESS",
+      "path": "frames/segment_01/action-frame.png",
+      "sha256": "ac7d9ca3f2cc4a3814f6a951eae2f916901a61ed7fc255ea12a745a6af79dc30",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "近景错误以左手握剑，作为未选用草稿保留，改为胸上无手近景。"
+    },
+    {
+      "id": "F01_action_v2",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/action-frame.png",
+      "prompt": "Use case: identity-preserve. 编辑这张已生成电影画面，仅修正构图以免错误持剑手进入画面。保持这同一位黑发男主的脸、发冠、黑银甲胄、愤怒说话表情、看向右方师弟的视线、右侧虚焦师弟肩膀、桥与仙山背景、光色完全不变。将镜头推近为男主胸口以上的65mm近景，画面下边缘严格在胸骨中部，双手、手腕、剑柄、剑鞘全部在画面之外，画面中绝对不要出现任何手或武器。不是加遮挡物，不是涂抹，重新给出自然的胸上近景。仍为16:9单幅写实国风CG电影画面，无文字无水印。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/action-frame.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 1,
+      "phase": "action",
+      "script_time_seconds": 8,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-84772ebd-a7d8-470f-95cc-3c9d5f7a5901.png",
+      "status": "UNSELECTED_EXTRA_DRAFT",
+      "path": "frames/segment_01/action-frame-v2.png",
+      "sha256": "630e2775dc8088f13130bec51de4867a855e4ea0aaa32de67930495ee74a5e2d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_01/action-frame.png"
+      ]
+    },
+    {
+      "id": "F01_last",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/last-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第1段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是P01-moon-hairpin-reference资产，只锁该道具器型。 图4是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：85mm腰部手部特写，没有完整人脸。男主左手扣住左腰剑鞘口，左腕以红绳系着资产中同一半截月牙银簪，焦黑断口清楚；右手向身体右侧只拔剑约12厘米，冰蓝刃光照亮半簪，绝不是整把剑完全出鞘。黑银窄袖、手指与剑格自然，背景石桥和师弟仅虚焦色块。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/P01-moon-hairpin-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_01_00-15s/frames/S01-gate-bridge-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 1,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-857d5df3-c75a-4006-a9b8-371bbb855769.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_01/last-frame.png",
+      "sha256": "c09a224544b7d36b51d25e39df4aefade0cfd5141c0909302dc0e87768663571",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_01/action-frame-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P01-moon-hairpin-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F02_first",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/first-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第2段的首帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是P01-moon-hairpin-reference资产，只锁该道具器型。 图4是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：当前石桥的85mm左腕特写，匹配上一段半簪位置：左手稳住左腰鞘口，红绳固定同一焦黑断口月牙半簪，右手仅抽出12厘米冰蓝直刃。无伤、无血、无师姐师傅、无回忆丹炉。近处银簪清楚，背景仍是黄昏冷灰云海。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/ref-prev-segment-01-last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/P01-moon-hairpin-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/S01-gate-bridge-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 2,
+      "phase": "first",
+      "script_time_seconds": 0,
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_01/last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P01-moon-hairpin-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+      ],
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a8ba1b04-6fed-412f-876c-ee5c94ade899.png",
+      "status": "UNSELECTED_EXTRA_DRAFT",
+      "path": "frames/segment_02/first-frame.png",
+      "sha256": "357950e95b86e5cb174cb0adfe244c3e76bff31c3d0acdbdbc4119e3c088b8f7",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "F02_action",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/action-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第2段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是C01-xie-wujiu-reference.png，只锁相应角色身份、道具器型或场景布局；角色多视图是同一人，不把多个视角全部画入同一场景。 图2是C02-shen-zhaoyue-reference.png，只锁相应角色身份、道具器型或场景布局；角色多视图是同一人，不把多个视角全部画入同一场景。 图3是C04-xuanheng-reference.png，只锁相应角色身份、道具器型或场景布局；角色多视图是同一人，不把多个视角全部画入同一场景。 图4是S03-pill-hall-reference.png，只锁相应角色身份、道具器型或场景布局；角色多视图是同一人，不把多个视角全部画入同一场景。 图5是P03-furnace-reference.png，只锁相应角色身份、道具器型或场景布局；角色多视图是同一人，不把多个视角全部画入同一场景。\n本张画面：前夜暖红丹殿的单幅过去回忆。画面右侧同一青铜丹炉炉盖正悬在炉口上方少许、尚未合上；黑发师姐沈照月完全穿着黑银修行服、半身露在炉口上方，手腕被细金纹束缚，她看画面左边师弟、张口急喊，眼神疼痛但坚定，无身体烧伤。她右手双指低位并拢轻微内勾，提示已教过的回锋势。左侧门边男主被薄金束缚阵挡住，双掌抵阵、右剑仍在腰鞘；玄衡在右后炉旁，左掌正在下压控盖、右手金剑自然垂低。只这三位成年角色，炉眼旧裂纹完整，不画骨骼、不喷血、不烧人体。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C02-shen-zhaoyue-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/S03-pill-hall-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/P03-furnace-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 2,
+      "phase": "action",
+      "script_time_seconds": 8.2,
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C02-shen-zhaoyue-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P03-furnace-reference.png"
+      ],
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-7d2dbfeb-5fb3-48d0-a941-11023e0e9a29.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_02/action-frame.png",
+      "sha256": "344f0c3450b28571ca2d562ecfb01f6007302e09f9cb7c12cddb2e31503cd16e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F02_last",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/last-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第2段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是C05-lu-qing-reference资产，只锁人物脸与服装（多视图只是同一人）。 图4是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：已经回到当前黄昏冷灰石桥，50mm男主半身，右手青霜剑完全拔出、剑尖向身体右下，左腰空鞘仍挂着，左腕同一半截银簪仍在红绳上。无伤无血；师弟最多在右后方虚焦，不发生打斗。无师姐、无师傅、无丹炉，不能把回忆人物带到桥上。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_02_15-30s/frames/S01-gate-bridge-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 2,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_02/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+      ],
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-9490a895-d18a-4eb1-b5ea-4e87d552687d.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_02/last-frame.png",
+      "sha256": "593c64ed7d0d7dc41b4b7776eef82aff1fe493ec430f121a2359c4162e395660",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F03_first",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/first-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第3段的首帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是C05-lu-qing-reference资产，只锁人物脸与服装（多视图只是同一人）。 图4是S01-gate-bridge-reference资产，只锁建筑布局、材质与光线。\n本张画面：50mm桥端双人中景，男主左、师弟右。男主右手完整青霜直剑已全出鞘低持，左腰空鞘、左腕半簪；师弟灰蓝袍右手铁剑仍横拦，剑尚未碰在一起。双方无伤，门洞在师弟身后，两守卫尚未出现在近景。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/ref-prev-segment-02-last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/S01-gate-bridge-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 3,
+      "phase": "first",
+      "script_time_seconds": 0,
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_02/last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C05-lu-qing-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S01-gate-bridge-reference.png"
+      ],
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-ee564952-880c-4664-8995-756584f24cad.png",
+      "status": "UNSELECTED_EXTRA_DRAFT",
+      "path": "frames/segment_03/first-frame.png",
+      "sha256": "2dc629bf0b8e1805b808b5f45965031c7667868cd60e02ebfe1a802d9a7b2d89",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "F03_action",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/action-frame.png",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第3段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是前一张已生成剧情图，锁定同一演员和空间；本张采用下述新时刻，不照抄旧姿势，不保留已经被文字改变的道具状态。 图2是C01-xie-wujiu-reference资产，只锁人物脸与服装（多视图只是同一人）。 图3是C06-two-guards-reference资产，只锁人物脸与服装（多视图只是同一人）。 图4是S02-sword-court-reference资产，只锁建筑布局、材质与光线。\n本张画面：40mm外院清楚的近身攻防瞬间。只男主与两名资产守卫。男主在左前屈膝，右手青霜直剑刚挑开画面左壮守卫的右手铁剑，接触点有极少小火星；壮守卫失去剑路、胸甲未出现血腥。另一名瘦守卫在右后等待进攻，不同时挥成一团。地面两道细金阵纹，半边开始黯淡；人物全身落脚可见。男主还没有左臂伤。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/first-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/C06-two-guards-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/episodes/EP001_return-to-the-sect/segment_03_30-45s/frames/S02-sword-court-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 3,
+      "phase": "action",
+      "script_time_seconds": 9,
+      "source_refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_03/first-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C06-two-guards-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S02-sword-court-reference.png"
+      ],
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b95f4ac7-9a74-4000-b10f-62d178968e4d.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_03/action-frame.png",
+      "sha256": "a01b6369c8e2e552450d86a87a4c9d813e98c42210c1a9317aceff7a0a945a1a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F03_last",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第3段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是action-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C06-two-guards-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S02-sword-court-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：35mm外院中景，男主站在丹殿台阶前，右手青霜剑斜下、剑刃有一个小缺口，左腰黑银鞘、左腕半簪。两名守卫一左一右倒在石地、武器脱手、全身衣甲完整、无血浆或伤口特写，阵纹已全熄灭。男主无左臂伤无嘴血，看向台阶上方，陆青不在院内。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_03/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C06-two-guards-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S02-sword-court-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 3,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b89b447b-44ca-483e-9121-5d8366b47699.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_03/last-frame.png",
+      "sha256": "4133a5ee97ad825c6c413944abd3a3b536621fa6cb0c2fbab5310f550cfd6f6b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F04_action",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第4段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是last-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C03-bai-li-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S02-sword-court-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P02-three-weapons-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：50mm刀剑接触点与两人同框的动态单帧。男主在左，右手青霜直剑贴住白璃右手暗红弯刀外侧，将横斩引向画面右侧石柱，弯刀刃尖刚嵌柱面浅层，少量石屑落下。白璃在右侧失去半拍重心，男主左脚跨近、右肘收紧。男主左上臂已有一条有限刀伤与破袖，但左肩没被刺、嘴角尚无血。禁止剑刀穿模或换手，只有两人。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_03/last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C03-bai-li-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S02-sword-court-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P02-three-weapons-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 4,
+      "phase": "action",
+      "script_time_seconds": 9.5,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-5397eb2c-77af-49dd-81cd-1eb5bdbca852.png",
+      "status": "REJECTED_HANDEDNESS",
+      "path": "frames/segment_04/action-frame.png",
+      "sha256": "23ea783c8710a2b605f0339bd7acded641f1c19f5744d51e831f8c03b5d828ee",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "左手误持直剑，修正男主双臂后使用。"
+    },
+    {
+      "id": "F04_action_v2",
+      "prompt": "Use case: identity-preserve. 精确修正输入图1中左侧黑发男主的双臂持握，其他人物、脸、衣服、背景、白发女子、弯刀卡石柱动作、光线、构图均保持。输入图2锁同一男主身份。现在图中男主错误用受伤左手握直剑，请改成明确的解剖正确右手持剑：他的右肩在画面左侧，右上臂从该肩伸向胸前，右肘在画面左下，右前臂横过腹前，右手握住银色直剑柄，右手腕无红绳；他的受伤左肩在画面右侧，左上臂有原刀伤破袖，左肘向后收在身侧，左手空着张开放在腰侧，左腕红绳半簪保留，不能碰剑柄。把当前伸向身后的空右臂改为前伸握剑，把当前握剑的受伤左臂改为空手低位，合理连接肩肘腕，只有两只手两条胳膊，不新增手。银色直剑仍与女子暗红弯刀外侧接触，把弯刀引入右侧石柱，女子仍由右手持弯刀。伤口克制、不喷血，16:9单幅写实国风CG。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_04/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 4,
+      "phase": "action",
+      "script_time_seconds": 9.5,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a432060b-87b7-4150-b2f0-ed6d8e3efc6a.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_04/action-frame-v2.png",
+      "sha256": "398aadbf7e068e9315a653827ac5d0f66c1a258c7dcf4e7f4adf278b086738e3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F04_last",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第4段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是action-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C03-bai-li-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S02-sword-court-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：50mm从男主左肩后近景看门，左上臂窄袖有新破口和少量暗色刀伤，左掌低位推开丹殿门一掌宽，暖金光从缝照侧脸；右手青霜直剑下垂，左腕半簪仍系红绳。白璃穿黑红甲、白发在门边低处倒地无动作，弯刀脱手留石阶，不展示伤口或血浆。男主左肩无刺伤、嘴角无血。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_04/action-frame-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C03-bai-li-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S02-sword-court-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 4,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-19936274-d274-40f1-99c5-ac7a3492cbf3.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_04/last-frame.png",
+      "sha256": "0321499395ddc27ecdd4c1b0cdaa9b32560443541a788e023212b3f81dae4b89",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F05_action",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第5段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是last-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P03-furnace-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：50mm两人对峙电影中景。男主左前持右手青霜剑低位，左上臂破袖，左腕半簪，眼神痛怒看玄衡；玄衡右侧近丹炉，左掌正吸一束从炉眼流向掌心的细金气，右手金剑待格。二人约一米半，炉侧有一小片焦黑布料，无骨骼特写。炉眼旧裂纹未扩大，男主嘴角尚无血、左肩无刺伤。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_04/last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P03-furnace-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 5,
+      "phase": "action",
+      "script_time_seconds": 9,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-afbb79f5-30e7-4b49-8dd3-025a736974a5.png",
+      "status": "REJECTED_INJURY_SIDE",
+      "path": "frames/segment_05/action-frame.png",
+      "sha256": "0eaadc06eb60142a27ba7440dabe9f38dd3a2130e737a217e02a67d0bc52cf1e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "F05_action_v2",
+      "prompt": "Use case: precise-object-edit. 保持这张画面的构图、两位角色身份与站位、表情、左右手持握、剑、丹炉、光线和背景完全不变。只修正画面左前景男主靠镜头这一侧上臂的衣袖：这只握银蓝剑的手属于右臂，右臂本来没有受刀伤，请把其上臂外侧目前破开的布料和两道血痕修复为完整的墨黑窄袖，延续原衣服纹理，不改变肩甲。真正受伤的是另一只戴红绳的左臂，位于身体远侧，其伤口被身体和衣料遮挡即可，不要新增可见伤口。男主依旧右手握蓝剑、左手空有红绳半簪，师傅右手金剑左掌吸炉气不变。仅修这块错误侧的伤，不增删任何人物道具，不裁剪，不镜像，16:9写实国风CG，无文字。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/action-frame.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 5,
+      "phase": "action",
+      "script_time_seconds": 9,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-9faf6b79-d23a-4410-a5b1-59b8da8a0f88.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_05/action-frame-v2.png",
+      "sha256": "8e97ab94a3acc377b2d31a7bd5b516ab89d40d558e4ea4470648091bfbb45e91",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F05_last",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第5段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是action-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P02-three-weapons-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：35mm丹殿双人中景，男主在左柱前屈膝卸力刚被震退，两小步总距约40cm，右手青霜剑仍稳住不掉，左上臂破袖，嘴角右侧新增一丝细鲜血，左肩还没受刺。玄衡在右方站稳，右手金剑横格，左掌金气仍连炉，薄金罡完整。炉眼仍仅旧裂纹，没有新缺口，不能爆炸。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/action-frame-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P02-three-weapons-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 5,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-693c3a57-bcdf-418f-8ece-8ea145e517c7.png",
+      "status": "REJECTED_INJURY_SIDE",
+      "path": "frames/segment_05/last-frame.png",
+      "sha256": "e0af36c6679fdec41e8cae5c64eb38ad71eab9281fabf8f62321e4748cdaedee",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "F05_last_v2",
+      "prompt": "Use case: precise-object-edit. 只对输入图中左侧男主靠镜头这一侧、握蓝剑的右上臂做局部衣袖修复：把目前裸露皮肤和两条红色划伤完全覆盖为完整的墨黑布料窄袖，恢复同样的布料褶皱，右肩甲不变；该右臂没有受伤。另一条戴红绳的远侧左臂才有旧伤，可被身体遮挡，不新增可见伤痕。其他全部原样保持：同一男主同一脸、姿势、右手握蓝剑、左手空、嘴角一丝血，师傅右手横金剑左掌吸丹气、金色护盾、丹炉、柱、门、光线构图都不变。不镜像、不换手、不新增胳膊。最终只看见右上臂完整黑袖，不见任何皮肤刀口。16:9单幅电影国风CG。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/last-frame.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 5,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-d4b4a484-a827-491b-87f6-a8d5b956ef1a.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_05/last-frame-v2.png",
+      "sha256": "338c68e851f1c55df9e3980b103d6479dd29e728abc037590b3fcfdfeecffbf5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F06_action",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第6段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是last-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P03-furnace-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：40mm中景展示剑气击中炉眼后的瞬间：男主在左低身、右手青霜直剑斜切收势，左臂旧伤嘴角血保留、左肩无刺伤；右侧玄衡刚避开腰斩，回头看同一丹炉炉眼，旧裂纹处崩出一个小缺口、少量铜片落下。炉眼到玄衡左掌的金线有一小段中断，薄金罡明显变暗，右手金剑还在。清楚是炉子受击、师傅失防的因果，不画全殿爆炸。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/last-frame-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P03-furnace-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 6,
+      "phase": "action",
+      "script_time_seconds": 7.3,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-0c50cbbf-be8e-485d-b727-99e14beeb319.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_06/action-frame.png",
+      "sha256": "5ef2fbf58b5c71b9fc427c66550f5df25324bb640aa4e7e5175da5b650c476a6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F06_last",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第6段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是action-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：40mm双人中景，玄衡右侧回身挡在丹炉前，右手金剑指向男主左肩，左掌重新连接金气、金罡恢复。男主左前近柱，右手青霜剑由低抬高，左肘下垂故意露左肩，眼睛看炉眼新缺口。男主左上臂旧伤与嘴角细血痕保留，但左肩还没被刺，玄衡左手未灼伤。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_06/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 6,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-ef1cbbf7-4bfe-4975-befc-da08729f091e.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_06/last-frame.png",
+      "sha256": "c098efe6a269d8a28af30ce6a1be3ee3b443b2f25f812b7c96c04342b7241ccf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F07_action",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第7段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是last-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P03-furnace-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：35mm略低机位的关键近身动作参考，唯一一个时刻。男主左肩外侧被师傅玄金直剑限制在左柱前，金剑右手柄仍由玄衡握或正松开、剑尖在肩后浅入柱；肩部只少量破袖暗血，不展示贯穿伤口。男主右手青霜直剑已沿玄衡左肋下空隙送入旁边丹炉已有炉眼缺口，右臂和剑刃在一米多范围可达，接触点清楚。玄衡在右近身、左掌金线接炉；炉眼铜壳刚局部裂开、有小块铜屑，不炸毁殿。男主嘴角血保留。绝不让两剑合成一把，不新增手臂，不让青剑穿过玄衡身体。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_06/last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P03-furnace-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 7,
+      "phase": "action",
+      "script_time_seconds": 7.6,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-6f0771a5-6b5d-435b-a2f2-715e8c7bd6b6.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_07/action-frame.png",
+      "sha256": "8e93bc9e3a52a66328dadb3ddcb4665fa82a454ece7737d93653f9f69a620d9c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F07_last",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第7段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是action-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：50mm双人中景：玄衡右后腰已抵炉台、仍活着，双眼骤睁，金罡全灭、左掌有限灼伤、右手空。男主已从左柱金剑脱离，站左前，右手同一青霜剑尖抵玄衡心口衣甲但未刺入；左上臂刀伤、左肩刺伤破袖、嘴角鲜血保留，左腕半簪。另一柄玄金剑单独留左侧柱上，不在师傅手中。丹炉炉眼局部破裂、侧边小黑布保留。禁止师傅尸体或男主仍钉柱。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_07/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 7,
+      "phase": "last",
+      "script_time_seconds": 15,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-02b088d3-d835-4935-b6eb-f79111c80275.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_07/last-frame.png",
+      "sha256": "6f1382c995d5d625b7d0295eeec7c40b1b3314a90c65aff32f4bf4e56f3f1858",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F08_first",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第8段的首帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是last-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：65mm偏师傅的双人近景，玄衡活着靠炉台、惊恐瞪眼看左侧男主，青霜剑尖抵他心口尚未刺入。男主只一个实体在左侧，右手稳剑，右肩擦伤和左上臂旧伤、嘴角鲜血保留，左腕红绳半簪。玄衡右手空、左掌灼伤、金罡灭；金剑留远左柱。只拍被制住后准备惊问的瞬间，不画师傅死亡。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。\n按已生成上一镜适配：新肩伤只在握蓝剑一侧的右肩甲上沿/肩侧，另一只带红绳的左手抹血；右手始终握剑，别把抹血手画成右手。右上臂衣袖仍完整，左上臂旧伤可被衣料遮挡。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_07/last-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 8,
+      "phase": "first",
+      "script_time_seconds": 0,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-adf1aa9d-4cd2-43b3-a5db-ac4e2bcb9069.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_08/first-frame.png",
+      "sha256": "f72a2f51701b80cad2773a99339e9ecabe864e769f2e83f258ff2cb31ea67fa0",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    },
+    {
+      "id": "F08_action",
+      "prompt": "Use case: stylized-concept. Asset type: 修仙短片第8段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是first-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：65mm男主胸上三分之二侧脸英雄近景，眼睛冷冷盯画面右侧师傅。男主受伤左上臂贴身，屈左肘，用左拇指正在抹去嘴角一线鲜血，血只少量抹在拇指与唇角，不喷血；右肩肩甲边缘破损擦伤保留。右手仍在画面右下稳握青霜剑，指向右侧虚焦、仍活着的玄衡心口；师傅最多只是虚焦半身，不复制男主。发冠、脸、黑银甲胄同基准，表情冷硬，不歪嘴笑。左腕仍带半簪红绳。此时还未出最后一剑。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。\n按已生成上一镜适配：新肩伤只在握蓝剑一侧的右肩甲上沿/肩侧，另一只带红绳的左手抹血；右手始终握剑，别把抹血手画成右手。右上臂衣袖仍完整，左上臂旧伤可被衣料遮挡。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_08/first-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 8,
+      "phase": "action",
+      "script_time_seconds": 4.3,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-ec8a30d8-c2a2-434f-94aa-3b57f1910ab8.png",
+      "status": "REJECTED_FURNACE_RECOVERY",
+      "path": "frames/segment_08/action-frame.png",
+      "sha256": "e784d825acefbcabfe60999b9eee3086c9aef5f696969f04fc574fbfc9c5f543",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "F08_action_v2",
+      "prompt": "Use case: precise-object-edit. 精确局部修正图1，图2只提供已经损坏的丹炉参照。图1男主脸、发冠、眼神、左拇指抹嘴角鲜血、左腕红绳、右手握青霜剑抵师傅、右肩甲擦伤、右侧虚焦师傅、光线与画幅全部保持，绝不动人物。只修改图1右后方虚焦丹炉：它已经在上一段被击破，炉眼的圆环右下边缘应有一个明显不规则铜片缺口，炉眼上方旧裂纹延展到该缺口，造型对应图2；保留同一三足炉、两侧兽耳和盖子，不重新变回完整圆环。炉中仅残余暗红火光，不再产生金气或护盾，不恢复原状。只局部修正背景炉眼破损，不裁剪不换角度，不加字，不新增人物，16:9写实国风CG。",
+      "refs": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_08/action-frame.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_07/last-frame.png"
+      ],
+      "kind": "segment_reference",
+      "segment": 8,
+      "phase": "action",
+      "script_time_seconds": 4.3,
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-571fc6e8-c414-4a09-9c68-334d02d5a906.png",
+      "status": "SELECTED_REFERENCE",
+      "path": "frames/segment_08/action-frame-v2.png",
+      "sha256": "4762f3902f802702b27453164c9cf312f6786775533ba7560920ab3e5738fc6a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+    }
+  ],
+  "created_at": "2026-11-16",
+  "selected_keyframes": 16,
+  "shared_assets": 12,
+  "segment_policy": "2 keyframes plus appearing-character turnarounds only",
+  "video_generation": "NOT_RUN"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "F08_action",
+  "prompt": "Use case: stylized-concept. Asset type: 修仙短片第8段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是first-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：65mm男主胸上三分之二侧脸英雄近景，眼睛冷冷盯画面右侧师傅。男主受伤左上臂贴身，屈左肘，用左拇指正在抹去嘴角一线鲜血，血只少量抹在拇指与唇角，不喷血；右肩肩甲边缘破损擦伤保留。右手仍在画面右下稳握青霜剑，指向右侧虚焦、仍活着的玄衡心口；师傅最多只是虚焦半身，不复制男主。发冠、脸、黑银甲胄同基准，表情冷硬，不歪嘴笑。左腕仍带半簪红绳。此时还未出最后一剑。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。\n构图补充：男主旧刀伤是戴红绳的左臂，不必在此画面展示，可用原有衣袖/肩甲和身体遮挡；握青霜剑的右上臂务必完整着衣、无裸露刀伤。\n按已生成上一镜适配：新肩伤只在握蓝剑一侧的右肩甲上沿/肩侧，另一只带红绳的左手抹血；右手始终握剑，别把抹血手画成右手。右上臂衣袖仍完整，左上臂旧伤可被衣料遮挡。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_08/first-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 8,
+  "phase": "action",
+  "script_time_seconds": 4.3,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-ec8a30d8-c2a2-434f-94aa-3b57f1910ab8.png",
+  "status": "REJECTED_FURNACE_RECOVERY",
+  "path": "frames/segment_08/action-frame.png",
+  "sha256": "e784d825acefbcabfe60999b9eee3086c9aef5f696969f04fc574fbfc9c5f543",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

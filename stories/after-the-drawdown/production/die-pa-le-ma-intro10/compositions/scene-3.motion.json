@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene-3",
+  "duration": 12.75,
+  "rules": [
+    "kinetic-beat-slam",
+    "depth-scatter-assemble",
+    "multi-phase-camera"
+  ],
+  "objects": "买入纸片入场，停住、转身，成为遮雨的屋檐。",
+  "entry": "实测节拍上的transform入场",
+  "exit": "节拍硬切",
+  "deterministic": true
+}

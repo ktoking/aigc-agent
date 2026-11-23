@@ -1,0 +1,22 @@
+{
+  "url": "https://radius-hypothetical-clicks-bestsellers.trycloudflare.com/?v=2",
+  "version": "fault-tolerance-v2",
+  "verified": true,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_range": null
+    },
+    {
+      "path": "/episodes/EP002_fault-tolerance-v2/output/fault-tolerance-v2_1080x1920_60s.mp4",
+      "status": 206,
+      "content_range": "bytes 0-4095/16301052"
+    },
+    {
+      "path": "/episodes/EP002_fault-tolerance-v2/output/fault-tolerance-v2.zh-CN.vtt",
+      "status": 200,
+      "content_range": null
+    }
+  ]
+}

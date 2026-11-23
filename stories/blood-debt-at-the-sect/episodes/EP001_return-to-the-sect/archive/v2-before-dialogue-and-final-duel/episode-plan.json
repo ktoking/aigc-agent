@@ -1,0 +1,456 @@
+{
+  "story_id": "blood-debt-at-the-sect",
+  "episode": "EP001_return-to-the-sect",
+  "version": "v2",
+  "status": "TEXT_PACKAGE_READY_NO_GENERATION",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 120,
+  "fps": 30,
+  "planned_total_frames": 3600,
+  "segments": [
+    {
+      "id": "segment_01_00-15s",
+      "title": "山门怒斥",
+      "start_seconds": 0,
+      "end_seconds": 15,
+      "duration_seconds": 15,
+      "planned_start_frame": 0,
+      "planned_end_frame_exclusive": 450,
+      "director_prompt": "segment_01_00-15s/director-promt.txt",
+      "first_frame": "segment_01_00-15s/frames/first-frame.png",
+      "last_frame": "segment_01_00-15s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "0.0–4.5秒",
+          "陆青",
+          "师兄，你住手吧，师傅已经原谅你了。"
+        ],
+        [
+          "5.0–10.8秒",
+          "谢无咎",
+          "去他的修仙，不过是吃人的世界。"
+        ],
+        [
+          "11.3–13.8秒",
+          "谢无咎",
+          "我看谁敢拦我。"
+        ]
+      ],
+      "prompt_version": "v2",
+      "shot_count": 4,
+      "start_state": "35mm中近景，男主黑银肩背占画面左侧四分之一，陆青在右侧清晰对焦，铁剑横在胸前，男主青霜剑仍在左腰鞘内，双方未接触。",
+      "end_state": "85mm手部特写，男主左手扣住左腰鞘口，左腕半截银簪在画面中央；右手只将青霜剑拔出约12厘米，冰蓝刃光掠过半簪焦黑断口。陆青在右后方虚焦，未受伤。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 4.7,
+          "title": "横剑劝阻"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 4.7,
+          "end_seconds": 10.9,
+          "title": "压怒反打"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 10.9,
+          "end_seconds": 13.9,
+          "title": "拔剑前的警告"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 13.9,
+          "end_seconds": 15,
+          "title": "蓝光照见遗物"
+        }
+      ]
+    },
+    {
+      "id": "segment_02_15-30s",
+      "title": "师姐入炉",
+      "start_seconds": 15,
+      "end_seconds": 30,
+      "duration_seconds": 15,
+      "planned_start_frame": 450,
+      "planned_end_frame_exclusive": 900,
+      "director_prompt": "segment_02_15-30s/director-promt.txt",
+      "first_frame": "segment_02_15-30s/frames/first-frame.png",
+      "last_frame": "segment_02_15-30s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "1.8–7.8秒",
+          "谢无咎／第一人称回忆旁白",
+          "他们抓活人炼丹。师姐救人，也被扔了进去。"
+        ],
+        [
+          "8.0–8.6秒",
+          "沈照月",
+          "走！"
+        ]
+      ],
+      "prompt_version": "v2",
+      "shot_count": 5,
+      "start_state": "继承前段85mm左腕半簪特写，青霜剑只拔出12厘米，半簪断口被蓝光照亮，背景仍是当前石桥。",
+      "end_state": "回到当前石桥的50mm男主半身，右手把青霜剑完全拔出并垂在身体右侧，左腕半簪仍固定红绳上；陆青在右前方画外。男主尚未击剑。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 1.8,
+          "title": "断簪触发回忆"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 1.8,
+          "end_seconds": 5.5,
+          "title": "看见活人丹房"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 5.5,
+          "end_seconds": 9.2,
+          "title": "师姐最后一句"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 9.2,
+          "end_seconds": 11.6,
+          "title": "合盖与断簪"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 11.6,
+          "end_seconds": 15,
+          "title": "回到当下出鞘"
+        }
+      ]
+    },
+    {
+      "id": "segment_03_30-45s",
+      "title": "破山门剑阵",
+      "start_seconds": 30,
+      "end_seconds": 45,
+      "duration_seconds": 15,
+      "planned_start_frame": 900,
+      "planned_end_frame_exclusive": 1350,
+      "director_prompt": "segment_03_30-45s/director-promt.txt",
+      "first_frame": "segment_03_30-45s/frames/first-frame.png",
+      "last_frame": "segment_03_30-45s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "3.2–6.8秒",
+          "领头守卫",
+          "封山！别让丹房的事传出去！"
+        ]
+      ],
+      "prompt_version": "v2",
+      "shot_count": 4,
+      "start_state": "50mm桥端中景，男主在左、陆青在右，两剑尚未相触；男主右手完整青霜剑低垂，陆青铁剑横拦。",
+      "end_state": "35mm外院中景，男主已跨过两守卫，站在通向丹殿台阶前，青霜剑右手下垂并有一处小缺口；一名守卫倒在画面左地面，一名倒在右后地面，金色阵纹全灭。陆青留在画外石桥，没有追杀。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "拨剑过桥"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.9,
+          "title": "封山剑阵成形"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.9,
+          "end_seconds": 10.8,
+          "title": "先破左阵脚"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10.8,
+          "end_seconds": 15,
+          "title": "避刺反击与破阵"
+        }
+      ]
+    },
+    {
+      "id": "segment_04_45-60s",
+      "title": "斩执法长老",
+      "start_seconds": 45,
+      "end_seconds": 60,
+      "duration_seconds": 15,
+      "planned_start_frame": 1350,
+      "planned_end_frame_exclusive": 1800,
+      "director_prompt": "segment_04_45-60s/director-promt.txt",
+      "first_frame": "segment_04_45-60s/frames/first-frame.png",
+      "last_frame": "segment_04_45-60s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "0.3–2.8秒",
+          "白璃",
+          "丹成之前，你进不去。"
+        ]
+      ],
+      "prompt_version": "v2",
+      "shot_count": 5,
+      "start_state": "35mm低机位双人中景，男主右手缺口直剑在左下前景，白璃位于右上方台阶，右手暗红弯刀斜垂，丹殿闭门在她后方。",
+      "end_state": "50mm男主肩侧近景，左手将丹殿门推开一道窄缝，左上臂衣袖有新刀伤；白璃倒在门边石阶、暗红弯刀脱手留地，右侧石柱有新刀痕。男主右手仍是缺口青霜直剑。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "长老封门"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.5,
+          "title": "下劈造成第一处伤"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.5,
+          "end_seconds": 10.5,
+          "title": "借横斩把刀引入石柱"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10.5,
+          "end_seconds": 13.2,
+          "title": "抓住卡刀的半拍"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 13.2,
+          "end_seconds": 15,
+          "title": "推门承接丹殿"
+        }
+      ]
+    },
+    {
+      "id": "segment_05_60-75s",
+      "title": "丹殿见师傅",
+      "start_seconds": 60,
+      "end_seconds": 75,
+      "duration_seconds": 15,
+      "planned_start_frame": 1800,
+      "planned_end_frame_exclusive": 2250,
+      "director_prompt": "segment_05_60-75s/director-promt.txt",
+      "first_frame": "segment_05_60-75s/frames/first-frame.png",
+      "last_frame": "segment_05_60-75s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "3.0–7.7秒",
+          "谢无咎",
+          "她叫你一声师傅，你把她炼成了丹。"
+        ],
+        [
+          "8.0–10.8秒",
+          "玄衡",
+          "她的灵根，正好补我的伤。"
+        ]
+      ],
+      "prompt_version": "v2",
+      "shot_count": 4,
+      "start_state": "50mm肩后近景，男主左掌抵着只开一掌宽的门，右剑斜下；门缝金光照到他左上臂破袖。",
+      "end_state": "35mm双人中景，男主退到左侧石柱前，右剑仍在手；玄衡在右侧举玄金剑，左掌仍连丹炉金线。炉眼上方旧裂纹、侧沿衣角与遗骨都已建立。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "门开交代对决空间"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 7.8,
+          "title": "看到师姐遗物后质问"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 7.8,
+          "end_seconds": 11,
+          "title": "玄衡纳气与回答"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 11,
+          "end_seconds": 15,
+          "title": "第一剑被护体震退"
+        }
+      ]
+    },
+    {
+      "id": "segment_06_75-90s",
+      "title": "试出丹炉弱点",
+      "start_seconds": 75,
+      "end_seconds": 90,
+      "duration_seconds": 15,
+      "planned_start_frame": 2250,
+      "planned_end_frame_exclusive": 2700,
+      "director_prompt": "segment_06_75-90s/director-promt.txt",
+      "first_frame": "segment_06_75-90s/frames/first-frame.png",
+      "last_frame": "segment_06_75-90s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [
+        [
+          "11.0–13.0秒",
+          "玄衡",
+          "你的剑，是我教的。"
+        ]
+      ],
+      "prompt_version": "v2",
+      "shot_count": 4,
+      "start_state": "35mm男主左柱前与玄衡同框，男主右手缺口直剑向上，左上臂伤未变；玄衡右剑准备压制、左掌金线连炉。",
+      "end_state": "40mm双人中景，玄衡右剑前压，正挡在炉前；男主在左前约一剑半距离，前脚退回近柱位置、抬右剑露左肩，目光已落在炉眼新缺口。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "压剑逼近"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.8,
+          "title": "斜切落到炉眼"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.8,
+          "end_seconds": 10.8,
+          "title": "供能中断被看见"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10.8,
+          "end_seconds": 15,
+          "title": "留下下一招的破绽"
+        }
+      ]
+    },
+    {
+      "id": "segment_07_90-105s",
+      "title": "以伤换毁炉",
+      "start_seconds": 90,
+      "end_seconds": 105,
+      "duration_seconds": 15,
+      "planned_start_frame": 2700,
+      "planned_end_frame_exclusive": 3150,
+      "director_prompt": "segment_07_90-105s/director-promt.txt",
+      "first_frame": "segment_07_90-105s/frames/first-frame.png",
+      "last_frame": "segment_07_90-105s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [],
+      "prompt_version": "v2",
+      "shot_count": 5,
+      "start_state": "40mm双人中景，男主左前方右剑抬起、左肩露出；玄衡挡在丹炉前，右手金剑待刺，左掌仍连金线；炉眼新缺口清楚，左柱在男主后方。",
+      "end_state": "50mm双人中景，男主左肩被玄金剑固定在柱前、右手已拔回青霜剑；玄衡右手松开金剑并退半步，左掌被丹火灼伤、金罡已灭；炉眼局部破裂，侧沿遗骨衣角没被炸飞。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "title": "用高位佯攻换近身"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 3,
+          "end_seconds": 6.5,
+          "title": "左肩受剑钉柱"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6.5,
+          "end_seconds": 10.8,
+          "title": "低位送剑击穿旧缺口"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 10.8,
+          "end_seconds": 13.5,
+          "title": "丹火沿供能通路失控灌入"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 13.5,
+          "end_seconds": 15,
+          "title": "两柄剑各归其位"
+        }
+      ]
+    },
+    {
+      "id": "segment_08_105-120s",
+      "title": "血债了结",
+      "start_seconds": 105,
+      "end_seconds": 120,
+      "duration_seconds": 15,
+      "planned_start_frame": 3150,
+      "planned_end_frame_exclusive": 3600,
+      "director_prompt": "segment_08_105-120s/director-promt.txt",
+      "first_frame": "segment_08_105-120s/frames/first-frame.png",
+      "last_frame": "segment_08_105-120s/frames/last-frame.png",
+      "frame_status": "NOT_GENERATED",
+      "generation_status": "NOT_SUBMITTED",
+      "dialogue": [],
+      "prompt_version": "v2",
+      "shot_count": 5,
+      "start_state": "50mm双人中景继承：男主右手青霜剑斜下、左肩被柱上金剑固定；玄衡左掌灼伤、右手空、金罡已灭。",
+      "end_state": "35mm殿内中广景，男主背对镜头走到左后殿门，右手重新提青霜剑、左腕只剩红绳；半簪与遗骨已包好收入怀中，左肩伤与破袖保持。玄衡倒在炉台旁不动，玄金剑留石柱，局部炉火渐暗。",
+      "planned_shots": [
+        {
+          "id": "L01",
+          "start_seconds": 0,
+          "end_seconds": 2.8,
+          "title": "脱离柱上金剑"
+        },
+        {
+          "id": "L02",
+          "start_seconds": 2.8,
+          "end_seconds": 6,
+          "title": "亲手了结师傅"
+        },
+        {
+          "id": "L03",
+          "start_seconds": 6,
+          "end_seconds": 7,
+          "title": "先腾出包遗物的手"
+        },
+        {
+          "id": "L04",
+          "start_seconds": 7,
+          "end_seconds": 11.8,
+          "title": "收起半簪与遗骨"
+        },
+        {
+          "id": "L05",
+          "start_seconds": 11.8,
+          "end_seconds": 15,
+          "title": "提剑离开，炉火熄灭"
+        }
+      ]
+    }
+  ],
+  "script_version": "v1",
+  "dialogue_version": "v1",
+  "latest_summary": "完整剧情与分段提示词-v2.md",
+  "prompt_revision": "参考homecoming的L编号／子节拍／执行节拍，细化全部8段；不改原话与结局。"
+}

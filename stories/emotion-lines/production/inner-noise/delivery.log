@@ -1,0 +1,89 @@
+{
+  "status": "PASS_LOCAL_DELIVERY",
+  "video": {
+    "file": "inner-noise_1080x1920_60s.mp4",
+    "duration_seconds": 60.0,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": "30/1",
+    "frames": "1800",
+    "codec": "h264",
+    "full_decode": "PASS",
+    "sha256": "615453c7641459665cd78c27da2458eef2b289e928ea7c48e9ec53b1adda15cf"
+  },
+  "audio": {
+    "stream_count": 1,
+    "track_name_user_confirmed": "we never 若如初见",
+    "source": "Nico 参考作品原始AAC音轨",
+    "source_range_seconds": [
+      0,
+      60
+    ],
+    "playback_rate": 1,
+    "new_voiceover": false,
+    "waveform_comparison_first_12_seconds": {
+      "pearson_correlation": 0.999910328290654,
+      "alignment_lag_ms": 0.0,
+      "scope": "重编码后的音轨与参考音轨前12秒，非全曲身份鉴定"
+    }
+  },
+  "beat_sync": {
+    "bpm_estimate": 112.9,
+    "text_cues": 19,
+    "authoring_grid": "源音轨实测节拍",
+    "max_30fps_timestamp_quantization_error_ms": 15.000000000000568,
+    "boundary": "BPM为自动估计；量化误差仅指时间线落点，不代表人耳音乐理解准确度"
+  },
+  "subtitles": {
+    "srt": "inner-noise.zh-CN.srt",
+    "vtt": "inner-noise.zh-CN.vtt",
+    "cues": 19,
+    "timing": "PASS"
+  },
+  "segments": [
+    {
+      "path": "segment_01_00-15s/output/video.mp4",
+      "duration_seconds": 15.0,
+      "size_bytes": 1623874
+    },
+    {
+      "path": "segment_02_15-30s/output/video.mp4",
+      "duration_seconds": 15.0,
+      "size_bytes": 1707769
+    },
+    {
+      "path": "segment_03_30-45s/output/video.mp4",
+      "duration_seconds": 15.0,
+      "size_bytes": 1323701
+    },
+    {
+      "path": "segment_04_45-60s/output/video.mp4",
+      "duration_seconds": 15.0,
+      "size_bytes": 2613896
+    }
+  ],
+  "hyperframes": {
+    "check_ok": true,
+    "runtime_errors": 0,
+    "layout_errors": 0,
+    "contrast_checks": 31,
+    "contrast_passed": 31,
+    "motion_samples": 300,
+    "motion_errors": 0,
+    "lint_warnings": 3,
+    "warning_note": "单一连续图形场景的3个嵌套图层结构建议，非渲染错误"
+  },
+  "boundaries": {
+    "rendered_topics": [
+      "内耗"
+    ],
+    "other_topics": "4个候选未渲染",
+    "paid_generation": "NOT_RUN",
+    "external_video_api": "NOT_RUN",
+    "published": false,
+    "subjective_style_match": "样片，非逐像素复刻"
+  },
+  "visual_review": "关键帧与Studio预览已看；待本次编码成片连续播放复核"
+}

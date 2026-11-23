@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene-6",
+  "duration": 8.924999999999997,
+  "rules": [
+    "kinetic-beat-slam",
+    "depth-scatter-assemble",
+    "multi-phase-camera"
+  ],
+  "objects": "暖色门洞升起，台阶出现，人慢慢向前。",
+  "entry": "实测节拍上的transform入场",
+  "exit": "节拍硬切",
+  "deterministic": true
+}

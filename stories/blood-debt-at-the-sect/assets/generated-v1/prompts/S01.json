@@ -1,0 +1,16 @@
+{
+  "id": "S01",
+  "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n单幅电影场景资产，不是设定拼图。无人。28mm三分之二水平视角，看一座宽约3米、长约12米的干燥灰石桥，桥两边低石栏，近端在左前，远端通向右后青玄宗石门与短门洞；门洞后隐约有外院台阶。桥下冷灰云海，远处悬崖仙宫暖窗、瀑布仅在遥远背景，保留参考仙山世界，不用过多楼阁挤满画面。黄昏柔和冷天光与低饱和暖金逆光，桥面有足够连续平地供两人对话与拨剑。无人物、无武器、无旗上文字、无雨、无积水、无垃圾。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-05.png"
+  ],
+  "kind": "asset",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-52f17bca-08f5-4096-830c-dfe3f9f06a29.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "path": "scenes/S01-gate-bridge-reference.png",
+  "sha256": "899f931405c6e0e08a9eebdf430788064fa2a7bca435a8ffe81f647e3716c25b",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

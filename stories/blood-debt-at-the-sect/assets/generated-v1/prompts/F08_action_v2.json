@@ -1,0 +1,21 @@
+{
+  "id": "F08_action_v2",
+  "prompt": "Use case: precise-object-edit. 精确局部修正图1，图2只提供已经损坏的丹炉参照。图1男主脸、发冠、眼神、左拇指抹嘴角鲜血、左腕红绳、右手握青霜剑抵师傅、右肩甲擦伤、右侧虚焦师傅、光线与画幅全部保持，绝不动人物。只修改图1右后方虚焦丹炉：它已经在上一段被击破，炉眼的圆环右下边缘应有一个明显不规则铜片缺口，炉眼上方旧裂纹延展到该缺口，造型对应图2；保留同一三足炉、两侧兽耳和盖子，不重新变回完整圆环。炉中仅残余暗红火光，不再产生金气或护盾，不恢复原状。只局部修正背景炉眼破损，不裁剪不换角度，不加字，不新增人物，16:9写实国风CG。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_08/action-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_07/last-frame.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 8,
+  "phase": "action",
+  "script_time_seconds": 4.3,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-571fc6e8-c414-4a09-9c68-334d02d5a906.png",
+  "status": "SELECTED_REFERENCE",
+  "path": "frames/segment_08/action-frame-v2.png",
+  "sha256": "4762f3902f802702b27453164c9cf312f6786775533ba7560920ab3e5738fc6a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+}

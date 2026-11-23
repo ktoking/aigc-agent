@@ -1,0 +1,44 @@
+{
+  "version": "v3",
+  "status": "PASS",
+  "scope": "文本结构与同步检查；非音频或视频实测",
+  "segments": 8,
+  "duration_seconds": 120,
+  "planned_frames": 3600,
+  "shots": 38,
+  "subbeats": 95,
+  "dialogue_lines": 14,
+  "natural_tail_holds_seconds": [
+    [
+      1,
+      "压怒反打",
+      0.1
+    ],
+    [
+      1,
+      "拔剑前的警告",
+      0.1
+    ],
+    [
+      5,
+      "看到师姐遗物后质问",
+      0.1
+    ],
+    [
+      8,
+      "玄衡惊问剑法来历",
+      0.1
+    ]
+  ],
+  "summary_and_segment_prompts_equal": true,
+  "dialogue_and_split_shots_consistent": true,
+  "unchanged_segments_shot_plans": [
+    1,
+    3,
+    4
+  ],
+  "historical_versions_preserved": true,
+  "reference_hashes_checked": 5,
+  "segment_06_long_line_window": "10.0–14.4秒",
+  "media_generation": "NOT_RUN"
+}

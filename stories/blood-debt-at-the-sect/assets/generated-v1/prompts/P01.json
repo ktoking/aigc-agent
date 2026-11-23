@@ -1,0 +1,16 @@
+{
+  "id": "P01",
+  "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n关键遗物资产设定板，画面为哑光灰石台上的同一月牙银簪的物理状态对照：左边一枚约8厘米完整简洁银簪，末端是小巧月牙弧形；中间是这根银簪断成的两块，断口轻微焦黑；右边只展示其中半截，用细暗红绳活扣固定在中性成人左腕上，手掌自然放松。确保完整与断裂段形状对应，同样银材质，无魔法发光，不是手镯、戒指或巨大武器；三个状态为同一件遗物的资产对照，不是首尾帧。干净近摄、柔和暖边光，无文字无标注。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-02.png"
+  ],
+  "kind": "asset",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b30c4401-e9b8-412b-8b4f-8867189ba8f1.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "path": "props/P01-moon-hairpin-reference.png",
+  "sha256": "d8eb6d122a95daf3038971cb069b3b561b427fe6fa257eefd44718cf6994e4c5",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

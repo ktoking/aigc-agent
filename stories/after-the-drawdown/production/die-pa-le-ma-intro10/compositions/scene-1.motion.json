@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene-1",
+  "duration": 8.535,
+  "rules": [
+    "kinetic-beat-slam",
+    "depth-scatter-assemble",
+    "multi-phase-camera"
+  ],
+  "objects": "跌落绿柱，微小的人仍在地面上。",
+  "entry": "实测节拍上的transform入场",
+  "exit": "节拍硬切",
+  "deterministic": true
+}

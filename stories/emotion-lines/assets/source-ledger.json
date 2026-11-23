@@ -1,0 +1,29 @@
+{
+  "share_url": "https://v.douyin.com/tu0YqoKxU4Q/",
+  "video_id": "7697240924837748134",
+  "author": "Nico",
+  "bgm_title_user_confirmed": "we never 若如初见",
+  "new_picture_reuses_source_frames": false,
+  "audio_source_range_seconds": [
+    0,
+    60
+  ],
+  "audio_speed": 1,
+  "sources": [
+    {
+      "file": "assets/reference/nico-original-audio.m4a",
+      "sha256": "aba92049364d51668c129b237e213d6d20d403941c350b991135f6ee49628cb6",
+      "role": "music-source"
+    },
+    {
+      "file": "assets/reference/contact-sheet.jpg",
+      "sha256": "5ff240b10ee5809a20d244970844081f8f0b530d0f41b43a97c424365f317cbd",
+      "role": "reference-analysis-only"
+    },
+    {
+      "file": "assets/reference/nico-7697240924837748134-video.mp4",
+      "sha256": "fcf36ac0a780ac280206de1df18363748076ef115e1adb6318b1231aec7a717e",
+      "role": "reference-analysis-only"
+    }
+  ]
+}

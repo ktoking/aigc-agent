@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene-2",
+  "duration": 10.66,
+  "rules": [
+    "kinetic-beat-slam",
+    "depth-scatter-assemble",
+    "multi-phase-camera"
+  ],
+  "objects": "自责石块逐拍压近，人物坐下。",
+  "entry": "实测节拍上的transform入场",
+  "exit": "节拍硬切",
+  "deterministic": true
+}

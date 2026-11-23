@@ -1,0 +1,41 @@
+{
+  "version": "v4",
+  "segment": "segment_05_60-75s",
+  "policy": "2 keyframes plus appearing-character turnarounds only",
+  "references": [
+    {
+      "index": 1,
+      "kind": "keyframe",
+      "path": "frames/keyframe_01.png",
+      "role": "丹殿对峙，玄衡右手金剑、左掌吸炉气；左上臂旧伤在远侧可被遮挡",
+      "segment_time_hint_seconds": 9,
+      "sha256": "8e97ab94a3acc377b2d31a7bd5b516ab89d40d558e4ea4470648091bfbb45e91",
+      "source_generation_id": "F05_action_v2"
+    },
+    {
+      "index": 2,
+      "kind": "keyframe",
+      "path": "frames/keyframe_02.png",
+      "role": "金罡震退后的屈膝卸力，男主嘴角有细血，玄衡仍有金罡与供能",
+      "segment_time_hint_seconds": 15,
+      "sha256": "338c68e851f1c55df9e3980b103d6479dd29e728abc037590b3fcfdfeecffbf5",
+      "source_generation_id": "F05_last_v2"
+    },
+    {
+      "index": 3,
+      "kind": "character_turnaround",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+    },
+    {
+      "index": 4,
+      "kind": "character_turnaround",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-reference.png",
+      "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+    }
+  ]
+}

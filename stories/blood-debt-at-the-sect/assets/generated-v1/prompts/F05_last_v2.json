@@ -1,0 +1,20 @@
+{
+  "id": "F05_last_v2",
+  "prompt": "Use case: precise-object-edit. 只对输入图中左侧男主靠镜头这一侧、握蓝剑的右上臂做局部衣袖修复：把目前裸露皮肤和两条红色划伤完全覆盖为完整的墨黑布料窄袖，恢复同样的布料褶皱，右肩甲不变；该右臂没有受伤。另一条戴红绳的远侧左臂才有旧伤，可被身体遮挡，不新增可见伤痕。其他全部原样保持：同一男主同一脸、姿势、右手握蓝剑、左手空、嘴角一丝血，师傅右手横金剑左掌吸丹气、金色护盾、丹炉、柱、门、光线构图都不变。不镜像、不换手、不新增胳膊。最终只看见右上臂完整黑袖，不见任何皮肤刀口。16:9单幅电影国风CG。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/last-frame.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 5,
+  "phase": "last",
+  "script_time_seconds": 15,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-d4b4a484-a827-491b-87f6-a8d5b956ef1a.png",
+  "status": "SELECTED_REFERENCE",
+  "path": "frames/segment_05/last-frame-v2.png",
+  "sha256": "338c68e851f1c55df9e3980b103d6479dd29e728abc037590b3fcfdfeecffbf5",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": "已查看实际输出，按对应节点选用；局部动作与时段按v4适配。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "P02",
+  "prompt": "Use case: stylized-concept. 写实国风3D CG，严格保持用户参考图的艺术化写实人物与电影光影，干净大形、自然皮肤、哑光衣料、适度金属纹饰，冷灰基调加柔和暖色轮廓光。16:9横幅，无文字、无水印、无logo、无网格、无过锐与鳞片微纹理。\n武器组资产设定板：纯灰背景上自上而下整齐横放三件不同武器，间隔足够，完整器型可见，无人物无文字。第一：男主青霜剑，一柄95厘米细长银色双刃直剑、黑银剑格与黑银柄、很淡冰蓝刃缘；其下配一个同长度黑银剑鞘，二者对应。第二：玄衡玄金剑，略宽直刃，古朴暗金剑格与柄、淡金细光，保持直刃且明显区别于第一把。第三：白璃赤刃弯刀，只有一柄弧形刀身，黑红刀柄、暗红刃缘，严格参考白发女修所持弯刃形状，不做镰刀或双刀。材质清楚、雕纹适中，无全屏光晕。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-04.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-03.png"
+  ],
+  "kind": "asset",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-a5f1d105-bde4-4a9a-af7b-b2817c9e6dbf.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "path": "props/P02-three-weapons-reference.png",
+  "sha256": "a63c97d92a6470ef00e2091964fba00a6707df156b757ffbfe6acf21137c8b54",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

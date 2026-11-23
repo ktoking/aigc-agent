@@ -1,0 +1,49 @@
+{
+  "version": "v4",
+  "segment": "segment_03_30-45s",
+  "policy": "2 keyframes plus appearing-character turnarounds only",
+  "references": [
+    {
+      "index": 1,
+      "kind": "keyframe",
+      "path": "frames/keyframe_01.png",
+      "role": "外院与第一名守卫碰刃，另一名在后方待攻，三人各一实体",
+      "segment_time_hint_seconds": 9,
+      "sha256": "a01b6369c8e2e552450d86a87a4c9d813e98c42210c1a9317aceff7a0a945a1a",
+      "source_generation_id": "F03_action"
+    },
+    {
+      "index": 2,
+      "kind": "keyframe",
+      "path": "frames/keyframe_02.png",
+      "role": "两守卫倒地、阵灭、男主提剑看台阶；无血浆或伤口特写",
+      "segment_time_hint_seconds": 15,
+      "sha256": "4133a5ee97ad825c6c413944abd3a3b536621fa6cb0c2fbab5310f550cfd6f6b",
+      "source_generation_id": "F03_last"
+    },
+    {
+      "index": 3,
+      "kind": "character_turnaround",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+    },
+    {
+      "index": 4,
+      "kind": "character_turnaround",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-reference.png",
+      "role": "陆青身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "285e9d0ffd203395df74b2d62ffd8c99155fef7efc84e0f7471cd94795239c22"
+    },
+    {
+      "index": 5,
+      "kind": "character_turnaround",
+      "character_id": "C06",
+      "path": "frames/C06-two-guards-reference.png",
+      "role": "两名执剑守卫身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "935fa63c660ecfcdc04d85a8990f4bfa30b0827982adc28b2373cb4a81321eb8"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "F04_action",
+  "prompt": "Use case: stylized-concept. Asset type: 修仙短片第4段的关键动作参考图。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是last-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C03-bai-li-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S02-sword-court-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P02-three-weapons-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：50mm刀剑接触点与两人同框的动态单帧。男主在左，右手青霜直剑贴住白璃右手暗红弯刀外侧，将横斩引向画面右侧石柱，弯刀刃尖刚嵌柱面浅层，少量石屑落下。白璃在右侧失去半拍重心，男主左脚跨近、右肘收紧。男主左上臂已有一条有限刀伤与破袖，但左肩没被刺、嘴角尚无血。禁止剑刀穿模或换手，只有两人。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_03/last-frame.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C03-bai-li-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S02-sword-court-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P02-three-weapons-reference.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 4,
+  "phase": "action",
+  "script_time_seconds": 9.5,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-5397eb2c-77af-49dd-81cd-1eb5bdbca852.png",
+  "status": "REJECTED_HANDEDNESS",
+  "path": "frames/segment_04/action-frame.png",
+  "sha256": "23ea783c8710a2b605f0339bd7acded641f1c19f5744d51e831f8c03b5d828ee",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": "左手误持直剑，修正男主双臂后使用。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "F05_last",
+  "prompt": "Use case: stylized-concept. Asset type: 修仙短片第5段的尾帧。\n写实国风3D CG修仙电影单幅画面，16:9宽银幕，严格沿用所附角色基准的五官、发冠和服装；冷灰云海与低饱和暖金边光，丹殿内以暗金炉光作辅光。干净大形、自然皮肤、哑光衣料、适度雕纹，整体匹配用户原始五张图。\n输入参考职责：图1是action-frame.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图2是C01-xie-wujiu-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图3是C04-xuanheng-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图4是S03-pill-hall-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。 图5是P02-three-weapons-reference.png，只锁其中人物身份、器型或空间。若为前一个剧情镜头，锁造型与空间，本图新状态以下文为准；若是多视图设定板，每位人物仅画一个实体。\n本张画面：35mm丹殿双人中景，男主在左柱前屈膝卸力刚被震退，两小步总距约40cm，右手青霜剑仍稳住不掉，左上臂破袖，嘴角右侧新增一丝细鲜血，左肩还没受刺。玄衡在右方站稳，右手金剑横格，左掌金气仍连炉，薄金罡完整。炉眼仍仅旧裂纹，没有新缺口，不能爆炸。\n这是独立单帧剧情参考，不是多格分镜、不是角色三视图、不拼贴。输入的多视图设定板只是同一人的不同角度，每个实际角色在本画面只出现一个实体，禁止把设定板的多个视图全搬进画面。保持自然手指、清楚持握和合理距离。男主一柄青霜直剑及左腰黑银剑鞘，师傅一柄玄金直剑，白璃一柄暗红弯刀，各不互换。无文字、无字幕、无水印、无图表、无鱼鳞网格、无满屏微纹理、无过锐。无肢解、无内脏、无喷血。只有明确写出的角色和当时状态，不提前把后续伤势、毁炉或死亡画出来。\n左右伤势特别锁定：初次刀伤只在佩戴红绳半簪的左上臂，握青霜剑的右臂无刀伤；若左臂在远侧被身体遮住，不必强行展示伤口。不要把旧伤复制到右臂。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/frames/segment_05/action-frame-v2.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C01-xie-wujiu-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/characters/C04-xuanheng-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/scenes/S03-pill-hall-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/generated-v1/props/P02-three-weapons-reference.png"
+  ],
+  "kind": "segment_reference",
+  "segment": 5,
+  "phase": "last",
+  "script_time_seconds": 15,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-693c3a57-bcdf-418f-8ece-8ea145e517c7.png",
+  "status": "REJECTED_INJURY_SIDE",
+  "path": "frames/segment_05/last-frame.png",
+  "sha256": "e0af36c6679fdec41e8cae5c64eb38ad71eab9281fabf8f62321e4748cdaedee",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

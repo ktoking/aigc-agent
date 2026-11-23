@@ -1,0 +1,41 @@
+{
+  "version": "v4",
+  "segment": "segment_06_75-90s",
+  "policy": "2 keyframes plus appearing-character turnarounds only",
+  "references": [
+    {
+      "index": 1,
+      "kind": "keyframe",
+      "path": "frames/keyframe_01.png",
+      "role": "炉眼缺口形成后的半拍，供能变弱，玄衡回看炉眼；不是全殿爆炸",
+      "segment_time_hint_seconds": 7.3,
+      "sha256": "5ef2fbf58b5c71b9fc427c66550f5df25324bb640aa4e7e5175da5b650c476a6",
+      "source_generation_id": "F06_action"
+    },
+    {
+      "index": 2,
+      "kind": "keyframe",
+      "path": "frames/keyframe_02.png",
+      "role": "玄衡挡炉恢复金罡，男主抬剑准备诱招；新缺口不能愈合",
+      "segment_time_hint_seconds": 15,
+      "sha256": "c098efe6a269d8a28af30ce6a1be3ee3b443b2f25f812b7c96c04342b7241ccf",
+      "source_generation_id": "F06_last"
+    },
+    {
+      "index": 3,
+      "kind": "character_turnaround",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80"
+    },
+    {
+      "index": 4,
+      "kind": "character_turnaround",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-reference.png",
+      "role": "玄衡身份与服装；同一人物的多角度，不能生成额外实体",
+      "sha256": "47fde5c8c53e1a20b7567d9c80034b5878fd5e304ffd38e85bdcf179c3c6913f"
+    }
+  ]
+}

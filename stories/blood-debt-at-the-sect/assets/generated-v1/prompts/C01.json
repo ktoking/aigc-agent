@@ -1,0 +1,17 @@
+{
+  "id": "C01",
+  "prompt": "Use case: stylized-concept. Asset type: 单一角色的电影级三视图与面部基准设定板，用于《焚宗：师姐的血债》后续视频保持同一身份。\n输入参考图1与图2是同一位黑发男主，只锁其五官、黑色长发、发冠、黑银甲胄和写实国风CG画风，不能生出两个角色。保留这个人清俊但带锋利感的眼睛、挺直鼻梁、下颌线和黑银层叠肩甲，避免换脸。\n生成一张16:9横幅角色资产图：干净浅冷灰背景，左侧至中间依次展示同一位约25岁成年男主的正面全身、侧面全身、背面全身，最右是一张较大的三分之二侧脸胸像；这四个视图全都是同一个人的不同角度。身高比例一致，头脚完整，有足够间隔，无文字、无标题、无分格线。\n服装固定：黑色长发半束、同一枚银色发冠，黑银窄袖轻甲，银色肩甲，墨黑长袍、皮革腰带、黑靴，衣摆干净完整，适度雕纹，不做密集鳞片。黑银剑鞘挂左腰，右手握一柄约95厘米银色直刃长剑自然斜下，剑刃只一线很淡冰蓝光，剑柄黑银，不能变弯刀。左腕以细红绳固定一段小小的半截月牙银簪，明确是遗物而非护腕。无伤口、无血迹，这是开场造型。神态压抑愤怒、眼神锐利，不夸张歪嘴，不微笑。\n柔和侧光，发丝暖色轮廓光，材质写实但属于高端国风3D CG人物，保持参考图的画风。自然皮肤、清晰大形、哑光衣料、不过度锐化，无鱼鳞网格、无满屏微纹理、无水印、无logo。只画这个角色的设定板，不画场景剧情、炉火或其他人。",
+  "refs": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-01.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/blood-debt-at-the-sect/assets/references/ref-05.png"
+  ],
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-93a23241-2f2b-46ff-a431-20248fe45126.png",
+  "status": "SHARED_ASSET_REVIEWED",
+  "qa": "角色三视与胸像清楚，发冠、黑银甲胄和脸部特征可作为后续基准；武器与遗物以独立道具卡继续锁定。",
+  "path": "characters/C01-xie-wujiu-reference.png",
+  "sha256": "fe318c6f2347ce868b8ca9f99df5ee08857f1a75aba6fc09a969f709214eae80",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

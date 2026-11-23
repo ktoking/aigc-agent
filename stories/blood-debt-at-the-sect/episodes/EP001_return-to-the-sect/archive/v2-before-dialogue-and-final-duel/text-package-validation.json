@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "v2文本结构、时间线、模型文本同步和对白保留；不等于媒体验收",
+  "version": "v2",
+  "segments": 8,
+  "duration_seconds": 120,
+  "planned_total_frames": 3600,
+  "shots": 36,
+  "subbeats": 91,
+  "subbeat_tail_holds_seconds": [
+    [
+      1,
+      "压怒反打",
+      0.1
+    ],
+    [
+      1,
+      "拔剑前的警告",
+      0.1
+    ],
+    [
+      5,
+      "看到师姐遗物后质问",
+      0.1
+    ]
+  ],
+  "summary_and_segment_prompts_equal": true,
+  "story_v1_unchanged": true,
+  "dialogue_v1_unchanged": true,
+  "reference_hashes_checked": 5,
+  "generation": "NOT_RUN",
+  "characters_per_director": [
+    3011,
+    3441,
+    3219,
+    3296,
+    3114,
+    3155,
+    3504,
+    3429
+  ]
+}
