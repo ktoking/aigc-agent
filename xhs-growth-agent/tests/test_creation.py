@@ -47,7 +47,7 @@ async def test_fast_response_direction_to_review_no_old_briefs(session, render_s
     task = creation.get_task(session, task["id"])
     article = session.get(Article, task["article_ids"][0])
     assert task["status"] == "COMPLETED" and task["completed"] == 1
-    assert article.category == "周末城市散步" and article.style == "通用建议" and article.sources == []
+    assert article.category == "周末城市散步" and article.style == "观点随笔" and article.sources == []
     assert article.status == "PENDING_REVIEW"
     assert session.scalar(select(func.count(PublishJob.id))) == 0
     assert session.scalar(select(ContentBrief)).status == "PLANNED"

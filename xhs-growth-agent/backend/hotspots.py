@@ -19,6 +19,26 @@ RUN_NAME = "Hotspot Refresh"
 CACHE_SECONDS = 15 * 60
 TOTAL_TIMEOUT = 12
 MAX_ITEMS = 20
+FILTER_POLICY = "nonpolitical-v3"
+POLITICAL = re.compile(
+    r"政治|时政|外交|国事访问|习近平|李强|特朗普|川普|拜登|普京|泽连斯基|内塔尼亚胡|"
+    r"总统|总理|首相|国家主席|领导人|国会|议会|大选|选举|政党|党代会|两会|"
+    r"国务院|中央军委|外交部|国防部|联合国|北约|军演|导弹|核武|战争|战事|停火|"
+    r"军事|军舰|战机|航母|空袭|轰炸|武装|领土|主权|会晤|总书记|全国政协|人大会议|"
+    r"赖清德|金正恩|民进党|国民党|内阁|弹劾|政变|"
+    r"中共|中央纪委|中央紀委|共产党|共產黨|党史|黨史|长征|長征|主题宣传|主題宣傳|活力中国调研|"
+    r"政府|部长|部長|国际关系|國際關係|国台办|國台辦|陆委会|陸委會|竞选|競選|民兵|胡塞|"
+    r"乌克兰|烏克蘭|欧盟进程|歐盟進程|贸易磋商|貿易磋商|薄熙来|薄熙來|黄奇帆|黃奇帆|"
+    r"總統|總理|國家主席|領導人|國會|議會|選舉|政黨|兩會|國務院|軍演|導彈|戰爭|戰事|"
+    r"台獨|臺獨|臺海|關稅|制裁|內閣|彈劾|政變|軍事|軍艦|戰機|轟炸|武裝|領土|主權|"
+    r"白宫|白宮|少先队|少先隊|共青团|共青團|中将|中將|上将|上將|退役.*(?:军|将|軍|將)|"
+    r"(?:中国|中國|两岸|兩岸).*(?:统一|統一)|炸弹威胁|炸彈威脅|恐怖袭击|恐怖襲擊|恐袭|恐襲|"
+    r"俄乌|巴以|以色列.*(?:军|袭|加沙)|加沙|台海|台独|关税|制裁|"
+    r"\b(?:politics|political|president|election|parliament|trump|biden|putin|nato|war)\b", re.I)
+
+
+def is_political(title, categories=""):
+    return bool(POLITICAL.search(title + " " + categories))
 _tasks = {}
 BAIDU_URL = "https://top.baidu.com/api/board?platform=wise&tab=realtime"
 CHINA_URL = "https://www.chinanews.com.cn/rss/scroll-news.xml"
@@ -60,7 +80,7 @@ def _runs(session, key):
 
 
 def _fresh(run):
-    if run.status != "COMPLETED" or not run.finished_at:
+    if run.status != "COMPLETED" or not run.finished_at or (run.result or {}).get("filter_policy") != FILTER_POLICY:
         return False
     return (datetime.now(timezone.utc) - datetime.fromisoformat(run.finished_at)).total_seconds() < CACHE_SECONDS
 
@@ -73,7 +93,7 @@ def list_hotspots(session, direction=""):
     ids = (completed.result or {}).get("topic_ids", []) if completed else []
     topics = {topic.id: topic for topic in session.scalars(select(Topic).where(Topic.id.in_(ids))).all()} if ids else {}
     value = latest.result or {} if latest else {}
-    return {"items": [serialize(topics[topic_id]) for topic_id in ids if topic_id in topics],
+    return {"items": [serialize(topics[topic_id]) for topic_id in ids if topic_id in topics and not is_political(topics[topic_id].title)],
             "updated_at": completed.finished_at if completed else None,
             "loading": bool(latest and latest.status == "RUNNING"),
             "sources": value.get("sources", []), "errors": value.get("errors", []),
@@ -103,7 +123,7 @@ async def start_refresh(session, direction="", session_factory=None):
     # A stale running record cannot make the UI spin forever after a process restart.
     recover_tasks(session)
     run = AgentRun(name=RUN_NAME, mode="live", result={"direction": direction, "cache_key": key,
-                   "stage": "FETCHING", "topic_ids": [], "sources": [], "errors": []})
+                   "stage": "FETCHING", "topic_ids": [], "sources": [], "errors": [], "filter_policy": FILTER_POLICY})
     session.add(run)
     session.commit()
     view = task_view(run)
@@ -142,7 +162,7 @@ def _baidu(data, direction, retrieved_at):
         for group in card.get("content", []):
             for item in group.get("content", []):
                 title, url = item.get("word", ""), _safe_url(item.get("url"))
-                if title and url and not item.get("isTop") and _matches(title, direction):
+                if title and url and not item.get("isTop") and not is_political(title) and _matches(title, direction):
                     entries.append(_entry(title, url, "百度实时热榜", retrieved_at,
                                           rank=item.get("index"), kind="ranking", published_at=None,
                                           time_basis="获取时的公开热榜；未提供新闻发布时间"))
@@ -164,7 +184,8 @@ def _rss(text, source, direction, retrieved_at, *, search=False):
         if age > timedelta(hours=72) or age < timedelta(minutes=-10):
             continue
         title, url = item.get("title", ""), _safe_url(item.get("link"))
-        if not title or not url or (not search and not _matches(title, direction)):
+        categories = " ".join(tag.get("term", "") for tag in item.get("tags", []))
+        if not title or not url or is_political(title, categories) or (not search and not _matches(title, direction)):
             continue
         entries.append(_entry(title, url, source, retrieved_at, kind="news", rank=None,
                        published_at=published.isoformat(), age_hours=round(age.total_seconds() / 3600, 1),
@@ -224,6 +245,8 @@ def _merge(results):
             if index >= len(result["items"]):
                 continue
             entry = result["items"][index]
+            if is_political(entry["title"]):
+                continue
             title = re.sub(r"\s+-\s+[^-]+$", "", entry["title"])
             title_key = re.sub(r"\W+", "", title.casefold())
             existing = by_title.get(title_key)

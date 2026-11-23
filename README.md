@@ -11,6 +11,16 @@
 - `skills/`：通用 Codex skill，用于分析剧本、创建故事包、生成剧集生产文件。
 - `stories/`：每个剧本一个独立 story 文件夹。
 
+## 按台词制作静帧电影视频
+
+当前仓库后续新制内容默认使用 [MiniMax 配音](docs/contracts/minimax-tts.md)，按实际音频时长排画面，不再默认生成独立字幕文件；下述静音交付可在用户明确要求时使用。
+
+[story-film-workflow](skills/story-film-workflow/SKILL.md) 从小说式剧本创作开始，改编为第一人称旁白，锁定角色与画风，生成场景配音，再按实测语音安排约5秒一张的独立新图，最终合成视频。默认真人写实、画面干净有秩序且干燥，不用脏乱、潮湿或湿反光营造电影感；成片内不重复用图，裁切缩放旧图不算新镜头。固定构图、外部句间0.1秒、叠化0.1秒（占用句间空档），交付有声无字MP4，不生成独立字幕；题材、集数、视角、画风、画幅与时长可按明确要求修改。
+
+调用示例：`使用 $story-film-workflow，根据我的题材制作静帧短剧，按场景选择MiniMax配音预设，以实际语音时长排画面，交付有声无字MP4，不生成独立字幕。`
+
+该skill附带MiniMax配音脚本、11个场景预设、制作提示词及可配置的静音排时/合成/检查脚本。参数范围和模型限制见[场景配音指南](skills/story-film-workflow/references/minimax-tts.md)，输入格式和云端移交说明在references中。静音版和独立字幕可按要求使用，不默认调用付费视频API或公开发布。
+
 根目录不要写死某个剧本的人名、剧情、人脸锁、世界观或具体剧集产物。
 
 ## Story 文件夹约定
@@ -105,6 +115,9 @@ episodes/EPXXX_slug/
 ## 当前故事包
 
 - [stories/twin-dawn](stories/twin-dawn/README.md)：《末日重生：双生曙光 / 末日降临：我和闺蜜觉醒双SSS异能》。
+- [stories/sams-apocalypse](stories/sams-apocalypse/README.md)：《丧尸爆发后，我拥有整个山姆超市》。
+- [stories/heatwave-coldstore](stories/heatwave-coldstore/README.md)：《热浪吞城后，我重生在零下十八度》（已停用：三版引擎均未获用户通过）。
+- [stories/frost-fortress](stories/frost-fortress/README.md)：《极寒末日，我的房车是移动堡垒》（当前主推：复刻红果头部极寒末世骨架，EP001—EP012 已完成）。
 
 ## 新增剧本流程
 

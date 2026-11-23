@@ -6,6 +6,9 @@ from sqlalchemy.orm import sessionmaker
 from .db import SessionLocal
 from .model_client import ModelClient, ModelUnavailable
 from .models import AgentRun, Topic, now
+from .tones import normalize_tones
+from .writing_templates import resolve_template, record_usage
+from .writing_harness import resolve as resolve_harness
 from .service import WorkflowError, make_article, settings
 
 RUN_NAME = "Content Creation"
@@ -24,7 +27,9 @@ def _recent(value):
 def task_view(run):
     result = run.result or {}
     return {"id": run.id, "status": run.status, "stage": result.get("stage", "QUEUED"),
-            "direction": result.get("direction", ""), "count": result.get("count", 1),
+            "direction": result.get("direction", ""), "count": result.get("count", 1), "tones": result.get("tones", []),
+            "writing_template": result.get("writing_template"),
+            "harness_version": (result.get("writing_harness") or {}).get("version"),
             "completed": len(result.get("article_ids", [])), "article_ids": result.get("article_ids", []),
             "error": result.get("error"), "created_at": run.created_at,
             "updated_at": result.get("updated_at", run.created_at), "finished_at": run.finished_at}
@@ -42,7 +47,11 @@ def latest_task(session):
     return task_view(run) if run else None
 
 
-async def start_task(session, direction, count=1, topic_ids=None, material="", session_factory=None):
+async def start_task(session, direction, count=1, topic_ids=None, material="", session_factory=None, tones=None, template_id="auto"):
+    try:
+        tones = normalize_tones(tones)
+    except ValueError as error:
+        raise WorkflowError(str(error)) from None
     direction, material = direction.strip(), material.strip()
     if not direction or len(direction) > 300:
         raise WorkflowError("请填写 1 至 300 字的内容方向")
@@ -50,6 +59,10 @@ async def start_task(session, direction, count=1, topic_ids=None, material="", s
         raise WorkflowError("每次生成 1 至 3 篇")
     if len(material) > 10000:
         raise WorkflowError("参考素材请控制在 10000 字以内")
+    try:
+        writing_template = resolve_template(session, template_id, tones, direction)
+    except ValueError as error:
+        raise WorkflowError(str(error)) from None
     topic_ids = list(dict.fromkeys(topic_ids or []))
     if len(topic_ids) > 5:
         raise WorkflowError("每次最多选择 5 个热点")
@@ -58,13 +71,16 @@ async def start_task(session, direction, count=1, topic_ids=None, material="", s
     selected = []
     for topic_id in topic_ids:
         topic = session.get(Topic, topic_id)
+        from .hotspots import is_political
+        if topic and is_political(topic.title):
+            raise WorkflowError("热点雷达已过滤政治相关选题，请选择生活、消费、职场等话题")
         if (not topic or topic.mode != "live" or topic.evidence.get("source") != "hotspot"
                 or not _recent(topic.created_at)
                 or not any(source.get("verified") and _recent(source.get("retrieved_at")) for source in topic.sources)):
             raise WorkflowError("请选择最近 72 小时读取的真实热点，历史研究或测试样本不能作为今日热点")
         selected.append({"topic_id": topic.id, "title": topic.title, "sources": topic.sources, "evidence": topic.evidence})
     result = {"stage": "QUEUED", "direction": direction, "count": count, "article_ids": [],
-              "material": material, "selected_topics": selected, "error": None, "updated_at": now()}
+              "material": material, "tones": tones, "writing_template": writing_template, "writing_harness": resolve_harness(session,tones), "selected_topics": selected, "error": None, "updated_at": now()}
     run = AgentRun(name=RUN_NAME, mode="live", result=result)
     session.add(run)
     session.commit()
@@ -111,23 +127,31 @@ async def execute_task(task_id, factory=SessionLocal):
         verified = any(source.get("verified") for source in sources)
         for index in range(payload["count"]):
             _progress(factory, task_id, "WRITING")
-            brief = {"direction": payload["direction"], "material": payload["material"],
+            template = payload.get("writing_template")
+            brief = {"direction": payload["direction"], "material": payload["material"], "tones": payload.get("tones", ["natural"]),
+                     "writing_template": {key: template[key] for key in ("name", "outline", "opening", "example", "ending", "cover_hint", "avoid")} if template else None,
+                     "writing_harness": payload.get("writing_harness"),
                      "selected_topics": payload["selected_topics"], "sources": sources,
-                     "content_kind": "source_based" if verified else "general_advice",
+                     "content_kind": "source_based" if verified else "general_opinion",
                      "article_number": index + 1, "article_count": payload["count"],
-                     "previous_titles": payload.get("titles", []),
-                     "requirements": "只围绕用户指定方向，不沿用账号旧AI定位。2至3张精简内容卡片，每篇切入点不同。"
+                     "previous_titles": list(payload.get("titles", [])),
+                     "previous_openings": list(payload.get("openings", [])),
+                     "requirements": "只围绕用户指定方向，组合使用本次语气标签，不沿用旧AI定位或固定批判人设。始终用自然、具体、少套话的表达，按用户指定文体组织内容。只制作1张首图，仅放标题与一句短钩子，完整内容都放在正文，每篇切入点不同。"
                                      "没有已核验新闻或具体价格材料时，不编造最新事件、地址、价格、营业时间、热门程度。"
-                                     "可写通用建议或准备清单，不假装作者亲测、到店、旅行、买过或获得成效。"
-                                     "用户素材只作为用户输入，不能称为已独立核验。"}
+                                     "材料不足时写有依据的一般说明、个人看法或假设场景，不假装作者亲测、到店、旅行、买过或获得成效。"
+                                     "用户素材只作为用户输入，不能称为已独立核验。后台保留素材记录，发布文案与图片不加引用、链接或来源段落。"}
             with factory() as session:
                 config = settings(session)
                 config["account_positioning"] = payload["direction"]
                 data = await ModelClient().write(session, brief, config)
-            data.update(sources=sources, category=payload["direction"][:80], style="素材分享" if verified else "通用建议")
+            data.update(sources=sources, category=payload["direction"][:80], style="热点评论" if verified else "观点随笔", template="auto")
             _progress(factory, task_id, "RENDERING")
             article_id = await asyncio.to_thread(_make, factory, data)
+            if template:
+                with factory() as session:
+                    record_usage(session, article_id, 1, template, payload.get("tones"))
             payload.setdefault("titles", []).append(data["title"])
+            payload.setdefault("openings", []).append(data["body"].splitlines()[0][:120])
             _progress(factory, task_id, "REVIEW_READY", article_id=article_id)
         _progress(factory, task_id, "DONE", status="COMPLETED")
     except asyncio.CancelledError:

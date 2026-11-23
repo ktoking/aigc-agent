@@ -1,0 +1,4 @@
+interface:
+  display_name: "叙事静帧视频工作流"
+  short_description: "小说式剧本与第一人称叙事，约5秒一张独立真人写实图，干净干燥画面配MiniMax语音"
+  default_prompt: "使用 $story-film-workflow 从小说式剧本开始，以第一人称叙事，制作约5秒一张且不重复的真人写实静帧视频；画面干净有秩序、不潮湿，使用MiniMax场景配音，按实测音频排时，交付有声无字MP4，不生成独立字幕。"

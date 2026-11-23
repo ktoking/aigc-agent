@@ -156,3 +156,55 @@ def test_dedup_google_publisher_suffix_and_aliases():
     third = result(title="周末旅行准备", url="https://example.com/a")
     fourth = result(title="周末旅行准备", url="https://example.com/c")
     assert len(hotspots._merge([first, second, third, fourth])) == 1
+
+@pytest.mark.parametrize('title', ['总统大选结果公布', '首相宣布内阁改组', '外交部回应关税制裁', '联合国讨论加沙停火', '特朗普谈新政策', 'NATO election debate'])
+def test_political_headlines_filtered_at_merge(title):
+    assert hotspots._merge([result(title)]) == []
+
+@pytest.mark.parametrize('title', ['咖啡店按人头限制落座', '年轻人为何不愿加班', '新西兰自驾怎么安排', '手机新品值不值得买', '幼儿园调整接送时间'])
+def test_everyday_headlines_retained(title):
+    assert hotspots._merge([result(title)])[0]['title'] == title
+
+
+def test_rss_political_category_and_baidu_title_filtered_before_limit():
+    stamp=format_datetime(datetime.now(timezone.utc))
+    rss=f'<rss><channel><item><title>最新消息</title><category>时政</category><link>https://example.com/p</link><pubDate>{stamp}</pubDate></item><item><title>咖啡座位规则</title><category>消费</category><link>https://example.com/c</link><pubDate>{stamp}</pubDate></item></channel></rss>'
+    assert [e['title'] for e in hotspots._rss(rss,'新闻','',now())] == ['咖啡座位规则']
+    payload={'success':True,'data':{'cards':[{'content':[{'content':[{'word':'总统大选','url':'https://example.com/p'},{'word':'咖啡座位规则','url':'https://example.com/c'}]}]}]}}
+    assert [e['title'] for e in hotspots._baidu(payload,'',now())] == ['咖啡座位规则']
+
+
+def test_old_cache_hides_politics_and_needs_filtered_refresh(session):
+    political=Topic(title='总统大选最新消息',fingerprint='old-politics',mode='live',sources=[],evidence={})
+    everyday=Topic(title='咖啡店消费规则',fingerprint='old-coffee',mode='live',sources=[],evidence={})
+    session.add_all([political,everyday]);session.flush()
+    run=AgentRun(name=hotspots.RUN_NAME,mode='live',status='COMPLETED',finished_at=now(),result={'cache_key':hotspots._key(''),'topic_ids':[political.id,everyday.id]})
+    session.add(run);session.commit()
+    visible=hotspots.list_hotspots(session)
+    assert [t['id'] for t in visible['items']] == [everyday.id]
+    assert not visible['cache_fresh']
+
+@pytest.mark.parametrize('title', [
+ '总台记者专访丨博茨瓦纳国际关系部长：期待博中合作迈上新台阶',
+ '韩国公布政府核心部门大规模搬迁计划',
+ '中共中央紀委：薄熙來前搭檔黃奇帆接受調查',
+ '“薪火相传续华章——长征路上学党史”网上主题宣传活动启幕在即',
+ '乌克兰加入欧盟进程取得新进展',
+ '胡塞为何暴击沙特机场？一笔精明的“非对称账”',
+ '国台办驳斥陆委会所谓胁迫施压叙事',
+ '中國民兵船「首現台灣東部海域」意味著什麼？',
+ '国台办回应蔡康永现身沈伯洋竞选活动',
+ '吉利控股集团声明：支持中欧汽车贸易磋商共识',
+ '活力中国调研行｜一河通江海 “智”水谱新篇',
+])
+def test_observed_political_leaks_are_filtered(title):
+ assert hotspots.is_political(title)
+ assert not hotspots._merge([result(title)])
+
+@pytest.mark.parametrize('title', ['扎卡里亚白宫记者会“首秀”','台退役中将戴脚镣高喊：中国必将统一','云南省举行少先队建队纪念日主题活动','又一架美国飞以色列客机接到炸弹威胁'])
+def test_political_institutions_and_conflict_topics_hidden(title):
+ assert hotspots.is_political(title)
+
+
+def test_nonpolitical_brand_with_unification_word_retained():
+ assert not hotspots.is_political('统一方便面新品试吃')

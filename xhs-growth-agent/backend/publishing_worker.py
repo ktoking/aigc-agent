@@ -30,6 +30,9 @@ class PublishingWorker:
                     recover(session)
                     return "VERIFY_REQUIRED"
                 return "IN_PROGRESS"
+            from .learning import reading
+            if reading(session):
+                return "READ_WAIT"
             job = session.scalar(select(PublishJob).where(PublishJob.status == "QUEUED").order_by(PublishJob.created_at, PublishJob.id))
             if not job:
                 return "IDLE"

@@ -1,0 +1,38 @@
+{
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1"
+      }
+    ],
+    "format": {
+      "duration": "57.000000",
+      "size": "7182736"
+    }
+  },
+  "subtitles": {
+    "cues": 16,
+    "end_ms": 57000,
+    "encoding": "UTF-8",
+    "overlap": false
+  },
+  "encoded_frames_reviewed": [
+    0.3,
+    5,
+    18,
+    27,
+    34,
+    42,
+    49,
+    55.5
+  ],
+  "html_playback": "autoplay and chapter seek verified in local browser",
+  "voiceover": false,
+  "burned_subtitles": false
+}

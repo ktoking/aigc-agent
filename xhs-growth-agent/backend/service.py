@@ -107,8 +107,8 @@ def quality_review(session, article):
     if any(term in article.body + article.title for term in ["保证收益", "稳赚", "亲测月入", "亲身体验"]):
         risks.append("存在无法验证的体验或收益表达，需要人工补充事实证据")
         score -= 40
-    if article.style == "通用建议" and not article.sources:
-        reasons.append("通用建议没有冒充已核验个案；发布前由主编检查事实与适用条件")
+    if article.style in {"通用建议", "观点随笔"} and not article.sources:
+        reasons.append("独立观点或通用建议不等于已核验新闻；发布前检查具体事实与适用条件")
     elif not article.sources:
         risks.append("缺少引用来源")
         score -= 30
@@ -116,12 +116,12 @@ def quality_review(session, article):
         risks.append("未读取到可靠来源，不能进入真实发布池")
         score -= 40
     else:
-        reasons.append("保留来源链接；事实准确性仍需人工逐项核对")
-    if len(article.media) < 3:
-        risks.append("缺少封面或内容图，至少需要 3 张")
+        reasons.append("后台保留素材依据；事实准确性仍需人工逐项核对")
+    if not article.media:
+        risks.append("缺少封面，需要 1 张首图")
         score -= 30
     else:
-        reasons.append("已生成原创封面及内容图")
+        reasons.append("封面已准备；完整内容放在正文")
     hashes = [media.get("sha256") for media in article.media]
     if len(set(hashes)) != len(hashes):
         risks.append("同篇重复图片")
@@ -377,7 +377,7 @@ def edit_article(session, article, patch):
         if len(order) != len(current) or set(order) != set(current):
             raise WorkflowError("配图排序必须包含每一张图且不重复")
         article.media = [current[item] for item in order]
-    for field in ("title", "body", "tags", "cards"):
+    for field in ("title", "body", "tags", "cards", "title_candidates", "comment_prompt"):
         if field in patch:
             setattr(article, field, patch[field])
     article.version += 1
@@ -723,6 +723,11 @@ class PublishingAgent:
         async with self._lock:
             session.refresh(job)
             if job.status != "QUEUED":
+                return job
+            from .learning import reading
+            if job.mode == "live" and reading(session):
+                job.error = "正在只读学习图文样本；完成平台读取后队列继续"
+                session.commit()
                 return job
             if settings(session)["paused"]:
                 job.error = "全部发布已暂停；任务保留在队列"

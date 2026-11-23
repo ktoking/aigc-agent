@@ -7,7 +7,7 @@ from backend import model_client as model
 from backend.models import ModelUsage, Topic, ContentBrief, AgentRun
 from backend.service import ChiefEditorAgent, settings, save_settings, WorkflowError
 
-ARTICLE = {"title": "把Codex验收写清楚", "title_candidates": ["验收写清楚", "任务前列好检查项", "Codex任务的验收清单"], "body": "把实际问题写进任务，再把验收条件拆成能检查的结果。" * 8, "tags": ["Codex"], "cards": [{"title": "目标", "body": "明确预期结果"}, {"title": "验收", "body": "说明检查方法"}], "comment_prompt": "你通常怎么写验收？"}
+ARTICLE = {"title": "把Codex验收写清楚", "title_candidates": ["验收写清楚", "任务前列好检查项", "Codex任务的验收清单"], "body": "把实际问题写进任务，再把验收条件拆成能检查的结果。" * 8, "tags": ["Codex"], "cards": [{"title": "目标", "body": "明确预期结果"}], "comment_prompt": "你通常怎么写验收？"}
 
 def fake_cli(monkeypatch, result=ARTICLE, exit_code=0, usage=True):
     captured = {}

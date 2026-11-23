@@ -59,9 +59,13 @@
 ## 当前故事包
 
 - `stories/twin-dawn/`：《末日重生：双生曙光 / 末日降临：我和闺蜜觉醒双SSS异能》。
+- `stories/sams-apocalypse/`：《丧尸爆发后，我拥有整个山姆超市》。
+- `stories/heatwave-coldstore/`：《热浪吞城后，我重生在零下十八度》（已停用：三版引擎均未获用户通过）。
+- `stories/frost-fortress/`：《极寒末日，我的房车是移动堡垒》（当前主推：极寒复刻、对抗智斗、非圣母、多人物推进）。
 
 ## 通用规则
 
+- 新写、续写和改编剧本（含试读片段）交稿前必须执行 `skills/story-film-workflow/references/script-language-checklist.md`：六项文案检查全部PASS、无未处理项，记录对应稿件版本后才展示或进入制作。检查反复顿悟、对照说教、金句升华、创作约束外露、硬拗幽默、空泛汇报与悬念占位；不以关键词扫描替代逐句审读，不回溯改写已确认旧稿。
 - 不要在根模板或根 skill 中写死某个剧本的人名、设定、脸部参考图或剧情。
 - 新剧本必须新建 `stories/<story-id>/`。
 - 特定剧本的特殊规则写入该剧本自己的 `AGENTS.md`、`docs/production-rules.md` 或 story-local templates。
@@ -85,3 +89,6 @@
 ## Learned User Preferences
 
 - 生成图片时避免过度锐化、鱼鳞状网格、满屏微纹理和过量细节堆叠；优先使用干净大形、清晰人物轮廓、可读封面构图和适度精细度。
+- 2026-10-22 起，新制内容默认接入 MiniMax 配音（`speech-2.8-turbo` / `Chinese_calm_streamer_nv1`），按实际语音时长排画面，不再默认生成独立字幕文件；用户明确要求静音或字幕时按当次要求。既有产物不回溯修改。
+- MiniMax Key 仅从 `MINIMAX_API_KEY` 或 macOS Keychain service `codex-minimax-api-key` 读取；调用使用 `scripts/minimax_tts.py`，说明见 `docs/contracts/minimax-tts.md`。
+- 使用 `story-film-workflow` 新制静态图片视频时，默认先创作小说式剧本，再以第一人称叙事；每张成片图约5秒（通常4–6秒、按语音边界微调），同一成片不重复用图。默认真人写实，画面干净、有秩序、干燥，不自行加入脏污、杂物或潮湿；明确要求可覆盖，不回溯修改已有成片。

@@ -21,6 +21,8 @@ from .scheduler import configure_scheduler, stop_scheduler, execute_task
 from .publishing_worker import start_publishing_worker, stop_publishing_worker, wake_publishing_worker
 from .control import request_pause, pause_revision, persistence_lock
 from . import creation, hotspots
+from .tones import ToneName
+from . import learning, writing_templates, writing_harness
 
 _health_cache = {"at": 0, "url": "", "value": {"connected": False, "logged_in": False, "detail": "尚未检查 MCP", "tools": []}}
 _health_lock = asyncio.Lock()
@@ -67,6 +69,7 @@ async def lifespan(_app):
     migrate()
     with SessionLocal() as session:
         recover(session)
+        learning.recover_learning(session)
         configure_scheduler(settings(session)["scheduler_enabled"])
     start_publishing_worker()
     yield
@@ -96,7 +99,7 @@ async def model_unavailable(_request, error):
 async def unexpected_error(_request, error):
     return JSONResponse(status_code=500, content={"detail": f"执行失败：{type(error).__name__}；请查看本地运行状态，发布未知结果需要人工核实"})
 
-TemplateName = Literal["minimal", "magazine", "technology", "data", "travel", "comparison", "guide", "opinion", "lifestyle"]
+TemplateName = Literal["auto", "bold", "sticky", "editorial", "receipt", "split", "ink", "minimal", "magazine", "technology", "data", "travel", "comparison", "guide", "opinion", "lifestyle"]
 
 class CardInput(BaseModel):
     title: str = Field(min_length=1, max_length=90)
@@ -107,8 +110,10 @@ class EditInput(BaseModel):
     title: str | None = Field(default=None, min_length=1, max_length=20)
     body: str | None = Field(default=None, min_length=1, max_length=1000)
     tags: list[str] | None = None
+    title_candidates: list[str] | None = Field(default=None, min_length=3, max_length=3)
+    comment_prompt: str | None = Field(default=None, max_length=300)
     media_order: list[str] | None = None
-    cards: list[CardInput] | None = Field(default=None, min_length=2, max_length=5)
+    cards: list[CardInput] | None = Field(default=None, min_length=1, max_length=5)
     template: TemplateName | None = None
 
 class ReviewInput(BaseModel):
@@ -120,15 +125,22 @@ class CreationInput(BaseModel):
     count: int = Field(default=1, ge=1, le=3)
     topic_ids: list[str] = Field(default_factory=list, max_length=5)
     material: str = Field(default="", max_length=10000)
+    tones: list[ToneName] = Field(default_factory=lambda: ["natural"], max_length=4)
+    template_id: str = Field(default="auto", max_length=80)
+
+class LearningInput(BaseModel):
+    keywords: list[str] = Field(default_factory=lambda: ["职场感悟", "消费体验"], min_length=1, max_length=4)
+    target_samples: int = Field(default=20, ge=4, le=30)
 
 class HotspotInput(BaseModel):
     direction: str = Field(default="", max_length=150)
 
 class ReviseInput(BaseModel):
     instruction: str = Field(min_length=1, max_length=1000)
+    tones: list[ToneName] = Field(default_factory=lambda: ["natural"], max_length=4)
 
 class CoverInput(BaseModel):
-    template: TemplateName = "minimal"
+    template: TemplateName = "auto"
 
 class AuthorizationInput(BaseModel):
     confirmation: str
@@ -187,7 +199,7 @@ def get_article(session, article_id):
 
 def suspend_mcp_poll(session, force=False):
     states = ["PUBLISHING", "VERIFY_REQUIRED"] + ([] if force else ["QUEUED"])
-    return bool(session.scalar(select(PublishJob.id).where(PublishJob.mode == "live", PublishJob.status.in_(states)).limit(1)))
+    return learning.reading(session) or bool(session.scalar(select(PublishJob.id).where(PublishJob.mode == "live", PublishJob.status.in_(states)).limit(1)))
 
 @app.get("/api/health")
 async def health():
@@ -216,7 +228,26 @@ def articles(session: Session = Depends(get_db)):
 
 @app.post("/api/creation/tasks", status_code=202)
 async def start_creation(data: CreationInput, session: Session = Depends(get_db)):
-    return safe_data(await creation.start_task(session, data.direction, data.count, data.topic_ids, data.material))
+    return safe_data(await creation.start_task(session, data.direction, data.count, data.topic_ids, data.material, tones=data.tones, template_id=data.template_id))
+
+@app.get("/api/writing/templates")
+def writing_catalogue(tones: str = "natural", session: Session = Depends(get_db)):
+    try:
+        return {"items": writing_templates.catalogue(session, tones.split(",")), "learning": learning.latest(session), "harness": writing_harness.latest(session)}
+    except ValueError as error:
+        raise WorkflowError(str(error)) from None
+
+@app.post("/api/writing/learn", status_code=202)
+async def learn_writing(data: LearningInput, session: Session = Depends(get_db)):
+    return await learning.start(session, data.keywords, target_samples=data.target_samples)
+
+@app.get("/api/writing/harness")
+def writing_harness_latest(session: Session = Depends(get_db)):
+    return writing_harness.latest(session)
+
+@app.get("/api/writing/learning/latest")
+def writing_learning(session: Session = Depends(get_db)):
+    return learning.latest(session)
 
 @app.get("/api/creation/tasks/latest")
 def latest_creation(session: Session = Depends(get_db)):
@@ -259,8 +290,12 @@ async def revise(article_id: str, data: ReviseInput, session: Session = Depends(
     config = settings(session)
     if config["model_mode"] == "mock":
         raise WorkflowError("Mock 不会伪造智能改写；可直接编辑正文，或配置真实模型后要求 Agent 修改")
-    draft = await ModelClient().write(session, {"original": {"title": article.title, "body": article.body}, "instruction": data.instruction, "sources": article.sources}, config)
-    return serialize(edit_article(session, article, {"title": draft["title"], "body": draft["body"], "tags": draft.get("tags", article.tags)}))
+    version = article.version
+    draft = await ModelClient().write(session, {"direction": article.category, "tones": data.tones, "content_kind": "source_based" if article.sources else "general_opinion", "original": {"title": article.title, "body": article.body}, "instruction": data.instruction, "sources": article.sources}, config)
+    session.refresh(article)
+    if article.version != version:
+        raise WorkflowError("生成期间稿件已修改，请基于当前版本重新提出修改")
+    return serialize(await asyncio.to_thread(edit_article, session, article, {key: draft[key] for key in ("title", "body", "tags", "cards", "title_candidates", "comment_prompt")}))
 
 @app.post("/api/articles/{article_id}/cover")
 def cover(article_id: str, data: CoverInput, session: Session = Depends(get_db)):

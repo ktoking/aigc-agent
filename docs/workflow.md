@@ -119,6 +119,7 @@ episodes/EPXXX_slug/
 3. 按抖音短剧方法论设计前 5 秒钩子、四段留存任务和结尾钩子。
 4. 选择本集角色、场景、道具、特效、风格文件。
 5. 编写 `episode.md`。
+   - 按[剧本文案检查](../skills/story-film-workflow/references/script-language-checklist.md)审读正文、旁白和对白；六项全部PASS并保存版本检查记录后才交稿或进入后续制作。短段续写同样执行。
 6. 编写 `overview-storyboard.md`，先确认 60 秒整体节奏。
 7. 编写 `continuity.md`。
 8. 编写 4 段 `storyboard.md`。
@@ -132,6 +133,7 @@ episodes/EPXXX_slug/
 
 ## 质量检查
 
+- 文案六项检查是否全部PASS、是否有对应稿件版本的逐句审读记录；任何FAIL或待定先修改再复查。
 - 开头 5 秒是否有钩子。
 - 本集是否有明确冲突、情绪推进、爽点/揭示和结尾钩子。
 - 四段是否各自能独立交给视频 API 生成。

@@ -1,0 +1,18 @@
+{
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "status": "创作起点；非 MiniMax 官方预设，需按台词试听",
+  "presets": {
+    "natural": {"name": "自然旁白", "direction": "自然讲述，随正文自动判断情绪，保持原音色。", "voice_setting": {"speed": 1.0, "vol": 1.0, "pitch": 0}},
+    "healing": {"name": "温柔治愈", "direction": "像陪伴朋友，放慢但不拖字，句间留呼吸，避免播音腔。", "voice_setting": {"emotion": "calm", "speed": 0.92, "vol": 0.9, "pitch": 0}},
+    "suspense": {"name": "悬疑压迫", "direction": "克制陈述异常，关键揭示前稍停，危险靠信息推进，避免全程喊叫。", "voice_setting": {"emotion": "calm", "speed": 0.92, "vol": 0.95, "pitch": -1}},
+    "fear": {"name": "近身恐惧", "direction": "像刚察觉危险，短句带紧张；关键动作可少量加入吸气，保持可懂。", "voice_setting": {"emotion": "fearful", "speed": 1.06, "vol": 1.0, "pitch": 0}},
+    "grief": {"name": "悲伤回忆", "direction": "低落但仍能说清，重要物件后留停顿，可少量叹气，不整段哭腔。", "voice_setting": {"emotion": "sad", "speed": 0.88, "vol": 0.9, "pitch": -1}},
+    "resolve": {"name": "愤怒决断", "direction": "愤怒来自立场，重点词落稳；短句推进，不用大音量替代表演。", "voice_setting": {"emotion": "angry", "speed": 1.05, "vol": 1.05, "pitch": 0}},
+    "reveal": {"name": "惊讶揭示", "direction": "先停再揭示，惊讶只用于反转句，后续回到正常叙述。", "voice_setting": {"emotion": "surprised", "speed": 1.02, "vol": 1.0, "pitch": 1}},
+    "joy": {"name": "轻快喜悦", "direction": "带笑意但不夸张，节奏轻快，笑声只在正文需要时加入。", "voice_setting": {"emotion": "happy", "speed": 1.08, "vol": 1.0, "pitch": 1}},
+    "documentary": {"name": "纪实科普", "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。", "voice_setting": {"emotion": "calm", "speed": 1.0, "vol": 1.0, "pitch": 0}},
+    "phone": {"name": "电话来声", "direction": "仅用于电话中的台词，不给整段旁白添加电话音效。", "voice_setting": {"emotion": "calm", "speed": 1.0, "vol": 0.95, "pitch": 0}, "voice_modify": {"sound_effects": "lofi_telephone"}},
+    "broadcast": {"name": "广播通知", "direction": "简短清晰的广播，仅用于场内播报，避免夸大情绪。", "voice_setting": {"emotion": "calm", "speed": 0.96, "vol": 1.0, "pitch": 0}, "voice_modify": {"sound_effects": "auditorium_echo"}}
+  }
+}

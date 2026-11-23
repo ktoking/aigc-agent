@@ -5,9 +5,9 @@ FastAPI 127.0.0.1:18760，前端 127.0.0.1:18761。JSON API 前缀 /api，媒体
 GET /api/dashboard -> {counts: {articles, pending_review, approved, published, verify_required, topics}, agents: [{name,status,last_run}], mcp: {connected,logged_in,detail}, model: {mode,configured,name:"gpt-6.1-sol",provider:"codex_cli",reasoning_effort:"high",detail}, paused: bool, daily_limit: int, recent_runs: [], metrics: {likes,saves,comments,views:null}, costs: {calls,cost_usd}}
 GET /api/articles -> [{id,title,title_candidates,body,tags,status,category,style,ai_assisted,sources:[{title,url,verified}],media:[{id,url,path,sha256}],quality:{score,reasons,risks},version,created_at,comment_prompt}]
 GET /api/articles/{id} -> 同上
-PATCH /api/articles/{id} {title?,body?,tags?,media_order?,cards?:[{title,body}],template?} -> article；编辑使审批及授权失效；title/cards/template 变动重新绘制图片并保存新版本实际媒体。template 限 minimal/magazine/technology/data/travel/comparison/guide/opinion/lifestyle，cards 2 至 5 张。
+PATCH /api/articles/{id} {title?,body?,tags?,media_order?,cards?:[{title,body}],template?} -> article；编辑使审批及授权失效；title/cards/template 变动重新绘制首图并保存新版本实际媒体。新模板 auto/bold/sticky/editorial/receipt/split/ink；旧模板名保持兼容，映射到新布局。cards 输入兼容1至5个对象，新模型只返回1个封面对象，实际只渲染1张首图，完整内容放在body。单图可通过规则质检。
 POST /api/articles/{id}/review {decision:approve|reject,reviewer:string} -> article；approval_to_queue=true 时，approve 即为当前版本/图片和绑定实际账号的执行授权，同步生成 live QUEUED job 后快速返回，不要求逐篇输入确认字符串。策略未启用时只审批。
-POST /api/articles/{id}/revise {instruction:string} -> article
+POST /api/articles/{id}/revise {instruction:string,tones?:最多4个内置语气标签} -> article；标题、正文、封面与评论引导一起按标签改写。
 POST /api/articles/{id}/cover {template?:string} -> article
 POST /api/articles/{id}/authorize {confirmation:string,visibility:string} -> 兼容旧客户端的手动授权接口；审批入队策略启用后无需调用此接口，也不要求用户输入确认字符串。任何授权仍绑定版本、图片哈希及当前 MCP 核实的实际账号，客户端不能自由指定授权账号。
 POST /api/articles/{id}/publish {mode:mock|live,visibility?:string} -> job；mock 不改变真实 PUBLISHED 或消耗授权
@@ -40,10 +40,21 @@ POST /api/scheduler/{task}/run -> 研究/策划/生成/质检/队列/采集/复�
 
 ## 2026-10-13 正常创作入口
 
-- POST /api/creation/tasks {direction:1-300字,count:1-3默认1,topic_ids?:最多5,material?:最多10000字} ->202 {id,status,stage,direction,count,completed,article_ids,error,created_at,updated_at,finished_at}。
+- POST /api/creation/tasks {direction:1-300字,count:1-3默认1,topic_ids?:最多5,material?:最多10000字,tones?:最多4个标签} ->202 {id,status,stage,direction,count,tones,completed,article_ids,error,created_at,updated_at,finished_at}。语气可组合，支持natural/critical/objective/subjective/sharp/gentle/humorous/empathetic；默认及空选择为natural，重复标签去重，未知标签拒绝。标签保存在任务记录并传给每篇写作请求，不额外调用模型；默认不固定批判，所有语气都自然具体、少套话。
 - GET /api/creation/tasks/latest ->最近任务或null；GET /api/creation/tasks/{id} ->进度。RUNNING/COMPLETED/FAILED/INTERRUPTED，阶段QUEUED/WRITING/RENDERING/REVIEW_READY/DONE；每篇就绪即写入article_ids并进入待审，生成不审批或发布。后台会话独立于HTTP请求；重启保留已完成稿、中断任务不自动重试。
 - POST /api/hotspots/refresh {direction?:最多150字} ->202后台任务；GET /api/hotspots/tasks/{id}读取状态。
 - GET /api/hotspots?direction=... ->{items,updated_at,loading,sources,errors,task_id,status,cache_fresh}；按日期和领域隔离缓存，不混旧Mock或历史AI候选。最多20、缓存15分钟、公开网络读取总上限12秒。
 - 人工reject将文章标为REJECTED并移出待审；规则预检未通过仍为QUALITY_REJECTED供修改。approve仅使用已有版本/账号/哈希/配额保护后入队。
 
 旧research/plan/generate/demo端点为兼容和高级诊断保留，网页正常准备内容不调用这些旧批量接口。任意领域创作仍使用固定Codex CLI gpt-6.1-sol/high。
+
+
+## 2026-10-14 写法与 Harness
+
+- GET /api/writing/templates?tones=natural,subjective -> {items,learning,harness}。内置与真实学习结果分开；推荐联合语气与当前模板版本的有效审核反馈。
+- POST /api/writing/learn {keywords?:1至4个非政治关键词,target_samples?:4至30默认20} ->202后台任务。最多50次详情读取，默认深入20篇；成功相同参数缓存6小时。
+- GET /api/writing/learning/latest -> {id,status,stage,sample_count,target_samples,candidate_count,read_count,samples,template_ids,harness_version,harness_path,error,...} 或null。阶段SEARCHING/READING/ANALYZING/DONE/BLOCKED/INTERRUPTED。学习失败仍保留原模板。
+- GET /api/writing/harness -> 当前标题、开头、正文、收尾、语气、封面建议和避免项，含版本与真实公开样本元数据；不包含原文或访问token。
+- POST /api/creation/tasks 新增 template_id，默认auto。服务端冻结写法模板与Harness版本，后续任务使用新版本，进行中的任务保持原规则。响应增加writing_template与harness_version。
+
+学习只调用本机Codex CLI gpt-6.1-sol/high。普通生成不临时搜索、无额外模型调用；先检查本次要求、重复套话和虚构经历。学习/生成不自动批准或发布，图片仍为本地单张封面渲染。

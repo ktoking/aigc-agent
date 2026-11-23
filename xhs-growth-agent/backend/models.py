@@ -186,3 +186,24 @@ class Setting(Base):
     __tablename__ = "settings"
     key: Mapped[str] = mapped_column(String, primary_key=True)
     value: Mapped[dict] = mapped_column(JSON)
+
+class WritingTemplate(Record, Base):
+    __tablename__ = 'writing_templates'
+    template_key: Mapped[str] = mapped_column(String, unique=True)
+    version: Mapped[int] = mapped_column(Integer, default=1)
+    status: Mapped[str] = mapped_column(String, default='ACTIVE')
+    data: Mapped[dict] = mapped_column(JSON)
+
+class StyleUsage(Record, Base):
+    __tablename__ = 'style_usage'
+    article_id: Mapped[str] = mapped_column(String)
+    article_version: Mapped[int] = mapped_column(Integer)
+    template_key: Mapped[str] = mapped_column(String)
+    template_version: Mapped[int] = mapped_column(Integer)
+    tones: Mapped[list] = mapped_column(JSON)
+
+class WritingHarness(Record, Base):
+    __tablename__ = 'writing_harness'
+    harness_key: Mapped[str] = mapped_column(String, unique=True)
+    version: Mapped[int] = mapped_column(Integer, default=1)
+    data: Mapped[dict] = mapped_column(JSON)

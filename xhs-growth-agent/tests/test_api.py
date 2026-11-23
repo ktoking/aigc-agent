@@ -63,6 +63,34 @@ def test_request_bounds_and_malformed_edit(client, article_factory):
     assert client.patch(f"/api/articles/{article.id}", json={"media_order": ["unknown"]}).status_code == 409
     assert client.get("/api/articles/missing").status_code == 404
 
+def test_agent_revision_updates_entire_public_draft_and_preserves_internal_sources(client, session, article_factory, monkeypatch):
+    from backend import main
+    from backend.models import ArticleVersion, PublishJob
+    from backend.service import save_settings
+    from sqlalchemy import select
+    article = article_factory()
+    previous_cards, previous_media = article.cards, article.media
+    sources = list(article.sources)
+    draft = {"title": "买杯咖啡还要按人头收费？", "title_candidates": ["买杯咖啡还要按人头收费？", "喝杯咖啡，座位也成了门槛", "谁该替店里的规则买单"],
+             "body": "如果两个人共饮一杯，却只能一个人坐下，这种规矩让我不舒服。" * 7,
+             "tags": ["消费规则"], "cards": [{"title": "座位也成了消费门槛", "body": "一杯饮料为何还要区分谁能坐下？"}, {"title": "经营成本谁来承担", "body": "普通消费者的预算和陪伴需求也应该被看见。"}], "comment_prompt": "这种座位规则，你能接受吗？"}
+    async def write(_self, _session, brief, _settings):
+        assert brief["sources"] == sources
+        assert brief["tones"] == ["objective", "gentle"]
+        return draft
+    monkeypatch.setattr(main.ModelClient, "write", write)
+    save_settings(session, {"model_mode": "live"})
+    response = client.post(f"/api/articles/{article.id}/revise", json={"instruction": "改成客观温和的表达，配图也一起改", "tones": ["objective", "gentle"]})
+    assert response.status_code == 200
+    value = response.json()
+    assert value["version"] == 2 and value["status"] == "PENDING_REVIEW"
+    for key in ("title", "body", "tags", "cards", "title_candidates", "comment_prompt"):
+        assert value[key] == draft[key]
+    assert value["sources"] == sources and value["media"] != previous_media
+    old = session.scalar(select(ArticleVersion).where(ArticleVersion.article_id == article.id, ArticleVersion.version == 1))
+    assert old.data["cards"] == previous_cards
+    assert not session.scalars(select(PublishJob).where(PublishJob.article_id == article.id)).all()
+
 def test_dashboard_contract_and_no_model_secrets(client, monkeypatch):
     monkeypatch.setenv("MODEL_API_KEY", "secret-test-value")
     monkeypatch.setenv("MODEL_BASE_URL", "http://test/v1")
