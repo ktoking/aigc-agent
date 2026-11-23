@@ -1,0 +1,20 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "submitted": false,
+  "model": "doubao-seedance-2-5-260628",
+  "duration": 15,
+  "ratio": "16:9",
+  "resolution": "480p",
+  "generate_audio": true,
+  "prompt_file": "director-promt.txt",
+  "prompt_sha256": "b6401db2f5de1c7346509996308b3e617fb262e21e898d41cf711f81273a3316",
+  "first_frame": null,
+  "last_frame": null,
+  "auto_images": false,
+  "references_file": "reference-assets.json",
+  "readiness": "needs_visual_review",
+  "missing_reference_numbers": [],
+  "sequence": 2,
+  "previous_segment": "segment_01_00-15s",
+  "generation_policy": "sequential_wait_download_review_stop_on_error"
+}

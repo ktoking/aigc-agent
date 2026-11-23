@@ -1,0 +1,10 @@
+{
+  "prompt": "参考1：只锁该镜头的空间、家具、货架和物资状态，忽略参考中的人物姿势和构图；本镜按指定人物和新事件生成。\n参考2：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n真人写实电影独立静帧，横屏16:9。人物参考仅取脸与服装，场景参考只锁已囤满物资的白厅货架，不继承姿势。\n夏凛单人站在密集物资货架间的窄通道，抬头看货架上方白墙一小块抽象红光，手指收紧。脚边纸箱内只有水杯、夹板和旧本，周围货架已囤满水粮罐头。绝不能空厅，不能出现其他人物，不能加新厨房或窗户。\n夏凛28岁藏青制服衬衫、高腰长裤、黑短靴、低马尾。两人均成年。干燥整洁、哑光地面、清楚大形、适度细节，无过锐微纹理，无字幕水印或漂浮UI。\n出镜人物严格按本镜事件，不凭空加人。画中没有标题、字幕、水印、漂浮UI；后期另行烧录字幕。单张横屏16:9，真人电影静帧，环境干燥、简洁有序，适度细节，无过锐微纹理。所有人物均为成年人。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/frames/EP006-S08-release-take01.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-fbd2c873-d32e-4647-abf9-6229243534c7.png"
+}

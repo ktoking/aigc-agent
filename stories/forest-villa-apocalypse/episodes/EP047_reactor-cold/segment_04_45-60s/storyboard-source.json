@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP047_reactor-cold",
+  "segment": "segment_04_45-60s",
+  "title": "带着终端回屋看",
+  "directory": "segment_04_45-60s",
+  "duration": 15,
+  "time": "同一夜间，确认回暖后带终端回屋",
+  "source_segment": "segment_02_30-60s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "沈知夏",
+    "许砚"
+  ],
+  "offscreen": [],
+  "refs": [
+    "livingWarm",
+    "energyShed",
+    "heatingBranch",
+    "spareTray",
+    "workshop",
+    "outfit_沈知夏",
+    "outfit_许砚"
+  ],
+  "opening": "供暖已恢复，知夏还在外部柜旁确认状态，指尖被夜风冻得发僵。",
+  "ending": "许砚带原便携终端回屋继续看，把空备件盒放上工作台；知夏劝他先休息。",
+  "bridge": "下集白天从同一空盒与旧件开始补机械备件，能源主机不再发生新故障。",
+  "shots": [
+    {
+      "title": "她还想多看一会",
+      "size": "沈知夏柜前中景",
+      "composition": "终端正常运行，知夏刚要伸手复查，许砚站在画外。",
+      "camera": "从终端回到她略疲倦的脸。",
+      "action": "听到屋内回温，知夏肩膀稍松，仍想多确认一遍。指尖轻颤，她把手压在柜边稳住，不用特写夸大病情，也不再使用异能。",
+      "speaker": "沈知夏",
+      "dialogue": "再看一会儿，别刚回去又冷了。",
+      "delivery": "责任心使她还不肯结束。",
+      "mode": "onscreen",
+      "faces": [
+        "沈知夏"
+      ],
+      "sound": "<柜门闭合，轻呼吸>",
+      "source_shot": 5
+    },
+    {
+      "title": "许砚接住她的谨慎",
+      "size": "许砚单人中近景",
+      "composition": "许砚手中是原终端与空盒，柜门已合上，知夏不清晰同框。",
+      "camera": "固定，让他先看她的手再开口。",
+      "action": "许砚没有催她放下专业判断，而是把便携终端拿到自己手里，示意可以回屋继续看。用既有设备完成照顾，不突然抽到远程神器。",
+      "speaker": "许砚",
+      "dialogue": "带着终端回屋看，你手都冻凉了。",
+      "delivery": "沉着直接，不打岔。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<便携终端被接过>",
+      "source_shot": 6
+    },
+    {
+      "title": "把缺口留在眼前",
+      "size": "工作台空备件盒近景",
+      "composition": "旧件与空盒分开放，普通工具归位，温暖室内光照明。",
+      "camera": "跟空盒落台，定在里面空出的格子。",
+      "action": "回屋后许砚把空盒放在工作台最显眼处，而非随手丢弃。坏件仍单独收着，下一集打印仓能做的机械件与不能做的电子件有了问题来源。",
+      "speaker": "许砚",
+      "dialogue": "明天先补备件，不能再只剩一个。",
+      "delivery": "工作间现场画外音，作下一步决定。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<空盒落台，旧件另放>",
+      "source_shot": 7
+    },
+    {
+      "title": "这一夜先睡一觉",
+      "size": "沈知夏客厅门边中近景",
+      "composition": "她将终端放在暖桌边，厚毯已折好，许砚仅肩背在边缘。",
+      "camera": "短侧跟她关掉手电，停在暖光里。",
+      "action": "终端持续正常，知夏终于放下手电，把门口的外套挂好。她看许砚还站着想开工具箱，给出今晚最实际的要求。",
+      "speaker": "沈知夏",
+      "dialogue": "明天再忙。今晚先把觉睡够。",
+      "delivery": "温和但不商量，结束互相硬撑。",
+      "mode": "onscreen",
+      "faces": [
+        "沈知夏"
+      ],
+      "sound": "<手电关闭，室内轻底噪>",
+      "source_shot": 8
+    }
+  ]
+}

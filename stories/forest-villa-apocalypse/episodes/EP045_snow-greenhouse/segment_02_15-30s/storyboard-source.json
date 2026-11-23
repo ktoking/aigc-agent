@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP045_snow-greenhouse",
+  "segment": "segment_02_15-30s",
+  "title": "把两盘苗救回来",
+  "directory": "segment_02_15-30s",
+  "duration": 15,
+  "time": "D1傍晚至夜，先搬苗再暂夹旧膜",
+  "source_segment": "segment_01_00-30s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "白棠",
+    "许砚"
+  ],
+  "offscreen": [],
+  "refs": [
+    "villa",
+    "greenhouseLeak",
+    "seedlingRescue",
+    "seedTray",
+    "workshop",
+    "outfit_白棠",
+    "outfit_许砚"
+  ],
+  "opening": "接修门收工具，院内传来旧膜拍打声，雪正从一处接缝落在两盘苗上。",
+  "ending": "两盘还活着的苗搬入屋内，旧膜只用现有夹子暂时扣住，没有彻底修好。",
+  "bridge": "以窗外由暮色变为夜色交代时间；下一段零点再打开手机，不在搬苗时凭空补膜。",
+  "shots": [
+    {
+      "title": "另一边还在漏雪",
+      "size": "温室漏口中近景",
+      "composition": "翻起的旧膜在上方，下方两盘苗接着少量落雪，棚架完好。",
+      "camera": "沿雪粒落下方向短摇，不扫全院。",
+      "action": "收工具时，两人听见膜片拍打声。镜头沿旧接缝看到雪落在两盘苗上，其余作物没有被毁；这是雪损，不是敌人进过院。",
+      "speaker": "白棠",
+      "dialogue": "坏了，这两盘菜还在淋雪。",
+      "delivery": "温室入口画外音，注意力马上转到苗。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<旧膜被风扯动，少量雪落>",
+      "source_shot": 5
+    },
+    {
+      "title": "先搬走能活的",
+      "size": "白棠温室单人中景",
+      "composition": "她托住第一盘底部，另一盘仍在原架，出口在画面左。",
+      "camera": "侧跟到入口临时台，不在一镜穿越多个房间。",
+      "action": "白棠先抹掉盘沿雪粒，检查茎叶，再抱走最近的一盘。苗叶稍垂、湿土仍在；放稳第一盘后她转身去取第二盘。",
+      "speaker": "白棠",
+      "dialogue": "根还好，先搬到屋里。",
+      "delivery": "心疼但处理利落，不等待指令。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<盘底接触临时台>",
+      "source_shot": 6
+    },
+    {
+      "title": "只靠夹子撑一夜",
+      "size": "许砚手部中近景",
+      "composition": "旧膜边、原黑色棚架和普通夹子同框，工具盒在下缘。",
+      "camera": "固定拍夹合与松手。",
+      "action": "许砚把原膜拉回旧架，扣上现有夹子。松手后大幅拍打减弱，旧裂边仍清楚可见；新保温膜还没抽到。",
+      "speaker": "许砚",
+      "dialogue": "我先夹住，今晚别再进雪。",
+      "delivery": "说话时朝白棠所在出口，动作不夸张。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<普通夹子扣合，拍膜声变小>",
+      "source_shot": 7
+    },
+    {
+      "title": "两盘苗先过夜",
+      "size": "白棠室内工作台中近景",
+      "composition": "两盘苗并列，坏叶单独放一侧，许砚仅在门外作模糊身影。",
+      "camera": "从坏叶移到白棠放下覆盖布的手，再停在脸上。",
+      "action": "时间略过第二次搬运，两盘已安全到室内。白棠把坏叶清开，留活苗在暖一些的位置；没有催长光效，也没有立刻恢复的叶片。",
+      "speaker": "白棠",
+      "dialogue": "棚还漏着，催大了也得冻坏。",
+      "delivery": "解释自己的选择，语气像熟人间商量。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<坏叶落台，覆盖布轻响>",
+      "source_shot": 8
+    }
+  ]
+}

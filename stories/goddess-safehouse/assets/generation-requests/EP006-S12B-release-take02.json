@@ -1,0 +1,10 @@
+{
+  "prompt": "参考1：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n参考2：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n真人写实电影独立静帧，横屏16:9。人物参考仅取脸与服装，场景参考只锁已囤满物资的白厅货架，不继承姿势。\n新构图，极近距离俯拍手机和落笔处：夏凛藏青袖口的手正在合同签字栏落笔，陈屿灰色袖口的手将手机放在合同旁，屏幕只显示小型绿色到账确认图形。两张脸和身体完全不入镜，手机与笔尖占大部分画面，桌上三条分行屋规在边缘，所有小字不可读。不要复刻双人坐桌前签字的中景。\n陈屿26岁灰夹克灰T恤；夏凛28岁藏青制服衬衫、高腰长裤、黑短靴、低马尾。两人均成年。干燥整洁、哑光地面、清楚大形、适度细节，无过锐微纹理，无字幕水印或漂浮UI。\n出镜人物严格按本镜事件，不凭空加人。画中没有标题、字幕、水印、漂浮UI；后期另行烧录字幕。单张横屏16:9，真人电影静帧，环境干燥、简洁有序，适度细节，无过锐微纹理。所有人物均为成年人。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ee320953-89f8-40fc-bd7e-60bda281ef92.png"
+}

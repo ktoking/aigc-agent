@@ -1,0 +1,93 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP045_snow-greenhouse",
+  "segment": "segment_03_30-45s",
+  "title": "这次选保温膜",
+  "directory": "segment_03_30-45s",
+  "duration": 15,
+  "time": "D2零点，夜间抽卡并收好膜卷",
+  "source_segment": "segment_02_30-60s",
+  "source_shots": [
+    1,
+    4
+  ],
+  "cast": [
+    "许砚",
+    "白棠"
+  ],
+  "offscreen": [],
+  "refs": [
+    "villa",
+    "workshop",
+    "filmCards",
+    "seedlingRescue",
+    "greenhouseLeak",
+    "outfit_许砚",
+    "outfit_白棠"
+  ],
+  "opening": "D2零点，屋里两盘苗已放稳，许砚打开原手机；桌面还没有新材料。",
+  "ending": "三选一只领取保温膜，一卷实体材料落在桌面；白棠试开一小截又收好。",
+  "bridge": "明确硬切到翌日清晨搬卷材到原温室；不把夜间抽卡与白天施工叠成同一时刻。",
+  "shots": [
+    {
+      "title": "桌上只有三个选择",
+      "size": "手机与许砚半身中景",
+      "composition": "手机在下方，三张卡投影依次是膜卷、便携灯、未知图形，男主在后。",
+      "camera": "轻推到手机后停住，保留男主反应。",
+      "action": "窗外完全暗下，零点到来。许砚看完三张卡，手指停在膜卷前；桌上此时没有任何卡牌实物，其他灯具仍是原有工作灯。",
+      "speaker": "许砚",
+      "dialogue": "保温膜、灯，还有一张未知。",
+      "delivery": "念的是眼前选择，不增加系统播报。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<手机一次短提示，工作灯底噪>",
+      "source_shot": 1
+    },
+    {
+      "title": "她想要的是明天",
+      "size": "白棠单人中近景",
+      "composition": "白棠在左，受冻苗盘在右前景，不出现许砚第二张脸。",
+      "camera": "平视固定，她把覆盖布角压好后抬眼。",
+      "action": "白棠看一眼昨天搬进来的苗，目光再落向许砚手机。她不是替系统介绍道具，而是在为刚保下的劳动争取结果。",
+      "speaker": "白棠",
+      "dialogue": "选膜吧，我还想吃自己种的菜。",
+      "delivery": "认真中带一点盼头。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<覆盖布与苗盘轻碰>",
+      "source_shot": 2
+    },
+    {
+      "title": "只拿这一卷",
+      "size": "许砚手指与手机近景",
+      "composition": "手指触碰膜卷卡，另两张卡按原位置变暗。",
+      "camera": "固定，选中后不再切换选项。",
+      "action": "许砚点选保温膜，便携灯与未知同时退去。投影先在空台面勾出卷材轮廓，再逐渐凝成一卷有包装束带的实物，落台一声轻响。",
+      "speaker": "许砚",
+      "dialogue": "就它了。明早一起把棚补上。",
+      "delivery": "选择干脆，实体化时用现场画外音承接。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<一次选择提示，卷材落台轻响>",
+      "source_shot": 3
+    },
+    {
+      "title": "能补多少先看多少",
+      "size": "膜卷道具中景",
+      "composition": "有限膜卷横放，手机投影已经熄灭，两盘苗留在远侧。",
+      "camera": "短横移看卷材宽度，止于完整一卷。",
+      "action": "白棠从画外解开束带，只展开一小截确认宽度便收回。数量清楚是单卷，桌上没有另一份灯或未知奖励。",
+      "speaker": "白棠",
+      "dialogue": "够补漏的那面，别一下用光了。",
+      "delivery": "现场画外音，盘算后面还要用。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<束带解开，薄膜轻摩擦>",
+      "source_shot": 4
+    }
+  ]
+}

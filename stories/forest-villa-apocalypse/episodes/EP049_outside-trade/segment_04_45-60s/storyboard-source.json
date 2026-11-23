@@ -1,0 +1,97 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP049_outside-trade",
+  "segment": "segment_04_45-60s",
+  "title": "先修好这一台",
+  "directory": "segment_04_45-60s",
+  "duration": 15,
+  "time": "同一下午，约次日验料，住户离开",
+  "source_segment": "segment_02_30-60s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "许砚",
+    "白棠"
+  ],
+  "offscreen": [
+    "泵房住户"
+  ],
+  "refs": [
+    "villa",
+    "workshop",
+    "brokenPump",
+    "feedstockLabel",
+    "ep049-s2-detail",
+    "outfit_许砚",
+    "outfit_白棠"
+  ],
+  "opening": "许砚已收到照片，但泵还在待检架、原料还没送来，第一笔盐交易已结束。",
+  "ending": "约好明天带原料来验；白棠打趣修理铺，许砚继续检查同一台泵，来客沿雪路离开。",
+  "bridge": "下集到D4白天给出检查结果和实际试转，不另加门外埋伏。",
+  "shots": [
+    {
+      "title": "先验料，再定价",
+      "size": "许砚单人中近景",
+      "composition": "手机照片与未拆泵在桌上，许砚看过后收起手机。",
+      "camera": "平视固定，按键后抬眼。",
+      "action": "许砚只认可需要实物确认，安排对方明天带封口包装来。他没有因为想要原料就承诺能修所有设备，也不把未知旧粉倒入机器。",
+      "speaker": "许砚",
+      "dialogue": "明天带来看看，能用咱们再谈。",
+      "delivery": "清楚而平常的交易口气。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<按键说完后静下>",
+      "source_shot": 5
+    },
+    {
+      "title": "白棠给他起外号",
+      "size": "白棠与待修架中景",
+      "composition": "她把小泵挪到独立待修架，未动自用食品架。",
+      "camera": "跟泵落架，抬到她带笑看他。",
+      "action": "盐已收好，泵也有了自己的待修位置。白棠擦掉桌边水印，看着许砚又拿起工具，笑意来自两人正在把生活变成生意的事实。",
+      "speaker": "白棠",
+      "dialogue": "许师傅，修理铺这就开张了？",
+      "delivery": "轻轻打趣，不拿生存危机开玩笑。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<小泵放到待修架>",
+      "source_shot": 6
+    },
+    {
+      "title": "他的回应仍落在实事上",
+      "size": "许砚单人中近景",
+      "composition": "许砚在左，旧泵在右前景，工具只取必要一件。",
+      "camera": "固定，接住她的视线后低头动手。",
+      "action": "许砚没有突然变成耍贫嘴的人。他看一眼白棠，给一个短促的无奈笑，随即把第一件待修物转到便于检查的位置。",
+      "speaker": "许砚",
+      "dialogue": "先修好这一台，再叫师傅。",
+      "delivery": "淡淡接话，话后继续检查。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<普通工具取出>",
+      "source_shot": 7
+    },
+    {
+      "title": "一笔已成，一笔等结果",
+      "size": "门外背影远景",
+      "composition": "住户带菜走向原雪路，关闭黑门在前景，脸始终不可辨。",
+      "camera": "固定，让背影沿雪路远去。",
+      "action": "来客沿原雪路离开，食品已经拿到，坏水泵留下待修。院门保持关闭，没有新增人影埋伏，下一集悬念就是能否把机器修转。",
+      "speaker": "泵房住户",
+      "dialogue": "那我明天再来，辛苦了。",
+      "delivery": "离开前的门柱对讲画外音，声音逐渐远。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<脚步沿原雪路逐渐远去>",
+      "source_shot": 8
+    }
+  ]
+}

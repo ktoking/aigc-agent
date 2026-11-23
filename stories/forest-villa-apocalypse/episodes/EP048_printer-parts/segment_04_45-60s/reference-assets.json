@@ -1,0 +1,137 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 15,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "local_reference_files_complete": true,
+    "note": "九项为本项目规划，不代表已验证模型上限或账号权限。仅按清单取图，不扫描历史目录，不传首尾帧，尚未提交。"
+  },
+  "references": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "description": "利落低马尾；鼠尾草绿短款工装外套、浅灰圆领上衣、深灰直筒工装裤、黑色防滑工作靴。能独立判断生产与库存，有心疼劳动、期待收成和熟人间的幽默。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "白棠",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 1
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "description": "黑色短发；炭灰防水工装夹克、黑肩拼片、深灰上衣、黑灰直筒工装裤、深棕高帮登山靴、黑色电子表。沉着实干，判断在观察之后；日常关心用实际行动表达。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "许砚",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 2
+    },
+    {
+      "key": "workshop",
+      "kind": "scene_or_prop",
+      "label": "原现代工作间",
+      "file": "assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png",
+      "planned_file": null,
+      "scope": "原现代灰白工作间、打印仓和金属台面，窗外冬雪；只锁空间与机器，不锁台上新道具；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 3,
+      "segment_file": "frames/参考图3.png"
+    },
+    {
+      "key": "seedlingRack",
+      "kind": "scene_or_prop",
+      "label": "一层育苗灯架",
+      "file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间一层旧金属架安装有限育苗灯、控制组件与一盘刚播种的苗盘；无人物，不生成多层工厂；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 4,
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "key": "ep048-s2-detail",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "planned_file": null,
+      "scope": "同一育苗架下单盘刚播种的湿土、封好的剩余种子与原门柱手持对讲；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 5,
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "key": "tradeHatch",
+      "kind": "scene_or_prop",
+      "label": "原双门人工交易槽",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-gate-transfer-hatch-16x9.png",
+      "planned_file": null,
+      "scope": "原黑门上的双门交易槽、托盘与内外门关系，主门关闭，箱子需人手推动；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 6,
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "label": "原门柱对讲与交易槽",
+      "scope": "只锁灰石门柱对讲面板、双门小交易槽与托盘；不复制额外物资，主门关闭；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "key": "radio",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 7,
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 8,
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "label": "许砚炭灰工装",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 9,
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色",
+    "不上传旧三视图、旧关键帧或历史output",
+    "不把本地文件存在视为视频人物一致性通过"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP045_snow-greenhouse",
+  "segment": "segment_01_00-15s",
+  "title": "先让门能锁住",
+  "directory": "segment_01_00-15s",
+  "duration": 15,
+  "time": "D1傍晚修门",
+  "source_segment": "segment_01_00-30s",
+  "source_shots": [
+    1,
+    4
+  ],
+  "cast": [
+    "许砚",
+    "白棠"
+  ],
+  "offscreen": [],
+  "refs": [
+    "villa",
+    "gateDamage",
+    "gateRepaired",
+    "metalPrinter",
+    "workshop",
+    "outfit_许砚",
+    "outfit_白棠"
+  ],
+  "opening": "D1傍晚，原黑门还关着，但受撞的锁座一推就晃；许砚已脱下停用的外骨骼。",
+  "ending": "打印的一块新锁板装回原位，两人撤撑杆试门，锁舌不再晃动。",
+  "bridge": "门锁住后先收工具，再被温室膜的拍打声吸引；下一段不重新修门。",
+  "shots": [
+    {
+      "title": "先听见门响",
+      "size": "锁座特写",
+      "composition": "黑门中央旧锁座与白棠绿色袖口在中心，门柱留边。",
+      "camera": "固定，跟着一次轻推看门缝变化。",
+      "action": "白棠试推黑门，门没打开，锁舌却在歪斜接片里晃。撞门留下的划痕仍在，问题只在锁座，不是整块门板裂开。",
+      "speaker": "白棠",
+      "dialogue": "锁扣都歪了，这门得先修。",
+      "delivery": "门内现场画外音，心有余悸。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<锁舌松动金属响>",
+      "source_shot": 1
+    },
+    {
+      "title": "重量交给撑杆",
+      "size": "许砚门内单人中景",
+      "composition": "撑杆、许砚的鞋与门板同框，工具箱放在左脚旁。",
+      "camera": "固定侧面，拍撑杆落地再抬脸。",
+      "action": "许砚将普通撑杆顶稳，松开一只手确认门不再晃，才蹲下取工具。他没有穿刚过热的外骨骼，也不用手硬掰锁座。",
+      "speaker": "许砚",
+      "dialogue": "工具给我，别再用手顶了。",
+      "delivery": "对近处白棠说，关心藏在分工里。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<撑杆落地，工具箱提手轻碰>",
+      "source_shot": 2
+    },
+    {
+      "title": "机器补一块板",
+      "size": "打印仓输出托盘近景",
+      "composition": "新锁板在托盘，弯曲旧件放在旁边，有限料盒留在后景。",
+      "camera": "由旧件短横移到新件，动作匹配略去加工等待。",
+      "action": "同一工业打印仓停止运转，托盘带出一块与旧件轮廓一致的锁板。白棠把少量匹配紧固件放进小盒，拿起成品带回门边。",
+      "speaker": "白棠",
+      "dialogue": "新的好了，螺丝也找齐了。",
+      "delivery": "工作间现场画外音，声音近。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<打印仓停机，托盘滑出>",
+      "source_shot": 3
+    },
+    {
+      "title": "这回能锁住",
+      "size": "黑门内侧双人中景",
+      "composition": "白棠扶新板、许砚固定，随后两人让开，中央锁舌入位。",
+      "camera": "固定，紧固完成后用动作匹配接一次试推。",
+      "action": "许砚拧完最后一颗，白棠撤走撑杆、关门再推。新板稳住锁舌，门不再像开头那样晃；原门划痕与围墙都没变化。",
+      "speaker": "许砚",
+      "dialogue": "推一下试试。行，锁住了。",
+      "delivery": "先请她验证，看到结果才放松。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚",
+        "白棠"
+      ],
+      "sound": "<工具拧紧，锁舌咬合>",
+      "source_shot": 4
+    }
+  ]
+}

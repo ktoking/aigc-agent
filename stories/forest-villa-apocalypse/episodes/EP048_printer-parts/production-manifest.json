@@ -1,0 +1,39 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "active": true,
+  "episode_duration": 60,
+  "segment_duration": 15,
+  "segments": [
+    {
+      "sequence": 1,
+      "directory": "segment_01_00-15s",
+      "duration": 15,
+      "shots": 4
+    },
+    {
+      "sequence": 2,
+      "directory": "segment_02_15-30s",
+      "duration": 15,
+      "shots": 4
+    },
+    {
+      "sequence": 3,
+      "directory": "segment_03_30-45s",
+      "duration": 15,
+      "shots": 4
+    },
+    {
+      "sequence": 4,
+      "directory": "segment_04_45-60s",
+      "duration": 15,
+      "shots": 4
+    }
+  ],
+  "historical_30s_text": "docs/revisions/2026-11-12-pre-15s/episodes/EP048_printer-parts",
+  "historical_outputs_unchanged": [
+    "segment_01_00-30s/output",
+    "segment_02_30-60s/output"
+  ],
+  "source_plan": "scripts/ep044-050-15s-plan.json",
+  "first_last_frames": false
+}

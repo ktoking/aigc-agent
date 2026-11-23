@@ -1,0 +1,9 @@
+{
+  "prompt": "参考图1：只锁相邻主镜的同一空间、人物服装和道具外观（颜色材质数量），本镜按新事件生成不同动作阶段与新构图，不能复制主镜；不把参考当另一张直接复用。\n参考图2：仅锁CHEN人物的脸、发型和服装，丢弃其背景与姿势。\n真人写实电影静帧，16:9。图1锁同一安全屋厨房、木桌、黑色火锅、食材与餐具，图2仅锁陈屿脸和炭灰外套灰T恤。画面中仅有陈屿一位成年男性，其他椅子空着，不出现任何女性、女室友、来客或背景人影。新动作与机位：陈屿把筷子停在碗沿，侧脸抬眼朝闭合的门回应，嘴唇微动；不再重复前镜夹着毛肚的姿势。中近景，拍清一个人的克制表情和门方向，黑锅仍为红汤、旁边毛肚牛肉蔬菜与前镜同状态。不要把参考图的构图直接复制，真实拍摄的新画面。无任何文字、字幕、漂浮UI、雨雾或湿反光。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP001/frames/EP001-S02-v2.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false
+}

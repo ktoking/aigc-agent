@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a609c1f892b488ef5932aece71fcc",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "九十天前，我还是个被甩锅的仓储主管。马主任说，三十箱货的缺口，签收单上是你的名字。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 8856,
+    "audio_sample_rate": 32000,
+    "audio_size": 143412,
+    "bitrate": 128000,
+    "word_count": 41,
+    "invisible_character_ratio": 0,
+    "usage_characters": 77,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP001/audio/EP001-C04.mp3",
+  "bytes": 143412,
+  "sha256": "873b43ca445479db3f70eb782fc638d16a52baf37ddf1400eb6e095facbdd263",
+  "subtitle_files_generated": false
+}

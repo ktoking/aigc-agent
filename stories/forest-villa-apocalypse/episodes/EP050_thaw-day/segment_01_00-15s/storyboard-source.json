@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP050_thaw-day",
+  "segment": "segment_01_00-15s",
+  "title": "旧水泵重新转起来",
+  "directory": "segment_01_00-15s",
+  "duration": 15,
+  "time": "D4白天，修泵试转后切温室选盘",
+  "source_segment": "segment_01_00-30s",
+  "source_shots": [
+    1,
+    4
+  ],
+  "cast": [
+    "许砚"
+  ],
+  "offscreen": [
+    "白棠"
+  ],
+  "refs": [
+    "workshop",
+    "brokenPump",
+    "repairedPump",
+    "mechanicalParts",
+    "seedlingRack",
+    "growthTray",
+    "outfit_许砚",
+    "greenhouseRepaired"
+  ],
+  "opening": "D4白天，昨夜检查已确认泵本体无损，待换的外部支架与原旧件放在台上。",
+  "ending": "同一泵装上新支架并持续试水；切到温室，白棠选定一盘近熟叶菜，尚未使用异能。",
+  "bridge": "下段从这盘近熟菜发动当日一次加速，邻盘幼苗保持原样，不重拍修泵。",
+  "shots": [
+    {
+      "title": "只换真正坏的那件",
+      "size": "许砚工作间中近景",
+      "composition": "新旧支架并列，小泵外壳还是原来的斑驳外壳。",
+      "camera": "固定跟新支架贴合，再到他检查稳固。",
+      "action": "承接昨夜检查，电子部分通过测试、故障只在支架。许砚把有限打印料做的新支架装上同一台泵，不打印一台全新泵，也不让泵外壳瞬间变新。",
+      "speaker": "许砚",
+      "dialogue": "里面没坏，换这个支架就行。",
+      "delivery": "判断来自已完成的初检。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<新支架贴合，普通工具固定>",
+      "source_shot": 1
+    },
+    {
+      "title": "让结果自己说话",
+      "size": "测试水桶与泵无人中景",
+      "composition": "泵在防溅台，测试出水管回到同一桶；电气部分不浸水。",
+      "camera": "固定，启动后等水流稳定一次。",
+      "action": "装配结束后进行受控试转，管口先出少量气泡，随后稳定出水。机身没有像旧支架时晃动，白棠从画外靠近，看见真正的维修结果。",
+      "speaker": "白棠",
+      "dialogue": "真转起来了，这回能交货了。",
+      "delivery": "工作间现场画外音，替他松口气。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<泵启动，水流由断续转稳定>",
+      "source_shot": 2
+    },
+    {
+      "title": "他还要多看一会",
+      "size": "许砚水泵旁中近景",
+      "composition": "泵在右前方正常运行，计时终端只有非文字状态光。",
+      "camera": "从稳定水流移到许砚擦手。",
+      "action": "许砚看水流保持稳定，又摸外壳确认没有明显异常，再把工具收起。不会刚喷出一滴水就夸大保证永久不坏。",
+      "speaker": "许砚",
+      "dialogue": "再试一会儿，别拿回去又停。",
+      "delivery": "认真对待第一笔维修承诺。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<稳定运行，不额外报警>",
+      "source_shot": 3
+    },
+    {
+      "title": "另一边也等着收获",
+      "size": "温室一盘叶菜近景",
+      "composition": "较大的原有叶菜盘在中心，新播小苗盘在旁边，空间关系分明。",
+      "camera": "从旧菜盘短移到白棠的手。",
+      "action": "硬切同日温室，白棠挑出早已长到接近采收的一盘叶菜。她看过水与基质状态后，把其他新苗盘移开，给能力划出有限作用范围。",
+      "speaker": "白棠",
+      "dialogue": "今天催这一盘，别的让它慢慢长。",
+      "delivery": "温室现场画外音，自己作生产安排。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<小苗盘移开，温室底噪>",
+      "source_shot": 4
+    }
+  ]
+}

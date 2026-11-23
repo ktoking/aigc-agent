@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP048_printer-parts",
+  "segment": "segment_03_30-45s",
+  "title": "罐头还是育苗灯",
+  "directory": "segment_03_30-45s",
+  "duration": 15,
+  "time": "D3白天，抽卡并安装首层灯架",
+  "source_segment": "segment_02_30-60s",
+  "source_shots": [
+    1,
+    4
+  ],
+  "cast": [
+    "许砚",
+    "白棠"
+  ],
+  "offscreen": [],
+  "refs": [
+    "workshop",
+    "growLightCards",
+    "seedTray",
+    "seedlingRack",
+    "printer",
+    "outfit_许砚",
+    "outfit_白棠"
+  ],
+  "opening": "旧架和空盘就在身旁，许砚用当天剩余的一次领取机会打开三张候选。",
+  "ending": "只选育苗灯，组件先投影再实体化；略去搬运等待后，第一层灯条固定但尚未通电。",
+  "bridge": "下一段从同一已安装架开始播种，再恢复该支路供电；不重复领取或安装灯。",
+  "shots": [
+    {
+      "title": "这次真有合适的",
+      "size": "许砚与手机中近景",
+      "composition": "三张投影卡在手机上方，男主在后，空盘仍摆在桌边。",
+      "camera": "轻推手机，抬到男主看到灯卡的目光。",
+      "action": "一箱罐头、灯板组件、未知图形按同一顺序出现。许砚将手停在罐头和灯板之间，没有同时点两张；窗外仍是白天，领取不意味着时间跳回零点。",
+      "speaker": "许砚",
+      "dialogue": "真有育苗灯，也有一箱罐头。",
+      "delivery": "小小意外，语气自然。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<手机一次短提示>",
+      "source_shot": 1
+    },
+    {
+      "title": "她替下个月要一张卡",
+      "size": "白棠单人中近景",
+      "composition": "白棠在右，有限种子袋在前景，男主不清晰同框。",
+      "camera": "固定，她放下种子袋后抬眼。",
+      "action": "白棠看一眼粮食储位，再看准备育苗的空盘。眼下主粮并未耗尽，她选择把这一轮机会用在会继续产出的东西上。",
+      "speaker": "白棠",
+      "dialogue": "选灯吧，罐头吃完就没了。",
+      "delivery": "有依据的取舍，不作宏大宣言。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<种子袋放下，轻呼吸>",
+      "source_shot": 2
+    },
+    {
+      "title": "选择有了代价",
+      "size": "手机与空台近景",
+      "composition": "灯卡被点选，罐头卡退暗，空台留出组件位置。",
+      "camera": "固定，点选到实物轮廓成形连续可见。",
+      "action": "许砚点灯卡，另两张消失。小套灯板与控制组件先投影占位，再沿空台凝成有限实体；罐头不落地，也没有未选奖励。",
+      "speaker": "许砚",
+      "dialogue": "行。下个月这盘菜，就靠它了。",
+      "delivery": "现场画外音，接白棠的选择。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<选择提示一次，组件落台>",
+      "source_shot": 3
+    },
+    {
+      "title": "自己搭起第一层",
+      "size": "许砚与旧架中景",
+      "composition": "旧架在左，许砚固定灯板在右，原电源线尚未接通。",
+      "camera": "侧跟灯板抬起、贴合到原架。",
+      "action": "省略搬运和装配等待后，组件已来到旧架边。许砚用已有支架固定有限灯板，白棠在画外扶住另一头；安装时电源关闭，不让灯板自己飞上去。",
+      "speaker": "许砚",
+      "dialogue": "先装这一层，别一下铺太大。",
+      "delivery": "分配资源，说完继续安装。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<灯板贴合旧架，扣件固定>",
+      "source_shot": 4
+    }
+  ]
+}

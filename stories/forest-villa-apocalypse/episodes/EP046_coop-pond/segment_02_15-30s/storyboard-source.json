@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP046_coop-pond",
+  "segment": "segment_02_15-30s",
+  "title": "剩膜两边都用上",
+  "directory": "segment_02_15-30s",
+  "duration": 15,
+  "time": "同一白天，继续原架施工",
+  "source_segment": "segment_01_00-30s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "许砚",
+    "白棠"
+  ],
+  "offscreen": [],
+  "refs": [
+    "villa",
+    "coopWarm",
+    "pondCover",
+    "shelterBuild",
+    "pondWarm",
+    "outfit_许砚",
+    "outfit_白棠"
+  ],
+  "opening": "同一白天，剩膜分量已定；禽舍迎风面和鱼池罩还没有扣牢。",
+  "ending": "禽舍留出顶部通风，鱼池罩让开原循环管；罩下有流动水、气泡和正常鱼影。",
+  "bridge": "下一段回禽舍放回已经解冻的原饮水器；修膜不等于鸡当场生蛋。",
+  "shots": [
+    {
+      "title": "沿旧架做挡风面",
+      "size": "许砚禽舍侧面中景",
+      "composition": "原网栏在内，透明膜在外，顶部通风空隙清楚，叶凝霜仅手臂入边。",
+      "camera": "沿许砚压膜动作短横移。",
+      "action": "许砚把剩膜固定在旧栏的迎风侧，先留好顶部空隙再扣边。风吹来时膜被原架支住，鸡群没有被封成密不透气的塑料箱。",
+      "speaker": "许砚",
+      "dialogue": "上边留着，不能全封死。",
+      "delivery": "提醒正在扶膜的同伴，语句完整。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<薄膜与旧扣件摩擦>",
+      "source_shot": 5
+    },
+    {
+      "title": "这一边已经够了",
+      "size": "白棠与单面挡风膜中近景",
+      "composition": "她在鸡棚内侧，膜边与通风口同框，鸡留在脚下远处。",
+      "camera": "固定，让她伸手感受入口风后转头。",
+      "action": "白棠站到原来漏风的位置，用手背试一下，再把分好的另一截膜递往鱼池方向。不是对着镜头念改造结果。",
+      "speaker": "白棠",
+      "dialogue": "这边不吹了，剩下的给鱼池。",
+      "delivery": "忙起来的轻快，接着许砚的话。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<收卷轻响，棚外风声>",
+      "source_shot": 6
+    },
+    {
+      "title": "罩住水面，设备留外面",
+      "size": "鱼池与许砚侧面中景",
+      "composition": "透明罩在原支架上，过滤桶和增氧线路在右侧检修位。",
+      "camera": "小幅下摇，跟罩边落在支架上。",
+      "action": "许砚压住透明罩边，给原循环管和增氧口留下位置。白棠从画外搭好远侧，水从已有出口流回池里；没有换成全新大型养殖场。",
+      "speaker": "许砚",
+      "dialogue": "别压住水管，这里还得循环。",
+      "delivery": "对配合者说，不作教学长解说。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<原过滤泵持续低噪>",
+      "source_shot": 7
+    },
+    {
+      "title": "鱼还活着",
+      "size": "罩内水面近景",
+      "composition": "鱼影、气泡与原池壁同时可见，罩边不遮满画面。",
+      "camera": "固定等鱼从画面右侧游过一次。",
+      "action": "刚铺好的罩下水仍流动，几尾正常大小的鱼穿过气泡。白棠用手掌抹掉罩沿水汽，看见鱼后呼气，手从画边收走。",
+      "speaker": "白棠",
+      "dialogue": "还好，还知道来找吃的。",
+      "delivery": "对鱼轻声说，松了一口气。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<少量气泡，鱼游过水面>",
+      "source_shot": 8
+    }
+  ]
+}

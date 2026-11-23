@@ -1,0 +1,66 @@
+[
+  {
+    "asset_id": "CHEN",
+    "type": "character_identity",
+    "path": "assets/baselines/CHEN-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-de4759a5-0b08-4764-8e99-8d79b8094512.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/CHEN-v1.txt",
+    "sha256": "831c23a7b3d3a1d8c4fc6da8047a68a6e7aa3c6bad7e36b0e7287cf8630bd7fd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "演员身份和服装清楚，基准不是成片事件图。"
+  },
+  {
+    "asset_id": "XIA",
+    "type": "character_identity",
+    "path": "assets/baselines/XIA-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-9ad35a29-6745-40cb-9aff-508de61066f8.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/XIA-v1.txt",
+    "sha256": "04c11673ce1b3c66278b9bd1dd330f5ba8685f61447990bf115e6bcc220d619a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "身份可读；地面偏亮，只取人物身份，不继承地面反光；左耳后疤不清楚，后续针对机位约束。"
+  },
+  {
+    "asset_id": "XU",
+    "type": "character_identity",
+    "path": "assets/baselines/XU-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-79ad331e-ec96-44f4-863d-f7cf636be8c6.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/XU-v1.txt",
+    "sha256": "c50e2e4945c80914fb13e8fb0de83229d41091fdf555d2c45f22ae5efaee8a39",
+    "native_dimensions": [
+      1672,
+      940
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "身份可读；药盒有微小印刷字符且远景有虚焦路人，只取人物身份，不将此图作为无字无人群最终事件图。"
+  },
+  {
+    "asset_id": "HOME2",
+    "type": "scene_style_only",
+    "path": "assets/baselines/HOME2-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7f0f6370-0e77-4675-97bf-a361c70b3c06.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/HOME2-v1.txt",
+    "sha256": "93947c6c800b357ab072a2fbe52bc349ad561f685b79e01dfb4b7047285bdd17",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "暖色干燥有序的风格可参考；门数量视角未能严格验证四卧室，正式空间图按四卧室新生成，不能将这张视为精确平面布局锁。"
+  }
+]

@@ -1,0 +1,25 @@
+# EP047 Segment 2 视频交接
+
+版本：2026-11-12-four-15s。这是重做后的15秒段，没有提交视频。
+
+- model=doubao-seedance-2-5-260628（沿用既定目标；本次未验证账号或服务端参数）。
+- duration=15，ratio=16:9，resolution=480p，generate_audio=true。
+- prompt_file=director-promt.txt；SHA256=178efd462aa5745b588a0cb896514abc2629b271c8278f4b6151b2116a7ccc90；prompt.md逐字一致。
+- first_frame=null，last_frame=null，auto_images=false。
+- 台词43个有效字；4字/秒粗估10.75秒，非实测语音。
+- 只按reference-assets.json上传具名数字人和图片；九项包括人物，无旧首尾帧。
+- 整集四段串行，前一段完成、下载并验收后再提交下一段；发现问题停止，不自动重试。
+
+| 实际输入序号 | 标签 | story根目录来源或asset URI | 职责 |
+| --- | --- | --- | --- |
+| 1 | 沈知夏 | asset://asset-20260310030618-88hlb | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 2 | 许砚 | asset://asset-20260320075237-29hdx | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 3 | 独立能源棚外观 | assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-energy-shed-cooling-loop-16x9.png | 原围墙内独立能源棚、密封发电模块外壳与外部供暖柜，生活区距离服从canonical；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 4 | 外部供暖支路柜 | assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png | 密封核能主机之外的独立供暖柜，源侧与回屋侧管路、外接阀件可区分；无人物，无主机内部；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 5 | 外部执行件一次检查 | assets/production/ep044-050-seedance25/references/valveCheck-16x9.png | 同一外部传感器与两只小执行件，其中一只卡住；手持终端仅外观，不画内部电路；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 6 | 旧件与最后一个备用件 | assets/production/ep044-050-seedance25/references/spareTray-16x9.png | 旧外接执行件、仅一只备用件与空格备件盒，分开摆放；换件后盒子为空，无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果；EP047换件后盒里必须为空，EP048空盒状态继续承接，不能恢复一只备用件 |
+| 7 | 原现代工作间 | assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png | 原现代灰白工作间、打印仓和金属台面，窗外冬雪；只锁空间与机器，不锁台上新道具；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 8 | 知夏暗酒红医护工装 | assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png | 沈知夏无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 9 | 许砚炭灰工装 | assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png | 许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+
+本地文件齐全不代表身份、服装、动作或语音已通过生成验证。正式提交前核对实际payload的角色名、URI、图片标签、编号和prompt哈希。任务ID：无。

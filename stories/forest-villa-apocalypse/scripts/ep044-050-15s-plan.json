@@ -1,0 +1,3483 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "format": {
+    "episode_duration": 60,
+    "segments": 4,
+    "segment_duration": 15,
+    "shots_per_segment": 4,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "first_last_frames": false,
+    "model": "doubao-seedance-2-5-260628"
+  },
+  "source_snapshot": "docs/revisions/2026-11-12-pre-15s/source.json",
+  "roles": {
+    "冬狼": {
+      "name": "冬狼",
+      "asset": "asset-20260720205729-l4dfh",
+      "uri": "asset://asset-20260720205729-l4dfh",
+      "description": "利落黑短发；黑色厚防风长外套、深灰高领内搭、黑色工装长裤、黑色防滑雪地靴。习惯控制别人，听见停火才敢靠近；失去优势后情绪变化可见，不狂笑。只锁本人脸与身份，不沿用资产原衣。"
+    },
+    "许砚": {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "description": "黑色短发；炭灰防水工装夹克、黑肩拼片、深灰上衣、黑灰直筒工装裤、深棕高帮登山靴、黑色电子表。沉着实干，判断在观察之后；日常关心用实际行动表达。只锁本人脸与身份，不沿用资产原衣。"
+    },
+    "白棠": {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "description": "利落低马尾；鼠尾草绿短款工装外套、浅灰圆领上衣、深灰直筒工装裤、黑色防滑工作靴。能独立判断生产与库存，有心疼劳动、期待收成和熟人间的幽默。只锁本人脸与身份，不沿用资产原衣。"
+    },
+    "叶凝霜": {
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz",
+      "uri": "asset://asset-20260720212023-wwndz",
+      "description": "银白色长发；白色修身长款防寒风衣、冰灰高领内搭、白灰战术长裤、白色雪地靴。清冷有主见，怒意用目光与停顿，疲劳按剧情发生；生活戏不改成撒娇少女。只锁本人脸与身份，不沿用资产原衣。"
+    },
+    "沈知夏": {
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb",
+      "uri": "asset://asset-20260310030618-88hlb",
+      "description": "深栗色侧分微卷长发过肩；暗酒红医护工装外套、黑色刷手服内搭、炭灰工装裤、黑色防滑短靴。成熟克制，专业意见独立；会坚持休息与复核，不无条件附和。只锁本人脸与身份，不沿用资产原衣。"
+    }
+  },
+  "assets": {
+    "villa": {
+      "number": 4,
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "label": "正确别墅冬季总景",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "planned_file": null,
+      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图4.png"
+    },
+    "gateStrain": {
+      "number": 5,
+      "key": "gateStrain",
+      "kind": "scene_or_prop",
+      "label": "受撞锁座",
+      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
+      "planned_file": null,
+      "scope": "原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "turret": {
+      "number": 6,
+      "key": "turret",
+      "kind": "scene_or_prop",
+      "label": "唯一阳台炮台",
+      "file": "assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png",
+      "planned_file": null,
+      "scope": "唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    "armorDefense": {
+      "number": 7,
+      "key": "armorDefense",
+      "kind": "scene_or_prop",
+      "label": "外骨骼抵门受力",
+      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png",
+      "planned_file": null,
+      "scope": "同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图7.png"
+    },
+    "outfit_冬狼": {
+      "number": 8,
+      "key": "outfit_冬狼",
+      "kind": "outfit",
+      "label": "冬狼现代黑色冬装",
+      "file": "assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图8.png"
+    },
+    "outfit_白棠": {
+      "number": 9,
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    },
+    "gate": {
+      "number": 5,
+      "key": "gate",
+      "kind": "scene_or_prop",
+      "label": "同一关闭黑门",
+      "file": "assets/production/ep042-044-reference-refresh/references/canonical-gate-closed-winter-16x9.png",
+      "planned_file": null,
+      "scope": "原黑门门柱、内外侧与关闭状态，不改变canonical建筑；冻结发生墙外",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "wolfFrozen": {
+      "number": 6,
+      "key": "wolfFrozen",
+      "kind": "scene_or_prop",
+      "label": "墙外冰封倒地轮廓",
+      "file": "assets/production/ep042-044-reference-refresh/references/ice-covered-faceless-silhouette-snow-16x9.png",
+      "planned_file": null,
+      "scope": "墙外单个无脸冰封轮廓与倒地冰层质感；不锁新面孔，不出现碎尸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    "armorCooling": {
+      "number": 7,
+      "key": "armorCooling",
+      "kind": "scene_or_prop",
+      "label": "外骨骼过热停用",
+      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-overheat-joint-16x9.png",
+      "planned_file": null,
+      "scope": "外骨骼同款关节、过热警示与停用状态；不锁新人物或新装甲",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图7.png"
+    },
+    "outfit_叶凝霜": {
+      "number": 9,
+      "key": "outfit_叶凝霜",
+      "kind": "outfit",
+      "label": "凝霜白色冬装",
+      "file": "assets/production/ep042-044-reference-refresh/references/ye-winter-long-coat-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    },
+    "gateDamage": {
+      "number": 4,
+      "key": "gateDamage",
+      "kind": "scene_or_prop",
+      "label": "旧锁板变形",
+      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
+      "planned_file": null,
+      "scope": "门内旧锁板歪斜、中央锁舌错位，门本体没有被打穿；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图4.png"
+    },
+    "gateRepaired": {
+      "number": 5,
+      "key": "gateRepaired",
+      "kind": "scene_or_prop",
+      "label": "新锁板装回原门",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/black-gate-replaced-center-latch-16x9.png",
+      "planned_file": null,
+      "scope": "同一黑门装回一块新锁板的局部，旧划痕保留，不新增外侧护板；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "metalPrinter": {
+      "number": 6,
+      "key": "metalPrinter",
+      "kind": "scene_or_prop",
+      "label": "打印仓单块锁板成品",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/industrial-printer-single-gate-latch-plate-16x9.png",
+      "planned_file": null,
+      "scope": "原打印仓输出托盘里的一块新锁板与旁边旧件，有限材料，人工安装；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    "outfit_许砚": {
+      "number": 7,
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "label": "许砚炭灰工装",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图7.png"
+    },
+    "courtyard-greenhouse-old-film-leak": {
+      "number": 9,
+      "key": "courtyard-greenhouse-old-film-leak",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-old-film-leak-16x9.png",
+      "planned_file": null,
+      "scope": "外部供暖柜修后关闭，原管路、便携监测终端与厚毯保持位置；无人物，不含主机内部",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    },
+    "greenhouseLeak": {
+      "number": 4,
+      "key": "greenhouseLeak",
+      "kind": "scene_or_prop",
+      "label": "温室旧膜漏雪",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-old-film-leak-16x9.png",
+      "planned_file": null,
+      "scope": "院内同一现代温室旧膜一处接缝掀起，下面两盘苗落雪，黑色棚架完整；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图4.png"
+    },
+    "seedlingRescue": {
+      "number": 5,
+      "key": "seedlingRescue",
+      "kind": "scene_or_prop",
+      "label": "室内两盘受冻苗",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/two-seedling-trays-indoor-rescue-16x9.png",
+      "planned_file": null,
+      "scope": "现代工作台上两盘受冻但尚存活的小苗，坏叶分开放，不是成熟菜；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "filmCards": {
+      "number": 6,
+      "key": "filmCards",
+      "kind": "scene_or_prop",
+      "label": "保温膜三选一与有限卷材",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/midnight-three-choice-insulation-film-16x9.png",
+      "planned_file": null,
+      "scope": "原手机零点三选一：保温膜、便携灯、未知；选中后一卷有限膜材。只锁选项与材料，不把膜提前安装；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    "courtyard-greenhouse-film-repaired": {
+      "number": 9,
+      "key": "courtyard-greenhouse-film-repaired",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-film-repaired-16x9.png",
+      "planned_file": null,
+      "scope": "同一温室新膜补住局部接缝，旧黑架完整，一盘苗归位，剩余膜有限；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    },
+    "coopCold": {
+      "number": 5,
+      "key": "coopCold",
+      "kind": "scene_or_prop",
+      "label": "原禽舍饮水器冻住",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/villa-poultry-pen-empty-modern-16x9.png",
+      "planned_file": null,
+      "scope": "原院内现代金属禽舍结构、旧饮水器出水口冻住的局部，少量鸡，不出现陌生房屋或人",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "pondCover": {
+      "number": 6,
+      "key": "pondCover",
+      "kind": "scene_or_prop",
+      "label": "原鱼池局部保温罩",
+      "file": "assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+      "planned_file": null,
+      "scope": "原循环鱼池边缘薄冰，局部透明保温罩留通气与检修口，过滤桶仍在旧位置；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "shelterBuild": {
+      "number": 7,
+      "key": "shelterBuild",
+      "kind": "scene_or_prop",
+      "label": "有限膜材分配与旧架",
+      "file": "assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+      "planned_file": null,
+      "scope": "同一院内原禽舍单侧挡风膜与相邻鱼池罩，有限膜材在旧架上，通风口留出；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    "coopWarm": {
+      "number": 4,
+      "key": "coopWarm",
+      "kind": "scene_or_prop",
+      "label": "禽舍修后通风与饮水",
+      "file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "planned_file": null,
+      "scope": "同一现代禽舍完成单侧挡风、原饮水器解冻后有水，保留通风口；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    "firstEgg": {
+      "number": 5,
+      "key": "firstEgg",
+      "kind": "scene_or_prop",
+      "label": "窝箱单枚鸡蛋",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/villa-poultry-pen-first-egg-16x9.png",
+      "planned_file": null,
+      "scope": "同一禽舍窝箱内仅一枚蛋与垫草的近景，不锁背景建筑或人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "pondWarm": {
+      "number": 6,
+      "key": "pondWarm",
+      "kind": "scene_or_prop",
+      "label": "保温罩内循环水和鱼影",
+      "file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "planned_file": null,
+      "scope": "同一透明罩下鱼影、气泡与正常循环水，鱼大小不被异能放大；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "pumpHouseSmoke": {
+      "number": 7,
+      "key": "pumpHouseSmoke",
+      "kind": "scene_or_prop",
+      "label": "山谷旧泵房炊烟",
+      "file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "planned_file": null,
+      "scope": "南侧山谷旧泵房远景，一缕炊烟，树林遮挡；没有人物脸、尸潮、可读坐标或新别墅",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    "energyShed": {
+      "number": 3,
+      "key": "energyShed",
+      "kind": "scene_or_prop",
+      "label": "独立能源棚外观",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-energy-shed-cooling-loop-16x9.png",
+      "planned_file": null,
+      "scope": "原围墙内独立能源棚、密封发电模块外壳与外部供暖柜，生活区距离服从canonical；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图3.png"
+    },
+    "heatingBranch": {
+      "number": 4,
+      "key": "heatingBranch",
+      "kind": "scene_or_prop",
+      "label": "外部供暖支路柜",
+      "file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "planned_file": null,
+      "scope": "密封核能主机之外的独立供暖柜，源侧与回屋侧管路、外接阀件可区分；无人物，无主机内部",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    "valveCheck": {
+      "number": 5,
+      "key": "valveCheck",
+      "kind": "scene_or_prop",
+      "label": "外部执行件一次检查",
+      "file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "planned_file": null,
+      "scope": "同一外部传感器与两只小执行件，其中一只卡住；手持终端仅外观，不画内部电路；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图5.png"
+    },
+    "livingWarm": {
+      "number": 5,
+      "key": "livingWarm",
+      "kind": "scene_or_prop",
+      "label": "现代客厅地暖空间",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/villa-ground-floor-self-built-radiant-heating-16x9.png",
+      "planned_file": null,
+      "scope": "原现代客厅、稳定照明、地暖分水器、厚毯与暖桌；只锁空间，不靠图片断言温度",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "spareTray": {
+      "number": 6,
+      "key": "spareTray",
+      "kind": "scene_or_prop",
+      "label": "旧件与最后一个备用件",
+      "file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "planned_file": null,
+      "scope": "旧外接执行件、仅一只备用件与空格备件盒，分开摆放；换件后盒子为空，无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "outfit_沈知夏": {
+      "number": 8,
+      "key": "outfit_沈知夏",
+      "kind": "outfit",
+      "label": "知夏暗酒红医护工装",
+      "file": "assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "沈知夏无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图8.png"
+    },
+    "printer": {
+      "number": 3,
+      "key": "printer",
+      "kind": "scene_or_prop",
+      "label": "原工业打印仓",
+      "file": "assets/props/FVA_INDUSTRIAL_METAL_PRINTER_001/references/industrial-metal-printer-installed-utilities-16x9.png",
+      "planned_file": null,
+      "scope": "既有单台炭灰封闭工业金属打印仓、原料盒、输出托盘与工作间；不锁时间或人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图3.png"
+    },
+    "mechanicalParts": {
+      "number": 4,
+      "key": "mechanicalParts",
+      "kind": "scene_or_prop",
+      "label": "有限机械小件与护板",
+      "file": "assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+      "planned_file": null,
+      "scope": "少量机械支架、单块外门防撞护板与有限原料并列，电子封装件单独放；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    "gateRepair": {
+      "number": 5,
+      "key": "gateRepair",
+      "kind": "scene_or_prop",
+      "label": "外门新增外侧防撞板",
+      "file": "assets/production/ep044-050-seedance25/references/gateRepair-single-plate-v2-16x9.png",
+      "planned_file": null,
+      "scope": "沿用EP045已修好的黑门内锁板，新增外侧同色防撞护板；灰墙、电网、屋顶不变，无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/gateRepair-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图5.png"
+    },
+    "seedTray": {
+      "number": 6,
+      "key": "seedTray",
+      "kind": "scene_or_prop",
+      "label": "有限种子与空育苗盘",
+      "file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间旧架、空育苗盘与有限种子袋，接近窗口光照不均；无人物，不画成熟蔬菜",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "ep048-s1-detail": {
+      "number": 9,
+      "key": "ep048-s1-detail",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+      "planned_file": null,
+      "scope": "原打印仓有限剩余料、已分格机械备件与单独旧电子件，不把电子件打印出来；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图9.png"
+    },
+    "workshop": {
+      "number": 3,
+      "key": "workshop",
+      "kind": "scene_or_prop",
+      "label": "原现代工作间",
+      "file": "assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png",
+      "planned_file": null,
+      "scope": "原现代灰白工作间、打印仓和金属台面，窗外冬雪；只锁空间与机器，不锁台上新道具",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图3.png"
+    },
+    "growLightCards": {
+      "number": 4,
+      "key": "growLightCards",
+      "kind": "scene_or_prop",
+      "label": "罐头与育苗灯三选一",
+      "file": "assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+      "planned_file": null,
+      "scope": "白天原手机三选一：一箱罐头、有限育苗灯组件、未知；只能选灯，组件投影落在空台；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    "seedlingRack": {
+      "number": 6,
+      "key": "seedlingRack",
+      "kind": "scene_or_prop",
+      "label": "一层育苗灯架",
+      "file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间一层旧金属架安装有限育苗灯、控制组件与一盘刚播种的苗盘；无人物，不生成多层工厂",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "radio": {
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "label": "原门柱对讲与交易槽",
+      "scope": "只锁灰石门柱对讲面板、双门小交易槽与托盘；不复制额外物资，主门关闭",
+      "key": "radio",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review"
+    },
+    "ep048-s2-detail": {
+      "number": 9,
+      "key": "ep048-s2-detail",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "planned_file": null,
+      "scope": "同一育苗架下单盘刚播种的湿土、封好的剩余种子与原门柱手持对讲；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图9.png"
+    },
+    "tradeHatch": {
+      "number": 5,
+      "key": "tradeHatch",
+      "kind": "scene_or_prop",
+      "label": "原双门人工交易槽",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-gate-transfer-hatch-16x9.png",
+      "planned_file": null,
+      "scope": "原黑门上的双门交易槽、托盘与内外门关系，主门关闭，箱子需人手推动；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    "saltTrade": {
+      "number": 5,
+      "key": "saltTrade",
+      "kind": "scene_or_prop",
+      "label": "盐包与有限菜蛋",
+      "file": "assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+      "planned_file": null,
+      "scope": "封口盐包、小筐青菜与两枚垫好的鸡蛋分开放，交易量有限；无人物，无药品交易",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图5.png"
+    },
+    "brokenPump": {
+      "number": 4,
+      "key": "brokenPump",
+      "kind": "scene_or_prop",
+      "label": "旧泵变形支架",
+      "file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "planned_file": null,
+      "scope": "一台小型旧水泵、明显歪斜的外部安装支架，保留完整原外壳；无人物，不拆复杂内部",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    "ep049-s1-detail": {
+      "number": 9,
+      "key": "ep049-s1-detail",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "planned_file": null,
+      "scope": "原门外对讲与小物资箱的位置关系，关闭主门、双门交易托盘，不画人或自动推出的箱子",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图9.png"
+    },
+    "feedstockLabel": {
+      "number": 5,
+      "key": "feedstockLabel",
+      "kind": "scene_or_prop",
+      "label": "待验原料包装照片",
+      "file": "assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+      "planned_file": null,
+      "scope": "手机上的旧仓库原料包装照片，与本机原包装标签并列；只锁包装外观，不把照片变为已收到实物；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图5.png"
+    },
+    "saltShelf": {
+      "number": 6,
+      "key": "saltShelf",
+      "kind": "scene_or_prop",
+      "label": "收到的盐包储位",
+      "file": "assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+      "planned_file": null,
+      "scope": "现代干燥储架里刚收好的一包盐，自用食品储位保留，不出现无限物资；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "ep049-s2-detail": {
+      "number": 9,
+      "key": "ep049-s2-detail",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间独立待修架上仅同一故障泵、旧件与有限工具，旁边盐包已收好；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图9.png"
+    },
+    "repairedPump": {
+      "number": 7,
+      "key": "repairedPump",
+      "kind": "scene_or_prop",
+      "label": "同一旧泵修后试水",
+      "file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "planned_file": null,
+      "scope": "同一旧泵装上新外部支架，防溅台上试转、管口回到同一水桶；电气部分不浸水，无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    "growthTray": {
+      "number": 7,
+      "key": "growthTray",
+      "kind": "scene_or_prop",
+      "label": "单盘叶菜与邻盘幼苗",
+      "file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "planned_file": null,
+      "scope": "温室中一盘接近采收的叶菜与邻盘刚播小苗，前者展开到成熟、后者不变；仅提供作物状态，不锁人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    "eggAndGreens": {
+      "number": 8,
+      "key": "eggAndGreens",
+      "kind": "scene_or_prop",
+      "label": "自用与交换的有限收成",
+      "file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "planned_file": null,
+      "scope": "当晚自用碗与少量交换菜分别放，库存鸡蛋和有限青菜，不虚构满仓收获；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图8.png"
+    },
+    "feedstockCheck": {
+      "number": 6,
+      "key": "feedstockCheck",
+      "kind": "scene_or_prop",
+      "label": "原料包装与合格试件",
+      "file": "assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+      "planned_file": null,
+      "scope": "匹配本机包装的一小袋原料、同批小试件、旧机型标签并列，有限数量；无人物，无制造参数",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    "dining": {
+      "number": 8,
+      "key": "dining",
+      "kind": "scene_or_prop",
+      "label": "现代别墅暖色餐区",
+      "file": "assets/production/ep044-050-seedance25/references/dining-16x9.png",
+      "planned_file": null,
+      "scope": "canonical现代别墅暖色餐区、普通碗筷、窗外冬雪；四把椅子可见但没有人物，不画四人合照",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/dining-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图8.png"
+    },
+    "noodles": {
+      "number": 9,
+      "key": "noodles",
+      "kind": "scene_or_prop",
+      "label": "青菜鸡蛋面",
+      "file": "assets/production/ep044-050-seedance25/references/noodles-16x9.png",
+      "planned_file": null,
+      "scope": "普通陶瓷碗中的青菜鸡蛋面，少量真实热气，现代餐桌，无火锅、宴席、人物和文字",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/noodles-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图9.png"
+    },
+    "control": {
+      "file": "assets/production/ep036-defrost-and-intel/references/modern-winter-intel-control-room-16x9.png",
+      "label": "原现代控制室机位",
+      "scope": "只锁原监控台、屏幕边框和室内布局；屏幕内容依本镜重绘，不继承图上其他建筑或车辆",
+      "key": "control",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review"
+    },
+    "hairYe": {
+      "file": "assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png",
+      "label": "凝霜银白长发无脸头模",
+      "scope": "只锁叶凝霜银白长发的长度、发色和发尾；假发头模不进入正片，不绑定脸",
+      "key": "hairYe",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review"
+    },
+    "droneTerminal": {
+      "file": "assets/production/ep036-defrost-and-intel/references/drone-monitor-camp-verification-16x9.png",
+      "label": "无人机观察终端外壳",
+      "scope": "只锁显示器黑色边框、终端材质；图上敌营、帐篷、装甲车、地图一律不复制，屏幕只显示本镜泵房远景",
+      "key": "droneTerminal",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review"
+    },
+    "greenhouseRepaired": {
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-film-repaired-16x9.png",
+      "label": "原温室补膜后结构",
+      "scope": "只锁完整黑棚架和透明补膜连接关系；苗盘数量、成熟程度与灯具按本镜，不复制满棚成熟菜",
+      "key": "greenhouseRepaired",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review"
+    }
+  },
+  "episodes": [
+    {
+      "dir": "EP044_afterglow",
+      "title": "这扇门，你进不来",
+      "time": "D1黎明",
+      "premise": "冬狼昨夜射杀刚清醒的炎魁。许砚已给唯一外骨骼充电，炮台弹药所剩无几，主路仍被塌方阻断。",
+      "want": "守住外门；叶凝霜要亲手结束冬狼的控制。",
+      "turn": "炮台打空使冬狼认为近身控制许砚的机会到了；他走近门口，进入叶凝霜能控制的近处雪地。",
+      "payoff": "门没有打开，冬狼死在墙外；叶凝霜被自己选择的同伴接住。",
+      "hook": "人守住了，变形的门锁和空弹仓还得自己收拾。",
+      "resource": [
+        "唯一阳台炮台最后一次短射后弹药归零，后续仅保留观察功能。",
+        "许砚外骨骼持续承力后过热，本集结束停机冷却。",
+        "叶凝霜只释放一次近距离高强度冻结，随后无法独自站稳。",
+        "冬狼死亡，余众沿原步行路线撤离；炎魁不复活，围墙内没有战斗损伤。"
+      ],
+      "language_evidence": [
+        "枪声减少、门锁歪斜立即给出危机；最后短射仍保住门。",
+        "许砚选择开火争取时间，冬狼近身才给叶凝霜反击机会；代价为弹药与装甲耗尽。",
+        "“你再也控制不了我了”回应当面命令与锁脚结果，并非泛化人生宣言；最后回屋兑现保护。"
+      ],
+      "segments": [
+        {
+          "title": "门锁快撑不住了",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D1黎明，门外与控制室交叉剪辑",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "冬狼",
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "gateStrain",
+            "turret",
+            "armorDefense",
+            "control",
+            "outfit_白棠"
+          ],
+          "opening": "同一黎明，冬狼躲在门外废车后，听见枪声变稀；许砚已经在院内用外骨骼抵门。",
+          "ending": "白棠盯着最后一截弹带，向许砚询问开火时机；门板仍由护臂顶住。",
+          "bridge": "不重放问句，下一段第一镜直接接许砚的回答；撞门声跨段连续。",
+          "shots": [
+            {
+              "title": "他听见枪声少了",
+              "size": "墙外冬狼中近景",
+              "composition": "冬狼靠废车左侧，右后方远处能辨认黑门；跟随者只有模糊背影。",
+              "camera": "平视小幅侧移，停在冬狼抬眼的脸上。",
+              "action": "一轮稀疏枪声结束，冬狼本已缩回的肩膀放松，探头看二楼阳台，再朝画外摆手。他凭声音判断对方弹药紧张，并不知道弹仓数字。",
+              "speaker": "冬狼",
+              "dialogue": "枪声少了，继续撞门！",
+              "delivery": "压低声音催促，不笑。",
+              "mode": "onscreen",
+              "faces": [
+                "冬狼"
+              ],
+              "sound": "<远处稀疏枪声，雪地风声>",
+              "source_shot": 1
+            },
+            {
+              "title": "撞击传到门内",
+              "size": "门内许砚中全景",
+              "composition": "黑门在右、许砚在左，护臂、双脚和地面同框。",
+              "camera": "随一次撞击轻震，马上稳住。",
+              "action": "门中央向院内弹起，许砚跨半步把外骨骼护臂压上原支撑位，鞋底在湿地上挪动后站稳。门只回弹，不打开；让护臂接触门板的受力点清楚可见。",
+              "speaker": "许砚",
+              "dialogue": "白棠，帮我看着门外。",
+              "delivery": "受力时喘一口气，话仍说清。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<门板钝响，伺服承力声>",
+              "source_shot": 2
+            },
+            {
+              "title": "她找到了薄弱处",
+              "size": "白棠控制室中近景",
+              "composition": "白棠在左，右侧监控显示同一黑门中央锁座晃动。",
+              "camera": "从监控上抬到白棠，停稳。",
+              "action": "门每被撞一下，监控里的锁座便抬起一点。白棠把手从炮台操纵杆移到内线按键，目光仍追着门上的动静。",
+              "speaker": "白棠",
+              "dialogue": "锁扣歪了，你别松手。",
+              "delivery": "紧张但不尖叫，回答许砚。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<控制室轻底噪，内线按键>",
+              "source_shot": 3
+            },
+            {
+              "title": "最后一轮要不要打",
+              "size": "唯一阳台炮台中景",
+              "composition": "整座炮台置于二楼阳台；门外人影在下方远景，不出现第二炮口。",
+              "camera": "固定侧面机位，炮台缓慢对准门外正在撞门者。",
+              "action": "镜头看见供弹箱只剩尾端弹带，炮台仍有最后一次短射机会。白棠的声音经同一内线接入，画面没有任何人的嘴。",
+              "speaker": "白棠",
+              "dialogue": "还剩一轮，现在打吗？",
+              "delivery": "控制室现场画外音，问的是具体时机。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<炮台转向马达，尚未射击>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "最后一轮打完了",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "同一黎明，紧接上段问句",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "许砚",
+            "冬狼"
+          ],
+          "offscreen": [
+            "白棠",
+            "沈知夏"
+          ],
+          "refs": [
+            "villa",
+            "gateStrain",
+            "turret",
+            "armorDefense",
+            "armorCooling",
+            "outfit_许砚",
+            "outfit_冬狼"
+          ],
+          "opening": "紧接上一段白棠的内线问话，许砚没有松开护臂，门外撞击仍在继续。",
+          "ending": "最后短射打空，护臂过热；冬狼收起枪，离开废车掩体，朝关闭外门走来。",
+          "bridge": "门内外用硬切连接；下一段冬狼已走到原门柱对讲前，不瞬移进院。",
+          "shots": [
+            {
+              "title": "把人从门前逼开",
+              "size": "许砚门内近景",
+              "composition": "许砚侧脸与抵门护臂在同一画面，黑门隔住墙外。",
+              "camera": "轻微推进，在他抬眼回应时停住。",
+              "action": "许砚听见另一轮撞门脚步逼近，先将肩膀抵稳，再回应白棠。此刻不增加新战术，只争取门前片刻安静。",
+              "speaker": "许砚",
+              "dialogue": "打，把门口的人逼开！",
+              "delivery": "直接决定，音量够内线听清。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<门内金属受力，衣料摩擦>",
+              "source_shot": 5
+            },
+            {
+              "title": "枪声停下",
+              "size": "炮台供弹机构近景",
+              "composition": "弹带末端和供弹口占画面中心，阳台栏杆留在背景。",
+              "camera": "固定记录最后一次进弹至停止。",
+              "action": "最后短射开始，门外撞击声随之停顿；末端弹带进入供弹口后，机构空转一次便停住。枪声完全断掉，留短促空仓声。",
+              "speaker": "白棠",
+              "dialogue": "打完了，炮台没弹了。",
+              "delivery": "控制室画外音，看见停机后确认，不给器械配口型。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<最后一轮短射，随即空仓一响>",
+              "source_shot": 6
+            },
+            {
+              "title": "装甲也在发烫",
+              "size": "许砚护臂与半身中景",
+              "composition": "手臂仍抵门，警示灯由暗转亮，许砚双脚没有离地。",
+              "camera": "从关节移至他的脸，保留接触点。",
+              "action": "持续顶门后，护臂关节出现热气与警示光。许砚的袖口被震得轻颤；知夏通过装甲内线看见温度变化，提醒从耳机传来。",
+              "speaker": "沈知夏",
+              "dialogue": "护臂过热了，不能再硬撑。",
+              "delivery": "清晰的内线画外音，不出现知夏的脸。",
+              "mode": "voiceover",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<单次低声温度提示，撞击仍在>",
+              "source_shot": 7
+            },
+            {
+              "title": "冬狼走出掩体",
+              "size": "墙外冬狼中景",
+              "composition": "冬狼从废车后走出，手下退到后景，外门在其视线方向。",
+              "camera": "短跟两步，拍他收起枪。",
+              "action": "停火让冬狼误以为门内已经失去抵抗。他收枪，空出惯用于给人打精神印记的手，独自朝门前靠近，想把别墅主人也变成工具。",
+              "speaker": "冬狼",
+              "dialogue": "别撞了，我要里面的人活着。",
+              "delivery": "命令手下，语气笃定；不向空气解释异能。",
+              "mode": "onscreen",
+              "faces": [
+                "冬狼"
+              ],
+              "sound": "<靴底踩雪，枪被收起>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "她不再听他的命令",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "同一黎明，冬狼走近关闭外门",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "冬狼",
+            "叶凝霜"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "gate",
+            "wolfFrozen",
+            "hairYe",
+            "outfit_叶凝霜",
+            "outfit_冬狼",
+            "tradeHatch"
+          ],
+          "opening": "冬狼从废车走到关闭外门前，叶凝霜站在墙内门柱旁，两人隔着门通话。",
+          "ending": "冬狼双脚被原地雪冰锁住；墙内叶凝霜合拢手指，冰尚未封住躯干。",
+          "bridge": "保留同一门槛、脚位和结冰方向；下一段从脚踝冰层继续上升，不重做锁脚。",
+          "shots": [
+            {
+              "title": "他还想把人带走",
+              "size": "冬狼门外中近景",
+              "composition": "冬狼在右，关闭的黑门在左，手掌停在对讲面板旁。",
+              "camera": "短推近他的伸手动作，保持门外机位。",
+              "action": "冬狼走到门前，先瞥一眼安静的阳台，继而对门柱说话。他没意识到叶凝霜就在墙另一侧，不伸手穿门、不进入院子。",
+              "speaker": "冬狼",
+              "dialogue": "叶凝霜，出来跟我走。",
+              "delivery": "沿用命令她的习惯。",
+              "mode": "onscreen",
+              "faces": [
+                "冬狼"
+              ],
+              "sound": "<门柱对讲轻电噪，踩雪声停住>",
+              "source_shot": 1
+            },
+            {
+              "title": "她没有再低头",
+              "size": "叶凝霜门内单人近景",
+              "composition": "白发与白色冬衣清楚，黑门内侧虚化在她右后方。",
+              "camera": "平视固定，让她抬眼而非仰拍摆姿。",
+              "action": "叶凝霜听见熟悉的口气，指尖先僵住一下，随即按在冰冷门柱边。她的眼神停稳，不退向许砚身后，也不重复解释前史。",
+              "speaker": "叶凝霜",
+              "dialogue": "炎魁已经清醒了，你还杀他。",
+              "delivery": "压住怒气，质问对象明确。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<衣袖碰门柱，近处呼吸>",
+              "source_shot": 2
+            },
+            {
+              "title": "他的脚停住了",
+              "size": "冬狼靴周低机位近景",
+              "composition": "双靴、门槛外缘和湿雪同框，院内不可见。",
+              "camera": "低机位固定，记录后撤半步被阻。",
+              "action": "冬狼刚听出声音不对，靴跟便试图离开雪地；原有湿雪从鞋底凝结，冰环锁住两只脚。他抬脚失败，重心明显一晃。",
+              "speaker": "冬狼",
+              "dialogue": "松开！你敢对我动手？",
+              "delivery": "声音首次失去从容；镜外发声，不拍被冰包住的嘴。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<雪面冻结与靴底受阻>",
+              "source_shot": 3
+            },
+            {
+              "title": "她给出回答",
+              "size": "叶凝霜正面中近景",
+              "composition": "叶凝霜在左，手掌压着门柱，白发被寒风轻抬。",
+              "camera": "缓推至她收紧手指，幅度克制。",
+              "action": "她没有被呵斥压住，手指缓慢合拢。先前锁脚的冰沿同一地面方向加厚，镜头只在墙内看她完成发力，特效留给下一镜兑现。",
+              "speaker": "叶凝霜",
+              "dialogue": "你再也控制不了我了。",
+              "delivery": "平静而坚决，不喊口号。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<细碎结冰由近及远>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "守住门，也接住她",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "同一黎明，冻结与退敌连续发生",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "许砚",
+            "叶凝霜"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "villa",
+            "gate",
+            "wolfFrozen",
+            "armorCooling",
+            "hairYe",
+            "outfit_叶凝霜",
+            "outfit_许砚"
+          ],
+          "opening": "承接脚踝已锁住的状态，冰层继续沿冬狼身体外侧上升，外门始终关闭。",
+          "ending": "冬狼倒在墙外不再活动，余众退走；许砚关掉过热装甲，扶叶凝霜回主楼。",
+          "bridge": "本集战斗结束；下集明确跳到当日傍晚修门，不重复打空弹仓或再次杀冬狼。",
+          "shots": [
+            {
+              "title": "整道冰层合拢",
+              "size": "门外冰体中远景",
+              "composition": "单个冬狼轮廓位于门外，门柱和完整高墙提供尺度；远处同伙退步。",
+              "camera": "固定侧面全景，完整记录冻结与倒地。",
+              "action": "冰从靴周连续升到腿和躯干，形成有厚度的半透明外壳。冬狼最后伸出的手被封住，冰体失去平衡倒在雪地，不再活动。没有碎尸或血腥近景。",
+              "speaker": "白棠",
+              "dialogue": "冬狼倒下了，他们在撤。",
+              "delivery": "控制室监控画外音；冰封人物不开口。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<冰层变厚，冰体仅一次倒地闷响>",
+              "source_shot": 5
+            },
+            {
+              "title": "不追出去",
+              "size": "许砚门内中景",
+              "composition": "许砚仍在原支撑位，后景监控小窗可见离开的背影。",
+              "camera": "固定机位，拍他卸下护臂压力。",
+              "action": "撞击已经停止。许砚先确认门板不再回弹，才慢慢移开护臂；装甲警示仍亮。他让白棠继续观察，没有冲出受损外门追杀。",
+              "speaker": "许砚",
+              "dialogue": "别追了，先确认他们走远。",
+              "delivery": "对内线安排，仍保持警惕。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<撞击已停，伺服卸力>",
+              "source_shot": 6
+            },
+            {
+              "title": "她终于撑不住了",
+              "size": "叶凝霜单人中景",
+              "composition": "叶凝霜靠门柱，许砚仅一只伸来的扶臂进入画边。",
+              "camera": "跟随她弯下的膝盖小幅下移。",
+              "action": "外面的脚步远去，她绷着的肩才放下。手指失去支撑，膝盖软了一下；许砚接住她的上臂，让她靠住门柱。她没有撒娇，只确认最在意的结果。",
+              "speaker": "叶凝霜",
+              "dialogue": "他们没进来吧？",
+              "delivery": "气息变弱，抬眼问许砚。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<衣料摩擦和变弱的呼吸>",
+              "source_shot": 7
+            },
+            {
+              "title": "有人接住她",
+              "size": "许砚与叶凝霜双人侧面中景",
+              "composition": "许砚在左扶住叶凝霜，身后黑门仍闭合、锁板有折痕。",
+              "camera": "短侧跟两人向院内走，门留在后景。",
+              "action": "许砚等她站稳才扶她离开，抬手关闭装甲动力。两人朝已有主楼入口走去，雪地冰体留在墙外；画面收在完整门板与受损锁座的对比。",
+              "speaker": "许砚",
+              "dialogue": "没有。走，咱们回屋。",
+              "delivery": "压低声音，回答她而非总结战果。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚",
+                "叶凝霜"
+              ],
+              "sound": "<停用提示一响，脚步向主楼移动>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir": "EP045_snow-greenhouse",
+      "title": "仗打完了，家得修回来",
+      "time": "D1傍晚至D2清晨",
+      "premise": "冬狼已死。门锁变形、炮台空仓；农业区未遭敌袭，旧棚膜因风雪松脱。",
+      "want": "把家恢复到能安心过夜、下一茬菜还能活的状态。",
+      "turn": "修好门后才看见温室漏雪；临时保苗撑到零点，抽到保温膜也仍需亲手补棚。",
+      "payoff": "两个人把同一扇门修牢，也把两盘活苗保住。",
+      "hook": "有限的剩余膜卷还能给鸡棚和鱼池遮风。",
+      "resource": [
+        "D1打印一块锁板，消耗既有合格金属料；外骨骼停用、炮台仍无弹。",
+        "D2零点：保温膜、便携灯、未知三选一，领取一卷有限保温膜；无刷新。",
+        "新膜靠人工安装；棚架未倒，受冻坏叶不复活；白棠当天尚未使用催长。"
+      ],
+      "language_evidence": [
+        "门锁晃动与两盘苗淋雪是具体损失，不虚构敌人进院。",
+        "先撑杆、新锁板，再临时夹膜、零点选膜、次晨手工补棚，结果依次可见。",
+        "“先好好活着”是白棠对刚保住的苗说的，前接放盘动作，保留原日常关心，不升级为旁白说教。"
+      ],
+      "segments": [
+        {
+          "title": "先让门能锁住",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D1傍晚修门",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "gateDamage",
+            "gateRepaired",
+            "metalPrinter",
+            "workshop",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "D1傍晚，原黑门还关着，但受撞的锁座一推就晃；许砚已脱下停用的外骨骼。",
+          "ending": "打印的一块新锁板装回原位，两人撤撑杆试门，锁舌不再晃动。",
+          "bridge": "门锁住后先收工具，再被温室膜的拍打声吸引；下一段不重新修门。",
+          "shots": [
+            {
+              "title": "先听见门响",
+              "size": "锁座特写",
+              "composition": "黑门中央旧锁座与白棠绿色袖口在中心，门柱留边。",
+              "camera": "固定，跟着一次轻推看门缝变化。",
+              "action": "白棠试推黑门，门没打开，锁舌却在歪斜接片里晃。撞门留下的划痕仍在，问题只在锁座，不是整块门板裂开。",
+              "speaker": "白棠",
+              "dialogue": "锁扣都歪了，这门得先修。",
+              "delivery": "门内现场画外音，心有余悸。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<锁舌松动金属响>",
+              "source_shot": 1
+            },
+            {
+              "title": "重量交给撑杆",
+              "size": "许砚门内单人中景",
+              "composition": "撑杆、许砚的鞋与门板同框，工具箱放在左脚旁。",
+              "camera": "固定侧面，拍撑杆落地再抬脸。",
+              "action": "许砚将普通撑杆顶稳，松开一只手确认门不再晃，才蹲下取工具。他没有穿刚过热的外骨骼，也不用手硬掰锁座。",
+              "speaker": "许砚",
+              "dialogue": "工具给我，别再用手顶了。",
+              "delivery": "对近处白棠说，关心藏在分工里。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<撑杆落地，工具箱提手轻碰>",
+              "source_shot": 2
+            },
+            {
+              "title": "机器补一块板",
+              "size": "打印仓输出托盘近景",
+              "composition": "新锁板在托盘，弯曲旧件放在旁边，有限料盒留在后景。",
+              "camera": "由旧件短横移到新件，动作匹配略去加工等待。",
+              "action": "同一工业打印仓停止运转，托盘带出一块与旧件轮廓一致的锁板。白棠把少量匹配紧固件放进小盒，拿起成品带回门边。",
+              "speaker": "白棠",
+              "dialogue": "新的好了，螺丝也找齐了。",
+              "delivery": "工作间现场画外音，声音近。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<打印仓停机，托盘滑出>",
+              "source_shot": 3
+            },
+            {
+              "title": "这回能锁住",
+              "size": "黑门内侧双人中景",
+              "composition": "白棠扶新板、许砚固定，随后两人让开，中央锁舌入位。",
+              "camera": "固定，紧固完成后用动作匹配接一次试推。",
+              "action": "许砚拧完最后一颗，白棠撤走撑杆、关门再推。新板稳住锁舌，门不再像开头那样晃；原门划痕与围墙都没变化。",
+              "speaker": "许砚",
+              "dialogue": "推一下试试。行，锁住了。",
+              "delivery": "先请她验证，看到结果才放松。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚",
+                "白棠"
+              ],
+              "sound": "<工具拧紧，锁舌咬合>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "把两盘苗救回来",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "D1傍晚至夜，先搬苗再暂夹旧膜",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "白棠",
+            "许砚"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "greenhouseLeak",
+            "seedlingRescue",
+            "seedTray",
+            "workshop",
+            "outfit_白棠",
+            "outfit_许砚"
+          ],
+          "opening": "接修门收工具，院内传来旧膜拍打声，雪正从一处接缝落在两盘苗上。",
+          "ending": "两盘还活着的苗搬入屋内，旧膜只用现有夹子暂时扣住，没有彻底修好。",
+          "bridge": "以窗外由暮色变为夜色交代时间；下一段零点再打开手机，不在搬苗时凭空补膜。",
+          "shots": [
+            {
+              "title": "另一边还在漏雪",
+              "size": "温室漏口中近景",
+              "composition": "翻起的旧膜在上方，下方两盘苗接着少量落雪，棚架完好。",
+              "camera": "沿雪粒落下方向短摇，不扫全院。",
+              "action": "收工具时，两人听见膜片拍打声。镜头沿旧接缝看到雪落在两盘苗上，其余作物没有被毁；这是雪损，不是敌人进过院。",
+              "speaker": "白棠",
+              "dialogue": "坏了，这两盘菜还在淋雪。",
+              "delivery": "温室入口画外音，注意力马上转到苗。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<旧膜被风扯动，少量雪落>",
+              "source_shot": 5
+            },
+            {
+              "title": "先搬走能活的",
+              "size": "白棠温室单人中景",
+              "composition": "她托住第一盘底部，另一盘仍在原架，出口在画面左。",
+              "camera": "侧跟到入口临时台，不在一镜穿越多个房间。",
+              "action": "白棠先抹掉盘沿雪粒，检查茎叶，再抱走最近的一盘。苗叶稍垂、湿土仍在；放稳第一盘后她转身去取第二盘。",
+              "speaker": "白棠",
+              "dialogue": "根还好，先搬到屋里。",
+              "delivery": "心疼但处理利落，不等待指令。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<盘底接触临时台>",
+              "source_shot": 6
+            },
+            {
+              "title": "只靠夹子撑一夜",
+              "size": "许砚手部中近景",
+              "composition": "旧膜边、原黑色棚架和普通夹子同框，工具盒在下缘。",
+              "camera": "固定拍夹合与松手。",
+              "action": "许砚把原膜拉回旧架，扣上现有夹子。松手后大幅拍打减弱，旧裂边仍清楚可见；新保温膜还没抽到。",
+              "speaker": "许砚",
+              "dialogue": "我先夹住，今晚别再进雪。",
+              "delivery": "说话时朝白棠所在出口，动作不夸张。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<普通夹子扣合，拍膜声变小>",
+              "source_shot": 7
+            },
+            {
+              "title": "两盘苗先过夜",
+              "size": "白棠室内工作台中近景",
+              "composition": "两盘苗并列，坏叶单独放一侧，许砚仅在门外作模糊身影。",
+              "camera": "从坏叶移到白棠放下覆盖布的手，再停在脸上。",
+              "action": "时间略过第二次搬运，两盘已安全到室内。白棠把坏叶清开，留活苗在暖一些的位置；没有催长光效，也没有立刻恢复的叶片。",
+              "speaker": "白棠",
+              "dialogue": "棚还漏着，催大了也得冻坏。",
+              "delivery": "解释自己的选择，语气像熟人间商量。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<坏叶落台，覆盖布轻响>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "这次选保温膜",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "D2零点，夜间抽卡并收好膜卷",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "workshop",
+            "filmCards",
+            "seedlingRescue",
+            "greenhouseLeak",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "D2零点，屋里两盘苗已放稳，许砚打开原手机；桌面还没有新材料。",
+          "ending": "三选一只领取保温膜，一卷实体材料落在桌面；白棠试开一小截又收好。",
+          "bridge": "明确硬切到翌日清晨搬卷材到原温室；不把夜间抽卡与白天施工叠成同一时刻。",
+          "shots": [
+            {
+              "title": "桌上只有三个选择",
+              "size": "手机与许砚半身中景",
+              "composition": "手机在下方，三张卡投影依次是膜卷、便携灯、未知图形，男主在后。",
+              "camera": "轻推到手机后停住，保留男主反应。",
+              "action": "窗外完全暗下，零点到来。许砚看完三张卡，手指停在膜卷前；桌上此时没有任何卡牌实物，其他灯具仍是原有工作灯。",
+              "speaker": "许砚",
+              "dialogue": "保温膜、灯，还有一张未知。",
+              "delivery": "念的是眼前选择，不增加系统播报。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<手机一次短提示，工作灯底噪>",
+              "source_shot": 1
+            },
+            {
+              "title": "她想要的是明天",
+              "size": "白棠单人中近景",
+              "composition": "白棠在左，受冻苗盘在右前景，不出现许砚第二张脸。",
+              "camera": "平视固定，她把覆盖布角压好后抬眼。",
+              "action": "白棠看一眼昨天搬进来的苗，目光再落向许砚手机。她不是替系统介绍道具，而是在为刚保下的劳动争取结果。",
+              "speaker": "白棠",
+              "dialogue": "选膜吧，我还想吃自己种的菜。",
+              "delivery": "认真中带一点盼头。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<覆盖布与苗盘轻碰>",
+              "source_shot": 2
+            },
+            {
+              "title": "只拿这一卷",
+              "size": "许砚手指与手机近景",
+              "composition": "手指触碰膜卷卡，另两张卡按原位置变暗。",
+              "camera": "固定，选中后不再切换选项。",
+              "action": "许砚点选保温膜，便携灯与未知同时退去。投影先在空台面勾出卷材轮廓，再逐渐凝成一卷有包装束带的实物，落台一声轻响。",
+              "speaker": "许砚",
+              "dialogue": "就它了。明早一起把棚补上。",
+              "delivery": "选择干脆，实体化时用现场画外音承接。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<一次选择提示，卷材落台轻响>",
+              "source_shot": 3
+            },
+            {
+              "title": "能补多少先看多少",
+              "size": "膜卷道具中景",
+              "composition": "有限膜卷横放，手机投影已经熄灭，两盘苗留在远侧。",
+              "camera": "短横移看卷材宽度，止于完整一卷。",
+              "action": "白棠从画外解开束带，只展开一小截确认宽度便收回。数量清楚是单卷，桌上没有另一份灯或未知奖励。",
+              "speaker": "白棠",
+              "dialogue": "够补漏的那面，别一下用光了。",
+              "delivery": "现场画外音，盘算后面还要用。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<束带解开，薄膜轻摩擦>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "把漏风那面补好",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "D2清晨，人工补棚并把苗放回",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "greenhouseLeak",
+            "greenhouseRepaired",
+            "seedlingRescue",
+            "filmCards",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "D2清晨，卷材已由两人搬到棚边；昨夜夹住的破口还在，棚架完整。",
+          "ending": "同一接缝补好并试过风，一盘活苗放回原架；工具车上留有限剩膜。",
+          "bridge": "下集直接取同一工具车的剩膜修禽舍和鱼池，不额外抽第二卷。",
+          "shots": [
+            {
+              "title": "天亮亲手拉膜",
+              "size": "同一温室双人侧面中景",
+              "composition": "许砚在近侧压住膜边，白棠在远侧拉开；旧夹子仍在原位。",
+              "camera": "顺膜展开方向短横移，保留两人受力。",
+              "action": "硬切清晨冷光，两人已把卷材搬到棚边。膜在手上展开、靠上原架，许砚压住近边，白棠沿远边扣合；只修漏风的一面。",
+              "speaker": "许砚",
+              "dialogue": "你那头拉平，我这边压着。",
+              "delivery": "声音平稳，边配合边说。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<清晨风声与卷材展开>",
+              "source_shot": 5
+            },
+            {
+              "title": "她扣住最后一处",
+              "size": "白棠与扣件中近景",
+              "composition": "手、膜边和原立柱在同一焦面，男主仅在远侧模糊。",
+              "camera": "跟手移动到最后一个扣件并停住。",
+              "action": "白棠扣紧远侧最后一处，轻拉膜面确认不松。她先看自己的扣点，再向许砚点头，给他松手的时机。",
+              "speaker": "白棠",
+              "dialogue": "扣好了，你可以松手了。",
+              "delivery": "确认结果后说，不提前放手。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<扣件合拢，话后松手>",
+              "source_shot": 6
+            },
+            {
+              "title": "这次真的没有风",
+              "size": "许砚棚内中近景",
+              "composition": "新旧膜接缝在头侧，一小片苗叶在前景不再被风吹动。",
+              "camera": "由接缝短移至许砚手背与脸。",
+              "action": "许砚慢慢移开压膜的手，膜面保持平整。他把手背靠近接缝试风，抬眼看昨夜漏雪的位置，确认内部不再落雪。",
+              "speaker": "许砚",
+              "dialogue": "不灌风了，把那盘苗拿回来。",
+              "delivery": "对棚门方向的白棠说，语气放松。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<棚外风声仍在，棚内不拍膜>",
+              "source_shot": 7
+            },
+            {
+              "title": "把自己的菜放回去",
+              "size": "白棠棚内中景",
+              "composition": "苗盘回到原架，工具车上留少量剩余膜，主楼局部在门外远景。",
+              "camera": "侧跟苗盘落架后固定，留一口安静呼吸。",
+              "action": "白棠抱回一盘保住的活苗，放在已补好的接缝下。叶片没有瞬间长大，她把冻坏的空位拨开，手掌轻拢仍绿的小苗。棚外下雪，棚内只有轻水声。",
+              "speaker": "白棠",
+              "dialogue": "先好好活着，收菜还等着你们呢。",
+              "delivery": "对着苗轻声说，像终于忙完后的自言自语。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<苗盘落架，原灌溉点轻滴水>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir": "EP046_coop-pond",
+      "title": "今天终于又有蛋了",
+      "time": "D2白天，接修棚后",
+      "premise": "新膜补住温室，卷材还有有限余量；叶凝霜只能做轻劳动，炮台仍然没有弹药。",
+      "want": "把鸡棚和鱼池一起保住，让家里恢复正常出产。",
+      "turn": "材料不够各搭一座大暖棚，三人按原设施分配剩膜；叶凝霜第一次主动接手一项日常。",
+      "payoff": "鱼还在游，鸡重新喝上水，白棠从窝里拿出一枚蛋。",
+      "hook": "例行无人机巡查拍到旧泵房炊烟，暂时只记录。",
+      "resource": [
+        "D2抽卡已在EP045领取，本集不再抽。",
+        "膜卷分给禽舍侧面挡风和既有鱼池局部罩棚，保留通风、循环和增氧。",
+        "饮水器进屋解冻再放回；鸡蛋是正常产出。叶凝霜不使用能力，白棠也不催蛋。"
+      ],
+      "language_evidence": [
+        "饮水器冻住、鱼池边缘薄冰先于材料分配。",
+        "剩膜分两边使用，保留通风与循环；一枚蛋来自例行发现，不由喝水瞬间生成。",
+        "“今晚加个蛋，谁也别抢”回应当日小收获；泵房只见烟，保留“好像有人”的不确定性。"
+      ],
+      "segments": [
+        {
+          "title": "水口冻住了",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D2白天，紧接修棚后",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "叶凝霜"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "villa",
+            "coopCold",
+            "pondCover",
+            "shelterBuild",
+            "outfit_许砚",
+            "outfit_叶凝霜",
+            "hairYe"
+          ],
+          "opening": "D2白天，接修棚后，白棠试原禽舍饮水器，水口只掉下一粒冰。",
+          "ending": "许砚拿冻壶进屋化冰，剩膜已在禽舍与鱼池之间分开；叶凝霜主动扶稳旧架。",
+          "bridge": "下一段继续在同一原架固定膜，保留人物分工；不让两处设施瞬间都完工。",
+          "shots": [
+            {
+              "title": "水倒不出来",
+              "size": "禽舍饮水器近景",
+              "composition": "白棠绿色袖口试水，鸡只占下方小部分，栏架保持现代金属结构。",
+              "camera": "固定近景，看水口由静止到掉下一粒冰。",
+              "action": "白棠提起饮水器按一下出水口，只有一小粒冰落下。她立即把冻住的饮水器抱出鸡群，不让鸡继续啄空水口。",
+              "speaker": "白棠",
+              "dialogue": "水口冻住了，难怪它们不喝。",
+              "delivery": "棚内现场画外音，心疼但不大惊小怪。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<饮水器轻碰，一粒冰落>",
+              "source_shot": 1
+            },
+            {
+              "title": "先把眼前这壶救回来",
+              "size": "许砚禽舍门边中景",
+              "composition": "许砚接过饮水器，主楼方向在左，剩膜工具车在右。",
+              "camera": "短侧跟交接，饮水器始终在人手里。",
+              "action": "许砚接稳饮水器，把一壶已有温水放在不易翻倒的位置，随后把结冰壶送往屋内。动作只解决当下饮水，不宣称永不结冰。",
+              "speaker": "许砚",
+              "dialogue": "先换温水，这个拿进屋化开。",
+              "delivery": "对她回应，手上动作继续。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<水壶交接，脚步向主楼>",
+              "source_shot": 2
+            },
+            {
+              "title": "膜不能全给鸡棚",
+              "size": "鱼池边缘近景",
+              "composition": "原循环出水口在右，左边一圈薄冰，工具车膜卷在后景。",
+              "camera": "沿薄冰短移至仍流动的出水口。",
+              "action": "白棠经过鱼池，轻碰边缘薄冰，下面鱼影仍在流动水中。她把准备全推到鸡棚的工具车停在两设施之间，开始分材料。",
+              "speaker": "白棠",
+              "dialogue": "鱼池也结冰了，这边得留一截。",
+              "delivery": "现场画外音，自己发现并调整安排。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<薄冰轻碰，循环水声>",
+              "source_shot": 3
+            },
+            {
+              "title": "有人主动接手",
+              "size": "叶凝霜单人中景",
+              "composition": "白色冬衣在灰色通道左侧，她把小雪铲靠在原栏旁；其他人不露脸。",
+              "camera": "平视短跟她清开一小段脚下薄雪。",
+              "action": "叶凝霜没有再用冰系能力，轻轻推开施工位置的浮雪，扶稳原架。她将一端卷材举到手边，主动承担力所能及的一侧。",
+              "speaker": "叶凝霜",
+              "dialogue": "这边交给我，你们去铺另一头。",
+              "delivery": "清冷自然，不逞强地搬重物。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<轻铲浮雪，棚架接触>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "剩膜两边都用上",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "同一白天，继续原架施工",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "coopWarm",
+            "pondCover",
+            "shelterBuild",
+            "pondWarm",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "同一白天，剩膜分量已定；禽舍迎风面和鱼池罩还没有扣牢。",
+          "ending": "禽舍留出顶部通风，鱼池罩让开原循环管；罩下有流动水、气泡和正常鱼影。",
+          "bridge": "下一段回禽舍放回已经解冻的原饮水器；修膜不等于鸡当场生蛋。",
+          "shots": [
+            {
+              "title": "沿旧架做挡风面",
+              "size": "许砚禽舍侧面中景",
+              "composition": "原网栏在内，透明膜在外，顶部通风空隙清楚，叶凝霜仅手臂入边。",
+              "camera": "沿许砚压膜动作短横移。",
+              "action": "许砚把剩膜固定在旧栏的迎风侧，先留好顶部空隙再扣边。风吹来时膜被原架支住，鸡群没有被封成密不透气的塑料箱。",
+              "speaker": "许砚",
+              "dialogue": "上边留着，不能全封死。",
+              "delivery": "提醒正在扶膜的同伴，语句完整。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<薄膜与旧扣件摩擦>",
+              "source_shot": 5
+            },
+            {
+              "title": "这一边已经够了",
+              "size": "白棠与单面挡风膜中近景",
+              "composition": "她在鸡棚内侧，膜边与通风口同框，鸡留在脚下远处。",
+              "camera": "固定，让她伸手感受入口风后转头。",
+              "action": "白棠站到原来漏风的位置，用手背试一下，再把分好的另一截膜递往鱼池方向。不是对着镜头念改造结果。",
+              "speaker": "白棠",
+              "dialogue": "这边不吹了，剩下的给鱼池。",
+              "delivery": "忙起来的轻快，接着许砚的话。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<收卷轻响，棚外风声>",
+              "source_shot": 6
+            },
+            {
+              "title": "罩住水面，设备留外面",
+              "size": "鱼池与许砚侧面中景",
+              "composition": "透明罩在原支架上，过滤桶和增氧线路在右侧检修位。",
+              "camera": "小幅下摇，跟罩边落在支架上。",
+              "action": "许砚压住透明罩边，给原循环管和增氧口留下位置。白棠从画外搭好远侧，水从已有出口流回池里；没有换成全新大型养殖场。",
+              "speaker": "许砚",
+              "dialogue": "别压住水管，这里还得循环。",
+              "delivery": "对配合者说，不作教学长解说。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<原过滤泵持续低噪>",
+              "source_shot": 7
+            },
+            {
+              "title": "鱼还活着",
+              "size": "罩内水面近景",
+              "composition": "鱼影、气泡与原池壁同时可见，罩边不遮满画面。",
+              "camera": "固定等鱼从画面右侧游过一次。",
+              "action": "刚铺好的罩下水仍流动，几尾正常大小的鱼穿过气泡。白棠用手掌抹掉罩沿水汽，看见鱼后呼气，手从画边收走。",
+              "speaker": "白棠",
+              "dialogue": "还好，还知道来找吃的。",
+              "delivery": "对鱼轻声说，松了一口气。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<少量气泡，鱼游过水面>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "窝里又有蛋了",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "同一白天稍后，饮水恢复与例行查窝",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "叶凝霜",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "coopWarm",
+            "firstEgg",
+            "coopCold",
+            "hairYe",
+            "outfit_叶凝霜",
+            "outfit_白棠"
+          ],
+          "opening": "禽舍挡风面已固定，叶凝霜把已经解冻的饮水器放回原位置。",
+          "ending": "白棠按例检查发现一枚蛋；叶凝霜接下照看禽舍的日常，学会现行一勺分量。",
+          "bridge": "下段先把这一枚蛋带回，再切到例行巡查；鸡蛋数量不增加。",
+          "shots": [
+            {
+              "title": "给鸡重新添上水",
+              "size": "叶凝霜禽舍中景",
+              "composition": "叶凝霜在右，解冻饮水器在左侧原位置，鸡从下方靠近。",
+              "camera": "跟饮水器落地后稳住，拍到水真正流出。",
+              "action": "叶凝霜把解冻壶放稳，按一下出水口确认有水，才让开给鸡。手上是轻劳动，不突然变成活泼喂养主播。",
+              "speaker": "叶凝霜",
+              "dialogue": "水通了，它们开始喝了。",
+              "delivery": "像交给同伴一个已做完的事，平静。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<出水口轻滴，鸡喝水>",
+              "source_shot": 1
+            },
+            {
+              "title": "窝里多了一点东西",
+              "size": "白棠窝箱中近景",
+              "composition": "白棠低头，窝箱只见一枚蛋；叶凝霜不在同一张清晰脸里。",
+              "camera": "从她拨开垫草的小动作移至脸上。",
+              "action": "白棠按惯例检查窝箱，手停在垫草上，才把那一枚蛋拿起来。不是鸡刚喝水就立刻下蛋，而是此时才发现当天正常产出的蛋。",
+              "speaker": "白棠",
+              "dialogue": "有了，今天又下蛋了！",
+              "delivery": "惊喜是真正的生活回报，不喊战报。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<垫草轻响，鸡低鸣>",
+              "source_shot": 2
+            },
+            {
+              "title": "她不再只会战斗",
+              "size": "叶凝霜单人中近景",
+              "composition": "叶凝霜手里是日常饲料小勺，窝箱在视线下方。",
+              "camera": "平视固定，拍她看蛋后看向白棠。",
+              "action": "叶凝霜看白棠捧着鸡蛋，神情略松。她把空勺放回固定挂处，认真询问自己以后能接下的日常，而非向许砚证明忠诚。",
+              "speaker": "叶凝霜",
+              "dialogue": "以后这边我来照看，喂多少？",
+              "delivery": "语气克制，向懂行的人请教。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<量勺挂回栏边>",
+              "source_shot": 3
+            },
+            {
+              "title": "按它们吃得完的量",
+              "size": "白棠手与料盒近景",
+              "composition": "她用原小勺舀出一份，鸡蛋放在干净小托盘，不与饲料混放。",
+              "camera": "固定看勺面刮平，再稍抬到白棠侧脸。",
+              "action": "白棠给叶凝霜示范现行分量，先让她看刮平的一勺，再放回料盒旁。没有突然加入无依据的养殖数据。",
+              "speaker": "白棠",
+              "dialogue": "照这勺来，吃完了再添。",
+              "delivery": "熟练、耐心，像在交接家务。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<饲料入勺，料盒扣好>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "巡查拍到一缕烟",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "D2白天，收蛋后例行无人机巡查",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "许砚"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "villa",
+            "firstEgg",
+            "pondWarm",
+            "coopWarm",
+            "control",
+            "droneTerminal",
+            "pumpHouseSmoke",
+            "outfit_许砚"
+          ],
+          "opening": "白棠先收好刚发现的一枚蛋；许砚按日常安排回控制室巡查，并非突然接警。",
+          "ending": "终端拍到南侧旧泵房一缕细烟；许砚仅记录位置，让无人机按原路返航。",
+          "bridge": "烟只提示可能有人；不新增尸潮或立刻救援，下集仍在同日夜间修供暖。",
+          "shots": [
+            {
+              "title": "把蛋带回家",
+              "size": "厨房台面无人近景",
+              "composition": "一枚蛋、可洗小碗和少量青菜在工作台，温室雪景留在窗外。",
+              "camera": "侧跟托盘被放稳，定在蛋上。",
+              "action": "白棠把当日一枚蛋放到干净托盘，饲料勺留在棚里没有带进厨房。她的声音从台边传来，许砚在门外回应前先看见这点收获。",
+              "speaker": "白棠",
+              "dialogue": "今晚加个蛋，谁也别抢。",
+              "delivery": "轻松玩笑，生活感来自这点珍惜。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<托盘落台，不加庆祝音效>",
+              "source_shot": 5
+            },
+            {
+              "title": "收工也要看一圈",
+              "size": "许砚控制台单人中景",
+              "composition": "许砚在左操作普通无人机终端，右侧监控仍显示唯一炮台空仓。",
+              "camera": "短推看他放下手套、起飞确认。",
+              "action": "回到例行值守，许砚检查无人机电量后从院内起飞；不是收到警报突然出动。厨房的话还在，他接话同时做平常巡查。",
+              "speaker": "许砚",
+              "dialogue": "你先收好，我巡完就回来。",
+              "delivery": "接住她的玩笑，语气平和。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<终端按键，起飞声短暂>",
+              "source_shot": 6
+            },
+            {
+              "title": "雪地里只有这一缕烟",
+              "size": "无人机俯视远景",
+              "composition": "旧泵房在山谷一侧，树林遮住周边；不出现新的别墅或可读坐标。",
+              "camera": "无人机远处定悬，极短靠近后停住。",
+              "action": "相隔一段飞行时间硬切到山谷，泵房屋顶上升起一缕细烟。没有清晰人脸、尸群或枪口，画面只能证明附近可能有人生活。",
+              "speaker": "许砚",
+              "dialogue": "南边那间泵房，好像有人。",
+              "delivery": "控制室观察画外音，保留不确定性。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<远处风声与无人机低嗡>",
+              "source_shot": 7
+            },
+            {
+              "title": "先记下来",
+              "size": "许砚控制室近景",
+              "composition": "他在简图边记一笔，屏幕保持泵房远景，不显示别墅定位。",
+              "camera": "从终端回到他收回操纵杆的动作。",
+              "action": "许砚记下方向并让无人机返航，不用对方一个动作就推断善恶。例行巡查结果留给后续交易线，厨房暖光仍在身后。",
+              "speaker": "许砚",
+              "dialogue": "先记着，别惊动他们。",
+              "delivery": "对同一内线说，克制收尾。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<操纵杆回中，记录笔轻响>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir": "EP047_reactor-cold",
+      "title": "有电，为什么屋里还冷",
+      "time": "D2夜间，尚未跨零点",
+      "premise": "禽舍和鱼池已挡风，旧泵房炊烟尚未查明；主发电模块正常，屋内供暖支路突然失效。",
+      "want": "让这一夜重新暖起来，又不靠透支知夏或盲换最后一个备件。",
+      "turn": "灯亮不等于暖气正常；确认故障在外部阀件后，知夏校准只够定位，维修仍得用掉最后一只实体备件。",
+      "payoff": "地暖回温，两人终于不用守着设备过夜；有限备件成了下一次建设的理由。",
+      "hook": "空备件盒留下来，下一集先解决机器坏一件就断供的问题。",
+      "resource": [
+        "D2抽卡已用，本集不重复领取。",
+        "只检查隔离后的外部供暖支路，密封核能模块全程不拆壳。",
+        "知夏本日短时精密校准一次，只定位并使现有执行件完成一次检查，不能造出新件。",
+        "最后一只现有备件被人工装上；电力始终正常，热源未消失。"
+      ],
+      "language_evidence": [
+        "灯正常而地板冷，引发对外部供暖的检查。",
+        "“不是停电”排除眼前亮灯支持的具体故障；定位、最后备件、换件、回温有因果。",
+        "知夏坚持复查，许砚用原终端带她回暖屋；不是重复播报“设备正常”，结尾落在休息。"
+      ],
+      "segments": [
+        {
+          "title": "灯亮着，地板却冷了",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D2夜间，尚未跨零点，进棚检查",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "沈知夏"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "villa",
+            "livingWarm",
+            "energyShed",
+            "heatingBranch",
+            "valveCheck",
+            "outfit_许砚",
+            "outfit_沈知夏"
+          ],
+          "opening": "D2夜间尚未跨零点，客厅灯和电视正常，白棠却发现地板越来越冷。",
+          "ending": "许砚与知夏到能源棚，隔离外部供暖支路后确认源侧热、入屋侧冷；主机仍封闭。",
+          "bridge": "下段仍在同一外部柜检查执行件，不回到进门、不重复诊断是否停电。",
+          "shots": [
+            {
+              "title": "地板先冷了",
+              "size": "客厅地面与拖鞋近景",
+              "composition": "有人脚边放着未展开的厚毯，现代客厅灯亮，镜头不抬到白棠脸。",
+              "camera": "固定，拖鞋先停住，再向厚毯挪一步。",
+              "action": "白棠发现脚下原本温暖的地面变凉，拿起旁边厚毯。电视与照明仍正常，停的是供暖而不是全部电力。",
+              "speaker": "白棠",
+              "dialogue": "灯还亮着，怎么地板越来越冷？",
+              "delivery": "客厅现场画外音，提出可见异常。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<客厅电器低噪，拖鞋摩擦>",
+              "source_shot": 1
+            },
+            {
+              "title": "许砚也试了一下",
+              "size": "许砚客厅中景",
+              "composition": "许砚蹲在原分水器旁，门边外套和手电在后景。",
+              "camera": "跟他手背碰管后站起，镜头保持平视。",
+              "action": "许砚先碰外部管温、看供暖面板，再看正常亮着的灯。他拿起手电准备去能源棚，从现象判断支路有问题，没有隔空知道是哪只阀。",
+              "speaker": "许砚",
+              "dialogue": "不是停电，我去看看供暖那一路。",
+              "delivery": "对客厅白棠解释，判断留有余地。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<衣料与手电轻碰>",
+              "source_shot": 2
+            },
+            {
+              "title": "知夏一起去",
+              "size": "沈知夏门边中近景",
+              "composition": "知夏披好暗酒红外套，手里一只已有外部检测终端。",
+              "camera": "平视固定，拍她合上抽屉跟到门边。",
+              "action": "知夏看见许砚又要一人出去，把已经取出的毯子交给画外白棠，跟上他。她只带外部终端，医疗箱没有变成核工程工具箱。",
+              "speaker": "沈知夏",
+              "dialogue": "我跟你去，别又一个人熬一夜。",
+              "delivery": "关心带一点熟悉的不赞同。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<抽屉合上，外套拉链>",
+              "source_shot": 3
+            },
+            {
+              "title": "热水还在柜里",
+              "size": "外部供暖柜双管近景",
+              "composition": "暖侧与回屋侧分开可辨，密封反应堆只在远景完整外壳。",
+              "camera": "沿同一条外部管路短横移，落在不动的阀件。",
+              "action": "许砚确认支路停机并隔离，打开的是外部供暖柜。检测笔在源侧有热、屋侧偏冷，设备灯仍亮；不画出反应堆内部。",
+              "speaker": "许砚",
+              "dialogue": "这头是热的，进屋那根却不热。",
+              "delivery": "现场画外音，把检查结果说给知夏。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<外部供暖柜打开，主机低噪稳定>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "最后一个备用件",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "同一夜间，在隔离的外部柜定位故障",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "沈知夏",
+            "许砚"
+          ],
+          "offscreen": [],
+          "refs": [
+            "energyShed",
+            "heatingBranch",
+            "valveCheck",
+            "spareTray",
+            "workshop",
+            "outfit_沈知夏",
+            "outfit_许砚"
+          ],
+          "opening": "能源棚外部支路已隔离，许砚还没拆件；知夏手指接触现有传感器。",
+          "ending": "一次校准定位卡死执行件；许砚拿出最后一只备用件，知夏让出安装位置。",
+          "bridge": "异能弱光到此熄灭；下一段靠手与工具换实物，不第二次发功、零件不自行飞入。",
+          "shots": [
+            {
+              "title": "她先定位，不许愿",
+              "size": "沈知夏供暖柜前中近景",
+              "composition": "她指尖接触外部传感器，许砚只手持终端入画。",
+              "camera": "固定，手上弱光与她的短暂停顿同框。",
+              "action": "知夏触碰现有传感器，手下微光只沿接触的小部件短亮。她专注感受，示意许砚先别拆；已隔离支路的主供电模块在后景稳定运行。",
+              "speaker": "沈知夏",
+              "dialogue": "先别拆，我试着让它动一次。",
+              "delivery": "专业、审慎，没有保证一定修好。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<指尖接触，极轻弱光声>",
+              "source_shot": 5
+            },
+            {
+              "title": "一次检查给出区别",
+              "size": "执行件与终端无人近景",
+              "composition": "一只正常件短动，旁边问题件只抖一下；不出现可读复杂电路图。",
+              "camera": "固定拍一次测试，不反复闪灯。",
+              "action": "校准使现有小型执行件完成一次检查：旁边机构正常动作，问题件只轻抖后卡住。弱光熄灭，区别由实体运动而非大段屏幕文字说明。",
+              "speaker": "沈知夏",
+              "dialogue": "这只卡死了，得换个好的。",
+              "delivery": "现场画外音，判断来自一次实际测试。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<一次测试，卡住部件轻响>",
+              "source_shot": 6
+            },
+            {
+              "title": "最后一个备用件",
+              "size": "许砚与备件盒中景",
+              "composition": "旧件尚在柜内，一只完好备件在盒里，其他格全空。",
+              "camera": "俯一点看盒，再抬到许砚看她的眼神。",
+              "action": "许砚从原备件盒拿出最后一只可替换件，盒底空格明确可见。他先比对外形，再等知夏收回手，不在异能发动时同时拆装。",
+              "speaker": "许砚",
+              "dialogue": "还剩一个，换完就没备件了。",
+              "delivery": "有顾虑但不故作悬念。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<备件盒打开，一件被取出>",
+              "source_shot": 7
+            },
+            {
+              "title": "她不让他硬扛",
+              "size": "沈知夏单人近景",
+              "composition": "外部柜边缘在左，她收回发光已熄的手，右侧是准备好的工具。",
+              "camera": "平视固定，拍她放稳手再抬头。",
+              "action": "知夏按住许砚想继续测试旧件的动作，转而让出安装位置。她的意见是现在保住供暖，之后再补库存，不用人整晚守着故障阀。",
+              "speaker": "沈知夏",
+              "dialogue": "先换。总不能让大家冻着等。",
+              "delivery": "稳而有主见，回应他的顾虑。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<手收回，柜边工具轻碰>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "热水终于进屋了",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "同一夜间，人工换件后略去回暖等待",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "沈知夏"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "energyShed",
+            "heatingBranch",
+            "valveCheck",
+            "spareTray",
+            "livingWarm",
+            "outfit_许砚",
+            "outfit_沈知夏"
+          ],
+          "opening": "同一柜边，旧件尚待取下，唯一完好备件在托盘右侧，支路仍隔离。",
+          "ending": "人工换件、恢复运行；用明确时间省略后，白棠在屋里确认地板回暖。",
+          "bridge": "不把供暖恢复拍成一秒瞬热；下一段知夏仍拿原终端观察，不再重新校准。",
+          "shots": [
+            {
+              "title": "把坏件留到一边",
+              "size": "许砚外部柜侧面中景",
+              "composition": "取下旧件放左托盘，完好备件在右，密封模块始终在远处。",
+              "camera": "固定拍旧件离位、新件放入，不展示详细接线教学。",
+              "action": "维修支路已隔离。许砚卸下卡住的外部件，把它放进旧件盘，再人工装上完好件；手、工具和支撑面连续，不让零件自动飞入。",
+              "speaker": "许砚",
+              "dialogue": "坏的先留着，回头看看能修什么。",
+              "delivery": "对知夏说，手上做眼前的更换。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<旧件落盘，普通工具接触>",
+              "source_shot": 1
+            },
+            {
+              "title": "让机器先跑起来",
+              "size": "沈知夏与外部监测终端中近景",
+              "composition": "她在右读已有终端，许砚仅操作的手入左侧。",
+              "camera": "短移至她抬眼示意，镜头停稳。",
+              "action": "知夏确认外部支路复位条件后让许砚恢复运行，自己看阀件是否真的动作。她这镜不用第二次异能，弱光已经没有了。",
+              "speaker": "沈知夏",
+              "dialogue": "现在开吧，我看着有没有异常。",
+              "delivery": "现场分工，不替设备作保证。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<终端按键一次>",
+              "source_shot": 2
+            },
+            {
+              "title": "热向屋里走",
+              "size": "外部管路与阀件近景",
+              "composition": "新件固定在原位置，原保温层与回屋方向保持一致。",
+              "camera": "沿原管路轻移至进入主楼的那一段。",
+              "action": "新件随恢复运行完成正常动作，源侧热逐渐传向入屋支路。只靠检测笔反应、轻微运行声和下一镜室内反馈表示，不用火光沿管飞跑。",
+              "speaker": "许砚",
+              "dialogue": "这根也热了，问问屋里怎么样。",
+              "delivery": "现场画外音，判断来自实际检测。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<支路恢复运行，水流低声>",
+              "source_shot": 3
+            },
+            {
+              "title": "屋里先有了回应",
+              "size": "客厅地面与收起的厚毯近景",
+              "composition": "同一灯、同一毯，手掌在原地板上试温，不露脸。",
+              "camera": "固定，看手掌停住后把毯子折起。",
+              "action": "用明确时间省略切回客厅，地板已缓慢回温。白棠手掌试过，再把刚翻出的厚毯折好，声音通过同一对讲传给棚外二人。",
+              "speaker": "白棠",
+              "dialogue": "地上暖了，被子我先不拆了。",
+              "delivery": "屋内对讲画外音，语气松下来。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<对讲反馈，厚毯折起>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "带着终端回屋看",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "同一夜间，确认回暖后带终端回屋",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "沈知夏",
+            "许砚"
+          ],
+          "offscreen": [],
+          "refs": [
+            "livingWarm",
+            "energyShed",
+            "heatingBranch",
+            "spareTray",
+            "workshop",
+            "outfit_沈知夏",
+            "outfit_许砚"
+          ],
+          "opening": "供暖已恢复，知夏还在外部柜旁确认状态，指尖被夜风冻得发僵。",
+          "ending": "许砚带原便携终端回屋继续看，把空备件盒放上工作台；知夏劝他先休息。",
+          "bridge": "下集白天从同一空盒与旧件开始补机械备件，能源主机不再发生新故障。",
+          "shots": [
+            {
+              "title": "她还想多看一会",
+              "size": "沈知夏柜前中景",
+              "composition": "终端正常运行，知夏刚要伸手复查，许砚站在画外。",
+              "camera": "从终端回到她略疲倦的脸。",
+              "action": "听到屋内回温，知夏肩膀稍松，仍想多确认一遍。指尖轻颤，她把手压在柜边稳住，不用特写夸大病情，也不再使用异能。",
+              "speaker": "沈知夏",
+              "dialogue": "再看一会儿，别刚回去又冷了。",
+              "delivery": "责任心使她还不肯结束。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<柜门闭合，轻呼吸>",
+              "source_shot": 5
+            },
+            {
+              "title": "许砚接住她的谨慎",
+              "size": "许砚单人中近景",
+              "composition": "许砚手中是原终端与空盒，柜门已合上，知夏不清晰同框。",
+              "camera": "固定，让他先看她的手再开口。",
+              "action": "许砚没有催她放下专业判断，而是把便携终端拿到自己手里，示意可以回屋继续看。用既有设备完成照顾，不突然抽到远程神器。",
+              "speaker": "许砚",
+              "dialogue": "带着终端回屋看，你手都冻凉了。",
+              "delivery": "沉着直接，不打岔。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<便携终端被接过>",
+              "source_shot": 6
+            },
+            {
+              "title": "把缺口留在眼前",
+              "size": "工作台空备件盒近景",
+              "composition": "旧件与空盒分开放，普通工具归位，温暖室内光照明。",
+              "camera": "跟空盒落台，定在里面空出的格子。",
+              "action": "回屋后许砚把空盒放在工作台最显眼处，而非随手丢弃。坏件仍单独收着，下一集打印仓能做的机械件与不能做的电子件有了问题来源。",
+              "speaker": "许砚",
+              "dialogue": "明天先补备件，不能再只剩一个。",
+              "delivery": "工作间现场画外音，作下一步决定。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<空盒落台，旧件另放>",
+              "source_shot": 7
+            },
+            {
+              "title": "这一夜先睡一觉",
+              "size": "沈知夏客厅门边中近景",
+              "composition": "她将终端放在暖桌边，厚毯已折好，许砚仅肩背在边缘。",
+              "camera": "短侧跟她关掉手电，停在暖光里。",
+              "action": "终端持续正常，知夏终于放下手电，把门口的外套挂好。她看许砚还站着想开工具箱，给出今晚最实际的要求。",
+              "speaker": "沈知夏",
+              "dialogue": "明天再忙。今晚先把觉睡够。",
+              "delivery": "温和但不商量，结束互相硬撑。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<手电关闭，室内轻底噪>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir": "EP048_printer-parts",
+      "title": "这次抽卡，给下个月用",
+      "time": "D3白天",
+      "premise": "屋里重新暖了，最后一只供暖备件已用掉。工业打印仓能补机械结构，却不能制造电子执行件。",
+      "want": "从出问题才修，变成提前备好；把今天的抽卡机会用在未来的产出上。",
+      "turn": "白棠想打印完整备件，许砚确认只能做结构件；当天面对即时食物和育苗灯，二人选择继续生产。",
+      "payoff": "机械小件入盒、外门增加防撞护板，第一层育苗灯架由人手搭起。",
+      "hook": "灯亮后门柱对讲响起：泵房住户带盐来换吃的。",
+      "resource": [
+        "D3白天打印合格机械支架与护板，消耗现存金属；不能复制电子件或炮台弹药。",
+        "D3首次领取：一箱罐头、有限育苗灯组件、未知三选一。零点恢复的资格白天才使用，只领取灯组件。",
+        "光照不能代替水、肥、人工与生长过程，育苗架只有一层。",
+        "外门沿用EP045修好的锁座，本集增加外侧防撞护板，不能重新损坏再修一次。"
+      ],
+      "language_evidence": [
+        "空备件盒提出需求，打印范围由旧件的机械/电子外观差异交代。",
+        "有限原料做机械件与单护板，再在罐头和育苗灯间取舍；施工与播种由人完成。",
+        "“罐头吃完就没了”回应明确二选取舍，不扩写成道理；门外人先自报来意，主角不提前知道。"
+      ],
+      "segments": [
+        {
+          "title": "先备能打印的零件",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D3上午，工作间补有限机械件",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "白棠",
+            "许砚"
+          ],
+          "offscreen": [],
+          "refs": [
+            "workshop",
+            "printer",
+            "spareTray",
+            "mechanicalParts",
+            "ep048-s1-detail",
+            "outfit_白棠",
+            "outfit_许砚"
+          ],
+          "opening": "D3白天，昨夜的空备件盒与旧执行件放在打印仓旁；原料有限。",
+          "ending": "少量机械支架与单块护板出仓入格，电子封装件单独留着，未用完原料收好。",
+          "bridge": "下一段取这块实体护板去原门外安装；不再打印另一块、不替换已经修好的内锁板。",
+          "shots": [
+            {
+              "title": "空盒子摆在中间",
+              "size": "白棠工作台中近景",
+              "composition": "空备件盒在前景，旧执行件居中，打印仓在右后方。",
+              "camera": "短推到她拿起旧件，再回到脸。",
+              "action": "白棠看见许砚故意留下的空盒，把昨天坏件放到打印仓旁。她提出的想法来自机器已经做过锁板，而非凭空知道它能复制一切。",
+              "speaker": "白棠",
+              "dialogue": "这个能不能多打两个，省得再等？",
+              "delivery": "熟悉搭档之间直接提议。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<旧件落台，料盒轻碰>",
+              "source_shot": 1
+            },
+            {
+              "title": "许砚指出真正的限制",
+              "size": "许砚工作台单人中近景",
+              "composition": "旧件外壳和电子模块并排，许砚只指其中结构部分。",
+              "camera": "固定，手指指完才抬眼回应。",
+              "action": "许砚把外部支架与带封装的电子部分区分开，支架可做，封装模块不能靠同一仓复制。两部分都只作外观说明，不展开复杂内部结构。",
+              "speaker": "许砚",
+              "dialogue": "支架能打，里面的电子件做不了。",
+              "delivery": "回答她的问题，不用抽象技术名词。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<部件分开放置，衣袖摩擦>",
+              "source_shot": 2
+            },
+            {
+              "title": "先把可做的补足",
+              "size": "打印仓接料盘近景",
+              "composition": "少量机械支架在一侧，单块外门护板在另一侧，料盒余量下降。",
+              "camera": "固定记录托盘出件，用明确硬切略去等待。",
+              "action": "原封闭打印仓结束一轮加工。接料盘里只有计划数量的结构件，许砚用工具把它们移到工作台；没有无限流水线、弹药或发光电子芯片。",
+              "speaker": "许砚",
+              "dialogue": "先备这些，坏了能马上换。",
+              "delivery": "工作间现场画外音，说明本次实际用途。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<一轮打印停机，托盘出件>",
+              "source_shot": 3
+            },
+            {
+              "title": "白棠把数量收住",
+              "size": "白棠与备件盒中景",
+              "composition": "她将小件分别放进盒格，旁边留着未用完但不多的原料。",
+              "camera": "侧面固定，跟一块件入盒。",
+              "action": "白棠试放一件后重新分出门用和管路用两格，没有把全部原料一次打光。盒里开始有余备，旧电子件仍单独放。",
+              "speaker": "白棠",
+              "dialogue": "留点原料吧，后面还得用。",
+              "delivery": "提醒不是否定，接着他的分配。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<机械小件依次入盒>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "门加一层，苗也得育",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "同一上午，装护板后回工作间",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "白棠",
+            "许砚"
+          ],
+          "offscreen": [],
+          "refs": [
+            "villa",
+            "gateRepair",
+            "gateRepaired",
+            "seedTray",
+            "workshop",
+            "outfit_白棠",
+            "outfit_许砚"
+          ],
+          "opening": "同一上午，两人把刚打印的单块防撞护板搬到原黑门外侧，锁板已经修好。",
+          "ending": "护板由两人扶持固定；回工作间看见旧架照不到光，许砚拿起今天尚未用过的手机。",
+          "bridge": "下一段接同一手机展开三选一，仍是D3白天，不跳回零点。",
+          "shots": [
+            {
+              "title": "这块护板去门外",
+              "size": "外门锁座外侧无人中近景",
+              "composition": "原黑门新锁座在后，新增护板被人手托到外侧，灰门柱留边。",
+              "camera": "侧面固定看护板落在原位。",
+              "action": "同一上午，防撞护板由两人搬到原门外侧受撞位置；它不替代EP045新锁板，也不让整个门变成全新军事建筑。",
+              "speaker": "许砚",
+              "dialogue": "锁已经修好了，再给外面挡一层。",
+              "delivery": "门边现场画外音，衔接上一集建设。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<护板落在门外固定位置>",
+              "source_shot": 5
+            },
+            {
+              "title": "两个人装牢",
+              "size": "白棠与护板侧面中景",
+              "composition": "白棠扶板在左，许砚只有工具手在右，门叶位置连续。",
+              "camera": "固定到最后一个固定点完成。",
+              "action": "白棠扶稳外板，许砚完成固定，她才撤手、轻推护板确认贴合。材料有重量，不出现无人托举的悬浮件。",
+              "speaker": "白棠",
+              "dialogue": "扶稳了，你装吧。",
+              "delivery": "说完继续扶着，不在工具运动时突然缩手。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<普通紧固工具轻响>",
+              "source_shot": 6
+            },
+            {
+              "title": "机械件有了，灯还缺",
+              "size": "育苗盘与旧架近景",
+              "composition": "未催长的新苗盘在旧架下，室内自然光只照到一半。",
+              "camera": "从能见光的一侧缓移到较暗一侧。",
+              "action": "整理工作台时，白棠把有限种子和空盘并排，发现原温室可用空间有限，室内这层旧架还缺合适照明。幼苗没有自动成熟。",
+              "speaker": "白棠",
+              "dialogue": "这里要有盏灯，还能再育一层。",
+              "delivery": "工作间现场画外音，提出未来产量。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<空盘落架，种子袋摩擦>",
+              "source_shot": 7
+            },
+            {
+              "title": "把下一茬写进今天选择",
+              "size": "许砚工作间中景",
+              "composition": "许砚站在旧架旁，手机放在台面，没有提前出现卡片。",
+              "camera": "平视固定，拍他看架子再看手机。",
+              "action": "许砚将空盘留在架上，拿起原手机。今天的领取资格在零点恢复，到现在尚未用过；全段从上午顺序推进，没有回到昨夜的闪回。",
+              "speaker": "许砚",
+              "dialogue": "今天的卡还没抽，正好看看。",
+              "delivery": "回应白棠的愿望，不承诺一定抽到。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<手机被拿起，工作间底噪>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "罐头还是育苗灯",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "D3白天，抽卡并安装首层灯架",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [],
+          "refs": [
+            "workshop",
+            "growLightCards",
+            "seedTray",
+            "seedlingRack",
+            "printer",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "旧架和空盘就在身旁，许砚用当天剩余的一次领取机会打开三张候选。",
+          "ending": "只选育苗灯，组件先投影再实体化；略去搬运等待后，第一层灯条固定但尚未通电。",
+          "bridge": "下一段从同一已安装架开始播种，再恢复该支路供电；不重复领取或安装灯。",
+          "shots": [
+            {
+              "title": "这次真有合适的",
+              "size": "许砚与手机中近景",
+              "composition": "三张投影卡在手机上方，男主在后，空盘仍摆在桌边。",
+              "camera": "轻推手机，抬到男主看到灯卡的目光。",
+              "action": "一箱罐头、灯板组件、未知图形按同一顺序出现。许砚将手停在罐头和灯板之间，没有同时点两张；窗外仍是白天，领取不意味着时间跳回零点。",
+              "speaker": "许砚",
+              "dialogue": "真有育苗灯，也有一箱罐头。",
+              "delivery": "小小意外，语气自然。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<手机一次短提示>",
+              "source_shot": 1
+            },
+            {
+              "title": "她替下个月要一张卡",
+              "size": "白棠单人中近景",
+              "composition": "白棠在右，有限种子袋在前景，男主不清晰同框。",
+              "camera": "固定，她放下种子袋后抬眼。",
+              "action": "白棠看一眼粮食储位，再看准备育苗的空盘。眼下主粮并未耗尽，她选择把这一轮机会用在会继续产出的东西上。",
+              "speaker": "白棠",
+              "dialogue": "选灯吧，罐头吃完就没了。",
+              "delivery": "有依据的取舍，不作宏大宣言。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<种子袋放下，轻呼吸>",
+              "source_shot": 2
+            },
+            {
+              "title": "选择有了代价",
+              "size": "手机与空台近景",
+              "composition": "灯卡被点选，罐头卡退暗，空台留出组件位置。",
+              "camera": "固定，点选到实物轮廓成形连续可见。",
+              "action": "许砚点灯卡，另两张消失。小套灯板与控制组件先投影占位，再沿空台凝成有限实体；罐头不落地，也没有未选奖励。",
+              "speaker": "许砚",
+              "dialogue": "行。下个月这盘菜，就靠它了。",
+              "delivery": "现场画外音，接白棠的选择。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<选择提示一次，组件落台>",
+              "source_shot": 3
+            },
+            {
+              "title": "自己搭起第一层",
+              "size": "许砚与旧架中景",
+              "composition": "旧架在左，许砚固定灯板在右，原电源线尚未接通。",
+              "camera": "侧跟灯板抬起、贴合到原架。",
+              "action": "省略搬运和装配等待后，组件已来到旧架边。许砚用已有支架固定有限灯板，白棠在画外扶住另一头；安装时电源关闭，不让灯板自己飞上去。",
+              "speaker": "许砚",
+              "dialogue": "先装这一层，别一下铺太大。",
+              "delivery": "分配资源，说完继续安装。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<灯板贴合旧架，扣件固定>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "灯亮了，门口也来人了",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "同一白天，播种、通电后接到门柱通话",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "白棠",
+            "许砚"
+          ],
+          "offscreen": [
+            "泵房住户"
+          ],
+          "refs": [
+            "workshop",
+            "seedlingRack",
+            "ep048-s2-detail",
+            "tradeHatch",
+            "radio",
+            "outfit_白棠",
+            "outfit_许砚"
+          ],
+          "opening": "灯架固定完成、尚未通电；白棠把一盘刚播的湿土苗盘放到这一层。",
+          "ending": "灯亮而种子仍小；门柱对讲里住户先说带盐来换吃的，许砚才让他向镜头展示。",
+          "bridge": "下集从实际余粮与盐包验货继续；住户不进院，不预知对方还有水泵。",
+          "shots": [
+            {
+              "title": "这一层给谁用",
+              "size": "白棠与育苗盘中景",
+              "composition": "白棠将未催长的播种盘放到灯下，旁边留出浇水通道。",
+              "camera": "短跟盘底落架，再停在她脸上。",
+              "action": "白棠把本轮有限种子播进湿润育苗基质，放好一盘而非满屋上千盘。台面清理后她把剩下的种子袋封回去。",
+              "speaker": "白棠",
+              "dialogue": "这一盘先试，长稳了再加。",
+              "delivery": "认真期待，回应他不要扩太大的安排。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<苗盘落架，种子袋封好>",
+              "source_shot": 5
+            },
+            {
+              "title": "灯亮了，种子还得长",
+              "size": "灯架无人中景",
+              "composition": "一层灯板均匀照着小盘，架外其他盘没有光效、没有突然成熟。",
+              "camera": "固定拍接电后灯亮，保留真实反射。",
+              "action": "安装结束才恢复该支路供电，灯板逐渐亮稳，盘内仍是刚播下的种子。白棠手指把盘推正，光线照亮湿土，建设结果兑现但收获留待以后。",
+              "speaker": "白棠",
+              "dialogue": "这回下雪，也有地方育苗了。",
+              "delivery": "工作间现场画外音，轻松满意。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<电源开关，灯板稳定低噪>",
+              "source_shot": 6
+            },
+            {
+              "title": "门口有人先开口",
+              "size": "门柱对讲设备近景",
+              "composition": "现代对讲在灰门柱，门主锁始终关闭，不出现陌生清晰脸。",
+              "camera": "固定，呼叫灯亮起后声音进入。",
+              "action": "灯架工作声转接门柱提示音。来客自己先说明方向和来意，画面只见门外背影停在对讲位置，不让主角提前猜他缺什么。",
+              "speaker": "泵房住户",
+              "dialogue": "有人吗？我带了盐，想换点吃的。",
+              "delivery": "门柱对讲外来男声，稍显拘谨。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<门柱呼叫提示，对讲轻电噪>",
+              "source_shot": 7
+            },
+            {
+              "title": "先把生意问明白",
+              "size": "许砚工作间中近景",
+              "composition": "许砚拿起原手持对讲，身后新灯架仍亮，白棠只模糊背影。",
+              "camera": "从亮灯架移到他停下工具的动作。",
+              "action": "许砚听完来意才按通话，目光先去看库存方向。他没有急着迎人进来，先让双方能看见交换的东西。",
+              "speaker": "许砚",
+              "dialogue": "可以，把东西放到门口镜头前。",
+              "delivery": "平常谈生意的口气，不摆狠话。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<工具放下，对讲按键>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir": "EP049_outside-trade",
+      "title": "这一筐菜，不只换一包盐",
+      "time": "D3下午",
+      "premise": "门外泵房住户主动带盐求换食物；新育苗架刚开始工作，自用粮和药仍需留存。",
+      "want": "用确有余量的产出换耗材，找到比一直拿药交易更长久的交换方式。",
+      "turn": "盐换食物成交后，对方留下坏水泵；机器能否修好，决定下一笔打印料生意是否成立。",
+      "payoff": "第一笔食物贸易当场成交，第二笔维修贸易有了实物和验货条件。",
+      "hook": "许砚答应检查，不保证修好；明天要拿运转结果来换合格原料。",
+      "resource": [
+        "D3抽卡已在EP048领取，不重复抽；药品不作为本笔交易物。",
+        "只交换预先分出的少量青菜与两枚库存鸡蛋，自用储位保持。",
+        "泵房住户只有门外背影与对讲声音，没有新的清晰人脸、不入主楼。",
+        "故障小泵外部支架变形；来客只有原料包装照片，验收合格前不计入库存。"
+      ],
+      "language_evidence": [
+        "先留自用，再明确一筐菜两枚蛋与一包盐的交易。",
+        "第一笔成交后才出现坏泵，泵初检后才询问打印料，照片后才约次日实物验货。",
+        "“许师傅”只在交易暂歇时调侃眼前维修，许砚以“先修好这一台”回应；没有危险中插科打诨。"
+      ],
+      "segments": [
+        {
+          "title": "这一筐菜换一包盐",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D3下午，门内外隔门验货报价",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "白棠",
+            "许砚"
+          ],
+          "offscreen": [
+            "泵房住户"
+          ],
+          "refs": [
+            "villa",
+            "tradeHatch",
+            "radio",
+            "saltTrade",
+            "eggAndGreens",
+            "outfit_白棠",
+            "outfit_许砚"
+          ],
+          "opening": "D3下午，承接住户主动来换粮；白棠先留自用食物，拿出一小筐菜和两枚蛋。",
+          "ending": "盐包与菜蛋都在镜头前看清，许砚出价，住户答应，实际交接还未完成。",
+          "bridge": "下一段接双方人工交货，不重说一次报价；两扇小门不同时打开。",
+          "shots": [
+            {
+              "title": "自家那份先留好",
+              "size": "白棠备货台中景",
+              "composition": "自用食物在左侧原架，右侧只有小筐菜与两枚蛋；药柜不打开。",
+              "camera": "短横移看她先留自用再装交换箱。",
+              "action": "白棠把今晚的菜和主粮留在内侧，拿出确有余量的一小份装箱，鸡蛋用软垫隔开。许砚在画外等她确认数量。",
+              "speaker": "白棠",
+              "dialogue": "咱们吃的留好了，这点可以换。",
+              "delivery": "主动把关，不请示每一个动作。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<食品箱轻响，蛋落软垫>",
+              "source_shot": 1
+            },
+            {
+              "title": "对方把盐拿近",
+              "size": "门外交易口无人近景",
+              "composition": "一包封口盐在镜头前，住户只露厚衣袖与手，主门仍闭。",
+              "camera": "固定看包被放上台面。",
+              "action": "来客听完许砚上一集要求，把封口盐拿给门柱镜头看，再放入外侧空托盘。物件先进入视线，主角才能对这一笔出价。",
+              "speaker": "泵房住户",
+              "dialogue": "就这一包，没开过封。",
+              "delivery": "门外现场画外音，紧张里带点盼望。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<盐包接触外侧台面>",
+              "source_shot": 2
+            },
+            {
+              "title": "双方说清楚一次",
+              "size": "许砚门内对讲近景",
+              "composition": "许砚在左，封闭交易箱在右，屏幕可见盐包。",
+              "camera": "平视固定，他看完盐包才按键。",
+              "action": "许砚只看见这包盐的实际状态，不猜对方家底。他把白棠装好的菜蛋箱放在内侧托盘上，开口时对着同一对讲。",
+              "speaker": "许砚",
+              "dialogue": "这筐菜、两枚蛋，换你这包盐。",
+              "delivery": "清楚出价，不附加威胁。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<对讲按键，内侧箱落盘>",
+              "source_shot": 3
+            },
+            {
+              "title": "来客答应了",
+              "size": "门外背影中景",
+              "composition": "住户背影侧向交易口，脸在围巾与机位外；车道仍未恢复。",
+              "camera": "固定，他先点头再向后退半步。",
+              "action": "对方透过外侧小观察窗看见菜和蛋，手从托盘上移开。他是步行带物资来，附近没有一辆突然穿过塌方的货车。",
+              "speaker": "泵房住户",
+              "dialogue": "成，家里好几天没见着青菜了。",
+              "delivery": "声音松下来，理由来自他自己。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<门外靴底退半步>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "货换完了，还有台坏泵",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "同一下午，交货后住户提出修泵",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "白棠",
+            "许砚"
+          ],
+          "offscreen": [
+            "泵房住户"
+          ],
+          "refs": [
+            "villa",
+            "tradeHatch",
+            "saltTrade",
+            "saltShelf",
+            "brokenPump",
+            "outfit_白棠",
+            "outfit_许砚"
+          ],
+          "opening": "上段已经成交，盐包在外侧、食品箱在内侧，人工交易槽两端按顺序开合。",
+          "ending": "盐已收好，菜蛋交出；住户另提坏泵求检查，许砚只答应先看，不保证能修。",
+          "bridge": "下段略去取件等待，硬切同一坏泵到工作间；不把它算作上一笔食物交易的货款。",
+          "shots": [
+            {
+              "title": "东西由人送出去",
+              "size": "交易槽内侧近景",
+              "composition": "白棠双手托住小箱，内外两扇小门不会同时打开。",
+              "camera": "低机位短跟箱子移动，停在托盘止位。",
+              "action": "先收盐、关外侧小门，再把食品箱放进原双门交易槽；白棠手推到止位、关内侧门，外侧才能取。箱子不自己滑走，也不穿过关闭门板。",
+              "speaker": "白棠",
+              "dialogue": "蛋在上边，拿的时候托住底。",
+              "delivery": "内侧现场画外音，是真正交货时的叮嘱。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<双门交易槽按顺序开合，箱由手推>",
+              "source_shot": 5
+            },
+            {
+              "title": "一笔换完了",
+              "size": "白棠收盐中近景",
+              "composition": "盐包在手，原自用货架在后，陌生人不在门内。",
+              "camera": "固定，她检查封口后放入干燥储格。",
+              "action": "对方已经拿走食品箱，白棠把换回的盐收进原储架。没有重复报一遍交易清单，故事从成交转向对方尚未离开的动作。",
+              "speaker": "白棠",
+              "dialogue": "行，这几天做饭不用省着撒盐了。",
+              "delivery": "松口气的小满足，不夸张暴富。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<盐包封口轻响>",
+              "source_shot": 6
+            },
+            {
+              "title": "还带了一件不值钱的",
+              "size": "外侧物资箱与小泵近景",
+              "composition": "旧小泵被住户双手放到外侧空箱，旁边没有第二份食品。",
+              "camera": "固定，泵落箱后手收回。",
+              "action": "来客没有马上走，从背包取出小型旧水泵放入独立物资箱。外部支架明显歪斜，外壳不拆开；他先问是否能看，不把泵当作已成交的货款。",
+              "speaker": "泵房住户",
+              "dialogue": "还有个坏水泵，你们能帮忙看看吗？",
+              "delivery": "门外现场画外音，试探但不纠缠。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<小泵有重量地落入外侧箱>",
+              "source_shot": 7
+            },
+            {
+              "title": "先看，不能空口答应",
+              "size": "许砚对讲中近景",
+              "composition": "屏幕上的小泵在画面右，许砚在左，食品交易已结束。",
+              "camera": "小幅推近他观察支架的目光。",
+              "action": "许砚看见泵外部的变形，却无法通过镜头保证内部完好。他让对方把泵留下待检，内侧取件留到两扇门按顺序闭合后。",
+              "speaker": "许砚",
+              "dialogue": "先放那儿，我看过再给你准话。",
+              "delivery": "诚实、有边界，没有提前承诺。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<对讲轻电噪，门保持关闭>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "维修能不能换原料",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "D3下午稍后，工作间初检与电话询料",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [
+            "泵房住户"
+          ],
+          "refs": [
+            "workshop",
+            "printer",
+            "brokenPump",
+            "feedstockLabel",
+            "saltShelf",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "泵已按交易槽流程取回工作台，外部支架歪斜；住户仍在门外等答复。",
+          "ending": "白棠想到用维修换耗材，许砚先问对方有没有；收到的只有仓库包装照片，不是实物。",
+          "bridge": "下段许砚看过照片再约实物验货，不凭照片确认原料可用。",
+          "shots": [
+            {
+              "title": "他先看见外部变形",
+              "size": "许砚工作台中景",
+              "composition": "小泵支架翘起，工作台是既有灰色金属台，白棠不清晰同框。",
+              "camera": "固定，拍他将泵放平却晃动。",
+              "action": "外门物资箱交接完后硬切到工作间。许砚把泵放在平面上，底部支架让泵偏斜；他转动外部部件检查阻滞，没有立即接电。",
+              "speaker": "许砚",
+              "dialogue": "支架歪了，里面还得查。",
+              "delivery": "把已确认与未知分开说。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<旧泵落台轻晃>",
+              "source_shot": 1
+            },
+            {
+              "title": "白棠看见另一种可能",
+              "size": "白棠工作间中近景",
+              "composition": "白棠放好盐包记录卡，右后方是打印仓原料盒。",
+              "camera": "从有限原料盒移到她看许砚的目光。",
+              "action": "她看见打印仓的料位比修门前少，再看这台可以做结构维修的小泵。思路从用药换物资转到用会做的事换原料。",
+              "speaker": "白棠",
+              "dialogue": "真修好了，能不能换点打印料？",
+              "delivery": "向许砚商量，期待而不抢着承诺。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<记录卡与原料盒接触>",
+              "source_shot": 2
+            },
+            {
+              "title": "先问对方有没有",
+              "size": "许砚手持对讲中近景",
+              "composition": "泵在工作台前景，打印仓保持原位，对讲在他手里。",
+              "camera": "固定，等他检查完再按键。",
+              "action": "许砚先把初检工具放稳，才问仍在门外等待的住户。他不知道对方有打印料，所以以询问推进，而非直接说已能交易。",
+              "speaker": "许砚",
+              "dialogue": "你那边有这种机器用的料吗？",
+              "delivery": "平等问询，没有读心。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<工具放稳，对讲按键>",
+              "source_shot": 3
+            },
+            {
+              "title": "只有照片，先别当成货",
+              "size": "手机收到照片的道具近景",
+              "composition": "原料包装照片占屏幕，不要求准确可读品牌字；旁边是本机旧料标签。",
+              "camera": "固定，照片加载后短移到两份包装并列。",
+              "action": "住户发来一张仓库旧料桶照片，外观有完整包装。他仅说曾见过，没把实物隔空送进库存；许砚把照片与本机用料标识对比。",
+              "speaker": "泵房住户",
+              "dialogue": "仓库里有几桶，我先把照片发你。",
+              "delivery": "门外对讲画外音，信息由对方提供。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<手机收到照片一声轻提示>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "先修好这一台",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "同一下午，约次日验料，住户离开",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "许砚",
+            "白棠"
+          ],
+          "offscreen": [
+            "泵房住户"
+          ],
+          "refs": [
+            "villa",
+            "workshop",
+            "brokenPump",
+            "feedstockLabel",
+            "ep049-s2-detail",
+            "outfit_许砚",
+            "outfit_白棠"
+          ],
+          "opening": "许砚已收到照片，但泵还在待检架、原料还没送来，第一笔盐交易已结束。",
+          "ending": "约好明天带原料来验；白棠打趣修理铺，许砚继续检查同一台泵，来客沿雪路离开。",
+          "bridge": "下集到D4白天给出检查结果和实际试转，不另加门外埋伏。",
+          "shots": [
+            {
+              "title": "先验料，再定价",
+              "size": "许砚单人中近景",
+              "composition": "手机照片与未拆泵在桌上，许砚看过后收起手机。",
+              "camera": "平视固定，按键后抬眼。",
+              "action": "许砚只认可需要实物确认，安排对方明天带封口包装来。他没有因为想要原料就承诺能修所有设备，也不把未知旧粉倒入机器。",
+              "speaker": "许砚",
+              "dialogue": "明天带来看看，能用咱们再谈。",
+              "delivery": "清楚而平常的交易口气。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<按键说完后静下>",
+              "source_shot": 5
+            },
+            {
+              "title": "白棠给他起外号",
+              "size": "白棠与待修架中景",
+              "composition": "她把小泵挪到独立待修架，未动自用食品架。",
+              "camera": "跟泵落架，抬到她带笑看他。",
+              "action": "盐已收好，泵也有了自己的待修位置。白棠擦掉桌边水印，看着许砚又拿起工具，笑意来自两人正在把生活变成生意的事实。",
+              "speaker": "白棠",
+              "dialogue": "许师傅，修理铺这就开张了？",
+              "delivery": "轻轻打趣，不拿生存危机开玩笑。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<小泵放到待修架>",
+              "source_shot": 6
+            },
+            {
+              "title": "他的回应仍落在实事上",
+              "size": "许砚单人中近景",
+              "composition": "许砚在左，旧泵在右前景，工具只取必要一件。",
+              "camera": "固定，接住她的视线后低头动手。",
+              "action": "许砚没有突然变成耍贫嘴的人。他看一眼白棠，给一个短促的无奈笑，随即把第一件待修物转到便于检查的位置。",
+              "speaker": "许砚",
+              "dialogue": "先修好这一台，再叫师傅。",
+              "delivery": "淡淡接话，话后继续检查。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<普通工具取出>",
+              "source_shot": 7
+            },
+            {
+              "title": "一笔已成，一笔等结果",
+              "size": "门外背影远景",
+              "composition": "住户带菜走向原雪路，关闭黑门在前景，脸始终不可辨。",
+              "camera": "固定，让背影沿雪路远去。",
+              "action": "来客沿原雪路离开，食品已经拿到，坏水泵留下待修。院门保持关闭，没有新增人影埋伏，下一集悬念就是能否把机器修转。",
+              "speaker": "泵房住户",
+              "dialogue": "那我明天再来，辛苦了。",
+              "delivery": "离开前的门柱对讲画外音，声音逐渐远。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<脚步沿原雪路逐渐远去>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dir": "EP050_thaw-day",
+      "title": "这一顿，是我们自己挣的",
+      "time": "D4白天至傍晚，仍为冬季",
+      "premise": "待修泵留下、照片尚未变成原料；温室与育苗灯已投入使用，别墅粮食仍优先自用。",
+      "want": "兑现第一次维修承诺，再把多出来的一点产出变成自己的晚饭与下一轮原料。",
+      "turn": "泵只需更换可打印的外部支架；白棠只催熟一盘已有叶菜，足够当晚吃且留少量交换，不能一夜养活整山。",
+      "payoff": "水泵重新出水，维修换回一小份可验收打印料；暖屋里端上自己种的青菜鸡蛋面。",
+      "hook": "来客开始预订菜苗，别墅的下一步从修家走向有限订单与生产扩建。",
+      "resource": [
+        "D4白棠只加速一盘已接近采收的叶菜；旁边新播苗盘不变化。",
+        "水泵电子部分测试正常，只更换外部支架，少量结构料有消耗。",
+        "来客带来的原料先比对包装与本机要求，再用小试件检查；通过后才交换有限一袋合格料。",
+        "主粮来自已有留存粮，鸡蛋来自正常产出与库存；当天不展示新抽卡，不凭空恢复炮台弹药。"
+      ],
+      "language_evidence": [
+        "旧泵故障检查承接昨夜，不靠新卡变出新泵；白棠有限催熟一盘。",
+        "试转、持续观察、验料试件和换货依次发生；先留自用，再以少量余量换耗材。",
+        "结尾三人依次坐下尝面，“往后常吃”指具体菜面和种植安排，不升华人生，也不凭空追加警报。"
+      ],
+      "segments": [
+        {
+          "title": "旧水泵重新转起来",
+          "directory": "segment_01_00-15s",
+          "duration": 15,
+          "time": "D4白天，修泵试转后切温室选盘",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "workshop",
+            "brokenPump",
+            "repairedPump",
+            "mechanicalParts",
+            "seedlingRack",
+            "growthTray",
+            "outfit_许砚",
+            "greenhouseRepaired"
+          ],
+          "opening": "D4白天，昨夜检查已确认泵本体无损，待换的外部支架与原旧件放在台上。",
+          "ending": "同一泵装上新支架并持续试水；切到温室，白棠选定一盘近熟叶菜，尚未使用异能。",
+          "bridge": "下段从这盘近熟菜发动当日一次加速，邻盘幼苗保持原样，不重拍修泵。",
+          "shots": [
+            {
+              "title": "只换真正坏的那件",
+              "size": "许砚工作间中近景",
+              "composition": "新旧支架并列，小泵外壳还是原来的斑驳外壳。",
+              "camera": "固定跟新支架贴合，再到他检查稳固。",
+              "action": "承接昨夜检查，电子部分通过测试、故障只在支架。许砚把有限打印料做的新支架装上同一台泵，不打印一台全新泵，也不让泵外壳瞬间变新。",
+              "speaker": "许砚",
+              "dialogue": "里面没坏，换这个支架就行。",
+              "delivery": "判断来自已完成的初检。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<新支架贴合，普通工具固定>",
+              "source_shot": 1
+            },
+            {
+              "title": "让结果自己说话",
+              "size": "测试水桶与泵无人中景",
+              "composition": "泵在防溅台，测试出水管回到同一桶；电气部分不浸水。",
+              "camera": "固定，启动后等水流稳定一次。",
+              "action": "装配结束后进行受控试转，管口先出少量气泡，随后稳定出水。机身没有像旧支架时晃动，白棠从画外靠近，看见真正的维修结果。",
+              "speaker": "白棠",
+              "dialogue": "真转起来了，这回能交货了。",
+              "delivery": "工作间现场画外音，替他松口气。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<泵启动，水流由断续转稳定>",
+              "source_shot": 2
+            },
+            {
+              "title": "他还要多看一会",
+              "size": "许砚水泵旁中近景",
+              "composition": "泵在右前方正常运行，计时终端只有非文字状态光。",
+              "camera": "从稳定水流移到许砚擦手。",
+              "action": "许砚看水流保持稳定，又摸外壳确认没有明显异常，再把工具收起。不会刚喷出一滴水就夸大保证永久不坏。",
+              "speaker": "许砚",
+              "dialogue": "再试一会儿，别拿回去又停。",
+              "delivery": "认真对待第一笔维修承诺。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<稳定运行，不额外报警>",
+              "source_shot": 3
+            },
+            {
+              "title": "另一边也等着收获",
+              "size": "温室一盘叶菜近景",
+              "composition": "较大的原有叶菜盘在中心，新播小苗盘在旁边，空间关系分明。",
+              "camera": "从旧菜盘短移到白棠的手。",
+              "action": "硬切同日温室，白棠挑出早已长到接近采收的一盘叶菜。她看过水与基质状态后，把其他新苗盘移开，给能力划出有限作用范围。",
+              "speaker": "白棠",
+              "dialogue": "今天催这一盘，别的让它慢慢长。",
+              "delivery": "温室现场画外音，自己作生产安排。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<小苗盘移开，温室底噪>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "留一把，晚上煮面",
+          "directory": "segment_02_15-30s",
+          "duration": 15,
+          "time": "同一白天，有限催熟、采收与分装",
+          "source_segment": "segment_01_00-30s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "白棠"
+          ],
+          "offscreen": [
+            "许砚"
+          ],
+          "refs": [
+            "villa",
+            "greenhouseRepaired",
+            "growthTray",
+            "eggAndGreens",
+            "seedlingRack",
+            "repairedPump",
+            "outfit_白棠",
+            "seedTray"
+          ],
+          "opening": "同一盘近熟叶菜已选定，白棠刚准备发动当日一次能力；水泵在工作间试转完毕。",
+          "ending": "仅一盘菜到可采收大小，先留自用再分少量交换；许砚抱修好泵去交货，正脸不入镜。",
+          "bridge": "下段到原外门展示维修结果并验料，不在搬泵路上提前收到原料。",
+          "shots": [
+            {
+              "title": "只长这一盘",
+              "size": "白棠与单盘叶菜中景",
+              "composition": "手掌停在同一盘上方，邻盘小苗和棚架都留在画边。",
+              "camera": "固定微推，完整看叶片展开的过程。",
+              "action": "白棠使用当天唯一一次加速，弱光局限在掌下这盘。叶片逐层展开到可采收大小，邻盘不变；水肥消耗仍成立，没有全棚变成菜海。",
+              "speaker": "白棠",
+              "dialogue": "好了，再长就老了。",
+              "delivery": "看到达到采收状态就停手，带点熟练。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<极轻能力声，叶片自然展开>",
+              "source_shot": 5
+            },
+            {
+              "title": "收下来才算到手",
+              "size": "采收手部近景",
+              "composition": "同一成熟盘、剪下叶菜和留存生长点各自清楚；手套与绿色袖口一致。",
+              "camera": "跟一次采收落篮，保留枝叶的真实重量。",
+              "action": "白棠停止能力后正常采收，剪下的一把菜落进小篮，空出的盘沿显示刚才确实是这盘。她没有把所有植株连根拔掉。",
+              "speaker": "许砚",
+              "dialogue": "今晚能吃上了，留一把煮面吧。",
+              "delivery": "从温室入口传来的现场画外音，不露脸抢镜。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<一次采收，菜落小篮>",
+              "source_shot": 6
+            },
+            {
+              "title": "她早给家里留了",
+              "size": "白棠分菜中近景",
+              "composition": "自用碗在左，小交换篮在右，数量明显有限。",
+              "camera": "固定，先把最好的一把放进自用碗。",
+              "action": "白棠把当晚要下锅的菜先留下，再将有限余量放到另一只小篮。她看向门口许砚，回应他刚说的留菜，不机械复述库存表。",
+              "speaker": "白棠",
+              "dialogue": "早留好了，咱们自己得先吃。",
+              "delivery": "有一点得意，体现共同生活的默契。",
+              "mode": "onscreen",
+              "faces": [
+                "白棠"
+              ],
+              "sound": "<叶菜分别入碗入篮>",
+              "source_shot": 7
+            },
+            {
+              "title": "带着结果去见客人",
+              "size": "工作间交货台无人中景",
+              "composition": "修好泵在干净托盘，旁边只有少量交换菜，旧支架单独收着。",
+              "camera": "短跟许砚把泵抱起，收在空出的托盘位。",
+              "action": "时间省略后试转结束，许砚排干残水，把泵抱往外门交货处。白棠已给种子袋封口，工作台保持整齐；没有把未验收原料提前倒进打印仓。",
+              "speaker": "许砚",
+              "dialogue": "我去交货，回来就吃饭。",
+              "delivery": "向厨房方向说，声音带一点盼头。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<工具收好，泵由人手抱起>",
+              "source_shot": 8
+            }
+          ]
+        },
+        {
+          "title": "先验结果，再交货",
+          "directory": "segment_03_30-45s",
+          "duration": 15,
+          "time": "D4下午，原外门验泵、验料并交货",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            1,
+            4
+          ],
+          "cast": [
+            "许砚"
+          ],
+          "offscreen": [
+            "泵房住户"
+          ],
+          "refs": [
+            "villa",
+            "tradeHatch",
+            "repairedPump",
+            "feedstockLabel",
+            "feedstockCheck",
+            "seedlingRack",
+            "radio",
+            "outfit_许砚"
+          ],
+          "opening": "同日下午，许砚已把修好的原小泵送到门内观察位，住户带封口原料来到门外。",
+          "ending": "试泵与少量原料试打结果都合格，人工交货；住户想订菜苗，许砚只答应长稳后联系。",
+          "bridge": "明确跳到当晚餐区，收工吃面；不能从验料直接形变成餐桌。",
+          "shots": [
+            {
+              "title": "先把泵的结果给他看",
+              "size": "门口内侧试水近景",
+              "composition": "修好泵在可见托盘，门外来客只有袖口，主门关闭。",
+              "camera": "固定，水流稳后转向对讲。",
+              "action": "许砚让来客透过交易观察位看见稳定出水，再断电收回测试管。试转结果明确交代，他这才准备交货。",
+              "speaker": "许砚",
+              "dialogue": "试过了，水流稳，拿回去能用。",
+              "delivery": "门内现场画外音，基于已测结果。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<短时试转，稳定出水后断电>",
+              "source_shot": 1
+            },
+            {
+              "title": "原料也要看结果",
+              "size": "包装、试件与许砚手部近景",
+              "composition": "同批小试件在左、封口料袋在右，旧机型标签放后景。",
+              "camera": "短移看试件边缘，再看封口袋。",
+              "action": "硬切略过验料时间：对照要求后先取小样试打，合格小试件与剩余封口袋并列。没有把陌生散粉当成万能金属；交易只涉及这一小袋。",
+              "speaker": "许砚",
+              "dialogue": "这袋料试过了，咱们就这么换。",
+              "delivery": "工作间检验后的对讲画外音，不展示制造参数。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<小试件与包装轻碰，不加打印大场面>",
+              "source_shot": 2
+            },
+            {
+              "title": "对方开始惦记下一回",
+              "size": "外门来客背影远中景",
+              "composition": "修好小泵由住户亲手提着，雪路与原门柱保持一致。",
+              "camera": "固定，他将泵提稳、准备走时侧向对讲。",
+              "action": "泵与合格料经过原双门交易槽人工交接，外来者仍不入院。住户看到上次换的菜确实好吃，才问下一批生产；不是第一次见面就打听全部家底。",
+              "speaker": "泵房住户",
+              "dialogue": "下批菜苗，也能给我们留一点吗？",
+              "delivery": "门外对讲画外音，语气是回头客。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<交易槽开合，泵由人提走>",
+              "source_shot": 3
+            },
+            {
+              "title": "订单也有分寸",
+              "size": "许砚门内单人中近景",
+              "composition": "许砚手持对讲，一小袋验过的料在内侧工具车上。",
+              "camera": "固定，他先看院内温室方向再回答。",
+              "action": "许砚想到新播的那盘苗还小，只答应以后有稳妥余量再联系，没有许诺每天供整片山。说完将合格料收回待用架，主门依然闭合。",
+              "speaker": "许砚",
+              "dialogue": "等苗长稳了，我再联系你。",
+              "delivery": "愿意继续做生意，承诺留在能力范围内。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<对讲按键，工具车移动>",
+              "source_shot": 4
+            }
+          ]
+        },
+        {
+          "title": "这顿饭，坐下来吃",
+          "directory": "segment_04_45-60s",
+          "duration": 15,
+          "time": "D4当晚，明确硬切到暖色餐区吃面",
+          "source_segment": "segment_02_30-60s",
+          "source_shots": [
+            5,
+            8
+          ],
+          "cast": [
+            "沈知夏",
+            "叶凝霜",
+            "许砚"
+          ],
+          "offscreen": [
+            "白棠"
+          ],
+          "refs": [
+            "dining",
+            "noodles",
+            "hairYe",
+            "outfit_沈知夏",
+            "outfit_叶凝霜",
+            "outfit_许砚"
+          ],
+          "opening": "当晚，白棠在画外端上青菜鸡蛋面；窗外仍下雪，监控提醒保持工作。",
+          "ending": "知夏放下终端坐好，叶凝霜尝菜，许砚拿起筷子；只用单人切镜，不做四人清晰合照。",
+          "bridge": "停在热饭与窗边小苗，不用新警报打断；后续可从菜苗订单与生产扩建接起。",
+          "shots": [
+            {
+              "title": "这一顿终于端上桌",
+              "size": "暖色餐桌道具中景",
+              "composition": "青菜鸡蛋面在普通碗里，现代窗外仍有雪，四把椅子但无人全家同框。",
+              "camera": "跟一碗面由人手端到桌上，保留升起的热气。",
+              "action": "硬切傍晚，白棠在画外把面端好，主粮来自已有库存，菜来自白天那一盘，鸡蛋来自正常产出。暖光落在汤面，不出现冬天瞬间结束的外景。",
+              "speaker": "白棠",
+              "dialogue": "面好了，谁再忙就自己吃凉的。",
+              "delivery": "厨房现场画外音，熟人才有的催促。",
+              "mode": "voiceover",
+              "faces": [],
+              "sound": "<面碗落桌，厨房轻响>",
+              "source_shot": 5
+            },
+            {
+              "title": "知夏把工作留在饭后",
+              "size": "沈知夏餐桌单人中近景",
+              "composition": "知夏放下便携终端，面碗在前，许砚只有肩背在边缘。",
+              "camera": "平视固定，她先将终端屏幕扣下再拿筷。",
+              "action": "监控由既有值守提醒保持，知夏确认终端无异常后将它放到手边，让自己也坐下。她不端着医生身份训话，只希望大家完整吃一顿热饭。",
+              "speaker": "沈知夏",
+              "dialogue": "都坐下，今天别站着吃了。",
+              "delivery": "温和坚决，语气里有疲惫后的松弛。",
+              "mode": "onscreen",
+              "faces": [
+                "沈知夏"
+              ],
+              "sound": "<终端扣下，椅子移近>",
+              "source_shot": 6
+            },
+            {
+              "title": "叶凝霜也有了家常一句",
+              "size": "叶凝霜桌边单人近景",
+              "composition": "银白长发、白色冬衣在暖光中，普通面碗遮住手部小范围。",
+              "camera": "固定，她吃一口后抬眼，留真实咀嚼停顿。",
+              "action": "叶凝霜尝了一口面，把筷子轻放到碗沿，目光经过窗外雪再回到桌面。她仍清冷，不突然撒娇，也不发表长篇人生感悟。",
+              "speaker": "叶凝霜",
+              "dialogue": "这菜，比罐头好吃。",
+              "delivery": "低声认真，像一句终于说出口的家常评价。",
+              "mode": "onscreen",
+              "faces": [
+                "叶凝霜"
+              ],
+              "sound": "<筷子轻放碗沿，留咀嚼停顿>",
+              "source_shot": 7
+            },
+            {
+              "title": "许砚让这一刻停住",
+              "size": "许砚餐桌中近景",
+              "composition": "许砚在左，清空工作的双手拿起筷子；后景只见邻座肩部与窗边一盘小苗。",
+              "camera": "轻缓拉开一点，保留面碗与窗外雪，不出现四张清晰脸。",
+              "action": "许砚听完，给一个很浅的笑，终于把筷子伸向自己的面。窗边仍小的苗留在暖光里，窗外仍下雪；没有新警报打断刚挣来的一顿饭。",
+              "speaker": "许砚",
+              "dialogue": "那就多种一点，往后常吃。",
+              "delivery": "对同桌回应，平静里带一点对日子的把握。",
+              "mode": "onscreen",
+              "faces": [
+                "许砚"
+              ],
+              "sound": "<筷子与碗轻碰，屋外风雪渐低>",
+              "source_shot": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

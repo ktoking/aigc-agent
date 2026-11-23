@@ -1,0 +1,97 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP045_snow-greenhouse",
+  "segment": "segment_04_45-60s",
+  "title": "把漏风那面补好",
+  "directory": "segment_04_45-60s",
+  "duration": 15,
+  "time": "D2清晨，人工补棚并把苗放回",
+  "source_segment": "segment_02_30-60s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "许砚",
+    "白棠"
+  ],
+  "offscreen": [],
+  "refs": [
+    "villa",
+    "greenhouseLeak",
+    "greenhouseRepaired",
+    "seedlingRescue",
+    "filmCards",
+    "outfit_许砚",
+    "outfit_白棠"
+  ],
+  "opening": "D2清晨，卷材已由两人搬到棚边；昨夜夹住的破口还在，棚架完整。",
+  "ending": "同一接缝补好并试过风，一盘活苗放回原架；工具车上留有限剩膜。",
+  "bridge": "下集直接取同一工具车的剩膜修禽舍和鱼池，不额外抽第二卷。",
+  "shots": [
+    {
+      "title": "天亮亲手拉膜",
+      "size": "同一温室双人侧面中景",
+      "composition": "许砚在近侧压住膜边，白棠在远侧拉开；旧夹子仍在原位。",
+      "camera": "顺膜展开方向短横移，保留两人受力。",
+      "action": "硬切清晨冷光，两人已把卷材搬到棚边。膜在手上展开、靠上原架，许砚压住近边，白棠沿远边扣合；只修漏风的一面。",
+      "speaker": "许砚",
+      "dialogue": "你那头拉平，我这边压着。",
+      "delivery": "声音平稳，边配合边说。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<清晨风声与卷材展开>",
+      "source_shot": 5
+    },
+    {
+      "title": "她扣住最后一处",
+      "size": "白棠与扣件中近景",
+      "composition": "手、膜边和原立柱在同一焦面，男主仅在远侧模糊。",
+      "camera": "跟手移动到最后一个扣件并停住。",
+      "action": "白棠扣紧远侧最后一处，轻拉膜面确认不松。她先看自己的扣点，再向许砚点头，给他松手的时机。",
+      "speaker": "白棠",
+      "dialogue": "扣好了，你可以松手了。",
+      "delivery": "确认结果后说，不提前放手。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<扣件合拢，话后松手>",
+      "source_shot": 6
+    },
+    {
+      "title": "这次真的没有风",
+      "size": "许砚棚内中近景",
+      "composition": "新旧膜接缝在头侧，一小片苗叶在前景不再被风吹动。",
+      "camera": "由接缝短移至许砚手背与脸。",
+      "action": "许砚慢慢移开压膜的手，膜面保持平整。他把手背靠近接缝试风，抬眼看昨夜漏雪的位置，确认内部不再落雪。",
+      "speaker": "许砚",
+      "dialogue": "不灌风了，把那盘苗拿回来。",
+      "delivery": "对棚门方向的白棠说，语气放松。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<棚外风声仍在，棚内不拍膜>",
+      "source_shot": 7
+    },
+    {
+      "title": "把自己的菜放回去",
+      "size": "白棠棚内中景",
+      "composition": "苗盘回到原架，工具车上留少量剩余膜，主楼局部在门外远景。",
+      "camera": "侧跟苗盘落架后固定，留一口安静呼吸。",
+      "action": "白棠抱回一盘保住的活苗，放在已补好的接缝下。叶片没有瞬间长大，她把冻坏的空位拨开，手掌轻拢仍绿的小苗。棚外下雪，棚内只有轻水声。",
+      "speaker": "白棠",
+      "dialogue": "先好好活着，收菜还等着你们呢。",
+      "delivery": "对着苗轻声说，像终于忙完后的自言自语。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<苗盘落架，原灌溉点轻滴水>",
+      "source_shot": 8
+    }
+  ]
+}

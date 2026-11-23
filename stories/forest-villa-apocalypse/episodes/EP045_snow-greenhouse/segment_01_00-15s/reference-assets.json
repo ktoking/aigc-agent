@@ -1,0 +1,134 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 15,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "local_reference_files_complete": true,
+    "note": "九项为本项目规划，不代表已验证模型上限或账号权限。仅按清单取图，不扫描历史目录，不传首尾帧，尚未提交。"
+  },
+  "references": [
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "description": "黑色短发；炭灰防水工装夹克、黑肩拼片、深灰上衣、黑灰直筒工装裤、深棕高帮登山靴、黑色电子表。沉着实干，判断在观察之后；日常关心用实际行动表达。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "许砚",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 1
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "description": "利落低马尾；鼠尾草绿短款工装外套、浅灰圆领上衣、深灰直筒工装裤、黑色防滑工作靴。能独立判断生产与库存，有心疼劳动、期待收成和熟人间的幽默。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "白棠",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 2
+    },
+    {
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "label": "正确别墅冬季总景",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "planned_file": null,
+      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 3,
+      "segment_file": "frames/参考图3.png"
+    },
+    {
+      "key": "gateDamage",
+      "kind": "scene_or_prop",
+      "label": "旧锁板变形",
+      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
+      "planned_file": null,
+      "scope": "门内旧锁板歪斜、中央锁舌错位，门本体没有被打穿；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 4,
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "key": "gateRepaired",
+      "kind": "scene_or_prop",
+      "label": "新锁板装回原门",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/black-gate-replaced-center-latch-16x9.png",
+      "planned_file": null,
+      "scope": "同一黑门装回一块新锁板的局部，旧划痕保留，不新增外侧护板；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 5,
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "key": "metalPrinter",
+      "kind": "scene_or_prop",
+      "label": "打印仓单块锁板成品",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/industrial-printer-single-gate-latch-plate-16x9.png",
+      "planned_file": null,
+      "scope": "原打印仓输出托盘里的一块新锁板与旁边旧件，有限材料，人工安装；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 6,
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "key": "workshop",
+      "kind": "scene_or_prop",
+      "label": "原现代工作间",
+      "file": "assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png",
+      "planned_file": null,
+      "scope": "原现代灰白工作间、打印仓和金属台面，窗外冬雪；只锁空间与机器，不锁台上新道具；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 7,
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "label": "许砚炭灰工装",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 8,
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 9,
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色",
+    "不上传旧三视图、旧关键帧或历史output",
+    "不把本地文件存在视为视频人物一致性通过"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "prompt": "参考1：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n参考2：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n真人写实电影独立静帧，16:9横屏。参考1锁马主任脸、眼镜和灰衬衫；参考2锁成年夏凛脸、低马尾、藏青修身制服长裤，不继承参考背景。\n夏凛在办公室前景拿起解聘通知，另一手把夹板收进纸箱；背景站着同一位马主任，成熟瘦脸、方框眼镜、灰色长袖衬衫、黑西裤，必须匹配马主任参考，不能变成穿蓝制服的其他男人。镜头以夏凛和纸箱为主，马主任只在后方桌边，只有这两人。日间办公室，干燥有序。\n无字幕水印，不加其他人物，不锐化，无过度细节。\n出镜人物严格按本镜事件，不凭空加人。画中没有标题、字幕、水印、漂浮UI；后期另行烧录字幕。单张横屏16:9，真人电影静帧，环境干燥、简洁有序，适度细节，无过锐微纹理。所有人物均为成年人。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d7d6310a-db09-4a14-a5f5-f8389ed5cecf.png"
+}

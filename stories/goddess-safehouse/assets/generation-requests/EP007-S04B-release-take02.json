@@ -1,0 +1,10 @@
+{
+  "prompt": "参考1：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n参考2：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n16:9横向真人写实电影静帧。参考1只锁成年陈屿的脸与灰夹克；参考2只锁成年夏凛的脸、低马尾与藏青制服衬衫长裤，不继承背景。\n深夜旧客厅全新近景：前景是陈屿灰夹克袖口的手刚端起地垫旁的空面碗，瓷碗与手是焦点；背景夏凛裹着已经盖好的灰毯子，坐睡在左墙边的薄地垫上，头微垂，短棍落在垫边。她必须在地板上的垫子上，右侧沙发空无一人，不能睡在沙发座垫。不要重复盖毯子的动作，不重复双人正面中景。干燥整洁暖灯。\n自然皮肤、干净大形、适度细节，不锐化，不画水印字幕或浮空UI。\n出镜人物严格按本镜事件，不凭空加人。画中没有标题、字幕、水印、漂浮UI；后期另行烧录字幕。单张横屏16:9，真人电影静帧，环境干燥、简洁有序，适度细节，无过锐微纹理。所有人物均为成年人。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ea80a41d-0bc0-42b3-8fa6-46351144b344.png"
+}

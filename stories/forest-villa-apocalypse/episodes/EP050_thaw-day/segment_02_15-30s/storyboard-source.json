@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP050_thaw-day",
+  "segment": "segment_02_15-30s",
+  "title": "留一把，晚上煮面",
+  "directory": "segment_02_15-30s",
+  "duration": 15,
+  "time": "同一白天，有限催熟、采收与分装",
+  "source_segment": "segment_01_00-30s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "白棠"
+  ],
+  "offscreen": [
+    "许砚"
+  ],
+  "refs": [
+    "villa",
+    "greenhouseRepaired",
+    "growthTray",
+    "eggAndGreens",
+    "seedlingRack",
+    "repairedPump",
+    "outfit_白棠",
+    "seedTray"
+  ],
+  "opening": "同一盘近熟叶菜已选定，白棠刚准备发动当日一次能力；水泵在工作间试转完毕。",
+  "ending": "仅一盘菜到可采收大小，先留自用再分少量交换；许砚抱修好泵去交货，正脸不入镜。",
+  "bridge": "下段到原外门展示维修结果并验料，不在搬泵路上提前收到原料。",
+  "shots": [
+    {
+      "title": "只长这一盘",
+      "size": "白棠与单盘叶菜中景",
+      "composition": "手掌停在同一盘上方，邻盘小苗和棚架都留在画边。",
+      "camera": "固定微推，完整看叶片展开的过程。",
+      "action": "白棠使用当天唯一一次加速，弱光局限在掌下这盘。叶片逐层展开到可采收大小，邻盘不变；水肥消耗仍成立，没有全棚变成菜海。",
+      "speaker": "白棠",
+      "dialogue": "好了，再长就老了。",
+      "delivery": "看到达到采收状态就停手，带点熟练。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<极轻能力声，叶片自然展开>",
+      "source_shot": 5
+    },
+    {
+      "title": "收下来才算到手",
+      "size": "采收手部近景",
+      "composition": "同一成熟盘、剪下叶菜和留存生长点各自清楚；手套与绿色袖口一致。",
+      "camera": "跟一次采收落篮，保留枝叶的真实重量。",
+      "action": "白棠停止能力后正常采收，剪下的一把菜落进小篮，空出的盘沿显示刚才确实是这盘。她没有把所有植株连根拔掉。",
+      "speaker": "许砚",
+      "dialogue": "今晚能吃上了，留一把煮面吧。",
+      "delivery": "从温室入口传来的现场画外音，不露脸抢镜。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<一次采收，菜落小篮>",
+      "source_shot": 6
+    },
+    {
+      "title": "她早给家里留了",
+      "size": "白棠分菜中近景",
+      "composition": "自用碗在左，小交换篮在右，数量明显有限。",
+      "camera": "固定，先把最好的一把放进自用碗。",
+      "action": "白棠把当晚要下锅的菜先留下，再将有限余量放到另一只小篮。她看向门口许砚，回应他刚说的留菜，不机械复述库存表。",
+      "speaker": "白棠",
+      "dialogue": "早留好了，咱们自己得先吃。",
+      "delivery": "有一点得意，体现共同生活的默契。",
+      "mode": "onscreen",
+      "faces": [
+        "白棠"
+      ],
+      "sound": "<叶菜分别入碗入篮>",
+      "source_shot": 7
+    },
+    {
+      "title": "带着结果去见客人",
+      "size": "工作间交货台无人中景",
+      "composition": "修好泵在干净托盘，旁边只有少量交换菜，旧支架单独收着。",
+      "camera": "短跟许砚把泵抱起，收在空出的托盘位。",
+      "action": "时间省略后试转结束，许砚排干残水，把泵抱往外门交货处。白棠已给种子袋封口，工作台保持整齐；没有把未验收原料提前倒进打印仓。",
+      "speaker": "许砚",
+      "dialogue": "我去交货，回来就吃饭。",
+      "delivery": "向厨房方向说，声音带一点盼头。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<工具收好，泵由人手抱起>",
+      "source_shot": 8
+    }
+  ]
+}

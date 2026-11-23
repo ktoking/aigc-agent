@@ -1,0 +1,95 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode": "EP046_coop-pond",
+  "segment": "segment_04_45-60s",
+  "title": "巡查拍到一缕烟",
+  "directory": "segment_04_45-60s",
+  "duration": 15,
+  "time": "D2白天，收蛋后例行无人机巡查",
+  "source_segment": "segment_02_30-60s",
+  "source_shots": [
+    5,
+    8
+  ],
+  "cast": [
+    "许砚"
+  ],
+  "offscreen": [
+    "白棠"
+  ],
+  "refs": [
+    "villa",
+    "firstEgg",
+    "pondWarm",
+    "coopWarm",
+    "control",
+    "droneTerminal",
+    "pumpHouseSmoke",
+    "outfit_许砚"
+  ],
+  "opening": "白棠先收好刚发现的一枚蛋；许砚按日常安排回控制室巡查，并非突然接警。",
+  "ending": "终端拍到南侧旧泵房一缕细烟；许砚仅记录位置，让无人机按原路返航。",
+  "bridge": "烟只提示可能有人；不新增尸潮或立刻救援，下集仍在同日夜间修供暖。",
+  "shots": [
+    {
+      "title": "把蛋带回家",
+      "size": "厨房台面无人近景",
+      "composition": "一枚蛋、可洗小碗和少量青菜在工作台，温室雪景留在窗外。",
+      "camera": "侧跟托盘被放稳，定在蛋上。",
+      "action": "白棠把当日一枚蛋放到干净托盘，饲料勺留在棚里没有带进厨房。她的声音从台边传来，许砚在门外回应前先看见这点收获。",
+      "speaker": "白棠",
+      "dialogue": "今晚加个蛋，谁也别抢。",
+      "delivery": "轻松玩笑，生活感来自这点珍惜。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<托盘落台，不加庆祝音效>",
+      "source_shot": 5
+    },
+    {
+      "title": "收工也要看一圈",
+      "size": "许砚控制台单人中景",
+      "composition": "许砚在左操作普通无人机终端，右侧监控仍显示唯一炮台空仓。",
+      "camera": "短推看他放下手套、起飞确认。",
+      "action": "回到例行值守，许砚检查无人机电量后从院内起飞；不是收到警报突然出动。厨房的话还在，他接话同时做平常巡查。",
+      "speaker": "许砚",
+      "dialogue": "你先收好，我巡完就回来。",
+      "delivery": "接住她的玩笑，语气平和。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<终端按键，起飞声短暂>",
+      "source_shot": 6
+    },
+    {
+      "title": "雪地里只有这一缕烟",
+      "size": "无人机俯视远景",
+      "composition": "旧泵房在山谷一侧，树林遮住周边；不出现新的别墅或可读坐标。",
+      "camera": "无人机远处定悬，极短靠近后停住。",
+      "action": "相隔一段飞行时间硬切到山谷，泵房屋顶上升起一缕细烟。没有清晰人脸、尸群或枪口，画面只能证明附近可能有人生活。",
+      "speaker": "许砚",
+      "dialogue": "南边那间泵房，好像有人。",
+      "delivery": "控制室观察画外音，保留不确定性。",
+      "mode": "voiceover",
+      "faces": [],
+      "sound": "<远处风声与无人机低嗡>",
+      "source_shot": 7
+    },
+    {
+      "title": "先记下来",
+      "size": "许砚控制室近景",
+      "composition": "他在简图边记一笔，屏幕保持泵房远景，不显示别墅定位。",
+      "camera": "从终端回到他收回操纵杆的动作。",
+      "action": "许砚记下方向并让无人机返航，不用对方一个动作就推断善恶。例行巡查结果留给后续交易线，厨房暖光仍在身后。",
+      "speaker": "许砚",
+      "dialogue": "先记着，别惊动他们。",
+      "delivery": "对同一内线说，克制收尾。",
+      "mode": "onscreen",
+      "faces": [
+        "许砚"
+      ],
+      "sound": "<操纵杆回中，记录笔轻响>",
+      "source_shot": 8
+    }
+  ]
+}

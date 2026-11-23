@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: precise-object-edit\n输入图为唯一编辑目标。16:9真人写实电影帧。\n只修改右侧天空：去掉圆形红月，替换成普通深红云层，没有任何月亮圆盘。此时距离血月仍有一天，只有红云预兆。保留门、楼梯、两盏灯及其白色照明、墙面纹理、相机位置和全部其他细节。\n无字幕、水印或新增文字；保存为新的版本，不改变构图。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP009/frames/EP009-S04-release-take01.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8585c6a7-5c49-48c4-b05b-29c07d334a08.png"
+}

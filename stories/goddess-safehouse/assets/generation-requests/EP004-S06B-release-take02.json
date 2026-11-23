@@ -1,0 +1,9 @@
+{
+  "prompt": "参考1：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n真人写实电影独立静帧，16:9横屏。参考只锁成年陈屿衣服，不继承背景和姿势。\n全新俯拍桌面特写，只出现陈屿炭灰夹克袖口和两只手、摊开的小采购本、探照灯开关与备用电源接口。指尖按向本子三行短笔迹，另一手碰到灯开关。人物脸和身体完全不入镜，桌面干燥，不生成可读字，不画漂浮UI。\n适度细节，无水印、字幕、满屏微纹理。\n出镜人物严格按本镜事件，不凭空加人。画中没有标题、字幕、水印、漂浮UI；后期另行烧录字幕。单张横屏16:9，真人电影静帧，环境干燥、简洁有序，适度细节，无过锐微纹理。所有人物均为成年人。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-cc4af2fb-84b8-4e15-96af-5500f0648893.png"
+}

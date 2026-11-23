@@ -1,0 +1,17 @@
+{
+  "version": "paradise-v1",
+  "model": "speech-2.8-turbo",
+  "api_speed": 1.0,
+  "post_atempo": 1.3,
+  "sample_rate": 32000,
+  "catalog_verified": "2026-10-26 MiniMax get_voice status_code=0",
+  "characters": {
+    "N": {"name": "陈屿旁白", "voice_id": "Chinese_worker_male", "pitch": 0, "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白"},
+    "CHEN": {"name": "陈屿对白", "voice_id": "Chinese_worker_male", "pitch": 0, "direction": "少而直接，判断和命令落稳"},
+    "XIA": {"name": "夏凛", "age": 28, "voice_id": "female-yujie", "pitch": 0, "direction": "冷御姐，低稳短句；关心藏在行动里，软化时不换音色"},
+    "XU": {"name": "许知意", "age": 27, "voice_id": "female-chengshu", "pitch": 0, "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件"},
+    "QIAO": {"name": "乔星野", "age": 24, "voice_id": "female-tianmei", "pitch": 0, "direction": "成年元气甜声，轻傲娇，谈技术利落；不模仿幼童，不尖叫卖萌"},
+    "GU": {"name": "顾南枝", "age": 26, "voice_id": "Chinese (Mandarin)_Soft_Girl", "pitch": 0, "direction": "成年柔软暖声，语气温软但遇事能坚持；本批仅无线电对白"},
+    "WANG": {"name": "王大富及门外声音", "voice_id": "Chinese_worker_male", "pitch": -2, "direction": "只作必要门外台词，与陈屿保持场内空间区别，不冒充新的主叙述者"}
+  }
+}

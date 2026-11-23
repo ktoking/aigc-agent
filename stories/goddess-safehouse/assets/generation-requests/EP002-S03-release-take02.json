@@ -1,0 +1,10 @@
+{
+  "prompt": "参考1：仅锁初始无窗白色空厅，无货架库存。\n参考2：仅锁对应成年角色脸、发型和服装，不继承参考背景与姿势。\n真人写实电影静帧，横向16:9。人物参考仅锁陈屿脸与服装，空厅参考仅锁无窗白色大厅。唯一事件：陈屿在干净空厅内将一颗切开的新鲜草莓与手机录像同框验证，桌面只有同一盒新鲜草莓和采购本，想到未来囤米；没有任何米袋、货架、库存。干燥有序，适度细节，没有字幕水印，没有可读文字或浮空UI。本镜只有陈屿一人。\n出镜人物严格按本镜事件，不凭空加人。画中没有标题、字幕、水印、漂浮UI；后期另行烧录字幕。单张横屏16:9，真人电影静帧，环境干燥、简洁有序，适度细节，无过锐微纹理。所有人物均为成年人。",
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+  ],
+  "generator": "built-in image_gen",
+  "transparent_background": false,
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-29440988-de23-4407-8225-afa51ba73a2f.png"
+}

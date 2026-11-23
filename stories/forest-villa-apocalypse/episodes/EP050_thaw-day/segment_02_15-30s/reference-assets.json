@@ -1,0 +1,139 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 15,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "local_reference_files_complete": true,
+    "note": "九项为本项目规划，不代表已验证模型上限或账号权限。仅按清单取图，不扫描历史目录，不传首尾帧，尚未提交。"
+  },
+  "references": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "description": "利落低马尾；鼠尾草绿短款工装外套、浅灰圆领上衣、深灰直筒工装裤、黑色防滑工作靴。能独立判断生产与库存，有心疼劳动、期待收成和熟人间的幽默。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "白棠",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 1
+    },
+    {
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "label": "正确别墅冬季总景",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "planned_file": null,
+      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 2,
+      "segment_file": "frames/参考图2.png"
+    },
+    {
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-film-repaired-16x9.png",
+      "label": "原温室补膜后结构",
+      "scope": "只锁完整黑棚架和透明补膜连接关系；苗盘数量、成熟程度与灯具按本镜，不复制满棚成熟菜；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "key": "greenhouseRepaired",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 3,
+      "segment_file": "frames/参考图3.png"
+    },
+    {
+      "key": "growthTray",
+      "kind": "scene_or_prop",
+      "label": "单盘叶菜与邻盘幼苗",
+      "file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "planned_file": null,
+      "scope": "温室中一盘接近采收的叶菜与邻盘刚播小苗，前者展开到成熟、后者不变；仅提供作物状态，不锁人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 4,
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "key": "eggAndGreens",
+      "kind": "scene_or_prop",
+      "label": "自用与交换的有限收成",
+      "file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "planned_file": null,
+      "scope": "当晚自用碗与少量交换菜分别放，库存鸡蛋和有限青菜，不虚构满仓收获；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 5,
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "key": "seedlingRack",
+      "kind": "scene_or_prop",
+      "label": "一层育苗灯架",
+      "file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间一层旧金属架安装有限育苗灯、控制组件与一盘刚播种的苗盘；无人物，不生成多层工厂；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 6,
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "key": "repairedPump",
+      "kind": "scene_or_prop",
+      "label": "同一旧泵修后试水",
+      "file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "planned_file": null,
+      "scope": "同一旧泵装上新外部支架，防溅台上试转、管口回到同一水桶；电气部分不浸水，无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 7,
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 8,
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "key": "seedTray",
+      "kind": "scene_or_prop",
+      "label": "有限种子与空育苗盘",
+      "file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间旧架、空育苗盘与有限种子袋，接近窗口光照不均；无人物，不画成熟蔬菜；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "number": 9,
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色",
+    "不上传旧三视图、旧关键帧或历史output",
+    "不把本地文件存在视为视频人物一致性通过"
+  ]
+}

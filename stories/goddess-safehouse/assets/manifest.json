@@ -1,0 +1,4784 @@
+[
+  {
+    "asset_id": "CHEN",
+    "type": "character_identity",
+    "path": "assets/baselines/CHEN-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-de4759a5-0b08-4764-8e99-8d79b8094512.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/CHEN-v1.txt",
+    "sha256": "831c23a7b3d3a1d8c4fc6da8047a68a6e7aa3c6bad7e36b0e7287cf8630bd7fd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "演员身份和服装清楚，基准不是成片事件图。"
+  },
+  {
+    "asset_id": "XIA",
+    "type": "character_identity",
+    "path": "assets/baselines/XIA-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-9ad35a29-6745-40cb-9aff-508de61066f8.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/XIA-v1.txt",
+    "sha256": "04c11673ce1b3c66278b9bd1dd330f5ba8685f61447990bf115e6bcc220d619a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "身份可读；地面偏亮，只取人物身份，不继承地面反光；左耳后疤不清楚，后续针对机位约束。"
+  },
+  {
+    "asset_id": "XU",
+    "type": "character_identity",
+    "path": "assets/baselines/XU-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-79ad331e-ec96-44f4-863d-f7cf636be8c6.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/XU-v1.txt",
+    "sha256": "c50e2e4945c80914fb13e8fb0de83229d41091fdf555d2c45f22ae5efaee8a39",
+    "native_dimensions": [
+      1672,
+      940
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "身份可读；药盒有微小印刷字符且远景有虚焦路人，只取人物身份，不将此图作为无字无人群最终事件图。"
+  },
+  {
+    "asset_id": "HOME2",
+    "type": "scene_style_only",
+    "path": "assets/baselines/HOME2-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7f0f6370-0e77-4675-97bf-a361c70b3c06.png",
+    "generator": "built-in image_gen",
+    "prompt_path": "assets/baselines/prompts/HOME2-v1.txt",
+    "sha256": "93947c6c800b357ab072a2fbe52bc349ad561f685b79e01dfb4b7047285bdd17",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "selected_for_production": false,
+    "status": "BASELINE_CANDIDATE",
+    "review_note": "暖色干燥有序的风格可参考；门数量视角未能严格验证四卧室，正式空间图按四卧室新生成，不能将这张视为精确平面布局锁。"
+  },
+  {
+    "asset_id": "WANG",
+    "path": "assets/baselines/WANG-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3315f9a3-760b-4679-b4fa-4f99ca3bba8e.png",
+    "sha256": "bbff1843fb7391672c3d2d213f63f43e174ce2fb5004ac89267db4fcf2e5be3f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "character_identity",
+    "prompt_path": "assets/baselines/prompts/WANG-v1.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "MA",
+    "path": "assets/baselines/MA-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f592bd4d-05ee-4d0e-bcdb-ec1c738a6ff2.png",
+    "sha256": "b2fc10fa8fdf32979bed38cae4c67e6cdb6817f9d2830e303952114cce13de5a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "character_identity",
+    "prompt_path": "assets/baselines/prompts/MA-v1.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "EP001-S01",
+    "path": "episodes/EP001/frames/EP001-S01-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-385a5cce-338d-4767-aab3-ade224d79d9c.png",
+    "sha256": "599c6fdd96b5e88014c8afdfd68a465e4cacdf65544ad1c90f4468f5fe6c5afa",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S01.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S02",
+    "path": "episodes/EP001/frames/EP001-S02-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-edcd1458-5af7-493f-b081-9976a3c2289d.png",
+    "sha256": "c0487cedae6fa455b62a7d2658eb72791d5d916d45d02c917f8dfbcb1028c4f8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S02.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S03",
+    "path": "episodes/EP001/frames/EP001-S03-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-218e3ff6-ebbc-466d-9564-a63a170e9905.png",
+    "sha256": "0be7eaacfef04e13f4ff45682e68c3badbed328fcb9e5b616d8a2d24f46e3239",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S03.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S04",
+    "path": "episodes/EP001/frames/EP001-S04-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1876b486-c0a7-4ea2-a2de-fc9bac4de07e.png",
+    "sha256": "6ca00b7802258d5a0f24cfac1043c7b697d1651384d18de1686ac58da90f88a2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S04.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S06",
+    "path": "episodes/EP001/frames/EP001-S06-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-18af652b-07d8-4fdb-9dc1-3583f09cec4a.png",
+    "sha256": "e12b524286facdc30337cbc9b45dfcc406352a4e4a5a4d90f42ec244e4db2d93",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S06.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S05",
+    "path": "episodes/EP001/frames/EP001-S05-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1a63e5ac-c6a6-46b7-a75d-7a57133e4804.png",
+    "sha256": "339285aab6bda107919227e725d0919a6c4524253ce87ce92c13a4fd24aa70e1",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S05.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S07",
+    "path": "episodes/EP001/frames/EP001-S07-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f18c4a9d-01c9-402f-9e7c-d82ae5418d7d.png",
+    "sha256": "f41d55a4f5e86fffe46724b43cbf384a3a0f4f9f7f08e64086cbd63e67f5b899",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S07.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S08",
+    "path": "episodes/EP001/frames/EP001-S08-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-27cdc473-045f-4e5a-bb1b-63313cbbe643.png",
+    "sha256": "d2c780bd4dfd39d06a593d35c7e7355f69be7d8c36604589603184235af81902",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S08.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "XU-v2",
+    "path": "assets/baselines/XU-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ef3df20a-e8c4-443b-b355-5b08cf9cca51.png",
+    "sha256": "0f0fa5c0c651148d4350efe22ca12b84874732a5dfdd57cddf579d571b10760b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "character_identity",
+    "prompt_path": "assets/baselines/prompts/XU-v2.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "XIA-v2",
+    "path": "assets/baselines/XIA-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-da32bfcd-a151-4cd8-8470-f5a5495f7f64.png",
+    "sha256": "4be227084d7419cbfa23c7a458d0921edf7ad26f21f15e36c4b9d78bc87f7d05",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "character_identity",
+    "prompt_path": "assets/baselines/prompts/XIA-v2.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "EP001-S09",
+    "path": "episodes/EP001/frames/EP001-S09-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8ea0b988-ef18-404e-a059-df8b3827b8ea.png",
+    "sha256": "14c18de80b633bf828278a919e49b72da1b9286c5d3d335c3190c25e9e50081f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S09.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S10-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S10-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ed90de38-2ac6-4779-a751-dc48957838c9.png",
+    "sha256": "d591f34e2ad0dd9842e9aed7cb91c1ff90339500ef6d5ea0c84e248ad80333d8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S10.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "出现尚不存在的货架纸箱、窗和杯装方便面，空厅状态错误"
+  },
+  {
+    "asset_id": "EP001-S11-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S11-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ae305219-b661-4588-98de-5677726e09a0.png",
+    "sha256": "d862f42652586b72700a6823fe16eae3c3aadf988f73a024af012a3af499c63f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S11.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "出现尚未采购的货架和纸箱，空厅状态错误"
+  },
+  {
+    "asset_id": "EP001-S12",
+    "path": "episodes/EP001/frames/EP001-S12-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8761e7eb-fb3f-4a1b-8d3e-b7eb3999cdc0.png",
+    "sha256": "837349d2cc1eda1c9755d83febb757a71dc4a7d0382a9d447c0f8d6ce2b5c8b9",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S12.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S14-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S14-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-feb26e8a-aca5-41cc-97f7-85592fb1a6b1.png",
+    "sha256": "a34507be82173afd92e38aa17e130cbcc1417f342d7cfb87962bacd5c2e8676e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S14.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "出现手机外悬浮聊天气泡，违背干净无UI画面"
+  },
+  {
+    "asset_id": "EP001-S15",
+    "path": "episodes/EP001/frames/EP001-S15-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4072be99-ee05-4207-a64f-61a3c284d2d0.png",
+    "sha256": "0aa1f088785237f44d8785bc96c7627a2c48badbb303e01378369d0afdc36087",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S15.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S16-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S16-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-53101dc6-69c7-4323-9233-1e28f3549a28.png",
+    "sha256": "3e7626afd84659e5b9527cf2e9117b792b6845736caa930664b3a1a58a9f64e8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S16.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "出现未采购的货物，空厅状态错误"
+  },
+  {
+    "asset_id": "EP001-S13-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S13-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e4b0c52c-1bab-406c-9d25-9615c043688e.png",
+    "sha256": "706de41f97f2e8a1925ee9c9054ae81ac0c0010880f40d1dfae719b8856b2f37",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S13.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "前门误作卧室门、另有悬空持手机的第三只手，空间和人数错误"
+  },
+  {
+    "asset_id": "HALL1",
+    "path": "assets/baselines/HALL1-v1.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8660e6ae-9098-4aed-87eb-d527bdd809a9.png",
+    "sha256": "6b25b6fd57ff7c1727fad7798978197fdf84a3caf6580379b74011d1793532f2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "scene_layout",
+    "prompt_path": "assets/baselines/prompts/HALL1-v1.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "XIA-v3",
+    "path": "assets/baselines/XIA-v3.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ef88887b-31f1-4693-851c-dccb71e8812a.png",
+    "sha256": "a9b064a95d24fc744f48bd9bbeb692cfe7138d078475d9d30fc3ea5b5475a816",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "character_identity",
+    "prompt_path": "assets/baselines/prompts/XIA-v3.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "XU-v3",
+    "path": "assets/baselines/XU-v3.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-abcd39ab-2e10-40af-b27c-1937ea40fa46.png",
+    "sha256": "295a2023ef3c4ef7d8913e83eea0fbc309fc061ea01a8527c30fde7aa8e1b228",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "character_identity",
+    "prompt_path": "assets/baselines/prompts/XU-v3.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "EP001-S11",
+    "path": "episodes/EP001/frames/EP001-S11-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-6e1ddc84-3317-4008-b2ed-4bf502bbe325.png",
+    "sha256": "2bb59feb89f115295cc4dcebd13118c7a47d72fdbc20d1a298c421fd50e384ca",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S11.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S13",
+    "path": "episodes/EP001/frames/EP001-S13-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-db256648-dc9d-41ab-8784-6cefb26db9e1.png",
+    "sha256": "5296b39ffaca63ea6db6a1640bb36373b95fd381fe5eaf98de7e293b8179adfc",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S13.txt",
+    "status": "VISUAL_REVIEW_PASS",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S14",
+    "path": "episodes/EP001/frames/EP001-S14-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dcc7a7fc-e51e-4a81-915f-22eb7f09fde6.png",
+    "sha256": "62f70d61d7b3f5c9259cf097c42fd3001af41255be53f9a744f47b8822099d32",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S14.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S10",
+    "path": "episodes/EP001/frames/EP001-S10-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3cb1b9eb-1dbf-4235-98c8-d42ca48a68bd.png",
+    "sha256": "9f2ab38199323bcbcdcf5b325bee48e8fb46a364cec0aa8279f675fdc405c535",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S10.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S16",
+    "path": "episodes/EP001/frames/EP001-S16-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-95920f96-7096-4430-a666-76a8f1e72077.png",
+    "sha256": "77e1a8adf714adcb39553370b356c587be75c44f272a14895991a1a8f453a334",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S16.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S17-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S17-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ff962cb2-3bfc-48f3-86a0-bcef6fbbac0a.png",
+    "sha256": "11f065afd908481ef76a28b4df1c4d1fb937c8eaf3d6e42f6391e1711f08bd16",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S17.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "外门敞开且外面变成白天，违背当晚回头查看空屋"
+  },
+  {
+    "asset_id": "EP002-S01",
+    "path": "episodes/EP002/frames/EP002-S01-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-55f6dd54-8a75-4fc1-96d2-b4ecb8d0397d.png",
+    "sha256": "8cfb24280cd1da96639811695475fda7fe6ffe9e012b552409d031ae82ed9187",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP002/image-prompts/EP002-S01.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S01B-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S01B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5875d3af-d9d2-45f1-af01-adbf64664fa5.png",
+    "sha256": "ab3bbe9a62576e7549a82a1904028c872bdc2abde5576fd6e933f85656b61bd7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S01B.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "金条袋误成浅色大麻袋，需与主镜深棕小布袋一致，并保持手背血迹"
+  },
+  {
+    "asset_id": "EP001-S02B-rejected-take01",
+    "path": "episodes/EP001/frames/EP001-S02B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d214e3c4-0144-4237-8a17-0db5dc763748.png",
+    "sha256": "cf641e5b970513e60db01428bdffe2630d53e870a8990b5494977903ca3f956a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S02B.txt",
+    "status": "REJECTED",
+    "selected_for_production": false,
+    "review_note": "凭空多出两位女性，需只出现陈屿一个人"
+  },
+  {
+    "asset_id": "EP001-S04B",
+    "path": "episodes/EP001/frames/EP001-S04B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7f82c1fc-d803-4743-a106-ac242897267b.png",
+    "sha256": "95cb786e04fe342669742f9ca7ce7e2a0100dc961086cef74977e1ec5ae8cb62",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S04B.txt",
+    "status": "VISUAL_REVIEW_PASS",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S10B",
+    "path": "episodes/EP001/frames/EP001-S10B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-92f2a359-4be8-44ab-9eda-e889b8bac941.png",
+    "sha256": "b62f52c24145ce5a508df60b8d44664c52c8ad1358a64c9023d95085344eed68",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S10B.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S11B",
+    "path": "episodes/EP001/frames/EP001-S11B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-10829a85-bc8d-4f40-9b55-e6809ff112ea.png",
+    "sha256": "383ceeb498ca1e9b8f2673fce8aafc701f99a30ae4b6866c6aa9e6f56b0f05f5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S11B.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S08B",
+    "path": "episodes/EP001/frames/EP001-S08B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c6d3bf71-4b1f-47bc-88e3-4ca86127d427.png",
+    "sha256": "df6321b3d12198eb5888cb7caea0b6f5d58cc34d3b7570183dd8e0eb1ffeb8fd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S08B.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S13B",
+    "path": "episodes/EP001/frames/EP001-S13B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-78fc8694-f256-4ef6-823e-bbf150ffbccb.png",
+    "sha256": "17e4a80bfc60a1c60e07c1331afad1b57f0732734d964626e917fccb59f88951",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S13B.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S14B",
+    "path": "episodes/EP001/frames/EP001-S14B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8a906963-ad8b-4a90-ac03-c0cec55afe42.png",
+    "sha256": "59bf59c0d0ce083396a3664c4c550725bd2268bea896ffdcb81283ba89906bc7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S14B.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP001-S01B",
+    "path": "episodes/EP001/frames/EP001-S01B-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7c7e6ad2-b9ea-4ab5-ae15-268d4a0c40b9.png",
+    "sha256": "2bb127c4aa6462570139ae6fbb02e722577232bf177053365276a9c18be8206b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S01B.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "EP001-S02B",
+    "path": "episodes/EP001/frames/EP001-S02B-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-fd649de7-5a9f-4e60-8a7c-016a114a746a.png",
+    "sha256": "8c2c1a1b10a9df5ed80ea2ff5e7c6c5c2e293b2ea5d1c7caa59dcf21ac1e16d1",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S02B.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "EP001-S16B",
+    "path": "episodes/EP001/frames/EP001-S16B-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c67efc81-45c4-420d-a032-32e861cdc7f7.png",
+    "sha256": "6b8ddc3693dbd21fa22149f61de2936c8a4f85bf1041bc8f005e9e405577593f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S16B.txt",
+    "status": "GENERATED_VISUAL_REVIEW_PENDING",
+    "selected_for_production": false
+  },
+  {
+    "asset_id": "EP001-S17",
+    "path": "episodes/EP001/frames/EP001-S17-v2-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-03711fb6-3e28-4593-8f37-1f73637181ae.png",
+    "sha256": "284413eca79aea9a9683ffa232eaf9ae96797e7c792a61bfb98338e48348fcdd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S17.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S05",
+    "path": "episodes/EP002/frames/EP002-S05-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c34edba3-b831-4fa8-9d24-ec02e42f1320.png",
+    "sha256": "6a68dbc7b16489213a816c983ddabe2278b3bdb7bc49d05487348688cee61d92",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP002/image-prompts/EP002-S05.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S04",
+    "path": "episodes/EP002/frames/EP002-S04-v2.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-41af3e11-fd69-4361-9df6-791b1eb30d3c.png",
+    "sha256": "20fb7abc85e8086022fdab094dd6840776fa26ccf4844747bea443bb094568c6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "episodes/EP002/image-prompts/EP002-S04.txt",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S02",
+    "path": "episodes/EP002/frames/EP002-S02-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-fa354be2-8344-45be-98d3-3b36905328b6.png",
+    "sha256": "61845f92e624adffcb297bfeb01f480fb54ce05d9bc6d246fa891a8a90cc7d53",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S02-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S03",
+    "path": "episodes/EP002/frames/EP002-S03-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-29440988-de23-4407-8225-afa51ba73a2f.png",
+    "sha256": "d93a6a574728cfebd28f661dabd48f42057a1836494966525014770af75d4b17",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S03-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S06",
+    "path": "episodes/EP002/frames/EP002-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-af2a9f25-3d0d-4676-9011-f5862917e3fe.png",
+    "sha256": "980ad03715d9c6378d0b35d8a1d80c3e9139d8ac2a20697e1768f6c6eee69576",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S07",
+    "path": "episodes/EP002/frames/EP002-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e624aac6-4bf9-415a-8c58-6d4942c33c0a.png",
+    "sha256": "288644013cd58c7a6905f45099872329173178996a5b767c591445279c348009",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S08",
+    "path": "episodes/EP002/frames/EP002-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ac21e95d-0a03-4dcf-a37b-4f33c1e09f24.png",
+    "sha256": "bd414e37bda801dc21a793acf56f6baac2ac6592edab6c6e52d4cd15e5b48b34",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S09",
+    "path": "episodes/EP002/frames/EP002-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-37895ff9-194e-4660-b24a-04af0c20a6eb.png",
+    "sha256": "5feef215b03fc4ff1deee10c67838db2f6a7d98e37e27351a848494d40d1c7c3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S10",
+    "path": "episodes/EP002/frames/EP002-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a5c744a4-c77f-412c-b081-4351da11c5d9.png",
+    "sha256": "b9c31338d507d9da4fc3bd0f851788cd2bc8f3a9c2d60a2d4e7fd3912401ad17",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S11",
+    "path": "episodes/EP002/frames/EP002-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-48fa0a37-d976-4c1b-86cc-071b01f0460d.png",
+    "sha256": "8df9ca0b0af4e492573c9602eb7b7b25cca4ca84734d9b5ca882033e0c238911",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S12",
+    "path": "episodes/EP002/frames/EP002-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dfa5c5a3-6c0a-4bc3-ac0a-14e6289878d4.png",
+    "sha256": "bced52d0deab05509f20baf7b44cbf0a574ffc484a4a028ea078ab2992373f82",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S13",
+    "path": "episodes/EP002/frames/EP002-S13-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-89cc36dc-8859-4080-85d3-117d3d7d5a1a.png",
+    "sha256": "e5d8a28104261b2d7e8544b32e413964c9e72da382aead1b8a24634b10a8f853",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S13-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S01",
+    "path": "episodes/EP003/frames/EP003-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-61cd97ea-aeeb-44b6-aa48-b41af6d0bdee.png",
+    "sha256": "3b6f6376b0cda4c5baa54c3619e5bd7ed7219134fa9b690c1e593c4f9d44ac5a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S02B",
+    "path": "episodes/EP002/frames/EP002-S02B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4332e5b0-6d2b-48a9-b0ab-30d30b60c26c.png",
+    "sha256": "90e2bff22efaec370bfb719f2cf62d7d57df54ce1edb6ece5cd30d96d135d284",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S02B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S04",
+    "path": "episodes/EP003/frames/EP003-S04-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-bf3749e3-c601-45ce-b62d-ee567b40ea70.png",
+    "sha256": "c19150a3a75f960ea401896df8106c20e2e5c3bb5ffb5de5b9e1359a84109aa8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S04-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S14",
+    "path": "episodes/EP002/frames/EP002-S14-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-612a9149-b05a-42a9-b047-f26ead05224c.png",
+    "sha256": "7ed7bd78c85af88303138b036314b78e0e53b1bdd950da89146e2225dd63dcfe",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S14-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP002-S06B",
+    "path": "episodes/EP002/frames/EP002-S06B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-67b69726-1c6e-4dc0-be1f-ada428f9f447.png",
+    "sha256": "5fb1ddce369ce5b84e8d15fcb259dad5140bb12a91df438d99374cc8238cefaa",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP002-S06B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S02",
+    "path": "episodes/EP003/frames/EP003-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ac51d798-0eac-4591-aadf-83baf9102594.png",
+    "sha256": "5664750f42c9b9ccf65aa8173f21b785f2aca7d3afc36cc2b95466a76a32153c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S03",
+    "path": "episodes/EP003/frames/EP003-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-99dc1f93-b999-487e-ae69-1967db93c437.png",
+    "sha256": "dca968123eacb6e8ca130baaeed7fd25ba798a084781393161129652fc92cbfb",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S07",
+    "path": "episodes/EP003/frames/EP003-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-670a12a2-fc13-4393-9f00-294ca1c9ec62.png",
+    "sha256": "44df52e79a237d148f89a25d403d67ae0a5f97b73d73b98833b3fc37b7cca158",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S06",
+    "path": "episodes/EP003/frames/EP003-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7c18fe05-91e9-4263-9e3a-507d743b953a.png",
+    "sha256": "bb4d1cc326e7b2e3faf29de9bbb3c6510e742a240009afaeb99ad52145c278d1",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S05",
+    "path": "episodes/EP003/frames/EP003-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-82194304-b127-441e-80e7-a4ade4804ec4.png",
+    "sha256": "0cfcc9e325b9baa9b6b51a85b5a6b1df8e2c907d9860f5745d6a7b7b87f41fd8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S01",
+    "path": "episodes/EP004/frames/EP004-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f557fdd8-f737-4411-915f-460b3eac421d.png",
+    "sha256": "b208a7f76c03747815848f9dc5cfb68b21155f05e15026c1d30b56393ab82351",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S08",
+    "path": "episodes/EP003/frames/EP003-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d65f1679-21e5-4f62-a60b-a98c7383998a.png",
+    "sha256": "95e6238c52888f84ac94047407d7f6135cfb9a709b22c268b94fe5c026370e0b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S11",
+    "path": "episodes/EP003/frames/EP003-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-6facceaf-3a7e-4aa0-a7a4-28d907bff7a4.png",
+    "sha256": "82dac4cf669394e9e3664b51525a05dc2b7db618364903415d2f2188953e2ac6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S09",
+    "path": "episodes/EP003/frames/EP003-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b14cabc3-c940-4718-bcbe-67a20e7a9ecb.png",
+    "sha256": "9e106e6f4cd32609899ac1ca0892eab96e23081d80d7a1616e2aa6923c17093c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S06",
+    "path": "episodes/EP004/frames/EP004-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5ecac902-3b4e-4039-ba11-cc29a6449d31.png",
+    "sha256": "51604e42328ab784541dfed9fc4cddcc4d0caeb8e7f1679b1b3fa0e149480fc2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S04",
+    "path": "episodes/EP004/frames/EP004-S04-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-da9cd6d5-3b5a-4dcc-82a8-2cf7a1609c97.png",
+    "sha256": "f63694b9c3b1d5b909fc8b75baee869ba5375caa295f00797b8ab07a0c9b1551",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S04-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S04",
+    "path": "episodes/EP005/frames/EP005-S04-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f5a8d069-1f20-405b-a1f6-c8d23c0939e7.png",
+    "sha256": "12f8c436e45cf5d1cdea4d78b3c118f61582b545f602b50c89867dd25bdd2cf3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S04-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S05",
+    "path": "episodes/EP004/frames/EP004-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-623113fc-0f3c-42fa-9b0f-8933351e1329.png",
+    "sha256": "0c6c211ec0ac8446f0bde999ae2fb569df2ce7c05be2d437cc4f59523bd267ec",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S05",
+    "path": "episodes/EP005/frames/EP005-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ca5d2f7f-9fd3-497d-9b7c-b82d08e3ad81.png",
+    "sha256": "1905aaa535116e9451355e974c67b27fb0aa53da0adec3f0e74b294ace5e9b7f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S10",
+    "path": "episodes/EP003/frames/EP003-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-2ef0e866-4397-41b0-978d-c77fd8534f53.png",
+    "sha256": "c60597de1c66623a474d2a64ffc382cbfbd7429c745a3de1e0e85c954df8d5c8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S06",
+    "path": "episodes/EP005/frames/EP005-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d3ac3ea1-713a-4279-a480-92d1e5e128e3.png",
+    "sha256": "6f8ed272cf3ee9ecef98c13e7f9d665f4c67c5afa51b146d8ff15686864a8448",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S02",
+    "path": "episodes/EP004/frames/EP004-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7214d886-1c4c-43bf-b93d-e5b594db5c61.png",
+    "sha256": "57d843eff68cd3e0149aee1e35bb2fb325afb0a995c00fe6ad6c50b8bf01e463",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S10",
+    "path": "episodes/EP005/frames/EP005-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-2fd4f42c-07da-4c6b-a22e-db1dcfa9fcd9.png",
+    "sha256": "8803e16ae835083a46565fba8cb533f4e0e51e121a99b8d39120da66e5930c21",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S07",
+    "path": "episodes/EP004/frames/EP004-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5421ab83-0012-4eb5-ba7e-b0067f8cfed0.png",
+    "sha256": "50beaed27a54e592cc7df7d174e6e9e0cb24da203d2269318c3b9e2fb7284630",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S07",
+    "path": "episodes/EP005/frames/EP005-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-aca6fbb8-866b-4408-ae83-f70aebb0ad17.png",
+    "sha256": "ad13e9e1947be98e974a644b7a593312e564c36a20c76f7940d08817ecc1f86d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S10B",
+    "path": "episodes/EP003/frames/EP003-S10B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-6529a7f1-8ec7-4785-ba23-b51a4a3abf2f.png",
+    "sha256": "2ab85691c37297f541e862177010c26dbf38ab77dcd885f80339a6e9e0485a68",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S10B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S03",
+    "path": "episodes/EP004/frames/EP004-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d35dbca4-eafa-40a4-b732-e9f8517c4d83.png",
+    "sha256": "4a2491af95164de6e7855830a4375a8f45067f8188a9f0196744eb8265cb44ce",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S05B",
+    "path": "episodes/EP004/frames/EP004-S05B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-13dcac72-fb18-41be-b2f0-f9570437ab4e.png",
+    "sha256": "7ad9df71530d4260c69d20f6cf552b457c4f8ce51f055bafcfbae2f540072f9e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S05B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S09",
+    "path": "episodes/EP005/frames/EP005-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d5cef09f-63fb-4023-9906-55ffb2c50a3d.png",
+    "sha256": "79c62e9e04381bd5fd8abfaa729e26630d24a3bf888470be10a0d2771b935fad",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S08",
+    "path": "episodes/EP004/frames/EP004-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-11e3201f-54b5-4bba-9589-0c29be879793.png",
+    "sha256": "a783116ed7da464c89d32c05f78c843e26b690aa968671572ccd268037123c54",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S13C",
+    "path": "episodes/EP004/frames/EP004-S13C-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f74ce564-8c76-4d8a-bcc1-d1f8283d00ea.png",
+    "sha256": "1fc32e0f70872afa37c358f97591d5001952a59b24e0527a647b6845534d661b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S13C-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S11",
+    "path": "episodes/EP005/frames/EP005-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1a56511a-f2ec-4d37-a94c-a795079fc600.png",
+    "sha256": "ac8631bd2ef74de09b5387fcec2b2ed7e5c3be2cc72bb69bbb7143be75b82ef8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S01",
+    "path": "episodes/EP006/frames/EP006-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-93671dd6-c642-4fa4-8ce6-e3d5245580ce.png",
+    "sha256": "c25132d069f05d1038635a6af74a9d88d64676394d63f209815c9a1f650c92cb",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S09",
+    "path": "episodes/EP004/frames/EP004-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-697ee5af-38f8-4763-8427-7741d7f5e0be.png",
+    "sha256": "f83444f98512ce92642c1fa8489d402bc093ed63a96f884a29c70c9bf16b7568",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S10",
+    "path": "episodes/EP004/frames/EP004-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-6f69ee89-eae6-43d5-8053-8695287e9dd0.png",
+    "sha256": "b5c1c67f6bbaf259cc20a2740bcff7d2ad6beb1ce8d500567a3d3fd3862f0f5e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S12",
+    "path": "episodes/EP005/frames/EP005-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a4e6f23d-cff5-491c-899f-c68e3fd38adc.png",
+    "sha256": "6c243602ff5fb3141acd01b1fec79629e5c683c8f81a8c4fdf8ed72bfc4a419c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S11",
+    "path": "episodes/EP004/frames/EP004-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-efbc68db-e9b9-4756-a567-c1a564fe507d.png",
+    "sha256": "8ba578dfd3dc0da67dee08ed318abd4a8095f49146f4ced3f0216b4623bc294a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S13B",
+    "path": "episodes/EP004/frames/EP004-S13B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-98dfb49e-cca3-4774-8535-05cbefe617fd.png",
+    "sha256": "da720ea67c09d49a422d54518fbe787eabade244fd33f7a2b7221c26328a4dae",
+    "native_dimensions": [
+      1672,
+      940
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S13B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S01B",
+    "path": "episodes/EP003/frames/EP003-S01B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-588092ad-2f31-414c-ba60-a94f0d0ffab4.png",
+    "sha256": "91c57f347261af342bb100b319affecf2cd41fb12610391e2b863d4822722922",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S01B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S08",
+    "path": "episodes/EP005/frames/EP005-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3cd286c3-f51e-43b6-be85-75e6a2f44fb6.png",
+    "sha256": "67216c6f7e7ef0b28303077a392aed36933ebdf12dcf022cfe51a97279f45af2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S04B",
+    "path": "episodes/EP003/frames/EP003-S04B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3b3e66a1-ea3e-4cf9-9c0f-a2a6d9a324da.png",
+    "sha256": "58eb36ca0015184c77bd24300ab7af565c588ee97195325ce1a0649a77530122",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S04B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S04",
+    "path": "episodes/EP006/frames/EP006-S04-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-696b4994-5da7-41d3-abb5-f69cb8917adf.png",
+    "sha256": "6eefbb49bc188ef71322f8ea1014a8fe88daacb25ec788bf52f95adbab9419e1",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S04-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP003-S12",
+    "path": "episodes/EP003/frames/EP003-S12-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-84b89b89-e77b-43bc-ab53-c1c32cfe8dde.png",
+    "sha256": "58bb12c30d1897fcbff61b7965920228e82076e2b7d57bbe2a29b879bd9b0f5e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP003-S12-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S01",
+    "path": "episodes/EP005/frames/EP005-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ff497b36-68c0-42ee-abcd-c7977bc6ddb9.png",
+    "sha256": "9817dd360e7507d9a69311fd408670f5a8ec92e779ddbfebc8b1f51d15492159",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S09",
+    "path": "episodes/EP007/frames/EP007-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0a25a748-04e2-425c-82a4-82719eeee226.png",
+    "sha256": "a970f3db003ab87134176ea98a499c457a2b8120776cb92155aae4c1ec8f6d2c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S12",
+    "path": "episodes/EP004/frames/EP004-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-82ce09db-0a12-40d0-8b29-8f65b206a716.png",
+    "sha256": "3c6b6fd23bc7c085b659207e7646f1cfe8cb2ec6c478aec09352cf2bd7b1ef1d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S02",
+    "path": "episodes/EP006/frames/EP006-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-f2dd094c-38f8-49e4-aebc-5849c1cc5e5f.png",
+    "sha256": "9d5abb82ad0d300d6a974d4e271029e46a44f1f05b7fb54ab3297600f36e437c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S04B",
+    "path": "episodes/EP005/frames/EP005-S04B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-670498ca-0f0a-4233-901f-5402f7d92e63.png",
+    "sha256": "d14837a2dae87882c59c00db978438f2addbde0786cd288fc365cc9fdec0b158",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S04B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S03",
+    "path": "episodes/EP006/frames/EP006-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-899559d0-4c7d-446d-8b6e-8b3af796097b.png",
+    "sha256": "e085158af5fb4bc9ba92138607b2508be496a7dfa3b8a68d8bdb7c53d74e5f89",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S03",
+    "path": "episodes/EP005/frames/EP005-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7d9a4eac-2e2d-4ecc-a03d-889b95cb7bb7.png",
+    "sha256": "c881f35b88f48ac05369c0b12c1fe3445e3c33b4a68376e5493e59e9196791ab",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S05",
+    "path": "episodes/EP007/frames/EP007-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-221b5dbb-eea7-4944-a384-0ad24526c772.png",
+    "sha256": "84e82a28b2f58e9dfbe11147e36df0abecaa596a10a9b2b50fc523f86cf62337",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S06",
+    "path": "episodes/EP009/frames/EP009-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-11663601-a3e3-495e-83b2-71d5da47e420.png",
+    "sha256": "f73d18a44f5b5ed76967e3a3c8011358c288dd38f0ebcf9370a97dbfd33c6baa",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S05",
+    "path": "episodes/EP006/frames/EP006-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b1036679-a4e2-473c-b950-cb9a9dd0363d.png",
+    "sha256": "bd6f82846c3f91865d10fb2ede2e8bccf43023410e38c9f971b3a150c48bbc84",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S06",
+    "path": "episodes/EP006/frames/EP006-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-846a7a06-6fbd-4d04-98b9-3064410029be.png",
+    "sha256": "6f5dd28e386f7c299f5407c8f5bbcef252fedd116e2ff4710f6461fe94448063",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S02",
+    "path": "episodes/EP005/frames/EP005-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d5ffbe8f-26a0-46fc-b7bc-14eb29559ae2.png",
+    "sha256": "0e1a8eb4c9d96ba8d5557086af7a70294de274f25f4091e9ec7c376fde88f461",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S05",
+    "path": "episodes/EP009/frames/EP009-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-12eb16a5-f3bd-4fea-865e-4b2931632b79.png",
+    "sha256": "b43b10749a614c0a21fb676b8c081b5a9e5b4df053d3326354f0022962035ba6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S03",
+    "path": "episodes/EP007/frames/EP007-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-2c013efd-7324-43a9-9b30-30d787e53dd2.png",
+    "sha256": "3bea2cf49a80efc3bb3f9c550435127a2a6bd68a458a545510d987878e8d03d3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S08",
+    "path": "episodes/EP006/frames/EP006-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-65a6a259-8bdc-4c86-8a46-b63d7136dce3.png",
+    "sha256": "975c5479a8d81c6647856c202c1b217c3316fd105f8c090dfbdb2bbfb96c5432",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S08",
+    "path": "episodes/EP007/frames/EP007-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-14ce73e7-42d5-4d5f-9a78-a223c0914a21.png",
+    "sha256": "f46cf129fef185745ab95073cb834991bf331e4301e8dcf98a57dae89223cc68",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S07",
+    "path": "episodes/EP009/frames/EP009-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4da5693b-10db-4cdd-a709-a056eb8b542e.png",
+    "sha256": "eb1ef7b56cf9ec392d52903b57c1447a4d60ea903fb4cb2877dad4085a78e705",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S07",
+    "path": "episodes/EP007/frames/EP007-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-054b3847-9db0-4b4c-84f5-bf6cc22f969a.png",
+    "sha256": "2aaee1420430e28f67fb56602b98f5cb7a38fc8ac58012a610d32f2e62a96603",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S08",
+    "path": "episodes/EP009/frames/EP009-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3114f53d-cb76-473f-98c4-4d1134d4aff3.png",
+    "sha256": "d86f4a4df9a44e6b049b2b78e6a0dcff1abfd66d7f4935d453e5208a04a4cadd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S07",
+    "path": "episodes/EP006/frames/EP006-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-a8416e42-62b2-41df-a682-9d420b775703.png",
+    "sha256": "34bde94bfa4a2bfe09e12a7c827dc21a466e08851055e7eb4f01d9df95de9314",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S02",
+    "path": "episodes/EP007/frames/EP007-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7d800ef8-df14-43dc-a833-a1a744385a40.png",
+    "sha256": "a198d77d6b08db45f1a7029360d02a67f6be4baf81c89371931b521f8887e4b5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S03B",
+    "path": "episodes/EP004/frames/EP004-S03B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b14c65d8-35c1-4d00-9ce7-841416069827.png",
+    "sha256": "57717efa9e1567cb27c0fe8fe4a8d01b047cf3fdec57a7e0545db0563a061442",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S03B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S10",
+    "path": "episodes/EP009/frames/EP009-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c327250b-2310-41f2-8fb8-9924c915a23a.png",
+    "sha256": "1108ac2c460d3770902b909ebfb3587ee60552e28d91d8154d351b48cff9be61",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S10",
+    "path": "episodes/EP007/frames/EP007-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0b309fb6-7d72-4916-b09f-6ebff6bc3a4a.png",
+    "sha256": "006797341680fda4e649498ea2013ad53eedad52d0241bb7ccbdf9981221e9d0",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S06B",
+    "path": "episodes/EP004/frames/EP004-S06B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-cc4af2fb-84b8-4e15-96af-5500f0648893.png",
+    "sha256": "daf2ee672ffdc8044f0959d92ba8b4df206db1369261168a6657855443f0eabf",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S06B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP004-S07B",
+    "path": "episodes/EP004/frames/EP004-S07B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-32ee1e26-d9ed-483b-98e7-89cc709dc109.png",
+    "sha256": "20a76135a585321adccdc6e8d0c541caef84220589fc3d7068597a71318cefe9",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP004-S07B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S12",
+    "path": "episodes/EP006/frames/EP006-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1373881e-8ae6-4bf4-9dc1-02b1665f8b86.png",
+    "sha256": "a694e577c03b2967121b2be9a45ef7da471f9ba55eef78f499415ac236cf785f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S09",
+    "path": "episodes/EP009/frames/EP009-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dd64d9f9-c78b-4cc8-a044-9ad48c252a50.png",
+    "sha256": "4d09f5dd8d0c73088a6a2fd4b6fd5354ff45b55e50381b5dae1c410168753b63",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S01",
+    "path": "episodes/EP007/frames/EP007-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-855cfd98-3be1-4800-8076-edbce83f8032.png",
+    "sha256": "239358aab380d2a0e0debab2ecf4e78ee56a79b78f87dc8ee1539677e3bff4c2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S11",
+    "path": "episodes/EP009/frames/EP009-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c051097e-4fcd-4f86-87cb-3f9f672d1982.png",
+    "sha256": "c4852746164c32e03474df4e44d5e3d671c3104c1f2ca66e61fea914713e6c12",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S12",
+    "path": "episodes/EP007/frames/EP007-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-113a9852-67a8-42e1-8fa2-1dede925b2e4.png",
+    "sha256": "db4b47f270ad936b82abbe857994a96f31d57995380a7eaa7daa761381cc0e41",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S12",
+    "path": "episodes/EP009/frames/EP009-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-36aeb63c-f133-4e0a-8909-208a437ed354.png",
+    "sha256": "1c86277e64821d28b82f47f5628161f182b15eae878308fc441e00d97db6a2b0",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP005-S08B",
+    "path": "episodes/EP005/frames/EP005-S08B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ccb5f877-4556-4797-95b5-5c796285f43b.png",
+    "sha256": "5c9e043603480038f74b29ea71d4bb521a569ad07d15057a2625435fffbfa11c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP005-S08B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S13",
+    "path": "episodes/EP007/frames/EP007-S13-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d626e394-139d-4aaf-9c3b-2a2dcccdfcf1.png",
+    "sha256": "a05069d12a85f113fe55d3e2ee3cb56a28726a24ac409bd853b348a09e5166f9",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S13-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S13",
+    "path": "episodes/EP009/frames/EP009-S13-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c1609bee-449b-4467-b99d-a514badcbbbb.png",
+    "sha256": "7af439baaf298505ef824cc7c00c9b34538691c23eda9aa35f338e8b19825826",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S13-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S11",
+    "path": "episodes/EP007/frames/EP007-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-18a39e0c-5108-428d-8c44-95c6a5dd41ca.png",
+    "sha256": "80156ba298700d248d5dd90823eaa95a62cbaabcb8837a453c3456fec460620e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S05B",
+    "path": "episodes/EP006/frames/EP006-S05B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-58b44694-dc74-4cdd-a4da-d900802c2cfb.png",
+    "sha256": "bdedf7428c0d773b08d7c872c04ef64d4a51c4488fd41c9a3e131ab663fd0aeb",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S05B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S11B",
+    "path": "episodes/EP009/frames/EP009-S11B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dcd6c5b4-f6d0-4a09-98e9-0b8e92898812.png",
+    "sha256": "2a118777aea8c239da89bfe3adea8ee8e58ed48113780714000ca04faf096c44",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S11B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S01",
+    "path": "episodes/EP008/frames/EP008-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5b4f9e07-75ce-4a4d-88de-4f3cbab04be5.png",
+    "sha256": "28447d9f2afa8fd107b93f5d56a65b6b990367211b940386911ca8f07d1ab59c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S02",
+    "path": "episodes/EP010/frames/EP010-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-258c7a83-ad2a-4a19-8c24-481fc238ea8c.png",
+    "sha256": "4a39f10bd9a407ce54754b8862191dbcd78add865ac30a76b856ef17e798810c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S14",
+    "path": "episodes/EP007/frames/EP007-S14-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-068d60cb-fe82-490b-a318-95a72431fabf.png",
+    "sha256": "003c85f32382327bbdcb5def9efe17434da58a32c1eddf26c2d693b364331cf6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S14-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S01",
+    "path": "episodes/EP010/frames/EP010-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3976784b-cad0-4c66-b1be-c47583b4fc29.png",
+    "sha256": "60968190fd28c8fb8f17bb7d876cc84f0806d40ef9f5a2a5cc490caa1c7f03c7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S08B",
+    "path": "episodes/EP009/frames/EP009-S08B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-22c02601-c478-4c84-bd74-5802e6c10854.png",
+    "sha256": "7121a3d8b011c04bc086888ac4ef54ae69522f7a3c586f385a7fe509caf4b8f3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S08B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S02",
+    "path": "episodes/EP008/frames/EP008-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1c946e8a-f065-411c-b788-c10ecd7bb23b.png",
+    "sha256": "1d154f797750291fd9bb58a8d10a9e70750594474b423dfd58898af390e9f01c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S09B",
+    "path": "episodes/EP007/frames/EP007-S09B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3073d8b6-7258-48df-9a94-19946bf21770.png",
+    "sha256": "ef40f4dd901c28c8dd1f9c4c30ead34b458270b1bdd9fefdfcb3e10242eada21",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S09B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S05",
+    "path": "episodes/EP008/frames/EP008-S05-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d1fde8d3-a8bd-49f6-90c7-817afc0a955d.png",
+    "sha256": "8f07f244e56e2b665496873217ccf6a4345e872e5edf6506516ea7a18144b087",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S05-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S07B",
+    "path": "episodes/EP007/frames/EP007-S07B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-47329daa-8fde-4423-b192-87a1d998ad3e.png",
+    "sha256": "3e2f1093359e3b9b8285e14ca6b13eb281801a721255bedcc8833b991008518e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S07B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S03",
+    "path": "episodes/EP010/frames/EP010-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-19661d39-2f82-4db9-ad09-0d6f81e440a4.png",
+    "sha256": "9433abe0440f57f4b1a4539b90bc5158374bd6f7c3be719af6e38ad15335815e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S04",
+    "path": "episodes/EP008/frames/EP008-S04-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c6566d03-15fa-4232-9668-356ec3432d42.png",
+    "sha256": "3348f3104def6926e222e14d97f79d0cc266a82ba37c086a0bb9254a09923f0f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S04-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S01B",
+    "path": "episodes/EP010/frames/EP010-S01B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-57369812-3894-4e76-ae68-33b9cc86ecc7.png",
+    "sha256": "29eee55c4e579a06814ad248d84837dbc542bafdc29a9f4b234911c355cf3ac2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S01B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S04",
+    "path": "episodes/EP010/frames/EP010-S04-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4e32e7fa-6f29-4d11-9d8a-f6467f855283.png",
+    "sha256": "18bd58ed64adb60b981c10fcd3f69236f45a18f57c0e2f2ca022a6e4fe8fb705",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S04-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S06",
+    "path": "episodes/EP010/frames/EP010-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-54d42eed-f184-4a42-a259-8d652a43b9d1.png",
+    "sha256": "27e42f8c493e192b7bae30ed7af2e9a302d0a27563c3f213b513960792e17dc5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S06",
+    "path": "episodes/EP008/frames/EP008-S06-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5017fd0c-4278-4acd-a081-1ab9f4fee8a6.png",
+    "sha256": "f37425656ddd0e4defb013d125b9de4a8fe66f359ef9430f0c253af17d3a3b50",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S06-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S09",
+    "path": "episodes/EP010/frames/EP010-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ba034474-740e-4a24-a1f0-dff6aceaf9fa.png",
+    "sha256": "8147722423f6e7fc4c555933d4776395a47387f3877562f74d161937610ade86",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S03B",
+    "path": "episodes/EP010/frames/EP010-S03B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0621dde4-141f-4e19-89a8-c1b52af69141.png",
+    "sha256": "cea8b31c5da86c015e5953b24c89340e536572820f51cff3e7d6e7a5ea1935fb",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S03B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S10",
+    "path": "episodes/EP010/frames/EP010-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-069d643f-98f2-4404-98b7-a9d02a4ae17a.png",
+    "sha256": "59e1ee5e79de45db5df16ca08b85a6671d04fd55c5e5f0f9b67d11ddc6573dc6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S09",
+    "path": "episodes/EP008/frames/EP008-S09-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-821585c9-d3ef-4ff8-bea2-3d89c0d2be57.png",
+    "sha256": "fa3e8c59009b14166e93d50a75f2e9e979c1233260927b838a9228b8df4a2adf",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S09-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S04B",
+    "path": "episodes/EP008/frames/EP008-S04B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e693d7d4-a623-4b98-acee-a9e42b194eba.png",
+    "sha256": "7b7bfd61e5b6583a197ddc7236bce64e0bd159ba40e357c9007b6b066b328da7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S04B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S10",
+    "path": "episodes/EP008/frames/EP008-S10-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-df65b89f-3d7d-4daa-a7b4-5809673dc660.png",
+    "sha256": "063cddde0002acfe8742eb176fe76b38bf598ba2103e7bff9fb1cbe4f7e4aa87",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S10-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S07",
+    "path": "episodes/EP010/frames/EP010-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-22543849-d8b8-4345-964c-87ea81f1bd42.png",
+    "sha256": "b77288f6056193a582aec4506f7a00543532abe70cefd12ce132735df7a8fb6e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S05B",
+    "path": "episodes/EP009/frames/EP009-S05B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-18fc9bea-4677-4698-8fd1-5c93006646bb.png",
+    "sha256": "c08e64dd3ebf81a7116bcfe4ecc780d50604c54e15425c8e9d4ea17d085e3293",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S05B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S07",
+    "path": "episodes/EP008/frames/EP008-S07-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0463fa92-2c70-4905-a18d-57c9e10ebf86.png",
+    "sha256": "7611a80635785bb303d6a8596c8d80c227df67e1905740839bc09307d8a16805",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S07-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S08",
+    "path": "episodes/EP010/frames/EP010-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-9c700fc5-af7b-404a-8be8-4537ff533e01.png",
+    "sha256": "753cc6d60f204e22275b48a773aad703b9f0e4db2fbc5c18332eb06d9fcff1b2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S08",
+    "path": "episodes/EP008/frames/EP008-S08-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dcb4098d-6f5f-4b6a-aa21-fd22d308e0f3.png",
+    "sha256": "62f47ea416278c0b8fa9519dc706cf13633fa27a42780c562fa7cf4932f10115",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S08-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S11",
+    "path": "episodes/EP010/frames/EP010-S11-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-0142af2e-0068-42f6-a7fa-ed1243da164f.png",
+    "sha256": "6fbd17b51d1ae00dd81e81de65eb85ca69ecd75bdd5ace4dad765eee54ed7697",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S11-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S12",
+    "path": "episodes/EP010/frames/EP010-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-cfb0cf53-d098-4edd-ba2a-272a637e6f5b.png",
+    "sha256": "72594ffce9789b916cc31ac25074c8950124701bb3d0347ac24c898630400117",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S12",
+    "path": "episodes/EP008/frames/EP008-S12-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c0edb0ea-8129-4342-a669-ac4d3c25f593.png",
+    "sha256": "cd806934b2f6545f29c4d4e259cc7d4f827b1d79f7a3404f566f20793d59f8df",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S12-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S13",
+    "path": "episodes/EP010/frames/EP010-S13-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b8853b7c-b657-48e6-a56f-a83ed168ad84.png",
+    "sha256": "58d4c877b3dea6d654cfbc5d2ef8df25ca319ca2fc0ee648d2c004cc5ac7052c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S13-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S01",
+    "path": "episodes/EP009/frames/EP009-S01-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c023c587-2f4d-4fea-b2e5-850d5eea6b07.png",
+    "sha256": "937ff0db7b5aea0020d9f2369f6e6ec71dce9f2896d8b7fe46000155b73ad034",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S01-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S02B",
+    "path": "episodes/EP006/frames/EP006-S02B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d7d6310a-db09-4a14-a5f5-f8389ed5cecf.png",
+    "sha256": "62266abaa4dedcab171bf5186b7cf0bb03360d49de7fc741d703418b1af03179",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S02B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S03",
+    "path": "episodes/EP009/frames/EP009-S03-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-839c7ee3-9f2a-4391-a192-e8a963d6428a.png",
+    "sha256": "c6b6496e598372d749cb8d7195020fa8af0886321abebb728f1ad852b8f8ce57",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S03-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S14",
+    "path": "episodes/EP010/frames/EP010-S14-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-cf2ff208-2254-4da5-8cde-7d0da7a6c192.png",
+    "sha256": "ea00f29508496c7247d24b80ae8afe541e918104251c251badfe3a576db02c00",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S14-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S07B",
+    "path": "episodes/EP006/frames/EP006-S07B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-53ad7d09-13d3-46e7-9f71-1272fade25d2.png",
+    "sha256": "9c39421bc35305e3c59a634ab8a417d95a5da72d0a231db3bfb82689467533a5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S07B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S02",
+    "path": "episodes/EP009/frames/EP009-S02-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-864e8471-2430-4b30-9ce7-5dfe97d2fc1f.png",
+    "sha256": "023cb4e03132c9f283719dc24924ce19cbf6add04ed16bfd8f5cfc27bddfa30d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S02-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S15",
+    "path": "episodes/EP010/frames/EP010-S15-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-37f03d6a-fafa-4d95-a74a-51f2375db7a2.png",
+    "sha256": "2bf202524d677878a7ce80c546b73455bf99b900de1ce0d7cb59a43dea344d52",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S15-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S09",
+    "path": "episodes/EP006/frames/EP006-S09-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4fc7940f-3966-4577-8f84-a694f3bc32cb.png",
+    "sha256": "ef8856022bf58e9cfab707891bf3cfd6da80a5526d95b3faba3f9e8387d175c0",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S09-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S10",
+    "path": "episodes/EP006/frames/EP006-S10-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-d86c0fa1-284a-4653-85f8-637c8f006d2d.png",
+    "sha256": "ec98d8761d3a72a9df8d852976765530e132bac2f7aebd1c43d1462fc7315b1e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S10-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S11",
+    "path": "episodes/EP006/frames/EP006-S11-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4941947e-b4d8-4d91-a872-328ea37dd3ad.png",
+    "sha256": "bae1021e93a48903625cd4e91d47a131f41a297d5098ab9fe86c20c863893e69",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S11-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S12B",
+    "path": "episodes/EP006/frames/EP006-S12B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ee320953-89f8-40fc-bd7e-60bda281ef92.png",
+    "sha256": "05466f895171d0f1ef9544b7afbe50a8c42d4cdac223e73f2100b46fb97ba01c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S12B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP006-S13",
+    "path": "episodes/EP006/frames/EP006-S13-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-fbd2c873-d32e-4647-abf9-6229243534c7.png",
+    "sha256": "07d2fa74828e8d961290f7c403dfa2589be87014f8d8035fee2a86a6d2d90a06",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP006-S13-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S04",
+    "path": "episodes/EP007/frames/EP007-S04-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-cb0e9a48-e872-4917-a727-ec61b4e50e21.png",
+    "sha256": "be6caea1c012d9daf5d1a0d2fd02a99c89db1bd5a89555450f4582bce5e5905a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S04-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S03",
+    "path": "episodes/EP008/frames/EP008-S03-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5982e3e2-d666-4484-ba3d-456e4c0c6f60.png",
+    "sha256": "6ca61ec35f8e7b88816bfbce41cc487bafae7a73908a6291beed9b5c6f717805",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S03-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S04B",
+    "path": "episodes/EP007/frames/EP007-S04B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ea80a41d-0bc0-42b3-8fa6-46351144b344.png",
+    "sha256": "c4db36faceccb1217876756a93216224f0563cf2a9440bd544edf418ac64a645",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S04B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S10B",
+    "path": "episodes/EP010/frames/EP010-S10B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8bd70418-30bf-426e-a1f9-636f9e3c178c.png",
+    "sha256": "c5db71093e424e60ceda4ffb1d0b6446d4e7d9c8e2ccaa21da54528ab65dbd6b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S10B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S07B",
+    "path": "episodes/EP008/frames/EP008-S07B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8bd4c997-9839-46a0-8b54-01aefe9c279b.png",
+    "sha256": "39daa859893e915a887f8986bbc41e8500c4d2ca91fee9ade7a08e69d027c765",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S07B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S03B",
+    "path": "episodes/EP009/frames/EP009-S03B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-9d3911e0-78ca-4264-9a7f-3305e5991918.png",
+    "sha256": "18da19f1bb12d2c992ae9d60f0844e815795563c07c5a26f7682a91a7e6760fe",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S03B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S03B",
+    "path": "episodes/EP008/frames/EP008-S03B-release-take01.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4246fc4d-fe74-4099-a077-3fd4007a533d.png",
+    "sha256": "6efc64403c752ba89788c6d9278318f15134c2abdfd56b95508eae677f586058",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S03B-release-take01.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP007-S06",
+    "path": "episodes/EP007/frames/EP007-S06-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-873ad86c-eedf-4e3b-8c64-533e1d698ebd.png",
+    "sha256": "c4fb1d4ebb574bd1eec6527236d2f9d6200c1f72fd98b2bf2837934be1294d3f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP007-S06-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP009-S04",
+    "path": "episodes/EP009/frames/EP009-S04-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-8585c6a7-5c49-48c4-b05b-29c07d334a08.png",
+    "sha256": "f1ea16cd95a472c29a8950f89e59022384ab1d776d3a950a47dd39fe35ea83b3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP009-S04-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S05",
+    "path": "episodes/EP010/frames/EP010-S05-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-61dd557b-0610-45c2-9121-2449d8301c6a.png",
+    "sha256": "7f2748899c42f3519482b77ce0f833d78b5bb9c1e108a0c4ef101e766b28865d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S05-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP010-S05B",
+    "path": "episodes/EP010/frames/EP010-S05B-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-447b8a29-73cd-49bb-a53f-e9645d6e93ee.png",
+    "sha256": "b6e60515b2894f117e5562832f9d7680bc064017439f952c156cac7d8879ff0e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP010-S05B-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP008-S11",
+    "path": "episodes/EP008/frames/EP008-S11-release-take02.png",
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-c3eca7d5-9bb4-41a2-a452-9e138a0623ab.png",
+    "sha256": "3ae4c612ebc393092a406aff47de065848c8c48a6995b47ee143653535942bc8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "assets/generation-requests/EP008-S11-release-take02.json",
+    "status": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S001",
+    "path": "episodes/EP011/frames/EP011-S001-take02.png",
+    "sha256": "60b75229e807ab0aae42c72aa1702ad87d4284d7f852930823cc9c852ddc0eba",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S001-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S002",
+    "path": "episodes/EP011/frames/EP011-S002-take02.png",
+    "sha256": "0479f1a81f04e073c71fc4b9104ce3a51975f9447943e5154c04322fe823d582",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S002-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S003",
+    "path": "episodes/EP011/frames/EP011-S003-take02.png",
+    "sha256": "b54949cf192f472d1de3a6c19619bc636ed2257300c649f468cd4f0688ef2ded",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S003-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S004",
+    "path": "episodes/EP011/frames/EP011-S004-take02.png",
+    "sha256": "56b8103bb80759481ca12da988ac4e52866edb993417db94fc84043eed1b582c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S004-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S005",
+    "path": "episodes/EP011/frames/EP011-S005-take02.png",
+    "sha256": "5ee3fa1c17b7578b74355cbed1199ca6c4882232d09fe9f1e944f919d55b7172",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S005-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S006",
+    "path": "episodes/EP011/frames/EP011-S006-take03.png",
+    "sha256": "d559bbf941f220e02991fbabbed089cd4aa8b265ed5c673dd857188b3d817f8e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S006-take03.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S007",
+    "path": "episodes/EP011/frames/EP011-S007-take02.png",
+    "sha256": "fa239e649ad650171d016424f40d94f1c628874cbaf4bce2893e250ebf3d97f1",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S007-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S008",
+    "path": "episodes/EP011/frames/EP011-S008-take02.png",
+    "sha256": "2bb533b3fccbdff01a854d57e5e3e2d802a0a1a5da8a87e8f628f23ac383a2e8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S008-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S009",
+    "path": "episodes/EP011/frames/EP011-S009-take02.png",
+    "sha256": "238b2e9cfb596c9c0d06f63099d1a450e2c78da7c8894952b204c88ba994668a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S009-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S010",
+    "path": "episodes/EP011/frames/EP011-S010.png",
+    "sha256": "7dd8965fec4e6d1e6c97b99dfc17e3da56ce6b0379646a542f696d71bb88b7b7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S011",
+    "path": "episodes/EP011/frames/EP011-S011.png",
+    "sha256": "c90347808812f30ad73f536732e602bc677b9afdb9d89f88f53e196d6387be52",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S012",
+    "path": "episodes/EP011/frames/EP011-S012.png",
+    "sha256": "99d0c45868572d2dfcfd923dd96ea38ecb58c8d4c686df29d8200e4b75588b17",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP011-S013",
+    "path": "episodes/EP011/frames/EP011-S013.png",
+    "sha256": "65545bbde437e7f6162d66a9fab878dc011d92be4474bf88da718232c787bbc9",
+    "native_dimensions": [
+      1671,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP011-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S001",
+    "path": "episodes/EP012/frames/EP012-S001-take02.png",
+    "sha256": "eb786fca7a940ef6117badbefd5e033c5be61572c3e449ca361ca05feb6fb063",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S001-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S002",
+    "path": "episodes/EP012/frames/EP012-S002-take02.png",
+    "sha256": "d561d4d19c9ad8d956129fcbd8960b609b30ad60fa181c4b7a89c95a47be2fbd",
+    "native_dimensions": [
+      1672,
+      940
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S002-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S003",
+    "path": "episodes/EP012/frames/EP012-S003.png",
+    "sha256": "82a1cf483e8dbf62a2b25baf4807430a9a613e95a24b5cdd76f5a1a22763477e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S003.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S004",
+    "path": "episodes/EP012/frames/EP012-S004.png",
+    "sha256": "1c15f45923cc526374c4000dc51c5fc61043e8c60ceae8969f9d4ce85f270ca0",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S004.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S005",
+    "path": "episodes/EP012/frames/EP012-S005.png",
+    "sha256": "b74ebac652bcc96fb2637c915e4533d504e6c04c9a509e6be348646ac34b6113",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S005.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S006",
+    "path": "episodes/EP012/frames/EP012-S006.png",
+    "sha256": "32d47440b13be0771075c69eadd65cfd48d24a3738f59965c20ae1eebbd2fa27",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S007",
+    "path": "episodes/EP012/frames/EP012-S007.png",
+    "sha256": "fd40715577fbeeb5819603a1ff46dc6543c4e2162da72af641a3cac07ec2a6c9",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S008",
+    "path": "episodes/EP012/frames/EP012-S008.png",
+    "sha256": "5d9495cb0959e1490e01e118582a45a47f414253c67c423fef2a53ea3ae03b63",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S009",
+    "path": "episodes/EP012/frames/EP012-S009.png",
+    "sha256": "26e9cb021a66ea5e3b057a7c27d31ca0c1d49a2da41f29374e84aa357b826de5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S010",
+    "path": "episodes/EP012/frames/EP012-S010.png",
+    "sha256": "fe763dee8923f5fce2be9060a2922838ecd19c090b83e4e48f3b8e8eeb9bde92",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S011",
+    "path": "episodes/EP012/frames/EP012-S011.png",
+    "sha256": "ad84505911105dd967eda05553eb3d8e1c32ed64ba799fda115c30fc133fecf5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP012-S012",
+    "path": "episodes/EP012/frames/EP012-S012.png",
+    "sha256": "3fa0f1d1274c704404f7cf280dd9d7114b6a39ced2828afa6cc49e329bed0f1c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP012-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S001",
+    "path": "episodes/EP013/frames/EP013-S001-take02.png",
+    "sha256": "9f372a8928d0289437beddc0fb2dadddfdd32c958402f872483562c7f560e459",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S001-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S002",
+    "path": "episodes/EP013/frames/EP013-S002-take02.png",
+    "sha256": "38e1e2bddc79c12ab823df7bdfa4d46a853159787151812e4590efc1bc3f9d8d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S002-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S003",
+    "path": "episodes/EP013/frames/EP013-S003-take02.png",
+    "sha256": "faca87e59327dc9f86e04f8e304384a5653eb5b49d3f6d0b913a7d7eb51ecbcf",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S003-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S004",
+    "path": "episodes/EP013/frames/EP013-S004-take02.png",
+    "sha256": "a13a201de7b73e6cf740eeb8ca72f3445d3cfd9e953223cf51e5eb8af9350a44",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S004-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S005",
+    "path": "episodes/EP013/frames/EP013-S005-take02.png",
+    "sha256": "80ea5bd290c2a67fb13b22bdb34d3dac194cc51361b9d16dc17d3b5c2133c442",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S005-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S006",
+    "path": "episodes/EP013/frames/EP013-S006-take02.png",
+    "sha256": "93977fa0f99779dbdd39a009efac7334266156408d4e16f11f1d14219ec87bd4",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S006-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S007",
+    "path": "episodes/EP013/frames/EP013-S007-take02.png",
+    "sha256": "d7d878c68c991dc0f7d7d49cc1eb34152110cde97e43590b080f9f30dbbe5fc5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S007-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S008",
+    "path": "episodes/EP013/frames/EP013-S008.png",
+    "sha256": "15f3c230940a0b220e120fe8c4920430c788d208627eb88b100749844d0f051d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S009",
+    "path": "episodes/EP013/frames/EP013-S009.png",
+    "sha256": "3ef5c254c714b1b285a2f6a42633b70b96a16359750dd6c5ec32f9acec40a464",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S010",
+    "path": "episodes/EP013/frames/EP013-S010.png",
+    "sha256": "f62a107520ae5ce565a67314397aa36153c191a0fb1fb01939e527b0b6c3b8dd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S011",
+    "path": "episodes/EP013/frames/EP013-S011.png",
+    "sha256": "3863fa6667c24d4a8aa75ac4b9815f4d2cf49cb0147b2e05170be22e00c4218b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP013-S012",
+    "path": "episodes/EP013/frames/EP013-S012.png",
+    "sha256": "f1799dd7a5370a23d20dd33d5a28348d0d409737c99aef713167c1619bf74f08",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP013-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S001",
+    "path": "episodes/EP014/frames/EP014-S001-take03.png",
+    "sha256": "5cbaa2f3614afe363d2b8bad38f7e5adb45000139a364d970c804c7f41af7a5c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S001-take03.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S002",
+    "path": "episodes/EP014/frames/EP014-S002-take03.png",
+    "sha256": "bf1837c732ef33344c5014c54e3c5aab872efe456878fcb9580b8ff4922e0967",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S002-take03.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S003",
+    "path": "episodes/EP014/frames/EP014-S003-take02.png",
+    "sha256": "9eba88dcb9e0d9b8457ce8544dedf00a71c24c4cc9fd0b98c3bd7fe89d371909",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S003-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S004",
+    "path": "episodes/EP014/frames/EP014-S004-take02.png",
+    "sha256": "a5687b57c5fec18285d73f5d596194e1af6e85cd89a96b2ab819885ea93ff8aa",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S004-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S005",
+    "path": "episodes/EP014/frames/EP014-S005-take03.png",
+    "sha256": "8d5707c54ef15232f2489822dc773dd4e4dbd25344024ba058e1e76441dafc64",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S005-take03.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S006",
+    "path": "episodes/EP014/frames/EP014-S006-take02.png",
+    "sha256": "9f6e9c8df5499c44bf3db87fd4862cecd07ba3a1297b1425b61185b86b858caf",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S006-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S007",
+    "path": "episodes/EP014/frames/EP014-S007-take02.png",
+    "sha256": "9d7998efb8492af07ae595f7a8ade8d98566b575ef576244ab13e55c9a78da0a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S007-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S008",
+    "path": "episodes/EP014/frames/EP014-S008-take03.png",
+    "sha256": "40acdb96c127873b63b1bb0698867c8da31925f3b5457fc6b773212bbe6d1bbd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S008-take03.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S009",
+    "path": "episodes/EP014/frames/EP014-S009-take02.png",
+    "sha256": "6a93e88ae9ab66d60a2b8c681b18d7f3667642bef7c35123630b51287eebd782",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S009-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S010",
+    "path": "episodes/EP014/frames/EP014-S010-take02.png",
+    "sha256": "2c00fd34638c028d79d9bbc33f93748cb8954c7e4e491fbdafa89740824e3a8a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S010-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S011",
+    "path": "episodes/EP014/frames/EP014-S011-take02.png",
+    "sha256": "07c1a2a3dbaf8747ac9dc7bc28a4a634286deaf957056d8f533a773a687d1305",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S011-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S012",
+    "path": "episodes/EP014/frames/EP014-S012.png",
+    "sha256": "96bda0a8216375bc2c4f0c2c74f6d81c663d824535de3824d43132969b101345",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP014-S013",
+    "path": "episodes/EP014/frames/EP014-S013.png",
+    "sha256": "327cc65257dd7be0b0a89c8bc8cd843a0d1f1bf1cbcc6fee34d6f1b329fd23a0",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP014-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S001",
+    "path": "episodes/EP015/frames/EP015-S001-take02.png",
+    "sha256": "7940721dd88e5fdb06ddd8f53eb219a6f0de1c013ed7db3330343e205cc4e82e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S001-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S002",
+    "path": "episodes/EP015/frames/EP015-S002.png",
+    "sha256": "aec3768bc64b96909796ea2ec31c7d8fcb4b65c1d0af297f6c11001a0588c717",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S002.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S003",
+    "path": "episodes/EP015/frames/EP015-S003-take02.png",
+    "sha256": "b27e50b911e8958a4720a9c628abf8a7c5f01a3a0b6dc97df9cc6ecfacb1bf97",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S003-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S004",
+    "path": "episodes/EP015/frames/EP015-S004-take02.png",
+    "sha256": "dbefcc2a7568373c9e7fcc0e919d98baeb324642345d54c1314262d913c33b01",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S004-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S005",
+    "path": "episodes/EP015/frames/EP015-S005.png",
+    "sha256": "48b456e9e9b1e95a462eb384abd4271078e3c361887d6c910ca2ef5aafea416f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S005.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S006",
+    "path": "episodes/EP015/frames/EP015-S006.png",
+    "sha256": "25dd2808f8085e89b531b152f0f2d25f1916ec0a61bdb677d4ee0dfcae119800",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S007",
+    "path": "episodes/EP015/frames/EP015-S007.png",
+    "sha256": "0f1025ee5ca9da20778790708cb2fcf74bfc1247ce81a50568241c31a790ad37",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S008",
+    "path": "episodes/EP015/frames/EP015-S008.png",
+    "sha256": "e898b3b76df29467776354afca556eae53d79e1c575bd88986cf82b15dff9c83",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S009",
+    "path": "episodes/EP015/frames/EP015-S009.png",
+    "sha256": "fa87a4dab5379f9801c5735290fc4b70321982e8495cae95382e2cab2b719d2c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S010",
+    "path": "episodes/EP015/frames/EP015-S010.png",
+    "sha256": "44d7ce5dcf472d1e4063edecad3e630d10eecef7321f4be0ee8764622703240b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S011",
+    "path": "episodes/EP015/frames/EP015-S011.png",
+    "sha256": "5fc67c1f6020327a5c50675bd94da3c3b9972e281b49c965a051bdc8682eb888",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S012",
+    "path": "episodes/EP015/frames/EP015-S012.png",
+    "sha256": "4183d2e580792acc643023b27ac4cd758596a2f41c6dd289fdbca6327ac9edd6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP015-S013",
+    "path": "episodes/EP015/frames/EP015-S013.png",
+    "sha256": "7221c34ff8a3bf2bc018f5a3452769c95cd47dd8a1f5006099c9866b4fbb7aa5",
+    "native_dimensions": [
+      1671,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP015-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S001",
+    "path": "episodes/EP016/frames/EP016-S001.png",
+    "sha256": "1ae737997adb734134cd24bc1356a023e0dc9225278ca057d737db0b3d430f82",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S001.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S002",
+    "path": "episodes/EP016/frames/EP016-S002.png",
+    "sha256": "8f85b89f90652265a40824175fae00cb4ba7ad92b56d89b285475143446ed642",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S002.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S003",
+    "path": "episodes/EP016/frames/EP016-S003.png",
+    "sha256": "3d81f642f75e1e3bae693e947e79db913d8103663311c42580effb4f0c2da696",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S003.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S004",
+    "path": "episodes/EP016/frames/EP016-S004.png",
+    "sha256": "309524a1e63754222cbfbfbe983a1518124a81dd43c0020555186f8408c5f169",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S004.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S005",
+    "path": "episodes/EP016/frames/EP016-S005.png",
+    "sha256": "0e97a1a1ed6dad2363576fda9cdb7efec8cf5ffa267ecffe9e8e406ddb7b9c61",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S005.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S006",
+    "path": "episodes/EP016/frames/EP016-S006.png",
+    "sha256": "d327002105eabe068e56886692430b516bccffe0c6c0ba5c8546b42c991c7fd7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S007",
+    "path": "episodes/EP016/frames/EP016-S007.png",
+    "sha256": "b9ed689df3e34312288acc87726a4332df741dd84b2539de730966e5c04a218b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S008",
+    "path": "episodes/EP016/frames/EP016-S008.png",
+    "sha256": "98f61bd488303dfb6377a94e01788fef9b4e74cc88c7bcdad0d24ef21adab3de",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S009",
+    "path": "episodes/EP016/frames/EP016-S009.png",
+    "sha256": "b910dc434962817356d964c232665832aafdf749cff39a5cb2e3a91cd976f3b6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S010",
+    "path": "episodes/EP016/frames/EP016-S010.png",
+    "sha256": "ccc128003a5f5e12bff976ca881a9d178a9cf3758196040c5e37af945e7ade10",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S011",
+    "path": "episodes/EP016/frames/EP016-S011.png",
+    "sha256": "63ed294f6bc120163398359bedbf583955030c33acea0630abd1f9ae25d2925f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S012",
+    "path": "episodes/EP016/frames/EP016-S012.png",
+    "sha256": "f66be995a16fe540904993a3566dbbd50092a14e3ad153ac0985f4a77b6ca733",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP016-S013",
+    "path": "episodes/EP016/frames/EP016-S013.png",
+    "sha256": "b95a45a6c421f5dbe0393a9aec71fe1dd4a5a7897fa50c937d138194433dfd52",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP016-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S001",
+    "path": "episodes/EP017/frames/EP017-S001-take02.png",
+    "sha256": "95629c2b6eacec5f3ff57ce8d4c677e673a9d4e20213c372034b9ce2fc9eb4a3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S001-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S002",
+    "path": "episodes/EP017/frames/EP017-S002-take02.png",
+    "sha256": "9cba925e48be1e6006d6014dc88afafef7f19e2d6b33a34d44cf95edb9506d4c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S002-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S003",
+    "path": "episodes/EP017/frames/EP017-S003.png",
+    "sha256": "82b21753f4cc9ea42a79cbd7e0ffa456051eb4c617eec45d4059cd8af2949b1f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S003.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S004",
+    "path": "episodes/EP017/frames/EP017-S004.png",
+    "sha256": "2243cf9237fed6feadc133e8d54e61e6020d6dbe1eb10b0826e26bd8179855cd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S004.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S005",
+    "path": "episodes/EP017/frames/EP017-S005.png",
+    "sha256": "7802a7b8e12aaa725fd3ae054be7f257e7184b6f0a6da09471f7a6268cb74533",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S005.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S006",
+    "path": "episodes/EP017/frames/EP017-S006.png",
+    "sha256": "4017272daa11ba3557ac469e341e2a4d59c675133571213fd8e77cae7e6c89da",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S007",
+    "path": "episodes/EP017/frames/EP017-S007.png",
+    "sha256": "ba1ecdfa9706d6f65ae97c4f96f2fa51e6ee10b4472e7a0cd2a3d7e06a688f6e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S008",
+    "path": "episodes/EP017/frames/EP017-S008.png",
+    "sha256": "45fafd6f626d0997fe6ddb2e697199b60dd1092d1ee32f9e23c597f4845bf2eb",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S009",
+    "path": "episodes/EP017/frames/EP017-S009.png",
+    "sha256": "e5b83fc9a98e308225ec0a66fc5b3d5d6ddb51c70d7b923dfbfac3877bb07465",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S010",
+    "path": "episodes/EP017/frames/EP017-S010.png",
+    "sha256": "a4200808422e9aaaaa7e02486e94ec1b252aec9845ea3d2d97b5ef3f8102b7d5",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S011",
+    "path": "episodes/EP017/frames/EP017-S011.png",
+    "sha256": "ba3375a8e5938969c895eefc8fa7aea427db497a469a0e3fb35a241714da9d2d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S012",
+    "path": "episodes/EP017/frames/EP017-S012.png",
+    "sha256": "d02c1fbaedf329f286197cb38e36a518c2605c5a2f80a5fe42c0930e1412a765",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP017-S013",
+    "path": "episodes/EP017/frames/EP017-S013.png",
+    "sha256": "f3171fc4970cffe478f446829198f7dff22bbec8024eca4134aa9fd93148c6ce",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP017-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S001",
+    "path": "episodes/EP018/frames/EP018-S001.png",
+    "sha256": "0a16c560eb509f123386d01e68f5de012efaf772ec236f4861b254cfb3afa53d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S001.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S002",
+    "path": "episodes/EP018/frames/EP018-S002.png",
+    "sha256": "179254ec50631d3d77ce8086de7c15093068fcf69e1085edd83edb1034f29aca",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S002.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S003",
+    "path": "episodes/EP018/frames/EP018-S003.png",
+    "sha256": "a4e4349991a001f56c580f3cb55d0a3ee8729d22d256968b996c6aad06dad58f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S003.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S004",
+    "path": "episodes/EP018/frames/EP018-S004.png",
+    "sha256": "285418ba43eda9c2ab2e4cda4cf26007505e54f62cfa356706852dc2e04913ec",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S004.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S005",
+    "path": "episodes/EP018/frames/EP018-S005.png",
+    "sha256": "809e9fd679b5b9bd0f7a0e74b95de374f34b77e148d2355034206de657f4de75",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S005.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S006",
+    "path": "episodes/EP018/frames/EP018-S006.png",
+    "sha256": "dd2972284cb75be618affbbe5f6b2b4d9f9abee815a8d7b7be654e475dc5a586",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S007",
+    "path": "episodes/EP018/frames/EP018-S007.png",
+    "sha256": "8e1b7f711e21ff5047b022f98930425e2ac5e42ad6f1edcb215fada5a875acac",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S008",
+    "path": "episodes/EP018/frames/EP018-S008.png",
+    "sha256": "3a6113ab37f7f6785230f6c5999660f10a327fcd5111f0a6114fb026b678af8b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S009",
+    "path": "episodes/EP018/frames/EP018-S009.png",
+    "sha256": "b00aa30f566c0df88abb12b37439567f3625097a0e6d5034565186c228e3ec88",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S010",
+    "path": "episodes/EP018/frames/EP018-S010.png",
+    "sha256": "642db296a90b6914d25dc15c0d29d8c54c530a066a9d1acaebe5e3bb02f94c06",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S011",
+    "path": "episodes/EP018/frames/EP018-S011.png",
+    "sha256": "ebdf477cc0d6df5a27e9e8efd3a5bf4b8abf63cc809e25a981e6c935d7c96559",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP018-S012",
+    "path": "episodes/EP018/frames/EP018-S012-take02.png",
+    "sha256": "c9ad93aad21456d9af5aa39259f7c1d0c89eb34383101617e84cc7cb7a13889b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP018-S012-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S001",
+    "path": "episodes/EP019/frames/EP019-S001.png",
+    "sha256": "54a4112999923d78da78855fbc7a46c90721d3bddd33376f70b572ede05a9e8e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S001.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S002",
+    "path": "episodes/EP019/frames/EP019-S002.png",
+    "sha256": "fcbb1502b6216b420ff493e6619ea7798ec28506f95b51abb6e5c81dd9d6f2cd",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S002.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S003",
+    "path": "episodes/EP019/frames/EP019-S003-take02.png",
+    "sha256": "44cfc96eed4bb96afecb934d14834def2efffc494cf0fb2f14c6845b60a5c471",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S003-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S004",
+    "path": "episodes/EP019/frames/EP019-S004-take02.png",
+    "sha256": "ce7c61565dcdea4a0ee262eca810ffaa000383300e3eb69e51cae3af29feb362",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S004-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S005",
+    "path": "episodes/EP019/frames/EP019-S005-take02.png",
+    "sha256": "cb699aba0a4b3f39eb5128390115e505bdeed44a393c614cc8e52d3b00591eec",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S005-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S006",
+    "path": "episodes/EP019/frames/EP019-S006.png",
+    "sha256": "4cfac72fc92e7912a029414de7c4ce145394f97466f204d6479f718e3f07a7a9",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S007",
+    "path": "episodes/EP019/frames/EP019-S007.png",
+    "sha256": "03b24dfceb849f3960c8b23dbd3a93a6d7a2732739d750c002e81fe8c7a37500",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S008",
+    "path": "episodes/EP019/frames/EP019-S008.png",
+    "sha256": "50c4b21bcebb7c1275a1e25d151d4a1a66d5552c9351526c26a7b50aa85b8c12",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S009",
+    "path": "episodes/EP019/frames/EP019-S009.png",
+    "sha256": "b72853dc1e902a3a9dbe042d671ac0186be33505e0e423277caf63e6467bdcf7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S010",
+    "path": "episodes/EP019/frames/EP019-S010-take02.png",
+    "sha256": "6e4d929e2d8f5327d6d6f33a69aed12ebaff8bdd2eff6b4a7208cbb11856da86",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S010-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S011",
+    "path": "episodes/EP019/frames/EP019-S011.png",
+    "sha256": "924f782b0fc669f4f3cc33ff42c49899c32a9d361237941f85425b7a48407c52",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S012",
+    "path": "episodes/EP019/frames/EP019-S012.png",
+    "sha256": "06bd398698fe7bf1f538375f3a17d34adabe330e0d82c5336abbb03913470b9e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S013",
+    "path": "episodes/EP019/frames/EP019-S013.png",
+    "sha256": "a609ed0a3e34a361bb4c25dd2614742c473bd5420da0a9d7a178cd7e51a85439",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP019-S014",
+    "path": "episodes/EP019/frames/EP019-S014.png",
+    "sha256": "15fead54b8e739b42826676637248b5854eedfb4f17345bdaffb3126e74532ed",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP019-S014.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S001",
+    "path": "episodes/EP020/frames/EP020-S001-take02.png",
+    "sha256": "88445a665b4b697b942196be0b80011df3d46aed251387785ac2f66be7ba7edf",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S001-take02.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S002",
+    "path": "episodes/EP020/frames/EP020-S002.png",
+    "sha256": "41cad7de7cbf88eda32bf5bddcb6b4e1e37307a3cebf6485fcdb29e0dab7653e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S002.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S003",
+    "path": "episodes/EP020/frames/EP020-S003.png",
+    "sha256": "54f74a3cbc81b9700afc85f1df3bc070c4bea02bda2bf938554c1f873992eb77",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S003.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S004",
+    "path": "episodes/EP020/frames/EP020-S004.png",
+    "sha256": "2d7207b92b0621c89154dc8afe09ce6e17468586abe25cb78267657c6cc5684d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S004.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S005",
+    "path": "episodes/EP020/frames/EP020-S005.png",
+    "sha256": "bff6996169d423dd39d54eb8ba55542c7a14a9c78db1a076f954dac5924b1b2c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S005.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S006",
+    "path": "episodes/EP020/frames/EP020-S006.png",
+    "sha256": "d4b4188cec6059b1f41f2904b928c08330dd30efaa118d3b08ebaf49542de5f2",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S006.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S007",
+    "path": "episodes/EP020/frames/EP020-S007.png",
+    "sha256": "5aaa81b1286b21dfd96b4623a7039ab6c3b401ca819e8de37533474ae0ca6b8b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S007.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S008",
+    "path": "episodes/EP020/frames/EP020-S008.png",
+    "sha256": "6526aa1a75ce55f4bb6bb4260df84d2867fd19d0bca2c271139263b83a86619f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S008.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S009",
+    "path": "episodes/EP020/frames/EP020-S009.png",
+    "sha256": "c1148bd33db41513c528e3c088586bf8a9069e30e716c467805315761eff568b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S009.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S010",
+    "path": "episodes/EP020/frames/EP020-S010.png",
+    "sha256": "2a26cba52bfbc05c783c573260bde0c73434ca162d305b43702213ff6027f05b",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S010.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S011",
+    "path": "episodes/EP020/frames/EP020-S011.png",
+    "sha256": "9a2b2d420d827a9efaaea59213cc2dfb68fe0f49927938b81afdaf5feb6e0a16",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S011.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S012",
+    "path": "episodes/EP020/frames/EP020-S012.png",
+    "sha256": "c406244a7e2a2064a684a3826a649eb5ff1e33f8cb1b9e35149ef951d943a8d8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S012.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S013",
+    "path": "episodes/EP020/frames/EP020-S013.png",
+    "sha256": "c138247046a4afd7967d07a25e5e5f89c0d86df9f051aa76e379e141d525b2f3",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S013.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S014",
+    "path": "episodes/EP020/frames/EP020-S014.png",
+    "sha256": "7440b28fa7c6ee1afb73b1190deaad8b95fa59cf34c454359e90fdb9275026f6",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S014.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S015",
+    "path": "episodes/EP020/frames/EP020-S015.png",
+    "sha256": "614599d12e80c608b33e3f4f427433df63cdd9aa8ac425ba355a8d3267f9e9ad",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S015.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S016",
+    "path": "episodes/EP020/frames/EP020-S016.png",
+    "sha256": "86c8fcae854df68fb635ba8756d11a2ab5b3832d7f9febda469db970072ed360",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S016.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "EP020-S017",
+    "path": "episodes/EP020/frames/EP020-S017.png",
+    "sha256": "b41112b2bcc24eb41cd85e78f2e93eabc287ae5a173a9bd3c9f4545868f97d7d",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "generator": "built-in image_gen",
+    "type": "event_image",
+    "prompt_path": "production/ep011-020-paradise-v1/image-requests/EP020-S017.json",
+    "status": "PASS_MODEL_VISUAL_REVIEW",
+    "selected_for_production": true
+  },
+  {
+    "asset_id": "QIAO-v1",
+    "path": "assets/baselines/QIAO-v1.png",
+    "sha256": "4481e6176ceb24a76dbea0c41f29ae5415567e9760963937d2a91c6c6764d09a",
+    "generator": "built-in image_gen",
+    "type": "character_baseline",
+    "selected_for_production": false,
+    "reference_only": true
+  },
+  {
+    "asset_id": "PARADISE-v1",
+    "path": "assets/baselines/PARADISE-v1.png",
+    "sha256": "ebb7ed80445babba69a7b92ee36a6fee82c08154cbd2d790fce68f980798738d",
+    "generator": "built-in image_gen",
+    "type": "scene_baseline",
+    "selected_for_production": false,
+    "reference_only": true
+  },
+  {
+    "asset_id": "BONE-v1",
+    "path": "assets/baselines/BONE-v1.png",
+    "sha256": "168aeaf35fc722c80ff1ea1cc78e9b916b7729418cd2f555b781fcb0c810acf6",
+    "generator": "built-in image_gen",
+    "type": "creature_identity_reference",
+    "selected_for_production": false,
+    "reference_only": true
+  }
+]
