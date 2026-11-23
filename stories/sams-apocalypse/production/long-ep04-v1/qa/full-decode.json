@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP04-v1/video.mp4",
+  "command": "ffmpeg -v error -xerror -i video.mp4 -map 0:v:0 -map 0:a:0 -f null -",
+  "exit_code": 0
+}

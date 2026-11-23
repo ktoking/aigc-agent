@@ -1,0 +1,14 @@
+{
+  "id": "p109",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2271788b-5394-4568-8318-8cd3f29d5dbd.png",
+  "file": "assets/p109.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 只修改第一张图左侧小监视器的画面：把其中三个旧卷帘门替换为已经用平整钢板彻底封死的大卸货口，参考第二张图片中的钢板封口外观，空院无人。不要出现可开启的卷帘门和门洞。严格保持第一张图男主本人、青绿帽黄帽衫蓝马甲、动作、双手、大厚门、桌面、室内背景、构图和所有其他内容不变。16:9干净干燥真人电影，无字幕。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p109-monitor-old-shutters.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/assets/p105.png"
+    ],
+    "transparent_background": false
+  }
+}

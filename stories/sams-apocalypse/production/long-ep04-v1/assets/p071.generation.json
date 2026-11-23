@@ -1,0 +1,13 @@
+{
+  "id": "p071",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-16482e33-e0ab-407f-8cdc-1d9ef760986e.png",
+  "file": "assets/p071.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 编辑输入图，删除两名全部人物及他们所有的手、手套、胳膊、身体和衣物，用原有灰色内墙和桌面自然补齐。严格保留桌上打开的黑色工具箱，箱内两台白色枪式摄像头，箱盖旁记录本、工具、左后方监视器和关闭的内门。最终是完全无人的静物电影镜头，摄像头已经放妥在箱中，没有第三只手，无字幕，保持16:9。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p071-pre-edit.png"
+    ],
+    "transparent_background": false
+  }
+}

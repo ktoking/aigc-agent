@@ -1,0 +1,13 @@
+{
+  "id": "p098",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-37419d12-a748-4dc9-ba1f-10b213011c90.png",
+  "file": "assets/p098.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 对输入图只做去人修正：保留机房工具柜、机油瓶、滤芯备件、完整墙面和关闭内门。删除三个全部人物、手、胳膊及衣物，补齐柜前的干净地面和桌面。最终是完全无人的机房物资静物。 保持构图、16:9、干净干燥真人电影风，无字幕和水印。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p098-unwanted-people.png"
+    ],
+    "transparent_background": false
+  }
+}

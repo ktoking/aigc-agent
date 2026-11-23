@@ -1,0 +1,27 @@
+{
+  "voice": {
+    "input_i": "-23.61",
+    "input_tp": "-1.50",
+    "input_lra": "2.00",
+    "input_thresh": "-33.82",
+    "output_i": "-16.89",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-27.05",
+    "normalization_type": "dynamic",
+    "target_offset": "0.89"
+  },
+  "music": {
+    "input_i": "-7.87",
+    "input_tp": "0.85",
+    "input_lra": "15.50",
+    "input_thresh": "-19.09",
+    "output_i": "-14.01",
+    "output_tp": "-1.50",
+    "output_lra": "10.00",
+    "output_thresh": "-24.63",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.99"
+  },
+  "bgm_gain_db": -29.74
+}

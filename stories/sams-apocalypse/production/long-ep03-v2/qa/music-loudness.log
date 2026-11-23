@@ -1,0 +1,40 @@
+Input #0, ogg, from 'stories/sams-apocalypse/production/long-ep03-v2/assets/bgm.ogg':
+  Duration: 00:02:12.48, start: 0.000000, bitrate: 322 kb/s
+  Stream #0:0: Audio: vorbis, 44100 Hz, stereo, fltp, 320 kb/s
+    Metadata:
+      TITLE           : Tempt Scandal
+      ARTIST          : Audiomachine
+      ALBUM           : Sonant
+      end             : 5344204
+      endserial       : 1863730419
+      endgran         : 5842368
+Stream mapping:
+  Stream #0:0 -> #0:0 (vorbis (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_s16le
+      TITLE           : Tempt Scandal
+      ARTIST          : Audiomachine
+      ALBUM           : Sonant
+      end             : 5344204
+      endserial       : 1863730419
+      endgran         : 5842368
+[Parsed_loudnorm_0 @ 0x12b60a2a0] 
+{
+	"input_i" : "-7.87",
+	"input_tp" : "0.85",
+	"input_lra" : "15.50",
+	"input_thresh" : "-19.09",
+	"output_i" : "-14.01",
+	"output_tp" : "-1.50",
+	"output_lra" : "10.00",
+	"output_thresh" : "-24.63",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-1.99"
+}
+[out#0/null @ 0x12b604630] video:0KiB audio:99360KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:02:12.50 bitrate=N/A speed=29.8x elapsed=0:00:04.44    

@@ -1,0 +1,13 @@
+{
+  "id": "p108",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0144af4a-8d5d-4e0d-b363-1a9c48dfa9e1.png",
+  "file": "assets/p108.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: photorealistic-natural / identity-preserve. 为中国真人末日电影新绘单幅横向16:9静帧，不是拼图或旧图裁切。自然真实比例、中等细节、清晰大形、克制电影光，不画过锐密集微纹理。室内干净有序干燥、完整灰白墙和哑光地面；室外昏黄干燥尘天，不画雨、水洼、绿辐射。无字幕、标题、水印。只画本镜事件，不将前后事件拼进来。\n唯一人物为参考同一中国男主，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一事件：男主起身走向后仓厚门，手里只有钥匙，背景住处灯光温暖，院子只能在小监控里出现，不能有窗外黄天直通地下。\n机位在封闭的内侧房间或后仓。所有可见内门关闭，不出现破卷帘门、开放门洞、破玻璃、窗外黄天或露天院子；只有实物监控屏内可以显示外景。人物专注任务，不看镜头。\n不画危险装置制作、机关结构、点火步骤、枪械装填或使用教学；冲突仅表现剧情。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/references/male-neutral.png"
+    ]
+  }
+}

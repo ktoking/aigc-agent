@@ -1,0 +1,13 @@
+{
+  "id": "p065",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8507ec12-d221-40fe-98df-0ca5fa2da1e9.png",
+  "file": "assets/p065.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 保留参考电影静帧中男主原有脸、青绿帽黄帽衫深蓝马甲、抱箱动作、右侧整齐货架和后方关闭厚门。只修正左侧背景：删除通向黄色室外的整个破卷帘门洞，替换成完整灰白室内墙或关闭不透光的厚内门，不能出现院子、天空、车、开放门洞或破玻璃。人物正在封闭后仓把食品往里搬，受损外卷帘门在另外一层收货亭，不在这个镜头。维持干燥整洁、16:9横向真实电影光，无文字水印。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/assets/p065.png"
+    ],
+    "transparent_background": false
+  }
+}

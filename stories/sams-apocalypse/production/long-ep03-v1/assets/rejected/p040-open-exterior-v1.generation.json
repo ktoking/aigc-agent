@@ -1,0 +1,16 @@
+{
+  "id": "p040",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9d9cb04d-c091-4eab-b8bf-0f41e5319b35.png",
+  "file": "assets/p040.png",
+  "sha256": "dc492c803e16bf02d990a0aeb02ccbd1f7f7dc9a1132e36c17c285bb868c2d8e",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把自用的水米搬上一辆平板车，另一辆空车停在旁边等待交易配货，仓内无外人，中景。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "p006",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7940055b-7464-4e8e-a43c-bd2436400c6b.png",
+  "args": {
+    "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。仅修正左侧棕补丁A的防护兜帽：把兜帽戴上盖住全部头发，保持脸、面罩、护目镜、棕补丁、动作、人物数量与背景原样。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p006-original.png"
+    ]
+  }
+}

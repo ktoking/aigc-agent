@@ -1,0 +1,44 @@
+{
+  "total_checked": 149,
+  "flagged": 2,
+  "rechecks": [
+    {
+      "id": "c098",
+      "source": "我把摄像头拿给许棠。她先接上检查，屏幕里很快出现了我站在桌边的画面。",
+      "original_asr": "我把摄像头拿给许棠，，，，，，，，，，，，，，，，，，，，，，，�",
+      "rechecks": [
+        {
+          "beam": 1,
+          "asr": "我把摄像头拿给许唐,他先接上检查。屏幕里很快出现了我站在桌边的画面。",
+          "phonetic_similarity": 1.0
+        },
+        {
+          "beam": 3,
+          "asr": "我把摄像头拿给许唐,他先接上检查。屏幕里很快出现了我站在桌边的画面",
+          "phonetic_similarity": 1.0
+        }
+      ],
+      "status": "RESOLVED_ASR_FALSE_POSITIVE"
+    },
+    {
+      "id": "c123",
+      "source": "一台替下被砸坏的，另一台补到原来少一块画面的地方。",
+      "original_asr": "一台剃下被砸坏的，，，，，，，，，，，，，，，，，，，，，，，�",
+      "rechecks": [
+        {
+          "beam": 1,
+          "asr": "一台剃下被砸坏的, 另一台不到原来少一块画面的地方。",
+          "phonetic_similarity": 1.0
+        },
+        {
+          "beam": 3,
+          "asr": "一台剃下被砸坏的,另一台补到原来少一块画面的地方。",
+          "phonetic_similarity": 1.0
+        }
+      ],
+      "status": "RESOLVED_ASR_FALSE_POSITIVE"
+    }
+  ],
+  "unresolved": [],
+  "full_human_listen": "NOT_RUN"
+}

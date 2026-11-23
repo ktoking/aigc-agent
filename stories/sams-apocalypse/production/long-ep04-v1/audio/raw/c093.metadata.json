@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "07436af5aee86bc2ead4c7d4d69fae50",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "这几天，我俩也没等着外面来修。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2500,
+    "audio_sample_rate": 32000,
+    "audio_size": 161164,
+    "bitrate": 128000,
+    "word_count": 15,
+    "invisible_character_ratio": 0,
+    "usage_characters": 28,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/audio/raw/c093.wav",
+  "bytes": 161164,
+  "sha256": "7ea4a9b400b19447e2258e1d444474e6f359e06ede441c530df95d22dd78ef0a",
+  "subtitle_files_generated": false
+}

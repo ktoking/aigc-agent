@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:5293/",
+  "media": "video.mp4",
+  "browser": "IAB",
+  "rate": 1,
+  "duration": 538.533333,
+  "currentTime": 538.533333,
+  "ended": true,
+  "error": null,
+  "width": 1920,
+  "height": 1080,
+  "playEvents": [
+    {
+      "time": 0,
+      "rate": 1,
+      "at": 1794311699035
+    }
+  ],
+  "pauseEvents": [
+    {
+      "time": 538.533333,
+      "rate": 1,
+      "at": 1794312237814
+    }
+  ],
+  "seekEvents": [],
+  "rateEvents": [],
+  "errorEvents": [],
+  "endedEvents": [
+    {
+      "time": 538.533333,
+      "rate": 1,
+      "at": 1794312237814
+    }
+  ],
+  "observed_samples_seconds": [
+    193.924147,
+    513.145876,
+    538.533333
+  ],
+  "human_full_watch": "NOT_RUN",
+  "human_full_listen": "NOT_RUN",
+  "note": "Observed normal-speed sequential player playback completion, not continuous human audiovisual review."
+}

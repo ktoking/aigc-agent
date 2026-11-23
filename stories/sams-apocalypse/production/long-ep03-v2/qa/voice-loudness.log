@@ -1,0 +1,28 @@
+[aist#0:0/pcm_s16le @ 0x144d04330] Guessed Channel Layout: mono
+Input #0, wav, from 'stories/sams-apocalypse/production/long-ep03-v1/audio/narration.wav':
+  Duration: 00:08:58.53, bitrate: 768 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, mono, s16, 3072 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_s16le
+[Parsed_loudnorm_0 @ 0x143e04c20] 
+{
+	"input_i" : "-23.61",
+	"input_tp" : "-1.50",
+	"input_lra" : "2.00",
+	"input_thresh" : "-33.82",
+	"output_i" : "-16.89",
+	"output_tp" : "-1.50",
+	"output_lra" : "1.50",
+	"output_thresh" : "-27.05",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.89"
+}
+[out#0/null @ 0x144c04110] video:0KiB audio:201950KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:08:58.60 bitrate=N/A speed=56.7x elapsed=0:00:09.50    

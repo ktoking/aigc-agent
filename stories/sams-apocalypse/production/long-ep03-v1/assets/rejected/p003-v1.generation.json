@@ -1,0 +1,16 @@
+{
+  "id": "p003",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-add726aa-2882-4587-b8d6-e57da048b24c.png",
+  "file": "assets/p003.png",
+  "sha256": "8166c2d7f87001c00783daec1ff942c86b1e7ce42d4ac06e400c057cd14ba022",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n参考群像只取所点名的外部人物身份：灰夹克方脸中年男子为周强，黑夹克短寸男子为黑夹克，米白外套眼镜女子为林岚，白发老人为父亲；只画本事件指定的人，不复制其余路人。他们绝不进入主角室内。\n本镜唯一可见事件：屏幕特写：二维监控画面中，黑色夹克短发男子正从超市外墙检修口往外退，灰夹克周强在下面扶一架梯子。两人仅在监控屏里面，室内不出现实体外人。\n对应旁白背景（只用于理解，不把文字写在图中）：监控里，黑夹克正往外墙的检修口钻，周强拖着梯子往他脚下赶。另一块画面上，林岚扶着父亲，绕过岗亭，朝附近的厚墙建筑跑去。我抱起收音机，抓住许棠的手，直奔后仓。\n与其他镜头相比，必须表现上面指定的新动作/物件状态，不只换角度重复上一张图。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/outsiders-identity.png"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "07421bbabb931059a6e40528d6607451",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "他们最急的是水，接着是米和能直接吃的罐头。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 3400,
+    "audio_sample_rate": 32000,
+    "audio_size": 218764,
+    "bitrate": 128000,
+    "word_count": 21,
+    "invisible_character_ratio": 0,
+    "usage_characters": 40,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/audio/raw/c102.wav",
+  "bytes": 218764,
+  "sha256": "aa49caaad44deb49c6f041f2a3d8a8a1311a76568a69e70e8dcf23d9139bc045",
+  "subtitle_files_generated": false
+}

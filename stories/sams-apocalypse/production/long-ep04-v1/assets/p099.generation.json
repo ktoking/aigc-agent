@@ -1,0 +1,13 @@
+{
+  "id": "p099",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-fa923b41-8938-4d1e-b47b-48ac8d1f1a78.png",
+  "file": "assets/p099.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 对输入图只做去人修正：保留米袋、饮用水、罐头、托盘、关闭冷库和厚门。删除两个全部人物及其身体手和衣物，保留空着的手动托盘车与地面。最终无人的核心仓库静物，不增加外人。 保持构图、16:9、干净干燥真人电影风，无字幕和水印。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p099-unwanted-people.png"
+    ],
+    "transparent_background": false
+  }
+}

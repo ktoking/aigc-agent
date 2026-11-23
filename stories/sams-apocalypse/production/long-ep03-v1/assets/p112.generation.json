@@ -1,0 +1,16 @@
+{
+  "id": "p112",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6a665c58-eeae-4b3f-85e5-76defdcbbfa4.png",
+  "file": "assets/p112.png",
+  "sha256": "7644fc0a8ab708de6b0e67ffc61013abc352e5aa6fbd117c39fac19790fe00e4",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：地下小厨房普通桌上两人份晚饭近景，两只朴素白色餐盘，每盘一块煎好的牛排、一个小圆面包、一小勺炒熟的玉米粒豌豆胡萝卜丁，两杯可乐，无冰块。不加生菜、不加生番茄、没有米饭，没有其他主菜，无花烛玫瑰酒店排场。参考图只取本餐刚煎的牛排与圆面包外形，重新安排桌上餐盘特写，不出现人物，房间无窗。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p111.png"
+    ]
+  }
+}

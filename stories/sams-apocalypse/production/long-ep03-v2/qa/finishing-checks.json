@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "main_video_frames": 16156,
+  "duration_seconds": 538.533333333,
+  "cover_attached_pic": true,
+  "cover_extracted_sha_matches_original": true,
+  "music_gain_mode": "constant_except_endpoint_fades",
+  "ducking": false,
+  "music_title": "Tempt Scandal",
+  "music_artist": "Audiomachine",
+  "source_music_seconds": 132.48,
+  "full_cycles": 4,
+  "last_cycle_seconds": 8.613333333000014,
+  "music_cycle_correlations": [
+    0.9999999968470914,
+    0.9999999968470914,
+    0.9999999968470914,
+    0.9999999968470914,
+    0.9999999968470914
+  ],
+  "min_voice_over_music_cue_rms_db": 8.911964302370176,
+  "mean_voice_over_music_cue_rms_db": 18.2122954646099,
+  "cue_count": 144,
+  "mix_voice_plus_bed_max_residual": 1.527660060673952e-07,
+  "encoded_mix_correlation": 0.9998922569182178,
+  "music_endpoint_gain_projections": [
+    {
+      "start_seconds": 0.1,
+      "gain_projection": 0.2512158453464508
+    },
+    {
+      "start_seconds": 0.3,
+      "gain_projection": 0.6397637128829956
+    },
+    {
+      "start_seconds": 0.5,
+      "gain_projection": 0.9999949932098389
+    },
+    {
+      "start_seconds": 538.0333333333333,
+      "gain_projection": 0.9295231103897095
+    },
+    {
+      "start_seconds": 538.2333333333333,
+      "gain_projection": 0.5238909721374512
+    },
+    {
+      "start_seconds": 538.4333333333333,
+      "gain_projection": 0.13637429475784302
+    }
+  ],
+  "subtitles": "retained baked captions; timeline unchanged",
+  "full_human_listen": "NOT_RUN",
+  "full_human_watch": "NOT_RUN",
+  "full_decode": "PASS ffmpeg -xerror",
+  "mix_true_peak_dbtp": -4.26,
+  "video_fade_check": {
+    "status": "PASS",
+    "frames_per_endpoint": 9,
+    "first_last_frame_mean_luma": [
+      0.0,
+      0.0
+    ],
+    "endpoint_means": [
+      0.0,
+      7.339845679012345,
+      14.666913580246913,
+      21.90675925925926,
+      29.36858024691358,
+      36.50635802469136,
+      43.88617283950617,
+      51.03484567901234,
+      58.20466049382716,
+      58.18932098765432,
+      56.57555555555555,
+      56.57555555555555,
+      49.57432098765432,
+      42.30083333333334,
+      35.716388888888886,
+      28.166635802469134,
+      21.30462962962963,
+      13.895895061728394,
+      7.102592592592592,
+      0.0
+    ]
+  },
+  "browser_samples": {
+    "status": "PASS_WITH_LIMITED_SCOPE",
+    "normal_speed": 1,
+    "opening_time_observed": 2.085771,
+    "first_loop_time_observed": 134.311876,
+    "tail_time_observed": 538.247415,
+    "media_error": null,
+    "notes": "开头、首个循环跨点、尾部正常显示；会话清理且样段出现暂停，未记录全片顺序播放或ended=true"
+  },
+  "full_sequential_playback": "NOT_RUN"
+}

@@ -1,0 +1,34 @@
+{
+  "status": "RENDERED_AND_DECODED",
+  "video": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/video-tests/doubao-opening15-20261112/segment_01_00-15s/output/video-test-15s.mp4",
+  "durationSeconds": 15.0,
+  "width": 1280,
+  "height": 720,
+  "frames": 450,
+  "presentationFps": 30,
+  "sourceFps": 24,
+  "sourceClips": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/video-tests/doubao-opening15-20261112/segment_01_00-15s/output/p001/attempt-05/official-original.mp4",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/video-tests/doubao-opening15-20261112/segment_01_00-15s/output/p002/official-original.mp4",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/video-tests/doubao-opening15-20261112/segment_01_00-15s/output/p003/official-original.mp4"
+  ],
+  "originalNarrationCues": [
+    "c001",
+    "c002",
+    "c003",
+    "c004"
+  ],
+  "narrationSpeedChanged": false,
+  "narrationEndSeconds": 11.8,
+  "trailingNoNarrationSeconds": 3.2,
+  "watermarkProcessing": "none; official watermark retained",
+  "independentSubtitleDelivery": false,
+  "newTtsGenerated": false,
+  "fullHumanPlayback": "NOT_RUN",
+  "captions_burned": true,
+  "caption_render_method": "Pillow transparent PNG overlays, original cue frames",
+  "sampled_visual_review": "PASS: opening, captions, both transitions, final shot; qa/final-contact.jpg",
+  "audio_listening_review": "NOT_RUN",
+  "user_acceptance": "NOT_RUN",
+  "sha256": "03e485a2ac676b5c89cc9c78f6bb3ad9069f47dcb1c83e6b68a8a935e1a2d39a"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "authorized": "user requested full static-image + MiniMax narration + edited video after reading skill",
+  "skill_read": "/Users/kaiyi.wang/.codex/skills/story-film-workflow/SKILL.md",
+  "script": "drafts/LONG-EP03-nuclear-v6-narration.txt",
+  "script_sha256": "f60b61c89505880880a35f6dede7bcf4be19d40657aa44f0433890a4e728416c",
+  "voice_cues": 144,
+  "source_images": "new unique image per shot, target4-6sec after actual TTS",
+  "video": "1920x1080 30fps fixed shot, 3-frame dissolve",
+  "subtitle": "burned Chinese commas-as-spaces and no fullstops; no independent SRT/VTT",
+  "audio": "Gentleman 1.2 calm vol1 pitch0, no post tempo, no BGM requested this turn",
+  "not_yet_complete": [],
+  "measured_duration_seconds": 538.5333333333333,
+  "voice_cues_complete": 144,
+  "automated_asr_review": 144,
+  "planned_unique_shots": 118,
+  "images_complete": 118,
+  "frame_count": 16156,
+  "video_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP03-v1/video.mp4",
+  "narration_mp3": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP03-v1/narration.mp3",
+  "actual_image_jobs": "image-jobs-final.json",
+  "qa": {
+    "automatic_checks": "PASS",
+    "all_images_visual_review": "PASS 118 final stills plus6contact sheets",
+    "encoded_caption_samples": "PASS frames0/50/53/8050/13000/16155; readable, absent in first gap, no comma/fullstop, no doubled subtitle layer",
+    "normal_speed_sequential_playback": "PASS ended=true, no seek/rate change/media error",
+    "full_human_watch": "NOT_RUN",
+    "full_human_listen": "NOT_RUN",
+    "video_sha256": "cd227e3d29f428cede239a999f63b08ad79841a7bcf1ab761b22cd7f77f865cb",
+    "minor_limitations": "AI stills retain small prop/background-detail variations; source images1672x941 upscaled to1920x1080. User aesthetic acceptance remains pending."
+  }
+}

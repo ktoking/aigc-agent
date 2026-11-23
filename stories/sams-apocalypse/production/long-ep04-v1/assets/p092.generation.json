@@ -1,0 +1,13 @@
+{
+  "id": "p092",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-dfd5ed22-b7d8-44f8-bf2e-b009f9bacaaa.png",
+  "file": "assets/p092.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 对输入图只做去人修正：保留三个无字监控画面、桌面、键盘、鼠标、杯子与关闭内门。删除屏幕外的两名人物及所有身体、手、胳膊、衣服，补齐空椅、桌面和完整内墙。最终是无人的监控室静物。 保持构图、16:9、干净干燥真人电影风，无字幕和水印。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p092-unwanted-people.png"
+    ],
+    "transparent_background": false
+  }
+}

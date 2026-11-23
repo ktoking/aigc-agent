@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "frame_samples": [
+    0,
+    4,
+    8,
+    30,
+    3040,
+    3041,
+    3043,
+    8114,
+    16218,
+    16223,
+    16227
+  ],
+  "frame_mean_rgb": [
+    0.0,
+    51.21771267361111,
+    103.92639258616255,
+    103.90108442644033,
+    80.48388149434156,
+    85.74475099665638,
+    91.01526427469136,
+    65.94780333719136,
+    58.953601466049385,
+    28.453242348251027,
+    0.0
+  ],
+  "endpoint_fades": "PASS first/last black and monotonic sampled ramps",
+  "shot_count": 109,
+  "shot_range_seconds": [
+    4.0,
+    5.966666666666667
+  ],
+  "external_gap_frames": 3,
+  "dissolve_frames": 3,
+  "caption_punctuation": "PASS",
+  "human_full_watch": "NOT_RUN",
+  "human_full_listen": "NOT_RUN",
+  "visual_caption_review": "PASS sampled active captions, cue gap3040/3041 and next cue3043; no commas/full stops or double-caption dissolve"
+}

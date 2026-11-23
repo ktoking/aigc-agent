@@ -1,0 +1,13 @@
+{
+  "id": "p042",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-cb76357c-ec28-4202-bf9e-7488637c8e1e.png",
+  "file": "assets/p042.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 修正这张单幅16:9写实电影环境照片。保留中央两托餐厨用品纸箱、托盘、地面、右侧畅通楼梯和应急灯。关键修改：左边直通黄色室外的巨大破洞全部改为关闭、完整、不透光的灰色厚内门，旁边不再出现露天院子；右上方通向货架的敞开门口也关成完整灰色内门。这是后仓内部封闭走廊，外面受损卷帘门在另外一层收货亭里，不在此镜头视野。两托箱子临时放在停用门前，楼梯仍畅通。室内干净干燥，冷暖克制人工灯，没有室外天空，无人物，无文字水印，不画防御机关或施工教程。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/assets/p042.png"
+    ],
+    "transparent_background": false
+  }
+}

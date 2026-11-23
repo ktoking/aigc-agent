@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "07436b3bf587a9ae3efeef6090787498",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我把装好的摄像头放到工具箱里，等外面允许作业，就和修门一起办。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 4934,
+    "audio_sample_rate": 32000,
+    "audio_size": 316956,
+    "bitrate": 128000,
+    "word_count": 31,
+    "invisible_character_ratio": 0,
+    "usage_characters": 59,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/audio/raw/c100.wav",
+  "bytes": 316956,
+  "sha256": "75a8d7988925ee787010769ec9e6bd1b0c10eb1dd1fa7a5ddcd05ab9f009c197",
+  "subtitle_files_generated": false
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v2/verify.py", line 15, in <module>
+    assert n==round(538.533333333*sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

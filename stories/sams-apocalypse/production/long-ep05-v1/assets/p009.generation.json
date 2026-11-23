@@ -1,0 +1,11 @@
+{
+  "id": "p009",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f40ab880-78a1-431c-9021-ebe9b3f6926c.png",
+  "args": {
+    "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只替换左上角显示器内的桥头影像为山姆空外围院子，院内无车辆无人物。这个房间没有桥头远程实时监控。保持男主青绿帽黄帽衫深蓝马甲、表情、电台、桌面、其余构图完全一致。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p009-original.png"
+    ]
+  }
+}

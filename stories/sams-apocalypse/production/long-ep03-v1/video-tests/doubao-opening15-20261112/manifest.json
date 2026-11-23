@@ -1,0 +1,177 @@
+{
+  "status": "GENERATED_ORIGINALS_DOWNLOADED_15S_DELIVERED",
+  "source_episode": "LONG-EP03-v1",
+  "requested_duration_seconds": 15,
+  "actual_generated_duration_seconds": 30.240000000000002,
+  "frames": [
+    {
+      "shot": "p001",
+      "source": "stories/sams-apocalypse/production/long-ep03-v1/assets/p001.png",
+      "sha256": "184de84a3042c7e7ad8416bd7ab940c3651a80ecaabc04eb09a3228d8a4ec8b4"
+    },
+    {
+      "shot": "p002",
+      "source": "stories/sams-apocalypse/production/long-ep03-v1/assets/p002.png",
+      "sha256": "1f85000b45b348c090498bec3999e176d950611f3c4aeae3a452b3e05f99c177"
+    },
+    {
+      "shot": "p003",
+      "source": "stories/sams-apocalypse/production/long-ep03-v1/assets/p003.png",
+      "sha256": "d6c2f63b1b68ce57144331c837f85d62924a945804e3e5f206da3101e72d2ab7"
+    }
+  ],
+  "generation_service": "local doubao-account-pool 0.1.76",
+  "model": "seedance_2_0_mini",
+  "single_reference_per_request": true,
+  "reference_images_newly_generated": false,
+  "submission_policy": "p001 inspected before submitting remaining two distinct shots; no resubmission of completed tasks",
+  "known_limit": "API tasks report failed at watermark/token_missing; official original MP4 retrieval succeeded without third-party parser; watermark retained",
+  "original_audio": "c001-c004 unchanged, 0-11.8 seconds; do not cut c005 mid-sentence",
+  "generated_files": [
+    {
+      "shot": "p001",
+      "request_id": "doubao-20c8a98dc1234677",
+      "account_id": 1,
+      "api_status": "failed",
+      "api_error": {
+        "stage": "watermark",
+        "code": "token_missing",
+        "title": "未配置去水印 Token",
+        "detail": "未配置去水印 Token，无法返回可用视频",
+        "suggestion": "在配置管理中填写并保存 Token 后恢复结果。",
+        "retryable": false
+      },
+      "generation_verified": true,
+      "official_download": "PASS",
+      "duration_seconds": 10.08,
+      "video": "segment_01_00-15s/output/p001/attempt-05/official-original.mp4",
+      "sha256": "2104270a3b0acf715ec70f5586675248cb5f51a562d8e18d1ade158b7b3c4e20",
+      "full_decode": "PASS",
+      "watermark_retained": true
+    },
+    {
+      "shot": "p002",
+      "request_id": "doubao-317a073325a34a1d",
+      "account_id": 1,
+      "api_status": "failed",
+      "api_error": {
+        "stage": "watermark",
+        "code": "token_missing",
+        "title": "未配置去水印 Token",
+        "detail": "未配置去水印 Token，无法返回可用视频",
+        "suggestion": "在配置管理中填写并保存 Token 后恢复结果。",
+        "retryable": false
+      },
+      "generation_verified": true,
+      "official_download": "PASS",
+      "duration_seconds": 10.08,
+      "video": "segment_01_00-15s/output/p002/official-original.mp4",
+      "sha256": "82baa2a5f3fc0b538f6e366e6d9bcc1b44c5f4df45fc1f14add55f74be9a1bbc",
+      "full_decode": "PASS",
+      "watermark_retained": true
+    },
+    {
+      "shot": "p003",
+      "request_id": "doubao-d0a6d888fe7743fe",
+      "account_id": 1,
+      "api_status": "failed",
+      "api_error": {
+        "stage": "watermark",
+        "code": "token_missing",
+        "title": "未配置去水印 Token",
+        "detail": "未配置去水印 Token，无法返回可用视频",
+        "suggestion": "在配置管理中填写并保存 Token 后恢复结果。",
+        "retryable": false
+      },
+      "generation_verified": true,
+      "official_download": "PASS",
+      "duration_seconds": 10.08,
+      "video": "segment_01_00-15s/output/p003/official-original.mp4",
+      "sha256": "0644023d362b5a4deae182a2edb7826a50369f9473482898ebf5a8b3cee7190f",
+      "full_decode": "PASS",
+      "watermark_retained": true
+    }
+  ],
+  "attempts": [
+    {
+      "request_id": "doubao-7688000b9d014587",
+      "account_id": 1,
+      "status": "failed",
+      "execution_phase": "finished",
+      "quota_refunded": 1,
+      "created_at": "2026-11-12T08:48:18.107Z",
+      "updated_at": "2026-11-12T08:48:18.137Z"
+    },
+    {
+      "request_id": "doubao-eb8b0f7b302e4ae5",
+      "account_id": 2,
+      "status": "failed",
+      "execution_phase": "finished",
+      "quota_refunded": 1,
+      "created_at": "2026-11-12T08:57:30.736Z",
+      "updated_at": "2026-11-12T08:57:55.621Z"
+    },
+    {
+      "request_id": "doubao-d458b65aa43a45df",
+      "account_id": 2,
+      "status": "failed",
+      "execution_phase": "finished",
+      "quota_refunded": 1,
+      "created_at": "2026-11-12T08:59:13.597Z",
+      "updated_at": "2026-11-12T08:59:33.967Z"
+    },
+    {
+      "request_id": "doubao-3d4603c1579f41b3",
+      "account_id": 3,
+      "status": "failed",
+      "execution_phase": "finished",
+      "quota_refunded": 1,
+      "created_at": "2026-11-12T09:00:50.837Z",
+      "updated_at": "2026-11-12T09:01:01.266Z"
+    }
+  ],
+  "original_script_modified": false,
+  "original_assets_modified": false,
+  "remaining_shots_submitted": true,
+  "blocker": null,
+  "watermark_token_configured": false,
+  "native_ui_inspection": "unavailable: cua.getApp timed out repeatedly",
+  "service_restarted_once": true,
+  "account_pool_repair_report": "/Users/kaiyi.wang/IdeaProjects/ktoking/doubao-account-pool/repair-reports/README.md",
+  "service_preflight": {
+    "ready": true,
+    "accountId": 1,
+    "model": "mini",
+    "aspectRatio": "16:9",
+    "submitted": false,
+    "quotaCharged": false
+  },
+  "remaining_validation": [
+    "API watermark-clean-output requires configured Token; not configured or tested",
+    "cross-account live generation NOT_RUN",
+    "full human playback/audio listening and user acceptance NOT_RUN"
+  ],
+  "latest_test_date": "2026-11-13",
+  "latest_request_id": "doubao-d0a6d888fe7743fe",
+  "latest_test_account": 1,
+  "reference_upload_reached": true,
+  "prompt_send_reached": true,
+  "video_generation_verified": true,
+  "historical_pre_repair_state": {
+    "local_quota_all_refunded": true,
+    "no_upload_or_prompt_actions_in_log": true,
+    "native_ui_inspection": "unavailable: cua.getApp timed out repeatedly"
+  },
+  "final_duration_seconds": 15,
+  "final_video": "segment_01_00-15s/output/video-test-15s.mp4",
+  "final_sha256": "03e485a2ac676b5c89cc9c78f6bb3ad9069f47dcb1c83e6b68a8a935e1a2d39a",
+  "api_end_to_end_status": "BLOCKED_AT_WATERMARK_TOKEN",
+  "original_download_status": "PASS",
+  "local_quota_latest_requests_refunded": false,
+  "output_width": 1280,
+  "output_height": 720,
+  "output_frames": 450,
+  "output_fps": 30,
+  "native_generated_clip_duration_seconds": 10.08,
+  "native_duration_parameter_supported": false
+}

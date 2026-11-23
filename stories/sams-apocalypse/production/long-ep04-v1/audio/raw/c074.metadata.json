@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "07436a3aeeef420bfc14f49047c758e5",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "合我和许棠穿的先留出来，剩下的按大小整理，箱子外面写好尺码。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 5500,
+    "audio_sample_rate": 32000,
+    "audio_size": 353164,
+    "bitrate": 128000,
+    "word_count": 30,
+    "invisible_character_ratio": 0,
+    "usage_characters": 57,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/audio/raw/c074.wav",
+  "bytes": 353164,
+  "sha256": "40851742742dacf4e0c218a2e94ed0af52022a085c6ac7bfc73372f622764352",
+  "subtitle_files_generated": false
+}

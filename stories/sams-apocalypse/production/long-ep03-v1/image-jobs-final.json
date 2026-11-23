@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "p001",
+    "args": {
+      "prompt": "Use case: identity-preserve / photorealistic-natural. 请以两张参考照片只锁定同一对中国成年演员的脸与衣服，重新绘制一张全新单幅16:9横向电影剧照，用作静态叙事视频开场，绝非拼图。男主约30岁，青绿色针织帽、芥末黄帽衫、深蓝马甲；许棠26岁，低马尾、橘色维修夹克、深灰工装裤。场景：现代山姆仓储超市内的小监控室，停电后仅桌上便携应急灯和监控屏发出光线，室内干净有序、地面干燥。画面核心事件：男主右手正把桌上便携收音机音量调大，听到即将核打击的紧急广播，脸上警觉震惊但克制，许棠站在他旁边看着收音机。三分之二侧面中近景，收音机在前景清楚，两人脸在中景，深处监控屏只见抽象停车场夜景不出现清晰文字。不画核爆，不画广播员，不画外人入室。写实真实皮肤、自然五官、克制冷暖电影照明、中等细节，清晰大形，不锐化过度，不肮脏、不积水、不湿反光、不要科幻屏幕。无字幕、无标题、无水印、无边框，底部留正常画面供后期字幕。参考只取人物身份，不能复制参考的灰色背景。",
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ],
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-78e12a82-2364-4640-8d7a-05d2d95bfa5b.png",
+    "sha256": "184de84a3042c7e7ad8416bd7ab940c3651a80ecaabc04eb09a3228d8a4ec8b4"
+  },
+  {
+    "id": "p002",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆尚未发生，停电深夜。室外也是黑夜，仅应急灯与路灯照明；绝不出现核后黄天、白昼阳光或城市已毁。门外只通向内部走廊，不能直通室外。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：监控室门边，男主起身握住许棠的手腕准备撤离，另一只手抱起便携收音机；两人看向门口，只有两名主角。侧面中景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-31079e5a-1c7c-450e-a8d2-3a73b8bffbf3.png",
+    "sha256": "1f85000b45b348c090498bec3999e176d950611f3c4aeae3a452b3e05f99c177"
+  },
+  {
+    "id": "p003",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆尚未发生，停电深夜。室外也是黑夜，仅应急灯与路灯照明；绝不出现核后黄天、白昼阳光或城市已毁。门外只通向内部走廊，不能直通室外。\n参考群像只取黑夹克短寸男子与灰夹克周强的身份。只画这两人，且两人只能出现在监控画面内部。\n本镜唯一可见事件：屏幕特写：二维监控画面中，黑色夹克短发男子正从超市外墙检修口往外退，灰夹克周强在下面扶一架梯子。两人仅在监控屏里面，室内不出现实体外人。\n整张图只以一台显示器作主体，画面只显示唯一一路监控，只有指定的两人出现在其中。屏幕外完全没有人、手或身体，不画第二路屏幕，不把其他旁白事件拼进来。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/outsiders-identity.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a5800ce9-95a4-4983-8028-3733b3603d9f.png",
+    "sha256": "d6c2f63b1b68ce57144331c837f85d62924a945804e3e5f206da3101e72d2ab7"
+  },
+  {
+    "id": "p004",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆尚未发生，停电深夜。室外也是黑夜，仅应急灯与路灯照明；绝不出现核后黄天、白昼阳光或城市已毁。门外只通向内部走廊，不能直通室外。\n参考群像只取米白外套眼镜女子林岚和白发父亲的身份。只画这两人，且两人只能出现在监控画面内部。\n本镜唯一可见事件：另一台二维监控屏特写：米白外套戴眼镜的林岚扶着白发老父亲，沿外侧岗亭向厚墙建筑撤离。只画这两位在屏幕内的户外人物。\n整张图只以一台显示器作主体，画面只显示唯一一路监控，只有指定的两人出现在其中。屏幕外完全没有人、手或身体，不画第二路屏幕，不把其他旁白事件拼进来。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/outsiders-identity.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c89807b7-ac95-496f-85f6-125b971468c3.png",
+    "sha256": "e3b88d9285b529835faa75d73b048bcc47dc6322d856a697b20e9af44c9e1973"
+  },
+  {
+    "id": "p005",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：男主抱着收音机，带许棠快速走入封闭后仓的内部通道，前方是通往地下的楼梯门。两人背侧中景，紧迫但没有跑步残影。\n对应旁白背景（只用于理解，不把文字写在图中）：监控里，黑夹克正往外墙的检修口钻，周强拖着梯子往他脚下赶。另一块画面上，林岚扶着父亲，绕过岗亭，朝附近的厚墙建筑跑去。我抱起收音机，抓住许棠的手，直奔后仓。\n与其他镜头相比，必须表现上面指定的新动作/物件状态，不只换角度重复上一张图。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d27f7ef2-5f61-48fd-a4f4-e5a97b137463.png",
+    "sha256": "18d62b9594151df00449007d37b63f3a4301a092ffbc443fe15499b752a8d293"
+  },
+  {
+    "id": "p006",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆尚未发生，停电深夜。室外也是黑夜，仅应急灯与路灯照明；绝不出现核后黄天、白昼阳光或城市已毁。门外只通向内部走廊，不能直通室外。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：许棠在后仓墙边按下通风控制箱的停机按钮，橘色袖口和手清晰，箱体简洁无复杂读字。近景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-55567b77-3d4f-442f-a880-13975b7c2ff6.png",
+    "sha256": "5e85d9dc8c7eecde25df3d31413b6338e1989c791434668fdb5b7872c9ecf97b"
+  },
+  {
+    "id": "p007",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆尚未发生，停电深夜。室外也是黑夜，仅应急灯与路灯照明；绝不出现核后黄天、白昼阳光或城市已毁。门外只通向内部走廊，不能直通室外。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：地下避难间入口的静物镜头：厚钢门内侧、提前码好的原封水箱和罐头，低亮应急灯，蓝色平板车停在门边；干燥整洁、没有人。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-35de7534-f5be-4c48-9ef5-da204171ae65.png",
+    "sha256": "8b06ef0c055f6f2c47740cf8b4715ca4387bcf72df1cf4a0fadcf1171f4231d0"
+  },
+  {
+    "id": "p008",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核冲击发生时，地下楼梯只受白色闪光与少量顶灰影响，不是户外火球。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：混凝土楼梯转角，楼梯上方出现强烈白色闪光；男主立刻护住并压低许棠，两人都在结实墙体后面，不看向爆炸，无火球进入室内。低机位。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-463961c1-803a-46f7-aa86-c7347e159a93.png",
+    "sha256": "d176006de29730300937900b0966fe01e09ed7387aa002ad40fe1fd1468d0507"
+  },
+  {
+    "id": "p009",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核冲击发生时，地下楼梯只受白色闪光与少量顶灰影响，不是户外火球。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：冲击后地下入口，少量顶灰和小碎屑落在上方台阶；男主拖着装水的平板车进入厚门，许棠用肩膀顶住钢门。单一明确动作。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d1facd62-d419-4877-89ba-30d87e6fd32a.png",
+    "sha256": "bb83a03d2e1937587e23aa7f59f264559fe19e2df2d8c6892599b43efeb0ada2"
+  },
+  {
+    "id": "p010",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核冲击发生时，地下楼梯只受白色闪光与少量顶灰影响，不是户外火球。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：许棠双手把地下厚钢门的横向门闩插紧，橘色工作袖、紧张侧脸和门锁是主体；钢门完整但有受震痕迹，无血腥。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a3afb59d-cbea-44d8-8296-0a914cda9748.png",
+    "sha256": "c9dc5b1c7abc833016c5060ef22f908e9ef9befbd31111b0f3ca7977eb455beb"
+  },
+  {
+    "id": "p011",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下避难间，许棠用干净纱布给男主前臂的一道浅划伤包扎，只有很小红痕不流血；应急灯在近旁。手部中近景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8f459ca2-0375-48af-bd68-20fa5997e0bc.png",
+    "sha256": "a77df6971d5345a46acbc94e91edd077deb948442ee465d4b083dc1e818e1e84"
+  },
+  {
+    "id": "p012",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人坐在厚钢门内侧守着门，前景是应急灯、手电和收音机，身边有少量整齐水箱，没有床垫；核爆刚过。侧面中景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-adda6edd-c240-4a9a-a3a4-315de40470b8.png",
+    "sha256": "909007a950a952b1f7eb401dd739ba73398c5e93c2151a936e8e87c512b08be1"
+  },
+  {
+    "id": "p013",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：核爆第一夜，男主和许棠靠地下室墙吃打开的肉罐头与饼干，旁边仍是应急灯和整箱水，没有餐桌布、没有豪华卧室。纪实中景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2b3e43e1-4d8a-4c0d-92bf-28ace73f841e.png",
+    "sha256": "93d117ee9bc5573298d5a0114a87d6b4e5fe084d49503e91cd916468c769ccbd"
+  },
+  {
+    "id": "p014",
+    "args": {
+      "prompt": "Use case: precise-object-edit. 对这张已生成电影剧照做唯一一处局部修改：把右上角墙上的模拟指针温度表换成小型冷库远程数字温度显示器，黑色显示窗清楚显示“-18°C”，只有这一个读数，不能是常温刻度或正二十几度。保持显示器的大致位置和占画面面积。其余画面完全保留：同一男主的脸、青绿帽、黄帽衫深蓝马甲、看向显示器的视线、拿罐头的姿势、背景水箱、灯光、构图都不变，不增加字幕水印。横向16:9真实电影剧照。",
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p014.png"
+      ],
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b8638673-d40d-4b3c-8ee9-b74eb4b57751.png",
+    "sha256": "bf98b71c023f236adcfb8705729c773588037632d46574f55cf00e5aa695e737"
+  },
+  {
+    "id": "p015",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：完整监控屏的画面内：核冲击后的超市前场，一排坠落的灯架压在部分货架上，窗玻璃破损，干燥地面有局部碎玻璃；不是全楼坍塌，无人无血。屏幕边框可见。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3ac65f78-5e70-47a2-87d1-96f042b18c4a.png",
+    "sha256": "83a95f5a3eb1aed7b38e4abe69d7361eac829483e83804695e99651df24142ee"
+  },
+  {
+    "id": "p016",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下备用监控桌旁，男主指向已经黑掉的一路监控，许棠看着另一块仍显示封闭后仓的屏幕，形成前场损坏与后仓保住的空间关系。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-12c1e052-4098-4fee-a4a7-4a7122c6fba8.png",
+    "sha256": "1fac3579f01aeb5613588ffb328b9a26dc85b6b54130564c5d33236ce64a2346"
+  },
+  {
+    "id": "p017",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：保存下来的小冷库内部，封装冻肉和冻菜按货架分区，墙板完好，冷库门关闭方向可见，无人物、无积雪覆盖食物。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c4e4676d-5602-4cc3-b642-a6ce0a58640e.png",
+    "sha256": "b193b79845add58b499ab52feac970f33ed8e6512ac3bd092cfc366ace06d7a7"
+  },
+  {
+    "id": "p018",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：地下洗手池，男主拧开水龙头，水槽干燥没有水流，旁边立着未开的瓶装水箱；手部与龙头近景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-565f6601-26ad-4ae7-b893-1e23f5a9dbd6.png",
+    "sha256": "91db224b5c0a5dc8048fb0cc03120f838e1466f045a067843f75ffb09b213d12"
+  },
+  {
+    "id": "p019",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下避难间，两人把原封瓶装水箱移到靠墙储物处，男主用笔登记箱数，许棠扶稳纸箱；第一周仍是应急生活。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0b178b99-6da3-48fd-bac8-755230957fa2.png",
+    "sha256": "3ee84d12eec14a92137ca0d1c152c3fc1889059a31e3dfae6d284885750be82c"
+  },
+  {
+    "id": "p020",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：从外侧收货亭监控角度看到核尘污染后的物流园道路，昏黄色天空、很弱太阳、干燥扬尘、无人；室外车窗蒙尘，不是暴雨或湿雾。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e618e0f0-a268-4719-bf07-e7527336c943.png",
+    "sha256": "a58779d0a63a3666949b985745676c6f8c537401003b12c49a6147e9c7673eea"
+  },
+  {
+    "id": "p021",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：完全无窗的地下避难间内，厚重钢门紧紧关闭，门缝漆黑；男主与许棠各拿手电守在门边，光束照门闩而不是探出门外。画面没有楼梯、窗户、室外、门外亮光，只有封闭房间与紧闭钢门。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-19aefedc-b0fe-48b8-a5ae-47f82ba8ef8f.png",
+    "sha256": "6544bfd97a220e6767a5ea9f988cf89e794e87ac3da10634e4dca01899022998"
+  },
+  {
+    "id": "p022",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：轮流守夜：许棠靠墙闭眼休息，男主坐在一盏低亮应急灯旁听收音机，保持门关闭；无亲密互动。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-86d85ca2-e6c3-4668-a727-6c100275ec06.png",
+    "sha256": "17d229c8b31a0fdd9ff300fbd43e56c0dccb0f8900b0145a922bf56d39e11236"
+  },
+  {
+    "id": "p023",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在地下监控桌旁查看封闭后仓屏幕，画面里整托原封水和米还在；桌边货单与手电，屏幕清晰不放字幕。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-44d3db85-f183-4bce-958f-4804a8ffb26a.png",
+    "sha256": "75466033bb60cb0264df0830bf8a02cf137e9f389d910ac576b9078ae1eb0185"
+  },
+  {
+    "id": "p024",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主手拿笔，在库存货单上圈出要搬的几项，纸上只有简单短行和数字，不要求模型写出全文；身后备用屏亮着。手部特写。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4de13dbf-fbcc-4caa-a51a-ee53db43cc25.png",
+    "sha256": "dd2de0c953f21e7f7ec791b952f1c80829c078c411a5f946f71ba507c9c43077"
+  },
+  {
+    "id": "p025",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：通过室外摄像头看到的核灾后园区全景，天空昏黄，太阳是模糊亮斑，空路上尘土弥漫；建筑外围局部损坏，无人。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-90761200-3825-483b-a672-155539596a7a.png",
+    "sha256": "9bb067c226d7f1edf4c367e0257d7e667cc8e54290adb060ff8d535cee293541"
+  },
+  {
+    "id": "p026",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：旧收货亭和封闭后仓外墙的侧面监控视角，黄天背景，围栏在尘土中半隐，门保持关闭；外围与核心仓库分开。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8b4e76ac-9336-41d7-b799-d3860d39f1a8.png",
+    "sha256": "03ebb97bfb4c79a449c9390d6132d833f8b1e63c866449f9d88c98477ded59f5"
+  },
+  {
+    "id": "p027",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：第二周地下监控室，男主和许棠听完收音机后拿起手电和货单准备有限取货，两人仍在室内，门外没有检测人员。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6b18c136-7282-417e-8308-596941420ee0.png",
+    "sha256": "1d4e7377c3c7e39ab187b45ad38f7647992c6f27a676aca882aa470411bc47dc"
+  },
+  {
+    "id": "p028",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人沿完整封闭内部通道推空平板车回后仓，混凝土墙和关闭的卖场门表明通道与受损前场隔开，干燥整齐。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7ef0d5a0-c8c5-45c0-88b5-33ea84ee05e3.png",
+    "sha256": "04eec9cbd24a94775a30f2371a6364c1c772677bd4f708088594325aecf1fc27"
+  },
+  {
+    "id": "p029",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把通往受损卖场的钢门锁好，门另一侧只露出极窄暗缝、门边局部碎玻璃，主体是他的手和锁，没有走进废墟。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-793ce28e-34ca-40cc-b55e-b5e8cc306131.png",
+    "sha256": "6196e06e4e7f3c57a343b83f842b7fdc8052da55296adeadabc9ac4641cc6a44"
+  },
+  {
+    "id": "p030",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：后仓一个已经停用的风口边封条震开，许棠站短梯上重新贴胶带，男主在下面扶梯；这是停用口，不封所有通风。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-62d30693-6fd8-4558-887a-2a766ff6814e.png",
+    "sha256": "9d82f202b7943bc19a261b03f0f69a8170aaef227912511d8b6e645419a053cb"
+  },
+  {
+    "id": "p031",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：许棠检查地下室仍在运转的通风设备控制面板，风道与滤件结构普通真实，手边维护本，侧面近景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b8ba3b92-9530-4849-a2c5-36a09615dbf7.png",
+    "sha256": "52dc0d8b9e771db6813301ee3ced655a0f64c0e3d9823126dc23023b85887a58"
+  },
+  {
+    "id": "p032",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：独立柴油机房的一台固定柴油发电机与分开的进气口、通向室外的排气管，机房与生活区不相通，干燥工业空间，设备中广景。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-41737d4c-bfad-4a36-a5b2-b034ad4c8752.png",
+    "sha256": "5f3e9cf8b5c40f219cd12f2e33acad6f6139506761b5fcda31ac6a0013aa190f"
+  },
+  {
+    "id": "p033",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在封闭后仓家电货架取下一箱原封家用空气净化器与配套滤芯，放上蓝色平板车；商品包装无夸张大字。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-400ce372-69f7-4838-bd81-5d29ded52176.png",
+    "sha256": "83df378c613352fee50557d3694008cfc9f8e647dae527c152ea7864b98f129b"
+  },
+  {
+    "id": "p034",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：地下休息间，许棠把匹配的完整滤芯装进空气净化器，拆下的塑料包装整齐放在旁边，机器未改造，近景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e3acd19b-3861-4e65-bad1-f640496b5275.png",
+    "sha256": "aec73755cd95460ec8f82e2a644247b0dd87d77570221370596b922c9e8bd201"
+  },
+  {
+    "id": "p035",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：一台净化器在干净干燥的地下休息间靠墙工作，低亮应急灯、门外单独放的工作服与两道关闭通道门可见；没有万能防核罩或科幻气泡。\n道具连续性：参考图只取白色小型家用净化器的外形与尺寸，重新构图；净化器面板已装回，为白色圆角竖直小机身约60厘米高，侧面小圆孔。无人物。房间只有基础金属架和两道关着的门，无沙发、茶几、地毯、绿植；不能变成大型工业除湿机。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p034.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-66bf3d96-6d9b-4e88-9a19-3f6fec18eafb.png",
+    "sha256": "b171598589388551f9484c23c64adb8c1f48f71cba0c2a6ce6924ac4c0b01694"
+  },
+  {
+    "id": "p036",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主推空车深入保存完好的高货架后仓，近处几箱饮水后面延伸出整托水和奶，体现先前抽盘只是少部分，横向广景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-409dd7a5-927d-4747-a28c-d5a3373f5e60.png",
+    "sha256": "679bf97bb82b06ebd2cb7388cbf058e9b1b50673c638a5c94ef3cf63d7feb195"
+  },
+  {
+    "id": "p037",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：后仓库存细节：米袋和食用油在下层，原封罐头与常温奶整齐成箱分区；干燥光线适中，无人物。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-47375941-44d6-4ef5-988b-789fb9e74ac4.png",
+    "sha256": "9d71f5b8e42ebee606612645b51bc9262e68df7653039afffed9cd9640d0c6c0"
+  },
+  {
+    "id": "p038",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在后仓货架尽头翻开库存本，背后未拆运输膜的托盘延伸到墙边，中景，显示大量库存待清点。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-41abfbe9-b93e-4c3e-b254-765c813a47b2.png",
+    "sha256": "a41eeca8b6a6cf30409a80dd4711d2d11d3729d97cfd96ccd5dbb9dfafcaa723"
+  },
+  {
+    "id": "p039",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：后仓，男主核对旧货单，许棠清点整箱常温奶和奶粉，货物仍封装有序；两人实际盘点的中景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0083f292-d1aa-489d-bc2c-c9459d5eb602.png",
+    "sha256": "e008d77f93d95ccda98d9d2aa8df510ae14faf8afc1c60f28514a5f9fd5c694d"
+  },
+  {
+    "id": "p040",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把自用的水米搬上一辆平板车，另一辆空车停在旁边等待交易配货，仓内无外人，中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b075e8b7-de0c-4350-ab76-4a4595ec0d12.png",
+    "sha256": "ea411a199e12750704b8f12052d40292088423ec3e58dd389f135113056e1402"
+  },
+  {
+    "id": "p041",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在库存本记录可交换的品类与数量，收音机放在附近，背景为整托原封货；本子文字模糊，不把字幕印上去。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-be4cbac8-140f-4793-98f6-30aa890d3f30.png",
+    "sha256": "9d51f04fd6e0fe1ac01cf2c0f132cdb7e5cf740b2fccf94ac7f639a7d70e5060"
+  },
+  {
+    "id": "p042",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在零食货架取肉干、饼干和坚果装入周转箱，旁边已有主粮，不是试吃摆拍，手部中景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ffb37a57-b49a-47f2-8cea-dd7299fec593.png",
+    "sha256": "77da1a4d2b5a1a2ea5d964b508ae569984a61503e2d4034995a04db2b94dd5b1"
+  },
+  {
+    "id": "p043",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人把装好几天用量的食品车推进地下内部通道，身后仓门正关闭，体现一次取足而非频繁外出。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-66cf5c1d-41b8-4eee-bf7b-6af555ac5947.png",
+    "sha256": "c3ceb6d3e76c7cb36ffdc8ceb967ce9586051e42940879f4d325f656cb7a966b"
+  },
+  {
+    "id": "p044",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把接近日期的原封牛奶与饼干放到小货架前方，手边日期标签只有简单色标，无大段文字；特写。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-802774f9-1916-4752-b897-93c00b640c6a.png",
+    "sha256": "7ae9433d1d42a18bee3d594d7f797f36760da8a98585702df082104846e5ec7a"
+  },
+  {
+    "id": "p045",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：小冷库门口，男主按短清单取出一袋冻肉，许棠准备关门，两人不长时间敞开门；冷库内货架整齐。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f0903ba4-adda-4ce2-928f-58d6112b6515.png",
+    "sha256": "818e43c8fc8f57c4f2e53c0103a909dc2f47a02cea57c90f2fb6dc38b43933d7"
+  },
+  {
+    "id": "p046",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：许棠把发电机耗油记录递给男主，男主用笔计算剩油，桌上是普通设备记录本和手电，不显示虚构巨大数字。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8bab90ad-1cdb-4b5d-a5b8-5230c768392f.png",
+    "sha256": "ebc0588519ffd7741c0c859cd03e72bbba26f04cc10717b7bda207b79e818b6e"
+  },
+  {
+    "id": "p047",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：明确回忆核爆前：两人在干净后仓操作台将仍安全的肉和蔬菜分袋，男主装袋、许棠贴日期；没有外部尘土进入，无生肉血水特写。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0db4a9a5-5a75-4034-8e6b-83d11f16c55b.png",
+    "sha256": "164711d32073cfede80e7425425959e4f48a37a981a9bf2add05f6a285009d09"
+  },
+  {
+    "id": "p048",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：冷库内封装牛肉、鸡肉、鱼虾、冻菜与面包按层分开，每袋有小日期贴，避免巨量裸肉堆积；食物库存近景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9e2e018a-e594-4d54-ada5-8d3e40a23157.png",
+    "sha256": "cdf22dbca7594aa66e4033516ff6f5dd407a7e08dd649d8615b4d0f5d981365b"
+  },
+  {
+    "id": "p049",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：回到当前，男主从冻货分格中取一袋当餐肉，手套正常干净，其他袋保持冷冻码放；手部近景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b9f27de5-84ae-42c4-8cc8-a9bb1dd8dad9.png",
+    "sha256": "3f294df8a97ac164ebe507364fb9cd9018b1cdb1c6ebb38a721c640cd1ee3d1c"
+  },
+  {
+    "id": "p050",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：地下厨房周转冷藏柜里放着少量近期要吃的奶和面包，其他食品不塞满，旁边小日期标签；整洁物件近景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f9c697db-f78f-4041-9eab-60c9dad8a7cf.png",
+    "sha256": "4d4fb06560d5bdbcd893bfff483ec55df19e848da3ef3076885b206e523b8936"
+  },
+  {
+    "id": "p051",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主按照袋上简单日期色标取出排在前面的肉，后方不同食材分格存放，图像聚焦按批使用的动作。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n关键：镜头必须明确在低温小冷库里面，墙壁是完整银灰保温板，背后可见制冷风机与轻薄冰霜，冷冻肉在金属冷库货架，没有米面油等常温货品。手取最前一袋带简单红色批次贴的冷冻牛肉。不要画成普通常温食品架。标签不要具体年月日，只有小色标。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d29fe26f-e467-4fb7-948e-283fef447ca3.png",
+    "sha256": "70f139041896b2fc1285f27c0069bd6516d439158a6b0aee9583d9fd0bf71154"
+  },
+  {
+    "id": "p052",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在地下小厨房做两人份米饭配肉与冻蔬菜，只有一口锅和两套餐具，无餐厅排场；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-68eee664-364c-4a51-a124-1381373035d0.png",
+    "sha256": "3f56eeebd8bfd1101510ebaa56d226790fd408db26db96de11d06d7f547d563c"
+  },
+  {
+    "id": "p053",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人把米、面、食用油和罐头搬到地下储物架，食物在箱内分类，蓝色平板车停在门边；中广景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1d074f73-ca94-4e77-91f3-5d621eb08154.png",
+    "sha256": "0cfd08501107d4e93e75c8b7130ed2aefc95d6b4ee2bbe0b16b5f589dfd82f04"
+  },
+  {
+    "id": "p054",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：地下小冰箱与整齐的常温食品架同框，冰箱里只是少量近期食材，温度显示普通，无人，画面可读。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-710eb248-561e-46ee-9e4b-d9db371390c0.png",
+    "sha256": "b2234ac7ec122015140a0ea58ca9fbed04e92350cddc3d0e11b855231b262647"
+  },
+  {
+    "id": "p055",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：分工镜头：许棠在地下设备表前记录，男主在几步远的小厨房准备食材，两人不同明确任务，同一干净空间。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1abdb8ae-ddb0-49d5-9b86-10ff5b3cc7b3.png",
+    "sha256": "7e672dc097fcca55ba3ff80360c6b665d6fd28f305e34c316ba6f6632230fa25"
+  },
+  {
+    "id": "p056",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在后仓转角发现靠墙原封的两张大床垫，旁边存放床品箱，扶着平板车停下查看；中广景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a08c7200-d1c6-4151-81ac-4fa281c9b2db.png",
+    "sha256": "714a35be0b2ef54abc649775a916e419190cf30f34401ce16a102d315c5572cd"
+  },
+  {
+    "id": "p057",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：后仓展示货存放区，原包装床垫、羽绒被和枕头整齐码放，有普通提货小标签，未拆封；无人物。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b70912fd-bc53-41c2-bab5-a97a71e12de1.png",
+    "sha256": "3d8683072e4a89236420f4224c521a8fa94d3c536d0a6ae23b241118e43db7d1"
+  },
+  {
+    "id": "p058",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：回忆灾前卸货：男主穿同款制服在后仓卸一张包装完好的厚床垫，室内正常照明，仅男主，不出现主管或额外人物；独立新图。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-91ba577e-5759-4dba-8b18-5f348198b1e1.png",
+    "sha256": "508f1c8dd4b3bd84b247bb07f26d36e08517762ad08cc4210acd7e2b893c5a4e"
+  },
+  {
+    "id": "p059",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主查看厚床垫角上的小价签，价签只写26800，清楚但不占画面中心，床垫包装保存完好；手部近景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8e2894a7-0e14-423f-be21-22679f5378e9.png",
+    "sha256": "183e34967b22d438d6629dce50c2b952b0783d76d770f71d54b76455ae51572c"
+  },
+  {
+    "id": "p060",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下室，两人把两张床垫低低地并排铺好成为大床，地面干燥平整，没有叠高成塔；中广景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n严格道具连续性：两张奶白色高档厚弹簧床垫，每张厚30厘米，放在地面低矮防潮底板上，紧挨着并排；没有金属床架、没有床头板、没有床腿，不是薄睡垫或瑜伽垫。第三张参考图只取地下房间的布置、墙面、储物架、床垫所在位置；另行新构图，按本镜指定的铺床动作画两人。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p062.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7c8f835b-d1f5-4793-b1e1-678f6f9b6740.png",
+    "sha256": "2b433d0d4c5b85c90ac925e6ad3d796aedc27df66f47bd1dd719b99a77acf68a"
+  },
+  {
+    "id": "p061",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下休息区，两人把全新床单和被枕铺到并排床垫上，另外几套床品折好放在柜里，无试睡亲密动作；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n严格道具连续性：两张奶白色高档厚弹簧床垫，每张厚30厘米，放在地面低矮防潮底板上，紧挨着并排；没有金属床架、没有床头板、没有床腿，不是薄睡垫或瑜伽垫。第三张参考图只取地下房间的布置、墙面、储物架、床垫所在位置；另行新构图，按本镜指定的铺床动作画两人。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p062.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-597f61c2-e382-4e5a-b411-b3981f5d65f5.png",
+    "sha256": "93e4af813eb67433d323730c1f70864b3005486e00e33d6388ce40e1cac23dc9"
+  },
+  {
+    "id": "p062",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：新布置地下住处全景：低矮并排双床垫、被枕、简易餐桌、小台灯、床边手电收音机，整洁实用不豪华酒店化，无人物。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c957c089-233c-476e-aa30-d1b93e1b888c.png",
+    "sha256": "cf83eb64a77f189548ba7544bdf5783738155c65d0fe34e7c0ec95802172a30c"
+  },
+  {
+    "id": "p063",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主站在地下楼梯内侧听上方被风吹动的铁皮声，手中手电，厚门关闭；没有凭空敲门者。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c0679154-3714-4d01-b530-b677e3c4d8f7.png",
+    "sha256": "44370948d07fc75516334684c7a41f455d1b9e6f2ff5cbf31e137882b8644ddb"
+  },
+  {
+    "id": "p064",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：后仓完整货架与关闭的前场隔离钢门同框，一边库存整齐，一边门边有局部受损痕迹；无人物，不画整店废墟。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d7f773a1-ab48-4a9e-86e4-eead46e6f996.png",
+    "sha256": "1870301f15eb2162c4e4f06dea2b1fcd3f119fc486a3c813dc1acba38a50457b"
+  },
+  {
+    "id": "p065",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人在后仓服饰货架按尺码挑合身外套，把内衣袜子装进箱子；正常取用，不试衣秀或亲密互动。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c0186fd2-1456-4be0-9249-670162e9a2c2.png",
+    "sha256": "056555f3a34217c0362c1a61659b0ca5a2b5303bedd44966642c1e854b58c4fa"
+  },
+  {
+    "id": "p066",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把挑好的高档外套和日常换洗衣物推回地下储物区，身上仍是既定黄帽衫深蓝马甲与青绿帽，身份不换脸。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-87394687-07ab-4449-8490-743477df76f2.png",
+    "sha256": "934c6c7d23de12a3c2235e813413141f064a96311e0c1b9abd7f19231821f0e9"
+  },
+  {
+    "id": "p067",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主从日用品货架把牙膏、香皂、毛巾与洗发水放入周转箱，物件大形清楚，正常取用，不挤护手霜或摆拍。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-124ecca3-c4eb-4bd6-ba1c-f5e4721be868.png",
+    "sha256": "2e1c6bfeef581ec531425db417e05b9bb51f3ad52a5f20891b3abcc6d8940d49"
+  },
+  {
+    "id": "p068",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：封闭后仓剩余整箱日用品延伸成排，前景是装好一小车的自用日用品，后方大量未拆原箱可用于交换；无人物。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-304ee277-f3d4-43cc-95cb-93ab4b3f354d.png",
+    "sha256": "d131215454a9e34ca1e2821857caace4f9d5c8fa0fd1c4eb6d759141cb7b2a4f"
+  },
+  {
+    "id": "p069",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：地下洗手处，男主从干净有盖储水桶倒少量水到脸盆，旁边停用的水龙头和瓶装饮水分开摆放；近景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-fe18091b-a101-4708-b407-998f55b000f7.png",
+    "sha256": "d54e5f5c2a62acfba87b05ebc0886662fc7b40fabc089ab82b1342e6502799d0"
+  },
+  {
+    "id": "p070",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主用备用钥匙打开后仓贵重品柜，柜内清楚看见金手镯、金项链和戒指，各在自己的盒子里；无夸张金山。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-01a4429f-7c8a-4c21-aef7-e5b769dee8d8.png",
+    "sha256": "684963a36053ab2b0f17b92491627c8f46de65bf6ec08b13bb309ffe109c4066"
+  },
+  {
+    "id": "p071",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：男主与许棠在后仓桌边清点金手镯、项链、戒指，照小标签把重量记在本子上，票据放一起，无试戴首饰；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c1e206b0-345b-4149-8b5d-dc735db0d31a.png",
+    "sha256": "1ee0bb16b353b67555ab02bd888b979ef34f985101fe2b1c2cc454ce20f9ced6"
+  },
+  {
+    "id": "p072",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把首饰盒与票据放进带锁箱并锁好，准备搬下地下，手部近景，真实少量黄金不是巨型金条。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8f3543f5-2ff5-40c6-bb94-b0b1020b0f2f.png",
+    "sha256": "4ed81736381bdcf7f8507d1067a53a27f895ee464ac8b5d8f2faeec8fa8f52dd"
+  },
+  {
+    "id": "p073",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主把锁好的贵重品箱放入地下柜子下层，旁边分开存着物资记录本，无人试戴，无多余展示。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3b4ba472-e3a0-4b4b-ba4b-ba48a0cfb689.png",
+    "sha256": "ef24d2e1e46f3c78bd4abf418baa3d0dede0ba08a6fe0938eb0216aacfc83d2c"
+  },
+  {
+    "id": "p074",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：地下通信桌，男主拿无线电话筒联络外部加油站，许棠可不在画面，身后整齐储物架；中近景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e8afcfc9-8ab4-4c90-bd37-dabd6d0a8f51.png",
+    "sha256": "903c67557c608da9c07571fd95b8994ba2f2d6be57d897d97fe6455948b22b3a"
+  },
+  {
+    "id": "p075",
+    "args": {
+      "prompt": "Photorealistic cinematic still life, single landscape 16:9 frame. Close oblique overhead view of a plain paper hand-drawn neighborhood map on a simple indoor basement communications desk. The map has two simple pictograms, a large warehouse-style grocery store and a small gasoline station a few kilometers away, joined by a road line. No precise coordinates, no readable long text, no other detailed infrastructure. A pencil, small notebook and ordinary radio transceiver next to map. Windowless dry clean concrete room, soft practical desk lamp, modest realistic detail. No people, no subtitles, titles, watermark or collage. Just a mundane civilian map and radio used to arrange a grocery delivery.",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9ae6ffcb-c330-4d6d-8476-9303d36b239e.png",
+    "sha256": "9d058a0a46f9c3ba20f97b50355bca0d3525751cef15b1fd9867afa5066d48d7"
+  },
+  {
+    "id": "p076",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主边听无线电边在纸上记油库情况，前景是对方报告的简单储油罐示意小图和数量标记；只在地下听消息，不画主角去了油库。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7f47b9d0-651d-4ca8-b23a-d03df4f8eb11.png",
+    "sha256": "695845cfbb4ca1409c51a9f7cefd67b37312b51318851f8f17eaaebc2fb21be1"
+  },
+  {
+    "id": "p077",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：电台旁桌上，男主记录的水箱停用示意纸与原封瓶装水同框，用简单划线水箱小草图表达对方水源污染，不出现魔法辐射绿光。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d9c8eddf-0cd9-4362-b8a1-329c126ebe0e.png",
+    "sha256": "00cc8b8f3cdea23518c5ba076e6add3f1c2f1c90c9bdffc5418be4b0b1fb7abe"
+  },
+  {
+    "id": "p078",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主看向自家地下储物架上的原封瓶装水和肉罐头，手中握无线电话筒，准备报可换物资；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b9cd78a5-08fe-41ae-8dec-15f9418dd875.png",
+    "sha256": "d58f8ca4ee89ff8a2e3dee88bb58b5a0a8e4f694d78425482e978710f385f52a"
+  },
+  {
+    "id": "p079",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下通信桌，男主拿普通无线电话筒报送油需求，许棠坐在旁边查阅发电机维护册，核对燃油种类。这里只有纸质维护资料，没有发电机实体，没有管道机器。资料纸只显示简单柴油图标和模糊印刷行，不可读的功率油耗数字，不写任何可读数字。干净干燥无窗封闭室内，只有男女主二人。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-26fb99ac-e92d-49f5-a45a-6171239473ce.png",
+    "sha256": "96cec7cd7853f055fad809245fbfe8563760285ddc1c7c1843394c4b428d395f"
+  },
+  {
+    "id": "p080",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：地下通信桌的手部特写，许棠穿橘色袖子的手指指向维护本中的燃油种类栏，男主黄袖子的手拿笔做简单记录。纸上只有一个小柴油机图标、一个燃油图标与模糊短行，无可读长文字，无任何数字。只拍两人的手、本子、电台一角，不出现机器实体。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ca343fd8-8fe4-4deb-8510-fa4a67cab65b.png",
+    "sha256": "95d8af18d2abb3cd4353254df8403186a94085a04c525b41c79966404c5d3089"
+  },
+  {
+    "id": "p081",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：后仓，男主把十公斤米袋装上平板车，旁边备好原封瓶装水和肉罐头箱，作为200升油首单交换；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-90c849e2-15bb-416a-b54b-93454bfa9708.png",
+    "sha256": "8691fb3502c81ae144aabaad224ececb0f17f771517e012f77f84c80f9750779"
+  },
+  {
+    "id": "p082",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：内侧待交货区的整齐物资：十袋米、十箱瓶装水、两箱肉罐头，尽量数量清楚，背后仓门仍关闭，没人进出。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c6fe5856-7e6a-42a1-95e5-dcf3695af5dd.png",
+    "sha256": "d17b306ff092fbad305b2d9e7494bee1d82041af3ebe153058969795f5d176a2"
+  },
+  {
+    "id": "p083",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主照货单点数瓶装水箱，罐头和米袋分在另一边，近景关注手指与箱数。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f555821a-a521-48df-9d47-ed531622de19.png",
+    "sha256": "8b43a2f76b1ebbe266c452c924a72c121fb2fbb1d649f9a3e468452c2494ac33"
+  },
+  {
+    "id": "p084",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主将常温肉罐头箱放到交换车上，小冷库门在远处关闭，表明本单用常温食品，不取冻肉。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d30ca703-cbce-416c-8f6e-5b6cea1c3962.png",
+    "sha256": "578b06c74d5353f49b71cdfeac2b3880b13895247fe4519f3e7355904fa1f2eb"
+  },
+  {
+    "id": "p085",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人在内侧把交换物资分装到两辆小车上，准备送去外侧交接间；许棠核数，男主搬箱，动作不同。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-352360e8-af77-4390-92c5-b97b773350ea.png",
+    "sha256": "f28a68729a4fd252c8e6b46597331156a3e7570d89e90ee8398deb066cc7012d"
+  },
+  {
+    "id": "p086",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：下午地下监控桌，男主看空着的收货亭画面，装好的粮水小车还停在内侧，等待的实际状态，中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-46acb9a2-67b0-4846-9bbe-34fd1b1f4cb8.png",
+    "sha256": "4cced0a4e364d7643f534e2ee5097b4f1c15bdfadb928e71e6151fa420a2bf33"
+  },
+  {
+    "id": "p087",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主从电台收到路封消息，在货单上划掉原时间再记新时间，纸上字模糊，旁边监控仍是空车位。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3a32d692-61e0-44b6-8afc-8692dd194ee0.png",
+    "sha256": "c05fc02ae658d670e0a8093723367d65eac42a6960759e68191f59ccdcfb3b99"
+  },
+  {
+    "id": "p088",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：关闭的外部交接亭与昏黄空路，围栏旁扬尘较强，没有油车；只表现等待和道路限制。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e1f4fe87-1ea0-4138-9ba3-d8782ffecebf.png",
+    "sha256": "c2471b6c7a288486029277c509525c89c668baac50df249f8f7cc8303e684903"
+  },
+  {
+    "id": "p089",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：完整监控屏里首次出现一辆小型白色柴油加油车，黄色昏天中车灯亮着，车沿外围园区道路靠近，只有这辆车；主体在二维画面中。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c6dba9aa-98f2-468f-9027-6d649988a6ce.png",
+    "sha256": "5819311fc2c34d5a7e87bade43b344fa4412498cadbe494c137ff4852501c327"
+  },
+  {
+    "id": "p090",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：从监控机位看到加油车停在独立机房外的外围硬地，两名人员穿浅灰连帽防护服、护目镜、呼吸面罩从驾驶室下来；不得进入后仓。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-325cb1da-9a38-40f6-81ec-96e01358a4cc.png",
+    "sha256": "9ab9918b74a48f2e338e2e9841ca90eab31f539ef965b55d17a8af177fe59ed5"
+  },
+  {
+    "id": "p091",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：外围两名送油人员的防护服装备中景，护目镜和呼吸面罩遮住脸，身后是停稳的白色加油车，外景黄天干燥尘土；不画男女主。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f0fb2720-6f32-4cf2-ba0d-9136da9e6c40.png",
+    "sha256": "5e96678e15460e9999025c417213469e183e52e07d035240fb3e8fa04c08809f"
+  },
+  {
+    "id": "p092",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：地下监控桌，男主拿电台对换货清单，许棠准备收油记录，屏幕上加油车只在外围，室内只有男女主。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n最后一张输入图仅为同一白色红条纹加油车、外部机房和两名防护人员的道具/地点参考，不是室内角色参考。按本镜的不同动作重新画一张事件图。若事件在监控桌，外部场景必须仅出现在二维显示器内，人物不穿出屏幕，不变成窗外实景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p090.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a7eab923-cfd0-4e12-b7c1-09f7cb239feb.png",
+    "sha256": "c38acf46e74a435b4b16cac9968ad0f9a5a7186254158545b8cd57e4226dda31"
+  },
+  {
+    "id": "p093",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主从内侧锁好通向交接间的门，货单夹在手边，镜头看清门闩与转角，不画外人在仓里。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-cf8b27bd-b00a-45bb-8413-3f6dad061a64.png",
+    "sha256": "ee4edcb237204aa57aafba899df69dbd659ff5203ea19eea25da3d73f216a4b5"
+  },
+  {
+    "id": "p094",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：内侧空出的小交接间，只放当次米、水和罐头，朝外那扇门关闭，内门也关好，形成分时取货空间；无人物。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n必须保持首单数量与包装：十袋十公斤米袋分两摞每摞五袋，十个瓶装水纸箱分两排每排五箱，两箱肉罐头；都原封，摆在交接间低托盘上，两个门均关闭。最后一张图仅参考这批粮水包装与数量，重新绘制双门小交接间，不能直接复用图。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p082.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b192970d-4ee9-4d60-a388-cd5ae09fcfff.png",
+    "sha256": "eef8d68c8abaf69872e68ffcf9f9c433e3ff50a037a043425674a06624f69752"
+  },
+  {
+    "id": "p095",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主通过无线电指挥车辆停在独立机房外，监控显示车位而非直接让人进仓；近景含男主侧脸与屏幕。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n屏幕里车辆严格为白色红条纹圆柱形罐体的柴油加油车，不是军车、篷布车、货车、卡车货厢。最后输入图只参考该加油车与外围独立机房，它只能出现于监控屏幕内。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p090.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bdbe59cf-8d9e-4762-9615-ecfe0a5804bd.png",
+    "sha256": "a4cc2d93cf936f778a78fedf0dfe4d00a5a130b73dd6c49fbc25b39e891f7af1"
+  },
+  {
+    "id": "p096",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：二维监控画面内，两个防护服人员从白色加油车外侧向独立机房指定储油口补柴油，机房门与仓库门关闭；设备真实，不作操作教程特写。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n最后一张输入图仅为同一白色红条纹加油车、外部机房和两名防护人员的道具/地点参考，不是室内角色参考。按本镜的不同动作重新画一张事件图。若事件在监控桌，外部场景必须仅出现在二维显示器内，人物不穿出屏幕，不变成窗外实景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p090.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-604fdd24-4ff7-4be5-9e65-edce439b78eb.png",
+    "sha256": "2488b5be38f5cd58cf155824fffd16c54e205a9ca88ce04ef19a14d58d480225"
+  },
+  {
+    "id": "p097",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主从里面把粮水车推进带转角的交接间，外门关着，内门随后准备锁上；只出现男主，不出现外部人员。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ccc9b0b1-0eb5-4ab2-a618-b8e762e0f6a1.png",
+    "sha256": "925257f04ac77324c88e1837c88da134da9ec40bd9b54c174afdf994710cced3"
+  },
+  {
+    "id": "p098",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：监控屏幕内，两名穿浅灰防护服和面罩的送油人员正在白色红条纹加油车旁搬运交易食品。一人抱一只装小瓶瓶装水的普通纸箱，另一人抬手向监控示意，旁边低矮推车上有几袋米和密封罐头纸箱。罐车一部分车头和白色红条纹圆柱罐体可见，采用近中景，食品还在搬运中。不要大水罐、吨桶、IBC容器，不要改装车辆、不要增加巨型平台或第二辆车。最后输入图只参考同一白色油罐车与机房外围；整件事在二维显示器内，不在当前房间。外部黄色尘天，室内无外人。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p090.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9ba48651-516f-4a8a-92b4-eead9feb3a09.png",
+    "sha256": "de80a312596f9ecc338701b480553971a2704fa8f516f59e1c583a62d5eef4c0"
+  },
+  {
+    "id": "p099",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：加油车从封闭后仓外围缓缓驶离，尾灯在黄色干燥尘土里渐远，收货亭外门已经关闭；外部监控视角。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n最后一张输入图仅为同一白色红条纹加油车、外部机房和两名防护人员的道具/地点参考，不是室内角色参考。按本镜的不同动作重新画一张事件图。若事件在监控桌，外部场景必须仅出现在二维显示器内，人物不穿出屏幕，不变成窗外实景。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p090.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a83d78ef-0991-4e0a-bcf2-7a2e628acf4d.png",
+    "sha256": "a7b5926c6b8f3888d064d0b576482007ee14f6b4e5bcc48d0b5c2a8f3a3148ea"
+  },
+  {
+    "id": "p100",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在地下住处外侧把工作外衣和手套放在单独收纳箱，洗手处与床区隔开，正常换洗管理，不脱衣露身。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bd7ea4ec-23e8-49bf-a690-051bfe7b0b54.png",
+    "sha256": "1ad16c7d46b716c3e1f675fd1af852a2f7a23a43bea35b98e4b70c1beeeb76b5"
+  },
+  {
+    "id": "p101",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：两人坐在地下设备桌核对油量记录，男主记收到200升，许棠查看日耗油数据，桌上普通本子，不要求文字精确。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-161f4061-d2b7-4ca5-be77-575ccdd54ef1.png",
+    "sha256": "fd0996cf640f1e428a2c0e46ae0cb152500d8ddc60b8445b8ffbed66d82205a0"
+  },
+  {
+    "id": "p102",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主重新接上无线电约定按周供油，身后安稳的小冷库监控仍亮，表现建立长期补给而非新故障。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a9c6ef9f-aab0-4b93-ac88-955c453dbdcf.png",
+    "sha256": "8eb6fdf362653672c5d2d3d8118820a5589165dff04c73fa807c7814c9e32e5e"
+  },
+  {
+    "id": "p103",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：许棠在地下设备桌上列机油和备用滤芯需求，侧面中景。她正常坐着低头用笔记录，维护本摊平在桌上，纸面背向观众、透视很斜，只见模糊短行和两个小物件图标，任何型号和文字均不能辨读。旁边一个普通工具包。没有发电机实体，不加火花塞，不用正对镜头展示清单。只有许棠，室内完整干净干燥无窗。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-db74bb96-b647-40a2-8786-9e7fa52bd148.png",
+    "sha256": "da720644a19b35109d561e786c1e54e02d2ef33e03e4734a9c5c7edc3c73a179"
+  },
+  {
+    "id": "p104",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在地下电台桌前，一手拿麦克风，一手在桌上摊平的小清单上核对所需备用滤芯，三分之二侧后方新构图。纸背向观众，字很小且景深模糊，任何型号数字不能读，不用竖着向镜头展示清单。没有实体发电机。男主看向桌上资料，不看观众。只有男主。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4d1109d0-ce02-43ad-9f5d-c05053125630.png",
+    "sha256": "9eccae0f9091a280ddf0ce213ff0745bb8ef40dba479cf859c1a028ff5a5a6cd"
+  },
+  {
+    "id": "p105",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：原有发电机的保养本、机油型号标签和普通备用滤件示意照片放在一起，工具整齐，没有凭空出现大量已到货的新配件。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c57fcb75-812e-41d1-b393-00b8cbe34b29.png",
+    "sha256": "7efe957fdc9108496e853d1618b360f4df2b81b9902b05d39e3c6507845d504d"
+  },
+  {
+    "id": "p106",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在母婴货架按纸尿裤包装尺码选货，取几包放到周转箱，旁边是牙膏和洗衣用品，无婴儿或家人凭空入仓。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-971e3309-63fc-43f5-9de7-12c1faeb5efe.png",
+    "sha256": "cec12c396278ca0c6e398fc4ac4370ac10c53cd3ba408e6893b7379a2a1820f9"
+  },
+  {
+    "id": "p107",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：下一单配好的纸尿裤、牙膏、洗衣用品装箱放在内部通道小车上，外门保持关闭；静物中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-74597872-29e8-4ce3-84d9-9ad669a29d6b.png",
+    "sha256": "15545b0a28599252712df36bf146cb17cf8cb1ff243fc450bf360d84b94093f7"
+  },
+  {
+    "id": "p108",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主回后仓从米袋区取自用米，前排交换货移走后空出一点位置，后面整托货仍原封，强调库存仍充足。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-df7f179f-0059-4c14-aeae-8ee2f5021e38.png",
+    "sha256": "a1db991f566eadd2e71e12b0b63dc0157cfa5d6d21b847edd2e0cdf5bc08dd38"
+  },
+  {
+    "id": "p109",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：从空出的前排托盘看向后方大量整齐未拆封的水箱和罐头，强透视，干净干燥仓库，绝非复制前面同一构图。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-261a1007-326e-4b86-89ac-88b297c11fd0.png",
+    "sha256": "6df84b4bbbc86b6d9935965604da61b999c0be41b5a013e84a6f1dd0978b5024"
+  },
+  {
+    "id": "p110",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主站在后仓配货台按电台订单分货，余下整托库存保持封装，手中短货单，无长篇可读文字。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a3db97b9-9f52-4009-981e-f5ebcee070c2.png",
+    "sha256": "3294ea847acb5bdb9ae5e4113b33de6849bc37773c700b44a42fb59605f039b7"
+  },
+  {
+    "id": "p111",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：柴油送到后的第二天，男主在地下小厨房煎两块牛排，旁边有热好的面包与一小盘冻蔬菜，正常两人份，不画解冻流程或浪漫摆桌。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f3c4c61c-8c82-4b4e-8c39-caeace147c4f.png",
+    "sha256": "996e5f76adeb6d653eda2563420d165607348e23a049d1b3d4f15f1dbf44855e"
+  },
+  {
+    "id": "p112",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：地下小厨房普通桌上两人份晚饭近景，两只朴素白色餐盘，每盘一块煎好的牛排、一个小圆面包、一小勺炒熟的玉米粒豌豆胡萝卜丁，两杯可乐，无冰块。不加生菜、不加生番茄、没有米饭，没有其他主菜，无花烛玫瑰酒店排场。参考图只取本餐刚煎的牛排与圆面包外形，重新安排桌上餐盘特写，不出现人物，房间无窗。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p111.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6a665c58-eeae-4b3f-85e5-76defdcbbfa4.png",
+    "sha256": "7644fc0a8ab708de6b0e67ffc61013abc352e5aa6fbd117c39fac19790fe00e4"
+  },
+  {
+    "id": "p113",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：地下监控桌旁的监视屏特写，外围黄色天空与尘土遮住远处围栏，桌角有收音机和两份晚饭，不出现模糊全知外景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n晚饭道具连续性：最后一张参考只取同一顿两盘牛排、小圆面包、熟玉米豌豆胡萝卜丁、两杯可乐的餐盘道具，按本镜事件重新构图。不能变成米饭、炒饭、面条、盖饭或金属餐盒。p113旁边摆两盘尚未吃的牛排晚饭；p114只表现牛排和面包已吃一半的同餐，普通白盘，保留两杯可乐。无生菜，无冰块，无人物。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p112.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a6d04fc7-4507-4824-bc15-2b5e1ac440fa.png",
+    "sha256": "d8671d78211614d1157f3b769534a6d264e07f079489cbcffbae71a108a0516b"
+  },
+  {
+    "id": "p114",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。\n不出现男女主，也不要添加无关人物；只有事件明确要求的送油人员才可出现。\n本镜唯一可见事件：低亮地下桌上的收音机正在播报，旁边吃到一半的两人晚饭，后方钢门关闭，干净干燥普通生活空间。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n晚饭道具连续性：最后一张参考只取同一顿两盘牛排、小圆面包、熟玉米豌豆胡萝卜丁、两杯可乐的餐盘道具，按本镜事件重新构图。不能变成米饭、炒饭、面条、盖饭或金属餐盒。p113旁边摆两盘尚未吃的牛排晚饭；p114只表现牛排和面包已吃一半的同餐，普通白盘，保留两杯可乐。无生菜，无冰块，无人物。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p112.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5e4fa612-2f93-4562-a1ca-17fea3334405.png",
+    "sha256": "af7a62c3a8f0f49ed37cf827fe50e689abd423817880af5f9c5c6653e627bcde"
+  },
+  {
+    "id": "p115",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在地下小厨房收好锅和餐具，台面整洁，灯光克制，不反复擦拭小动作；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-75c02f1f-ad18-4b07-aabf-8f65c3e957b0.png",
+    "sha256": "599809ad10a862ac721b20e1d887e5de1e04925bc1f3fa60cf2c787633fe130d"
+  },
+  {
+    "id": "p116",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n只出现许棠：参考演员同一26岁中国女子，低马尾、橘色维修外套、灰上衣、深灰工装裤。\n本镜唯一可见事件：许棠查看冷库温度显示-18°C和发电机运行灯，手里是简短记录本，设备正常，无新故障。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n必须是地下室墙上的小冷库远程温度显示与发电机状态指示灯，温度数字精确写为 −18°C，负号明显。此地没有发电机实体，没有排气管，更不能把发电机放进冷库。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-688b09fb-4823-4dca-8400-641f9f186688.png",
+    "sha256": "d89a48e88c1562b38fa5291a9cdbbd306c1d588a59a5b3a7a628fba8ac9d22e9"
+  },
+  {
+    "id": "p117",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n只出现男主：参考演员同一约30岁中国男子，青绿针织帽、芥末黄帽衫、深蓝马甲、深灰裤。\n本镜唯一可见事件：男主在地下桌前把下一趟换货单与电台放在一起，附近配好的物资箱和每日耗油本，准备继续交易；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a2ad59fc-4f3a-4808-aaa4-a4975e8a9ef8.png",
+    "sha256": "796bd1d688e48014ff486d4de1465772f646dbf44197dd8aca02ab5a6f01eac9"
+  },
+  {
+    "id": "p118",
+    "args": {
+      "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 当前是没有窗户的地下室或封闭内部房间，没有直通室外的门洞，没有任何窗外黄天；室外信息只能出现在监控屏中。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：结尾地下核心区广景，男主在无线电前确认送货时间，许棠站在整齐物资架边，新的床与餐桌只是背景，厚门关闭；安顿下来但仍有外部通行限制，干净干燥末日电影静帧。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。\n最后一张输入图只参考同一地下住处的床垫/餐桌/金属架布置，重新构图，男女主服装脸依前两张。两张厚床垫在低底板上，无床架床腿，无窗。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p062.png"
+      ]
+    },
+    "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c3d0f11c-b58a-4a28-a64d-35f81c85c4a4.png",
+    "sha256": "b9566c6b47042632273c01a63b4f3ece23baeae02172f4253650105f1d192451"
+  }
+]

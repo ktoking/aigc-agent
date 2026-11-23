@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "main_video_frames": 16228,
+  "duration_seconds": 540.933333333,
+  "cover_attached_pic": true,
+  "cover_extracted_sha_matches_original": true,
+  "music_gain_mode": "constant_except_endpoint_fades",
+  "ducking": false,
+  "music_title": "Tempt Scandal",
+  "music_artist": "Audiomachine",
+  "source_music_seconds": 132.48,
+  "full_cycles": 4,
+  "last_cycle_seconds": 11.013333332999991,
+  "music_cycle_correlations": [
+    0.999999996847228,
+    0.999999996847228,
+    0.999999996847228,
+    0.999999996847228,
+    0.999999996847228
+  ],
+  "min_voice_over_music_cue_rms_db": 8.482489808343338,
+  "mean_voice_over_music_cue_rms_db": 18.128188893735597,
+  "cue_count": 149,
+  "mix_voice_plus_bed_max_residual": 1.4901161193847656e-07,
+  "encoded_mix_correlation": 0.9998906886994869,
+  "music_endpoint_gain_projections": [
+    {
+      "start_seconds": 0.1,
+      "gain_projection": 0.2512158453464508
+    },
+    {
+      "start_seconds": 0.3,
+      "gain_projection": 0.6397637128829956
+    },
+    {
+      "start_seconds": 0.5,
+      "gain_projection": 0.9999950528144836
+    },
+    {
+      "start_seconds": 540.4333333333333,
+      "gain_projection": 0.9220218658447266
+    },
+    {
+      "start_seconds": 540.6333333333333,
+      "gain_projection": 0.5309868454933167
+    },
+    {
+      "start_seconds": 540.8333333333334,
+      "gain_projection": 0.132107213139534
+    }
+  ],
+  "subtitles": "retained baked captions; timeline unchanged",
+  "full_human_listen": "NOT_RUN",
+  "full_human_watch": "NOT_RUN"
+}

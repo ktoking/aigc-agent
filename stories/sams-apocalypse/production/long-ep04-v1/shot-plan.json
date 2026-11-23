@@ -1,0 +1,2477 @@
+[
+  {
+    "id": "p001",
+    "asset": "assets/p001.png",
+    "start_frame": 0,
+    "end_frame_exclusive": 123,
+    "duration_frames": 123,
+    "seconds": 4.1,
+    "paragraphs": [
+      1
+    ],
+    "cue_ids": [
+      "c001"
+    ],
+    "cast": "raiders",
+    "event": "室外收货亭前，土黄夹克清瘦男子A跪着举空饭盒；远一点的卸货台边灰帽黑马甲男子C和棕衣壮男D带着工具包靠近。只出现A/C/D三人，隔着院子形成前后掩护关系，所有人仍在大卷帘门之外。",
+    "prompt_file": "prompts/p001.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p002",
+    "asset": "assets/p002.png",
+    "start_frame": 123,
+    "end_frame_exclusive": 287,
+    "duration_frames": 164,
+    "seconds": 5.466666666666667,
+    "paragraphs": [
+      2,
+      3,
+      4
+    ],
+    "cue_ids": [
+      "c002",
+      "c003"
+    ],
+    "cast": "both",
+    "event": "干净地下监控房内，男主把手从桌面通话键拿开，冷静侧头示意许棠看监控；两人表情警觉坚定，门完全关闭。",
+    "prompt_file": "prompts/p002.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p003",
+    "asset": "assets/p003.png",
+    "start_frame": 287,
+    "end_frame_exclusive": 444,
+    "duration_frames": 157,
+    "seconds": 5.233333333333333,
+    "paragraphs": [
+      2,
+      3,
+      4
+    ],
+    "cue_ids": [
+      "c003",
+      "c004"
+    ],
+    "cast": "raiders",
+    "event": "收货亭外，土黄夹克A跪着举空饭盒，深蓝外套B扶墙假装腿伤，两人看向门上摄像头。只出现A和B，黄色干燥尘天。",
+    "prompt_file": "prompts/p003.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p004",
+    "asset": "assets/p004.png",
+    "start_frame": 444,
+    "end_frame_exclusive": 616,
+    "duration_frames": 172,
+    "seconds": 5.733333333333333,
+    "paragraphs": [
+      2,
+      3,
+      4
+    ],
+    "cue_ids": [
+      "c005",
+      "c006"
+    ],
+    "cast": "male",
+    "event": "男主坐在小监控台前，双手留在桌面，盯住屏幕，没有走向门口；屏幕只是模糊室外影像，重点是克制坚硬的脸。",
+    "prompt_file": "prompts/p004.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p005",
+    "asset": "assets/p005.png",
+    "start_frame": 616,
+    "end_frame_exclusive": 756,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      5,
+      6,
+      7
+    ],
+    "cue_ids": [
+      "c007",
+      "c008"
+    ],
+    "cast": "raiders",
+    "event": "灰帽黑马甲C与棕衣壮男D贴着室外卸货台走，C提普通工具包，D抬头看摄像头。只出现这两人，距离大门尚有一段。",
+    "prompt_file": "prompts/p005.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p006",
+    "asset": "assets/p006.png",
+    "start_frame": 756,
+    "end_frame_exclusive": 897,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      5,
+      6,
+      7
+    ],
+    "cue_ids": [
+      "c008",
+      "c009",
+      "c010"
+    ],
+    "cast": "none",
+    "event": "一台监控显示器占满主体，左路只有举饭盒的土黄夹克男子，右路只有两个带工具包的外部男子；仅屏幕内人物，屏幕外无人，不画文字或额外拼图。",
+    "prompt_file": "prompts/p006.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p007",
+    "asset": "assets/p007.png",
+    "start_frame": 897,
+    "end_frame_exclusive": 1037,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      5,
+      6,
+      7
+    ],
+    "cue_ids": [
+      "c010"
+    ],
+    "cast": "male",
+    "event": "男主靠近监控台比较两路室外画面，手指停在切换按钮，眼神已确定，没有惊慌；画面中的陌生人只能小小出现在屏幕里。",
+    "prompt_file": "prompts/p007.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p008",
+    "asset": "assets/p008.png",
+    "start_frame": 1037,
+    "end_frame_exclusive": 1198,
+    "duration_frames": 161,
+    "seconds": 5.366666666666666,
+    "paragraphs": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "cue_ids": [
+      "c011",
+      "c012"
+    ],
+    "cast": "male",
+    "event": "男主坐稳，按下桌面通话键，神情严肃坚决，向门外提出退离要求，另一只手稳稳放在桌边；室内只有男主。",
+    "prompt_file": "prompts/p008.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p009",
+    "asset": "assets/p009.png",
+    "start_frame": 1198,
+    "end_frame_exclusive": 1329,
+    "duration_frames": 131,
+    "seconds": 4.366666666666666,
+    "paragraphs": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "cue_ids": [
+      "c013"
+    ],
+    "cast": "raiders",
+    "event": "土黄夹克A仍在门外跪着，举起的空饭盒慢慢落到膝前，表情变化；只有A，中景显示身后紧闭卷帘门。",
+    "prompt_file": "prompts/p009.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p010",
+    "asset": "assets/p010.png",
+    "start_frame": 1329,
+    "end_frame_exclusive": 1484,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "cue_ids": [
+      "c014",
+      "c015"
+    ],
+    "cast": "male",
+    "event": "男主看着仍闭锁的内门，手不碰门锁；监控台和电台在旁边，身后仓储整齐，构图表现保持距离和不让步。",
+    "prompt_file": "prompts/p010.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p011",
+    "asset": "assets/p011.png",
+    "start_frame": 1484,
+    "end_frame_exclusive": 1617,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "cue_ids": [
+      "c016",
+      "c017"
+    ],
+    "cast": "raiders",
+    "event": "深蓝外套B在室外直起腰，腿站得很稳，手里垂着一根铁棍，抬眼看门边摄像头。只出现B，不画伤口或血。",
+    "prompt_file": "prompts/p011.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p012",
+    "asset": "assets/p012.png",
+    "start_frame": 1617,
+    "end_frame_exclusive": 1749,
+    "duration_frames": 132,
+    "seconds": 4.4,
+    "paragraphs": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "cue_ids": [
+      "c017",
+      "c018",
+      "c019"
+    ],
+    "cast": "none",
+    "event": "外墙一个损坏的普通安防摄像头歪斜，镜头罩裂开；下方只露一截垂下的铁棍，不显示攻击方法，干燥黄色院子在背景。",
+    "prompt_file": "prompts/p012.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p013",
+    "asset": "assets/p013.png",
+    "start_frame": 1749,
+    "end_frame_exclusive": 1882,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "cue_ids": [
+      "c019",
+      "c020"
+    ],
+    "cast": "male",
+    "event": "男主在监控房切换信号，一格监控画面黑掉，他神情仍冷静，侧脸中近景；不要让镜头外出现强盗。",
+    "prompt_file": "prompts/p013.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p014",
+    "asset": "assets/p014.png",
+    "start_frame": 1882,
+    "end_frame_exclusive": 2045,
+    "duration_frames": 163,
+    "seconds": 5.433333333333334,
+    "paragraphs": [
+      16,
+      17
+    ],
+    "cue_ids": [
+      "c021"
+    ],
+    "cast": "raiders",
+    "event": "室外四名新强盗A/B/C/D会合在卸货台前，空饭盒躺在一旁，A也提起工具包；四人都站在卷帘门外，不进入后仓。",
+    "prompt_file": "prompts/p014.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p015",
+    "asset": "assets/p015.png",
+    "start_frame": 2045,
+    "end_frame_exclusive": 2216,
+    "duration_frames": 171,
+    "seconds": 5.7,
+    "paragraphs": [
+      16,
+      17
+    ],
+    "cue_ids": [
+      "c022",
+      "c023"
+    ],
+    "cast": "male",
+    "event": "男主在显示器前保持专注，屏幕可见四名外人很小的院子监控图像，人物在屏幕内，室内实体只一个男主。",
+    "prompt_file": "prompts/p015.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p016",
+    "asset": "assets/p016.png",
+    "start_frame": 2216,
+    "end_frame_exclusive": 2354,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c024",
+      "c025"
+    ],
+    "cast": "none",
+    "event": "封闭收货亭空置，干燥整洁，地面没有货物或水箱。远侧关闭的大外卷帘门，近侧是转角和另外一扇关闭的内门，空间层次清晰。",
+    "prompt_file": "prompts/p016.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p017",
+    "asset": "assets/p017.png",
+    "start_frame": 2354,
+    "end_frame_exclusive": 2492,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c025",
+      "c026"
+    ],
+    "cast": "male",
+    "event": "男主在清空的内侧通道把空平板车拉回仓内，前方隔离内门保持关闭，时间为本次冲突前的准备，不出现强盗。",
+    "prompt_file": "prompts/p017.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p018",
+    "asset": "assets/p018.png",
+    "start_frame": 2492,
+    "end_frame_exclusive": 2630,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c026",
+      "c027"
+    ],
+    "cast": "none",
+    "event": "通往地下室的清洁楼梯，台阶无杂物，应急灯照着通路，门仍关闭，明确不是直通室外的敞开门洞。",
+    "prompt_file": "prompts/p018.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p019",
+    "asset": "assets/p019.png",
+    "start_frame": 2630,
+    "end_frame_exclusive": 2753,
+    "duration_frames": 123,
+    "seconds": 4.1,
+    "paragraphs": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c027",
+      "c028"
+    ],
+    "cast": "female",
+    "event": "许棠在内侧检查墙上的普通应急灯和灭火器是否完好，只表现日常设施外观，不展示任何机关、燃烧瓶或制作。",
+    "prompt_file": "prompts/p019.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p020",
+    "asset": "assets/p020.png",
+    "start_frame": 2753,
+    "end_frame_exclusive": 2905,
+    "duration_frames": 152,
+    "seconds": 5.066666666666666,
+    "paragraphs": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c029",
+      "c030"
+    ],
+    "cast": "male",
+    "event": "男主手中握着两把普通钥匙，站在后仓关闭的厚内门内侧，面部坚定；画面不显示锁具结构和防御制作。",
+    "prompt_file": "prompts/p020.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p021",
+    "asset": "assets/p021.png",
+    "start_frame": 2905,
+    "end_frame_exclusive": 3043,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c030",
+      "c031"
+    ],
+    "cast": "none",
+    "event": "后仓内整齐码放的原封主食和水，封闭厚门、清楚的可通行走道，电台在前景；没有陷阱结构和武器制作画面。",
+    "prompt_file": "prompts/p021.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p022",
+    "asset": "assets/p022.png",
+    "start_frame": 3043,
+    "end_frame_exclusive": 3192,
+    "duration_frames": 149,
+    "seconds": 4.966666666666667,
+    "paragraphs": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "cue_ids": [
+      "c032",
+      "c033"
+    ],
+    "cast": "raiders",
+    "event": "从室外院子看四名强盗A/B/C/D围在关闭的大卷帘门外，几个人侧身警觉，只有一根垂下的铁棍，电影远景表现敲门冲突；金属门完全不透光，旁边小门也必须关闭，无破洞，不画任何撬锁技术、受力位置或机关。",
+    "prompt_file": "prompts/p022.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p023",
+    "asset": "assets/p023.png",
+    "start_frame": 3192,
+    "end_frame_exclusive": 3326,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "cue_ids": [
+      "c033",
+      "c034"
+    ],
+    "cast": "male",
+    "event": "男主用电台通知送油方暂停发车，坐在监控台边冷静说话，另一只手搭在记录本边；无清晰文字。",
+    "prompt_file": "prompts/p023.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p024",
+    "asset": "assets/p024.png",
+    "start_frame": 3326,
+    "end_frame_exclusive": 3491,
+    "duration_frames": 165,
+    "seconds": 5.5,
+    "paragraphs": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "cue_ids": [
+      "c035",
+      "c036"
+    ],
+    "cast": "raiders",
+    "event": "室外四名强盗围在大卷帘门前传工具包，棕衣D站在最后面，卷帘门已经有少量变形；全景不展示破门操作细节。",
+    "prompt_file": "prompts/p024.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p025",
+    "asset": "assets/p025.png",
+    "start_frame": 3491,
+    "end_frame_exclusive": 3640,
+    "duration_frames": 149,
+    "seconds": 4.966666666666667,
+    "paragraphs": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "cue_ids": [
+      "c036",
+      "c037",
+      "c038"
+    ],
+    "cast": "none",
+    "event": "院子另一侧仍完好的普通室外摄像头装在墙上，黄色天光、干燥墙体，远处卸货区模糊，单一机位实物静帧。",
+    "prompt_file": "prompts/p025.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p026",
+    "asset": "assets/p026.png",
+    "start_frame": 3640,
+    "end_frame_exclusive": 3789,
+    "duration_frames": 149,
+    "seconds": 4.966666666666667,
+    "paragraphs": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "cue_ids": [
+      "c038"
+    ],
+    "cast": "raiders",
+    "event": "从院子另一侧的远处视角看四名外人聚在卸货台，工具在地上，棕衣D观察其他三人，保持门外空间关系。",
+    "prompt_file": "prompts/p026.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p027",
+    "asset": "assets/p027.png",
+    "start_frame": 3789,
+    "end_frame_exclusive": 3941,
+    "duration_frames": 152,
+    "seconds": 5.066666666666666,
+    "paragraphs": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "cue_ids": [
+      "c039",
+      "c040"
+    ],
+    "cast": "raiders",
+    "event": "收货亭大外卷帘门损坏后形成开口，深蓝B和灰帽C在门外刚弯下身，土黄A和棕衣D仍在后方。电影远景，没有锁具方法、机关、引线或制作细节。",
+    "prompt_file": "prompts/p027.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p028",
+    "asset": "assets/p028.png",
+    "start_frame": 3941,
+    "end_frame_exclusive": 4084,
+    "duration_frames": 143,
+    "seconds": 4.766666666666667,
+    "paragraphs": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "cue_ids": [
+      "c040",
+      "c041"
+    ],
+    "cast": "raiders",
+    "event": "外院突然出现一团局部火光，门外的B与C惊退相撞，A和D也后退，所有人完整无烧伤无血；电影危机场面，不画瓶子构造、配料、陷阱结构或点火过程。",
+    "prompt_file": "prompts/p028.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p029",
+    "asset": "assets/p029.png",
+    "start_frame": 4084,
+    "end_frame_exclusive": 4246,
+    "duration_frames": 162,
+    "seconds": 5.4,
+    "paragraphs": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "cue_ids": [
+      "c042"
+    ],
+    "cast": "none",
+    "event": "透过监控屏看到外院局部火光和退开的四个小小身影，只有效果和结果，绝不出现危险装置制作或工程图，屏幕外没人。",
+    "prompt_file": "prompts/p029.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p030",
+    "asset": "assets/p030.png",
+    "start_frame": 4246,
+    "end_frame_exclusive": 4397,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      31,
+      32,
+      33
+    ],
+    "cue_ids": [
+      "c043",
+      "c044"
+    ],
+    "cast": "raiders",
+    "event": "门外地上掉着工具包，灰帽C伸手犹豫，深蓝B拉着他的外套往台阶下退；只出现B/C，无受伤细节。",
+    "prompt_file": "prompts/p030.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p031",
+    "asset": "assets/p031.png",
+    "start_frame": 4397,
+    "end_frame_exclusive": 4548,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      31,
+      32,
+      33
+    ],
+    "cue_ids": [
+      "c044",
+      "c045"
+    ],
+    "cast": "raiders",
+    "event": "土黄夹克A在院子里向外跑，一只鞋留在后方台阶旁，手中已经没有饭盒；只有A，不喜剧夸张。",
+    "prompt_file": "prompts/p031.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p032",
+    "asset": "assets/p032.png",
+    "start_frame": 4548,
+    "end_frame_exclusive": 4699,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      31,
+      32,
+      33
+    ],
+    "cue_ids": [
+      "c045",
+      "c046"
+    ],
+    "cast": "raiders",
+    "event": "深蓝B拿着垂下的铁棍退到院里，回头看一眼门口后转身；另三人在更远处逃离，画面清楚显示四人都在室外。",
+    "prompt_file": "prompts/p032.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p033",
+    "asset": "assets/p033.png",
+    "start_frame": 4699,
+    "end_frame_exclusive": 4837,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "cue_ids": [
+      "c047",
+      "c048"
+    ],
+    "cast": "both",
+    "event": "男女主留在监控房内看两路画面，没有追出门；紧闭内门在后方，情绪沉稳警觉。",
+    "prompt_file": "prompts/p033.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p034",
+    "asset": "assets/p034.png",
+    "start_frame": 4837,
+    "end_frame_exclusive": 4976,
+    "duration_frames": 139,
+    "seconds": 4.633333333333334,
+    "paragraphs": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "cue_ids": [
+      "c048",
+      "c049",
+      "c050"
+    ],
+    "cast": "raiders",
+    "event": "四个外人从院子跑向围栏缺口，远处一辆普通旧皮卡等着，黄色干燥尘土；不画丧尸或额外军队。",
+    "prompt_file": "prompts/p034.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p035",
+    "asset": "assets/p035.png",
+    "start_frame": 4976,
+    "end_frame_exclusive": 5118,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "cue_ids": [
+      "c050",
+      "c051"
+    ],
+    "cast": "male",
+    "event": "男主在监控台保存刚才的记录，纸上简单画了车辆轮廓，不画清晰车牌、详细路线或文字。",
+    "prompt_file": "prompts/p035.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p036",
+    "asset": "assets/p036.png",
+    "start_frame": 5118,
+    "end_frame_exclusive": 5252,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "cue_ids": [
+      "c052"
+    ],
+    "cast": "female",
+    "event": "许棠站在内侧关闭的厚门旁观察上方有无烟，手里是手电，墙面和地面干燥，机房不是开放门洞。",
+    "prompt_file": "prompts/p036.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p037",
+    "asset": "assets/p037.png",
+    "start_frame": 5252,
+    "end_frame_exclusive": 5400,
+    "duration_frames": 148,
+    "seconds": 4.933333333333334,
+    "paragraphs": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "cue_ids": [
+      "c053",
+      "c054"
+    ],
+    "cast": "none",
+    "event": "独立机房内既有柴油发电机正常工作，进排气管独立，设备室干燥有序，无外人无火，无居住床铺。",
+    "prompt_file": "prompts/p037.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p038",
+    "asset": "assets/p038.png",
+    "start_frame": 5400,
+    "end_frame_exclusive": 5547,
+    "duration_frames": 147,
+    "seconds": 4.9,
+    "paragraphs": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "cue_ids": [
+      "c054",
+      "c055"
+    ],
+    "cast": "female",
+    "event": "许棠站在小冷库门内侧看正常温度显示，柜内分装冻肉有序，门即将关好，不画满店通电或开放冷柜。",
+    "prompt_file": "prompts/p038.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p039",
+    "asset": "assets/p039.png",
+    "start_frame": 5547,
+    "end_frame_exclusive": 5685,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "cue_ids": [
+      "c055",
+      "c056"
+    ],
+    "cast": "none",
+    "event": "空收货亭外门边破损的摄像头和裂开的金属门底，周边局部灰尘，里面没有被抢走的食品，不把整个仓库画成废墟。",
+    "prompt_file": "prompts/p039.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p040",
+    "asset": "assets/p040.png",
+    "start_frame": 5685,
+    "end_frame_exclusive": 5842,
+    "duration_frames": 157,
+    "seconds": 5.233333333333333,
+    "paragraphs": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "cue_ids": [
+      "c057"
+    ],
+    "cast": "male",
+    "event": "男主在本子上把原卸货口标记为停用，背景是关闭的完好内门；笔记只用抽象线条不画可读字或防御施工图。",
+    "prompt_file": "prompts/p040.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p041",
+    "asset": "assets/p041.png",
+    "start_frame": 5842,
+    "end_frame_exclusive": 6000,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      42,
+      43,
+      44
+    ],
+    "cue_ids": [
+      "c058",
+      "c059"
+    ],
+    "cast": "both",
+    "event": "夜间封闭仓内，男主用手动托盘车移动两托餐厨用品纸箱，许棠拿应急灯照路；干净走道，纸箱里只少量锅具图示无字。",
+    "prompt_file": "prompts/p041.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p042",
+    "asset": "assets/p042.png",
+    "start_frame": 6000,
+    "end_frame_exclusive": 6159,
+    "duration_frames": 159,
+    "seconds": 5.3,
+    "paragraphs": [
+      42,
+      43,
+      44
+    ],
+    "cue_ids": [
+      "c059",
+      "c060"
+    ],
+    "cast": "none",
+    "event": "停用卸货口内侧暂放两托餐厨箱货，旁边地下室楼梯和另一条走道畅通，灯照在转角，不封逃生路或机组通风。",
+    "prompt_file": "prompts/p042.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p043",
+    "asset": "assets/p043.png",
+    "start_frame": 6159,
+    "end_frame_exclusive": 6318,
+    "duration_frames": 159,
+    "seconds": 5.3,
+    "paragraphs": [
+      42,
+      43,
+      44
+    ],
+    "cue_ids": [
+      "c060",
+      "c061",
+      "c062"
+    ],
+    "cast": "male",
+    "event": "次日男主坐在桌前用电台联系修门材料，桌上是受损门的照片和记录本，室内光线稳定克制。",
+    "prompt_file": "prompts/p043.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p044",
+    "asset": "assets/p044.png",
+    "start_frame": 6318,
+    "end_frame_exclusive": 6476,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      42,
+      43,
+      44
+    ],
+    "cue_ids": [
+      "c062",
+      "c063"
+    ],
+    "cast": "both",
+    "event": "两人在干净后仓把空箱收走，留出足够推车通行的位置，没有逐句摆拍，实际动作和物资位置清楚。",
+    "prompt_file": "prompts/p044.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p045",
+    "asset": "assets/p045.png",
+    "start_frame": 6476,
+    "end_frame_exclusive": 6632,
+    "duration_frames": 156,
+    "seconds": 5.2,
+    "paragraphs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c064",
+      "c065"
+    ],
+    "cast": "male",
+    "event": "男主在电台前说明后仓守住和修门需求，神色坚定，手指停在所需材料清单上，没有哀求姿态。",
+    "prompt_file": "prompts/p045.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p046",
+    "asset": "assets/p046.png",
+    "start_frame": 6632,
+    "end_frame_exclusive": 6789,
+    "duration_frames": 157,
+    "seconds": 5.233333333333333,
+    "paragraphs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c065",
+      "c066"
+    ],
+    "cast": "none",
+    "event": "后仓整齐存放的厚被褥、外套和锅具，几件作为交换候选放在手推车上，原封食品留在更深处。",
+    "prompt_file": "prompts/p046.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p047",
+    "asset": "assets/p047.png",
+    "start_frame": 6789,
+    "end_frame_exclusive": 6945,
+    "duration_frames": 156,
+    "seconds": 5.2,
+    "paragraphs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c066",
+      "c067",
+      "c068"
+    ],
+    "cast": "none",
+    "event": "电台转述场景的叙事插画：油库基地普通办公室里几位中国成年工人暂住，桌边只有卷起的外套和少量寝具，干燥整洁，不能出现男女主或强盗。",
+    "prompt_file": "prompts/p047.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p048",
+    "asset": "assets/p048.png",
+    "start_frame": 6945,
+    "end_frame_exclusive": 7098,
+    "duration_frames": 153,
+    "seconds": 5.1,
+    "paragraphs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c068",
+      "c069"
+    ],
+    "cast": "male",
+    "event": "男主听电台里的家庭用品需求，记录有限订单，侧面中景可见他在仓库中分类挑货而不是报出所有库存。",
+    "prompt_file": "prompts/p048.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p049",
+    "asset": "assets/p049.png",
+    "start_frame": 7098,
+    "end_frame_exclusive": 7258,
+    "duration_frames": 160,
+    "seconds": 5.333333333333333,
+    "paragraphs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c070",
+      "c071"
+    ],
+    "cast": "none",
+    "event": "尚未拆封的大量家居外箱与前景少数待换货箱形成区别，原封粮水整托保留，整齐干燥，只画商品种类，不画价格清晰文字。",
+    "prompt_file": "prompts/p049.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p050",
+    "asset": "assets/p050.png",
+    "start_frame": 7258,
+    "end_frame_exclusive": 7414,
+    "duration_frames": 156,
+    "seconds": 5.2,
+    "paragraphs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c071",
+      "c072"
+    ],
+    "cast": "both",
+    "event": "男主在后仓把有限的待换被褥、锅具放到平板车上，许棠核对材料需求，后方整托粮水保留；本镜是已经挑好的少数余货，不是再次盘点全仓。",
+    "prompt_file": "prompts/p050.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p051",
+    "asset": "assets/p051.png",
+    "start_frame": 7414,
+    "end_frame_exclusive": 7576,
+    "duration_frames": 162,
+    "seconds": 5.4,
+    "paragraphs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "cue_ids": [
+      "c073",
+      "c074"
+    ],
+    "cast": "male",
+    "event": "男主在服饰库存前核对一件厚外套的尺码，身旁几件不同尺码待挑选，自己的固定服装保持不变。",
+    "prompt_file": "prompts/p051.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p052",
+    "asset": "assets/p052.png",
+    "start_frame": 7576,
+    "end_frame_exclusive": 7731,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "cue_ids": [
+      "c074",
+      "c075"
+    ],
+    "cast": "both",
+    "event": "男女主把合身衣物和留用床品放回自用一侧，只把多余货物装到交换车上，画面有清楚的两组物品。",
+    "prompt_file": "prompts/p052.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p053",
+    "asset": "assets/p053.png",
+    "start_frame": 7731,
+    "end_frame_exclusive": 7898,
+    "duration_frames": 167,
+    "seconds": 5.566666666666666,
+    "paragraphs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "cue_ids": [
+      "c076",
+      "c077"
+    ],
+    "cast": "male",
+    "event": "男主听到电台追加罐头要求后停下笔，表情坚决思考，罐头仍放在原架上，不画人物对嘴对白。",
+    "prompt_file": "prompts/p053.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p054",
+    "asset": "assets/p054.png",
+    "start_frame": 7898,
+    "end_frame_exclusive": 8059,
+    "duration_frames": 161,
+    "seconds": 5.366666666666666,
+    "paragraphs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "cue_ids": [
+      "c078"
+    ],
+    "cast": "none",
+    "event": "几套餐具和一只封好的交换箱放在桌边，材料单用模糊线条表达，背景原封罐头没被取走，画面兑现物资选择。",
+    "prompt_file": "prompts/p054.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p055",
+    "asset": "assets/p055.png",
+    "start_frame": 8059,
+    "end_frame_exclusive": 8226,
+    "duration_frames": 167,
+    "seconds": 5.566666666666666,
+    "paragraphs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "cue_ids": [
+      "c079"
+    ],
+    "cast": "male",
+    "event": "男主把普通餐具箱推到订单旁，通过电台谈定交换，坚定平静，没有夸张得意或金句海报。",
+    "prompt_file": "prompts/p055.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p056",
+    "asset": "assets/p056.png",
+    "start_frame": 8226,
+    "end_frame_exclusive": 8388,
+    "duration_frames": 162,
+    "seconds": 5.4,
+    "paragraphs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "cue_ids": [
+      "c079",
+      "c080",
+      "c081"
+    ],
+    "cast": "none",
+    "event": "一箱普通餐具已经单独封好放在交换清单旁，原本被要求追加的罐头仍留在后仓货架上，单幅干净干燥写实画面，展示谈定后的具体物品状态。",
+    "prompt_file": "prompts/p056.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p057",
+    "asset": "assets/p057.png",
+    "start_frame": 8388,
+    "end_frame_exclusive": 8542,
+    "duration_frames": 154,
+    "seconds": 5.133333333333334,
+    "paragraphs": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "cue_ids": [
+      "c082"
+    ],
+    "cast": "male",
+    "event": "男主听电台提到可以交换防卫装备，拿起一张空白边记录纸，神情认真，不凭空拿枪或已经开火。",
+    "prompt_file": "prompts/p057.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p058",
+    "asset": "assets/p058.png",
+    "start_frame": 8542,
+    "end_frame_exclusive": 8678,
+    "duration_frames": 136,
+    "seconds": 4.533333333333333,
+    "paragraphs": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "cue_ids": [
+      "c083"
+    ],
+    "cast": "none",
+    "event": "电台转述油库基地的背景画面：干燥油库外围，几名中国成年押运人员带着关闭装备箱抵达，枪只在肩侧正常携带，不指向任何人，没有枪械操作展示。",
+    "prompt_file": "prompts/p058.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p059",
+    "asset": "assets/p059.png",
+    "start_frame": 8678,
+    "end_frame_exclusive": 8832,
+    "duration_frames": 154,
+    "seconds": 5.133333333333334,
+    "paragraphs": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "cue_ids": [
+      "c084",
+      "c085"
+    ],
+    "cast": "none",
+    "event": "一只打开的运输箱中静置两支旧长枪，旁边是封装小盒、防暴盾和警棍，只作远景物件清单，不画拆解、装填、瞄准、制作、弹药结构或教学标注。",
+    "prompt_file": "prompts/p059.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p060",
+    "asset": "assets/p060.png",
+    "start_frame": 8832,
+    "end_frame_exclusive": 8980,
+    "duration_frames": 148,
+    "seconds": 4.933333333333334,
+    "paragraphs": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "cue_ids": [
+      "c085",
+      "c086"
+    ],
+    "cast": "both",
+    "event": "男女主在桌边一起核对从电台记下的装备交换项目，只有纸张和电台，手中不持枪，没有强盗进入室内。",
+    "prompt_file": "prompts/p060.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p061",
+    "asset": "assets/p061.png",
+    "start_frame": 8980,
+    "end_frame_exclusive": 9116,
+    "duration_frames": 136,
+    "seconds": 4.533333333333333,
+    "paragraphs": [
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c087",
+      "c088"
+    ],
+    "cast": "both",
+    "event": "两人在后仓桌边确认交换数量，男主把代表两批货的纸张分开放，许棠查看型号记录，余量服饰在背景。",
+    "prompt_file": "prompts/p061.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p062",
+    "asset": "assets/p062.png",
+    "start_frame": 9116,
+    "end_frame_exclusive": 9254,
+    "duration_frames": 138,
+    "seconds": 4.6,
+    "paragraphs": [
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c088",
+      "c089"
+    ],
+    "cast": "male",
+    "event": "男主从剩余库存挑出成箱冬衣和洗衣用品放上推车，自用衣物柜保持独立，服装身份固定不换装。",
+    "prompt_file": "prompts/p062.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p063",
+    "asset": "assets/p063.png",
+    "start_frame": 9254,
+    "end_frame_exclusive": 9387,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c090",
+      "c091"
+    ],
+    "cast": "none",
+    "event": "准备好的交换货分成两批，后面一批厚被褥仍放内侧，前面是材料与设备验收单，文字模糊，只表现分批交付的物件状态。",
+    "prompt_file": "prompts/p063.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p064",
+    "asset": "assets/p064.png",
+    "start_frame": 9387,
+    "end_frame_exclusive": 9523,
+    "duration_frames": 136,
+    "seconds": 4.533333333333333,
+    "paragraphs": [
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c091",
+      "c092"
+    ],
+    "cast": "male",
+    "event": "男主拿着电台确认实际到货再交尾批货，姿态镇定，完整后仓和关闭内门在背景，不出现外部交易者。",
+    "prompt_file": "prompts/p064.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p065",
+    "asset": "assets/p065.png",
+    "start_frame": 9523,
+    "end_frame_exclusive": 9702,
+    "duration_frames": 179,
+    "seconds": 5.966666666666667,
+    "paragraphs": [
+      63,
+      64
+    ],
+    "cue_ids": [
+      "c093",
+      "c094"
+    ],
+    "cast": "male",
+    "event": "男主把原封食品箱搬向仓库深处，停用卸货口附近腾空，不把全部食物堵在门上。",
+    "prompt_file": "prompts/p065.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p066",
+    "asset": "assets/p066.png",
+    "start_frame": 9702,
+    "end_frame_exclusive": 9863,
+    "duration_frames": 161,
+    "seconds": 5.366666666666666,
+    "paragraphs": [
+      63,
+      64
+    ],
+    "cue_ids": [
+      "c095"
+    ],
+    "cast": "female",
+    "event": "许棠把现成急救用品收进带盖收纳箱，动作利落，旁边工具包放好，橘色维修服与低马尾保持。",
+    "prompt_file": "prompts/p066.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p067",
+    "asset": "assets/p067.png",
+    "start_frame": 9863,
+    "end_frame_exclusive": 9994,
+    "duration_frames": 131,
+    "seconds": 4.366666666666666,
+    "paragraphs": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "cue_ids": [
+      "c096"
+    ],
+    "cast": "male",
+    "event": "男主打开原门店后勤设备柜，发现两台装在原包装中的普通备用摄像头，旁边放维修记录，单镜真实发现，不在损毁前卖场取货。",
+    "prompt_file": "prompts/p067.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p068",
+    "asset": "assets/p068.png",
+    "start_frame": 9994,
+    "end_frame_exclusive": 10147,
+    "duration_frames": 153,
+    "seconds": 5.1,
+    "paragraphs": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "cue_ids": [
+      "c097"
+    ],
+    "cast": "none",
+    "event": "桌上两台同款普通室外安防摄像头与旧安装单，清楚外壳相似但标识不必可读，工具在旁，不画精密电路或说明图。",
+    "prompt_file": "prompts/p068.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p069",
+    "asset": "assets/p069.png",
+    "start_frame": 10147,
+    "end_frame_exclusive": 10267,
+    "duration_frames": 120,
+    "seconds": 4.0,
+    "paragraphs": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "cue_ids": [
+      "c098"
+    ],
+    "cast": "female",
+    "event": "许棠在桌面接好一台现成摄像头做普通通电检查，屏幕只见男主在桌边的测试画面，实体人物只有许棠。",
+    "prompt_file": "prompts/p069.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p070",
+    "asset": "assets/p070.png",
+    "start_frame": 10267,
+    "end_frame_exclusive": 10394,
+    "duration_frames": 127,
+    "seconds": 4.233333333333333,
+    "paragraphs": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "cue_ids": [
+      "c098",
+      "c099"
+    ],
+    "cast": "male",
+    "event": "男主作为实体站在测试摄像头视野里，旁边显示器画面模糊，避免再造一个实体男主，场景为干净监控房。",
+    "prompt_file": "prompts/p070.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p071",
+    "asset": "assets/p071.png",
+    "start_frame": 10394,
+    "end_frame_exclusive": 10536,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "cue_ids": [
+      "c100"
+    ],
+    "cast": "none",
+    "event": "两台测试过的摄像头收进工具箱，记录本放在箱盖旁，准备待外部允许作业后安装，没有凭空新增智能武器。",
+    "prompt_file": "prompts/p071.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p072",
+    "asset": "assets/p072.png",
+    "start_frame": 10536,
+    "end_frame_exclusive": 10694,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      70,
+      71,
+      72
+    ],
+    "cue_ids": [
+      "c101",
+      "c102"
+    ],
+    "cast": "none",
+    "event": "新一趟加油车在黄尘天空下驶入外围院子，车灯亮，未进入后仓，外门损伤尚未修复。",
+    "prompt_file": "prompts/p072.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p073",
+    "asset": "assets/p073.png",
+    "start_frame": 10694,
+    "end_frame_exclusive": 10844,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      70,
+      71,
+      72
+    ],
+    "cue_ids": [
+      "c102"
+    ],
+    "cast": "male",
+    "event": "男主在封闭内侧通过电台确认车辆和人员，桌上画面显示外部工人，不开生活区大门。",
+    "prompt_file": "prompts/p073.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p074",
+    "asset": "assets/p074.png",
+    "start_frame": 10844,
+    "end_frame_exclusive": 11011,
+    "duration_frames": 167,
+    "seconds": 5.566666666666666,
+    "paragraphs": [
+      70,
+      71,
+      72
+    ],
+    "cue_ids": [
+      "c103",
+      "c104"
+    ],
+    "cast": "none",
+    "event": "外围交接地面依次摆放钢板、机油桶、原装配件盒与关闭运输箱，物件清楚有序，不能把柴油放生活区或出现危险武器操作。",
+    "prompt_file": "prompts/p074.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p075",
+    "asset": "assets/p075.png",
+    "start_frame": 11011,
+    "end_frame_exclusive": 11169,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      70,
+      71,
+      72
+    ],
+    "cue_ids": [
+      "c104",
+      "c105"
+    ],
+    "cast": "both",
+    "event": "男女主在内门内侧看清屏幕上的来人数量，门保持关闭，许棠手拿配件型号记录，男主按通话键。",
+    "prompt_file": "prompts/p075.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p076",
+    "asset": "assets/p076.png",
+    "start_frame": 11169,
+    "end_frame_exclusive": 11302,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      73,
+      74,
+      75
+    ],
+    "cue_ids": [
+      "c106"
+    ],
+    "cast": "female",
+    "event": "许棠在内侧桌面核对已交付的机油标签和适配零件盒，文字不必清楚，外人不在室内，动作务实。",
+    "prompt_file": "prompts/p076.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p077",
+    "asset": "assets/p077.png",
+    "start_frame": 11302,
+    "end_frame_exclusive": 11446,
+    "duration_frames": 144,
+    "seconds": 4.8,
+    "paragraphs": [
+      73,
+      74,
+      75
+    ],
+    "cue_ids": [
+      "c106",
+      "c107"
+    ],
+    "cast": "male",
+    "event": "男主将交接单上的物件逐一对数，身后封好的衣物床品箱和食品储备分开，不把粮水售空。",
+    "prompt_file": "prompts/p077.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p078",
+    "asset": "assets/p078.png",
+    "start_frame": 11446,
+    "end_frame_exclusive": 11569,
+    "duration_frames": 123,
+    "seconds": 4.1,
+    "paragraphs": [
+      73,
+      74,
+      75
+    ],
+    "cue_ids": [
+      "c108"
+    ],
+    "cast": "none",
+    "event": "外围装备交接场景中，一个关闭的长运输箱旁摆着盾与警棍，交接者穿防护服，仅展示已送到的物件，不显示枪械操作或危险示范。",
+    "prompt_file": "prompts/p078.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p079",
+    "asset": "assets/p079.png",
+    "start_frame": 11569,
+    "end_frame_exclusive": 11702,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      73,
+      74,
+      75
+    ],
+    "cue_ids": [
+      "c108",
+      "c109"
+    ],
+    "cast": "male",
+    "event": "男主把收到的关闭装备箱放入单独可锁柜内，手中不持枪、不装填，柜外是干净仓内墙面。",
+    "prompt_file": "prompts/p079.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p080",
+    "asset": "assets/p080.png",
+    "start_frame": 11702,
+    "end_frame_exclusive": 11857,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c110",
+      "c111"
+    ],
+    "cast": "none",
+    "event": "外围工人已经把受损的大卷帘门板拆下放在地上，原大卸货洞口尚在，内侧厚门关闭，不展示破门方法。",
+    "prompt_file": "prompts/p080.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p081",
+    "asset": "assets/p081.png",
+    "start_frame": 11857,
+    "end_frame_exclusive": 12012,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c111",
+      "c112"
+    ],
+    "cast": "none",
+    "event": "两名穿合适工作防护的外围工人在受损大卸货口外施工，钢板正逐步封上原洞口，画面是电影远景而非施工教学，不显示尺寸标注。",
+    "prompt_file": "prompts/p081.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p082",
+    "asset": "assets/p082.png",
+    "start_frame": 12012,
+    "end_frame_exclusive": 12168,
+    "duration_frames": 156,
+    "seconds": 5.2,
+    "paragraphs": [
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c112",
+      "c113",
+      "c114"
+    ],
+    "cast": "male",
+    "event": "男主从内侧观察大门洞已经封住、封口内侧加固的结果，旧门板不在原位，后仓货架仍完好干燥。",
+    "prompt_file": "prompts/p082.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p083",
+    "asset": "assets/p083.png",
+    "start_frame": 12168,
+    "end_frame_exclusive": 12323,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c114"
+    ],
+    "cast": "none",
+    "event": "外围收货台碎旧包装已收进袋子，疑似沾尘物品单独隔开，原大门洞钢板封闭，无人展示化学去辐射方法。",
+    "prompt_file": "prompts/p083.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p084",
+    "asset": "assets/p084.png",
+    "start_frame": 12323,
+    "end_frame_exclusive": 12459,
+    "duration_frames": 136,
+    "seconds": 4.533333333333333,
+    "paragraphs": [
+      79,
+      80,
+      81
+    ],
+    "cue_ids": [
+      "c115",
+      "c116"
+    ],
+    "cast": "none",
+    "event": "新交接布局的单幅照片：原大卸货门洞已封成整块封口，收货亭侧面另有小门且关闭，内侧转角后的门也关闭，不能两门洞混成一个。",
+    "prompt_file": "prompts/p084.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p085",
+    "asset": "assets/p085.png",
+    "start_frame": 12459,
+    "end_frame_exclusive": 12609,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      79,
+      80,
+      81
+    ],
+    "cue_ids": [
+      "c116",
+      "c117"
+    ],
+    "cast": "none",
+    "event": "下午外围工人收起施工工具，停用的大卸货口已用钢板封住，侧面小门保留，无人进入核心仓库。",
+    "prompt_file": "prompts/p085.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p086",
+    "asset": "assets/p086.png",
+    "start_frame": 12609,
+    "end_frame_exclusive": 12733,
+    "duration_frames": 124,
+    "seconds": 4.133333333333334,
+    "paragraphs": [
+      79,
+      80,
+      81
+    ],
+    "cue_ids": [
+      "c118"
+    ],
+    "cast": "male",
+    "event": "男主从封闭内侧用手电检查修复封口的边角，记录尚需收尾的位置，不画详细锚固结构、施工尺寸或任何陷阱。",
+    "prompt_file": "prompts/p086.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p087",
+    "asset": "assets/p087.png",
+    "start_frame": 12733,
+    "end_frame_exclusive": 12868,
+    "duration_frames": 135,
+    "seconds": 4.5,
+    "paragraphs": [
+      79,
+      80,
+      81
+    ],
+    "cue_ids": [
+      "c119"
+    ],
+    "cast": "female",
+    "event": "许棠检查独立机房通风与门的状态，原进排气管道畅通，未被新封口挡住，干燥设备室内不画火和床。",
+    "prompt_file": "prompts/p087.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p088",
+    "asset": "assets/p088.png",
+    "start_frame": 12868,
+    "end_frame_exclusive": 13004,
+    "duration_frames": 136,
+    "seconds": 4.533333333333333,
+    "paragraphs": [
+      79,
+      80,
+      81
+    ],
+    "cue_ids": [
+      "c119",
+      "c120"
+    ],
+    "cast": "none",
+    "event": "收货亭小门的新锁扣与完好的门板近中景，旁边可见原大门洞的封闭面，呈现修复结果，不是锁具破解或防御机关图。",
+    "prompt_file": "prompts/p088.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p089",
+    "asset": "assets/p089.png",
+    "start_frame": 13004,
+    "end_frame_exclusive": 13167,
+    "duration_frames": 163,
+    "seconds": 5.433333333333334,
+    "paragraphs": [
+      82,
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c121",
+      "c122",
+      "c123"
+    ],
+    "cast": "none",
+    "event": "新换的普通室外监控摄像头已装在原损坏处，安装已经完成，只画整机外观，旁边受损的大卸货口已封闭。",
+    "prompt_file": "prompts/p089.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p090",
+    "asset": "assets/p090.png",
+    "start_frame": 13167,
+    "end_frame_exclusive": 13339,
+    "duration_frames": 172,
+    "seconds": 5.733333333333333,
+    "paragraphs": [
+      82,
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c123",
+      "c124"
+    ],
+    "cast": "female",
+    "event": "许棠在内侧监控台核对原供电设备与画面，桌上是旧安装单，写实普通设备，不画编程黑客或科幻屏幕。",
+    "prompt_file": "prompts/p090.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p091",
+    "asset": "assets/p091.png",
+    "start_frame": 13339,
+    "end_frame_exclusive": 13494,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      82,
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c125"
+    ],
+    "cast": "both",
+    "event": "两人比较新监控画面与过去保存的外院影像，旧影像只存在于小屏幕里，新屏幕画面为空院子，外人不能变成室内实体。",
+    "prompt_file": "prompts/p091.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p092",
+    "asset": "assets/p092.png",
+    "start_frame": 13494,
+    "end_frame_exclusive": 13657,
+    "duration_frames": 163,
+    "seconds": 5.433333333333334,
+    "paragraphs": [
+      82,
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c125",
+      "c126"
+    ],
+    "cast": "none",
+    "event": "监控房显示器上三个清楚但无字的画面分别是空收货亭、空院子和机房外门，维修后视野恢复，显示器作为实物不画拼贴边框。",
+    "prompt_file": "prompts/p092.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p093",
+    "asset": "assets/p093.png",
+    "start_frame": 13657,
+    "end_frame_exclusive": 13816,
+    "duration_frames": 159,
+    "seconds": 5.3,
+    "paragraphs": [
+      86,
+      87
+    ],
+    "cue_ids": [
+      "c127"
+    ],
+    "cast": "male",
+    "event": "男主沿干净内部取货通道走过，脚下无杂物，头上能看到普通监控摄像头，观察测试中的路径，不走到核污染室外。",
+    "prompt_file": "prompts/p093.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p094",
+    "asset": "assets/p094.png",
+    "start_frame": 13816,
+    "end_frame_exclusive": 13949,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      86,
+      87
+    ],
+    "cue_ids": [
+      "c128",
+      "c129"
+    ],
+    "cast": "none",
+    "event": "坏摄像头零件收在旧箱子内，备用接线和旧维修单放回后勤设备柜，一切收纳有序，不是教程或武器结构图。",
+    "prompt_file": "prompts/p094.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p095",
+    "asset": "assets/p095.png",
+    "start_frame": 13949,
+    "end_frame_exclusive": 14095,
+    "duration_frames": 146,
+    "seconds": 4.866666666666666,
+    "paragraphs": [
+      86,
+      87
+    ],
+    "cue_ids": [
+      "c129",
+      "c130"
+    ],
+    "cast": "both",
+    "event": "测试完成后两人在监控房交接记录，桌面小屏显示空院子，两人表情稍放松但仍认真，不做亲密生活小动作。",
+    "prompt_file": "prompts/p095.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p096",
+    "asset": "assets/p096.png",
+    "start_frame": 14095,
+    "end_frame_exclusive": 14250,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "cue_ids": [
+      "c131",
+      "c132"
+    ],
+    "cast": "male",
+    "event": "傍晚男主把尾批厚被褥推到隔离交接的内侧，侧门与内门分开开合的状态只显示当前关闭外门，不让外人直接接近男主。",
+    "prompt_file": "prompts/p096.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p097",
+    "asset": "assets/p097.png",
+    "start_frame": 14250,
+    "end_frame_exclusive": 14408,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "cue_ids": [
+      "c132",
+      "c133"
+    ],
+    "cast": "none",
+    "event": "监控画面里的外围防护服工人将被褥箱搬上加油车，屏幕外无人，天色渐暗黄尘依旧，交易完成。",
+    "prompt_file": "prompts/p097.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p098",
+    "asset": "assets/p098.png",
+    "start_frame": 14408,
+    "end_frame_exclusive": 14560,
+    "duration_frames": 152,
+    "seconds": 5.066666666666666,
+    "paragraphs": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "cue_ids": [
+      "c134",
+      "c135"
+    ],
+    "cast": "none",
+    "event": "独立机房燃油接收设施已补油，机油与配件分别放进专用工具柜，柴油不在生活区，不画注油工艺特写。",
+    "prompt_file": "prompts/p098.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p099",
+    "asset": "assets/p099.png",
+    "start_frame": 14560,
+    "end_frame_exclusive": 14715,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "cue_ids": [
+      "c135",
+      "c136"
+    ],
+    "cast": "none",
+    "event": "后仓水、大米面粉与罐头整托保留，门口少量空托盘表示交换已完成，小冷库仍关闭，库存干净有序不是无尽复制货海。",
+    "prompt_file": "prompts/p099.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p100",
+    "asset": "assets/p100.png",
+    "start_frame": 14715,
+    "end_frame_exclusive": 14870,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "cue_ids": [
+      "c136",
+      "c137"
+    ],
+    "cast": "male",
+    "event": "男主在内部锁好新的交接位置，旁边能看见封住的大门洞内侧，地下室和机房各自通道仍可用，环境有明显修复变化。",
+    "prompt_file": "prompts/p100.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p101",
+    "asset": "assets/p101.png",
+    "start_frame": 14870,
+    "end_frame_exclusive": 15012,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      93,
+      94,
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c138",
+      "c139"
+    ],
+    "cast": "male",
+    "event": "男主在小冷库取出当天分装的冻牛肉和冻菜，放入现成保冷箱，其他冻货继续留在里面，画面只有单次取货动作。",
+    "prompt_file": "prompts/p101.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p102",
+    "asset": "assets/p102.png",
+    "start_frame": 15012,
+    "end_frame_exclusive": 15155,
+    "duration_frames": 143,
+    "seconds": 4.766666666666667,
+    "paragraphs": [
+      93,
+      94,
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c139",
+      "c140",
+      "c141"
+    ],
+    "cast": "female",
+    "event": "许棠检查完设备回到干净地下住处，把耗油记录本放到桌边，身后普通应急灯，情绪平稳，只有她一个人。",
+    "prompt_file": "prompts/p102.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p103",
+    "asset": "assets/p103.png",
+    "start_frame": 15155,
+    "end_frame_exclusive": 15298,
+    "duration_frames": 143,
+    "seconds": 4.766666666666667,
+    "paragraphs": [
+      93,
+      94,
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c141",
+      "c142"
+    ],
+    "cast": "both",
+    "event": "男女主在地下桌边吃简单牛肉配米饭和冻菜，旁边监控屏仍亮着，住宿有正常床品但不聚焦琐碎亲密行为，温暖而克制。",
+    "prompt_file": "prompts/p103.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p104",
+    "asset": "assets/p104.png",
+    "start_frame": 15298,
+    "end_frame_exclusive": 15440,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      93,
+      94,
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c142",
+      "c143"
+    ],
+    "cast": "none",
+    "event": "地下桌边的记录本、电台与正常亮着的小监控屏，屏幕是空院子，盘中一顿正常饭，强调有供电有物资的结果，无清晰文字。",
+    "prompt_file": "prompts/p104.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p105",
+    "asset": "assets/p105.png",
+    "start_frame": 15440,
+    "end_frame_exclusive": 15598,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "cue_ids": [
+      "c144",
+      "c145"
+    ],
+    "cast": "none",
+    "event": "维修完成后的外院静帧，钢板封住旧卸货口，地上没有空饭盒和撬棍，新的监控摄像头完整，黄尘天空和干燥地面。",
+    "prompt_file": "prompts/p105.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  },
+  {
+    "id": "p106",
+    "asset": "assets/p106.png",
+    "start_frame": 15598,
+    "end_frame_exclusive": 15755,
+    "duration_frames": 157,
+    "seconds": 5.233333333333333,
+    "paragraphs": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "cue_ids": [
+      "c145",
+      "c146"
+    ],
+    "cast": "male",
+    "event": "男主在地下桌边整理剩余衣物家居的交换清单，工具柜里的机油和适配滤芯说明书在旁，不能把清单变成画面文字海报。",
+    "prompt_file": "prompts/p106.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p107",
+    "asset": "assets/p107.png",
+    "start_frame": 15755,
+    "end_frame_exclusive": 15913,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "cue_ids": [
+      "c146",
+      "c147"
+    ],
+    "cast": "both",
+    "event": "男女主一起核对下一趟发电机保养件型号记录，许棠指着原设备说明，男主拿笔，身份稳定，不画武器操作。",
+    "prompt_file": "prompts/p107.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p108",
+    "asset": "assets/p108.png",
+    "start_frame": 15913,
+    "end_frame_exclusive": 16057,
+    "duration_frames": 144,
+    "seconds": 4.8,
+    "paragraphs": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "cue_ids": [
+      "c147",
+      "c148"
+    ],
+    "cast": "male",
+    "event": "男主起身走向后仓厚门，手里只有钥匙，背景住处灯光温暖，院子只能在小监控里出现，不能有窗外黄天直通地下。",
+    "prompt_file": "prompts/p108.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null
+  },
+  {
+    "id": "p109",
+    "asset": "assets/p109.png",
+    "start_frame": 16057,
+    "end_frame_exclusive": 16228,
+    "duration_frames": 171,
+    "seconds": 5.7,
+    "paragraphs": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "cue_ids": [
+      "c149"
+    ],
+    "cast": "male",
+    "event": "男主在干净仓内拉一下已经锁好的厚门，身后小显示器里空院子与封好的卸货口一动不动，结尾沉稳，单幅16:9电影画面。",
+    "prompt_file": "prompts/p109.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null
+  }
+]

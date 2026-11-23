@@ -1,0 +1,10 @@
+{
+  "automatic_checks": "PASS",
+  "all_images_visual_review": "PASS 118 final stills plus6contact sheets",
+  "encoded_caption_samples": "PASS frames0/50/53/8050/13000/16155; readable, absent in first gap, no comma/fullstop, no doubled subtitle layer",
+  "normal_speed_sequential_playback": "PASS ended=true, no seek/rate change/media error",
+  "full_human_watch": "NOT_RUN",
+  "full_human_listen": "NOT_RUN",
+  "video_sha256": "cd227e3d29f428cede239a999f63b08ad79841a7bcf1ab761b22cd7f77f865cb",
+  "minor_limitations": "AI stills retain small prop/background-detail variations; source images1672x941 upscaled to1920x1080. User aesthetic acceptance remains pending."
+}

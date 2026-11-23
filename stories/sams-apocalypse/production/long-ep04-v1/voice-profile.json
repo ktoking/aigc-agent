@@ -1,0 +1,44 @@
+{
+  "provider": "MiniMax",
+  "model": "speech-2.8-turbo",
+  "voice_setting": {
+    "voice_id": "Chinese (Mandarin)_Gentleman",
+    "speed": 1.2,
+    "emotion": "calm",
+    "vol": 1.0,
+    "pitch": 0
+  },
+  "style": "统一中性、平稳的故事旁白",
+  "scene_emotion_switching": false,
+  "automatic_emotion": false,
+  "performance_tags_enabled": true,
+  "voice_modify": null,
+  "preserve_original_spoken_text": true,
+  "preserve_tts_punctuation": true,
+  "post_audio_speed_change": false,
+  "chunking": "按完整语义段合成，保持相近段落长度；不混用大量极短单句与长段落。用实测/词时间戳排时，不强行校准字数速度。",
+  "cue_gap_seconds": 0.1,
+  "picture_dissolve_seconds": 0.1,
+  "caption_policy": {
+    "comma": "space",
+    "full_stop": "remove",
+    "independent_srt_vtt": false,
+    "burned_into_video": true
+  },
+  "scope": "后续本系列制作；当前已交付v3保留其真实历史参数，不改写历史生成记录。",
+  "precedence": "除非用户明确要求新的表演变化，否则不按危险、冲突或结尾切换预设。",
+  "performance_tags_policy": {
+    "allowed": [
+      "(breath)",
+      "(inhale)",
+      "(exhale)"
+    ],
+    "frequency": "少量、自然，仅在语义换气处使用，不逐句添加",
+    "disallowed": [
+      "(gasps)",
+      "(pant)",
+      "(sighs)"
+    ],
+    "emotion_changes": false
+  }
+}

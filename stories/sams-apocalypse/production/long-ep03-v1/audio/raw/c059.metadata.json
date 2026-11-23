@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "074219fdf5a95a2d58e9bfa8029f8f31",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "核爆前，我和许棠已经把能保住的肉和蔬菜装袋冷冻，面包也分批放进了冷库。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 5900,
+    "audio_sample_rate": 32000,
+    "audio_size": 378764,
+    "bitrate": 128000,
+    "word_count": 35,
+    "invisible_character_ratio": 0,
+    "usage_characters": 67,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/audio/raw/c059.wav",
+  "bytes": 378764,
+  "sha256": "4b256f54a8fa4a05a7a1821a4a1e4e5530b7dcb3060d6b0d6bb48a49833eed79",
+  "subtitle_files_generated": false
+}

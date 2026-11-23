@@ -1,0 +1,13 @@
+{
+  "id": "p094",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-46730d80-061a-4cd7-85ed-4d2e0388ff9b.png",
+  "file": "assets/p094.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 对输入图只做去人修正：保留坏摄像头的旧纸箱、设备柜、收纳的线缆维修单和监控屏。删除唯一的人物及所有手、身体和衣物，纸箱及柜内道具保留并自然补齐。最终完全无人的设备收纳静物。 保持构图、16:9、干净干燥真人电影风，无字幕和水印。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p094-unwanted-people.png"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "p002",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-eda578d8-6ebd-483f-9d13-6045e21fde27.png",
+  "file": "assets/p002.png",
+  "sha256": "410f8a54f5002c3a4f394b9863bb4b4c20422ca7da367df5deec29e97b968455",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：监控室门边，男主起身握住许棠的手腕准备撤离，另一只手抱起便携收音机；两人看向门口，只有两名主角。侧面中景。\n对应旁白背景（只用于理解，不把文字写在图中）：军方要往市中心投核弹。这条消息从收音机里传出来时，我正和许棠守在监控室。市中心已经被丧尸占满，广播正在催所有人就近避难。我听清最后一遍通知，立刻去拽许棠。\n与其他镜头相比，必须表现上面指定的新动作/物件状态，不只换角度重复上一张图。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+    ]
+  }
+}

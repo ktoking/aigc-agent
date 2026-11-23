@@ -1,0 +1,16 @@
+{
+  "id": "p069",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-999aa608-debc-4352-9a26-5eadca98cfa2.png",
+  "file": "assets/p069.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 编辑输入图，严格保持许棠本人、橙色夹克、姿势、桌上白色枪式摄像头、机位、室内背景和显示器内男主脸及衣服不变。唯一修改：显示器画面中男主身后的黄色室外建筑与天空全部替换成普通灰色室内完整墙面和桌边。男主正在同一封闭室内测试摄像头，没有走到外面。屏幕不能出现黄天、外院、岗楼和户外建筑。保持16:9写实电影画面，无字幕。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p069-pre-edit.png"
+    ],
+    "transparent_background": false
+  },
+  "input_snapshots": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/qa/rejected/p069-pre-edit.png"
+  ]
+}

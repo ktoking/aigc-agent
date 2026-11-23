@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "CUA in-app browser normal speed samples",
+  "url": "http://127.0.0.1:18885/",
+  "speed": 1,
+  "opening": "PASS observed progressing beyond 120 seconds",
+  "music_loop_sample": "PASS seeked to129 and observed advancing to247 without errors",
+  "ending": "PASS seeked to525.933331 then ended at540.933333",
+  "player_error": null,
+  "complete_sequential_playback": "NOT_RUN",
+  "full_human_watch": "NOT_RUN",
+  "full_human_listen": "NOT_RUN",
+  "note": "Browser playback and file metrics do not certify human listening. Range-enabled localhost server is required for seeking."
+}

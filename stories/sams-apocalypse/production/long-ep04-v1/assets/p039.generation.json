@@ -1,0 +1,14 @@
+{
+  "id": "p039",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c2e7591d-b0ee-4114-82b1-42dec0ac5d64.png",
+  "file": "assets/p039.png",
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 第一张是本次待修正的电影静帧，保留它的写实光线、局部损坏的大外门、外墙破损摄像头和干燥黄色天光。唯一修正：删除右侧整组货架以及货架上的全部食品、纸箱和瓶装油，那里改成空的灰白墙和空地面。这是空收货亭，不是存食品的后仓，不保留任何货物。第二张只参考收货亭空房间、转角和另一道关闭内门的建筑关系，不复制里面的人。不要新增人物，不画被抢走的食品，不画制作装置，不加字幕水印，保持单幅横向16:9。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/assets/p039.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep04-v1/assets/p031.png"
+    ],
+    "transparent_background": false
+  }
+}
