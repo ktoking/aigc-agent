@@ -1,0 +1,22 @@
+{
+  "cue_id": "c188",
+  "source_text": "那儿有一块旧检修盖，通向夹层。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.06025,
+  "trim_start_seconds": 0.475,
+  "trim_end_seconds": 2.93,
+  "untruncated_processed_seconds": 2.455,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.5614298010869663,
+  "measured_seconds": 2.466666666666667,
+  "frames": 74,
+  "samples": 118400,
+  "units": 13,
+  "cps_including_performance": 5.27027027027027,
+  "sha256": "7822b8cba813ff2fbbd6f636614600b589150ff2bda392b9fbcb1b3226908765"
+}

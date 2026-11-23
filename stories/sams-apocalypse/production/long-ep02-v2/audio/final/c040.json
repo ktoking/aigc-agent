@@ -1,0 +1,21 @@
+{
+  "cue_id": "c040",
+  "source_text": "我只问了一遍。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 0.80109375,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 0.73,
+  "atempo": 0.8695652173913043,
+  "untruncated_processed_seconds": 0.766125,
+  "tail_quantization_seconds": 0.033875,
+  "gain": 1.2833179688994765,
+  "measured_seconds": 0.8,
+  "frames": 24,
+  "samples": 38400,
+  "units": 6,
+  "cps_including_performance": 7.5,
+  "sha256": "50e06b16b9ed9382d689ba2a089a816d7db9df00165a9bf9758b7cd84214e7dd"
+}

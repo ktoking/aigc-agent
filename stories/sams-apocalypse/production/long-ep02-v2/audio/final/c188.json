@@ -1,0 +1,21 @@
+{
+  "cue_id": "c188",
+  "source_text": "那儿有一块旧检修盖，通向夹层。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.53,
+  "atempo": 0.8773804897007383,
+  "untruncated_processed_seconds": 1.7048125,
+  "tail_quantization_seconds": 0.028520833333333332,
+  "gain": 1.7039456600126592,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "66ff26c93887b84a8d80f311e9a332b1b2e8547b887addf5de288c92dc74d4a8"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c193",
+  "source_text": "里面没有人，固定件也还在，但有一处已经松了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.809625,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 2.75,
+  "atempo": 1.085343228200371,
+  "untruncated_processed_seconds": 2.523625,
+  "tail_quantization_seconds": 0.009708333333333333,
+  "gain": 1.5892411232402825,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "b80409c1c16cbf2f623bcbbff2b4c5c1cbce0d5ab5ded28f923f2c45a5d40e8b"
+}

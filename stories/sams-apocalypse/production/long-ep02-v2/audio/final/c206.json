@@ -1,0 +1,21 @@
+{
+  "cue_id": "c206",
+  "source_text": "最后真正落地的，是新的轮班和每天一次的巡查。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.5774375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.545,
+  "atempo": 0.9495343569091367,
+  "untruncated_processed_seconds": 2.6390416666666665,
+  "tail_quantization_seconds": 0.027625,
+  "gain": 1.6601998291583284,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "03b7bfc4dee35a32d292773533f4cbd1cdd3e2630fb5ea93fdacf76739728ce2"
+}

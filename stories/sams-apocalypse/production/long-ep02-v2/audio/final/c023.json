@@ -1,0 +1,21 @@
+{
+  "cue_id": "c023",
+  "source_text": "卖场照明全关。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 0.9404375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 0.885,
+  "atempo": 1.0997442455242967,
+  "untruncated_processed_seconds": 0.7805416666666667,
+  "tail_quantization_seconds": 0.019458333333333334,
+  "gain": 1.5821882412619501,
+  "measured_seconds": 0.8,
+  "frames": 24,
+  "samples": 38400,
+  "units": 6,
+  "cps_including_performance": 7.5,
+  "sha256": "387cea81bb53440d9a8d9101451a240638c2534f4f486592d9c8edf88ff49cdf"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c233",
+  "source_text": "我看着那队人散开，手心里的汗才慢慢凉下来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.25234375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.185,
+  "atempo": 0.8567452955208056,
+  "untruncated_processed_seconds": 2.4905625,
+  "tail_quantization_seconds": 0.042770833333333334,
+  "gain": 1.484807238110942,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "2ab35f95f0c1eec30bc6af16d548bbd72a997e82e084fbbb42e39eaf6fd477a7"
+}

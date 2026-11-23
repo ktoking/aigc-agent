@@ -1,0 +1,22 @@
+{
+  "cue_id": "c242",
+  "source_text": "夜里，我又盘了一遍今天的消耗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.8754375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.85,
+  "untruncated_processed_seconds": 2.85,
+  "tail_quantization_seconds": 0.016666666666666666,
+  "gain": 1.7858600054721416,
+  "measured_seconds": 2.8666666666666667,
+  "frames": 86,
+  "samples": 137600,
+  "units": 13,
+  "cps_including_performance": 4.534883720930233,
+  "sha256": "d86d82686cbfa78cd1973a2c0af76e556de09366e247b139a4dc3ee177b786ec"
+}

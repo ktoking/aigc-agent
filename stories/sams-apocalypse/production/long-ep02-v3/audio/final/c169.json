@@ -1,0 +1,22 @@
+{
+  "cue_id": "c169",
+  "source_text": "我反而愿意多听两句。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.80578125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.80578125,
+  "untruncated_processed_seconds": 1.8057916666666667,
+  "tail_quantization_seconds": 0.027541666666666666,
+  "gain": 1.897935567726169,
+  "measured_seconds": 1.8333333333333333,
+  "frames": 55,
+  "samples": 88000,
+  "units": 9,
+  "cps_including_performance": 4.909090909090909,
+  "sha256": "2acb2a9b0560d191061f82041c9ac5b1d6f058f41ed947832b46a0ec0374a57d"
+}

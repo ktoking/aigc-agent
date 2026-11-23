@@ -1,0 +1,22 @@
+{
+  "cue_id": "c017",
+  "source_text": "我们只保留一间小冷库。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.7066875,
+  "trim_start_seconds": 0.2,
+  "trim_end_seconds": 1.54,
+  "untruncated_processed_seconds": 1.34,
+  "tail_quantization_seconds": 0.02666666666666667,
+  "gain": 1.3274651928672199,
+  "measured_seconds": 1.3666666666666667,
+  "frames": 41,
+  "samples": 65600,
+  "units": 10,
+  "cps_including_performance": 7.317073170731708,
+  "sha256": "124dd8d7273645aa46d1027cbd8260b5dc360fcb3c95be5b286368ea73204789"
+}

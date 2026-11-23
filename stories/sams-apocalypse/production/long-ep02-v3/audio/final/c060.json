@@ -1,0 +1,22 @@
+{
+  "cue_id": "c060",
+  "source_text": "她摇头，把床指给我看。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.02015625,
+  "trim_start_seconds": 0.21,
+  "trim_end_seconds": 1.885,
+  "untruncated_processed_seconds": 1.675,
+  "tail_quantization_seconds": 0.025,
+  "gain": 1.614265768457205,
+  "measured_seconds": 1.7,
+  "frames": 51,
+  "samples": 81600,
+  "units": 9,
+  "cps_including_performance": 5.294117647058823,
+  "sha256": "cf4b3ed778eceb94b9ab9730beb3e75a7d8e1aba61ae67d067985b304283e954"
+}

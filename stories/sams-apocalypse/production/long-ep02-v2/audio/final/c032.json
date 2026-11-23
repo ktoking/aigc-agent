@@ -1,0 +1,21 @@
+{
+  "cue_id": "c032",
+  "source_text": "他说他们一整天没吃东西，只想借个地方躲。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.15946875,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 2.08,
+  "atempo": 0.8585222502099076,
+  "untruncated_processed_seconds": 2.3668541666666667,
+  "tail_quantization_seconds": 0.03314583333333333,
+  "gain": 1.5764098851297754,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "2ad04cb3d2f18f128677b7abac13e71a52440e3f55415e172fde1fcc840e38b8"
+}

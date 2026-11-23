@@ -1,0 +1,22 @@
+{
+  "cue_id": "c267",
+  "source_text": "也许是我们白天漏收的，也许不是。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.869,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.869,
+  "untruncated_processed_seconds": 2.869,
+  "tail_quantization_seconds": 0.031,
+  "gain": 2.0,
+  "measured_seconds": 2.9,
+  "frames": 87,
+  "samples": 139200,
+  "units": 14,
+  "cps_including_performance": 4.827586206896552,
+  "sha256": "eb4a3f0c26e5e4dc7b72df28b2707cfa27d3ccc81c025faefcb0e0996c1ffa7c"
+}

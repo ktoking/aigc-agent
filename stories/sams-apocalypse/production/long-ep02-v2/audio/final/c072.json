@@ -1,0 +1,21 @@
+{
+  "cue_id": "c072",
+  "source_text": "我负责把常温食物按日期排好。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.515,
+  "atempo": 0.8686358336572094,
+  "untruncated_processed_seconds": 1.7037291666666667,
+  "tail_quantization_seconds": 0.029604166666666668,
+  "gain": 1.6369565360006804,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "e98f708707704369a7d6b969d6aae63f46bc5c6794fd95290fd433872acf939b"
+}

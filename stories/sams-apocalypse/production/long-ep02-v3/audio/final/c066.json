@@ -1,0 +1,22 @@
+{
+  "cue_id": "c066",
+  "source_text": "我本来想用货架把门堵死，许棠问，着火了你从哪走。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.260875,
+  "trim_start_seconds": 0.25,
+  "trim_end_seconds": 4.01,
+  "untruncated_processed_seconds": 3.76,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.6085511491188198,
+  "measured_seconds": 3.7666666666666666,
+  "frames": 113,
+  "samples": 180800,
+  "units": 21,
+  "cps_including_performance": 5.575221238938053,
+  "sha256": "8e8269a94a0f53489c83c4dd7d88aac89d2daf5624aac2c0fac5db1b022c4219"
+}

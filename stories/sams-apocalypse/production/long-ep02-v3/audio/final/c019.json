@@ -1,0 +1,22 @@
+{
+  "cue_id": "c019",
+  "source_text": "许棠拦下我手里的肉。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.22,
+  "trim_end_seconds": 1.35,
+  "untruncated_processed_seconds": 1.13,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 1.544257798976642,
+  "measured_seconds": 1.1333333333333333,
+  "frames": 34,
+  "samples": 54400,
+  "units": 9,
+  "cps_including_performance": 7.9411764705882355,
+  "sha256": "a92b720c948ac12608460e7735977debdeca1368ec285d980b5b0cf581cfbf8b"
+}

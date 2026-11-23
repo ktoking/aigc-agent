@@ -1,0 +1,21 @@
+{
+  "cue_id": "c177",
+  "source_text": "许棠装上电池，先出来一阵杂音。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.76471875,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.695,
+  "atempo": 0.961912164788185,
+  "untruncated_processed_seconds": 1.7080416666666667,
+  "tail_quantization_seconds": 0.025291666666666667,
+  "gain": 1.5117843682769962,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "4bf5d24736c4bedd558b9890ed54202ff9dbfe5aede852c70826d7730fa56528"
+}

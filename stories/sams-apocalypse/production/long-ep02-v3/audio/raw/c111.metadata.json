@@ -1,0 +1,70 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f01a10f882e0007394218edc2802",
+  "preset": "resolve",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我还盯着监控，冷库的提醒又响了。许棠看完记录，说不能再拖。我们已经舍掉一批食品，可剩下的还在耗电。门外的人没进来，时间却一直在偷我们的库存。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "angry",
+      "speed": 1.2,
+      "vol": 1.05,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b002",
+  "batch_text_begin": 16,
+  "batch_text_end": 29,
+  "source_cue_text": "许棠看完记录，说不能再拖。",
+  "batch_audio_start_sample": 71200,
+  "batch_audio_end_sample": 135925,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c110",
+      "char_boundary": 16,
+      "previous_word_time_end": 2.2399999999999993,
+      "next_word_time_begin": 2.2399999999999993,
+      "selected_audio_time": 2.225
+    },
+    {
+      "after_cue": "c111",
+      "char_boundary": 29,
+      "previous_word_time_end": 4.266666666666667,
+      "next_word_time_begin": 4.266666666666667,
+      "selected_audio_time": 4.24765625
+    },
+    {
+      "after_cue": "c112",
+      "char_boundary": 49,
+      "previous_word_time_end": 7.075555555555556,
+      "next_word_time_begin": 7.075555555555556,
+      "selected_audio_time": 7.0955625
+    }
+  ],
+  "sha256": "155dfe7acfb5b0dabeefb5724f21e76dbc63891f4ea0e5bd448138897baf6157",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

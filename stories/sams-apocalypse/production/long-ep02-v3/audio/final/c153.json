@@ -1,0 +1,22 @@
+{
+  "cue_id": "c153",
+  "source_text": "第三下落下时，停车场那几个人影同时转了头。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.99978125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.99978125,
+  "untruncated_processed_seconds": 3.999791666666667,
+  "tail_quantization_seconds": 0.00020833333333333335,
+  "gain": 1.7617952822206604,
+  "measured_seconds": 4.0,
+  "frames": 120,
+  "samples": 192000,
+  "units": 19,
+  "cps_including_performance": 4.75,
+  "sha256": "f075c058678e8d13da97d3b44dc1dd38e01c452860beb5cbd24fe31132256999"
+}

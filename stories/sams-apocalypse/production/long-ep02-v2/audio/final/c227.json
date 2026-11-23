@@ -1,0 +1,21 @@
+{
+  "cue_id": "c227",
+  "source_text": "愿意停止试门，可以隔墙谈交换。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.76471875,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.68,
+  "atempo": 0.94733773804897,
+  "untruncated_processed_seconds": 1.7075,
+  "tail_quantization_seconds": 0.025833333333333333,
+  "gain": 1.564665461795742,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "70eb6fffd048b175bea8706e128a885c889a3ee4f7381baacc815e20b0033364"
+}

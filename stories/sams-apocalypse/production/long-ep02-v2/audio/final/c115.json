@@ -1,0 +1,21 @@
+{
+  "cue_id": "c115",
+  "source_text": "我们没搞满汉全席，也没为省电吃可疑的肉。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.39165625,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 2.335,
+  "atempo": 0.961376994122586,
+  "untruncated_processed_seconds": 2.3754791666666666,
+  "tail_quantization_seconds": 0.024520833333333332,
+  "gain": 1.7514878138703798,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "8fe6543e2b1c97e03ff2e92f0299a4fa43b9804d7ca1aaa0d2b2315bb99fe5ac"
+}

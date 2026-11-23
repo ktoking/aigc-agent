@@ -1,0 +1,21 @@
+{
+  "cue_id": "c269",
+  "source_text": "上面传来很轻的一声响。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.3119375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.26,
+  "atempo": 0.9351241763811455,
+  "untruncated_processed_seconds": 1.3060416666666668,
+  "tail_quantization_seconds": 0.027291666666666665,
+  "gain": 1.5139027779872063,
+  "measured_seconds": 1.3333333333333333,
+  "frames": 40,
+  "samples": 64000,
+  "units": 10,
+  "cps_including_performance": 7.5,
+  "sha256": "204e2ae17fa1d3f742bd3f54c8a510e64afd8c436d145bef44086e5b8038d9f5"
+}

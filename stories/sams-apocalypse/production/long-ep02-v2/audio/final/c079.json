@@ -1,0 +1,21 @@
+{
+  "cue_id": "c079",
+  "source_text": "我们把两份应急背包放在通道口，不锁进柜子。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.50778125,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 2.465,
+  "atempo": 0.9720381659157168,
+  "untruncated_processed_seconds": 2.509375,
+  "tail_quantization_seconds": 0.023958333333333335,
+  "gain": 1.4817062855604954,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "bc6bcbb50cd8119b3a15805141dd69c47f83b131804d0835b9075bfdc7653498"
+}

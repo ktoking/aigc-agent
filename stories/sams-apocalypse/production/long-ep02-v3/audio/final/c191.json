@@ -1,0 +1,22 @@
+{
+  "cue_id": "c191",
+  "source_text": "今天就把内侧能看到的部分查清楚。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.02221875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.02221875,
+  "untruncated_processed_seconds": 3.0222291666666665,
+  "tail_quantization_seconds": 0.011104166666666667,
+  "gain": 1.7626006793597058,
+  "measured_seconds": 3.033333333333333,
+  "frames": 91,
+  "samples": 145600,
+  "units": 15,
+  "cps_including_performance": 4.945054945054945,
+  "sha256": "b10a619f4c337f72ced63adcdf35fd306da69a68edd85a67b368ef44b46dae39"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c033",
+  "source_text": "我还没回答，他已经替所有人做了决定。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.97371875,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.815,
+  "atempo": 0.8320201701859439,
+  "untruncated_processed_seconds": 2.0961041666666667,
+  "tail_quantization_seconds": 0.03722916666666667,
+  "gain": 1.3948259394387041,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "c9157befcdd842cbd6f9133d6d357ec2eb88861046bc55c2dabe85f580ce90cb"
+}

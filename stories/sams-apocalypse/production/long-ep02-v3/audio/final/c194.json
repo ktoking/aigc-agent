@@ -1,0 +1,22 @@
+{
+  "cue_id": "c194",
+  "source_text": "我盯着那条细缝，忽然觉得门外所有吵闹，都可能只是让我们一直盯着门。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 5.023125,
+  "trim_start_seconds": 0.315,
+  "trim_end_seconds": 4.79,
+  "untruncated_processed_seconds": 4.475,
+  "tail_quantization_seconds": 0.025,
+  "gain": 1.3716145834285793,
+  "measured_seconds": 4.5,
+  "frames": 135,
+  "samples": 216000,
+  "units": 30,
+  "cps_including_performance": 6.666666666666667,
+  "sha256": "fad6e190c5098ce23f7d4b8451f1b3c5059302ca13bad4d46e09e221a5e119b5"
+}

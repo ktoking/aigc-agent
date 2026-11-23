@@ -1,0 +1,22 @@
+{
+  "cue_id": "c044",
+  "source_text": "我听得火往上冒。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.66025,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 1.335,
+  "untruncated_processed_seconds": 1.055,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.002289433236917,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 7,
+  "cps_including_performance": 6.5625,
+  "sha256": "fe64c07bebd62913d41c37c8bf6d39468c58ba48b80a7a02765890f0d4090864"
+}

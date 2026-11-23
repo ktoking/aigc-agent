@@ -1,0 +1,22 @@
+{
+  "cue_id": "c037",
+  "source_text": "手始终没碰开门键。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.66025,
+  "trim_start_seconds": 0.275,
+  "trim_end_seconds": 1.375,
+  "untruncated_processed_seconds": 1.1,
+  "tail_quantization_seconds": 0.0,
+  "gain": 1.0669603587338279,
+  "measured_seconds": 1.1,
+  "frames": 33,
+  "samples": 52800,
+  "units": 8,
+  "cps_including_performance": 7.2727272727272725,
+  "sha256": "d7db3fac3a9d28b77c717281d043b1908a2cf971b73f9f389eea95df6a473885"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c071",
+  "source_text": "许棠负责电池和灯。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.77634375,
+  "trim_start_seconds": 0.2,
+  "trim_end_seconds": 1.605,
+  "untruncated_processed_seconds": 1.405,
+  "tail_quantization_seconds": 0.028333333333333332,
+  "gain": 1.6766171284666227,
+  "measured_seconds": 1.4333333333333333,
+  "frames": 43,
+  "samples": 68800,
+  "units": 8,
+  "cps_including_performance": 5.5813953488372094,
+  "sha256": "06afbd2fead39f009bf59fae20a0bdc784602d500b1fdf36aa46e2a6a48da8b9"
+}

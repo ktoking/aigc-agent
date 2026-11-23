@@ -1,0 +1,22 @@
+{
+  "cue_id": "c190",
+  "source_text": "许棠说先别猜外面能不能进去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.67865625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.67865625,
+  "untruncated_processed_seconds": 2.6786666666666665,
+  "tail_quantization_seconds": 0.021333333333333333,
+  "gain": 1.5709553409369241,
+  "measured_seconds": 2.7,
+  "frames": 81,
+  "samples": 129600,
+  "units": 13,
+  "cps_including_performance": 4.814814814814815,
+  "sha256": "c06fe601422b1529f4c09c8dbee8fbb329fe8549e5b62b76f7717c3f1f8d3891"
+}

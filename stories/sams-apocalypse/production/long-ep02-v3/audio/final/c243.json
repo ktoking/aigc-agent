@@ -1,0 +1,22 @@
+{
+  "cue_id": "c243",
+  "source_text": "送出去的，吃掉的，用完的电池，都有去处。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.40578125,
+  "trim_start_seconds": 0.57,
+  "trim_end_seconds": 3.40578125,
+  "untruncated_processed_seconds": 2.8357916666666667,
+  "tail_quantization_seconds": 0.030875,
+  "gain": 1.6586004465753463,
+  "measured_seconds": 2.8666666666666667,
+  "frames": 86,
+  "samples": 137600,
+  "units": 16,
+  "cps_including_performance": 5.5813953488372094,
+  "sha256": "8664bd9830c5d38e2a76e8c19b311661e70ab3dbb4041817468066fb7fd23802"
+}

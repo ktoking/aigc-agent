@@ -1,0 +1,21 @@
+{
+  "cue_id": "c179",
+  "source_text": "只说避免聚集，等待后续通知。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.68346875,
+  "trim_start_seconds": 0.015,
+  "trim_end_seconds": 1.615,
+  "atempo": 1.0113780025284451,
+  "untruncated_processed_seconds": 1.5806666666666667,
+  "tail_quantization_seconds": 0.019333333333333334,
+  "gain": 1.7450455730124501,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "2170f46d3a7b1ecc6374c323cc1a846ffb223e846d48149edbdde0f8ae3f6fc8"
+}

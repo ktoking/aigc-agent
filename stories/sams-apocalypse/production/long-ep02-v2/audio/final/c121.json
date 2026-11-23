@@ -1,0 +1,21 @@
+{
+  "cue_id": "c121",
+  "source_text": "她把每次开机的时间、温度和油量并排记。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.322,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 2.25,
+  "atempo": 0.9739104654610139,
+  "untruncated_processed_seconds": 2.241,
+  "tail_quantization_seconds": 0.025666666666666667,
+  "gain": 1.5322140060896041,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "8a1ce8833b2f4712a81eb02b75d8a2415d07a83604d94473d20e62423f46dfeb"
+}

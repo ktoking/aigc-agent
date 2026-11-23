@@ -1,0 +1,22 @@
+{
+  "cue_id": "c095",
+  "source_text": "对讲里，我把规则说得清清楚楚。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.3800625,
+  "trim_start_seconds": 0.095,
+  "trim_end_seconds": 2.255,
+  "untruncated_processed_seconds": 2.16,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.7086633575765138,
+  "measured_seconds": 2.1666666666666665,
+  "frames": 65,
+  "samples": 104000,
+  "units": 13,
+  "cps_including_performance": 6.0,
+  "sha256": "f6bb473278a645dd2d721a962799fa1bc1aae8e9f7bdc4b9ea9052f2d09240fc"
+}

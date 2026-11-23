@@ -1,0 +1,21 @@
+{
+  "cue_id": "c037",
+  "source_text": "手始终没碰开门键。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.172625,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.1,
+  "atempo": 1.0060394151303242,
+  "untruncated_processed_seconds": 1.0501666666666667,
+  "tail_quantization_seconds": 0.0165,
+  "gain": 1.3262493050566497,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "eb4bf895dffd21d2d3aafe1626e336e12697a6cc8cfec1393bd043d89518f034"
+}

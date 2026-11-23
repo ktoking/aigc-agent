@@ -1,0 +1,22 @@
+{
+  "cue_id": "c033",
+  "source_text": "我还没回答，他已经替所有人做了决定。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.7,
+  "trim_start_seconds": 0.31,
+  "trim_end_seconds": 2.45,
+  "untruncated_processed_seconds": 2.14,
+  "tail_quantization_seconds": 0.02666666666666667,
+  "gain": 0.9938204954073537,
+  "measured_seconds": 2.1666666666666665,
+  "frames": 65,
+  "samples": 104000,
+  "units": 16,
+  "cps_including_performance": 7.384615384615385,
+  "sha256": "548f2a6061a93cc8e398248c12a4d3b68aa8e65fb16a315f3b32c64601e12eee"
+}

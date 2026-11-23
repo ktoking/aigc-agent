@@ -1,0 +1,21 @@
+{
+  "cue_id": "c215",
+  "source_text": "这次推着一只旧喇叭。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.4976875,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 1.375,
+  "atempo": 1.1294416243654823,
+  "untruncated_processed_seconds": 1.1941875,
+  "tail_quantization_seconds": 0.0058125,
+  "gain": 1.4674017966709145,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 9,
+  "cps_including_performance": 7.5,
+  "sha256": "084d6210e570e06dcd3b5d403f85e9384750904ee934a298c6923ec3a6e0b342"
+}

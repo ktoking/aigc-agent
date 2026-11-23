@@ -1,0 +1,21 @@
+{
+  "cue_id": "c242",
+  "source_text": "夜里，我又盘了一遍今天的消耗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 1.63703125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.585,
+  "atempo": 0.9094442285270112,
+  "untruncated_processed_seconds": 1.7036666666666667,
+  "tail_quantization_seconds": 0.029666666666666668,
+  "gain": 1.6637492803039422,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "d53786e7976a30009f3975615d3405347394edc518441f7af00d2560f58ed024"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c041",
+  "source_text": "六个人里，有没有人被咬伤，或者发热。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.97371875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.865,
+  "atempo": 0.9106962663975782,
+  "untruncated_processed_seconds": 1.9692291666666666,
+  "tail_quantization_seconds": 0.030770833333333334,
+  "gain": 1.1297338100111196,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "5928904346f5852e78c479041d08987ceff8b750a149a0e909144091b0460353"
+}

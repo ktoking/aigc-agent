@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728ca36de561ffa91724c51635280bf",
+  "preset": "healing",
+  "direction": "像陪伴朋友，放慢但不拖字，句间留呼吸，避免播音腔。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我把灯抬起来，这一次，敲击声就在正上方。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "calm",
+      "speed": 1.85,
+      "vol": 0.9,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2391,
+    "audio_sample_rate": 32000,
+    "audio_size": 154230,
+    "bitrate": 128000,
+    "word_count": 20,
+    "invisible_character_ratio": 0,
+    "usage_characters": 37,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c276.wav",
+  "bytes": 154230,
+  "sha256": "1af7bfbf0739972846caf338b0300d00aedc653977e3bcf9e9f61a32cdb17819",
+  "subtitle_files_generated": false
+}

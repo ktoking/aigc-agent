@@ -1,0 +1,22 @@
+{
+  "cue_id": "c186",
+  "source_text": "他不是在研究门锁，而是仰头看门上面的墙。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.36721875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.36721875,
+  "untruncated_processed_seconds": 3.3672291666666667,
+  "tail_quantization_seconds": 0.03277083333333333,
+  "gain": 1.6943790178298244,
+  "measured_seconds": 3.4,
+  "frames": 102,
+  "samples": 163200,
+  "units": 18,
+  "cps_including_performance": 5.294117647058823,
+  "sha256": "bb839c7530d0b9044b993358a69a8c01646bb03db8e69eb408831ac1a0ee2ca8"
+}

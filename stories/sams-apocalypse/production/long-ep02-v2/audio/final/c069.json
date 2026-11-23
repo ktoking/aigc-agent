@@ -1,0 +1,21 @@
+{
+  "cue_id": "c069",
+  "source_text": "我重新核对已拆的箱子，把喝掉的、给许棠的，都记进去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.1579375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 3.08,
+  "atempo": 1.0461925451635032,
+  "untruncated_processed_seconds": 2.915625,
+  "tail_quantization_seconds": 0.017708333333333333,
+  "gain": 1.7018162957851608,
+  "measured_seconds": 2.933333333333333,
+  "frames": 88,
+  "samples": 140800,
+  "units": 22,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "bb5c93bfcfddec9d64983c2fcdb9234f4ffdbfec207ffc49390cba8fc2288eed"
+}

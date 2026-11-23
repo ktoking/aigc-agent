@@ -1,0 +1,22 @@
+{
+  "cue_id": "c012",
+  "source_text": "想让整家山姆继续营业，那点油根本不够。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.48303125,
+  "trim_start_seconds": 0.285,
+  "trim_end_seconds": 3.2,
+  "untruncated_processed_seconds": 2.915,
+  "tail_quantization_seconds": 0.018333333333333333,
+  "gain": 1.5210293963239099,
+  "measured_seconds": 2.933333333333333,
+  "frames": 88,
+  "samples": 140800,
+  "units": 17,
+  "cps_including_performance": 5.795454545454546,
+  "sha256": "adcc89ec8081067f85e8bdec6979d6bb610fc7a08b9fa8fca18d8db008286bdc"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c230",
+  "source_text": "林岚站起来，扶父亲往岗亭方向走。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7879375,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.735,
+  "atempo": 0.9195816804904435,
+  "untruncated_processed_seconds": 1.8410416666666667,
+  "tail_quantization_seconds": 0.025625,
+  "gain": 1.4832280522817396,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "f7e80838d2692f68cd486c5157a57abf9a2a27c8850d7adfd82d5bd8c34e5e49"
+}

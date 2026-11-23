@@ -1,0 +1,21 @@
+{
+  "cue_id": "c070",
+  "source_text": "今天送出去的水，也必须从这里扣。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7879375,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.705,
+  "atempo": 0.8925351604760187,
+  "untruncated_processed_seconds": 1.8399166666666666,
+  "tail_quantization_seconds": 0.02675,
+  "gain": 1.8922244078508705,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "d55f2b475ebb2b79a17f327088aa3cf451a9da325e2dd4771180809f715d211c"
+}

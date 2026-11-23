@@ -1,0 +1,22 @@
+{
+  "cue_id": "c165",
+  "source_text": "这次她手里不是空瓶，是一台小收音机。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.8434375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.8434375,
+  "untruncated_processed_seconds": 2.8434375,
+  "tail_quantization_seconds": 0.023229166666666665,
+  "gain": 1.8460939956010303,
+  "measured_seconds": 2.8666666666666667,
+  "frames": 86,
+  "samples": 137600,
+  "units": 16,
+  "cps_including_performance": 5.5813953488372094,
+  "sha256": "fc1e38de366b5e4e34d1c698ffe566382a9dbab9b64a67d3abb1ceb44dc75dcb"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c118",
+  "source_text": "不是贵的和便宜的，而是不靠电能留的、马上得用的、已经不能碰的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.27403125,
+  "trim_start_seconds": 0.015,
+  "trim_end_seconds": 3.235,
+  "atempo": 0.8989391401451703,
+  "untruncated_processed_seconds": 3.5740625,
+  "tail_quantization_seconds": 0.0259375,
+  "gain": 1.7488497599944535,
+  "measured_seconds": 3.6,
+  "frames": 108,
+  "samples": 172800,
+  "units": 27,
+  "cps_including_performance": 7.5,
+  "sha256": "ad21c0039463192e2b7e0c1720bca67e57700feb6449ee260d539493178d2a9f"
+}

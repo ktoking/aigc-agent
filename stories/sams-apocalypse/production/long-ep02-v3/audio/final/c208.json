@@ -1,0 +1,22 @@
+{
+  "cue_id": "c208",
+  "source_text": "许棠写到夜班时停了笔，说你昨晚没睡够，今天前半夜我来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.86865625,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 4.54,
+  "untruncated_processed_seconds": 4.505,
+  "tail_quantization_seconds": 0.028333333333333332,
+  "gain": 1.8284961440519523,
+  "measured_seconds": 4.533333333333333,
+  "frames": 136,
+  "samples": 217600,
+  "units": 24,
+  "cps_including_performance": 5.294117647058823,
+  "sha256": "4494bf2161b2da296ca719714808b846b0aab1b1aad23b8c6f6d303f0e74de31"
+}

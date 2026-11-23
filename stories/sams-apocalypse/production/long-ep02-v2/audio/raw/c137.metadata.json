@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c5dfe47c39939e3954af973aed3a",
+  "preset": "fear",
+  "direction": "像刚察觉危险，短句带紧张；关键动作可少量加入吸气，保持可懂。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "他反而笑了，说只是替我们检查隐患。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "fearful",
+      "speed": 1.85,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2414,
+    "audio_sample_rate": 32000,
+    "audio_size": 155718,
+    "bitrate": 128000,
+    "word_count": 17,
+    "invisible_character_ratio": 0,
+    "usage_characters": 32,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c137.wav",
+  "bytes": 155718,
+  "sha256": "5ae6b8dedec2f2adac22634a2ba539af03fd7c8135ea97c36792ba76ee92aa21",
+  "subtitle_files_generated": false
+}

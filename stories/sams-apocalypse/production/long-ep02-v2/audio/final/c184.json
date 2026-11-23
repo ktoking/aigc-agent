@@ -1,0 +1,21 @@
+{
+  "cue_id": "c184",
+  "source_text": "我调出昨夜的回放。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.07975,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.035,
+  "atempo": 0.9345200254291164,
+  "untruncated_processed_seconds": 1.04175,
+  "tail_quantization_seconds": 0.024916666666666667,
+  "gain": 1.4876019591424918,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "d3e2601998aaee4e7cd7e4c0cfc6f113833cb83ff9e73e89b5dddf9a950cc477"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c083",
+  "source_text": "我翻出收货区的旧图纸，发现墙里有只传票据的小铁盒。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.9025,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 2.83,
+  "atempo": 0.9135141045265689,
+  "untruncated_processed_seconds": 3.0387916666666666,
+  "tail_quantization_seconds": 0.027875,
+  "gain": 1.6500619567802968,
+  "measured_seconds": 3.066666666666667,
+  "frames": 92,
+  "samples": 147200,
+  "units": 23,
+  "cps_including_performance": 7.499999999999999,
+  "sha256": "d72d50dddd82906902af9d85762e85ee23b5d9e6bc289d5ee8a5fcd2e342c647"
+}

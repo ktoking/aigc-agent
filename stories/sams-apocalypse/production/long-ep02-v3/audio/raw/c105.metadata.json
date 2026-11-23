@@ -1,0 +1,83 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728efc49088551702107f2a41678544",
+  "preset": "natural",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "她抬头看摄像头，摇了摇头。周强的脸，终于挂不住了。他把两份丢到地上，骂我挑拨。林岚捡起来，带父亲离开了门口。我这才发现，真正着急喝水的人，根本没力气一直喊。一直替别人说话的人，反而吃得最快。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b001",
+  "batch_text_begin": 13,
+  "batch_text_end": 25,
+  "source_cue_text": "周强的脸，终于挂不住了。",
+  "batch_audio_start_sample": 60878,
+  "batch_audio_end_sample": 128953,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c104",
+      "char_boundary": 13,
+      "previous_word_time_end": 1.8844444444444446,
+      "next_word_time_begin": 1.8844444444444446,
+      "selected_audio_time": 1.9024375
+    },
+    {
+      "after_cue": "c105",
+      "char_boundary": 25,
+      "previous_word_time_end": 4.017777777777778,
+      "next_word_time_begin": 4.017777777777778,
+      "selected_audio_time": 4.02978125
+    },
+    {
+      "after_cue": "c106",
+      "char_boundary": 39,
+      "previous_word_time_end": 6.613333333333334,
+      "next_word_time_begin": 6.613333333333334,
+      "selected_audio_time": 6.59734375
+    },
+    {
+      "after_cue": "c107",
+      "char_boundary": 54,
+      "previous_word_time_end": 9.386666666666668,
+      "next_word_time_begin": 9.422222222222222,
+      "selected_audio_time": 9.4014375
+    },
+    {
+      "after_cue": "c108",
+      "char_boundary": 78,
+      "previous_word_time_end": 13.191111111111113,
+      "next_word_time_begin": 13.503129251700681,
+      "selected_audio_time": 13.345125
+    }
+  ],
+  "sha256": "705092306ea0cd2d635284b4c1bad2a75041ff019dffe97454cd08ccc3fd80e8",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

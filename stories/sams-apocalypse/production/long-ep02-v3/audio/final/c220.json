@@ -1,0 +1,22 @@
+{
+  "cue_id": "c220",
+  "source_text": "盖子开着，里面空的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.46534375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.46534375,
+  "untruncated_processed_seconds": 1.4653541666666667,
+  "tail_quantization_seconds": 0.0013125,
+  "gain": 1.7670702180007072,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 8,
+  "cps_including_performance": 5.454545454545455,
+  "sha256": "873a578a15bf161a6219dfb29d5ce8ea15056c953dc73d8b6a3e5a809f19425c"
+}

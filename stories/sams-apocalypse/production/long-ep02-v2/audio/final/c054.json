@@ -1,0 +1,21 @@
+{
+  "cue_id": "c054",
+  "source_text": "接着，一个戴眼镜的女人走到镜头下。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.76471875,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.72,
+  "atempo": 0.8501513622603432,
+  "untruncated_processed_seconds": 1.9688541666666666,
+  "tail_quantization_seconds": 0.031145833333333334,
+  "gain": 1.476363491524623,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "f71f6ba0a6388f86f0dbe1213cb24b7b068d094aa53899b9593ca6a0bc62de3b"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c144",
+  "source_text": "周强终于开口，说这门不结实，早晚会被丧尸弄开。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 5.17390625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 5.11,
+  "untruncated_processed_seconds": 5.11,
+  "tail_quantization_seconds": 0.023333333333333334,
+  "gain": 1.79692537339515,
+  "measured_seconds": 5.133333333333334,
+  "frames": 154,
+  "samples": 246400,
+  "units": 20,
+  "cps_including_performance": 3.8961038961038956,
+  "sha256": "76c3e0e48203fcddd7a637226825b345156649d96b859a1e07d4fece3eaf250a"
+}

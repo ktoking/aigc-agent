@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c345928fbf6719c841cc73c6e46f",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "接着，一个戴眼镜的女人走到镜头下。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "speed": 1.85,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 1764,
+    "audio_sample_rate": 32000,
+    "audio_size": 114106,
+    "bitrate": 128000,
+    "word_count": 17,
+    "invisible_character_ratio": 0,
+    "usage_characters": 32,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c054.wav",
+  "bytes": 114106,
+  "sha256": "90d9141e48bbb97e9495069760a95ada8e40bfd5d4ca7d4c3873f7cea1e8f24e",
+  "subtitle_files_generated": false
+}

@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c54d105f1db98716ad4a4ebccfc8",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "一整座山姆，终于从我眼里的宝箱，变成了一道每天都要做的选择题。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "calm",
+      "speed": 1.85,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 3274,
+    "audio_sample_rate": 32000,
+    "audio_size": 210702,
+    "bitrate": 128000,
+    "word_count": 31,
+    "invisible_character_ratio": 0,
+    "usage_characters": 59,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c119.wav",
+  "bytes": 210702,
+  "sha256": "289589795bbc8136c2a0008371f70720d66880d4b15200b2c527408c1d767aaa",
+  "subtitle_files_generated": false
+}

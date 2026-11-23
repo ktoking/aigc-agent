@@ -1,0 +1,22 @@
+{
+  "cue_id": "c122",
+  "source_text": "我负责盯监控。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.17434375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.17434375,
+  "untruncated_processed_seconds": 1.1743541666666666,
+  "tail_quantization_seconds": 0.025645833333333333,
+  "gain": 2.0,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 6,
+  "cps_including_performance": 5.0,
+  "sha256": "8447c18a78480d10fc91e0f5e1098a587c0aef95857322b45d635106a514025b"
+}

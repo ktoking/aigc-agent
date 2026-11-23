@@ -1,0 +1,22 @@
+{
+  "cue_id": "c013",
+  "source_text": "我第一次发现，囤得多也会变成负担。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.7631875,
+  "trim_start_seconds": 0.285,
+  "trim_end_seconds": 2.47,
+  "untruncated_processed_seconds": 2.185,
+  "tail_quantization_seconds": 0.015,
+  "gain": 1.3452549400913627,
+  "measured_seconds": 2.2,
+  "frames": 66,
+  "samples": 105600,
+  "units": 15,
+  "cps_including_performance": 6.8181818181818175,
+  "sha256": "e4abbab64de96f2cece18b02354be32cdc056e3cff808c259c2559b8ce0c73a9"
+}

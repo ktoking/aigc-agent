@@ -1,0 +1,119 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f398cdcc81ae66206d3b33713c70",
+  "preset": "fear",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我调出昨夜的回放。黑夹克确实来过，还搬着一只矮箱子。他不是在研究门锁，而是仰头看门上面的墙。我顺着他的目光看过去，后背慢慢绷紧了。那儿有一块旧检修盖，通向夹层。不是秘密地道，旧图纸上就有，只是我以前从没负责过。许棠说先别猜外面能不能进去。今天就把内侧能看到的部分查清楚。她在边框上找到新的擦痕。里面没有人，固定件也还在，但有一处已经松了。我盯着那条细缝，忽然觉得门外所有吵闹，都可能只是让我们一直盯着门。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "fearful",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b008",
+  "batch_text_begin": 80,
+  "batch_text_end": 105,
+  "source_cue_text": "不是秘密地道，旧图纸上就有，只是我以前从没负责过。",
+  "batch_audio_start_sample": 460121,
+  "batch_audio_end_sample": 592686,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c184",
+      "char_boundary": 9,
+      "previous_word_time_end": 1.28,
+      "next_word_time_begin": 1.28,
+      "selected_audio_time": 1.286
+    },
+    {
+      "after_cue": "c185",
+      "char_boundary": 26,
+      "previous_word_time_end": 4.373333333333334,
+      "next_word_time_begin": 4.373333333333334,
+      "selected_audio_time": 4.35334375
+    },
+    {
+      "after_cue": "c186",
+      "char_boundary": 46,
+      "previous_word_time_end": 7.7155555555555555,
+      "next_word_time_begin": 7.7155555555555555,
+      "selected_audio_time": 7.7205625
+    },
+    {
+      "after_cue": "c187",
+      "char_boundary": 65,
+      "previous_word_time_end": 11.12888888888889,
+      "next_word_time_begin": 11.548163265306123,
+      "selected_audio_time": 11.31853125
+    },
+    {
+      "after_cue": "c188",
+      "char_boundary": 80,
+      "previous_word_time_end": 14.21482993197279,
+      "next_word_time_begin": 14.566757369614512,
+      "selected_audio_time": 14.37878125
+    },
+    {
+      "after_cue": "c189",
+      "char_boundary": 105,
+      "previous_word_time_end": 18.51342403628118,
+      "next_word_time_begin": 18.51342403628118,
+      "selected_audio_time": 18.5214375
+    },
+    {
+      "after_cue": "c190",
+      "char_boundary": 119,
+      "previous_word_time_end": 21.180090702947847,
+      "next_word_time_begin": 21.180090702947847,
+      "selected_audio_time": 21.20009375
+    },
+    {
+      "after_cue": "c191",
+      "char_boundary": 135,
+      "previous_word_time_end": 24.202312925170066,
+      "next_word_time_begin": 24.202312925170066,
+      "selected_audio_time": 24.2223125
+    },
+    {
+      "after_cue": "c192",
+      "char_boundary": 147,
+      "previous_word_time_end": 26.904535147392288,
+      "next_word_time_begin": 27.286802721088435,
+      "selected_audio_time": 27.07965625
+    },
+    {
+      "after_cue": "c193",
+      "char_boundary": 169,
+      "previous_word_time_end": 31.16235827664399,
+      "next_word_time_begin": 31.4431746031746,
+      "selected_audio_time": 31.31878125
+    }
+  ],
+  "sha256": "9c64e45f0cc7e71a1e2f02faa864dba4c4068682b351bf41534d9e4ce0d51aad",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

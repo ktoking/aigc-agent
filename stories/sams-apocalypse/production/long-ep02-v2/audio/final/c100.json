@@ -1,0 +1,21 @@
+{
+  "cue_id": "c100",
+  "source_text": "跟着他就有饭吃，不听安排，谁也别想分。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 2.0898125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.965,
+  "atempo": 0.917113142136779,
+  "untruncated_processed_seconds": 2.106625,
+  "tail_quantization_seconds": 0.026708333333333334,
+  "gain": 1.6753419531073954,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "3c9c60a0d79a15786eb37e3414634abba9b6ebcc622963ab5f8789da2580f271"
+}

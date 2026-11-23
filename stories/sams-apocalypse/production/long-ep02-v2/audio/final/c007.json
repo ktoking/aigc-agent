@@ -1,0 +1,21 @@
+{
+  "cue_id": "c007",
+  "source_text": "停电前后，冷库已经升了温。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.63703125,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.565,
+  "atempo": 1.0595950299125634,
+  "untruncated_processed_seconds": 1.4441875,
+  "tail_quantization_seconds": 0.022479166666666668,
+  "gain": 2.0,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "f0fc65ea04fdaf42d87d8dbc52c2213e9d9b4a4b02e9c1ff6705f3730a4b5a91"
+}

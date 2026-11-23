@@ -1,0 +1,22 @@
+{
+  "cue_id": "c248",
+  "source_text": "基地可以慢慢建，搭档可没有第二个备用的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.73078125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.73078125,
+  "untruncated_processed_seconds": 2.7307916666666667,
+  "tail_quantization_seconds": 0.0025416666666666665,
+  "gain": 1.588449287023863,
+  "measured_seconds": 2.7333333333333334,
+  "frames": 82,
+  "samples": 131200,
+  "units": 18,
+  "cps_including_performance": 6.585365853658536,
+  "sha256": "8c635c94538beebfdc9e6a82d7e28d609027299fe2a3377c83ecda986b4eac07"
+}

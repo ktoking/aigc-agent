@@ -1,0 +1,22 @@
+{
+  "cue_id": "c054",
+  "source_text": "接着，一个戴眼镜的女人走到镜头下。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.15946875,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 2.12,
+  "untruncated_processed_seconds": 2.07,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.58010823098654,
+  "measured_seconds": 2.1,
+  "frames": 63,
+  "samples": 100800,
+  "units": 15,
+  "cps_including_performance": 7.142857142857142,
+  "sha256": "f8c01e168b830a978087c6c7a52361435abf393c42316bf1c011fda5d615b00c"
+}

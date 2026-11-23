@@ -1,0 +1,21 @@
+{
+  "cue_id": "c254",
+  "source_text": "停车场终于安静，侧门外的影子也散了一些。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.34521875,
+  "trim_start_seconds": 0.1,
+  "trim_end_seconds": 2.295,
+  "atempo": 0.9214945424013433,
+  "untruncated_processed_seconds": 2.369104166666667,
+  "tail_quantization_seconds": 0.030895833333333334,
+  "gain": 1.826993848662673,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "d7eb30e7930d7fd29eddc4dd58dc86fa96859d1752d270add636b11db94a678b"
+}

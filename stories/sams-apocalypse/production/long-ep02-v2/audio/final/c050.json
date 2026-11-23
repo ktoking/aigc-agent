@@ -1,0 +1,21 @@
+{
+  "cue_id": "c050",
+  "source_text": "我盯着内门的插销，突然明白了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.475,
+  "atempo": 0.8336572094830936,
+  "untruncated_processed_seconds": 1.695625,
+  "tail_quantization_seconds": 0.03770833333333334,
+  "gain": 1.405008676427225,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "d5037345807399dc736ab18f051d313b460161005c3ef0a33cfd9064f69aedd4"
+}

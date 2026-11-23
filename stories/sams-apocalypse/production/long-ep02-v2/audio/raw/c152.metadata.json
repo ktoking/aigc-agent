@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c655e484b1d9ba4f40a0c1fa7f47",
+  "preset": "fear",
+  "direction": "像刚察觉危险，短句带紧张；关键动作可少量加入吸气，保持可懂。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "(gasps)黑夹克偏要敲给我听。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "fearful",
+      "speed": 1.85,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 1927,
+    "audio_sample_rate": 32000,
+    "audio_size": 124510,
+    "bitrate": 128000,
+    "word_count": 17,
+    "invisible_character_ratio": 0,
+    "usage_characters": 26,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c152.wav",
+  "bytes": 124510,
+  "sha256": "9e6949adcb509ae6f74aac74131f3e79471a58c5e730e5d7a8a2f0fae1837051",
+  "subtitle_files_generated": false
+}

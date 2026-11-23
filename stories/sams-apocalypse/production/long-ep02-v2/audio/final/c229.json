@@ -1,0 +1,21 @@
+{
+  "cue_id": "c229",
+  "source_text": "说完，我把对讲放下，没有再给周强接着表演的机会。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.6703125,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 2.58,
+  "atempo": 0.9130122214234364,
+  "untruncated_processed_seconds": 2.7680416666666665,
+  "tail_quantization_seconds": 0.03195833333333333,
+  "gain": 1.2197197301416847,
+  "measured_seconds": 2.8,
+  "frames": 84,
+  "samples": 134400,
+  "units": 21,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "a1418091c3c8a0af1ce895309b123461e1f1a4b0dee06270d6b4850a3b97c73a"
+}

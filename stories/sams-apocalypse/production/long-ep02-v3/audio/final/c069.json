@@ -1,0 +1,22 @@
+{
+  "cue_id": "c069",
+  "source_text": "我重新核对已拆的箱子，把喝掉的、给许棠的，都记进去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.58596875,
+  "trim_start_seconds": 0.245,
+  "trim_end_seconds": 4.31,
+  "untruncated_processed_seconds": 4.065,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.659352783027775,
+  "measured_seconds": 4.066666666666666,
+  "frames": 122,
+  "samples": 195200,
+  "units": 22,
+  "cps_including_performance": 5.409836065573771,
+  "sha256": "6db4e31c698119d6696200ef1486adae4cbaff064c9319d572edd1d40dc19904"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c120",
+  "source_text": "许棠也没说修好就能永远有电。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.555,
+  "atempo": 0.8890400310921103,
+  "untruncated_processed_seconds": 1.7036666666666667,
+  "tail_quantization_seconds": 0.029666666666666668,
+  "gain": 1.6635754084037886,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "37c72447d8b9f5997272dc2acb98684f330b0a913acd9a18ce683dab25584b18"
+}

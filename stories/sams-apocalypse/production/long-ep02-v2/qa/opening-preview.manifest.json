@@ -1,0 +1,13 @@
+{
+  "video": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/opening-preview.mp4",
+  "frames": 1254,
+  "duration_seconds": 41.8,
+  "subtitles_burned": true,
+  "independent_subtitle_files": false,
+  "source_images": 9,
+  "voice_model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "video_sha256": "50e8427c93500f513f80e5d1f9ee467d1c9eab03ee347bf311efe66b51a8f480",
+  "audio_sha256": "1747afd55143c28e67804b692c00316075f6ea035104bf92de818b3b12d6cd35",
+  "render_style": "Fixed camera, image-only 3-frame dissolves, clear captions on separate layer"
+}

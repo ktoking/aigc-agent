@@ -1,0 +1,22 @@
+{
+  "cue_id": "c074",
+  "source_text": "以前嫌盘点麻烦，现在少一支手电，都可能让我们摸黑找半天。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.58596875,
+  "trim_start_seconds": 0.285,
+  "trim_end_seconds": 4.28,
+  "untruncated_processed_seconds": 3.995,
+  "tail_quantization_seconds": 0.005,
+  "gain": 1.504936121545103,
+  "measured_seconds": 4.0,
+  "frames": 120,
+  "samples": 192000,
+  "units": 25,
+  "cps_including_performance": 6.25,
+  "sha256": "45a924b0513e80645fc94844ab4cfd4234d3bcb0ab12a6745502f59243b64b0f"
+}

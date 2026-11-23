@@ -1,0 +1,22 @@
+{
+  "cue_id": "c038",
+  "source_text": "许棠把纸推过来，要我先问人数和伤情。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.4,
+  "trim_start_seconds": 0.285,
+  "trim_end_seconds": 3.115,
+  "untruncated_processed_seconds": 2.83,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 1.1247178243214457,
+  "measured_seconds": 2.8333333333333335,
+  "frames": 85,
+  "samples": 136000,
+  "units": 16,
+  "cps_including_performance": 5.647058823529411,
+  "sha256": "b167b30d29075f69bfe86789be989c7b9af6ffeb4d4871473ba41fc537455928"
+}

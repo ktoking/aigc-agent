@@ -1,0 +1,21 @@
+{
+  "cue_id": "c259",
+  "source_text": "我一下坐直，又没敢叫醒许棠。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "reveal",
+  "api_speed": 1.85,
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.52,
+  "atempo": 0.9292035398230087,
+  "untruncated_processed_seconds": 1.5706875,
+  "tail_quantization_seconds": 0.0293125,
+  "gain": 1.3555577767791485,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "0e46444447aacc28aabe130193a21cb03d04cc44620f577b46715e614a5d53ed"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c231",
+  "source_text": "另外两个人跟了过去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.19584375,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.11,
+  "atempo": 0.9094754653130288,
+  "untruncated_processed_seconds": 1.1709375,
+  "tail_quantization_seconds": 0.0290625,
+  "gain": 1.1933251648759327,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 9,
+  "cps_including_performance": 7.5,
+  "sha256": "862fe2f8f5a019c737116ba8b4382a4d8d0afa6153a9b1b477e58e0776c8f0ef"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c105",
+  "source_text": "周强的脸，终于挂不住了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.2655,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.225,
+  "atempo": 0.8933096806893057,
+  "untruncated_processed_seconds": 1.3049791666666666,
+  "tail_quantization_seconds": 0.028354166666666666,
+  "gain": 1.5118856482914238,
+  "measured_seconds": 1.3333333333333333,
+  "frames": 40,
+  "samples": 64000,
+  "units": 10,
+  "cps_including_performance": 7.5,
+  "sha256": "d7176d1e7d407695d6b2b696882f5a101a5c5f3cfc69f3e7e4321b54bc847dd1"
+}

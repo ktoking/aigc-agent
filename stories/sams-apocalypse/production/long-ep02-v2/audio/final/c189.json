@@ -1,0 +1,21 @@
+{
+  "cue_id": "c189",
+  "source_text": "不是秘密地道，旧图纸上就有，只是我以前从没负责过。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.995375,
+  "trim_start_seconds": 0.1,
+  "trim_end_seconds": 2.93,
+  "atempo": 0.9707294763320375,
+  "untruncated_processed_seconds": 2.9038125,
+  "tail_quantization_seconds": 0.029520833333333333,
+  "gain": 1.630594834655046,
+  "measured_seconds": 2.933333333333333,
+  "frames": 88,
+  "samples": 140800,
+  "units": 22,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "2be0de249916b7b36d10f8c9b7efc823e5951c21551b30f536b79eccdd93a31f"
+}

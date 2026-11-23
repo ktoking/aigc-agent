@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728eb48f7224ddb000d3b6fa67400bb",
+  "preset": "suspense",
+  "direction": "克制陈述异常，关键揭示前稍停，危险靠信息推进，避免全程喊叫。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我第一反应是关掉机器。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 0.95,
+      "pitch": -1
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2100,
+    "audio_sample_rate": 32000,
+    "audio_size": 135564,
+    "bitrate": 128000,
+    "word_count": 11,
+    "invisible_character_ratio": 0,
+    "usage_characters": 21,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v3/audio/raw/c005.wav",
+  "bytes": 135564,
+  "sha256": "5ed339176226a08f978613dac1809960cfc54faedde735977dc56be967639d30",
+  "subtitle_files_generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c269",
+  "source_text": "上面传来很轻的一声响。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.65759375,
+  "trim_start_seconds": 0.4,
+  "trim_end_seconds": 1.65759375,
+  "untruncated_processed_seconds": 1.2576041666666666,
+  "tail_quantization_seconds": 0.0090625,
+  "gain": 1.1971304360888702,
+  "measured_seconds": 1.2666666666666666,
+  "frames": 38,
+  "samples": 60800,
+  "units": 10,
+  "cps_including_performance": 7.894736842105264,
+  "sha256": "c89ff8b328e349e066e0f441954b78122ee2998665d3056a48b5492e66bd4455"
+}

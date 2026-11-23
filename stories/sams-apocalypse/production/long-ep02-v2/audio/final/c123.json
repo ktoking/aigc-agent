@@ -1,0 +1,21 @@
+{
+  "cue_id": "c123",
+  "source_text": "账本一页页往后翻，我们才知道哪些计划是真的，哪些只是想得美。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.41334375,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 3.36,
+  "atempo": 0.9240647682858738,
+  "untruncated_processed_seconds": 3.5726875,
+  "tail_quantization_seconds": 0.0273125,
+  "gain": 1.5547857736145576,
+  "measured_seconds": 3.6,
+  "frames": 108,
+  "samples": 172800,
+  "units": 27,
+  "cps_including_performance": 7.5,
+  "sha256": "37225d1a8e8b8575bfb53ac42ebf58a1d81c19dff94d70e96cedd294e392c23a"
+}

@@ -1,0 +1,181 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f3513125c8fc31a21970df64a91d",
+  "preset": "natural",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "下午，林岚又来了。这次她手里不是空瓶，是一台小收音机。她说自己做过物业后勤，不敢保证机器好不好，但愿意拿它，换一点能带走的食物。她把电池盖打开给镜头看，里面已经没电了。她没有说自己知道救援秘密，也没喊以后报答。我反而愿意多听两句。至少这次，东西和条件都摆在明面上。我和许棠商量，用一份试机电池和两个人一天的应急食物交换。机器先测，合不合用都把话说清。林岚答应了，还问能不能换成常温的，她父亲走不了太远。收音机从盒子里送进来时，我突然有点紧张。这几天，我看见的世界只剩几块监控屏。那台旧机器比我巴掌大一点，却可能装着我们最缺的东西，外面的消息。许棠装上电池，先出来一阵杂音。我们换了几个位置，终于听见断断续续的人声。只说避免聚集，等待后续通知。没有撤离时间，也没有包我们平安的神奇坐标。我照约定送出食物，把电池也记入消耗。林岚没有顺势问能不能住进来。临走前，她只说了一句，侧墙那扇门晚上有人去过，不止今天这一次。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b007",
+  "batch_text_begin": 115,
+  "batch_text_end": 132,
+  "source_cue_text": "至少这次，东西和条件都摆在明面上。",
+  "batch_audio_start_sample": 575032,
+  "batch_audio_end_sample": 687103,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c164",
+      "char_boundary": 9,
+      "previous_word_time_end": 1.4577777777777778,
+      "next_word_time_begin": 1.4577777777777778,
+      "selected_audio_time": 1.47778125
+    },
+    {
+      "after_cue": "c165",
+      "char_boundary": 27,
+      "previous_word_time_end": 4.3022222222222215,
+      "next_word_time_begin": 4.3022222222222215,
+      "selected_audio_time": 4.32121875
+    },
+    {
+      "after_cue": "c166",
+      "char_boundary": 64,
+      "previous_word_time_end": 10.311111111111112,
+      "next_word_time_begin": 10.346666666666666,
+      "selected_audio_time": 10.347875
+    },
+    {
+      "after_cue": "c167",
+      "char_boundary": 84,
+      "previous_word_time_end": 13.084444444444445,
+      "next_word_time_begin": 13.39863945578231,
+      "selected_audio_time": 13.26153125
+    },
+    {
+      "after_cue": "c168",
+      "char_boundary": 105,
+      "previous_word_time_end": 16.171972789115646,
+      "next_word_time_begin": 16.171972789115646,
+      "selected_audio_time": 16.16396875
+    },
+    {
+      "after_cue": "c169",
+      "char_boundary": 115,
+      "previous_word_time_end": 17.949750566893425,
+      "next_word_time_begin": 17.949750566893425,
+      "selected_audio_time": 17.96975
+    },
+    {
+      "after_cue": "c170",
+      "char_boundary": 132,
+      "previous_word_time_end": 21.434195011337867,
+      "next_word_time_begin": 21.469750566893424,
+      "selected_audio_time": 21.47196875
+    },
+    {
+      "after_cue": "c171",
+      "char_boundary": 160,
+      "previous_word_time_end": 25.451972789115644,
+      "next_word_time_begin": 25.798095238095236,
+      "selected_audio_time": 25.62503125
+    },
+    {
+      "after_cue": "c172",
+      "char_boundary": 175,
+      "previous_word_time_end": 28.144761904761904,
+      "next_word_time_begin": 28.144761904761904,
+      "selected_audio_time": 28.13875
+    },
+    {
+      "after_cue": "c173",
+      "char_boundary": 201,
+      "previous_word_time_end": 32.26920634920635,
+      "next_word_time_begin": 32.26920634920635,
+      "selected_audio_time": 32.28921875
+    },
+    {
+      "after_cue": "c174",
+      "char_boundary": 221,
+      "previous_word_time_end": 35.22031746031745,
+      "next_word_time_begin": 35.255873015873014,
+      "selected_audio_time": 35.24509375
+    },
+    {
+      "after_cue": "c175",
+      "char_boundary": 239,
+      "previous_word_time_end": 38.206984126984125,
+      "next_word_time_begin": 38.592290249433105,
+      "selected_audio_time": 38.407625
+    },
+    {
+      "after_cue": "c176",
+      "char_boundary": 271,
+      "previous_word_time_end": 42.894512471655325,
+      "next_word_time_begin": 42.894512471655325,
+      "selected_audio_time": 42.9095
+    },
+    {
+      "after_cue": "c177",
+      "char_boundary": 286,
+      "previous_word_time_end": 45.59673469387755,
+      "next_word_time_begin": 45.59673469387755,
+      "selected_audio_time": 45.61575
+    },
+    {
+      "after_cue": "c178",
+      "char_boundary": 307,
+      "previous_word_time_end": 48.86784580498866,
+      "next_word_time_begin": 48.903401360544215,
+      "selected_audio_time": 48.878625
+    },
+    {
+      "after_cue": "c179",
+      "char_boundary": 321,
+      "previous_word_time_end": 50.930068027210886,
+      "next_word_time_begin": 51.28199546485261,
+      "selected_audio_time": 51.12203125
+    },
+    {
+      "after_cue": "c180",
+      "char_boundary": 342,
+      "previous_word_time_end": 53.66421768707484,
+      "next_word_time_begin": 53.66421768707484,
+      "selected_audio_time": 53.64821875
+    },
+    {
+      "after_cue": "c181",
+      "char_boundary": 360,
+      "previous_word_time_end": 56.82866213151927,
+      "next_word_time_begin": 56.82866213151927,
+      "selected_audio_time": 56.84865625
+    },
+    {
+      "after_cue": "c182",
+      "char_boundary": 374,
+      "previous_word_time_end": 58.99755102040817,
+      "next_word_time_begin": 59.03310657596373,
+      "selected_audio_time": 59.00134375
+    }
+  ],
+  "sha256": "6bfc3e76c69576e49ca19ad5b6242aefcccf7048dea235b43c247a2e1db86b89",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

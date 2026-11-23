@@ -1,0 +1,22 @@
+{
+  "cue_id": "c217",
+  "source_text": "我看着监控，忽然觉得，这个人比门外那些东西更懂得找软处下手。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.905875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.905875,
+  "untruncated_processed_seconds": 3.905875,
+  "tail_quantization_seconds": 0.027458333333333335,
+  "gain": 1.3386369375729978,
+  "measured_seconds": 3.933333333333333,
+  "frames": 118,
+  "samples": 188800,
+  "units": 27,
+  "cps_including_performance": 6.864406779661017,
+  "sha256": "704e8968ffc61e0f328e0edc7ec8a1888f049f701b8cef87154de30326857d09"
+}

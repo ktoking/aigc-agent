@@ -1,0 +1,21 @@
+{
+  "cue_id": "c132",
+  "source_text": "刚把生活区收拾好，监控里就出了事。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.92728125,
+  "trim_start_seconds": 0.08,
+  "trim_end_seconds": 1.845,
+  "atempo": 0.8905146316851664,
+  "untruncated_processed_seconds": 1.9713541666666667,
+  "tail_quantization_seconds": 0.028645833333333332,
+  "gain": 1.5635912672901688,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "50a206478354d2f27128e0d0b038c7a3722a77bb4f78a4259d814497b054769e"
+}

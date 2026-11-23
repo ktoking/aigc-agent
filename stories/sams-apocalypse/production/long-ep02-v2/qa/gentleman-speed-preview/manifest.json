@@ -1,0 +1,40 @@
+{
+  "model": "speech-2.8-turbo",
+  "voice": "Chinese (Mandarin)_Gentleman",
+  "text": "门外那个人，居然对着摄像头笑了。我刚想叫许棠来看，他已经举起一块纸板。上面只有四个字：知道有人。发电机救了冷库，也把我们暴露了。我第一反应是关掉机器。许棠按住我的手，让我先看温度记录。",
+  "emotion": "calm",
+  "vol": 1,
+  "pitch": 0,
+  "samples": [
+    {
+      "speed": 1.2,
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/gentleman-speed-preview/gentleman-1.2.mp3",
+      "duration_seconds": 15.228,
+      "spoken_characters": 81,
+      "characters_per_second_including_natural_pauses": 5.32,
+      "full_decode": "PASS",
+      "post_speed_adjustment": false,
+      "sha256": "0bb313e1028387db5a2190f80d99177c84e442d75ca7bd208c021e7cb2f90f69"
+    },
+    {
+      "speed": 1.4,
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/gentleman-speed-preview/gentleman-1.4.mp3",
+      "duration_seconds": 12.852,
+      "spoken_characters": 81,
+      "characters_per_second_including_natural_pauses": 6.3,
+      "full_decode": "PASS",
+      "post_speed_adjustment": false,
+      "sha256": "ac6796d235327ff6cb70db625cdab14fc05f934922eab56a24a81978c1ab08b2"
+    },
+    {
+      "speed": 1.6,
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/gentleman-speed-preview/gentleman-1.6.mp3",
+      "duration_seconds": 10.944,
+      "spoken_characters": 81,
+      "characters_per_second_including_natural_pauses": 7.4,
+      "full_decode": "PASS",
+      "post_speed_adjustment": false,
+      "sha256": "79d6ab632cc11c6c80a03dbde35c013e149a5688c4235f58c3fe49ed215343d8"
+    }
+  ]
+}

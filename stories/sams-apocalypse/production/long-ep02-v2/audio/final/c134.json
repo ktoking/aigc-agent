@@ -1,0 +1,21 @@
+{
+  "cue_id": "c134",
+  "source_text": "他没有找水，也没有找避难处。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.8111875,
+  "trim_start_seconds": 0.015,
+  "trim_end_seconds": 1.775,
+  "atempo": 1.1125158027812894,
+  "untruncated_processed_seconds": 1.59375,
+  "tail_quantization_seconds": 0.00625,
+  "gain": 1.6147415792262423,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "39cf4974d4f264898dddab8e8bc425e9a57233a0aaebafe2dc1ba626eefe66ae"
+}

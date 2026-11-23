@@ -1,0 +1,21 @@
+{
+  "cue_id": "c255",
+  "source_text": "以前夜班最盼天亮，因为能下班。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 1.71828125,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.66,
+  "atempo": 0.9502526233968129,
+  "untruncated_processed_seconds": 1.7073541666666667,
+  "tail_quantization_seconds": 0.025979166666666668,
+  "gain": 1.8978954525590297,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "b9ea8c99669e63e1ec0e6178140d1d26f3e9ece5e9808bb84931c51899ac71a2"
+}

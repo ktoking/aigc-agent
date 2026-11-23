@@ -1,0 +1,21 @@
+{
+  "cue_id": "c155",
+  "source_text": "刚才还站在一起喊公平的人，转眼谁都顾不上谁。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.3684375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.315,
+  "atempo": 0.8645859551975836,
+  "untruncated_processed_seconds": 2.6384166666666666,
+  "tail_quantization_seconds": 0.02825,
+  "gain": 1.6139028893956764,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "fca99d78a8268fc2df89f896100406b89638bc409ec7aae8ec2b14df1450a429"
+}

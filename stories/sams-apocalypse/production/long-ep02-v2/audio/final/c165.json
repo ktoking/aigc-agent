@@ -1,0 +1,21 @@
+{
+  "cue_id": "c165",
+  "source_text": "这次她手里不是空瓶，是一台小收音机。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 2.02015625,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.96,
+  "atempo": 0.9029309801449731,
+  "untruncated_processed_seconds": 2.1034375,
+  "tail_quantization_seconds": 0.029895833333333333,
+  "gain": 1.5643787568763794,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "a519ae4bbf9a38b06c53c3fc56add5ac329948449ae118fd1439f16f210468ba"
+}

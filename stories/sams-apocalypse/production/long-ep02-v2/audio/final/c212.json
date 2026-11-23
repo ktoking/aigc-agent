@@ -1,0 +1,21 @@
+{
+  "cue_id": "c212",
+  "source_text": "她终于笑了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 0.80109375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 0.73,
+  "atempo": 1.079136690647482,
+  "untruncated_processed_seconds": 0.6540625,
+  "tail_quantization_seconds": 0.012604166666666666,
+  "gain": 1.992831686105371,
+  "measured_seconds": 0.6666666666666666,
+  "frames": 20,
+  "samples": 32000,
+  "units": 5,
+  "cps_including_performance": 7.5,
+  "sha256": "8f5bb13039e2e9683589c0d8fc1908fb096155f835be36a7427bb5330651f4f5"
+}

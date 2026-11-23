@@ -1,0 +1,21 @@
+{
+  "cue_id": "c241",
+  "source_text": "守住这里，不是赢一场嘴仗就够。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 1.68346875,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.62,
+  "atempo": 0.9181888845705402,
+  "untruncated_processed_seconds": 1.7050416666666666,
+  "tail_quantization_seconds": 0.028291666666666666,
+  "gain": 1.7144262247691178,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "c6e174b276971d4870de9e05f59777009b2158a7cfd212217ef264f13ca1c255"
+}

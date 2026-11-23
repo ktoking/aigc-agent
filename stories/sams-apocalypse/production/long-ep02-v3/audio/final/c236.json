@@ -1,0 +1,22 @@
+{
+  "cue_id": "c236",
+  "source_text": "他一个人站了几秒，终于也退到车后。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.834125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.58,
+  "untruncated_processed_seconds": 2.58,
+  "tail_quantization_seconds": 0.02,
+  "gain": 1.4939582485093734,
+  "measured_seconds": 2.6,
+  "frames": 78,
+  "samples": 124800,
+  "units": 15,
+  "cps_including_performance": 5.769230769230769,
+  "sha256": "052da5f2cddce7871305c17616c4f4a18721a3cbc73a767f721f1276ff7d01e0"
+}

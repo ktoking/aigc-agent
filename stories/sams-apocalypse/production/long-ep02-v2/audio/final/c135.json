@@ -1,0 +1,21 @@
+{
+  "cue_id": "c135",
+  "source_text": "他在一扇门前停下，低头拿出了工具。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.92728125,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 1.86,
+  "atempo": 0.9283551967709385,
+  "untruncated_processed_seconds": 1.9715625,
+  "tail_quantization_seconds": 0.0284375,
+  "gain": 1.6903860389294239,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "7090990325a6497c5d860f85e7baabf7a74c5c4286c8ee0a2ba98465d9da4935"
+}

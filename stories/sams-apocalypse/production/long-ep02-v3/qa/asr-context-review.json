@@ -1,0 +1,56 @@
+[
+  {
+    "id": "c084",
+    "source": "它不通人，里外各有一个盖子。",
+    "context_source": "我翻出收货区的旧图纸，发现墙里有只传票据的小铁盒。它不通人，里外各有一个盖子。以前我天天路过，连正眼都没看过。",
+    "context_asr": "我翻出收获去的舊图纸,发现墙里有只船票局的小铁盒。它不通人,里外各有一个盖子。以前我天天路过,连正眼都没看过。",
+    "target_phonetic_best_similarity": 1.0,
+    "status": "CONTEXT_PHONETIC_MATCH",
+    "note": "Automated contextual recognition, not human listening."
+  },
+  {
+    "id": "c102",
+    "source": "我没和他争谁更有良心，只对着镜头说，刚才六份，每人一份。",
+    "context_source": "我攥紧了对讲机。我没和他争谁更有良心，只对着镜头说，刚才六份，每人一份。林岚，你们拿到没有。",
+    "context_asr": "我钻紧了对象棋。我没和他争谁更有良心。只对着镜头说,刚才六分,每人一分。林岚,你们拿到没有?",
+    "target_phonetic_best_similarity": 1.0,
+    "status": "CONTEXT_PHONETIC_MATCH",
+    "note": "Automated contextual recognition, not human listening."
+  },
+  {
+    "id": "c142",
+    "source": "我们守的是一栋楼，不能两个人都围着同一扇门。",
+    "context_source": "她从内侧复核门栓，让我看住另外几个监控。我们守的是一栋楼，不能两个人都围着同一扇门。门外每多一点动静，里面就少一点犯错的余地。",
+    "context_asr": "他从那侧附和门栓 让我看住另外几个监控。我们守的是一栋楼 不能两个人都围着同一扇门。门外每多一点动静 里面就少一点犯错的余地。",
+    "target_phonetic_best_similarity": 1.0,
+    "status": "CONTEXT_PHONETIC_MATCH",
+    "note": "Automated contextual recognition, not human listening."
+  },
+  {
+    "id": "c165",
+    "source": "这次她手里不是空瓶，是一台小收音机。",
+    "context_source": "下午，林岚又来了。这次她手里不是空瓶，是一台小收音机。她说自己做过物业后勤，不敢保证机器好不好，但愿意拿它，换一点能带走的食物。",
+    "context_asr": "下午,林岚又来了。這次她手裡不是空瓶,是一台小收音機。她說自己做過物業後勤,不敢保證機器好不好,但願意拿她換一點能帶走的食物。",
+    "target_phonetic_best_similarity": 1.0,
+    "status": "CONTEXT_PHONETIC_MATCH",
+    "note": "Automated contextual recognition, not human listening."
+  },
+  {
+    "id": "c259",
+    "source": "我一下坐直，又没敢叫醒许棠。",
+    "context_source": "断续的人声里提到，部分区域将尝试恢复供电。我一下坐直，又没敢叫醒许棠。这不是时间表，更不是保证，可能只是我们听漏了前半句。",
+    "context_asr": "断续的人生里提到,部分区域将尝试恢复宫殿。我一下作职,又没敢叫醒许棠。这不是时间表,更不是暴政。可能只是我们听漏了前半句。",
+    "target_phonetic_best_similarity": 1.0,
+    "status": "CONTEXT_PHONETIC_MATCH",
+    "note": "Automated contextual recognition, not human listening."
+  },
+  {
+    "id": "c263",
+    "source": "不是全店停电，另外几个画面还亮着。",
+    "context_source": "刚放下笔，右上角那块监控黑了。不是全店停电，另外几个画面还亮着。我慢慢抬头，那是新补上的走廊镜头。",
+    "context_asr": "刚放下笔,右上角那块监控黑了。不是全点停电,另外几个画面还亮着。我慢慢抬头,那是星部上的走廊镜头。",
+    "target_phonetic_best_similarity": 1.0,
+    "status": "CONTEXT_PHONETIC_MATCH",
+    "note": "Automated contextual recognition, not human listening."
+  }
+]

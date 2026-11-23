@@ -1,0 +1,22 @@
+{
+  "cue_id": "c082",
+  "source_text": "午后，门外又在催。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.62540625,
+  "trim_start_seconds": 0.21,
+  "trim_end_seconds": 1.395,
+  "untruncated_processed_seconds": 1.185,
+  "tail_quantization_seconds": 0.015,
+  "gain": 1.3599047115236942,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 7,
+  "cps_including_performance": 5.833333333333334,
+  "sha256": "9f343268dc36d96a5e0a8f80d88507487b76f36e4a4e699bad019909493268ea"
+}

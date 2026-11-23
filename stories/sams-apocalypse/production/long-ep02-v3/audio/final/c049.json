@@ -1,0 +1,22 @@
+{
+  "cue_id": "c049",
+  "source_text": "既然肯给，开一道缝不就完了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.6,
+  "trim_start_seconds": 0.29,
+  "trim_end_seconds": 2.3,
+  "untruncated_processed_seconds": 2.01,
+  "tail_quantization_seconds": 0.023333333333333334,
+  "gain": 1.1078065729283804,
+  "measured_seconds": 2.033333333333333,
+  "frames": 61,
+  "samples": 97600,
+  "units": 12,
+  "cps_including_performance": 5.901639344262295,
+  "sha256": "dfaf0abd19eeac98e89dd07c05ae00161cb347e9874e2e55ac6b515d50a4eac7"
+}

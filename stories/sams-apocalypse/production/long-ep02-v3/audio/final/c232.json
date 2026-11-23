@@ -1,0 +1,22 @@
+{
+  "cue_id": "c232",
+  "source_text": "她没有替我说好话，只说要等救援，就别把丧尸喊来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.043,
+  "trim_start_seconds": 0.45,
+  "trim_end_seconds": 3.84,
+  "untruncated_processed_seconds": 3.39,
+  "tail_quantization_seconds": 0.01,
+  "gain": 1.2176531477175625,
+  "measured_seconds": 3.4,
+  "frames": 102,
+  "samples": 163200,
+  "units": 21,
+  "cps_including_performance": 6.176470588235294,
+  "sha256": "9a8e105534b6f9cca8f4a724e1e7df36645805f3e176307cb7aeea3ec6f0392e"
+}

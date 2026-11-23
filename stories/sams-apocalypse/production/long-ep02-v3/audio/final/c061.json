@@ -1,0 +1,22 @@
+{
+  "cue_id": "c061",
+  "source_text": "我们睡在监控室旁边，一旦卸货通道出事，连退路都没有。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.260875,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 3.94,
+  "untruncated_processed_seconds": 3.66,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.6557849548128067,
+  "measured_seconds": 3.6666666666666665,
+  "frames": 110,
+  "samples": 176000,
+  "units": 23,
+  "cps_including_performance": 6.272727272727273,
+  "sha256": "83c2490800f621e50d6b2c78c32a28aeeae22d7a28d26eeac04db8a0568a808c"
+}

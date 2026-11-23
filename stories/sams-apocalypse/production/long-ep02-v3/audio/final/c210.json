@@ -1,0 +1,22 @@
+{
+  "cue_id": "c210",
+  "source_text": "她低头看碗，问这算加班费吗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.1834375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.1834375,
+  "untruncated_processed_seconds": 2.1834375,
+  "tail_quantization_seconds": 0.0165625,
+  "gain": 1.6030785704600405,
+  "measured_seconds": 2.2,
+  "frames": 66,
+  "samples": 105600,
+  "units": 12,
+  "cps_including_performance": 5.454545454545454,
+  "sha256": "ee790c00e56a114c39323187aa094e65f02b25974d8a885f3c614ffd67d6d17e"
+}

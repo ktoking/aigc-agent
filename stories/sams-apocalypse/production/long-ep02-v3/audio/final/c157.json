@@ -1,0 +1,22 @@
+{
+  "cue_id": "c157",
+  "source_text": "丧尸留在了侧门外。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.6495625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.6495625,
+  "untruncated_processed_seconds": 1.6495625,
+  "tail_quantization_seconds": 0.017104166666666667,
+  "gain": 1.8603020457774613,
+  "measured_seconds": 1.6666666666666667,
+  "frames": 50,
+  "samples": 80000,
+  "units": 8,
+  "cps_including_performance": 4.8,
+  "sha256": "cb6bf32cc27c4698df4f8662cc9c40fc9ef560c47249a8faf12deef7a385625e"
+}

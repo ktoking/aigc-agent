@@ -1,0 +1,22 @@
+{
+  "cue_id": "c219",
+  "source_text": "许棠指了指喇叭的电池仓。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.84390625,
+  "trim_start_seconds": 0.575,
+  "trim_end_seconds": 1.84390625,
+  "untruncated_processed_seconds": 1.2689166666666667,
+  "tail_quantization_seconds": 0.031083333333333334,
+  "gain": 1.0236765824428093,
+  "measured_seconds": 1.3,
+  "frames": 39,
+  "samples": 62400,
+  "units": 11,
+  "cps_including_performance": 8.461538461538462,
+  "sha256": "96cd8903f5851d10bc0555435887a7cad28392017c3c4d01bfd046a1cde1e03a"
+}

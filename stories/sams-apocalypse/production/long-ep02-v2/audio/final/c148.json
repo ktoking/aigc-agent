@@ -1,0 +1,21 @@
+{
+  "cue_id": "c148",
+  "source_text": "我告诉他，再碰门，今晚连传递盒都停。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.11303125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.04,
+  "atempo": 1.0166498486377398,
+  "untruncated_processed_seconds": 1.9816666666666667,
+  "tail_quantization_seconds": 0.018333333333333333,
+  "gain": 1.6253040474782563,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "42180050ed86b2317dc7ddb3f9ddc3ba0f412909d1f9c9dd761159bd29e6aab8"
+}

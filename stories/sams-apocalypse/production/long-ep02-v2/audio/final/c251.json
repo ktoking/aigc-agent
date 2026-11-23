@@ -1,0 +1,21 @@
+{
+  "cue_id": "c251",
+  "source_text": "我说老板反省了，不能光给水果罐头还让人通宵。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.39165625,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.275,
+  "atempo": 0.8475962748552731,
+  "untruncated_processed_seconds": 2.632604166666667,
+  "tail_quantization_seconds": 0.0340625,
+  "gain": 1.7523228245873295,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "1190977100f1aaaf656d0f3aa9b48851da573bce842d38899f644ca0de7ea6fc"
+}

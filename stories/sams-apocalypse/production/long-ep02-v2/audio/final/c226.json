@@ -1,0 +1,21 @@
+{
+  "cue_id": "c226",
+  "source_text": "我告诉他们，接纳的条件不会因为喊得响就改。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.41490625,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.335,
+  "atempo": 0.9163795388285184,
+  "untruncated_processed_seconds": 2.5040416666666667,
+  "tail_quantization_seconds": 0.029291666666666667,
+  "gain": 1.286700185678534,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "3bc51ec8a39dc149477dcf8599ff240a31942eb2dfe2f6cab156d99b6335629d"
+}

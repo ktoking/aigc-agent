@@ -1,0 +1,22 @@
+{
+  "cue_id": "c018",
+  "source_text": "还能确认安全的食物集中过去，其余按温度记录处理。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.9358125,
+  "trim_start_seconds": 0.235,
+  "trim_end_seconds": 3.645,
+  "untruncated_processed_seconds": 3.41,
+  "tail_quantization_seconds": 0.023333333333333334,
+  "gain": 1.4953006290128343,
+  "measured_seconds": 3.433333333333333,
+  "frames": 103,
+  "samples": 164800,
+  "units": 22,
+  "cps_including_performance": 6.407766990291263,
+  "sha256": "66fd18a8bf44ed318d537601ff5285fddf6f821c5e1060f7aa1188d7d54eebd0"
+}

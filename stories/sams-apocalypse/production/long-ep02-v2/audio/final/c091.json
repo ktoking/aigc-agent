@@ -1,0 +1,21 @@
+{
+  "cue_id": "c091",
+  "source_text": "不是承诺长期供养，是先给他们喘口气。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.857625,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.785,
+  "atempo": 0.817838008194138,
+  "untruncated_processed_seconds": 2.0983125,
+  "tail_quantization_seconds": 0.035020833333333334,
+  "gain": 1.833742438735076,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "f5a2c723ddc1a1d4acc8b34525524fec7de9de7af35065a185375f356e8f30a4"
+}

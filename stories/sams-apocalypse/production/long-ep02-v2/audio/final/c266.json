@@ -1,0 +1,21 @@
+{
+  "cue_id": "c266",
+  "source_text": "地上多了一颗螺丝，检修盖还关着。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9969375,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.9,
+  "atempo": 0.9980165885322755,
+  "untruncated_processed_seconds": 1.8438125,
+  "tail_quantization_seconds": 0.022854166666666665,
+  "gain": 1.832719380369984,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "09f4d44ee4f34e0829a1ad037fae270c31654357fc1b844f67c0449180e66333"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c010",
+  "source_text": "那东西要散热，还要排废气。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.42803125,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.36,
+  "atempo": 0.9180855959502993,
+  "untruncated_processed_seconds": 1.4333541666666667,
+  "tail_quantization_seconds": 0.0333125,
+  "gain": 1.7527843595690225,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "159fbf874e74826f6e4fb9d5d0f2f1ca6b717f7cb17a42e4a80dc86303398f6e"
+}

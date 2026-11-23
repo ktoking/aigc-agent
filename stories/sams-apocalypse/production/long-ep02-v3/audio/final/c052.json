@@ -1,0 +1,22 @@
+{
+  "cue_id": "c052",
+  "source_text": "我告诉他，送东西和开门是两回事。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.9489375,
+  "trim_start_seconds": 0.295,
+  "trim_end_seconds": 2.655,
+  "untruncated_processed_seconds": 2.36,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.1189638897696295,
+  "measured_seconds": 2.3666666666666667,
+  "frames": 71,
+  "samples": 113600,
+  "units": 14,
+  "cps_including_performance": 5.915492957746479,
+  "sha256": "96405fb9e935bb8081ffd28e2e044c22256eab5f97e8a961642072af9791c2dc"
+}

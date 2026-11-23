@@ -1,0 +1,22 @@
+{
+  "cue_id": "c026",
+  "source_text": "机器停下，外面安静了一阵。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.31040625,
+  "trim_start_seconds": 0.22,
+  "trim_end_seconds": 2.175,
+  "untruncated_processed_seconds": 1.955,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.7284537648515352,
+  "measured_seconds": 1.9666666666666666,
+  "frames": 59,
+  "samples": 94400,
+  "units": 11,
+  "cps_including_performance": 5.593220338983051,
+  "sha256": "7ea4b6f5409fbb093173646908c9b000e5e92f27f8194b379937941600c6d876"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c076",
+  "source_text": "生活区隔出吃饭和休息的位置，垃圾单独封好。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.6,
+  "trim_start_seconds": 0.305,
+  "trim_end_seconds": 3.3,
+  "untruncated_processed_seconds": 2.995,
+  "tail_quantization_seconds": 0.005,
+  "gain": 1.483848064438609,
+  "measured_seconds": 3.0,
+  "frames": 90,
+  "samples": 144000,
+  "units": 19,
+  "cps_including_performance": 6.333333333333333,
+  "sha256": "0aeff7ce608b1b166b9e4475512fd5294158ae43d8c2709115a842f4ffdc123b"
+}

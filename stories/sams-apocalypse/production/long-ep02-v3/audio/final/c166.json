@@ -1,0 +1,22 @@
+{
+  "cue_id": "c166",
+  "source_text": "她说自己做过物业后勤，不敢保证机器好不好，但愿意拿它，换一点能带走的食物。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 6.02665625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 6.02665625,
+  "untruncated_processed_seconds": 6.026666666666666,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.7388031226137486,
+  "measured_seconds": 6.033333333333333,
+  "frames": 181,
+  "samples": 289600,
+  "units": 33,
+  "cps_including_performance": 5.469613259668509,
+  "sha256": "341d3d14c3628d47d48285e384fe7e5cb94b5538f68b815ff615fecdf9080728"
+}

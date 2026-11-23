@@ -1,0 +1,22 @@
+{
+  "cue_id": "c009",
+  "source_text": "她没有拿棉被去捂发电机。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.02015625,
+  "trim_start_seconds": 0.215,
+  "trim_end_seconds": 1.885,
+  "untruncated_processed_seconds": 1.67,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.6314816532458378,
+  "measured_seconds": 1.7,
+  "frames": 51,
+  "samples": 81600,
+  "units": 11,
+  "cps_including_performance": 6.470588235294118,
+  "sha256": "6b1bf05899854ebaa6742b3c84a125fce636a555516c7cd27226e9b031346cb6"
+}

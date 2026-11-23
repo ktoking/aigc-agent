@@ -1,0 +1,38 @@
+{
+  "status": "PASS_SAMPLED",
+  "url": "https://spine-warrant-elvis-almost.trycloudflare.com/v3/",
+  "playback_rate": 1,
+  "muted": false,
+  "volume": 1,
+  "samples": [
+    {
+      "section": "opening",
+      "observed_time_seconds": 27.466892,
+      "decoded_frames": 829,
+      "dropped_frames": 6
+    },
+    {
+      "section": "danger",
+      "seek_seconds": 343.066666,
+      "observed_time_seconds": 370.714804,
+      "decoded_frames": 2778,
+      "dropped_frames": 21
+    },
+    {
+      "section": "ending",
+      "seek_seconds": 658.4,
+      "observed_time_seconds": 719.252153,
+      "decoded_frames": 5343,
+      "dropped_frames": 28
+    }
+  ],
+  "duration_seconds": 762.866667,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player_errors": [],
+  "screenshot": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v3/qa/browser-playback.png",
+  "full_human_watch": "NOT_RUN",
+  "full_human_listening": "NOT_RUN"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c237",
+  "source_text": "门没开，但这场争执没有真正结束。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.2535,
+  "trim_start_seconds": 0.385,
+  "trim_end_seconds": 2.95,
+  "untruncated_processed_seconds": 2.565,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.2379952853843517,
+  "measured_seconds": 2.566666666666667,
+  "frames": 77,
+  "samples": 123200,
+  "units": 14,
+  "cps_including_performance": 5.454545454545454,
+  "sha256": "2b8066a962241891aaf9ce622ef5704b2f45c12c1d75b78d29516a1a51dabe63"
+}

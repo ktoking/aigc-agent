@@ -1,0 +1,21 @@
+{
+  "cue_id": "c185",
+  "source_text": "黑夹克确实来过，还搬着一只矮箱子。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.20590625,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 2.15,
+  "atempo": 1.0595358224016145,
+  "untruncated_processed_seconds": 1.9843125,
+  "tail_quantization_seconds": 0.0156875,
+  "gain": 1.5310839486709733,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "4d3411d4651bf6db58f85336f2122f8a10adeb2211c2bfe3953b34d3ce9ef976"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c235",
+  "source_text": "黑夹克骂了他一句，先跑了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.63703125,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 1.55,
+  "atempo": 1.0423377818683848,
+  "untruncated_processed_seconds": 1.446,
+  "tail_quantization_seconds": 0.020666666666666667,
+  "gain": 1.5049688051460326,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "d6a4421a059bebddc1bcbd54578d92bb545f5955e43826d920847e9ff6d82b61"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c140",
+  "source_text": "许棠没有冲出去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.515125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.51,
+  "untruncated_processed_seconds": 1.51,
+  "tail_quantization_seconds": 0.023333333333333334,
+  "gain": 1.7492549650623932,
+  "measured_seconds": 1.5333333333333334,
+  "frames": 46,
+  "samples": 73600,
+  "units": 7,
+  "cps_including_performance": 4.565217391304348,
+  "sha256": "93f0aa0d866b60f2c4afb70a60557cace7c5c40462eef6ef89aa951b44c045a9"
+}

@@ -1,0 +1,12 @@
+{
+  "http_status": 200,
+  "base_resp": {
+    "status_code": 1002,
+    "status_msg": "rate limit exceeded(RPM)"
+  },
+  "trace_id": null,
+  "diagnostic_headers": {
+    "Date": "Thu, 22 Oct 2026 07:39:34 GMT",
+    "Trace-Id": "0728f0b61e9ed47bab72c3026bce4c8f"
+  }
+}

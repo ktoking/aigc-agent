@@ -1,0 +1,22 @@
+{
+  "cue_id": "c073",
+  "source_text": "拆开的放前面，备用的别乱动。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.5,
+  "trim_start_seconds": 0.12,
+  "trim_end_seconds": 2.39,
+  "untruncated_processed_seconds": 2.27,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.7003796057144624,
+  "measured_seconds": 2.3,
+  "frames": 69,
+  "samples": 110400,
+  "units": 12,
+  "cps_including_performance": 5.217391304347826,
+  "sha256": "a28bd077ccdabf0041e8902f25994e5c8403503d7deb677d8012bb4167bb41ff"
+}

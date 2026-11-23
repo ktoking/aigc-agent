@@ -1,0 +1,21 @@
+{
+  "cue_id": "c202",
+  "source_text": "整理园艺货架时，我翻到几包种子，兴冲冲拿去找许棠。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.69353125,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 2.595,
+  "atempo": 0.8781157100388749,
+  "untruncated_processed_seconds": 2.9069375,
+  "tail_quantization_seconds": 0.026395833333333334,
+  "gain": 1.4707495898847387,
+  "measured_seconds": 2.933333333333333,
+  "frames": 88,
+  "samples": 140800,
+  "units": 22,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "75a2b1107b5d36ea6f349a4739284eee03a1c233ecdc75100e39741444bb7d41"
+}

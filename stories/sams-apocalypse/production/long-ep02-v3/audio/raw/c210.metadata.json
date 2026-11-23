@@ -1,0 +1,77 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f42411ec2555a3853132d578b489",
+  "preset": "healing",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "(exhale)我开了一罐水果，给她多盛了一点。她低头看碗，问这算加班费吗。我说算房租。她终于笑了。外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b010",
+  "batch_text_begin": 24,
+  "batch_text_end": 38,
+  "source_cue_text": "她低头看碗，问这算加班费吗。",
+  "batch_audio_start_sample": 86855,
+  "batch_audio_end_sample": 156725,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c209",
+      "char_boundary": 24,
+      "previous_word_time_end": 2.7022222222222223,
+      "next_word_time_begin": 2.7022222222222223,
+      "selected_audio_time": 2.71421875
+    },
+    {
+      "after_cue": "c210",
+      "char_boundary": 38,
+      "previous_word_time_end": 4.906666666666667,
+      "next_word_time_begin": 4.906666666666667,
+      "selected_audio_time": 4.89765625
+    },
+    {
+      "after_cue": "c211",
+      "char_boundary": 44,
+      "previous_word_time_end": 6.151111111111112,
+      "next_word_time_begin": 6.151111111111112,
+      "selected_audio_time": 6.171125
+    },
+    {
+      "after_cue": "c212",
+      "char_boundary": 50,
+      "previous_word_time_end": 7.182222222222221,
+      "next_word_time_begin": 7.217777777777777,
+      "selected_audio_time": 7.184
+    }
+  ],
+  "sha256": "8cfbe55c1939785f0bc72d9c3cd2112a891167ca82b0877aa17b92f1c7216310",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

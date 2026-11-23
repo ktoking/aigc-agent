@@ -1,0 +1,21 @@
+{
+  "cue_id": "c260",
+  "source_text": "这不是时间表，更不是保证，可能只是我们听漏了前半句。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "reveal",
+  "api_speed": 1.85,
+  "raw_seconds": 2.60065625,
+  "trim_start_seconds": 0.09,
+  "trim_end_seconds": 2.54,
+  "atempo": 0.8036300021867483,
+  "untruncated_processed_seconds": 3.0317291666666666,
+  "tail_quantization_seconds": 0.0349375,
+  "gain": 1.661118393801638,
+  "measured_seconds": 3.066666666666667,
+  "frames": 92,
+  "samples": 147200,
+  "units": 23,
+  "cps_including_performance": 7.499999999999999,
+  "sha256": "114b50770918622d793f7b745b77d302d320235ffa1f58bd9f00cc74fdd3fd48"
+}

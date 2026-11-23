@@ -1,0 +1,22 @@
+{
+  "cue_id": "c062",
+  "source_text": "我选了靠内墙的一块货架区，离外窗远，能通往两条内侧通道。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.43503125,
+  "trim_start_seconds": 0.24,
+  "trim_end_seconds": 4.31,
+  "untruncated_processed_seconds": 4.07,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.5914026631786657,
+  "measured_seconds": 4.1,
+  "frames": 123,
+  "samples": 196800,
+  "units": 25,
+  "cps_including_performance": 6.097560975609756,
+  "sha256": "11aa91c3a3c1f51128758a4e08affbfd66caf0089e3218f1c8b9c5d142c79403"
+}

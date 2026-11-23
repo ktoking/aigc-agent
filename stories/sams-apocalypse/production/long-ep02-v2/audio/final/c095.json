@@ -1,0 +1,21 @@
+{
+  "cue_id": "c095",
+  "source_text": "对讲里，我把规则说得清清楚楚。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7066875,
+  "trim_start_seconds": 0.07,
+  "trim_end_seconds": 1.655,
+  "atempo": 0.9240186552662262,
+  "untruncated_processed_seconds": 1.7058541666666667,
+  "tail_quantization_seconds": 0.027479166666666666,
+  "gain": 1.6709868633406595,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "4d17217e37158ee96957de633255ac5146784a16479e300f322a85a15bb0b2d2"
+}

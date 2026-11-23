@@ -1,0 +1,21 @@
+{
+  "cue_id": "c029",
+  "source_text": "他们没去找车，反而沿着墙，摸向了我们的卸货门。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 2.60065625,
+  "trim_start_seconds": 0.065,
+  "trim_end_seconds": 2.55,
+  "atempo": 0.9382079033475962,
+  "untruncated_processed_seconds": 2.644791666666667,
+  "tail_quantization_seconds": 0.021875,
+  "gain": 1.6820785746895097,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "0061b57c6379365f31c3878e7f42a2528a6a48eb1606ed13c69bd4ec2ed66de5"
+}

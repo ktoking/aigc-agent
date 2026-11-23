@@ -1,0 +1,22 @@
+{
+  "cue_id": "c197",
+  "source_text": "刚接好，备用电量又掉了一格。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.46890625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.46890625,
+  "untruncated_processed_seconds": 2.468916666666667,
+  "tail_quantization_seconds": 0.031083333333333334,
+  "gain": 1.7458316617036362,
+  "measured_seconds": 2.5,
+  "frames": 75,
+  "samples": 120000,
+  "units": 12,
+  "cps_including_performance": 4.8,
+  "sha256": "bea81a8603860508155019085a06ee9a292263fb361df9d046f139cd0b7b9f68"
+}

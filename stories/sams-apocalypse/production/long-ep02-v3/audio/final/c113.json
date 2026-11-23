@@ -1,0 +1,22 @@
+{
+  "cue_id": "c113",
+  "source_text": "门外的人没进来，时间却一直在偷我们的库存。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.49275,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.175,
+  "untruncated_processed_seconds": 3.175,
+  "tail_quantization_seconds": 0.025,
+  "gain": 1.4748573062476924,
+  "measured_seconds": 3.2,
+  "frames": 96,
+  "samples": 153600,
+  "units": 19,
+  "cps_including_performance": 5.9375,
+  "sha256": "399ff68b899904a73ba502763a469e879bdfa77a740de4933f5dbde60977a62c"
+}

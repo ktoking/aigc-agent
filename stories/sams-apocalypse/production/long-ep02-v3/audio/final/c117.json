@@ -1,0 +1,22 @@
+{
+  "cue_id": "c117",
+  "source_text": "我开始给物资换个分法。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.523875,
+  "trim_start_seconds": 0.285,
+  "trim_end_seconds": 1.523875,
+  "untruncated_processed_seconds": 1.238875,
+  "tail_quantization_seconds": 0.027791666666666666,
+  "gain": 1.2929815111536742,
+  "measured_seconds": 1.2666666666666666,
+  "frames": 38,
+  "samples": 60800,
+  "units": 10,
+  "cps_including_performance": 7.894736842105264,
+  "sha256": "6dad239c3fff05774328221d7b44df59229d416349faad5e3c32e4964294d9ad"
+}

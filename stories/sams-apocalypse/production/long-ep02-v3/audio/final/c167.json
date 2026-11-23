@@ -1,0 +1,22 @@
+{
+  "cue_id": "c167",
+  "source_text": "她把电池盖打开给镜头看，里面已经没电了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.91365625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.91365625,
+  "untruncated_processed_seconds": 2.913666666666667,
+  "tail_quantization_seconds": 0.019666666666666666,
+  "gain": 1.8356398880852418,
+  "measured_seconds": 2.933333333333333,
+  "frames": 88,
+  "samples": 140800,
+  "units": 18,
+  "cps_including_performance": 6.136363636363637,
+  "sha256": "8685905d445bd29cc865634e6ad50f6b177e99397bf1ef26c4adca4b49c3e014"
+}

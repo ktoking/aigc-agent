@@ -1,0 +1,21 @@
+{
+  "cue_id": "c014",
+  "source_text": "一排排冷柜，都在等着喝油。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.54415625,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.46,
+  "atempo": 0.9836631385181778,
+  "untruncated_processed_seconds": 1.438375,
+  "tail_quantization_seconds": 0.028291666666666666,
+  "gain": 1.6270996399581215,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "d38e59f556b6d1fca5df351a1505f7368677d118e60dfd3571d454fb58e7561f"
+}

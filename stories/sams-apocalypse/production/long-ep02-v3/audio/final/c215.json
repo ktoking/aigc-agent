@@ -1,0 +1,22 @@
+{
+  "cue_id": "c215",
+  "source_text": "这次推着一只旧喇叭。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.623,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.623,
+  "untruncated_processed_seconds": 1.623,
+  "tail_quantization_seconds": 0.010333333333333333,
+  "gain": 1.2409054211226973,
+  "measured_seconds": 1.6333333333333333,
+  "frames": 49,
+  "samples": 78400,
+  "units": 9,
+  "cps_including_performance": 5.510204081632653,
+  "sha256": "a10b409044dedf88557e3b5311a6ab29b64f3b0c6bd26518283c165ca5954c58"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c121",
+  "source_text": "她把每次开机的时间、温度和油量并排记。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.96678125,
+  "trim_start_seconds": 0.535,
+  "trim_end_seconds": 2.96678125,
+  "untruncated_processed_seconds": 2.431791666666667,
+  "tail_quantization_seconds": 0.0015416666666666667,
+  "gain": 1.5322464893009269,
+  "measured_seconds": 2.433333333333333,
+  "frames": 73,
+  "samples": 116800,
+  "units": 17,
+  "cps_including_performance": 6.986301369863014,
+  "sha256": "7f301cd3f36879c16f50f1ae88caa42481ee566fa2d100cf3975243dc2c2241c"
+}

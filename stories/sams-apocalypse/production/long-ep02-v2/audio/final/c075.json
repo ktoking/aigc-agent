@@ -1,0 +1,21 @@
+{
+  "cue_id": "c075",
+  "source_text": "外面能看见的地方，我们尽量不亮灯。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.92728125,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.825,
+  "atempo": 0.893037336024218,
+  "untruncated_processed_seconds": 1.970875,
+  "tail_quantization_seconds": 0.029125,
+  "gain": 1.649848068144515,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "1ca057e5de0ba91fcd464cc31c1053191e030de02bcc225aaa63f8fa6d35e6d8"
+}

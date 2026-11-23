@@ -1,0 +1,191 @@
+[
+  {
+    "title": "开场悬疑",
+    "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/5cps-preview/01-opening-5cps.mp3",
+    "duration_seconds": 16.7,
+    "cps_target": 5,
+    "gap_seconds": 0.1,
+    "pitch_preserved": true,
+    "new_tts_requests": 0,
+    "full_decode": "PASS",
+    "peak": 0.8321167826652527,
+    "cues": [
+      {
+        "id": "c001",
+        "text": "门外那个人，居然对着摄像头笑了。",
+        "units": 14,
+        "start_seconds": 0.0,
+        "duration_seconds": 2.8,
+        "atempo_from_raw": 0.6092739036664271
+      },
+      {
+        "id": "c002",
+        "text": "我刚想叫许棠来看，他已经举起一块纸板。",
+        "units": 17,
+        "start_seconds": 2.9,
+        "duration_seconds": 3.4,
+        "atempo_from_raw": 0.6253696037847428
+      },
+      {
+        "id": "c003",
+        "text": "上面只有四个字：知道有人。",
+        "units": 11,
+        "start_seconds": 6.4,
+        "duration_seconds": 2.2,
+        "atempo_from_raw": 0.6943171402383133
+      },
+      {
+        "id": "c004",
+        "text": "发电机救了冷库，也把我们暴露了。",
+        "units": 14,
+        "start_seconds": 8.7,
+        "duration_seconds": 2.8,
+        "atempo_from_raw": 0.5948957584471604
+      },
+      {
+        "id": "c005",
+        "text": "我第一反应是关掉机器。",
+        "units": 10,
+        "start_seconds": 11.6,
+        "duration_seconds": 2.0,
+        "atempo_from_raw": 0.5852674066599394
+      },
+      {
+        "id": "c006",
+        "text": "许棠按住我的手，让我先看温度记录。",
+        "units": 15,
+        "start_seconds": 13.7,
+        "duration_seconds": 3.0,
+        "atempo_from_raw": 0.5382293762575452
+      }
+    ],
+    "probe_duration_seconds": 16.7,
+    "sha256": "28f5d557f678846c18b55225d2bb31b3164583641495e76e2a8d7aa6237b5fe2"
+  },
+  {
+    "title": "危险段落",
+    "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/5cps-preview/02-danger-5cps.mp3",
+    "duration_seconds": 17.9,
+    "cps_target": 5,
+    "gap_seconds": 0.1,
+    "pitch_preserved": true,
+    "new_tts_requests": 0,
+    "full_decode": "PASS",
+    "peak": 0.8282397389411926,
+    "cues": [
+      {
+        "id": "c136",
+        "text": "我把对讲接过去，叫他离门远一点。",
+        "units": 14,
+        "start_seconds": 0.0,
+        "duration_seconds": 2.8,
+        "atempo_from_raw": 0.5948957584471604
+      },
+      {
+        "id": "c137",
+        "text": "他反而笑了，说只是替我们检查隐患。",
+        "units": 15,
+        "start_seconds": 2.9,
+        "duration_seconds": 3.0,
+        "atempo_from_raw": 0.7780013413816229
+      },
+      {
+        "id": "c138",
+        "text": "周强站在远处不说话。",
+        "units": 9,
+        "start_seconds": 6.0,
+        "duration_seconds": 1.8,
+        "atempo_from_raw": 0.5695847362514028
+      },
+      {
+        "id": "c139",
+        "text": "我忽然想起，他们第一次拍门时，那只一直没放下的工具袋。",
+        "units": 24,
+        "start_seconds": 7.9,
+        "duration_seconds": 4.8,
+        "atempo_from_raw": 0.5970305311585111
+      },
+      {
+        "id": "c140",
+        "text": "许棠没有冲出去。",
+        "units": 7,
+        "start_seconds": 12.8,
+        "duration_seconds": 1.4,
+        "atempo_from_raw": 0.6837916063675832
+      },
+      {
+        "id": "c141",
+        "text": "她从内侧复核门栓，让我看住另外几个监控。",
+        "units": 18,
+        "start_seconds": 14.3,
+        "duration_seconds": 3.6,
+        "atempo_from_raw": 0.6016192071468452
+      }
+    ],
+    "probe_duration_seconds": 17.9,
+    "sha256": "1eb1f8eec2747d33a9489f412c84d489e5a81630b7dc972f3d4dd668b11ac9de"
+  },
+  {
+    "title": "温柔段落",
+    "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/5cps-preview/03-gentle-5cps.mp3",
+    "duration_seconds": 17.5,
+    "cps_target": 5,
+    "gap_seconds": 0.1,
+    "pitch_preserved": true,
+    "new_tts_requests": 0,
+    "full_decode": "PASS",
+    "peak": 0.8032281398773193,
+    "cues": [
+      {
+        "id": "c245",
+        "text": "许棠收好工具，坐在床边揉手。",
+        "units": 12,
+        "start_seconds": 0.0,
+        "duration_seconds": 2.4,
+        "atempo_from_raw": 0.743073047858942
+      },
+      {
+        "id": "c246",
+        "text": "我本来还想问明天能不能再腾一排货架。",
+        "units": 17,
+        "start_seconds": 2.5,
+        "duration_seconds": 3.4,
+        "atempo_from_raw": 0.5292726197516262
+      },
+      {
+        "id": "c247",
+        "text": "看见她手上的红印，又把话咽了回去。",
+        "units": 15,
+        "start_seconds": 6.0,
+        "duration_seconds": 3.0,
+        "atempo_from_raw": 0.6170355466130114
+      },
+      {
+        "id": "c248",
+        "text": "基地可以慢慢建，搭档可没有第二个备用的。",
+        "units": 18,
+        "start_seconds": 9.1,
+        "duration_seconds": 3.6,
+        "atempo_from_raw": 0.5402010050251256
+      },
+      {
+        "id": "c249",
+        "text": "我把热饭推过去，让她先吃。",
+        "units": 11,
+        "start_seconds": 12.8,
+        "duration_seconds": 2.2,
+        "atempo_from_raw": 0.6164069660861594
+      },
+      {
+        "id": "c250",
+        "text": "她抬头问，今天怎么不催进度。",
+        "units": 12,
+        "start_seconds": 15.1,
+        "duration_seconds": 2.4,
+        "atempo_from_raw": 0.6360201511335012
+      }
+    ],
+    "probe_duration_seconds": 17.5,
+    "sha256": "47c7d5d63437d0ff400e2b50aa464539611a9c5548a4cded70cdf37a3a38ed93"
+  }
+]

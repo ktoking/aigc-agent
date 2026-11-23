@@ -1,0 +1,63 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f57f2b9db1026879868d59337a63",
+  "preset": "healing",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "(exhale)我忽然想起，周强离开前，最后看了一眼的不是卸货门，是屋檐。难道我们昨天守住的，只是他们想让我们盯住的那扇门。我把灯抬起来，这一次，敲击声就在正上方。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b015",
+  "batch_text_begin": 37,
+  "batch_text_end": 62,
+  "source_cue_text": "难道我们昨天守住的，只是他们想让我们盯住的那扇门。",
+  "batch_audio_start_sample": 167943,
+  "batch_audio_end_sample": 286567,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c274",
+      "char_boundary": 37,
+      "previous_word_time_end": 5.262222222222222,
+      "next_word_time_begin": 5.262222222222222,
+      "selected_audio_time": 5.24821875
+    },
+    {
+      "after_cue": "c275",
+      "char_boundary": 62,
+      "previous_word_time_end": 8.924444444444445,
+      "next_word_time_begin": 8.96,
+      "selected_audio_time": 8.95521875
+    }
+  ],
+  "sha256": "1a4c17667d8e68295b94cf355f0989994a65f59809badf70ef75502a3a94fda7",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

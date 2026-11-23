@@ -1,0 +1,22 @@
+{
+  "cue_id": "c042",
+  "source_text": "他没有回答，反倒开始拍门。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.34521875,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 2.04,
+  "untruncated_processed_seconds": 1.76,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.0622014414008245,
+  "measured_seconds": 1.7666666666666666,
+  "frames": 53,
+  "samples": 84800,
+  "units": 11,
+  "cps_including_performance": 6.226415094339623,
+  "sha256": "126e237c569a56e72124c1a1fb4be0937d334b29a0e012004a7ea20ea11f82e6"
+}

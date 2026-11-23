@@ -1,0 +1,22 @@
+{
+  "cue_id": "c150",
+  "source_text": "我看着监控，心跳快得发疼，还是说完了那句话。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.476375,
+  "trim_start_seconds": 0.41,
+  "trim_end_seconds": 4.45,
+  "untruncated_processed_seconds": 4.04,
+  "tail_quantization_seconds": 0.02666666666666667,
+  "gain": 1.8803381831657857,
+  "measured_seconds": 4.066666666666666,
+  "frames": 122,
+  "samples": 195200,
+  "units": 19,
+  "cps_including_performance": 4.672131147540984,
+  "sha256": "70cb4734e2d1a410e71ec4f246c4e8332c4683adfa8da4299ddf3f246c2d6a22"
+}

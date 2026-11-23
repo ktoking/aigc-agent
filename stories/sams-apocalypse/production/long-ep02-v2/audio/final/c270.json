@@ -1,0 +1,21 @@
+{
+  "cue_id": "c270",
+  "source_text": "一下，停住，再一下。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.54415625,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.51,
+  "atempo": 1.616897305171158,
+  "untruncated_processed_seconds": 0.9272916666666666,
+  "tail_quantization_seconds": 0.0060416666666666665,
+  "gain": 2.0,
+  "measured_seconds": 0.9333333333333333,
+  "frames": 28,
+  "samples": 44800,
+  "units": 7,
+  "cps_including_performance": 7.5,
+  "sha256": "8378cc93f3b4709e513b3865272e61d062992423aa3da69334cadc1c01a2daaa"
+}

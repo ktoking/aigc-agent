@@ -1,0 +1,22 @@
+{
+  "cue_id": "c064",
+  "source_text": "现在它得装下我们的床、饮水，还有半夜惊醒之后能伸手摸到的东西。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.96909375,
+  "trim_start_seconds": 0.275,
+  "trim_end_seconds": 4.69,
+  "untruncated_processed_seconds": 4.415,
+  "tail_quantization_seconds": 0.018333333333333333,
+  "gain": 1.5995419860064521,
+  "measured_seconds": 4.433333333333334,
+  "frames": 133,
+  "samples": 212800,
+  "units": 28,
+  "cps_including_performance": 6.315789473684211,
+  "sha256": "f4c8f1da7b6ad0fdc7f776c7fd4f79fa27c0003eefb472ec026dcc9531dd5b05"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c001",
+  "source_text": "门外那个人，居然对着摄像头笑了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7879375,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 1.715,
+  "atempo": 0.9168770284890011,
+  "untruncated_processed_seconds": 1.8396666666666666,
+  "tail_quantization_seconds": 0.027,
+  "gain": 1.4714259406436698,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "3b87f33a9bf0bdb498200c85f7b7c0cde483a8e92cf19d0e9a0fd181556e643b"
+}

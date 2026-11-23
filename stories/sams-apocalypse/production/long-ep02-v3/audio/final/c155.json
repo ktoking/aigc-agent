@@ -1,0 +1,22 @@
+{
+  "cue_id": "c155",
+  "source_text": "刚才还站在一起喊公平的人，转眼谁都顾不上谁。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.0231875,
+  "trim_start_seconds": 0.35,
+  "trim_end_seconds": 3.88,
+  "untruncated_processed_seconds": 3.53,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 1.8705437745738671,
+  "measured_seconds": 3.533333333333333,
+  "frames": 106,
+  "samples": 169600,
+  "units": 20,
+  "cps_including_performance": 5.660377358490567,
+  "sha256": "655cb033657b5eb0ff44d9dd977fbe49eb5d4c00a650fb47bf20536179be5631"
+}

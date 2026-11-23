@@ -1,0 +1,22 @@
+{
+  "cue_id": "c176",
+  "source_text": "那台旧机器比我巴掌大一点，却可能装着我们最缺的东西，外面的消息。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.501875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.501875,
+  "untruncated_processed_seconds": 4.501875,
+  "tail_quantization_seconds": 0.03145833333333333,
+  "gain": 1.8055045193955297,
+  "measured_seconds": 4.533333333333333,
+  "frames": 136,
+  "samples": 217600,
+  "units": 29,
+  "cps_including_performance": 6.397058823529412,
+  "sha256": "bb0b6ff4b0e18478b6acdd514cad14a4d3acb21e95c46068e3dfaf8923784912"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "p071",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c1e206b0-345b-4149-8b5d-dc735db0d31a.png",
+  "file": "assets/p071.png",
+  "sha256": "1ee0bb16b353b67555ab02bd888b979ef34f985101fe2b1c2cc454ce20f9ced6",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: photorealistic-natural / identity-preserve. 为山姆核灾后第一人称叙事视频新绘一张单幅横向16:9真人电影静帧，不是拼图、分镜表或旧图裁切。主体清楚、真实中国成人比例、自然皮肤、克制电影光、中等细节。室内物资有序且干燥，墙地哑光，不加泥污、积水、湿反光或满屏微纹理。只有台词需要的受损前场才有局部碎玻璃与掉落灯架；核后室外必须是昏黄天空、干燥尘土污染，不画雨景。没有字幕、标题、水印、边框、科幻界面或魔法绿辐射。底部正常画面留给后期字幕。\n时序与空间：核爆后，地下与封闭后仓仍完整，光线来自应急照明。按本事件地点选择：室外是黄色尘土污染，室内保持有序干燥。 人物看向任务对象，不看镜头，不摆拍。\n室内实体人物只出现男女主两人：男主同一青绿帽黄帽衫深蓝马甲男子；许棠同一低马尾橘色维修夹克女子。参考只取脸、发型与衣服，不继承灰色背景。\n本镜唯一可见事件：男主与许棠在后仓桌边清点金手镯、项链、戒指，照小标签把重量记在本子上，票据放一起，无试戴首饰；中景。\n空间边界约束：若事件在后仓、冷库、地下室、机房、厨房等内部，外门必须关好，不要画敞开门洞直通黄色室外，不要给地下室增添窗户。只有事件明确指定室外装卸和外围交接时才画室外。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+    ]
+  }
+}

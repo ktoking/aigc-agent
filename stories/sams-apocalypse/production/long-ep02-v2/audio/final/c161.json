@@ -1,0 +1,21 @@
+{
+  "cue_id": "c161",
+  "source_text": "能从内部加固的处理，不能确认的单独标出来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.06659375,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 2.005,
+  "atempo": 0.7812085873310363,
+  "untruncated_processed_seconds": 2.4902291666666665,
+  "tail_quantization_seconds": 0.043104166666666666,
+  "gain": 1.2909543842710862,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "f0a3b45d1db5e51ab57433d4cb90a51a9ef584a4b837e3eb4a7fc8ab092b4c4b"
+}

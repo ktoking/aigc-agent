@@ -1,0 +1,21 @@
+{
+  "cue_id": "c055",
+  "source_text": "她叫林岚，带着父亲。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.10296875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.065,
+  "atempo": 0.9583598219961855,
+  "untruncated_processed_seconds": 1.0396666666666667,
+  "tail_quantization_seconds": 0.027,
+  "gain": 1.7382970197576508,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "624e337a68100230ee4ed2ba90716efe57506236e85fdc84900ed8ca552dc58c"
+}

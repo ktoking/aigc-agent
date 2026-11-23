@@ -1,0 +1,21 @@
+{
+  "cue_id": "c273",
+  "source_text": "我们刚修好的家，头顶竟像有人在慢慢走。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.39165625,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 2.335,
+  "atempo": 1.0228283427216127,
+  "untruncated_processed_seconds": 2.2452916666666667,
+  "tail_quantization_seconds": 0.021375,
+  "gain": 1.7545370802546874,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "17208931e90cfda53c946fb7277cbb4316ce1fccd8535a3e9283dbb3a475e66a"
+}

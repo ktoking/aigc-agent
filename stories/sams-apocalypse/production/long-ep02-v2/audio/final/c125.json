@@ -1,0 +1,21 @@
+{
+  "cue_id": "c125",
+  "source_text": "饮用水不拿去冲地，脏物和吃的分开。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.043375,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 2.015,
+  "atempo": 0.996468213925328,
+  "untruncated_processed_seconds": 1.9791666666666667,
+  "tail_quantization_seconds": 0.020833333333333332,
+  "gain": 1.6203003926571418,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "d9e1444ca3290c4592590f19b4d8220a90b73f913a468b648f6ed97b1088237f"
+}

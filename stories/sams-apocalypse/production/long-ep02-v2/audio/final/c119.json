@@ -1,0 +1,21 @@
+{
+  "cue_id": "c119",
+  "source_text": "一整座山姆，终于从我眼里的宝箱，变成了一道每天都要做的选择题。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.27403125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 3.22,
+  "atempo": 0.8599497577606315,
+  "untruncated_processed_seconds": 3.701125,
+  "tail_quantization_seconds": 0.03220833333333333,
+  "gain": 1.7793506151338558,
+  "measured_seconds": 3.7333333333333334,
+  "frames": 112,
+  "samples": 179200,
+  "units": 28,
+  "cps_including_performance": 7.5,
+  "sha256": "39236e39b42fe99959e78090a20832923b2a435ff796dc0772a81bd91bf0352e"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c257",
+  "source_text": "快天亮时，收音机突然清楚了一点。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "reveal",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7879375,
+  "trim_start_seconds": 0.095,
+  "trim_end_seconds": 1.715,
+  "atempo": 0.876307248467364,
+  "untruncated_processed_seconds": 1.8356666666666666,
+  "tail_quantization_seconds": 0.031,
+  "gain": 1.390031681210342,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "d2143c351fab0a54fce228b03fad23a3e4b818699d1f0942f3b385623fc7b7c1"
+}

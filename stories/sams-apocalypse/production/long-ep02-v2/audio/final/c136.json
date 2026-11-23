@@ -1,0 +1,21 @@
+{
+  "cue_id": "c136",
+  "source_text": "我把对讲接过去，叫他离门远一点。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7415,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.685,
+  "atempo": 0.8952398124774612,
+  "untruncated_processed_seconds": 1.8401875,
+  "tail_quantization_seconds": 0.026479166666666668,
+  "gain": 1.4446472518531674,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "238898eb7896deee3cee657ed53b4ac2e1bd22411a296708dcb070a1d38b0686"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c202",
+  "source_text": "整理园艺货架时，我翻到几包种子，兴冲冲拿去找许棠。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.12153125,
+  "trim_start_seconds": 0.525,
+  "trim_end_seconds": 4.095,
+  "untruncated_processed_seconds": 3.57,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.563720990239716,
+  "measured_seconds": 3.6,
+  "frames": 108,
+  "samples": 172800,
+  "units": 22,
+  "cps_including_performance": 6.111111111111111,
+  "sha256": "d2c2e3764c955b3add34460697c038d3dfbb48ca3d4f93f2568b3d16509d0259"
+}

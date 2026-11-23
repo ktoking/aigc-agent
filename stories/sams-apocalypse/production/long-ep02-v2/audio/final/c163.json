@@ -1,0 +1,21 @@
+{
+  "cue_id": "c163",
+  "source_text": "说了不，还得有本事把这个不守住。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9040625,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.85,
+  "atempo": 0.9763793725207356,
+  "untruncated_processed_seconds": 1.8446875,
+  "tail_quantization_seconds": 0.021979166666666668,
+  "gain": 1.0826548771452187,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "5efbdc9eddfb870696088087a58992fdfdafc38cfa112e3fe343083bf557a8ca"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c061",
+  "source_text": "我们睡在监控室旁边，一旦卸货通道出事，连退路都没有。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.13471875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 3.065,
+  "atempo": 0.985676798600481,
+  "untruncated_processed_seconds": 3.0387916666666666,
+  "tail_quantization_seconds": 0.027875,
+  "gain": 1.8158909504197938,
+  "measured_seconds": 3.066666666666667,
+  "frames": 92,
+  "samples": 147200,
+  "units": 23,
+  "cps_including_performance": 7.499999999999999,
+  "sha256": "8beb22f5da725f18d98c86c8fe707f4e0ee82c14e0a7776d987c7aad94551e47"
+}

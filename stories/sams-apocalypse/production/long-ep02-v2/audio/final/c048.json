@@ -1,0 +1,21 @@
+{
+  "cue_id": "c048",
+  "source_text": "周强立刻换了语气。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.05653125,
+  "trim_start_seconds": 0.085,
+  "trim_end_seconds": 0.975,
+  "atempo": 0.848696757787667,
+  "untruncated_processed_seconds": 1.0354166666666667,
+  "tail_quantization_seconds": 0.03125,
+  "gain": 1.2120994841676456,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "472bc365b33deb458e4131e4238c4bceb000c1e90af4182361a6b9e2e1912b48"
+}

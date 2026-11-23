@@ -1,0 +1,21 @@
+{
+  "cue_id": "c191",
+  "source_text": "今天就把内侧能看到的部分查清楚。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.68346875,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.62,
+  "atempo": 0.7946518668012109,
+  "untruncated_processed_seconds": 1.966125,
+  "tail_quantization_seconds": 0.033875,
+  "gain": 1.450142198431815,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "7a6935c15d26411e559edd4d2e8eeef0d6e28f55a91ab20e36ea37e7f5bb2ab1"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c195",
+  "source_text": "我们按原有结构处理松动处，没有堵死通风，也没乱拆电线。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.73634375,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 3.73634375,
+  "untruncated_processed_seconds": 3.456354166666667,
+  "tail_quantization_seconds": 0.0103125,
+  "gain": 1.4502560059271912,
+  "measured_seconds": 3.466666666666667,
+  "frames": 104,
+  "samples": 166400,
+  "units": 24,
+  "cps_including_performance": 6.9230769230769225,
+  "sha256": "9a1967d4b2fd2c0014e3313bc5781bf59bffda8866beee44b82ed86b31da7e11"
+}

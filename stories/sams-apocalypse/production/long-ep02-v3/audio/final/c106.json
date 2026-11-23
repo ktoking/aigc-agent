@@ -1,0 +1,22 @@
+{
+  "cue_id": "c106",
+  "source_text": "他把两份丢到地上，骂我挑拨。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.5675625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.5675625,
+  "untruncated_processed_seconds": 2.5675625,
+  "tail_quantization_seconds": 0.0324375,
+  "gain": 1.8634199828282274,
+  "measured_seconds": 2.6,
+  "frames": 78,
+  "samples": 124800,
+  "units": 12,
+  "cps_including_performance": 4.615384615384615,
+  "sha256": "8cad8a32eacf5a53e397336515ae07bc6a4ac95e03606eac0c410b282e4faf42"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c009",
+  "source_text": "她没有拿棉被去捂发电机。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.42803125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.355,
+  "atempo": 0.9180855959502993,
+  "untruncated_processed_seconds": 1.4390625,
+  "tail_quantization_seconds": 0.027604166666666666,
+  "gain": 1.4112733728918783,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "795897a2f0391e81acd3558c8aa9b837ddf30d60557b7cd5bd0b9cf086540fd5"
+}

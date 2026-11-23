@@ -1,0 +1,22 @@
+{
+  "cue_id": "c087",
+  "source_text": "我们做了空盒测试，确认一边关严，另一边才打开。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.692,
+  "trim_start_seconds": 0.25,
+  "trim_end_seconds": 3.37,
+  "untruncated_processed_seconds": 3.12,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.4338715547180445,
+  "measured_seconds": 3.1333333333333333,
+  "frames": 94,
+  "samples": 150400,
+  "units": 20,
+  "cps_including_performance": 6.382978723404255,
+  "sha256": "e1ae8ef95f2fd3ac5e2fb3e778ee32975ad53ba899398d6b6ef2c375b007e88c"
+}

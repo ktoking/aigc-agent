@@ -1,0 +1,21 @@
+{
+  "cue_id": "c196",
+  "source_text": "然后补了一个能看见这段走廊的旧摄像头。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.06659375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.935,
+  "atempo": 0.7997481108312342,
+  "untruncated_processed_seconds": 2.3634166666666667,
+  "tail_quantization_seconds": 0.036583333333333336,
+  "gain": 1.6301329778342577,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "1a6931a2365e8797742056e532f19c238ee1887d72bf34724c54e97e311f1b4b"
+}

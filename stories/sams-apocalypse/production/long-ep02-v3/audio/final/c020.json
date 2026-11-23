@@ -1,0 +1,22 @@
+{
+  "cue_id": "c020",
+  "source_text": "闻着没坏，不等于还能吃。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.91565625,
+  "trim_start_seconds": 0.2,
+  "trim_end_seconds": 1.77,
+  "untruncated_processed_seconds": 1.57,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.6271227912833774,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 10,
+  "cps_including_performance": 6.25,
+  "sha256": "d7e43a57d86e75a5c0d818f4e838abded328152136e1fd6ae41b8996e5e66503"
+}

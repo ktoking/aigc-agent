@@ -1,0 +1,22 @@
+{
+  "cue_id": "c276",
+  "source_text": "我把灯抬起来，这一次，敲击声就在正上方。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.94478125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.82,
+  "untruncated_processed_seconds": 3.82,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.5256607655243355,
+  "measured_seconds": 3.8333333333333335,
+  "frames": 115,
+  "samples": 184000,
+  "units": 17,
+  "cps_including_performance": 4.434782608695652,
+  "sha256": "376604e762a387c37d9ff2b5b28d95ef81cad5c880b5de2d7065ba881bc9461d"
+}

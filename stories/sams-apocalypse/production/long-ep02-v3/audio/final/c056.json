@@ -1,0 +1,22 @@
+{
+  "cue_id": "c056",
+  "source_text": "她没催我开门，只问能不能给两瓶水。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.519375,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 2.49,
+  "untruncated_processed_seconds": 2.445,
+  "tail_quantization_seconds": 0.021666666666666667,
+  "gain": 1.6610650516335534,
+  "measured_seconds": 2.466666666666667,
+  "frames": 74,
+  "samples": 118400,
+  "units": 15,
+  "cps_including_performance": 6.081081081081081,
+  "sha256": "e55588f4d15e02e3315deaa0566d92d5dc3773eab596cd33d7d83313732c5809"
+}

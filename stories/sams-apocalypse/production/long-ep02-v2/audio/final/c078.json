@@ -1,0 +1,21 @@
+{
+  "cue_id": "c078",
+  "source_text": "只是物业和邻居，都不太正常。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.66025,
+  "trim_start_seconds": 0.095,
+  "trim_end_seconds": 1.595,
+  "atempo": 0.9481668773704172,
+  "untruncated_processed_seconds": 1.5741041666666666,
+  "tail_quantization_seconds": 0.025895833333333333,
+  "gain": 1.6015353013450417,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "e2c13284fdcbeb04bf3671610af489c5181bdeee71b81954aa088ab6232b830c"
+}

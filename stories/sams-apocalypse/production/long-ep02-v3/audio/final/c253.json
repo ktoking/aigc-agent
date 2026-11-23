@@ -1,0 +1,22 @@
+{
+  "cue_id": "c253",
+  "source_text": "吃完，我接了后半夜的班。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.10534375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.10534375,
+  "untruncated_processed_seconds": 2.105354166666667,
+  "tail_quantization_seconds": 0.027979166666666666,
+  "gain": 1.7509402779451382,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 10,
+  "cps_including_performance": 4.6875,
+  "sha256": "9e974fe1ad07e50561318c5a84e53180ecd6c2c37ef90a68f3e581e6eb933d98"
+}

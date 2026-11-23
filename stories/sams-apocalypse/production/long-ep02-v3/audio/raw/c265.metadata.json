@@ -1,0 +1,133 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f539bf366f028b46f6639d876a84",
+  "preset": "fear",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "(inhale)我把听到的片段记下来，准备等她醒了再核对。刚放下笔，右上角那块监控黑了。不是全店停电，另外几个画面还亮着。我慢慢抬头，那是新补上的走廊镜头。我叫醒许棠，两个人停在走廊口。地上多了一颗螺丝，检修盖还关着。也许是我们白天漏收的，也许不是。我不敢弯腰去捡，先让她照住了头顶。上面传来很轻的一声响。一下，停住，再一下。不是卷帘门那种撞击声。许棠抓住我的袖口，示意我退回拐角。我们刚修好的家，头顶竟像有人在慢慢走。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "fearful",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b014",
+  "batch_text_begin": 78,
+  "batch_text_end": 93,
+  "source_cue_text": "我叫醒许棠，两个人停在走廊口。",
+  "batch_audio_start_sample": 424142,
+  "batch_audio_end_sample": 512060,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c261",
+      "char_boundary": 29,
+      "previous_word_time_end": 3.342222222222222,
+      "next_word_time_begin": 3.342222222222222,
+      "selected_audio_time": 3.35321875
+    },
+    {
+      "after_cue": "c262",
+      "char_boundary": 44,
+      "previous_word_time_end": 6.542222222222222,
+      "next_word_time_begin": 6.542222222222222,
+      "selected_audio_time": 6.56221875
+    },
+    {
+      "after_cue": "c263",
+      "char_boundary": 61,
+      "previous_word_time_end": 9.777777777777777,
+      "next_word_time_begin": 9.813333333333333,
+      "selected_audio_time": 9.7995625
+    },
+    {
+      "after_cue": "c264",
+      "char_boundary": 78,
+      "previous_word_time_end": 13.013333333333332,
+      "next_word_time_begin": 13.535555555555554,
+      "selected_audio_time": 13.2544375
+    },
+    {
+      "after_cue": "c265",
+      "char_boundary": 93,
+      "previous_word_time_end": 15.988888888888889,
+      "next_word_time_begin": 15.988888888888889,
+      "selected_audio_time": 16.001875
+    },
+    {
+      "after_cue": "c266",
+      "char_boundary": 109,
+      "previous_word_time_end": 18.797777777777778,
+      "next_word_time_begin": 18.797777777777778,
+      "selected_audio_time": 18.78978125
+    },
+    {
+      "after_cue": "c267",
+      "char_boundary": 125,
+      "previous_word_time_end": 21.677777777777777,
+      "next_word_time_begin": 21.677777777777777,
+      "selected_audio_time": 21.65878125
+    },
+    {
+      "after_cue": "c268",
+      "char_boundary": 142,
+      "previous_word_time_end": 24.80666666666667,
+      "next_word_time_begin": 25.222312925170066,
+      "selected_audio_time": 25.0025
+    },
+    {
+      "after_cue": "c269",
+      "char_boundary": 153,
+      "previous_word_time_end": 26.680090702947847,
+      "next_word_time_begin": 26.680090702947847,
+      "selected_audio_time": 26.66009375
+    },
+    {
+      "after_cue": "c270",
+      "char_boundary": 163,
+      "previous_word_time_end": 29.702312925170066,
+      "next_word_time_begin": 29.947573696145124,
+      "selected_audio_time": 29.8359375
+    },
+    {
+      "after_cue": "c271",
+      "char_boundary": 174,
+      "previous_word_time_end": 31.61868480725624,
+      "next_word_time_begin": 31.61868480725624,
+      "selected_audio_time": 31.6386875
+    },
+    {
+      "after_cue": "c272",
+      "char_boundary": 191,
+      "previous_word_time_end": 34.71201814058957,
+      "next_word_time_begin": 34.71201814058957,
+      "selected_audio_time": 34.73203125
+    }
+  ],
+  "sha256": "955b612da6d7e93ae26686c4f20a767abf4d51ce3524c113c3b18c47f459055e",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

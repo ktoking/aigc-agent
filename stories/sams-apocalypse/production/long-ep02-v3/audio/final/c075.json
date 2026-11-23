@@ -1,0 +1,22 @@
+{
+  "cue_id": "c075",
+  "source_text": "外面能看见的地方，我们尽量不亮灯。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.69353125,
+  "trim_start_seconds": 0.23,
+  "trim_end_seconds": 2.495,
+  "untruncated_processed_seconds": 2.265,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.47752048979204,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 15,
+  "cps_including_performance": 6.61764705882353,
+  "sha256": "ee414b761e5c8d3f42cca8d6be4b9e4eee5f5f6c38b8a185837221d4fa26dd6a"
+}

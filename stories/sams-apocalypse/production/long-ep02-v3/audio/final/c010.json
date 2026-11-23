@@ -1,0 +1,22 @@
+{
+  "cue_id": "c010",
+  "source_text": "那东西要散热，还要排废气。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.12465625,
+  "trim_start_seconds": 0.22,
+  "trim_end_seconds": 1.9,
+  "untruncated_processed_seconds": 1.68,
+  "tail_quantization_seconds": 0.02,
+  "gain": 1.6362896690727176,
+  "measured_seconds": 1.7,
+  "frames": 51,
+  "samples": 81600,
+  "units": 11,
+  "cps_including_performance": 6.470588235294118,
+  "sha256": "6e164b0ef134f62fadf86f182c77528203c37eff8366e5ed347a896cd220e68e"
+}

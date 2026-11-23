@@ -1,0 +1,21 @@
+{
+  "cue_id": "c236",
+  "source_text": "他一个人站了几秒，终于也退到车后。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7879375,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.72,
+  "atempo": 0.8400605449041373,
+  "untruncated_processed_seconds": 1.9685,
+  "tail_quantization_seconds": 0.0315,
+  "gain": 1.410459713292709,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "372022d5a5057f40e32d3d407f46f78c999000660c0573203c84c2052dfea3de"
+}

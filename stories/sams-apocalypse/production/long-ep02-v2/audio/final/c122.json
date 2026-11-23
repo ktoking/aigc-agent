@@ -1,0 +1,21 @@
+{
+  "cue_id": "c122",
+  "source_text": "我负责盯监控。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 0.9404375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 0.865,
+  "atempo": 1.074168797953964,
+  "untruncated_processed_seconds": 0.7817916666666667,
+  "tail_quantization_seconds": 0.018208333333333333,
+  "gain": 1.7607789323264704,
+  "measured_seconds": 0.8,
+  "frames": 24,
+  "samples": 38400,
+  "units": 6,
+  "cps_including_performance": 7.5,
+  "sha256": "b0e0807b614697d6b6ac8cb49fecda3ed25d8ab2f47efabf902d5ac4a507810c"
+}

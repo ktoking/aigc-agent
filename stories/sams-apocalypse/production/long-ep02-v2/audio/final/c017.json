@@ -1,0 +1,21 @@
+{
+  "cue_id": "c017",
+  "source_text": "我们只保留一间小冷库。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.14940625,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.095,
+  "atempo": 0.8134820070957933,
+  "untruncated_processed_seconds": 1.3002916666666666,
+  "tail_quantization_seconds": 0.033041666666666664,
+  "gain": 1.5658107372872048,
+  "measured_seconds": 1.3333333333333333,
+  "frames": 40,
+  "samples": 64000,
+  "units": 10,
+  "cps_including_performance": 7.5,
+  "sha256": "f44fcba086df6001d1a5f112aeaa90961c72e69c4aa74bce681ad06283cb477b"
+}

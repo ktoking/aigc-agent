@@ -1,0 +1,22 @@
+{
+  "cue_id": "c065",
+  "source_text": "重箱放低处，轻物上架，主通道留出来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.19275,
+  "trim_start_seconds": 0.235,
+  "trim_end_seconds": 2.86,
+  "untruncated_processed_seconds": 2.625,
+  "tail_quantization_seconds": 0.008333333333333333,
+  "gain": 1.676293442100316,
+  "measured_seconds": 2.6333333333333333,
+  "frames": 79,
+  "samples": 126400,
+  "units": 15,
+  "cps_including_performance": 5.69620253164557,
+  "sha256": "9a79ea30ada919674f23cd0c0007abfd879bcc36f39b984718782e725750e654"
+}

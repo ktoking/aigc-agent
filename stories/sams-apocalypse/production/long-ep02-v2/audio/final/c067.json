@@ -1,0 +1,21 @@
+{
+  "cue_id": "c067",
+  "source_text": "我把刚推过去的架子，又老老实实拉了回来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9969375,
+  "trim_start_seconds": 0.075,
+  "trim_end_seconds": 1.935,
+  "atempo": 0.7808564231738035,
+  "untruncated_processed_seconds": 2.3623541666666665,
+  "tail_quantization_seconds": 0.03764583333333334,
+  "gain": 1.4800281967967408,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "2f80f08eaa5de4705b5f68edbf4f1d6d6f7e8d9c0e1f84e72ea3c59b9e9fa9aa"
+}

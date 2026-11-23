@@ -1,0 +1,21 @@
+{
+  "cue_id": "c216",
+  "source_text": "他说今晚不开门，就让整条街都知道我们有吃的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.41490625,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 2.345,
+  "atempo": 0.8645859551975836,
+  "untruncated_processed_seconds": 2.636604166666667,
+  "tail_quantization_seconds": 0.0300625,
+  "gain": 1.39659876457478,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "4648f1e7e3b3044109d61d564577d02b02669c5733e4dae7f96ad595800b8397"
+}

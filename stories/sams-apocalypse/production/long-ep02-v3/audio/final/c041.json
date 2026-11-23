@@ -1,0 +1,22 @@
+{
+  "cue_id": "c041",
+  "source_text": "六个人里，有没有人被咬伤，或者发热。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.9,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 2.61,
+  "untruncated_processed_seconds": 2.33,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 0.8567850245507815,
+  "measured_seconds": 2.3333333333333335,
+  "frames": 70,
+  "samples": 112000,
+  "units": 15,
+  "cps_including_performance": 6.428571428571428,
+  "sha256": "3f8475c576dfad150ccd05df24093d7ba38313dca08abd03c94067607d2ccd3d"
+}

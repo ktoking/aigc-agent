@@ -1,0 +1,21 @@
+{
+  "cue_id": "c110",
+  "source_text": "我还盯着监控，冷库的提醒又响了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.68346875,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.585,
+  "atempo": 0.8330328164442842,
+  "untruncated_processed_seconds": 1.8324791666666667,
+  "tail_quantization_seconds": 0.0341875,
+  "gain": 1.3210944208565476,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "8975ae9e265f928d9e02dcbf1a9148f03476f154a867bf491bce3b4ba9518181"
+}

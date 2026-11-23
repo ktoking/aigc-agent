@@ -1,0 +1,21 @@
+{
+  "cue_id": "c239",
+  "source_text": "我们没有出去赶人，也没把食物摆在外面当诱饵。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.29878125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.25,
+  "atempo": 0.8400453058142462,
+  "untruncated_processed_seconds": 2.63325,
+  "tail_quantization_seconds": 0.033416666666666664,
+  "gain": 1.779730606513604,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "3d2b2b39cc9a96283176098aeeca65693e2a2868afa4a184d1ad5e0c41c76647"
+}

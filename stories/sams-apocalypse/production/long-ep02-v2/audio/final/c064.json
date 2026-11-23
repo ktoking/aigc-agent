@@ -1,0 +1,21 @@
+{
+  "cue_id": "c064",
+  "source_text": "现在它得装下我们的床、饮水，还有半夜惊醒之后能伸手摸到的东西。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.36690625,
+  "trim_start_seconds": 0.065,
+  "trim_end_seconds": 3.29,
+  "atempo": 0.8680244033734075,
+  "untruncated_processed_seconds": 3.7038541666666664,
+  "tail_quantization_seconds": 0.029479166666666667,
+  "gain": 1.5254338277487605,
+  "measured_seconds": 3.7333333333333334,
+  "frames": 112,
+  "samples": 179200,
+  "units": 28,
+  "cps_including_performance": 7.5,
+  "sha256": "58c5704a93b027c0f381d316b4056298c37ab33af1f85b317a9e67a86e4b9a1a"
+}

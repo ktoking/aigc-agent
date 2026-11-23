@@ -1,0 +1,21 @@
+{
+  "cue_id": "c252",
+  "source_text": "她笑着踢了踢桌脚，叫我把自己那碗也端来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.043375,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.935,
+  "atempo": 0.7892527287993282,
+  "untruncated_processed_seconds": 2.358416666666667,
+  "tail_quantization_seconds": 0.04158333333333333,
+  "gain": 1.6321579772465065,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "dd989706fa7d95c1c4624874bd477966ceef491367a297b0daacebfeada410f5"
+}

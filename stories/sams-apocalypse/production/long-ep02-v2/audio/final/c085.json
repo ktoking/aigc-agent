@@ -1,0 +1,21 @@
+{
+  "cue_id": "c085",
+  "source_text": "以前我天天路过，连正眼都没看过。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7066875,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.65,
+  "atempo": 0.8736025964659214,
+  "untruncated_processed_seconds": 1.8369791666666666,
+  "tail_quantization_seconds": 0.0296875,
+  "gain": 1.6120847220750703,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "e2b3422576e988bcbca499f8d7361cef016606b4f75fc2fafe230e68cc47737d"
+}

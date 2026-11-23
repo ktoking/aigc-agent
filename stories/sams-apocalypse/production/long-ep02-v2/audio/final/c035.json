@@ -1,0 +1,21 @@
+{
+  "cue_id": "c035",
+  "source_text": "他朝摄像头喊，吃的又不是你的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.66025,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.605,
+  "atempo": 0.9006995724834822,
+  "untruncated_processed_seconds": 1.7058125,
+  "tail_quantization_seconds": 0.027520833333333335,
+  "gain": 1.3409797145370388,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "bcf4c1908e637da70e86afa39b502b50113c7c7b838577b2b3f1026505be13d8"
+}

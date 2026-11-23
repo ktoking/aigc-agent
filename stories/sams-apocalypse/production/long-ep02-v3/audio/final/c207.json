@@ -1,0 +1,22 @@
+{
+  "cue_id": "c207",
+  "source_text": "温度、门、油、水，少一项都不行。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.80990625,
+  "trim_start_seconds": 0.34,
+  "trim_end_seconds": 3.795,
+  "untruncated_processed_seconds": 3.455,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.5243870515688553,
+  "measured_seconds": 3.466666666666667,
+  "frames": 104,
+  "samples": 166400,
+  "units": 11,
+  "cps_including_performance": 3.173076923076923,
+  "sha256": "8c971b7f252b4c3db89abc51fe9e55b6836d5ff40b4055b1060eb62f41f7474e"
+}

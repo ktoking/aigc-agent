@@ -1,0 +1,22 @@
+{
+  "cue_id": "c131",
+  "source_text": "许棠说，建设有时候，就是让自己少犯一次蠢。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.67559375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.365,
+  "untruncated_processed_seconds": 3.365,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.6138291484558984,
+  "measured_seconds": 3.3666666666666667,
+  "frames": 101,
+  "samples": 161600,
+  "units": 18,
+  "cps_including_performance": 5.346534653465347,
+  "sha256": "8208d8fb889b00f1fa52bb36d4db804d01b0a2e4123a2160f8f742d91f414d67"
+}

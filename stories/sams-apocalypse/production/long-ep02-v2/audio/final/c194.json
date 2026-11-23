@@ -1,0 +1,21 @@
+{
+  "cue_id": "c194",
+  "source_text": "我盯着那条细缝，忽然觉得门外所有吵闹，都可能只是让我们一直盯着门。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 3.70359375,
+  "trim_start_seconds": 0.085,
+  "trim_end_seconds": 3.625,
+  "atempo": 0.8890005022601707,
+  "untruncated_processed_seconds": 3.974625,
+  "tail_quantization_seconds": 0.025375,
+  "gain": 1.430380728970409,
+  "measured_seconds": 4.0,
+  "frames": 120,
+  "samples": 192000,
+  "units": 30,
+  "cps_including_performance": 7.5,
+  "sha256": "189480ccf871d234cea61b5ffbd8ff9b3e601cd7830902af818cec19eea7e58f"
+}

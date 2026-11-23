@@ -1,0 +1,22 @@
+{
+  "cue_id": "c171",
+  "source_text": "我和许棠商量，用一份试机电池和两个人一天的应急食物交换。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.1530625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.1530625,
+  "untruncated_processed_seconds": 4.1530625,
+  "tail_quantization_seconds": 0.013604166666666667,
+  "gain": 1.7529850923148034,
+  "measured_seconds": 4.166666666666667,
+  "frames": 125,
+  "samples": 200000,
+  "units": 26,
+  "cps_including_performance": 6.239999999999999,
+  "sha256": "907ba9dfea0637b6045a7d04e57a022532d3d7f174f8f2fb4ca3f6f3b26d9d02"
+}

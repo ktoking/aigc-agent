@@ -1,0 +1,21 @@
+{
+  "cue_id": "c264",
+  "source_text": "我慢慢抬头，那是新补上的走廊镜头。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.02015625,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.94,
+  "atempo": 0.9636730575176589,
+  "untruncated_processed_seconds": 1.9745625,
+  "tail_quantization_seconds": 0.0254375,
+  "gain": 1.708489930030707,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "65e9a776bb0cb547cc0b67e2699e476b6ef9d723cc635705f25eba8b6b82d7d6"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c200",
+  "source_text": "游戏机先别想，热水也不能随开随有。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.91378125,
+  "trim_start_seconds": 0.525,
+  "trim_end_seconds": 2.91378125,
+  "untruncated_processed_seconds": 2.3887916666666666,
+  "tail_quantization_seconds": 0.011208333333333334,
+  "gain": 1.277067665430231,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 15,
+  "cps_including_performance": 6.25,
+  "sha256": "d3bdbab093a63b31769d6c6d1ff17bdfa2d3514c96a1735fdf30f46c3fe89a89"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c276",
+  "source_text": "我把灯抬起来，这一次，敲击声就在正上方。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.39165625,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 2.325,
+  "atempo": 1.0139341832196855,
+  "untruncated_processed_seconds": 2.2416875,
+  "tail_quantization_seconds": 0.024979166666666667,
+  "gain": 1.9270586471474414,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "578d73694d9124795c72a92db51690437ce37b1f92983fd92dff3c1e56f6aa4b"
+}

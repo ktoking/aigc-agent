@@ -1,0 +1,21 @@
+{
+  "cue_id": "c046",
+  "source_text": "我说可以给一份应急食物，但不接纳整队人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.438125,
+  "trim_start_seconds": 0.07,
+  "trim_end_seconds": 2.35,
+  "atempo": 0.9571788413098236,
+  "untruncated_processed_seconds": 2.3748125,
+  "tail_quantization_seconds": 0.0251875,
+  "gain": 1.2975661367046398,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "2fb5ab71a9f1595f5eef882a541672a31baa1be56549098a7dc1478483aafebc"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c030",
+  "source_text": "天刚亮，对讲机就响了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.28871875,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 1.175,
+  "atempo": 0.9602368866328258,
+  "untruncated_processed_seconds": 1.1671666666666667,
+  "tail_quantization_seconds": 0.03283333333333333,
+  "gain": 1.5096734875777706,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 9,
+  "cps_including_performance": 7.5,
+  "sha256": "905b299e1891e6046644f0ac8a42cda85cded1e703fddd687dad78427b0cd4bc"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c109",
+  "source_text": "一直替别人说话的人，反而吃得最快。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.5721875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.535,
+  "untruncated_processed_seconds": 2.535,
+  "tail_quantization_seconds": 0.03166666666666667,
+  "gain": 1.959728007421668,
+  "measured_seconds": 2.566666666666667,
+  "frames": 77,
+  "samples": 123200,
+  "units": 15,
+  "cps_including_performance": 5.844155844155844,
+  "sha256": "689a013947a10dac6ba9d2469070550ff0b2687fca0b456b2fe36334bb8bd537"
+}

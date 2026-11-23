@@ -1,0 +1,22 @@
+{
+  "cue_id": "c230",
+  "source_text": "林岚站起来，扶父亲往岗亭方向走。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.65165625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.65165625,
+  "untruncated_processed_seconds": 2.651666666666667,
+  "tail_quantization_seconds": 0.015,
+  "gain": 1.4263507415227574,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 14,
+  "cps_including_performance": 5.25,
+  "sha256": "b99d1dd3a3b877bd1175fcf3218d06a9449fb2df403e24ef74571fe315717603"
+}

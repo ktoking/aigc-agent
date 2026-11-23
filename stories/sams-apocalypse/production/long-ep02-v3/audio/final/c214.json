@@ -1,0 +1,22 @@
+{
+  "cue_id": "c214",
+  "source_text": "傍晚，周强又回来了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.668125,
+  "trim_start_seconds": 0.305,
+  "trim_end_seconds": 1.668125,
+  "untruncated_processed_seconds": 1.363125,
+  "tail_quantization_seconds": 0.0035416666666666665,
+  "gain": 1.1072277477399872,
+  "measured_seconds": 1.3666666666666667,
+  "frames": 41,
+  "samples": 65600,
+  "units": 8,
+  "cps_including_performance": 5.853658536585366,
+  "sha256": "6796f63f5cbd283c81dedbaf475916c3eac66873d1abdf700fdd4fd9314ff80b"
+}

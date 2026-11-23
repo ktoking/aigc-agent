@@ -1,0 +1,22 @@
+{
+  "cue_id": "c247",
+  "source_text": "看见她手上的红印，又把话咽了回去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.6313125,
+  "trim_start_seconds": 0.545,
+  "trim_end_seconds": 2.6313125,
+  "untruncated_processed_seconds": 2.0863125,
+  "tail_quantization_seconds": 0.0136875,
+  "gain": 1.3948692743962126,
+  "measured_seconds": 2.1,
+  "frames": 63,
+  "samples": 100800,
+  "units": 15,
+  "cps_including_performance": 7.142857142857142,
+  "sha256": "f1c3eea84fbc9d6e9b0eecb1fe3af728ed661a77fe63e76dc8373d7c092ba7e0"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c209",
+  "source_text": "我开了一罐水果，给她多盛了一点。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.25234375,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 2.09,
+  "atempo": 1.000650829808005,
+  "untruncated_processed_seconds": 2.0432916666666667,
+  "tail_quantization_seconds": 0.023375,
+  "gain": 1.8883965899905244,
+  "measured_seconds": 2.066666666666667,
+  "frames": 62,
+  "samples": 99200,
+  "units": 14,
+  "cps_including_performance": 6.774193548387096,
+  "sha256": "8aeec8fb52aa36be5b99d98ead545278a6d8eba5515653a60c95fe082cf6a499"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c077",
+  "source_text": "没花一分钱，却忙得像刚买了套房。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.043375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.985,
+  "atempo": 1.0602235845654526,
+  "untruncated_processed_seconds": 1.8513125,
+  "tail_quantization_seconds": 0.015354166666666667,
+  "gain": 1.658529360117774,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "d17b72017bc4d72c964395df872159a857f63b73f77399e4c7f0659841430cc5"
+}

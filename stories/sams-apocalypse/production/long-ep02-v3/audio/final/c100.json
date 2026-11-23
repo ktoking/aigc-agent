@@ -1,0 +1,22 @@
+{
+  "cue_id": "c100",
+  "source_text": "跟着他就有饭吃，不听安排，谁也别想分。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.1215625,
+  "trim_start_seconds": 0.14,
+  "trim_end_seconds": 4.07,
+  "untruncated_processed_seconds": 3.93,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 1.7083220174587779,
+  "measured_seconds": 3.933333333333333,
+  "frames": 118,
+  "samples": 188800,
+  "units": 16,
+  "cps_including_performance": 4.067796610169491,
+  "sha256": "ea3b377e7fa66903d769a29ab476750b04978603415410025b530d2a152595e0"
+}

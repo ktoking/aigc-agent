@@ -1,0 +1,21 @@
+{
+  "cue_id": "c112",
+  "source_text": "我们已经舍掉一批食品，可剩下的还在耗电。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.13625,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 2.08,
+  "atempo": 0.8522250209907639,
+  "untruncated_processed_seconds": 2.35925,
+  "tail_quantization_seconds": 0.04075,
+  "gain": 1.5388462904781604,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "5ba837e072d260c93edb5485e64ac183d128e3dcb3c795b1047736ea173b6222"
+}

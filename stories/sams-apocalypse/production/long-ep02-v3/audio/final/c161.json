@@ -1,0 +1,22 @@
+{
+  "cue_id": "c161",
+  "source_text": "能从内部加固的处理，不能确认的单独标出来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.02821875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.02821875,
+  "untruncated_processed_seconds": 3.0282291666666667,
+  "tail_quantization_seconds": 0.005104166666666667,
+  "gain": 1.2658287521891458,
+  "measured_seconds": 3.033333333333333,
+  "frames": 91,
+  "samples": 145600,
+  "units": 19,
+  "cps_including_performance": 6.263736263736264,
+  "sha256": "f6afd4386875c4a61d81d96ea6df114094a6f6040cdd5275ccca0bb61ef52030"
+}

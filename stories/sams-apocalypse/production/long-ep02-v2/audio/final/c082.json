@@ -1,0 +1,21 @@
+{
+  "cue_id": "c082",
+  "source_text": "午后，门外又在催。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.24228125,
+  "trim_start_seconds": 0.015,
+  "trim_end_seconds": 1.22,
+  "atempo": 1.3164603058994901,
+  "untruncated_processed_seconds": 0.9218125,
+  "tail_quantization_seconds": 0.011520833333333333,
+  "gain": 1.8929909069307884,
+  "measured_seconds": 0.9333333333333333,
+  "frames": 28,
+  "samples": 44800,
+  "units": 7,
+  "cps_including_performance": 7.5,
+  "sha256": "0d2515e23727640e317b08753ab51a8f98aa109120fff231eaa0fbb582f7b87c"
+}

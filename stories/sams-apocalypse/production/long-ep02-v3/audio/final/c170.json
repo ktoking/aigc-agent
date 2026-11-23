@@ -1,0 +1,22 @@
+{
+  "cue_id": "c170",
+  "source_text": "至少这次，东西和条件都摆在明面上。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.50221875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.50221875,
+  "untruncated_processed_seconds": 3.5022291666666665,
+  "tail_quantization_seconds": 0.031104166666666665,
+  "gain": 2.0,
+  "measured_seconds": 3.533333333333333,
+  "frames": 106,
+  "samples": 169600,
+  "units": 15,
+  "cps_including_performance": 4.245283018867925,
+  "sha256": "edc889c00daa694852f7e2510df93c74c55c52fffcfbc41c05479f399ae39398"
+}

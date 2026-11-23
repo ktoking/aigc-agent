@@ -1,0 +1,22 @@
+{
+  "cue_id": "c255",
+  "source_text": "以前夜班最盼天亮，因为能下班。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.7004375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.7004375,
+  "untruncated_processed_seconds": 2.7004375,
+  "tail_quantization_seconds": 0.03289583333333333,
+  "gain": 2.0,
+  "measured_seconds": 2.7333333333333334,
+  "frames": 82,
+  "samples": 131200,
+  "units": 13,
+  "cps_including_performance": 4.7560975609756095,
+  "sha256": "0301bfea1cfe9b5963529d2d4a2ae302d342256be3e6257d8fbbf77a113eea8f"
+}

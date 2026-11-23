@@ -1,0 +1,22 @@
+{
+  "cue_id": "c235",
+  "source_text": "黑夹克骂了他一句，先跑了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.32409375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.32409375,
+  "untruncated_processed_seconds": 2.324104166666667,
+  "tail_quantization_seconds": 0.009229166666666667,
+  "gain": 1.1915595033777797,
+  "measured_seconds": 2.3333333333333335,
+  "frames": 70,
+  "samples": 112000,
+  "units": 11,
+  "cps_including_performance": 4.714285714285714,
+  "sha256": "99fdaa7e07a2252423a7d0beb57dea6dadec923f3c5ecf013282bb5248f5d085"
+}

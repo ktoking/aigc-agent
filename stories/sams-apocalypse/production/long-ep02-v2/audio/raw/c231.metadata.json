@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c8ceb10a43aa2df8ecda4befca07",
+  "preset": "resolve",
+  "direction": "愤怒来自立场，重点词落稳；短句推进，不用大音量替代表演。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "另外两个人跟了过去。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "angry",
+      "speed": 1.85,
+      "vol": 1.05,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 1195,
+    "audio_sample_rate": 32000,
+    "audio_size": 77698,
+    "bitrate": 128000,
+    "word_count": 10,
+    "invisible_character_ratio": 0,
+    "usage_characters": 19,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c231.wav",
+  "bytes": 77698,
+  "sha256": "6097577af62f4c859f1d2bfb70b3d87677440bd1bf9ccc569691cd11d13d55df",
+  "subtitle_files_generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c184",
+  "source_text": "我调出昨夜的回放。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.286,
+  "trim_start_seconds": 0.21,
+  "trim_end_seconds": 1.286,
+  "untruncated_processed_seconds": 1.076,
+  "tail_quantization_seconds": 0.024,
+  "gain": 1.521870451492654,
+  "measured_seconds": 1.1,
+  "frames": 33,
+  "samples": 52800,
+  "units": 8,
+  "cps_including_performance": 7.2727272727272725,
+  "sha256": "0bcb385eb799c87c800ca91ef2c9ea6cb9cfd5c1e3c9f620508e3cef4c1ccfde"
+}

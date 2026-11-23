@@ -1,0 +1,22 @@
+{
+  "cue_id": "c177",
+  "source_text": "许棠装上电池，先出来一阵杂音。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.70625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.70625,
+  "untruncated_processed_seconds": 2.70625,
+  "tail_quantization_seconds": 0.027083333333333334,
+  "gain": 1.8738383887147783,
+  "measured_seconds": 2.7333333333333334,
+  "frames": 82,
+  "samples": 131200,
+  "units": 13,
+  "cps_including_performance": 4.7560975609756095,
+  "sha256": "54eff6172e219183d31c3c6efcc73e21190e0e04e2c8ed674f063bb30d2d05e2"
+}

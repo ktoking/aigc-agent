@@ -1,0 +1,22 @@
+{
+  "cue_id": "c035",
+  "source_text": "他朝摄像头喊，吃的又不是你的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.34521875,
+  "trim_start_seconds": 0.29,
+  "trim_end_seconds": 2.04,
+  "untruncated_processed_seconds": 1.75,
+  "tail_quantization_seconds": 0.016666666666666666,
+  "gain": 1.104284903035564,
+  "measured_seconds": 1.7666666666666666,
+  "frames": 53,
+  "samples": 84800,
+  "units": 13,
+  "cps_including_performance": 7.358490566037736,
+  "sha256": "d8108c7d60d8d4b63d9ec73847854df34290fc128b1c320277f5ca48e92e60c9"
+}

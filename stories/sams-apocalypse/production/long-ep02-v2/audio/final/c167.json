@@ -1,0 +1,21 @@
+{
+  "cue_id": "c167",
+  "source_text": "她把电池盖打开给镜头看，里面已经没电了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.92728125,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.88,
+  "atempo": 0.7682619647355163,
+  "untruncated_processed_seconds": 2.3577916666666665,
+  "tail_quantization_seconds": 0.042208333333333334,
+  "gain": 1.4772389001590698,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "ef02db0f994b8b2b23350d5093fea4c803a9e8f9e7c688138d34b51f14a7f06c"
+}

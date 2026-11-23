@@ -1,0 +1,21 @@
+{
+  "cue_id": "c099",
+  "source_text": "林岚伸手，他说先统一保管。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.4976875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.455,
+  "atempo": 0.9629544408651635,
+  "untruncated_processed_seconds": 1.437875,
+  "tail_quantization_seconds": 0.028791666666666667,
+  "gain": 1.7305202275423779,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "9579314d2ad7457bd7020931c7f57342f8aeeae6196874b4f66f661c37a7a58b"
+}

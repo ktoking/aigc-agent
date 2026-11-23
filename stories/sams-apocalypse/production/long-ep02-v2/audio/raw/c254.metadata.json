@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c98681a591d91ed6222b78d04044",
+  "preset": "healing",
+  "direction": "像陪伴朋友，放慢但不拖字，句间留呼吸，避免播音腔。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "停车场终于安静，侧门外的影子也散了一些。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "calm",
+      "speed": 1.85,
+      "vol": 0.9,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2345,
+    "audio_sample_rate": 32000,
+    "audio_size": 151258,
+    "bitrate": 128000,
+    "word_count": 20,
+    "invisible_character_ratio": 0,
+    "usage_characters": 38,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c254.wav",
+  "bytes": 151258,
+  "sha256": "f80ae857404eb37496d479f5df82e77cd7b5bcd15c868626c5bd7939d291ab02",
+  "subtitle_files_generated": false
+}

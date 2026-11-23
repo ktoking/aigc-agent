@@ -1,0 +1,21 @@
+{
+  "cue_id": "c160",
+  "source_text": "我们轮流休息，把薄弱位置重新记了一遍。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.06659375,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.995,
+  "atempo": 0.8649570115624073,
+  "untruncated_processed_seconds": 2.233416666666667,
+  "tail_quantization_seconds": 0.03325,
+  "gain": 1.23281098405621,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "a2f77bb7ee48eb461fdc586b9e49ad484087a0957a6f55c94e97cd89f5614637"
+}

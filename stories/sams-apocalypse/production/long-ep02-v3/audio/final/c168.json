@@ -1,0 +1,22 @@
+{
+  "cue_id": "c168",
+  "source_text": "她没有说自己知道救援秘密，也没喊以后报答。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.9024375,
+  "trim_start_seconds": 0.19,
+  "trim_end_seconds": 2.9024375,
+  "untruncated_processed_seconds": 2.7124375,
+  "tail_quantization_seconds": 0.020895833333333332,
+  "gain": 1.6758829799622468,
+  "measured_seconds": 2.7333333333333334,
+  "frames": 82,
+  "samples": 131200,
+  "units": 19,
+  "cps_including_performance": 6.951219512195122,
+  "sha256": "265cc1bcc7bd6f3efec5d0dfd709cfc356cf70feb14b1046b3ca7f67c16d39a1"
+}

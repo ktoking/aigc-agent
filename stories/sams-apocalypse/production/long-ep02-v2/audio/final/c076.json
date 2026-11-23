@@ -1,0 +1,21 @@
+{
+  "cue_id": "c076",
+  "source_text": "生活区隔出吃饭和休息的位置，垃圾单独封好。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.5774375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.51,
+  "atempo": 0.9879406307977736,
+  "untruncated_processed_seconds": 2.510125,
+  "tail_quantization_seconds": 0.023208333333333334,
+  "gain": 1.5744762520288818,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "c3572769d5cc1ce6f8956b51e70eb74daa11b73f0ec28938a406993fbc8b4d7e"
+}

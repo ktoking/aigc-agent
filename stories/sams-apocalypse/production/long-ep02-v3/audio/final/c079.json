@@ -1,0 +1,22 @@
+{
+  "cue_id": "c079",
+  "source_text": "我们把两份应急背包放在通道口，不锁进柜子。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.55265625,
+  "trim_start_seconds": 0.265,
+  "trim_end_seconds": 3.255,
+  "untruncated_processed_seconds": 2.99,
+  "tail_quantization_seconds": 0.01,
+  "gain": 1.4444419451590116,
+  "measured_seconds": 3.0,
+  "frames": 90,
+  "samples": 144000,
+  "units": 19,
+  "cps_including_performance": 6.333333333333333,
+  "sha256": "40fb948a94e946ffcddfb6550c59e8f60c1b774db0b54d22ccff6361ed787962"
+}

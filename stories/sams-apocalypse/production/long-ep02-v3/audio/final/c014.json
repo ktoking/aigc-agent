@@ -1,0 +1,22 @@
+{
+  "cue_id": "c014",
+  "source_text": "一排排冷柜，都在等着喝油。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.34521875,
+  "trim_start_seconds": 0.22,
+  "trim_end_seconds": 2.245,
+  "untruncated_processed_seconds": 2.025,
+  "tail_quantization_seconds": 0.008333333333333333,
+  "gain": 1.3740467762928332,
+  "measured_seconds": 2.033333333333333,
+  "frames": 61,
+  "samples": 97600,
+  "units": 11,
+  "cps_including_performance": 5.409836065573771,
+  "sha256": "12472219e4df22fe24e0ff3500ac951fba7a25f68732dcb0f47158ae654f469b"
+}

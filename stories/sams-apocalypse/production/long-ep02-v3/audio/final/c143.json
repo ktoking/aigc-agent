@@ -1,0 +1,22 @@
+{
+  "cue_id": "c143",
+  "source_text": "门外每多一点动静，里面就少一点犯错的余地。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.69278125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.69278125,
+  "untruncated_processed_seconds": 3.6927916666666665,
+  "tail_quantization_seconds": 0.007208333333333333,
+  "gain": 1.6851755082200104,
+  "measured_seconds": 3.7,
+  "frames": 111,
+  "samples": 177600,
+  "units": 19,
+  "cps_including_performance": 5.135135135135135,
+  "sha256": "d44c2e11ecbd6d7b0def363f2c8ecef4d8d718333a137b7a5e6ea702db1b3fa9"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c111",
+  "source_text": "许棠看完记录，说不能再拖。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.02265625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.02265625,
+  "untruncated_processed_seconds": 2.022666666666667,
+  "tail_quantization_seconds": 0.010666666666666666,
+  "gain": 1.444953638175372,
+  "measured_seconds": 2.033333333333333,
+  "frames": 61,
+  "samples": 97600,
+  "units": 11,
+  "cps_including_performance": 5.409836065573771,
+  "sha256": "a8274e5c9c4aa2c4942b68a09293a083a1abf8cd91a62b79f34ec8d2b3a66f82"
+}

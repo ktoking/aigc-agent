@@ -1,0 +1,22 @@
+{
+  "cue_id": "c174",
+  "source_text": "收音机从盒子里送进来时，我突然有点紧张。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.955875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.955875,
+  "untruncated_processed_seconds": 2.955875,
+  "tail_quantization_seconds": 0.010791666666666666,
+  "gain": 1.5531492229554589,
+  "measured_seconds": 2.966666666666667,
+  "frames": 89,
+  "samples": 142400,
+  "units": 18,
+  "cps_including_performance": 6.067415730337078,
+  "sha256": "655a70b385194a23a482d627d2fd0edad5f2b2cbb9dc8955a798aafb79ba481f"
+}

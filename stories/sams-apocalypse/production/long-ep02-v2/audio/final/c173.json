@@ -1,0 +1,21 @@
+{
+  "cue_id": "c173",
+  "source_text": "林岚答应了，还问能不能换成常温的，她父亲走不了太远。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 2.50778125,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 2.415,
+  "atempo": 0.7724688388366497,
+  "untruncated_processed_seconds": 3.0310625,
+  "tail_quantization_seconds": 0.035604166666666666,
+  "gain": 1.4698977812997074,
+  "measured_seconds": 3.066666666666667,
+  "frames": 92,
+  "samples": 147200,
+  "units": 23,
+  "cps_including_performance": 7.499999999999999,
+  "sha256": "0981ee7b5909889a10204afdb5e7c1b5c5de8da0064d77fbe03cc5fbcf63834a"
+}

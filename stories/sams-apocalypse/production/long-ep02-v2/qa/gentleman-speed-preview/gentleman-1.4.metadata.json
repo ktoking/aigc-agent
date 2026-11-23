@@ -1,0 +1,50 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728e9f574de1e2fa88bfefcb34db3e4",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "门外那个人，居然对着摄像头笑了。我刚想叫许棠来看，他已经举起一块纸板。上面只有四个字：知道有人。发电机救了冷库，也把我们暴露了。我第一反应是关掉机器。许棠按住我的手，让我先看温度记录。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.4,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 12852,
+    "audio_sample_rate": 32000,
+    "audio_size": 207348,
+    "bitrate": 128000,
+    "word_count": 92,
+    "invisible_character_ratio": 0,
+    "usage_characters": 173,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/qa/gentleman-speed-preview/gentleman-1.4.mp3",
+  "bytes": 207348,
+  "sha256": "ac6796d235327ff6cb70db625cdab14fc05f934922eab56a24a81978c1ab08b2",
+  "subtitle_files_generated": false
+}

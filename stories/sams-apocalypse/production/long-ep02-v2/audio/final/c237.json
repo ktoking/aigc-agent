@@ -1,0 +1,21 @@
+{
+  "cue_id": "c237",
+  "source_text": "门没开，但这场争执没有真正结束。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.88084375,
+  "trim_start_seconds": 0.085,
+  "trim_end_seconds": 1.795,
+  "atempo": 0.9249909844933285,
+  "untruncated_processed_seconds": 1.8389791666666666,
+  "tail_quantization_seconds": 0.0276875,
+  "gain": 1.300447427822411,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "1c768d04f16b2f29d90375db754ddb3c2e0d8c19e2e073cf73880e1f05a7268b"
+}

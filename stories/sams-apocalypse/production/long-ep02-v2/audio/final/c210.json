@@ -1,0 +1,21 @@
+{
+  "cue_id": "c210",
+  "source_text": "她低头看碗，问这算加班费吗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 1.68346875,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.58,
+  "atempo": 0.963969658659924,
+  "untruncated_processed_seconds": 1.5727916666666666,
+  "tail_quantization_seconds": 0.027208333333333334,
+  "gain": 1.6622365542055588,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "9947b8195e3ddf115789ee8a1a7cdd2fa7a4fba1947f7634fc7f09ee98b990e9"
+}

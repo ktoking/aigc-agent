@@ -1,0 +1,22 @@
+{
+  "cue_id": "c250",
+  "source_text": "她抬头问，今天怎么不催进度。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.27834375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.265,
+  "untruncated_processed_seconds": 2.265,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.4938761662425784,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 12,
+  "cps_including_performance": 5.294117647058823,
+  "sha256": "22f2fa8f6d60c358e4da9da769a5acd097f29722d8dfaa9ac71cf2d35c2a6881"
+}

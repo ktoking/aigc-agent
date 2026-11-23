@@ -1,0 +1,22 @@
+{
+  "cue_id": "c045",
+  "source_text": "许棠却把对讲音量调小，说别让他替你决定怎么活。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.692,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 3.38,
+  "untruncated_processed_seconds": 3.1,
+  "tail_quantization_seconds": 0.0,
+  "gain": 1.021839027235798,
+  "measured_seconds": 3.1,
+  "frames": 93,
+  "samples": 148800,
+  "units": 21,
+  "cps_including_performance": 6.774193548387097,
+  "sha256": "53c0d90ccb395c0d9de51cdefd59da6277c67e82e57eade2ed7be30faef538b2"
+}

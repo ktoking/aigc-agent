@@ -1,0 +1,21 @@
+{
+  "cue_id": "c039",
+  "source_text": "周强打断她，说都什么时候了，还搞登记。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.20590625,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 2.13,
+  "atempo": 0.9880239520958083,
+  "untruncated_processed_seconds": 2.1097916666666667,
+  "tail_quantization_seconds": 0.023541666666666666,
+  "gain": 1.5769595884047127,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "a85f7527df47ff2c60f50a2622c2323d407d9cf7ec19edce3f75472b4af40cfd"
+}

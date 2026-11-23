@@ -1,0 +1,22 @@
+{
+  "cue_id": "c172",
+  "source_text": "机器先测，合不合用都把话说清。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.51371875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.51371875,
+  "untruncated_processed_seconds": 2.513729166666667,
+  "tail_quantization_seconds": 0.019604166666666666,
+  "gain": 1.6492927787286995,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 13,
+  "cps_including_performance": 5.131578947368421,
+  "sha256": "63e97004cc7c0d65eb90c759d954712573133662ded4455ede6846c00b136048"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c090",
+  "source_text": "我装了六份小包，每份一瓶水和一点饼干。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.79803125,
+  "trim_start_seconds": 0.075,
+  "trim_end_seconds": 2.74,
+  "untruncated_processed_seconds": 2.665,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.7598996510754825,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 17,
+  "cps_including_performance": 6.375,
+  "sha256": "377bd741142991dc828ea2517b3f63bc84b547b9e508e8fdd4dc521a8e63aae8"
+}

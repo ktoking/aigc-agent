@@ -1,0 +1,17 @@
+{
+  "id": "p001",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-78e12a82-2364-4640-8d7a-05d2d95bfa5b.png",
+  "file": "assets/p001.png",
+  "sha256": "184de84a3042c7e7ad8416bd7ab940c3651a80ecaabc04eb09a3228d8a4ec8b4",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: identity-preserve / photorealistic-natural. 请以两张参考照片只锁定同一对中国成年演员的脸与衣服，重新绘制一张全新单幅16:9横向电影剧照，用作静态叙事视频开场，绝非拼图。男主约30岁，青绿色针织帽、芥末黄帽衫、深蓝马甲；许棠26岁，低马尾、橘色维修夹克、深灰工装裤。场景：现代山姆仓储超市内的小监控室，停电后仅桌上便携应急灯和监控屏发出光线，室内干净有序、地面干燥。画面核心事件：男主右手正把桌上便携收音机音量调大，听到即将核打击的紧急广播，脸上警觉震惊但克制，许棠站在他旁边看着收音机。三分之二侧面中近景，收音机在前景清楚，两人脸在中景，深处监控屏只见抽象停车场夜景不出现清晰文字。不画核爆，不画广播员，不画外人入室。写实真实皮肤、自然五官、克制冷暖电影照明、中等细节，清晰大形，不锐化过度，不肮脏、不积水、不湿反光、不要科幻屏幕。无字幕、无标题、无水印、无边框，底部留正常画面供后期字幕。参考只取人物身份，不能复制参考的灰色背景。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/male-neutral.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/references/female-neutral.png"
+    ],
+    "transparent_background": false
+  }
+}

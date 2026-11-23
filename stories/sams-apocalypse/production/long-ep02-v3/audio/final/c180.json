@@ -1,0 +1,22 @@
+{
+  "cue_id": "c180",
+  "source_text": "没有撤离时间，也没有包我们平安的神奇坐标。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.5261875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.5261875,
+  "untruncated_processed_seconds": 2.5261875,
+  "tail_quantization_seconds": 0.007145833333333333,
+  "gain": 1.8652744556543457,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "d53dc589cc40f6b708f31bba46b4254f86c6b66c58d99841e4a7dc984dc42a87"
+}

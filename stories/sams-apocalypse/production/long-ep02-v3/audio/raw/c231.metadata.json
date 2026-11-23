@@ -1,0 +1,210 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f468d5df5b60be79eb4e176172ed",
+  "preset": "resolve",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "傍晚，周强又回来了。这次推着一只旧喇叭。他说今晚不开门，就让整条街都知道我们有吃的。我看着监控，忽然觉得，这个人比门外那些东西更懂得找软处下手。我差点和他吵起来。许棠指了指喇叭的电池仓。盖子开着，里面空的。当然，也可能是障眼法。我没拿自己的命赌，只问周强一句，声响起来，你准备躲哪。他回头看身后的人，说里面迟早会开门。刚才跟他一起试门的那个人，却往后退了。大家都饿，可谁也不想站在喇叭旁边，替他的胆子付命。我告诉他们，接纳的条件不会因为喊得响就改。愿意停止试门，可以隔墙谈交换。想拿整栋楼冒险，我不会配合。说完，我把对讲放下，没有再给周强接着表演的机会。林岚站起来，扶父亲往岗亭方向走。另外两个人跟了过去。她没有替我说好话，只说要等救援，就别把丧尸喊来。我看着那队人散开，手心里的汗才慢慢凉下来。周强一脚踢翻空箱，声音在墙根回荡。黑夹克骂了他一句，先跑了。他一个人站了几秒，终于也退到车后。门没开，但这场争执没有真正结束。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "angry",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b011",
+  "batch_text_begin": 293,
+  "batch_text_end": 303,
+  "source_cue_text": "另外两个人跟了过去。",
+  "batch_audio_start_sample": 1477904,
+  "batch_audio_end_sample": 1531525,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c214",
+      "char_boundary": 10,
+      "previous_word_time_end": 1.671111111111111,
+      "next_word_time_begin": 1.671111111111111,
+      "selected_audio_time": 1.668125
+    },
+    {
+      "after_cue": "c215",
+      "char_boundary": 20,
+      "previous_word_time_end": 3.271111111111111,
+      "next_word_time_begin": 3.271111111111111,
+      "selected_audio_time": 3.291125
+    },
+    {
+      "after_cue": "c216",
+      "char_boundary": 42,
+      "previous_word_time_end": 6.115555555555556,
+      "next_word_time_begin": 6.151111111111112,
+      "selected_audio_time": 6.15334375
+    },
+    {
+      "after_cue": "c217",
+      "char_boundary": 72,
+      "previous_word_time_end": 10.062222222222223,
+      "next_word_time_begin": 10.062222222222223,
+      "selected_audio_time": 10.05921875
+    },
+    {
+      "after_cue": "c218",
+      "char_boundary": 81,
+      "previous_word_time_end": 11.662222222222223,
+      "next_word_time_begin": 12.365351473922901,
+      "selected_audio_time": 12.03378125
+    },
+    {
+      "after_cue": "c219",
+      "char_boundary": 93,
+      "previous_word_time_end": 13.858684807256235,
+      "next_word_time_begin": 13.858684807256235,
+      "selected_audio_time": 13.8776875
+    },
+    {
+      "after_cue": "c220",
+      "char_boundary": 103,
+      "previous_word_time_end": 15.35201814058957,
+      "next_word_time_begin": 15.35201814058957,
+      "selected_audio_time": 15.34303125
+    },
+    {
+      "after_cue": "c221",
+      "char_boundary": 114,
+      "previous_word_time_end": 17.058684807256235,
+      "next_word_time_begin": 17.058684807256235,
+      "selected_audio_time": 17.0556875
+    },
+    {
+      "after_cue": "c222",
+      "char_boundary": 141,
+      "previous_word_time_end": 21.218684807256235,
+      "next_word_time_begin": 21.25424036281179,
+      "selected_audio_time": 21.25246875
+    },
+    {
+      "after_cue": "c223",
+      "char_boundary": 159,
+      "previous_word_time_end": 23.920907029478457,
+      "next_word_time_begin": 24.5653514739229,
+      "selected_audio_time": 24.257125
+    },
+    {
+      "after_cue": "c224",
+      "char_boundary": 178,
+      "previous_word_time_end": 27.05424036281179,
+      "next_word_time_begin": 27.05424036281179,
+      "selected_audio_time": 27.04625
+    },
+    {
+      "after_cue": "c225",
+      "char_boundary": 203,
+      "previous_word_time_end": 30.89424036281179,
+      "next_word_time_begin": 30.89424036281179,
+      "selected_audio_time": 30.91425
+    },
+    {
+      "after_cue": "c226",
+      "char_boundary": 224,
+      "previous_word_time_end": 34.23646258503401,
+      "next_word_time_begin": 34.27201814058957,
+      "selected_audio_time": 34.24525
+    },
+    {
+      "after_cue": "c227",
+      "char_boundary": 239,
+      "previous_word_time_end": 36.65424036281179,
+      "next_word_time_begin": 37.2550566893424,
+      "selected_audio_time": 36.95065625
+    },
+    {
+      "after_cue": "c228",
+      "char_boundary": 253,
+      "previous_word_time_end": 39.60172335600907,
+      "next_word_time_begin": 39.60172335600907,
+      "selected_audio_time": 39.60971875
+    },
+    {
+      "after_cue": "c229",
+      "char_boundary": 277,
+      "previous_word_time_end": 43.512834467120186,
+      "next_word_time_begin": 43.512834467120186,
+      "selected_audio_time": 43.53284375
+    },
+    {
+      "after_cue": "c230",
+      "char_boundary": 293,
+      "previous_word_time_end": 46.17950113378685,
+      "next_word_time_begin": 46.17950113378685,
+      "selected_audio_time": 46.1845
+    },
+    {
+      "after_cue": "c231",
+      "char_boundary": 303,
+      "previous_word_time_end": 47.63727891156463,
+      "next_word_time_begin": 48.0550566893424,
+      "selected_audio_time": 47.86015625
+    },
+    {
+      "after_cue": "c232",
+      "char_boundary": 327,
+      "previous_word_time_end": 51.71727891156463,
+      "next_word_time_begin": 52.0550566893424,
+      "selected_audio_time": 51.90315625
+    },
+    {
+      "after_cue": "c233",
+      "char_boundary": 348,
+      "previous_word_time_end": 54.97061224489796,
+      "next_word_time_begin": 54.97061224489796,
+      "selected_audio_time": 54.988625
+    },
+    {
+      "after_cue": "c234",
+      "char_boundary": 365,
+      "previous_word_time_end": 57.99283446712018,
+      "next_word_time_begin": 57.99283446712018,
+      "selected_audio_time": 57.99984375
+    },
+    {
+      "after_cue": "c235",
+      "char_boundary": 378,
+      "previous_word_time_end": 60.30394557823129,
+      "next_word_time_begin": 60.30394557823129,
+      "selected_audio_time": 60.3239375
+    },
+    {
+      "after_cue": "c236",
+      "char_boundary": 395,
+      "previous_word_time_end": 62.9350566893424,
+      "next_word_time_begin": 63.34707482993198,
+      "selected_audio_time": 63.1580625
+    }
+  ],
+  "sha256": "cb5ea1ee7304829aef9fdd71f16abd73d46984fa05a208eb9fe4700e1d6a4b1b",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

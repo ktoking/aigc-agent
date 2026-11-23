@@ -1,0 +1,21 @@
+{
+  "cue_id": "c128",
+  "source_text": "最有用的新东西，居然是几块橡胶垫。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.92728125,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.895,
+  "atempo": 0.9434914228052473,
+  "untruncated_processed_seconds": 1.9748125,
+  "tail_quantization_seconds": 0.0251875,
+  "gain": 1.54092972051633,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "49cadae791c7aaa85951b5f5276b6356a738afa70179e6e191deccfe01f7cd43"
+}

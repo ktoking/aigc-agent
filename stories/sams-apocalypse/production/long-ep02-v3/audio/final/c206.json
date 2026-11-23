@@ -1,0 +1,22 @@
+{
+  "cue_id": "c206",
+  "source_text": "最后真正落地的，是新的轮班和每天一次的巡查。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.72609375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.72609375,
+  "untruncated_processed_seconds": 3.7261041666666666,
+  "tail_quantization_seconds": 0.007229166666666667,
+  "gain": 1.7722767627925802,
+  "measured_seconds": 3.7333333333333334,
+  "frames": 112,
+  "samples": 179200,
+  "units": 20,
+  "cps_including_performance": 5.357142857142857,
+  "sha256": "08647e6550546f0d6903758adb7a77a079c7c571cc6279de34c0568c1b29e078"
+}

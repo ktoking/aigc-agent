@@ -1,0 +1,22 @@
+{
+  "cue_id": "c007",
+  "source_text": "停电前后，冷库已经升了温。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.15946875,
+  "trim_start_seconds": 0.235,
+  "trim_end_seconds": 1.92,
+  "untruncated_processed_seconds": 1.685,
+  "tail_quantization_seconds": 0.015,
+  "gain": 1.7219719748230145,
+  "measured_seconds": 1.7,
+  "frames": 51,
+  "samples": 81600,
+  "units": 11,
+  "cps_including_performance": 6.470588235294118,
+  "sha256": "819b87260d59bc01bd78df994c4da8108bb9b06dc8b0432da3dd8ed87b3c12a0"
+}

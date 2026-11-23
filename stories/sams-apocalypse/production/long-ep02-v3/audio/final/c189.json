@@ -1,0 +1,22 @@
+{
+  "cue_id": "c189",
+  "source_text": "不是秘密地道，旧图纸上就有，只是我以前从没负责过。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.14265625,
+  "trim_start_seconds": 0.375,
+  "trim_end_seconds": 4.14265625,
+  "untruncated_processed_seconds": 3.7676666666666665,
+  "tail_quantization_seconds": 0.03233333333333333,
+  "gain": 1.5822961309971624,
+  "measured_seconds": 3.8,
+  "frames": 114,
+  "samples": 182400,
+  "units": 22,
+  "cps_including_performance": 5.7894736842105265,
+  "sha256": "b5bab59eff9f234c01a220b51d5c10740c3cc17c7e6683f97b63fa36502ca0ae"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c049",
+  "source_text": "既然肯给，开一道缝不就完了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.88084375,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.795,
+  "atempo": 1.0967130214917826,
+  "untruncated_processed_seconds": 1.5837916666666667,
+  "tail_quantization_seconds": 0.016208333333333335,
+  "gain": 1.1226049658561512,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "7d40d2e95702c7205ee5d45900e202c90ab8c2332565901db91484fbe2c12ba0"
+}

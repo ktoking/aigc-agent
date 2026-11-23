@@ -1,0 +1,21 @@
+{
+  "cue_id": "c065",
+  "source_text": "重箱放低处，轻物上架，主通道留出来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.2755625,
+  "trim_start_seconds": 0.015,
+  "trim_end_seconds": 2.225,
+  "atempo": 1.1150353178607466,
+  "untruncated_processed_seconds": 1.9888125,
+  "tail_quantization_seconds": 0.0111875,
+  "gain": 1.6870334698081204,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "b90df5232997f2d10ef968d95ed685d020e2c92e3780af892f4306d81803e6c7"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c213",
+  "source_text": "外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.5769375,
+  "trim_start_seconds": 0.48,
+  "trim_end_seconds": 4.28,
+  "untruncated_processed_seconds": 3.8,
+  "tail_quantization_seconds": 0.0,
+  "gain": 1.556105220263723,
+  "measured_seconds": 3.8,
+  "frames": 114,
+  "samples": 182400,
+  "units": 23,
+  "cps_including_performance": 6.052631578947369,
+  "sha256": "cb2ca51a703dd8dd53ddeccb6bc594486cdaba3e0109cc5d8e3d4da5ab5542b5"
+}

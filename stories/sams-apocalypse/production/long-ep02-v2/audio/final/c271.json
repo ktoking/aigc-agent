@@ -1,0 +1,21 @@
+{
+  "cue_id": "c271",
+  "source_text": "不是卷帘门那种撞击声。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.2655,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 1.185,
+  "atempo": 0.8857070451089712,
+  "untruncated_processed_seconds": 1.3026041666666666,
+  "tail_quantization_seconds": 0.030729166666666665,
+  "gain": 1.6865754553873142,
+  "measured_seconds": 1.3333333333333333,
+  "frames": 40,
+  "samples": 64000,
+  "units": 10,
+  "cps_including_performance": 7.5,
+  "sha256": "e5343eeb3f09b6e5c52b15ec20e8746665f522c05cf675fc87fbcc1aa2868c10"
+}

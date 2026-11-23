@@ -1,0 +1,22 @@
+{
+  "cue_id": "c015",
+  "source_text": "我舍不得的那些东西，正在和监控抢最后一点电。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.5875,
+  "trim_start_seconds": 0.245,
+  "trim_end_seconds": 3.415,
+  "untruncated_processed_seconds": 3.17,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.5438547658116148,
+  "measured_seconds": 3.2,
+  "frames": 96,
+  "samples": 153600,
+  "units": 20,
+  "cps_including_performance": 6.25,
+  "sha256": "db7ed3397c195991885998c6ec797196e9e0b72298f750b46885cb941038be59"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c267",
+  "source_text": "也许是我们白天漏收的，也许不是。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.92728125,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.875,
+  "atempo": 0.995311936530833,
+  "untruncated_processed_seconds": 1.8433541666666666,
+  "tail_quantization_seconds": 0.0233125,
+  "gain": 1.915187456751004,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "f226177ac1eef34bb948d364262fcaa6aaa5a5761a8123776c38e7f2f0e30320"
+}

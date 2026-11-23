@@ -1,0 +1,22 @@
+{
+  "cue_id": "c051",
+  "source_text": "他想要的不是这顿饭，是让我先把规则破一次。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.22759375,
+  "trim_start_seconds": 0.3,
+  "trim_end_seconds": 2.94,
+  "untruncated_processed_seconds": 2.64,
+  "tail_quantization_seconds": 0.02666666666666667,
+  "gain": 1.126933463054828,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 19,
+  "cps_including_performance": 7.125,
+  "sha256": "f16cc2bf623789ce1794f52167c67bc7765f63a72ba9db2f6e324c8526662c2a"
+}

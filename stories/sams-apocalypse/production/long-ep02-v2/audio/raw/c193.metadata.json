@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c79e41b6d27efaec85197f36f6a1",
+  "preset": "fear",
+  "direction": "像刚察觉危险，短句带紧张；关键动作可少量加入吸气，保持可懂。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "里面没有人，固定件也还在，但有一处已经松了。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "fearful",
+      "speed": 1.85,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2809,
+    "audio_sample_rate": 32000,
+    "audio_size": 180980,
+    "bitrate": 128000,
+    "word_count": 22,
+    "invisible_character_ratio": 0,
+    "usage_characters": 41,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c193.wav",
+  "bytes": 180980,
+  "sha256": "67072f736324374e95c324ada18ba165ee49df64c049169c538e26a76b077ca5",
+  "subtitle_files_generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c128",
+  "source_text": "最有用的新东西，居然是几块橡胶垫。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.81265625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.77,
+  "untruncated_processed_seconds": 2.77,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.5621548248820392,
+  "measured_seconds": 2.8,
+  "frames": 84,
+  "samples": 134400,
+  "units": 15,
+  "cps_including_performance": 5.357142857142858,
+  "sha256": "73971cfcbd8808a445b038d84bbab0a4e55f63da86ac394b1afb0ff40e471a3b"
+}

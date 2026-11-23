@@ -1,0 +1,21 @@
+{
+  "cue_id": "c234",
+  "source_text": "周强一脚踢翻空箱，声音在墙根回荡。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.11303125,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 2.04,
+  "atempo": 1.0040363269424823,
+  "untruncated_processed_seconds": 1.9778125,
+  "tail_quantization_seconds": 0.0221875,
+  "gain": 1.3257738292979464,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "38d18566bfc04b48f5cb31ac0528b47c3c294731e5bf3d7093175a3fc6b765db"
+}

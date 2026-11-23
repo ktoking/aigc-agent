@@ -1,0 +1,22 @@
+{
+  "cue_id": "c151",
+  "source_text": "你现在做的事，正在威胁里面两个人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.505875,
+  "trim_start_seconds": 0.345,
+  "trim_end_seconds": 2.505875,
+  "untruncated_processed_seconds": 2.160875,
+  "tail_quantization_seconds": 0.005791666666666666,
+  "gain": 1.4251705094280869,
+  "measured_seconds": 2.1666666666666665,
+  "frames": 65,
+  "samples": 104000,
+  "units": 15,
+  "cps_including_performance": 6.923076923076923,
+  "sha256": "5bf0f12fcbad25f4b42322565263775a3d149029a9c001edf7b084d26f7eec0e"
+}

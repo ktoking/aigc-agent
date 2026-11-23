@@ -1,0 +1,22 @@
+{
+  "cue_id": "c137",
+  "source_text": "他反而笑了，说只是替我们检查隐患。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.01315625,
+  "trim_start_seconds": 0.315,
+  "trim_end_seconds": 3.01315625,
+  "untruncated_processed_seconds": 2.698166666666667,
+  "tail_quantization_seconds": 0.0018333333333333333,
+  "gain": 1.7416052860006352,
+  "measured_seconds": 2.7,
+  "frames": 81,
+  "samples": 129600,
+  "units": 15,
+  "cps_including_performance": 5.555555555555555,
+  "sha256": "c1f782aa5f7b3bdeb7e044f9910c2eeaf89e7675b0f6f8b0af69e48e3956f5f6"
+}

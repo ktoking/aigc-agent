@@ -1,0 +1,21 @@
+{
+  "cue_id": "c213",
+  "source_text": "外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.78640625,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 2.69,
+  "atempo": 0.8643122676579924,
+  "untruncated_processed_seconds": 3.0334791666666665,
+  "tail_quantization_seconds": 0.0331875,
+  "gain": 1.7317635605430084,
+  "measured_seconds": 3.066666666666667,
+  "frames": 92,
+  "samples": 147200,
+  "units": 23,
+  "cps_including_performance": 7.499999999999999,
+  "sha256": "997bfeb8e1a6d3d26befa90a4ff3eac61989af429a76f0e802c634da8ede3962"
+}

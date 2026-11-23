@@ -1,0 +1,21 @@
+{
+  "cue_id": "c043",
+  "source_text": "里面有年轻姑娘吧，她忍心看着我们饿死吗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.25234375,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 2.095,
+  "atempo": 0.8564231738035264,
+  "untruncated_processed_seconds": 2.363875,
+  "tail_quantization_seconds": 0.036125,
+  "gain": 1.268371414929174,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "632b00da9981870fe371687986502f33452ba9c2f16791067e25ddc2b4ed00d4"
+}

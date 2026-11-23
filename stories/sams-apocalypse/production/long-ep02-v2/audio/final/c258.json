@@ -1,0 +1,21 @@
+{
+  "cue_id": "c258",
+  "source_text": "断续的人声里提到，部分区域将尝试恢复供电。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "reveal",
+  "api_speed": 1.85,
+  "raw_seconds": 2.3684375,
+  "trim_start_seconds": 0.105,
+  "trim_end_seconds": 2.295,
+  "atempo": 0.8706599522926053,
+  "untruncated_processed_seconds": 2.503875,
+  "tail_quantization_seconds": 0.029458333333333333,
+  "gain": 1.5111067688380757,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "1b93a32872b5907edfe245e4c29cb71e4e7e0954d74e89a2a0d8abb5ffb02470"
+}

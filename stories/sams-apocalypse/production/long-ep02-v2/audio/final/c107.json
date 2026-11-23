@@ -1,0 +1,21 @@
+{
+  "cue_id": "c107",
+  "source_text": "林岚捡起来，带父亲离开了门口。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.59059375,
+  "trim_start_seconds": 0.085,
+  "trim_end_seconds": 1.57,
+  "atempo": 0.8657209483093665,
+  "untruncated_processed_seconds": 1.702625,
+  "tail_quantization_seconds": 0.030708333333333334,
+  "gain": 1.6427247540763639,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "1b03ae9a51fbfb10b94f0aa4d6f4644698b0e91b7c01a5043a2a3ce6a22ea4df"
+}

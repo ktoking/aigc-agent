@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE",
+  "voice": "Chinese (Mandarin)_Gentleman",
+  "api_speed": 1.2,
+  "voice_cues": 276,
+  "images": 120,
+  "post_speed_change": false,
+  "running_sessions": {},
+  "notes": [
+    "One RPM limit at c101; successful c001-c100 retained. Resumed after 60s cooldown with one worker and 10s minimum request spacing.",
+    "Resume skips complete WAV+metadata pairs. New key only read from Keychain inside trusted client.",
+    "process_voice preserves native 1.2 duration, no atempo; final timeline written after all 276 clips.",
+    "Output 120 images reuses exact v2 selected images by current request; do not generate images.",
+    "After 103 successful standalone cues and repeated RPM limits, remaining 173 cues grouped into 28 same-preset requests with word timing. JSON timing stored inside batch metadata only, no SRT/VTT. Batch split must validate exact original character ranges and preserve raw PCM provenance. Do not run old per-cue generator concurrently.",
+    "Remaining requests merged into complete same-emotion runs: 15 total batches, first two succeeded. Current worker uses >=65s spacing and bounded 1002 backoff, stops on unknown outcomes. Internal provider word JSON is retained as metadata, not an independent subtitle deliverable."
+  ],
+  "caption_policy": "Comma replaced by space; full stop removed; original spoken text remains unchanged",
+  "preview": "qa/opening-new-voice.mp4",
+  "tts_cues_completed": 276,
+  "batch_count": 15,
+  "shared_key_parallel_usage_confirmed_by_user": true,
+  "duration_seconds": 762.8666666666667,
+  "player_url": "https://spine-warrant-elvis-almost.trycloudflare.com/v3/",
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP02-v3",
+  "manifest": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP02-v3/manifest.json",
+  "delivery_server": {
+    "session_id": 45692,
+    "root": "output/LONG-EP02-v2",
+    "v3_route": "/v3/",
+    "tunnel_session": 72400
+  },
+  "checks": {
+    "automatic_file_qa": "PASS",
+    "browser_playback": "PASS_SAMPLED",
+    "public_range_readback": "PASS",
+    "full_human_watch": "NOT_RUN",
+    "full_human_listening": "NOT_RUN"
+  }
+}

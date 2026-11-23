@@ -1,0 +1,22 @@
+{
+  "cue_id": "c231",
+  "source_text": "另外两个人跟了过去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.67565625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.42,
+  "untruncated_processed_seconds": 1.42,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.1794454646742663,
+  "measured_seconds": 1.4333333333333333,
+  "frames": 43,
+  "samples": 68800,
+  "units": 9,
+  "cps_including_performance": 6.27906976744186,
+  "sha256": "8db52244acd92c64623e9d0b398989b030bacdf26e72e7f29923bea3b5de11ec"
+}

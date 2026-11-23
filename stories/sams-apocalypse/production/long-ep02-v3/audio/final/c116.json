@@ -1,0 +1,22 @@
+{
+  "cue_id": "c116",
+  "source_text": "我嚼着最后那口热饭，忽然觉得，能安心坐十分钟，比牛排还奢侈。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 5.0164375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.72,
+  "untruncated_processed_seconds": 4.72,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.5885889072733097,
+  "measured_seconds": 4.733333333333333,
+  "frames": 142,
+  "samples": 227200,
+  "units": 26,
+  "cps_including_performance": 5.492957746478873,
+  "sha256": "75704d7882c1f2972e13ed6d48bf342655619d3cc8b975a3af15714bd05c2241"
+}

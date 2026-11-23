@@ -1,0 +1,21 @@
+{
+  "cue_id": "c006",
+  "source_text": "许棠按住我的手，让我先看温度记录。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.68346875,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 1.645,
+  "atempo": 0.8097880928355197,
+  "untruncated_processed_seconds": 1.9671041666666667,
+  "tail_quantization_seconds": 0.03289583333333333,
+  "gain": 1.7593678426892185,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "b6ac51ff12f47e25165f8f081a763571a3929d90401f43a601c8eb47f8127ad2"
+}

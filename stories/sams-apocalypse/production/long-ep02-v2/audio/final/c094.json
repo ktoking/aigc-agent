@@ -1,0 +1,21 @@
+{
+  "cue_id": "c094",
+  "source_text": "每次只放一份，关内盖，再让外面取。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.857625,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.83,
+  "atempo": 0.9736747205192932,
+  "untruncated_processed_seconds": 1.8355,
+  "tail_quantization_seconds": 0.031166666666666665,
+  "gain": 1.969713633680265,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "2c13c013d7c5319aace635ee563f2bc750dbe58ad2bcbb6fe138e5204bb594d0"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c008",
+  "source_text": "现在全关，损失的可能不止今晚这顿牛排。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 2.15946875,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 2.135,
+  "atempo": 0.9316632078268604,
+  "untruncated_processed_seconds": 2.238,
+  "tail_quantization_seconds": 0.028666666666666667,
+  "gain": 1.97287163290465,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "2856a8cf623a35b5e2406be5a3c3688a0238987c0517e4b1be46927858b46424"
+}

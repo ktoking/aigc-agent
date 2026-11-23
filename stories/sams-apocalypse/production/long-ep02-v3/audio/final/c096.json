@@ -1,0 +1,22 @@
+{
+  "cue_id": "c096",
+  "source_text": "周强问有没有牛排。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.277125,
+  "trim_start_seconds": 0.08,
+  "trim_end_seconds": 1.245,
+  "untruncated_processed_seconds": 1.165,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.4148403529876108,
+  "measured_seconds": 1.1666666666666667,
+  "frames": 35,
+  "samples": 56000,
+  "units": 8,
+  "cps_including_performance": 6.857142857142857,
+  "sha256": "b47ff7421bef5d23909197ce64ab6698b69b8d79776ae975f4a7948bed042618"
+}

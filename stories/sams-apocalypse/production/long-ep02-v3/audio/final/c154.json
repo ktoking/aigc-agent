@@ -1,0 +1,22 @@
+{
+  "cue_id": "c154",
+  "source_text": "周强先看到，扭头就跑。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.68053125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.455,
+  "untruncated_processed_seconds": 2.455,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.5039963651243018,
+  "measured_seconds": 2.466666666666667,
+  "frames": 74,
+  "samples": 118400,
+  "units": 9,
+  "cps_including_performance": 3.6486486486486487,
+  "sha256": "3b071b4c96e4d3e5104e5bfca8c71a1f9481cf204f1febe7af52e1759784db21"
+}

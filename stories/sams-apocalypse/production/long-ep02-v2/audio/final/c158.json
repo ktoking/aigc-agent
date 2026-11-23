@@ -1,0 +1,21 @@
+{
+  "cue_id": "c158",
+  "source_text": "周强跑得掉，门却不会自己搬家。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.857625,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 1.76,
+  "atempo": 1.0143801010493587,
+  "untruncated_processed_seconds": 1.7069375,
+  "tail_quantization_seconds": 0.026395833333333334,
+  "gain": 1.7546576829344065,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "17838dfaf848df77030c83204c483e1114c61aa6a422fb0609617d1245df007b"
+}

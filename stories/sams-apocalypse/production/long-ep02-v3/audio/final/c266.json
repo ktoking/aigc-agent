@@ -1,0 +1,22 @@
+{
+  "cue_id": "c266",
+  "source_text": "地上多了一颗螺丝，检修盖还关着。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.78790625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.78790625,
+  "untruncated_processed_seconds": 2.787916666666667,
+  "tail_quantization_seconds": 0.012083333333333333,
+  "gain": 1.7836716989155859,
+  "measured_seconds": 2.8,
+  "frames": 84,
+  "samples": 134400,
+  "units": 14,
+  "cps_including_performance": 5.0,
+  "sha256": "1ccfd5d4a7a265bf816d5d2b75a052a98c3229d6bb7ac68a19f47c2b9bb163ca"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c031",
+  "source_text": "外面六个人，领头的叫周强。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.567375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.495,
+  "atempo": 1.0112747353888634,
+  "untruncated_processed_seconds": 1.4464791666666668,
+  "tail_quantization_seconds": 0.0201875,
+  "gain": 1.5486665312010413,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "cf26965d0382a7ab97f8a8c69fcd43337953f947310d408b00952ef209f3bf2d"
+}

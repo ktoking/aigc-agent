@@ -1,0 +1,21 @@
+{
+  "cue_id": "c140",
+  "source_text": "许棠没有冲出去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.0333125,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 0.98,
+  "atempo": 1.0324107793153678,
+  "untruncated_processed_seconds": 0.9158125,
+  "tail_quantization_seconds": 0.017520833333333333,
+  "gain": 1.7265085283252377,
+  "measured_seconds": 0.9333333333333333,
+  "frames": 28,
+  "samples": 44800,
+  "units": 7,
+  "cps_including_performance": 7.5,
+  "sha256": "b00216465d028524d0e16bd4cedf655860286fb805ce0aa885115e7733a890fa"
+}

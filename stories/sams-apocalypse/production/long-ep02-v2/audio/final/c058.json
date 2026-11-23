@@ -1,0 +1,21 @@
+{
+  "cue_id": "c058",
+  "source_text": "许棠问我，真要守住这里，最先该搬什么。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.25234375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.205,
+  "atempo": 1.0282067444059249,
+  "untruncated_processed_seconds": 2.1126875,
+  "tail_quantization_seconds": 0.020645833333333332,
+  "gain": 1.5107558456893695,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "f834c7af54797538bf3085f7a8f968d0b0306acdd440ba686d1475c3cee28c48"
+}

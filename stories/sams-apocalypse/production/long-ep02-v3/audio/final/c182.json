@@ -1,0 +1,22 @@
+{
+  "cue_id": "c182",
+  "source_text": "林岚没有顺势问能不能住进来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.1526875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.1526875,
+  "untruncated_processed_seconds": 2.1526875,
+  "tail_quantization_seconds": 0.013979166666666668,
+  "gain": 1.7082974266248587,
+  "measured_seconds": 2.1666666666666665,
+  "frames": 65,
+  "samples": 104000,
+  "units": 13,
+  "cps_including_performance": 6.0,
+  "sha256": "602edcf94c67a4e65be84ccc8e60b2a7bf0f0ecfc4654386d878fa1a77d9d0e6"
+}

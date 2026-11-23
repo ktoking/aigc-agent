@@ -1,0 +1,22 @@
+{
+  "cue_id": "c115",
+  "source_text": "我们没搞满汉全席，也没为省电吃可疑的肉。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.939125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.939125,
+  "untruncated_processed_seconds": 2.939125,
+  "tail_quantization_seconds": 0.027541666666666666,
+  "gain": 1.5897787028338748,
+  "measured_seconds": 2.966666666666667,
+  "frames": 89,
+  "samples": 142400,
+  "units": 18,
+  "cps_including_performance": 6.067415730337078,
+  "sha256": "92e8768703d07f60d1d17be53924c8a100c0514b30051f39a19f3ac66b2f2072"
+}

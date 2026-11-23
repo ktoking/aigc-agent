@@ -1,0 +1,21 @@
+{
+  "cue_id": "c092",
+  "source_text": "包上不写货架位置，也不说剩多少。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7066875,
+  "trim_start_seconds": 0.04,
+  "trim_end_seconds": 1.67,
+  "atempo": 0.8817165524702487,
+  "untruncated_processed_seconds": 1.8421666666666667,
+  "tail_quantization_seconds": 0.0245,
+  "gain": 1.5866464250481072,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "aaeb73aff94054dba14bebadb44637c30a0a44e0034edec85db10f0679def567"
+}

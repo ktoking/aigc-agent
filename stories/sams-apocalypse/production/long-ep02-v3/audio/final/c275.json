@@ -1,0 +1,22 @@
+{
+  "cue_id": "c275",
+  "source_text": "难道我们昨天守住的，只是他们想让我们盯住的那扇门。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.707,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.707,
+  "untruncated_processed_seconds": 3.707,
+  "tail_quantization_seconds": 0.026333333333333334,
+  "gain": 1.6761447007092012,
+  "measured_seconds": 3.7333333333333334,
+  "frames": 112,
+  "samples": 179200,
+  "units": 23,
+  "cps_including_performance": 6.160714285714286,
+  "sha256": "111c39a93cd3861bce07fd56b38df69d8b8ebe58c5164ef4c034211acb9c1917"
+}

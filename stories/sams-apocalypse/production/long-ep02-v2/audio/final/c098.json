@@ -1,0 +1,21 @@
+{
+  "cue_id": "c098",
+  "source_text": "监控里，六份东西出来，他一个人拿走了四份。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 2.1826875,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 2.11,
+  "atempo": 0.8648194794290512,
+  "untruncated_processed_seconds": 2.366791666666667,
+  "tail_quantization_seconds": 0.03320833333333333,
+  "gain": 1.6187040275966242,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "ebe79e15e0ffa26d4735336392c58d3f9629963846b9bec7a329ccb0c8b0677b"
+}

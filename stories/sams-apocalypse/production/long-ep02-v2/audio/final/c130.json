@@ -1,0 +1,21 @@
+{
+  "cue_id": "c130",
+  "source_text": "夜里搬一箱水，不再像宣布开业。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.71828125,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.67,
+  "atempo": 0.956082394092499,
+  "untruncated_processed_seconds": 1.7095416666666667,
+  "tail_quantization_seconds": 0.023791666666666666,
+  "gain": 1.4870452259079527,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "0b62ee2a8b770ade4acac60f398cdb2416e4607d6a12c8fb79b89ccb04befbed"
+}

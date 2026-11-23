@@ -1,0 +1,22 @@
+{
+  "cue_id": "c201",
+  "source_text": "住在山姆听着像人生巅峰，真正的升级，却是学会接受今天比昨天少用一点。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 5.7236875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 5.68,
+  "untruncated_processed_seconds": 5.68,
+  "tail_quantization_seconds": 0.02,
+  "gain": 1.5824106142656653,
+  "measured_seconds": 5.7,
+  "frames": 171,
+  "samples": 273600,
+  "units": 31,
+  "cps_including_performance": 5.43859649122807,
+  "sha256": "9153346afe018b54ac603a887a94150a82d1a9db514b320b7d867ba76d4342df"
+}

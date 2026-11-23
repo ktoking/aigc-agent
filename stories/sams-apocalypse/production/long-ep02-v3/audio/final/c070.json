@@ -1,0 +1,22 @@
+{
+  "cue_id": "c070",
+  "source_text": "今天送出去的水，也必须从这里扣。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.623875,
+  "trim_start_seconds": 0.24,
+  "trim_end_seconds": 2.49,
+  "untruncated_processed_seconds": 2.25,
+  "tail_quantization_seconds": 0.016666666666666666,
+  "gain": 1.5643127346074825,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 14,
+  "cps_including_performance": 6.176470588235294,
+  "sha256": "2c9043175b8ab15028b6a6ad07c00ed1ff55e099bad63a0e66b9e906e5018cbe"
+}

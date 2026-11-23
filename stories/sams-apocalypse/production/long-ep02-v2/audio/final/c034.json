@@ -1,0 +1,21 @@
+{
+  "cue_id": "c034",
+  "source_text": "这么大个超市，你们两个住得完吗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.8111875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.735,
+  "atempo": 0.9060584204832312,
+  "untruncated_processed_seconds": 1.8382916666666667,
+  "tail_quantization_seconds": 0.028375,
+  "gain": 1.2689530773297326,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "b1f39046f8cdc9bc930491688a53fafa32f3ad788c5b52156135714505e04751"
+}

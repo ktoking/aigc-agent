@@ -1,0 +1,21 @@
+{
+  "cue_id": "c205",
+  "source_text": "先活过这一周，再考虑当农场主。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.8111875,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.73,
+  "atempo": 0.9910610182666147,
+  "untruncated_processed_seconds": 1.7091041666666666,
+  "tail_quantization_seconds": 0.024229166666666666,
+  "gain": 1.5960179748294558,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "acb416acba240871c1eb8f6aacca675e3f9eb8d0ed1924577d24724f16c7a1d0"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c005",
+  "source_text": "我第一反应是关掉机器。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.1,
+  "trim_start_seconds": 0.265,
+  "trim_end_seconds": 2.065,
+  "untruncated_processed_seconds": 1.8,
+  "tail_quantization_seconds": 0.0,
+  "gain": 1.642831850494089,
+  "measured_seconds": 1.8,
+  "frames": 54,
+  "samples": 86400,
+  "units": 10,
+  "cps_including_performance": 5.555555555555555,
+  "sha256": "1501370e26e8f5d208b75cc890b4115c750c719689f24a17b829c6f8dbb2f95a"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c183",
+  "source_text": "临走前，她只说了一句，侧墙那扇门晚上有人去过，不止今天这一次。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 3.70359375,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 3.62,
+  "atempo": 0.993858179787828,
+  "untruncated_processed_seconds": 3.5719166666666666,
+  "tail_quantization_seconds": 0.02808333333333333,
+  "gain": 1.8655300311907201,
+  "measured_seconds": 3.6,
+  "frames": 108,
+  "samples": 172800,
+  "units": 27,
+  "cps_including_performance": 7.5,
+  "sha256": "7de9fdab7a82fb496e33e898021bb6155e8b1e86b7ed5d5f7c8b0948ad07cfc8"
+}

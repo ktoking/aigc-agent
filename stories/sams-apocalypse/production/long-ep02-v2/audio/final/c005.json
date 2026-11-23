@@ -1,0 +1,21 @@
+{
+  "cue_id": "c005",
+  "source_text": "我第一反应是关掉机器。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.2190625,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.185,
+  "atempo": 0.8819057273188039,
+  "untruncated_processed_seconds": 1.305,
+  "tail_quantization_seconds": 0.028333333333333332,
+  "gain": 1.6081098061877628,
+  "measured_seconds": 1.3333333333333333,
+  "frames": 40,
+  "samples": 64000,
+  "units": 10,
+  "cps_including_performance": 7.5,
+  "sha256": "28263ae230867d7873e59766c382e23ef0200e5985f7959923d0b36fbb099b9d"
+}

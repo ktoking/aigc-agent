@@ -1,0 +1,21 @@
+{
+  "cue_id": "c133",
+  "source_text": "那个跟着周强的黑夹克，绕到了侧墙。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9969375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.885,
+  "atempo": 0.9384460141271443,
+  "untruncated_processed_seconds": 1.9720416666666667,
+  "tail_quantization_seconds": 0.027958333333333335,
+  "gain": 1.5740816803327689,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "9dfecb3ff4771cbd44932013328f7d9c33f1fda8ec88b91e7bc6c314c7043e36"
+}

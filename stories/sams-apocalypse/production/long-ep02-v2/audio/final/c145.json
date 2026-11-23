@@ -1,0 +1,21 @@
+{
+  "cue_id": "c145",
+  "source_text": "不如让他们住进来，一起守。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7066875,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.65,
+  "atempo": 1.1217211228716062,
+  "untruncated_processed_seconds": 1.455125,
+  "tail_quantization_seconds": 0.011541666666666667,
+  "gain": 1.7714973260509017,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "bf58cece0282f739eb55191e2c83b3675d5e53719e4319bbdba4c60cc158832e"
+}

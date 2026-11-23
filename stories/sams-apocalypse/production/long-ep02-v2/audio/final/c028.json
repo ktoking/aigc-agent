@@ -1,0 +1,21 @@
+{
+  "cue_id": "c028",
+  "source_text": "再看监控，灰外套身后又多了几个人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9969375,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.945,
+  "atempo": 0.958627648839556,
+  "untruncated_processed_seconds": 1.9746875,
+  "tail_quantization_seconds": 0.0253125,
+  "gain": 1.512644514751289,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "748927a679b92b0aad19502566f84f5855abdc3e875524082fffdc8432b13ac7"
+}

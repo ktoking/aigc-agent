@@ -1,0 +1,22 @@
+{
+  "cue_id": "c068",
+  "source_text": "先前清点的十八箱水，只是两排货架的家底。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.19275,
+  "trim_start_seconds": 0.335,
+  "trim_end_seconds": 2.855,
+  "untruncated_processed_seconds": 2.52,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.4359082302293928,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 18,
+  "cps_including_performance": 7.105263157894737,
+  "sha256": "d2fb7b1ae4841522f1ef34ddc42049f381d977b4c2bee033bfe53c9686ee6c46"
+}

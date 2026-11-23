@@ -1,0 +1,22 @@
+{
+  "cue_id": "c008",
+  "source_text": "现在全关，损失的可能不止今晚这顿牛排。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.08828125,
+  "trim_start_seconds": 0.29,
+  "trim_end_seconds": 2.79,
+  "untruncated_processed_seconds": 2.5,
+  "tail_quantization_seconds": 0.0,
+  "gain": 1.642077181857373,
+  "measured_seconds": 2.5,
+  "frames": 75,
+  "samples": 120000,
+  "units": 17,
+  "cps_including_performance": 6.8,
+  "sha256": "4c0a3ad0b33a8c80f7db168e9c5af76343a426bc2d52e90d7c9d47084f086ce5"
+}

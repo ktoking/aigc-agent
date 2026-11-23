@@ -1,0 +1,22 @@
+{
+  "cue_id": "c239",
+  "source_text": "我们没有出去赶人，也没把食物摆在外面当诱饵。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.30265625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.30265625,
+  "untruncated_processed_seconds": 3.3026666666666666,
+  "tail_quantization_seconds": 0.030666666666666665,
+  "gain": 1.7173621601236435,
+  "measured_seconds": 3.3333333333333335,
+  "frames": 100,
+  "samples": 160000,
+  "units": 20,
+  "cps_including_performance": 6.0,
+  "sha256": "a15905512219ed8e86768cd0839a3a2807536aba7f0fc039a1ac6a407607e0d8"
+}

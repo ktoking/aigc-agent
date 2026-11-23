@@ -1,0 +1,22 @@
+{
+  "cue_id": "c089",
+  "source_text": "能送水，也不等于该把整仓库都搬出去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.19275,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 2.9,
+  "untruncated_processed_seconds": 2.62,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.6235633712178414,
+  "measured_seconds": 2.6333333333333333,
+  "frames": 79,
+  "samples": 126400,
+  "units": 16,
+  "cps_including_performance": 6.075949367088608,
+  "sha256": "bd827c5f660fd420170533d7f586de2b9feb23c3ba833cd036e1323b2796d1d8"
+}

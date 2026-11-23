@@ -1,0 +1,21 @@
+{
+  "cue_id": "c088",
+  "source_text": "卷帘门不用动。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 0.87075,
+  "trim_start_seconds": 0.015,
+  "trim_end_seconds": 0.805,
+  "atempo": 1.010230179028133,
+  "untruncated_processed_seconds": 0.7786041666666667,
+  "tail_quantization_seconds": 0.021395833333333333,
+  "gain": 1.6571447680021085,
+  "measured_seconds": 0.8,
+  "frames": 24,
+  "samples": 38400,
+  "units": 6,
+  "cps_including_performance": 7.5,
+  "sha256": "c3ed9e4e327a8f3d14d8d36e572c38c93dc566699bea733e9097f236cb289b0c"
+}

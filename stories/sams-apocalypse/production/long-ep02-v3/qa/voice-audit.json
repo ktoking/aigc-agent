@@ -1,0 +1,23 @@
+{
+  "cues": 276,
+  "characters": 4229,
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "duration_seconds": 762.8666666666667,
+  "source_words_preserved": true,
+  "caption_commas_replaced_by_spaces": true,
+  "caption_full_stops_removed": true,
+  "independent_srt_vtt": false,
+  "automated_transcription_cues": 276,
+  "context_rechecked_cues": [
+    "c084",
+    "c102",
+    "c142",
+    "c165",
+    "c259",
+    "c263"
+  ],
+  "human_full_listening": "NOT_RUN"
+}

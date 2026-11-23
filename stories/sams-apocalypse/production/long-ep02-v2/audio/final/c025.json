@@ -1,0 +1,21 @@
+{
+  "cue_id": "c025",
+  "source_text": "我把半箱冰淇淋划掉时，心疼得像亲手辞退自己。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.623875,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 2.58,
+  "atempo": 0.9570853259501636,
+  "untruncated_processed_seconds": 2.6398125,
+  "tail_quantization_seconds": 0.026854166666666665,
+  "gain": 1.3307925048642013,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "ee25f289fc53c5439c2d710d3a82eba0c689efc162f376a998fccd49fc90ade4"
+}

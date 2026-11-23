@@ -1,0 +1,21 @@
+{
+  "cue_id": "c036",
+  "source_text": "我看着他身后紧闭的卷帘门，想起店长那圈牙印。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.39165625,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 2.32,
+  "atempo": 0.862698212937327,
+  "untruncated_processed_seconds": 2.6371875,
+  "tail_quantization_seconds": 0.029479166666666667,
+  "gain": 1.4267226090950644,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "9502a2f49b2fbf7de2f6c69cc56912c4f2ff73e9fa67d77a2c7939ec63e33858"
+}

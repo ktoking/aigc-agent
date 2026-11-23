@@ -1,0 +1,22 @@
+{
+  "cue_id": "c040",
+  "source_text": "我只问了一遍。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.38159375,
+  "trim_start_seconds": 0.295,
+  "trim_end_seconds": 1.085,
+  "untruncated_processed_seconds": 0.79,
+  "tail_quantization_seconds": 0.01,
+  "gain": 1.0864220851368394,
+  "measured_seconds": 0.8,
+  "frames": 24,
+  "samples": 38400,
+  "units": 6,
+  "cps_including_performance": 7.5,
+  "sha256": "e6e8438557a6efce795100d93c15ed172f97a4fd47466dc99dddc180c935707a"
+}

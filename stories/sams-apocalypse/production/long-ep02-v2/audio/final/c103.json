@@ -1,0 +1,21 @@
+{
+  "cue_id": "c103",
+  "source_text": "林岚，你们拿到没有。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.01009375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 0.95,
+  "atempo": 0.882072472981564,
+  "untruncated_processed_seconds": 1.0371875,
+  "tail_quantization_seconds": 0.029479166666666667,
+  "gain": 1.725563296490812,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "2f17c58fce6e76a880c320170cee1a7bac23b350b3f5d4c72ab89002cd4276f1"
+}

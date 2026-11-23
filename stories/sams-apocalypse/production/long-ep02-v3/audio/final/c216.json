@@ -1,0 +1,22 @@
+{
+  "cue_id": "c216",
+  "source_text": "他说今晚不开门，就让整条街都知道我们有吃的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.86221875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.86221875,
+  "untruncated_processed_seconds": 2.862229166666667,
+  "tail_quantization_seconds": 0.0044375,
+  "gain": 1.3511765424601136,
+  "measured_seconds": 2.8666666666666667,
+  "frames": 86,
+  "samples": 137600,
+  "units": 20,
+  "cps_including_performance": 6.976744186046512,
+  "sha256": "9c7f833a14ebddfcee79cb893f91cd42748a80296ba2a673deb63c348fd9216d"
+}

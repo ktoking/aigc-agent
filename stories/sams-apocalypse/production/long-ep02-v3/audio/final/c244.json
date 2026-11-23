@@ -1,0 +1,22 @@
+{
+  "cue_id": "c244",
+  "source_text": "剩下的数量没有神奇变多，可每样东西放在哪，我终于心里有底。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.57565625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.57565625,
+  "untruncated_processed_seconds": 4.575666666666667,
+  "tail_quantization_seconds": 0.024333333333333332,
+  "gain": 1.7578709148151823,
+  "measured_seconds": 4.6,
+  "frames": 138,
+  "samples": 220800,
+  "units": 26,
+  "cps_including_performance": 5.6521739130434785,
+  "sha256": "42edfaa08f11adeda9e1ca47c5429a387a1bb5a5a0f2bde406541fe8dea78e19"
+}

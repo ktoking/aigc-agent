@@ -1,0 +1,1974 @@
+[
+  {
+    "id": "p001",
+    "file": "assets/p001-v2.png",
+    "sha256": "e5889b219d20eda70068164d19f0ef479cd12c70ef3223b28886a1cd81a05fd9",
+    "generation": {
+      "id": "p001",
+      "args": {
+        "prompt": "Use case: precise-object-edit. 参考1是要精确编辑的电影剧照，参考2只取最前方灰夹克中年男人周强的演员身份。只替换参考1主监控屏幕里举纸板的男人的脸与发型，使其成为参考2最前方那位约42岁、整齐短黑发、方脸、灰夹克的同一个中国中年男人，带一点有恃无恐的笑。不得再是卷发年轻人。保留纸板上四个字“知道有人”、手部举牌动作、屏幕内停车场夜景、二维监控边界。房间里两名主角的脸、衣服、姿态、道具、机位、光线全部保持原样，房间里只能有原来的男女主；不把参考2其他人带入。横向16:9，干净干燥真实末日电影剧照，无新增画内字幕，无边框水印，不修改其他监控画面。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/assets/p001.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8fe4849b-6621-4b70-9964-bd8590bd9b68.png",
+      "reason": "monitor actor identity continuity"
+    }
+  },
+  {
+    "id": "p002",
+    "file": "assets/p002.png",
+    "sha256": "b3e935cfd19e7290dd1ab5ebd2d4aa853ec65585a5103fe6964802ec762dd72f",
+    "generation": {
+      "id": "p002",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：男主是该中性参考中同一约30岁男子，青绿针织帽、黄帽衫、深蓝马甲、深灰裤。许棠是中性参考中同一26岁低马尾女性，橘色维修夹克、灰衣、深灰工装裤。 当前时段：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头内容依据：上面只有四个字：知道有人。发电机救了冷库，也把我们暴露了。我第一反应是关掉机器。许棠按住我的手，让我先看温度记录。。连续性空间提示：深夜监控室，男女主盯着停车场监视器，屏幕中一名灰色外套男子仰头直视摄像头，男子仅在屏幕内。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-fa528ac1-6238-46fe-8b26-f130a427f42b.png"
+    }
+  },
+  {
+    "id": "p003",
+    "file": "assets/p003.png",
+    "sha256": "4b6fa0bf117bf7b8f819afaca6900e47efc3292a3f52b33fc03dcce91861035b",
+    "generation": {
+      "id": "p003",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：男主是该中性参考中同一约30岁男子，青绿针织帽、黄帽衫、深蓝马甲、深灰裤。许棠是中性参考中同一26岁低马尾女性，橘色维修夹克、灰衣、深灰工装裤。 当前时段：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头内容依据：许棠按住我的手，让我先看温度记录。停电前后，冷库已经升了温。现在全关，损失的可能不止今晚这顿牛排。。连续性空间提示：头灯照明的设备控制间，许棠指着现有控制面板，男主握着负载清单。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。从侧后方或过肩角度的中近景，明确视线落点。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a7ce7a47-c52d-40d2-a007-c0d69a40003c.png"
+    }
+  },
+  {
+    "id": "p004",
+    "file": "assets/p004.png",
+    "sha256": "6d21a468650223c209e5e952def5f4f1e7d9c1d59409e72726f72a9ec2745421",
+    "generation": {
+      "id": "p004",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：许棠是中性参考中同一26岁低马尾女性，橘色维修夹克、灰衣、深灰工装裤。 当前时段：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头内容依据：现在全关，损失的可能不止今晚这顿牛排。她没有拿棉被去捂发电机。那东西要散热，还要排废气。我们能做的，是减少负载和开机时间。。连续性空间提示：独立有外部通风的原设备机房隔着关闭的观察窗，许棠在室内控制侧观察，无人触碰发动机。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。单一人物反应近景，用表情与画外空间推进张力。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5fff47a8-5478-4186-aa76-0c20a0f6f734.png"
+    }
+  },
+  {
+    "id": "p005",
+    "file": "assets/p005.png",
+    "sha256": "c3a327ab2a7eadfc5c1af68f4990828f4abf2475cc3d424eb3b3d5f5c308670d",
+    "generation": {
+      "id": "p005",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：许棠是中性参考中同一26岁低马尾女性，橘色维修夹克、灰衣、深灰工装裤。 当前时段：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头内容依据：我们能做的，是减少负载和开机时间。想让整家山姆继续营业，那点油根本不够。我第一次发现，囤得多也会变成负担。。连续性空间提示：独立有外部通风的原设备机房隔着关闭的观察窗，许棠在室内控制侧观察，无人触碰发动机。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。稍广的建立镜头，明确空间边界与人物距离。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-09ca3832-8623-4fe5-a8be-e73edf4505f6.png"
+    }
+  },
+  {
+    "id": "p006",
+    "file": "assets/p006.png",
+    "sha256": "3ad64e1cc4dcfb481e2efbc0a957932ee8948e55fec042f09b8eb92331184cb2",
+    "generation": {
+      "id": "p006",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：男主是该中性参考中同一约30岁男子，青绿针织帽、黄帽衫、深蓝马甲、深灰裤。 当前时段：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头内容依据：一排排冷柜，都在等着喝油。我舍不得的那些东西，正在和监控抢最后一点电。。连续性空间提示：男主用头灯检查冷藏区，面前是完整关闭的冷柜和手持温度计，背景卖场灯关闭。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-345b1b75-c5b4-45eb-b812-bce910a2dc0f.png"
+    }
+  },
+  {
+    "id": "p007",
+    "file": "assets/p007.png",
+    "sha256": "f5e60d03c2acdc842e5a3ad60af553ff4e187ae1ecdb60557b3f2ac159562c56",
+    "generation": {
+      "id": "p007",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：可惜现在没人替我付电费。我们只保留一间小冷库。还能确认安全的食物集中过去，其余按温度记录处理。。空间连续性提示：冷库外两人将未开封小批食品放在推车上，门已关闭，保温箱及温度记录本可见。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-321f5f96-6451-4de7-9035-2b87e5081519.png"
+    }
+  },
+  {
+    "id": "p008",
+    "file": "assets/p008.png",
+    "sha256": "58131e435735350bd6f94825d4f6e61d53ec1fdf3cced2101471bc9eef9f3a05",
+    "generation": {
+      "id": "p008",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：还能确认安全的食物集中过去，其余按温度记录处理。许棠拦下我手里的肉。闻着没坏，不等于还能吃。我只好放回去。监控和对讲暂时接原有备用电池。。空间连续性提示：冷库外两人将未开封小批食品放在推车上，门已关闭，保温箱及温度记录本可见。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6fd163ec-4661-4706-8a4a-8f765460ee12.png"
+    }
+  },
+  {
+    "id": "p009",
+    "file": "assets/p009.png",
+    "sha256": "b519d07250fd42bd3585c621df1c424a0adfda43832f0e925fbeec58cce3cdc3",
+    "generation": {
+      "id": "p009",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：监控和对讲暂时接原有备用电池。卖场照明全关。我们记下油量和实际负载，再按温度决定何时开机。。空间连续性提示：监控室桌面有记录本和小型电池备用电源，两人把非必要设备插头断开，无文字特写。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d81971a3-3e03-4fb6-917f-19b483ac4519.png"
+    }
+  },
+  {
+    "id": "p010",
+    "file": "assets/p010.png",
+    "sha256": "3f3e3a25571181134c4ce8d56dec8b47da08cfc69b13543c38abfdf5d63db498",
+    "generation": {
+      "id": "p010",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：我把半箱冰淇淋划掉时，心疼得像亲手辞退自己。机器停下，外面安静了一阵。。空间连续性提示：监控室桌面有记录本和小型电池备用电源，两人把非必要设备插头断开，无文字特写。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2cd94e3e-2afc-460d-96b7-d17372779792.png"
+    }
+  },
+  {
+    "id": "p011",
+    "file": "assets/p011.png",
+    "sha256": "ae4ddcc6082af60eef3c95175ce148fde52852f642727b5c775f5542ba15b524",
+    "generation": {
+      "id": "p011",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天刚亮的柔和冷色天光。本镜头承载这段旁白：我以为那些人会走。再看监控，灰外套身后又多了几个人。他们没去找车，反而沿着墙，摸向了我们的卸货门。。空间连续性提示：男主在监控室抬头看屏幕，停车场监控中灰外套男人旁多出几名成人，室内仅男主。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-965f5392-c1be-4fa6-ab03-0ee7c0914f04.png"
+    }
+  },
+  {
+    "id": "p012",
+    "file": "assets/p012.png",
+    "sha256": "6309cbf6cc094323cb2d42f92ccf50d06f9a943e574449e0bf1b6f323edcdd2d",
+    "generation": {
+      "id": "p012",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：他们没去找车，反而沿着墙，摸向了我们的卸货门。天刚亮，对讲机就响了。外面六个人，领头的叫周强。他说他们一整天没吃东西，只想借个地方躲。。空间连续性提示：白天微亮的干燥卸货区，灰外套中年男人周强站在最前，身后五名成年幸存者，卷帘门完全关闭。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5d7ca956-02ae-4fd7-8814-519ec65b08de.png"
+    }
+  },
+  {
+    "id": "p013",
+    "file": "assets/p013.png",
+    "sha256": "cc5103b56dd1e77c6198b5bd68e73eb4451ae11f3aafb9687c34b24914581fdd",
+    "generation": {
+      "id": "p013",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：他说他们一整天没吃东西，只想借个地方躲。我还没回答，他已经替所有人做了决定。这么大个超市，你们两个住得完吗。。空间连续性提示：白天微亮的干燥卸货区，灰外套中年男人周强站在最前，身后五名成年幸存者，卷帘门完全关闭。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-853db8d1-bb8a-4a3a-b930-599d984b40ac.png"
+    }
+  },
+  {
+    "id": "p014",
+    "file": "assets/p014.png",
+    "sha256": "0ea046c4e89f50bf385162de49f258390ebb84f54f37d4e16ce3f1aace38c076",
+    "generation": {
+      "id": "p014",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：这么大个超市，你们两个住得完吗。他朝摄像头喊，吃的又不是你的。我看着他身后紧闭的卷帘门，想起店长那圈牙印。。空间连续性提示：男主在关闭的内侧门后握着对讲机，眼神警觉，没人进入缓冲间。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0841b1bf-ba82-4623-9253-d2c511243caa.png"
+    }
+  },
+  {
+    "id": "p015",
+    "file": "assets/p015.png",
+    "sha256": "faffb2cf65d688c2634e534658bc54428d8ce5b395e9193f3a1830de76082acd",
+    "generation": {
+      "id": "p015",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：手始终没碰开门键。许棠把纸推过来，要我先问人数和伤情。周强打断她，说都什么时候了，还搞登记。。空间连续性提示：许棠在监控室把纸笔推给画外男主，桌边对讲机，门关闭。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-45d76733-36a6-49c9-a30d-1dbc65e36db5.png"
+    }
+  },
+  {
+    "id": "p016",
+    "file": "assets/p016.png",
+    "sha256": "f5d754a295b4f8e5137876ef9c24cee57743f438257408c85d2cc206a18549d6",
+    "generation": {
+      "id": "p016",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：周强打断她，说都什么时候了，还搞登记。我只问了一遍。六个人里，有没有人被咬伤，或者发热。他没有回答，反倒开始拍门。。空间连续性提示：许棠在监控室把纸笔推给画外男主，桌边对讲机，门关闭。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-70201eb6-d191-4112-8179-3c5f4a918af5.png"
+    }
+  },
+  {
+    "id": "p017",
+    "file": "assets/p017.png",
+    "sha256": "966f1c63f0c2c8aede5f6e4af30cedd85571f3c9551342823bd4a44f831d816b",
+    "generation": {
+      "id": "p017",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：他没有回答，反倒开始拍门。里面有年轻姑娘吧，她忍心看着我们饿死吗。我听得火往上冒。许棠却把对讲音量调小，说别让他替你决定怎么活。。空间连续性提示：周强在关闭卸货门外向监控镜头扬手，另有一名黑夹克男子提工具袋，其他成人后退。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-46050d0c-f1ea-4ed9-9598-5609d4ebc53b.png"
+    }
+  },
+  {
+    "id": "p018",
+    "file": "assets/p018.png",
+    "sha256": "bcc7651bd06712cb16e46f4caf0f69e5d3bef6f63609dd07faeee75e1bbe8985",
+    "generation": {
+      "id": "p018",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：许棠却把对讲音量调小，说别让他替你决定怎么活。我说可以给一份应急食物，但不接纳整队人。。空间连续性提示：室内男主与许棠隔桌讨论，窗帘遮光，桌上小包饼干瓶装水和两只对讲机。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-66bbcfda-f202-407d-85de-a6167cb75fc2.png"
+    }
+  },
+  {
+    "id": "p019",
+    "file": "assets/p019.png",
+    "sha256": "efea3071a4f354c5134a17dd48b7be9113951f0311273ce9ac355f572f24a767",
+    "generation": {
+      "id": "p019",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：放下手里的工具，离开门口，我们再想办法送。周强立刻换了语气。既然肯给，开一道缝不就完了。。空间连续性提示：室内男主与许棠隔桌讨论，窗帘遮光，桌上小包饼干瓶装水和两只对讲机。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-94f98c7f-3def-41e6-81b5-ce139e097b47.png"
+    }
+  },
+  {
+    "id": "p020",
+    "file": "assets/p020.png",
+    "sha256": "32a6dbb0c422429bb55ea5cca29a73c058a8243a6528bbd8e60149ed18f93280",
+    "generation": {
+      "id": "p020",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我盯着内门的插销，突然明白了。他想要的不是这顿饭，是让我先把规则破一次。。空间连续性提示：近景男主手掌压在内门插销边但不拉动，外侧卷帘门通过窄窗可见并关闭。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f630d5ed-7917-4985-bcfa-8ec915b5c01e.png"
+    }
+  },
+  {
+    "id": "p021",
+    "file": "assets/p021.png",
+    "sha256": "9780dba6af41b08c79c61f8a90643bb1224a82cfec7c2fa9420e1962c6877db7",
+    "generation": {
+      "id": "p021",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我告诉他，送东西和开门是两回事。门外一下没了声音。接着，一个戴眼镜的女人走到镜头下。。空间连续性提示：近景男主手掌压在内门插销边但不拉动，外侧卷帘门通过窄窗可见并关闭。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b9a5e680-c2b6-46bd-b09b-72420a371579.png"
+    }
+  },
+  {
+    "id": "p022",
+    "file": "assets/p022.png",
+    "sha256": "4912ef05de66759deb799d3dc903cae9f5151cae77a41e3558403e3deef181b6",
+    "generation": {
+      "id": "p022",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：她叫林岚，带着父亲。她没催我开门，只问能不能给两瓶水。我第一次注意到，这六个人并不是一条心。。空间连续性提示：卸货门外戴眼镜的成年女性林岚牵着一位老人退开，与周强拉开距离，无儿童。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7e18984e-f29d-42f4-bf42-5a9113dc725f.png"
+    }
+  },
+  {
+    "id": "p023",
+    "file": "assets/p023.png",
+    "sha256": "65fa80aa699d0028134fbf9ca104f2a1ac01e22bfbafed6d7e575df2bdde2079",
+    "generation": {
+      "id": "p023",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我第一次注意到，这六个人并不是一条心。许棠问我，真要守住这里，最先该搬什么。我脱口而出，大米。她摇头，把床指给我看。。空间连续性提示：员工休息区，两人在桌边画简明空间草图，墙边两张露营床，暖色便携灯。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-29d25be5-8779-44a6-8ceb-c2e17fcbf105.png"
+    }
+  },
+  {
+    "id": "p024",
+    "file": "assets/p024.png",
+    "sha256": "323f34d339bc4bff55134c223395448b0cf9c87493a1954b26df857f886fa74a",
+    "generation": {
+      "id": "p024",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我们睡在监控室旁边，一旦卸货通道出事，连退路都没有。我选了靠内墙的一块货架区，离外窗远，能通往两条内侧通道。。空间连续性提示：员工休息区，两人在桌边画简明空间草图，墙边两张露营床，暖色便携灯。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-39ac303c-35e4-4d65-bdbf-7f82de368828.png"
+    }
+  },
+  {
+    "id": "p025",
+    "file": "assets/p025.png",
+    "sha256": "74da2f036a4f0b72be28f0b13a7ba46d5a6a62ea963b5362d6dcf287fcce30b0",
+    "generation": {
+      "id": "p025",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我选了靠内墙的一块货架区，离外窗远，能通往两条内侧通道。以前这里只堆纸品。现在它得装下我们的床、饮水，还有半夜惊醒之后能伸手摸到的东西。。空间连续性提示：男主在内部仓储货架间查看一小块靠内墙的空地，蓝柱橙梁，干净地面。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2dcb773c-a0b1-4671-a9a1-d5ac04deef63.png"
+    }
+  },
+  {
+    "id": "p026",
+    "file": "assets/p026.png",
+    "sha256": "36b843ef63aba2edc3853480d83a58f432241b7a4aaddeec3f8ac1d024b8e257",
+    "generation": {
+      "id": "p026",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：现在它得装下我们的床、饮水，还有半夜惊醒之后能伸手摸到的东西。重箱放低处，轻物上架，主通道留出来。我本来想用货架把门堵死，许棠问，着火了你从哪走。。空间连续性提示：男女主在货架低处整理整箱物资，保持中央通道畅通，不攀爬不悬挂重物。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a77f2880-9e21-4c12-aead-1074926ef9f9.png"
+    }
+  },
+  {
+    "id": "p027",
+    "file": "assets/p027.png",
+    "sha256": "9201cd5eb79588757fc7297c0ed78c4f31adb25e23feac23a2b7ad8820a0a44d",
+    "generation": {
+      "id": "p027",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我本来想用货架把门堵死，许棠问，着火了你从哪走。我把刚推过去的架子，又老老实实拉了回来。。空间连续性提示：男女主在货架低处整理整箱物资，保持中央通道畅通，不攀爬不悬挂重物。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-44c3a629-f9ee-4b07-bdaf-257a38f0b33b.png"
+    }
+  },
+  {
+    "id": "p028",
+    "file": "assets/p028.png",
+    "sha256": "1ba7d62c1b6225a56d5c75cc6b97183197b4fa31a4318847592f05cfd0cbf793",
+    "generation": {
+      "id": "p028",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：先前清点的十八箱水，只是两排货架的家底。我重新核对已拆的箱子，把喝掉的、给许棠的，都记进去。。空间连续性提示：男主在新生活区整理少量饮用水罐头和开启的一袋米，旁边账本，不显总库存数字。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0071e36e-4b15-468c-a309-9aa6978abbef.png"
+    }
+  },
+  {
+    "id": "p029",
+    "file": "assets/p029.png",
+    "sha256": "306fdd7dbda8a278674af06cdcb6e1a003f805f81bd02e3968636be353563e2e",
+    "generation": {
+      "id": "p029",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：今天送出去的水，也必须从这里扣。许棠负责电池和灯。我负责把常温食物按日期排好。。空间连续性提示：许棠在干净货架边整理电池头灯充电宝，分成两只开放收纳盒，桌上记录纸。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f23171b0-4b5b-429d-8d41-0869c448fc2c.png"
+    }
+  },
+  {
+    "id": "p030",
+    "file": "assets/p030.png",
+    "sha256": "d36eedad18c4c5bc638a14c83abf3ab8d702b09c80a540e38e9ec0ff5bf11fe8",
+    "generation": {
+      "id": "p030",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：拆开的放前面，备用的别乱动。以前嫌盘点麻烦，现在少一支手电，都可能让我们摸黑找半天。。空间连续性提示：许棠在干净货架边整理电池头灯充电宝，分成两只开放收纳盒，桌上记录纸。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-24257399-5ca2-4d7f-ba37-10f89056d49e.png"
+    }
+  },
+  {
+    "id": "p031",
+    "file": "assets/p031.png",
+    "sha256": "a6097a4c59ce62ae2da509238daa529c8bcc39689ee5291b7da2e622f8d78d45",
+    "generation": {
+      "id": "p031",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：以前嫌盘点麻烦，现在少一支手电，都可能让我们摸黑找半天。外面能看见的地方，我们尽量不亮灯。生活区隔出吃饭和休息的位置，垃圾单独封好。。空间连续性提示：两人将纸箱屏风放在生活区外侧遮挡视线，留通道口，暖灯只照小桌不照外窗。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f004e3a0-f87b-4eaa-91f6-f79d1a2c7937.png"
+    }
+  },
+  {
+    "id": "p032",
+    "file": "assets/p032.png",
+    "sha256": "35e79495dbb0317084ca94f8c99e082b0b29b8cc1f7613e23a0a72195a0b0c4a",
+    "generation": {
+      "id": "p032",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：没花一分钱，却忙得像刚买了套房。只是物业和邻居，都不太正常。我们把两份应急背包放在通道口，不锁进柜子。。空间连续性提示：两人将纸箱屏风放在生活区外侧遮挡视线，留通道口，暖灯只照小桌不照外窗。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6898d34b-6c5e-45b5-9676-5a5ae2ec7a35.png"
+    }
+  },
+  {
+    "id": "p033",
+    "file": "assets/p033.png",
+    "sha256": "b130d7ac2615f5182649e80aaa2da06c106c3f55dc4738291444ec0ad38a77a7",
+    "generation": {
+      "id": "p033",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我们把两份应急背包放在通道口，不锁进柜子。许棠试走了一遍，才肯坐下。我看着那两张并排的床，第一次觉得，这里有点像能过日子的地方。。空间连续性提示：新生活区完成状态，两张露营床一张小桌、分类物资整齐，男女主坐着短暂喘息。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9b426af0-4b45-474c-a0f0-28d6e897a6b7.png"
+    }
+  },
+  {
+    "id": "p034",
+    "file": "assets/p034.png",
+    "sha256": "05ab2a1f234869d6b9c555b95bd9593eb9c37c0f55d492d363805b36c01d851d",
+    "generation": {
+      "id": "p034",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我看着那两张并排的床，第一次觉得，这里有点像能过日子的地方。午后，门外又在催。我翻出收货区的旧图纸，发现墙里有只传票据的小铁盒。。空间连续性提示：男主在室内收货区寻找旧图纸，指向厚墙上旧双盖票据传递盒，所有通道门关闭。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-56d9d624-8c01-4089-b9a1-35719f5ec815.png"
+    }
+  },
+  {
+    "id": "p035",
+    "file": "assets/p035.png",
+    "sha256": "61ae6b16b4dac4648b028b6be3a3dea750d8d2a30dc84f570a65189b40598639",
+    "generation": {
+      "id": "p035",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我翻出收货区的旧图纸，发现墙里有只传票据的小铁盒。它不通人，里外各有一个盖子。以前我天天路过，连正眼都没看过。。空间连续性提示：男主在室内收货区寻找旧图纸，指向厚墙上旧双盖票据传递盒，所有通道门关闭。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b712b5e3-f5d6-4f85-ae59-e27f07edbacf.png"
+    }
+  },
+  {
+    "id": "p036",
+    "file": "assets/p036.png",
+    "sha256": "d81cecebe545fb528803a39d20b293f4e92cd64ef1c94869b6283e25034ccdf4",
+    "generation": {
+      "id": "p036",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：许棠先检查盒子的固定和外盖。我们做了空盒测试，确认一边关严，另一边才打开。。空间连续性提示：近景两人检查墙内已有的小型金属传递盒，内盖打开外盖明确关闭，盒子容量仅两瓶水。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7ba04713-983a-4051-a375-92ffda1494bb.png"
+    }
+  },
+  {
+    "id": "p037",
+    "file": "assets/p037.png",
+    "sha256": "a8483dcfcf3beb6bb658ca1fb28609183c51289a7a364290d6d5bc2bce9c2c44",
+    "generation": {
+      "id": "p037",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：卷帘门不用动。能送水，也不等于该把整仓库都搬出去。我装了六份小包，每份一瓶水和一点饼干。。空间连续性提示：近景两人检查墙内已有的小型金属传递盒，内盖打开外盖明确关闭，盒子容量仅两瓶水。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d16d8349-aef0-4979-af00-ef2dbb71e7fb.png"
+    }
+  },
+  {
+    "id": "p038",
+    "file": "assets/p038.png",
+    "sha256": "60ffec722202ae61a96a8f223ad80406c38b600c3124dc516cb42cdacaa53758",
+    "generation": {
+      "id": "p038",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：不是承诺长期供养，是先给他们喘口气。包上不写货架位置，也不说剩多少。说多了，连好心都会变成价目表。。空间连续性提示：男主在桌上装应急食品包，六小份饼干六瓶水，账本旁有划记，不放药品。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-81d27e8c-0a97-4969-9519-4f323ff193ce.png"
+    }
+  },
+  {
+    "id": "p039",
+    "file": "assets/p039.png",
+    "sha256": "c99a17cb9535f946d18db6c095c050fe7d2dda013b7ef0600f5bf4c05672930d",
+    "generation": {
+      "id": "p039",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：说多了，连好心都会变成价目表。每次只放一份，关内盖，再让外面取。对讲里，我把规则说得清清楚楚。。空间连续性提示：室内近景男主将一小包水饼干放入小传递盒，外盖关闭，只有双手一份包。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ee0453f3-868d-479a-a8d1-df9ae64f3e33.png"
+    }
+  },
+  {
+    "id": "p040",
+    "file": "assets/p040.png",
+    "sha256": "e3c9c93ca5d39cd7f77e6cdb11445e0143f68966fbc130bf2c909590b7b73a0f",
+    "generation": {
+      "id": "p040",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：周强问有没有牛排。我看了眼自己碗里的压缩饼干，差点被气笑。监控里，六份东西出来，他一个人拿走了四份。。空间连续性提示：室内近景男主将一小包水饼干放入小传递盒，外盖关闭，只有双手一份包。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5781a8a5-5c96-4b33-9003-2c8228828368.png"
+    }
+  },
+  {
+    "id": "p041",
+    "file": "assets/p041.png",
+    "sha256": "6fa5bdf9a44d24d564b96fe3b3766b259617fc646b127309c72019489f43ddcf",
+    "generation": {
+      "id": "p041",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：监控里，六份东西出来，他一个人拿走了四份。林岚伸手，他说先统一保管。跟着他就有饭吃，不听安排，谁也别想分。。空间连续性提示：外墙小传递盒外盖关闭后，周强怀抱多份食品包，眼镜女性与老人站旁边空手，地面干燥。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f5a5171a-60fb-4bde-b2f1-4d7f3a33f40b.png"
+    }
+  },
+  {
+    "id": "p042",
+    "file": "assets/p042.png",
+    "sha256": "dce7b563376a63068198d767365b194ecf29f6674fe02013708683b1dab0a9ac",
+    "generation": {
+      "id": "p042",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我攥紧了对讲机。我没和他争谁更有良心，只对着镜头说，刚才六份，每人一份。。空间连续性提示：男主在监控室指着屏幕中的周强和旁边眼镜女性，室内仅男主，外面的人仅在屏幕。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-85da7ed9-b1f2-483b-9f97-70d222367bb2.png"
+    }
+  },
+  {
+    "id": "p043",
+    "file": "assets/p043.png",
+    "sha256": "6d4c4fc178d6859728423692d5e8c5a46777b32e9005d85cdf954d0cdf18d5c6",
+    "generation": {
+      "id": "p043",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：林岚，你们拿到没有。她抬头看摄像头，摇了摇头。周强的脸，终于挂不住了。他把两份丢到地上，骂我挑拨。。空间连续性提示：男主在监控室指着屏幕中的周强和旁边眼镜女性，室内仅男主，外面的人仅在屏幕。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-14bd04de-de4b-4c1f-a661-95e5434f582d.png"
+    }
+  },
+  {
+    "id": "p044",
+    "file": "assets/p044.png",
+    "sha256": "125175db5e378b0d66b317833957c247802565d365ab712907821ff3c3af7ecd",
+    "generation": {
+      "id": "p044",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：他把两份丢到地上，骂我挑拨。林岚捡起来，带父亲离开了门口。我这才发现，真正着急喝水的人，根本没力气一直喊。。空间连续性提示：林岚和老人各拿到一小包食物走向远处保安岗亭，周强空一只手站在墙边不满。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-63f42b20-3d6a-4630-a279-f997b15fb6dd.png"
+    }
+  },
+  {
+    "id": "p045",
+    "file": "assets/p045.png",
+    "sha256": "2299e9bd1b5662571d655994b81dafa3ab0b7ae556093cb94e27296c3f8ebd5e",
+    "generation": {
+      "id": "p045",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：一直替别人说话的人，反而吃得最快。我还盯着监控，冷库的提醒又响了。许棠看完记录，说不能再拖。。空间连续性提示：许棠在关闭小冷库门外看温度记录，手持温度计，保温箱密闭，不出现外人。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-90d498fa-81f3-4808-8797-a075802f1cc9.png"
+    }
+  },
+  {
+    "id": "p046",
+    "file": "assets/p046.png",
+    "sha256": "4a991d2cb5e7e80460a0abd57a0dd6feccd7e42bda28a781ae3b8d935e62290f",
+    "generation": {
+      "id": "p046",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：许棠看完记录，说不能再拖。我们已经舍掉一批食品，可剩下的还在耗电。门外的人没进来，时间却一直在偷我们的库存。。空间连续性提示：许棠在关闭小冷库门外看温度记录，手持温度计，保温箱密闭，不出现外人。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4a5038ed-436f-49ae-9e54-302a5e03a692.png"
+    }
+  },
+  {
+    "id": "p047",
+    "file": "assets/p047.png",
+    "sha256": "9d814eae4e3180effc6fd926dd46725bd06b4a83a4c73a04bc6b80fbd4bba70c",
+    "generation": {
+      "id": "p047",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：门外的人没进来，时间却一直在偷我们的库存。晚上吃的，是确认还能用的一小份食物。我们没搞满汉全席，也没为省电吃可疑的肉。。空间连续性提示：两人在员工厨房小桌边分一小盘熟食，只有一盏工作灯，远处货架暗着。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d9afdf95-cea5-4397-838d-1fdc503b2c25.png"
+    }
+  },
+  {
+    "id": "p048",
+    "file": "assets/p048.png",
+    "sha256": "dce30b59af3c823feb5872899a3e9a18b9a3aa3c5839c8a8606bd7af8d43dbcc",
+    "generation": {
+      "id": "p048",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：我们没搞满汉全席，也没为省电吃可疑的肉。我嚼着最后那口热饭，忽然觉得，能安心坐十分钟，比牛排还奢侈。。空间连续性提示：两人在员工厨房小桌边分一小盘熟食，只有一盏工作灯，远处货架暗着。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5037f3db-4994-4de7-bf72-d81d86a86d63.png"
+    }
+  },
+  {
+    "id": "p049",
+    "file": "assets/p049.png",
+    "sha256": "c305f76d0c5664a28853d7376942f6744f273c4de56e7986326649303b852569",
+    "generation": {
+      "id": "p049",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：我开始给物资换个分法。不是贵的和便宜的，而是不靠电能留的、马上得用的、已经不能碰的。。空间连续性提示：男主在桌面标有分区色块但无可读字的库存纸上画叉，旁边几种未开封常温食物。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-29ee7de3-eec7-4438-b969-320dab0edae4.png"
+    }
+  },
+  {
+    "id": "p050",
+    "file": "assets/p050.png",
+    "sha256": "4ce623ca440ea469fec0cd2b16ba86261955df2f7abf613feedd7656d307b230",
+    "generation": {
+      "id": "p050",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：一整座山姆，终于从我眼里的宝箱，变成了一道每天都要做的选择题。许棠也没说修好就能永远有电。。空间连续性提示：男主在桌面标有分区色块但无可读字的库存纸上画叉，旁边几种未开封常温食物。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e27633f7-74af-49c1-b619-46eed0db8ad0.png"
+    }
+  },
+  {
+    "id": "p051",
+    "file": "assets/p051.png",
+    "sha256": "e862874b6d9f526d3121c58b8af6c4f713acd99f073d263bdec82eaf476817bf",
+    "generation": {
+      "id": "p051",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：许棠也没说修好就能永远有电。她把每次开机的时间、温度和油量并排记。我负责盯监控。账本一页页往后翻，我们才知道哪些计划是真的，哪些只是想得美。。空间连续性提示：许棠在干净配电控制侧记录数据，设备柜关好，灯光有限，男主画外。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6530b775-61fe-4c71-882c-c8bcf78904b7.png"
+    }
+  },
+  {
+    "id": "p052",
+    "file": "assets/p052.png",
+    "sha256": "f0e3c615ce1234258f3f1c8191e33a36be0ce82fcc1fe20a1dd9ead9dc75293b",
+    "generation": {
+      "id": "p052",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：账本一页页往后翻，我们才知道哪些计划是真的，哪些只是想得美。第二天，我们清出了卫生区。饮用水不拿去冲地，脏物和吃的分开。。空间连续性提示：许棠在干净配电控制侧记录数据，设备柜关好，灯光有限，男主画外。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3cc5422e-2040-46f4-8af0-c86a2e8f4a87.png"
+    }
+  },
+  {
+    "id": "p053",
+    "file": "assets/p053.png",
+    "sha256": "ffd705dae24117e9b7d076d73a7e9caee8aa234f3f017f78f45ffce8c8a46077",
+    "generation": {
+      "id": "p053",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：饮用水不拿去冲地，脏物和吃的分开。我以前觉得囤货就是把车装满。真住下来才知道，吃进去容易，后面的麻烦得每天有人收拾。。空间连续性提示：男主搬运纸巾清洁用品到内侧货架，附近可见独立卫生隔区入口，环境干燥整洁。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-804135ff-06b0-4dbe-aa37-a3df6827cf34.png"
+    }
+  },
+  {
+    "id": "p054",
+    "file": "assets/p054.png",
+    "sha256": "a2c1602c83fb17f81b5be79f78fb64004cd041418bb93c6626e2b1f251e521cb",
+    "generation": {
+      "id": "p054",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：真住下来才知道，吃进去容易，后面的麻烦得每天有人收拾。最有用的新东西，居然是几块橡胶垫。推车轮子修好，容易碰响的金属垫住。。空间连续性提示：两人蹲在生活区货架边修一只推车松轮，男主手握手工具，许棠用橡胶垫垫住金属碰点。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b1ffd7b4-1762-4640-8d06-f57e9a941094.png"
+    }
+  },
+  {
+    "id": "p055",
+    "file": "assets/p055.png",
+    "sha256": "6dc3ad9fc7f6daf5b0aa7fe694acf7b33549d2e9f20ffe7ea47c3664892ec7eb",
+    "generation": {
+      "id": "p055",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：推车轮子修好，容易碰响的金属垫住。夜里搬一箱水，不再像宣布开业。许棠说，建设有时候，就是让自己少犯一次蠢。。空间连续性提示：两人蹲在生活区货架边修一只推车松轮，男主手握手工具，许棠用橡胶垫垫住金属碰点。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ba6febba-3dcf-4a33-841f-9fdef9347e53.png"
+    }
+  },
+  {
+    "id": "p056",
+    "file": "assets/p056.png",
+    "sha256": "5f96b681d2f30cfdeff89f5b80aef55d136aaeb9acf50134cfbc59eab82146d8",
+    "generation": {
+      "id": "p056",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：刚把生活区收拾好，监控里就出了事。那个跟着周强的黑夹克，绕到了侧墙。他没有找水，也没有找避难处。。空间连续性提示：男主夜间坐监控室，屏幕中黑夹克男人绕到侧墙，周强站在远处阴影里，均只在屏幕。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-cdd47eb9-e506-4781-b7ba-9d5ad908d077.png"
+    }
+  },
+  {
+    "id": "p057",
+    "file": "assets/p057.png",
+    "sha256": "820a45166e5d5f6c71d00c967e27695ac4b814a3a50e240fd431a09f933b3c3c",
+    "generation": {
+      "id": "p057",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：他没有找水，也没有找避难处。他在一扇门前停下，低头拿出了工具。我把对讲接过去，叫他离门远一点。。空间连续性提示：男主夜间坐监控室，屏幕中黑夹克男人绕到侧墙，周强站在远处阴影里，均只在屏幕。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0efe7fcf-7fb3-4e59-9ad3-3710717207a2.png"
+    }
+  },
+  {
+    "id": "p058",
+    "file": "assets/p058.png",
+    "sha256": "919f7fe25bcbfc5e751faf6f4743e143e1afcbee509cfeea101afe7bce68c344",
+    "generation": {
+      "id": "p058",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：他反而笑了，说只是替我们检查隐患。周强站在远处不说话。我忽然想起，他们第一次拍门时，那只一直没放下的工具袋。。空间连续性提示：男主通过监控屏观察黑夹克在外侧锁闭侧门前蹲下，室内男主拿对讲机。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e5f34d6f-f9f6-4f77-a752-0babf06e0fd1.png"
+    }
+  },
+  {
+    "id": "p059",
+    "file": "assets/p059.png",
+    "sha256": "50051a43905968b195b40379997107d7ab93d4e23baebf5267ea9c59b39d67fc",
+    "generation": {
+      "id": "p059",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我忽然想起，他们第一次拍门时，那只一直没放下的工具袋。许棠没有冲出去。她从内侧复核门栓，让我看住另外几个监控。。空间连续性提示：许棠从内部检查侧通道关闭的门和现有门栓，光源为头灯，不触碰消防逃生装置。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9d01e93d-acf7-4386-81ba-23e0694a6cef.png"
+    }
+  },
+  {
+    "id": "p060",
+    "file": "assets/p060.png",
+    "sha256": "2e5e3bf1644ca070236d900d1f159c5b11a77f5e7d8b58bb14e3d593effc245f",
+    "generation": {
+      "id": "p060",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：许棠是中性参考中同一26岁低马尾女性，橘色维修夹克、灰衣、深灰工装裤。 当前时段：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头内容依据：她从内侧复核门栓，让我看住另外几个监控。我们守的是一栋楼，不能两个人都围着同一扇门。门外每多一点动静，里面就少一点犯错的余地。。连续性空间提示：许棠从内部检查侧通道关闭的门和现有门栓，光源为头灯，不触碰消防逃生装置。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。单一人物反应近景，用表情与画外空间推进张力。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-470b2fb6-d744-4e1e-9fc1-d7a852f106b1.png"
+    }
+  },
+  {
+    "id": "p061",
+    "file": "assets/p061-v2.png",
+    "sha256": "ecfb302fa2f92920d5d8ba712f5df508f3bd2123fe91b3ad1f91f438acf0e206",
+    "generation": {
+      "id": "p061",
+      "args": {
+        "prompt": "Use case: precise-object-edit. 精确纠正参考中的剧情连续性，横向16:9真人末日电影剧照。只修改人物后方的背景：所有人严格站在室外完整的灰色外墙与完全关闭的灰卷帘门前。删除背景中的货架、存货、开放仓库和能走进建筑的敞口，用连续封闭灰墙替代。保留原图中每个人的脸、衣服、姿态、周强指向上方的手和黑夹克同伴手中的物件、当前白昼自然光。不得添加人物，不能使任何入口打开；干燥平整装卸地面。 正常干净干燥，无字幕水印。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/assets/p061.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d43e05fa-0e42-4da8-9eae-e4cb5cf52be8.png",
+      "reason": "spatial or prop chronology correction"
+    }
+  },
+  {
+    "id": "p062",
+    "file": "assets/p062.png",
+    "sha256": "8d8d8f2ea4420d1668d60747ad1d29c54695bc35f3af97505c828cbdf74931fe",
+    "generation": {
+      "id": "p062",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：不如让他们住进来，一起守。我听明白了。他先把危险带到门口，再向我们推销他自己的保护。我告诉他，再碰门，今晚连传递盒都停。。空间连续性提示：白天干燥侧门外周强指着门上方，黑夹克握撬棒但没有教学性特写，另外两名成人退远。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-af1d9e84-e7da-47f5-ba9d-9ed8c659ef27.png"
+    }
+  },
+  {
+    "id": "p063",
+    "file": "assets/p063.png",
+    "sha256": "f90ab332c45b82d9b91a21a3735f27afefd2fb2f12364f4fac26cad08ca354a4",
+    "generation": {
+      "id": "p063",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我告诉他，再碰门，今晚连传递盒都停。他立刻骂我拿食物威胁人。我看着监控，心跳快得发疼，还是说完了那句话。。空间连续性提示：男主在监控室把手从对讲按钮移开，屏幕中侧门前一人停下工具，其他人退避。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ad00dcf9-b200-401d-9122-3cbc313de202.png"
+    }
+  },
+  {
+    "id": "p064",
+    "file": "assets/p064.png",
+    "sha256": "653887942cd3bc1997b2a36b6cb7d1d093ee19b36c2ee2343ff696460cedef3c",
+    "generation": {
+      "id": "p064",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我看着监控，心跳快得发疼，还是说完了那句话。你现在做的事，正在威胁里面两个人。黑夹克偏要敲给我听。第三下落下时，停车场那几个人影同时转了头。。空间连续性提示：男主在监控室把手从对讲按钮移开，屏幕中侧门前一人停下工具，其他人退避。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9264142c-3193-470c-a1e4-de6093334a5e.png"
+    }
+  },
+  {
+    "id": "p065",
+    "file": "assets/p065.png",
+    "sha256": "82c3dba934db5dc91ea58a1e6821ab49d45928c822f2758f098fab6e7c5b2967",
+    "generation": {
+      "id": "p065",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：第三下落下时，停车场那几个人影同时转了头。周强先看到，扭头就跑。刚才还站在一起喊公平的人，转眼谁都顾不上谁。。空间连续性提示：侧门外远景几名丧尸从停车场转向金属敲击处，周强与黑夹克回头惊慌，无血腥。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-74aa3c6b-4bd3-41af-a78f-74831453e00f.png"
+    }
+  },
+  {
+    "id": "p066",
+    "file": "assets/p066.png",
+    "sha256": "ac77a30250a4463fd94582cdade00cf01069c2f3b138e857955ca95afa283022",
+    "generation": {
+      "id": "p066",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：刚才还站在一起喊公平的人，转眼谁都顾不上谁。我关掉面向外墙的工作灯，没追着骂，也没在门里庆祝。丧尸留在了侧门外。。空间连续性提示：男主头灯熄灭在暗监控室屏幕前静坐，屏幕显示侧门外丧尸停留，没有战斗。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ba605542-8cae-4e56-887f-7a0c867e5f31.png"
+    }
+  },
+  {
+    "id": "p067",
+    "file": "assets/p067.png",
+    "sha256": "6867a3545fb10a48526627a6afd26a19ccddd8c0a247e2620d7a1d866b288129",
+    "generation": {
+      "id": "p067",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：周强跑得掉，门却不会自己搬家。他惹出来的麻烦，最后还是得我们守着。我们轮流休息，把薄弱位置重新记了一遍。。空间连续性提示：男主头灯熄灭在暗监控室屏幕前静坐，屏幕显示侧门外丧尸停留，没有战斗。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1508f1d9-f839-4e4b-a6e1-2f94096495b8.png"
+    }
+  },
+  {
+    "id": "p068",
+    "file": "assets/p068.png",
+    "sha256": "74676c933d1805218338e7c14bc6bcfbdd5775866542717c1ab3a2fcfd447c27",
+    "generation": {
+      "id": "p068",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我们轮流休息，把薄弱位置重新记了一遍。能从内部加固的处理，不能确认的单独标出来。。空间连续性提示：两人在内侧走廊给松动的普通防撞护栏加固，出口通道仍畅通，门完全关着。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-70a652ca-5fc5-4baf-917b-50942f063d61.png"
+    }
+  },
+  {
+    "id": "p069",
+    "file": "assets/p069.png",
+    "sha256": "55023e0c9c5ac662eca5047e32aee28acf06666add12764e050501b4d65302c4",
+    "generation": {
+      "id": "p069",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我才明白，拒绝别人不是爽完就结束。说了不，还得有本事把这个不守住。下午，林岚又来了。。空间连续性提示：两人在内侧走廊给松动的普通防撞护栏加固，出口通道仍畅通，门完全关着。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b04a5932-20ef-465c-991c-5cadac0cbdec.png"
+    }
+  },
+  {
+    "id": "p070",
+    "file": "assets/p070-v2.png",
+    "sha256": "be474c78daa18d44221003815ff50618ff81031cb1e83e62a28fc277f210908c",
+    "generation": {
+      "id": "p070",
+      "args": {
+        "prompt": "Use case: precise-object-edit. 精确纠正参考中的剧情连续性，横向16:9真人末日电影剧照。本镜头时间在收音机送进来之前：删除男主手里拿着的广播收音机，让他的双手自然放在桌上记录纸旁，视线仍关注监视器。监视器中的米色外套短发眼镜女人仍在室外举着她自己的小收音机，只能存在于屏幕内。其余构图、男主身份服装、室内设施、白昼自然光全部保留，室内没有收音机，桌上不添加别的音频设备。 正常干净干燥，无字幕水印。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/assets/p070.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f658b159-13bd-4d87-8167-08255e084689.png",
+      "reason": "spatial or prop chronology correction"
+    }
+  },
+  {
+    "id": "p071",
+    "file": "assets/p071.png",
+    "sha256": "c99c838450c1092ddf78048a8bcde74fd021a0e798db0fa2f0a6ec5feda8a711",
+    "generation": {
+      "id": "p071",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：她说自己做过物业后勤，不敢保证机器好不好，但愿意拿它，换一点能带走的食物。她把电池盖打开给镜头看，里面已经没电了。她没有说自己知道救援秘密，也没喊以后报答。。空间连续性提示：林岚在卸货外墙摄像头下打开收音机电池盖展示空槽，衣着整洁疲惫，周强不在场。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。收音机背面空电池仓明确朝向镜头，不是无线对讲机。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-55d6a696-c3a2-4caa-b236-3975cf38ae8c.png"
+    }
+  },
+  {
+    "id": "p072",
+    "file": "assets/p072.png",
+    "sha256": "fc4286d3cb6a4ef2ebbfc8f81c0558b5d3a9f49e7257a3cc3e7b242d5e0ba91c",
+    "generation": {
+      "id": "p072",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：她没有说自己知道救援秘密，也没喊以后报答。我反而愿意多听两句。至少这次，东西和条件都摆在明面上。。空间连续性提示：林岚在卸货外墙摄像头下打开收音机电池盖展示空槽，衣着整洁疲惫，周强不在场。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。收音机背面空电池仓明确朝向镜头，不是无线对讲机。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0c3c5030-2327-44b6-bb5e-f3b7a1a6d78f.png"
+    }
+  },
+  {
+    "id": "p073",
+    "file": "assets/p073.png",
+    "sha256": "41e5756bfa51f4434554ae0c49c9900f7d17ee325b2742d311f1075c66898f38",
+    "generation": {
+      "id": "p073",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我和许棠商量，用一份试机电池和两个人一天的应急食物交换。机器先测，合不合用都把话说清。。空间连续性提示：两人在室内桌边试验同规格电池与收音机说明页，传递盒两盖都关，无外人。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。收音机尚未送进来，桌上仅电池纸张工具，不能提前出现收音机。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a3f0c863-d558-4d99-99d9-f64ec6ae7f8e.png"
+    }
+  },
+  {
+    "id": "p074",
+    "file": "assets/p074.png",
+    "sha256": "e710975dcfced89ed7a56d91e5574331b01168f9117e9834bba85dc40faf305a",
+    "generation": {
+      "id": "p074",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：机器先测，合不合用都把话说清。林岚答应了，还问能不能换成常温的，她父亲走不了太远。收音机从盒子里送进来时，我突然有点紧张。。空间连续性提示：两人在室内桌边试验同规格电池与收音机说明页，传递盒两盖都关，无外人。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。收音机尚未送进来，桌上仅电池纸张工具，不能提前出现收音机。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8419fdd9-35d4-40b8-8cf9-a55ee66ea585.png"
+    }
+  },
+  {
+    "id": "p075",
+    "file": "assets/p075.png",
+    "sha256": "c936fcfdaf65509041b0660c2a9689c55e6931a3565e65c6e2b030b750194673",
+    "generation": {
+      "id": "p075",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：收音机从盒子里送进来时，我突然有点紧张。这几天，我看见的世界只剩几块监控屏。那台旧机器比我巴掌大一点，却可能装着我们最缺的东西，外面的消息。。空间连续性提示：男主打开内侧传递盒取出一只小收音机，外盖关闭，食品包仍在桌上未同时传送。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4b36b37f-638e-43b0-b578-b6628bdda7d2.png"
+    }
+  },
+  {
+    "id": "p076",
+    "file": "assets/p076.png",
+    "sha256": "b4f8681f15a20ef556c448da43f12e9c872565ba01807b4b4eb74901edd67a3f",
+    "generation": {
+      "id": "p076",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。最后图只锁定室内厚墙上35厘米固定传递柜结构，当前内盖打开时远端外盖必须关闭；不是便携手提箱、不通人，不能看到外人天空。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：那台旧机器比我巴掌大一点，却可能装着我们最缺的东西，外面的消息。许棠装上电池，先出来一阵杂音。我们换了几个位置，终于听见断断续续的人声。。空间连续性提示：男主打开内侧传递盒取出一只小收音机，外盖关闭，食品包仍在桌上未同时传送。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/hatch.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f0f4b311-edcd-4682-9f41-8f96d52c58d3.png"
+    }
+  },
+  {
+    "id": "p077",
+    "file": "assets/p077.png",
+    "sha256": "e8e8c5907e31cc47b78ecebb390c5d101671ea75f13bfaa86c5a8eeb7cbe35f2",
+    "generation": {
+      "id": "p077",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我们换了几个位置，终于听见断断续续的人声。只说避免聚集，等待后续通知。没有撤离时间，也没有包我们平安的神奇坐标。。空间连续性提示：男女主在小桌前给旧便携收音机装电池，许棠调旋钮，男主紧盯天线，微弱暖光。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9f74c07a-f5f9-4e80-b4b2-d774a06e2d88.png"
+    }
+  },
+  {
+    "id": "p078",
+    "file": "assets/p078.png",
+    "sha256": "3600ff86de52aaa46ca674c66c315877c8d766190cda434661883ef21b3e9713",
+    "generation": {
+      "id": "p078",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：没有撤离时间，也没有包我们平安的神奇坐标。我照约定送出食物，把电池也记入消耗。林岚没有顺势问能不能住进来。。空间连续性提示：男主在账本旁摆两份应急食品准备完成交换，收音机留在内侧桌上，室内无人多余。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-acf05a00-a986-449d-8132-40bb44991c16.png"
+    }
+  },
+  {
+    "id": "p079",
+    "file": "assets/p079.png",
+    "sha256": "403905d8956840734be5cdb6bdcffcc002355b8ae320cafdc29d4ea87bf38ead",
+    "generation": {
+      "id": "p079",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：林岚没有顺势问能不能住进来。临走前，她只说了一句，侧墙那扇门晚上有人去过，不止今天这一次。我调出昨夜的回放。。空间连续性提示：男主在账本旁摆两份应急食品准备完成交换，收音机留在内侧桌上，室内无人多余。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-adfc7de3-bcd1-494e-acd6-3930c3922134.png"
+    }
+  },
+  {
+    "id": "p080",
+    "file": "assets/p080.png",
+    "sha256": "2020a4f7be036d27a6db642ccea3ee4755f34040bc1a0a9ff05179dc2c369305",
+    "generation": {
+      "id": "p080",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我调出昨夜的回放。黑夹克确实来过，还搬着一只矮箱子。他不是在研究门锁，而是仰头看门上面的墙。。空间连续性提示：男主在监控室回放侧墙监控，画面中远处黑夹克搬着一个矮工具箱，屏幕外无陌生人。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-01d7ff52-7769-458e-8301-61ecbd2ac31a.png"
+    }
+  },
+  {
+    "id": "p081",
+    "file": "assets/p081.png",
+    "sha256": "21433605c5bd79c591b32a07cf9436c0e8d2bb9dd963b4b06e7b45134c0ca8b6",
+    "generation": {
+      "id": "p081",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我顺着他的目光看过去，后背慢慢绷紧了。那儿有一块旧检修盖，通向夹层。。空间连续性提示：男主在监控室回放侧墙监控，画面中远处黑夹克搬着一个矮工具箱，屏幕外无陌生人。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-961c47fe-f292-4879-8372-e5dfe8c7b2c6.png"
+    }
+  },
+  {
+    "id": "p082",
+    "file": "assets/p082.png",
+    "sha256": "41ad5b27a10c570bcad543d424d62724bbfe94bd9c39abb5b559d4f302d8f7ad",
+    "generation": {
+      "id": "p082",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：不是秘密地道，旧图纸上就有，只是我以前从没负责过。许棠说先别猜外面能不能进去。今天就把内侧能看到的部分查清楚。。空间连续性提示：室内侧通道两人仰头看高处维修检修盖，检修盖关闭，有旧检修贴，固定梯子折叠靠墙。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3873c982-785c-4654-bb86-d2170f0f948c.png"
+    }
+  },
+  {
+    "id": "p083",
+    "file": "assets/p083.png",
+    "sha256": "9cc48938de92d5e415486728b9ddaea236574b56e6ba6873c0a94e7b6f11ec8c",
+    "generation": {
+      "id": "p083",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：今天就把内侧能看到的部分查清楚。她在边框上找到新的擦痕。里面没有人，固定件也还在，但有一处已经松了。。空间连续性提示：许棠站在稳定短平台上检查关闭检修盖边框，男主在下方扶稳平台，只有两人。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3bfe5221-a245-4e27-9bb3-167677ca650e.png"
+    }
+  },
+  {
+    "id": "p084",
+    "file": "assets/p084.png",
+    "sha256": "19ed93d4ec57ddc531e886262327bdd43cdd077d034d8aac25a244c3e563e104",
+    "generation": {
+      "id": "p084",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：里面没有人，固定件也还在，但有一处已经松了。我盯着那条细缝，忽然觉得门外所有吵闹，都可能只是让我们一直盯着门。。空间连续性提示：许棠站在稳定短平台上检查关闭检修盖边框，男主在下方扶稳平台，只有两人。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8d51f70c-d551-4811-84a4-3a8e7d38d771.png"
+    }
+  },
+  {
+    "id": "p085",
+    "file": "assets/p085.png",
+    "sha256": "01e78e5b9b9b9cbc8eca64f0c63cc6fc2179475db9393f386927c0629945a26e",
+    "generation": {
+      "id": "p085",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我们按原有结构处理松动处，没有堵死通风，也没乱拆电线。然后补了一个能看见这段走廊的旧摄像头。。空间连续性提示：两人在地面工作台上核对旧检修说明和配套固定件，不展示可复制入侵方法。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-36db21b6-78dc-4b0a-82bb-a790e2863099.png"
+    }
+  },
+  {
+    "id": "p086",
+    "file": "assets/p086.png",
+    "sha256": "59067433954972710619f61eaaef9e67807bee94221a86c72d5e6426c2cf0d52",
+    "generation": {
+      "id": "p086",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：然后补了一个能看见这段走廊的旧摄像头。刚接好，备用电量又掉了一格。多一只眼睛，也得付账。我把想留着的电器一件件收回箱子。。空间连续性提示：两人在地面工作台上核对旧检修说明和配套固定件，不展示可复制入侵方法。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-fe76d07e-7b9c-4e59-b0b9-a9db0e9dbad5.png"
+    }
+  },
+  {
+    "id": "p087",
+    "file": "assets/p087.png",
+    "sha256": "eb3bc9cb9f76d25d642bcf10d7feb2b88bee72d5a6aac2a6e2e4f46459bc8cfb",
+    "generation": {
+      "id": "p087",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我把想留着的电器一件件收回箱子。游戏机先别想，热水也不能随开随有。住在山姆听着像人生巅峰，真正的升级，却是学会接受今天比昨天少用一点。。空间连续性提示：男主坐桌边把一个未用电器收进箱子，旁边电池和监控记录，表情克制。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1827c5c5-9ce3-42e8-b662-8fed42741fce.png"
+    }
+  },
+  {
+    "id": "p088",
+    "file": "assets/p088.png",
+    "sha256": "54c816e14bf8c491f2fa38785d7300491f2be2af9b408c3c5af28b8ae50800ec",
+    "generation": {
+      "id": "p088",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：住在山姆听着像人生巅峰，真正的升级，却是学会接受今天比昨天少用一点。整理园艺货架时，我翻到几包种子，兴冲冲拿去找许棠。。空间连续性提示：男女主在生活区货架旁整理小型种植用品，未开封种子与空育苗盘，表情轻松。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d9d60a31-1ad3-4426-b29c-8bb18a4fdfb8.png"
+    }
+  },
+  {
+    "id": "p089",
+    "file": "assets/p089.png",
+    "sha256": "4424b38175c91bb80d73e6fa2c8f370a9f345bfa56ebd8d7af6e27e4c1aa335d",
+    "generation": {
+      "id": "p089",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：整理园艺货架时，我翻到几包种子，兴冲冲拿去找许棠。她看了眼天花板，问我拿什么晒太阳。我又把育苗盘放下了。先活过这一周，再考虑当农场主。。空间连续性提示：男女主在生活区货架旁整理小型种植用品，未开封种子与空育苗盘，表情轻松。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1f543d85-ff34-49c0-b087-b551adc34fcd.png"
+    }
+  },
+  {
+    "id": "p090",
+    "file": "assets/p090.png",
+    "sha256": "33deb5a125974beb167bf66109861060ebd802e44b1451619d198cc42dc1f941",
+    "generation": {
+      "id": "p090",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：先活过这一周，再考虑当农场主。最后真正落地的，是新的轮班和每天一次的巡查。温度、门、油、水，少一项都不行。。空间连续性提示：许棠在生活区用铅笔划分值守表，旁边只有两只个人杯子与收音机，温暖克制。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-85296f59-4192-433a-ac14-4eb025a43116.png"
+    }
+  },
+  {
+    "id": "p091",
+    "file": "assets/p091.png",
+    "sha256": "3cecd52ad33e79776a00b6387ca5f8e03aba8058f8d7c9ff3811fc35ea97be51",
+    "generation": {
+      "id": "p091",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：许棠写到夜班时停了笔，说你昨晚没睡够，今天前半夜我来。我开了一罐水果，给她多盛了一点。。空间连续性提示：许棠在生活区用铅笔划分值守表，旁边只有两只个人杯子与收音机，温暖克制。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-88ba166b-46cc-454c-bf67-a3559ce60da6.png"
+    }
+  },
+  {
+    "id": "p092",
+    "file": "assets/p092.png",
+    "sha256": "30c8f8ea84e62e8e0801d54fc65fd5a56836588bfbfdf21f5e2b841391f8f361",
+    "generation": {
+      "id": "p092",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：正常白昼，室内主要靠高窗自然天光、局部便携工作灯，卖场顶灯关闭。本镜头承载这段旁白：我开了一罐水果，给她多盛了一点。她低头看碗，问这算加班费吗。我说算房租。她终于笑了。外面再乱，能有人接住一句废话，这地方才不只是个仓库。。空间连续性提示：生活区两人分享小罐水果，男主递勺子给许棠，两个露营床背景整齐，无浪漫夸张。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a2d61ffa-67c8-48ff-8375-21d02e5bde97.png"
+    }
+  },
+  {
+    "id": "p093",
+    "file": "assets/p093.png",
+    "sha256": "4995b24500a5578257cffab26205065c529e4e0a85b99a28cd4295efc27078e1",
+    "generation": {
+      "id": "p093",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：外面再乱，能有人接住一句废话，这地方才不只是个仓库。傍晚，周强又回来了。这次推着一只旧喇叭。。空间连续性提示：傍晚卸货区周强带黑夹克和另外两名成年幸存者回来，手推车上一只旧喇叭，卷帘门关闭。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-61020397-1789-4f2a-99eb-531345fe1ae8.png"
+    }
+  },
+  {
+    "id": "p094",
+    "file": "assets/p094.png",
+    "sha256": "2f3ee10b11baad9f8fba1705eea04df7008a3d7821249bd488e46112a86c4ed8",
+    "generation": {
+      "id": "p094",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：他说今晚不开门，就让整条街都知道我们有吃的。我看着监控，忽然觉得，这个人比门外那些东西更懂得找软处下手。。空间连续性提示：傍晚卸货区周强带黑夹克和另外两名成年幸存者回来，手推车上一只旧喇叭，卷帘门关闭。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-33125695-7524-4cbb-a330-692028158e3c.png"
+    }
+  },
+  {
+    "id": "p095",
+    "file": "assets/p095.png",
+    "sha256": "5be57cea19dd0ca8447e5589829fb7633c5faad12ffc0151d892587ca81d3d6c",
+    "generation": {
+      "id": "p095",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：我看着监控，忽然觉得，这个人比门外那些东西更懂得找软处下手。我差点和他吵起来。许棠指了指喇叭的电池仓。盖子开着，里面空的。。空间连续性提示：男主在监控室屏幕前握紧对讲机，许棠仅手掌放在桌边，屏幕喇叭没有亮灯。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-70b26910-b7b0-467d-a488-daab3d61cdca.png"
+    }
+  },
+  {
+    "id": "p096",
+    "file": "assets/p096.png",
+    "sha256": "8d27fae5e9c0bed760ee421977fe2de745549f98f16c65beacaa0870e4482e44",
+    "generation": {
+      "id": "p096",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：当然，也可能是障眼法。我没拿自己的命赌，只问周强一句，声响起来，你准备躲哪。。空间连续性提示：男主在监控室屏幕前握紧对讲机，许棠仅手掌放在桌边，屏幕喇叭没有亮灯。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4947b819-a972-4488-bde0-96e53c82a705.png"
+    }
+  },
+  {
+    "id": "p097",
+    "file": "assets/p097.png",
+    "sha256": "2209f3959ac6d4dc312667c8924983fe83ba0f90038bd3a313728c01938faaf4",
+    "generation": {
+      "id": "p097",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：他回头看身后的人，说里面迟早会开门。刚才跟他一起试门的那个人，却往后退了。大家都饿，可谁也不想站在喇叭旁边，替他的胆子付命。。空间连续性提示：周强身后两名成年幸存者互看退后，黑夹克握住无电喇叭把手，周强独自在前。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1c20caa9-d078-41b1-bb84-72881cb47cfd.png"
+    }
+  },
+  {
+    "id": "p098",
+    "file": "assets/p098.png",
+    "sha256": "61e5bdebd1f7419d6546ceb127ea255f071f2c1ba2e375b9c040eeed18d52859",
+    "generation": {
+      "id": "p098",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：大家都饿，可谁也不想站在喇叭旁边，替他的胆子付命。我告诉他们，接纳的条件不会因为喊得响就改。。空间连续性提示：周强身后两名成年幸存者互看退后，黑夹克握住无电喇叭把手，周强独自在前。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a5c091e2-18c9-4043-9e9d-e58c2803b24b.png"
+    }
+  },
+  {
+    "id": "p099",
+    "file": "assets/p099.png",
+    "sha256": "d381bad29c2dc6f72c8cc6d629f0b2923b9d7c5de02abc37d1c37b052e68fd8b",
+    "generation": {
+      "id": "p099",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：愿意停止试门，可以隔墙谈交换。想拿整栋楼冒险，我不会配合。说完，我把对讲放下，没有再给周强接着表演的机会。。空间连续性提示：男主近景冷静对着对讲机讲话，另一只手压着食物配给记录，背景门关闭。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-74c476ec-e85b-493c-b4d3-02b02de0fa38.png"
+    }
+  },
+  {
+    "id": "p100",
+    "file": "assets/p100.png",
+    "sha256": "1ee82303d001efab2d21fbf4e066d4d61e516b2d7ea3533742369f7de06ca42b",
+    "generation": {
+      "id": "p100",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：说完，我把对讲放下，没有再给周强接着表演的机会。林岚站起来，扶父亲往岗亭方向走。另外两个人跟了过去。。空间连续性提示：林岚扶父亲沿着卸货区边缘离开，手持一小包食品，远处两名成人跟随，与周强隔开。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9aa649aa-b431-4897-91e5-eec546fce83f.png"
+    }
+  },
+  {
+    "id": "p101",
+    "file": "assets/p101.png",
+    "sha256": "a252ff6ae45b4d578af6d361d07e3a81f71bbc94ac59237ab6018db72c339f1d",
+    "generation": {
+      "id": "p101",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：她没有替我说好话，只说要等救援，就别把丧尸喊来。我看着那队人散开，手心里的汗才慢慢凉下来。。空间连续性提示：林岚扶父亲沿着卸货区边缘离开，手持一小包食品，远处两名成人跟随，与周强隔开。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2d3b77d5-e794-4607-bf59-42113291b776.png"
+    }
+  },
+  {
+    "id": "p102",
+    "file": "assets/p102.png",
+    "sha256": "3fa8fc9e09c377a4870c8a0e989d5c30e85cb44207c21531b2f2db72d1376bd3",
+    "generation": {
+      "id": "p102",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：我看着那队人散开，手心里的汗才慢慢凉下来。周强一脚踢翻空箱，声音在墙根回荡。黑夹克骂了他一句，先跑了。他一个人站了几秒，终于也退到车后。。空间连续性提示：傍晚侧墙周强愤怒踢翻空塑料周转箱，黑夹克站远些，丧尸远处若隐若现，无血腥。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5968aa98-708f-4acc-bbc1-0dab9ba6a56c.png"
+    }
+  },
+  {
+    "id": "p103",
+    "file": "assets/p103.png",
+    "sha256": "ca8bc198c81779a565dc39046c04cb5e9ebc07e3cff9abe9c2e1d81d6073587b",
+    "generation": {
+      "id": "p103",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：只取本段出场者的脸与衣服：周强为灰夹克中年男人、黑夹克为壮实同伴、林岚是米色夹克短发细框眼镜女人、父亲灰背心白发；另两名成人深外套。仅画当前台词所需人数，不是每张都画全部六人。严格在室外封闭灰墙和完全关闭卷帘门前，无超市货架，无保安，岗亭空无一人。 时段与实际光源：傍晚金橙色余晖，外面逐渐变暗。本镜头承载这段旁白：他一个人站了几秒，终于也退到车后。门没开，但这场争执没有真正结束。许棠提醒我，今天人散了，不代表明天不会回来。。空间连续性提示：傍晚侧墙周强愤怒踢翻空塑料周转箱，黑夹克站远些，丧尸远处若隐若现，无血腥。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/outsiders-identity.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-170a310e-8eea-49bf-bfbc-d396cec1efcc.png"
+    }
+  },
+  {
+    "id": "p104",
+    "file": "assets/p104.png",
+    "sha256": "f1827f68041d792205f9513a4ce100536d626eda9c276394286b86def66ef489",
+    "generation": {
+      "id": "p104",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：许棠提醒我，今天人散了，不代表明天不会回来。我们没有出去赶人，也没把食物摆在外面当诱饵。该关的关好，该值的班照值。。空间连续性提示：夜幕下两人在监控室并排查看多个监控，原有生活区暖灯在远处，收音机静放。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-cccd0b13-b63b-4bb9-b837-4e30e1c770ee.png"
+    }
+  },
+  {
+    "id": "p105",
+    "file": "assets/p105.png",
+    "sha256": "2137a3b6d07cf61f4891de065a50a079033f4be3103ba0670fec8f9f9d612e66",
+    "generation": {
+      "id": "p105",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：该关的关好，该值的班照值。守住这里，不是赢一场嘴仗就够。夜里，我又盘了一遍今天的消耗。送出去的，吃掉的，用完的电池，都有去处。。空间连续性提示：男主在新生活区查看整齐的米袋水箱罐头，有使用中的少量散件和账本，不显无限物资。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e998e92c-0df3-48a0-9b6c-5cb60cb5a7cb.png"
+    }
+  },
+  {
+    "id": "p106",
+    "file": "assets/p106.png",
+    "sha256": "7041032a2195b5a6ff494710d87545175dca43daeb7a25f40cb5298122014e74",
+    "generation": {
+      "id": "p106",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：送出去的，吃掉的，用完的电池，都有去处。剩下的数量没有神奇变多，可每样东西放在哪，我终于心里有底。。空间连续性提示：男主在新生活区查看整齐的米袋水箱罐头，有使用中的少量散件和账本，不显无限物资。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d4abb158-7a2d-4f32-ba52-f329031c0b97.png"
+    }
+  },
+  {
+    "id": "p107",
+    "file": "assets/p107.png",
+    "sha256": "0d4bf93b72aeacca0c505bb2184ecdb0eb4aecddc5efbe0e3e2e76b2e3e5d102",
+    "generation": {
+      "id": "p107",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：许棠收好工具，坐在床边揉手。我本来还想问明天能不能再腾一排货架。看见她手上的红印，又把话咽了回去。。空间连续性提示：许棠把工具放回青灰工具包，坐在露营床边脱下手套，干净橘夹克，神情疲惫。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f031a772-5b71-4aa9-a9f9-962bcca81dae.png"
+    }
+  },
+  {
+    "id": "p108",
+    "file": "assets/p108.png",
+    "sha256": "b34dbd2ba5b1534f49e547300d5c29c213257eabf7c21d318a0317f177c7285e",
+    "generation": {
+      "id": "p108",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：看见她手上的红印，又把话咽了回去。基地可以慢慢建，搭档可没有第二个备用的。我把热饭推过去，让她先吃。。空间连续性提示：许棠把工具放回青灰工具包，坐在露营床边脱下手套，干净橘夹克，神情疲惫。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b16c5e4d-2670-4fc4-94c5-ec2de58e9418.png"
+    }
+  },
+  {
+    "id": "p109",
+    "file": "assets/p109.png",
+    "sha256": "a1e31ec5600910bac9cf435513f4d5686eb65c34905e5e0129457a3bc6077d59",
+    "generation": {
+      "id": "p109",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：我把热饭推过去，让她先吃。她抬头问，今天怎么不催进度。我说老板反省了，不能光给水果罐头还让人通宵。。空间连续性提示：小桌两碗简单热饭，男主把一碗推给许棠，暖色便携灯，远处超市暗而完整。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-16414434-164d-4bf9-9198-e033a9cde7ab.png"
+    }
+  },
+  {
+    "id": "p110",
+    "file": "assets/p110.png",
+    "sha256": "f8c9aee340007ee0cac9750450b47f9d7fd9053198cda9f5b84ec5aad1be1038",
+    "generation": {
+      "id": "p110",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 人物/道具参考职责：男主是该中性参考中同一约30岁男子，青绿针织帽、黄帽衫、深蓝马甲、深灰裤。许棠是中性参考中同一26岁低马尾女性，橘色维修夹克、灰衣、深灰工装裤。 当前时段：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头内容依据：她笑着踢了踢桌脚，叫我把自己那碗也端来。吃完，我接了后半夜的班。停车场终于安静，侧门外的影子也散了一些。。连续性空间提示：小桌两碗简单热饭，男主把一碗推给许棠，暖色便携灯，远处超市暗而完整。选择本段台词的一件具体可见事件，不把不同时间或多个动作拼在一帧。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。演员参考只锁身份，不继承参考背景，也不强迫画出所有参考人物。室内绝无外来者；若陌生人在监视器中，必须仅为二维监控图像，屏幕中的地点是封闭超市外墙，不能把人画进室内。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1f87bb98-f197-4405-b17c-a8fc38c2608d.png"
+    }
+  },
+  {
+    "id": "p111",
+    "file": "assets/p111.png",
+    "sha256": "7407cc2318b727e84ad7349e6163c37a3b042c6d43ff388b5899f2b9a29dce45",
+    "generation": {
+      "id": "p111",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：停电深夜，窗外漆黑，卖场顶灯全关，头灯和低亮工作灯照亮主体。本镜头承载这段旁白：停车场终于安静，侧门外的影子也散了一些。以前夜班最盼天亮，因为能下班。现在盼天亮，是想确认我们又撑过了一晚。。空间连续性提示：男主独自在监控室桌前端碗值夜，屏幕有安静的停车场和关闭的门，没有陌生人在室内。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-702beea3-fd86-4c05-8502-bcc068eebcba.png"
+    }
+  },
+  {
+    "id": "p112",
+    "file": "assets/p112.png",
+    "sha256": "a04f57415d012306a794025ac72c489fd0f8dcd472e2a5022a9b23ff8fc8154c",
+    "generation": {
+      "id": "p112",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：现在盼天亮，是想确认我们又撑过了一晚。快天亮时，收音机突然清楚了一点。断续的人声里提到，部分区域将尝试恢复供电。。空间连续性提示：监控室男主耳靠旧收音机，桌上纸笔与时钟不清晰，不出现可读虚构通知。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。广播收音机为平放桌上的横向AM/FM小机，有网格喇叭和细天线，不是无线对讲机。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c3dca7ac-d1b3-4408-b4dd-5c693d55b345.png"
+    }
+  },
+  {
+    "id": "p113",
+    "file": "assets/p113.png",
+    "sha256": "c87facf0356c0aafdc1adb5166c5efd1024773f8c2053f9fbcc9c90b48108b0b",
+    "generation": {
+      "id": "p113",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：我一下坐直，又没敢叫醒许棠。这不是时间表，更不是保证，可能只是我们听漏了前半句。。空间连续性提示：监控室男主耳靠旧收音机，桌上纸笔与时钟不清晰，不出现可读虚构通知。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。广播收音机为平放桌上的横向AM/FM小机，有网格喇叭和细天线，不是无线对讲机。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-087fcf65-91c8-4a46-b5c0-0d1cb9647168.png"
+    }
+  },
+  {
+    "id": "p114",
+    "file": "assets/p114.png",
+    "sha256": "468c5a6446313fd33092ea59f763d6db5dde6cf46cf4621ee287720b01f6e9b0",
+    "generation": {
+      "id": "p114",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：我把听到的片段记下来，准备等她醒了再核对。刚放下笔，右上角那块监控黑了。。空间连续性提示：男主在纸上记录听到的片段，监视器右侧一个画面全黑，其他监控正常，无文字特写。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ac27aa53-165b-4240-8283-85fb66cc22aa.png"
+    }
+  },
+  {
+    "id": "p115",
+    "file": "assets/p115.png",
+    "sha256": "b72a3a56cbc96de0d9686b70b9d170054d9887c5c955b33102362790e793da3b",
+    "generation": {
+      "id": "p115",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：不是全店停电，另外几个画面还亮着。我慢慢抬头，那是新补上的走廊镜头。我叫醒许棠，两个人停在走廊口。。空间连续性提示：男主在纸上记录听到的片段，监视器右侧一个画面全黑，其他监控正常，无文字特写。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-02101d01-8494-4173-b047-1590df2a2886.png"
+    }
+  },
+  {
+    "id": "p116",
+    "file": "assets/p116.png",
+    "sha256": "c74fe303a40b82aad31707f36d89827f83537f749eb6da136fc95f43bf1dec4f",
+    "generation": {
+      "id": "p116",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：我叫醒许棠，两个人停在走廊口。地上多了一颗螺丝，检修盖还关着。也许是我们白天漏收的，也许不是。。空间连续性提示：男女主戴头灯在内侧走廊停住观察地面一小颗螺丝，头顶检修盖仍关闭，未出现入侵者。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c73df7b0-7617-4f70-a0d1-fb0b5ed33d47.png"
+    }
+  },
+  {
+    "id": "p117",
+    "file": "assets/p117.png",
+    "sha256": "985cfcbc5bd77ebf1d4cafd0bb202f0a557b136e98914a9123e25bdf8df89b0b",
+    "generation": {
+      "id": "p117",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：我不敢弯腰去捡，先让她照住了头顶。上面传来很轻的一声响。一下，停住，再一下。。空间连续性提示：两人站在关闭检修盖下数米外，男主握对讲机，许棠头灯照向上方，两人表情屏息。稍广的建立镜头，明确空间边界与人物距离。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9eb73db2-2844-4d60-994f-de1c6691a8b1.png"
+    }
+  },
+  {
+    "id": "p118",
+    "file": "assets/p118.png",
+    "sha256": "0ce429f56cbacc30c1d383018a4c1a6e1ba0da6203836e0a090b8aab3100eddc",
+    "generation": {
+      "id": "p118",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。许棠为女参考同一26岁低马尾中国女性，橘维修夹克、灰衣灰裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：不是卷帘门那种撞击声。许棠抓住我的袖口，示意我退回拐角。我们刚修好的家，头顶竟像有人在慢慢走。。空间连续性提示：两人站在关闭检修盖下数米外，男主握对讲机，许棠头灯照向上方，两人表情屏息。紧的道具/手部细节镜头，从当前台词选择关键物件，允许不出现完整人物脸。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png",
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/female-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2dc9a711-211e-488e-98b0-95d751f75eeb.png"
+    }
+  },
+  {
+    "id": "p119",
+    "file": "assets/p119.png",
+    "sha256": "c9e78aa7aa9ecabe969c780aa02deaed2713178f6022d986ab918cf016118c4c",
+    "generation": {
+      "id": "p119",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：我们刚修好的家，头顶竟像有人在慢慢走。我忽然想起，周强离开前，最后看了一眼的不是卸货门，是屋檐。难道我们昨天守住的，只是他们想让我们盯住的那扇门。。空间连续性提示：男主站在走廊拐角回望高处闭合检修盖，远处监控室门透微光，无露出神秘人物。从侧后方或过肩角度的中近景，明确视线落点。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-91d2f186-b367-4c46-a39f-42aa6d9f9cd4.png"
+    }
+  },
+  {
+    "id": "p120",
+    "file": "assets/p120.png",
+    "sha256": "c51cb68528cd5743e45710028662d5291d466bd3acc9874abb280163aa5c6f59",
+    "generation": {
+      "id": "p120",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. 全新单幅横向16:9真实中国演员末日电影剧照，绝非拼图或旧画面裁切。灾难初期建筑完整、干净干燥的现代仓储超市；自然皮肤、克制电影光、清晰主体、适度精细。地面干燥哑光，没有积水，没有泥污、废墟或满屏颗粒，不要过锐。无字幕、水印、标题或边框，画面底部不放文字，后期会渲染字幕。 身份和道具参考仅按职责：男主为男参考同一约30岁中国男子，青绿帽、芥末黄帽衫、深蓝马甲、灰工装裤。 时段与实际光源：天亮前暗蓝清晨，顶灯全关，头灯/手电与微弱工作灯照亮主体。本镜头承载这段旁白：难道我们昨天守住的，只是他们想让我们盯住的那扇门。我把灯抬起来，这一次，敲击声就在正上方。。空间连续性提示：男主站在走廊拐角回望高处闭合检修盖，远处监控室门透微光，无露出神秘人物。单一人物反应近景，用表情与画外空间推进张力。从当前台词只选一个可见具体事件，不能把不同时空拼成一帧；允许以关键道具为主体，不强迫画出所有演员。全新构图，不复刻参考的背景或构图。室内不能有外来者，陌生人若在监控中只能存在于二维屏幕里，屏幕内必须是室外封闭灰墙，不是卖场货架。仪表不出现可读的具体数值。高处检修盖完全关闭齐平，不可翻开，不画任何入侵者。",
+        "referenced_image_paths": [
+          "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/references/male-neutral.png"
+        ],
+        "transparent_background": false
+      },
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-04b0cc6e-46f3-4ec7-b72b-52a740967a06.png"
+    }
+  }
+]

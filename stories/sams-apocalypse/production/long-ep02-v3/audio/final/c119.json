@@ -1,0 +1,22 @@
+{
+  "cue_id": "c119",
+  "source_text": "一整座山姆，终于从我眼里的宝箱，变成了一道每天都要做的选择题。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.32,
+  "trim_start_seconds": 0.555,
+  "trim_end_seconds": 4.32,
+  "untruncated_processed_seconds": 3.765,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.456406457919422,
+  "measured_seconds": 3.7666666666666666,
+  "frames": 113,
+  "samples": 180800,
+  "units": 28,
+  "cps_including_performance": 7.433628318584071,
+  "sha256": "e695ca9faf55d6081bdb948f448b5dd59fe56ff00cf5cd3c99c02d73b66f1b55"
+}

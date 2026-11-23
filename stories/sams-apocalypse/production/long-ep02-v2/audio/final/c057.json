@@ -1,0 +1,21 @@
+{
+  "cue_id": "c057",
+  "source_text": "我第一次注意到，这六个人并不是一条心。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.76471875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 1.67,
+  "atempo": 0.7159798399051289,
+  "untruncated_processed_seconds": 2.2272291666666666,
+  "tail_quantization_seconds": 0.0394375,
+  "gain": 1.4198366662999415,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "b1e39ede7d081a2f58280d0143e31041c136ef7c03f74b2a175e33a0835c1a38"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c020",
+  "source_text": "闻着没坏，不等于还能吃。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.3119375,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.19,
+  "atempo": 0.8705017739483022,
+  "untruncated_processed_seconds": 1.2978541666666668,
+  "tail_quantization_seconds": 0.035479166666666666,
+  "gain": 1.6994375043733176,
+  "measured_seconds": 1.3333333333333333,
+  "frames": 40,
+  "samples": 64000,
+  "units": 10,
+  "cps_including_performance": 7.5,
+  "sha256": "ef56fbc53707ec59ce7cd2188f408b701b0de05c543e380ebe6b16eaa998e6a8"
+}

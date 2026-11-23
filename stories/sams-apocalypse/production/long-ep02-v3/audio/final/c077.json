@@ -1,0 +1,22 @@
+{
+  "cue_id": "c077",
+  "source_text": "没花一分钱，却忙得像刚买了套房。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.728375,
+  "trim_start_seconds": 0.24,
+  "trim_end_seconds": 2.56,
+  "untruncated_processed_seconds": 2.32,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 1.6490089903672651,
+  "measured_seconds": 2.3333333333333335,
+  "frames": 70,
+  "samples": 112000,
+  "units": 14,
+  "cps_including_performance": 6.0,
+  "sha256": "fef2e8512de60549c2179e8f831d54b771fb69986885f0de12673121a773a4d4"
+}

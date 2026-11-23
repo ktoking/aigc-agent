@@ -1,0 +1,21 @@
+{
+  "cue_id": "c143",
+  "source_text": "门外每多一点动静，里面就少一点犯错的余地。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.78640625,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 2.72,
+  "atempo": 1.0734163795388285,
+  "untruncated_processed_seconds": 2.5196875,
+  "tail_quantization_seconds": 0.013645833333333333,
+  "gain": 1.592922178246048,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "1f6d3b5cd699d8206be912125117ef7685bd4d95fdde8f94a9dfec9144cda459"
+}

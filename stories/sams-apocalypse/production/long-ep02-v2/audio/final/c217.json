@@ -1,0 +1,21 @@
+{
+  "cue_id": "c217",
+  "source_text": "我看着监控，忽然觉得，这个人比门外那些东西更懂得找软处下手。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 3.6339375,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 3.485,
+  "atempo": 0.9589614740368508,
+  "untruncated_processed_seconds": 3.575854166666667,
+  "tail_quantization_seconds": 0.02414583333333333,
+  "gain": 1.1530063239229555,
+  "measured_seconds": 3.6,
+  "frames": 108,
+  "samples": 172800,
+  "units": 27,
+  "cps_including_performance": 7.5,
+  "sha256": "c385006c39db83825f27baa9ad4a83f6df591c40d5c737600b62a7e11ee45436"
+}

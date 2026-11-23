@@ -1,0 +1,789 @@
+{
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f42411ec2555a3853132d578b489",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "(exhale)我开了一罐水果，给她多盛了一点。她低头看碗，问这算加班费吗。我说算房租。她终于笑了。外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "preset": "healing",
+  "extra_info": {
+    "audio_length": 11760,
+    "audio_sample_rate": 32000,
+    "audio_size": 753864,
+    "bitrate": 128000,
+    "word_count": 76,
+    "invisible_character_ratio": 0,
+    "usage_characters": 135,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "cue_ranges": [
+    {
+      "id": "c209",
+      "text_begin": 0,
+      "text_end": 24,
+      "source_text": "我开了一罐水果，给她多盛了一点。",
+      "tts_text": "(exhale)我开了一罐水果，给她多盛了一点。"
+    },
+    {
+      "id": "c210",
+      "text_begin": 24,
+      "text_end": 38,
+      "source_text": "她低头看碗，问这算加班费吗。",
+      "tts_text": "她低头看碗，问这算加班费吗。"
+    },
+    {
+      "id": "c211",
+      "text_begin": 38,
+      "text_end": 44,
+      "source_text": "我说算房租。",
+      "tts_text": "我说算房租。"
+    },
+    {
+      "id": "c212",
+      "text_begin": 44,
+      "text_end": 50,
+      "source_text": "她终于笑了。",
+      "tts_text": "她终于笑了。"
+    },
+    {
+      "id": "c213",
+      "text_begin": 50,
+      "text_end": 76,
+      "source_text": "外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+      "tts_text": "外面再乱，能有人接住一句废话，这地方才不只是个仓库。"
+    }
+  ],
+  "sha256": "d92683f66d99d6052acdec146c6a7c3d1769a0712c3869b1df91b3520e49ae3d",
+  "note": "Provider word timing for internal sentence alignment only; no SRT/VTT generated or delivered.",
+  "alignment": [
+    {
+      "text": "(exhale)我开了一罐水果，给她多盛了一点。她低头看碗，问这算加班费吗。我说算房租。她终于笑了。外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+      "pronounce_text": "(exhale)我开了一罐水果，给她多盛了一点。她低头看碗，问这算加班费吗。我说算房租。她终于笑了。外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+      "time_begin": 0.0,
+      "time_end": 11660.907029478458,
+      "text_begin": 0,
+      "text_end": 76,
+      "pronounce_text_begin": 0,
+      "pronounce_text_end": 76,
+      "is_final_segment": true,
+      "timestamped_words": [
+        {
+          "word": "(exhale)",
+          "word_begin": 0,
+          "word_end": 8,
+          "pronounce_word": "(exhale)",
+          "pronounce_word_begin": 0,
+          "pronounce_word_end": 8,
+          "time_begin": 35.55555555555556,
+          "time_end": 320.0
+        },
+        {
+          "word": "我",
+          "word_begin": 8,
+          "word_end": 9,
+          "pronounce_word": "我",
+          "pronounce_word_begin": 8,
+          "pronounce_word_end": 9,
+          "time_begin": 320.0,
+          "time_end": 711.1111111111111
+        },
+        {
+          "word": "开",
+          "word_begin": 9,
+          "word_end": 10,
+          "pronounce_word": "开",
+          "pronounce_word_begin": 9,
+          "pronounce_word_end": 10,
+          "time_begin": 711.1111111111111,
+          "time_end": 888.888888888889
+        },
+        {
+          "word": "了",
+          "word_begin": 10,
+          "word_end": 11,
+          "pronounce_word": "了",
+          "pronounce_word_begin": 10,
+          "pronounce_word_end": 11,
+          "time_begin": 888.888888888889,
+          "time_end": 1031.1111111111113
+        },
+        {
+          "word": "一",
+          "word_begin": 11,
+          "word_end": 12,
+          "pronounce_word": "一",
+          "pronounce_word_begin": 11,
+          "pronounce_word_end": 12,
+          "time_begin": 1031.1111111111113,
+          "time_end": 1102.2222222222224
+        },
+        {
+          "word": "罐",
+          "word_begin": 12,
+          "word_end": 13,
+          "pronounce_word": "罐",
+          "pronounce_word_begin": 12,
+          "pronounce_word_end": 13,
+          "time_begin": 1102.2222222222224,
+          "time_end": 1173.3333333333335
+        },
+        {
+          "word": "水",
+          "word_begin": 13,
+          "word_end": 14,
+          "pronounce_word": "水",
+          "pronounce_word_begin": 13,
+          "pronounce_word_end": 14,
+          "time_begin": 1173.3333333333335,
+          "time_end": 1315.5555555555557
+        },
+        {
+          "word": "果",
+          "word_begin": 14,
+          "word_end": 15,
+          "pronounce_word": "果",
+          "pronounce_word_begin": 14,
+          "pronounce_word_end": 15,
+          "time_begin": 1315.5555555555557,
+          "time_end": 1457.7777777777778
+        },
+        {
+          "word": "，",
+          "word_begin": 15,
+          "word_end": 16,
+          "pronounce_word": "，",
+          "pronounce_word_begin": 15,
+          "pronounce_word_end": 16,
+          "time_begin": 1457.7777777777778,
+          "time_end": 1493.3333333333335
+        },
+        {
+          "word": "给",
+          "word_begin": 16,
+          "word_end": 17,
+          "pronounce_word": "给",
+          "pronounce_word_begin": 16,
+          "pronounce_word_end": 17,
+          "time_begin": 1493.3333333333335,
+          "time_end": 1920.0
+        },
+        {
+          "word": "她",
+          "word_begin": 17,
+          "word_end": 18,
+          "pronounce_word": "她",
+          "pronounce_word_begin": 17,
+          "pronounce_word_end": 18,
+          "time_begin": 1920.0,
+          "time_end": 2062.2222222222226
+        },
+        {
+          "word": "多",
+          "word_begin": 18,
+          "word_end": 19,
+          "pronounce_word": "多",
+          "pronounce_word_begin": 18,
+          "pronounce_word_end": 19,
+          "time_begin": 2062.2222222222226,
+          "time_end": 2204.444444444445
+        },
+        {
+          "word": "盛",
+          "word_begin": 19,
+          "word_end": 20,
+          "pronounce_word": "盛",
+          "pronounce_word_begin": 19,
+          "pronounce_word_end": 20,
+          "time_begin": 2204.444444444445,
+          "time_end": 2311.1111111111113
+        },
+        {
+          "word": "了",
+          "word_begin": 20,
+          "word_end": 21,
+          "pronounce_word": "了",
+          "pronounce_word_begin": 20,
+          "pronounce_word_end": 21,
+          "time_begin": 2311.1111111111113,
+          "time_end": 2417.777777777778
+        },
+        {
+          "word": "一",
+          "word_begin": 21,
+          "word_end": 22,
+          "pronounce_word": "一",
+          "pronounce_word_begin": 21,
+          "pronounce_word_end": 22,
+          "time_begin": 2417.777777777778,
+          "time_end": 2524.4444444444443
+        },
+        {
+          "word": "点",
+          "word_begin": 22,
+          "word_end": 23,
+          "pronounce_word": "点",
+          "pronounce_word_begin": 22,
+          "pronounce_word_end": 23,
+          "time_begin": 2524.4444444444443,
+          "time_end": 2595.5555555555557
+        },
+        {
+          "word": "。",
+          "word_begin": 23,
+          "word_end": 24,
+          "pronounce_word": "。",
+          "pronounce_word_begin": 23,
+          "pronounce_word_end": 24,
+          "time_begin": 2595.5555555555557,
+          "time_end": 2702.222222222222
+        },
+        {
+          "word": "她",
+          "word_begin": 24,
+          "word_end": 25,
+          "pronounce_word": "她",
+          "pronounce_word_begin": 24,
+          "pronounce_word_end": 25,
+          "time_begin": 2702.222222222222,
+          "time_end": 3128.8888888888887
+        },
+        {
+          "word": "低",
+          "word_begin": 25,
+          "word_end": 26,
+          "pronounce_word": "低",
+          "pronounce_word_begin": 25,
+          "pronounce_word_end": 26,
+          "time_begin": 3128.8888888888887,
+          "time_end": 3235.5555555555557
+        },
+        {
+          "word": "头",
+          "word_begin": 26,
+          "word_end": 27,
+          "pronounce_word": "头",
+          "pronounce_word_begin": 26,
+          "pronounce_word_end": 27,
+          "time_begin": 3235.5555555555557,
+          "time_end": 3342.222222222222
+        },
+        {
+          "word": "看",
+          "word_begin": 27,
+          "word_end": 28,
+          "pronounce_word": "看",
+          "pronounce_word_begin": 27,
+          "pronounce_word_end": 28,
+          "time_begin": 3342.222222222222,
+          "time_end": 3448.8888888888887
+        },
+        {
+          "word": "碗",
+          "word_begin": 28,
+          "word_end": 29,
+          "pronounce_word": "碗",
+          "pronounce_word_begin": 28,
+          "pronounce_word_end": 29,
+          "time_begin": 3448.8888888888887,
+          "time_end": 3555.555555555556
+        },
+        {
+          "word": "，",
+          "word_begin": 29,
+          "word_end": 30,
+          "pronounce_word": "，",
+          "pronounce_word_begin": 29,
+          "pronounce_word_end": 30,
+          "time_begin": 3555.555555555556,
+          "time_end": 3591.111111111111
+        },
+        {
+          "word": "问",
+          "word_begin": 30,
+          "word_end": 31,
+          "pronounce_word": "问",
+          "pronounce_word_begin": 30,
+          "pronounce_word_end": 31,
+          "time_begin": 3591.111111111111,
+          "time_end": 3982.2222222222217
+        },
+        {
+          "word": "这",
+          "word_begin": 31,
+          "word_end": 32,
+          "pronounce_word": "这",
+          "pronounce_word_begin": 31,
+          "pronounce_word_end": 32,
+          "time_begin": 3982.2222222222217,
+          "time_end": 4231.111111111111
+        },
+        {
+          "word": "算",
+          "word_begin": 32,
+          "word_end": 33,
+          "pronounce_word": "算",
+          "pronounce_word_begin": 32,
+          "pronounce_word_end": 33,
+          "time_begin": 4231.111111111111,
+          "time_end": 4337.777777777777
+        },
+        {
+          "word": "加",
+          "word_begin": 33,
+          "word_end": 34,
+          "pronounce_word": "加",
+          "pronounce_word_begin": 33,
+          "pronounce_word_end": 34,
+          "time_begin": 4337.777777777777,
+          "time_end": 4444.444444444444
+        },
+        {
+          "word": "班",
+          "word_begin": 34,
+          "word_end": 35,
+          "pronounce_word": "班",
+          "pronounce_word_begin": 34,
+          "pronounce_word_end": 35,
+          "time_begin": 4444.444444444444,
+          "time_end": 4586.666666666667
+        },
+        {
+          "word": "费",
+          "word_begin": 35,
+          "word_end": 36,
+          "pronounce_word": "费",
+          "pronounce_word_begin": 35,
+          "pronounce_word_end": 36,
+          "time_begin": 4586.666666666667,
+          "time_end": 4728.888888888889
+        },
+        {
+          "word": "吗",
+          "word_begin": 36,
+          "word_end": 37,
+          "pronounce_word": "吗",
+          "pronounce_word_begin": 36,
+          "pronounce_word_end": 37,
+          "time_begin": 4728.888888888889,
+          "time_end": 4871.111111111112
+        },
+        {
+          "word": "。",
+          "word_begin": 37,
+          "word_end": 38,
+          "pronounce_word": "。",
+          "pronounce_word_begin": 37,
+          "pronounce_word_end": 38,
+          "time_begin": 4871.111111111112,
+          "time_end": 4906.666666666667
+        },
+        {
+          "word": "我",
+          "word_begin": 38,
+          "word_end": 39,
+          "pronounce_word": "我",
+          "pronounce_word_begin": 38,
+          "pronounce_word_end": 39,
+          "time_begin": 4906.666666666667,
+          "time_end": 5262.222222222223
+        },
+        {
+          "word": "说",
+          "word_begin": 39,
+          "word_end": 40,
+          "pronounce_word": "说",
+          "pronounce_word_begin": 39,
+          "pronounce_word_end": 40,
+          "time_begin": 5262.222222222223,
+          "time_end": 5617.777777777777
+        },
+        {
+          "word": "算",
+          "word_begin": 40,
+          "word_end": 41,
+          "pronounce_word": "算",
+          "pronounce_word_begin": 40,
+          "pronounce_word_end": 41,
+          "time_begin": 5617.777777777777,
+          "time_end": 5760.0
+        },
+        {
+          "word": "房",
+          "word_begin": 41,
+          "word_end": 42,
+          "pronounce_word": "房",
+          "pronounce_word_begin": 41,
+          "pronounce_word_end": 42,
+          "time_begin": 5760.0,
+          "time_end": 5902.222222222222
+        },
+        {
+          "word": "租",
+          "word_begin": 42,
+          "word_end": 43,
+          "pronounce_word": "租",
+          "pronounce_word_begin": 42,
+          "pronounce_word_end": 43,
+          "time_begin": 5902.222222222222,
+          "time_end": 6044.444444444444
+        },
+        {
+          "word": "。",
+          "word_begin": 43,
+          "word_end": 44,
+          "pronounce_word": "。",
+          "pronounce_word_begin": 43,
+          "pronounce_word_end": 44,
+          "time_begin": 6044.444444444444,
+          "time_end": 6151.111111111111
+        },
+        {
+          "word": "她",
+          "word_begin": 44,
+          "word_end": 45,
+          "pronounce_word": "她",
+          "pronounce_word_begin": 44,
+          "pronounce_word_end": 45,
+          "time_begin": 6151.111111111111,
+          "time_end": 6506.666666666667
+        },
+        {
+          "word": "终",
+          "word_begin": 45,
+          "word_end": 46,
+          "pronounce_word": "终",
+          "pronounce_word_begin": 45,
+          "pronounce_word_end": 46,
+          "time_begin": 6506.666666666667,
+          "time_end": 6684.444444444444
+        },
+        {
+          "word": "于",
+          "word_begin": 46,
+          "word_end": 47,
+          "pronounce_word": "于",
+          "pronounce_word_begin": 46,
+          "pronounce_word_end": 47,
+          "time_begin": 6684.444444444444,
+          "time_end": 6826.666666666667
+        },
+        {
+          "word": "笑",
+          "word_begin": 47,
+          "word_end": 48,
+          "pronounce_word": "笑",
+          "pronounce_word_begin": 47,
+          "pronounce_word_end": 48,
+          "time_begin": 6826.666666666667,
+          "time_end": 6933.333333333334
+        },
+        {
+          "word": "了",
+          "word_begin": 48,
+          "word_end": 49,
+          "pronounce_word": "了",
+          "pronounce_word_begin": 48,
+          "pronounce_word_end": 49,
+          "time_begin": 6933.333333333334,
+          "time_end": 7040.0
+        },
+        {
+          "word": "。",
+          "word_begin": 49,
+          "word_end": 50,
+          "pronounce_word": "。",
+          "pronounce_word_begin": 49,
+          "pronounce_word_end": 50,
+          "time_begin": 7040.0,
+          "time_end": 7182.222222222222
+        },
+        {
+          "word": "外",
+          "word_begin": 50,
+          "word_end": 51,
+          "pronounce_word": "外",
+          "pronounce_word_begin": 50,
+          "pronounce_word_end": 51,
+          "time_begin": 7217.777777777777,
+          "time_end": 7466.666666666666
+        },
+        {
+          "word": "面",
+          "word_begin": 51,
+          "word_end": 52,
+          "pronounce_word": "面",
+          "pronounce_word_begin": 51,
+          "pronounce_word_end": 52,
+          "time_begin": 7466.666666666666,
+          "time_end": 7608.888888888889
+        },
+        {
+          "word": "再",
+          "word_begin": 52,
+          "word_end": 53,
+          "pronounce_word": "再",
+          "pronounce_word_begin": 52,
+          "pronounce_word_end": 53,
+          "time_begin": 7608.888888888889,
+          "time_end": 7751.11111111111
+        },
+        {
+          "word": "乱",
+          "word_begin": 53,
+          "word_end": 54,
+          "pronounce_word": "乱",
+          "pronounce_word_begin": 53,
+          "pronounce_word_end": 54,
+          "time_begin": 7751.11111111111,
+          "time_end": 7857.777777777777
+        },
+        {
+          "word": "，",
+          "word_begin": 54,
+          "word_end": 55,
+          "pronounce_word": "，",
+          "pronounce_word_begin": 54,
+          "pronounce_word_end": 55,
+          "time_begin": 7857.777777777777,
+          "time_end": 7893.333333333333
+        },
+        {
+          "word": "能",
+          "word_begin": 55,
+          "word_end": 56,
+          "pronounce_word": "能",
+          "pronounce_word_begin": 55,
+          "pronounce_word_end": 56,
+          "time_begin": 7893.333333333333,
+          "time_end": 8391.111111111111
+        },
+        {
+          "word": "有",
+          "word_begin": 56,
+          "word_end": 57,
+          "pronounce_word": "有",
+          "pronounce_word_begin": 56,
+          "pronounce_word_end": 57,
+          "time_begin": 8391.111111111111,
+          "time_end": 8497.777777777777
+        },
+        {
+          "word": "人",
+          "word_begin": 57,
+          "word_end": 58,
+          "pronounce_word": "人",
+          "pronounce_word_begin": 57,
+          "pronounce_word_end": 58,
+          "time_begin": 8497.777777777777,
+          "time_end": 8640.0
+        },
+        {
+          "word": "接",
+          "word_begin": 58,
+          "word_end": 59,
+          "pronounce_word": "接",
+          "pronounce_word_begin": 58,
+          "pronounce_word_end": 59,
+          "time_begin": 8640.0,
+          "time_end": 8746.666666666666
+        },
+        {
+          "word": "住",
+          "word_begin": 59,
+          "word_end": 60,
+          "pronounce_word": "住",
+          "pronounce_word_begin": 59,
+          "pronounce_word_end": 60,
+          "time_begin": 8746.666666666666,
+          "time_end": 8888.888888888889
+        },
+        {
+          "word": "一",
+          "word_begin": 60,
+          "word_end": 61,
+          "pronounce_word": "一",
+          "pronounce_word_begin": 60,
+          "pronounce_word_end": 61,
+          "time_begin": 8888.888888888889,
+          "time_end": 8995.555555555555
+        },
+        {
+          "word": "句",
+          "word_begin": 61,
+          "word_end": 62,
+          "pronounce_word": "句",
+          "pronounce_word_begin": 61,
+          "pronounce_word_end": 62,
+          "time_begin": 8995.555555555555,
+          "time_end": 9102.222222222223
+        },
+        {
+          "word": "废",
+          "word_begin": 62,
+          "word_end": 63,
+          "pronounce_word": "废",
+          "pronounce_word_begin": 62,
+          "pronounce_word_end": 63,
+          "time_begin": 9102.222222222223,
+          "time_end": 9208.888888888889
+        },
+        {
+          "word": "话",
+          "word_begin": 63,
+          "word_end": 64,
+          "pronounce_word": "话",
+          "pronounce_word_begin": 63,
+          "pronounce_word_end": 64,
+          "time_begin": 9208.888888888889,
+          "time_end": 9351.11111111111
+        },
+        {
+          "word": "，",
+          "word_begin": 64,
+          "word_end": 65,
+          "pronounce_word": "，",
+          "pronounce_word_begin": 64,
+          "pronounce_word_end": 65,
+          "time_begin": 9351.11111111111,
+          "time_end": 9386.666666666666
+        },
+        {
+          "word": "这",
+          "word_begin": 65,
+          "word_end": 66,
+          "pronounce_word": "这",
+          "pronounce_word_begin": 65,
+          "pronounce_word_end": 66,
+          "time_begin": 9386.666666666666,
+          "time_end": 9955.555555555555
+        },
+        {
+          "word": "地",
+          "word_begin": 66,
+          "word_end": 67,
+          "pronounce_word": "地",
+          "pronounce_word_begin": 66,
+          "pronounce_word_end": 67,
+          "time_begin": 9955.555555555555,
+          "time_end": 10062.222222222223
+        },
+        {
+          "word": "方",
+          "word_begin": 67,
+          "word_end": 68,
+          "pronounce_word": "方",
+          "pronounce_word_begin": 67,
+          "pronounce_word_end": 68,
+          "time_begin": 10062.222222222223,
+          "time_end": 10204.444444444443
+        },
+        {
+          "word": "才",
+          "word_begin": 68,
+          "word_end": 69,
+          "pronounce_word": "才",
+          "pronounce_word_begin": 68,
+          "pronounce_word_end": 69,
+          "time_begin": 10204.444444444443,
+          "time_end": 10346.666666666666
+        },
+        {
+          "word": "不",
+          "word_begin": 69,
+          "word_end": 70,
+          "pronounce_word": "不",
+          "pronounce_word_begin": 69,
+          "pronounce_word_end": 70,
+          "time_begin": 10346.666666666666,
+          "time_end": 10524.444444444443
+        },
+        {
+          "word": "只",
+          "word_begin": 70,
+          "word_end": 71,
+          "pronounce_word": "只",
+          "pronounce_word_begin": 70,
+          "pronounce_word_end": 71,
+          "time_begin": 10524.444444444443,
+          "time_end": 10631.11111111111
+        },
+        {
+          "word": "是",
+          "word_begin": 71,
+          "word_end": 72,
+          "pronounce_word": "是",
+          "pronounce_word_begin": 71,
+          "pronounce_word_end": 72,
+          "time_begin": 10631.11111111111,
+          "time_end": 10737.777777777777
+        },
+        {
+          "word": "个",
+          "word_begin": 72,
+          "word_end": 73,
+          "pronounce_word": "个",
+          "pronounce_word_begin": 72,
+          "pronounce_word_end": 73,
+          "time_begin": 10737.777777777777,
+          "time_end": 10844.444444444445
+        },
+        {
+          "word": "仓",
+          "word_begin": 73,
+          "word_end": 74,
+          "pronounce_word": "仓",
+          "pronounce_word_begin": 73,
+          "pronounce_word_end": 74,
+          "time_begin": 10844.444444444445,
+          "time_end": 10915.555555555555
+        },
+        {
+          "word": "库",
+          "word_begin": 74,
+          "word_end": 75,
+          "pronounce_word": "库",
+          "pronounce_word_begin": 74,
+          "pronounce_word_end": 75,
+          "time_begin": 10915.555555555555,
+          "time_end": 11057.777777777777
+        },
+        {
+          "word": "。",
+          "word_begin": 75,
+          "word_end": 76,
+          "pronounce_word": "。",
+          "pronounce_word_begin": 75,
+          "pronounce_word_end": 76,
+          "time_begin": 11057.777777777777,
+          "time_end": 11235.555555555555
+        }
+      ]
+    }
+  ]
+}

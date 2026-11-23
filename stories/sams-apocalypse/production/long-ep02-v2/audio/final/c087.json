@@ -1,0 +1,21 @@
+{
+  "cue_id": "c087",
+  "source_text": "我们做了空盒测试，确认一边关严，另一边才打开。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.8560625,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 2.795,
+  "atempo": 1.032595016360433,
+  "untruncated_processed_seconds": 2.6505,
+  "tail_quantization_seconds": 0.016166666666666666,
+  "gain": 1.521849925958514,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "6bdac6f6fabd34f3b66ea46f1d6e38d2b3dfdd111ca2e8272ebbcb49af960bff"
+}

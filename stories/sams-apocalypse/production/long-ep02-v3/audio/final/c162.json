@@ -1,0 +1,22 @@
+{
+  "cue_id": "c162",
+  "source_text": "我才明白，拒绝别人不是爽完就结束。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.3915625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.355,
+  "untruncated_processed_seconds": 3.355,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.335308872834625,
+  "measured_seconds": 3.3666666666666667,
+  "frames": 101,
+  "samples": 161600,
+  "units": 15,
+  "cps_including_performance": 4.455445544554456,
+  "sha256": "bed47961361f72368615a03e7fb02b179d1a527595fafbce946dd6101f9a9f30"
+}

@@ -1,0 +1,147 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f1e9ac10011eb829b46de6cea2b1",
+  "preset": "documentary",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我开始给物资换个分法。不是贵的和便宜的，而是不靠电能留的、马上得用的、已经不能碰的。一整座山姆，终于从我眼里的宝箱，变成了一道每天都要做的选择题。许棠也没说修好就能永远有电。她把每次开机的时间、温度和油量并排记。我负责盯监控。账本一页页往后翻，我们才知道哪些计划是真的，哪些只是想得美。第二天，我们清出了卫生区。饮用水不拿去冲地，脏物和吃的分开。我以前觉得囤货就是把车装满。真住下来才知道，吃进去容易，后面的麻烦得每天有人收拾。最有用的新东西，居然是几块橡胶垫。推车轮子修好，容易碰响的金属垫住。夜里搬一箱水，不再像宣布开业。许棠说，建设有时候，就是让自己少犯一次蠢。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b004",
+  "batch_text_begin": 0,
+  "batch_text_end": 11,
+  "source_cue_text": "我开始给物资换个分法。",
+  "batch_audio_start_sample": 0,
+  "batch_audio_end_sample": 48764,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c117",
+      "char_boundary": 11,
+      "previous_word_time_end": 1.528888888888889,
+      "next_word_time_begin": 1.528888888888889,
+      "selected_audio_time": 1.523875
+    },
+    {
+      "after_cue": "c118",
+      "char_boundary": 42,
+      "previous_word_time_end": 6.364444444444445,
+      "next_word_time_begin": 6.4,
+      "selected_audio_time": 6.39521875
+    },
+    {
+      "after_cue": "c119",
+      "char_boundary": 73,
+      "previous_word_time_end": 10.702222222222222,
+      "next_word_time_begin": 10.702222222222222,
+      "selected_audio_time": 10.71521875
+    },
+    {
+      "after_cue": "c120",
+      "char_boundary": 87,
+      "previous_word_time_end": 13.262222222222222,
+      "next_word_time_begin": 13.935555555555554,
+      "selected_audio_time": 13.618875
+    },
+    {
+      "after_cue": "c121",
+      "char_boundary": 106,
+      "previous_word_time_end": 16.566666666666666,
+      "next_word_time_begin": 16.566666666666666,
+      "selected_audio_time": 16.58565625
+    },
+    {
+      "after_cue": "c122",
+      "char_boundary": 113,
+      "previous_word_time_end": 17.74,
+      "next_word_time_begin": 17.74,
+      "selected_audio_time": 17.76
+    },
+    {
+      "after_cue": "c123",
+      "char_boundary": 143,
+      "previous_word_time_end": 22.46888888888889,
+      "next_word_time_begin": 22.46888888888889,
+      "selected_audio_time": 22.487875
+    },
+    {
+      "after_cue": "c124",
+      "char_boundary": 156,
+      "previous_word_time_end": 24.78,
+      "next_word_time_begin": 24.815555555555555,
+      "selected_audio_time": 24.81378125
+    },
+    {
+      "after_cue": "c125",
+      "char_boundary": 173,
+      "previous_word_time_end": 27.482222222222223,
+      "next_word_time_begin": 28.076507936507937,
+      "selected_audio_time": 27.789375
+    },
+    {
+      "after_cue": "c126",
+      "char_boundary": 187,
+      "previous_word_time_end": 30.13873015873016,
+      "next_word_time_begin": 30.13873015873016,
+      "selected_audio_time": 30.15771875
+    },
+    {
+      "after_cue": "c127",
+      "char_boundary": 214,
+      "previous_word_time_end": 34.40539682539683,
+      "next_word_time_begin": 34.40539682539683,
+      "selected_audio_time": 34.42540625
+    },
+    {
+      "after_cue": "c128",
+      "char_boundary": 231,
+      "previous_word_time_end": 37.214285714285715,
+      "next_word_time_begin": 37.24984126984127,
+      "selected_audio_time": 37.2380625
+    },
+    {
+      "after_cue": "c129",
+      "char_boundary": 248,
+      "previous_word_time_end": 39.88095238095238,
+      "next_word_time_begin": 40.475963718820864,
+      "selected_audio_time": 40.19546875
+    },
+    {
+      "after_cue": "c130",
+      "char_boundary": 263,
+      "previous_word_time_end": 42.787074829931974,
+      "next_word_time_begin": 42.787074829931974,
+      "selected_audio_time": 42.8020625
+    }
+  ],
+  "sha256": "97c345da3352b05e8001c3e351123c86e1d416798d9a5678970bee61f9cdd5b8",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

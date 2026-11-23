@@ -1,0 +1,21 @@
+{
+  "cue_id": "c111",
+  "source_text": "许棠看完记录，说不能再拖。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.6138125,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.54,
+  "atempo": 1.038886332259549,
+  "untruncated_processed_seconds": 1.4504375,
+  "tail_quantization_seconds": 0.016229166666666666,
+  "gain": 1.441345002288507,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "aa48f95e79f64d48a0b9f54a62906e22841527be2f1f7e0c5f8d45b4c73f12a8"
+}

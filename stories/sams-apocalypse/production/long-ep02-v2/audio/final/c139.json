@@ -1,0 +1,21 @@
+{
+  "cue_id": "c139",
+  "source_text": "我忽然想起，他们第一次拍门时，那只一直没放下的工具袋。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.9489375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.88,
+  "atempo": 0.8972344437460715,
+  "untruncated_processed_seconds": 3.1746875,
+  "tail_quantization_seconds": 0.0253125,
+  "gain": 1.819023202714265,
+  "measured_seconds": 3.2,
+  "frames": 96,
+  "samples": 153600,
+  "units": 24,
+  "cps_including_performance": 7.5,
+  "sha256": "c5b7a86c2bb70704a7dab10320ea85f7805c46dc3b43d01a08a378fa6ddab8f7"
+}

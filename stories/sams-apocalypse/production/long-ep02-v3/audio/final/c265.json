@@ -1,0 +1,22 @@
+{
+  "cue_id": "c265",
+  "source_text": "我叫醒许棠，两个人停在走廊口。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.7474375,
+  "trim_start_seconds": 0.475,
+  "trim_end_seconds": 2.7474375,
+  "untruncated_processed_seconds": 2.2724375,
+  "tail_quantization_seconds": 0.0275625,
+  "gain": 2.0,
+  "measured_seconds": 2.3,
+  "frames": 69,
+  "samples": 110400,
+  "units": 13,
+  "cps_including_performance": 5.6521739130434785,
+  "sha256": "07f281936daa97e68d5b04af0cd6d797686a93884c5da8962699f0c695aeb43b"
+}

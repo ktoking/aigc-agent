@@ -1,0 +1,22 @@
+{
+  "cue_id": "c145",
+  "source_text": "不如让他们住进来，一起守。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.63146875,
+  "trim_start_seconds": 0.455,
+  "trim_end_seconds": 2.63146875,
+  "untruncated_processed_seconds": 2.1764791666666667,
+  "tail_quantization_seconds": 0.023520833333333335,
+  "gain": 1.7388129631301428,
+  "measured_seconds": 2.2,
+  "frames": 66,
+  "samples": 105600,
+  "units": 11,
+  "cps_including_performance": 5.0,
+  "sha256": "109d691c98237e3f1993aad0a7e9ff15baec137cd08da7fec3cb90e4dcfd848f"
+}

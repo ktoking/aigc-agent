@@ -1,0 +1,21 @@
+{
+  "cue_id": "c129",
+  "source_text": "推车轮子修好，容易碰响的金属垫住。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9505,
+  "trim_start_seconds": 0.09,
+  "trim_end_seconds": 1.9,
+  "atempo": 0.9132189707366297,
+  "untruncated_processed_seconds": 1.9711041666666667,
+  "tail_quantization_seconds": 0.028895833333333332,
+  "gain": 1.6042193309380375,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "c0d66a67e740b60b384110b9bc1506b5265196dd11e45ef0419bcb7c78dfa3ff"
+}

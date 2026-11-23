@@ -1,0 +1,21 @@
+{
+  "cue_id": "c113",
+  "source_text": "门外的人没进来，时间却一直在偷我们的库存。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.34521875,
+  "trim_start_seconds": 0.095,
+  "trim_end_seconds": 2.275,
+  "atempo": 0.8666843360720912,
+  "untruncated_processed_seconds": 2.4901875,
+  "tail_quantization_seconds": 0.043145833333333335,
+  "gain": 1.339351811615097,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "e5532de293320d554712f327ab7a8e14c976a0f00b9f1a4e19ae7ac812395b9e"
+}

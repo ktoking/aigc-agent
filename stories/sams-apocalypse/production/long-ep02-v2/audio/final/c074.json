@@ -1,0 +1,21 @@
+{
+  "cue_id": "c074",
+  "source_text": "以前嫌盘点麻烦，现在少一支手电，都可能让我们摸黑找半天。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 3.08828125,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 3.035,
+  "atempo": 0.8988538105771163,
+  "untruncated_processed_seconds": 3.3080625,
+  "tail_quantization_seconds": 0.025270833333333333,
+  "gain": 1.7683767352912583,
+  "measured_seconds": 3.3333333333333335,
+  "frames": 100,
+  "samples": 160000,
+  "units": 25,
+  "cps_including_performance": 7.5,
+  "sha256": "468ac6007a26292e9d650569dbd5fb79d5f4a9ccbf6b96b0a331acfc3fba39f4"
+}

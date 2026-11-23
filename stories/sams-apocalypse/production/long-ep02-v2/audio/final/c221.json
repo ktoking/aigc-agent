@@ -1,0 +1,21 @@
+{
+  "cue_id": "c221",
+  "source_text": "当然，也可能是障眼法。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.3119375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.25,
+  "atempo": 1.0363790186125212,
+  "untruncated_processed_seconds": 1.1767916666666667,
+  "tail_quantization_seconds": 0.023208333333333334,
+  "gain": 1.4786254600307815,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 9,
+  "cps_including_performance": 7.5,
+  "sha256": "5030a3175a09f093d53b87351046cd696fbf694d11f613882eb06da970aa04ab"
+}

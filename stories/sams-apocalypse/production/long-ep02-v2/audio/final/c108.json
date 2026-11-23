@@ -1,0 +1,21 @@
+{
+  "cue_id": "c108",
+  "source_text": "我这才发现，真正着急喝水的人，根本没力气一直喊。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 2.46134375,
+  "trim_start_seconds": 0.07,
+  "trim_end_seconds": 2.4,
+  "atempo": 0.8375269590222861,
+  "untruncated_processed_seconds": 2.765604166666667,
+  "tail_quantization_seconds": 0.034395833333333334,
+  "gain": 1.7148691635122053,
+  "measured_seconds": 2.8,
+  "frames": 84,
+  "samples": 134400,
+  "units": 21,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "bb0d981c27a094513265164312dcac968dfb54888e6180e6319e875a7733653e"
+}

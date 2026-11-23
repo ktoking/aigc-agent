@@ -1,0 +1,22 @@
+{
+  "cue_id": "c032",
+  "source_text": "他说他们一整天没吃东西，只想借个地方躲。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.914125,
+  "trim_start_seconds": 0.205,
+  "trim_end_seconds": 2.695,
+  "untruncated_processed_seconds": 2.49,
+  "tail_quantization_seconds": 0.01,
+  "gain": 1.2972184205305592,
+  "measured_seconds": 2.5,
+  "frames": 75,
+  "samples": 120000,
+  "units": 18,
+  "cps_including_performance": 7.2,
+  "sha256": "80dc6ecc2516b8d06ca19bab2115d9334135c394c77d11accfafcc0d083eb179"
+}

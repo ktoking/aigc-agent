@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c635b6504d812143c0fd3a38bbc8",
+  "preset": "fear",
+  "direction": "像刚察觉危险，短句带紧张；关键动作可少量加入吸气，保持可懂。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我告诉他，再碰门，今晚连传递盒都停。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "fearful",
+      "speed": 1.85,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 2113,
+    "audio_sample_rate": 32000,
+    "audio_size": 136398,
+    "bitrate": 128000,
+    "word_count": 18,
+    "invisible_character_ratio": 0,
+    "usage_characters": 33,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c148.wav",
+  "bytes": 136398,
+  "sha256": "624bc154ee01090a9837ddf2c0725114c29f0d4415534bc2474a43457d681376",
+  "subtitle_files_generated": false
+}

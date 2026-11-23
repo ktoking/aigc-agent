@@ -1,0 +1,20 @@
+{
+  "cues": 276,
+  "characters": 4229,
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "presets": {
+    "suspense": 16,
+    "documentary": 74,
+    "resolve": 56,
+    "natural": 44,
+    "healing": 30,
+    "fear": 52,
+    "reveal": 4
+  },
+  "breath_tags": 5,
+  "duration_seconds": 592.3666666666667,
+  "source_words_preserved": true,
+  "independent_subtitles_generated": false,
+  "asr_notes": "Five isolated-clip recognition flags checked with neighboring speech. Context recognition contains source phrases; homophone/short-clip ASR errors retained in raw reports. Full human listening NOT_RUN."
+}

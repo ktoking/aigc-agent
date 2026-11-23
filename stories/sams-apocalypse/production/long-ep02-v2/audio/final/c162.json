@@ -1,0 +1,21 @@
+{
+  "cue_id": "c162",
+  "source_text": "我才明白，拒绝别人不是爽完就结束。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.043375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.965,
+  "atempo": 0.9762865792129163,
+  "untruncated_processed_seconds": 1.9725625,
+  "tail_quantization_seconds": 0.0274375,
+  "gain": 1.438493180836418,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "3489efd107a9b30bd550735f6280fc6ca9994e415264d28b64bc4b5b232fd46e"
+}

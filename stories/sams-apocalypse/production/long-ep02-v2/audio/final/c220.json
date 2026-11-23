@@ -1,0 +1,21 @@
+{
+  "cue_id": "c220",
+  "source_text": "盖子开着，里面空的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.28871875,
+  "trim_start_seconds": 0.125,
+  "trim_end_seconds": 1.195,
+  "atempo": 1.0203432930705658,
+  "untruncated_processed_seconds": 1.0470625,
+  "tail_quantization_seconds": 0.019604166666666666,
+  "gain": 1.3419785259172667,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "64cb2226eec4b87d95e646ea190fd346c36667de28f198fb315e164b69340977"
+}

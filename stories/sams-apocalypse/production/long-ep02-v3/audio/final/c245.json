@@ -1,0 +1,22 @@
+{
+  "cue_id": "c245",
+  "source_text": "许棠收好工具，坐在床边揉手。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "healing",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.724,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.7,
+  "untruncated_processed_seconds": 2.7,
+  "tail_quantization_seconds": 0.0,
+  "gain": 1.767651326402109,
+  "measured_seconds": 2.7,
+  "frames": 81,
+  "samples": 129600,
+  "units": 12,
+  "cps_including_performance": 4.444444444444444,
+  "sha256": "6e95010bb67860787648cac08d95776d1f9e80ab1f74fce98a09d94b57f12959"
+}

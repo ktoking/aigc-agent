@@ -1,0 +1,22 @@
+{
+  "cue_id": "c130",
+  "source_text": "夜里搬一箱水，不再像宣布开业。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.60659375,
+  "trim_start_seconds": 0.01,
+  "trim_end_seconds": 2.60659375,
+  "untruncated_processed_seconds": 2.596604166666667,
+  "tail_quantization_seconds": 0.003395833333333333,
+  "gain": 1.5776545037887042,
+  "measured_seconds": 2.6,
+  "frames": 78,
+  "samples": 124800,
+  "units": 13,
+  "cps_including_performance": 5.0,
+  "sha256": "dfedb133f62d3273f99141e13e9af75a3cde9023d95b986ec36121325c845227"
+}

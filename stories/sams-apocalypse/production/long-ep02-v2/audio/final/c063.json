@@ -1,0 +1,21 @@
+{
+  "cue_id": "c063",
+  "source_text": "以前这里只堆纸品。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.01009375,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 0.99,
+  "atempo": 0.9202161474888748,
+  "untruncated_processed_seconds": 1.0400625,
+  "tail_quantization_seconds": 0.02660416666666667,
+  "gain": 1.5038299798544772,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "64244210c54df67b96dc92b9c1b1d2ac514333b49da9cef2d839c88302a2b034"
+}

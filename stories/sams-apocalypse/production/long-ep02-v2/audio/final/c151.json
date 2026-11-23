@@ -1,0 +1,21 @@
+{
+  "cue_id": "c151",
+  "source_text": "你现在做的事，正在威胁里面两个人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9505,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.915,
+  "atempo": 0.9409687184661958,
+  "untruncated_processed_seconds": 1.9739791666666666,
+  "tail_quantization_seconds": 0.026020833333333333,
+  "gain": 1.6839166406939214,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "4972b46657ec75ed62068fd739e8a86c0d71e87b5114f1bcfbf2d7d1e2417e08"
+}

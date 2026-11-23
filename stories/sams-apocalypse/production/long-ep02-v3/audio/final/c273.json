@@ -1,0 +1,22 @@
+{
+  "cue_id": "c273",
+  "source_text": "我们刚修好的家，头顶竟像有人在慢慢走。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.783,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.565,
+  "untruncated_processed_seconds": 3.565,
+  "tail_quantization_seconds": 0.0016666666666666668,
+  "gain": 1.4358733030858921,
+  "measured_seconds": 3.566666666666667,
+  "frames": 107,
+  "samples": 171200,
+  "units": 17,
+  "cps_including_performance": 4.766355140186915,
+  "sha256": "e1d14633304ffc13841a98737cc742b9fcef5761760d01804eca8c033776bd6d"
+}

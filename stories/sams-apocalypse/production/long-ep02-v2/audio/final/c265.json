@@ -1,0 +1,21 @@
+{
+  "cue_id": "c265",
+  "source_text": "我叫醒许棠，两个人停在走廊口。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.97371875,
+  "trim_start_seconds": 0.045,
+  "trim_end_seconds": 1.925,
+  "atempo": 1.0959968907889621,
+  "untruncated_processed_seconds": 1.7263125,
+  "tail_quantization_seconds": 0.007020833333333333,
+  "gain": 1.7338276938344248,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "575b998d2f3b9bd043b3341be29e7821c3ad5c2ca17fcaeba55c16a8a7c40756"
+}

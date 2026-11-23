@@ -1,0 +1,21 @@
+{
+  "cue_id": "c150",
+  "source_text": "我看着监控，心跳快得发疼，还是说完了那句话。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.60065625,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.525,
+  "atempo": 0.9919162470182878,
+  "untruncated_processed_seconds": 2.5099791666666667,
+  "tail_quantization_seconds": 0.023354166666666665,
+  "gain": 1.828797083261022,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "9105496646259ead94f4df5e5eb524c4bae095d718338f083fcfc437c7caca36"
+}

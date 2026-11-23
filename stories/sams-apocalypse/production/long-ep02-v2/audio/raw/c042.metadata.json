@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c2e5847668c313203f5423861ba8",
+  "preset": "resolve",
+  "direction": "愤怒来自立场，重点词落稳；短句推进，不用大音量替代表演。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "他没有回答，反倒开始拍门。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "angry",
+      "speed": 1.85,
+      "vol": 1.05,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 1520,
+    "audio_sample_rate": 32000,
+    "audio_size": 98504,
+    "bitrate": 128000,
+    "word_count": 13,
+    "invisible_character_ratio": 0,
+    "usage_characters": 24,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c042.wav",
+  "bytes": 98504,
+  "sha256": "541176033536e0f9a988c85333818aeb3bdfd4d650db6aad31c53d4e7e9987cd",
+  "subtitle_files_generated": false
+}

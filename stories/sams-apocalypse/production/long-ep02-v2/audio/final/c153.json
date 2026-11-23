@@ -1,0 +1,21 @@
+{
+  "cue_id": "c153",
+  "source_text": "第三下落下时，停车场那几个人影同时转了头。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.64709375,
+  "trim_start_seconds": 0.12,
+  "trim_end_seconds": 2.495,
+  "atempo": 0.9442088523721176,
+  "untruncated_processed_seconds": 2.502625,
+  "tail_quantization_seconds": 0.030708333333333334,
+  "gain": 1.7082830077833238,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "f7ece872f0c8b24e0b725d17c9693c3b56f0e3c8dc57b06a52bd28a18e18b6a4"
+}

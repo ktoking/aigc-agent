@@ -1,0 +1,22 @@
+{
+  "cue_id": "c039",
+  "source_text": "周强打断她，说都什么时候了，还搞登记。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.26240625,
+  "trim_start_seconds": 0.295,
+  "trim_end_seconds": 2.97,
+  "untruncated_processed_seconds": 2.675,
+  "tail_quantization_seconds": 0.025,
+  "gain": 1.5222721731519742,
+  "measured_seconds": 2.7,
+  "frames": 81,
+  "samples": 129600,
+  "units": 16,
+  "cps_including_performance": 5.925925925925926,
+  "sha256": "ee1811336bc7b83d8ce8078cbad0dfe2839d9eb14f9563229c46aa097e75c119"
+}

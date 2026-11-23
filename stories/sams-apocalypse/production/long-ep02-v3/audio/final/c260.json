@@ -1,0 +1,22 @@
+{
+  "cue_id": "c260",
+  "source_text": "这不是时间表，更不是保证，可能只是我们听漏了前半句。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "reveal",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.61159375,
+  "trim_start_seconds": 0.51,
+  "trim_end_seconds": 4.355,
+  "untruncated_processed_seconds": 3.845,
+  "tail_quantization_seconds": 0.021666666666666667,
+  "gain": 1.638330950278617,
+  "measured_seconds": 3.8666666666666667,
+  "frames": 116,
+  "samples": 185600,
+  "units": 23,
+  "cps_including_performance": 5.948275862068965,
+  "sha256": "bb1fba9b6fbf8a6023c6da7106259201de652ca75ab7de7f0b79ff9aa80d6648"
+}

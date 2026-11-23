@@ -1,0 +1,22 @@
+{
+  "cue_id": "c022",
+  "source_text": "监控和对讲暂时接原有备用电池。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.98378125,
+  "trim_start_seconds": 0.25,
+  "trim_end_seconds": 2.88,
+  "untruncated_processed_seconds": 2.63,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 1.3397148840431288,
+  "measured_seconds": 2.6333333333333333,
+  "frames": 79,
+  "samples": 126400,
+  "units": 14,
+  "cps_including_performance": 5.3164556962025316,
+  "sha256": "6f5fdd5906261c2860ffa8d4e610fbce72777ce8116feaf1801d8d5f3b608839"
+}

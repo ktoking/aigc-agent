@@ -1,0 +1,21 @@
+{
+  "cue_id": "c207",
+  "source_text": "温度、门、油、水，少一项都不行。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.13625,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 2.08,
+  "atempo": 1.421997238840313,
+  "untruncated_processed_seconds": 1.4664166666666667,
+  "tail_quantization_seconds": 0.00025,
+  "gain": 1.765867115749897,
+  "measured_seconds": 1.4666666666666666,
+  "frames": 44,
+  "samples": 70400,
+  "units": 11,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "266fc95ec211e8a1de50e4489deb9398e4f55c71d5d056caacc4cb4e42a1e1f1"
+}

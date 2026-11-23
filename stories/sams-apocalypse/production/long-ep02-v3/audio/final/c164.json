@@ -1,0 +1,22 @@
+{
+  "cue_id": "c164",
+  "source_text": "下午，林岚又来了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.47778125,
+  "trim_start_seconds": 0.075,
+  "trim_end_seconds": 1.47778125,
+  "untruncated_processed_seconds": 1.4027916666666667,
+  "tail_quantization_seconds": 0.03054166666666667,
+  "gain": 1.6356081339366757,
+  "measured_seconds": 1.4333333333333333,
+  "frames": 43,
+  "samples": 68800,
+  "units": 7,
+  "cps_including_performance": 4.883720930232558,
+  "sha256": "37179afda59252e0012db61cd54a18605067b2c6a1d674c6aae03908a15a29e0"
+}

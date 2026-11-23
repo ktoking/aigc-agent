@@ -1,0 +1,22 @@
+{
+  "cue_id": "c003",
+  "source_text": "上面只有四个字：知道有人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.2755625,
+  "trim_start_seconds": 0.25,
+  "trim_end_seconds": 2.085,
+  "untruncated_processed_seconds": 1.835,
+  "tail_quantization_seconds": 0.03166666666666667,
+  "gain": 1.6408291752341773,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 11,
+  "cps_including_performance": 5.892857142857142,
+  "sha256": "98972770ac7b2e4234a98ffcd605a2de9fe3dd14c68223670607736c00ba104b"
+}

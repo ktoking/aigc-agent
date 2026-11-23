@@ -1,0 +1,21 @@
+{
+  "cue_id": "c106",
+  "source_text": "他把两份丢到地上，骂我挑拨。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.4976875,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.395,
+  "atempo": 0.8470290771175727,
+  "untruncated_processed_seconds": 1.563625,
+  "tail_quantization_seconds": 0.036375,
+  "gain": 1.3671035842727248,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "5b3c6a85ca3163440864c94ecd07d7a97a4b1e550a1cfc5e4354693e454961b0"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c218",
+  "source_text": "我差点和他吵起来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.9745625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.9745625,
+  "untruncated_processed_seconds": 1.9745625,
+  "tail_quantization_seconds": 0.0254375,
+  "gain": 1.7172139261323618,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 8,
+  "cps_including_performance": 4.0,
+  "sha256": "d0a214a643d48b677a95a4b4dbe7637df545ad8b59859c8b16aa0c50b6de075a"
+}

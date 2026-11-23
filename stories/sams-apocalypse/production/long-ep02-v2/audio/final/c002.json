@@ -1,0 +1,21 @@
+{
+  "cue_id": "c002",
+  "source_text": "我刚想叫许棠来看，他已经举起一块纸板。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "suspense",
+  "api_speed": 1.85,
+  "raw_seconds": 2.1826875,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.14,
+  "atempo": 0.9405573673287875,
+  "untruncated_processed_seconds": 2.2405,
+  "tail_quantization_seconds": 0.026166666666666668,
+  "gain": 1.645076358411811,
+  "measured_seconds": 2.2666666666666666,
+  "frames": 68,
+  "samples": 108800,
+  "units": 17,
+  "cps_including_performance": 7.5,
+  "sha256": "cedbbe8c362146d6420a53a364f069e944dad9d5bf04b661d2866430446f2fb9"
+}

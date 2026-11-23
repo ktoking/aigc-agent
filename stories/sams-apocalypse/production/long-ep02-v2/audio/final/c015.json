@@ -1,0 +1,21 @@
+{
+  "cue_id": "c015",
+  "source_text": "我舍不得的那些东西，正在和监控抢最后一点电。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 2.29878125,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 2.225,
+  "atempo": 0.8173923986911653,
+  "untruncated_processed_seconds": 2.6360625,
+  "tail_quantization_seconds": 0.030604166666666665,
+  "gain": 1.7031765824850578,
+  "measured_seconds": 2.6666666666666665,
+  "frames": 80,
+  "samples": 128000,
+  "units": 20,
+  "cps_including_performance": 7.5,
+  "sha256": "a71e5908499e6a4b9f4dfe8501bc6b8b004da3612f0bd4468f207c78758c2690"
+}

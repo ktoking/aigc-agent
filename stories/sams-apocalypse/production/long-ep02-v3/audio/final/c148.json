@@ -1,0 +1,22 @@
+{
+  "cue_id": "c148",
+  "source_text": "我告诉他，再碰门，今晚连传递盒都停。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.215125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.215125,
+  "untruncated_processed_seconds": 4.215125,
+  "tail_quantization_seconds": 0.018208333333333333,
+  "gain": 2.0,
+  "measured_seconds": 4.233333333333333,
+  "frames": 127,
+  "samples": 203200,
+  "units": 15,
+  "cps_including_performance": 3.543307086614173,
+  "sha256": "726a2a91acb09ba384c5b5d62067ac0cca4c4e92813fa066bc0b8903790fe599"
+}

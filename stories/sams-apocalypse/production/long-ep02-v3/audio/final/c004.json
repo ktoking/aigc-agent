@@ -1,0 +1,22 @@
+{
+  "cue_id": "c004",
+  "source_text": "发电机救了冷库，也把我们暴露了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.623875,
+  "trim_start_seconds": 0.27,
+  "trim_end_seconds": 2.33,
+  "untruncated_processed_seconds": 2.06,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.5057697034464332,
+  "measured_seconds": 2.066666666666667,
+  "frames": 62,
+  "samples": 99200,
+  "units": 14,
+  "cps_including_performance": 6.774193548387096,
+  "sha256": "b1bccd4ec18df22794e440dd9eeefc79b8b79131cd4ca1f5d972d21a339677b9"
+}

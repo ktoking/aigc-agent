@@ -1,0 +1,21 @@
+{
+  "cue_id": "c019",
+  "source_text": "许棠拦下我手里的肉。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.05653125,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.0,
+  "atempo": 0.8206429780033841,
+  "untruncated_processed_seconds": 1.167,
+  "tail_quantization_seconds": 0.033,
+  "gain": 1.524260825167818,
+  "measured_seconds": 1.2,
+  "frames": 36,
+  "samples": 57600,
+  "units": 9,
+  "cps_including_performance": 7.5,
+  "sha256": "a168aff108adec6433ee6ef02f7e50733ad90206bda5a663c371bf68e87082b2"
+}

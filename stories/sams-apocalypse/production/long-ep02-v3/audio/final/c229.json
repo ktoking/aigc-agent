@@ -1,0 +1,22 @@
+{
+  "cue_id": "c229",
+  "source_text": "说完，我把对讲放下，没有再给周强接着表演的机会。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.923125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.923125,
+  "untruncated_processed_seconds": 3.923125,
+  "tail_quantization_seconds": 0.010208333333333333,
+  "gain": 1.2520305530123514,
+  "measured_seconds": 3.933333333333333,
+  "frames": 118,
+  "samples": 188800,
+  "units": 21,
+  "cps_including_performance": 5.338983050847458,
+  "sha256": "e55c1c2f0ff294c14d66f8a9e67e5579cbf06e64168f8e2d8b5b208755ea38a7"
+}

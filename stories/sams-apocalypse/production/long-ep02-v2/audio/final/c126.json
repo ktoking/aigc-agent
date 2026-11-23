@@ -1,0 +1,21 @@
+{
+  "cue_id": "c126",
+  "source_text": "我以前觉得囤货就是把车装满。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.857625,
+  "trim_start_seconds": 0.07,
+  "trim_end_seconds": 1.815,
+  "atempo": 1.0172949863972018,
+  "untruncated_processed_seconds": 1.71275,
+  "tail_quantization_seconds": 0.020583333333333332,
+  "gain": 1.492435706978606,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "d59e5b0d0d45f2ca456b26f7e9b0030f4976114ff20fa986f40884af7bde6990"
+}

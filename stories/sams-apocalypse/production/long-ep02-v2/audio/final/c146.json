@@ -1,0 +1,21 @@
+{
+  "cue_id": "c146",
+  "source_text": "我听明白了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 0.70821875,
+  "trim_start_seconds": 0.02,
+  "trim_end_seconds": 0.645,
+  "atempo": 0.9635149023638233,
+  "untruncated_processed_seconds": 0.6413541666666667,
+  "tail_quantization_seconds": 0.0253125,
+  "gain": 1.929295369863905,
+  "measured_seconds": 0.6666666666666666,
+  "frames": 20,
+  "samples": 32000,
+  "units": 5,
+  "cps_including_performance": 7.5,
+  "sha256": "55d2194de6b927ad503629e51243973a920766be93c2f06a1784efa831ead042"
+}

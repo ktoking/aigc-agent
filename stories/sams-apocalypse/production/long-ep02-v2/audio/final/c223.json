@@ -1,0 +1,21 @@
+{
+  "cue_id": "c223",
+  "source_text": "他回头看身后的人，说里面迟早会开门。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.9505,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 1.86,
+  "atempo": 0.8532934131736526,
+  "untruncated_processed_seconds": 2.1001875,
+  "tail_quantization_seconds": 0.03314583333333333,
+  "gain": 1.3732914381650279,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 16,
+  "cps_including_performance": 7.5,
+  "sha256": "948a8276c3cee887d68f9d181adb0c92b071b6c23d7484282089008bc9f2a11a"
+}

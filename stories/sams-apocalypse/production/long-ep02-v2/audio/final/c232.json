@@ -1,0 +1,21 @@
+{
+  "cue_id": "c232",
+  "source_text": "她没有替我说好话，只说要等救援，就别把丧尸喊来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.6703125,
+  "trim_start_seconds": 0.105,
+  "trim_end_seconds": 2.6,
+  "atempo": 0.8968368080517614,
+  "untruncated_processed_seconds": 2.7691041666666667,
+  "tail_quantization_seconds": 0.030895833333333334,
+  "gain": 1.1956012262178373,
+  "measured_seconds": 2.8,
+  "frames": 84,
+  "samples": 134400,
+  "units": 21,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "4043369abeade295ade58da2ebf8e5c534d9b904334b792207e3ba41e402bdc6"
+}

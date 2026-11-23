@@ -1,0 +1,22 @@
+{
+  "cue_id": "c067",
+  "source_text": "我把刚推过去的架子，又老老实实拉了回来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.0534375,
+  "trim_start_seconds": 0.285,
+  "trim_end_seconds": 2.745,
+  "untruncated_processed_seconds": 2.46,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 1.4372764137785818,
+  "measured_seconds": 2.466666666666667,
+  "frames": 74,
+  "samples": 118400,
+  "units": 18,
+  "cps_including_performance": 7.297297297297297,
+  "sha256": "f08433dd8785e9ccf457f2a0bbdfce29132215e4b0e2d8ba91e2a1f988be7bf2"
+}

@@ -1,0 +1,21 @@
+{
+  "cue_id": "c261",
+  "source_text": "我把听到的片段记下来，准备等她醒了再核对。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.87928125,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 2.805,
+  "atempo": 1.021973974957034,
+  "untruncated_processed_seconds": 2.7155625,
+  "tail_quantization_seconds": 0.017770833333333333,
+  "gain": 1.6742071967745076,
+  "measured_seconds": 2.7333333333333334,
+  "frames": 82,
+  "samples": 131200,
+  "units": 19,
+  "cps_including_performance": 6.951219512195122,
+  "sha256": "18f592ac92a6e2f7045b7c4fa4ff75e751a4db0162e5a2b883a3eead6352b948"
+}

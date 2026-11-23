@@ -1,0 +1,21 @@
+{
+  "cue_id": "c247",
+  "source_text": "看见她手上的红印，又把话咽了回去。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 1.97371875,
+  "trim_start_seconds": 0.07,
+  "trim_end_seconds": 1.91,
+  "atempo": 0.9283551967709385,
+  "untruncated_processed_seconds": 1.9700416666666667,
+  "tail_quantization_seconds": 0.029958333333333333,
+  "gain": 1.8605754005877497,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "aae9361084ee1ac4f915e2164f323ff4b23b42924bd0edf35963bd7483ace563"
+}

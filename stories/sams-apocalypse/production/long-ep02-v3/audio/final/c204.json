@@ -1,0 +1,22 @@
+{
+  "cue_id": "c204",
+  "source_text": "我又把育苗盘放下了。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.2805625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.2805625,
+  "untruncated_processed_seconds": 1.2805625,
+  "tail_quantization_seconds": 0.0194375,
+  "gain": 1.5391089423647906,
+  "measured_seconds": 1.3,
+  "frames": 39,
+  "samples": 62400,
+  "units": 9,
+  "cps_including_performance": 6.9230769230769225,
+  "sha256": "73bbfe831b0c4060dc71727e8958a30771d15fa744df5fac1dfb5b2c4e95a7c0"
+}

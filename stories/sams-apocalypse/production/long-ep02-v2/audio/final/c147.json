@@ -1,0 +1,21 @@
+{
+  "cue_id": "c147",
+  "source_text": "他先把危险带到门口，再向我们推销他自己的保护。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 2.322,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 2.23,
+  "atempo": 0.7925952552120776,
+  "untruncated_processed_seconds": 2.7626875,
+  "tail_quantization_seconds": 0.0373125,
+  "gain": 1.50678711020475,
+  "measured_seconds": 2.8,
+  "frames": 84,
+  "samples": 134400,
+  "units": 21,
+  "cps_including_performance": 7.500000000000001,
+  "sha256": "b05e5b8e50eb47506242a22d50e0714032fb8bfd310d7a5545576c29ed61ffeb"
+}

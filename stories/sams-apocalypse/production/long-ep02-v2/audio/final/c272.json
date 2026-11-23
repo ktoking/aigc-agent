@@ -1,0 +1,21 @@
+{
+  "cue_id": "c272",
+  "source_text": "许棠抓住我的袖口，示意我退回拐角。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "fear",
+  "api_speed": 1.85,
+  "raw_seconds": 1.97371875,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.91,
+  "atempo": 0.9460141271442987,
+  "untruncated_processed_seconds": 1.9726666666666666,
+  "tail_quantization_seconds": 0.027333333333333334,
+  "gain": 1.8001321240200483,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "ac46560d6f2908ef1c9b41e261a1e531070a013ab3dfb0b767347fe6612f8437"
+}

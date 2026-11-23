@@ -1,0 +1,22 @@
+{
+  "cue_id": "c053",
+  "source_text": "门外一下没了声音。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.62540625,
+  "trim_start_seconds": 0.275,
+  "trim_end_seconds": 1.335,
+  "untruncated_processed_seconds": 1.06,
+  "tail_quantization_seconds": 0.006666666666666667,
+  "gain": 0.88990542383258,
+  "measured_seconds": 1.0666666666666667,
+  "frames": 32,
+  "samples": 51200,
+  "units": 8,
+  "cps_including_performance": 7.5,
+  "sha256": "43d442b50eee9591ceed00441c8d456982723cb2c6b40fab261fee0a2df5910d"
+}

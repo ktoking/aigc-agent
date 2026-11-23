@@ -1,0 +1,21 @@
+{
+  "cue_id": "c199",
+  "source_text": "我把想留着的电器一件件收回箱子。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7415,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.685,
+  "atempo": 0.8375378405650857,
+  "untruncated_processed_seconds": 1.967375,
+  "tail_quantization_seconds": 0.032625,
+  "gain": 1.5995141952717635,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "c6f1b022330a451918c41c94311b90ebc630eddc4ba396ae37af6e3be78a6e41"
+}

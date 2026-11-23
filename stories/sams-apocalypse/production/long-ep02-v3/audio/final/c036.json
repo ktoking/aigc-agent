@@ -1,0 +1,22 @@
+{
+  "cue_id": "c036",
+  "source_text": "我看着他身后紧闭的卷帘门，想起店长那圈牙印。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.51784375,
+  "trim_start_seconds": 0.205,
+  "trim_end_seconds": 3.285,
+  "untruncated_processed_seconds": 3.08,
+  "tail_quantization_seconds": 0.02,
+  "gain": 1.2783096980704274,
+  "measured_seconds": 3.1,
+  "frames": 93,
+  "samples": 148800,
+  "units": 20,
+  "cps_including_performance": 6.451612903225806,
+  "sha256": "a02a04d5c8e6267fdd542ff6df5924b215d0389b733d17959c59472c163edddb"
+}

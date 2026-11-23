@@ -1,0 +1,22 @@
+{
+  "cue_id": "c149",
+  "source_text": "他立刻骂我拿食物威胁人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.51453125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.32,
+  "untruncated_processed_seconds": 2.32,
+  "tail_quantization_seconds": 0.013333333333333334,
+  "gain": 2.0,
+  "measured_seconds": 2.3333333333333335,
+  "frames": 70,
+  "samples": 112000,
+  "units": 11,
+  "cps_including_performance": 4.714285714285714,
+  "sha256": "1812fb0824096749c6984cfae41016c1a75c7db39b2c830ed7baa727d165a23a"
+}

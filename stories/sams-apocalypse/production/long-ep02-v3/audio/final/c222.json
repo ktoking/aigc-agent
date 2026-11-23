@@ -1,0 +1,22 @@
+{
+  "cue_id": "c222",
+  "source_text": "我没拿自己的命赌，只问周强一句，声响起来，你准备躲哪。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.19678125,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.185,
+  "untruncated_processed_seconds": 4.185,
+  "tail_quantization_seconds": 0.015,
+  "gain": 1.4442755511767722,
+  "measured_seconds": 4.2,
+  "frames": 126,
+  "samples": 201600,
+  "units": 23,
+  "cps_including_performance": 5.476190476190476,
+  "sha256": "4ff6454e04924ebd22040bfc7af752bc5ebdee7b4a4d5e5723de4d54377ec9bb"
+}

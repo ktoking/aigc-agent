@@ -1,0 +1,22 @@
+{
+  "cue_id": "c028",
+  "source_text": "再看监控，灰外套身后又多了几个人。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.87928125,
+  "trim_start_seconds": 0.27,
+  "trim_end_seconds": 2.6,
+  "untruncated_processed_seconds": 2.33,
+  "tail_quantization_seconds": 0.0033333333333333335,
+  "gain": 1.5958329043589183,
+  "measured_seconds": 2.3333333333333335,
+  "frames": 70,
+  "samples": 112000,
+  "units": 15,
+  "cps_including_performance": 6.428571428571428,
+  "sha256": "c43017182580804cbfe1928bf0c00da650f75353cda4b9d611701a5c4a46f0fe"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c159",
+  "source_text": "他惹出来的麻烦，最后还是得我们守着。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.2231875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.98,
+  "untruncated_processed_seconds": 2.98,
+  "tail_quantization_seconds": 0.02,
+  "gain": 2.0,
+  "measured_seconds": 3.0,
+  "frames": 90,
+  "samples": 144000,
+  "units": 16,
+  "cps_including_performance": 5.333333333333333,
+  "sha256": "24d9bb661e8748ca8818c23cc3fb9e273c5cdcdfc637d5710a967266eb1011e0"
+}

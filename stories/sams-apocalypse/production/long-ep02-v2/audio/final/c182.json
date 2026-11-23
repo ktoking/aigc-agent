@@ -1,0 +1,21 @@
+{
+  "cue_id": "c182",
+  "source_text": "林岚没有顺势问能不能住进来。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "natural",
+  "api_speed": 1.85,
+  "raw_seconds": 1.38159375,
+  "trim_start_seconds": 0.09,
+  "trim_end_seconds": 1.29,
+  "atempo": 0.6995724834823163,
+  "untruncated_processed_seconds": 1.6923541666666666,
+  "tail_quantization_seconds": 0.040979166666666664,
+  "gain": 1.3405342083871095,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "8003c9ba4fe5055ed87b8efce164c7c318a82ff24fb69f2f52c5db6cfba3dfc8"
+}

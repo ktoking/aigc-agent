@@ -1,0 +1,22 @@
+{
+  "cue_id": "c192",
+  "source_text": "她在边框上找到新的擦痕。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.85734375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.705,
+  "untruncated_processed_seconds": 2.705,
+  "tail_quantization_seconds": 0.028333333333333332,
+  "gain": 1.8713815162044138,
+  "measured_seconds": 2.7333333333333334,
+  "frames": 82,
+  "samples": 131200,
+  "units": 11,
+  "cps_including_performance": 4.024390243902439,
+  "sha256": "dcda36e551461ff158acc42faa8f782ce066fa225e209fd8b2327cadbf9ea659"
+}

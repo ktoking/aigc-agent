@@ -1,0 +1,22 @@
+{
+  "cue_id": "c123",
+  "source_text": "账本一页页往后翻，我们才知道哪些计划是真的，哪些只是想得美。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.727875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.727875,
+  "untruncated_processed_seconds": 4.727875,
+  "tail_quantization_seconds": 0.005458333333333333,
+  "gain": 1.955554871190678,
+  "measured_seconds": 4.733333333333333,
+  "frames": 142,
+  "samples": 227200,
+  "units": 27,
+  "cps_including_performance": 5.704225352112676,
+  "sha256": "cb7da3f01cc14593d878c5f6b0cbb0d7af58471cc0c11e2e2c731adeb40a02ca"
+}

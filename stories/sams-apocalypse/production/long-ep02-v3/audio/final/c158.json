@@ -1,0 +1,22 @@
+{
+  "cue_id": "c158",
+  "source_text": "周强跑得掉，门却不会自己搬家。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.69421875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.69421875,
+  "untruncated_processed_seconds": 2.6942291666666667,
+  "tail_quantization_seconds": 0.0057708333333333335,
+  "gain": 1.7053939733540806,
+  "measured_seconds": 2.7,
+  "frames": 81,
+  "samples": 129600,
+  "units": 13,
+  "cps_including_performance": 4.814814814814815,
+  "sha256": "59035569aa8a802c34c6ed05463c9a40b3a0d7f7c3134fefd16c068ee5938673"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c198",
+  "source_text": "多一只眼睛，也得付账。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.794,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.725,
+  "untruncated_processed_seconds": 1.725,
+  "tail_quantization_seconds": 0.008333333333333333,
+  "gain": 1.8904715354001083,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 9,
+  "cps_including_performance": 5.1923076923076925,
+  "sha256": "cca3bb034b3792e7595ac9a931c70efe441a644a19de232f0bfd088fb6095f53"
+}

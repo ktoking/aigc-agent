@@ -1,0 +1,21 @@
+{
+  "cue_id": "c086",
+  "source_text": "许棠先检查盒子的固定和外盖。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.5209375,
+  "trim_start_seconds": 0.03,
+  "trim_end_seconds": 1.465,
+  "atempo": 0.8365720948309366,
+  "untruncated_processed_seconds": 1.7049375,
+  "tail_quantization_seconds": 0.028395833333333332,
+  "gain": 1.5841940162052488,
+  "measured_seconds": 1.7333333333333334,
+  "frames": 52,
+  "samples": 83200,
+  "units": 13,
+  "cps_including_performance": 7.5,
+  "sha256": "04acbe150bf63df95adc6e8c6ea2adf6f2981b2b6d40e4c64e00b6e0713a0f15"
+}

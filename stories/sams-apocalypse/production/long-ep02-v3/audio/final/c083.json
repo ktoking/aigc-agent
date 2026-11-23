@@ -1,0 +1,22 @@
+{
+  "cue_id": "c083",
+  "source_text": "我翻出收货区的旧图纸，发现墙里有只传票据的小铁盒。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.19121875,
+  "trim_start_seconds": 0.255,
+  "trim_end_seconds": 3.89,
+  "untruncated_processed_seconds": 3.635,
+  "tail_quantization_seconds": 0.03166666666666667,
+  "gain": 1.5058489083633007,
+  "measured_seconds": 3.6666666666666665,
+  "frames": 110,
+  "samples": 176000,
+  "units": 23,
+  "cps_including_performance": 6.272727272727273,
+  "sha256": "9c78837e633b95f45f28d8105fb0c2a73756706195af85e94c444154d15ee3e7"
+}

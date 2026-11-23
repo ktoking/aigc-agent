@@ -1,0 +1,22 @@
+{
+  "cue_id": "c107",
+  "source_text": "林岚捡起来，带父亲离开了门口。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.80409375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 2.80409375,
+  "untruncated_processed_seconds": 2.804104166666667,
+  "tail_quantization_seconds": 0.029229166666666667,
+  "gain": 1.943177403110944,
+  "measured_seconds": 2.8333333333333335,
+  "frames": 85,
+  "samples": 136000,
+  "units": 13,
+  "cps_including_performance": 4.588235294117647,
+  "sha256": "668827037c388820e14ed7eff77f18b8580f568144bd58f2143eabca6fe74e5e"
+}

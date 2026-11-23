@@ -1,0 +1,22 @@
+{
+  "cue_id": "c138",
+  "source_text": "周强站在远处不说话。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.9405625,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 1.9405625,
+  "untruncated_processed_seconds": 1.9405625,
+  "tail_quantization_seconds": 0.026104166666666668,
+  "gain": 2.0,
+  "measured_seconds": 1.9666666666666666,
+  "frames": 59,
+  "samples": 94400,
+  "units": 9,
+  "cps_including_performance": 4.576271186440678,
+  "sha256": "228da2ddde3fe4a9c14d25223017f747278ec71c2c02f122beeadd89a3a38194"
+}

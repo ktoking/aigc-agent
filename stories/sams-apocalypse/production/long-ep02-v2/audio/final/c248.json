@@ -1,0 +1,21 @@
+{
+  "cue_id": "c248",
+  "source_text": "基地可以慢慢建，搭档可没有第二个备用的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 2.06659375,
+  "trim_start_seconds": 0.05,
+  "trim_end_seconds": 1.985,
+  "atempo": 0.8123425692695214,
+  "untruncated_processed_seconds": 2.364625,
+  "tail_quantization_seconds": 0.035375,
+  "gain": 1.825454948399663,
+  "measured_seconds": 2.4,
+  "frames": 72,
+  "samples": 115200,
+  "units": 18,
+  "cps_including_performance": 7.5,
+  "sha256": "8aa3e7889c04d03fdab2ddd59f153a759c7e01039a9c14f220911af4c8bd69db"
+}

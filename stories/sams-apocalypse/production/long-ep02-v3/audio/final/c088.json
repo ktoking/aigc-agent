@@ -1,0 +1,22 @@
+{
+  "cue_id": "c088",
+  "source_text": "卷帘门不用动。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 1.38159375,
+  "trim_start_seconds": 0.275,
+  "trim_end_seconds": 1.245,
+  "untruncated_processed_seconds": 0.97,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.2350631160878631,
+  "measured_seconds": 1.0,
+  "frames": 30,
+  "samples": 48000,
+  "units": 6,
+  "cps_including_performance": 6.0,
+  "sha256": "40bf70218bcde02251af7ae01c0048afbe505eab5ccf23161d0c4f8ec07779bb"
+}

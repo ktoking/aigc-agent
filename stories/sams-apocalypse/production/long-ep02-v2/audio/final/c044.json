@@ -1,0 +1,21 @@
+{
+  "cue_id": "c044",
+  "source_text": "我听得火往上冒。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 0.986875,
+  "trim_start_seconds": 0.06,
+  "trim_end_seconds": 0.895,
+  "atempo": 0.9122359796067007,
+  "untruncated_processed_seconds": 0.906125,
+  "tail_quantization_seconds": 0.027208333333333334,
+  "gain": 1.1142534522307599,
+  "measured_seconds": 0.9333333333333333,
+  "frames": 28,
+  "samples": 44800,
+  "units": 7,
+  "cps_including_performance": 7.5,
+  "sha256": "c193fa80e25469d77ab87756e318216253a71c5487f23408b1db5ff43fe00348"
+}

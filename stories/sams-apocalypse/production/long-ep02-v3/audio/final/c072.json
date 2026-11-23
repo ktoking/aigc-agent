@@ -1,0 +1,22 @@
+{
+  "cue_id": "c072",
+  "source_text": "我负责把常温食物按日期排好。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.4845625,
+  "trim_start_seconds": 0.28,
+  "trim_end_seconds": 2.385,
+  "untruncated_processed_seconds": 2.105,
+  "tail_quantization_seconds": 0.028333333333333332,
+  "gain": 1.4188397295647412,
+  "measured_seconds": 2.1333333333333333,
+  "frames": 64,
+  "samples": 102400,
+  "units": 13,
+  "cps_including_performance": 6.09375,
+  "sha256": "c267085ef1920abc80babd7a5f407be7bc4a6e707bfc0100fccd40f5d1448c1b"
+}

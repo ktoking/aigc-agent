@@ -1,0 +1,22 @@
+{
+  "cue_id": "c163",
+  "source_text": "说了不，还得有本事把这个不守住。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.0894375,
+  "trim_start_seconds": 0.51,
+  "trim_end_seconds": 2.805,
+  "untruncated_processed_seconds": 2.295,
+  "tail_quantization_seconds": 0.005,
+  "gain": 1.2106491684235963,
+  "measured_seconds": 2.3,
+  "frames": 69,
+  "samples": 110400,
+  "units": 14,
+  "cps_including_performance": 6.086956521739131,
+  "sha256": "8773f719ffd39c681c71c829b1d54666051959ddefc9fac2d694375406336988"
+}

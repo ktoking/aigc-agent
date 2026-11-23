@@ -1,0 +1,21 @@
+{
+  "cue_id": "c245",
+  "source_text": "许棠收好工具，坐在床边揉手。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "healing",
+  "api_speed": 1.85,
+  "raw_seconds": 1.857625,
+  "trim_start_seconds": 0.025,
+  "trim_end_seconds": 1.795,
+  "atempo": 1.1188369152970923,
+  "untruncated_processed_seconds": 1.5884791666666667,
+  "tail_quantization_seconds": 0.011520833333333333,
+  "gain": 2.0,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "30fa9cb705e42198fa491ac10f9564aa112c54cde03bee8d71b5836e03d0dbed"
+}

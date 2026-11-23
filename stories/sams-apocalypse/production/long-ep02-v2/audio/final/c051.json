@@ -1,0 +1,21 @@
+{
+  "cue_id": "c051",
+  "source_text": "他想要的不是这顿饭，是让我先把规则破一次。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 2.13625,
+  "trim_start_seconds": 0.055,
+  "trim_end_seconds": 2.075,
+  "atempo": 0.8030744765438643,
+  "untruncated_processed_seconds": 2.4931875,
+  "tail_quantization_seconds": 0.04014583333333333,
+  "gain": 1.4048814266571148,
+  "measured_seconds": 2.533333333333333,
+  "frames": 76,
+  "samples": 121600,
+  "units": 19,
+  "cps_including_performance": 7.5,
+  "sha256": "f35217dad1d2062489e80e20039fef6dafdb7db81808757441c88d3ebbd8c1d3"
+}

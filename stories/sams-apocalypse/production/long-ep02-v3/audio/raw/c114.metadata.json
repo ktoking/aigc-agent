@@ -1,0 +1,63 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728f1a571653fcc8117fe3297e45393",
+  "preset": "healing",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "晚上吃的，是确认还能用的一小份食物。我们没搞满汉全席，也没为省电吃可疑的肉。我嚼着最后那口热饭，忽然觉得，能安心坐十分钟，比牛排还奢侈。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": true,
+    "subtitle_type": "word",
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "request_text_scope": "entire_parent_batch",
+  "parent_batch": "b003",
+  "batch_text_begin": 0,
+  "batch_text_end": 18,
+  "source_cue_text": "晚上吃的，是确认还能用的一小份食物。",
+  "batch_audio_start_sample": 0,
+  "batch_audio_end_sample": 81422,
+  "batch_audio_sample_rate": 32000,
+  "word_boundary_proof": [
+    {
+      "after_cue": "c114",
+      "char_boundary": 18,
+      "previous_word_time_end": 2.5244444444444443,
+      "next_word_time_begin": 2.5244444444444443,
+      "selected_audio_time": 2.5444375
+    },
+    {
+      "after_cue": "c115",
+      "char_boundary": 38,
+      "previous_word_time_end": 5.475555555555555,
+      "next_word_time_begin": 5.475555555555555,
+      "selected_audio_time": 5.4835625
+    }
+  ],
+  "sha256": "66f7bfc531064817665fcb0a068d8c62f4534daaaaf3320d9f3212ca113389ee",
+  "subtitle_files_generated": false,
+  "alignment_usage": "Provider JSON used internally for sentence slicing; no independent SRT/VTT created"
+}

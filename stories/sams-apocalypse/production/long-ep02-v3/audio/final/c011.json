@@ -1,0 +1,22 @@
+{
+  "cue_id": "c011",
+  "source_text": "我们能做的，是减少负载和开机时间。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "suspense",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.98378125,
+  "trim_start_seconds": 0.235,
+  "trim_end_seconds": 2.675,
+  "untruncated_processed_seconds": 2.44,
+  "tail_quantization_seconds": 0.02666666666666667,
+  "gain": 1.694803321981862,
+  "measured_seconds": 2.466666666666667,
+  "frames": 74,
+  "samples": 118400,
+  "units": 15,
+  "cps_including_performance": 6.081081081081081,
+  "sha256": "c427ec7f0a35a845a3354d23bc7979ab58b447a78b15e2f5097e56b08dc95878"
+}

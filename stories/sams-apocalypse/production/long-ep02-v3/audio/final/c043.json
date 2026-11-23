@@ -1,0 +1,22 @@
+{
+  "cue_id": "c043",
+  "source_text": "里面有年轻姑娘吧，她忍心看着我们饿死吗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.29725,
+  "trim_start_seconds": 0.295,
+  "trim_end_seconds": 2.965,
+  "untruncated_processed_seconds": 2.67,
+  "tail_quantization_seconds": 0.03,
+  "gain": 1.0646589161986386,
+  "measured_seconds": 2.7,
+  "frames": 81,
+  "samples": 129600,
+  "units": 18,
+  "cps_including_performance": 6.666666666666666,
+  "sha256": "f09fe72e42b17c316d36009d7dd68f65dd4cbc22a70de70cb8c68b9f384963e0"
+}

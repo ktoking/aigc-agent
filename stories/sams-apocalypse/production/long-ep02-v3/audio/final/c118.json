@@ -1,0 +1,22 @@
+{
+  "cue_id": "c118",
+  "source_text": "不是贵的和便宜的，而是不靠电能留的、马上得用的、已经不能碰的。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.87134375,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.87134375,
+  "untruncated_processed_seconds": 4.871354166666666,
+  "tail_quantization_seconds": 0.028645833333333332,
+  "gain": 1.747412551148475,
+  "measured_seconds": 4.9,
+  "frames": 147,
+  "samples": 235200,
+  "units": 27,
+  "cps_including_performance": 5.5102040816326525,
+  "sha256": "03f71df525ed5f7e58ff61b44a26011d6e36134952a684c692d500ec7cf3209f"
+}

@@ -1,0 +1,22 @@
+{
+  "cue_id": "c094",
+  "source_text": "每次只放一份，关内盖，再让外面取。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "natural",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.55421875,
+  "trim_start_seconds": 0.095,
+  "trim_end_seconds": 2.505,
+  "untruncated_processed_seconds": 2.41,
+  "tail_quantization_seconds": 0.023333333333333334,
+  "gain": 1.8270544533316522,
+  "measured_seconds": 2.433333333333333,
+  "frames": 73,
+  "samples": 116800,
+  "units": 14,
+  "cps_including_performance": 5.753424657534247,
+  "sha256": "b85621751c4c0e6aae9cf5b53c49277370b8c2bfd69051944a7903b5141bfe8e"
+}

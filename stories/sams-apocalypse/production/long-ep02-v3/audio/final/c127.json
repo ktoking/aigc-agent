@@ -1,0 +1,22 @@
+{
+  "cue_id": "c127",
+  "source_text": "真住下来才知道，吃进去容易，后面的麻烦得每天有人收拾。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "documentary",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 4.2676875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 4.2676875,
+  "untruncated_processed_seconds": 4.2676875,
+  "tail_quantization_seconds": 0.0323125,
+  "gain": 1.8886658151092417,
+  "measured_seconds": 4.3,
+  "frames": 129,
+  "samples": 206400,
+  "units": 24,
+  "cps_including_performance": 5.5813953488372094,
+  "sha256": "37b212399459726eb7a27df1c649ea1f83d6842838042a51ee77ec030da527a5"
+}

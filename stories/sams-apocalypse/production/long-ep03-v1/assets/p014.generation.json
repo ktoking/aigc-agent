@@ -1,0 +1,16 @@
+{
+  "id": "p014",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b8638673-d40d-4b3c-8ee9-b74eb4b57751.png",
+  "file": "assets/p014.png",
+  "sha256": "bf98b71c023f236adcfb8705729c773588037632d46574f55cf00e5aa695e737",
+  "width": 1672,
+  "height": 941,
+  "builtin_imagegen": true,
+  "args": {
+    "prompt": "Use case: precise-object-edit. 对这张已生成电影剧照做唯一一处局部修改：把右上角墙上的模拟指针温度表换成小型冷库远程数字温度显示器，黑色显示窗清楚显示“-18°C”，只有这一个读数，不能是常温刻度或正二十几度。保持显示器的大致位置和占画面面积。其余画面完全保留：同一男主的脸、青绿帽、黄帽衫深蓝马甲、看向显示器的视线、拿罐头的姿势、背景水箱、灯光、构图都不变，不增加字幕水印。横向16:9真实电影剧照。",
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep03-v1/assets/p014.png"
+    ],
+    "transparent_background": false
+  }
+}

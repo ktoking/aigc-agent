@@ -1,0 +1,51 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0728c8c6a9bd6de85b22337308aea9d4",
+  "preset": "resolve",
+  "direction": "愤怒来自立场，重点词落稳；短句推进，不用大音量替代表演。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "林岚站起来，扶父亲往岗亭方向走。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_calm_streamer_nv1",
+      "emotion": "angry",
+      "speed": 1.85,
+      "vol": 1.05,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)",
+        "林岚/(lin2)(lan2)",
+        "周强/(zhou1)(qiang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 1787,
+    "audio_sample_rate": 32000,
+    "audio_size": 115592,
+    "bitrate": 128000,
+    "word_count": 16,
+    "invisible_character_ratio": 0,
+    "usage_characters": 30,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2/audio/raw/c230.wav",
+  "bytes": 115592,
+  "sha256": "69117a2ea27694b07f6890fb2d8ddbbef81d75f6e767cf9207fce62ed8706a0f",
+  "subtitle_files_generated": false
+}

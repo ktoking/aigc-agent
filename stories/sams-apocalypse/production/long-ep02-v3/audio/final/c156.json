@@ -1,0 +1,22 @@
+{
+  "cue_id": "c156",
+  "source_text": "我关掉面向外墙的工作灯，没追着骂，也没在门里庆祝。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.99221875,
+  "trim_start_seconds": 0.325,
+  "trim_end_seconds": 3.99221875,
+  "untruncated_processed_seconds": 3.6672291666666665,
+  "tail_quantization_seconds": 0.03277083333333333,
+  "gain": 1.3950924004914838,
+  "measured_seconds": 3.7,
+  "frames": 111,
+  "samples": 177600,
+  "units": 22,
+  "cps_including_performance": 5.945945945945946,
+  "sha256": "d1011bbbe7820af81a86914ae5380592050380dcbd8872219ceee957937da1b2"
+}

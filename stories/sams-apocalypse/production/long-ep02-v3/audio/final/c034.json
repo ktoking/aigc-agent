@@ -1,0 +1,22 @@
+{
+  "cue_id": "c034",
+  "source_text": "这么大个超市，你们两个住得完吗。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "resolve",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 2.44971875,
+  "trim_start_seconds": 0.29,
+  "trim_end_seconds": 2.145,
+  "untruncated_processed_seconds": 1.855,
+  "tail_quantization_seconds": 0.011666666666666667,
+  "gain": 1.2713796351266435,
+  "measured_seconds": 1.8666666666666667,
+  "frames": 56,
+  "samples": 89600,
+  "units": 14,
+  "cps_including_performance": 7.5,
+  "sha256": "425659e64c9b9e5d873f0b6025db8ab2743bce10f6f418adc6cb1cdfab08e0ae"
+}

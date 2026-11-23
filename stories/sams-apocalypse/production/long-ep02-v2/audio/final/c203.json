@@ -1,0 +1,21 @@
+{
+  "cue_id": "c203",
+  "source_text": "她看了眼天花板，问我拿什么晒太阳。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "documentary",
+  "api_speed": 1.85,
+  "raw_seconds": 1.857625,
+  "trim_start_seconds": 0.095,
+  "trim_end_seconds": 1.755,
+  "atempo": 0.8375378405650857,
+  "untruncated_processed_seconds": 1.9649166666666666,
+  "tail_quantization_seconds": 0.035083333333333334,
+  "gain": 1.52764889060003,
+  "measured_seconds": 2.0,
+  "frames": 60,
+  "samples": 96000,
+  "units": 15,
+  "cps_including_performance": 7.5,
+  "sha256": "b83c53c09a19a2cc2302581f1b3dc2a9573e4be096236e1a15ad88703ff15eeb"
+}

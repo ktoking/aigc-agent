@@ -1,0 +1,21 @@
+{
+  "cue_id": "c228",
+  "source_text": "想拿整栋楼冒险，我不会配合。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese_calm_streamer_nv1",
+  "preset": "resolve",
+  "api_speed": 1.85,
+  "raw_seconds": 1.7066875,
+  "trim_start_seconds": 0.035,
+  "trim_end_seconds": 1.57,
+  "atempo": 0.9702907711757268,
+  "untruncated_processed_seconds": 1.577375,
+  "tail_quantization_seconds": 0.022625,
+  "gain": 1.4677558434556048,
+  "measured_seconds": 1.6,
+  "frames": 48,
+  "samples": 76800,
+  "units": 12,
+  "cps_including_performance": 7.5,
+  "sha256": "3a176e5d94b63979f270be951b5eeefab1323de959267a94f6dfaa6de6efa560"
+}

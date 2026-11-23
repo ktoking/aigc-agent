@@ -1,0 +1,22 @@
+{
+  "cue_id": "c268",
+  "source_text": "我不敢弯腰去捡，先让她照住了头顶。",
+  "model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "preset": "fear",
+  "api_speed": 1.2,
+  "post_speed_change": false,
+  "processing": "Exterior silence trim + 48kHz resample + gain + subframe tail pad; no tempo/pitch change",
+  "raw_seconds": 3.34371875,
+  "trim_start_seconds": 0.0,
+  "trim_end_seconds": 3.195,
+  "untruncated_processed_seconds": 3.195,
+  "tail_quantization_seconds": 0.005,
+  "gain": 2.0,
+  "measured_seconds": 3.2,
+  "frames": 96,
+  "samples": 153600,
+  "units": 15,
+  "cps_including_performance": 4.6875,
+  "sha256": "3a65a6a040b3aeb719bd3db17a51668a354546f59d14cbbe52ac273b1c265864"
+}
