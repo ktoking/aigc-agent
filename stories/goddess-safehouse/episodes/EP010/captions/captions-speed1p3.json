@@ -1,0 +1,618 @@
+{
+  "episode": "EP010",
+  "fps": 30,
+  "frames": 2910,
+  "source": "confirmed text unchanged",
+  "timing": "ASR matched characters with interpolation for unmatched characters; measured accelerated audio",
+  "entries": [
+    {
+      "text": "最后一秒归零。",
+      "display_text": "最后一秒归零",
+      "start_frame": 0,
+      "cue_id": "EP010-C01",
+      "source_start_char": 0,
+      "source_end_char": 7,
+      "end_frame": 38
+    },
+    {
+      "text": "整排楼的灯，",
+      "display_text": "整排楼的灯",
+      "start_frame": 38,
+      "cue_id": "EP010-C01",
+      "source_start_char": 7,
+      "source_end_char": 13,
+      "end_frame": 66
+    },
+    {
+      "text": "一盏接一盏熄灭。一轮红月，",
+      "display_text": "一盏接一盏熄灭 一轮红月",
+      "start_frame": 66,
+      "cue_id": "EP010-C01",
+      "source_start_char": 13,
+      "source_end_char": 26,
+      "end_frame": 132
+    },
+    {
+      "text": "从楼缝里升起来，",
+      "display_text": "从楼缝里升起来",
+      "start_frame": 132,
+      "cue_id": "EP010-C01",
+      "source_start_char": 26,
+      "source_end_char": 34,
+      "end_frame": 170
+    },
+    {
+      "text": "楼下响起桌椅翻倒的声音。",
+      "display_text": "楼下响起桌椅翻倒的声音",
+      "start_frame": 170,
+      "cue_id": "EP010-C01",
+      "source_start_char": 34,
+      "source_end_char": 46,
+      "end_frame": 226
+    },
+    {
+      "text": "夏凛拉了拉门链，回头看我。我在厨房，",
+      "display_text": "夏凛拉了拉门链 回头看我 我在厨房",
+      "start_frame": 234,
+      "cue_id": "EP010-C02",
+      "source_start_char": 0,
+      "source_end_char": 18,
+      "end_frame": 330
+    },
+    {
+      "text": "把卡式炉的火调到最旺，红油翻滚。",
+      "display_text": "把卡式炉的火调到最旺 红油翻滚",
+      "start_frame": 330,
+      "cue_id": "EP010-C02",
+      "source_start_char": 18,
+      "source_end_char": 34,
+      "end_frame": 411
+    },
+    {
+      "text": "她说，",
+      "display_text": "她说",
+      "start_frame": 417,
+      "cue_id": "EP010-C03",
+      "source_start_char": 0,
+      "source_end_char": 3,
+      "end_frame": 437
+    },
+    {
+      "text": "外面天都塌了，",
+      "display_text": "外面天都塌了",
+      "start_frame": 437,
+      "cue_id": "EP010-C03",
+      "source_start_char": 3,
+      "source_end_char": 10,
+      "end_frame": 470
+    },
+    {
+      "text": "你在煮火锅？我说，天塌了，",
+      "display_text": "你在煮火锅 我说 天塌了",
+      "start_frame": 470,
+      "cue_id": "EP010-C03",
+      "source_start_char": 10,
+      "source_end_char": 23,
+      "end_frame": 542
+    },
+    {
+      "text": "才要吃好点。毛肚，牛肉，蔬菜，",
+      "display_text": "才要吃好点 毛肚 牛肉 蔬菜",
+      "start_frame": 542,
+      "cue_id": "EP010-C03",
+      "source_start_char": 23,
+      "source_end_char": 38,
+      "end_frame": 622
+    },
+    {
+      "text": "我都摆好了。",
+      "display_text": "我都摆好了",
+      "start_frame": 622,
+      "cue_id": "EP010-C03",
+      "source_start_char": 38,
+      "source_end_char": 44,
+      "end_frame": 651
+    },
+    {
+      "text": "就在这时，",
+      "display_text": "就在这时",
+      "start_frame": 659,
+      "cue_id": "EP010-C04",
+      "source_start_char": 0,
+      "source_end_char": 5,
+      "end_frame": 686
+    },
+    {
+      "text": "王大富扑到门上。",
+      "display_text": "王大富扑到门上",
+      "start_frame": 686,
+      "cue_id": "EP010-C04",
+      "source_start_char": 5,
+      "source_end_char": 13,
+      "end_frame": 726
+    },
+    {
+      "text": "他满手是血，拍着门喊，陈屿，开门，",
+      "display_text": "他满手是血 拍着门喊 陈屿 开门",
+      "start_frame": 726,
+      "cue_id": "EP010-C04",
+      "source_start_char": 13,
+      "source_end_char": 30,
+      "end_frame": 819
+    },
+    {
+      "text": "十根金条，全给你。",
+      "display_text": "十根金条 全给你",
+      "start_frame": 819,
+      "cue_id": "EP010-C04",
+      "source_start_char": 30,
+      "source_end_char": 39,
+      "end_frame": 865
+    },
+    {
+      "text": "我夹起毛肚，",
+      "display_text": "我夹起毛肚",
+      "start_frame": 869,
+      "cue_id": "EP010-C05",
+      "source_start_char": 0,
+      "source_end_char": 6,
+      "end_frame": 908
+    },
+    {
+      "text": "在红汤里涮了七下。隔着门，我说，",
+      "display_text": "在红汤里涮了七下 隔着门 我说",
+      "start_frame": 908,
+      "cue_id": "EP010-C05",
+      "source_start_char": 6,
+      "source_end_char": 22,
+      "end_frame": 1002
+    },
+    {
+      "text": "当初在群里说我借钱囤货是傻子的时候，",
+      "display_text": "当初在群里说我借钱囤货是傻子的时候",
+      "start_frame": 1002,
+      "cue_id": "EP010-C05",
+      "source_start_char": 22,
+      "source_end_char": 40,
+      "end_frame": 1082
+    },
+    {
+      "text": "你可没这么客气。",
+      "display_text": "你可没这么客气",
+      "start_frame": 1082,
+      "cue_id": "EP010-C05",
+      "source_start_char": 40,
+      "source_end_char": 48,
+      "end_frame": 1120
+    },
+    {
+      "text": "楼梯转角，",
+      "display_text": "楼梯转角",
+      "start_frame": 1128,
+      "cue_id": "EP010-C06",
+      "source_start_char": 0,
+      "source_end_char": 5,
+      "end_frame": 1157
+    },
+    {
+      "text": "一道青灰色的人影扑了出来。",
+      "display_text": "一道青灰色的人影扑了出来",
+      "start_frame": 1157,
+      "cue_id": "EP010-C06",
+      "source_start_char": 5,
+      "source_end_char": 18,
+      "end_frame": 1212
+    },
+    {
+      "text": "王大富一声惨叫。夏凛说，他会死。",
+      "display_text": "王大富一声惨叫 夏凛说 他会死",
+      "start_frame": 1212,
+      "cue_id": "EP010-C06",
+      "source_start_char": 18,
+      "source_end_char": 34,
+      "end_frame": 1294
+    },
+    {
+      "text": "我放下筷子。我不救人，我只保证，",
+      "display_text": "我放下筷子 我不救人 我只保证",
+      "start_frame": 1301,
+      "cue_id": "EP010-C07",
+      "source_start_char": 0,
+      "source_end_char": 16,
+      "end_frame": 1377
+    },
+    {
+      "text": "门前干净。",
+      "display_text": "门前干净",
+      "start_frame": 1377,
+      "cue_id": "EP010-C07",
+      "source_start_char": 16,
+      "source_end_char": 21,
+      "end_frame": 1405
+    },
+    {
+      "text": "我拿起院灯的控制器，按了下去。",
+      "display_text": "我拿起院灯的控制器 按了下去",
+      "start_frame": 1411,
+      "cue_id": "EP010-C08",
+      "source_start_char": 0,
+      "source_end_char": 15,
+      "end_frame": 1482
+    },
+    {
+      "text": "两束白光，",
+      "display_text": "两束白光",
+      "start_frame": 1482,
+      "cue_id": "EP010-C08",
+      "source_start_char": 15,
+      "source_end_char": 20,
+      "end_frame": 1505
+    },
+    {
+      "text": "同时照向转角。",
+      "display_text": "同时照向转角",
+      "start_frame": 1505,
+      "cue_id": "EP010-C08",
+      "source_start_char": 20,
+      "source_end_char": 27,
+      "end_frame": 1540
+    },
+    {
+      "text": "那道人影捂着眼睛，",
+      "display_text": "那道人影捂着眼睛",
+      "start_frame": 1548,
+      "cue_id": "EP010-C09",
+      "source_start_char": 0,
+      "source_end_char": 9,
+      "end_frame": 1592
+    },
+    {
+      "text": "往后缩了半步，",
+      "display_text": "往后缩了半步",
+      "start_frame": 1592,
+      "cue_id": "EP010-C09",
+      "source_start_char": 9,
+      "source_end_char": 16,
+      "end_frame": 1627
+    },
+    {
+      "text": "发出一声尖啸。",
+      "display_text": "发出一声尖啸",
+      "start_frame": 1627,
+      "cue_id": "EP010-C09",
+      "source_start_char": 16,
+      "source_end_char": 23,
+      "end_frame": 1664
+    },
+    {
+      "text": "王大富连滚带爬冲回对门，砰地关上。",
+      "display_text": "王大富连滚带爬冲回对门 砰地关上",
+      "start_frame": 1668,
+      "cue_id": "EP010-C10",
+      "source_start_char": 0,
+      "source_end_char": 17,
+      "end_frame": 1760
+    },
+    {
+      "text": "他的惨叫，戛然而止。",
+      "display_text": "他的惨叫 戛然而止",
+      "start_frame": 1760,
+      "cue_id": "EP010-C10",
+      "source_start_char": 17,
+      "source_end_char": 27,
+      "end_frame": 1799
+    },
+    {
+      "text": "夏凛看着我说，",
+      "display_text": "夏凛看着我说",
+      "start_frame": 1799,
+      "cue_id": "EP010-C10",
+      "source_start_char": 27,
+      "source_end_char": 34,
+      "end_frame": 1836
+    },
+    {
+      "text": "你早就准备好了灯。我说，怕光，怕火，",
+      "display_text": "你早就准备好了灯 我说 怕光 怕火",
+      "start_frame": 1836,
+      "cue_id": "EP010-C10",
+      "source_start_char": 34,
+      "source_end_char": 52,
+      "end_frame": 1936
+    },
+    {
+      "text": "耳朵灵，我写过。",
+      "display_text": "耳朵灵 我写过",
+      "start_frame": 1936,
+      "cue_id": "EP010-C10",
+      "source_start_char": 52,
+      "source_end_char": 60,
+      "end_frame": 1981
+    },
+    {
+      "text": "可我还没来得及松一口气，",
+      "display_text": "可我还没来得及松一口气",
+      "start_frame": 1986,
+      "cue_id": "EP010-C11",
+      "source_start_char": 0,
+      "source_end_char": 12,
+      "end_frame": 2048
+    },
+    {
+      "text": "楼梯另一头，",
+      "display_text": "楼梯另一头",
+      "start_frame": 2048,
+      "cue_id": "EP010-C11",
+      "source_start_char": 12,
+      "source_end_char": 18,
+      "end_frame": 2067
+    },
+    {
+      "text": "传来一个女人的声音。陈屿！陈屿，",
+      "display_text": "传来一个女人的声音 陈屿 陈屿",
+      "start_frame": 2067,
+      "cue_id": "EP010-C11",
+      "source_start_char": 18,
+      "source_end_char": 34,
+      "end_frame": 2155
+    },
+    {
+      "text": "你在吗？我来了！",
+      "display_text": "你在吗 我来了",
+      "start_frame": 2155,
+      "cue_id": "EP010-C11",
+      "source_start_char": 34,
+      "source_end_char": 42,
+      "end_frame": 2205
+    },
+    {
+      "text": "是许知意。",
+      "display_text": "是许知意",
+      "start_frame": 2213,
+      "cue_id": "EP010-C12",
+      "source_start_char": 0,
+      "source_end_char": 5,
+      "end_frame": 2241
+    },
+    {
+      "text": "她白大褂撕裂，浑身是血，",
+      "display_text": "她白大褂撕裂 浑身是血",
+      "start_frame": 2241,
+      "cue_id": "EP010-C12",
+      "source_start_char": 5,
+      "source_end_char": 17,
+      "end_frame": 2297
+    },
+    {
+      "text": "手里攥着那张纸卡。她身后，三道人影，",
+      "display_text": "手里攥着那张纸卡 她身后 三道人影",
+      "start_frame": 2297,
+      "cue_id": "EP010-C12",
+      "source_start_char": 17,
+      "source_end_char": 35,
+      "end_frame": 2379
+    },
+    {
+      "text": "正追上来。",
+      "display_text": "正追上来",
+      "start_frame": 2379,
+      "cue_id": "EP010-C12",
+      "source_start_char": 35,
+      "source_end_char": 40,
+      "end_frame": 2409
+    },
+    {
+      "text": "我对她喊，",
+      "display_text": "我对她喊",
+      "start_frame": 2412,
+      "cue_id": "EP010-C13",
+      "source_start_char": 0,
+      "source_end_char": 5,
+      "end_frame": 2441
+    },
+    {
+      "text": "往亮的地方走，",
+      "display_text": "往亮的地方走",
+      "start_frame": 2441,
+      "cue_id": "EP010-C13",
+      "source_start_char": 5,
+      "source_end_char": 12,
+      "end_frame": 2472
+    },
+    {
+      "text": "别离开这束光。",
+      "display_text": "别离开这束光",
+      "start_frame": 2472,
+      "cue_id": "EP010-C13",
+      "source_start_char": 12,
+      "source_end_char": 19,
+      "end_frame": 2506
+    },
+    {
+      "text": "手机亮起一行红字，",
+      "display_text": "手机亮起一行红字",
+      "start_frame": 2511,
+      "cue_id": "EP010-C14",
+      "source_start_char": 0,
+      "source_end_char": 9,
+      "end_frame": 2561
+    },
+    {
+      "text": "检测到屋外幸存者，请求入住。",
+      "display_text": "检测到屋外幸存者 请求入住",
+      "start_frame": 2561,
+      "cue_id": "EP010-C14",
+      "source_start_char": 9,
+      "source_end_char": 23,
+      "end_frame": 2622
+    },
+    {
+      "text": "开启入口，",
+      "display_text": "开启入口",
+      "start_frame": 2622,
+      "cue_id": "EP010-C14",
+      "source_start_char": 23,
+      "source_end_char": 28,
+      "end_frame": 2646
+    },
+    {
+      "text": "将暴露安全屋位置，是否确认？",
+      "display_text": "将暴露安全屋位置 是否确认",
+      "start_frame": 2646,
+      "cue_id": "EP010-C14",
+      "source_start_char": 28,
+      "source_end_char": 42,
+      "end_frame": 2713
+    },
+    {
+      "text": "夏凛站到我身后，短棍举起。我的手，",
+      "display_text": "夏凛站到我身后 短棍举起 我的手",
+      "start_frame": 2721,
+      "cue_id": "EP010-C15",
+      "source_start_char": 0,
+      "source_end_char": 17,
+      "end_frame": 2801
+    },
+    {
+      "text": "按在门锁上。门外，她的呼吸，",
+      "display_text": "按在门锁上 门外 她的呼吸",
+      "start_frame": 2801,
+      "cue_id": "EP010-C15",
+      "source_start_char": 17,
+      "source_end_char": 31,
+      "end_frame": 2865
+    },
+    {
+      "text": "已经贴到了门板上。",
+      "display_text": "已经贴到了门板上",
+      "start_frame": 2865,
+      "cue_id": "EP010-C15",
+      "source_start_char": 31,
+      "source_end_char": 40,
+      "end_frame": 2910
+    }
+  ],
+  "alignment": [
+    {
+      "cue_id": "EP010-C01",
+      "matched_characters": 38,
+      "source_characters": 40,
+      "coverage": 0.95,
+      "source_text": "最后一秒归零。整排楼的灯，一盏接一盏熄灭。一轮红月，从楼缝里升起来，楼下响起桌椅翻倒的声音。",
+      "recognized_text": "最后一秒归零整排楼的灯一盏接一盏熄灭一轮红月从楼凤里升起来楼下响起桌一翻倒的声音"
+    },
+    {
+      "cue_id": "EP010-C02",
+      "matched_characters": 25,
+      "source_characters": 29,
+      "coverage": 0.8620689655172413,
+      "source_text": "夏凛拉了拉门链，回头看我。我在厨房，把卡式炉的火调到最旺，红油翻滚。",
+      "recognized_text": "夏凛拉了拉门链回头看我我在厨房把卡士卢的火调到醉望红油翻滚"
+    },
+    {
+      "cue_id": "EP010-C03",
+      "matched_characters": 34,
+      "source_characters": 34,
+      "coverage": 1.0,
+      "source_text": "她说，外面天都塌了，你在煮火锅？我说，天塌了，才要吃好点。毛肚，牛肉，蔬菜，我都摆好了。",
+      "recognized_text": "她说外面天都塌了你在煮火锅我说天塌了才要吃好点毛肚牛肉蔬菜我都摆好了"
+    },
+    {
+      "cue_id": "EP010-C04",
+      "matched_characters": 29,
+      "source_characters": 31,
+      "coverage": 0.9354838709677419,
+      "source_text": "就在这时，王大富扑到门上。他满手是血，拍着门喊，陈屿，开门，十根金条，全给你。",
+      "recognized_text": "就在这时王大富铺到门上他满手湿血拍着门喊陈屿开门十根金条全给你"
+    },
+    {
+      "cue_id": "EP010-C05",
+      "matched_characters": 41,
+      "source_characters": 42,
+      "coverage": 0.9761904761904762,
+      "source_text": "我夹起毛肚，在红汤里涮了七下。隔着门，我说，当初在群里说我借钱囤货是傻子的时候，你可没这么客气。",
+      "recognized_text": "我夹起毛肚在红汤里算了七下隔着门我说当初在群里说我借钱囤货是傻子的时候你可没这么客气"
+    },
+    {
+      "cue_id": "EP010-C06",
+      "matched_characters": 25,
+      "source_characters": 29,
+      "coverage": 0.8620689655172413,
+      "source_text": "楼梯转角，一道青灰色的人影扑了出来。王大富一声惨叫。夏凛说，他会死。",
+      "recognized_text": "楼梯转角一道青灰色的人影铺了出来王大副一声惨叫下领说他会死"
+    },
+    {
+      "cue_id": "EP010-C07",
+      "matched_characters": 17,
+      "source_characters": 17,
+      "coverage": 1.0,
+      "source_text": "我放下筷子。我不救人，我只保证，门前干净。",
+      "recognized_text": "我放下筷子我不救人我只保证门前干净"
+    },
+    {
+      "cue_id": "EP010-C08",
+      "matched_characters": 21,
+      "source_characters": 23,
+      "coverage": 0.9130434782608695,
+      "source_text": "我拿起院灯的控制器，按了下去。两束白光，同时照向转角。",
+      "recognized_text": "我拿起院灯的控制器按了下去两树白光同时照相转角"
+    },
+    {
+      "cue_id": "EP010-C09",
+      "matched_characters": 18,
+      "source_characters": 20,
+      "coverage": 0.9,
+      "source_text": "那道人影捂着眼睛，往后缩了半步，发出一声尖啸。",
+      "recognized_text": "那道人影捂着眼睛往后缩了半步发出一声奸笑"
+    },
+    {
+      "cue_id": "EP010-C10",
+      "matched_characters": 44,
+      "source_characters": 49,
+      "coverage": 0.8979591836734694,
+      "source_text": "王大富连滚带爬冲回对门，砰地关上。他的惨叫，戛然而止。夏凛看着我说，你早就准备好了灯。我说，怕光，怕火，耳朵灵，我写过。",
+      "recognized_text": "王大富连滚带爬冲回对门抨得关上他的惨叫夹然而止夏岭看着我说你早就准备好了灯我说怕光怕火耳朵铃我写过"
+    },
+    {
+      "cue_id": "EP010-C11",
+      "matched_characters": 33,
+      "source_characters": 35,
+      "coverage": 0.9428571428571428,
+      "source_text": "可我还没来得及松一口气，楼梯另一头，传来一个女人的声音。陈屿！陈屿，你在吗？我来了！",
+      "recognized_text": "可我还没来得及松一口气楼梯另一头传来一个女人的声音陈语陈语你在吗我来了"
+    },
+    {
+      "cue_id": "EP010-C12",
+      "matched_characters": 25,
+      "source_characters": 33,
+      "coverage": 0.7575757575757576,
+      "source_text": "是许知意。她白大褂撕裂，浑身是血，手里攥着那张纸卡。她身后，三道人影，正追上来。",
+      "recognized_text": "世许之意他白大挂撕裂浑身试写手里钻着那张纸卡他身后三道人影正追上来我"
+    },
+    {
+      "cue_id": "EP010-C13",
+      "matched_characters": 14,
+      "source_characters": 16,
+      "coverage": 0.875,
+      "source_text": "我对她喊，往亮的地方走，别离开这束光。",
+      "recognized_text": "我对他喊往亮的地方走别离开这曙光"
+    },
+    {
+      "cue_id": "EP010-C14",
+      "matched_characters": 36,
+      "source_characters": 36,
+      "coverage": 1.0,
+      "source_text": "手机亮起一行红字，检测到屋外幸存者，请求入住。开启入口，将暴露安全屋位置，是否确认？",
+      "recognized_text": "手机亮起一行红字检测到屋外幸存者请求入住开启入口将暴露安全屋位置是否确认"
+    },
+    {
+      "cue_id": "EP010-C15",
+      "matched_characters": 30,
+      "source_characters": 33,
+      "coverage": 0.9090909090909091,
+      "source_text": "夏凛站到我身后，短棍举起。我的手，按在门锁上。门外，她的呼吸，已经贴到了门板上。",
+      "recognized_text": "下领站到我身后短棍举起我的手按在门锁上门外他的呼吸已经贴到了门板上"
+    }
+  ],
+  "human_audio_listen": "NOT_RUN"
+}

@@ -1,0 +1,790 @@
+{
+  "episode": "EP002",
+  "version": "user-script-v2",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 2278,
+  "duration_seconds": 75.93333333333334,
+  "cues": [
+    {
+      "cue_id": "EP002-C01",
+      "text": "一天一夜过去，客厅里那盒草莓先烂了，果蒂边长出一圈灰白的霉。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C01.wav",
+      "audio_sha256": "4035e1bd9384444f1846d58a149e0a9ceaf68b771bd8fcf6a29c6d18936ed7b2",
+      "actual_duration_seconds": 5.08025,
+      "start_frame": 0,
+      "end_frame": 153,
+      "external_gap_before_frames": 0,
+      "source_audio_path": "episodes/EP002/audio/EP002-C01.mp3",
+      "source_audio_sha256": "fd87f21c7e6e6fc7c0b8a4a3352cf650942ed99cefed9e929dedd76dbe226b3b",
+      "source_duration_seconds": 6.6,
+      "sample_count": 243852
+    },
+    {
+      "cue_id": "EP002-C02",
+      "text": "安全屋里那盒，是同一批的，手机全程拍着，没人动过。我切开一颗，果肉紧实，甜得像刚买的。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C02.wav",
+      "audio_sha256": "fd130d0c0d0d198989d418b6c858bf17ac37b2d8ce2eeca7c4ef4d1df3eaa8d5",
+      "actual_duration_seconds": 7.4706875,
+      "start_frame": 156,
+      "end_frame": 381,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C02.mp3",
+      "source_audio_sha256": "91a269966f12b2801172c28a4d01fb4c3b552137b1cf242d0bc2d863eeb4cdb9",
+      "source_duration_seconds": 9.7,
+      "sample_count": 358593
+    },
+    {
+      "cue_id": "EP002-C03",
+      "text": "东西放进去，不会坏。这意味着，我囤的每一吨米，都不用担心过期。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C03.wav",
+      "audio_sha256": "68e88d7228fa47b625c00f5f20697c7919b707ff084acb85e1ba6c3733bbe9e7",
+      "actual_duration_seconds": 5.239833333333333,
+      "start_frame": 384,
+      "end_frame": 542,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C03.mp3",
+      "source_audio_sha256": "8809cb99bf3551dbd4b6a1a45426fd4f739beb922056bc091fc48788136b0051",
+      "source_duration_seconds": 6.8,
+      "sample_count": 251512
+    },
+    {
+      "cue_id": "EP002-C04",
+      "text": "手机又弹出一个新手演示，问我，要不要模拟屋外的威胁。我点了确认。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C04.wav",
+      "audio_sha256": "0451528925d670166fae1250aeb77cceca6046bb0841f31b52b8a22029d0a3f2",
+      "actual_duration_seconds": 4.931104166666667,
+      "start_frame": 545,
+      "end_frame": 693,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C04.mp3",
+      "source_audio_sha256": "3382944c2661e68ecbef7c084d8a54215aa5e2604380362cd889a6b5462aa471",
+      "source_duration_seconds": 6.4,
+      "sample_count": 236693
+    },
+    {
+      "cue_id": "EP002-C05",
+      "text": "墙变成了一扇窗，窗外红得发暗。一道青灰色的人影扑过来，眼白通红，嘴角裂到耳根。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C05.wav",
+      "audio_sha256": "7d8669010036ea2680e272fb4d82eaab5f61083875f35dea22553765566352c0",
+      "actual_duration_seconds": 6.387208333333334,
+      "start_frame": 696,
+      "end_frame": 888,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C05.mp3",
+      "source_audio_sha256": "a4e0d0539c07d92f88a95a1a7086ed70c1cb5879991960776587294e4d8ae621",
+      "source_duration_seconds": 8.3,
+      "sample_count": 306586
+    },
+    {
+      "cue_id": "EP002-C06",
+      "text": "它撞向玻璃，被一层红光弹了回去。窗上浮出四个字，拒绝入内。我后退一步，才发现自己在咽口水。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C06.wav",
+      "audio_sha256": "7ed0a361d887c60b29e02a8eea3402d936ffadd1aa8631258efbb2ee2471a4aa",
+      "actual_duration_seconds": 7.551708333333333,
+      "start_frame": 891,
+      "end_frame": 1118,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C06.mp3",
+      "source_audio_sha256": "c97e62c84d17ee48edeb4d2bc0446d1bb29468997aac8e6ae0a4f30b26621aae",
+      "source_duration_seconds": 9.8,
+      "sample_count": 362482
+    },
+    {
+      "cue_id": "EP002-C07",
+      "text": "说明页只有三行，畏光，畏火，听觉极灵。我一笔一划，抄进本子里。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C07.wav",
+      "audio_sha256": "d5494d82f903e60e6a6bb848c7c1af63d72084354271d227552354aa9c916d32",
+      "actual_duration_seconds": 5.780645833333334,
+      "start_frame": 1121,
+      "end_frame": 1295,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C07.mp3",
+      "source_audio_sha256": "03cb008dd2be6057d1c50a386b1ad1e7500fd27bf5d6cdc63541bd0f90be2666",
+      "source_duration_seconds": 7.5,
+      "sample_count": 277471
+    },
+    {
+      "cue_id": "EP002-C08",
+      "text": "然后我开始算账。一个人活一年，最低要一百一十八万。我卡里，只有四十一万两千。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C08.wav",
+      "audio_sha256": "a0ed085924e9dc3b40bd35eb8fcd1b7b3070a32ef4b26c3a95b3aefab9617ecc",
+      "actual_duration_seconds": 5.9364375,
+      "start_frame": 1298,
+      "end_frame": 1477,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C08.mp3",
+      "source_audio_sha256": "5c8f6ed60b1635dd97be929b6b63d4c29c17ec93438b999baf43877c4ee3ca08",
+      "source_duration_seconds": 7.7,
+      "sample_count": 284949
+    },
+    {
+      "cue_id": "EP002-C09",
+      "text": "差七十六万八。而且这张表，只算了我一个人。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C09.wav",
+      "audio_sha256": "7f9e639e50842bdd3a4c480b68971168a887bfc4ba48f096771b66fb1b5cd846",
+      "actual_duration_seconds": 3.447229166666667,
+      "start_frame": 1480,
+      "end_frame": 1584,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C09.mp3",
+      "source_audio_sha256": "1cfd606dcd7bf21d465aea63b6d2f4aed1551778cb4376e97ab6b3fd0834c69f",
+      "source_duration_seconds": 4.5,
+      "sample_count": 165467
+    },
+    {
+      "cue_id": "EP002-C10",
+      "text": "我看向书架上，父母的合照。那天晚上，要是我早一点接电话，就好了。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C10.wav",
+      "audio_sha256": "67ae6c82481dac716201631395e9c5764cd667df20d292842e83415e17121595",
+      "actual_duration_seconds": 5.200125,
+      "start_frame": 1587,
+      "end_frame": 1744,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C10.mp3",
+      "source_audio_sha256": "871a05c683bcf0553f5e55bbfc013843e00a4ca45a01a1829bc096f46a61f662",
+      "source_duration_seconds": 6.78025,
+      "sample_count": 249606
+    },
+    {
+      "cue_id": "EP002-C11",
+      "text": "这一次，我不想再来不及。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C11.wav",
+      "audio_sha256": "4e50a39507f4612cc44aa07fddde7677053338c732fc05000e1b19a65f88fb31",
+      "actual_duration_seconds": 2.103291666666667,
+      "start_frame": 1747,
+      "end_frame": 1811,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C11.mp3",
+      "source_audio_sha256": "300a2fba71a659632e0408f75adb37d2914d773628c10a520e0349408f5478bc",
+      "source_duration_seconds": 2.763188,
+      "sample_count": 100958
+    },
+    {
+      "cue_id": "EP002-C12",
+      "text": "借款软件跳出一行字，可借额度，七十八万。我盯着那个数字，忽然笑了。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C12.wav",
+      "audio_sha256": "12423eb9250274d07a922c18ed7c4ae2baff63768f5486c432f4f3f7de6b8357",
+      "actual_duration_seconds": 5.4465208333333335,
+      "start_frame": 1814,
+      "end_frame": 1978,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C12.mp3",
+      "source_audio_sha256": "7f9a8429ff7b50fe84356315b2486ee1e1035dcade996276b641b72fb0e023df",
+      "source_duration_seconds": 7.1,
+      "sample_count": 261433
+    },
+    {
+      "cue_id": "EP002-C13",
+      "text": "末世一来，钱就是废纸。到那天，欠钱的人，才是赢家。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C13.wav",
+      "audio_sha256": "b58e03215b7648f92928841c35f8526f002d42a443a3ba07d31bc1895c6c4c46",
+      "actual_duration_seconds": 4.520770833333334,
+      "start_frame": 1981,
+      "end_frame": 2117,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C13.mp3",
+      "source_audio_sha256": "2ba7b8264fe1f64f55ebc2b6dc5ece063c716bff84288b41bae60e737cdb40dd",
+      "source_duration_seconds": 5.886281,
+      "sample_count": 216997
+    },
+    {
+      "cue_id": "EP002-C14",
+      "text": "我按下申请。页面转着圈，停在审核中。从这一秒起，我没有退路了。\n",
+      "audio_path": "episodes/EP002/audio/speed1p3/EP002-C14.wav",
+      "audio_sha256": "7f0012eac8b39724fc8edac3d17988e6de307e2b68526155d2bb888ae757b516",
+      "actual_duration_seconds": 5.2429375,
+      "start_frame": 2120,
+      "end_frame": 2278,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP002/audio/EP002-C14.mp3",
+      "source_audio_sha256": "7d5b2d204e5f65e635dd76d16ea17f23183ce8de8b1be0cdaec3cb18f45be3d9",
+      "source_duration_seconds": 6.8,
+      "sample_count": 251661
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP002-S01",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C01"
+      ],
+      "source_text": "一天一夜过去，客厅里那盒草莓先烂了，果蒂边长出一圈灰白的霉。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "客厅桌面草莓盒局部果蒂灰白小霉点，陈屿将盒封袋，其余家具干燥整洁",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S01.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 3.6,
+      "start_frame": 0,
+      "end_frame": 153,
+      "image_path": "episodes/EP002/frames/EP002-S01-v2.png",
+      "image_sha256": "8cfb24280cd1da96639811695475fda7fe6ffe9e012b552409d031ae82ed9187",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "display_seconds": 5.1,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S02",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C02"
+      ],
+      "source_text": "安全屋里那盒，是同一批的，手机全程拍着，没人动过。我切开一颗，果肉紧实，甜得像刚买的。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "俯拍同批完好草莓，手机支架录延时，陈屿用洁净小刀切一颗，果肉紧实",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 3.7,
+      "estimated_duration_seconds": 4.8,
+      "start_frame": 153,
+      "end_frame": 267,
+      "image_path": "episodes/EP002/frames/EP002-S02-release-take02.png",
+      "image_sha256": "61845f92e624adffcb297bfeb01f480fb54ce05d9bc6d246fa891a8a90cc7d53",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "display_seconds": 3.8,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "prior_image_path": "episodes/EP002/frames/EP002-S02-v2.png",
+      "next_take": 2,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S02B",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C02"
+      ],
+      "source_text": "安全屋里那盒，是同一批的，手机全程拍着，没人动过。我切开一颗，果肉紧实，甜得像刚买的。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "切开的鲜红草莓两半并排放在干净小盘上，陈屿刚拿起其中一半，录延时的手机支架在背景；结果细节作为新信息",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S02B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 3.7,
+      "estimated_duration_seconds": 4.8,
+      "start_frame": 267,
+      "end_frame": 381,
+      "image_path": "episodes/EP002/frames/EP002-S02B-release-take02.png",
+      "image_sha256": "90e2bff22efaec370bfb719f2cf62d7d57df54ce1edb6ece5cd30d96d135d284",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "next_take": 2,
+      "prior_image_path": "episodes/EP002/frames/EP002-S02B-v2.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 3.8,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨"
+    },
+    {
+      "shot_id": "EP002-S03",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C03"
+      ],
+      "source_text": "东西放进去，不会坏。这意味着，我囤的每一吨米，都不用担心过期。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿在干净空厅内将一颗切开的新鲜草莓与手机录像同框验证，桌面只有同一盒新鲜草莓和采购本，想到未来囤米；没有任何米袋、货架、库存",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S03.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 8.6,
+      "estimated_duration_seconds": 3.467,
+      "start_frame": 381,
+      "end_frame": 542,
+      "image_path": "episodes/EP002/frames/EP002-S03-release-take02.png",
+      "image_sha256": "d93a6a574728cfebd28f661dabd48f42057a1836494966525014770af75d4b17",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.366666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "prior_image_path": "episodes/EP002/frames/EP002-S03-v2.png",
+      "next_take": 2,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S04",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C04"
+      ],
+      "source_text": "手机又弹出一个新手演示，问我，要不要模拟屋外的威胁。我点了确认。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "门边中景，陈屿点手机演示区域，身后留出可走的门口",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S04.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 12.167,
+      "estimated_duration_seconds": 3.733,
+      "start_frame": 542,
+      "end_frame": 693,
+      "image_path": "episodes/EP002/frames/EP002-S04-v2.png",
+      "image_sha256": "20fb7abc85e8086022fdab094dd6840776fa26ccf4844747bea443bb094568c6",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.033333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S05",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C05"
+      ],
+      "source_text": "墙变成了一扇窗，窗外红得发暗。一道青灰色的人影扑过来，眼白通红，嘴角裂到耳根。\n",
+      "scene_id": "SIM",
+      "character_ids": [],
+      "unique_event": "隔离展示窗外一个青灰成年轮廓扑近，红眼但脸部不作裂伤特写，窗内大厅无怪物",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S05.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 16.0,
+      "estimated_duration_seconds": 4.533,
+      "start_frame": 693,
+      "end_frame": 888,
+      "image_path": "episodes/EP002/frames/EP002-S05-v2.png",
+      "image_sha256": "6a68dbc7b16489213a816c983ddabe2278b3bdb7bc49d05487348688cee61d92",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.5,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S06",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C06"
+      ],
+      "source_text": "它撞向玻璃，被一层红光弹了回去。窗上浮出四个字，拒绝入内。我后退一步，才发现自己在咽口水。\n",
+      "scene_id": "SIM",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "展示窗隔离面亮红光阻住外侧手掌，陈屿在内侧后退，双方空间边界明确",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S06.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 20.633,
+      "estimated_duration_seconds": 5.2,
+      "start_frame": 888,
+      "end_frame": 1003,
+      "image_path": "episodes/EP002/frames/EP002-S06-release-take01.png",
+      "image_sha256": "980ad03715d9c6378d0b35d8a1d80c3e9139d8ac2a20697e1768f6c6eee69576",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.8333333333333335,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S06B",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C06"
+      ],
+      "source_text": "它撞向玻璃，被一层红光弹了回去。窗上浮出四个字，拒绝入内。我后退一步，才发现自己在咽口水。\n",
+      "scene_id": "SIM",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿后退半步，手扶普通门框，隔离展示窗中的怪影已经被红光弹离，脸上有克制惊惧；大厅里绝无怪物实体",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S06B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 20.633,
+      "estimated_duration_seconds": 5.2,
+      "start_frame": 1003,
+      "end_frame": 1118,
+      "image_path": "episodes/EP002/frames/EP002-S06B-release-take01.png",
+      "image_sha256": "5fb1ddce369ce5b84e8d15fcb259dad5140bb12a91df438d99374cc8238cefaa",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 3.8333333333333335,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP002-S07",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C07"
+      ],
+      "source_text": "说明页只有三行，畏光，畏火，听觉极灵。我一笔一划，抄进本子里。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "手部近景陈屿在小采购本抄下三行条目，不生成可读汉字，旁边手电商品图",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S07.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 25.933,
+      "estimated_duration_seconds": 3.333,
+      "start_frame": 1118,
+      "end_frame": 1295,
+      "image_path": "episodes/EP002/frames/EP002-S07-release-take01.png",
+      "image_sha256": "288644013cd58c7a6905f45099872329173178996a5b767c591445279c348009",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.9,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S08",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C08"
+      ],
+      "source_text": "然后我开始算账。一个人活一年，最低要一百一十八万。我卡里，只有四十一万两千。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿用计算器合计采购清单，账本一页多行，手机余额布局在旁",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S08.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 29.367,
+      "estimated_duration_seconds": 4.4,
+      "start_frame": 1295,
+      "end_frame": 1477,
+      "image_path": "episodes/EP002/frames/EP002-S08-release-take01.png",
+      "image_sha256": "bd414e37bda801dc21a793acf56f6baac2ac6592edab6c6e52d4cd15e5b48b34",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.066666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S09",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C09"
+      ],
+      "source_text": "差七十六万八。而且这张表，只算了我一个人。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "账本俯拍，仅一个姓名栏填入短笔画，两栏空白，陈屿笔尖停住",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S09.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 33.867,
+      "estimated_duration_seconds": 2.4,
+      "start_frame": 1477,
+      "end_frame": 1584,
+      "image_path": "episodes/EP002/frames/EP002-S09-release-take01.png",
+      "image_sha256": "5feef215b03fc4ff1deee10c67838db2f6a7d98e37e27351a848494d40d1c7c3",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.566666666666667,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S10",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C10"
+      ],
+      "source_text": "我看向书架上，父母的合照。那天晚上，要是我早一点接电话，就好了。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "近景陈屿看父母小相框，照片里一对成年夫妇，旁边旧手机屏幕熄灭",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S10.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 36.367,
+      "estimated_duration_seconds": 3.6,
+      "start_frame": 1584,
+      "end_frame": 1744,
+      "image_path": "episodes/EP002/frames/EP002-S10-release-take01.png",
+      "image_sha256": "b9c31338d507d9da4fc3bd0f851788cd2bc8f3a9c2d60a2d4e7fd3912401ad17",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.333333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S11",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C11"
+      ],
+      "source_text": "这一次，我不想再来不及。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿扶正父母相框，手停在相框底边，采购本摊在前方，表情克制",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S11.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 40.067,
+      "estimated_duration_seconds": 1.333,
+      "start_frame": 1744,
+      "end_frame": 1811,
+      "image_path": "episodes/EP002/frames/EP002-S11-release-take01.png",
+      "image_sha256": "8df9ca0b0af4e492573c9602eb7b7b25cca4ca84734d9b5ca882033e0c238911",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 2.2333333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S12",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C12"
+      ],
+      "source_text": "借款软件跳出一行字，可借额度，七十八万。我盯着那个数字，忽然笑了。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "借款额度手机过肩，陈屿看着屏幕略微笑，屏幕只保留抽象数值块",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S12.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 41.5,
+      "estimated_duration_seconds": 3.733,
+      "start_frame": 1811,
+      "end_frame": 1978,
+      "image_path": "episodes/EP002/frames/EP002-S12-release-take01.png",
+      "image_sha256": "bced52d0deab05509f20baf7b44cbf0a574ffc484a4a028ea078ab2992373f82",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.566666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S13",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C13"
+      ],
+      "source_text": "末世一来，钱就是废纸。到那天，欠钱的人，才是赢家。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "桌上纸币和贷款手机，陈屿手收起纸币，视线留在倒计时手机，物件清楚",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S13.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 45.333,
+      "estimated_duration_seconds": 2.667,
+      "start_frame": 1978,
+      "end_frame": 2117,
+      "image_path": "episodes/EP002/frames/EP002-S13-release-take01.png",
+      "image_sha256": "e5d8a28104261b2d7e8544b32e413964c9e72da382aead1b8a24634b10a8f853",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.633333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP002-S14",
+      "episode": "EP002",
+      "cue_ids": [
+        "EP002-C14"
+      ],
+      "source_text": "我按下申请。页面转着圈，停在审核中。从这一秒起，我没有退路了。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "指尖按申请按钮区域，屏幕一个简洁转圈图标，陈屿另一手压住采购本",
+      "prompt_path": "episodes/EP002/image-prompts/EP002-S14.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 48.1,
+      "estimated_duration_seconds": 3.467,
+      "start_frame": 2117,
+      "end_frame": 2278,
+      "image_path": "episodes/EP002/frames/EP002-S14-release-take01.png",
+      "image_sha256": "7ed7bd78c85af88303138b036314b78e0e53b1bdd950da89146e2225dd63dcfe",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.366666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    }
+  ],
+  "audio_status": "PASS_GENERATED_AND_DECODED",
+  "subtitle_files": false,
+  "human_listening": "NOT_RUN",
+  "timing_note": "135段原声逐段atempo=1.3，按PCM实测采样数向上取整到帧；外部空档仍为3帧且只计一次。原始1.0时间线与文件保留。",
+  "tempo_multiplier": 1.3,
+  "provider_speed": 1.0,
+  "variant": "speed1p3",
+  "source_timeline": "episodes/EP002/timeline.json",
+  "audio_master_path": "episodes/EP002/render/speed1p3/narration.wav"
+}

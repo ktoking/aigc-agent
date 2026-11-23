@@ -1,0 +1,703 @@
+[
+  {
+    "shot_id": "EP007-S01",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C01"
+    ],
+    "source_text": "那天我对她说，先守住这扇门，里面有我，也有你。当夜，夏凛不肯睡卧室。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "晚间陈屿在旧客厅门边回应夏凛，她正拿垫子走向沙发旁，尚无新卧室出现",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S01.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 0,
+    "estimated_duration_seconds": 3.733,
+    "start_frame": 0,
+    "end_frame": 234,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.8,
+    "transition_frames": 0,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP007-S02",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C02"
+    ],
+    "source_text": "她在沙发旁铺了一层垫子，手握短棍，眼睛盯着门。我给她煮了碗面，端过去，她说不饿。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "夏凛坐沙发旁垫子握短棍，陈屿递热面，双方保持自然距离",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S02.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 3.833,
+    "estimated_duration_seconds": 4.533,
+    "start_frame": 234,
+    "end_frame": 369,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.5,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S02B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C02"
+    ],
+    "source_text": "她在沙发旁铺了一层垫子，手握短棍，眼睛盯着门。我给她煮了碗面，端过去，她说不饿。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "一碗刚端来的面在夏凛面前，短棍握在她另一手，她先别开视线；面、碗、垫子数量明确",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S02B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 3.833,
+    "estimated_duration_seconds": 4.533,
+    "start_frame": 369,
+    "end_frame": 504,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.5,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S03",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C03"
+    ],
+    "source_text": "等我转身去整理货架，她已经把面吃完，连汤都没剩。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "XIA"
+    ],
+    "unique_event": "夏凛把面吃完放下空碗，筷子平放，陈屿画外货架整理声由旁白承担",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S03.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 8.467,
+    "estimated_duration_seconds": 2.8,
+    "start_frame": 504,
+    "end_frame": 657,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.1,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S04",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C04"
+    ],
+    "source_text": "后半夜，我出来收碗。她靠着墙坐着，头一点一点，短棍滑到了垫子上。我给她盖上毯子，没叫醒她。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "半夜夏凛靠墙睡着，短棍落垫子边，陈屿俯身给她盖毯子",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S04.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 11.367,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 657,
+    "end_frame": 804,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.9,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S04B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C04"
+    ],
+    "source_text": "后半夜，我出来收碗。她靠着墙坐着，头一点一点，短棍滑到了垫子上。我给她盖上毯子，没叫醒她。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "熟睡的夏凛靠着墙，短棍落在垫子边，陈屿把空碗轻轻收起，盖好的毯子不再重复盖一次",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S04B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 11.367,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 804,
+    "end_frame": 951,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.9,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S05",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C05"
+    ],
+    "source_text": "手机弹出一行提示，住客深度睡眠六小时，安心值，加二十。原来，安心值是这么算的。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿看手机睡眠奖励抽象提示，夏凛睡眠只在远背景虚焦，无新人物",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S05.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 16.533,
+    "estimated_duration_seconds": 4.4,
+    "start_frame": 951,
+    "end_frame": 1081,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.333333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S05B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C05"
+    ],
+    "source_text": "手机弹出一行提示，住客深度睡眠六小时，安心值，加二十。原来，安心值是这么算的。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿侧脸被手机奖励光照亮，身后夏凛仍睡，手机只在玻璃内显示无字图标，旁白说安心值",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S05B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 16.533,
+    "estimated_duration_seconds": 4.4,
+    "start_frame": 1081,
+    "end_frame": 1212,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.366666666666666,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S06",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C06"
+    ],
+    "source_text": "清晨，她猛地惊醒，抄起短棍，问我，我睡了多久？我说，六个小时。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "清晨夏凛惊醒握短棍坐起，陈屿站在桌旁回答，两人没有攻击行为",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S06.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 21.033,
+    "estimated_duration_seconds": 3.2,
+    "start_frame": 1212,
+    "end_frame": 1440,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.6,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP007-S07",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C07"
+    ],
+    "source_text": "她脸色很难看，说，退役以后，我从来没连着睡过三个小时。我把热豆浆推到她面前，她沉默地接了过去。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "陈屿把热豆浆推到夏凛面前，她双手接杯低头，毯子仍搭肩",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S07.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 24.333,
+    "estimated_duration_seconds": 5.467,
+    "start_frame": 1440,
+    "end_frame": 1587,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.9,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S07B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C07"
+    ],
+    "source_text": "她脸色很难看，说，退役以后，我从来没连着睡过三个小时。我把热豆浆推到她面前，她沉默地接了过去。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "夏凛双手捧住豆浆杯，低头看热气，目光由紧绷缓和，穿v3制服长裤，毯子搭在肩上",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S07B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 24.333,
+    "estimated_duration_seconds": 5.467,
+    "start_frame": 1587,
+    "end_frame": 1734,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.9,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S08",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C08"
+    ],
+    "source_text": "升级条件，五千物资点，二十安心值，刚好够。我按下了确认。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿按手机升级确认，建材包独立摆一侧，食品储备不消失",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S08.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 29.9,
+    "estimated_duration_seconds": 3.067,
+    "start_frame": 1734,
+    "end_frame": 1938,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 6.8,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP007-S09",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C09"
+    ],
+    "source_text": "脚下轻轻一震，白墙向外展开。厨房，浴室，四间卧室，木地板一块一块铺开。夏凛站在原地，短棍举起来，又放下。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "升级刚完成的空间大全景，厨房台面、浴室闭门、四扇卧室门和新木地板，夏凛短棍举起又停住",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S09.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 33.067,
+    "estimated_duration_seconds": 5.733,
+    "start_frame": 1938,
+    "end_frame": 2062,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.133333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S09B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C09"
+    ],
+    "source_text": "脚下轻轻一震，白墙向外展开。厨房，浴室，四间卧室，木地板一块一块铺开。夏凛站在原地，短棍举起来，又放下。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "升级后厨房与浴室闭门的细节，陈屿伸手摸新台面，四卧室走廊留在背景，不增窗户或豪宅",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S09B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 33.067,
+    "estimated_duration_seconds": 5.733,
+    "start_frame": 2062,
+    "end_frame": 2186,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.133333333333334,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S09C",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C09"
+    ],
+    "source_text": "脚下轻轻一震，白墙向外展开。厨房，浴室，四间卧室，木地板一块一块铺开。夏凛站在原地，短棍举起来，又放下。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "夏凛在新木地板上把短棍缓缓放低，转头看新走廊，状态是升级完成后的惊讶",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S09C.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 33.067,
+    "estimated_duration_seconds": 5.733,
+    "start_frame": 2186,
+    "end_frame": 2310,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.133333333333334,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S10",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C10"
+    ],
+    "source_text": "我拧开浴室的龙头，热水冒着白气。末世前八十天，我洗上了第一个热水澡，忍不住唱了两句，破音。\n",
+    "scene_id": "BATH2",
+    "character_ids": [],
+    "unique_event": "浴室龙头往浴缸放热水，少量蒸气局限缸口，环境其余干燥，无裸体无人",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S10.txt",
+    "reference_paths": [],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 38.9,
+    "estimated_duration_seconds": 5.2,
+    "start_frame": 2310,
+    "end_frame": 2446,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.533333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S10B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C10"
+    ],
+    "source_text": "我拧开浴室的龙头，热水冒着白气。末世前八十天，我洗上了第一个热水澡，忍不住唱了两句，破音。\n",
+    "scene_id": "BATH2",
+    "character_ids": [],
+    "unique_event": "浴室门外只有陈屿换洗的灰T恤和干净毛巾放置整齐，门内水声由配音承担，无裸体无人",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S10B.txt",
+    "reference_paths": [],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 38.9,
+    "estimated_duration_seconds": 5.2,
+    "start_frame": 2446,
+    "end_frame": 2583,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.566666666666666,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S11",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C11"
+    ],
+    "source_text": "门外，夏凛抱着手臂。我听见她，很轻地笑了一声，又立刻压了下去。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "XIA"
+    ],
+    "unique_event": "夏凛抱臂站在浴室闭门外，嘴角一瞬轻笑，声音来自门内的陈屿画外",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S11.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 44.2,
+    "estimated_duration_seconds": 3.467,
+    "start_frame": 2583,
+    "end_frame": 2796,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.1,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP007-S12",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C12"
+    ],
+    "source_text": "出来以后，手机提示，下一级，需要安心值五百。屋里现在，只有一位住客。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿穿完整干净灰T恤长裤拿毛巾，看手机下一等级抽象条件，头发微整齐不湿透",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S12.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 47.767,
+    "estimated_duration_seconds": 3.733,
+    "start_frame": 2796,
+    "end_frame": 3024,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.6,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP007-S13",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C13"
+    ],
+    "source_text": "我擦着头发说，我得找更多人。夏凛问，找谁？我说，能让这间屋，住满的人。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "unique_event": "陈屿用毛巾擦头发，夏凛在厨房边问话，两人自然日常站位",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S13.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 51.6,
+    "estimated_duration_seconds": 3.733,
+    "start_frame": 3024,
+    "end_frame": 3255,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.7,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP007-S14",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C14"
+    ],
+    "source_text": "我低头，看着角落里那个空医疗箱。水，粮，灯，都有了，唯独缺一个，会用它的人。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿俯看空医疗箱，内衬格子可见，旁边水粮灯整齐摆好",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S14.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 55.433,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 3255,
+    "end_frame": 3391,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.533333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP007-S14B",
+    "episode": "EP007",
+    "cue_ids": [
+      "EP007-C14"
+    ],
+    "source_text": "我低头，看着角落里那个空医疗箱。水，粮，灯，都有了，唯独缺一个，会用它的人。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "空医疗箱的格子近景，陈屿指尖停在空位上，水粮与灯在后方虚焦，医疗能力缺口成为新信息",
+    "prompt_path": "episodes/EP007/image-prompts/EP007-S14B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 55.433,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 3391,
+    "end_frame": 3528,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.566666666666666,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  }
+]

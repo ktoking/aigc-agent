@@ -1,0 +1,723 @@
+[
+  {
+    "shot_id": "EP004-S01",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C01"
+    ],
+    "source_text": "天亮前，路边那两辆货车，开进了物流园的B七库位。我租下它，当中转仓。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "天亮前两辆厢式车在B7中转库开门卸货，陈屿拿租约站库外，车辆恰好两辆",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S01.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 0,
+    "estimated_duration_seconds": 3.867,
+    "start_frame": 0,
+    "end_frame": 219,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.3,
+    "transition_frames": 0,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP004-S02",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C02"
+    ],
+    "source_text": "清晨五点，粮油批发市场。老李拍着米袋说，新米，一吨四千二。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN",
+      "LI"
+    ],
+    "unique_event": "清晨粮油摊老李拍一袋米报价，陈屿蹲身查看，米袋按批次分垛",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S02.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 3.967,
+    "estimated_duration_seconds": 3.2,
+    "start_frame": 219,
+    "end_frame": 435,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.2,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP004-S03",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C03"
+    ],
+    "source_text": "我抓起一把米，在掌心捻开，闻了闻。这是去年九月的米，仓里返过潮。我只要近三个月的，三千二。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "手部近景陈屿抓一小把米在掌心捻开闻看，旁是米袋口和批次标签形状",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S03.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 7.267,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 435,
+    "end_frame": 589,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.133333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S03B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C03"
+    ],
+    "source_text": "我抓起一把米，在掌心捻开，闻了闻。这是去年九月的米，仓里返过潮。我只要近三个月的，三千二。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿低头闻掌中大米，米袋批次标签露出旧折痕，老李在背景看他；不把环境画潮湿，只突出验货",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S03B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 7.267,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 589,
+    "end_frame": 744,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 5.166666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S04",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C04"
+    ],
+    "source_text": "老李愣住，问我，你是同行？我说，做过仓储。三千二，你不亏。他吐出一口烟，成交。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN",
+      "LI"
+    ],
+    "unique_event": "老李拿烟在一侧停住与陈屿握手成交，米袋和单据在中间，烟不形成雨雾",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S04.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 12.433,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 744,
+    "end_frame": 886,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.733333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S04B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C04"
+    ],
+    "source_text": "老李愣住，问我，你是同行？我说，做过仓储。三千二，你不亏。他吐出一口烟，成交。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN",
+      "LI"
+    ],
+    "unique_event": "米摊木桌上，两人把订单与定金交接，老李的烟留在烟缸边，成交是新增状态",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S04B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 12.433,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 886,
+    "end_frame": 1029,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.766666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S05",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C05"
+    ],
+    "source_text": "接下来一周，我的小本子，一页页划勾。大米二十吨，面粉十吨，盐、油、罐头、饮用水，柴油和气罐，发电机，种子，羽绒服，还有二十台探照灯。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "俯拍采购本不断划勾，旁边代表性少量米面水盐油罐头种子和羽绒服，燃料不在食物堆里",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S05.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 16.533,
+    "estimated_duration_seconds": 6.933,
+    "start_frame": 1029,
+    "end_frame": 1191,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.4,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S05B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C05"
+    ],
+    "source_text": "接下来一周，我的小本子，一页页划勾。大米二十吨，面粉十吨，盐、油、罐头、饮用水，柴油和气罐，发电机，种子，羽绒服，还有二十台探照灯。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "B7库中整齐到货的米面罐头与饮水分区，陈屿逐项在采购本划勾，干燥有序的库存回报",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S05B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 16.533,
+    "estimated_duration_seconds": 6.933,
+    "start_frame": 1191,
+    "end_frame": 1353,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 5.4,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S05C",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C05"
+    ],
+    "source_text": "接下来一周，我的小本子，一页页划勾。大米二十吨，面粉十吨，盐、油、罐头、饮用水，柴油和气罐，发电机，种子，羽绒服，还有二十台探照灯。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "单独设备区里发电机、种子盒、羽绒服和一排探照灯，陈屿验一台灯；燃油桶不和食品挤在同堆",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S05C.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 16.533,
+    "estimated_duration_seconds": 6.933,
+    "start_frame": 1353,
+    "end_frame": 1515,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 5.4,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S06",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C06"
+    ],
+    "source_text": "老李问，买探照灯干什么。我说，防小偷。其实我本子上写着，怕光，怕火，耳朵灵。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN",
+      "LI"
+    ],
+    "unique_event": "老李指一台大功率探照灯，陈屿手掌压着记录本，桌上配套备用电源",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S06.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 23.567,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 1515,
+    "end_frame": 1663,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.933333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S06B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C06"
+    ],
+    "source_text": "老李问，买探照灯干什么。我说，防小偷。其实我本子上写着，怕光，怕火，耳朵灵。\n",
+    "scene_id": "MARKET",
+    "character_ids": [
+      "CHEN",
+      "LI"
+    ],
+    "unique_event": "采购本和探照灯开关手部近景，陈屿指向本子三行笔迹后合上，灯、电源接口清楚",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S06B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 23.567,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 1663,
+    "end_frame": 1812,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.966666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S07",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C07"
+    ],
+    "source_text": "货车到了，我蹲在车上，教工人交错码垛，垫板，放脱氧剂。码得好，十年不坏。工人说，陈老板，你比我们老板还专业。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿蹲在货车后厢教一位成年工人交错码袋，垫板与脱氧剂可见，两人",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S07.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 27.667,
+    "estimated_duration_seconds": 5.867,
+    "start_frame": 1812,
+    "end_frame": 1943,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.366666666666666,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S07B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C07"
+    ],
+    "source_text": "货车到了，我蹲在车上，教工人交错码垛，垫板，放脱氧剂。码得好，十年不坏。工人说，陈老板，你比我们老板还专业。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "货车上先铺垫板，陈屿与一位成年工人把米袋第一层摆成交错方向，手和受力位置自然",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S07B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 27.667,
+    "estimated_duration_seconds": 5.867,
+    "start_frame": 1943,
+    "end_frame": 2074,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.366666666666666,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S07C",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C07"
+    ],
+    "source_text": "货车到了，我蹲在车上，教工人交错码垛，垫板，放脱氧剂。码得好，十年不坏。工人说，陈老板，你比我们老板还专业。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "码好的米袋通道结果全景，工人扶最后一袋，陈屿拍平袋口，脱氧剂在分层处少量可见，避免重复蹲车构图",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S07C.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 27.667,
+    "estimated_duration_seconds": 5.867,
+    "start_frame": 2074,
+    "end_frame": 2205,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.366666666666666,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S08",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C08"
+    ],
+    "source_text": "燃料我全放在物流园，一滴都没往小区运。\n",
+    "scene_id": "FUEL",
+    "character_ids": [],
+    "unique_event": "物流园独立燃料储位，封口柴油桶与气罐有序分区，住宅绝不出现",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S08.txt",
+    "reference_paths": [],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 33.633,
+    "estimated_duration_seconds": 2.267,
+    "start_frame": 2205,
+    "end_frame": 2334,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.3,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S09",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C09"
+    ],
+    "source_text": "可王大富，已经把我的聊天记录截了图，发进业主群。本栋有人精神异常，大量囤积危险品。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿在手机看王大富发来的聊天截图样式，无可读文字，脸色平静",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S09.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 36.0,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 2334,
+    "end_frame": 2469,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.5,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S09B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C09"
+    ],
+    "source_text": "可王大富，已经把我的聊天记录截了图，发进业主群。本栋有人精神异常，大量囤积危险品。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "WANG"
+    ],
+    "unique_event": "王大富在自家客厅用手机发送截屏，屏幕对着他，脸带自以为是的笑，背景与陈屿家不同",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S09B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/WANG-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 36.0,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 2469,
+    "end_frame": 2604,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.5,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S10",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C10"
+    ],
+    "source_text": "群里一片哈哈哈。楼下的孩子追着我喊，末日叔叔。我提着一袋面粉，目不斜视。\n",
+    "scene_id": "GATE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿提一袋面粉经过楼门，远处两名穿正常衣服的儿童追着喊但不接近危险，主体仍陈屿",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S10.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 40.9,
+    "estimated_duration_seconds": 4.133,
+    "start_frame": 2604,
+    "end_frame": 2841,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.9,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP004-S11",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C11"
+    ],
+    "source_text": "我在群里回了一个字，嗯。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "手机近景陈屿仅发送单个简短气泡，不要求生成汉字，手和键盘自然",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S11.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 45.133,
+    "estimated_duration_seconds": 1.333,
+    "start_frame": 2841,
+    "end_frame": 2931,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 3.0,
+    "transition_frames": 3,
+    "duration_exception_reason": "短揭示/短回应，保持当前事件边界和下一场切换；连续声音完整"
+  },
+  {
+    "shot_id": "EP004-S12",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C12"
+    ],
+    "source_text": "单元门上，物业新贴了通知，禁止堆放易燃物。我看了一眼，转身去了物流园。\n",
+    "scene_id": "GATE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "单元门新贴物业通知版面无可读字，陈屿看一眼准备离开，面粉袋已收好",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S12.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 46.567,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 2931,
+    "end_frame": 3153,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.4,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP004-S13",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C13"
+    ],
+    "source_text": "那晚，园区经理来电，说有批货的报备资料不全，今晚必须补。我带着合同赶到B七库，库门刚拉开，一道手电光，直直照在我脸上。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "夜间B7库门半拉开，陈屿拿合同刚进入，一束手电照到他脸侧，持灯者在画外",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S13.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 50.667,
+    "estimated_duration_seconds": 6.8,
+    "start_frame": 3423,
+    "end_frame": 3558,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.5,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S13B",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C13"
+    ],
+    "source_text": "那晚，园区经理来电，说有批货的报备资料不全，今晚必须补。我带着合同赶到B七库，库门刚拉开，一道手电光，直直照在我脸上。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "夜间陈屿在旧客厅接园区经理电话，另一手拿起合同文件袋，新增事件是接报备电话；不得把场景仍画为库内",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S13B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 50.667,
+    "estimated_duration_seconds": 6.8,
+    "start_frame": 3153,
+    "end_frame": 3288,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.5,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP004-S13C",
+    "episode": "EP004",
+    "cue_ids": [
+      "EP004-C13"
+    ],
+    "source_text": "那晚，园区经理来电，说有批货的报备资料不全，今晚必须补。我带着合同赶到B七库，库门刚拉开，一道手电光，直直照在我脸上。\n",
+    "scene_id": "WAREHOUSE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿走到B7库外抬起卷帘门，合同夹在腋下，手电还在门内远处，按到库、开门、手电的顺序表现",
+    "prompt_path": "episodes/EP004/image-prompts/EP004-S13C.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 50.667,
+    "estimated_duration_seconds": 6.8,
+    "start_frame": 3288,
+    "end_frame": 3423,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.5,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  }
+]

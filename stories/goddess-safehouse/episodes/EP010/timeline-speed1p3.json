@@ -1,0 +1,897 @@
+{
+  "episode": "EP010",
+  "version": "user-script-v2",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 2910,
+  "duration_seconds": 97.0,
+  "cues": [
+    {
+      "cue_id": "EP010-C01",
+      "text": "最后一秒归零。整排楼的灯，一盏接一盏熄灭。一轮红月，从楼缝里升起来，楼下响起桌椅翻倒的声音。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C01.wav",
+      "audio_sha256": "b8f96c05d8b8fd51141226991b67f1055a4150a927f454f4d3b76a9fa006aef1",
+      "actual_duration_seconds": 7.530666666666667,
+      "start_frame": 0,
+      "end_frame": 226,
+      "external_gap_before_frames": 0,
+      "source_audio_path": "episodes/EP010/audio/EP010-C01.mp3",
+      "source_audio_sha256": "7af5d3211d66f7fa9a3707c76fdd778d33cf4b1d1bf26e0af80adb624ee3b595",
+      "source_duration_seconds": 9.8,
+      "sample_count": 361472
+    },
+    {
+      "cue_id": "EP010-C02",
+      "text": "夏凛拉了拉门链，回头看我。我在厨房，把卡式炉的火调到最旺，红油翻滚。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C02.wav",
+      "audio_sha256": "0ebc602e91613732878ceaa71295a3a792d2225ab3d156e2c0941f64ada959b7",
+      "actual_duration_seconds": 6.0455,
+      "start_frame": 229,
+      "end_frame": 411,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C02.mp3",
+      "source_audio_sha256": "f585e4043ca87be191953b795ebeb94fbf9333e7995d16f39ce23b39c991adc2",
+      "source_duration_seconds": 7.9,
+      "sample_count": 290184
+    },
+    {
+      "cue_id": "EP010-C03",
+      "text": "她说，外面天都塌了，你在煮火锅？我说，天塌了，才要吃好点。毛肚，牛肉，蔬菜，我都摆好了。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C03.wav",
+      "audio_sha256": "0ef56f09209827e675f370acbe47964fe358e666b589c7391d7e8567f5690ef6",
+      "actual_duration_seconds": 7.8855208333333335,
+      "start_frame": 414,
+      "end_frame": 651,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C03.mp3",
+      "source_audio_sha256": "ab955522b3f1910e124480b7a943a02a52a5e46022135cf634e59ab17cf34da4",
+      "source_duration_seconds": 10.274844,
+      "sample_count": 378505
+    },
+    {
+      "cue_id": "EP010-C04",
+      "text": "就在这时，王大富扑到门上。他满手是血，拍着门喊，陈屿，开门，十根金条，全给你。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C04.wav",
+      "audio_sha256": "d47d5ea647d4213200ba11738ef045a181c1d26d396172f68f2f8541d49ca665",
+      "actual_duration_seconds": 7.005770833333333,
+      "start_frame": 654,
+      "end_frame": 865,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C04.mp3",
+      "source_audio_sha256": "35d317974e3679a28aa809cacdee793900e5dc6e9ce7c3f4aa57e3eaf76d5271",
+      "source_duration_seconds": 9.1,
+      "sample_count": 336277
+    },
+    {
+      "cue_id": "EP010-C05",
+      "text": "我夹起毛肚，在红汤里涮了七下。隔着门，我说，当初在群里说我借钱囤货是傻子的时候，你可没这么客气。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C05.wav",
+      "audio_sha256": "c789f5bd6e88ced4fa42bc30e6b143cfeabbb3c3bdf7788cb3f88e2b591b7df9",
+      "actual_duration_seconds": 8.3916875,
+      "start_frame": 868,
+      "end_frame": 1120,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C05.mp3",
+      "source_audio_sha256": "d054e0af5a0758610bba54cc075d677e7c20111228de71f8cb612a7a6534ff40",
+      "source_duration_seconds": 10.9,
+      "sample_count": 402801
+    },
+    {
+      "cue_id": "EP010-C06",
+      "text": "楼梯转角，一道青灰色的人影扑了出来。王大富一声惨叫。夏凛说，他会死。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C06.wav",
+      "audio_sha256": "cebd847ef003c307ef1de791f36f93a72493838c1146377686eed89e3d3a6249",
+      "actual_duration_seconds": 5.6951875,
+      "start_frame": 1123,
+      "end_frame": 1294,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C06.mp3",
+      "source_audio_sha256": "193154d0bed0776898d59e365353eb0ecbdee52d8623f3a605dc805c3b2d8649",
+      "source_duration_seconds": 7.4,
+      "sample_count": 273369
+    },
+    {
+      "cue_id": "EP010-C07",
+      "text": "我放下筷子。我不救人，我只保证，门前干净。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C07.wav",
+      "audio_sha256": "4ff0294b14305ec9018519b9e6b40e71af8126a2b19f78491f0ed76dfd01f019",
+      "actual_duration_seconds": 3.5970625,
+      "start_frame": 1297,
+      "end_frame": 1405,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C07.mp3",
+      "source_audio_sha256": "bc18735e7a8eac52204a9fd78f69798ce59c4ddb998b230c8c92c40d6cc4e869",
+      "source_duration_seconds": 4.7,
+      "sample_count": 172659
+    },
+    {
+      "cue_id": "EP010-C08",
+      "text": "我拿起院灯的控制器，按了下去。两束白光，同时照向转角。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C08.wav",
+      "audio_sha256": "e7875a03c45229150d75a64418808f4e28d4583c18570026da2de5481b107a5b",
+      "actual_duration_seconds": 4.388458333333333,
+      "start_frame": 1408,
+      "end_frame": 1540,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C08.mp3",
+      "source_audio_sha256": "9c90ce4d8b376c77616fbaacc43427db548a56e0a0123281b5212162fb98e8fc",
+      "source_duration_seconds": 5.7,
+      "sample_count": 210646
+    },
+    {
+      "cue_id": "EP010-C09",
+      "text": "那道人影捂着眼睛，往后缩了半步，发出一声尖啸。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C09.wav",
+      "audio_sha256": "912d2d96db3534345a320fb505fee47af2e1f609b36933a82d217bff8a555ff5",
+      "actual_duration_seconds": 4.008916666666667,
+      "start_frame": 1543,
+      "end_frame": 1664,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C09.mp3",
+      "source_audio_sha256": "9a17d0eb1943703fda234d1d5269f9706367c8656a054e22626646568d78684a",
+      "source_duration_seconds": 5.2,
+      "sample_count": 192428
+    },
+    {
+      "cue_id": "EP010-C10",
+      "text": "王大富连滚带爬冲回对门，砰地关上。他的惨叫，戛然而止。夏凛看着我说，你早就准备好了灯。我说，怕光，怕火，耳朵灵，我写过。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C10.wav",
+      "audio_sha256": "a15e86ca45d3ce28e6cca77887b98cc175e04e6bdf21064948ddd2a98da5ba2a",
+      "actual_duration_seconds": 10.465041666666666,
+      "start_frame": 1667,
+      "end_frame": 1981,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C10.mp3",
+      "source_audio_sha256": "22cb7010020694a4035d5d6ae4e3b76c97473e5e3cf0b0026e4d1bc7070c3b2d",
+      "source_duration_seconds": 13.6,
+      "sample_count": 502322
+    },
+    {
+      "cue_id": "EP010-C11",
+      "text": "可我还没来得及松一口气，楼梯另一头，传来一个女人的声音。陈屿！陈屿，你在吗？我来了！\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C11.wav",
+      "audio_sha256": "428864ea34974360021792fcbcf0ce694118fe36453880b467dafe725cec7253",
+      "actual_duration_seconds": 7.346208333333333,
+      "start_frame": 1984,
+      "end_frame": 2205,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C11.mp3",
+      "source_audio_sha256": "755a64efd09b6004c3054b8ef1e402a0c19a98958841e8ff1bac2f9ebba16705",
+      "source_duration_seconds": 9.589844,
+      "sample_count": 352618
+    },
+    {
+      "cue_id": "EP010-C12",
+      "text": "是许知意。她白大褂撕裂，浑身是血，手里攥着那张纸卡。她身后，三道人影，正追上来。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C12.wav",
+      "audio_sha256": "4dafdd7c892ae4c0c105522700ada91ab0d7207b969d0968127453cc3c27d716",
+      "actual_duration_seconds": 6.668020833333333,
+      "start_frame": 2208,
+      "end_frame": 2409,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C12.mp3",
+      "source_audio_sha256": "03e8afe9656d0abfc3f7386f58dba0d9d6d8b122782497b8d759d11e961678a7",
+      "source_duration_seconds": 8.695875,
+      "sample_count": 320065
+    },
+    {
+      "cue_id": "EP010-C13",
+      "text": "我对她喊，往亮的地方走，别离开这束光。\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C13.wav",
+      "audio_sha256": "ac71ff9c90d240e2487db3e7df8b694a98a8ceec1d7c2471e4a3e458267a2540",
+      "actual_duration_seconds": 3.1115833333333334,
+      "start_frame": 2412,
+      "end_frame": 2506,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C13.mp3",
+      "source_audio_sha256": "100a5efa9eae87468cdb4d4a0d482b5cd92dbb591b4c4041651f644289242770",
+      "source_duration_seconds": 4.086719,
+      "sample_count": 149356
+    },
+    {
+      "cue_id": "EP010-C14",
+      "text": "手机亮起一行红字，检测到屋外幸存者，请求入住。开启入口，将暴露安全屋位置，是否确认？\n",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C14.wav",
+      "audio_sha256": "0b815626ad5764372e8ea1ae941dfd42396b6bbaff5c53c8dde7af1e3486bcd9",
+      "actual_duration_seconds": 6.798,
+      "start_frame": 2509,
+      "end_frame": 2713,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C14.mp3",
+      "source_audio_sha256": "36aff8ea0e088e2f11e6305a78fc287ae04274690fa26a3f4729bc136e1fa8bc",
+      "source_duration_seconds": 8.870031,
+      "sample_count": 326304
+    },
+    {
+      "cue_id": "EP010-C15",
+      "text": "夏凛站到我身后，短棍举起。我的手，按在门锁上。门外，她的呼吸，已经贴到了门板上。",
+      "audio_path": "episodes/EP010/audio/speed1p3/EP010-C15.wav",
+      "audio_sha256": "d43109797450fad6689640f05e3e5d2f6a1ca1bde8f5f6dd11af4a5134ed738e",
+      "actual_duration_seconds": 6.460020833333333,
+      "start_frame": 2716,
+      "end_frame": 2910,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP010/audio/EP010-C15.mp3",
+      "source_audio_sha256": "52c49f523c839039ac8173d1bdf8a144af4cffc1bf855936c452e3e79a74105c",
+      "source_duration_seconds": 8.4,
+      "sample_count": 310081
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP010-S01",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C01"
+      ],
+      "source_text": "最后一秒归零。整排楼的灯，一盏接一盏熄灭。一轮红月，从楼缝里升起来，楼下响起桌椅翻倒的声音。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [],
+      "unique_event": "从旧客厅窗看整排住宅熄灯与红月在楼缝出现，前景桌椅影子，所有地面干燥",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S01.txt",
+      "reference_paths": [],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 5.333,
+      "start_frame": 0,
+      "end_frame": 113,
+      "image_path": "episodes/EP010/frames/EP010-S01-release-take01.png",
+      "image_sha256": "60968190fd28c8fb8f17bb7d876cc84f0806d40ef9f5a2a5cc490caa1c7f03c7",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.7666666666666666,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S01B",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C01"
+      ],
+      "source_text": "最后一秒归零。整排楼的灯，一盏接一盏熄灭。一轮红月，从楼缝里升起来，楼下响起桌椅翻倒的声音。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [],
+      "unique_event": "红月照着断电后的住宅楼群，远处楼下桌椅翻倒但无人受伤特写，窗框是陈屿所见视角",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S01B.txt",
+      "reference_paths": [],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 5.333,
+      "start_frame": 113,
+      "end_frame": 226,
+      "image_path": "episodes/EP010/frames/EP010-S01B-release-take01.png",
+      "image_sha256": "29eee55c4e579a06814ad248d84837dbc542bafdc29a9f4b234911c355cf3ac2",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 3.7666666666666666,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP010-S02",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C02"
+      ],
+      "source_text": "夏凛拉了拉门链，回头看我。我在厨房，把卡式炉的火调到最旺，红油翻滚。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "近景夏凛拉外门门链确认，转头望向通往厨房的白色卧室门框",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 5.433,
+      "estimated_duration_seconds": 3.867,
+      "start_frame": 226,
+      "end_frame": 411,
+      "image_path": "episodes/EP010/frames/EP010-S02-release-take01.png",
+      "image_sha256": "4a39f10bd9a407ce54754b8862191dbcd78add865ac30a76b856ef17e798810c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.166666666666667,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S03",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C03"
+      ],
+      "source_text": "她说，外面天都塌了，你在煮火锅？我说，天塌了，才要吃好点。毛肚，牛肉，蔬菜，我都摆好了。\n",
+      "scene_id": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "陈屿在厨房将卡式炉火调旺，红汤火锅与毛肚牛肉蔬菜齐备，夏凛站门框问话",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S03.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 9.4,
+      "estimated_duration_seconds": 4.533,
+      "start_frame": 411,
+      "end_frame": 531,
+      "image_path": "episodes/EP010/frames/EP010-S03-release-take01.png",
+      "image_sha256": "9433abe0440f57f4b1a4539b90bc5158374bd6f7c3be719af6e38ad15335815e",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.0,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S03B",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C03"
+      ],
+      "source_text": "她说，外面天都塌了，你在煮火锅？我说，天塌了，才要吃好点。毛肚，牛肉，蔬菜，我都摆好了。\n",
+      "scene_id": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "火锅桌上三盘毛肚牛肉蔬菜的热食近景，夏凛在旁看陈屿，衣服延续v3，没有重新换黑丝袜",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S03B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 9.4,
+      "estimated_duration_seconds": 4.533,
+      "start_frame": 531,
+      "end_frame": 651,
+      "image_path": "episodes/EP010/frames/EP010-S03B-release-take01.png",
+      "image_sha256": "cea8b31c5da86c015e5953b24c89340e536572820f51cff3e7d6e7a5ea1935fb",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.0,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP010-S04",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C04"
+      ],
+      "source_text": "就在这时，王大富扑到门上。他满手是血，拍着门喊，陈屿，开门，十根金条，全给你。\n",
+      "scene_id": "CORRIDOR",
+      "character_ids": [
+        "WANG"
+      ],
+      "unique_event": "王大富满手有限干燥血迹攥金条袋拍101门，无开放伤口不溅血，冷红月光",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S04.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/WANG-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 14.033,
+      "estimated_duration_seconds": 4.133,
+      "start_frame": 651,
+      "end_frame": 865,
+      "image_path": "episodes/EP010/frames/EP010-S04-release-take01.png",
+      "image_sha256": "18bd58ed64adb60b981c10fcd3f69236f45a18f57c0e2f2ca022a6e4fe8fb705",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 7.133333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S05",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C05"
+      ],
+      "source_text": "我夹起毛肚，在红汤里涮了七下。隔着门，我说，当初在群里说我借钱囤货是傻子的时候，你可没这么客气。\n",
+      "scene_id": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "中近景陈屿夹毛肚在红汤上方，与EP001相同服装餐具但新机位和新生成图，神情冷静",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S05-edit02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 18.267,
+      "estimated_duration_seconds": 5.6,
+      "start_frame": 865,
+      "end_frame": 992,
+      "image_path": "episodes/EP010/frames/EP010-S05-release-take02.png",
+      "image_sha256": "7f2748899c42f3519482b77ce0f833d78b5bb9c1e108a0c4ef101e766b28865d",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.233333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "prior_image_path": "episodes/EP010/frames/EP010-S05-release-take01.png",
+      "next_take": 2
+    },
+    {
+      "shot_id": "EP010-S05B",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C05"
+      ],
+      "source_text": "我夹起毛肚，在红汤里涮了七下。隔着门，我说，当初在群里说我借钱囤货是傻子的时候，你可没这么客气。\n",
+      "scene_id": "HOME2",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿把毛肚夹到碗边，抬眼隔门回应，与第1集的构图和动作阶段不同，保持同一餐具服装",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S05B-edit02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 18.267,
+      "estimated_duration_seconds": 5.6,
+      "start_frame": 992,
+      "end_frame": 1120,
+      "image_path": "episodes/EP010/frames/EP010-S05B-release-take02.png",
+      "image_sha256": "b6e60515b2894f117e5562832f9d7680bc064017439f952c156cac7d8879ff0e",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": 2,
+      "prior_image_path": "episodes/EP010/frames/EP010-S05B-release-take01.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.266666666666667,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP010-S06",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C06"
+      ],
+      "source_text": "楼梯转角，一道青灰色的人影扑了出来。王大富一声惨叫。夏凛说，他会死。\n",
+      "scene_id": "CORRIDOR",
+      "character_ids": [
+        "WANG"
+      ],
+      "unique_event": "王大富背抵门惊惧，远处转角一个青灰成人形轮廓出现，不表现咬伤或撕裂",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S06.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/WANG-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 23.967,
+      "estimated_duration_seconds": 3.867,
+      "start_frame": 1120,
+      "end_frame": 1294,
+      "image_path": "episodes/EP010/frames/EP010-S06-release-take01.png",
+      "image_sha256": "27e42f8c493e192b7bae30ed7af2e9a302d0a27563c3f213b513960792e17dc5",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.8,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S07",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C07"
+      ],
+      "source_text": "我放下筷子。我不救人，我只保证，门前干净。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿从餐桌走来放下筷子到小碟，手伸向控制器，门仍锁着",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S07.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 27.933,
+      "estimated_duration_seconds": 2.267,
+      "start_frame": 1294,
+      "end_frame": 1405,
+      "image_path": "episodes/EP010/frames/EP010-S07-release-take01.png",
+      "image_sha256": "b77288f6056193a582aec4506f7a00543532abe70cefd12ce132735df7a8fb6e",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.7,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S08",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C08"
+      ],
+      "source_text": "我拿起院灯的控制器，按了下去。两束白光，同时照向转角。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿按控制器开关，备用电源在桌边，另一手离开门锁，无猫眼光束",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S08.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 30.3,
+      "estimated_duration_seconds": 3.067,
+      "start_frame": 1405,
+      "end_frame": 1540,
+      "image_path": "episodes/EP010/frames/EP010-S08-release-take01.png",
+      "image_sha256": "753cc6d60f204e22275b48a773aad703b9f0e4db2fbc5c18332eb06d9fcff1b2",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.5,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S09",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C09"
+      ],
+      "source_text": "那道人影捂着眼睛，往后缩了半步，发出一声尖啸。\n",
+      "scene_id": "CORRIDOR",
+      "character_ids": [],
+      "unique_event": "外置灯白光照住转角，一个青灰成人形轮廓抬手遮眼后退，无面部裂伤特写",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S09.txt",
+      "reference_paths": [],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 33.467,
+      "estimated_duration_seconds": 2.667,
+      "start_frame": 1540,
+      "end_frame": 1664,
+      "image_path": "episodes/EP010/frames/EP010-S09-release-take01.png",
+      "image_sha256": "8147722423f6e7fc4c555933d4776395a47387f3877562f74d161937610ade86",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.133333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S10",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C10"
+      ],
+      "source_text": "王大富连滚带爬冲回对门，砰地关上。他的惨叫，戛然而止。夏凛看着我说，你早就准备好了灯。我说，怕光，怕火，耳朵灵，我写过。\n",
+      "scene_id": "CORRIDOR",
+      "character_ids": [
+        "WANG"
+      ],
+      "unique_event": "王大富趁白光逃回对门，门扇正要闭合，金条小袋仍在手中，无死亡场面",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S10.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/WANG-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 36.233,
+      "estimated_duration_seconds": 6.533,
+      "start_frame": 1664,
+      "end_frame": 1822,
+      "image_path": "episodes/EP010/frames/EP010-S10-release-take01.png",
+      "image_sha256": "59e1ee5e79de45db5df16ca08b85a6671d04fd55c5e5f0f9b67d11ddc6573dc6",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.266666666666667,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S10B",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C10"
+      ],
+      "source_text": "王大富连滚带爬冲回对门，砰地关上。他的惨叫，戛然而止。夏凛看着我说，你早就准备好了灯。我说，怕光，怕火，耳朵灵，我写过。\n",
+      "scene_id": "CORRIDOR",
+      "character_ids": [],
+      "unique_event": "王大富家的门已经关上，白光照着空出的门前，屋内陈屿和夏凛听见他还在喘，结果是逃生成功，不画死亡",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S10B.txt",
+      "reference_paths": [],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 36.233,
+      "estimated_duration_seconds": 6.533,
+      "start_frame": 1822,
+      "end_frame": 1981,
+      "image_path": "episodes/EP010/frames/EP010-S10B-release-take01.png",
+      "image_sha256": "c5db71093e424e60ceda4ffb1d0b6446d4e7d9c8e2ccaa21da54528ab65dbd6b",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 5.3,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP010-S11",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C11"
+      ],
+      "source_text": "可我还没来得及松一口气，楼梯另一头，传来一个女人的声音。陈屿！陈屿，你在吗？我来了！\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿靠观察口听到女人呼喊，面部从冷静转紧张，院灯控制器仍在手边",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S11.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 42.867,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 1981,
+      "end_frame": 2205,
+      "image_path": "episodes/EP010/frames/EP010-S11-release-take01.png",
+      "image_sha256": "6fbd17b51d1ae00dd81e81de65eb85ca69ecd75bdd5ace4dad765eee54ed7697",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 7.466666666666667,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S12",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C12"
+      ],
+      "source_text": "是许知意。她白大褂撕裂，浑身是血，手里攥着那张纸卡。她身后，三道人影，正追上来。\n",
+      "scene_id": "CORRIDOR",
+      "character_ids": [
+        "XU"
+      ],
+      "unique_event": "许知意白大褂破裂且有干燥深红血迹，扶墙攥地址纸卡，身后三道人影只在远端转角，无血腥伤口",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S12.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 47.633,
+      "estimated_duration_seconds": 4.4,
+      "start_frame": 2205,
+      "end_frame": 2409,
+      "image_path": "episodes/EP010/frames/EP010-S12-release-take01.png",
+      "image_sha256": "72594ffce9789b916cc31ac25074c8950124701bb3d0347ac24c898630400117",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.8,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S13",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C13"
+      ],
+      "source_text": "我对她喊，往亮的地方走，别离开这束光。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿隔观察口朝门外说话，面向灯照亮的区域，手掌贴外门内侧",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S13.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 52.133,
+      "estimated_duration_seconds": 2.133,
+      "start_frame": 2409,
+      "end_frame": 2506,
+      "image_path": "episodes/EP010/frames/EP010-S13-release-take01.png",
+      "image_sha256": "58d4c877b3dea6d654cfbc5d2ef8df25ca319ca2fc0ee648d2c004cc5ac7052c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.2333333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S14",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C14"
+      ],
+      "source_text": "手机亮起一行红字，检测到屋外幸存者，请求入住。开启入口，将暴露安全屋位置，是否确认？\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "手机手部近景抽象幸存者入住确认红色区域，门锁同框，画面不生成汉字字幕",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S14.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 54.367,
+      "estimated_duration_seconds": 4.8,
+      "start_frame": 2506,
+      "end_frame": 2713,
+      "image_path": "episodes/EP010/frames/EP010-S14-release-take01.png",
+      "image_sha256": "ea00f29508496c7247d24b80ae8afe541e918104251c251badfe3a576db02c00",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.9,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP010-S15",
+      "episode": "EP010",
+      "cue_ids": [
+        "EP010-C15"
+      ],
+      "source_text": "夏凛站到我身后，短棍举起。我的手，按在门锁上。门外，她的呼吸，已经贴到了门板上。",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "夏凛在陈屿身后举短棍待接应，陈屿一手按门锁，门仍闭合，门外许知意不实体进入",
+      "prompt_path": "episodes/EP010/image-prompts/EP010-S15.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 59.267,
+      "estimated_duration_seconds": 4.4,
+      "start_frame": 2713,
+      "end_frame": 2910,
+      "image_path": "episodes/EP010/frames/EP010-S15-release-take01.png",
+      "image_sha256": "2bf202524d677878a7ce80c546b73455bf99b900de1ce0d7cb59a43dea344d52",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.566666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    }
+  ],
+  "audio_status": "PASS_GENERATED_AND_DECODED",
+  "subtitle_files": false,
+  "human_listening": "NOT_RUN",
+  "timing_note": "135段原声逐段atempo=1.3，按PCM实测采样数向上取整到帧；外部空档仍为3帧且只计一次。原始1.0时间线与文件保留。",
+  "tempo_multiplier": 1.3,
+  "provider_speed": 1.0,
+  "variant": "speed1p3",
+  "source_timeline": "episodes/EP010/timeline.json",
+  "audio_master_path": "episodes/EP010/render/speed1p3/narration.wav"
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e43827a7df63a8a1826a316c9c9a2",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "陌生号码发来一张照片。二楼二零一的女孩站在窗内，手边摊着拆开的应急电源。我贴近门镜，切亮另一盏灯。两束光交叠，那东西沿墙爬回阴影，动作快得像一截滑走的绳。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 16668,
+    "audio_sample_rate": 32000,
+    "audio_size": 268404,
+    "bitrate": 128000,
+    "word_count": 77,
+    "invisible_character_ratio": 0,
+    "usage_characters": 146,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP014/audio/EP014-C03.mp3",
+  "bytes": 268404,
+  "sha256": "20f53a9b6cc57aafdbbac68191b6cad84a3ae276c84bdb0e3ef3eb49d3d4f714",
+  "subtitle_files_generated": false
+}

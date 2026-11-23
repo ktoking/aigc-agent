@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e4392996c6d345f2dfd20073c75a4",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我没有答应。先让她用检修灯扫过窗下，再让夏凛从门内确认落点。她先放下绳索，等检查过再收回。窗户正对门廊，窗台离地只有一层楼；落地之后，到入口还差两步。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 16056,
+    "audio_sample_rate": 32000,
+    "audio_size": 258612,
+    "bitrate": 128000,
+    "word_count": 75,
+    "invisible_character_ratio": 0,
+    "usage_characters": 141,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP014/audio/EP014-C05.mp3",
+  "bytes": 258612,
+  "sha256": "47f43cf7c5586bc4c094b5d41e4cc011719f614177a4df1da292644a2abd04ec",
+  "subtitle_files_generated": false
+}

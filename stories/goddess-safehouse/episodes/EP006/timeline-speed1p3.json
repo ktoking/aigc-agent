@@ -1,0 +1,853 @@
+{
+  "episode": "EP006",
+  "version": "user-script-v2",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 2630,
+  "duration_seconds": 87.66666666666667,
+  "cues": [
+    {
+      "cue_id": "EP006-C01",
+      "text": "第二天，我去物流园补资料，刚好走到办公室门口，听见马主任把一张通知拍在桌上。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C01.wav",
+      "audio_sha256": "24f12b47df9456493163cf8ff4168a6f3eef859216f594dba6ac7b3018f0d7c1",
+      "actual_duration_seconds": 6.0595625,
+      "start_frame": 0,
+      "end_frame": 182,
+      "external_gap_before_frames": 0,
+      "source_audio_path": "episodes/EP006/audio/EP006-C01.mp3",
+      "source_audio_sha256": "4a040fa588c81d59b15b4f43fa86c611c0e801b253481db5fa39c7e539c85348",
+      "source_duration_seconds": 7.9,
+      "sample_count": 290859
+    },
+    {
+      "cue_id": "EP006-C02",
+      "text": "他说，谁让你拦客户的货？你一个保安，查什么货？明天不用来了。夏凛只说，按规定巡查。马主任说，规定是我定的。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C02.wav",
+      "audio_sha256": "b4cd6fd3c82e0bcdbdd9617d29c01d822f432448b3e9fd18b31aed172d06c203",
+      "actual_duration_seconds": 8.697520833333334,
+      "start_frame": 185,
+      "end_frame": 446,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C02.mp3",
+      "source_audio_sha256": "a398c7201bc3431e3a5ecc0a6c48f058429f65feaf6ee42cf6003c0828dc9759",
+      "source_duration_seconds": 11.3,
+      "sample_count": 417481
+    },
+    {
+      "cue_id": "EP006-C03",
+      "text": "我在走廊等她出来。她怀里的纸箱，只装着一个水杯，一块夹板，和那本旧本子。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C03.wav",
+      "audio_sha256": "4ef8f8a7e8ca1492b3184f7c9e4993592a61b4a8e7b9ed9d5dd8d7f717fc5cfa",
+      "actual_duration_seconds": 5.61775,
+      "start_frame": 449,
+      "end_frame": 618,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C03.mp3",
+      "source_audio_sha256": "f4ade87d41d56e88ac089c51d08b0ec697bfe682df439109fd971737c14e94a8",
+      "source_duration_seconds": 7.3,
+      "sample_count": 269652
+    },
+    {
+      "cue_id": "EP006-C04",
+      "text": "我递上名片，说，月薪五万，守一间屋，日结。她问，你精神没问题吧？\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C04.wav",
+      "audio_sha256": "247ed928a493cb31302e22fe34908aa6ee3b0106ce643d0a51e84b441f962e76",
+      "actual_duration_seconds": 5.768645833333333,
+      "start_frame": 621,
+      "end_frame": 795,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C04.mp3",
+      "source_audio_sha256": "434b86952c7d740412e5d1a26228ba7567d9f725e3c3e4c804e69e72f32c23c9",
+      "source_duration_seconds": 7.5,
+      "sample_count": 276895
+    },
+    {
+      "cue_id": "EP006-C05",
+      "text": "我说，园区里都传，你每个月往战友家里汇钱。你一个月工资四千二，汇八千，靠什么？我一次付你三个月。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C05.wav",
+      "audio_sha256": "ddc7dd859ad215f215e2a3462402db0a3c68e1e9f8b2961846cfba040097db88",
+      "actual_duration_seconds": 7.7490625,
+      "start_frame": 798,
+      "end_frame": 1031,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C05.mp3",
+      "source_audio_sha256": "bc69b4852ad8d38846b9afd37df6456a34a6bd83ff940de3001c45ed8619f9a2",
+      "source_duration_seconds": 10.1,
+      "sample_count": 371955
+    },
+    {
+      "cue_id": "EP006-C06",
+      "text": "她眼神一冷，说，别查我。我说，不是查，是算账。她沉默了很久，说，先看屋。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C06.wav",
+      "audio_sha256": "fd81100d67c522668239e3d8d5bc8851dbabe5637636d9c8d41c07af2246646e",
+      "actual_duration_seconds": 6.695895833333333,
+      "start_frame": 1034,
+      "end_frame": 1235,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C06.mp3",
+      "source_audio_sha256": "3dd702b734fa6f574cf4b36943ed3f92636eeb93f09ad91317e509a3537d6933",
+      "source_duration_seconds": 8.7,
+      "sample_count": 321403
+    },
+    {
+      "cue_id": "EP006-C07",
+      "text": "到了梧桐里，她绕着一楼转了一圈，说，窗口太低，易攻难守。我说，不是这间。我推开了卧室的门。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C07.wav",
+      "audio_sha256": "f073132b207f8e79dd86f2c50b5d2a9a43ccc327cb8610a1d02990201677ce41",
+      "actual_duration_seconds": 8.0839375,
+      "start_frame": 1238,
+      "end_frame": 1481,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C07.mp3",
+      "source_audio_sha256": "42a3cbe44b48318340d8695380c82d430acec867da49dbdad5b3ca716034b6a4",
+      "source_duration_seconds": 10.5,
+      "sample_count": 388029
+    },
+    {
+      "cue_id": "EP006-C08",
+      "text": "她右手立刻按住短棍。她摸墙，用脚尖敲地，沿着货架走了一整圈。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C08.wav",
+      "audio_sha256": "8a463d6f7df96a976e84c12a9b6c440ac2c147f8f87668c1c17996e8f3b0bdb5",
+      "actual_duration_seconds": 5.085833333333333,
+      "start_frame": 1484,
+      "end_frame": 1637,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C08.mp3",
+      "source_audio_sha256": "5837c1576674bc7a68b3c9db1afe193227de7b17ac89fd647680b9a111372a9e",
+      "source_duration_seconds": 6.6,
+      "sample_count": 244120
+    },
+    {
+      "cue_id": "EP006-C09",
+      "text": "最后，她站在外墙本该在的位置，说，不是投影，是实体。两百平方米，从院子里根本找不到。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C09.wav",
+      "audio_sha256": "65e2233ec7899a63fb1732fb210060039f8aad847a50edde100f3582a26ff17c",
+      "actual_duration_seconds": 7.3165625,
+      "start_frame": 1640,
+      "end_frame": 1860,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C09.mp3",
+      "source_audio_sha256": "de8947450792963dcc3595022d0c9bb6068a9659f3df632f2c0a97d836fa7852",
+      "source_duration_seconds": 9.5,
+      "sample_count": 351195
+    },
+    {
+      "cue_id": "EP006-C10",
+      "text": "我把手机递给她。绑定页，倒计时，距离血月降临，八十三天。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C10.wav",
+      "audio_sha256": "6b58fa3ae85742ba023f36eea230489ee2b7749b3686e9c02bd22705627f6c44",
+      "actual_duration_seconds": 4.9296875,
+      "start_frame": 1863,
+      "end_frame": 2011,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C10.mp3",
+      "source_audio_sha256": "51df83a8c6572c03f33a34ff1b135b1573f98cc5510dabaa1d6cf0d3c35ec164",
+      "source_duration_seconds": 6.4,
+      "sample_count": 236625
+    },
+    {
+      "cue_id": "EP006-C11",
+      "text": "她问，你疯了，还是我疯了？我说，你可以不信。但你见过的任何营地，有这里安全吗？\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C11.wav",
+      "audio_sha256": "51af78d6a48d44583188d2efc04b015012beddea82c1f8485852bf1f6fd8d88e",
+      "actual_duration_seconds": 6.393041666666667,
+      "start_frame": 2014,
+      "end_frame": 2206,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C11.mp3",
+      "source_audio_sha256": "db447accc180f5882d91dfbe04aa3416277f247b3475a54361a2dfaf28aed34a",
+      "source_duration_seconds": 8.3,
+      "sample_count": 306866
+    },
+    {
+      "cue_id": "EP006-C12",
+      "text": "我把三条屋规，放到合同旁边。不能伤害同住者，贡献记账，危机时听指挥。预付款转过去，到账提醒一响，她才落笔。\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C12.wav",
+      "audio_sha256": "ba595821f4f1949405483dbed00808f97a4100c879938bc9327233b260f443d6",
+      "actual_duration_seconds": 8.748895833333334,
+      "start_frame": 2209,
+      "end_frame": 2472,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C12.mp3",
+      "source_audio_sha256": "b645f04e27b72c089f825247e3d7df8a525e688c9a0dc174f07bd9b3072cc505",
+      "source_duration_seconds": 11.4,
+      "sample_count": 419947
+    },
+    {
+      "cue_id": "EP006-C13",
+      "text": "她抬头，看了一眼墙上的倒计时，问我，归零之后，我要守的是什么？\n",
+      "audio_path": "episodes/EP006/audio/speed1p3/EP006-C13.wav",
+      "audio_sha256": "0fbc3b38300c7a93b572958bafff825365ba797f72fc8dc6dea1c041593147cf",
+      "actual_duration_seconds": 5.138729166666667,
+      "start_frame": 2475,
+      "end_frame": 2630,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP006/audio/EP006-C13.mp3",
+      "source_audio_sha256": "a18da064d6be630cd58792597d041acc1ee20fd299edd27a4e07012ccc0da61d",
+      "source_duration_seconds": 6.7,
+      "sample_count": 246659
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP006-S01",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C01"
+      ],
+      "source_text": "第二天，我去物流园补资料，刚好走到办公室门口，听见马主任把一张通知拍在桌上。\n",
+      "scene_id": "PARKOFFICE",
+      "character_ids": [
+        "MA"
+      ],
+      "unique_event": "马主任将一张解聘通知拍在办公桌上，陈屿只从门口观察不入镜",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S01.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 4.533,
+      "start_frame": 0,
+      "end_frame": 182,
+      "image_path": "episodes/EP006/frames/EP006-S01-release-take01.png",
+      "image_sha256": "c25132d069f05d1038635a6af74a9d88d64676394d63f209815c9a1f650c92cb",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.066666666666666,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S02",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C02"
+      ],
+      "source_text": "他说，谁让你拦客户的货？你一个保安，查什么货？明天不用来了。夏凛只说，按规定巡查。马主任说，规定是我定的。\n",
+      "scene_id": "PARKOFFICE",
+      "character_ids": [
+        "MA",
+        "XIA"
+      ],
+      "unique_event": "办公室双人对峙，马主任指桌上通知，夏凛站直平视，没有退缩",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 4.633,
+      "estimated_duration_seconds": 5.867,
+      "start_frame": 182,
+      "end_frame": 314,
+      "image_path": "episodes/EP006/frames/EP006-S02-release-take01.png",
+      "image_sha256": "9d5abb82ad0d300d6a974d4e271029e46a44f1f05b7fb54ab3297600f36e437c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.4,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S02B",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C02"
+      ],
+      "source_text": "他说，谁让你拦客户的货？你一个保安，查什么货？明天不用来了。夏凛只说，按规定巡查。马主任说，规定是我定的。\n",
+      "scene_id": "PARKOFFICE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛在办公室前景拿起解聘通知，另一手把夹板收进纸箱；背景站着同一位马主任，成熟瘦脸、方框眼镜、灰色长袖衬衫、黑西裤，必须匹配马主任参考，不能变成穿蓝制服的其他男人。镜头以夏凛和纸箱为主，马主任只在后方桌边，只有这两人。日间办公室，干燥有序。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S02B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 4.633,
+      "estimated_duration_seconds": 5.867,
+      "start_frame": 314,
+      "end_frame": 446,
+      "image_path": "episodes/EP006/frames/EP006-S02B-release-take02.png",
+      "image_sha256": "62266abaa4dedcab171bf5186b7cf0bb03360d49de7fc741d703418b1af03179",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": 2,
+      "prior_image_path": "episodes/EP006/frames/EP006-S02B-release-take01.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.4,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP006-S03",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C03"
+      ],
+      "source_text": "我在走廊等她出来。她怀里的纸箱，只装着一个水杯，一块夹板，和那本旧本子。\n",
+      "scene_id": "PARKOFFICE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "走廊陈屿等夏凛出来，她抱纸箱，箱内只有水杯夹板旧本三样物件",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S03.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 10.6,
+      "estimated_duration_seconds": 4.133,
+      "start_frame": 446,
+      "end_frame": 618,
+      "image_path": "episodes/EP006/frames/EP006-S03-release-take01.png",
+      "image_sha256": "e085158af5fb4bc9ba92138607b2508be496a7dfa3b8a68d8bdb7c53d74e5f89",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.733333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S04",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C04"
+      ],
+      "source_text": "我递上名片，说，月薪五万，守一间屋，日结。她问，你精神没问题吧？\n",
+      "scene_id": "PARKGATE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "陈屿递名片给抱纸箱的夏凛，双人平视中景，入口栏杆在后方",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S04.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 14.833,
+      "estimated_duration_seconds": 3.333,
+      "start_frame": 618,
+      "end_frame": 795,
+      "image_path": "episodes/EP006/frames/EP006-S04-release-take01.png",
+      "image_sha256": "6eefbb49bc188ef71322f8ea1014a8fe88daacb25ec788bf52f95adbab9419e1",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.9,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S05",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C05"
+      ],
+      "source_text": "我说，园区里都传，你每个月往战友家里汇钱。你一个月工资四千二，汇八千，靠什么？我一次付你三个月。\n",
+      "scene_id": "PARKGATE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "双人近景陈屿说明报酬，夏凛目光转冷，一手抱箱，一手按住本子",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S05.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 18.267,
+      "estimated_duration_seconds": 5.467,
+      "start_frame": 795,
+      "end_frame": 913,
+      "image_path": "episodes/EP006/frames/EP006-S05-release-take01.png",
+      "image_sha256": "bd6f82846c3f91865d10fb2ede2e8bccf43023410e38c9f971b3a150c48bbc84",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.933333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S05B",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C05"
+      ],
+      "source_text": "我说，园区里都传，你每个月往战友家里汇钱。你一个月工资四千二，汇八千，靠什么？我一次付你三个月。\n",
+      "scene_id": "PARKGATE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "夏凛听见战友汇款后目光骤冷，手指按住纸箱里的旧本；近景，服装为当前v3，不加新的回忆画面",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S05B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 18.267,
+      "estimated_duration_seconds": 5.467,
+      "start_frame": 913,
+      "end_frame": 1031,
+      "image_path": "episodes/EP006/frames/EP006-S05B-release-take01.png",
+      "image_sha256": "bdedf7428c0d773b08d7c872c04ef64d4a51c4488fd41c9a3e131ab663fd0aeb",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 3.933333333333333,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP006-S06",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C06"
+      ],
+      "source_text": "她眼神一冷，说，别查我。我说，不是查，是算账。她沉默了很久，说，先看屋。\n",
+      "scene_id": "PARKGATE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛戒备看陈屿画外，沉默后点向路口准备看屋，无威胁肢体接触",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S06.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 23.833,
+      "estimated_duration_seconds": 3.6,
+      "start_frame": 1031,
+      "end_frame": 1235,
+      "image_path": "episodes/EP006/frames/EP006-S06-release-take01.png",
+      "image_sha256": "6f5dd28e386f7c299f5407c8f5bbcef252fedd116e2ff4710f6461fe94448063",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.8,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S07",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C07"
+      ],
+      "source_text": "到了梧桐里，她绕着一楼转了一圈，说，窗口太低，易攻难守。我说，不是这间。我推开了卧室的门。\n",
+      "scene_id": "COURTYARD",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "一楼小院夏凛查看低窗，陈屿从旧客厅推开通向白厅的卧室门",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S07.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 27.533,
+      "estimated_duration_seconds": 4.933,
+      "start_frame": 1235,
+      "end_frame": 1358,
+      "image_path": "episodes/EP006/frames/EP006-S07-release-take01.png",
+      "image_sha256": "34bde94bfa4a2bfe09e12a7c827dc21a466e08851055e7eb4f01d9df95de9314",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.1,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S07B",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C07"
+      ],
+      "source_text": "到了梧桐里，她绕着一楼转了一圈，说，窗口太低，易攻难守。我说，不是这间。我推开了卧室的门。\n",
+      "scene_id": "COURTYARD",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "相机在101旧客厅里面：前景清楚可见旧沙发、木茶几和关闭的入户防盗门。陈屿正在打开房间内部一扇普通木质卧室门，门后白色折叠大厅已经密集摆满货架、箱装水与罐头，只留窄通道。夏凛站在客厅内木门前被厅内灯照到，惊讶看进去。不是外墙入户门、不是小院室外，无室外植物和天光，人物没有走到室外。只有陈屿与夏凛。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S07B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/frames/EP006-S08-release-take01.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 27.533,
+      "estimated_duration_seconds": 4.933,
+      "start_frame": 1358,
+      "end_frame": 1481,
+      "image_path": "episodes/EP006/frames/EP006-S07B-release-take02.png",
+      "image_sha256": "9c39421bc35305e3c59a634ab8a417d95a5da72d0a231db3bfb82689467533a5",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": 2,
+      "prior_image_path": "episodes/EP006/frames/EP006-S07B-release-take01.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.1,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP006-S08",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C08"
+      ],
+      "source_text": "她右手立刻按住短棍。她摸墙，用脚尖敲地，沿着货架走了一整圈。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛右手按收起的短棍，另一手摸白墙，脚尖探地，货架满但保持通道",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S08.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 32.567,
+      "estimated_duration_seconds": 3.467,
+      "start_frame": 1481,
+      "end_frame": 1637,
+      "image_path": "episodes/EP006/frames/EP006-S08-release-take01.png",
+      "image_sha256": "975c5479a8d81c6647856c202c1b217c3316fd105f8c090dfbdb2bbfb96c5432",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.2,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S09",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C09"
+      ],
+      "source_text": "最后，她站在外墙本该在的位置，说，不是投影，是实体。两百平方米，从院子里根本找不到。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "已经囤货98%的白色折叠大厅内，夏凛站在两列密集高货架之间，摸向本该是外墙位置的白色实体墙；陈屿在普通木卧室门框边看她。周围必须是大量整齐纸箱、罐头与瓶装水，货架占大部分空间，仅留窄通路。绝不能生成初始空大厅或让物资消失，无外窗、无厨房。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S09.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/frames/EP006-S08-release-take01.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 36.133,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 1637,
+      "end_frame": 1860,
+      "image_path": "episodes/EP006/frames/EP006-S09-release-take02.png",
+      "image_sha256": "ef8856022bf58e9cfab707891bf3cfd6da80a5526d95b3faba3f9e8387d175c0",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 7.433333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "prior_image_path": "episodes/EP006/frames/EP006-S09-release-take01.png",
+      "next_take": 2,
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP006-S10",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C10"
+      ],
+      "source_text": "我把手机递给她。绑定页，倒计时，距离血月降临，八十三天。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "已经囤货98%的白厅货架窄通道中景，陈屿把手机递给夏凛，她低头看屏幕；周围高货架全是箱装水、罐头与米粮，背景不能空白。保持两位角色原服装，屏幕只用简单红色计时光块，没有漂浮UI，没有可读文字。无外窗、无新厨房。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S10.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/frames/EP006-S08-release-take01.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 40.9,
+      "estimated_duration_seconds": 3.067,
+      "start_frame": 1860,
+      "end_frame": 2011,
+      "image_path": "episodes/EP006/frames/EP006-S10-release-take02.png",
+      "image_sha256": "ec98d8761d3a72a9df8d852976765530e132bac2f7aebd1c43d1462fc7315b1e",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.033333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "prior_image_path": "episodes/EP006/frames/EP006-S10-release-take01.png",
+      "next_take": 2,
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP006-S11",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C11"
+      ],
+      "source_text": "她问，你疯了，还是我疯了？我说，你可以不信。但你见过的任何营地，有这里安全吗？\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "双人近景，夏凛从陈屿的手机抬眼警觉询问，陈屿平静看她；两人身后近距离是已经装满的物资货架，两侧箱装水和罐头清楚可见，只有窄走道，库存不能消失，不能是初始空厅。无外窗、无厨房。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S11.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/frames/EP006-S08-release-take01.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 44.067,
+      "estimated_duration_seconds": 4.267,
+      "start_frame": 2011,
+      "end_frame": 2206,
+      "image_path": "episodes/EP006/frames/EP006-S11-release-take02.png",
+      "image_sha256": "bae1021e93a48903625cd4e91d47a131f41a297d5098ab9fe86c20c863893e69",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.5,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "prior_image_path": "episodes/EP006/frames/EP006-S11-release-take01.png",
+      "next_take": 2,
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP006-S12",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C12"
+      ],
+      "source_text": "我把三条屋规，放到合同旁边。不能伤害同住者，贡献记账，危机时听指挥。预付款转过去，到账提醒一响，她才落笔。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "桌面合同与三条分行屋规，手机到账图标，夏凛签字，所有小文字不可读",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S12.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 48.433,
+      "estimated_duration_seconds": 6.0,
+      "start_frame": 2206,
+      "end_frame": 2339,
+      "image_path": "episodes/EP006/frames/EP006-S12-release-take01.png",
+      "image_sha256": "a694e577c03b2967121b2be9a45ef7da471f9ba55eef78f499415ac236cf785f",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.433333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP006-S12B",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C12"
+      ],
+      "source_text": "我把三条屋规，放到合同旁边。不能伤害同住者，贡献记账，危机时听指挥。预付款转过去，到账提醒一响，她才落笔。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "新构图，极近距离俯拍手机和落笔处：夏凛藏青袖口的手正在合同签字栏落笔，陈屿灰色袖口的手将手机放在合同旁，屏幕只显示小型绿色到账确认图形。两张脸和身体完全不入镜，手机与笔尖占大部分画面，桌上三条分行屋规在边缘，所有小字不可读。不要复刻双人坐桌前签字的中景。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S12B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 48.433,
+      "estimated_duration_seconds": 6.0,
+      "start_frame": 2339,
+      "end_frame": 2472,
+      "image_path": "episodes/EP006/frames/EP006-S12B-release-take02.png",
+      "image_sha256": "05466f895171d0f1ef9544b7afbe50a8c42d4cdac223e73f2100b46fb97ba01c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": 2,
+      "prior_image_path": "episodes/EP006/frames/EP006-S12B-release-take01.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.433333333333334,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP006-S13",
+      "episode": "EP006",
+      "cue_ids": [
+        "EP006-C13"
+      ],
+      "source_text": "她抬头，看了一眼墙上的倒计时，问我，归零之后，我要守的是什么？\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛单人站在密集物资货架间的窄通道，抬头看货架上方白墙一小块抽象红光，手指收紧。脚边纸箱内只有水杯、夹板和旧本，周围货架已囤满水粮罐头。绝不能空厅，不能出现其他人物，不能加新厨房或窗户。",
+      "prompt_path": "episodes/EP006/image-prompts/EP006-S13.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/frames/EP006-S08-release-take01.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 54.533,
+      "estimated_duration_seconds": 3.467,
+      "start_frame": 2472,
+      "end_frame": 2630,
+      "image_path": "episodes/EP006/frames/EP006-S13-release-take02.png",
+      "image_sha256": "07d2fa74828e8d961290f7c403dfa2589be87014f8d8035fee2a86a6d2d90a06",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.266666666666667,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "prior_image_path": "episodes/EP006/frames/EP006-S13-release-take01.png",
+      "next_take": 2,
+      "independent_composition": true
+    }
+  ],
+  "audio_status": "PASS_GENERATED_AND_DECODED",
+  "subtitle_files": false,
+  "human_listening": "NOT_RUN",
+  "timing_note": "135段原声逐段atempo=1.3，按PCM实测采样数向上取整到帧；外部空档仍为3帧且只计一次。原始1.0时间线与文件保留。",
+  "tempo_multiplier": 1.3,
+  "provider_speed": 1.0,
+  "variant": "speed1p3",
+  "source_timeline": "episodes/EP006/timeline.json",
+  "audio_master_path": "episodes/EP006/render/speed1p3/narration.wav"
+}

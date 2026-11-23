@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e42fa5cc044eda5329870dac9f3a8",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "她把名字签进屋规，回房睡了六个小时。醒来时，枕边多了干净衣服，医疗柜旁则多出一只白箱。好感三十，入住补给：缝合耗材、敷料、冲洗液。每样都有数量。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 16740,
+    "audio_sample_rate": 32000,
+    "audio_size": 269556,
+    "bitrate": 128000,
+    "word_count": 72,
+    "invisible_character_ratio": 0,
+    "usage_characters": 133,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP012/audio/EP012-C06.mp3",
+  "bytes": 269556,
+  "sha256": "020e320d3a239c66f4a45bc587f6179a85fdaa3d56472fc06271508d3698ea8d",
+  "subtitle_files_generated": false
+}

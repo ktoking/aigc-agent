@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e42da2f9a952498ff7b80b312db9b",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "医生都在你家了！让她出来看一眼，能花你什么！",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": -2,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 4428,
+    "audio_sample_rate": 32000,
+    "audio_size": 72564,
+    "bitrate": 128000,
+    "word_count": 22,
+    "invisible_character_ratio": 0,
+    "usage_characters": 41,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP012/audio/EP012-C02.mp3",
+  "bytes": 72564,
+  "sha256": "83d1d6b5f67838c09ddba0100c1f9d810775256392da96b2ed5818301f6f1de9",
+  "subtitle_files_generated": false
+}

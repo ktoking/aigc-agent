@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e42ca713f2e3784750ebf18f9ed8a",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "对门又拍了两下墙。王大富在喊医生。我把她面前的椅子拉开，添了一碗饭。夏凛坐回门框内侧，短棍横在膝上。外面的求救，没有人应。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 12852,
+    "audio_sample_rate": 32000,
+    "audio_size": 207348,
+    "bitrate": 128000,
+    "word_count": 61,
+    "invisible_character_ratio": 0,
+    "usage_characters": 114,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP011/audio/EP011-C10.mp3",
+  "bytes": 207348,
+  "sha256": "9726fbd69e8eeee4e82786dd01092d72dab7838d80cc9092d818097950c716b5",
+  "subtitle_files_generated": false
+}

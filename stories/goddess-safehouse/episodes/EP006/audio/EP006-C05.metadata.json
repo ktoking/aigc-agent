@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a631ea6d57a127f61311646db2c0e",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我说，园区里都传，你每个月往战友家里汇钱。你一个月工资四千二，汇八千，靠什么？我一次付你三个月。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 10152,
+    "audio_sample_rate": 32000,
+    "audio_size": 164148,
+    "bitrate": 128000,
+    "word_count": 48,
+    "invisible_character_ratio": 0,
+    "usage_characters": 89,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/audio/EP006-C05.mp3",
+  "bytes": 164148,
+  "sha256": "bc69b4852ad8d38846b9afd37df6456a34a6bd83ff940de3001c45ed8619f9a2",
+  "subtitle_files_generated": false
+}

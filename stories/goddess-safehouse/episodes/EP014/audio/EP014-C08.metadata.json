@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e43aaa212aa52f2888eaa4cf931cf",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "窗边的那束检修光稳住了。我把门前亮区的边缘记在纸上，划掉楼梯那条路。屋内的两个人已经轮换休息，安心值四百一十五。檐下空了，楼道里那道脚步声却始终没有离开。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 15948,
+    "audio_sample_rate": 32000,
+    "audio_size": 256884,
+    "bitrate": 128000,
+    "word_count": 77,
+    "invisible_character_ratio": 0,
+    "usage_characters": 147,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP014/audio/EP014-C08.mp3",
+  "bytes": 256884,
+  "sha256": "444b91de4b2cabe739fe6fe634ed8ce5054e8c8cc10f090805cd612c9774d051",
+  "subtitle_files_generated": false
+}

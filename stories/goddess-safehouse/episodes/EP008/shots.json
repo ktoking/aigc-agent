@@ -1,0 +1,611 @@
+[
+  {
+    "shot_id": "EP008-S01",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C01"
+    ],
+    "source_text": "距离血月降临，还剩四十天。屋里的水、粮、灯都备齐了，只有医疗箱，一直是空的。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "医疗箱空格特写，陈屿手停在箱沿，远处仓储区水粮齐备",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S01.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 0,
+    "estimated_duration_seconds": 4.133,
+    "start_frame": 0,
+    "end_frame": 129,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.3,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S01B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C01"
+    ],
+    "source_text": "距离血月降临，还剩四十天。屋里的水、粮、灯都备齐了，只有医疗箱，一直是空的。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿把医疗箱打开与采购清单放在一起，箱里空着，仓储区水粮整齐，准备出门补缺",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S01B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 0,
+    "estimated_duration_seconds": 4.133,
+    "start_frame": 129,
+    "end_frame": 258,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.3,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S02",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C02"
+    ],
+    "source_text": "药店的店员把我的清单推回来，说，这些药得凭处方买。他朝门外一指，今天有义诊医生，你问她。\n",
+    "scene_id": "PHARMACY",
+    "character_ids": [
+      "CHEN",
+      "CLERK"
+    ],
+    "unique_event": "药店店员将长清单推还陈屿并指门外义诊台，两人，柜台无杂乱药品",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S02.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 4.233,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 258,
+    "end_frame": 396,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.6,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S02B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C02"
+    ],
+    "source_text": "药店的店员把我的清单推回来，说，这些药得凭处方买。他朝门外一指，今天有义诊医生，你问她。\n",
+    "scene_id": "PHARMACY",
+    "character_ids": [
+      "CHEN",
+      "CLERK",
+      "XU"
+    ],
+    "unique_event": "陈屿拿回购药清单，顺着店员手指看向门外义诊桌，许知意只有远处成年医生轮廓，不提前同桌对话",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S02B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 4.233,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 396,
+    "end_frame": 534,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.6,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S03",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C03"
+    ],
+    "source_text": "义诊摊前，一个女医生正在擦桌子，擦了一遍，又擦一遍。胸牌上写着，许知意，市第一医院急诊科。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "XU"
+    ],
+    "unique_event": "许知意穿白大褂擦白桌布台面，医用夹板在旁，胸牌只是空白标牌不生成字",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S03.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 9.4,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 534,
+    "end_frame": 693,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.3,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S03B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C03"
+    ],
+    "source_text": "义诊摊前，一个女医生正在擦桌子，擦了一遍，又擦一遍。胸牌上写着，许知意，市第一医院急诊科。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "XU"
+    ],
+    "unique_event": "许知意换一张消毒湿巾再次擦台面，修身白大褂与当前v3浅灰窄裙、裸腿延续，面部清爽漂亮",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S03B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 9.4,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 693,
+    "end_frame": 852,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 5.3,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S04",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C04"
+    ],
+    "source_text": "她用纸巾，隔着捏起我的清单，从头看到尾，眉头越皱越紧。抗生素，缝合线，止血带，碘伏……你是想开战地医院？\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "许知意用纸巾隔着捏陈屿清单皱眉看，陈屿坐桌对面，桌上止血带纱布碘伏少量",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S04.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 14.567,
+    "estimated_duration_seconds": 5.6,
+    "start_frame": 852,
+    "end_frame": 1021,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.633333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S04B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C04"
+    ],
+    "source_text": "她用纸巾，隔着捏起我的清单，从头看到尾，眉头越皱越紧。抗生素，缝合线，止血带，碘伏……你是想开战地医院？\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "清单与许知意纸巾隔握的手近景，桌上止血带、碘伏、纱布各少量，她皱眉的侧脸在上方",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S04B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 14.567,
+    "estimated_duration_seconds": 5.6,
+    "start_frame": 1021,
+    "end_frame": 1191,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 5.666666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S05",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C05"
+    ],
+    "source_text": "我说，我喜欢户外。她抬眼看我，说，驴友，不需要三十副缝合包。我准备好的理由，全咽了回去。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "许知意抬眼指清单数量，陈屿话到嘴边停住，双人近景",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S05.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 20.267,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 1191,
+    "end_frame": 1335,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.8,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S05B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C05"
+    ],
+    "source_text": "我说，我喜欢户外。她抬眼看我，说，驴友，不需要三十副缝合包。我准备好的理由，全咽了回去。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "陈屿的借口停住，目光看向被医生指住的缝合包数量栏，手指压采购本，表情有一瞬语塞",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S05B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 20.267,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 1335,
+    "end_frame": 1479,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.8,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S06",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C06"
+    ],
+    "source_text": "她问我，你在为很多人准备？多少人？我说，现在两个。以后，我也不知道。越多越好。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "两人安静问答，陈屿在清单人数栏旁握笔，许知意看他，不添加旁人",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S06.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 25.167,
+    "estimated_duration_seconds": 4.133,
+    "start_frame": 1479,
+    "end_frame": 1609,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 4.333333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S06B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C06"
+    ],
+    "source_text": "她问我，你在为很多人准备？多少人？我说，现在两个。以后，我也不知道。越多越好。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "许知意听到人数尚不确定，停笔看陈屿，夹板在桌前，问答后的安静状态",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S06B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 25.167,
+    "estimated_duration_seconds": 4.133,
+    "start_frame": 1609,
+    "end_frame": 1740,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 4.366666666666666,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S07",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C07"
+    ],
+    "source_text": "她沉默了一会儿，没有给我开一整箱药。她把清单折到背面，告诉我，哪些现在可以买，哪些得带着具体的人，走正规诊疗。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "XU"
+    ],
+    "unique_event": "许知意把药品清单折到背面，指向基础耗材列，桌上没有整箱处方药",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S07.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 29.4,
+    "estimated_duration_seconds": 6.4,
+    "start_frame": 1740,
+    "end_frame": 1909,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.633333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S07B",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C07"
+    ],
+    "source_text": "她沉默了一会儿，没有给我开一整箱药。她把清单折到背面，告诉我，哪些现在可以买，哪些得带着具体的人，走正规诊疗。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "XU"
+    ],
+    "unique_event": "分好的基础耗材放进陈屿购物袋，处方药没有整箱给他，陈屿把折好的清单放入本子",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S07B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 29.4,
+    "estimated_duration_seconds": 6.4,
+    "start_frame": 1909,
+    "end_frame": 2079,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "next_take": null,
+    "prior_image_path": null,
+    "visual_review": null,
+    "display_seconds": 5.666666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S08",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C08"
+    ],
+    "source_text": "她一边说，一边把桌上的纱布盒，按大小摆齐。我看着，有点想笑。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "XU"
+    ],
+    "unique_event": "许知意将几盒纱布按大小摆齐，陈屿仅边缘一只拿清单的手",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S08.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 35.9,
+    "estimated_duration_seconds": 3.333,
+    "start_frame": 2079,
+    "end_frame": 2283,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 6.8,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP008-S09",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C09"
+    ],
+    "source_text": "我谢了她。她说，我不信你的理由。但我信，你手上的数字。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "unique_event": "陈屿起身道谢，许知意扶夹板认真回应，两人视线平齐",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S09.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 39.333,
+    "estimated_duration_seconds": 2.933,
+    "start_frame": 2283,
+    "end_frame": 2460,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 5.9,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP008-S10",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C10"
+    ],
+    "source_text": "她从白大褂口袋里抽出一张名片，在背面写下号码。真有那天，我在市一院急诊科。\n",
+    "scene_id": "CLINIC",
+    "character_ids": [
+      "XU"
+    ],
+    "unique_event": "许知意在名片背面写联系方式，手部近景，不生成真实号码",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S10.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 42.367,
+    "estimated_duration_seconds": 4.4,
+    "start_frame": 2460,
+    "end_frame": 2691,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.7,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP008-S11",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C11"
+    ],
+    "source_text": "回家后，夏凛把袋子里的纱布和碘伏，按数量收进医疗箱。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "XIA"
+    ],
+    "unique_event": "夏凛把纱布和碘伏按数量放入医疗箱，盒盖打开，整洁日常光",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S11.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 46.867,
+    "estimated_duration_seconds": 3.067,
+    "start_frame": 2691,
+    "end_frame": 2877,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 6.2,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP008-S12",
+    "episode": "EP008",
+    "cue_ids": [
+      "EP008-C12"
+    ],
+    "source_text": "那张名片，我夹进了采购本，就在当初画出来的，那两栏空白的名字旁边。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "采购本近景，陈屿把普通名片夹在两栏空白姓名旁，页面只画栏线与笔迹形状",
+    "prompt_path": "episodes/EP008/image-prompts/EP008-S12.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 50.033,
+    "estimated_duration_seconds": 3.867,
+    "start_frame": 2877,
+    "end_frame": 3087,
+    "image_path": null,
+    "image_sha256": null,
+    "generation_status": "PLANNED",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "display_seconds": 7.0,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  }
+]

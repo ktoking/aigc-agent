@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a64d8acb4449e7dbc6c5cb76e80d9",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我拿起院灯的控制器，按了下去。两束白光，同时照向转角。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 5760,
+    "audio_sample_rate": 32000,
+    "audio_size": 93876,
+    "bitrate": 128000,
+    "word_count": 27,
+    "invisible_character_ratio": 0,
+    "usage_characters": 50,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP010/audio/EP010-C08.mp3",
+  "bytes": 93876,
+  "sha256": "9c90ce4d8b376c77616fbaacc43427db548a56e0a0123281b5212162fb98e8fc",
+  "subtitle_files_generated": false
+}

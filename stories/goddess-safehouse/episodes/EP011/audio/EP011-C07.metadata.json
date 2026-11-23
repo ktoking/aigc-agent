@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e42b212ee9f2be53a83b6704e2d4a",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我以为……赶不到了。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "female-chengshu",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 2448,
+    "audio_sample_rate": 32000,
+    "audio_size": 40884,
+    "bitrate": 128000,
+    "word_count": 10,
+    "invisible_character_ratio": 0,
+    "usage_characters": 17,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP011/audio/EP011-C07.mp3",
+  "bytes": 40884,
+  "sha256": "16ba527a001829e1c1a514bdb3691c015f26246d5820a72302b8cd1f61c6268f",
+  "subtitle_files_generated": false
+}

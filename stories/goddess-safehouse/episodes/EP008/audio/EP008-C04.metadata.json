@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a63ef894cce02bcf763eef89d7ef8",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "她用纸巾，隔着捏起我的清单，从头看到尾，眉头越皱越紧。抗生素，缝合线，止血带，碘伏……你是想开战地医院？",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 11268,
+    "audio_sample_rate": 32000,
+    "audio_size": 182004,
+    "bitrate": 128000,
+    "word_count": 52,
+    "invisible_character_ratio": 0,
+    "usage_characters": 94,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP008/audio/EP008-C04.mp3",
+  "bytes": 182004,
+  "sha256": "d9aa4a5d483c4cb0bf40b5dc977ab36908cf5457a50d95d140dd1a95b610eb28",
+  "subtitle_files_generated": false
+}

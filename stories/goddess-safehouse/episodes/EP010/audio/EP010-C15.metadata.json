@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a651030e7f7144d8d9044316d16e4",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "夏凛站到我身后，短棍举起。我的手，按在门锁上。门外，她的呼吸，已经贴到了门板上。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 8460,
+    "audio_sample_rate": 32000,
+    "audio_size": 137076,
+    "bitrate": 128000,
+    "word_count": 40,
+    "invisible_character_ratio": 0,
+    "usage_characters": 73,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP010/audio/EP010-C15.mp3",
+  "bytes": 137076,
+  "sha256": "52c49f523c839039ac8173d1bdf8a144af4cffc1bf855936c452e3e79a74105c",
+  "subtitle_files_generated": false
+}

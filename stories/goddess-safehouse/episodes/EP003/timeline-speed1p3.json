@@ -1,0 +1,735 @@
+{
+  "episode": "EP003",
+  "version": "user-script-v2",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 2268,
+  "duration_seconds": 75.6,
+  "cues": [
+    {
+      "cue_id": "EP003-C01",
+      "text": "二手车行的老板只肯给五万五。我翻开保养记录，三年，四万二千公里，无事故，行情六万二。你压我七千，是当我不懂行？\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C01.wav",
+      "audio_sha256": "9d0f5b061b9ce7bedafa3c715f5a20665bf39b23652ce3234832a1cba37cd27c",
+      "actual_duration_seconds": 9.086208333333333,
+      "start_frame": 0,
+      "end_frame": 273,
+      "external_gap_before_frames": 0,
+      "source_audio_path": "episodes/EP003/audio/EP003-C01.mp3",
+      "source_audio_sha256": "ea323ea09713feaa9136153157c1e912306c68c5d2bac863cc5a47520179e2bc",
+      "source_duration_seconds": 11.8,
+      "sample_count": 436138
+    },
+    {
+      "cue_id": "EP003-C02",
+      "text": "他干笑，改口六万。我说，成交，签字。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C02.wav",
+      "audio_sha256": "ae47211dd2ab3d105fdb3d9ff0cb479ffb7fc9be8539e67ff9c2a9235b660c0c",
+      "actual_duration_seconds": 3.472125,
+      "start_frame": 276,
+      "end_frame": 381,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C02.mp3",
+      "source_audio_sha256": "e972b405ca7186e1661b51f806f6fe0c62621c9c08ce2afb951fc69ef25ada02",
+      "source_duration_seconds": 4.5,
+      "sample_count": 166662
+    },
+    {
+      "cue_id": "EP003-C03",
+      "text": "傍晚，七十八万借款到账。存款加借款，再加卖车的钱，一共一百二十五万二千。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C03.wav",
+      "audio_sha256": "10298170430749b46b308cdd14212829b6537d66806bc19b7a7b0a2343b4a193",
+      "actual_duration_seconds": 6.397125,
+      "start_frame": 384,
+      "end_frame": 576,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C03.mp3",
+      "source_audio_sha256": "ce9cd03b40314137e04b6c08072b10a9e0cf909b392f916ea13c302095733d5f",
+      "source_duration_seconds": 8.3,
+      "sample_count": 307062
+    },
+    {
+      "cue_id": "EP003-C04",
+      "text": "晚上是家庭聚餐。表叔放下筷子，问我，借这么多钱，到底干什么。我说，囤货。满桌人都笑了。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C04.wav",
+      "audio_sha256": "df01d178419a0523eff6481d7881cb27a5b94ddc3581be5b7fa5fbe7d6b2d4d1",
+      "actual_duration_seconds": 7.5145625,
+      "start_frame": 579,
+      "end_frame": 805,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C04.mp3",
+      "source_audio_sha256": "30865475c4584918df5d24a698f2fe5e9ef3c1970992fd6117e459bb268f3977",
+      "source_duration_seconds": 9.8,
+      "sample_count": 360699
+    },
+    {
+      "cue_id": "EP003-C05",
+      "text": "表叔拍着桌子说，三个月后你要是睡桥洞，别来找我。我夹了一筷子菜说，不会，我家有空调。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C05.wav",
+      "audio_sha256": "f03bd91511984316f7406b43047630faf70dbccabaa8bb1b0a0904d31b3cfb59",
+      "actual_duration_seconds": 6.734104166666667,
+      "start_frame": 808,
+      "end_frame": 1011,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C05.mp3",
+      "source_audio_sha256": "f4750c74f424272f05eae0649ff43633a575f3ef5c389afefc9935cee0491751",
+      "source_duration_seconds": 8.788781,
+      "sample_count": 323237
+    },
+    {
+      "cue_id": "EP003-C06",
+      "text": "出门时，又碰见马主任。他搂着新来的主管，笑我，失业的人，最容易走歪路。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C06.wav",
+      "audio_sha256": "27db50815373d9909ed4cf82b3002b0582835fe034a4c313a266843d002287d3",
+      "actual_duration_seconds": 5.7783125,
+      "start_frame": 1014,
+      "end_frame": 1188,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C06.mp3",
+      "source_audio_sha256": "da83c051d231c1fbfb20cbfb209640bf5e79d28d5426ede71a39a311ab9d2935",
+      "source_duration_seconds": 7.5,
+      "sample_count": 277359
+    },
+    {
+      "cue_id": "EP003-C07",
+      "text": "我点点头说，马主任，保重。以后，可能见不到了。他在背后骂我疯了，我没回头。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C07.wav",
+      "audio_sha256": "e3eaed72625d59c63949dd5b85c5a3d1f0a0439b5be4299d488b3767a6198b80",
+      "actual_duration_seconds": 6.761666666666667,
+      "start_frame": 1191,
+      "end_frame": 1394,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C07.mp3",
+      "source_audio_sha256": "054e438845aabac5d18773bf493f440eed69ba1397373747463cb72e2498b1b5",
+      "source_duration_seconds": 8.8,
+      "sample_count": 324560
+    },
+    {
+      "cue_id": "EP003-C08",
+      "text": "第二天下午，货到了。八辆厢式货车，一直排到小区门口。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C08.wav",
+      "audio_sha256": "78726a00d31e4793026d9cf56abedd82f2d1f30d133a41fdd871415efd010d14",
+      "actual_duration_seconds": 4.211458333333334,
+      "start_frame": 1397,
+      "end_frame": 1524,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C08.mp3",
+      "source_audio_sha256": "151ed04f754df6f91a196f50f636b068602ab13dc8df75ee0dbed482207b27a0",
+      "source_duration_seconds": 5.5,
+      "sample_count": 202150
+    },
+    {
+      "cue_id": "EP003-C09",
+      "text": "王大富拎着鸟笼来看热闹，问我，你这是要开批发部啊？我说，王哥，小点声，货不经吓。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C09.wav",
+      "audio_sha256": "ff3a045fbfda021045edc74534be64e4b32c2fe37ec16f99c888ab338ae45f06",
+      "actual_duration_seconds": 6.524375,
+      "start_frame": 1527,
+      "end_frame": 1723,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C09.mp3",
+      "source_audio_sha256": "2a98ad68bd861253674f6fb0e961f81286cce2e1d67153809132d8a3fd185cc6",
+      "source_duration_seconds": 8.486906,
+      "sample_count": 313170
+    },
+    {
+      "cue_id": "EP003-C10",
+      "text": "天黑以后，我一趟一趟，把货推进卧室门里。水，粮，罐头，一箱接一箱，空厅被塞得越来越满。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C10.wav",
+      "audio_sha256": "c59000aee13009345c03c6f8988029f796974ae86f323ed8ef028673945d024c",
+      "actual_duration_seconds": 7.977875,
+      "start_frame": 1726,
+      "end_frame": 1966,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C10.mp3",
+      "source_audio_sha256": "cfdcdd49d02a20830684413afdc246b9b09c0a439e0f116b2e5a27e7348cf536",
+      "source_duration_seconds": 10.4,
+      "sample_count": 382938
+    },
+    {
+      "cue_id": "EP003-C11",
+      "text": "六车货进去，系统提示，屋内容量，百分之九十八。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C11.wav",
+      "audio_sha256": "501236451a1e9eeaada8ab301dbdaf3bda2e71aec10296072f97e64c0ee00806",
+      "actual_duration_seconds": 3.6045833333333333,
+      "start_frame": 1969,
+      "end_frame": 2078,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C11.mp3",
+      "source_audio_sha256": "f7e9a3a9719094497f00097fc04787eda22590b7cf442e6b3654df8775e3ebe2",
+      "source_duration_seconds": 4.690438,
+      "sample_count": 173020
+    },
+    {
+      "cue_id": "EP003-C12",
+      "text": "我走到窗边，路边还停着两辆满载的货车。我喘着气，自言自语。我好像，订多了。\n",
+      "audio_path": "episodes/EP003/audio/speed1p3/EP003-C12.wav",
+      "audio_sha256": "0099d8b08cd3cae83c6bb9947b32a2d8247b8a21535394f503639c18bf4178c4",
+      "actual_duration_seconds": 6.2160625,
+      "start_frame": 2081,
+      "end_frame": 2268,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP003/audio/EP003-C12.mp3",
+      "source_audio_sha256": "df0da456e2e1ca6ad6d94aab34910a36c0e966ef7031d084b8206e173a62ef0b",
+      "source_duration_seconds": 8.1,
+      "sample_count": 298371
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP003-S01",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C01"
+      ],
+      "source_text": "二手车行的老板只肯给五万五。我翻开保养记录，三年，四万二千公里，无事故，行情六万二。你压我七千，是当我不懂行？\n",
+      "scene_id": "CARLOT",
+      "character_ids": [
+        "CHEN",
+        "DEALER"
+      ],
+      "unique_event": "车行旧灰轿车旁，陈屿翻开保养记录给车贩看，双方各自站在车侧",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S01.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 6.267,
+      "start_frame": 0,
+      "end_frame": 136,
+      "image_path": "episodes/EP003/frames/EP003-S01-release-take01.png",
+      "image_sha256": "3b6f6376b0cda4c5baa54c3619e5bd7ed7219134fa9b690c1e593c4f9d44ac5a",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.533333333333333,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S01B",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C01"
+      ],
+      "source_text": "二手车行的老板只肯给五万五。我翻开保养记录，三年，四万二千公里，无事故，行情六万二。你压我七千，是当我不懂行？\n",
+      "scene_id": "CARLOT",
+      "character_ids": [
+        "CHEN",
+        "DEALER"
+      ],
+      "unique_event": "特写：干净的旧灰色轿车前盖上摊开保养册，只出现陈屿炭灰夹克袖口与手指指向里程栏，车贩浅灰衬衫袖口的另一只手停在纸边；只拍两只手、保养册、车漆，不拍人物脸和全身。全新近距离俯拍，明确记录细节，没有可读数字和文字，不得画成两人在车旁的中景。",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S01B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 6.267,
+      "start_frame": 136,
+      "end_frame": 273,
+      "image_path": "episodes/EP003/frames/EP003-S01B-release-take02.png",
+      "image_sha256": "91c57f347261af342bb100b319affecf2cd41fb12610391e2b863d4822722922",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": 2,
+      "prior_image_path": "episodes/EP003/frames/EP003-S01B-release-take01.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.566666666666666,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP003-S02",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C02"
+      ],
+      "source_text": "他干笑，改口六万。我说，成交，签字。\n",
+      "scene_id": "CARLOT",
+      "character_ids": [
+        "CHEN",
+        "DEALER"
+      ],
+      "unique_event": "近景陈屿在购车合同落笔，车贩递来签字位置，旧车钥匙放桌上",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 6.367,
+      "estimated_duration_seconds": 1.733,
+      "start_frame": 273,
+      "end_frame": 381,
+      "image_path": "episodes/EP003/frames/EP003-S02-release-take01.png",
+      "image_sha256": "5664750f42c9b9ccf65aa8173f21b785f2aca7d3afc36cc2b95466a76a32153c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.6,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S03",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C03"
+      ],
+      "source_text": "傍晚，七十八万借款到账。存款加借款，再加卖车的钱，一共一百二十五万二千。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "傍晚陈屿核对到账手机和采购本，车钥匙已不在手中，账本三笔收入相加",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S03.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 8.2,
+      "estimated_duration_seconds": 4.133,
+      "start_frame": 381,
+      "end_frame": 576,
+      "image_path": "episodes/EP003/frames/EP003-S03-release-take01.png",
+      "image_sha256": "dca968123eacb6e8ca130baaeed7fd25ba798a084781393161129652fc92cbfb",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.5,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S04",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C04"
+      ],
+      "source_text": "晚上是家庭聚餐。表叔放下筷子，问我，借这么多钱，到底干什么。我说，囤货。满桌人都笑了。\n",
+      "scene_id": "RESTAURANT",
+      "character_ids": [
+        "CHEN",
+        "UNCLE"
+      ],
+      "unique_event": "家族饭桌，表叔放下筷子问陈屿，背景几位成年亲戚虚焦微笑，主角端碗",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S04.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 12.433,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 576,
+      "end_frame": 690,
+      "image_path": "episodes/EP003/frames/EP003-S04-release-take01.png",
+      "image_sha256": "c19150a3a75f960ea401896df8106c20e2e5c3bb5ffb5de5b9e1359a84109aa8",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.8,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S04B",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C04"
+      ],
+      "source_text": "晚上是家庭聚餐。表叔放下筷子，问我，借这么多钱，到底干什么。我说，囤货。满桌人都笑了。\n",
+      "scene_id": "RESTAURANT",
+      "character_ids": [
+        "CHEN",
+        "UNCLE"
+      ],
+      "unique_event": "反打近景：26岁成年陈屿坐在家族饭桌前端着白瓷饭碗，抬眼平静回答要囤货。他的一张脸与肩胸占全画面70%，只有他是清晰主体；相机从表叔肩旁看过去，背后两位成年亲戚虚焦笑起来。不要原来两个人并排坐在餐桌前的中景。暖色餐厅，陈屿炭灰夹克灰T恤，桌边只露碗筷与一盘菜，按参考锁脸，不继承仓库背景。",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S04B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 12.433,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 690,
+      "end_frame": 805,
+      "image_path": "episodes/EP003/frames/EP003-S04B-release-take02.png",
+      "image_sha256": "58eb36ca0015184c77bd24300ab7af565c588ee97195325ce1a0649a77530122",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": 2,
+      "prior_image_path": "episodes/EP003/frames/EP003-S04B-release-take01.png",
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 3.8333333333333335,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "independent_composition": true
+    },
+    {
+      "shot_id": "EP003-S05",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C05"
+      ],
+      "source_text": "表叔拍着桌子说，三个月后你要是睡桥洞，别来找我。我夹了一筷子菜说，不会，我家有空调。\n",
+      "scene_id": "RESTAURANT",
+      "character_ids": [
+        "CHEN",
+        "UNCLE"
+      ],
+      "unique_event": "表叔手掌落在饭桌旁，陈屿镇定夹菜，其他成年人在画外",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S05.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 17.2,
+      "estimated_duration_seconds": 4.8,
+      "start_frame": 805,
+      "end_frame": 1011,
+      "image_path": "episodes/EP003/frames/EP003-S05-release-take01.png",
+      "image_sha256": "0cfcc9e325b9baa9b6b51a85b5a6b1df8e2c907d9860f5745d6a7b7b87f41fd8",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.866666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S06",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C06"
+      ],
+      "source_text": "出门时，又碰见马主任。他搂着新来的主管，笑我，失业的人，最容易走歪路。\n",
+      "scene_id": "MALL",
+      "character_ids": [
+        "CHEN",
+        "MA"
+      ],
+      "unique_event": "商场门口马主任一臂搭着一位无名成年男主管肩，陈屿持文件袋与他相遇，三人",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S06.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 22.1,
+      "estimated_duration_seconds": 3.867,
+      "start_frame": 1011,
+      "end_frame": 1188,
+      "image_path": "episodes/EP003/frames/EP003-S06-release-take01.png",
+      "image_sha256": "bb4d1cc326e7b2e3faf29de9bbb3c6510e742a240009afaeb99ad52145c278d1",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.9,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S07",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C07"
+      ],
+      "source_text": "我点点头说，马主任，保重。以后，可能见不到了。他在背后骂我疯了，我没回头。\n",
+      "scene_id": "MALL",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "陈屿带文件袋从商场门口走开，侧后方马主任为虚焦小轮廓，不新增情节",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S07.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 26.067,
+      "estimated_duration_seconds": 4.0,
+      "start_frame": 1188,
+      "end_frame": 1394,
+      "image_path": "episodes/EP003/frames/EP003-S07-release-take01.png",
+      "image_sha256": "44df52e79a237d148f89a25d403d67ae0a5f97b73d73b98833b3fc37b7cca158",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.866666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S08",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C08"
+      ],
+      "source_text": "第二天下午，货到了。八辆厢式货车，一直排到小区门口。\n",
+      "scene_id": "GATE",
+      "character_ids": [],
+      "unique_event": "八辆厢式货车按次序停在小区入口外等卸货，高位全景，留旁侧应急通道",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S08.txt",
+      "reference_paths": [],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 30.167,
+      "estimated_duration_seconds": 2.933,
+      "start_frame": 1394,
+      "end_frame": 1524,
+      "image_path": "episodes/EP003/frames/EP003-S08-release-take01.png",
+      "image_sha256": "95e6238c52888f84ac94047407d7f6135cfb9a709b22c268b94fe5c026370e0b",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.333333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S09",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C09"
+      ],
+      "source_text": "王大富拎着鸟笼来看热闹，问我，你这是要开批发部啊？我说，王哥，小点声，货不经吓。\n",
+      "scene_id": "GATE",
+      "character_ids": [
+        "CHEN",
+        "WANG"
+      ],
+      "unique_event": "王大富拎一只小鸟笼围观，陈屿握手推车对他简短回应，背景只有两辆近车其余远景",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S09.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/WANG-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 33.2,
+      "estimated_duration_seconds": 4.4,
+      "start_frame": 1524,
+      "end_frame": 1723,
+      "image_path": "episodes/EP003/frames/EP003-S09-release-take01.png",
+      "image_sha256": "9e106e6f4cd32609899ac1ca0892eab96e23081d80d7a1616e2aa6923c17093c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.633333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S10",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C10"
+      ],
+      "source_text": "天黑以后，我一趟一趟，把货推进卧室门里。水，粮，罐头，一箱接一箱，空厅被塞得越来越满。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "夜里陈屿把箱装水和罐头推进正常卧室门框，空厅内已有整齐密集货垛",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S10.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 37.7,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 1723,
+      "end_frame": 1844,
+      "image_path": "episodes/EP003/frames/EP003-S10-release-take01.png",
+      "image_sha256": "c60597de1c66623a474d2a64ffc382cbfbd7429c745a3de1e0e85c954df8d5c8",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.033333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S10B",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C10"
+      ],
+      "source_text": "天黑以后，我一趟一趟，把货推进卧室门里。水，粮，罐头，一箱接一箱，空厅被塞得越来越满。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "推车上的罐头和水箱已经穿过卧室木门，陈屿弯腰把最后一箱落进货架通道边，画面呈现入库结果",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S10B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 37.7,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 1844,
+      "end_frame": 1966,
+      "image_path": "episodes/EP003/frames/EP003-S10B-release-take01.png",
+      "image_sha256": "2ab85691c37297f541e862177010c26dbf38ab77dcd885f80339a6e9e0485a68",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.066666666666666,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP003-S11",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C11"
+      ],
+      "source_text": "六车货进去，系统提示，屋内容量，百分之九十八。\n",
+      "scene_id": "HALL1",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "六车货量已形成高密度纸箱货架，入口留出单人通路，陈屿查看容量提示抽象光条",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S11.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 42.467,
+      "estimated_duration_seconds": 2.533,
+      "start_frame": 1966,
+      "end_frame": 2078,
+      "image_path": "episodes/EP003/frames/EP003-S11-release-take01.png",
+      "image_sha256": "82dac4cf669394e9e3664b51525a05dc2b7db618364903415d2f2188953e2ac6",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 3.7333333333333334,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP003-S12",
+      "episode": "EP003",
+      "cue_ids": [
+        "EP003-C12"
+      ],
+      "source_text": "我走到窗边，路边还停着两辆满载的货车。我喘着气，自言自语。我好像，订多了。\n",
+      "scene_id": "OLDHOME",
+      "character_ids": [
+        "CHEN"
+      ],
+      "unique_event": "深夜旧客厅，陈屿扶腰喘气，透过一扇普通侧墙窗向外看，窗外黑夜路边恰好两辆满载厢式货车。全屋入户防盗门关闭并位于另一侧，不画任何打开的入户门，不站在门口，必须在窗边。室内暖色灯，窗外只有微弱路灯照到两辆车的车厢，绝无太阳、白天、亮白天空。炭灰夹克灰T恤，同一张成年男主脸，不加人。",
+      "prompt_path": "episodes/EP003/image-prompts/EP003-S12.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 45.1,
+      "estimated_duration_seconds": 4.133,
+      "start_frame": 2078,
+      "end_frame": 2268,
+      "image_path": "episodes/EP003/frames/EP003-S12-release-take02.png",
+      "image_sha256": "58bb12c30d1897fcbff61b7965920228e82076e2b7d57bbe2a29b879bd9b0f5e",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.333333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "prior_image_path": "episodes/EP003/frames/EP003-S12-release-take01.png",
+      "next_take": 2,
+      "independent_composition": true
+    }
+  ],
+  "audio_status": "PASS_GENERATED_AND_DECODED",
+  "subtitle_files": false,
+  "human_listening": "NOT_RUN",
+  "timing_note": "135段原声逐段atempo=1.3，按PCM实测采样数向上取整到帧；外部空档仍为3帧且只计一次。原始1.0时间线与文件保留。",
+  "tempo_multiplier": 1.3,
+  "provider_speed": 1.0,
+  "variant": "speed1p3",
+  "source_timeline": "episodes/EP003/timeline.json",
+  "audio_master_path": "episodes/EP003/render/speed1p3/narration.wav"
+}

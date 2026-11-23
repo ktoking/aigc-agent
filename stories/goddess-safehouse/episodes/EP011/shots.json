@@ -1,0 +1,386 @@
+[
+  {
+    "shot_id": "EP011-S001",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C01",
+    "start_frame": 0,
+    "end_frame": 151,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "陈屿在外门内扶稳刚入屋的许知意，夏凛站在门内侧边，画面只呈三位完整穿衣的成年人，不画伤口、血迹或怪物攻击",
+    "scene": "入口",
+    "character_ids": [
+      "CHEN",
+      "XIA",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S001.txt",
+    "image_path": "episodes/EP011/frames/EP011-S001-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "60b75229e807ab0aae42c72aa1702ad87d4284d7f852930823cc9c852ddc0eba",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S001-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-afa1500f-5fd0-4fa9-9da6-7f69a1202916.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S002",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C01",
+    "start_frame": 151,
+    "end_frame": 303,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "许知意踏过门槛，夏凛护住她，门外旧铁栅被高大人影扯弯",
+    "scene": "入口",
+    "character_ids": [
+      "XIA",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S002.txt",
+    "image_path": "episodes/EP011/frames/EP011-S002-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "0479f1a81f04e073c71fc4b9104ce3a51975f9447943e5154c04322fe823d582",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S002-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b47f86f1-bc20-4ed9-bd55-ef5f503426cb.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S003",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C02",
+    "start_frame": 303,
+    "end_frame": 454,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "夏凛站在门内握紧短棍，回头示意陈屿关门",
+    "scene": "入口",
+    "character_ids": [
+      "CHEN",
+      "XIA"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S003.txt",
+    "image_path": "episodes/EP011/frames/EP011-S003-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "b54949cf192f472d1de3a6c19619bc636ed2257300c649f468cd4f0688ef2ded",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S003-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-51e5f923-0a61-496a-9763-36b405c3e203.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S004",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C03",
+    "start_frame": 454,
+    "end_frame": 606,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "陈屿按住已经关严的外门，旁边门镜暗下",
+    "scene": "入口",
+    "character_ids": [
+      "CHEN"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S004.txt",
+    "image_path": "episodes/EP011/frames/EP011-S004-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "56b8103bb80759481ca12da988ac4e52866edb993417db94fc84043eed1b582c",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S004-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e7491fad-441f-4283-a033-cae71f8540a0.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S005",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C03",
+    "start_frame": 606,
+    "end_frame": 757,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "闭合外门的内侧锁具与灯光控制器局部特写",
+    "scene": "旧客厅",
+    "character_ids": [],
+    "reference_paths": [],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S005.txt",
+    "image_path": "episodes/EP011/frames/EP011-S005-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "5ee3fa1c17b7578b74355cbed1199ca6c4882232d09fe9f1e944f919d55b7172",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S005-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-81afa065-2196-459d-b908-b1b2901497e3.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S006",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C05",
+    "start_frame": 757,
+    "end_frame": 909,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "许知意给陈屿包扎手背，画面只含沙发与暖灰墙",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S006.txt",
+    "image_path": "episodes/EP011/frames/EP011-S006-take03.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "d559bbf941f220e02991fbabbed089cd4aa8b265ed5c673dd857188b3d817f8e",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S006-take03.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-42d6951c-2576-48e7-b732-66049e80b742.png",
+    "take": 3
+  },
+  {
+    "shot_id": "EP011-S007",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C05",
+    "start_frame": 909,
+    "end_frame": 1060,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "缠好白纱布的陈屿手背与许知意微颤的手指特写",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S007.txt",
+    "image_path": "episodes/EP011/frames/EP011-S007-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "fa239e649ad650171d016424f40d94f1c628874cbaf4bce2893e250ebf3d97f1",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S007-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ff42311d-edd5-4238-a705-c2785851410e.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S008",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C05",
+    "start_frame": 1060,
+    "end_frame": 1212,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "许知意结束包扎后低头看着自己微颤的手，陈屿留在她身边，医疗箱靠近沙发",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S008.txt",
+    "image_path": "episodes/EP011/frames/EP011-S008-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "2bb533b3fccbdff01a854d57e5e3e2d802a0a1a5da8a87e8f628f23ac383a2e8",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S008-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-6f7317b7-a012-4f76-adb6-974868c528ff.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S009",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C07",
+    "start_frame": 1212,
+    "end_frame": 1363,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "许知意捧杯低头，肩膀逐渐放松，完整衣服遮盖伤处",
+    "scene": "旧客厅",
+    "character_ids": [
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S009.txt",
+    "image_path": "episodes/EP011/frames/EP011-S009-take02.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "238b2e9cfb596c9c0d06f63099d1a450e2c78da7c8894952b204c88ba994668a",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S009-take02.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e0c72a05-e076-4a08-8963-07cc8e1c8de4.png",
+    "take": 2
+  },
+  {
+    "shot_id": "EP011-S010",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C08",
+    "start_frame": 1363,
+    "end_frame": 1515,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "陈屿从普通卧室门框引许知意进入暖色折叠空间，厨房和满货架清楚可见",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S010.txt",
+    "image_path": "episodes/EP011/frames/EP011-S010.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "7dd8965fec4e6d1e6c97b99dfc17e3da56ce6b0379646a542f696d71bb88b7b7",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S010.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-b69ffa80-5e6a-4ab0-8fcb-7ba66ba8c1a3.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP011-S011",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C08",
+    "start_frame": 1515,
+    "end_frame": 1666,
+    "display_seconds": 5.033333333333333,
+    "unique_event": "许知意站在餐桌旁望着仍温热的火锅和整齐库存",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S011.txt",
+    "image_path": "episodes/EP011/frames/EP011-S011.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "c90347808812f30ad73f536732e602bc677b9afdb9d89f88f53e196d6387be52",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S011.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-1d76a94d-500e-4220-ab1a-caacd68d8ce6.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP011-S012",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C10",
+    "start_frame": 1666,
+    "end_frame": 1818,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "陈屿给许知意添饭，夏凛坐在通向旧客厅的门框内侧守望",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XIA",
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S012.txt",
+    "image_path": "episodes/EP011/frames/EP011-S012.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "99d0c45868572d2dfcfd923dd96ea38ecb58c8d4c686df29d8200e4b75588b17",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S012.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-22794d57-e0e3-4262-ab07-5e8ca1edea28.png",
+    "take": null
+  },
+  {
+    "shot_id": "EP011-S013",
+    "episode": "EP011",
+    "anchor_cue": "EP011-C10",
+    "start_frame": 1818,
+    "end_frame": 1970,
+    "display_seconds": 5.066666666666666,
+    "unique_event": "三人在暖色餐桌边，外门方向保持关闭，许知意开始吃第一口饭",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU"
+    ],
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+    ],
+    "prompt_path": "episodes/EP011/image-prompts/EP011-S013.txt",
+    "image_path": "episodes/EP011/frames/EP011-S013.png",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+    "image_sha256": "65545bbde437e7f6162d66a9fab878dc011d92be4474bf88da718232c787bbc9",
+    "native_dimensions": [
+      1671,
+      941
+    ],
+    "request_path": "production/ep011-020-paradise-v1/image-requests/EP011-S013.json",
+    "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-002a861d-0f16-4509-9299-b1eb1a409423.png",
+    "take": null
+  }
+]

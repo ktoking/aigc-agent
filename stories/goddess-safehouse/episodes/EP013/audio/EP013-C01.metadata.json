@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e43222cc979d1ec834bc63f35d386",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "撬棍砸上外门时，我正开灯查看台阶。两个同层住户趁亮冲了过来，其中一个把脸贴向门镜。转角的影子退进黑暗，没走远。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 11736,
+    "audio_sample_rate": 32000,
+    "audio_size": 189492,
+    "bitrate": 128000,
+    "word_count": 55,
+    "invisible_character_ratio": 0,
+    "usage_characters": 104,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP013/audio/EP013-C01.mp3",
+  "bytes": 189492,
+  "sha256": "7693b1c2841b46f17eb95faed962fcf82b411d4a22d09a02915f28aab7c4d03e",
+  "subtitle_files_generated": false
+}

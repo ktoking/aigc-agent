@@ -1,0 +1,694 @@
+{
+  "episode": "EP005",
+  "version": "user-script-v2",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 2250,
+  "duration_seconds": 75.0,
+  "cues": [
+    {
+      "cue_id": "EP005-C01",
+      "text": "手电光照在叉车轮子上。一个女人说，停。我抬头，看见她腰侧挂着一根短棍。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C01.wav",
+      "audio_sha256": "dc555ea2be8c713a71a91c09fdc0deb86e785ba0b6b9a9b4ad4ee14284610b9b",
+      "actual_duration_seconds": 6.137,
+      "start_frame": 0,
+      "end_frame": 185,
+      "external_gap_before_frames": 0,
+      "source_audio_path": "episodes/EP005/audio/EP005-C01.mp3",
+      "source_audio_sha256": "f4ae9429ee1b808991e13006f1c45e877e3152a8994ee81c1086db0ec9664136",
+      "source_duration_seconds": 8.0,
+      "sample_count": 294576
+    },
+    {
+      "cue_id": "EP005-C02",
+      "text": "她站得笔直，右手习惯性贴着腰侧，左耳后有一道浅疤。她说，这批货，没有报备单。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C02.wav",
+      "audio_sha256": "76a085ce01deb6abfe310deac03304d7029aa24b660f492b84e9aa3ccf3c7c25",
+      "actual_duration_seconds": 6.196104166666666,
+      "start_frame": 188,
+      "end_frame": 374,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C02.mp3",
+      "source_audio_sha256": "901b815d0770adc62a0db6929d2a3da52c0040acf04d25da64bd565f7e7c392b",
+      "source_duration_seconds": 8.1,
+      "sample_count": 297413
+    },
+    {
+      "cue_id": "EP005-C03",
+      "text": "我把合同递过去。她看得很慢，没找到破绽，就抽出美工刀，划开一个纸箱，又划开一个。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C03.wav",
+      "audio_sha256": "2298800175bf7dfed78168009617e2521ee32d15376a360cf301901e57f907df",
+      "actual_duration_seconds": 6.601979166666666,
+      "start_frame": 377,
+      "end_frame": 576,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C03.mp3",
+      "source_audio_sha256": "72fcf4635ef440be2e2cdc1f28cb3de7929c19a3f40b1d78c00514f0ab31d6e2",
+      "source_duration_seconds": 8.6,
+      "sample_count": 316895
+    },
+    {
+      "cue_id": "EP005-C04",
+      "text": "柴油，压缩饼干，种子，探照灯。她抬眼看我，说，这些东西放在一起，只有两种人，邪教，和准备打仗的。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C04.wav",
+      "audio_sha256": "0bfd142baad0b59ba181e1821ddb11bf394b0f9ae6759e7d855e3819580c42c3",
+      "actual_duration_seconds": 8.620375,
+      "start_frame": 579,
+      "end_frame": 838,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C04.mp3",
+      "source_audio_sha256": "1b7a9bd29713825dd334db58d8631b48f9a6ada107e9fab55a4353f97cd42a0b",
+      "source_duration_seconds": 11.2,
+      "sample_count": 413778
+    },
+    {
+      "cue_id": "EP005-C05",
+      "text": "我说，我是前仓储主管。我囤的不是货，是命。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C05.wav",
+      "audio_sha256": "42bf97884507f961497f8b0bbdbbe2fbbb4b7e3125acb0a71e6e87e718b508a6",
+      "actual_duration_seconds": 3.9147916666666664,
+      "start_frame": 841,
+      "end_frame": 959,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C05.mp3",
+      "source_audio_sha256": "88b595e1e15589448e0358e334846ff68e8a0ee4c9100fa9e51d792609064bf2",
+      "source_duration_seconds": 5.12,
+      "sample_count": 187910
+    },
+    {
+      "cue_id": "EP005-C06",
+      "text": "她握刀的手，停了半秒。她问，命？我说，三个月后，你就知道我说得对不对。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C06.wav",
+      "audio_sha256": "b4647c4eaa503900ef1fd2e814e035e3f083b2390b5f9c71dae4cc4811904aa8",
+      "actual_duration_seconds": 5.769729166666667,
+      "start_frame": 962,
+      "end_frame": 1136,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C06.mp3",
+      "source_audio_sha256": "420f2c9a6f98f4538c10fdf4d9ef5b97b936e04802a3e55db7a790b9c3589911",
+      "source_duration_seconds": 7.5,
+      "sample_count": 276947
+    },
+    {
+      "cue_id": "EP005-C07",
+      "text": "她冷冷收刀。三个月后我还在这儿当保安。你要是骗我，我查你一辈子。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C07.wav",
+      "audio_sha256": "6eaa8a0355f94c084e89b49effa1c0fce897bf8b9047b4cada50d1c49fa507e8",
+      "actual_duration_seconds": 5.184645833333334,
+      "start_frame": 1139,
+      "end_frame": 1295,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C07.mp3",
+      "source_audio_sha256": "5716b7a563aa7479c7c7916dc0c11adf86e595ae102eac286872c48a4a1ef2f0",
+      "source_duration_seconds": 6.78025,
+      "sample_count": 248863
+    },
+    {
+      "cue_id": "EP005-C08",
+      "text": "补完资料，她在回执上签了名字，夏凛。字迹很重，像刀刻出来的。那时候，距离血月降临，还剩八十五天。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C08.wav",
+      "audio_sha256": "4357882be72ae3de2d2287cbcd03af65e6566043fefb9cfaa3d10ba875effcfa",
+      "actual_duration_seconds": 8.298666666666668,
+      "start_frame": 1298,
+      "end_frame": 1547,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C08.mp3",
+      "source_audio_sha256": "b5aaaae5bd5611dfcb074474b50add5927ade081193e6b9cd20a5f7a775a7b14",
+      "source_duration_seconds": 10.8,
+      "sample_count": 398336
+    },
+    {
+      "cue_id": "EP005-C09",
+      "text": "卸货的时候，她一直站在叉车和人之间。我心想，仓里这么多东西，夜里是该有个这样认真的人。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C09.wav",
+      "audio_sha256": "61ecdba3c21db54a3ef8b04319b4a796775d41304b8625addbf04afd66c4cfd5",
+      "actual_duration_seconds": 6.627083333333333,
+      "start_frame": 1550,
+      "end_frame": 1749,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C09.mp3",
+      "source_audio_sha256": "065b792bef985fa1698a6210daf28f57c976a652ef8ecdfc329b9bbbe7b51a5f",
+      "source_duration_seconds": 8.6,
+      "sample_count": 318100
+    },
+    {
+      "cue_id": "EP005-C10",
+      "text": "凌晨，我去岗亭交副本。她正合上一本旧本子，页面上露出一笔转账，八千。我没问是给谁。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C10.wav",
+      "audio_sha256": "9cb701cb4204384d48146aab93e2071fe5936a21b5f2137acc54dcda2e683eeb",
+      "actual_duration_seconds": 7.36,
+      "start_frame": 1752,
+      "end_frame": 1973,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C10.mp3",
+      "source_audio_sha256": "a6031ff41fe2a23aecd53bcbde40cc4ab79ad325c9dea64b4384e7e5f2003927",
+      "source_duration_seconds": 9.589844,
+      "sample_count": 353280
+    },
+    {
+      "cue_id": "EP005-C11",
+      "text": "她没抬头，把我的报备单压在窗口下，在新的一页，写下一个字。命。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C11.wav",
+      "audio_sha256": "efba19765215a5cdaea7377bd4fdbdc752918aa801db4e37056a7233bf763273",
+      "actual_duration_seconds": 5.075354166666667,
+      "start_frame": 1976,
+      "end_frame": 2129,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C11.mp3",
+      "source_audio_sha256": "3dcac072135541c42911e7f5e68e0ff6ba35b763d7de4876bc27d64be1ebd21b",
+      "source_duration_seconds": 6.6,
+      "sample_count": 243617
+    },
+    {
+      "cue_id": "EP005-C12",
+      "text": "她脖子上挂着一块旧狗牌，握着笔的指节，微微发白。\n",
+      "audio_path": "episodes/EP005/audio/speed1p3/EP005-C12.wav",
+      "audio_sha256": "3495ef8d8ec276954ea945e1e79bdfb3358cb458636d95ae9fdd9995eab6d728",
+      "actual_duration_seconds": 3.904,
+      "start_frame": 2132,
+      "end_frame": 2250,
+      "external_gap_before_frames": 3,
+      "source_audio_path": "episodes/EP005/audio/EP005-C12.mp3",
+      "source_audio_sha256": "f5df40db0d9f0f9bac5a552ab077040e7f0261f4ffa17c573471c3242cf56546",
+      "source_duration_seconds": 5.1,
+      "sample_count": 187392
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP005-S01",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C01"
+      ],
+      "source_text": "手电光照在叉车轮子上。一个女人说，停。我抬头，看见她腰侧挂着一根短棍。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "手电照住叉车轮子，夏凛从侧前方抬手喊停，短棍挂腰，叉车已经停稳",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S01.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 0,
+      "estimated_duration_seconds": 4.0,
+      "start_frame": 0,
+      "end_frame": 185,
+      "image_path": "episodes/EP005/frames/EP005-S01-release-take01.png",
+      "image_sha256": "9817dd360e7507d9a69311fd408670f5a8ec92e779ddbfebc8b1f51d15492159",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.166666666666667,
+      "transition_frames": 0,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S02",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C02"
+      ],
+      "source_text": "她站得笔直，右手习惯性贴着腰侧，左耳后有一道浅疤。她说，这批货，没有报备单。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛侧后转脸中近景，左耳后浅疤可见，右手贴腰，另一手持检查夹板",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S02.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 4.1,
+      "estimated_duration_seconds": 4.267,
+      "start_frame": 185,
+      "end_frame": 374,
+      "image_path": "episodes/EP005/frames/EP005-S02-release-take01.png",
+      "image_sha256": "0e1a8eb4c9d96ba8d5557086af7a70294de274f25f4091e9ec7c376fde88f461",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.3,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S03",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C03"
+      ],
+      "source_text": "我把合同递过去。她看得很慢，没找到破绽，就抽出美工刀，划开一个纸箱，又划开一个。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "夏凛看过陈屿合同后用美工刀仅划箱口胶带，刀远离身体，陈屿站旁，两人",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S03.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 8.467,
+      "estimated_duration_seconds": 4.533,
+      "start_frame": 374,
+      "end_frame": 576,
+      "image_path": "episodes/EP005/frames/EP005-S03-release-take01.png",
+      "image_sha256": "c881f35b88f48ac05369c0b12c1fe3445e3c33b4a68376e5493e59e9196791ab",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.733333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S04",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C04"
+      ],
+      "source_text": "柴油，压缩饼干，种子，探照灯。她抬眼看我，说，这些东西放在一起，只有两种人，邪教，和准备打仗的。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "分区验货宽景，饼干种子灯具在近处，后方隔离的密封柴油储位通过门可见，夏凛问话",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S04.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 13.1,
+      "estimated_duration_seconds": 5.067,
+      "start_frame": 576,
+      "end_frame": 707,
+      "image_path": "episodes/EP005/frames/EP005-S04-release-take01.png",
+      "image_sha256": "12f8c436e45cf5d1cdea4d78b3c118f61582b545f602b50c89867dd25bdd2cf3",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.366666666666666,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S04B",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C04"
+      ],
+      "source_text": "柴油，压缩饼干，种子，探照灯。她抬眼看我，说，这些东西放在一起，只有两种人，邪教，和准备打仗的。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "夏凛抬眼看陈屿认真质问，密封燃油只在库后独立分区视线中，镜头不把油桶与食品混在一个箱子",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S04B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 13.1,
+      "estimated_duration_seconds": 5.067,
+      "start_frame": 707,
+      "end_frame": 838,
+      "image_path": "episodes/EP005/frames/EP005-S04B-release-take01.png",
+      "image_sha256": "d14837a2dae87882c59c00db978438f2addbde0786cd288fc365cc9fdec0b158",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.366666666666666,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP005-S05",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C05"
+      ],
+      "source_text": "我说，我是前仓储主管。我囤的不是货，是命。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "陈屿指水粮灯认真回答，夏凛停下开箱动作，双方站在货垛两侧",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S05.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 18.267,
+      "estimated_duration_seconds": 2.267,
+      "start_frame": 838,
+      "end_frame": 959,
+      "image_path": "episodes/EP005/frames/EP005-S05-release-take01.png",
+      "image_sha256": "1905aaa535116e9451355e974c67b27fb0aa53da0adec3f0e74b294ace5e9b7f",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.033333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S06",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C06"
+      ],
+      "source_text": "她握刀的手，停了半秒。她问，命？我说，三个月后，你就知道我说得对不对。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "特写夏凛握刀的手停在已开胶带上方，神情从冷淡变成短暂疑惑",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S06.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 20.633,
+      "estimated_duration_seconds": 3.733,
+      "start_frame": 959,
+      "end_frame": 1136,
+      "image_path": "episodes/EP005/frames/EP005-S06-release-take01.png",
+      "image_sha256": "6f8ed272cf3ee9ecef98c13e7f9d665f4c67c5afa51b146d8ff15686864a8448",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.9,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S07",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C07"
+      ],
+      "source_text": "她冷冷收刀。三个月后我还在这儿当保安。你要是骗我，我查你一辈子。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛把美工刀收回安全鞘，抬眼盯陈屿，衣领内藏狗牌链",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S07.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 24.467,
+      "estimated_duration_seconds": 3.733,
+      "start_frame": 1136,
+      "end_frame": 1295,
+      "image_path": "episodes/EP005/frames/EP005-S07-release-take01.png",
+      "image_sha256": "ad13e9e1947be98e974a644b7a593312e564c36a20c76f7940d08817ecc1f86d",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.3,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S08",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C08"
+      ],
+      "source_text": "补完资料，她在回执上签了名字，夏凛。字迹很重，像刀刻出来的。那时候，距离血月降临，还剩八十五天。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "手部近景夏凛用力在回执签字，无可读字，指节清楚，旁放报备资料",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S08.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 28.3,
+      "estimated_duration_seconds": 5.333,
+      "start_frame": 1295,
+      "end_frame": 1421,
+      "image_path": "episodes/EP005/frames/EP005-S08-release-take01.png",
+      "image_sha256": "67216c6f7e7ef0b28303077a392aed36933ebdf12dcf022cfe51a97279f45af2",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.2,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S08B",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C08"
+      ],
+      "source_text": "补完资料，她在回执上签了名字，夏凛。字迹很重，像刀刻出来的。那时候，距离血月降临，还剩八十五天。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "签完回执后陈屿接回纸页，夏凛收起笔和夹板，门口卸货得以继续，新增结果是资料补齐",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S08B.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 28.3,
+      "estimated_duration_seconds": 5.333,
+      "start_frame": 1421,
+      "end_frame": 1547,
+      "image_path": "episodes/EP005/frames/EP005-S08B-release-take01.png",
+      "image_sha256": "5c9e043603480038f74b29ea71d4bb521a569ad07d15057a2625435fffbfa11c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "next_take": null,
+      "prior_image_path": null,
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW",
+      "display_seconds": 4.2,
+      "transition_frames": 0,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "EP005-S09",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C09"
+      ],
+      "source_text": "卸货的时候，她一直站在叉车和人之间。我心想，仓里这么多东西，夜里是该有个这样认真的人。\n",
+      "scene_id": "WAREHOUSE",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛站在停稳叉车与工人路线之间指示安全间隔，陈屿在远处货垛边观察",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S09.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 33.733,
+      "estimated_duration_seconds": 5.067,
+      "start_frame": 1547,
+      "end_frame": 1749,
+      "image_path": "episodes/EP005/frames/EP005-S09-release-take01.png",
+      "image_sha256": "79c62e9e04381bd5fd8abfaa729e26630d24a3bf888470be10a0d2771b935fad",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 6.733333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S10",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C10"
+      ],
+      "source_text": "凌晨，我去岗亭交副本。她正合上一本旧本子，页面上露出一笔转账，八千。我没问是给谁。\n",
+      "scene_id": "GUARD",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "unique_event": "凌晨岗亭窗口，陈屿递副本，夏凛合上旧本子，纸页角露转账表格布局但无真实号码",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S10.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 38.9,
+      "estimated_duration_seconds": 4.667,
+      "start_frame": 1749,
+      "end_frame": 1973,
+      "image_path": "episodes/EP005/frames/EP005-S10-release-take01.png",
+      "image_sha256": "8803e16ae835083a46565fba8cb533f4e0e51e121a99b8d39120da66e5930c21",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 7.466666666666667,
+      "transition_frames": 3,
+      "duration_exception_reason": "原句事件边界保留；短回应或完整句群随实测1.3倍音频呈现，不截词、不延长音轨",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S11",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C11"
+      ],
+      "source_text": "她没抬头，把我的报备单压在窗口下，在新的一页，写下一个字。命。\n",
+      "scene_id": "GUARD",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "夏凛把报备单压在窗口下，旧本新一页只落一笔，脸不看镜头",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S11.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 43.667,
+      "estimated_duration_seconds": 3.467,
+      "start_frame": 1973,
+      "end_frame": 2129,
+      "image_path": "episodes/EP005/frames/EP005-S11-release-take01.png",
+      "image_sha256": "ac8631bd2ef74de09b5387fcec2b2ed7e5c3be2cc72bb69bbb7143be75b82ef8",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 5.2,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    },
+    {
+      "shot_id": "EP005-S12",
+      "episode": "EP005",
+      "cue_ids": [
+        "EP005-C12"
+      ],
+      "source_text": "她脖子上挂着一块旧狗牌，握着笔的指节，微微发白。\n",
+      "scene_id": "GUARD",
+      "character_ids": [
+        "XIA"
+      ],
+      "unique_event": "近景夏凛握笔指节发白，旧狗牌从领口微露，未交给陈屿",
+      "prompt_path": "episodes/EP005/image-prompts/EP005-S12.txt",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "timing_status": "MEASURED_POSTPROCESSED_AUDIO_INTEGER_FRAMES",
+      "estimated_start_seconds": 47.233,
+      "estimated_duration_seconds": 2.8,
+      "start_frame": 2129,
+      "end_frame": 2250,
+      "image_path": "episodes/EP005/frames/EP005-S12-release-take01.png",
+      "image_sha256": "6c243602ff5fb3141acd01b1fec79629e5c683c8f81a8c4fdf8ed72bfc4a419c",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "final_timing_locked": true,
+      "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+      "display_seconds": 4.033333333333333,
+      "transition_frames": 3,
+      "duration_exception_reason": null,
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "visual_review": "PASS_MODEL_CONTACT_SHEET_REVIEW"
+    }
+  ],
+  "audio_status": "PASS_GENERATED_AND_DECODED",
+  "subtitle_files": false,
+  "human_listening": "NOT_RUN",
+  "timing_note": "135段原声逐段atempo=1.3，按PCM实测采样数向上取整到帧；外部空档仍为3帧且只计一次。原始1.0时间线与文件保留。",
+  "tempo_multiplier": 1.3,
+  "provider_speed": 1.0,
+  "variant": "speed1p3",
+  "source_timeline": "episodes/EP005/timeline.json",
+  "audio_master_path": "episodes/EP005/render/speed1p3/narration.wav"
+}

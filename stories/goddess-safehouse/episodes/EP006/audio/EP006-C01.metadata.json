@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a62feea2aa0e652bf2a9e5ed3068e",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "第二天，我去物流园补资料，刚好走到办公室门口，听见马主任把一张通知拍在桌上。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 7956,
+    "audio_sample_rate": 32000,
+    "audio_size": 129012,
+    "bitrate": 128000,
+    "word_count": 38,
+    "invisible_character_ratio": 0,
+    "usage_characters": 72,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP006/audio/EP006-C01.mp3",
+  "bytes": 129012,
+  "sha256": "4a040fa588c81d59b15b4f43fa86c611c0e801b253481db5fa39c7e539c85348",
+  "subtitle_files_generated": false
+}

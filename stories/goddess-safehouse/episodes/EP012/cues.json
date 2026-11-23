@@ -1,0 +1,221 @@
+[
+  {
+    "cue_id": "EP012-C01",
+    "episode": "EP012",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "王大富把带血的手贴在门镜上。他身后，另一个人端着空碗。我没开门，只把门镜的遮片合上。",
+    "tts_text": "王大富把带血的手贴在门镜上。他身后，另一个人端着空碗。我没开门，只把门镜的遮片合上。",
+    "scene": "入口",
+    "character_ids": [
+      "CHEN"
+    ],
+    "events": [
+      "从门内看陈屿的手合上门镜遮片，门保持锁闭",
+      "门外王大富举着包裹伤手，身后成年邻居拿空碗，二人未入屋"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C01.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C02",
+    "episode": "EP012",
+    "speaker": "WANG",
+    "speaker_name": "王大富及门外声音",
+    "voice_id": "Chinese_worker_male",
+    "pitch": -2,
+    "source_text": "医生都在你家了！让她出来看一眼，能花你什么！",
+    "tts_text": "医生都在你家了！让她出来看一眼，能花你什么！",
+    "scene": "楼道",
+    "character_ids": [
+      "WANG"
+    ],
+    "events": [
+      "王大富隔着101紧闭的外门叫喊，伤手收在胸前"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C02.txt",
+    "status": "PENDING",
+    "direction": "只作必要门外台词，与陈屿保持场内空间区别，不冒充新的主叙述者",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C03",
+    "episode": "EP012",
+    "speaker": "CHEN",
+    "speaker_name": "陈屿对白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "不开。",
+    "tts_text": "不开。",
+    "scene": "旧客厅",
+    "character_ids": [
+      "CHEN"
+    ],
+    "events": [
+      "陈屿留在旧客厅内，手离开门锁转身回屋"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C03.txt",
+    "status": "PENDING",
+    "direction": "少而直接，判断和命令落稳",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C04",
+    "episode": "EP012",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "许知意站在医疗箱边。她看了看外门，又看向我包着纱布的手，拿起剪刀，把昨天留下的胶带毛边剪平。随后，她把药品一格格放回柜子。",
+    "tts_text": "许知意站在医疗箱边。她看了看外门，又看向我包着纱布的手，拿起剪刀，把昨天留下的胶带毛边剪平。随后，她把药品一格格放回柜子。",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU",
+      "CHEN"
+    ],
+    "events": [
+      "许知意为陈屿修整手上胶带边缘",
+      "许知意在厨房旁的医疗柜整理有限的纱布与碘伏"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C04.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C05",
+    "episode": "EP012",
+    "speaker": "XU",
+    "speaker_name": "许知意",
+    "voice_id": "female-chengshu",
+    "pitch": 0,
+    "source_text": "这只手今天别沾水。中午换药，我来。",
+    "tts_text": "这只手今天别沾水。中午换药，我来。",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU",
+      "CHEN"
+    ],
+    "events": [
+      "许知意看着陈屿，拿起一卷新纱布放在医疗柜前"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C05.txt",
+    "status": "PENDING",
+    "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C06",
+    "episode": "EP012",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "她把名字签进屋规，回房睡了六个小时。醒来时，枕边多了干净衣服，医疗柜旁则多出一只白箱。好感三十，入住补给：缝合耗材、敷料、冲洗液。每样都有数量。",
+    "tts_text": "她把名字签进屋规，回房睡了六个小时。醒来时，枕边多了干净衣服，医疗柜旁则多出一只白箱。好感三十，入住补给：缝合耗材、敷料、冲洗液。每样都有数量。",
+    "scene": "卧室XU",
+    "character_ids": [
+      "XU"
+    ],
+    "events": [
+      "许知意在独立卧室坐起，床边叠着干净浅色衣物",
+      "医疗柜边出现一只有限耗材的白色补给箱，无可读标签"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C06.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C07",
+    "episode": "EP012",
+    "speaker": "XU",
+    "speaker_name": "许知意",
+    "voice_id": "female-chengshu",
+    "pitch": 0,
+    "source_text": "这些我会收好。你们受伤，先来找我。",
+    "tts_text": "这些我会收好。你们受伤，先来找我。",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU"
+    ],
+    "events": [
+      "许知意把白补给箱放进医疗柜底部，神态安定"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C07.txt",
+    "status": "PENDING",
+    "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C08",
+    "episode": "EP012",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "安心值涨到三百九十五。页面下方还有未亮的房间：诊疗室、训练室、恒温耕地。每个图标后面，都标着尚未满足的居住条件。许知意把一碗粥放到我手边，推走了那包没泡开的速食面。",
+    "tts_text": "安心值涨到三百九十五。页面下方还有未亮的房间：诊疗室、训练室、恒温耕地。每个图标后面，都标着尚未满足的居住条件。许知意把一碗粥放到我手边，推走了那包没泡开的速食面。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "events": [
+      "陈屿坐在满库存的餐桌旁查看手机，屏幕只见抽象模块光块",
+      "许知意将热粥放在陈屿面前，把未开封速食面移到旁边"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C08.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C09",
+    "episode": "EP012",
+    "speaker": "XU",
+    "speaker_name": "许知意",
+    "voice_id": "female-chengshu",
+    "pitch": 0,
+    "source_text": "手不方便，就用勺子。别拿伤口试筷子。",
+    "tts_text": "手不方便，就用勺子。别拿伤口试筷子。",
+    "scene": "HOME2",
+    "character_ids": [
+      "XU",
+      "CHEN"
+    ],
+    "events": [
+      "许知意把勺子放入陈屿的粥碗，陈屿抬头看她"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C09.txt",
+    "status": "PENDING",
+    "direction": "温柔成熟，克制清晰，有医生的镇定；照顾屋内成员，不向男主谈入住条件",
+    "sound_effect": "none"
+  },
+  {
+    "cue_id": "EP012-C10",
+    "episode": "EP012",
+    "speaker": "N",
+    "speaker_name": "陈屿旁白",
+    "voice_id": "Chinese_worker_male",
+    "pitch": 0,
+    "source_text": "门外的空碗还在响。她坐下来，陪我把这顿早饭吃完。",
+    "tts_text": "门外的空碗还在响。她坐下来，陪我把这顿早饭吃完。",
+    "scene": "HOME2",
+    "character_ids": [
+      "CHEN",
+      "XU"
+    ],
+    "events": [
+      "陈屿和许知意面对面吃早饭，厨房暖亮，入口关闭"
+    ],
+    "text_path": "episodes/EP012/text-cues/EP012-C10.txt",
+    "status": "PENDING",
+    "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+    "sound_effect": "none"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a62e6c8d96a7a63f64c79c5515e2a",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "凌晨，我去岗亭交副本。她正合上一本旧本子，页面上露出一笔转账，八千。我没问是给谁。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 9648,
+    "audio_sample_rate": 32000,
+    "audio_size": 156084,
+    "bitrate": 128000,
+    "word_count": 41,
+    "invisible_character_ratio": 0,
+    "usage_characters": 76,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP005/audio/EP005-C10.mp3",
+  "bytes": 156084,
+  "sha256": "a6031ff41fe2a23aecd53bcbde40cc4ab79ad325c9dea64b4384e7e5f2003927",
+  "subtitle_files_generated": false
+}

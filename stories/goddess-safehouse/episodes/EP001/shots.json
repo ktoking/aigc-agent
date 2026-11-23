@@ -1,0 +1,951 @@
+[
+  {
+    "shot_id": "EP001-S01",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C01"
+    ],
+    "source_text": "王大富拿金条砸我的门时，锅里的毛肚刚下进去。他在门外喊，十根，全给你，开门。\n",
+    "scene_id": "CORRIDOR",
+    "character_ids": [
+      "WANG"
+    ],
+    "unique_event": "冷红光下，王大富一手攥装金条的小布袋，一手拍101闭门，手背有限干燥血迹，无伤口特写",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S01.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/WANG-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 0,
+    "estimated_duration_seconds": 4.267,
+    "start_frame": 0,
+    "end_frame": 125,
+    "image_path": "episodes/EP001/frames/EP001-S01-v2.png",
+    "image_sha256": "599c6fdd96b5e88014c8afdfd68a465e4cacdf65544ad1c90f4468f5fe6c5afa",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 4.166666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S01B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C01"
+    ],
+    "source_text": "王大富拿金条砸我的门时，锅里的毛肚刚下进去。他在门外喊，十根，全给你，开门。\n",
+    "scene_id": "CORRIDOR",
+    "character_ids": [
+      "WANG"
+    ],
+    "unique_event": "王大富攥紧小布袋，袋口露出少量真实金条边缘，另一只手继续拍门，新增信息是他拿来交换的金条；手部近景，独立新图",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S01B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP001/frames/EP001-S01-v2.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 0,
+    "estimated_duration_seconds": 4.267,
+    "start_frame": 125,
+    "end_frame": 250,
+    "image_path": "episodes/EP001/frames/EP001-S01B-v2-take02.png",
+    "image_sha256": "2bb127c4aa6462570139ae6fbb02e722577232bf177053365276a9c18be8206b",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": null,
+    "next_take": 2,
+    "prior_image_path": "episodes/EP001/frames/EP001-S01B-v2.png",
+    "display_seconds": 4.166666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S02",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C02"
+    ],
+    "source_text": "我夹起毛肚，涮了七下，隔着门回他，当初在群里说我借钱囤货是傻子的时候，你可没这么客气。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "暖色餐桌中近景，陈屿以筷子夹一片毛肚在红汤上方，远处门口暗红光，衣袖与食材清楚",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S02.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 4.367,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 250,
+    "end_frame": 391,
+    "image_path": "episodes/EP001/frames/EP001-S02-v2.png",
+    "image_sha256": "c0487cedae6fa455b62a7d2658eb72791d5d916d45d02c917f8dfbcb1028c4f8",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 4.7,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S02B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C02"
+    ],
+    "source_text": "我夹起毛肚，涮了七下，隔着门回他，当初在群里说我借钱囤货是傻子的时候，你可没这么客气。\n",
+    "scene_id": "HOME2",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿将筷子停在碗沿，抬眼朝闭合的门回应，暖光下神情冷静，画面新增门内人的回应，不重复夹毛肚构图",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S02B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP001/frames/EP001-S02-v2.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 4.367,
+    "estimated_duration_seconds": 5.067,
+    "start_frame": 391,
+    "end_frame": 532,
+    "image_path": "episodes/EP001/frames/EP001-S02B-v2-take02.png",
+    "image_sha256": "8c2c1a1b10a9df5ed80ea2ff5e7c6c5c2e293b2ea5d1c7caa59dcf21ac1e16d1",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": null,
+    "next_take": 2,
+    "prior_image_path": "episodes/EP001/frames/EP001-S02B-v2.png",
+    "display_seconds": 4.7,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S03",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C03"
+    ],
+    "source_text": "这是血月降临的第一夜。这顿火锅，我准备了九十天。\n",
+    "scene_id": "HOME2",
+    "character_ids": [],
+    "unique_event": "火锅和两副碗筷的静物近景，旁有牛肉蔬菜，远处闭合门框，门内暖黄门外冷红",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S03.txt",
+    "reference_paths": [],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 9.533,
+    "estimated_duration_seconds": 2.8,
+    "start_frame": 532,
+    "end_frame": 676,
+    "image_path": "episodes/EP001/frames/EP001-S03-v2.png",
+    "image_sha256": "0be7eaacfef04e13f4ff45682e68c3badbed328fcb9e5b616d8a2d24f46e3239",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 4.8,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S04",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C04"
+    ],
+    "source_text": "九十天前，我还是个被甩锅的仓储主管。马主任说，三十箱货的缺口，签收单上是你的名字。\n",
+    "scene_id": "OFFICE",
+    "character_ids": [
+      "CHEN",
+      "MA"
+    ],
+    "unique_event": "九十天前办公室，马主任把一张签收单推到陈屿面前，桌面仅单据和工牌",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S04.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 12.433,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 676,
+    "end_frame": 809,
+    "image_path": "episodes/EP001/frames/EP001-S04-v2.png",
+    "image_sha256": "6ca00b7802258d5a0f24cfac1043c7b697d1651384d18de1686ac58da90f88a2",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 4.433333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S04B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C04"
+    ],
+    "source_text": "九十天前，我还是个被甩锅的仓储主管。马主任说，三十箱货的缺口，签收单上是你的名字。\n",
+    "scene_id": "OFFICE",
+    "character_ids": [
+      "CHEN",
+      "MA"
+    ],
+    "unique_event": "签收单桌面近景，马主任食指压在签收栏的笔迹处，陈屿的手停在纸边；只出现两人的手，强调被用来追责的签名，不生成可读字",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S04B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 12.433,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 809,
+    "end_frame": 943,
+    "image_path": "episodes/EP001/frames/EP001-S04B-v2.png",
+    "image_sha256": "95cb786e04fe342669742f9ca7ce7e2a0100dc961086cef74977e1ec5ae8cb62",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": null,
+    "next_take": null,
+    "prior_image_path": null,
+    "display_seconds": 4.466666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S05",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C05"
+    ],
+    "source_text": "我说，是你催我先签的。他一把压住单子，问我，证据呢。\n",
+    "scene_id": "OFFICE",
+    "character_ids": [
+      "CHEN",
+      "MA"
+    ],
+    "unique_event": "近景，陈屿伸手拿签收单，马主任掌心压住纸页，双方手腕姿态自然",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S05.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/MA-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 17.333,
+    "estimated_duration_seconds": 2.8,
+    "start_frame": 943,
+    "end_frame": 1106,
+    "image_path": "episodes/EP001/frames/EP001-S05-v2.png",
+    "image_sha256": "339285aab6bda107919227e725d0919a6c4524253ce87ce92c13a4fd24aa70e1",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 5.433333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S06",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C06"
+    ],
+    "source_text": "我摘下工牌，放在桌上。第二天，我就不用再来了。\n",
+    "scene_id": "OFFICE",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "工牌落在桌面的近景，陈屿的手刚松开卡片，胸前挂绳已摘掉",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S06.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 20.233,
+    "estimated_duration_seconds": 2.533,
+    "start_frame": 1106,
+    "end_frame": 1256,
+    "image_path": "episodes/EP001/frames/EP001-S06-v2.png",
+    "image_sha256": "e12b524286facdc30337cbc9b45dfcc406352a4e4a5a4d90f42ec244e4db2d93",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 5.0,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S07",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C07"
+    ],
+    "source_text": "我回到父母留下的老房子，梧桐里三栋一零一，连灯都没开。手机自己亮了。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "深夜旧客厅，陈屿坐在木桌边，只有手机光映着疲惫脸部，客厅灯未开",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S07.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 22.867,
+    "estimated_duration_seconds": 4.0,
+    "start_frame": 1256,
+    "end_frame": 1484,
+    "image_path": "episodes/EP001/frames/EP001-S07-v2.png",
+    "image_sha256": "f41d55a4f5e86fffe46724b43cbf384a3a0f4f9f7f08e64086cbd63e67f5b899",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 7.6,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP001-S08",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C08"
+    ],
+    "source_text": "方舟安全屋系统，已绑定。下面一行数字，一秒一秒往下跳，距离血月降临，八十九天二十三小时五十九分。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "过肩手机，显示抽象红色倒计时光块与绑定信息布局但无可读字，陈屿保持警惕",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S08.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 26.967,
+    "estimated_duration_seconds": 5.6,
+    "start_frame": 1484,
+    "end_frame": 1649,
+    "image_path": "episodes/EP001/frames/EP001-S08-v2.png",
+    "image_sha256": "d2c780bd4dfd39d06a593d35c7e7355f69be7d8c36604589603184235af81902",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 5.5,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S08B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C08"
+    ],
+    "source_text": "方舟安全屋系统，已绑定。下面一行数字，一秒一秒往下跳，距离血月降临，八十九天二十三小时五十九分。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿低头看手机红色倒计时，手机光映在他皱起的眉眼，另一手把工牌收进抽屉；正面半身，手机屏幕背向镜头，画面无UI浮层",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S08B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 26.967,
+    "estimated_duration_seconds": 5.6,
+    "start_frame": 1649,
+    "end_frame": 1814,
+    "image_path": "episodes/EP001/frames/EP001-S08B-v2.png",
+    "image_sha256": "df6321b3d12198eb5888cb7caea0b6f5d58cc34d3b7570183dd8e0eb1ffeb8fd",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": null,
+    "next_take": null,
+    "prior_image_path": null,
+    "display_seconds": 5.5,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S09",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C09"
+    ],
+    "source_text": "我以为是诈骗软件。直到卧室的门，自己弹开一条缝，白光一直照到我的鞋尖。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "低机位，卧室门自己打开细缝，一线白光照到陈屿干燥鞋尖",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S09.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 32.667,
+    "estimated_duration_seconds": 4.133,
+    "start_frame": 1814,
+    "end_frame": 2027,
+    "image_path": "episodes/EP001/frames/EP001-S09-v2.png",
+    "image_sha256": "14c18de80b633bf828278a919e49b72da1b9286c5d3d335c3190c25e9e50081f",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 7.1,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围"
+  },
+  {
+    "shot_id": "EP001-S10",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C10"
+    ],
+    "source_text": "十二平方米的小卧室不见了，门后是一间足有两百平方米的空厅。我扔进去半包泡面，它悬了一秒，无声落地。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "从正常卧室门框过肩看200㎡白色空厅，陈屿抛入半包泡面，包装在离地低处定格",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S10.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 36.9,
+    "estimated_duration_seconds": 5.867,
+    "start_frame": 2027,
+    "end_frame": 2183,
+    "image_path": "episodes/EP001/frames/EP001-S10-v2-take02.png",
+    "image_sha256": "9f2ab38199323bcbcdcf5b325bee48e8fb46a364cec0aa8279f675fdc405c535",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": "episodes/EP001/frames/EP001-S10-v2.png",
+    "next_take": 2,
+    "visual_review": "出现尚不存在的货架纸箱、窗和杯装方便面，空厅状态错误",
+    "display_seconds": 5.2,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S10B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C10"
+    ],
+    "source_text": "十二平方米的小卧室不见了，门后是一间足有两百平方米的空厅。我扔进去半包泡面，它悬了一秒，无声落地。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "空白大厅地面近景，一包已开口的袋装方便面被抛入后在离地很低处悬停，包装袋里保留饼块，不能变成纸杯泡面；陈屿一只手在画面边缘，空厅无货架",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S10B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 36.9,
+    "estimated_duration_seconds": 5.867,
+    "start_frame": 2183,
+    "end_frame": 2339,
+    "image_path": "episodes/EP001/frames/EP001-S10B-v2.png",
+    "image_sha256": "b62f52c24145ce5a508df60b8d44664c52c8ad1358a64c9023d95085344eed68",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": null,
+    "next_take": null,
+    "visual_review": null,
+    "display_seconds": 5.2,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S11",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C11"
+    ],
+    "source_text": "系统说，屋里的东西不会坏，屋外的怪物进不来。紧接着，一行红字，血月降临后，屋外将不再适合人类生存。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "中景，陈屿持手机对照空厅，墙边只有小块警示红光，怪物尚未出现在现实",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S11.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 42.867,
+    "estimated_duration_seconds": 5.6,
+    "start_frame": 2339,
+    "end_frame": 2493,
+    "image_path": "episodes/EP001/frames/EP001-S11-v2-take02.png",
+    "image_sha256": "2bb59feb89f115295cc4dcebd13118c7a47d72fdbc20d1a298c421fd50e384ca",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": "episodes/EP001/frames/EP001-S11-v2.png",
+    "next_take": 2,
+    "visual_review": "出现尚未采购的货架和纸箱，空厅状态错误",
+    "display_seconds": 5.133333333333334,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S11B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C11"
+    ],
+    "source_text": "系统说，屋里的东西不会坏，屋外的怪物进不来。紧接着，一行红字，血月降临后，屋外将不再适合人类生存。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "手机玻璃内局部红色警示区域特写，陈屿指尖收紧，背景只有无窗空白厅墙面；怪物没有在现实出现，红色警告内容由配音承担，画中无可读文字",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S11B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 42.867,
+    "estimated_duration_seconds": 5.6,
+    "start_frame": 2493,
+    "end_frame": 2648,
+    "image_path": "episodes/EP001/frames/EP001-S11B-v2.png",
+    "image_sha256": "383ceeb498ca1e9b8f2673fce8aafc701f99a30ae4b6866c6aa9e6f56b0f05f5",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": null,
+    "next_take": null,
+    "visual_review": null,
+    "display_seconds": 5.166666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S12",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C12"
+    ],
+    "source_text": "我盯着银行卡，四十一万两千。又盯着那行倒计时。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "桌面近景，陈屿指尖握手机，屏幕简洁金融余额布局无可读字，另一边采购本空白页",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S12.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 48.567,
+    "estimated_duration_seconds": 2.667,
+    "start_frame": 2648,
+    "end_frame": 2801,
+    "image_path": "episodes/EP001/frames/EP001-S12-v2.png",
+    "image_sha256": "837349d2cc1eda1c9755d83febb757a71dc4a7d0382a9d447c0f8d6ce2b5c8b9",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 5.1,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S13",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C13"
+    ],
+    "source_text": "我打开购物软件，搜索，压缩饼干。顺手又买了两盒草莓，一盒放屋里，一盒放屋外，做个对照。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "俯拍两盒完整干燥草莓摆在卧室门槛两侧，陈屿分别推入一盒，手机购物页虚焦",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S13.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 51.333,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 2943,
+    "end_frame": 3086,
+    "image_path": "episodes/EP001/frames/EP001-S13-v2-take02.png",
+    "image_sha256": "5296b39ffaca63ea6db6a1640bb36373b95fd381fe5eaf98de7e293b8179adfc",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": "episodes/EP001/frames/EP001-S13-v2.png",
+    "next_take": 2,
+    "visual_review": "前门误作卧室门、另有悬空持手机的第三只手，空间和人数错误",
+    "display_seconds": 4.766666666666667,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S13B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C13"
+    ],
+    "source_text": "我打开购物软件，搜索，压缩饼干。顺手又买了两盒草莓，一盒放屋里，一盒放屋外，做个对照。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "木桌近景，陈屿用手机购物软件选择压缩饼干与两盒草莓，手机仅显示无字商品小图；采购本空页在旁，没有第三只手或悬浮气泡",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S13B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 51.333,
+    "estimated_duration_seconds": 4.8,
+    "start_frame": 2801,
+    "end_frame": 2943,
+    "image_path": "episodes/EP001/frames/EP001-S13B-v2.png",
+    "image_sha256": "17e4a80bfc60a1c60e07c1331afad1b57f0732734d964626e917fccb59f88951",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": null,
+    "next_take": null,
+    "visual_review": null,
+    "display_seconds": 4.733333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S14",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C14"
+    ],
+    "source_text": "第二天，我在业主群问，谁有大米，我收五吨。王大富回我，你是要开粮店，还是脑子坏了。满屏都是哈哈哈。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "次日陈屿读手机群聊，气泡及笑脸形状表达嘲笑但无可读文字，货架商品照片在旁",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S14.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 56.233,
+    "estimated_duration_seconds": 5.467,
+    "start_frame": 3086,
+    "end_frame": 3242,
+    "image_path": "episodes/EP001/frames/EP001-S14-v2-take02.png",
+    "image_sha256": "62f70d61d7b3f5c9259cf097c42fd3001af41255be53f9a744f47b8822099d32",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": "episodes/EP001/frames/EP001-S14-v2.png",
+    "next_take": 2,
+    "visual_review": "出现手机外悬浮聊天气泡，违背干净无UI画面",
+    "display_seconds": 5.2,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S14B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C14"
+    ],
+    "source_text": "第二天，我在业主群问，谁有大米，我收五吨。王大富回我，你是要开粮店，还是脑子坏了。满屏都是哈哈哈。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "手机屏幕近景，陈屿发出的米袋照片与多行笑脸回复仅出现在玻璃屏幕内，双手握手机；室内无悬浮聊天气泡和贴图，人物脸不入镜",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S14B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 56.233,
+    "estimated_duration_seconds": 5.467,
+    "start_frame": 3242,
+    "end_frame": 3398,
+    "image_path": "episodes/EP001/frames/EP001-S14B-v2.png",
+    "image_sha256": "59bf59c0d0ce083396a3664c4c550725bd2268bea896ffdcb81283ba89906bc7",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": null,
+    "next_take": null,
+    "visual_review": null,
+    "display_seconds": 5.2,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S15",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C15"
+    ],
+    "source_text": "我关掉群聊，心里只有一个字，笑吧。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "近景陈屿按灭群聊屏幕，嘴角克制，手旁采购本已打开",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S15.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 61.8,
+    "estimated_duration_seconds": 1.867,
+    "start_frame": 3398,
+    "end_frame": 3516,
+    "image_path": "episodes/EP001/frames/EP001-S15-v2.png",
+    "image_sha256": "0aa1f088785237f44d8785bc96c7627a2c48badbb303e01378369d0afdc36087",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "visual_review": "逐图检查人物、可见事件、干燥整洁与无外挂字幕；当前预排未锁最终时长",
+    "display_seconds": 3.933333333333333,
+    "transition_frames": 3,
+    "duration_exception_reason": "短揭示/短回应，保持当前事件边界和下一场切换；连续声音完整"
+  },
+  {
+    "shot_id": "EP001-S16",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C16"
+    ],
+    "source_text": "当晚，空厅的墙上，亮起一行红字，警告，检测到同类信号，数量未知。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "当晚空厅白墙浮现一小块红色警示光，陈屿抬头看，门后房间空着",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S16.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 63.767,
+    "estimated_duration_seconds": 3.467,
+    "start_frame": 3516,
+    "end_frame": 3639,
+    "image_path": "episodes/EP001/frames/EP001-S16-v2-take02.png",
+    "image_sha256": "77e1a8adf714adcb39553370b356c587be75c44f272a14895991a1a8f453a334",
+    "generation_status": "VISUAL_REVIEW_PASS",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": "episodes/EP001/frames/EP001-S16-v2.png",
+    "next_take": 2,
+    "visual_review": "出现未采购的货物，空厅状态错误",
+    "display_seconds": 4.1,
+    "transition_frames": 3,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S16B",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C16"
+    ],
+    "source_text": "当晚，空厅的墙上，亮起一行红字，警告，检测到同类信号，数量未知。\n",
+    "scene_id": "HALL1",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "陈屿站在空白厅里转头寻找红色警告的来源，门后旧客厅仍空无第二个人；侧面中景，与前镜看红光的姿势不同，空厅无货架",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S16B.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HALL1-v1.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 63.767,
+    "estimated_duration_seconds": 3.467,
+    "start_frame": 3639,
+    "end_frame": 3762,
+    "image_path": "episodes/EP001/frames/EP001-S16B-v2.png",
+    "image_sha256": "6b8ddc3693dbd21fa22149f61de2936c8a4f85bf1041bc8f005e9e405577593f",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "prior_image_path": null,
+    "next_take": null,
+    "visual_review": null,
+    "display_seconds": 4.1,
+    "transition_frames": 0,
+    "duration_exception_reason": null
+  },
+  {
+    "shot_id": "EP001-S17",
+    "episode": "EP001",
+    "cue_ids": [
+      "EP001-C17"
+    ],
+    "source_text": "我猛地回头，屋里空无一人。原来，收到倒计时的，不止我一个。\n",
+    "scene_id": "OLDHOME",
+    "character_ids": [
+      "CHEN"
+    ],
+    "unique_event": "从白色门洞反打旧客厅，陈屿猛回头，客厅没有第二个人，冷白门光勾出轮廓",
+    "prompt_path": "episodes/EP001/image-prompts/EP001-S17.txt",
+    "reference_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP001/frames/EP001-S07-v2.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+    ],
+    "timing_status": "MEASURED_AUDIO_INTEGER_FRAMES",
+    "estimated_start_seconds": 67.333,
+    "estimated_duration_seconds": 3.2,
+    "start_frame": 3762,
+    "end_frame": 3960,
+    "image_path": "episodes/EP001/frames/EP001-S17-v2-take02.png",
+    "image_sha256": "284413eca79aea9a9683ffa232eaf9ae96797e7c792a61bfb98338e48348fcdd",
+    "generation_status": "GENERATED_REVIEW_PENDING",
+    "final_timing_locked": true,
+    "timing_note": "用户要求先出图，当前一段一候选图；实际配音后沿语义边界拆/并，必要时另生成新图，不靠复用图凑时长。",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "display_seconds": 6.6,
+    "transition_frames": 3,
+    "duration_exception_reason": "确认稿该长句群在此可见状态下完整表达；连续声音不截词，单图时长略超主范围",
+    "prior_image_path": "episodes/EP001/frames/EP001-S17-v2.png",
+    "next_take": 2
+  }
+]

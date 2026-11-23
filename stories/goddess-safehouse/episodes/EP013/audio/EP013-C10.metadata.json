@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e436a2c1fbe57b50c603f0829b908",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "醒了换我。你别一直坐门边。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "female-yujie",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 3744,
+    "audio_sample_rate": 32000,
+    "audio_size": 61620,
+    "bitrate": 128000,
+    "word_count": 13,
+    "invisible_character_ratio": 0,
+    "usage_characters": 24,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP013/audio/EP013-C10.mp3",
+  "bytes": 61620,
+  "sha256": "11a1f70baa6063b4820b3f6a8bf9b83cf4b8ed434b4f56fbde5451636818ae59",
+  "subtitle_files_generated": false
+}

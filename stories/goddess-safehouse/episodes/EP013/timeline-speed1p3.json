@@ -1,0 +1,675 @@
+{
+  "episode": "EP013",
+  "version": "paradise-v1",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 1759,
+  "duration_seconds": 58.63333333333333,
+  "cues": [
+    {
+      "cue_id": "EP013-C01",
+      "episode": "EP013",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "撬棍砸上外门时，我正开灯查看台阶。两个同层住户趁亮冲了过来，其中一个把脸贴向门镜。转角的影子退进黑暗，没走远。",
+      "tts_text": "撬棍砸上外门时，我正开灯查看台阶。两个同层住户趁亮冲了过来，其中一个把脸贴向门镜。转角的影子退进黑暗，没走远。",
+      "scene": "楼道",
+      "character_ids": [],
+      "events": [
+        "两名成年同层住户持撬棍堵在101门外，院灯照亮脚下台阶",
+        "楼梯转角暗处出现高瘦怪物轮廓，与前景亮区隔开"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C01.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C01.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C01.wav",
+      "raw_duration_seconds": 11.7,
+      "actual_duration_seconds": 8.984646,
+      "audio_frames_30fps": 270,
+      "audio_sha256": "4ca60af3b7d140271c457a494fdfb6f27c8e044e1e94ca1b2fb770de66748a35",
+      "human_listening": "NOT_RUN",
+      "start_frame": 0,
+      "end_frame": 270,
+      "external_gap_before_frames": 0,
+      "display_text": "撬棍砸上外门时 我正开灯查看台阶 两个同层住户趁亮冲了过来 其中一个把脸贴向门镜 转角的影子退进黑暗 没走远"
+    },
+    {
+      "cue_id": "EP013-C02",
+      "episode": "EP013",
+      "speaker": "WANG",
+      "speaker_name": "王大富及门外声音",
+      "voice_id": "Chinese_worker_male",
+      "pitch": -2,
+      "source_text": "你一个人吃得完吗？开门！",
+      "tts_text": "你一个人吃得完吗？开门！",
+      "scene": "楼道",
+      "character_ids": [],
+      "events": [
+        "持械成年邻居抬起撬棍拍打紧闭外门，王大富只在对门缝里窥看"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C02.txt",
+      "status": "PASS",
+      "direction": "只作必要门外台词，与陈屿保持场内空间区别，不冒充新的主叙述者",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C02.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C02.wav",
+      "raw_duration_seconds": 2.635469,
+      "actual_duration_seconds": 2.005271,
+      "audio_frames_30fps": 61,
+      "audio_sha256": "043285189c8795615383846f7958410d2e16cb452730616c0b24f843453e66c5",
+      "human_listening": "NOT_RUN",
+      "start_frame": 273,
+      "end_frame": 334,
+      "external_gap_before_frames": 3,
+      "display_text": "你一个人吃得完吗 开门"
+    },
+    {
+      "cue_id": "EP013-C03",
+      "episode": "EP013",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "夏凛握住短棍。我按住她的手腕，目光留在手机上的入口状态。防护正常。墙上连一道裂纹都没有。",
+      "tts_text": "夏凛握住短棍。我按住她的手腕，目光留在手机上的入口状态。防护正常。墙上连一道裂纹都没有。",
+      "scene": "旧客厅",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "events": [
+        "陈屿按住夏凛握棍的手腕，二人都留在门内",
+        "陈屿查看手机上的抽象防护光块，旁边墙面完整"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C03.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C03.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C03.wav",
+      "raw_duration_seconds": 8.8,
+      "actual_duration_seconds": 6.781104,
+      "audio_frames_30fps": 204,
+      "audio_sha256": "18b122d429430f4728847444cd4409c5242b4ad0fa98e11cf695696a3c44d707",
+      "human_listening": "NOT_RUN",
+      "start_frame": 337,
+      "end_frame": 541,
+      "external_gap_before_frames": 3,
+      "display_text": "夏凛握住短棍 我按住她的手腕 目光留在手机上的入口状态 防护正常 墙上连一道裂纹都没有"
+    },
+    {
+      "cue_id": "EP013-C04",
+      "episode": "EP013",
+      "speaker": "CHEN",
+      "speaker_name": "陈屿对白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "留下。",
+      "tts_text": "留下。",
+      "scene": "旧客厅",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "events": [
+        "陈屿示意夏凛向内退一步，外门锁仍关严"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C04.txt",
+      "status": "PASS",
+      "direction": "少而直接，判断和命令落稳",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C04.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C04.wav",
+      "raw_duration_seconds": 1.102969,
+      "actual_duration_seconds": 0.816458,
+      "audio_frames_30fps": 25,
+      "audio_sha256": "6ec4027fb5fd618e8cb9427c07618471a45af7cf4be8bf2660a8e894197b7213",
+      "human_listening": "NOT_RUN",
+      "start_frame": 544,
+      "end_frame": 569,
+      "external_gap_before_frames": 3,
+      "display_text": "留下"
+    },
+    {
+      "cue_id": "EP013-C05",
+      "episode": "EP013",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "控制器在我掌心，两盏院灯同时熄灭。楼道静了一拍，随后是撬棍落地的声音。有人拼命拧自家门锁，有人的脚步停在半路。黑暗里，扶手发出一声刺耳的弯折。",
+      "tts_text": "控制器在我掌心，两盏院灯同时熄灭。楼道静了一拍，随后是撬棍落地的声音。有人拼命拧自家门锁，有人的脚步停在半路。黑暗里，扶手发出一声刺耳的弯折。",
+      "scene": "楼道",
+      "character_ids": [],
+      "events": [
+        "两盏院灯熄灭后，楼道仅余暗红月光，地上落下一根撬棍",
+        "暗处巨大的手爪压弯旧金属扶手，无血腥人体细节"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C05.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C05.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C05.wav",
+      "raw_duration_seconds": 15.1,
+      "actual_duration_seconds": 11.622417,
+      "audio_frames_30fps": 349,
+      "audio_sha256": "c45f77b79e5f5d9a96f59b7a03e8e04f691df19c22f54425fd3d54b0c043d036",
+      "human_listening": "NOT_RUN",
+      "start_frame": 572,
+      "end_frame": 921,
+      "external_gap_before_frames": 3,
+      "display_text": "控制器在我掌心 两盏院灯同时熄灭 楼道静了一拍 随后是撬棍落地的声音 有人拼命拧自家门锁 有人的脚步停在半路 黑暗里 扶手发出一声刺耳的弯折"
+    },
+    {
+      "cue_id": "EP013-C06",
+      "episode": "EP013",
+      "speaker": "XIA",
+      "speaker_name": "夏凛",
+      "voice_id": "female-yujie",
+      "pitch": 0,
+      "source_text": "门前还有一只。它没追走。",
+      "tts_text": "门前还有一只。它没追走。",
+      "scene": "旧客厅",
+      "character_ids": [
+        "XIA"
+      ],
+      "events": [
+        "夏凛靠近遮蔽的门镜倾听，神色冷静警惕"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C06.txt",
+      "status": "PASS",
+      "direction": "冷御姐，低稳短句；关心藏在行动里，软化时不换音色",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C06.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C06.wav",
+      "raw_duration_seconds": 3.274031,
+      "actual_duration_seconds": 2.4975,
+      "audio_frames_30fps": 75,
+      "audio_sha256": "f6ae8320648c27d0700df0ff730126e61a00d042bd91dee155bb697b3baefd14",
+      "human_listening": "NOT_RUN",
+      "start_frame": 924,
+      "end_frame": 999,
+      "external_gap_before_frames": 3,
+      "display_text": "门前还有一只 它没追走"
+    },
+    {
+      "cue_id": "EP013-C07",
+      "episode": "EP013",
+      "speaker": "CHEN",
+      "speaker_name": "陈屿对白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "让它等。",
+      "tts_text": "让它等。",
+      "scene": "旧客厅",
+      "character_ids": [
+        "CHEN"
+      ],
+      "events": [
+        "陈屿放下灯光控制器，转身离开锁闭的外门"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C07.txt",
+      "status": "PASS",
+      "direction": "少而直接，判断和命令落稳",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C07.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C07.wav",
+      "raw_duration_seconds": 1.184219,
+      "actual_duration_seconds": 0.882354,
+      "audio_frames_30fps": 27,
+      "audio_sha256": "0c6224a75b9af3c03af70ae195ad3a14a8ff39ea927a6bcc04c9d36e6201fe29",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1002,
+      "end_frame": 1029,
+      "external_gap_before_frames": 3,
+      "display_text": "让它等"
+    },
+    {
+      "cue_id": "EP013-C08",
+      "episode": "EP013",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "我把短棍从她手里拿下来，放在桌边。许知意已经摆好三副碗筷。我们吃饭时，门外响过一次抓挠，再没人敲门。夏凛坐了半天，终于把背靠上椅背。",
+      "tts_text": "我把短棍从她手里拿下来，放在桌边。许知意已经摆好三副碗筷。我们吃饭时，门外响过一次抓挠，再没人敲门。夏凛坐了半天，终于把背靠上椅背。",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XIA",
+        "XU"
+      ],
+      "events": [
+        "陈屿把短棍放在餐桌边，许知意摆好三副餐具",
+        "夏凛坐下靠住椅背，陈屿与许知意同桌吃饭"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C08.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C08.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C08.wav",
+      "raw_duration_seconds": 13.1,
+      "actual_duration_seconds": 10.082646,
+      "audio_frames_30fps": 303,
+      "audio_sha256": "da35c4d272b62b7cae1244004c2626c51b716546e0a1c3003fb6c16d2b34f2c6",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1032,
+      "end_frame": 1335,
+      "external_gap_before_frames": 3,
+      "display_text": "我把短棍从她手里拿下来 放在桌边 许知意已经摆好三副碗筷 我们吃饭时 门外响过一次抓挠 再没人敲门 夏凛坐了半天 终于把背靠上椅背"
+    },
+    {
+      "cue_id": "EP013-C09",
+      "episode": "EP013",
+      "speaker": "N",
+      "speaker_name": "陈屿旁白",
+      "voice_id": "Chinese_worker_male",
+      "pitch": 0,
+      "source_text": "安心值越过四百，卧室门边亮起一盏小夜灯。试用说明只有一项：关门后，隔绝屋外的声音。我让夏凛先去试。灯刚按亮，她握着杯子的手就慢慢松开了。",
+      "tts_text": "安心值越过四百，卧室门边亮起一盏小夜灯。试用说明只有一项：关门后，隔绝屋外的声音。我让夏凛先去试。灯刚按亮，她握着杯子的手就慢慢松开了。",
+      "scene": "卧室XIA",
+      "character_ids": [
+        "XIA"
+      ],
+      "events": [
+        "夏凛独立卧室门边出现柔和小夜灯，门闭合",
+        "夏凛坐在卧室床沿，手中杯子稳稳放到床头柜"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C09.txt",
+      "status": "PASS",
+      "direction": "冷静、贴近人物当时所知；不播报角色名，不替女主转述整段对白",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C09.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C09.wav",
+      "raw_duration_seconds": 14.4,
+      "actual_duration_seconds": 11.057063,
+      "audio_frames_30fps": 332,
+      "audio_sha256": "ae3bdd3e5b2c2e4bb30199af82e75aa341f88307c2d83374c23cf5b9592e611d",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1338,
+      "end_frame": 1670,
+      "external_gap_before_frames": 3,
+      "display_text": "安心值越过四百 卧室门边亮起一盏小夜灯 试用说明只有一项 关门后 隔绝屋外的声音 我让夏凛先去试 灯刚按亮 她握着杯子的手就慢慢松开了"
+    },
+    {
+      "cue_id": "EP013-C10",
+      "episode": "EP013",
+      "speaker": "XIA",
+      "speaker_name": "夏凛",
+      "voice_id": "female-yujie",
+      "pitch": 0,
+      "source_text": "醒了换我。你别一直坐门边。",
+      "tts_text": "醒了换我。你别一直坐门边。",
+      "scene": "卧室XIA",
+      "character_ids": [
+        "XIA"
+      ],
+      "events": [
+        "夏凛从卧室门口回头看陈屿，表情仍冷，眼神略柔"
+      ],
+      "text_path": "episodes/EP013/text-cues/EP013-C10.txt",
+      "status": "PASS",
+      "direction": "冷御姐，低稳短句；关心藏在行动里，软化时不换音色",
+      "sound_effect": "none",
+      "raw_audio_path": "episodes/EP013/audio/EP013-C10.mp3",
+      "audio_path": "episodes/EP013/audio-speed1p3/EP013-C10.wav",
+      "raw_duration_seconds": 3.7,
+      "actual_duration_seconds": 2.835792,
+      "audio_frames_30fps": 86,
+      "audio_sha256": "7efbb569e65c9f331cf50c0ddd8b240d9bc26f0c353ffac91f2c01833504e748",
+      "human_listening": "NOT_RUN",
+      "start_frame": 1673,
+      "end_frame": 1759,
+      "external_gap_before_frames": 3,
+      "display_text": "醒了换我 你别一直坐门边"
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "EP013-S001",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C01",
+      "start_frame": 0,
+      "end_frame": 146,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "两名成年同层住户持撬棍堵在101门外，院灯照亮脚下台阶",
+      "scene": "楼道",
+      "character_ids": [],
+      "reference_paths": [],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S001.txt",
+      "image_path": "episodes/EP013/frames/EP013-S001-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "9f372a8928d0289437beddc0fb2dadddfdd32c958402f872483562c7f560e459",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S001-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4d44067c-bbcc-43ff-adbb-dc945a18b168.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S002",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C01",
+      "start_frame": 146,
+      "end_frame": 293,
+      "display_seconds": 4.9,
+      "unique_event": "楼梯转角暗处出现高瘦怪物轮廓，与前景亮区隔开",
+      "scene": "楼道",
+      "character_ids": [],
+      "reference_paths": [],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S002.txt",
+      "image_path": "episodes/EP013/frames/EP013-S002-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "38e1e2bddc79c12ab823df7bdfa4d46a853159787151812e4590efc1bc3f9d8d",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S002-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-ce96ce44-7134-4ded-b737-e5663bf8d7a3.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S003",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C03",
+      "start_frame": 293,
+      "end_frame": 439,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿按住夏凛握棍的手腕，二人都留在门内",
+      "scene": "旧客厅",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S003.txt",
+      "image_path": "episodes/EP013/frames/EP013-S003-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "faca87e59327dc9f86e04f8e304384a5653eb5b49d3f6d0b913a7d7eb51ecbcf",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S003-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-dfee9b9a-f316-4fda-bb98-cba14d478012.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S004",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C03",
+      "start_frame": 439,
+      "end_frame": 586,
+      "display_seconds": 4.9,
+      "unique_event": "陈屿查看手机上的抽象防护光块，旁边墙面完整",
+      "scene": "旧客厅",
+      "character_ids": [
+        "CHEN"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S004.txt",
+      "image_path": "episodes/EP013/frames/EP013-S004-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "a13a201de7b73e6cf740eeb8ca72f3445d3cfd9e953223cf51e5eb8af9350a44",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S004-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e1dc29e4-4f29-467f-9860-81669c4ac981.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S005",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C05",
+      "start_frame": 586,
+      "end_frame": 732,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "两盏院灯熄灭后，楼道仅余暗红月光，地上落下一根撬棍",
+      "scene": "楼道",
+      "character_ids": [],
+      "reference_paths": [],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S005.txt",
+      "image_path": "episodes/EP013/frames/EP013-S005-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "80ea5bd290c2a67fb13b22bdb34d3dac194cc51361b9d16dc17d3b5c2133c442",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S005-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4824a8c2-a5f8-477f-9132-e02023818b8b.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S006",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C05",
+      "start_frame": 732,
+      "end_frame": 879,
+      "display_seconds": 4.9,
+      "unique_event": "暗处巨大的手爪压弯旧金属扶手，无血腥人体细节",
+      "scene": "门外",
+      "character_ids": [],
+      "reference_paths": [],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S006.txt",
+      "image_path": "episodes/EP013/frames/EP013-S006-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "93977fa0f99779dbdd39a009efac7334266156408d4e16f11f1d14219ec87bd4",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S006-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e585a911-3f00-446e-ab69-89aed749f7ae.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S007",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C06",
+      "start_frame": 879,
+      "end_frame": 1026,
+      "display_seconds": 4.9,
+      "unique_event": "夏凛靠近遮蔽的门镜倾听，神色冷静警惕",
+      "scene": "旧客厅",
+      "character_ids": [
+        "XIA"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S007.txt",
+      "image_path": "episodes/EP013/frames/EP013-S007-take02.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "d7d878c68c991dc0f7d7d49cc1eb34152110cde97e43590b080f9f30dbbe5fc5",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S007-take02.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-5e9e17f3-0a7e-4e0f-aabb-415a6b0d7c22.png",
+      "take": 2
+    },
+    {
+      "shot_id": "EP013-S008",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C08",
+      "start_frame": 1026,
+      "end_frame": 1172,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "陈屿把短棍放在餐桌边，许知意摆好三副餐具",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XU"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S008.txt",
+      "image_path": "episodes/EP013/frames/EP013-S008.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "15f3c230940a0b220e120fe8c4920430c788d208627eb88b100749844d0f051d",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S008.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-447c3294-da10-43b9-92c1-7673e8acfb96.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP013-S009",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C08",
+      "start_frame": 1172,
+      "end_frame": 1319,
+      "display_seconds": 4.9,
+      "unique_event": "夏凛坐下靠住椅背，陈屿与许知意同桌吃饭",
+      "scene": "HOME2",
+      "character_ids": [
+        "CHEN",
+        "XIA",
+        "XU"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XU-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S009.txt",
+      "image_path": "episodes/EP013/frames/EP013-S009.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "3ef5c254c714b1b285a2f6a42633b70b96a16359750dd6c5ec32f9acec40a464",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S009.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-7ed4b803-d8e2-4bf6-8538-7ebe167fa4b3.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP013-S010",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C09",
+      "start_frame": 1319,
+      "end_frame": 1465,
+      "display_seconds": 4.866666666666666,
+      "unique_event": "夏凛独立卧室门边出现柔和小夜灯，门闭合",
+      "scene": "卧室XIA",
+      "character_ids": [
+        "XIA"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S010.txt",
+      "image_path": "episodes/EP013/frames/EP013-S010.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "f62a107520ae5ce565a67314397aa36153c191a0fb1fb01939e527b0b6c3b8dd",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S010.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-4d964996-e4e8-489f-849c-f2bc931bf333.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP013-S011",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C09",
+      "start_frame": 1465,
+      "end_frame": 1612,
+      "display_seconds": 4.9,
+      "unique_event": "夏凛坐在卧室床沿，手中杯子稳稳放到床头柜",
+      "scene": "卧室XIA",
+      "character_ids": [
+        "XIA"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S011.txt",
+      "image_path": "episodes/EP013/frames/EP013-S011.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "3863fa6667c24d4a8aa75ac4b9815f4d2cf49cb0147b2e05170be22e00c4218b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S011.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-3749ba67-71bf-45d2-b4f6-49d664e5202e.png",
+      "take": null
+    },
+    {
+      "shot_id": "EP013-S012",
+      "episode": "EP013",
+      "anchor_cue": "EP013-C10",
+      "start_frame": 1612,
+      "end_frame": 1759,
+      "display_seconds": 4.9,
+      "unique_event": "夏凛从卧室门口回头看陈屿，表情仍冷，眼神略柔",
+      "scene": "卧室XIA",
+      "character_ids": [
+        "CHEN",
+        "XIA"
+      ],
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/CHEN-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/XIA-v3.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/assets/baselines/HOME2-v1.png"
+      ],
+      "prompt_path": "episodes/EP013/image-prompts/EP013-S012.txt",
+      "image_path": "episodes/EP013/frames/EP013-S012.png",
+      "generation_status": "VISUAL_REVIEW_PASS",
+      "visual_review": "PASS_MODEL_VISUAL_REVIEW",
+      "image_sha256": "f1799dd7a5370a23d20dd33d5a28348d0d409737c99aef713167c1619bf74f08",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "request_path": "production/ep011-020-paradise-v1/image-requests/EP013-S012.json",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a167f0-578d-7f62-b18a-66edeefc095c/exec-e4fb26a6-5567-4a30-93d0-7f370431962f.png",
+      "take": null
+    }
+  ],
+  "audio_status": "PASS_GENERATED_DECODED",
+  "post_atempo": 1.3,
+  "human_full_listening": "NOT_RUN",
+  "timing_note": "每cue最终1.3倍WAV实测；镜头按约5秒的整数帧格划分，角色对白可跨同一镜头；字幕与声轨读取同一cue边界。"
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a646f27eeb59e2e0f8fd4ced6d441",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "我说，明天晚上，无论发生什么，来找我。她说，我明天夜班。我说，那你，就从医院逃出来。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 9864,
+    "audio_sample_rate": 32000,
+    "audio_size": 159540,
+    "bitrate": 128000,
+    "word_count": 42,
+    "invisible_character_ratio": 0,
+    "usage_characters": 75,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP009/audio/EP009-C08.mp3",
+  "bytes": 159540,
+  "sha256": "290258dbd074183999051ad49575a6a6dedd5497eb96320e2d76e12ca53068d3",
+  "subtitle_files_generated": false
+}

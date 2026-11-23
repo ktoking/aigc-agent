@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a617d3035eff9b77521aeab67c9a3",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "手机又弹出一个新手演示，问我，要不要模拟屋外的威胁。我点了确认。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 6444,
+    "audio_sample_rate": 32000,
+    "audio_size": 104820,
+    "bitrate": 128000,
+    "word_count": 32,
+    "invisible_character_ratio": 0,
+    "usage_characters": 60,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP002/audio/EP002-C04.mp3",
+  "bytes": 104820,
+  "sha256": "3382944c2661e68ecbef7c084d8a54215aa5e2604380362cd889a6b5462aa471",
+  "subtitle_files_generated": false
+}

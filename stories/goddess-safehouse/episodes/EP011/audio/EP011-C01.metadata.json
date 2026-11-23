@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072e4282794dcf6549868a797aa8e935",
+  "preset": "natural",
+  "direction": "自然讲述，随正文自动判断情绪，保持原音色。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "门锁弹开的那一瞬，许知意几乎倒进我怀里。夏凛抓住她的衣领往里一带，门外的铁栅栏猛地弯了下去。三道影子挤在灯光边缘，最前面那只，手掌已经搭上门框。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0,
+      "emotion": "calm"
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 14940,
+    "audio_sample_rate": 32000,
+    "audio_size": 240756,
+    "bitrate": 128000,
+    "word_count": 72,
+    "invisible_character_ratio": 0,
+    "usage_characters": 137,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP011/audio/EP011-C01.mp3",
+  "bytes": 240756,
+  "sha256": "ec08b061d77d45acb3062eedef0d2a679f4330ee24a63ce707053bad363a77c7",
+  "subtitle_files_generated": false
+}

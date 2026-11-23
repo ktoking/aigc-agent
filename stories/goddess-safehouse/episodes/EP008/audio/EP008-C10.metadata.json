@@ -1,0 +1,45 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "072a64207f30f192d48cbbdd3f3452c3",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "她从白大褂口袋里抽出一张名片，在背面写下号码。真有那天，我在市一院急诊科。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese_worker_male",
+      "emotion": "calm",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "mp3",
+      "channel": 1,
+      "bitrate": 128000
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false
+  },
+  "extra_info": {
+    "audio_length": 7668,
+    "audio_sample_rate": 32000,
+    "audio_size": 124404,
+    "bitrate": 128000,
+    "word_count": 37,
+    "invisible_character_ratio": 0,
+    "usage_characters": 70,
+    "audio_format": "mp3",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/goddess-safehouse/episodes/EP008/audio/EP008-C10.mp3",
+  "bytes": 124404,
+  "sha256": "2263fff2d5840b33ae923e774cd10c1c6641096c8d0ab4bc1c3cd3eee5027379",
+  "subtitle_files_generated": false
+}
