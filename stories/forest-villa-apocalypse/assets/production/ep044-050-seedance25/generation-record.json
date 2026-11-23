@@ -1,0 +1,320 @@
+{
+  "tool": "Codex built-in image_gen",
+  "status": "complete_local_assets_linked",
+  "date": "2026-10-21",
+  "deliverable_count": 27,
+  "image_tool_calls": 28,
+  "generated": [
+    {
+      "key": "pondCover",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-dcfc9030-f48d-4fbc-bea7-9df7e1c10265.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+      "prompt": "Use case: photorealistic-natural. Generate ONE 16:9 landscape film reference still, 1536x864 or 2048x1152. Reference image 1 locks the snowy modern villa material palette and enclosed courtyard; reference image 2 locks the rectangular raised concrete fish pool and black filter barrel on its RIGHT only, NOT the broken poultry house in that old shot. Close three-quarter view of that SAME pool inside the high grey stone perimeter wall in winter. Add a simple partial translucent polycarbonate/film winter cover on a low black metal frame over two-thirds of the water, with obvious small open air vent and service flap. Thin ice ONLY at uncovered outer rim; water visible beneath cover with normal small fish, right-side filter barrel and connecting hoses in same position. No people, hands, faces, text, watermark, collage, new villa, extra turret, rustic barn, oversharpening. Daylight cold grey snow, realistic clean modern construction. This is pondCover asset for EP046.",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-050-keyframes/references/ep046-s01-coop-pond-damage-16x9.png"
+      ]
+    },
+    {
+      "key": "shelterBuild",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-100382f4-a731-4dfa-bfc2-d03bdab073f2.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 shelterBuild：院内相邻禽舍和鱼池的中景，禽舍必须沿用第二张参考的完整黑色金属平缓单坡屋顶与灰色箱形舍体，不能坍塌或改成木屋。鱼池沿用第三图，右侧黑过滤桶。用有限透明膜覆盖禽舍迎风的一侧，顶部留窄通风带，地面放一小卷剩余膜；鱼池局部盖罩。冬雪，建筑只出现原灰围墙或原别墅局部。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能复制数字人，不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/villa-poultry-pen-empty-modern-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pondCover-16x9.png"
+      ]
+    },
+    {
+      "key": "coopWarm",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-447ea1ef-83b1-4faa-99df-50dfa3b875d0.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 coopWarm：原完整黑色金属禽舍的冬季修后近景，保持原平缓单坡顶、灰色小舍、网门、同款银色饮水器。仅迎风一侧包透明挡风膜，顶部留通风口，门内两只普通母鸡、一只鸭，饮水器水盘有少量流动清水，垫料干燥。雪仅在屋顶与院外地面。镜头看得清通风和饮水器，不新增房屋。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能复制数字人，不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/villa-poultry-pen-empty-modern-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png"
+      ]
+    },
+    {
+      "key": "pondWarm",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-e3a5191a-229c-44c9-baef-5cc42c38fc7c.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 pondWarm：同一鱼池修后工作近景，严格保持输入的矩形池缘、低矮黑框透明局部罩、右侧黑色过滤桶和管路位置。机位稍低，透过已打开的原检修 flap 看水面轻微气泡、普通小鱼轮廓和正常回水。鱼不变大，不增殖，不画锦鲤特写，不再大面积结冰。冬雪仍在池外，干净摄影而非科幻蓝光。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pondCover-16x9.png"
+      ]
+    },
+    {
+      "key": "pumpHouseSmoke",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-9906d442-9599-4aea-9370-ab6ac52b12ac.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 pumpHouseSmoke：镜头是从山上远焦观察南侧山谷的一间旧小泵房，雪松林遮住大半建筑，只看见一间矮小灰混凝土泵房与小烟囱的一缕炊烟。参考图只提供冬雪光线和山林，不复制其别墅。不得出现别墅、基地、人物、人脸、汽车、尸潮、坐标、地名。安静冷灰白天，薄烟自然随风。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png"
+      ]
+    },
+    {
+      "key": "heatingBranch",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-989f72ee-ca46-49a1-bb09-d47f79f4cef6.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 heatingBranch：同一现代能源棚内外部供暖支路柜的独立特写。主机全封闭不打开，白色主机柜只在后景虚化。前景一个小型灰色壁挂箱，箱外两路保温水管分别往设备端和住宅端延伸，铜阀、两枚灰色小执行器、外贴传感器清晰。无内部电路、无核材料、无技术蓝图、无可读参数。原灰墙与金属材质，棚口外有冬雪。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/rainy-energy-shed-micro-reactor-complete-16x9.png"
+      ]
+    },
+    {
+      "key": "valveCheck",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-bca93406-ad3b-45f5-8cea-f4ecf4748974.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 valveCheck：保持参考图外部供暖支路柜同款两枚灰色方形执行器和保温管路，仅取局部近景。一枚执行器状态灯为暗橙色，另一枚为绿色；外贴传感器旁放屏幕不带文字的便携检测终端。只画外部完整封装设备，不画电路或操作示意，无手。机械差异可观察但不夸张损坏。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png"
+      ]
+    },
+    {
+      "key": "spareTray",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-8e9fbf9e-8897-4eed-9531-7cbc8ed55ea9.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 spareTray：工作台上的有限备件近景。参考图一只锁同款灰色外接执行器外壳：桌上左侧一只拆下的旧执行器，右侧分格备件盒里仅一只完整备用执行器，其余格子全部空。右侧小格盒盖打开。灰金属台面，有限普通工具，原现代工作间虚化。不能画多只备件、内部电路或人物。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "mechanicalParts",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-b499d9a4-cda2-4ae5-9418-99674befd179.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 mechanicalParts：原现代打印工作间工作台有限成品近景。保持后景同款深灰封闭打印仓。台上仅少量三四只普通金属安装支架、一块平整深灰外门防撞护板、一小盒有限原料；旁边单独小格放一只旧封装电子件，与打印机械件明确分开。无枪械、弹药、炮台、制造流程、技术尺寸；物件都已摆稳，无人。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "gateRepair",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-796343ce-1c7b-4270-bb7d-29cb68549381.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/gateRepair-single-plate-v2-16x9.png",
+      "prompt": "Edit the input film asset only: the black double-leaf gate currently has TWO low rectangular reinforcement plates. Remove the entire plate and its bolts from the LEFT gate leaf. Retain exactly ONE low dark-grey rectangular external reinforcement plate on the RIGHT gate leaf only. The left leaf must be original continuous black metal with old scratches, no new plate, no new holes. Preserve EVERYTHING else: single modern three-storey grey stone villa, snow, pine forest, high grey walls, electric wires, original black gate proportions, central latch, framing, lighting. No people, no text, no new buildings, no turrets. This is a continuity correction from two new plates to exactly one plate produced in the preceding workshop shot. Output one photorealistic 16:9 landscape still.",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/gateRepair-16x9.png"
+      ],
+      "replaces_variant": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/gateRepair-16x9.png"
+    },
+    {
+      "key": "seedTray",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-0f0687bc-3e6d-496a-96ea-a5eea857c20d.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 seedTray：原现代工作间靠窗一角近景，一个旧的单层黑色金属育苗架，架上两只空的黑色育苗盘、三小袋封好的有限种子，土只在一只盘底，尚无苗无成熟菜，没有补光灯。雪窗来的冬日斜光使近窗处亮、靠墙处暗。架子朴素可用，不是多层垂直农场。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "ep048-s1-detail",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-00b3a99b-252c-49be-8cc3-47c5c0649c3b.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 ep048-s1-detail：同一打印工作台的收束局部，原深灰打印仓在背景虚化。前景一只分格小盒里装两三个已打印的普通机械支架，旁边一小罐剩余原料明显不足满罐；另一个独立托盘只放旧电子封装件，不能把电子件放在打印输出口。数量有限，物品轮廓清楚，不能凭空满仓。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "growLightCards",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-98fc6e25-1e3a-4f79-9164-2eb1fe938342.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 growLightCards：原工作间白天桌面手机与三选一卡牌的视效资产。一部黑色手机平放，屏幕上方仅三枚精致半透明悬浮卡，分别为一箱罐头的图标、小套育苗灯和控制器图标、问号图标；中间灯具选项被低亮白青框选中。旁边空桌面上投影出两条育苗灯与一个控制小盒的淡淡轮廓，尚未实体落地。无人物手，无大段文字，无额外手机或卡片，不改成魔法祭坛。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "seedlingRack",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-1f9d36fb-148c-41e1-bd40-59ca073203ac.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 seedlingRack：严格保持参考同一单层黑色旧金属架、同一靠雪窗的工作间位置。现在在唯一一层架上装两条简单细长白色育苗灯，侧边一个小控制盒和整齐电线；下方一只黑色盘刚播种湿土，只有极少刚冒头小苗，不是长大蔬菜。仅这一个单层架，不增加第二层或工厂。柔白植物灯不偏紫，现代实用。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "ep048-s2-detail",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-7cdf3072-2b01-47bd-a922-73310472c1cc.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 ep048-s2-detail：同一育苗架下方的近景，保持同一黑色盘湿润细土与小格结构，刚播种还未长大；盘边放两小袋已封好的剩余种子，一部普通黑色手持对讲机搁在台面右侧。上沿略见同一白色灯条。没有人手、人物、成熟蔬菜，不新增另一架。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png"
+      ]
+    },
+    {
+      "key": "saltTrade",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-6426be1b-db3d-405c-a963-77368e8d767e.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 saltTrade：原关闭黑门交易托盘内的少量物资静物近景：一包封口白色食盐，旁边一个小筐少量青菜，另一侧恰好两枚鸡蛋垫在软纸上。东西分开放，数量有限，黑金属托盘和原灰石门柱局部在背景。无药物、无大米堆、无人物或手、无可读品牌。冬日自然光。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-gate-transfer-hatch-16x9.png"
+      ]
+    },
+    {
+      "key": "brokenPump",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-2703446f-26a6-428c-b6c6-79881cebdeb1.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 brokenPump：现代工作间金属工作台上一台旧小型水泵，横置蓝绿色紧凑电机连接深灰泵头，机壳完整但旧有擦痕。其底部黑色外部L形安装支架明显弯曲、一个支脚翘起；泵本体不能炸裂或拆开。两只普通手工具置旁。三分之四产品近景，清楚锁定后续修复前外形，无人物、无水流。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "ep049-s1-detail",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-60b16b2a-5eb2-4793-90b0-d87acbad7487.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 ep049-s1-detail：严格沿用原雪中黑色关闭大门与右侧灰石门柱对讲设备，近景展示门柱黑色对讲机、下方原人工双门交易小槽和内侧托盘关系。托盘在槽内静止，内门可开、外门关闭，小物资箱放稳在内侧。不能箱子自动漂浮或推出，不新增巨大门洞，不露人物。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-gate-transfer-hatch-16x9.png"
+      ]
+    },
+    {
+      "key": "feedstockLabel",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-6e739012-ddbe-4ae3-9817-0b727e447667.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 feedstockLabel：原工作台上的一部手机与本机原包装小标签并排。手机屏幕只显示一张仓库货架照片，照片中是小袋封口打印原料包装；桌上没有这袋待交易原料实物，只放原设备包装上的旧标签小卡供比对。标签以简单一致的非文字几何色条表示，不写品牌、编号、技术参数。不出现粉尘、人物、手。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "saltShelf",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-bbd16e55-a63e-4556-a1ac-e8b921df1ca0.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 saltShelf：同一现代别墅干燥储物架局部，一包刚收好的封口白色盐包放在独立格，旁边仅两三个原有食品罐和小袋干粮，各自摆整齐，有明显空格。灰白金属架、功能灯，不是木屋粮仓，无大量盐袋、满仓食品、人物、品牌或文字。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "ep049-s2-detail",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-fa463ee2-1553-4561-9142-fa1304847b58.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 ep049-s2-detail：原工作间独立待修架上只有参考图同一台旧蓝绿色电机深灰泵头小水泵，底部黑色弯曲安装支架保持未修。旁边少量普通工具、一只旧外接零件托盘；后景架中一包封口白盐已收好。泵外壳机型划痕必须与第一参考一致，勿拆内机，无人。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png"
+      ]
+    },
+    {
+      "key": "repairedPump",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-a554d865-9c1f-4a43-95be-251adcbb1679.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 repairedPump：同一台蓝绿色电机、深灰泵头旧小水泵，保留原旧划痕和机型，唯一改变是换好平直黑色外部安装支架，机身稳稳固定在防溅测试台。旁边一只水桶，出水软管回到同一桶内，有少量稳定回流；电机与电气插接部分在干燥台面绝不浸水。近景清晰，不画操作步骤、内部结构，无人物手。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/brokenPump-16x9.png"
+      ]
+    },
+    {
+      "key": "growthTray",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-4dd04ed0-5ed0-463d-80cf-170592a59afc.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 growthTray：原冬日黑金属温室内苗盘近景，两只相邻的黑色育苗盘：左侧一盘叶菜将近采收，叶片真实普通大小；右侧一盘刚播种后的小幼苗，幼苗保持未长大。只呈现两个生长阶段，不要瞬间变大特效，不画蔬菜巨物。原完整黑棚架与透明膜背景、雪在外，暖白实用灯，无人物。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-film-repaired-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png"
+      ]
+    },
+    {
+      "key": "eggAndGreens",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-02691309-a44b-466f-a22a-04e0e02dfa51.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 eggAndGreens：同一现代别墅厨房工作台上的有限收获静物：一个普通陶瓷碗放今晚自用青菜和两枚鸡蛋；旁边一个小筐分放少量准备交换的青菜。两份可明显区分，但没有文字标牌。只少量叶菜与鸡蛋，不出现满仓、肉鱼或成熟农田。真实自然材质，干净台面，无人物手。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/saltTrade-16x9.png"
+      ]
+    },
+    {
+      "key": "feedstockCheck",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-ae930801-2931-4c58-ad3a-42022ab88e30.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 feedstockCheck：原现代工作间有限原料验货静物，一小袋封口打印原料、一枚简单普通金属小测试片和原机型旧包装小标签并列，包装同第一参考手机照片里的外观，标签几何色条一致。小袋已取过一点测试样，剩余重新封好，没有散粉、配比、技术参数，测试片是普通非武器垫片形状，无人物手。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png"
+      ]
+    },
+    {
+      "key": "dining",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-8e202efc-d489-4e1b-9581-71d51701ec6d.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/dining-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 dining：现代别墅暖色餐区空景，继承参考图2的厨房橱柜、石材和餐桌风格，落地窗外改为参考图1的冬夜雪松林与原灰围墙，不另造别墅。四把普通餐椅，没有人物照片、镜中人或人影。木餐桌上普通陶瓷碗筷与水杯，温暖功能灯，撤掉铜火锅、宴席和鱼片盘，仅留家常餐桌。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/interiors/references/villa-kitchen-copper-hotpot-harvest-16x9.png"
+      ]
+    },
+    {
+      "key": "noodles",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-217b5612-69b0-4cfd-a54b-d176cb6c866e.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/noodles-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 noodles：同一现代暖色餐桌的家常饭近景，四只普通陶瓷碗内是青菜鸡蛋面，有少量自然热气，黑筷子放碗边。不要铜火锅、肉山、豪华宴席、人物、手、文字。背景沿用同一餐区和窗外冬雪，食物清楚真实，暖光不过黄。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/dining-16x9.png"
+      ]
+    }
+  ],
+  "discarded_variants": [
+    {
+      "key": "gateRepair",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/360f32a1-3426-5735-bc39-0322cc9ca7b6/exec-0cdc6d27-a17a-4c68-89be-65b54b671300.png",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/gateRepair-16x9.png",
+      "prompt": "用途：真人末世建造短剧的单张场景/道具参考资产，photorealistic-natural。输出一张横屏16:9、清晰自然的电影实拍照片，不是拼图或多格故事板。输入参考按顺序锁定原有建筑或物件，只按本次描述调整；保持现代灰石、深灰黑金属，冬季环境，干净大形、适度细节，不复古不动漫不过锐。\n本张资产 gateRepair：原外门冬季外侧中景。保持同一黑色双扇门、灰石门柱和灰色高围墙，顶端原电网不变；在门扇外面中央偏下加一块同色深灰防撞护板，可见少量固定螺栓。门保持关闭，旧划痕保留。不得更换整扇门、变成铁丝门、增加炮台或另造别墅。让观众能清楚看见新护板。\n全图禁止任何人物、人手、人脸、人影、可读文字、字幕、logo、水印。不能增添新房子或第二炮台。",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep045-rebuild-reference-refresh/references/black-gate-replaced-center-latch-16x9.png"
+      ]
+    }
+  ],
+  "pending": [],
+  "refs": {
+    "villa": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+    "coop": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/villa-poultry-pen-empty-modern-16x9.png",
+    "workshop": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png",
+    "reactor": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/rainy-energy-shed-micro-reactor-complete-16x9.png",
+    "gate": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep045-rebuild-reference-refresh/references/black-gate-replaced-center-latch-16x9.png",
+    "greenhouse": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-film-repaired-16x9.png",
+    "hatch": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-gate-transfer-hatch-16x9.png",
+    "pond": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+    "kitchen": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/interiors/references/villa-kitchen-copper-hotpot-harvest-16x9.png",
+    "shelterBuild": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+    "coopWarm": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+    "pondWarm": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+    "pumpHouseSmoke": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+    "heatingBranch": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+    "valveCheck": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+    "spareTray": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+    "mechanicalParts": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+    "gateRepair": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/gateRepair-single-plate-v2-16x9.png",
+    "seedTray": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+    "ep048-s1-detail": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+    "growLightCards": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+    "seedlingRack": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+    "ep048-s2-detail": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+    "saltTrade": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+    "brokenPump": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+    "ep049-s1-detail": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+    "feedstockLabel": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+    "saltShelf": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+    "ep049-s2-detail": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+    "repairedPump": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+    "growthTray": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+    "eggAndGreens": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+    "feedstockCheck": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+    "dining": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/dining-16x9.png",
+    "noodles": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/forest-villa-apocalypse/assets/production/ep044-050-seedance25/references/noodles-16x9.png"
+  },
+  "notes": [
+    "27张最终资产；门外护板修正过一次，原双护板图不用于请求。",
+    "不含数字人人脸，不使用首尾帧。",
+    "未提交或重新生成视频。"
+  ],
+  "validation_report": "docs/ep044-050-reference-completion.json"
+}

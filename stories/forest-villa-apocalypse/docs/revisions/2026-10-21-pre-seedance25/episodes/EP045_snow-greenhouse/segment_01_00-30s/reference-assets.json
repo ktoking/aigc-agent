@@ -1,0 +1,110 @@
+{
+  "revision": "2026-10-08-reference-refresh",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    }
+  ],
+  "api_submission": {
+    "status": "blocked_pending_asset_review_and_duration_check",
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "scene_slots": 7,
+    "auto_images": false,
+    "note": "本次补齐新稿资产，未提交新版视频。编号为数字人+非人物的全输入顺序；旧frames文件名不是新请求编号。不得自动上传整个目录，候选图仍需提交前复核。"
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "scope": "只绑定白棠本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "scope": "只绑定许砚本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "scope": "既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造",
+      "note": null,
+      "status": "existing_visual_reviewed",
+      "number": 3
+    },
+    {
+      "key": "gateDamage",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
+      "scope": "外门中央锁座受撞变形的无人物近景，门板主体仍完整",
+      "note": "已核对为同一现代黑门的局部受损锁座，建筑全景仍服从参考图3",
+      "status": "existing_visual_reviewed",
+      "number": 4
+    },
+    {
+      "key": "gateRepaired",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/black-gate-replaced-center-latch-16x9.png",
+      "scope": "同一外门装回替换锁板后的无人物状态，门没有换成另一扇",
+      "note": "局部图锁新锁板外观，门可处于开合测试中；全景建筑仍服从参考图3",
+      "status": "generated_visual_reviewed",
+      "number": 5
+    },
+    {
+      "key": "metalPrinter",
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/industrial-printer-single-gate-latch-plate-16x9.png",
+      "scope": "既有工业金属打印仓与单块锁板成品，锁板仍需人工安装",
+      "note": "由既有打印仓图编辑，仅输出托盘新增一块锁板",
+      "status": "generated_visual_reviewed",
+      "number": 6
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_visual_reviewed",
+      "number": 7
+    },
+    {
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_visual_reviewed",
+      "number": 8
+    },
+    {
+      "key": "clean_detail",
+      "kind": "scene_detail",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-old-film-leak-16x9.png",
+      "scope": "院内现代温室旧膜接缝被积雪和风掀开的无人物局部；温室未遭战斗攻击",
+      "status": "generated_visual_reviewed",
+      "number": 9
+    }
+  ],
+  "previous_local_library": [],
+  "exclusions": [
+    "frames中的人物三视图仅保留人工核对，不与数字人同时自动上传",
+    "旧剧情关键帧不锁新动作、新结果或新服装",
+    "不上传首尾帧",
+    "不上传未出场人物",
+    "不以旧output内容替代新请求"
+  ]
+}

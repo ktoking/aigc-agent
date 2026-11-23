@@ -1,0 +1,135 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "冬狼",
+      "asset": "asset-20260720205729-l4dfh"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 30,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "note": "九项含数字人，编号以本清单为准；本地图已补齐，旧候选状态仍需逐镜复核。禁止扫描frames自动上传，不传首尾帧；未提交视频，账号能力未验证。",
+    "local_reference_files_complete": true
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "冬狼",
+      "asset": "asset-20260720205729-l4dfh",
+      "uri": "asset://asset-20260720205729-l4dfh",
+      "label": "冬狼",
+      "scope": "只绑定冬狼本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "label": "许砚",
+      "scope": "只绑定许砚本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "label": "白棠",
+      "scope": "只绑定白棠本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 4,
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "label": "正确别墅冬季总景",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "planned_file": null,
+      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "number": 5,
+      "key": "gateStrain",
+      "kind": "scene_or_prop",
+      "label": "受撞锁座",
+      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
+      "planned_file": null,
+      "scope": "原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "number": 6,
+      "key": "turret",
+      "kind": "scene_or_prop",
+      "label": "唯一阳台炮台",
+      "file": "assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png",
+      "planned_file": null,
+      "scope": "唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "number": 7,
+      "key": "armorDefense",
+      "kind": "scene_or_prop",
+      "label": "外骨骼抵门受力",
+      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png",
+      "planned_file": null,
+      "scope": "同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "number": 8,
+      "key": "outfit_冬狼",
+      "kind": "outfit",
+      "label": "冬狼现代黑色冬装",
+      "file": "assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "number": 9,
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色或历史人物三视图",
+    "不上传旧首尾帧与旧output视频",
+    "不把待补图当已存在，不把候选图当已通过新镜头视觉验收"
+  ]
+}

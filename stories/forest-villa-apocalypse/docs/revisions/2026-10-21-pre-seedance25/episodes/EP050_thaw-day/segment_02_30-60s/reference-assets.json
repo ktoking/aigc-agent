@@ -1,0 +1,115 @@
+{
+  "revision": "2026-09-23-dialogue-rebuild-eight-shots",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb"
+    },
+    {
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    }
+  ],
+  "api_submission": {
+    "status": "blocked_pending_asset_review_and_duration_check",
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "scene_slots": 6,
+    "auto_images": false,
+    "note": "本次只重写剧本，未提交新版视频。编号为数字人+非人物的全输入顺序；旧frames文件名不是新请求编号。不得自动上传整个目录，候选图未经新稿复核不得当成已验收。"
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb",
+      "uri": "asset://asset-20260310030618-88hlb",
+      "scope": "只绑定沈知夏本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz",
+      "uri": "asset://asset-20260720212023-wwndz",
+      "scope": "只绑定叶凝霜本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "scope": "只绑定许砚本人脸和身份，服装按正文",
+      "status": "user_registered_identity"
+    },
+    {
+      "key": "dining",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "现代客厅餐桌的两人机位与分切反打空间",
+      "note": "不能用四人合影做输入，不能复古木屋",
+      "status": "needs_generation_for_new_script",
+      "number": 4
+    },
+    {
+      "key": "noodles",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "新鲜青菜鸡蛋面，普通餐具，非铜锅火锅",
+      "note": "衔接本集收获，不出现额外肉类收成",
+      "status": "needs_generation_for_new_script",
+      "number": 5
+    },
+    {
+      "key": "radio",
+      "kind": "scene_or_prop",
+      "file": "assets/props/references/outer-gate-trade-intercom-box-16x9.png",
+      "scope": "门柱对讲设备与手持终端，不增加广播大喇叭",
+      "note": null,
+      "status": "candidate_needs_current_visual_review",
+      "number": 6
+    },
+    {
+      "key": "windowSeedling",
+      "kind": "scene_or_prop",
+      "file": null,
+      "scope": "现代别墅暖窗边的一盘未加速幼苗，窗外冬雪",
+      "note": "是阶段收束，不变春天",
+      "status": "needs_generation_for_new_script",
+      "number": 7
+    },
+    {
+      "key": "outfit_沈知夏",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png",
+      "scope": "沈知夏无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "candidate_needs_current_visual_review",
+      "number": 8
+    },
+    {
+      "key": "outfit_叶凝霜",
+      "kind": "outfit",
+      "file": "assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-winter-outfit-flatlay-16x9.png",
+      "scope": "叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "candidate_needs_current_visual_review",
+      "number": 9
+    }
+  ],
+  "previous_local_library": [],
+  "exclusions": [
+    "frames中的人物三视图仅保留人工核对，不与数字人同时自动上传",
+    "旧剧情关键帧不锁新动作、新结果或新服装",
+    "不上传首尾帧",
+    "不上传未出场人物",
+    "不以旧output内容替代新请求"
+  ]
+}

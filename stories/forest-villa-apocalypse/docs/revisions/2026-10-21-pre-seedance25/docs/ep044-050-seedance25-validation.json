@@ -1,0 +1,399 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "scope": "EP044-EP050",
+  "checks": "text_and_paths_static_only",
+  "episodes": 7,
+  "segments": 14,
+  "total_shots": 112,
+  "reference_images_generated_this_run": 0,
+  "video_submitted": false,
+  "segments_detail": [
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "冬狼",
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "沈知夏"
+      ],
+      "dialogue_chars": 69,
+      "estimated_speech_seconds_at_4cps": 17.3,
+      "prompt_characters": 3578,
+      "prompt_sha256": "f626620d2a253200d5d1e176c17eefe02dbacb7d9a60e3be4f85bcf4c9acd40b",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 6,
+      "new_reference_slots": 0,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "冬狼",
+        "叶凝霜",
+        "许砚"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 68,
+      "estimated_speech_seconds_at_4cps": 17,
+      "prompt_characters": 3562,
+      "prompt_sha256": "0dd8a8d815242dfd14e72734c6092f154d97789d735c03f7fbc3127445f176c7",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 6,
+      "new_reference_slots": 0,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 78,
+      "estimated_speech_seconds_at_4cps": 19.5,
+      "prompt_characters": 3456,
+      "prompt_sha256": "df65e760158a871191360e00d354801c3385f445001ca8cd6f8d864c41449d00",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 7,
+      "new_reference_slots": 0,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 88,
+      "estimated_speech_seconds_at_4cps": 22,
+      "prompt_characters": 3504,
+      "prompt_sha256": "7adbf5b075547f93ad41decb7997223cd3c12dd6a66f1adfd347878edcbe904b",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 7,
+      "new_reference_slots": 0,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚",
+        "叶凝霜"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 86,
+      "estimated_speech_seconds_at_4cps": 21.5,
+      "prompt_characters": 3548,
+      "prompt_sha256": "a8eee5466d334238df2fd149ab47c8108e2158edb8fd24590cab6bdb4f7c31b2",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 2,
+      "missing_reference_numbers": [
+        6,
+        7
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "叶凝霜",
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 74,
+      "estimated_speech_seconds_at_4cps": 18.5,
+      "prompt_characters": 3524,
+      "prompt_sha256": "bab7e7e2512b64ed39417a53172b1b65542f8edd2f9c8e0adcac72dd3c4859e0",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 3,
+      "missing_reference_numbers": [
+        4,
+        6,
+        7
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "沈知夏"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 97,
+      "estimated_speech_seconds_at_4cps": 24.3,
+      "prompt_characters": 3581,
+      "prompt_sha256": "0855d8e5ce46246611a25c9c135862528991744870920875872c2e06812d5fce",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 3,
+      "missing_reference_numbers": [
+        4,
+        5,
+        7
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "沈知夏"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 97,
+      "estimated_speech_seconds_at_4cps": 24.3,
+      "prompt_characters": 3551,
+      "prompt_sha256": "a99baffe9e8e7e9b7f4eb234705b125db195726eb370ef945ca3e5f44b8b1bdb",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 5,
+      "new_reference_slots": 2,
+      "missing_reference_numbers": [
+        4,
+        6
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 88,
+      "estimated_speech_seconds_at_4cps": 22,
+      "prompt_characters": 3588,
+      "prompt_sha256": "a3ceadab79fd0f1e2345e04c0726ad218678e4276f665beb7c73e5008d2198c6",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 4,
+      "missing_reference_numbers": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 88,
+      "estimated_speech_seconds_at_4cps": 22,
+      "prompt_characters": 3574,
+      "prompt_sha256": "94955148393d12d07bb5b990de7933f22410bfc009efaa9769ea2212a1021591",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 3,
+      "missing_reference_numbers": [
+        4,
+        5,
+        9
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 93,
+      "estimated_speech_seconds_at_4cps": 23.3,
+      "prompt_characters": 3530,
+      "prompt_sha256": "7b4021e4e53f5654c71790337db54fbd6627c1a24991b1f27e775e698a0c56c6",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 4,
+      "new_reference_slots": 3,
+      "missing_reference_numbers": [
+        5,
+        6,
+        9
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 88,
+      "estimated_speech_seconds_at_4cps": 22,
+      "prompt_characters": 3536,
+      "prompt_sha256": "58f4afad194be2c14a8cb9067f916e12bfdcdd854e0e00ac483528f1c13efb96",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 3,
+      "new_reference_slots": 4,
+      "missing_reference_numbers": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_01_00-30s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 85,
+      "estimated_speech_seconds_at_4cps": 21.3,
+      "prompt_characters": 3628,
+      "prompt_sha256": "e54183d2d4313a5a1ee46c9721d056834e4c6dbfd19eb1393a5101ce3e81a822",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 2,
+      "new_reference_slots": 5,
+      "missing_reference_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_02_30-60s",
+      "duration": 30,
+      "shots": 8,
+      "visible_cast": [
+        "许砚",
+        "沈知夏",
+        "叶凝霜"
+      ],
+      "offscreen": [
+        "泵房住户",
+        "白棠"
+      ],
+      "dialogue_chars": 85,
+      "estimated_speech_seconds_at_4cps": 21.3,
+      "prompt_characters": 3821,
+      "prompt_sha256": "75b7ea025767d66719884d5e08d556ae08f6c2ab70a675c2fa7342f67a8a66eb",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "existing_candidates": 2,
+      "new_reference_slots": 4,
+      "missing_reference_numbers": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "submission_status": "needs_reference_images",
+      "video_submitted": false,
+      "video_reviewed": false
+    }
+  ]
+}

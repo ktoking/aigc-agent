@@ -1,0 +1,138 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 30,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "note": "九项含数字人，编号以本清单为准；本地图已补齐，旧候选状态仍需逐镜复核。禁止扫描frames自动上传，不传首尾帧；未提交视频，账号能力未验证。",
+    "local_reference_files_complete": true
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "label": "许砚",
+      "scope": "只绑定许砚本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb",
+      "uri": "asset://asset-20260310030618-88hlb",
+      "label": "沈知夏",
+      "scope": "只绑定沈知夏本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "key": "energyShed",
+      "kind": "scene_or_prop",
+      "label": "独立能源棚外观",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-energy-shed-cooling-loop-16x9.png",
+      "planned_file": null,
+      "scope": "原围墙内独立能源棚、密封发电模块外壳与外部供暖柜，生活区距离服从canonical；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图3.png"
+    },
+    {
+      "number": 4,
+      "key": "heatingBranch",
+      "kind": "scene_or_prop",
+      "label": "外部供暖支路柜",
+      "file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "planned_file": null,
+      "scope": "密封核能主机之外的独立供暖柜，源侧与回屋侧管路、外接阀件可区分；无人物，无主机内部",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "number": 5,
+      "key": "valveCheck",
+      "kind": "scene_or_prop",
+      "label": "外部执行件一次检查",
+      "file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "planned_file": null,
+      "scope": "同一外部传感器与两只小执行件，其中一只卡住；手持终端仅外观，不画内部电路；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "number": 6,
+      "key": "livingWarm",
+      "kind": "scene_or_prop",
+      "label": "现代客厅地暖空间",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/villa-ground-floor-self-built-radiant-heating-16x9.png",
+      "planned_file": null,
+      "scope": "原现代客厅、稳定照明、地暖分水器、厚毯与暖桌；只锁空间，不靠图片断言温度",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "number": 7,
+      "key": "spareTray",
+      "kind": "scene_or_prop",
+      "label": "旧件与最后一个备用件",
+      "file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "planned_file": null,
+      "scope": "旧外接执行件、仅一只备用件与空格备件盒，分开摆放；换件后盒子为空，无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "number": 8,
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "label": "许砚炭灰工装",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "number": 9,
+      "key": "outfit_沈知夏",
+      "kind": "outfit",
+      "label": "知夏暗酒红医护工装",
+      "file": "assets/characters/FVA_SHEN_ZHIXIA_001/references/shen-zhixia-medical-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "沈知夏无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色或历史人物三视图",
+    "不上传旧首尾帧与旧output视频",
+    "不把待补图当已存在，不把候选图当已通过新镜头视觉验收"
+  ]
+}

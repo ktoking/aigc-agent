@@ -1,0 +1,137 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "冬狼",
+      "asset": "asset-20260720205729-l4dfh"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 15,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "local_reference_files_complete": true,
+    "note": "九项为本项目规划，不代表已验证模型上限或账号权限。仅按清单取图，不扫描历史目录，不传首尾帧，尚未提交。"
+  },
+  "references": [
+    {
+      "name": "冬狼",
+      "asset": "asset-20260720205729-l4dfh",
+      "uri": "asset://asset-20260720205729-l4dfh",
+      "description": "利落黑短发；黑色厚防风长外套、深灰高领内搭、黑色工装长裤、黑色防滑雪地靴。习惯控制别人，听见停火才敢靠近；失去优势后情绪变化可见，不狂笑。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "冬狼",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 1
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "description": "黑色短发；炭灰防水工装夹克、黑肩拼片、深灰上衣、黑灰直筒工装裤、深棕高帮登山靴、黑色电子表。沉着实干，判断在观察之后；日常关心用实际行动表达。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "许砚",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 2
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "description": "利落低马尾；鼠尾草绿短款工装外套、浅灰圆领上衣、深灰直筒工装裤、黑色防滑工作靴。能独立判断生产与库存，有心疼劳动、期待收成和熟人间的幽默。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "白棠",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 3
+    },
+    {
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "label": "正确别墅冬季总景",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "planned_file": null,
+      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 4,
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "key": "gateStrain",
+      "kind": "scene_or_prop",
+      "label": "受撞锁座",
+      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
+      "planned_file": null,
+      "scope": "原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 5,
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "key": "turret",
+      "kind": "scene_or_prop",
+      "label": "唯一阳台炮台",
+      "file": "assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png",
+      "planned_file": null,
+      "scope": "唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 6,
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "key": "armorDefense",
+      "kind": "scene_or_prop",
+      "label": "外骨骼抵门受力",
+      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png",
+      "planned_file": null,
+      "scope": "同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 7,
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "file": "assets/production/ep036-defrost-and-intel/references/modern-winter-intel-control-room-16x9.png",
+      "label": "原现代控制室机位",
+      "scope": "只锁原监控台、屏幕边框和室内布局；屏幕内容依本镜重绘，不继承图上其他建筑或车辆；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "key": "control",
+      "kind": "scene_or_prop",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 8,
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
+      "status": "existing_candidate_pending_new_shot_review",
+      "number": 9,
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色",
+    "不上传旧三视图、旧关键帧或历史output",
+    "不把本地文件存在视为视频人物一致性通过"
+  ]
+}

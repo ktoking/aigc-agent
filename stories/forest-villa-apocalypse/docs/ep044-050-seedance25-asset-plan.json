@@ -1,0 +1,557 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "images_generated_this_run": 27,
+  "unique_missing_files": 0,
+  "assets": [
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+      "label": "原鱼池局部保温罩",
+      "scope": "原循环鱼池边缘薄冰，局部透明保温罩留通气与检修口，过滤桶仍在旧位置；无人物",
+      "used_by": [
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_01_00-15s",
+          "reference_number": 5
+        },
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_02_15-30s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+      "label": "有限膜材分配与旧架",
+      "scope": "同一院内原禽舍单侧挡风膜与相邻鱼池罩，有限膜材在旧架上，通风口留出；无人物",
+      "used_by": [
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_01_00-15s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_02_15-30s",
+          "reference_number": 6
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "label": "禽舍修后通风与饮水",
+      "scope": "同一现代禽舍完成单侧挡风、原饮水器解冻后有水，保留通风口；无人物",
+      "used_by": [
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_02_15-30s",
+          "reference_number": 4
+        },
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_03_30-45s",
+          "reference_number": 4
+        },
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_04_45-60s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "label": "保温罩内循环水和鱼影",
+      "scope": "同一透明罩下鱼影、气泡与正常循环水，鱼大小不被异能放大；无人物",
+      "used_by": [
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_02_15-30s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_04_45-60s",
+          "reference_number": 4
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "label": "山谷旧泵房炊烟",
+      "scope": "南侧山谷旧泵房远景，一缕炊烟，树林遮挡；没有人物脸、尸潮、可读坐标或新别墅",
+      "used_by": [
+        {
+          "episode": "EP046_coop-pond",
+          "segment": "segment_04_45-60s",
+          "reference_number": 8
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "label": "外部供暖支路柜",
+      "scope": "密封核能主机之外的独立供暖柜，源侧与回屋侧管路、外接阀件可区分；无人物，无主机内部",
+      "used_by": [
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_01_00-15s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_02_15-30s",
+          "reference_number": 4
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_03_30-45s",
+          "reference_number": 4
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_04_45-60s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "label": "外部执行件一次检查",
+      "scope": "同一外部传感器与两只小执行件，其中一只卡住；手持终端仅外观，不画内部电路；无人物",
+      "used_by": [
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_01_00-15s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_02_15-30s",
+          "reference_number": 5
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_03_30-45s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "label": "旧件与最后一个备用件",
+      "scope": "旧外接执行件、仅一只备用件与空格备件盒，分开摆放；换件后盒子为空，无人物",
+      "used_by": [
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_02_15-30s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_03_30-45s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP047_reactor-cold",
+          "segment": "segment_04_45-60s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_01_00-15s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+      "label": "有限机械小件与护板",
+      "scope": "少量机械支架、单块外门防撞护板与有限原料并列，电子封装件单独放；无人物",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_01_00-15s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_01_00-15s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/gateRepair-16x9.png",
+      "label": "外门新增外侧防撞板",
+      "scope": "沿用EP045已修好的黑门内锁板，新增外侧同色防撞护板；灰墙、电网、屋顶不变，无人物",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_02_15-30s",
+          "reference_number": 4
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/gateRepair-single-plate-v2-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "label": "有限种子与空育苗盘",
+      "scope": "原工作间旧架、空育苗盘与有限种子袋，接近窗口光照不均；无人物，不画成熟蔬菜",
+      "used_by": [
+        {
+          "episode": "EP045_snow-greenhouse",
+          "segment": "segment_02_15-30s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_02_15-30s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_03_30-45s",
+          "reference_number": 5
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_02_15-30s",
+          "reference_number": 9
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+      "label": "本段物件收束局部",
+      "scope": "原打印仓有限剩余料、已分格机械备件与单独旧电子件，不把电子件打印出来；无人物",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_01_00-15s",
+          "reference_number": 7
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+      "label": "罐头与育苗灯三选一",
+      "scope": "白天原手机三选一：一箱罐头、有限育苗灯组件、未知；只能选灯，组件投影落在空台；无人物",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_03_30-45s",
+          "reference_number": 4
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "label": "一层育苗灯架",
+      "scope": "原工作间一层旧金属架安装有限育苗灯、控制组件与一盘刚播种的苗盘；无人物，不生成多层工厂",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_03_30-45s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_04_45-60s",
+          "reference_number": 4
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_01_00-15s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_02_15-30s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_03_30-45s",
+          "reference_number": 7
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "label": "本段物件收束局部",
+      "scope": "同一育苗架下单盘刚播种的湿土、封好的剩余种子与原门柱手持对讲；无人物",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_04_45-60s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+      "label": "盐包与有限菜蛋",
+      "scope": "封口盐包、小筐青菜与两枚垫好的鸡蛋分开放，交易量有限；无人物，无药品交易",
+      "used_by": [
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_01_00-15s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_02_15-30s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "label": "旧泵变形支架",
+      "scope": "一台小型旧水泵、明显歪斜的外部安装支架，保留完整原外壳；无人物，不拆复杂内部",
+      "used_by": [
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_02_15-30s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_03_30-45s",
+          "reference_number": 5
+        },
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_04_45-60s",
+          "reference_number": 5
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_01_00-15s",
+          "reference_number": 3
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "label": "本段物件收束局部",
+      "scope": "原门外对讲与小物资箱的位置关系，关闭主门、双门交易托盘，不画人或自动推出的箱子",
+      "used_by": [
+        {
+          "episode": "EP048_printer-parts",
+          "segment": "segment_04_45-60s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_01_00-15s",
+          "reference_number": 5
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_03_30-45s",
+          "reference_number": 8
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+      "label": "待验原料包装照片",
+      "scope": "手机上的旧仓库原料包装照片，与本机原包装标签并列；只锁包装外观，不把照片变为已收到实物；无人物",
+      "used_by": [
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_03_30-45s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_04_45-60s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_03_30-45s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+      "label": "收到的盐包储位",
+      "scope": "现代干燥储架里刚收好的一包盐，自用食品储位保留，不出现无限物资；无人物",
+      "used_by": [
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_02_15-30s",
+          "reference_number": 6
+        },
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_03_30-45s",
+          "reference_number": 7
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+      "label": "本段物件收束局部",
+      "scope": "原工作间独立待修架上仅同一故障泵、旧件与有限工具，旁边盐包已收好；无人物",
+      "used_by": [
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_04_45-60s",
+          "reference_number": 7
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "label": "同一旧泵修后试水",
+      "scope": "同一旧泵装上新外部支架，防溅台上试转、管口回到同一水桶；电气部分不浸水，无人物",
+      "used_by": [
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_01_00-15s",
+          "reference_number": 4
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_02_15-30s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_03_30-45s",
+          "reference_number": 4
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "label": "单盘叶菜与邻盘幼苗",
+      "scope": "温室中一盘接近采收的叶菜与邻盘刚播小苗，前者展开到成熟、后者不变；仅提供作物状态，不锁人物",
+      "used_by": [
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_01_00-15s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_02_15-30s",
+          "reference_number": 4
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "label": "自用与交换的有限收成",
+      "scope": "当晚自用碗与少量交换菜分别放，库存鸡蛋和有限青菜，不虚构满仓收获；无人物",
+      "used_by": [
+        {
+          "episode": "EP049_outside-trade",
+          "segment": "segment_01_00-15s",
+          "reference_number": 7
+        },
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_02_15-30s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+      "label": "原料包装与合格试件",
+      "scope": "匹配本机包装的一小袋原料、同批小试件、旧机型标签并列，有限数量；无人物，无制造参数",
+      "used_by": [
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_03_30-45s",
+          "reference_number": 6
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/dining-16x9.png",
+      "label": "现代别墅暖色餐区",
+      "scope": "canonical现代别墅暖色餐区、普通碗筷、窗外冬雪；四把椅子可见但没有人物，不画四人合照",
+      "used_by": [
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_04_45-60s",
+          "reference_number": 4
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/dining-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    },
+    {
+      "planned_file": "assets/production/ep044-050-seedance25/references/noodles-16x9.png",
+      "label": "青菜鸡蛋面",
+      "scope": "普通陶瓷碗中的青菜鸡蛋面，少量真实热气，现代餐桌，无火锅、宴席、人物和文字",
+      "used_by": [
+        {
+          "episode": "EP050_thaw-day",
+          "segment": "segment_04_45-60s",
+          "reference_number": 5
+        }
+      ],
+      "file": "assets/production/ep044-050-seedance25/references/noodles-16x9.png",
+      "status": "generated_builtin_basic_visual_review"
+    }
+  ],
+  "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+  "images_generated_in_current_resegment_run": 0
+}

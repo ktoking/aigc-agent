@@ -1,0 +1,670 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "scope": "EP044-EP050",
+  "episodes": 7,
+  "segments": 28,
+  "segment_duration": 15,
+  "episode_duration": 60,
+  "shots_per_segment": 4,
+  "total_shots": 112,
+  "dialogue_changed": false,
+  "unique_missing_reference_files": 0,
+  "reference_images_generated_this_run": 0,
+  "first_last_frames": false,
+  "video_submitted": false,
+  "video_reviewed": false,
+  "language_review": {
+    "version": "2026-11-12-four-15s",
+    "L01_L06": "PASS",
+    "S01_S06": "PASS",
+    "unresolved": [],
+    "method": "editorial_readthrough_recorded_per_episode_not_keyword_scan"
+  },
+  "segments_detail": [
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_01_00-15s",
+      "title": "门锁快撑不住了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "冬狼",
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 32,
+      "estimated_speech_seconds_at_4cps": 8,
+      "prompt_sha256": "66ed80ff4b64a20cc8fe80c0257511f4f094a4c06b01e0904a65b752ae0e52bf",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 6,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_02_15-30s",
+      "title": "最后一轮打完了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "冬狼"
+      ],
+      "offscreen": [
+        "白棠",
+        "沈知夏"
+      ],
+      "dialogue_chars": 37,
+      "estimated_speech_seconds_at_4cps": 9.25,
+      "prompt_sha256": "146d5c00c90fa364583ddcb644f2c55f35e132eaee45d99000a314cc0f5319f0",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_03_30-45s",
+      "title": "她不再听他的命令",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "冬狼",
+        "叶凝霜"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 36,
+      "estimated_speech_seconds_at_4cps": 9,
+      "prompt_sha256": "29420ec61e6a563858b7aed4dd93c441cb9bf548693bc4fd69ecb61d862474ff",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_04_45-60s",
+      "title": "守住门，也接住她",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "叶凝霜"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 32,
+      "estimated_speech_seconds_at_4cps": 8,
+      "prompt_sha256": "9efcbea8c51ca8eaadd3860f3ac3ec7b8e520bc743bbb5db172ab81e23b09aba",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_01_00-15s",
+      "title": "先让门能锁住",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 39,
+      "estimated_speech_seconds_at_4cps": 9.75,
+      "prompt_sha256": "f01e0394f49deb7b021bbec3ae3be6d2bc8f9ba65759cef20e54d878cf5f4df0",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_02_15-30s",
+      "title": "把两盘苗救回来",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 39,
+      "estimated_speech_seconds_at_4cps": 9.75,
+      "prompt_sha256": "a1e9c09234c073b6d385b355780ebdc8a393ca65a686143aab25e96d296017a8",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_03_30-45s",
+      "title": "这次选保温膜",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 45,
+      "estimated_speech_seconds_at_4cps": 11.25,
+      "prompt_sha256": "a19681ba2175659b2be748de9834ea903aa8def0ecce50357e2a3e5e567c80b2",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_04_45-60s",
+      "title": "把漏风那面补好",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 43,
+      "estimated_speech_seconds_at_4cps": 10.75,
+      "prompt_sha256": "06f804df1d63a9da954453c769209be337438a50270cce3ee1010be97ddaedf6",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_01_00-15s",
+      "title": "水口冻住了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "叶凝霜"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 46,
+      "estimated_speech_seconds_at_4cps": 11.5,
+      "prompt_sha256": "b618d985a0b07e4717eeed01380ea749bb3916451088d8be922f3672a3657098",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_02_15-30s",
+      "title": "剩膜两边都用上",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 40,
+      "estimated_speech_seconds_at_4cps": 10,
+      "prompt_sha256": "b6401db2f5de1c7346509996308b3e617fb262e21e898d41cf711f81273a3316",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_03_30-45s",
+      "title": "窝里又有蛋了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "叶凝霜",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 37,
+      "estimated_speech_seconds_at_4cps": 9.25,
+      "prompt_sha256": "07868865e29a7c14ad8ae1218df3a8bd920d01c6ccb1b99820a157150324177f",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_04_45-60s",
+      "title": "巡查拍到一缕烟",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 37,
+      "estimated_speech_seconds_at_4cps": 9.25,
+      "prompt_sha256": "0aaf3c5220e5444af543aaf4ccf70bee67ed82101b789b06e56b415e01a4d01a",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 8,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_01_00-15s",
+      "title": "灯亮着，地板却冷了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "沈知夏"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 49,
+      "estimated_speech_seconds_at_4cps": 12.25,
+      "prompt_sha256": "734f03eeae15418bdc90bb5cd9b7212c539abcd13fd5c09e078976e5b151befb",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_02_15-30s",
+      "title": "最后一个备用件",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "沈知夏",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 43,
+      "estimated_speech_seconds_at_4cps": 10.75,
+      "prompt_sha256": "178efd462aa5745b588a0cb896514abc2629b271c8278f4b6151b2116a7ccc90",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_03_30-45s",
+      "title": "热水终于进屋了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "沈知夏"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 48,
+      "estimated_speech_seconds_at_4cps": 12,
+      "prompt_sha256": "7927806b8384cdd8db6993124958a39d9a09b015c390a3df444d7ed43524c4d8",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_04_45-60s",
+      "title": "带着终端回屋看",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "沈知夏",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 49,
+      "estimated_speech_seconds_at_4cps": 12.25,
+      "prompt_sha256": "33d6763d770ac57acedef7f566b0500d5115059f48d8845c7e18d3fc647d884d",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_01_00-15s",
+      "title": "先备能打印的零件",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 46,
+      "estimated_speech_seconds_at_4cps": 11.5,
+      "prompt_sha256": "734a5a07363a1980a1b42a72cbc87c916fc6df79224b74780611a1f74ae13ac4",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_02_15-30s",
+      "title": "门加一层，苗也得育",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 42,
+      "estimated_speech_seconds_at_4cps": 10.5,
+      "prompt_sha256": "395461e3645722790b2e0ef0529a8d23aa85b6cb17874e506929768ff98ac15f",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_03_30-45s",
+      "title": "罐头还是育苗灯",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [],
+      "dialogue_chars": 43,
+      "estimated_speech_seconds_at_4cps": 10.75,
+      "prompt_sha256": "71ad215def6f24fc32411d6155ee6c9a45f6ff4414e178a8d488a2a80f456e70",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_04_45-60s",
+      "title": "灯亮了，门口也来人了",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 45,
+      "estimated_speech_seconds_at_4cps": 11.25,
+      "prompt_sha256": "817b081ee4c2d894f0dd93d177a5481f5ffb2054bfdf7edeeb95046b9f4c31d3",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_01_00-15s",
+      "title": "这一筐菜换一包盐",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 43,
+      "estimated_speech_seconds_at_4cps": 10.75,
+      "prompt_sha256": "6518ac5675fb0b9d72b1ec9a24743942ede67e18ba17e84a9ec241dba5aff714",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_02_15-30s",
+      "title": "货换完了，还有台坏泵",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠",
+        "许砚"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 50,
+      "estimated_speech_seconds_at_4cps": 12.5,
+      "prompt_sha256": "2ab152c396f63744476dd0a9bc33f93c47e9815add286883c125ba987ae2982e",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_03_30-45s",
+      "title": "维修能不能换原料",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 46,
+      "estimated_speech_seconds_at_4cps": 11.5,
+      "prompt_sha256": "38796aa54dd123e3ad94fb1faef298d2f1147bc3744565868c4a123eabf396e5",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_04_45-60s",
+      "title": "先修好这一台",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚",
+        "白棠"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 42,
+      "estimated_speech_seconds_at_4cps": 10.5,
+      "prompt_sha256": "66d403eda75ff215972563d86b0da2a1e4f32eb147c0fde0505109e8428d81d8",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 7,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_01_00-15s",
+      "title": "旧水泵重新转起来",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 46,
+      "estimated_speech_seconds_at_4cps": 11.5,
+      "prompt_sha256": "e0cba656b84e42a6e431f4e7ed7c741c7d77cb57da79e3126d363dabe57f95f5",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 8,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_02_15-30s",
+      "title": "留一把，晚上煮面",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "白棠"
+      ],
+      "offscreen": [
+        "许砚"
+      ],
+      "dialogue_chars": 39,
+      "estimated_speech_seconds_at_4cps": 9.75,
+      "prompt_sha256": "835b76858366c24c7a3062cd730852e9fb78607e33f58b4b970d2d47033f7c5b",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 8,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_03_30-45s",
+      "title": "先验结果，再交货",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "许砚"
+      ],
+      "offscreen": [
+        "泵房住户"
+      ],
+      "dialogue_chars": 46,
+      "estimated_speech_seconds_at_4cps": 11.5,
+      "prompt_sha256": "25ce25952a71d16945a8ce6d8502e464963d97adbd87ed2ab5d51b60e0f75b9f",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 8,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_04_45-60s",
+      "title": "这顿饭，坐下来吃",
+      "duration": 15,
+      "shots": 4,
+      "visible_cast": [
+        "沈知夏",
+        "叶凝霜",
+        "许砚"
+      ],
+      "offscreen": [
+        "白棠"
+      ],
+      "dialogue_chars": 39,
+      "estimated_speech_seconds_at_4cps": 9.75,
+      "prompt_sha256": "9121cebde3d05f31a8c00c896fdb053eb06f348aa9f5cc5b92818bd7a145dd5c",
+      "prompt_copy_equal": true,
+      "planned_references": 9,
+      "local_images": 6,
+      "missing_reference_numbers": [],
+      "submission_status": "needs_visual_review",
+      "video_submitted": false,
+      "video_reviewed": false
+    }
+  ]
+}

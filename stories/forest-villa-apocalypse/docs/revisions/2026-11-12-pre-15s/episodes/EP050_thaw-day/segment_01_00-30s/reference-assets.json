@@ -1,0 +1,142 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 30,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "note": "九项含数字人，编号以本清单为准；本地图已补齐，旧候选状态仍需逐镜复核。禁止扫描frames自动上传，不传首尾帧；未提交视频，账号能力未验证。",
+    "local_reference_files_complete": true
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "label": "许砚",
+      "scope": "只绑定许砚本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "label": "白棠",
+      "scope": "只绑定白棠本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "key": "workshop",
+      "kind": "scene_or_prop",
+      "label": "原现代工作间",
+      "file": "assets/production/ep042-044-reference-refresh/references/industrial-metal-printer-winter-workshop-16x9.png",
+      "planned_file": null,
+      "scope": "原现代灰白工作间、打印仓和金属台面，窗外冬雪；只锁空间与机器，不锁台上新道具",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图3.png"
+    },
+    {
+      "number": 4,
+      "key": "brokenPump",
+      "kind": "scene_or_prop",
+      "label": "旧泵变形支架",
+      "file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "planned_file": null,
+      "scope": "一台小型旧水泵、明显歪斜的外部安装支架，保留完整原外壳；无人物，不拆复杂内部",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "number": 5,
+      "key": "repairedPump",
+      "kind": "scene_or_prop",
+      "label": "同一旧泵修后试水",
+      "file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "planned_file": null,
+      "scope": "同一旧泵装上新外部支架，防溅台上试转、管口回到同一水桶；电气部分不浸水，无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "number": 6,
+      "key": "seedlingRack",
+      "kind": "scene_or_prop",
+      "label": "一层育苗灯架",
+      "file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "planned_file": null,
+      "scope": "原工作间一层旧金属架安装有限育苗灯、控制组件与一盘刚播种的苗盘；无人物，不生成多层工厂",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "number": 7,
+      "key": "growthTray",
+      "kind": "scene_or_prop",
+      "label": "单盘叶菜与邻盘幼苗",
+      "file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "planned_file": null,
+      "scope": "温室中一盘接近采收的叶菜与邻盘刚播小苗，前者展开到成熟、后者不变；仅提供作物状态，不锁人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "number": 8,
+      "key": "eggAndGreens",
+      "kind": "scene_or_prop",
+      "label": "自用与交换的有限收成",
+      "file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "planned_file": null,
+      "scope": "当晚自用碗与少量交换菜分别放，库存鸡蛋和有限青菜，不虚构满仓收获；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "number": 9,
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色或历史人物三视图",
+    "不上传旧首尾帧与旧output视频",
+    "不把待补图当已存在，不把候选图当已通过新镜头视觉验收"
+  ]
+}

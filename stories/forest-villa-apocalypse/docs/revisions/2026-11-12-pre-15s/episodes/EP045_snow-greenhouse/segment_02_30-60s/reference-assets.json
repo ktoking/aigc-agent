@@ -1,0 +1,132 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 30,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "note": "九项含数字人，编号以本清单为准；本地图已补齐，旧候选状态仍需逐镜复核。禁止扫描frames自动上传，不传首尾帧；未提交视频，账号能力未验证。",
+    "local_reference_files_complete": true
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "label": "许砚",
+      "scope": "只绑定许砚本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "label": "白棠",
+      "scope": "只绑定白棠本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "key": "villa",
+      "kind": "scene_or_prop",
+      "label": "正确别墅冬季总景",
+      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
+      "planned_file": null,
+      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图3.png"
+    },
+    {
+      "number": 4,
+      "key": "greenhouseLeak",
+      "kind": "scene_or_prop",
+      "label": "温室旧膜漏雪",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-old-film-leak-16x9.png",
+      "planned_file": null,
+      "scope": "院内同一现代温室旧膜一处接缝掀起，下面两盘苗落雪，黑色棚架完整；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "number": 5,
+      "key": "seedlingRescue",
+      "kind": "scene_or_prop",
+      "label": "室内两盘受冻苗",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/two-seedling-trays-indoor-rescue-16x9.png",
+      "planned_file": null,
+      "scope": "现代工作台上两盘受冻但尚存活的小苗，坏叶分开放，不是成熟菜；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "number": 6,
+      "key": "filmCards",
+      "kind": "scene_or_prop",
+      "label": "保温膜三选一与有限卷材",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/midnight-three-choice-insulation-film-16x9.png",
+      "planned_file": null,
+      "scope": "原手机零点三选一：保温膜、便携灯、未知；选中后一卷有限膜材。只锁选项与材料，不把膜提前安装；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "number": 7,
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "number": 8,
+      "key": "outfit_许砚",
+      "kind": "outfit",
+      "label": "许砚炭灰工装",
+      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "number": 9,
+      "key": "clean_detail",
+      "kind": "scene_or_prop",
+      "label": "本段物件收束局部",
+      "file": "assets/production/ep045-rebuild-reference-refresh/references/courtyard-greenhouse-film-repaired-16x9.png",
+      "planned_file": null,
+      "scope": "同一温室新膜补住局部接缝，旧黑架完整，一盘苗归位，剩余膜有限；无人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色或历史人物三视图",
+    "不上传旧首尾帧与旧output视频",
+    "不把待补图当已存在，不把候选图当已通过新镜头视觉验收"
+  ]
+}

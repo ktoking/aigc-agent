@@ -1,0 +1,21 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "submitted": false,
+  "model": "doubao-seedance-2-5-260628",
+  "duration": 30,
+  "ratio": "16:9",
+  "resolution": "480p",
+  "generate_audio": true,
+  "prompt_file": "director-promt.txt",
+  "prompt_sha256": "7b4021e4e53f5654c71790337db54fbd6627c1a24991b1f27e775e698a0c56c6",
+  "first_frame": null,
+  "last_frame": null,
+  "auto_images": false,
+  "references_file": "reference-assets.json",
+  "readiness": "needs_reference_images",
+  "missing_reference_numbers": [
+    5,
+    6,
+    9
+  ]
+}

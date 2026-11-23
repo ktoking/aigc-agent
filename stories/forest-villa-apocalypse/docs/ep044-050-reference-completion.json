@@ -1,0 +1,419 @@
+{
+  "scope": "EP044-EP050",
+  "generator": "Codex built-in image_gen",
+  "final_assets": 27,
+  "image_decode_validation": {
+    "tool": "ffmpeg",
+    "decoded_images": 27,
+    "failed_images": 0
+  },
+  "image_tool_calls": 28,
+  "video_submitted": false,
+  "prompt_and_dialogue_changed": false,
+  "segments": [
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 3,
+      "local_images": 6,
+      "newly_linked": [],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "b15b823260581d11ce82483e3ea1270f94112bdb2c72fdcca81de22bc40ece40"
+    },
+    {
+      "episode": "EP044_afterglow",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 3,
+      "local_images": 6,
+      "newly_linked": [],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "23d006e7222489f08ad4f54dafc1f5278c5d06fc3484f5db0ad997c3cecc678b"
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "21c72bf8abd9e7194fc9f73bc74e47d0acb16a4a03fbf40299ca461c6daf23df"
+    },
+    {
+      "episode": "EP045_snow-greenhouse",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "ac0aa8b876cc07325c56505f6c29c2bf6c1b92c81fc8fb064aae4d025437423e"
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 3,
+      "local_images": 6,
+      "newly_linked": [
+        6,
+        7
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "60a9885b773b1f075a74067a90d268ab5a969bd35992a1ed90471dcc95ddbe68"
+    },
+    {
+      "episode": "EP046_coop-pond",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 3,
+      "local_images": 6,
+      "newly_linked": [
+        4,
+        6,
+        7
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "df268b02660715205ce12f48146735320ec69d104d49667e80f43323c4ee4c80"
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        4,
+        5,
+        7
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "719044327a33239f074e98ff34bd5351cff52451e5ff24c0c27a91478c965307"
+    },
+    {
+      "episode": "EP047_reactor-cold",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        4,
+        6
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "a83479cf770301f5347cee2a82de4fb5ed4f1167616885a610d8e5344b2d4aae"
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "f2ec8113f26973a3156700697ebd856dfb5fe79e0d1dda278d3207b283820599"
+    },
+    {
+      "episode": "EP048_printer-parts",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        4,
+        5,
+        9
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "7d691f4cee11cedfaa87e4c8f6d4428605f5a8c350cc85301094fe4ff6bd5a48"
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        5,
+        6,
+        9
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "059849c9083ff4c9ada73a12eeacd772d100a0c5069d82082671afd0139bc5d4"
+    },
+    {
+      "episode": "EP049_outside-trade",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "059d6def6cd5cb3fba386cde2890f992949e58ddc3b372a9410d9d2a6a4d6778"
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_01_00-30s",
+      "planned_references": 9,
+      "digital_humans": 2,
+      "local_images": 7,
+      "newly_linked": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "a7bb496f829c001941f7ad20a6971af1bddae2a7a2777e3ab79836d27bbee1dd"
+    },
+    {
+      "episode": "EP050_thaw-day",
+      "segment": "segment_02_30-60s",
+      "planned_references": 9,
+      "digital_humans": 3,
+      "local_images": 6,
+      "newly_linked": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "missing_reference_numbers": [],
+      "prompt_sha256": "b7ba8ee2fd19ccadb4a5320147cdace1a49a75d3a08bdac83607cd2fef853a66"
+    }
+  ],
+  "missing": [],
+  "raster_files": [
+    {
+      "key": "pondCover",
+      "file": "assets/production/ep044-050-seedance25/references/pondCover-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3301284,
+      "sha256": "73bde06aa3a892df590de77a22f07357f72b9edc1c42b89393144e3c7f81bc94"
+    },
+    {
+      "key": "shelterBuild",
+      "file": "assets/production/ep044-050-seedance25/references/shelterBuild-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3409507,
+      "sha256": "ff2811b8bc9445d0a3704603d41f1e8c405b0524d7a3a73ebade2d70166f15ac"
+    },
+    {
+      "key": "coopWarm",
+      "file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3247978,
+      "sha256": "9a5e84fab35a98d1a96496a9bb8ccb8e09f3c0ae7f94999d824934d909343489"
+    },
+    {
+      "key": "pondWarm",
+      "file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2970604,
+      "sha256": "11c09fef88932070124fe897eba145c7531aceb37f04b6377b83801cdc87a86a"
+    },
+    {
+      "key": "pumpHouseSmoke",
+      "file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3535829,
+      "sha256": "eff15105a7dc636f730889e69cc2182170ceef508578d585d58cab36ef799571"
+    },
+    {
+      "key": "heatingBranch",
+      "file": "assets/production/ep044-050-seedance25/references/heatingBranch-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2458448,
+      "sha256": "f0cfdd0f1d55568bb72c204a5cd905d75752a725b2bf5d8f69f2fbf34140119f"
+    },
+    {
+      "key": "valveCheck",
+      "file": "assets/production/ep044-050-seedance25/references/valveCheck-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2577625,
+      "sha256": "11955c6bc61ce62200e71533e947bb54a712f91d3b15dbbe1cdc85bbc190ece0"
+    },
+    {
+      "key": "spareTray",
+      "file": "assets/production/ep044-050-seedance25/references/spareTray-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2157609,
+      "sha256": "e0ee133b42cd2628e5d02b9cc438ba93084b620c379a29395536fe5e8b1ef1e3"
+    },
+    {
+      "key": "mechanicalParts",
+      "file": "assets/production/ep044-050-seedance25/references/mechanicalParts-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1980084,
+      "sha256": "dea0166ee15eb3dfeb68622723aeedb4321bcd0aee0bf44ad4a28bc495502c61"
+    },
+    {
+      "key": "gateRepair",
+      "file": "assets/production/ep044-050-seedance25/references/gateRepair-single-plate-v2-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3086614,
+      "sha256": "2453681e46028c1e5804d1c5f2dec058f3ef27ebf81d38f5132f32b9bce248ff"
+    },
+    {
+      "key": "seedTray",
+      "file": "assets/production/ep044-050-seedance25/references/seedTray-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2190884,
+      "sha256": "6779c0fc3f66b6ac05f96fe173b36fb7438e7c8c8efdde89c5811eb53463924f"
+    },
+    {
+      "key": "ep048-s1-detail",
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s1-detail-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1921435,
+      "sha256": "6398bcd5d395491e87d6f05f001685f28e94fee964670d4adea233b8a31191b0"
+    },
+    {
+      "key": "growLightCards",
+      "file": "assets/production/ep044-050-seedance25/references/growLightCards-16x9.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 1987938,
+      "sha256": "e599b7ecd2e50b66b2d8e5d8b1b0613d523d9ee66bbd40c184762cc8670a61bb"
+    },
+    {
+      "key": "seedlingRack",
+      "file": "assets/production/ep044-050-seedance25/references/seedlingRack-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2109135,
+      "sha256": "8f2eb6d713964f7faf3cfd26fd20edfd48820f58463ad325d6432a69c190538e"
+    },
+    {
+      "key": "ep048-s2-detail",
+      "file": "assets/production/ep044-050-seedance25/references/ep048-s2-detail-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2226190,
+      "sha256": "84b88f6d32c271580ddbb1728c3aa36aa9402f9773b351958908252188426790"
+    },
+    {
+      "key": "saltTrade",
+      "file": "assets/production/ep044-050-seedance25/references/saltTrade-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2316747,
+      "sha256": "95bad42e088ff9b226f9b2cf3a1b5df6d5a091685bce59f3e80f6fbcd56aa960"
+    },
+    {
+      "key": "brokenPump",
+      "file": "assets/production/ep044-050-seedance25/references/brokenPump-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2356905,
+      "sha256": "2d6f54aef419c906b2d15559e5776c02d5267f486cbb0fdffdeed39e50b8eab1"
+    },
+    {
+      "key": "ep049-s1-detail",
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s1-detail-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2636315,
+      "sha256": "1bd2d365a4f12df2dfefd3738ea90cca9d0e28fe08aebe4ab17631ec4dafbbe2"
+    },
+    {
+      "key": "feedstockLabel",
+      "file": "assets/production/ep044-050-seedance25/references/feedstockLabel-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1967393,
+      "sha256": "f0d4bd86a5765bed352fd4b9bd19589d8543b03da7d2f3c94b5624214efe249f"
+    },
+    {
+      "key": "saltShelf",
+      "file": "assets/production/ep044-050-seedance25/references/saltShelf-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2140998,
+      "sha256": "5f6b1b39e4863a8f47359377158878bfb2137d42904a402acd0a33f6c585fb94"
+    },
+    {
+      "key": "ep049-s2-detail",
+      "file": "assets/production/ep044-050-seedance25/references/ep049-s2-detail-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2336065,
+      "sha256": "35799f73bcb7b978b7e64d33e9b5faf9ff00781515797c2914da3301cf062283"
+    },
+    {
+      "key": "repairedPump",
+      "file": "assets/production/ep044-050-seedance25/references/repairedPump-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2553000,
+      "sha256": "73e741cc4a66eb0fc3670fc9ed7771d28efdf8266a2589d8e37269790d2130eb"
+    },
+    {
+      "key": "growthTray",
+      "file": "assets/production/ep044-050-seedance25/references/growthTray-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2513781,
+      "sha256": "9f906412151291ea8131cbf8e1dcd84598c2a294d0889a711a27008d6b6812db"
+    },
+    {
+      "key": "eggAndGreens",
+      "file": "assets/production/ep044-050-seedance25/references/eggAndGreens-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2293709,
+      "sha256": "064cddc377e3dfdbe5066aa1699c9b4c3feba904b4feb61eb046462f8f083113"
+    },
+    {
+      "key": "feedstockCheck",
+      "file": "assets/production/ep044-050-seedance25/references/feedstockCheck-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2041302,
+      "sha256": "6f3ccc7236c51c5a6717255c544d469b3535fe61079789c0ecf9e7b2f4383ed5"
+    },
+    {
+      "key": "dining",
+      "file": "assets/production/ep044-050-seedance25/references/dining-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2494077,
+      "sha256": "ad7f4db204d3c6d0e106cdbbe6f07ed7ce8f36a446d3f6db14cef25eefd10b50"
+    },
+    {
+      "key": "noodles",
+      "file": "assets/production/ep044-050-seedance25/references/noodles-16x9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2211515,
+      "sha256": "3ab51541a4154cec364a19de98c18f6dc216aab3364d130dbc6fbef1eb718603"
+    }
+  ],
+  "result": "local_reference_files_complete",
+  "visual_review": "New image outputs reviewed for basic subject, no people, modern style and approximate 16:9; existing candidates retain review status. Not a video or API quality pass."
+}

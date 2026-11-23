@@ -1,0 +1,21 @@
+{
+  "revision": "2026-11-12-four-15s",
+  "episode_duration": 60,
+  "segments": 4,
+  "segment_duration": 15,
+  "shots_per_segment": 4,
+  "ratio": "16:9",
+  "resolution": "480p",
+  "generate_audio": true,
+  "first_last_frames": false,
+  "model": "doubao-seedance-2-5-260628",
+  "active_directories": [
+    "segment_01_00-15s",
+    "segment_02_15-30s",
+    "segment_03_30-45s",
+    "segment_04_45-60s"
+  ],
+  "source_plan": "scripts/ep044-050-15s-plan.json",
+  "builder": "scripts/build_ep044_050_15s.mjs",
+  "validation": "docs/ep044-050-15s-validation.json"
+}

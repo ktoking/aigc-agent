@@ -1,0 +1,141 @@
+{
+  "revision": "2026-10-21-seedance25-story-rebuild",
+  "numbering": "exact_api_image_order_including_digital_humans",
+  "first_last_frames": false,
+  "digital_humans": [
+    {
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz"
+    },
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    },
+    {
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx"
+    }
+  ],
+  "api_submission": {
+    "status": "needs_visual_review",
+    "model": "doubao-seedance-2-5-260628",
+    "duration": 30,
+    "ratio": "16:9",
+    "resolution": "480p",
+    "generate_audio": true,
+    "max_total_images": 9,
+    "planned_total_images": 9,
+    "auto_images": false,
+    "note": "九项含数字人，编号以本清单为准；本地图已补齐，旧候选状态仍需逐镜复核。禁止扫描frames自动上传，不传首尾帧；未提交视频，账号能力未验证。",
+    "local_reference_files_complete": true
+  },
+  "references": [
+    {
+      "number": 1,
+      "kind": "digital_human",
+      "name": "叶凝霜",
+      "asset": "asset-20260720212023-wwndz",
+      "uri": "asset://asset-20260720212023-wwndz",
+      "label": "叶凝霜",
+      "scope": "只绑定叶凝霜本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 2,
+      "kind": "digital_human",
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "label": "白棠",
+      "scope": "只绑定白棠本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 3,
+      "kind": "digital_human",
+      "name": "许砚",
+      "asset": "asset-20260320075237-29hdx",
+      "uri": "asset://asset-20260320075237-29hdx",
+      "label": "许砚",
+      "scope": "只绑定许砚本人脸与身份；服装和表演以正文为准",
+      "status": "user_registered_identity"
+    },
+    {
+      "number": 4,
+      "key": "coopWarm",
+      "kind": "scene_or_prop",
+      "label": "禽舍修后通风与饮水",
+      "file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "planned_file": null,
+      "scope": "同一现代禽舍完成单侧挡风、原饮水器解冻后有水，保留通风口；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/coopWarm-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图4.png"
+    },
+    {
+      "number": 5,
+      "key": "firstEgg",
+      "kind": "scene_or_prop",
+      "label": "窝箱单枚鸡蛋",
+      "file": "assets/scenes/SCENE_FOREST_VILLA_001/references/villa-poultry-pen-first-egg-16x9.png",
+      "planned_file": null,
+      "scope": "同一禽舍窝箱内仅一枚蛋与垫草的近景，不锁背景建筑或人物",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图5.png"
+    },
+    {
+      "number": 6,
+      "key": "pondWarm",
+      "kind": "scene_or_prop",
+      "label": "保温罩内循环水和鱼影",
+      "file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "planned_file": null,
+      "scope": "同一透明罩下鱼影、气泡与正常循环水，鱼大小不被异能放大；无人物",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/pondWarm-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图6.png"
+    },
+    {
+      "number": 7,
+      "key": "pumpHouseSmoke",
+      "kind": "scene_or_prop",
+      "label": "山谷旧泵房炊烟",
+      "file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "planned_file": null,
+      "scope": "南侧山谷旧泵房远景，一缕炊烟，树林遮挡；没有人物脸、尸潮、可读坐标或新别墅",
+      "status": "generated_builtin_basic_visual_review",
+      "generation_plan_file": "assets/production/ep044-050-seedance25/references/pumpHouseSmoke-16x9.png",
+      "generation_record": "assets/production/ep044-050-seedance25/generation-record.json",
+      "segment_file": "frames/参考图7.png"
+    },
+    {
+      "number": 8,
+      "key": "outfit_白棠",
+      "kind": "outfit",
+      "label": "白棠鼠尾草绿工装",
+      "file": "assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图8.png"
+    },
+    {
+      "number": 9,
+      "key": "outfit_叶凝霜",
+      "kind": "outfit",
+      "label": "凝霜白色冬装",
+      "file": "assets/production/ep042-044-reference-refresh/references/ye-winter-long-coat-flatlay-16x9.png",
+      "planned_file": null,
+      "scope": "叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸",
+      "status": "existing_candidate_pending_new_shot_review",
+      "segment_file": "frames/参考图9.png"
+    }
+  ],
+  "exclusions": [
+    "不上传未出场角色或历史人物三视图",
+    "不上传旧首尾帧与旧output视频",
+    "不把待补图当已存在，不把候选图当已通过新镜头视觉验收"
+  ]
+}

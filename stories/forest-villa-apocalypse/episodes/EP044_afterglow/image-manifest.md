@@ -1,63 +1,68 @@
-# EP044 新稿参考图衔接清单
+# EP044 当前15秒段资产清单
 
-版本：2026-09-23-dialogue-rebuild-eight-shots
-2026-10-08按最新剧本完成六段参考资产复核及补图。旧frames根目录保留为历史素材；当前可用图片按编号存入各段frames/current-references。数字人身份仍用用户资产ID，人物三视图只供人工复核。图片就绪不等于30秒视频API已验收。
+版本：2026-11-12-four-15s。按本集production-manifest.json选段，数字人计入每段九项。场景图都在各段frames，不传旧首尾帧。
 
-## Segment 1：最后一轮子弹
-本地历史图片10张；新请求规划9项，其中数字人3项。
+## Segment 1：门锁快撑不住了
 
-| 请求编号 | 用途 | 已验收输入（相对story root） | 状态 |
+数字人3项＋本地图6张＝9项，无缺失。
+
+| 输入 | 标签 | 来源 | 职责 |
 | --- | --- | --- | --- |
-| 1 | 只绑定冬狼本人脸和身份，服装按正文 | asset://asset-20260720205729-l4dfh | user_registered_identity |
-| 2 | 只绑定白棠本人脸和身份，服装按正文 | asset://asset-20260320075131-k78qt | user_registered_identity |
-| 3 | 只绑定许砚本人脸和身份，服装按正文 | asset://asset-20260320075237-29hdx | user_registered_identity |
-| 4 | 既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | reviewed_existing_16x9 |
-| 5 | 只锁原外门中央锁座受撞变形细节；铁门整体样式仍服从参考图4，不生成第二道门 | assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png | generated_reviewed_16x9 |
-| 6 | 只锁唯一FVA_AUTO_TURRET_001炮台的外形；安装位置只服从别墅锚图与剧情中的二楼阳台 | assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png | generated_reviewed_16x9 |
-| 7 | 只锁护臂接触门板的受力角度；画面中的空置测试支架不得出现在正片 | assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png | generated_reviewed_16x9 |
-| 8 | 冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png | generated_reviewed_16x9 |
-| 9 | 白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png | reviewed_existing_16x9 |
+| 1 | 冬狼 | asset://asset-20260720205729-l4dfh | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 2 | 许砚 | asset://asset-20260320075237-29hdx | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 3 | 白棠 | asset://asset-20260320075131-k78qt | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 4 | 正确别墅冬季总景 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | 正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 5 | 受撞锁座 | assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png | 原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 6 | 唯一阳台炮台 | assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png | 唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 7 | 外骨骼抵门受力 | assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png | 同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 8 | 原现代控制室机位 | assets/production/ep036-defrost-and-intel/references/modern-winter-intel-control-room-16x9.png | 只锁原监控台、屏幕边框和室内布局；屏幕内容依本镜重绘，不继承图上其他建筑或车辆；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 9 | 白棠鼠尾草绿工装 | assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png | 白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
 
-历史frames按文件名保留，编号不再等于新API顺序：
-- segment_01_00-30s/frames/参考图01_人物三视图_许砚.png
-- segment_01_00-30s/frames/参考图02_人物三视图_白棠.png
-- segment_01_00-30s/frames/参考图03_人物三视图_叶凝霜.png
-- segment_01_00-30s/frames/参考图04_人物三视图_沈知夏.png
-- segment_01_00-30s/frames/参考图05_正确别墅雪景.png
-- segment_01_00-30s/frames/参考图06_关键帧_黎明围攻.png
-- segment_01_00-30s/frames/参考图07_唯一阳台炮台.png
-- segment_01_00-30s/frames/参考图08_围墙冰层状态.png
-- segment_01_00-30s/frames/参考图09_黎明暴雪天空.png
-- segment_01_00-30s/frames/参考图10_控制室监控背景.png
+## Segment 2：最后一轮打完了
 
-## Segment 2：叶凝霜把力量留给他
-本地历史图片10张；新请求规划9项，其中数字人3项。
+数字人2项＋本地图7张＝9项，无缺失。
 
-| 请求编号 | 用途 | 已验收输入（相对story root） | 状态 |
+| 输入 | 标签 | 来源 | 职责 |
 | --- | --- | --- | --- |
-| 1 | 只绑定冬狼本人脸和身份，服装按正文 | asset://asset-20260720205729-l4dfh | user_registered_identity |
-| 2 | 只绑定叶凝霜本人脸和身份，服装按正文 | asset://asset-20260720212023-wwndz | user_registered_identity |
-| 3 | 只绑定许砚本人脸和身份，服装按正文 | asset://asset-20260320075237-29hdx | user_registered_identity |
-| 4 | 既定别墅冬季结构，只锁同一栋现代三层主楼、连续阳台、高围墙、黑门与院内空间；屋顶形状逐项服从原图，不按文字另造 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | reviewed_existing_16x9 |
-| 5 | 只锁正确别墅原有黑色双扇铁门、灰墙和门柱；开闭按镜头变化，别墅全貌只服从参考图4 | assets/production/ep042-044-reference-refresh/references/canonical-gate-closed-winter-16x9.png | generated_reviewed_16x9 |
-| 6 | 只锁门外单个冰封物倒地的冰层质感；冬狼身份与服装仍服从数字人和参考图8 | assets/production/ep042-044-reference-refresh/references/ice-covered-faceless-silhouette-snow-16x9.png | generated_reviewed_16x9 |
-| 7 | 只锁外骨骼过热关节和熄灭状态灯，不锁背景或新增装备 | assets/production/ep042-044-reference-refresh/references/exoskeleton-overheat-joint-16x9.png | generated_reviewed_16x9 |
-| 8 | 冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png | generated_reviewed_16x9 |
-| 9 | 叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸 | assets/production/ep042-044-reference-refresh/references/ye-winter-long-coat-flatlay-16x9.png | generated_reviewed_16x9 |
+| 1 | 许砚 | asset://asset-20260320075237-29hdx | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 2 | 冬狼 | asset://asset-20260720205729-l4dfh | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 3 | 正确别墅冬季总景 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | 正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 4 | 受撞锁座 | assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png | 原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 5 | 唯一阳台炮台 | assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png | 唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 6 | 外骨骼抵门受力 | assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png | 同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 7 | 外骨骼过热停用 | assets/production/ep042-044-reference-refresh/references/exoskeleton-overheat-joint-16x9.png | 外骨骼同款关节、过热警示与停用状态；不锁新人物或新装甲；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 8 | 许砚炭灰工装 | assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png | 许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 9 | 冬狼现代黑色冬装 | assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png | 冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
 
-历史frames按文件名保留，编号不再等于新API顺序：
-- segment_02_30-60s/frames/参考图01_人物三视图_叶凝霜.png
-- segment_02_30-60s/frames/参考图02_人物三视图_冬狼.png
-- segment_02_30-60s/frames/参考图03_人物三视图_许砚.png
-- segment_02_30-60s/frames/参考图04_人物三视图_沈知夏.png
-- segment_02_30-60s/frames/参考图05_正确别墅雪景.png
-- segment_02_30-60s/frames/参考图06_关键帧_冬狼冰封.png
-- segment_02_30-60s/frames/参考图07_终结冰系效果.png
-- segment_02_30-60s/frames/参考图08_围墙冰层状态.png
-- segment_02_30-60s/frames/参考图09_医疗急救包.png
-- segment_02_30-60s/frames/参考图10_唯一阳台炮台.png
+## Segment 3：她不再听他的命令
 
-## 本轮排除
-- 不能用旧关键帧的错误人物脸、蓝西装炎魁、古风冬狼、旧黑丝袜凝霜来控制服装。
-- 不能拿炸药卡、机械接线图、全棚坍塌图去代替本集不同功能。
-- 不用首尾帧，不自动扫描整个frames上传；提交前必须完成每张图的用途和身份审查。
+数字人2项＋本地图7张＝9项，无缺失。
+
+| 输入 | 标签 | 来源 | 职责 |
+| --- | --- | --- | --- |
+| 1 | 冬狼 | asset://asset-20260720205729-l4dfh | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 2 | 叶凝霜 | asset://asset-20260720212023-wwndz | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 3 | 正确别墅冬季总景 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | 正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 4 | 同一关闭黑门 | assets/production/ep042-044-reference-refresh/references/canonical-gate-closed-winter-16x9.png | 原黑门门柱、内外侧与关闭状态，不改变canonical建筑；冻结发生墙外；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 5 | 墙外冰封倒地轮廓 | assets/production/ep042-044-reference-refresh/references/ice-covered-faceless-silhouette-snow-16x9.png | 只锁冬狼靴边的冰层材质；本段只冻住双脚，不提前封住全身或倒地，不从图中生成另一张脸 |
+| 6 | 凝霜银白长发无脸头模 | assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png | 只锁叶凝霜银白长发的长度、发色和发尾；假发头模不进入正片，不绑定脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 7 | 凝霜白色冬装 | assets/production/ep042-044-reference-refresh/references/ye-winter-long-coat-flatlay-16x9.png | 叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 8 | 冬狼现代黑色冬装 | assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png | 冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 9 | 原双门人工交易槽 | assets/scenes/SCENE_FOREST_VILLA_001/references/forest-villa-winter-gate-transfer-hatch-16x9.png | 原黑门上的双门交易槽、托盘与内外门关系，主门关闭，箱子需人手推动；无人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+
+## Segment 4：守住门，也接住她
+
+数字人2项＋本地图7张＝9项，无缺失。
+
+| 输入 | 标签 | 来源 | 职责 |
+| --- | --- | --- | --- |
+| 1 | 许砚 | asset://asset-20260320075237-29hdx | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 2 | 叶凝霜 | asset://asset-20260720212023-wwndz | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 3 | 正确别墅冬季总景 | assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png | 正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 4 | 同一关闭黑门 | assets/production/ep042-044-reference-refresh/references/canonical-gate-closed-winter-16x9.png | 原黑门门柱、内外侧与关闭状态，不改变canonical建筑；冻结发生墙外；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 5 | 墙外冰封倒地轮廓 | assets/production/ep042-044-reference-refresh/references/ice-covered-faceless-silhouette-snow-16x9.png | 墙外单个无脸冰封轮廓与倒地冰层质感；不锁新面孔，不出现碎尸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 6 | 外骨骼过热停用 | assets/production/ep042-044-reference-refresh/references/exoskeleton-overheat-joint-16x9.png | 外骨骼同款关节、过热警示与停用状态；不锁新人物或新装甲；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 7 | 凝霜银白长发无脸头模 | assets/characters/FVA_ICE_WOMAN_001/references/ye-ningshuang-silver-white-hair-reference-16x9.png | 只锁叶凝霜银白长发的长度、发色和发尾；假发头模不进入正片，不绑定脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 8 | 凝霜白色冬装 | assets/production/ep042-044-reference-refresh/references/ye-winter-long-coat-flatlay-16x9.png | 叶凝霜无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+| 9 | 许砚炭灰工装 | assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png | 许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果 |
+
