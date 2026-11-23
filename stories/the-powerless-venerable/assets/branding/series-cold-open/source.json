@@ -1,0 +1,44 @@
+{
+  "source_episode": "EP001_today-we-walk",
+  "source_master_range_seconds": [
+    2.1,
+    7.4
+  ],
+  "source_story_range_seconds": [
+    0,
+    5.3
+  ],
+  "duration_seconds": 5.3,
+  "frame_count": 159,
+  "fps": 30,
+  "captions": [
+    {
+      "id": 1,
+      "kind": "series_cold_open",
+      "start": 0.02,
+      "end": 1.12,
+      "text": "我穿越了"
+    },
+    {
+      "id": 2,
+      "kind": "series_cold_open",
+      "start": 1.12,
+      "end": 2.95,
+      "text": "成了修仙界的镇宗大尊者"
+    },
+    {
+      "id": 3,
+      "kind": "series_cold_open",
+      "start": 3.42,
+      "end": 4.99,
+      "text": "可我半点仙力都没有啊！"
+    }
+  ],
+  "source_assets": [
+    "production/EP001-final-cut-v1/assets/story-dissolved-4k.mp4",
+    "production/EP001-final-cut-v1/assets/dialogue.wav"
+  ],
+  "hook_audio_fade_start_seconds": 5.12,
+  "sha256": "812de63c15b08f419330131320c02c5fedbf7b751684970bc1d20ba2ed3247d8",
+  "audio_contains_episode_bgm": false
+}

@@ -1,0 +1,47 @@
+{
+  "status": "SCRIPT_READY_REFERENCES_PARTIAL",
+  "text_revision": "v1-r2-dialogue-and-decisions",
+  "planned_input_order": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "path": "frames/first-frame.png",
+      "title": "素面碗旁出现主阵石",
+      "anchor_seconds": 0,
+      "exists": false,
+      "purpose": "50mm长老在左揭开墨布袋窄口，灰黑石只露一角。谢无咎右侧端白瓷面碗，两根筷子横在碗沿，桌面玉盘两枚、白布巾上一枚小金丹，左有青瓷瓶，暖光。"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "path": "frames/last-frame.png",
+      "title": "两人抵达演武坪石门",
+      "anchor_seconds": 14.6,
+      "exists": false,
+      "purpose": "32mm透过青灰石拱门往演武坪看，两位主角斜背只各一，老者持墨布袋先到左，中近男主在右端碗，远端三座错位石环暗静，白石栏杆与云海衔接，尚不看见弟子的脸。"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "title": "谢无咎",
+      "exists": true,
+      "purpose": "锁定角色身份、服制和外形",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C08",
+      "path": "frames/C08-tianheng-ritual-elder-turnaround-v1.png",
+      "title": "天衡宗执礼大长老",
+      "exists": true,
+      "purpose": "锁定角色身份、服制和外形",
+      "sha256": "4faac85f3ed0f6d26957e61cdcdb7aabf84c69b84a51c3dd377562acf9b7060c"
+    }
+  ],
+  "story_keyframe_count": 2,
+  "keyframes_generated": false,
+  "missing_character_references": []
+}

@@ -1,0 +1,78 @@
+{
+  "status": "IMAGES_READY",
+  "planned_input_order": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "path": "frames/first-frame.png",
+      "exists": true,
+      "purpose": "锁定本段实际开场状态",
+      "title": "石阶前的冷场",
+      "sha256": "e382d9d78a26272990b46f84bdbbee12e143654688319920805babc1752ca4c9",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "path": "frames/last-frame.png",
+      "exists": true,
+      "purpose": "锁定本段实际收尾状态",
+      "title": "当面相请，两人迈上石阶",
+      "sha256": "19d1aaca144800997f2fd568814512dd4644d895654e5a390770ca3f4a12d93c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "exists": true,
+      "purpose": "谢无咎脸、发型、衣色与道具位置",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e",
+      "title": "谢无咎",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C07",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "exists": true,
+      "purpose": "裴长庚脸、发型、衣色与道具位置",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7",
+      "title": "裴长庚",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "BG02",
+      "path": "frames/BG02-sermon-disciples-turnaround-v1.png",
+      "exists": true,
+      "purpose": "讲道弟子组脸、发型、衣色与道具位置",
+      "title": "讲道弟子组",
+      "sha256": "b90ec012a7bbead4e46ce1eb1845397637e8efddb14922d72303fdbf14b3ae64",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "story_keyframe_count": 2,
+  "keyframes_generated": true,
+  "missing_character_references": [],
+  "visual_version": "EP003-v2-stone-dragon-opening-ground-r1",
+  "text_revision": "v2-opening-ground-r1-20261118"
+}

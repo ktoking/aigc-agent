@@ -1,0 +1,117 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v1",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "04-A",
+      "path": "frames/keyframe-04-a-v1.png",
+      "title": "气息敛尽，老者又误判了",
+      "anchor_seconds": 5.0,
+      "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "04-B",
+      "path": "frames/keyframe-04-b-v1.png",
+      "title": "如此甚好，袖内攥紧扶手",
+      "anchor_seconds": 10.8,
+      "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531"
+    },
+    {
+      "index": 3,
+      "kind": "story_keyframe",
+      "id": "04-C",
+      "path": "frames/keyframe-04-c-v1.png",
+      "title": "驾鹤离场，躲过切磋",
+      "anchor_seconds": 13.8,
+      "sha256": "cf824c7f89e903f9132c96beced321e7ccd295747371a7e81f1e2a42c8576b67"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C07",
+      "role": "裴长庚／鹤归上人",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    }
+  ],
+  "characters": [
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C07",
+      "role": "裴长庚／鹤归上人",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "04-A",
+      "path": "frames/keyframe-04-a-v1.png",
+      "title": "气息敛尽，老者又误判了",
+      "anchor_seconds": 5.0,
+      "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "04-B",
+      "path": "frames/keyframe-04-b-v1.png",
+      "title": "如此甚好，袖内攥紧扶手",
+      "anchor_seconds": 10.8,
+      "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531"
+    },
+    {
+      "index": 3,
+      "kind": "story_keyframe",
+      "id": "04-C",
+      "path": "frames/keyframe-04-c-v1.png",
+      "title": "驾鹤离场，躲过切磋",
+      "anchor_seconds": 13.8,
+      "sha256": "cf824c7f89e903f9132c96beced321e7ccd295747371a7e81f1e2a42c8576b67"
+    }
+  ],
+  "story_keyframe_count": 3,
+  "keyframes_generated": true,
+  "missing_character_references": []
+}

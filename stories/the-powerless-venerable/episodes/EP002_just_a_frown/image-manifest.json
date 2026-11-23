@@ -1,0 +1,525 @@
+{
+  "status": "IMAGES_READY",
+  "episode": "EP002_just_a_frown",
+  "script_version": "v1",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "generator": "built-in image_gen",
+  "story_keyframes": 11,
+  "new_character_images": 2,
+  "unique_character_references": 7,
+  "selected_unique_images": 18,
+  "segments": [
+    {
+      "segment_id": "segment_01_00-15s",
+      "title": "尊者皱眉了",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "01-A",
+          "path": "frames/keyframe-01-a-v1.png",
+          "title": "急到说不出话，眉心拧紧",
+          "anchor_seconds": 4.8,
+          "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "01-B",
+          "path": "frames/keyframe-01-b-v1.png",
+          "title": "弟子误认霸体，掌门拿旧事对上",
+          "anchor_seconds": 10.5,
+          "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "role": "玄衡",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "role": "陆青",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06A",
+          "role": "车夫",
+          "path": "frames/C06A-driver-turnaround-v1.png",
+          "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "01-A",
+          "path": "frames/keyframe-01-a-v1.png",
+          "title": "急到说不出话，眉心拧紧",
+          "anchor_seconds": 4.8,
+          "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "01-B",
+          "path": "frames/keyframe-01-b-v1.png",
+          "title": "弟子误认霸体，掌门拿旧事对上",
+          "anchor_seconds": 10.5,
+          "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "role": "玄衡",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "role": "陆青",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06A",
+          "role": "车夫",
+          "path": "frames/C06A-driver-turnaround-v1.png",
+          "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_02_15-30s",
+      "title": "传闻越说越吓人",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "02-A",
+          "path": "frames/keyframe-02-a-v1.png",
+          "title": "传闻越说越吓人",
+          "anchor_seconds": 2.8,
+          "sha256": "4c8e48009863e2af07c9d729998889c7f123d7521f361b136544e75404175886"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "02-B",
+          "path": "frames/keyframe-02-b-v1.png",
+          "title": "白璃请留手，男主更卡住",
+          "anchor_seconds": 10.4,
+          "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9"
+        },
+        {
+          "index": 3,
+          "kind": "story_keyframe",
+          "id": "02-C",
+          "path": "frames/keyframe-02-c-v1.png",
+          "title": "白发老者驾鹤入场",
+          "anchor_seconds": 14.3,
+          "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+        }
+      ],
+      "characters": [
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C02",
+          "role": "沈照月",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C05",
+          "role": "陆青",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C06A",
+          "role": "车夫",
+          "path": "frames/C06A-driver-turnaround-v1.png",
+          "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+        },
+        {
+          "index": 9,
+          "kind": "character",
+          "character_id": "C07",
+          "role": "裴长庚／鹤归上人",
+          "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "02-A",
+          "path": "frames/keyframe-02-a-v1.png",
+          "title": "传闻越说越吓人",
+          "anchor_seconds": 2.8,
+          "sha256": "4c8e48009863e2af07c9d729998889c7f123d7521f361b136544e75404175886"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "02-B",
+          "path": "frames/keyframe-02-b-v1.png",
+          "title": "白璃请留手，男主更卡住",
+          "anchor_seconds": 10.4,
+          "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9"
+        },
+        {
+          "index": 3,
+          "kind": "story_keyframe",
+          "id": "02-C",
+          "path": "frames/keyframe-02-c-v1.png",
+          "title": "白发老者驾鹤入场",
+          "anchor_seconds": 14.3,
+          "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C02",
+          "role": "沈照月",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C05",
+          "role": "陆青",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C06A",
+          "role": "车夫",
+          "path": "frames/C06A-driver-turnaround-v1.png",
+          "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+        },
+        {
+          "index": 9,
+          "kind": "character",
+          "character_id": "C07",
+          "role": "裴长庚／鹤归上人",
+          "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_03_30-45s",
+      "title": "老宗师先赔了罪",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "03-A",
+          "path": "frames/keyframe-03-a-v1.png",
+          "title": "白发老宗师先向车窗赔罪",
+          "anchor_seconds": 4.4,
+          "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "03-B",
+          "path": "frames/keyframe-03-b-v1.png",
+          "title": "一转身就是师傅",
+          "anchor_seconds": 10.7,
+          "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491"
+        },
+        {
+          "index": 3,
+          "kind": "story_keyframe",
+          "id": "03-C",
+          "path": "frames/keyframe-03-c-v1.png",
+          "title": "法相收回，危险落下",
+          "anchor_seconds": 14.4,
+          "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+        }
+      ],
+      "characters": [
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C07",
+          "role": "裴长庚／鹤归上人",
+          "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "03-A",
+          "path": "frames/keyframe-03-a-v1.png",
+          "title": "白发老宗师先向车窗赔罪",
+          "anchor_seconds": 4.4,
+          "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "03-B",
+          "path": "frames/keyframe-03-b-v1.png",
+          "title": "一转身就是师傅",
+          "anchor_seconds": 10.7,
+          "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491"
+        },
+        {
+          "index": 3,
+          "kind": "story_keyframe",
+          "id": "03-C",
+          "path": "frames/keyframe-03-c-v1.png",
+          "title": "法相收回，危险落下",
+          "anchor_seconds": 14.4,
+          "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C07",
+          "role": "裴长庚／鹤归上人",
+          "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_04_45-60s",
+      "title": "如此甚好",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "04-A",
+          "path": "frames/keyframe-04-a-v1.png",
+          "title": "气息敛尽，老者又误判了",
+          "anchor_seconds": 5.0,
+          "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "04-B",
+          "path": "frames/keyframe-04-b-v1.png",
+          "title": "如此甚好，袖内攥紧扶手",
+          "anchor_seconds": 10.8,
+          "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531"
+        },
+        {
+          "index": 3,
+          "kind": "story_keyframe",
+          "id": "04-C",
+          "path": "frames/keyframe-04-c-v1.png",
+          "title": "驾鹤离场，躲过切磋",
+          "anchor_seconds": 13.8,
+          "sha256": "cf824c7f89e903f9132c96beced321e7ccd295747371a7e81f1e2a42c8576b67"
+        }
+      ],
+      "characters": [
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C07",
+          "role": "裴长庚／鹤归上人",
+          "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "04-A",
+          "path": "frames/keyframe-04-a-v1.png",
+          "title": "气息敛尽，老者又误判了",
+          "anchor_seconds": 5.0,
+          "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "04-B",
+          "path": "frames/keyframe-04-b-v1.png",
+          "title": "如此甚好，袖内攥紧扶手",
+          "anchor_seconds": 10.8,
+          "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531"
+        },
+        {
+          "index": 3,
+          "kind": "story_keyframe",
+          "id": "04-C",
+          "path": "frames/keyframe-04-c-v1.png",
+          "title": "驾鹤离场，躲过切磋",
+          "anchor_seconds": 13.8,
+          "sha256": "cf824c7f89e903f9132c96beced321e7ccd295747371a7e81f1e2a42c8576b67"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C01",
+          "role": "谢无咎",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "role": "白璃",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C07",
+          "role": "裴长庚／鹤归上人",
+          "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        }
+      ]
+    }
+  ],
+  "generation_record": "../../production/EP002-images-v1/image-jobs.json"
+}

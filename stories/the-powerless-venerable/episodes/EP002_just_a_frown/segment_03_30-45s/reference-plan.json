@@ -1,0 +1,117 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v1",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "03-A",
+      "path": "frames/keyframe-03-a-v1.png",
+      "title": "白发老宗师先向车窗赔罪",
+      "anchor_seconds": 4.4,
+      "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "03-B",
+      "path": "frames/keyframe-03-b-v1.png",
+      "title": "一转身就是师傅",
+      "anchor_seconds": 10.7,
+      "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491"
+    },
+    {
+      "index": 3,
+      "kind": "story_keyframe",
+      "id": "03-C",
+      "path": "frames/keyframe-03-c-v1.png",
+      "title": "法相收回，危险落下",
+      "anchor_seconds": 14.4,
+      "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C07",
+      "role": "裴长庚／鹤归上人",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    }
+  ],
+  "characters": [
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C07",
+      "role": "裴长庚／鹤归上人",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "03-A",
+      "path": "frames/keyframe-03-a-v1.png",
+      "title": "白发老宗师先向车窗赔罪",
+      "anchor_seconds": 4.4,
+      "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "03-B",
+      "path": "frames/keyframe-03-b-v1.png",
+      "title": "一转身就是师傅",
+      "anchor_seconds": 10.7,
+      "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491"
+    },
+    {
+      "index": 3,
+      "kind": "story_keyframe",
+      "id": "03-C",
+      "path": "frames/keyframe-03-c-v1.png",
+      "title": "法相收回，危险落下",
+      "anchor_seconds": 14.4,
+      "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+    }
+  ],
+  "story_keyframe_count": 3,
+  "keyframes_generated": true,
+  "missing_character_references": []
+}

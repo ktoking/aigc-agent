@@ -1,0 +1,198 @@
+{
+  "version": "A-40refs-v1",
+  "segment": "segment_02_30-60s",
+  "status": "complete",
+  "duration_seconds": 30,
+  "requested_images": 10,
+  "available_images": 10,
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "asset_key": "q22",
+      "purpose": "30秒出门装玄关首帧",
+      "shot_ids": [
+        "SH12"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q22.png",
+      "origin": "generated_for_shot",
+      "sha256": "34528956a89041f9c98a22cbfc659b1969aa5f366b9e2f66d40df6f67cd3b2f9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1958047
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "asset_key": "q23",
+      "purpose": "60秒学院公交到站尾帧",
+      "shot_ids": [
+        "SH18"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q23.png",
+      "origin": "generated_for_shot",
+      "sha256": "0a91068ce6979be5080df16fd9fff5b1b8713792c40a4d8d1ebfc664be29ac94",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2191259
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-out.png",
+      "asset_key": "out",
+      "purpose": "女主出门身份/书包/右侧发夹",
+      "shot_ids": [
+        "SH12",
+        "SH13",
+        "SH14",
+        "SH15",
+        "SH16",
+        "SH18"
+      ],
+      "status": "available",
+      "generated": true,
+      "origin": "reused_character_reference",
+      "source": "assets/characters/lin-tao/reference-out-v1.png",
+      "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1755811
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-xiao-man.png",
+      "asset_key": "robot",
+      "purpose": "门内递早餐小满，不随车",
+      "shot_ids": [
+        "SH13"
+      ],
+      "status": "available",
+      "generated": true,
+      "origin": "reused_character_reference",
+      "source": "assets/characters/xiao-man/reference-three-view-v1.png",
+      "sha256": "b466e7caafbc855ab806d89cd4c5405efd61d68b92044fd3bbd20ef298203144",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1661982
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-corridor-stop.png",
+      "asset_key": "q11",
+      "purpose": "走廊到站台的真实路径",
+      "shot_ids": [
+        "SH14",
+        "SH15"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q11.png",
+      "origin": "generated_for_shot",
+      "sha256": "6ae2836d36e962023719814250bae9898e86c4913db282e74adb15ff1fa4175c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2344313
+    },
+    {
+      "input_index": 6,
+      "path": "frames/ref-sky-bus.png",
+      "asset_key": "q05",
+      "purpose": "同一蓝白公交及可见座椅",
+      "shot_ids": [
+        "SH15",
+        "SH16",
+        "SH17",
+        "SH18"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q05.png",
+      "origin": "generated_for_shot",
+      "sha256": "dee53bb5fa0d74a55053a06c5a4e277514a3c7cf134d81c4ac1f11be7243bf3b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2007759
+    },
+    {
+      "input_index": 7,
+      "path": "frames/ref-future-city.png",
+      "asset_key": "q06",
+      "purpose": "明亮高科技都市车道/楼群",
+      "shot_ids": [
+        "SH16",
+        "SH17",
+        "SH18"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q06.png",
+      "origin": "generated_for_shot",
+      "sha256": "332bfd151657ca6b296ff36f9e822679b2353bc8aec39c825738c47d4ffb6bb6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2516632
+    },
+    {
+      "input_index": 8,
+      "path": "frames/ref-ring-rail.png",
+      "asset_key": "q12",
+      "purpose": "环轨列车与无轨公交的高差",
+      "shot_ids": [
+        "SH17"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q12.png",
+      "origin": "generated_for_shot",
+      "sha256": "28549cc72f8568c0e5f41abfcecedbdd145ee258b1a8c539e8ac1233a3ffa950",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2542893
+    },
+    {
+      "input_index": 9,
+      "path": "frames/ref-girl-bus-window.png",
+      "asset_key": "q24",
+      "purpose": "女主在车内靠窗吃早餐",
+      "shot_ids": [
+        "SH16"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q24.png",
+      "origin": "generated_for_shot",
+      "sha256": "70d0c4cec04fc5548487c42afd7ed408ea44c6a24415ce65af5e637b18b5d957",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1972679
+    },
+    {
+      "input_index": 10,
+      "path": "frames/ref-breakfast-goodbye.png",
+      "asset_key": "q25",
+      "purpose": "玄关递接纸袋与告别动作",
+      "shot_ids": [
+        "SH13"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q25.png",
+      "origin": "generated_for_shot",
+      "sha256": "9b8456e556e4255be48fbb52d79adb346b02bbf068c521da5ccf24d1725e860b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1937816
+    }
+  ],
+  "visual_review": "已逐图看工具输出并修正已发现的问题；职责与镜头覆盖见reference-order.md；尚无视频验收",
+  "style": "A",
+  "video_status": "NOT_SUBMITTED",
+  "png_integrity": "PASS: signature/chunk CRC/IDAT decompression",
+  "story_title": "星穹学院",
+  "narrative_version": "2026-10-29-v4",
+  "visual_adaptation_note": "原PNG保留，参考身份/布局/状态；按新稿制作自然成年表演、双人接管与许星监测，尚无新动作视频"
+}

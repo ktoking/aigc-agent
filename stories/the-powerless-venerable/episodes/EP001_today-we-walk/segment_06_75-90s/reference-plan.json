@@ -1,0 +1,146 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v3",
+  "dialogue_revision": "r1-20261117",
+  "visual_version": "new-cast-v1-frames-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "06-A",
+      "path": "frames/keyframe-06-a-v1.png",
+      "anchor_seconds": 6.7,
+      "title": "刚想苟住，又来一位尊者",
+      "sha256": "bfee8b95bdc59b09ef909292b13e39c19a986c43d872e1a134db32e70563459b"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "06-B",
+      "path": "frames/keyframe-06-b-v1.png",
+      "anchor_seconds": 14.4,
+      "title": "唯一山门，被白璃挡住",
+      "sha256": "90575872b8b58afa6cc4a7f39cca7e3760c3be4c872da1d78ef727c73ead9ba1"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "role": "沈照月",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C06",
+      "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "role": "外门车夫与搬货弟子",
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+    },
+    {
+      "index": 8,
+      "kind": "character",
+      "character_id": "C03",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "role": "白璃",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    }
+  ],
+  "characters": [
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "role": "沈照月",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C06",
+      "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "role": "外门车夫与搬货弟子",
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+    },
+    {
+      "index": 8,
+      "kind": "character",
+      "character_id": "C03",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "role": "白璃",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "06-A",
+      "path": "frames/keyframe-06-a-v1.png",
+      "anchor_seconds": 6.7,
+      "title": "刚想苟住，又来一位尊者",
+      "sha256": "bfee8b95bdc59b09ef909292b13e39c19a986c43d872e1a134db32e70563459b"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "06-B",
+      "path": "frames/keyframe-06-b-v1.png",
+      "anchor_seconds": 14.4,
+      "title": "唯一山门，被白璃挡住",
+      "sha256": "90575872b8b58afa6cc4a7f39cca7e3760c3be4c872da1d78ef727c73ead9ba1"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": true
+}

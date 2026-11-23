@@ -1,0 +1,131 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v1",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "01-A",
+      "path": "frames/keyframe-01-a-v1.png",
+      "title": "急到说不出话，眉心拧紧",
+      "anchor_seconds": 4.8,
+      "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "01-B",
+      "path": "frames/keyframe-01-b-v1.png",
+      "title": "弟子误认霸体，掌门拿旧事对上",
+      "anchor_seconds": 10.5,
+      "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C04",
+      "role": "玄衡",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C05",
+      "role": "陆青",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C06A",
+      "role": "车夫",
+      "path": "frames/C06A-driver-turnaround-v1.png",
+      "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+    }
+  ],
+  "characters": [
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C04",
+      "role": "玄衡",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C05",
+      "role": "陆青",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C06A",
+      "role": "车夫",
+      "path": "frames/C06A-driver-turnaround-v1.png",
+      "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "01-A",
+      "path": "frames/keyframe-01-a-v1.png",
+      "title": "急到说不出话，眉心拧紧",
+      "anchor_seconds": 4.8,
+      "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "01-B",
+      "path": "frames/keyframe-01-b-v1.png",
+      "title": "弟子误认霸体，掌门拿旧事对上",
+      "anchor_seconds": 10.5,
+      "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+    }
+  ],
+  "story_keyframe_count": 2,
+  "keyframes_generated": true,
+  "missing_character_references": []
+}

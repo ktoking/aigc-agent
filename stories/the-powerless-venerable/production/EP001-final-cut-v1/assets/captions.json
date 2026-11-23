@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "segment": 1,
+    "local_start": 0.02,
+    "local_end": 1.12,
+    "start": 2.12,
+    "end": 3.22,
+    "text": "我穿越了",
+    "image": "assets/captions/001.png"
+  },
+  {
+    "id": 2,
+    "segment": 1,
+    "local_start": 1.12,
+    "local_end": 2.95,
+    "start": 3.22,
+    "end": 5.05,
+    "text": "成了修仙界的镇宗大尊者",
+    "image": "assets/captions/002.png"
+  },
+  {
+    "id": 3,
+    "segment": 1,
+    "local_start": 3.42,
+    "local_end": 4.99,
+    "start": 5.52,
+    "end": 7.09,
+    "text": "可我半点仙力都没有啊！",
+    "image": "assets/captions/003.png"
+  },
+  {
+    "id": 4,
+    "segment": 1,
+    "local_start": 5.56,
+    "local_end": 6.14,
+    "start": 7.66,
+    "end": 8.24,
+    "text": "尊者",
+    "image": "assets/captions/004.png"
+  },
+  {
+    "id": 5,
+    "segment": 1,
+    "local_start": 6.34,
+    "local_end": 8.0,
+    "start": 8.44,
+    "end": 10.1,
+    "text": "今日赴天衡宗会盟",
+    "image": "assets/captions/005.png"
+  },
+  {
+    "id": 6,
+    "segment": 1,
+    "local_start": 8.28,
+    "local_end": 9.7,
+    "start": 10.38,
+    "end": 11.8,
+    "text": "诸位尊者已在等候",
+    "image": "assets/captions/006.png"
+  },
+  {
+    "id": 7,
+    "segment": 1,
+    "local_start": 10.32,
+    "local_end": 11.13,
+    "start": 12.42,
+    "end": 13.23,
+    "text": "请登云",
+    "image": "assets/captions/007.png"
+  },
+  {
+    "id": 8,
+    "segment": 1,
+    "local_start": 13.01,
+    "local_end": 13.8,
+    "start": 15.11,
+    "end": 15.9,
+    "text": "怎么办？",
+    "image": "assets/captions/008.png"
+  },
+  {
+    "id": 9,
+    "segment": 1,
+    "local_start": 14.05,
+    "local_end": 15.07,
+    "start": 16.15,
+    "end": 17.17,
+    "text": "我连飞都不会！",
+    "image": "assets/captions/009.png"
+  },
+  {
+    "id": 10,
+    "segment": 2,
+    "local_start": 0,
+    "local_end": 1.68,
+    "start": 17.2,
+    "end": 18.88,
+    "text": "咒语？先试一个！",
+    "image": "assets/captions/010.png"
+  },
+  {
+    "id": 11,
+    "segment": 2,
+    "local_start": 1.84,
+    "local_end": 3.4,
+    "start": 19.04,
+    "end": 20.6,
+    "text": "妈咪贝贝烘——飞！",
+    "image": "assets/captions/011.png"
+  },
+  {
+    "id": 12,
+    "segment": 2,
+    "local_start": 4.7,
+    "local_end": 5.3,
+    "start": 21.9,
+    "end": 22.5,
+    "text": "蛛丝……",
+    "image": "assets/captions/012.png"
+  },
+  {
+    "id": 13,
+    "segment": 2,
+    "local_start": 5.6,
+    "local_end": 6.24,
+    "start": 22.8,
+    "end": 23.44,
+    "text": "走你！",
+    "image": "assets/captions/013.png"
+  },
+  {
+    "id": 14,
+    "segment": 2,
+    "local_start": 6.86,
+    "local_end": 7.42,
+    "start": 24.06,
+    "end": 24.62,
+    "text": "御剑",
+    "image": "assets/captions/014.png"
+  },
+  {
+    "id": 15,
+    "segment": 2,
+    "local_start": 7.72,
+    "local_end": 8.14,
+    "start": 24.92,
+    "end": 25.34,
+    "text": "起！",
+    "image": "assets/captions/015.png"
+  },
+  {
+    "id": 16,
+    "segment": 2,
+    "local_start": 8.84,
+    "local_end": 9.86,
+    "start": 26.04,
+    "end": 27.06,
+    "text": "起啊！",
+    "image": "assets/captions/016.png"
+  },
+  {
+    "id": 17,
+    "segment": 2,
+    "local_start": 12.58,
+    "local_end": 13.72,
+    "start": 29.78,
+    "end": 30.92,
+    "text": "尊者怎么不动？",
+    "image": "assets/captions/017.png"
+  },
+  {
+    "id": 18,
+    "segment": 2,
+    "local_start": 14.22,
+    "local_end": 15.0,
+    "start": 31.42,
+    "end": 32.2,
+    "text": "云有问题？",
+    "image": "assets/captions/018.png"
+  },
+  {
+    "id": 19,
+    "segment": 3,
+    "local_start": 0,
+    "local_end": 0.95,
+    "start": 32.3,
+    "end": 33.25,
+    "text": "时辰未到……",
+    "image": "assets/captions/019.png"
+  },
+  {
+    "id": 20,
+    "segment": 3,
+    "local_start": 1.2,
+    "local_end": 2.55,
+    "start": 33.5,
+    "end": 34.85,
+    "text": "尊者看出来了？",
+    "image": "assets/captions/020.png"
+  },
+  {
+    "id": 21,
+    "segment": 3,
+    "local_start": 3.26,
+    "local_end": 4.74,
+    "start": 35.56,
+    "end": 37.04,
+    "text": "难道礼单漏了什么？",
+    "image": "assets/captions/021.png"
+  },
+  {
+    "id": 22,
+    "segment": 3,
+    "local_start": 4.94,
+    "local_end": 6.08,
+    "start": 37.24,
+    "end": 38.38,
+    "text": "弟、弟子知错",
+    "image": "assets/captions/022.png"
+  },
+  {
+    "id": 23,
+    "segment": 3,
+    "local_start": 6.22,
+    "local_end": 6.8,
+    "start": 38.52,
+    "end": 39.1,
+    "text": "啊？",
+    "image": "assets/captions/023.png"
+  },
+  {
+    "id": 24,
+    "segment": 3,
+    "local_start": 7.02,
+    "local_end": 8.06,
+    "start": 39.32,
+    "end": 40.36,
+    "text": "他怎么先自首了？",
+    "image": "assets/captions/024.png"
+  },
+  {
+    "id": 25,
+    "segment": 3,
+    "local_start": 8.55,
+    "local_end": 10.0,
+    "start": 40.85,
+    "end": 42.3,
+    "text": "本、本座今日……",
+    "image": "assets/captions/025.png"
+  },
+  {
+    "id": 26,
+    "segment": 3,
+    "local_start": 10.4,
+    "local_end": 12.14,
+    "start": 42.7,
+    "end": 44.44,
+    "text": "步行，亲近门人",
+    "image": "assets/captions/026.png"
+  },
+  {
+    "id": 27,
+    "segment": 3,
+    "local_start": 12.3,
+    "local_end": 13.6,
+    "start": 44.6,
+    "end": 45.9,
+    "text": "收剑，随行",
+    "image": "assets/captions/027.png"
+  },
+  {
+    "id": 28,
+    "segment": 4,
+    "local_start": 0.11,
+    "local_end": 1.24,
+    "start": 47.51,
+    "end": 48.64,
+    "text": "山门多远？",
+    "image": "assets/captions/028.png"
+  },
+  {
+    "id": 29,
+    "segment": 4,
+    "local_start": 1.47,
+    "local_end": 2.67,
+    "start": 48.87,
+    "end": 50.07,
+    "text": "三千级石阶",
+    "image": "assets/captions/029.png"
+  },
+  {
+    "id": 30,
+    "segment": 4,
+    "local_start": 2.87,
+    "local_end": 4.21,
+    "start": 50.27,
+    "end": 51.61,
+    "text": "备……备车",
+    "image": "assets/captions/030.png"
+  },
+  {
+    "id": 31,
+    "segment": 4,
+    "local_start": 4.51,
+    "local_end": 5.24,
+    "start": 51.91,
+    "end": 52.64,
+    "text": "备车？",
+    "image": "assets/captions/031.png"
+  },
+  {
+    "id": 32,
+    "segment": 4,
+    "local_start": 5.51,
+    "local_end": 6.86,
+    "start": 52.91,
+    "end": 54.26,
+    "text": "要、要有轮子的",
+    "image": "assets/captions/032.png"
+  },
+  {
+    "id": 33,
+    "segment": 4,
+    "local_start": 8.03,
+    "local_end": 9.33,
+    "start": 55.43,
+    "end": 56.73,
+    "text": "难道是运粮车？",
+    "image": "assets/captions/033.png"
+  },
+  {
+    "id": 34,
+    "segment": 4,
+    "local_start": 9.55,
+    "local_end": 10.23,
+    "start": 56.95,
+    "end": 57.63,
+    "text": "就那辆",
+    "image": "assets/captions/034.png"
+  },
+  {
+    "id": 35,
+    "segment": 4,
+    "local_start": 12.28,
+    "local_end": 13.49,
+    "start": 59.68,
+    "end": 60.89,
+    "text": "白璃尊者的拜帖——",
+    "image": "assets/captions/035.png"
+  },
+  {
+    "id": 36,
+    "segment": 4,
+    "local_start": 13.56,
+    "local_end": 14.8,
+    "start": 60.96,
+    "end": 62.2,
+    "text": "上、上车再说",
+    "image": "assets/captions/036.png"
+  },
+  {
+    "id": 37,
+    "segment": 5,
+    "local_start": 0,
+    "local_end": 1.21,
+    "start": 62.5,
+    "end": 63.71,
+    "text": "弟子御剑护送",
+    "image": "assets/captions/037.png"
+  },
+  {
+    "id": 38,
+    "segment": 5,
+    "local_start": 1.58,
+    "local_end": 3.51,
+    "start": 64.08,
+    "end": 66.01,
+    "text": "诸位……先回",
+    "image": "assets/captions/038.png"
+  },
+  {
+    "id": 39,
+    "segment": 5,
+    "local_start": 4.4,
+    "local_end": 6.08,
+    "start": 66.9,
+    "end": 68.58,
+    "text": "尊者，谁来驾车？",
+    "image": "assets/captions/039.png"
+  },
+  {
+    "id": 40,
+    "segment": 5,
+    "local_start": 6.56,
+    "local_end": 7.4,
+    "start": 69.06,
+    "end": 69.9,
+    "text": "你留下",
+    "image": "assets/captions/040.png"
+  },
+  {
+    "id": 41,
+    "segment": 5,
+    "local_start": 8.72,
+    "local_end": 9.8,
+    "start": 71.22,
+    "end": 72.3,
+    "text": "弟子才炼气——",
+    "image": "assets/captions/041.png"
+  },
+  {
+    "id": 42,
+    "segment": 5,
+    "local_start": 9.84,
+    "local_end": 11.57,
+    "start": 72.34,
+    "end": 74.07,
+    "text": "会驾车，便好",
+    "image": "assets/captions/042.png"
+  },
+  {
+    "id": 43,
+    "segment": 6,
+    "local_start": 0,
+    "local_end": 0.92,
+    "start": 77.6,
+    "end": 78.52,
+    "text": "先下山",
+    "image": "assets/captions/043.png"
+  },
+  {
+    "id": 44,
+    "segment": 6,
+    "local_start": 1.08,
+    "local_end": 2.48,
+    "start": 78.68,
+    "end": 80.08,
+    "text": "找个没人的地方苟住",
+    "image": "assets/captions/044.png"
+  },
+  {
+    "id": 45,
+    "segment": 6,
+    "local_start": 3.1,
+    "local_end": 4.86,
+    "start": 80.7,
+    "end": 82.46,
+    "text": "白璃尊者来邀您同行",
+    "image": "assets/captions/045.png"
+  },
+  {
+    "id": 46,
+    "segment": 6,
+    "local_start": 7.99,
+    "local_end": 9.66,
+    "start": 85.59,
+    "end": 87.26,
+    "text": "能、能绕过去么？",
+    "image": "assets/captions/046.png"
+  },
+  {
+    "id": 47,
+    "segment": 6,
+    "local_start": 9.81,
+    "local_end": 11.43,
+    "start": 87.41,
+    "end": 89.03,
+    "text": "下山只有这一道门",
+    "image": "assets/captions/047.png"
+  },
+  {
+    "id": 48,
+    "segment": 7,
+    "local_start": 0.5,
+    "local_end": 1.58,
+    "start": 93.2,
+    "end": 94.28,
+    "text": "谢道友",
+    "image": "assets/captions/048.png"
+  },
+  {
+    "id": 49,
+    "segment": 7,
+    "local_start": 1.88,
+    "local_end": 2.83,
+    "start": 94.58,
+    "end": 95.53,
+    "text": "三年未见",
+    "image": "assets/captions/049.png"
+  },
+  {
+    "id": 50,
+    "segment": 7,
+    "local_start": 3.22,
+    "local_end": 4.43,
+    "start": 95.92,
+    "end": 97.13,
+    "text": "请赐一招",
+    "image": "assets/captions/050.png"
+  },
+  {
+    "id": 51,
+    "segment": 7,
+    "local_start": 4.6,
+    "local_end": 6.33,
+    "start": 97.3,
+    "end": 99.03,
+    "text": "我连闪避都没学",
+    "image": "assets/captions/051.png"
+  },
+  {
+    "id": 52,
+    "segment": 7,
+    "local_start": 6.78,
+    "local_end": 7.91,
+    "start": 99.48,
+    "end": 100.61,
+    "text": "拿什么接啊！",
+    "image": "assets/captions/052.png"
+  },
+  {
+    "id": 53,
+    "segment": 7,
+    "local_start": 10.62,
+    "local_end": 11.47,
+    "start": 103.32,
+    "end": 104.17,
+    "text": "今日……",
+    "image": "assets/captions/053.png"
+  },
+  {
+    "id": 54,
+    "segment": 7,
+    "local_start": 11.9,
+    "local_end": 12.77,
+    "start": 104.6,
+    "end": 105.47,
+    "text": "不动兵器",
+    "image": "assets/captions/054.png"
+  },
+  {
+    "id": 55,
+    "segment": 8,
+    "local_start": 0.05,
+    "local_end": 0.97,
+    "start": 107.85,
+    "end": 108.77,
+    "text": "好",
+    "image": "assets/captions/055.png"
+  },
+  {
+    "id": 56,
+    "segment": 8,
+    "local_start": 1.39,
+    "local_end": 3.0,
+    "start": 109.19,
+    "end": 110.8,
+    "text": "那便徒手",
+    "image": "assets/captions/056.png"
+  },
+  {
+    "id": 57,
+    "segment": 8,
+    "local_start": 4.23,
+    "local_end": 5.42,
+    "start": 112.03,
+    "end": 113.22,
+    "text": "都退后",
+    "image": "assets/captions/057.png"
+  },
+  {
+    "id": 58,
+    "segment": 8,
+    "local_start": 5.51,
+    "local_end": 7.0,
+    "start": 113.31,
+    "end": 114.8,
+    "text": "小心尊者误伤！",
+    "image": "assets/captions/058.png"
+  },
+  {
+    "id": 59,
+    "segment": 8,
+    "local_start": 10.24,
+    "local_end": 11.65,
+    "start": 118.04,
+    "end": 119.45,
+    "text": "都别走啊喂！",
+    "image": "assets/captions/059.png"
+  },
+  {
+    "id": 60,
+    "segment": 8,
+    "local_start": 12.22,
+    "local_end": 14.01,
+    "start": 120.02,
+    "end": 121.81,
+    "text": "这我怎么打宿傩啊？",
+    "image": "assets/captions/060.png"
+  }
+]

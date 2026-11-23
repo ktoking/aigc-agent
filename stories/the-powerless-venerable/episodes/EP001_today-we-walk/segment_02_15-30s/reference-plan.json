@@ -1,0 +1,98 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v3",
+  "dialogue_revision": "r1-20261117",
+  "visual_version": "new-cast-v1-frames-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "02-A",
+      "path": "frames/keyframe-02-a-v1.png",
+      "anchor_seconds": 5.7,
+      "title": "袖内吐丝式手势",
+      "sha256": "778ec84bb925d1013b33d4708201caba8a8c11f74d13d63a9893d4242eeb3a7c"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "02-B",
+      "path": "frames/keyframe-02-b-v1.png",
+      "anchor_seconds": 13.3,
+      "title": "尊者不动，弟子出汗",
+      "sha256": "705060ff10555bc4b1e1c2d0aa8bd58ccac46a87f534bf9ec9ee1f80b0310084"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    }
+  ],
+  "characters": [
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "02-A",
+      "path": "frames/keyframe-02-a-v1.png",
+      "anchor_seconds": 5.7,
+      "title": "袖内吐丝式手势",
+      "sha256": "778ec84bb925d1013b33d4708201caba8a8c11f74d13d63a9893d4242eeb3a7c"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "02-B",
+      "path": "frames/keyframe-02-b-v1.png",
+      "anchor_seconds": 13.3,
+      "title": "尊者不动，弟子出汗",
+      "sha256": "705060ff10555bc4b1e1c2d0aa8bd58ccac46a87f534bf9ec9ee1f80b0310084"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": true
+}

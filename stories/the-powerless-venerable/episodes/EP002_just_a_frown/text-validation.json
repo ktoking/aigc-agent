@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "version": "v1／台词r2／图片适配1",
+  "scope": "EP002全文、对白、镜头与实际参考输入，声音窗口按文字估排",
+  "duration_seconds": 60,
+  "segments": 4,
+  "shots": 20,
+  "per_segment": [
+    {
+      "segment": "segment_01_00-15s",
+      "shots": 5,
+      "voice_spans": 6,
+      "actual_character_references": 5,
+      "character_ids": [
+        "C01",
+        "C03",
+        "C04",
+        "C05",
+        "C06A"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "frames_files": 7,
+      "reference_status": "IMAGES_READY"
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "shots": 5,
+      "voice_spans": 5,
+      "actual_character_references": 6,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C05",
+        "C06A",
+        "C07"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 3,
+      "generated_story_keyframes": 3,
+      "frames_files": 9,
+      "reference_status": "IMAGES_READY"
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "shots": 5,
+      "voice_spans": 4,
+      "actual_character_references": 3,
+      "character_ids": [
+        "C01",
+        "C03",
+        "C07"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 3,
+      "generated_story_keyframes": 3,
+      "frames_files": 6,
+      "reference_status": "IMAGES_READY"
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "shots": 5,
+      "voice_spans": 5,
+      "actual_character_references": 3,
+      "character_ids": [
+        "C01",
+        "C03",
+        "C07"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 3,
+      "generated_story_keyframes": 3,
+      "frames_files": 6,
+      "reference_status": "IMAGES_READY"
+    }
+  ],
+  "maximum_planned_chinese_characters_per_second": 5.36,
+  "semantic_review": "qa-checklist.md，L01–L06与S01–S06逐句审读PASS",
+  "new_character_reference_status": "C07与C06A已生成并核验",
+  "story_keyframes_generated": true,
+  "audio_generated": false,
+  "video_generated": false,
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "story_keyframes": 11
+}

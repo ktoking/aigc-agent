@@ -1,0 +1,98 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v3",
+  "dialogue_revision": "r1-20261117",
+  "visual_version": "new-cast-v1-frames-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "01-A",
+      "path": "frames/keyframe-01-a-v1.png",
+      "anchor_seconds": 2.0,
+      "title": "袖内试法，手里空空",
+      "sha256": "272156ce0b30750a78389519dd45d3c947407607affbde13c60d26a2486b1c96"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "01-B",
+      "path": "frames/keyframe-01-b-v1.png",
+      "anchor_seconds": 11.8,
+      "title": "尊者请登云",
+      "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    }
+  ],
+  "characters": [
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "01-A",
+      "path": "frames/keyframe-01-a-v1.png",
+      "anchor_seconds": 2.0,
+      "title": "袖内试法，手里空空",
+      "sha256": "272156ce0b30750a78389519dd45d3c947407607affbde13c60d26a2486b1c96"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "01-B",
+      "path": "frames/keyframe-01-b-v1.png",
+      "anchor_seconds": 11.8,
+      "title": "尊者请登云",
+      "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": true
+}

@@ -1,0 +1,161 @@
+{
+  "story_id": "the-powerless-venerable",
+  "episode": "EP003_speak_out_loud",
+  "version": "v2",
+  "characters": {
+    "C01": {
+      "name": "谢无咎",
+      "source": "assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "status": "AVAILABLE",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "C07": {
+      "name": "裴长庚",
+      "source": "assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+      "status": "AVAILABLE",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "C08": {
+      "name": "执礼长老",
+      "source": "assets/characters/C08/C08-tianheng-ritual-elder-turnaround-v1.png",
+      "status": "AVAILABLE",
+      "sha256": "4faac85f3ed0f6d26957e61cdcdb7aabf84c69b84a51c3dd377562acf9b7060c",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "C09": {
+      "name": "膳房厨子",
+      "source": "assets/characters/C09/C09-tianheng-cook-turnaround-v1.png",
+      "status": "AVAILABLE",
+      "sha256": "4bb3a6590d9f25828ae519db3e4c5023578c8038b37701b991178e9a85540218",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "BG02": {
+      "name": "讲道弟子组",
+      "source": "assets/characters/BG02/BG02-sermon-disciples-turnaround-v1.png",
+      "status": "AVAILABLE",
+      "sha256": "b90ec012a7bbead4e46ce1eb1845397637e8efddb14922d72303fdbf14b3ae64",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "segments": [
+    {
+      "id": "segment_01_00-15s",
+      "character_ids": [
+        "C01",
+        "C07",
+        "BG02"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_01_00-15s/reference-plan.json",
+      "visual_version": "EP003-v2-stone-dragon-opening-ground-r1"
+    },
+    {
+      "id": "segment_02_15-30s",
+      "character_ids": [
+        "C01",
+        "C07",
+        "C08",
+        "BG02"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_02_15-30s/reference-plan.json"
+    },
+    {
+      "id": "segment_03_30-45s",
+      "character_ids": [
+        "C01",
+        "C08",
+        "BG02"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_03_30-45s/reference-plan.json"
+    },
+    {
+      "id": "segment_04_45-60s",
+      "character_ids": [
+        "C01",
+        "C08",
+        "BG02"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_04_45-60s/reference-plan.json"
+    },
+    {
+      "id": "segment_05_60-75s",
+      "character_ids": [
+        "C01",
+        "C08",
+        "C09"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_05_60-75s/reference-plan.json"
+    },
+    {
+      "id": "segment_06_75-90s",
+      "character_ids": [
+        "C01",
+        "C08",
+        "C09"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_06_75-90s/reference-plan.json"
+    },
+    {
+      "id": "segment_07_90-105s",
+      "character_ids": [
+        "C01",
+        "C09"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_07_90-105s/reference-plan.json"
+    },
+    {
+      "id": "segment_08_105-120s",
+      "character_ids": [
+        "C01",
+        "C08",
+        "C09"
+      ],
+      "story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "missing_character_references": [],
+      "reference_plan": "segment_08_105-120s/reference-plan.json"
+    }
+  ],
+  "status": "IMAGES_READY",
+  "visual_version": "EP003-v2-stone-dragon",
+  "total_story_keyframes": 16,
+  "segment_character_reference_copies": 24,
+  "video_status": "NOT_SUBMITTED"
+}

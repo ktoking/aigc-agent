@@ -1,0 +1,205 @@
+{
+  "version": "A-40refs-v1",
+  "segment": "segment_01_00-30s",
+  "status": "complete",
+  "duration_seconds": 30,
+  "requested_images": 10,
+  "available_images": 10,
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "asset_key": "q18",
+      "purpose": "0秒闹钟与床头首帧",
+      "shot_ids": [
+        "SH01"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q18.png",
+      "origin": "generated_for_shot",
+      "sha256": "c90d51e0fea635939893a6571b3269aa4591e37a4da554efe8cadcb6f006c313",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1912428
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "asset_key": "q19",
+      "purpose": "30秒阳台尾帧",
+      "shot_ids": [
+        "SH11"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q19.png",
+      "origin": "generated_for_shot",
+      "sha256": "8c74cc9c3dda8b25f9d2584d0c3f1ebd3b9fd4066e6ed17c92206e287cc0d3fa",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2204278
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-home.png",
+      "asset_key": "home",
+      "purpose": "女主居家身份与服装",
+      "shot_ids": [
+        "SH01",
+        "SH03",
+        "SH04",
+        "SH05",
+        "SH06",
+        "SH08",
+        "SH11"
+      ],
+      "status": "available",
+      "generated": true,
+      "origin": "reused_character_reference",
+      "source": "assets/characters/lin-tao/reference-home-v1.png",
+      "sha256": "d4c891c59780e049c4df240ac4914348aa5c6f777bfae4cd8c0ca7d016f62e26",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1747991
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-xiao-man.png",
+      "asset_key": "robot",
+      "purpose": "小满结构身份",
+      "shot_ids": [
+        "SH04",
+        "SH07",
+        "SH09",
+        "SH10"
+      ],
+      "status": "available",
+      "generated": true,
+      "origin": "reused_character_reference",
+      "source": "assets/characters/xiao-man/reference-three-view-v1.png",
+      "sha256": "b466e7caafbc855ab806d89cd4c5405efd61d68b92044fd3bbd20ef298203144",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1661982
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-bedroom.png",
+      "asset_key": "q01",
+      "purpose": "卧室床/柜/门/光线布局",
+      "shot_ids": [
+        "SH01",
+        "SH02",
+        "SH03",
+        "SH04",
+        "SH07",
+        "SH09"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q01.png",
+      "origin": "generated_for_shot",
+      "sha256": "ee08bb838941d31f10f5ef0489de509d58d1dd0a82ce71e375e63260f205f638",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2055226
+    },
+    {
+      "input_index": 6,
+      "path": "frames/ref-bathroom.png",
+      "asset_key": "q02",
+      "purpose": "洗脸刷牙化妆空间与发带",
+      "shot_ids": [
+        "SH05",
+        "SH06",
+        "SH08"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q02.png",
+      "origin": "generated_for_shot",
+      "sha256": "dd2be84928ee77205c2faddd7d4622df21ced32acb07faa392d3ee3d7dbb3a1c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2031111
+    },
+    {
+      "input_index": 7,
+      "path": "frames/ref-alarm-band.png",
+      "asset_key": "q03",
+      "purpose": "闹钟和右腕助力环道具形态",
+      "shot_ids": [
+        "SH01",
+        "SH02",
+        "SH04"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q03.png",
+      "origin": "generated_for_shot",
+      "sha256": "2c307dbc9eb2c22901edbd63b9a6c81170090641dc6e82ce5e4ae2833f32f7f9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1811543
+    },
+    {
+      "input_index": 8,
+      "path": "frames/ref-bed-making.png",
+      "asset_key": "q20",
+      "purpose": "小满叠被的夹角与布料动作",
+      "shot_ids": [
+        "SH07"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q20.png",
+      "origin": "generated_for_shot",
+      "sha256": "4bf61dfebb7168d3f8d5e29a0777711e3d35d3d1fe5857a01260d63c9bbb0613",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2056290
+    },
+    {
+      "input_index": 9,
+      "path": "frames/ref-clock-cleanup.png",
+      "asset_key": "q21",
+      "purpose": "碎钟清理接触与结果",
+      "shot_ids": [
+        "SH09"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q21.png",
+      "origin": "generated_for_shot",
+      "sha256": "800430ee2ea3afd6570e9a367438d4792629e82501049c71ee0d67e34f26b7d0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2015715
+    },
+    {
+      "input_index": 10,
+      "path": "frames/ref-kitchen-breakfast.png",
+      "asset_key": "q04",
+      "purpose": "固定机械臂做饭/小满接早餐",
+      "shot_ids": [
+        "SH10"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q04.png",
+      "origin": "generated_for_shot",
+      "sha256": "ca336e84cb57d0cdb880654c0ace07c4b040c80e4f07565d86df19931587ef93",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1908281
+    }
+  ],
+  "visual_review": "已逐图看工具输出并修正已发现的问题；职责与镜头覆盖见reference-order.md；尚无视频验收",
+  "style": "A",
+  "video_status": "NOT_SUBMITTED",
+  "png_integrity": "PASS: signature/chunk CRC/IDAT decompression",
+  "story_title": "星穹学院",
+  "narrative_version": "2026-10-29-v4",
+  "visual_adaptation_note": "原PNG保留，参考身份/布局/状态；按新稿制作自然成年表演、双人接管与许星监测，尚无新动作视频"
+}

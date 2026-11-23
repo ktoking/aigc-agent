@@ -1,0 +1,207 @@
+{
+  "version": "A-40refs-v1",
+  "segment": "segment_03_60-90s",
+  "status": "complete",
+  "duration_seconds": 30,
+  "requested_images": 10,
+  "available_images": 10,
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "asset_key": "q30",
+      "purpose": "60秒女主从后门进入教室",
+      "shot_ids": [
+        "SH19"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q30.png",
+      "origin": "generated_for_shot",
+      "sha256": "76bf3e8a333ebeda7597baf9cfd729215662b0ee9b728232701772f41fce42cf",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1958233
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "asset_key": "q31",
+      "purpose": "90秒教师开启历史沙盘尾帧",
+      "shot_ids": [
+        "SH27"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q31.png",
+      "origin": "generated_for_shot",
+      "sha256": "7ee027bb91e8307e0be92b86667d2591c495036db46ac8930616ef2296aee236",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1977775
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-out.png",
+      "asset_key": "out",
+      "purpose": "女主身份及出门装",
+      "shot_ids": [
+        "SH19",
+        "SH20",
+        "SH21",
+        "SH22",
+        "SH23",
+        "SH24"
+      ],
+      "status": "available",
+      "generated": true,
+      "origin": "reused_character_reference",
+      "source": "assets/characters/lin-tao/reference-out-v1.png",
+      "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1755811
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-xu-xing.png",
+      "asset_key": "q07",
+      "purpose": "闺蜜许星独立角色锁",
+      "shot_ids": [
+        "SH23",
+        "SH24"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q07.png",
+      "origin": "generated_for_shot",
+      "sha256": "6a205db17e7a5b308ba675f48cca0420a6ec17e0621f6911baa1c0904e88e0af",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1712544
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-gu-yan.png",
+      "asset_key": "q08",
+      "purpose": "健硕男教师顾岩身份服装",
+      "shot_ids": [
+        "SH25",
+        "SH26",
+        "SH27"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q08.png",
+      "origin": "generated_for_shot",
+      "sha256": "18ea721f98552c7f53be539ceb54a23a8ace1b67495968e05db0b1c2e8d95eb1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1765117
+    },
+    {
+      "input_index": 6,
+      "path": "frames/ref-classroom.png",
+      "asset_key": "q10",
+      "purpose": "门/过道/座次/讲台/教学罩布局",
+      "shot_ids": [
+        "SH19",
+        "SH20",
+        "SH21",
+        "SH22",
+        "SH23",
+        "SH24",
+        "SH25",
+        "SH26",
+        "SH27"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q10.png",
+      "origin": "generated_for_shot",
+      "sha256": "a0c07dc84fad5662d090493341206b324eb275aba16a59881264438ad830fcd0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1911490
+    },
+    {
+      "input_index": 7,
+      "path": "frames/ref-heat-glove.png",
+      "asset_key": "q26",
+      "purpose": "热能手套喷火及腕部开关",
+      "shot_ids": [
+        "SH19",
+        "SH24",
+        "SH26"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q26.png",
+      "origin": "generated_for_shot",
+      "sha256": "3399911db871098b78f2ab8d4c77a268d1ae5d80e5e08e4c2ceee400f88e000d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1937360
+    },
+    {
+      "input_index": 8,
+      "path": "frames/ref-ice-pen.png",
+      "asset_key": "q27",
+      "purpose": "冷凝笔在小托盘凝冰花",
+      "shot_ids": [
+        "SH20"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q27.png",
+      "origin": "generated_for_shot",
+      "sha256": "d6ccb962e4f9b0637f10a38318519ff96220cb2bda6daf3a3246341282ffbb82",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2005356
+    },
+    {
+      "input_index": 9,
+      "path": "frames/ref-hoverboard.png",
+      "asset_key": "q28",
+      "purpose": "低空滑板/抓椅刹停/女主让路",
+      "shot_ids": [
+        "SH21",
+        "SH24"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q28.png",
+      "origin": "generated_for_shot",
+      "sha256": "58023b8f5be87c9c0fc6522516dd2f2dd4b3fa4f651e4ab5db1e14faaecebbfe",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1884691
+    },
+    {
+      "input_index": 10,
+      "path": "frames/ref-optic-cloak.png",
+      "asset_key": "q29",
+      "purpose": "光学斗篷折射/同人显现",
+      "shot_ids": [
+        "SH22",
+        "SH24"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q29.png",
+      "origin": "generated_for_shot",
+      "sha256": "7c2362a67118f2ff9840d3c40ed73822c2c36227276dc269078687cef8c3d0ca",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2131496
+    }
+  ],
+  "visual_review": "已逐图看工具输出并修正已发现的问题；职责与镜头覆盖见reference-order.md；尚无视频验收",
+  "style": "A",
+  "video_status": "NOT_SUBMITTED",
+  "png_integrity": "PASS: signature/chunk CRC/IDAT decompression",
+  "story_title": "星穹学院",
+  "narrative_version": "2026-10-29-v4",
+  "visual_adaptation_note": "原PNG保留，参考身份/布局/状态；按新稿制作自然成年表演、双人接管与许星监测，尚无新动作视频"
+}

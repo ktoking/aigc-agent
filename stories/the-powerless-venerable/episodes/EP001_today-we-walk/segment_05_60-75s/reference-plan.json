@@ -1,0 +1,130 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v3",
+  "dialogue_revision": "r1-20261117",
+  "visual_version": "new-cast-v1-frames-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "05-A",
+      "path": "frames/keyframe-05-a-v1.png",
+      "anchor_seconds": 7.7,
+      "title": "你留下，得有人会驾车",
+      "sha256": "16ff5f4221919e3ab7451a64a8df338cd27445d9c7099e16fd9246f760e432be"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "05-B",
+      "path": "frames/keyframe-05-b-v1.png",
+      "anchor_seconds": 14.3,
+      "title": "专业车夫坐上前座",
+      "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "role": "沈照月",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C06",
+      "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "role": "外门车夫与搬货弟子",
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+    }
+  ],
+  "characters": [
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "role": "沈照月",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C06",
+      "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "role": "外门车夫与搬货弟子",
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "05-A",
+      "path": "frames/keyframe-05-a-v1.png",
+      "anchor_seconds": 7.7,
+      "title": "你留下，得有人会驾车",
+      "sha256": "16ff5f4221919e3ab7451a64a8df338cd27445d9c7099e16fd9246f760e432be"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "05-B",
+      "path": "frames/keyframe-05-b-v1.png",
+      "anchor_seconds": 14.3,
+      "title": "专业车夫坐上前座",
+      "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": true
+}

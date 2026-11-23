@@ -1,0 +1,72 @@
+{
+  "version": "v3",
+  "status": "PASS",
+  "scope": "文字结构与参考输入校验；语义逐句审读见qa-checklist.md，不代表实际音画验收",
+  "segments": 8,
+  "duration_seconds": 120,
+  "shots": 45,
+  "per_segment": [
+    {
+      "segment": "segment_01_00-15s",
+      "shots": 6,
+      "planned_voice_spans": 4,
+      "character_refs": 3
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "shots": 7,
+      "planned_voice_spans": 5,
+      "character_refs": 3
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "shots": 6,
+      "planned_voice_spans": 6,
+      "character_refs": 4
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "shots": 6,
+      "planned_voice_spans": 8,
+      "character_refs": 5
+    },
+    {
+      "segment": "segment_05_60-75s",
+      "shots": 5,
+      "planned_voice_spans": 6,
+      "character_refs": 5
+    },
+    {
+      "segment": "segment_06_75-90s",
+      "shots": 5,
+      "planned_voice_spans": 4,
+      "character_refs": 6
+    },
+    {
+      "segment": "segment_07_90-105s",
+      "shots": 5,
+      "planned_voice_spans": 4,
+      "character_refs": 6
+    },
+    {
+      "segment": "segment_08_105-120s",
+      "shots": 5,
+      "planned_voice_spans": 3,
+      "character_refs": 6
+    }
+  ],
+  "maximum_planned_chinese_characters_per_second": 6.0,
+  "voice_timing_status": "用户指定窗口，文字估排，待制作时实测",
+  "semantic_review": "qa-checklist.md，台词r2与爆气元神分镜L01–L06、S01–S06均PASS",
+  "new_story_keyframes_generated": true,
+  "audio_generated": false,
+  "video_generated": false,
+  "character_refs_match_appearing_cast": true,
+  "old_versions_preserved": true,
+  "dialogue_revision": "r2-20261117",
+  "requested_dialogue_replacements_verified": 5,
+  "role_assets_reused": 0,
+  "new_character_sheets_generated": 6,
+  "visual_version": "new-cast-v1-frames-v2-segment08",
+  "images_validation": "images-validation.json"
+}

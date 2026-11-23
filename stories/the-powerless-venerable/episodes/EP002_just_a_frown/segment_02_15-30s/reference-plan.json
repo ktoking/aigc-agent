@@ -1,0 +1,165 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v1",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "02-A",
+      "path": "frames/keyframe-02-a-v1.png",
+      "title": "传闻越说越吓人",
+      "anchor_seconds": 2.8,
+      "sha256": "4c8e48009863e2af07c9d729998889c7f123d7521f361b136544e75404175886"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "02-B",
+      "path": "frames/keyframe-02-b-v1.png",
+      "title": "白璃请留手，男主更卡住",
+      "anchor_seconds": 10.4,
+      "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9"
+    },
+    {
+      "index": 3,
+      "kind": "story_keyframe",
+      "id": "02-C",
+      "path": "frames/keyframe-02-c-v1.png",
+      "title": "白发老者驾鹤入场",
+      "anchor_seconds": 14.3,
+      "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C02",
+      "role": "沈照月",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C05",
+      "role": "陆青",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 8,
+      "kind": "character",
+      "character_id": "C06A",
+      "role": "车夫",
+      "path": "frames/C06A-driver-turnaround-v1.png",
+      "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+    },
+    {
+      "index": 9,
+      "kind": "character",
+      "character_id": "C07",
+      "role": "裴长庚／鹤归上人",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    }
+  ],
+  "characters": [
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C01",
+      "role": "谢无咎",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C02",
+      "role": "沈照月",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C03",
+      "role": "白璃",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C05",
+      "role": "陆青",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 8,
+      "kind": "character",
+      "character_id": "C06A",
+      "role": "车夫",
+      "path": "frames/C06A-driver-turnaround-v1.png",
+      "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+    },
+    {
+      "index": 9,
+      "kind": "character",
+      "character_id": "C07",
+      "role": "裴长庚／鹤归上人",
+      "path": "frames/C07-pei-changgeng-turnaround-v1.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "02-A",
+      "path": "frames/keyframe-02-a-v1.png",
+      "title": "传闻越说越吓人",
+      "anchor_seconds": 2.8,
+      "sha256": "4c8e48009863e2af07c9d729998889c7f123d7521f361b136544e75404175886"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "02-B",
+      "path": "frames/keyframe-02-b-v1.png",
+      "title": "白璃请留手，男主更卡住",
+      "anchor_seconds": 10.4,
+      "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9"
+    },
+    {
+      "index": 3,
+      "kind": "story_keyframe",
+      "id": "02-C",
+      "path": "frames/keyframe-02-c-v1.png",
+      "title": "白发老者驾鹤入场",
+      "anchor_seconds": 14.3,
+      "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+    }
+  ],
+  "story_keyframe_count": 3,
+  "keyframes_generated": true,
+  "missing_character_references": []
+}

@@ -1,0 +1,67 @@
+{
+  "status": "SCRIPT_READY_REFERENCES_PARTIAL",
+  "text_revision": "v1-r2-dialogue-and-decisions",
+  "planned_input_order": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "path": "frames/first-frame.png",
+      "title": "练成后，大长老看普通木筷",
+      "anchor_seconds": 0,
+      "exists": false,
+      "purpose": "50mm右案外，谢无咎刚垂一根木筷，大长老认真转来，白碗沿另留一根，右案外端墨袋还未开。背景左侧三弟子各在小环，中央真实青白拱形光幕仍从环后升起。"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "path": "frames/last-frame.png",
+      "title": "后日请亲手开灵，黑石落在面碗旁",
+      "anchor_seconds": 14.6,
+      "exists": false,
+      "purpose": "55mm右石案稍低，近处白瓷碗左有两根普通木筷、右邻手掌大灰黑主阵石与空布袋。男主白衣青襟在右看着石头，手悬在碗沿，大长老青褐衣在左等回应。厨子朝拱门后离开，练阵护幕已经退净。户外真实自然光。"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "title": "谢无咎",
+      "exists": true,
+      "purpose": "锁定角色身份、服制和外形",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C08",
+      "path": "frames/C08-tianheng-ritual-elder-turnaround-v1.png",
+      "title": "天衡宗执礼大长老",
+      "exists": true,
+      "purpose": "锁定角色身份、服制和外形",
+      "sha256": "4faac85f3ed0f6d26957e61cdcdb7aabf84c69b84a51c3dd377562acf9b7060c"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C09",
+      "path": "frames/C09-tianheng-cook-turnaround-v1.png",
+      "title": "膳房厨子",
+      "exists": true,
+      "purpose": "锁定角色身份、服制和外形",
+      "sha256": "4bb3a6590d9f25828ae519db3e4c5023578c8038b37701b991178e9a85540218"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "BG02",
+      "path": "frames/BG02-sermon-disciples-turnaround-v1.png",
+      "title": "天衡宗三名弟子",
+      "exists": true,
+      "purpose": "锁定角色身份、服制和外形",
+      "sha256": "b90ec012a7bbead4e46ce1eb1845397637e8efddb14922d72303fdbf14b3ae64"
+    }
+  ],
+  "story_keyframe_count": 2,
+  "keyframes_generated": false,
+  "missing_character_references": []
+}

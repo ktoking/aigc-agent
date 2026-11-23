@@ -1,0 +1,103 @@
+[
+  {
+    "id": "C01",
+    "name": "谢无咎",
+    "path": "assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+    "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，全新文字人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C02",
+    "name": "沈照月",
+    "path": "assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+    "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，全新文字人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C03",
+    "name": "白璃",
+    "path": "assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+    "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，全新文字人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C04",
+    "name": "玄衡",
+    "path": "assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+    "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，全新文字人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C05",
+    "name": "陆青",
+    "path": "assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+    "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，全新文字人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C06",
+    "name": "外门车夫与搬货弟子",
+    "path": "assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+    "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，全新文字人物设计",
+    "views": "车夫与搬货弟子各一组三视图"
+  },
+  {
+    "id": "C07",
+    "name": "裴长庚／鹤归上人",
+    "path": "assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+    "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C06A",
+    "name": "车夫",
+    "path": "assets/characters/C06A/C06A-driver-turnaround-v1.png",
+    "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen",
+    "views": "正面、侧面、背面及脸部近景",
+    "source_character_group": "C06",
+    "represents": "既有壮实车夫的独立三视图"
+  },
+  {
+    "id": "C08",
+    "name": "执礼长老",
+    "path": "assets/characters/C08/C08-tianheng-ritual-elder-turnaround-v1.png",
+    "sha256": "4faac85f3ed0f6d26957e61cdcdb7aabf84c69b84a51c3dd377562acf9b7060c",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，EP003人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "C09",
+    "name": "膳房厨子",
+    "path": "assets/characters/C09/C09-tianheng-cook-turnaround-v1.png",
+    "sha256": "4bb3a6590d9f25828ae519db3e4c5023578c8038b37701b991178e9a85540218",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，EP003人物设计",
+    "views": "正面、侧面、背面及脸部近景"
+  },
+  {
+    "id": "BG02",
+    "name": "讲道弟子组",
+    "path": "assets/characters/BG02/BG02-sermon-disciples-turnaround-v1.png",
+    "sha256": "b90ec012a7bbead4e46ce1eb1845397637e8efddb14922d72303fdbf14b3ae64",
+    "visual_version": "new-cast-v1",
+    "source": "built-in image_gen，EP003人物设计",
+    "views": "前排A、B、C各一组正侧背"
+  }
+]

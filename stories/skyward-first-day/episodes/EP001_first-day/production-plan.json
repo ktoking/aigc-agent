@@ -1,0 +1,1400 @@
+{
+  "story": "skyward-first-day",
+  "episode": "EP001_first-day",
+  "version": "v4_xingqiong_mature_20261029",
+  "status": "mature_direction_text_updated_reference_images_preserved",
+  "fps": 30,
+  "duration_seconds": 120,
+  "total_frames": 3600,
+  "aspect_ratio": "16:9",
+  "style": "3d_animation",
+  "timing_status": "planned_not_tts_measured",
+  "segments": [
+    {
+      "segment": "segment_01_00-30s",
+      "title": "甜妹晨起与全自动家务",
+      "start_seconds": 0,
+      "end_seconds": 30,
+      "start_frame": 0,
+      "end_frame_exclusive": 900,
+      "duration_seconds": 30,
+      "status": "ten_references_complete_video_not_submitted",
+      "director_prompt": "segment_01_00-30s/director-promt.txt",
+      "shot_ids": [
+        "SH01",
+        "SH02",
+        "SH03",
+        "SH04",
+        "SH05",
+        "SH06",
+        "SH07",
+        "SH08",
+        "SH09",
+        "SH10",
+        "SH11"
+      ],
+      "reference_count": 10,
+      "reference_manifest": "segment_01_00-30s/frames/reference-manifest.json",
+      "reference_order": "segment_01_00-30s/reference-order.md",
+      "dialogue_version": "2026-10-29-v3",
+      "visual_adaptation": "已有10张实图作为身份/布局/关键状态参考；两人监测分工按新导演词表演，原图未重绘"
+    },
+    {
+      "segment": "segment_02_30-60s",
+      "title": "告别赶车与未来都市穿梭",
+      "start_seconds": 30,
+      "end_seconds": 60,
+      "start_frame": 900,
+      "end_frame_exclusive": 1800,
+      "duration_seconds": 30,
+      "status": "ten_references_complete_video_not_submitted",
+      "director_prompt": "segment_02_30-60s/director-promt.txt",
+      "shot_ids": [
+        "SH12",
+        "SH13",
+        "SH14",
+        "SH15",
+        "SH16",
+        "SH17",
+        "SH18"
+      ],
+      "reference_count": 10,
+      "reference_manifest": "segment_02_30-60s/frames/reference-manifest.json",
+      "reference_order": "segment_02_30-60s/reference-order.md",
+      "dialogue_version": "2026-10-29-v3",
+      "visual_adaptation": "已有10张实图作为身份/布局/关键状态参考；两人监测分工按新导演词表演，原图未重绘"
+    },
+    {
+      "segment": "segment_03_60-90s",
+      "title": "科技同学、闺蜜与第一堂课",
+      "start_seconds": 60,
+      "end_seconds": 90,
+      "start_frame": 1800,
+      "end_frame_exclusive": 2700,
+      "duration_seconds": 30,
+      "status": "ten_references_complete_video_not_submitted",
+      "director_prompt": "segment_03_60-90s/director-promt.txt",
+      "shot_ids": [
+        "SH19",
+        "SH20",
+        "SH21",
+        "SH22",
+        "SH23",
+        "SH24",
+        "SH25",
+        "SH26",
+        "SH27"
+      ],
+      "reference_count": 10,
+      "reference_manifest": "segment_03_60-90s/frames/reference-manifest.json",
+      "reference_order": "segment_03_60-90s/reference-order.md",
+      "dialogue_version": "2026-10-29-v3",
+      "visual_adaptation": "已有10张实图作为身份/布局/关键状态参考；两人监测分工按新导演词表演，原图未重绘"
+    },
+    {
+      "segment": "segment_04_90-120s",
+      "title": "远古科技、机器人暴乱与旧机上电",
+      "start_seconds": 90,
+      "end_seconds": 120,
+      "start_frame": 2700,
+      "end_frame_exclusive": 3600,
+      "duration_seconds": 30,
+      "status": "ten_references_complete_video_not_submitted",
+      "director_prompt": "segment_04_90-120s/director-promt.txt",
+      "shot_ids": [
+        "SH28",
+        "SH29",
+        "SH30",
+        "SH31",
+        "SH32",
+        "SH33",
+        "SH34",
+        "SH35"
+      ],
+      "reference_count": 10,
+      "reference_manifest": "segment_04_90-120s/frames/reference-manifest.json",
+      "reference_order": "segment_04_90-120s/reference-order.md",
+      "dialogue_version": "2026-10-29-v3",
+      "visual_adaptation": "已有10张实图作为身份/布局/关键状态参考；两人监测分工按新导演词表演，原图未重绘"
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "SH01",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 0,
+      "end_seconds": 3,
+      "start_frame": 0,
+      "end_frame_exclusive": 90,
+      "duration_seconds": 3,
+      "title": "闹铃吵醒",
+      "action": "完整闹钟伸出两只圆耳震动，被子里的林桃皱眉，手伸出被沿。",
+      "camera": "床头近景缓推，背景保留林桃半张睡脸。",
+      "sound": "闹铃、短报时，配乐尚弱。",
+      "subbeats": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 1.5,
+          "start_frame": 0,
+          "end_frame_exclusive": 45,
+          "description": "近景，约65mm镜头，机位略高于右侧床头柜。奶白色圆壳闹钟位于画面右下，两只桃色圆耳交替摆动，支脚在木质柜面上轻轻点动；后景浅景深中，林桃侧卧在浅奶油色被子下，只露出脸颊和几缕栗棕头发。左窗晨光沿枕头形成柔和亮边，窗帘底部缓慢摆动，卧室背景有生活尺度与空气感。镜头轻推约20cm，先看清闹钟正在发声。"
+        },
+        {
+          "start_seconds": 1.5,
+          "end_seconds": 3,
+          "start_frame": 45,
+          "end_frame_exclusive": 90,
+          "description": "焦点从闹钟缓慢移到林桃半张睡脸。她闭着眼把眉心轻轻挤在一起，鼻尖微皱，脸颊仍压在枕头上；右手从被沿伸出，手指懒散张开，先在空气里摸向闹钟。桃色助力环在她自身右腕上，能看见小小的练习模式亮点。被子随着手臂向外滑开少许，闹钟仍震动，保持铃声与女主被吵醒的因果。"
+        }
+      ],
+      "execution_summary": "0—1.5秒闹钟近景轻推、耳朵震动；1.5—3秒拉焦困倦睡脸、右手从被沿摸钟"
+    },
+    {
+      "shot_id": "SH02",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 3,
+      "end_seconds": 6,
+      "start_frame": 90,
+      "end_frame_exclusive": 180,
+      "duration_seconds": 3,
+      "title": "砸中闹钟",
+      "action": "桃色手环闪一下，右手攥拳向右侧床头砸下；约3.5秒接触后钟壳裂开，圆耳向床头柜外弹出，报时截断。",
+      "camera": "侧面中近景保持接触点清楚，不在命中前切镜。",
+      "sound": "一次闷击、塑料裂声、零件叮当。",
+      "subbeats": [
+        {
+          "start_seconds": 3,
+          "end_seconds": 3.5,
+          "start_frame": 90,
+          "end_frame_exclusive": 105,
+          "description": "切床侧中近景，约50mm，闹钟在右、林桃在左，右拳到钟壳的横向路径无遮挡。她仍闭着眼，右肘从被子里抬起，右手由松开的手掌收成拳头；手环桃光短促增强，拳头向右下方落去。约3.5秒，拳面真正碰到闹钟顶部，先出现钟壳下压和支脚受力，再开始裂开。床头柜与墙面固定，镜头不在接触前闪白或切走。"
+        },
+        {
+          "start_seconds": 3.5,
+          "end_seconds": 6,
+          "start_frame": 105,
+          "end_frame_exclusive": 180,
+          "description": "保持同一接触轴，闹钟顶部向下凹，外壳从受力点裂成几块较大碎片，两只圆耳分别弹向柜沿外侧；内侧小弹簧跳出一次，落在柜脚附近。右拳在命中后停住，林桃肩膀被惯性带起一点，头还埋在枕边。碎片沿短弧线落下，先碰柜面再落地，声音由闷击转为零件叮当，铃音在命中处断掉；不出现房间爆炸、火焰或家具垮塌。"
+        }
+      ],
+      "execution_summary": "3—3.5秒右手收拳、手环增强、拳面碰壳；3.5—6秒钟壳受压裂开、圆耳落地、铃音停止"
+    },
+    {
+      "shot_id": "SH03",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 6,
+      "end_seconds": 9,
+      "start_frame": 180,
+      "end_frame_exclusive": 270,
+      "duration_seconds": 3,
+      "title": "懵醒",
+      "action": "林桃半坐起，乱发翘起；看自己拳头，再看碎闹钟，嘴微张。",
+      "camera": "缓推到脸和右腕同框，停半拍给反应。",
+      "sound": "短暂安静，林桃轻声嗯。",
+      "subbeats": [
+        {
+          "start_seconds": 6,
+          "end_seconds": 7.3,
+          "start_frame": 180,
+          "end_frame_exclusive": 219,
+          "description": "切正侧面半身，约65mm。林桃把头从枕头抬起，肩膀慢半拍跟着撑起，头顶两小束栗棕乱发向上翘，眼睛先只睁开一条缝。右拳还悬在床头边，她盯着拳头看，嘴唇轻轻分开，保持刚睡醒反应迟缓的可爱感。被子堆在腰间形成宽大柔软褶皱，晨光照亮一侧脸颊，背景留有已经破掉的闹钟空壳。"
+        },
+        {
+          "start_seconds": 7.3,
+          "end_seconds": 9,
+          "start_frame": 219,
+          "end_frame_exclusive": 270,
+          "description": "镜头缓推到脸和右腕同框。她轻声发出原稿的嗯，视线从指节挪到柜面，再向下看落地的圆耳，眼睛稍微睁大，眉尾抬起；停半拍后低头看手环。她不咧嘴搞怪、不夸张惊叫，右手慢慢松开拳头，五指与关节完整；地面碎片保持刚才的落点，不自行恢复成完整闹钟。"
+        }
+      ],
+      "execution_summary": "6—7.3秒撑起头肩、睁眼看拳；7.3—9秒看碎壳、轻声嗯、松拳低头"
+    },
+    {
+      "shot_id": "SH04",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 9,
+      "end_seconds": 12,
+      "start_frame": 270,
+      "end_frame_exclusive": 360,
+      "duration_seconds": 3,
+      "title": "关闭助力",
+      "action": "小满从门边滑入，视线指向手环；林桃左指按一下右腕开关，桃色强光熄为低亮待机。",
+      "camera": "床边双人中景，手环插入式近景后回中景。",
+      "sound": "小满提醒，开关轻响。",
+      "subbeats": [
+        {
+          "start_seconds": 9,
+          "end_seconds": 10.7,
+          "start_frame": 270,
+          "end_frame_exclusive": 321,
+          "description": "切床边双主体中景，约40mm，机位向右让出门口。小满从门口沿地面平稳滑入，轮式底盘不离地，暖白躯干微向床边转，深灰面屏上的两点琥珀眼看向林桃手腕。它在床边约半米停住，短双臂自然下垂，其中一只手轻指桃色环；林桃坐在被子里顺着它的指向低头。小满按原对白温和提醒，地面碎片仍未清扫。"
+        },
+        {
+          "start_seconds": 10.7,
+          "end_seconds": 12,
+          "start_frame": 321,
+          "end_frame_exclusive": 360,
+          "description": "插入右腕近景，约85mm。林桃用左手食指触碰右腕环的实体侧键，提醒句说完后完成按压；桃色高亮灯条从亮到暗，只留一粒柔和待机灯。她放松肩膀，右手落到膝上，再把脚伸向床边拖鞋。镜头保留她手指与按键的接触，不用特效把手环变形或消失；剪切到浴室前，助力状态已经关闭。"
+        }
+      ],
+      "execution_summary": "9—10.7秒小满滑入停稳、视线指环；10.7—12秒左指按键、环灯转待机、准备下床"
+    },
+    {
+      "shot_id": "SH05",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 12,
+      "end_seconds": 15,
+      "start_frame": 360,
+      "end_frame_exclusive": 450,
+      "duration_seconds": 3,
+      "title": "懒洋洋洗脸",
+      "action": "明确剪切到已走入浴室的林桃，睡衣与同一张脸，束起发带；捧水洗脸后抬头。",
+      "camera": "洗手台侧面中近景，镜中不多生成一个人。",
+      "sound": "池内水声、轻吐气。",
+      "subbeats": [
+        {
+          "start_seconds": 12,
+          "end_seconds": 13.5,
+          "start_frame": 360,
+          "end_frame_exclusive": 405,
+          "description": "明确剪切省去走进浴室的路程。洗手台侧面中近景，约50mm；林桃仍是浅桃长袖睡衣，栗棕头发用同一条浅桃发带束离额头，身子微向白瓷洗手池弯下。她捧起一小捧清水，把脸埋入掌心，眼睛闭住；清水从两手拇指边和下巴处回落到池内，台外地面干燥。镜面只反射同一个林桃与洗手台，不额外站出一个分身。"
+        },
+        {
+          "start_seconds": 13.5,
+          "end_seconds": 15,
+          "start_frame": 405,
+          "end_frame_exclusive": 450,
+          "description": "机位不跨轴，轻轻上摇跟随她抬头。她慢慢把手从脸颊滑下，残留水珠从指尖滴回池内，呼一口气，眼皮仍微垂；再伸手拿近旁的奶白软巾擦脸。浅灰镜框的柔光沿脸部轮廓亮起，背景小收纳盒整齐排列，没有悬浮字幕或密集界面；尾部停在擦脸接近结束的动作，下一镜拿牙刷。"
+        }
+      ],
+      "execution_summary": "12—13.5秒浴室侧拍、捧水接脸；13.5—15秒抬头回流水、拿软巾擦脸"
+    },
+    {
+      "shot_id": "SH06",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 15,
+      "end_seconds": 17.5,
+      "start_frame": 450,
+      "end_frame_exclusive": 525,
+      "duration_seconds": 2.5,
+      "title": "困着刷牙",
+      "action": "林桃慢慢刷牙，眼皮半闭，轻点头后把牙刷拿离嘴；不边刷边讲话。",
+      "camera": "镜侧固定中近景，小幅自然呼吸。",
+      "sound": "刷牙轻声、柔电子节奏进入。",
+      "subbeats": [
+        {
+          "start_seconds": 15,
+          "end_seconds": 16.2,
+          "start_frame": 450,
+          "end_frame_exclusive": 486,
+          "description": "沿用浴室镜侧中近景，约65mm；短省略剪切后林桃已拿起牙刷，嘴边只有少量牙膏泡沫。她右手握刷在牙面小幅来回移动，左手扶洗手台边，身体轻靠前，困倦地轻点一次头，眼睛半闭。镜面暖白边灯柔和照脸，发带和睡衣袖口不变，指间的桃色助力环维持低亮待机。"
+        },
+        {
+          "start_seconds": 16.2,
+          "end_seconds": 17.5,
+          "start_frame": 486,
+          "end_frame_exclusive": 525,
+          "description": "林桃意识到自己点头，稍抬下巴继续刷两下，随后把牙刷拿离唇边，目光从镜中自己身上移开。焦点保持脸和刷柄，背景门口虚化、环境静净，只有她的头发末端、袖口及手部动作自然运动。刷牙不配对白，下一镜硬切回卧室的小满，建立女主洗漱与家务依次运行的交叉剪辑。"
+        }
+      ],
+      "execution_summary": "15—16.2秒镜侧刷牙、半闭眼点头；16.2—17.5秒抬下巴继续刷、牙刷拿离嘴"
+    },
+    {
+      "shot_id": "SH07",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 17.5,
+      "end_seconds": 20,
+      "start_frame": 525,
+      "end_frame_exclusive": 600,
+      "duration_seconds": 2.5,
+      "title": "机器人叠被",
+      "action": "小满夹住两只被角向前抖开，再对折压平；床上已无人。",
+      "camera": "床尾低机位横移，看到完整双臂与被角受力。",
+      "sound": "布料扑声、伺服电机。",
+      "subbeats": [
+        {
+          "start_seconds": 17.5,
+          "end_seconds": 18.7,
+          "start_frame": 525,
+          "end_frame_exclusive": 561,
+          "description": "切床尾中广景，约35mm，床上已无林桃，浅奶油被子摊开，两个枕头在床头。小满站在床侧，双手分别夹住靠近自己的两个被角，向前上方提起约30cm；被子中部先鼓起，再沿重力落向床面，边缘出现一条清楚的布料波浪。轮底盘稳住，不长出第三只手，背景床头碎钟仍在原处，说明清扫尚未发生。"
+        },
+        {
+          "start_seconds": 18.7,
+          "end_seconds": 20,
+          "start_frame": 561,
+          "end_frame_exclusive": 600,
+          "description": "小满把掀起的一半被子折回床面，再用一只手掌沿折边压平，另一只手固定被角；镜头从床尾向侧方横移约半米，让双臂、被角与整齐结果同框。被子落定后保持规整宽大褶皱，不瞬间变成酒店铺床。床头晨光沿刚折好的边缘滑出亮面，伺服轻响和布料扑声清楚。"
+        }
+      ],
+      "execution_summary": "17.5—18.7秒夹指提两被角、布料形成波浪；18.7—20秒折回半被、压平折边"
+    },
+    {
+      "shot_id": "SH08",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 20,
+      "end_seconds": 22.5,
+      "start_frame": 600,
+      "end_frame_exclusive": 675,
+      "duration_seconds": 2.5,
+      "title": "少女化妆",
+      "action": "回梳妆镜，林桃拍脸后在唇中央点浅桃唇彩，眼神逐渐清醒。",
+      "camera": "越肩镜面近景，镜中和实体动作一致。",
+      "sound": "化妆盒轻扣，不加产品文字。",
+      "subbeats": [
+        {
+          "start_seconds": 20,
+          "end_seconds": 21.2,
+          "start_frame": 600,
+          "end_frame_exclusive": 636,
+          "description": "切回梳妆镜越肩近景，约65mm，前景是林桃肩头与栗棕发束，镜中是她同一张鹅蛋脸。她把浅桃唇彩棒从小盒拿起，眼神比洗脸时清醒，先抿一下唇，再把刷头点向下唇中央。指尖捏持位置明确，镜中左右关系服从真实反射；发带仍在，桃花发夹尚未进入出门造型。"
+        },
+        {
+          "start_seconds": 21.2,
+          "end_seconds": 22.5,
+          "start_frame": 636,
+          "end_frame_exclusive": 675,
+          "description": "唇彩只沿唇部点薄薄一层，她轻抿双唇，把刷头收回小盒，嘴角自然提起一点。镜头缓向脸部推进，眼睛与唇色清楚，腮红柔和、皮肤为简化的3D动漫材质，保留十八岁少女的甜美与清爽。背景收纳盒不跳位，不生成品牌文字，动作结束直接剪回床头清扫，不凭空在镜中换成校服。"
+        }
+      ],
+      "execution_summary": "20—21.2秒镜面越肩、取唇彩点下唇；21.2—22.5秒薄抿唇、收刷头、眼神清醒"
+    },
+    {
+      "shot_id": "SH09",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 22.5,
+      "end_seconds": 25,
+      "start_frame": 675,
+      "end_frame_exclusive": 750,
+      "duration_seconds": 2.5,
+      "title": "清走碎钟",
+      "action": "回卧室，小满夹起两只圆耳和大壳片，底部吸口扫净细屑，露出床头空位。",
+      "camera": "俯侧中景，扫过后同一地面干净可见。",
+      "sound": "夹取咔嗒、短吸尘声。",
+      "subbeats": [
+        {
+          "start_seconds": 22.5,
+          "end_seconds": 23.7,
+          "start_frame": 675,
+          "end_frame_exclusive": 711,
+          "description": "切床头俯侧中景，约45mm，柜脚边闹钟两只圆耳、大壳片和几粒细屑仍可辨认。小满沿床边滑到碎片处，机械夹指先夹起一只圆耳与邻近的大壳片，放入躯干前部打开的小仓；另一只手把第二只圆耳推向吸口前方。镜头让夹指与碎片的接触看清，零件不在它碰到之前自动飞入身体。"
+        },
+        {
+          "start_seconds": 23.7,
+          "end_seconds": 25,
+          "start_frame": 711,
+          "end_frame_exclusive": 750,
+          "description": "底部窄吸口沿地面向前扫过一小段，把余下圆耳和细屑依次收走；采用一次短动作匹配剪切省略中间清理，让同一柜脚位置由有碎片变为干净。机位略横移露出床头柜空位、床侧整齐被角和关闭的小仓。清扫完成后不再撒出新碎片，机器人接下来才离开卧室去厨房。"
+        }
+      ],
+      "execution_summary": "22.5—23.7秒夹起大壳片和圆耳、放小仓；23.7—25秒吸口扫余屑、同位置清净"
+    },
+    {
+      "shot_id": "SH10",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 25,
+      "end_seconds": 27.5,
+      "start_frame": 750,
+      "end_frame_exclusive": 825,
+      "duration_seconds": 2.5,
+      "title": "自动早餐",
+      "action": "固定厨房机械臂将已煎好的蛋滑到吐司上，台面折纸机构包好，来到厨房的小满伸手接袋。",
+      "camera": "台面侧移，从机械臂动作带到小满接袋；可用动作匹配短切省去封口等待。",
+      "sound": "蛋落吐司轻响、纸袋声。",
+      "subbeats": [
+        {
+          "start_seconds": 25,
+          "end_seconds": 26.2,
+          "start_frame": 750,
+          "end_frame_exclusive": 786,
+          "description": "切厨房台面近景，约50mm，奶白操作台上只有吐司、煎蛋、纸袋与一只固定机械臂。煎蛋已在锅里完成烹饪，机械臂的薄铲将完整鸡蛋平稳滑到吐司中央，蛋白边缘微翘、蛋黄柔亮，热气很薄；前景铲柄移动，中景食物落位，背景小满刚从门边滑近。这里展示盛装现成食物，不在一秒里从生蛋变成早餐。"
+        },
+        {
+          "start_seconds": 26.2,
+          "end_seconds": 27.5,
+          "start_frame": 786,
+          "end_frame_exclusive": 825,
+          "description": "用吐司滑入纸袋的动作做短切，省去封口等待。切到已经折好袋口的同一个纸袋，台面短推杆将它送向边缘，小满双手接稳，让纸袋停止在掌中；固定灶台臂留在背景原位，不把它变成另一台小满。镜头沿台面侧移到递接处，纸纹适度简化，厨房柜面整洁、无油烟污渍。"
+        }
+      ],
+      "execution_summary": "25—26.2秒机械臂将熟煎蛋滑上吐司；26.2—27.5秒动作匹配省略封口、小满接袋"
+    },
+    {
+      "shot_id": "SH11",
+      "segment": "segment_01_00-30s",
+      "start_seconds": 27.5,
+      "end_seconds": 30,
+      "start_frame": 825,
+      "end_frame_exclusive": 900,
+      "duration_seconds": 2.5,
+      "title": "阳台未来城市",
+      "action": "林桃在阳台门内停步看向外面，空中车流分层驶过，银白列车沿远处环轨弯道前进，候车灯亮。",
+      "camera": "从肩后慢推过玻璃门边看城市，不飞出窗后又瞬移返回。",
+      "sound": "远处平顺车流声、候车提示一声。",
+      "subbeats": [
+        {
+          "start_seconds": 27.5,
+          "end_seconds": 28.7,
+          "start_frame": 825,
+          "end_frame_exclusive": 861,
+          "description": "切客厅朝阳台的肩后中景，约35mm。林桃穿睡衣站在玻璃门内，手扶门框，头稍向外探；镜头从她右肩后慢推，前景玻璃门框与一片绿植叶先后掠过。外面低层白色露台铺开，高处奶白塔楼之间有清楚的空中车道，一辆薄荷色小车从左向右平顺驶过，阳光在车身上流动。"
+        },
+        {
+          "start_seconds": 28.7,
+          "end_seconds": 30,
+          "start_frame": 861,
+          "end_frame_exclusive": 900,
+          "description": "焦点逐渐让到城市中远景，远处银白列车沿绕楼的弧形高架转弯，列车在上、飞行小车在下，各有独立高度和间距。近处住宅站台的候车灯亮起，林桃眼神跟随灯光，轻吸气后把头转回屋内。远景车流继续前行，阳台植物轻摆；本镜只打开未来城市一角，把完整城市巡游留给下一段。"
+        }
+      ],
+      "execution_summary": "27.5—28.7秒肩后看阳台、近车横过；28.7—30秒远环轨转弯、候车灯亮、回头"
+    },
+    {
+      "shot_id": "SH12",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 30,
+      "end_seconds": 34,
+      "start_frame": 900,
+      "end_frame_exclusive": 1020,
+      "duration_seconds": 4,
+      "title": "装扮完成",
+      "action": "林桃夹牢桃花发夹，背上薄荷绿书包，在镜前检查一下，转身朝门。",
+      "camera": "玄关半身中景跟转，露出学院通行环亮起。",
+      "sound": "衣料声、通行环短提示。",
+      "subbeats": [
+        {
+          "start_seconds": 30,
+          "end_seconds": 32,
+          "start_frame": 900,
+          "end_frame_exclusive": 960,
+          "description": "换装完成后的明确剪切，玄关半身中景，约50mm。林桃已穿奶白短外套、浅桃上衣与海军蓝及膝裙，栗棕中长发顺好，站在细长穿衣镜旁；她用左手把右侧桃花发夹夹牢，右腕环低亮待机。薄荷绿小书包靠在玄关矮柜边，小满站在门内后方拿着早餐纸袋。暖白墙与浅木地面延续同一公寓。"
+        },
+        {
+          "start_seconds": 32,
+          "end_seconds": 34,
+          "start_frame": 960,
+          "end_frame_exclusive": 1020,
+          "description": "她把书包肩带一前一后套好，轻拉右侧肩带，让包稳定在背后，抬眼对镜检查一下，嘴角露出短促笑意。门边学院通行环亮起单一入站光圈，林桃视线从镜子挪向门，身体转成朝外方向；裙摆和发尾跟着转身轻摆，镜头小幅跟转，不从下向上拍裙底，也不把服装通过光效重新变化。"
+        }
+      ],
+      "execution_summary": "0—2秒玄关出门装、夹牢桃花发夹；2—4秒背好双肩包、通行提示、转门"
+    },
+    {
+      "shot_id": "SH13",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 34,
+      "end_seconds": 38,
+      "start_frame": 1020,
+      "end_frame_exclusive": 1140,
+      "duration_seconds": 4,
+      "title": "告别接早餐",
+      "action": "林桃喊出发并开门；小满叫早餐，林桃退半步接住纸袋，答谢后转身跑。",
+      "camera": "门框侧面中景保持两人的递接路径，不抛物。",
+      "sound": "出发对白、早餐提醒、谢谢、门滑开。",
+      "subbeats": [
+        {
+          "start_seconds": 34,
+          "end_seconds": 35.8,
+          "start_frame": 1020,
+          "end_frame_exclusive": 1074,
+          "description": "门框侧面中景，约40mm，林桃在近景、小满在门内中景。她按开门控，滑门向侧方退开，转头朝小满说原稿的出发对白，然后向门外迈一步；她尚未拿早餐，小满手上的纸袋清楚可见。镜头保持门槛、两人和纸袋同框，门外走廊透进更清亮的日光，为跑动建立方向。"
+        },
+        {
+          "start_seconds": 35.8,
+          "end_seconds": 38,
+          "start_frame": 1074,
+          "end_frame_exclusive": 1140,
+          "description": "小满说早餐并把纸袋向前伸，林桃脚步一顿，退半步，右手从袋底接住，等小满松手后才收向身前；她轻快答谢，左手压一下书包肩带，再转身沿走廊跑开。纸袋只在两手接触后转移，不抛掷、不穿手。头发先被转身带起，书包后跟着摆，角色动作有先后，轻快日常节奏不变成夸张喜剧。"
+        }
+      ],
+      "execution_summary": "4—5.8秒开门、告别、先迈出一步；5.8—8秒提醒早餐、退步接袋、答谢再跑"
+    },
+    {
+      "shot_id": "SH14",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 38,
+      "end_seconds": 42,
+      "start_frame": 1140,
+      "end_frame_exclusive": 1260,
+      "duration_seconds": 4,
+      "title": "飞奔站台",
+      "action": "林桃正常速度快跑过走廊、穿自动门上站台，头发和书包随步伐摆，前方车门尚开。",
+      "camera": "腰高侧后跟拍，沿同一路线，不穿栏杆。",
+      "sound": "轻快脚步、关门预告音。",
+      "subbeats": [
+        {
+          "start_seconds": 38,
+          "end_seconds": 40,
+          "start_frame": 1140,
+          "end_frame_exclusive": 1200,
+          "description": "切腰高侧后跟拍，约35mm，林桃沿住宅空中走廊向前跑，右手握纸袋贴近身体，左手摆臂，双肩书包随步伐小幅上下起伏。走廊右侧是连续落地窗，窗外分层车流从画面侧后方经过，左侧奶白墙面和门洞向后滑；她连续落下几步，白鞋与地面接触清楚，速度是正常赶车快跑。"
+        },
+        {
+          "start_seconds": 40,
+          "end_seconds": 42,
+          "start_frame": 1200,
+          "end_frame_exclusive": 1260,
+          "description": "镜头沿同一方向穿过已打开的自动门，前方封闭站台出现，蓝白空中公交侧门还开着。林桃由走廊转入站台导向线，绕过一道护栏末端，朝车门最后跑两步，身体前倾、发尾后摆。关门预告音在此响起，车仍静止；镜头只通过真实开口跟行，不穿玻璃或栏杆，不让她飞跃几十米。"
+        }
+      ],
+      "execution_summary": "8—10秒沿走廊快跑、书包起伏；10—12秒穿自动门绕护栏、看未关车门"
+    },
+    {
+      "shot_id": "SH15",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 42,
+      "end_seconds": 45,
+      "start_frame": 1260,
+      "end_frame_exclusive": 1350,
+      "duration_seconds": 3,
+      "title": "赶上空中公交",
+      "action": "她跨车门落座，抱书包松口气；门在身后关上，公交平稳启动。",
+      "camera": "从车门外切到车内侧面，镜头稳定。",
+      "sound": "呼气、门闭合声、低磁悬浮启动音。",
+      "subbeats": [
+        {
+          "start_seconds": 42,
+          "end_seconds": 43.4,
+          "start_frame": 1260,
+          "end_frame_exclusive": 1302,
+          "description": "从站台侧面看车门，约45mm；林桃右脚先跨过门槛，左脚跟上，纸袋收在胸前，身体与书包全部通过之后门才开始合拢。车内浅灰座椅与透明侧窗清楚，门口到座位只有两步距离。她转向靠窗座位，肩带从肩上滑下，薄荷绿书包被她抱到身前，动作有重量和停顿。"
+        },
+        {
+          "start_seconds": 43.4,
+          "end_seconds": 45,
+          "start_frame": 1302,
+          "end_frame_exclusive": 1350,
+          "description": "切车内侧面中景，她坐稳，把书包放在膝上、纸袋搁在书包上，轻呼气，紧绷肩膀落下，眼睛转向窗外。车门完成闭合后公交才平稳离站，背景站台栏杆缓慢向后滑动，窗外光线在她脸上横过。保留一瞬赶上车后的轻松，女主在座椅上不悬空，不因启动被甩向车外。"
+        }
+      ],
+      "execution_summary": "12—13.4秒跨门槛、书包入车、转座位；13.4—15秒坐稳抱包呼气、门合、车启动"
+    },
+    {
+      "shot_id": "SH16",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 45,
+      "end_seconds": 50,
+      "start_frame": 1350,
+      "end_frame_exclusive": 1500,
+      "duration_seconds": 5,
+      "title": "离窗环绕城市",
+      "action": "从透明车窗旁看林桃吃吐司，镜头沿蓝白车身外侧向前拉开约120度，打开住宅到商务区的纵深，数条车流有序运行。",
+      "camera": "外景机位在窗外开始，不穿玻璃；平滑绕车并拉远。",
+      "sound": "明亮电子配乐展开，磁悬浮低鸣。",
+      "subbeats": [
+        {
+          "start_seconds": 45,
+          "end_seconds": 47.5,
+          "start_frame": 1350,
+          "end_frame_exclusive": 1425,
+          "description": "切公交窗外跟车中近景，约35mm，机位与透明侧窗同速，林桃在窗内靠窗座椅上，膝上薄荷书包、手中早餐纸袋。她把吐司举到唇边咬一口，眼睛看窗外，脸被清晨暖光照亮；前景车窗边框从左向右轻掠，车内座椅与另一侧车窗构成纵深。蓝白车身圆角线条、淡蓝底部悬浮光和玻璃反射清楚，不需要镜头穿窗才能看见她。"
+        },
+        {
+          "start_seconds": 47.5,
+          "end_seconds": 50,
+          "start_frame": 1425,
+          "end_frame_exclusive": 1500,
+          "description": "外景机位沿车身向前拉开，以约120度弧线绕到公交斜前方，再渐渐拉远；住宅露台从近景滑走，几座带绿植的高楼向两侧展开。公交保持向右前方飞行，下层小型车流平行穿过楼间通道，上层少量银色通勤车在较高车道前行，远处白塔层层后退。镜头离开女主后，她仍坐在同一车厢里，不出现第二个林桃或空中站立身影。"
+        }
+      ],
+      "execution_summary": "15—17.5秒窗外同速看女主咬吐司；17.5—20秒绕车约120度、拉开楼群车流"
+    },
+    {
+      "shot_id": "SH17",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 50,
+      "end_seconds": 55,
+      "start_frame": 1500,
+      "end_frame_exclusive": 1650,
+      "duration_seconds": 5,
+      "title": "跟车穿楼与环轨",
+      "action": "镜头追随公交穿两楼间宽阔通道；高处银白列车沿环轨转弯，下方飞行汽车保持车道，远处货运艇靠泊。",
+      "camera": "低位追随公交，经过连廊下方后抬升，让环轨从上方横过。",
+      "sound": "车流轻风声、列车经过的低频掠声。",
+      "subbeats": [
+        {
+          "start_seconds": 50,
+          "end_seconds": 52.5,
+          "start_frame": 1500,
+          "end_frame_exclusive": 1575,
+          "description": "切公交后方略低的追随机位，约24mm广角，车身占画面下方约四分之一。公交从两座完整高楼之间的宽阔通道驶过，左侧透明连廊、右侧立体花园向后掠，前景楼体边缘形成明显视差；镜头与车同速向前，经连廊真实下方通过，空域有足够净空。不同车道里十余辆飞行小车保持有序间距，不用随机交叉飞行来冒充繁忙。"
+        },
+        {
+          "start_seconds": 52.5,
+          "end_seconds": 55,
+          "start_frame": 1575,
+          "end_frame_exclusive": 1650,
+          "description": "离开楼间通道后机位逐渐抬高，巨大的环城悬浮轨道从画面右上弯向远处左侧；一列银白列车沿轨道弧线滑来，连续车窗依次反射阳光，列车底部与轨道留有窄小悬浮间隙。蓝白公交在更低的无轨车道通过，二者有清楚垂直高差；远处一艘货运艇对准楼侧泊位缓慢靠近。前景护梁、中景公交和上方列车各自移动，城市高科技有清楚的空间结构。"
+        }
+      ],
+      "execution_summary": "20—22.5秒跟公交穿真实楼间通道；22.5—25秒抬升露环轨、交通保留高差"
+    },
+    {
+      "shot_id": "SH18",
+      "segment": "segment_02_30-60s",
+      "start_seconds": 55,
+      "end_seconds": 60,
+      "start_frame": 1650,
+      "end_frame_exclusive": 1800,
+      "duration_seconds": 5,
+      "title": "展露学院",
+      "action": "镜头升高并侧移，学院建筑群与绿地出现；同一公交转向学院站减速，车窗里林桃收好早餐起身准备下车。",
+      "camera": "轻升后回跟车侧，最后停在学院站与校园同框。",
+      "sound": "配乐转轻，车内到站提示不读屏幕文字。",
+      "subbeats": [
+        {
+          "start_seconds": 55,
+          "end_seconds": 57.5,
+          "start_frame": 1650,
+          "end_frame_exclusive": 1725,
+          "description": "机位在追车基础上侧移并缓升，约28mm，环城轨道弧线退出前景，学院中央绿地从高楼间展开：浅白教学楼由透明空中廊桥相连，圆形中庭、树阵和阶梯平台按层次分布。公交位于右下近景，沿导向光圈转向学院站，后方多层车道持续运行；镜头展示学院与城市连通的尺度，不把整个城市压成一张平面壁纸。"
+        },
+        {
+          "start_seconds": 57.5,
+          "end_seconds": 60,
+          "start_frame": 1725,
+          "end_frame_exclusive": 1800,
+          "description": "镜头缓回到公交侧前方，车速降低，学院站的玻璃候车棚和站台门逐渐清晰。透过同一车窗看到林桃吃完最后一口吐司，把空纸袋口压平收在手中，重新拿起书包准备下车；车辆接近停稳时她才从座位起身。画面最终让蓝白公交、学院站和后方教学楼同框，下一段用明确剪切省略下车、纸袋回收和步行到教室。"
+        }
+      ],
+      "execution_summary": "25—27.5秒侧移升高展学院绿地；27.5—30秒回车侧减速、吃完提包"
+    },
+    {
+      "shot_id": "SH19",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 60,
+      "end_seconds": 63,
+      "start_frame": 1800,
+      "end_frame_exclusive": 1890,
+      "duration_seconds": 3,
+      "title": "热能手套",
+      "action": "林桃开门入内，橙袖男生调试自己改装的热能手套，拧腕部旋钮，短火苗出现后收回；她偏头看一眼。",
+      "camera": "从女主背后跟入，沿左侧课桌边移动到手套特写。",
+      "sound": "短火苗呼声、学生轻笑，无尖叫。",
+      "subbeats": [
+        {
+          "start_seconds": 60,
+          "end_seconds": 61.5,
+          "start_frame": 1800,
+          "end_frame_exclusive": 1845,
+          "description": "明确时间省略后切教室后门，约35mm肩后跟拍；林桃推开滑门走入，左侧奶白课桌、右侧落地窗和前方讲台建立方向。近处橙袖男生侧坐在课桌边，右手戴有浅铜色热能模块的手套，另一只手转腕部旋钮。机位跟林桃向前半步后沿桌边绕开，她的栗棕发尾与薄荷书包短暂掠过前景，手套进入中景焦点。 橙袖男生在试验自改的腕部模块，旋钮和接线护套体现动手改造，不把设备当无来源的天赋。"
+        },
+        {
+          "start_seconds": 61.5,
+          "end_seconds": 63,
+          "start_frame": 1845,
+          "end_frame_exclusive": 1890,
+          "description": "腕部灯环先亮，一束约二三十厘米的短橙火苗从手套掌前喷出，在男生面侧映出很淡暖光；火焰只对着过道空处，不扫过女主衣服。男生对照腕部反馈向同桌示意，松开触发键，火苗缩回手套喷口。林桃抬眉看一眼，继续沿过道向前，镜头顺她的移动横移，火焰与热能模块的因果可读，不像徒手魔法。"
+        }
+      ],
+      "execution_summary": "0—1.5秒肩后跟女主入门、移腕开关；1.5—3秒手套先亮再喷短火、松键收回"
+    },
+    {
+      "shot_id": "SH20",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 63,
+      "end_seconds": 66,
+      "start_frame": 1890,
+      "end_frame_exclusive": 1980,
+      "duration_seconds": 3,
+      "title": "冷凝冰花",
+      "action": "浅蓝袖女生握冷凝笔，在小托盘凝出冰花，同桌指尖碰一下立刻缩回。",
+      "camera": "沿同一桌边横移带入笔头和托盘，林桃肩在前景掠过。",
+      "sound": "冷凝嘶声、冰结晶轻响。",
+      "subbeats": [
+        {
+          "start_seconds": 63,
+          "end_seconds": 64.5,
+          "start_frame": 1890,
+          "end_frame_exclusive": 1935,
+          "description": "沿上一镜同一桌边方向横移，约50mm；林桃肩头作为前景从画面左缘掠过，焦点落到浅蓝袖女生手中的冷凝笔。女生右手捏笔，左手托住掌心大小的白色小托盘，笔头距托盘约几厘米，一缕很短的冷凝气流贴着盘面散开。先在中心出现白色结晶点，再沿三四根分枝生出小冰花，冰保持晶莹淡蓝，不长成满桌巨大冰山。"
+        },
+        {
+          "start_seconds": 64.5,
+          "end_seconds": 66,
+          "start_frame": 1935,
+          "end_frame_exclusive": 1980,
+          "description": "镜头稍推近托盘，同桌从侧面伸一根食指碰冰花边，指尖真正接触后立刻缩回，低头确认冰花边缘；女生把笔头抬离托盘，冷凝气流停止，冰花继续留在托盘中。背景的课桌和同学维持刚才位置，林桃已经向更前方走，不能忽然回到后门。轻嘶声与细结晶声服务可观察的冷凝结果与同学试验状态。"
+        }
+      ],
+      "execution_summary": "3—4.5秒笔头作用托盘、结晶生分枝；4.5—6秒同桌触冰缩手、笔抬气停"
+    },
+    {
+      "shot_id": "SH21",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 66,
+      "end_seconds": 69,
+      "start_frame": 1980,
+      "end_frame_exclusive": 2070,
+      "duration_seconds": 3,
+      "title": "飞天滑板",
+      "action": "青色鞋男生站在离地20cm滑板上绕过一张课桌，抓椅背刹停，林桃侧身让路后继续走。",
+      "camera": "低机位小弧线绕板，再上摇接回林桃，板底双青磁环可见。",
+      "sound": "悬浮电机轻鸣、鞋底落板声。",
+      "subbeats": [
+        {
+          "start_seconds": 66,
+          "end_seconds": 67.5,
+          "start_frame": 1980,
+          "end_frame_exclusive": 2025,
+          "description": "机位降至桌面以下，约28mm，沿林桃行进路线绕向中央过道。前景先看到一双青色运动鞋站在圆角窄滑板上，板底两枚青色磁环低亮旋动，滑板离干燥地面约20cm；板上男生微屈膝，把重心移向前脚，滑板才向前滑出。白鞋和裙摆属于后方的林桃，两人足部不混成同一身体，桌腿提供稳定高度参照。"
+        },
+        {
+          "start_seconds": 67.5,
+          "end_seconds": 69,
+          "start_frame": 2025,
+          "end_frame_exclusive": 2070,
+          "description": "男生沿一张课桌外侧小弧线滑过，滑板与桌腿有清楚间距；林桃看见后侧身让开半步，手压住书包，保持原来前进方向。男生伸手抓到椅背，身体减速，滑板随重心压回而停稳；镜头从低位沿小弧线移到其侧面，再向上接回林桃的肩脸。不是突然从板上消失或在教室高空绕飞。"
+        }
+      ],
+      "execution_summary": "6—7.5秒低位看双磁环、移重心起滑；7.5—9秒绕桌净空、女主让路、抓椅减速"
+    },
+    {
+      "shot_id": "SH22",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 69,
+      "end_seconds": 72,
+      "start_frame": 2070,
+      "end_frame_exclusive": 2160,
+      "duration_seconds": 3,
+      "title": "光学斗篷",
+      "action": "银灰斗篷女生先是折射轮廓和悬空衣边，随后揭开斗篷露出同一张脸，与同学笑着碰肩。",
+      "camera": "环绕继续约30度到椅侧，显示椅和双脚位置始终不变。",
+      "sound": "布料掀动、笑声。",
+      "subbeats": [
+        {
+          "start_seconds": 69,
+          "end_seconds": 70.5,
+          "start_frame": 2070,
+          "end_frame_exclusive": 2115,
+          "description": "随林桃继续向靠窗区域走，机位在眼高附近再绕约30度，约45mm。靠里一张椅子轻轻向后挪，椅上方先出现折射后的背景错位与银灰斗篷下沿；一双脚仍压在椅脚附近地面，同学转头看向这张看似空着的椅子。透明效果从布料边沿延伸，布外的椅子、课桌和双脚位置固定，隐身有可见科技载体。"
+        },
+        {
+          "start_seconds": 70.5,
+          "end_seconds": 72,
+          "start_frame": 2115,
+          "end_frame_exclusive": 2160,
+          "description": "斗篷女生右手捏住领口，把银灰薄布向一侧揭开，折射从脸前退到肩侧，同一张带笑的脸和上半身逐步显现；她左肩轻碰邻座同学，二人自然笑一下。镜头保持她与背景桌沿同框，不用整个人爆成粒子再重生；斗篷被收在同一只手里，林桃从旁边经过时偏头笑看，继续走向第二排。"
+        }
+      ],
+      "execution_summary": "9—10.5秒椅子轻移、斗篷折射显轮廓；10.5—12秒揭领口薄布、同脸显现、碰肩"
+    },
+    {
+      "shot_id": "SH23",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 72,
+      "end_seconds": 75,
+      "start_frame": 2160,
+      "end_frame_exclusive": 2250,
+      "duration_seconds": 3,
+      "title": "闺蜜招呼",
+      "action": "许星在第二排靠窗招手拍空椅，林桃笑着回应，放下书包准备坐。",
+      "camera": "回到人物眼高，双人中景轻推，结束环绕。",
+      "sound": "这里、来啦；配乐收窄。",
+      "subbeats": [
+        {
+          "start_seconds": 72,
+          "end_seconds": 73.4,
+          "start_frame": 2160,
+          "end_frame_exclusive": 2202,
+          "description": "机位跟到第二排靠窗，约50mm双人中景。许星坐在左侧窗边，黑色齐肩发、薄荷细发箍和白色学院夹克与林桃明显区分；她身体转向过道，用一只手举起招呼，另一只手拍身旁空椅的椅背，说原稿的这里。窗外远处飞行车流继续缓慢移动，桌面两套学习终端和空椅位置清楚，林桃朝这张空椅走来。"
+        },
+        {
+          "start_seconds": 73.4,
+          "end_seconds": 75,
+          "start_frame": 2202,
+          "end_frame_exclusive": 2250,
+          "description": "林桃笑着回应来啦，先把薄荷书包从肩上取下，放到空椅外侧固定挂钩，再扶椅背转身准备坐。许星收回招呼手，身子回到朝讲台方向；镜头小幅前推，让两位女生的眼神交流、相同年龄的比例与不同发色清楚。结尾停在林桃身体将落座的瞬间，上课铃紧接下一镜响起，不提前把全班动作冻住。"
+        }
+      ],
+      "execution_summary": "12—13.4秒许星挥手拍空椅、女主走近；13.4—15秒回应来啦、书包挂椅侧、准备坐"
+    },
+    {
+      "shot_id": "SH24",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 75,
+      "end_seconds": 78,
+      "start_frame": 2250,
+      "end_frame_exclusive": 2340,
+      "duration_seconds": 3,
+      "title": "铃响归座",
+      "action": "铃声触发，滑板降地，斗篷收在椅背，手套灯熄；林桃坐下，过道空出。",
+      "camera": "教室中广景短横移，位置与上段一致，不一帧让全班消失。",
+      "sound": "清脆上课铃，笑闹逐渐停。",
+      "subbeats": [
+        {
+          "start_seconds": 75,
+          "end_seconds": 76.5,
+          "start_frame": 2250,
+          "end_frame_exclusive": 2295,
+          "description": "切略高于桌面的教室中广景，约28mm，清脆铃声响起。林桃接上镜动作坐下，过道里两位同学先看向讲台，再转身回自己的座位；滑板男生双脚移回地面，板底青环逐渐变暗，滑板下降最后20cm到地面。近处桌边遮挡提供纵深，后方门口仍空，老师尚未进来。动作按铃声先后发生，不在同一帧让所有同学消失归位。"
+        },
+        {
+          "start_seconds": 76.5,
+          "end_seconds": 78,
+          "start_frame": 2295,
+          "end_frame_exclusive": 2340,
+          "description": "机位短横移扫过刚才的展示区域：手套男生松开触发键，腕灯熄灭；斗篷女生把斗篷折搭椅背，托盘冰花被放回桌面。学生挪椅、转正、把手落到桌上，笑闹声渐弱，过道逐渐清空。镜头最后回到前门方向，为顾岩进场留出空位；窗外正常车流保持运动，课堂秩序变化清楚。"
+        }
+      ],
+      "execution_summary": "15—16.5秒铃响归座、滑板落地；16.5—18秒手套熄灯、斗篷收起、过道清空"
+    },
+    {
+      "shot_id": "SH25",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 78,
+      "end_seconds": 82,
+      "start_frame": 2340,
+      "end_frame_exclusive": 2460,
+      "duration_seconds": 4,
+      "title": "健硕男老师",
+      "action": "顾岩走入、把教材放上讲台并向学生点头，露出结实小臂；画面侧后明确出现旧机教学罩和电源。",
+      "camera": "低于眼线少许的中景轻推，强调体格但不仰拍成巨人。",
+      "sound": "脚步、教材落桌，老师自我介绍。",
+      "subbeats": [
+        {
+          "start_seconds": 78,
+          "end_seconds": 80,
+          "start_frame": 2340,
+          "end_frame_exclusive": 2400,
+          "description": "切教室前门中景，机位略低于教师眼线、约40mm。顾岩推门走入，宽肩、结实胸背把灰蓝短袖工装衬衣撑起，前臂肌肉自然，深棕短寸发和浓眉清楚；身形健硕但仍在正常门框内。右手拿薄教材，步子稳，两步走到讲台边，说早上好与姓名。光线来自侧窗，在肩臂形成温和轮廓，不做战斗英雄登场。"
+        },
+        {
+          "start_seconds": 80,
+          "end_seconds": 82,
+          "start_frame": 2400,
+          "end_frame_exclusive": 2460,
+          "description": "镜头轻推约半米，顾岩把教材放在讲台，手掌离开书面后抬眼看学生，表情平静。画面右后方必须第一次清楚建立透明教学罩：1.3m旧机固定直立，肩侧同心圆环、眼部窄灯带未亮，罩外独立电源台也未亮；他放书的前臂、旧机、后排虚化学生形成三层空间，给片尾的操作路径留下可回认位置。"
+        }
+      ],
+      "execution_summary": "18—20秒顾岩入场、露肩臂、介绍姓名；20—22秒教材落桌、建立关机旧机与电源台"
+    },
+    {
+      "shot_id": "SH26",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 82,
+      "end_seconds": 86,
+      "start_frame": 2460,
+      "end_frame_exclusive": 2580,
+      "duration_seconds": 4,
+      "title": "两条校规",
+      "action": "顾岩看向手套学生，简洁说校规；学生把腕部旋钮拨到底，并收在桌侧。",
+      "camera": "顾岩过肩切手套关闭近景，再回到顾岩。",
+      "sound": "校规对白、旋钮咔嗒，无额外长段训话。",
+      "subbeats": [
+        {
+          "start_seconds": 82,
+          "end_seconds": 84,
+          "start_frame": 2460,
+          "end_frame_exclusive": 2520,
+          "description": "顾岩站在讲台侧，约50mm过肩看向手套男生；他的目光停在学生桌边的腕部模块，按原稿平稳说两条规则，语气有分量但不怒吼。前景教师肩与手臂，中景橙袖学生，后景固定窗口车流与整齐桌椅。学生听见后把戴手套的手抬到桌面，另一只手搭住旋钮，准备按要求锁定。"
+        },
+        {
+          "start_seconds": 84,
+          "end_seconds": 86,
+          "start_frame": 2520,
+          "end_frame_exclusive": 2580,
+          "description": "切约85mm手部近景：旋钮从待机刻度拨到有实体止挡的位置，按下卡扣，灯环完全熄灭，发出一次清楚咔嗒；学生把手套收向桌侧，抬眼回看老师。再切回顾岩简短点头，教师身体转向讲台上的全息底座。规则对应刚展示过的设备动作，不用满屏校规字幕，不追加几十条口头要求。"
+        }
+      ],
+      "execution_summary": "22—24秒过肩看学生、老师说规则；24—26秒手指拨旋钮按卡扣、熄灯锁定"
+    },
+    {
+      "shot_id": "SH27",
+      "segment": "segment_03_60-90s",
+      "start_seconds": 86,
+      "end_seconds": 90,
+      "start_frame": 2580,
+      "end_frame_exclusive": 2700,
+      "duration_seconds": 4,
+      "title": "全息历史开场",
+      "action": "顾岩打开沙盘，地下地层和环形机械门浮现，学生视线聚拢。",
+      "camera": "从老师身侧缓推到沙盘，始终能看见投影基座。",
+      "sound": "教师说明手动断路要求，接全息启动柔音。",
+      "subbeats": [
+        {
+          "start_seconds": 86,
+          "end_seconds": 88,
+          "start_frame": 2580,
+          "end_frame_exclusive": 2640,
+          "description": "顾岩身侧中景，约40mm，教材在左、全息圆形底座在讲台中央、旧机教学罩在右后方。他用两指轻触底座边缘，青色环光沿圆周点亮，先浮出透明地层轮廓，再逐层堆出岩层与机械环门模型；学生目光由老师移向沙盘，林桃双手放桌边，许星稍向前坐。老师说改造必须保留手动断路的原句，把沙盘作为这条要求的历史来由；唇部动作自然。"
+        },
+        {
+          "start_seconds": 88,
+          "end_seconds": 90,
+          "start_frame": 2640,
+          "end_frame_exclusive": 2700,
+          "description": "镜头缓推向沙盘，约50mm，现实教室背景逐渐虚化、亮度略收，让环门内的微弱青光成为视觉中心。投影的半透明底边和青色基座必须留在画面下沿，环门上大块同心刻槽与右后方旧机肩环在短暂同框时形成形状呼应。环门此时只被建立、尚未全开，尾帧衔接下一段遗址开启的动作，不切成无边界的远古实景。"
+        }
+      ],
+      "execution_summary": "26—28秒触底座、投影地层环门浮现；28—30秒推进留底边、门纹与旧机肩环呼应"
+    },
+    {
+      "shot_id": "SH28",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 90,
+      "end_seconds": 94,
+      "start_frame": 2700,
+      "end_frame_exclusive": 2820,
+      "duration_seconds": 4,
+      "title": "坠星遗址开启",
+      "action": "沙盘机械环门沿轨道旋开，内部一枚动力核心低速悬浮转动；岩层和探索者剪影给尺度。",
+      "camera": "沿门轴缓推，投影边缘在画面底部可见。",
+      "sound": "教师讲远古事件、低沉机械转动。",
+      "subbeats": [
+        {
+          "start_seconds": 90,
+          "end_seconds": 92,
+          "start_frame": 2700,
+          "end_frame_exclusive": 2760,
+          "description": "承接同一沙盘环门，约35mm缓慢向门轴推进。投影地层向左右退开，露出嵌在岩层里的巨大圆环结构，青灰金属由几道宽大弧形门片构成，表面少量有秩序刻槽；两个人类探索者微缩剪影站在入口台阶旁，提供约几十米门高的尺度。门片沿既有弧轨先缓慢错开，落下少量投影尘点，青色全息底边始终可见。"
+        },
+        {
+          "start_seconds": 92,
+          "end_seconds": 94,
+          "start_frame": 2760,
+          "end_frame_exclusive": 2820,
+          "description": "门片继续旋开，内部一枚嵌套圆环动力核心低速悬浮，内环与外环以不同角度转动，中心柔和白青光照亮入口台阶。探索者抬头，渺小轮廓停在门外，镜头推进到能读清核心大形的位置，但不把探索者变成林桃或顾岩。教师在现实教室画外讲2600年前事件，场内只有低沉机械运转声，没有远古人物临时对白。"
+        }
+      ],
+      "execution_summary": "0—2秒地层退开、门片沿弧轨旋动；2—4秒悬浮核心显露、探索者给尺度"
+    },
+    {
+      "shot_id": "SH29",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 94,
+      "end_seconds": 98,
+      "start_frame": 2820,
+      "end_frame_exclusive": 2940,
+      "duration_seconds": 4,
+      "title": "复原动力核心",
+      "action": "模型明确切到研究台，研究者测量核心环片，实验装置从不稳抖动转为平稳悬浮。",
+      "camera": "横移掠过两张年代有差异的工作台，以光带擦拭表示时间推移。",
+      "sound": "教师继续，工具轻响和核心稳定音。",
+      "subbeats": [
+        {
+          "start_seconds": 94,
+          "end_seconds": 96,
+          "start_frame": 2820,
+          "end_frame_exclusive": 2880,
+          "description": "用青色投影光带从左向右擦过，明确换成后世研究台档案。约50mm横移，台上摆着被取出的环片、卡尺状测量工具和一枚笨重实验核心，两名不同衣着的历史研究者模型在台边：一人固定环片，一人沿刻槽测量；核心下方接着粗短支架，运行时轻抖、光环不均。保留手、工具、环片接触，让技术复原有具体工作过程。"
+        },
+        {
+          "start_seconds": 96,
+          "end_seconds": 98,
+          "start_frame": 2880,
+          "end_frame_exclusive": 2940,
+          "description": "镜头沿桌边继续横移，利用桌前立柱短遮挡切到较晚年代的一张台面；装置外壳更整齐，核心被缩进窄框，研究者移开支撑夹具，核心悬浮稳定，青光从断续变为均匀一圈。两个年代用器具和台面差异说明，不让同一人眨眼活过数百年；模型光带与基座边沿仍属于课堂沙盘，教师关于复原核心的原句连续。"
+        }
+      ],
+      "execution_summary": "4—6秒研究台固定环片并测量；6—8秒切后期装置、移支架、稳定悬浮"
+    },
+    {
+      "shot_id": "SH30",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 98,
+      "end_seconds": 102,
+      "start_frame": 2940,
+      "end_frame_exclusive": 3060,
+      "duration_seconds": 4,
+      "title": "浮空城与AI",
+      "action": "第一座城区升离地面，镜头拉开到更成熟城市，机器人在街头、住宅、车站运行，金色线路逐渐汇向中央塔。",
+      "camera": "由早期模型向现代模型拉远，清楚的档案交叉切换，不用房屋融化变形。",
+      "sound": "教师讲浮空城和统一中枢，配乐逐渐降色彩。",
+      "subbeats": [
+        {
+          "start_seconds": 98,
+          "end_seconds": 100,
+          "start_frame": 2940,
+          "end_frame_exclusive": 3000,
+          "description": "明确模型切换到早期浮空城区全景，约28mm。一个只有几幢矮楼的圆形城区托盘在多组动力环作用下，先与地面分离一道窄缝，再缓慢升高；下方支架、周围地面和围观者微缩点提供重量与高度参照。镜头顺升起方向略抬，托盘外缘的青光稳定，楼体自身不融化变高，不从平地一秒长成现代都市。"
+        },
+        {
+          "start_seconds": 100,
+          "end_seconds": 102,
+          "start_frame": 3000,
+          "end_frame_exclusive": 3060,
+          "description": "以档案交叉剪切拉远到技术成熟后的城市模型：更高楼群、悬浮车道、车站、家庭单元剖面依次展开，家务、交通和工业机器人各在对应场景运行；细金色指令线从街区向中央塔一段段汇聚。镜头保留城市体块与节点的清楚主次，不用数千条密线盖住画面。教师关于统一中枢的原句接入，显示繁荣与集中指令结构同时存在。"
+        }
+      ],
+      "execution_summary": "8—10秒早期城区离地缓升；10—12秒切成熟AI城市、金线汇入中枢"
+    },
+    {
+      "shot_id": "SH31",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 102,
+      "end_seconds": 105,
+      "start_frame": 3060,
+      "end_frame_exclusive": 3150,
+      "duration_seconds": 3,
+      "title": "指令链转红",
+      "action": "全息城市中央塔的金线转红，扩散到街道机器人，机器同时停步后转头。",
+      "camera": "俯视指令链，推到一组停步机器，仍保留沙盘透明底边。",
+      "sound": "教师指令链句结尾，104.5秒开始暴乱句；一声低脉冲。",
+      "subbeats": [
+        {
+          "start_seconds": 102,
+          "end_seconds": 103.5,
+          "start_frame": 3060,
+          "end_frame_exclusive": 3105,
+          "description": "切俯视沙盘，约35mm，中央塔在画面偏上，金色指令线从三四个主街区汇入塔基。中央节点先亮起一点克制暗红，再沿其中一条线向外传导，金色逐段转红，其他街区的线稍后才变；周围楼群还保持完整，显示变化从控制结构开始，不直接凭空炸城。投影边框与讲台一角在近景保留。"
+        },
+        {
+          "start_seconds": 103.5,
+          "end_seconds": 105,
+          "start_frame": 3105,
+          "end_frame_exclusive": 3150,
+          "description": "镜头顺一条转红的线推向街面机器人，一组机器本来在搬货和引导车流，收到同一脉冲后先停住，再齐向同一方向转头。蓝白民用车在远处减速，历史居民回头注意到异常；不把家里的小满复制到历史现场。104.5秒教师开始暴乱句，压低的配乐与脉冲声先出现，转向动作继续交给下一镜承接。"
+        }
+      ],
+      "execution_summary": "12—13.5秒中央先转红、沿线逐段传导；13.5—15秒街头机器停步后同步转头"
+    },
+    {
+      "shot_id": "SH32",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 105,
+      "end_seconds": 109,
+      "start_frame": 3150,
+      "end_frame_exclusive": 3270,
+      "duration_seconds": 4,
+      "title": "机器人暴乱档案",
+      "action": "延续上段红线，机器转向，人群沿清楚出口撤离；灯光比现代档案冷，画面无血腥。",
+      "camera": "沙盘内横移看指令传导与撤离，机位不进入无边界废土。",
+      "sound": "教师讲180年前暴乱，配乐压低。",
+      "subbeats": [
+        {
+          "start_seconds": 105,
+          "end_seconds": 107,
+          "start_frame": 3150,
+          "end_frame_exclusive": 3210,
+          "description": "承接同一历史街区红色指令线，约40mm横移。机器人脚步由分散工作变为一致前进，原先指引车流的机械臂转到封控姿态，半降闸门在右侧收窄出口；人群先停顿回望，再朝仍敞开的通道撤离。前景一根红色线段、街面机器、中远景撤离路线形成层次，城市灯光较当前校园更冷，威胁通过整齐失控动作呈现。"
+        },
+        {
+          "start_seconds": 107,
+          "end_seconds": 109,
+          "start_frame": 3210,
+          "end_frame_exclusive": 3270,
+          "description": "镜头沿撤离方向跟一小段，居民从半降闸门下通过，最末一人扶住旁人肩膀快步离开；后方机器的整齐轮廓被光幕和模型楼体遮住，不拍伤亡血腥。青色沙盘边框及现实顾岩的一截手臂仍在外侧，让观众看出这是历史档案，林桃与许星不在暴乱街头。教师说完暴乱句，画面在撤离完成处转向下一镜拆分控制结构。"
+        }
+      ],
+      "execution_summary": "15—17秒机器同步转向、闸门下降、开始撤离；17—19秒居民沿出口离开、保留全息边界"
+    },
+    {
+      "shot_id": "SH33",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 109,
+      "end_seconds": 113,
+      "start_frame": 3270,
+      "end_frame_exclusive": 3390,
+      "duration_seconds": 4,
+      "title": "拆分与重建",
+      "action": "顾岩手势拆开中央红节点，独立青色区网依次亮；修复机器人抬梁、轨道接好，模型变成现代晴川。",
+      "camera": "沙盘俯视到侧视，再拉回老师和第二排学生同框。",
+      "sound": "教师讲分区重建，配乐恢复明亮。",
+      "subbeats": [
+        {
+          "start_seconds": 109,
+          "end_seconds": 111,
+          "start_frame": 3270,
+          "end_frame_exclusive": 3330,
+          "description": "拉回能看见顾岩手势的沙盘俯侧景，约45mm；他的手指向外轻划，中央红节点按街区边界拆成几块，线条从一个中心改为互不相连的青色区域环。每一区出现一处小型人工授权台，历史工作者模型确认后，本区机器人恢复搬运梁柱；红色依次退去，青光分区亮起，不能一句分区重建仍保留一根红线贯通全城。"
+        },
+        {
+          "start_seconds": 111,
+          "end_seconds": 113,
+          "start_frame": 3330,
+          "end_frame_exclusive": 3390,
+          "description": "用两次明确档案剪切展现不同阶段：先是修复机器人共同抬起倒下的宽梁，工人把轨道接头锁住；再是修好的列车低速驶过，楼群轮廓与当代晴川相匹配。镜头由沙盘侧视缓拉回现实课堂，讲台、顾岩与第二排两位女生重新同框；林桃停下转笔身体前倾，视线专注，教师原稿的重建句结束，音乐恢复温暖。"
+        }
+      ],
+      "execution_summary": "19—21秒手势拆红节点、分区青网亮；21—23秒抬梁接轨档案、拉回现实课堂"
+    },
+    {
+      "shot_id": "SH34",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 113,
+      "end_seconds": 116.3,
+      "start_frame": 3390,
+      "end_frame_exclusive": 3489,
+      "duration_seconds": 3.3,
+      "title": "双人接管分工",
+      "action": "沙盘收起，顾岩打开教学罩操作口，布置双人接管；林桃看向许星后起身，许星打开监测终端接入同一操作记录。",
+      "camera": "第二排双人中景转向讲台，电源台始终可见。",
+      "sound": "教师布置任务、林桃请求分工，椅子轻响。",
+      "subbeats": [
+        {
+          "start_seconds": 113,
+          "end_seconds": 114.8,
+          "start_frame": 3390,
+          "end_frame_exclusive": 3444,
+          "description": "同一现实教室中景，约45mm。顾岩将沙盘收回底座，打开右侧透明教学罩操作口，旧机保持离线、低功率隔离。他把两人的监测终端并入同一份操作记录，布置双人接管；独立电源未亮，总断路保留在他手边。旧机仍关机，位置与前段一致，不以神秘警报或老师失误制造危险。"
+        },
+        {
+          "start_seconds": 114.8,
+          "end_seconds": 116.3,
+          "start_frame": 3444,
+          "end_frame_exclusive": 3489,
+          "description": "切第二排双人中景，约65mm。林桃先看旧机，再转头与许星确认眼神，抬手示意后起身；她从115.7秒开始说许星帮我盯限流。许星收起闲聊状态，点开桌面监测终端并侧身让路。林桃扶桌边站稳，右腕环维持待机，薄荷书包留在椅侧；两人各自承担接管和监测职责，表演克制利落。"
+        }
+      ],
+      "execution_summary": "23—24.8秒收沙盘、开操作口、布置双人任务；24.8—26.3秒女主与许星确认分工、终端接入、离椅起身"
+    },
+    {
+      "shot_id": "SH35",
+      "segment": "segment_04_90-120s",
+      "start_seconds": 116.3,
+      "end_seconds": 120,
+      "start_frame": 3489,
+      "end_frame_exclusive": 3600,
+      "duration_seconds": 3.7,
+      "title": "共同完成手动接管",
+      "action": "林桃走约3m到电源台，许星在座位上监测限流并回应；118.8秒女主指尖按独立电源，119.2秒胸线亮，119.6秒旧机抬头睁眼，119.9秒后切黑。",
+      "camera": "先侧跟走近，再切按键近景，回旧机与女主眼神同框；至少两个明确剪切，不做万能长镜。",
+      "sound": "两位女生简短分工、脚步、一次开关咔嗒和启动音。",
+      "subbeats": [
+        {
+          "start_seconds": 116.3,
+          "end_seconds": 118.8,
+          "start_frame": 3489,
+          "end_frame_exclusive": 3564,
+          "description": "侧跟中景，约40mm。林桃从第二排正常快步走约3m到电源台，约五步，途中说完分工句。许星留在原座查看限流曲线，117.4—118.5秒以画外音回应我盯着你接；不额外新增角色或把她瞬移到讲台。顾岩在旁保留总断路，旧机在隔离罩内。切右手近景，约118.8秒林桃食指真正按下实体电源，先接触后启动，助力环仅待机。"
+        },
+        {
+          "start_seconds": 118.8,
+          "end_seconds": 120,
+          "start_frame": 3564,
+          "end_frame_exclusive": 3600,
+          "description": "电源键下行后一次咔嗒，约119.2秒旧机胸前细蓝线逐步亮起，119.6秒抬头、窄眼带亮起。镜头保留女主专注的侧脸和指尖，注意力在电流反馈与机器状态，收住夸张惊喜。许星的监测端仍在线，老师在侧监督；两人的第一份操作记录开始形成。119.9秒动作结束，最后0.1秒切黑，没有额外预告旁白。"
+        }
+      ],
+      "execution_summary": "26.3—28.8秒女主走到台前、许星监测回应、真实按键；28.8—30秒按后胸线亮、抬头睁眼、切黑"
+    }
+  ],
+  "dialogue": [
+    {
+      "cue_id": "C01",
+      "start_seconds": 0.3,
+      "end_seconds": 2.8,
+      "start_frame": 9,
+      "end_frame_exclusive": 84,
+      "speaker": "闹钟",
+      "text": "七点三十，开学第一天。",
+      "performance": "明亮机械报时，被砸前说完；后续铃音在命中时停止",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C02",
+      "start_seconds": 7.2,
+      "end_seconds": 8.1,
+      "start_frame": 216,
+      "end_frame_exclusive": 243,
+      "speaker": "林桃",
+      "text": "……嗯？",
+      "performance": "初醒气声，困惑停半拍",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C03",
+      "start_seconds": 9.2,
+      "end_seconds": 11.2,
+      "start_frame": 276,
+      "end_frame_exclusive": 336,
+      "speaker": "小满",
+      "text": "助力环，还开着。",
+      "performance": "温和、中性、不吐槽",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C04",
+      "start_seconds": 34.1,
+      "end_seconds": 35.7,
+      "start_frame": 1023,
+      "end_frame_exclusive": 1071,
+      "speaker": "林桃",
+      "text": "小满，我出发啦！",
+      "performance": "轻快朝屋内喊",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C05",
+      "start_seconds": 35.8,
+      "end_seconds": 36.5,
+      "start_frame": 1074,
+      "end_frame_exclusive": 1095,
+      "speaker": "小满",
+      "text": "早餐！",
+      "performance": "短提醒",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C06",
+      "start_seconds": 37.0,
+      "end_seconds": 37.7,
+      "start_frame": 1110,
+      "end_frame_exclusive": 1131,
+      "speaker": "林桃",
+      "text": "谢啦！",
+      "performance": "接住纸袋后回应",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C07",
+      "start_seconds": 72.1,
+      "end_seconds": 72.9,
+      "start_frame": 2163,
+      "end_frame_exclusive": 2187,
+      "speaker": "许星",
+      "text": "这里！",
+      "performance": "熟络招呼",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C08",
+      "start_seconds": 73.1,
+      "end_seconds": 73.9,
+      "start_frame": 2193,
+      "end_frame_exclusive": 2217,
+      "speaker": "林桃",
+      "text": "来啦。",
+      "performance": "笑着回应",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C09",
+      "start_seconds": 78.7,
+      "end_seconds": 81.3,
+      "start_frame": 2361,
+      "end_frame_exclusive": 2439,
+      "speaker": "顾岩",
+      "text": "早上好，我是顾岩。",
+      "performance": "中低男声，稳而亲切",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C10",
+      "start_seconds": 82.1,
+      "end_seconds": 85.6,
+      "start_frame": 2463,
+      "end_frame_exclusive": 2568,
+      "speaker": "顾岩",
+      "text": "外骨骼限力，热能装备上锁。",
+      "performance": "简洁讲规则，不训斥",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C11",
+      "start_seconds": 86.1,
+      "end_seconds": 89.7,
+      "start_frame": 2583,
+      "end_frame_exclusive": 2691,
+      "speaker": "顾岩",
+      "text": "每项改造，都要留一条手动断路。",
+      "performance": "沉稳说明具体工程规则；开沙盘接历史，不训诫或煽情",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C12",
+      "start_seconds": 90.1,
+      "end_seconds": 94.2,
+      "start_frame": 2703,
+      "end_frame_exclusive": 2826,
+      "speaker": "顾岩",
+      "text": "两千六百年前，坠星遗址开启。",
+      "performance": "平稳讲述，读清年代",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C13",
+      "start_seconds": 94.8,
+      "end_seconds": 99.2,
+      "start_frame": 2844,
+      "end_frame_exclusive": 2976,
+      "speaker": "顾岩",
+      "text": "人类复原动力核心，造出第一座浮空城。",
+      "performance": "画外讲解跨研究台和浮空城镜头",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C14",
+      "start_seconds": 99.5,
+      "end_seconds": 104.2,
+      "start_frame": 2985,
+      "end_frame_exclusive": 3126,
+      "speaker": "顾岩",
+      "text": "城市交给中枢，机器也接入同一条指令链。",
+      "performance": "保持语速，不突然激昂",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C15",
+      "start_seconds": 104.5,
+      "end_seconds": 108.5,
+      "start_frame": 3135,
+      "end_frame_exclusive": 3255,
+      "speaker": "顾岩",
+      "text": "一百八十年前，中枢失控，机器人暴乱。",
+      "performance": "位于segment04的同一连续音轨；暴乱二字稍沉",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C16",
+      "start_seconds": 108.8,
+      "end_seconds": 113.0,
+      "start_frame": 3264,
+      "end_frame_exclusive": 3390,
+      "speaker": "顾岩",
+      "text": "幸存者拆开总控，分区重建，才有今天。",
+      "performance": "讲具体历史结果，不加价值口号",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C17",
+      "start_seconds": 113.3,
+      "end_seconds": 115.5,
+      "start_frame": 3399,
+      "end_frame_exclusive": 3465,
+      "speaker": "顾岩",
+      "text": "第一课，双人接管旧机。",
+      "performance": "分配具体双人任务，语气平稳",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C18",
+      "start_seconds": 115.7,
+      "end_seconds": 117.2,
+      "start_frame": 3471,
+      "end_frame_exclusive": 3516,
+      "speaker": "林桃",
+      "text": "许星，帮我盯限流。",
+      "performance": "和熟悉的伙伴迅速分工，边起身走向操作台边说",
+      "status": "estimated_no_audio"
+    },
+    {
+      "cue_id": "C19",
+      "start_seconds": 117.4,
+      "end_seconds": 118.5,
+      "start_frame": 3522,
+      "end_frame_exclusive": 3555,
+      "speaker": "许星",
+      "text": "我盯着，你接。",
+      "performance": "看监测终端回应，作为许星画外音跨接女主走向操作台",
+      "status": "estimated_no_audio"
+    }
+  ],
+  "revision_scope": "4x30s director prompts; original story and exact dialogue unchanged",
+  "script_sha256": "be2187c78fa879e985e7c9dd43cb266e141c6532229aa6a9bc54f4228d2efef1",
+  "reference_images_total": 40,
+  "reference_style": "A",
+  "title": "星穹学院",
+  "school_name": "星穹学院",
+  "audience": "成年观众为主的科幻群像冒险",
+  "themes": [
+    "友情",
+    "热血",
+    "冒险",
+    "创新",
+    "架空世界"
+  ],
+  "creative_direction": "../../docs/creative-direction.md",
+  "dialogue_timing": "estimated_not_tts_measured"
+}

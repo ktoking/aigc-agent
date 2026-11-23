@@ -1,0 +1,199 @@
+{
+  "version": "A-40refs-v1",
+  "segment": "segment_04_90-120s",
+  "status": "complete",
+  "duration_seconds": 30,
+  "requested_images": 10,
+  "available_images": 10,
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "asset_key": "q32",
+      "purpose": "90秒沙盘环门开启首帧",
+      "shot_ids": [
+        "SH28"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q32.png",
+      "origin": "generated_for_shot",
+      "sha256": "50e3ff8e4aaa5627bf5cf3df42539869b38de3972bb199cecba0678090c1c57e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2366132
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "asset_key": "q33",
+      "purpose": "120秒前女主按电源/旧机睁眼",
+      "shot_ids": [
+        "SH35"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q33.png",
+      "origin": "generated_for_shot",
+      "sha256": "ab406551f25d7775f49fa2396f3196f39e85f1ed8e39ea4e8013698eb76f482a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2070693
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-out.png",
+      "asset_key": "out",
+      "purpose": "现实女主身份，不进入历史模型",
+      "shot_ids": [
+        "SH33",
+        "SH34",
+        "SH35"
+      ],
+      "status": "available",
+      "generated": true,
+      "origin": "reused_character_reference",
+      "source": "assets/characters/lin-tao/reference-out-v1.png",
+      "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1755811
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-gu-yan.png",
+      "asset_key": "q08",
+      "purpose": "现实教师身份与讲解手势",
+      "shot_ids": [
+        "SH28",
+        "SH29",
+        "SH30",
+        "SH31",
+        "SH32",
+        "SH33",
+        "SH34",
+        "SH35"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q08.png",
+      "origin": "generated_for_shot",
+      "sha256": "18ea721f98552c7f53be539ceb54a23a8ace1b67495968e05db0b1c2e8d95eb1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1765117
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-old-unit.png",
+      "asset_key": "q09",
+      "purpose": "旧教学机结构/肩环/窄眼灯带",
+      "shot_ids": [
+        "SH34",
+        "SH35"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q09.png",
+      "origin": "generated_for_shot",
+      "sha256": "cc27d3c4e5f989f438ec62c129eaa1b85e83b60620863a5bf4c31e84fb7bb270",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1653771
+    },
+    {
+      "input_index": 6,
+      "path": "frames/ref-ancient-gate-core.png",
+      "asset_key": "q13",
+      "purpose": "远古环门/动力核心/探索尺度",
+      "shot_ids": [
+        "SH28"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q13.png",
+      "origin": "generated_for_shot",
+      "sha256": "5b13764d14a622f582ad8b0172b09a272c8deea809f0d6985e7f35124158e383",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2444593
+    },
+    {
+      "input_index": 7,
+      "path": "frames/ref-core-research.png",
+      "asset_key": "q14",
+      "purpose": "测量环片/复原核心研究过程",
+      "shot_ids": [
+        "SH29"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q14.png",
+      "origin": "generated_for_shot",
+      "sha256": "606e252df3cea3f2101c1586fcf8ed5ca4e7b5d49602b164ccf79d9fbad0700b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2241562
+    },
+    {
+      "input_index": 8,
+      "path": "frames/ref-floating-city-control.png",
+      "asset_key": "q15",
+      "purpose": "浮空城区/统一中枢金色指令链",
+      "shot_ids": [
+        "SH30",
+        "SH31"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q15.png",
+      "origin": "generated_for_shot",
+      "sha256": "ac43130d243799a71a978d39dee671f02ea02970d468ad1d6353f22e8c931828",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2470903
+    },
+    {
+      "input_index": 9,
+      "path": "frames/ref-robot-riot.png",
+      "asset_key": "q16",
+      "purpose": "机器人暴乱的历史全息档案",
+      "shot_ids": [
+        "SH31",
+        "SH32"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q16.png",
+      "origin": "generated_for_shot",
+      "sha256": "8455632573df68d46d4611c3fdb2a96911a14c178f76ea52550f5dbeac5db630",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2462170
+    },
+    {
+      "input_index": 10,
+      "path": "frames/ref-district-rebuild.png",
+      "asset_key": "q17",
+      "purpose": "分区青网/人工节点/修复重建",
+      "shot_ids": [
+        "SH33"
+      ],
+      "status": "available",
+      "generated": true,
+      "source": "assets/production-A-40refs-v1/generated/q17.png",
+      "origin": "generated_for_shot",
+      "sha256": "70b12ec7bc411cf2d55dfcde10193108f67b0703240d55f949074f328a366f97",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2477341
+    }
+  ],
+  "visual_review": "已逐图看工具输出并修正已发现的问题；职责与镜头覆盖见reference-order.md；尚无视频验收",
+  "style": "A",
+  "video_status": "NOT_SUBMITTED",
+  "png_integrity": "PASS: signature/chunk CRC/IDAT decompression",
+  "story_title": "星穹学院",
+  "narrative_version": "2026-10-29-v4",
+  "visual_adaptation_note": "原PNG保留，参考身份/布局/状态；按新稿制作自然成年表演、双人接管与许星监测，尚无新动作视频"
+}

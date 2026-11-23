@@ -1,0 +1,390 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "multiple_root_compositions",
+        "severity": "error",
+        "message": "Multiple root-level HTML files with data-composition-id: index.html, intro-render.html. The runtime may discover both as entry points, causing duplicate audio playback.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "A project should have exactly one root index.html with data-composition-id. Remove or rename extra files."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 60 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 3
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 122.9,
+    "samples": [
+      0.6,
+      6,
+      22,
+      38,
+      54,
+      70,
+      86,
+      101,
+      113,
+      122.867
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.6,
+      22,
+      54,
+      86,
+      122.867
+    ],
+    "checked": 3,
+    "passed": 3
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Create By\" (2 words) is on screen 1.90 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Create By",
+        "selector": "p.brand-by",
+        "dataAttributes": {},
+        "sourceFile": "compositions/intro.html",
+        "bbox": {
+          "x": 1727.25,
+          "y": 794.18,
+          "width": 385.4499999999998,
+          "height": 123
+        },
+        "time": 0.077,
+        "words": 2,
+        "seconds": 1.898,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 0,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 0.205,
+            "opacity": 0.96,
+            "heightPx": 123
+          },
+          {
+            "time": 0.41,
+            "opacity": 1,
+            "heightPx": 123
+          },
+          {
+            "time": 0.616,
+            "opacity": 1,
+            "heightPx": 123
+          },
+          {
+            "time": 0.821,
+            "opacity": 1,
+            "heightPx": 123
+          },
+          {
+            "time": 1.231,
+            "opacity": 1,
+            "heightPx": 123
+          },
+          {
+            "time": 1.436,
+            "opacity": 1,
+            "heightPx": 123
+          },
+          {
+            "time": 1.641,
+            "opacity": 1,
+            "heightPx": 123
+          },
+          {
+            "time": 1.847,
+            "opacity": 0.89,
+            "heightPx": 123
+          },
+          {
+            "time": 2.052,
+            "opacity": 0.22,
+            "heightPx": 123
+          },
+          {
+            "time": 2.257,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.462,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"西瓜终结者AIGC\" (4 words) is on screen 1.90 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "西瓜终结者AIGC",
+        "selector": "p.brand-name",
+        "dataAttributes": {},
+        "sourceFile": "compositions/intro.html",
+        "bbox": {
+          "x": 1361.02,
+          "y": 967.57,
+          "width": 1117.92,
+          "height": 186.0000000000001
+        },
+        "time": 0.077,
+        "words": 4,
+        "seconds": 1.898,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 0,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 0.205,
+            "opacity": 0.96,
+            "heightPx": 186
+          },
+          {
+            "time": 0.41,
+            "opacity": 1,
+            "heightPx": 186
+          },
+          {
+            "time": 0.616,
+            "opacity": 1,
+            "heightPx": 186
+          },
+          {
+            "time": 0.821,
+            "opacity": 1,
+            "heightPx": 186
+          },
+          {
+            "time": 1.231,
+            "opacity": 1,
+            "heightPx": 186
+          },
+          {
+            "time": 1.436,
+            "opacity": 1,
+            "heightPx": 186
+          },
+          {
+            "time": 1.641,
+            "opacity": 1,
+            "heightPx": 186
+          },
+          {
+            "time": 1.847,
+            "opacity": 0.89,
+            "heightPx": 186
+          },
+          {
+            "time": 2.052,
+            "opacity": 0.22,
+            "heightPx": 186
+          },
+          {
+            "time": 2.257,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.462,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"AI-GENERATED CINEMA\" (3 words) is on screen 1.90 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "AI-GENERATED CINEMA",
+        "selector": "p.brand-caption",
+        "dataAttributes": {},
+        "sourceFile": "compositions/intro.html",
+        "bbox": {
+          "x": 1481.81,
+          "y": 1285.71,
+          "width": 876.3800000000001,
+          "height": 72
+        },
+        "time": 0.077,
+        "words": 3,
+        "seconds": 1.898,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 0,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 0.205,
+            "opacity": 0.96,
+            "heightPx": 72
+          },
+          {
+            "time": 0.41,
+            "opacity": 1,
+            "heightPx": 72
+          },
+          {
+            "time": 0.616,
+            "opacity": 1,
+            "heightPx": 72
+          },
+          {
+            "time": 0.821,
+            "opacity": 1,
+            "heightPx": 72
+          },
+          {
+            "time": 1.231,
+            "opacity": 1,
+            "heightPx": 72
+          },
+          {
+            "time": 1.436,
+            "opacity": 1,
+            "heightPx": 72
+          },
+          {
+            "time": 1.641,
+            "opacity": 1,
+            "heightPx": 72
+          },
+          {
+            "time": 1.847,
+            "opacity": 0.89,
+            "heightPx": 72
+          },
+          {
+            "time": 2.052,
+            "opacity": 0.22,
+            "heightPx": 72
+          },
+          {
+            "time": 2.257,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.462,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.2049999999999983,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

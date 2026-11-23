@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "episode": "EP002_just_a_frown",
+  "script_version": "v1",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "EP002-keyframes-v1",
+  "generated_images": [
+    {
+      "id": "C07",
+      "path": "assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+    },
+    {
+      "id": "C06A",
+      "path": "assets/characters/C06A/C06A-driver-turnaround-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+    },
+    {
+      "id": "01-A",
+      "path": "episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251"
+    },
+    {
+      "id": "01-B",
+      "path": "episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+    },
+    {
+      "id": "02-A",
+      "path": "episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-a-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4c8e48009863e2af07c9d729998889c7f123d7521f361b136544e75404175886"
+    },
+    {
+      "id": "02-B",
+      "path": "episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-b-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9"
+    },
+    {
+      "id": "02-C",
+      "path": "episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+    },
+    {
+      "id": "03-A",
+      "path": "episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-a-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+    },
+    {
+      "id": "03-B",
+      "path": "episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491"
+    },
+    {
+      "id": "03-C",
+      "path": "episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-c-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+    },
+    {
+      "id": "04-A",
+      "path": "episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-a-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319"
+    },
+    {
+      "id": "04-B",
+      "path": "episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531"
+    },
+    {
+      "id": "04-C",
+      "path": "episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-c-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf824c7f89e903f9132c96beced321e7ccd295747371a7e81f1e2a42c8576b67"
+    }
+  ],
+  "story_keyframes": 11,
+  "new_character_images": 2,
+  "selected_unique_images": 18,
+  "per_segment": [
+    {
+      "segment": "segment_01_00-15s",
+      "shots": 5,
+      "voice_spans": 6,
+      "actual_character_references": 5,
+      "character_ids": [
+        "C01",
+        "C03",
+        "C04",
+        "C05",
+        "C06A"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 2,
+      "generated_story_keyframes": 2,
+      "frames_files": 7,
+      "reference_status": "IMAGES_READY"
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "shots": 5,
+      "voice_spans": 5,
+      "actual_character_references": 6,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C05",
+        "C06A",
+        "C07"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 3,
+      "generated_story_keyframes": 3,
+      "frames_files": 9,
+      "reference_status": "IMAGES_READY"
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "shots": 5,
+      "voice_spans": 4,
+      "actual_character_references": 3,
+      "character_ids": [
+        "C01",
+        "C03",
+        "C07"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 3,
+      "generated_story_keyframes": 3,
+      "frames_files": 6,
+      "reference_status": "IMAGES_READY"
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "shots": 5,
+      "voice_spans": 5,
+      "actual_character_references": 3,
+      "character_ids": [
+        "C01",
+        "C03",
+        "C07"
+      ],
+      "missing_character_references": [],
+      "planned_story_keyframes": 3,
+      "generated_story_keyframes": 3,
+      "frames_files": 6,
+      "reference_status": "IMAGES_READY"
+    }
+  ],
+  "checks_passed": 420,
+  "checks": [
+    "PNG签名、逐块CRC、解压后像素长度与扫描行过滤值",
+    "生成记录与输入清单SHA256一致",
+    "frames文件集合与清单完全一致",
+    "人物清单与实际出镜名单一致",
+    "每段2–3张关键帧",
+    "20镜头覆盖60秒，声音窗口无重叠",
+    "正文、对白、导演提示词、故事板台词一致",
+    "prompt.md与director-promt.txt正文一致",
+    "图库全部图片、文件链接和页内锚点有效"
+  ],
+  "visual_review": "13张新图逐张目视PASS，详细记录见production/EP002-images-v1/image-jobs.json",
+  "audio_generated": false,
+  "video_generated": false
+}

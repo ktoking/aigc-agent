@@ -1,0 +1,43 @@
+{
+  "version": "v2_30s_detailed",
+  "segment": "segment_03_60-90s",
+  "status": "planned_missing",
+  "duration_seconds": 30,
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "purpose": "仅锁本段0秒起始构图、人物位置与道具初始状态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "purpose": "仅锁本段30秒收束状态、空间与下段接点，不能用首尾直接变形省掉中间事件",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-classroom-cast.png",
+      "purpose": "组合角色卡分别锁林桃、许星、顾岩和旧教学机，卡内版式不进入成片；各角色仅在对应镜头出现",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-class-tech.png",
+      "purpose": "锁热能手套、冷凝笔、滑板与斗篷的形态和各自持有者，不能互换设备",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-classroom-layout.png",
+      "purpose": "锁门、中央过道、第二排座位、讲台、教学罩与电源台位置；若有标注，只作空间理解",
+      "status": "missing",
+      "generated": false
+    }
+  ]
+}

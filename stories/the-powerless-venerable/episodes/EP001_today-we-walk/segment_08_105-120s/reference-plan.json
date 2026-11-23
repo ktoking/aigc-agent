@@ -1,0 +1,146 @@
+{
+  "status": "IMAGES_READY",
+  "script_version": "v3",
+  "dialogue_revision": "r2-20261117",
+  "visual_version": "new-cast-v1-segment08-burst-v2",
+  "references": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "08-A-v2",
+      "path": "frames/keyframe-08-a-v2.png",
+      "anchor_seconds": 5.3,
+      "title": "白璃爆气显元神，众人退避",
+      "sha256": "e3f36ba6dbf5a73bcd7ebe4f37c42829fbd900f818b67ec0cf71a0eaf5b35cdb"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "08-B-v2",
+      "path": "frames/keyframe-08-b-v2.png",
+      "anchor_seconds": 14.2,
+      "title": "法相随本体起掌，众人全退",
+      "sha256": "c80c7338795309b3a881a2bd5fada31d5656482c03deacd47683da72b0bcb493"
+    },
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "role": "沈照月",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C03",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "role": "白璃",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 8,
+      "kind": "character",
+      "character_id": "C06",
+      "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "role": "外门车夫与搬货弟子",
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+    }
+  ],
+  "characters": [
+    {
+      "index": 3,
+      "kind": "character",
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "role": "谢无咎",
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+    },
+    {
+      "index": 4,
+      "kind": "character",
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "role": "沈照月",
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+    },
+    {
+      "index": 5,
+      "kind": "character",
+      "character_id": "C03",
+      "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+      "role": "白璃",
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+    },
+    {
+      "index": 6,
+      "kind": "character",
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+      "role": "玄衡",
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+    },
+    {
+      "index": 7,
+      "kind": "character",
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+      "role": "陆青",
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+    },
+    {
+      "index": 8,
+      "kind": "character",
+      "character_id": "C06",
+      "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "role": "外门车夫与搬货弟子",
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+    }
+  ],
+  "story_keyframes": [
+    {
+      "index": 1,
+      "kind": "story_keyframe",
+      "id": "08-A-v2",
+      "path": "frames/keyframe-08-a-v2.png",
+      "anchor_seconds": 5.3,
+      "title": "白璃爆气显元神，众人退避",
+      "sha256": "e3f36ba6dbf5a73bcd7ebe4f37c42829fbd900f818b67ec0cf71a0eaf5b35cdb"
+    },
+    {
+      "index": 2,
+      "kind": "story_keyframe",
+      "id": "08-B-v2",
+      "path": "frames/keyframe-08-b-v2.png",
+      "anchor_seconds": 14.2,
+      "title": "法相随本体起掌，众人全退",
+      "sha256": "c80c7338795309b3a881a2bd5fada31d5656482c03deacd47683da72b0bcb493"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": true
+}
