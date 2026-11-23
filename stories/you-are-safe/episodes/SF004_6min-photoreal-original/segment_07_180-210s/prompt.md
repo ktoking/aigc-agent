@@ -1,0 +1,47 @@
+# 图片生成与本地合成导演单
+
+镜049，180—183秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第7段，第1镜，刀先碎。
+画面：明亮干燥机场，陈默成人独自抬起手遮挡的反应近景，左臂白兔，地上只有几片无锋刃普通灰色金属碎片。没有武器、攻击者、儿童、伤害或血，只表达惊讶的事后反应。
+视角：物件特写，参考七十五毫米近摄视角，机位与关键表面保持轻微斜角以保留厚度。
+
+
+镜050，183—187秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第7段，第2镜，人也被擦掉。
+画面：机场干燥浅色瓷砖静物中景，一件普通灰色外套与灰裤自然空瘪地塌在地上，一双黑色鞋放在旁边。完全空的衣服，无人体、无消散身体、无伤害、无血、无武器。陈默穿深蓝夹克白鞋站在远处，衣服颜色明确不同。
+视角：双人中景，参考四十毫米正常透视，机位约在成年人物胸口至眼睛之间。
+
+
+镜051，187—191秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第7段，第3镜，谁在鼓掌。
+画面：机场干燥地面特写，空灰外套与空黑鞋，背景成年旅客下半身后退，所有人完整正常，陈默深蓝袖口白兔可在边缘。普通遗落衣物静物，不显示人身消失或伤害。
+视角：低机位近景到中景，参考二十八毫米广角透视，机位贴近地面但不穿透物体。
+
+
+镜052，191—195秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第7段，第4镜，把问题问清。
+画面：陈默退到灰柱后，白兔夹在左臂，右手把手机贴近脸，嘴唇发白，仍努力压低声音。
+视角：人物头肩近景，参考六十五毫米肖像透视，摄影机与角色眼睛基本等高。
+
+
+镜053，195—199秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. Only Chen Mo29 in same dry bright AIRPORT arrival hall after an unsettling event, left arm holds WHITE CLOTH RABBIT with small blue patch on its left ear, right hand grips MOBILE PHONE near face, looking angrily toward empty GRAY COAT and BLACK SHOES on airport floor far behind. No people nearby, NO doctor, no mother, no home, no hospital. Tight over-shoulder portrait, clean ordinary daylight.
+
+镜054，199—203秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. Only Chen Mo29 stands beside a GRAY PILLAR inside clean dry AIRPORT arrival hall, mobile phone at ear, WHITE CLOTH RABBIT in left arm. Silent tense listening expression, tight portrait with empty airport seats blurred behind. No doctor, no family, no kitchen, no apartment, no medicine, no other people.
+
+镜055，203—207秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. Only Chen Mo29 in bright dry AIRPORT arrival hall, looking down with frustration, right hand lowered after a restrained question, MOBILE PHONE at right ear, white cloth rabbit in left arm. Airport windows and a gray column behind. Tight medium portrait. No mother, no doctor, no home, no other people.
+
+镜056，207—210秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. AIRPORT location, over Chen Mo's navy-clad shoulder: his RIGHT HAND holds a SMARTPHONE with blank white interface and one TEAL line, WHITE CLOTH RABBIT's left ear with small blue patch at frame edge. Background is softly blurred gray airport seats and clean dry light tiles. No medicine box, no home table, no kitchen, no family, no other people.
+
+视频合成：8张单镜图固定构图，不使用zoompan。30fps，按原版3/4秒镜头时间，镜间叠化0.1秒占后镜时段。无音轨，无烧录字幕；文字由独立SRT展示。

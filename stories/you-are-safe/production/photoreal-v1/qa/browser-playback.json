@@ -1,0 +1,21 @@
+{
+  "rate": 1,
+  "played_ranges": [
+    [
+      0,
+      112.8
+    ]
+  ],
+  "currentTime": 112.8,
+  "duration": 112.8,
+  "ended": true,
+  "source": "CUA IAB DOM video properties observed after normal playback",
+  "first_attempt": "First tab was closed; complete playback proof is from second retained tab",
+  "sampled_visual_checks": [
+    "opening subtitle and frame",
+    "report scene at94.2s",
+    "encoded20-scene overview"
+  ],
+  "audio_review": "not_applicable_user_requested_no_audio",
+  "real_voice_alignment": "NOT_RUN"
+}

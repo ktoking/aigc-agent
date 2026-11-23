@@ -1,0 +1,14 @@
+{
+  "id": "OFFICE",
+  "path": "episodes/EP001_no-more-chasing/segment_02_30-60s/frames/ref-office.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-be24018d-e67b-4d05-814f-e043c2bd5f03.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Image1 STYLE QUALITY reference only; DO NOT include man. Single empty executive office environment master, landscape16:9, restrained modern wealthy Chinese corporate office. A large walnut desk on RIGHT half, dark executive chair behind desk on right, tall daylight window behind chair and desk, matte graphite-gray wall. One closed wooden entrance door on LEFT wall clearly visible and a clear walking route from door to the visitor side of desk. One simple visitor chair front-left of desk, dry matte wood floor, no wet reflective marble, no clutter, only black pen on desk. Camera from visitor side, clear coherent spatial axis; door must stay LEFT and executive chair RIGHT. Soft warm afternoon sunlight with subtle golden edge light. No people no text no logos.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "assets/scenes/OFFICE/reference-v1.png",
+  "repackaged_from": "assets/scenes/OFFICE/reference-v1.png",
+  "pack_version": "segments-30s-v1"
+}

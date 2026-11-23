@@ -1,0 +1,21 @@
+{
+  "version": "segments-30s-v1",
+  "status": "PASS",
+  "segments": 4,
+  "duration_each": 30,
+  "total_duration": 120,
+  "images_each": [
+    10,
+    10,
+    10,
+    10
+  ],
+  "references_order": "1—10, aligned with prompts",
+  "distinct_hashes_within_each_segment": true,
+  "source_paths_valid": true,
+  "script_and_dialogue_unchanged": true,
+  "all_24_shots_preserved": true,
+  "old_15s_segments_archived": 8,
+  "new_image_generations": 0,
+  "video_api_submitted": false
+}

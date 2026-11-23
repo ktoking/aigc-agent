@@ -1,0 +1,217 @@
+{
+  "status": "PASS_technical_checks",
+  "video": "output/photoreal-v1/you-are-safe-photoreal-v1.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 3384,
+  "seconds": 112.8,
+  "audio_streams": 0,
+  "embedded_subtitle_streams": 0,
+  "caption_cues": 40,
+  "reading_units": 786,
+  "reading_rate_estimate": 7.5,
+  "authored_pause_seconds": 8.0,
+  "gaps": [
+    {
+      "start": 51.2,
+      "end": 51.9,
+      "seconds": 0.7
+    },
+    {
+      "start": 64.167,
+      "end": 64.667,
+      "seconds": 0.5
+    },
+    {
+      "start": 70.667,
+      "end": 71.06700000000001,
+      "seconds": 0.4
+    },
+    {
+      "start": 75.733,
+      "end": 76.533,
+      "seconds": 0.8
+    },
+    {
+      "start": 80.8,
+      "end": 82.9,
+      "seconds": 2.1
+    },
+    {
+      "start": 93.56700000000001,
+      "end": 94.06700000000001,
+      "seconds": 0.5
+    },
+    {
+      "start": 100.2,
+      "end": 100.8,
+      "seconds": 0.6
+    },
+    {
+      "start": 105.86699999999999,
+      "end": 106.467,
+      "seconds": 0.6
+    },
+    {
+      "start": 111.0,
+      "end": 112.8,
+      "seconds": 1.8
+    }
+  ],
+  "full_decode": "PASS",
+  "subtitle_text_and_frame_timing": "PASS",
+  "first_person_voice_policy": "single narrator text; no audio generated",
+  "timing_basis": "text_estimate_not_audio_aligned",
+  "native_source_dimensions": [
+    [
+      1672,
+      941
+    ]
+  ],
+  "upscaled_delivery": true,
+  "assets": [
+    {
+      "id": "01-truck",
+      "path": "production/photoreal-v1/assets/01-truck.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f155936f0033a0a6b383e4ac830f06a3f54ef47c00fbf788c6ff30c16bd946e1"
+    },
+    {
+      "id": "02-contract",
+      "path": "production/photoreal-v1/assets/02-contract.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "36c87ca75852900a0aced0c605a59f6b57d1d0a9a6b257cdd452855528fbc01c"
+    },
+    {
+      "id": "03-medicine",
+      "path": "production/photoreal-v1/assets/03-medicine.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d88486cb13351d89ff8aeac6223e8668592434972102bddf606a40f73aea7b25"
+    },
+    {
+      "id": "04-duoduo",
+      "path": "production/photoreal-v1/assets/04-duoduo.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c7beeaa82d29f436c9cae560042b5cbeb5ee8eae9ef6838633611949cbe09fe"
+    },
+    {
+      "id": "05-donation",
+      "path": "production/photoreal-v1/assets/05-donation.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e5f0e1e619b285145d4bd174503640e7a8c8de71e91bf1f1b5b37e444dcf0f51"
+    },
+    {
+      "id": "06-free-medicine",
+      "path": "production/photoreal-v1/assets/06-free-medicine.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "de4c498792ba63a99ca8749c23ff699d54cdef89333b858ca09f2d15aa5528d0"
+    },
+    {
+      "id": "07-checkpoint",
+      "path": "production/photoreal-v1/assets/07-checkpoint.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c53d884f55c6d399b21a3067934cb7505a91f50a3efaa36a8681f13970396523"
+    },
+    {
+      "id": "08-welcome",
+      "path": "production/photoreal-v1/assets/08-welcome.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "703dd18f27aa9baf9d3def7c7ad064c6240c7abf68695368dd4fb2b6aa9430e3"
+    },
+    {
+      "id": "09-attack",
+      "path": "production/photoreal-v1/assets/09-attack.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f8df93a680764d58c7daff7c1da9b6f2ecc4e2acdfffd9cd56cfedab037e7a42"
+    },
+    {
+      "id": "10-removal",
+      "path": "production/photoreal-v1/assets/10-removal.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4296d02bf3e0c4d40562d3e5587bc34aa98597ca0a898e8d7922d2c105d05cef"
+    },
+    {
+      "id": "11-cost",
+      "path": "production/photoreal-v1/assets/11-cost.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c35989f37a0d412351e574e3bfca56d97874ab138fe012fb97d14b56231aa2e9"
+    },
+    {
+      "id": "12-no-food",
+      "path": "production/photoreal-v1/assets/12-no-food.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7f483d83eb457c08229a6f5c43371a37c9b41586e24ed60e8b87295365042f99"
+    },
+    {
+      "id": "13-live",
+      "path": "production/photoreal-v1/assets/13-live.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1641227c264efe68c2ee8bfdca85273eaadfe2da635a8fb181056163f5d1b273"
+    },
+    {
+      "id": "14-hug",
+      "path": "production/photoreal-v1/assets/14-hug.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "630c267504f604030e0eda7182c27bdd7bdfaecd83b69a7356fca7bf1cc61db5"
+    },
+    {
+      "id": "15-mother-gone",
+      "path": "production/photoreal-v1/assets/15-mother-gone.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0810d4187a0846cc462efd2804cabce7104fd9cd8d523fca878b5a1107d9d902"
+    },
+    {
+      "id": "16-call",
+      "path": "production/photoreal-v1/assets/16-call.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c4d9f8e7f17f94db3045ab292394381d432c9ce3916f6a80271478f29b8188a4"
+    },
+    {
+      "id": "17-empty-train",
+      "path": "production/photoreal-v1/assets/17-empty-train.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9c4af527c0e6b738c8da194382e6af4c593c5564d181719b5998690f7ed80a9c"
+    },
+    {
+      "id": "18-zero",
+      "path": "production/photoreal-v1/assets/18-zero.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c60ca1a1b57541047b15de30056346fa68b636cb5c4ebd3fb40da260d45ce5a4"
+    },
+    {
+      "id": "19-empty-chair",
+      "path": "production/photoreal-v1/assets/19-empty-chair.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "44cbfb6805280a5a53c9966123bec80d194b0a1dea95ff683cc2a82a25aa1af8"
+    },
+    {
+      "id": "20-safe",
+      "path": "production/photoreal-v1/assets/20-safe.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2d6acd209f7670da4871d0c53a74ce84efcc2c47749e9dad612e26ef356a78b9"
+    }
+  ],
+  "visual_review": "record separately; structural checks do not prove identity or motion quality",
+  "video_sha256": "ec902aaf6cd833e9fcd4b6ba54f747182661dd49ee88215e6fe4c45ad30a0094"
+}

@@ -1,0 +1,50 @@
+{
+  "currentTime": 360,
+  "duration": 360,
+  "ended": true,
+  "height": 1080,
+  "paused": true,
+  "played": [
+    [
+      0,
+      360
+    ]
+  ],
+  "rate": 1,
+  "width": 1920,
+  "url": "http://127.0.0.1:8964/output/photoreal-6min-v1/index.html",
+  "observations": [
+    {
+      "currentTime": 117.468417,
+      "rate": 1,
+      "played": [
+        [
+          0,
+          117.468417
+        ]
+      ]
+    },
+    {
+      "currentTime": 286.865847,
+      "rate": 1,
+      "played": [
+        [
+          0,
+          286.865847
+        ]
+      ]
+    },
+    {
+      "currentTime": 360,
+      "rate": 1,
+      "played": [
+        [
+          0,
+          360
+        ]
+      ],
+      "ended": true
+    }
+  ],
+  "status": "PASS_normal_speed_full_playback"
+}

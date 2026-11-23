@@ -1,0 +1,39 @@
+{
+  "status": "PASS_source_mapping_and_timing",
+  "source_sha256": "13b3e51bed8ef62c31e4750bd8f050c43999bc3c3642814a27234d6e2aceac8b",
+  "source_unchanged": true,
+  "source_segments": 12,
+  "source_shots": 96,
+  "film_images": 96,
+  "unique_image_hashes": 96,
+  "seconds": 360,
+  "frame_boundaries": "all source shot 3/4-second boundaries preserved",
+  "subtitle_cues": 95,
+  "reading_units": 2384,
+  "units_per_second": 7.5,
+  "reading_seconds": 317.8666666666667,
+  "blank_seconds": 42.13333333333333,
+  "silent_caption_shot": "080 - 3 seconds",
+  "scope_overrides": [
+    "真人横屏正常干燥自然光",
+    "第一人称转述及独立字幕",
+    "固定图片视频，不宣称连续动作生成",
+    "局部站位及道具连续性勘误",
+    "部分冲突改为结果静物或成人反应，剧情由字幕完整承接"
+  ],
+  "restored_events": [
+    "洪水造船",
+    "矿井救援",
+    "战区让粮车通行",
+    "停战与维修工清除",
+    "主动隔离与控制室空椅",
+    "拒食失败",
+    "朵朵来电及全球风险",
+    "全球直播",
+    "母亲消失",
+    "归零与孩子风险解释",
+    "砸手机与公交扬声器",
+    "海水退让",
+    "座机请求与空椅结尾"
+  ]
+}

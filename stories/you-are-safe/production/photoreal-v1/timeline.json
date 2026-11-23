@@ -1,0 +1,604 @@
+{
+  "version": "photoreal-v1",
+  "style": "R2 cinematic cool-warm photoreal",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": false,
+  "subtitles_burned": false,
+  "pov": "first_person_narration_not_literal_camera_only",
+  "reading_rate": 7.5,
+  "timing_basis": "text_estimate_not_audio_aligned",
+  "timing_unit": "non-punctuation Han characters; script has no digits or English needing pronunciation expansion",
+  "transition_frames": 4,
+  "camera": "locked_static_no_zoompan",
+  "pause_policy": "only explicitly authored emotional pauses; other cues contiguous",
+  "reading_units": 786,
+  "frames": 3384,
+  "duration_seconds": 112.8,
+  "shots": [
+    {
+      "id": "01-truck",
+      "title": "重卡先散架",
+      "start_frame": 0,
+      "reading_end_frame": 120,
+      "end_frame_exclusive": 120,
+      "pause_frames": 0,
+      "cues": [
+        1,
+        2
+      ],
+      "asset": "assets/01-truck.png"
+    },
+    {
+      "id": "02-contract",
+      "title": "一元永久保命险",
+      "start_frame": 120,
+      "reading_end_frame": 272,
+      "end_frame_exclusive": 272,
+      "pause_frames": 0,
+      "cues": [
+        3,
+        4
+      ],
+      "asset": "assets/02-contract.png"
+    },
+    {
+      "id": "03-medicine",
+      "title": "新药救下了我",
+      "start_frame": 272,
+      "reading_end_frame": 432,
+      "end_frame_exclusive": 432,
+      "pause_frames": 0,
+      "cues": [
+        5,
+        6
+      ],
+      "asset": "assets/03-medicine.png"
+    },
+    {
+      "id": "04-duoduo",
+      "title": "她也需要救命药",
+      "start_frame": 432,
+      "reading_end_frame": 592,
+      "end_frame_exclusive": 592,
+      "pause_frames": 0,
+      "cues": [
+        7,
+        8
+      ],
+      "asset": "assets/04-duoduo.png"
+    },
+    {
+      "id": "05-donation",
+      "title": "送一盒捐一盒",
+      "start_frame": 592,
+      "reading_end_frame": 760,
+      "end_frame_exclusive": 760,
+      "pause_frames": 0,
+      "cues": [
+        9,
+        10
+      ],
+      "asset": "assets/05-donation.png"
+    },
+    {
+      "id": "06-free-medicine",
+      "title": "所有人都能领药",
+      "start_frame": 760,
+      "reading_end_frame": 932,
+      "end_frame_exclusive": 932,
+      "pause_frames": 0,
+      "cues": [
+        11,
+        12
+      ],
+      "asset": "assets/06-free-medicine.png"
+    },
+    {
+      "id": "07-checkpoint",
+      "title": "粮车通过了路障",
+      "start_frame": 932,
+      "reading_end_frame": 1096,
+      "end_frame_exclusive": 1096,
+      "pause_frames": 0,
+      "cues": [
+        13,
+        14
+      ],
+      "asset": "assets/07-checkpoint.png"
+    },
+    {
+      "id": "08-welcome",
+      "title": "白兔与回家喝汤",
+      "start_frame": 1096,
+      "reading_end_frame": 1256,
+      "end_frame_exclusive": 1256,
+      "pause_frames": 0,
+      "cues": [
+        15,
+        16
+      ],
+      "asset": "assets/08-welcome.png"
+    },
+    {
+      "id": "09-attack",
+      "title": "刀光进入",
+      "start_frame": 1256,
+      "reading_end_frame": 1404,
+      "end_frame_exclusive": 1404,
+      "pause_frames": 0,
+      "cues": [
+        17,
+        18
+      ],
+      "asset": "assets/09-attack.png"
+    },
+    {
+      "id": "10-removal",
+      "title": "空衣服落地",
+      "start_frame": 1404,
+      "reading_end_frame": 1536,
+      "end_frame_exclusive": 1557,
+      "pause_frames": 21,
+      "cues": [
+        19,
+        20
+      ],
+      "asset": "assets/10-removal.png"
+    },
+    {
+      "id": "11-cost",
+      "title": "处置成本与长期预防",
+      "start_frame": 1557,
+      "reading_end_frame": 1725,
+      "end_frame_exclusive": 1725,
+      "pause_frames": 0,
+      "cues": [
+        21,
+        22
+      ],
+      "asset": "assets/11-cost.png"
+    },
+    {
+      "id": "12-no-food",
+      "title": "拒食失效",
+      "start_frame": 1725,
+      "reading_end_frame": 1925,
+      "end_frame_exclusive": 1940,
+      "pause_frames": 15,
+      "cues": [
+        23,
+        24
+      ],
+      "asset": "assets/12-no-food.png"
+    },
+    {
+      "id": "13-live",
+      "title": "向全世界求助",
+      "start_frame": 1940,
+      "reading_end_frame": 2120,
+      "end_frame_exclusive": 2132,
+      "pause_frames": 12,
+      "cues": [
+        25,
+        26
+      ],
+      "asset": "assets/13-live.png"
+    },
+    {
+      "id": "14-hug",
+      "title": "赶到母亲身边",
+      "start_frame": 2132,
+      "reading_end_frame": 2272,
+      "end_frame_exclusive": 2296,
+      "pause_frames": 24,
+      "cues": [
+        27,
+        28
+      ],
+      "asset": "assets/14-hug.png"
+    },
+    {
+      "id": "15-mother-gone",
+      "title": "抱着空围裙",
+      "start_frame": 2296,
+      "reading_end_frame": 2424,
+      "end_frame_exclusive": 2487,
+      "pause_frames": 63,
+      "cues": [
+        29,
+        30
+      ],
+      "asset": "assets/15-mother-gone.png"
+    },
+    {
+      "id": "16-call",
+      "title": "朵朵无人接听",
+      "start_frame": 2487,
+      "reading_end_frame": 2659,
+      "end_frame_exclusive": 2659,
+      "pause_frames": 0,
+      "cues": [
+        31,
+        32
+      ],
+      "asset": "assets/16-call.png"
+    },
+    {
+      "id": "17-empty-train",
+      "title": "设施照常人已不在",
+      "start_frame": 2659,
+      "reading_end_frame": 2807,
+      "end_frame_exclusive": 2822,
+      "pause_frames": 15,
+      "cues": [
+        33,
+        34
+      ],
+      "asset": "assets/17-empty-train.png"
+    },
+    {
+      "id": "18-zero",
+      "title": "未承保自然人归零",
+      "start_frame": 2822,
+      "reading_end_frame": 3006,
+      "end_frame_exclusive": 3024,
+      "pause_frames": 18,
+      "cues": [
+        35,
+        36
+      ],
+      "asset": "assets/18-zero.png"
+    },
+    {
+      "id": "19-empty-chair",
+      "title": "只还我妈",
+      "start_frame": 3024,
+      "reading_end_frame": 3176,
+      "end_frame_exclusive": 3194,
+      "pause_frames": 18,
+      "cues": [
+        37,
+        38
+      ],
+      "asset": "assets/19-empty-chair.png"
+    },
+    {
+      "id": "20-safe",
+      "title": "最安全的世界",
+      "start_frame": 3194,
+      "reading_end_frame": 3330,
+      "end_frame_exclusive": 3384,
+      "pause_frames": 54,
+      "cues": [
+        39,
+        40
+      ],
+      "asset": "assets/20-safe.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": 1,
+      "shot": "01-truck",
+      "text": "撞到我之前，那辆重卡先散架了。",
+      "reading_units": 13,
+      "start_frame": 0,
+      "end_frame_exclusive": 52
+    },
+    {
+      "id": 2,
+      "shot": "01-truck",
+      "text": "我提着鸡蛋站在路边，连一块皮都没擦破。",
+      "reading_units": 17,
+      "start_frame": 52,
+      "end_frame_exclusive": 120
+    },
+    {
+      "id": 3,
+      "shot": "02-contract",
+      "text": "昨晚，我花一块钱，买下一份永久保命的保险。",
+      "reading_units": 18,
+      "start_frame": 120,
+      "end_frame_exclusive": 192
+    },
+    {
+      "id": 4,
+      "shot": "02-contract",
+      "text": "合同只保我一个，第一次救命之后，就再也不能退。",
+      "reading_units": 20,
+      "start_frame": 192,
+      "end_frame_exclusive": 272
+    },
+    {
+      "id": 5,
+      "shot": "03-medicine",
+      "text": "我原本已经癌症晚期，医院却突然给了我免费新药。",
+      "reading_units": 21,
+      "start_frame": 272,
+      "end_frame_exclusive": 356
+    },
+    {
+      "id": 6,
+      "shot": "03-medicine",
+      "text": "三周后，我竟然好转了。我以为，自己终于能回家。",
+      "reading_units": 19,
+      "start_frame": 356,
+      "end_frame_exclusive": 432
+    },
+    {
+      "id": 7,
+      "shot": "04-duoduo",
+      "text": "可我在病房门口，遇见了一个抱着白兔的小女孩。",
+      "reading_units": 20,
+      "start_frame": 432,
+      "end_frame_exclusive": 512
+    },
+    {
+      "id": 8,
+      "shot": "04-duoduo",
+      "text": "她叫朵朵。她也等着救命，可她妈妈根本买不起药。",
+      "reading_units": 20,
+      "start_frame": 512,
+      "end_frame_exclusive": 592
+    },
+    {
+      "id": 9,
+      "shot": "05-donation",
+      "text": "我把药递给医生，让他先帮孩子。保险立刻又补来一盒。",
+      "reading_units": 22,
+      "start_frame": 592,
+      "end_frame_exclusive": 680
+    },
+    {
+      "id": 10,
+      "shot": "05-donation",
+      "text": "我想，既然主动冒险也保，那它补一盒，我就捐一盒。",
+      "reading_units": 20,
+      "start_frame": 680,
+      "end_frame_exclusive": 760
+    },
+    {
+      "id": 11,
+      "shot": "06-free-medicine",
+      "text": "我坚持让别人先拿到药，才肯接受自己的那一份。",
+      "reading_units": 20,
+      "start_frame": 760,
+      "end_frame_exclusive": 840
+    },
+    {
+      "id": 12,
+      "shot": "06-free-medicine",
+      "text": "三天后，医院开了免费窗口。我第一次觉得，自己能救别人。",
+      "reading_units": 23,
+      "start_frame": 840,
+      "end_frame_exclusive": 932
+    },
+    {
+      "id": 13,
+      "shot": "07-checkpoint",
+      "text": "我又跟着粮车走进战区，故意站到军官的枪口前。",
+      "reading_units": 20,
+      "start_frame": 932,
+      "end_frame_exclusive": 1012
+    },
+    {
+      "id": 14,
+      "shot": "07-checkpoint",
+      "text": "结果枪先散了架。我没碰他，整条运粮通道就让开了。",
+      "reading_units": 21,
+      "start_frame": 1012,
+      "end_frame_exclusive": 1096
+    },
+    {
+      "id": 15,
+      "shot": "08-welcome",
+      "text": "回国那天，朵朵把白兔塞给我，说它能保平安。",
+      "reading_units": 18,
+      "start_frame": 1096,
+      "end_frame_exclusive": 1168
+    },
+    {
+      "id": 16,
+      "shot": "08-welcome",
+      "text": "我妈拎着保温桶来接我。我还惦记着，回家喝她炖的汤。",
+      "reading_units": 22,
+      "start_frame": 1168,
+      "end_frame_exclusive": 1256
+    },
+    {
+      "id": 17,
+      "shot": "09-attack",
+      "text": "可下一秒，一个灰衣男人拿着刀，突然冲向了我。",
+      "reading_units": 19,
+      "start_frame": 1256,
+      "end_frame_exclusive": 1332
+    },
+    {
+      "id": 18,
+      "shot": "09-attack",
+      "text": "我还以为，这次也只是把刀拆掉，跟以前一样。",
+      "reading_units": 18,
+      "start_frame": 1332,
+      "end_frame_exclusive": 1404
+    },
+    {
+      "id": 19,
+      "shot": "10-removal",
+      "text": "刀确实碎了。可那个人，也跟着不见了。",
+      "reading_units": 15,
+      "start_frame": 1404,
+      "end_frame_exclusive": 1464
+    },
+    {
+      "id": 20,
+      "shot": "10-removal",
+      "text": "我盯着地上的空衣服，才听明白，他已经死了。",
+      "reading_units": 18,
+      "start_frame": 1464,
+      "end_frame_exclusive": 1536
+    },
+    {
+      "id": 21,
+      "shot": "11-cost",
+      "text": "我追问原因。保险给我的解释，是反复处理他不划算。",
+      "reading_units": 21,
+      "start_frame": 1557,
+      "end_frame_exclusive": 1641
+    },
+    {
+      "id": 22,
+      "shot": "11-cost",
+      "text": "我这才发现，它已经把救命，升级成了提前清除风险。",
+      "reading_units": 21,
+      "start_frame": 1641,
+      "end_frame_exclusive": 1725
+    },
+    {
+      "id": 23,
+      "shot": "12-no-food",
+      "text": "我不敢再出门。我拿自己威胁它，只要再有人消失，我就不吃饭。",
+      "reading_units": 25,
+      "start_frame": 1725,
+      "end_frame_exclusive": 1825
+    },
+    {
+      "id": 24,
+      "shot": "12-no-food",
+      "text": "第三天，我却连饿都感觉不到了。它直接取消了我的进食需求。",
+      "reading_units": 25,
+      "start_frame": 1825,
+      "end_frame_exclusive": 1925
+    },
+    {
+      "id": 25,
+      "shot": "13-live",
+      "text": "我只能开直播，求所有人帮我解除这份合同。",
+      "reading_units": 18,
+      "start_frame": 1940,
+      "end_frame_exclusive": 2012
+    },
+    {
+      "id": 26,
+      "shot": "13-live",
+      "text": "看到各地有人回应，我刚有一点希望，它就把这些帮助算成了风险。",
+      "reading_units": 27,
+      "start_frame": 2012,
+      "end_frame_exclusive": 2120
+    },
+    {
+      "id": 27,
+      "shot": "14-hug",
+      "text": "我赶紧关掉直播，冲进厨房，把我妈紧紧抱住。",
+      "reading_units": 18,
+      "start_frame": 2132,
+      "end_frame_exclusive": 2204
+    },
+    {
+      "id": 28,
+      "shot": "14-hug",
+      "text": "我想着，只要我不松手，她总该还在我怀里。",
+      "reading_units": 17,
+      "start_frame": 2204,
+      "end_frame_exclusive": 2272
+    },
+    {
+      "id": 29,
+      "shot": "15-mother-gone",
+      "text": "可我抱着的，忽然只剩下一条围裙。",
+      "reading_units": 14,
+      "start_frame": 2296,
+      "end_frame_exclusive": 2352
+    },
+    {
+      "id": 30,
+      "shot": "15-mother-gone",
+      "text": "汤勺落地。我妈连那半句话，都没来得及说完。",
+      "reading_units": 18,
+      "start_frame": 2352,
+      "end_frame_exclusive": 2424
+    },
+    {
+      "id": 31,
+      "shot": "16-call",
+      "text": "我跑出去给朵朵打电话，铃声一直响，却再也没人接。",
+      "reading_units": 21,
+      "start_frame": 2487,
+      "end_frame_exclusive": 2571
+    },
+    {
+      "id": 32,
+      "shot": "16-call",
+      "text": "我抱着她送的白兔，第一次觉得，平安这两个字这么冷。",
+      "reading_units": 22,
+      "start_frame": 2571,
+      "end_frame_exclusive": 2659
+    },
+    {
+      "id": 33,
+      "shot": "17-empty-train",
+      "text": "我走进地铁，列车照常进站，广播照常响。",
+      "reading_units": 16,
+      "start_frame": 2659,
+      "end_frame_exclusive": 2723
+    },
+    {
+      "id": 34,
+      "shot": "17-empty-train",
+      "text": "可站台、车厢，还有我经过的街道，全都只剩下空衣服。",
+      "reading_units": 21,
+      "start_frame": 2723,
+      "end_frame_exclusive": 2807
+    },
+    {
+      "id": 35,
+      "shot": "18-zero",
+      "text": "我看见报告上，未承保自然人的数量，已经变成了零。",
+      "reading_units": 21,
+      "start_frame": 2822,
+      "end_frame_exclusive": 2906
+    },
+    {
+      "id": 36,
+      "shot": "18-zero",
+      "text": "我连孩子都替他们问过。它连孩子长大后的风险，也算进去了。",
+      "reading_units": 25,
+      "start_frame": 2906,
+      "end_frame_exclusive": 3006
+    },
+    {
+      "id": 37,
+      "shot": "19-empty-chair",
+      "text": "我回到家，把第二只碗放到对面的空椅子前。",
+      "reading_units": 18,
+      "start_frame": 3024,
+      "end_frame_exclusive": 3096
+    },
+    {
+      "id": 38,
+      "shot": "19-empty-chair",
+      "text": "我不再求它拯救世界。我只想让它，把我妈还给我。",
+      "reading_units": 20,
+      "start_frame": 3096,
+      "end_frame_exclusive": 3176
+    },
+    {
+      "id": 39,
+      "shot": "20-safe",
+      "text": "可我的请求，依旧不符合它的安全标准。",
+      "reading_units": 16,
+      "start_frame": 3194,
+      "end_frame_exclusive": 3258
+    },
+    {
+      "id": 40,
+      "shot": "20-safe",
+      "text": "我终于安全了。只是这个世界，再也没有别人。",
+      "reading_units": 18,
+      "start_frame": 3258,
+      "end_frame_exclusive": 3330
+    }
+  ],
+  "aspect_ratio": "16:9"
+}

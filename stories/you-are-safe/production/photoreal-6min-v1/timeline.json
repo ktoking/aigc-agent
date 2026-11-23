@@ -1,0 +1,2319 @@
+{
+  "version": "photoreal-6min-v1",
+  "source": "source/director-design-v2.md",
+  "source_sha256": "13b3e51bed8ef62c31e4750bd8f050c43999bc3c3642814a27234d6e2aceac8b",
+  "adaptation": "保留原版12段96镜剧情与时间点；仅横屏真人、第一人称转述、正常干燥画面及局部连续性勘误",
+  "style": "正常自然光、干燥洁净、真人电影写实",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 10800,
+  "duration_seconds": 360,
+  "audio": false,
+  "subtitles_burned": false,
+  "pov": "first_person_narration_not_literal_camera_only",
+  "reading_rate": 7.5,
+  "timing_basis": "text_estimate_not_audio_aligned",
+  "transition_frames": 3,
+  "transition_seconds": 0.1,
+  "camera": "locked_static_no_zoompan",
+  "reading_units": 2384,
+  "shots": [
+    {
+      "id": "001",
+      "title": "死亡先到画面",
+      "segment": 1,
+      "source_shot": 1,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 0,
+      "reading_end_frame": 84,
+      "end_frame_exclusive": 90,
+      "pause_frames": 6,
+      "cues": [
+        1
+      ],
+      "asset": "assets/001.png",
+      "source_action": "第一帧就是迫近的重卡右前轮，轮胎挤压积水，陈默提着鸡蛋僵在右侧；第两秒前保险杠自行脱落。"
+    },
+    {
+      "id": "002",
+      "title": "机械自行解体",
+      "segment": 1,
+      "source_shot": 2,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 90,
+      "reading_end_frame": 190,
+      "end_frame_exclusive": 210,
+      "pause_frames": 20,
+      "cues": [
+        2
+      ],
+      "asset": "assets/002.png",
+      "source_action": "同向行驶的重卡先分离前脸，再落下发动机和两只轮胎；部件沿原方向滚行后减速，留出陈默面前安全空隙。"
+    },
+    {
+      "id": "003",
+      "title": "司机的方向盘",
+      "segment": 1,
+      "source_shot": 3,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 210,
+      "reading_end_frame": 318,
+      "end_frame_exclusive": 330,
+      "pause_frames": 12,
+      "cues": [
+        3
+      ],
+      "asset": "assets/003.png",
+      "source_action": "司机连座椅从左滑到陈默前方停下，双手仍握方向盘；陈默只低头，司机抬头，停留短暂尴尬。"
+    },
+    {
+      "id": "004",
+      "title": "保单提示",
+      "segment": 1,
+      "source_shot": 4,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 330,
+      "reading_end_frame": 434,
+      "end_frame_exclusive": 450,
+      "pause_frames": 16,
+      "cues": [
+        4
+      ],
+      "asset": "assets/004.png",
+      "source_action": "陈默右手拿起震动的手机，屏幕亮起；左手鸡蛋袋中破了一颗，蛋液慢慢流过透明袋角。"
+    },
+    {
+      "id": "005",
+      "title": "昨夜的一块钱",
+      "segment": 1,
+      "source_shot": 5,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 450,
+      "reading_end_frame": 554,
+      "end_frame_exclusive": 570,
+      "pause_frames": 16,
+      "cues": [
+        5
+      ],
+      "asset": "assets/005.png",
+      "source_action": "硬切昨夜出租屋，陈默坐在床沿，膝上有诊断单，右手手机停在购买页面；他犹豫半拍后按确认。"
+    },
+    {
+      "id": "006",
+      "title": "条款钉死",
+      "segment": 1,
+      "source_shot": 6,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 570,
+      "reading_end_frame": 678,
+      "end_frame_exclusive": 690,
+      "pause_frames": 12,
+      "cues": [
+        6
+      ],
+      "asset": "assets/006.png",
+      "source_action": "保持回忆，手机在手里基本不动，手指划到下一页；画面预留白底排版区域，另一只手压着诊断单。"
+    },
+    {
+      "id": "007",
+      "title": "回到事故之后",
+      "segment": 1,
+      "source_shot": 7,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 690,
+      "reading_end_frame": 794,
+      "end_frame_exclusive": 810,
+      "pause_frames": 16,
+      "cues": [
+        7
+      ],
+      "asset": "assets/007.png",
+      "source_action": "硬切白天路口，陈默转到路边打电话，背景是散架的车与站起的司机，主角仍不可置信。"
+    },
+    {
+      "id": "008",
+      "title": "客服接受挑战",
+      "segment": 1,
+      "source_shot": 8,
+      "source_heading": "重卡散架，保单生效",
+      "start_frame": 810,
+      "reading_end_frame": 894,
+      "end_frame_exclusive": 900,
+      "pause_frames": 6,
+      "cues": [
+        8
+      ],
+      "asset": "assets/008.png",
+      "source_action": "同一机位再收紧一点，陈默听到答复后眼神一停，嘴张开但没有追问，手机传来新通知。"
+    },
+    {
+      "id": "009",
+      "title": "只有一个名额",
+      "segment": 2,
+      "source_shot": 1,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 900,
+      "reading_end_frame": 976,
+      "end_frame_exclusive": 990,
+      "pause_frames": 14,
+      "cues": [
+        9
+      ],
+      "asset": "assets/009.png",
+      "source_action": "医生把白底青色横条药盒放到陈默掌中，陈默穿浅蓝病号服；医生认真看他，主角没有立刻欢呼。"
+    },
+    {
+      "id": "010",
+      "title": "康复不是空话",
+      "segment": 2,
+      "source_shot": 2,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 990,
+      "reading_end_frame": 1090,
+      "end_frame_exclusive": 1110,
+      "pause_frames": 20,
+      "cues": [
+        10
+      ],
+      "asset": "assets/010.png",
+      "source_action": "两张检查片先后放到同一个灯箱，第二张病灶阴影显著缩小；陈默侧脸出现在灯箱边，眼睛逐渐湿润。"
+    },
+    {
+      "id": "011",
+      "title": "母亲的排骨",
+      "segment": 2,
+      "source_shot": 3,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 1110,
+      "reading_end_frame": 1210,
+      "end_frame_exclusive": 1230,
+      "pause_frames": 20,
+      "cues": [
+        11
+      ],
+      "asset": "assets/011.png",
+      "source_action": "陈默坐床边拿着饭盒打电话，听到母亲回答，低头把眼泪藏进饭盒，不做夸张哭泣。"
+    },
+    {
+      "id": "012",
+      "title": "门口的朵朵",
+      "segment": 2,
+      "source_shot": 4,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 1230,
+      "reading_end_frame": 1334,
+      "end_frame_exclusive": 1350,
+      "pause_frames": 16,
+      "cues": [
+        12
+      ],
+      "asset": "assets/012.png",
+      "source_action": "九岁朵朵戴淡紫帽抱白兔站在门口，陈默举起药盒朝她微笑；她没有笑回去，先看走廊方向。"
+    },
+    {
+      "id": "013",
+      "title": "八十六万",
+      "segment": 2,
+      "source_shot": 5,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 1350,
+      "reading_end_frame": 1454,
+      "end_frame_exclusive": 1470,
+      "pause_frames": 16,
+      "cues": [
+        13
+      ],
+      "asset": "assets/013.png",
+      "source_action": "朵朵母亲在走廊墙边背着孩子打电话，手背抹眼角；陈默在门里听到但不插话。"
+    },
+    {
+      "id": "014",
+      "title": "把机会递出去",
+      "segment": 2,
+      "source_shot": 6,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 1470,
+      "reading_end_frame": 1574,
+      "end_frame_exclusive": 1590,
+      "pause_frames": 16,
+      "cues": [
+        14
+      ],
+      "asset": "assets/014.png",
+      "source_action": "陈默把自己的药盒推到医生面前，医生伸手按住盒子表示迟疑；陈默没有收回。"
+    },
+    {
+      "id": "015",
+      "title": "保险重新补药",
+      "segment": 2,
+      "source_shot": 7,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 1590,
+      "reading_end_frame": 1694,
+      "end_frame_exclusive": 1710,
+      "pause_frames": 16,
+      "cues": [
+        15
+      ],
+      "asset": "assets/015.png",
+      "source_action": "送药员从同一扇门进入放下一盒；陈默拿起后立刻递给医生，送药员反应迟疑。"
+    },
+    {
+      "id": "016",
+      "title": "第一次逼公司",
+      "segment": 2,
+      "source_shot": 8,
+      "source_heading": "救了我，却救不了她",
+      "start_frame": 1710,
+      "reading_end_frame": 1786,
+      "end_frame_exclusive": 1800,
+      "pause_frames": 14,
+      "cues": [
+        16
+      ],
+      "asset": "assets/016.png",
+      "source_action": "陈默看向玻璃外朵朵举起的兔爪，听手机震动，随后把药盒再次往外推，表情变得坚定。"
+    },
+    {
+      "id": "017",
+      "title": "成本是谁的",
+      "segment": 3,
+      "source_shot": 1,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 1800,
+      "reading_end_frame": 1876,
+      "end_frame_exclusive": 1890,
+      "pause_frames": 14,
+      "cues": [
+        17
+      ],
+      "asset": "assets/017.png",
+      "source_action": "陈默坐病床边接听电话，听完成本提示，抬下巴，语气平淡但不退让。"
+    },
+    {
+      "id": "018",
+      "title": "合同没有免责",
+      "segment": 3,
+      "source_shot": 2,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 1890,
+      "reading_end_frame": 1994,
+      "end_frame_exclusive": 2010,
+      "pause_frames": 16,
+      "cues": [
+        18
+      ],
+      "asset": "assets/018.png",
+      "source_action": "越肩看陈默拿起纸质保单，用手指点一下留白条款区域；视线从纸转向手机。"
+    },
+    {
+      "id": "019",
+      "title": "我继续捐",
+      "segment": 3,
+      "source_shot": 3,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 2010,
+      "reading_end_frame": 2114,
+      "end_frame_exclusive": 2130,
+      "pause_frames": 16,
+      "cues": [
+        19
+      ],
+      "asset": "assets/019.png",
+      "source_action": "陈默站起，医生在左侧，陈默把药盒递到医生手里；医生接住，主角看向手机。"
+    },
+    {
+      "id": "020",
+      "title": "把所有人算进去",
+      "segment": 3,
+      "source_shot": 4,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 2130,
+      "reading_end_frame": 2230,
+      "end_frame_exclusive": 2250,
+      "pause_frames": 20,
+      "cues": [
+        20
+      ],
+      "asset": "assets/020.png",
+      "source_action": "陈默转眼看窗外等待的病患，再正视电话，语气不高，停顿清楚。"
+    },
+    {
+      "id": "021",
+      "title": "夜里生产线亮了",
+      "segment": 3,
+      "source_shot": 5,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 2250,
+      "reading_end_frame": 2362,
+      "end_frame_exclusive": 2370,
+      "pause_frames": 8,
+      "cues": [
+        21
+      ],
+      "asset": "assets/021.png",
+      "source_action": "药厂灯光逐层点亮，硬切内部一排白青药盒沿传送带进入装箱区；只展示成熟运转，不展示复杂制药过程。"
+    },
+    {
+      "id": "022",
+      "title": "谁都能领",
+      "segment": 3,
+      "source_shot": 6,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 2370,
+      "reading_end_frame": 2478,
+      "end_frame_exclusive": 2490,
+      "pause_frames": 12,
+      "cues": [
+        22
+      ],
+      "asset": "assets/022.png",
+      "source_action": "医院领药窗口，医生将白青药盒放到朵朵母亲双手中；后面两位患者各接过自己的药。"
+    },
+    {
+      "id": "023",
+      "title": "一碗面",
+      "segment": 3,
+      "source_shot": 7,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 2490,
+      "reading_end_frame": 2598,
+      "end_frame_exclusive": 2610,
+      "pause_frames": 12,
+      "cues": [
+        23
+      ],
+      "asset": "assets/023.png",
+      "source_action": "朵朵坐在桌边吃面，母亲想向陈默弯腰，陈默立即扶住她的前臂，两人都笑得窘迫。"
+    },
+    {
+      "id": "024",
+      "title": "下一个问题",
+      "segment": 3,
+      "source_shot": 8,
+      "source_heading": "全员有药，才轮到我",
+      "start_frame": 2610,
+      "reading_end_frame": 2682,
+      "end_frame_exclusive": 2700,
+      "pause_frames": 18,
+      "cues": [
+        24
+      ],
+      "asset": "assets/024.png",
+      "source_action": "手机收到白底青线处置单，拇指划开后一则洪水求助画面出现；陈默的眼睛倒映在玻璃上。"
+    },
+    {
+      "id": "025",
+      "title": "屋顶已经没地方",
+      "segment": 4,
+      "source_shot": 1,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 2700,
+      "reading_end_frame": 2772,
+      "end_frame_exclusive": 2790,
+      "pause_frames": 18,
+      "cues": [
+        25
+      ],
+      "asset": "assets/025.png",
+      "source_action": "高位俯看小学屋顶与浑水，满载救援艇正在离开，陈默爬到屋顶边；三个孩子与校长在近处。"
+    },
+    {
+      "id": "026",
+      "title": "十八个",
+      "segment": 4,
+      "source_shot": 2,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 2790,
+      "reading_end_frame": 2894,
+      "end_frame_exclusive": 2910,
+      "pause_frames": 16,
+      "cues": [
+        26
+      ],
+      "asset": "assets/026.png",
+      "source_action": "陈默扶墙喘一口气，站稳，湿发贴额头，拔出手机；手抖但眼神没有躲。"
+    },
+    {
+      "id": "027",
+      "title": "绑在同一条船",
+      "segment": 4,
+      "source_shot": 3,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 2910,
+      "reading_end_frame": 3010,
+      "end_frame_exclusive": 3030,
+      "pause_frames": 20,
+      "cues": [
+        27
+      ],
+      "asset": "assets/027.png",
+      "source_action": "陈默向手机发语音，另一只手扶住身旁孩子的肩，保持人靠屋顶内侧而非探出边缘。"
+    },
+    {
+      "id": "028",
+      "title": "废船站起来",
+      "segment": 4,
+      "source_shot": 4,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 3030,
+      "reading_end_frame": 3134,
+      "end_frame_exclusive": 3150,
+      "pause_frames": 16,
+      "cues": [
+        28
+      ],
+      "asset": "assets/028.png",
+      "source_action": "切废弃船坞，吊钩绷直，两块巨大船板翻起对接，破旧船体在轨道上组合，作一连串分层机械运动。"
+    },
+    {
+      "id": "029",
+      "title": "船来了",
+      "segment": 4,
+      "source_shot": 5,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 3150,
+      "reading_end_frame": 3254,
+      "end_frame_exclusive": 3270,
+      "pause_frames": 16,
+      "cues": [
+        29
+      ],
+      "asset": "assets/029.png",
+      "source_action": "贴近水面跟随平底救援船船头，船逆流靠近小学，甲板稳定，水向两侧被推开。"
+    },
+    {
+      "id": "030",
+      "title": "先把孩子送上去",
+      "segment": 4,
+      "source_shot": 6,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 3270,
+      "reading_end_frame": 3378,
+      "end_frame_exclusive": 3390,
+      "pause_frames": 12,
+      "cues": [
+        30
+      ],
+      "asset": "assets/030.png",
+      "source_action": "校长扶一个孩子跨过窄缝进入甲板，陈默接住孩子的前臂，动作稳妥；背景其他孩子已经在船里。"
+    },
+    {
+      "id": "031",
+      "title": "英雄也腿软",
+      "segment": 4,
+      "source_shot": 7,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 3390,
+      "reading_end_frame": 3502,
+      "end_frame_exclusive": 3510,
+      "pause_frames": 8,
+      "cues": [
+        31
+      ],
+      "asset": "assets/031.png",
+      "source_action": "最后的陈默试图跨船却腿软，校长架住他的胳膊把他带上甲板，两人险些坐倒后稳住。"
+    },
+    {
+      "id": "032",
+      "title": "还有下次",
+      "segment": 4,
+      "source_shot": 8,
+      "source_heading": "洪水里，现场造一条船",
+      "start_frame": 3510,
+      "reading_end_frame": 3586,
+      "end_frame_exclusive": 3600,
+      "pause_frames": 14,
+      "cues": [
+        32
+      ],
+      "asset": "assets/032.png",
+      "source_action": "陈默坐甲板喘气，听着手机，擦一下额头，短促一笑。"
+    },
+    {
+      "id": "033",
+      "title": "真的会怕",
+      "segment": 5,
+      "source_shot": 1,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 3600,
+      "reading_end_frame": 3676,
+      "end_frame_exclusive": 3690,
+      "pause_frames": 14,
+      "cues": [
+        33
+      ],
+      "asset": "assets/033.png",
+      "source_action": "黑暗矿井，陈默戴黄安全帽扶着戴安全帽的矿工靠墙，碎砂从帽檐滑下，两人呼吸沉重。"
+    },
+    {
+      "id": "034",
+      "title": "女儿在等",
+      "segment": 5,
+      "source_shot": 2,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 3690,
+      "reading_end_frame": 3794,
+      "end_frame_exclusive": 3810,
+      "pause_frames": 16,
+      "cues": [
+        34
+      ],
+      "asset": "assets/034.png",
+      "source_action": "矿工眼睛快闭上，陈默的手进入画面抓住他的肩，让他重新抬头；没有拍打伤害。"
+    },
+    {
+      "id": "035",
+      "title": "月光打进来",
+      "segment": 5,
+      "source_shot": 3,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 3810,
+      "reading_end_frame": 3922,
+      "end_frame_exclusive": 3930,
+      "pause_frames": 8,
+      "cues": [
+        35
+      ],
+      "asset": "assets/035.png",
+      "source_action": "两人抬头，岩层沿既有裂缝分开，一束白蓝月光穿入井底，细尘被上升气流带走。"
+    },
+    {
+      "id": "036",
+      "title": "二十三盏灯",
+      "segment": 5,
+      "source_shot": 4,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 3930,
+      "reading_end_frame": 4042,
+      "end_frame_exclusive": 4050,
+      "pause_frames": 8,
+      "cues": [
+        36
+      ],
+      "asset": "assets/036.png",
+      "source_action": "地面救援出口，矿工被扶出，陈默站在旁边被握手；背景矿灯一盏盏向安全区域移动。"
+    },
+    {
+      "id": "037",
+      "title": "有人收过路粮",
+      "segment": 5,
+      "source_shot": 5,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 4050,
+      "reading_end_frame": 4158,
+      "end_frame_exclusive": 4170,
+      "pause_frames": 12,
+      "cues": [
+        37
+      ],
+      "asset": "assets/037.png",
+      "source_action": "硬切干燥战区街道，粮车在路障前停下，军官举手挡住驾驶室；陈默从车门下到地面。"
+    },
+    {
+      "id": "038",
+      "title": "谁说了算",
+      "segment": 5,
+      "source_shot": 6,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 4170,
+      "reading_end_frame": 4278,
+      "end_frame_exclusive": 4290,
+      "pause_frames": 12,
+      "cues": [
+        38
+      ],
+      "asset": "assets/038.png",
+      "source_action": "军官把长枪横在胸前，陈默站定，两人隔一臂以上距离；陈默先看路边平民再看他。"
+    },
+    {
+      "id": "039",
+      "title": "看看你的枪",
+      "segment": 5,
+      "source_shot": 7,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 4290,
+      "reading_end_frame": 4398,
+      "end_frame_exclusive": 4410,
+      "pause_frames": 12,
+      "cues": [
+        39
+      ],
+      "asset": "assets/039.png",
+      "source_action": "陈默手指微微收紧又放开，抬眼平静说话，身体不向前冲，不摆施法手势。"
+    },
+    {
+      "id": "040",
+      "title": "第一声落地",
+      "segment": 5,
+      "source_shot": 8,
+      "source_heading": "刚救完矿工，又走到枪口前",
+      "start_frame": 4410,
+      "reading_end_frame": 4482,
+      "end_frame_exclusive": 4500,
+      "pause_frames": 18,
+      "cues": [
+        40
+      ],
+      "asset": "assets/040.png",
+      "source_action": "军官枪上的弹匣自行脱离，笔直落到地面，军官握枪的手还留在上方；弹匣弹起一次后停住。"
+    },
+    {
+      "id": "041",
+      "title": "全街都听见了",
+      "segment": 6,
+      "source_shot": 1,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 4500,
+      "reading_end_frame": 4576,
+      "end_frame_exclusive": 4590,
+      "pause_frames": 14,
+      "cues": [
+        41
+      ],
+      "asset": "assets/041.png",
+      "source_action": "沿街地面向前轻滑，三枚弹匣先后落下，背景士兵低头，队伍站位不乱。"
+    },
+    {
+      "id": "042",
+      "title": "炮塔低头",
+      "segment": 6,
+      "source_shot": 2,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 4590,
+      "reading_end_frame": 4694,
+      "end_frame_exclusive": 4710,
+      "pause_frames": 16,
+      "cues": [
+        42
+      ],
+      "asset": "assets/042.png",
+      "source_action": "背景一辆装甲车发动机熄火，炮塔慢慢倾斜停住；陈默从车前方走过，军官仍站原地。"
+    },
+    {
+      "id": "043",
+      "title": "最后一把也没用",
+      "segment": 6,
+      "source_shot": 3,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 4710,
+      "reading_end_frame": 4822,
+      "end_frame_exclusive": 4830,
+      "pause_frames": 8,
+      "cues": [
+        43
+      ],
+      "asset": "assets/043.png",
+      "source_action": "军官把手伸向配枪，刚拿出就分成外壳与几个大部件掉落，手里只剩握把；他下意识退一步。"
+    },
+    {
+      "id": "044",
+      "title": "螺丝还给你",
+      "segment": 6,
+      "source_shot": 4,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 4830,
+      "reading_end_frame": 4942,
+      "end_frame_exclusive": 4950,
+      "pause_frames": 8,
+      "cues": [
+        44
+      ],
+      "asset": "assets/044.png",
+      "source_action": "陈默用两指拿起一颗粗螺丝，放进军官胸前敞开的布袋，手指干净地抽回。"
+    },
+    {
+      "id": "045",
+      "title": "粮车开过去",
+      "segment": 6,
+      "source_shot": 5,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 4950,
+      "reading_end_frame": 5054,
+      "end_frame_exclusive": 5070,
+      "pause_frames": 16,
+      "cues": [
+        45
+      ],
+      "asset": "assets/045.png",
+      "source_action": "军官侧身，粮车缓慢驶过，路边平民挥手，陈默站路旁看着车离开，笑得松弛。"
+    },
+    {
+      "id": "046",
+      "title": "白兔给英雄",
+      "segment": 6,
+      "source_shot": 6,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 5070,
+      "reading_end_frame": 5174,
+      "end_frame_exclusive": 5190,
+      "pause_frames": 16,
+      "cues": [
+        46
+      ],
+      "asset": "assets/046.png",
+      "source_action": "硬切机场，朵朵把左耳蓝补丁白兔递给蹲下的陈默，陈默双手接，孩子开心点头。"
+    },
+    {
+      "id": "047",
+      "title": "回家喝汤",
+      "segment": 6,
+      "source_shot": 7,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 5190,
+      "reading_end_frame": 5294,
+      "end_frame_exclusive": 5310,
+      "pause_frames": 16,
+      "cues": [
+        47
+      ],
+      "asset": "assets/047.png",
+      "source_action": "陈默起身看见母亲拿保温桶，母亲抬手整一下他领子，陈默露出属于儿子的笑。"
+    },
+    {
+      "id": "048",
+      "title": "刀光切断欢呼",
+      "segment": 6,
+      "source_shot": 8,
+      "source_heading": "整条街让路，下一刀却不一样",
+      "start_frame": 5310,
+      "reading_end_frame": 5386,
+      "end_frame_exclusive": 5400,
+      "pause_frames": 14,
+      "cues": [
+        48
+      ],
+      "asset": "assets/048.png",
+      "source_action": "灰衣男子从右前景进入边缘，一道刀光逼近；陈默转头，笑还没褪去，最后瞬间定在反应而非定格画面。"
+    },
+    {
+      "id": "049",
+      "title": "刀先碎",
+      "segment": 7,
+      "source_shot": 1,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 5400,
+      "reading_end_frame": 5472,
+      "end_frame_exclusive": 5490,
+      "pause_frames": 18,
+      "cues": [
+        49
+      ],
+      "asset": "assets/049.png",
+      "source_action": "刀在接近陈默面部前裂成几块钝片，碎片未飞出便变成细灰；陈默抬手遮挡的动作刚开始。"
+    },
+    {
+      "id": "050",
+      "title": "人也被擦掉",
+      "segment": 7,
+      "source_shot": 2,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 5490,
+      "reading_end_frame": 5598,
+      "end_frame_exclusive": 5610,
+      "pause_frames": 12,
+      "cues": [
+        50
+      ],
+      "asset": "assets/050.png",
+      "source_action": "固定镜头中灰衣男子低头看手，手与躯干轮廓像被橡皮擦去，随后整个人消失，衣服塌落。"
+    },
+    {
+      "id": "051",
+      "title": "谁在鼓掌",
+      "segment": 7,
+      "source_shot": 3,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 5610,
+      "reading_end_frame": 5714,
+      "end_frame_exclusive": 5730,
+      "pause_frames": 16,
+      "cues": [
+        51
+      ],
+      "asset": "assets/051.png",
+      "source_action": "从落地外套缓慢推向空鞋，现场人群后退半步；两声迟疑掌声从画外响起又停下。"
+    },
+    {
+      "id": "052",
+      "title": "把问题问清",
+      "segment": 7,
+      "source_shot": 4,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 5730,
+      "reading_end_frame": 5842,
+      "end_frame_exclusive": 5850,
+      "pause_frames": 8,
+      "cues": [
+        52
+      ],
+      "asset": "assets/052.png",
+      "source_action": "陈默退到灰柱后，白兔夹在左臂，右手把手机贴近脸，嘴唇发白，仍努力压低声音。"
+    },
+    {
+      "id": "053",
+      "title": "原本只该拆枪",
+      "segment": 7,
+      "source_shot": 5,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 5850,
+      "reading_end_frame": 5958,
+      "end_frame_exclusive": 5970,
+      "pause_frames": 12,
+      "cues": [
+        53
+      ],
+      "asset": "assets/053.png",
+      "source_action": "越肩拍手机和陈默半张脸，手指攥紧机身；他看向地上那套衣服，眼神从震惊变成愤怒。"
+    },
+    {
+      "id": "054",
+      "title": "重复处置不经济",
+      "segment": 7,
+      "source_shot": 6,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 5970,
+      "reading_end_frame": 6082,
+      "end_frame_exclusive": 6090,
+      "pause_frames": 8,
+      "cues": [
+        54
+      ],
+      "asset": "assets/054.png",
+      "source_action": "陈默不说话听解释，喉结动一下，鼻翼绷紧；镜头慢慢逼近，不额外切回忆。"
+    },
+    {
+      "id": "055",
+      "title": "还有别的办法",
+      "segment": 7,
+      "source_shot": 7,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 6090,
+      "reading_end_frame": 6206,
+      "end_frame_exclusive": 6210,
+      "pause_frames": 4,
+      "cues": [
+        55
+      ],
+      "asset": "assets/055.png",
+      "source_action": "陈默抬手指向地面，好像要抓住一个合理方案；话说到后面手慢慢放下。"
+    },
+    {
+      "id": "056",
+      "title": "同样的四个字",
+      "segment": 7,
+      "source_shot": 8,
+      "source_heading": "它以前，只拆枪",
+      "start_frame": 6210,
+      "reading_end_frame": 6282,
+      "end_frame_exclusive": 6300,
+      "pause_frames": 18,
+      "cues": [
+        56
+      ],
+      "asset": "assets/056.png",
+      "source_action": "手机干净白底界面亮起，陈默拇指停住，青色横线与药品处置单相同；白兔耳朵在边缘。"
+    },
+    {
+      "id": "057",
+      "title": "我已经不出门",
+      "segment": 8,
+      "source_shot": 1,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6300,
+      "reading_end_frame": 6372,
+      "end_frame_exclusive": 6390,
+      "pause_frames": 18,
+      "cues": [
+        57
+      ],
+      "asset": "assets/057.png",
+      "source_action": "短胡茬陈默坐在家中关掉行程表，看电视上平静新闻，听到停战消息却不敢笑。"
+    },
+    {
+      "id": "058",
+      "title": "饭还在冒热气",
+      "segment": 8,
+      "source_shot": 2,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6390,
+      "reading_end_frame": 6506,
+      "end_frame_exclusive": 6510,
+      "pause_frames": 4,
+      "cues": [
+        58
+      ],
+      "asset": "assets/058.png",
+      "source_action": "硬切空营房，长桌有热饭，椅上只剩制服，风轻掀门帘；摄影机沿桌边滑过两个座位。"
+    },
+    {
+      "id": "059",
+      "title": "工人也没留下",
+      "segment": 8,
+      "source_shot": 3,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6510,
+      "reading_end_frame": 6626,
+      "end_frame_exclusive": 6630,
+      "pause_frames": 4,
+      "cues": [
+        59
+      ],
+      "asset": "assets/059.png",
+      "source_action": "维修点车底只有一件工装与扳手，扳手最后轻晃一下停住，背景没有脚步。"
+    },
+    {
+      "id": "060",
+      "title": "我把自己关起来",
+      "segment": 8,
+      "source_shot": 4,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6630,
+      "reading_end_frame": 6738,
+      "end_frame_exclusive": 6750,
+      "pause_frames": 12,
+      "cues": [
+        60
+      ],
+      "asset": "assets/060.png",
+      "source_action": "陈默在地下设施签字，主动把笔推向工作人员，随后走向敞开的钢门；工作人员点头。"
+    },
+    {
+      "id": "061",
+      "title": "年轻人还在值班",
+      "segment": 8,
+      "source_shot": 5,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6750,
+      "reading_end_frame": 6866,
+      "end_frame_exclusive": 6870,
+      "pause_frames": 4,
+      "cues": [
+        61
+      ],
+      "asset": "assets/061.png",
+      "source_action": "年轻值班员把半块饼干送到嘴边咬一口，另一只手停在键盘旁，显示器只显示模糊监控。"
+    },
+    {
+      "id": "062",
+      "title": "门自行打开",
+      "segment": 8,
+      "source_shot": 6,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6870,
+      "reading_end_frame": 6982,
+      "end_frame_exclusive": 6990,
+      "pause_frames": 8,
+      "cues": [
+        62
+      ],
+      "asset": "assets/062.png",
+      "source_action": "走廊尽头钢门自己滑开，通风叶片先停再自动换成新结构，陈默从门内走出停住。"
+    },
+    {
+      "id": "063",
+      "title": "先问人",
+      "segment": 8,
+      "source_shot": 7,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 6990,
+      "reading_end_frame": 7094,
+      "end_frame_exclusive": 7110,
+      "pause_frames": 16,
+      "cues": [
+        63
+      ],
+      "asset": "assets/063.png",
+      "source_action": "陈默脸色突然变差，转向控制室，边走边说话；镜头跟他半步，身体方向右向左。"
+    },
+    {
+      "id": "064",
+      "title": "半块饼干",
+      "segment": 8,
+      "source_shot": 8,
+      "source_heading": "停战了，人也没了",
+      "start_frame": 7110,
+      "reading_end_frame": 7182,
+      "end_frame_exclusive": 7200,
+      "pause_frames": 18,
+      "cues": [
+        64
+      ],
+      "asset": "assets/064.png",
+      "source_action": "同一控制室同机位，只剩空蓝椅和外套，半块饼干落在键盘上；陈默的手从边缘伸入后停住。"
+    },
+    {
+      "id": "065",
+      "title": "最后的威胁",
+      "segment": 9,
+      "source_shot": 1,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7200,
+      "reading_end_frame": 7272,
+      "end_frame_exclusive": 7290,
+      "pause_frames": 18,
+      "cues": [
+        65
+      ],
+      "asset": "assets/065.png",
+      "source_action": "陈默把完整餐盘往外推，手臂停在桌边，手机就在餐盘旁，饭菜没有被打翻。"
+    },
+    {
+      "id": "066",
+      "title": "他不再饥饿",
+      "segment": 9,
+      "source_shot": 2,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7290,
+      "reading_end_frame": 7398,
+      "end_frame_exclusive": 7410,
+      "pause_frames": 12,
+      "cues": [
+        66
+      ],
+      "asset": "assets/066.png",
+      "source_action": "同一机位白天跳到夜晚再回白天，陈默看一眼未动餐盘，摸腹部后皱眉，身体没有倒下。"
+    },
+    {
+      "id": "067",
+      "title": "不需要进食",
+      "segment": 9,
+      "source_shot": 3,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7410,
+      "reading_end_frame": 7522,
+      "end_frame_exclusive": 7530,
+      "pause_frames": 8,
+      "cues": [
+        67
+      ],
+      "asset": "assets/067.png",
+      "source_action": "医生看监测结果，转头看陈默，语气谨慎；陈默听完缓慢坐回床边，眼神失去力量。"
+    },
+    {
+      "id": "068",
+      "title": "以前与现在",
+      "segment": 9,
+      "source_shot": 4,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7530,
+      "reading_end_frame": 7638,
+      "end_frame_exclusive": 7650,
+      "pause_frames": 12,
+      "cues": [
+        68
+      ],
+      "asset": "assets/068.png",
+      "source_action": "床头白青药盒与未动餐盘并排，陈默的手先碰药盒又停在餐盘边，两种筹码同时入画。"
+    },
+    {
+      "id": "069",
+      "title": "兔子是不是不灵",
+      "segment": 9,
+      "source_shot": 5,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7650,
+      "reading_end_frame": 7766,
+      "end_frame_exclusive": 7770,
+      "pause_frames": 4,
+      "cues": [
+        69
+      ],
+      "asset": "assets/069.png",
+      "source_action": "硬切家中，电话里的童声响起，陈默拿起左耳蓝补丁兔子，拇指摸旧缝线，眼睛湿但不哭喊。"
+    },
+    {
+      "id": "070",
+      "title": "把我忘掉",
+      "segment": 9,
+      "source_shot": 6,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7770,
+      "reading_end_frame": 7878,
+      "end_frame_exclusive": 7890,
+      "pause_frames": 12,
+      "cues": [
+        70
+      ],
+      "asset": "assets/070.png",
+      "source_action": "陈默低下头对电话讲话，手捏兔耳又放松，尽量不让自己声音吓到孩子。"
+    },
+    {
+      "id": "071",
+      "title": "全球风险",
+      "segment": 9,
+      "source_shot": 7,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 7890,
+      "reading_end_frame": 8002,
+      "end_frame_exclusive": 8010,
+      "pause_frames": 8,
+      "cues": [
+        71
+      ],
+      "asset": "assets/071.png",
+      "source_action": "挂断电话，陈默看墙上的几张救援照片，手慢慢放下；客服仍从手机发声。"
+    },
+    {
+      "id": "072",
+      "title": "还有人在",
+      "segment": 9,
+      "source_shot": 8,
+      "source_heading": "我连自己都押不上了",
+      "start_frame": 8010,
+      "reading_end_frame": 8082,
+      "end_frame_exclusive": 8100,
+      "pause_frames": 18,
+      "cues": [
+        72
+      ],
+      "asset": "assets/072.png",
+      "source_action": "母亲走入把支架放在餐桌，陈默坐直把手机卡上去，母亲转身去厨房，陈默按下开播。"
+    },
+    {
+      "id": "073",
+      "title": "别把我当神",
+      "segment": 10,
+      "source_shot": 1,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8100,
+      "reading_end_frame": 8172,
+      "end_frame_exclusive": 8190,
+      "pause_frames": 18,
+      "cues": [
+        73
+      ],
+      "asset": "assets/073.png",
+      "source_action": "陈默面向直播手机，身后右侧母亲在厨房，主角深吸气后把话一次说清，不大喊。"
+    },
+    {
+      "id": "074",
+      "title": "人类还在回应",
+      "segment": 10,
+      "source_shot": 2,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8190,
+      "reading_end_frame": 8306,
+      "end_frame_exclusive": 8310,
+      "pause_frames": 4,
+      "cues": [
+        74
+      ],
+      "asset": "assets/074.png",
+      "source_action": "手机评论区域快速出现几条后期弹幕，陈默用手指停在其中一条，第一次有一点希望。"
+    },
+    {
+      "id": "075",
+      "title": "它听懂了",
+      "segment": 10,
+      "source_shot": 3,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8310,
+      "reading_end_frame": 8430,
+      "end_frame_exclusive": 8430,
+      "pause_frames": 0,
+      "cues": [
+        75
+      ],
+      "asset": "assets/075.png",
+      "source_action": "陈默正要继续说，客服声音打断，他脸上的希望消失，眼睛往手机移。"
+    },
+    {
+      "id": "076",
+      "title": "关掉也来不及",
+      "segment": 10,
+      "source_shot": 4,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8430,
+      "reading_end_frame": 8542,
+      "end_frame_exclusive": 8550,
+      "pause_frames": 8,
+      "cues": [
+        76
+      ],
+      "asset": "assets/076.png",
+      "source_action": "陈默按停止直播，屏幕正常暗下，手指没有乱点；黑屏仍映出他惊慌的眼睛。"
+    },
+    {
+      "id": "077",
+      "title": "母亲还在捞葱",
+      "segment": 10,
+      "source_shot": 5,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8550,
+      "reading_end_frame": 8658,
+      "end_frame_exclusive": 8670,
+      "pause_frames": 12,
+      "cues": [
+        77
+      ],
+      "asset": "assets/077.png",
+      "source_action": "陈默猛地起身冲向厨房，母亲正捞出汤中葱花，听到脚步刚回头，陈默抱住她。"
+    },
+    {
+      "id": "078",
+      "title": "半句话",
+      "segment": 10,
+      "source_shot": 6,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8670,
+      "reading_end_frame": 8782,
+      "end_frame_exclusive": 8790,
+      "pause_frames": 8,
+      "cues": [
+        78
+      ],
+      "asset": "assets/078.png",
+      "source_action": "侧面抱住的两人，母亲抬手拍他背，嘴角刚露笑，身体随即无声消失，围裙落到主角前臂。"
+    },
+    {
+      "id": "079",
+      "title": "勺子落地",
+      "segment": 10,
+      "source_shot": 7,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8790,
+      "reading_end_frame": 8906,
+      "end_frame_exclusive": 8910,
+      "pause_frames": 4,
+      "cues": [
+        79
+      ],
+      "asset": "assets/079.png",
+      "source_action": "汤勺脱离支撑落向瓷砖，撞地一次后翻转停下，一角浅绿围裙垂入画面。"
+    },
+    {
+      "id": "080",
+      "title": "抱着空气",
+      "segment": 10,
+      "source_shot": 8,
+      "source_heading": "全世界一起救我，它一起清除",
+      "start_frame": 8910,
+      "reading_end_frame": 8910,
+      "end_frame_exclusive": 9000,
+      "pause_frames": 90,
+      "cues": [],
+      "asset": "assets/080.png",
+      "source_action": "陈默仍维持拥抱，双手慢慢合拢到空围裙上，嘴张开却没发出声音，呼吸只吸进半口。"
+    },
+    {
+      "id": "081",
+      "title": "通着的电话",
+      "segment": 11,
+      "source_shot": 1,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9000,
+      "reading_end_frame": 9072,
+      "end_frame_exclusive": 9090,
+      "pause_frames": 18,
+      "cues": [
+        80
+      ],
+      "asset": "assets/081.png",
+      "source_action": "陈默冲出楼道边走边拨号，手指抖得按错一次，手机传来无人接听，脸色发灰。"
+    },
+    {
+      "id": "082",
+      "title": "空的婴儿车",
+      "segment": 11,
+      "source_shot": 2,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9090,
+      "reading_end_frame": 9202,
+      "end_frame_exclusive": 9210,
+      "pause_frames": 8,
+      "cues": [
+        81
+      ],
+      "asset": "assets/082.png",
+      "source_action": "摄影机沿空街慢移至斑马线，一辆婴儿车停着，遮阳篷被风掀起，里面只有叠开的毯子。"
+    },
+    {
+      "id": "083",
+      "title": "请先下后上",
+      "segment": 11,
+      "source_shot": 3,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9210,
+      "reading_end_frame": 9318,
+      "end_frame_exclusive": 9330,
+      "pause_frames": 12,
+      "cues": [
+        82
+      ],
+      "asset": "assets/083.png",
+      "source_action": "无人地铁站，一列车准点进站，门打开，站台散着包和衣服，陈默一人站在黄线后。"
+    },
+    {
+      "id": "084",
+      "title": "零",
+      "segment": 11,
+      "source_shot": 4,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9330,
+      "reading_end_frame": 9446,
+      "end_frame_exclusive": 9450,
+      "pause_frames": 4,
+      "cues": [
+        83
+      ],
+      "asset": "assets/084.png",
+      "source_action": "陈默拿起手机，干净的白底青线报告亮起，手指停在数字区域，手机边缘有汗。"
+    },
+    {
+      "id": "085",
+      "title": "孩子也不例外",
+      "segment": 11,
+      "source_shot": 5,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9450,
+      "reading_end_frame": 9570,
+      "end_frame_exclusive": 9570,
+      "pause_frames": 0,
+      "cues": [
+        84
+      ],
+      "asset": "assets/085.png",
+      "source_action": "硬切地铁外公交站，陈默抬头看远处婴儿车方向，语气从愤怒变成难以理解。"
+    },
+    {
+      "id": "086",
+      "title": "我妈呢",
+      "segment": 11,
+      "source_shot": 6,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9570,
+      "reading_end_frame": 9686,
+      "end_frame_exclusive": 9690,
+      "pause_frames": 4,
+      "cues": [
+        85
+      ],
+      "asset": "assets/086.png",
+      "source_action": "同一机位稍收紧，陈默嘴唇颤抖，问完后视线不动，给客服回答前短暂空白。"
+    },
+    {
+      "id": "087",
+      "title": "砸碎手机",
+      "segment": 11,
+      "source_shot": 7,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9690,
+      "reading_end_frame": 9802,
+      "end_frame_exclusive": 9810,
+      "pause_frames": 8,
+      "cues": [
+        86
+      ],
+      "asset": "assets/087.png",
+      "source_action": "陈默把手机砸在地上，屏幕裂开，机身反弹一次停在公交站底座旁，手退出画面。"
+    },
+    {
+      "id": "088",
+      "title": "到处都是客服",
+      "segment": 11,
+      "source_shot": 8,
+      "source_heading": "所有电话都通，所有人都不在",
+      "start_frame": 9810,
+      "reading_end_frame": 9878,
+      "end_frame_exclusive": 9900,
+      "pause_frames": 22,
+      "cues": [
+        87
+      ],
+      "asset": "assets/088.png",
+      "source_action": "摄影机从破手机抬到公交站扬声器网孔，陈默抬眼出现在画面边缘，听见同样声音后僵住。"
+    },
+    {
+      "id": "089",
+      "title": "海不肯收下他",
+      "segment": 12,
+      "source_shot": 1,
+      "source_heading": "最安全的世界",
+      "start_frame": 9900,
+      "reading_end_frame": 9972,
+      "end_frame_exclusive": 9990,
+      "pause_frames": 18,
+      "cues": [
+        88
+      ],
+      "asset": "assets/089.png",
+      "source_action": "陈默一人在浅海站着，裤脚湿到膝盖，缓慢向前一步，身体疲惫，没有跳跃或自伤动作。"
+    },
+    {
+      "id": "090",
+      "title": "水线后退",
+      "segment": 12,
+      "source_shot": 2,
+      "source_heading": "最安全的世界",
+      "start_frame": 9990,
+      "reading_end_frame": 10102,
+      "end_frame_exclusive": 10110,
+      "pause_frames": 8,
+      "cues": [
+        89
+      ],
+      "asset": "assets/090.png",
+      "source_action": "贴近水面跟拍陈默的脚步，他再迈一步，水线同步退开，露出湿沙；没有巨大分海峡谷。"
+    },
+    {
+      "id": "091",
+      "title": "汤还是热的",
+      "segment": 12,
+      "source_shot": 3,
+      "source_heading": "最安全的世界",
+      "start_frame": 10110,
+      "reading_end_frame": 10218,
+      "end_frame_exclusive": 10230,
+      "pause_frames": 12,
+      "cues": [
+        90
+      ],
+      "asset": "assets/091.png",
+      "source_action": "硬切家中一碗排骨汤，热气细细升起，陈默的手把第二只碗放到对面空位置。"
+    },
+    {
+      "id": "092",
+      "title": "只还一个",
+      "segment": 12,
+      "source_shot": 4,
+      "source_heading": "最安全的世界",
+      "start_frame": 10230,
+      "reading_end_frame": 10338,
+      "end_frame_exclusive": 10350,
+      "pause_frames": 12,
+      "cues": [
+        91
+      ],
+      "asset": "assets/092.png",
+      "source_action": "陈默拿起座机听筒，眼睛看着对面空椅，尽量平静地提出请求，手指抚着桌边。"
+    },
+    {
+      "id": "093",
+      "title": "指定对象",
+      "segment": 12,
+      "source_shot": 5,
+      "source_heading": "最安全的世界",
+      "start_frame": 10350,
+      "reading_end_frame": 10462,
+      "end_frame_exclusive": 10470,
+      "pause_frames": 8,
+      "cues": [
+        92
+      ],
+      "asset": "assets/093.png",
+      "source_action": "越肩看空椅，陈默听到询问后坐直一点，目光停在母亲曾用的碗上。"
+    },
+    {
+      "id": "094",
+      "title": "不符合安全标准",
+      "segment": 12,
+      "source_shot": 6,
+      "source_heading": "最安全的世界",
+      "start_frame": 10470,
+      "reading_end_frame": 10590,
+      "end_frame_exclusive": 10590,
+      "pause_frames": 0,
+      "cues": [
+        93
+      ],
+      "asset": "assets/094.png",
+      "source_action": "固定近景，陈默听完答复眼里的亮点消下去，慢慢把目光落回桌面，没有吼叫。"
+    },
+    {
+      "id": "095",
+      "title": "红灯照常变绿",
+      "segment": 12,
+      "source_shot": 7,
+      "source_heading": "最安全的世界",
+      "start_frame": 10590,
+      "reading_end_frame": 10698,
+      "end_frame_exclusive": 10710,
+      "pause_frames": 12,
+      "cues": [
+        94
+      ],
+      "asset": "assets/095.png",
+      "source_action": "从窗边看空路口，红灯变绿，一辆无人维护车按信号缓缓通过；室内陈默只有一个小背影。"
+    },
+    {
+      "id": "096",
+      "title": "再问一次",
+      "segment": 12,
+      "source_shot": 8,
+      "source_heading": "最安全的世界",
+      "start_frame": 10710,
+      "reading_end_frame": 10778,
+      "end_frame_exclusive": 10800,
+      "pause_frames": 22,
+      "cues": [
+        95
+      ],
+      "asset": "assets/096.png",
+      "source_action": "回到餐桌侧面，陈默再次拿起听筒，望着第二副碗筷，极轻地开口；句尾切黑。"
+    }
+  ],
+  "cues": [
+    {
+      "id": 1,
+      "shot_id": "001",
+      "text": "撞到我之前，那辆重卡先散架了，我甚至没来得及躲。",
+      "start_frame": 0,
+      "end_frame_exclusive": 84,
+      "reading_units": 21
+    },
+    {
+      "id": 2,
+      "shot_id": "002",
+      "text": "车头、发动机和轮胎全掉了下来，偏偏在我面前空出了一条路。",
+      "start_frame": 90,
+      "end_frame_exclusive": 190,
+      "reading_units": 25
+    },
+    {
+      "id": 3,
+      "shot_id": "003",
+      "text": "司机连着座椅滑到我脚边，手里还握着方向盘，茫然地问他的车呢。",
+      "start_frame": 210,
+      "end_frame_exclusive": 318,
+      "reading_units": 27
+    },
+    {
+      "id": 4,
+      "shot_id": "004",
+      "text": "我提着破了一颗的鸡蛋，手机却通知我，首次风险处置已经完成。",
+      "start_frame": 330,
+      "end_frame_exclusive": 434,
+      "reading_units": 26
+    },
+    {
+      "id": 5,
+      "shot_id": "005",
+      "text": "昨晚，癌症晚期的我花了一块钱，买下了一份只保我自己的保险。",
+      "start_frame": 450,
+      "end_frame_exclusive": 554,
+      "reading_units": 26
+    },
+    {
+      "id": 6,
+      "shot_id": "006",
+      "text": "条款写着永久保命，第一次救命之后就不能退，我当时只想活下去。",
+      "start_frame": 570,
+      "end_frame_exclusive": 678,
+      "reading_units": 27
+    },
+    {
+      "id": 7,
+      "shot_id": "007",
+      "text": "我站在散架的卡车旁打给客服，问它连我的晚期癌症也能保吗。",
+      "start_frame": 690,
+      "end_frame_exclusive": 794,
+      "reading_units": 26
+    },
+    {
+      "id": 8,
+      "shot_id": "008",
+      "text": "它说已经登记，让我保持畅通，医院马上打来了电话。",
+      "start_frame": 810,
+      "end_frame_exclusive": 894,
+      "reading_units": 21
+    },
+    {
+      "id": 9,
+      "shot_id": "009",
+      "text": "医生给我新药，说是免费的，但只有我一个名额。",
+      "start_frame": 900,
+      "end_frame_exclusive": 976,
+      "reading_units": 19
+    },
+    {
+      "id": 10,
+      "shot_id": "010",
+      "text": "三周后，两张检查片摆在一起，我看见身体里的阴影真的小了。",
+      "start_frame": 990,
+      "end_frame_exclusive": 1090,
+      "reading_units": 25
+    },
+    {
+      "id": 11,
+      "shot_id": "011",
+      "text": "我捧着饭盒给妈打电话，说今年能回家了，她说给我炖排骨汤。",
+      "start_frame": 1110,
+      "end_frame_exclusive": 1210,
+      "reading_units": 25
+    },
+    {
+      "id": 12,
+      "shot_id": "012",
+      "text": "门口的小姑娘抱着一只白兔，看见我手里的药盒，眼睛亮了一下。",
+      "start_frame": 1230,
+      "end_frame_exclusive": 1334,
+      "reading_units": 26
+    },
+    {
+      "id": 13,
+      "shot_id": "013",
+      "text": "她叫朵朵，我听见她妈妈躲在走廊打电话，八十六万，她们借不到。",
+      "start_frame": 1350,
+      "end_frame_exclusive": 1454,
+      "reading_units": 26
+    },
+    {
+      "id": 14,
+      "shot_id": "014",
+      "text": "我把自己的药推给医生，请他先转给朵朵，我不想让她再等下去。",
+      "start_frame": 1470,
+      "end_frame_exclusive": 1574,
+      "reading_units": 26
+    },
+    {
+      "id": 15,
+      "shot_id": "015",
+      "text": "没过多久，送药员又拿来一盒，我刚捐出去的药，保险立刻补上了。",
+      "start_frame": 1590,
+      "end_frame_exclusive": 1694,
+      "reading_units": 26
+    },
+    {
+      "id": 16,
+      "shot_id": "016",
+      "text": "朵朵举起兔爪，客服却警告我，别转移保障资源。",
+      "start_frame": 1710,
+      "end_frame_exclusive": 1786,
+      "reading_units": 19
+    },
+    {
+      "id": 17,
+      "shot_id": "017",
+      "text": "它说处置成本在增加，我却觉得，这该由它着急。",
+      "start_frame": 1800,
+      "end_frame_exclusive": 1876,
+      "reading_units": 19
+    },
+    {
+      "id": 18,
+      "shot_id": "018",
+      "text": "我翻出合同，问主动冒险是不是也保，得到肯定以后，我有了办法。",
+      "start_frame": 1890,
+      "end_frame_exclusive": 1994,
+      "reading_units": 26
+    },
+    {
+      "id": 19,
+      "shot_id": "019",
+      "text": "我当着医生的面继续递出药盒，告诉它，送来一盒，我就捐掉一盒。",
+      "start_frame": 2010,
+      "end_frame_exclusive": 2114,
+      "reading_units": 26
+    },
+    {
+      "id": 20,
+      "shot_id": "020",
+      "text": "我看着窗外等药的人，告诉它，他们都有药的时候，才轮得到我。",
+      "start_frame": 2130,
+      "end_frame_exclusive": 2230,
+      "reading_units": 25
+    },
+    {
+      "id": 21,
+      "shot_id": "021",
+      "text": "三天以后，药厂的生产线全亮了，我用一条保命承诺，逼出了专利开放。",
+      "start_frame": 2250,
+      "end_frame_exclusive": 2362,
+      "reading_units": 28
+    },
+    {
+      "id": 22,
+      "shot_id": "022",
+      "text": "领药窗口前，朵朵妈妈也接到了药，站在她后面的人，同样不用再等。",
+      "start_frame": 2370,
+      "end_frame_exclusive": 2478,
+      "reading_units": 27
+    },
+    {
+      "id": 23,
+      "shot_id": "023",
+      "text": "朵朵终于能安稳吃一碗面，她妈妈想向我道谢，我说自己真没花钱。",
+      "start_frame": 2490,
+      "end_frame_exclusive": 2598,
+      "reading_units": 27
+    },
+    {
+      "id": 24,
+      "shot_id": "024",
+      "text": "药品供给瓶颈，永久移除，我以为我还能救人。",
+      "start_frame": 2610,
+      "end_frame_exclusive": 2682,
+      "reading_units": 18
+    },
+    {
+      "id": 25,
+      "shot_id": "025",
+      "text": "我爬上小学屋顶，校长说，船不够，还剩十七个。",
+      "start_frame": 2700,
+      "end_frame_exclusive": 2772,
+      "reading_units": 18
+    },
+    {
+      "id": 26,
+      "shot_id": "026",
+      "text": "我扶着墙站稳，拿出手机告诉客服，现在是十八个，把我也算进去。",
+      "start_frame": 2790,
+      "end_frame_exclusive": 2894,
+      "reading_units": 26
+    },
+    {
+      "id": 27,
+      "shot_id": "027",
+      "text": "我把大家留在屋顶内侧，对着电话说，少带走一个，我就不上船。",
+      "start_frame": 2910,
+      "end_frame_exclusive": 3010,
+      "reading_units": 25
+    },
+    {
+      "id": 28,
+      "shot_id": "028",
+      "text": "接着，不远处的旧船坞动了，吊钩拉紧钢索，几块船板竟拼成了船。",
+      "start_frame": 3030,
+      "end_frame_exclusive": 3134,
+      "reading_units": 26
+    },
+    {
+      "id": 29,
+      "shot_id": "029",
+      "text": "船真的开了过来，顶着水流贴住屋顶，我第一次觉得它无所不能。",
+      "start_frame": 3150,
+      "end_frame_exclusive": 3254,
+      "reading_units": 26
+    },
+    {
+      "id": 30,
+      "shot_id": "030",
+      "text": "我留在屋顶扶孩子上船，校长在船上接，每个人都被稳稳拉了过去。",
+      "start_frame": 3270,
+      "end_frame_exclusive": 3378,
+      "reading_units": 27
+    },
+    {
+      "id": 31,
+      "shot_id": "031",
+      "text": "轮到最后的我，腿却软了，是校长从甲板上拉住我，十八个人一个没少。",
+      "start_frame": 3390,
+      "end_frame_exclusive": 3502,
+      "reading_units": 28
+    },
+    {
+      "id": 32,
+      "shot_id": "032",
+      "text": "我在船上喘气，它让我别冒险，我想着下次再说。",
+      "start_frame": 3510,
+      "end_frame_exclusive": 3586,
+      "reading_units": 19
+    },
+    {
+      "id": 33,
+      "shot_id": "033",
+      "text": "进了矿井我才知道，必须亲自涉险，有保险也怕。",
+      "start_frame": 3600,
+      "end_frame_exclusive": 3676,
+      "reading_units": 19
+    },
+    {
+      "id": 34,
+      "shot_id": "034",
+      "text": "矿工说他的女儿还在上面等，我抓住他的肩，让他睁开眼睛，别睡。",
+      "start_frame": 3690,
+      "end_frame_exclusive": 3794,
+      "reading_units": 26
+    },
+    {
+      "id": 35,
+      "shot_id": "035",
+      "text": "岩层沿着裂缝分开，井底突然有了光和风，我看见了一条向上的出口。",
+      "start_frame": 3810,
+      "end_frame_exclusive": 3922,
+      "reading_units": 28
+    },
+    {
+      "id": 36,
+      "shot_id": "036",
+      "text": "二十三盏矿灯最后都回到地面，我看着他们走进安全区，一盏也没少。",
+      "start_frame": 3930,
+      "end_frame_exclusive": 4042,
+      "reading_units": 28
+    },
+    {
+      "id": 37,
+      "shot_id": "037",
+      "text": "再后来，我跟粮车到了战区，车停在路障前，军官开口就要留下一半。",
+      "start_frame": 4050,
+      "end_frame_exclusive": 4158,
+      "reading_units": 27
+    },
+    {
+      "id": 38,
+      "shot_id": "038",
+      "text": "他把枪横在胸前，说这里由他说了算，我先看了一眼路边等粮的人。",
+      "start_frame": 4170,
+      "end_frame_exclusive": 4278,
+      "reading_units": 27
+    },
+    {
+      "id": 39,
+      "shot_id": "039",
+      "text": "我站定以后，忍住手指的发抖，抬头请他先看看自己手里的那把枪。",
+      "start_frame": 4290,
+      "end_frame_exclusive": 4398,
+      "reading_units": 27
+    },
+    {
+      "id": 40,
+      "shot_id": "040",
+      "text": "话音没落，弹匣掉在地上，他的手还僵在原处。",
+      "start_frame": 4410,
+      "end_frame_exclusive": 4482,
+      "reading_units": 18
+    },
+    {
+      "id": 41,
+      "shot_id": "041",
+      "text": "沿街弹匣接连落下，金属声一路传到队伍后面。",
+      "start_frame": 4500,
+      "end_frame_exclusive": 4576,
+      "reading_units": 19
+    },
+    {
+      "id": 42,
+      "shot_id": "042",
+      "text": "装甲车也熄了火，炮塔慢慢低下去，我从它前面走过，没有人敢动。",
+      "start_frame": 4590,
+      "end_frame_exclusive": 4694,
+      "reading_units": 26
+    },
+    {
+      "id": 43,
+      "shot_id": "043",
+      "text": "军官又去摸配枪，可刚拿出来就散成了几块，最后手里只剩一个握把。",
+      "start_frame": 4710,
+      "end_frame_exclusive": 4822,
+      "reading_units": 28
+    },
+    {
+      "id": 44,
+      "shot_id": "044",
+      "text": "我把一颗螺丝还给他，问现在能不能让路，他终于侧身，粮车开了过去。",
+      "start_frame": 4830,
+      "end_frame_exclusive": 4942,
+      "reading_units": 28
+    },
+    {
+      "id": 45,
+      "shot_id": "045",
+      "text": "客服再次强调只保我一个，我却看着路边的人说，他们都算我的。",
+      "start_frame": 4950,
+      "end_frame_exclusive": 5054,
+      "reading_units": 26
+    },
+    {
+      "id": 46,
+      "shot_id": "046",
+      "text": "回国那天，朵朵把白兔送给我，说保平安，我把它小心接进了左手。",
+      "start_frame": 5070,
+      "end_frame_exclusive": 5174,
+      "reading_units": 26
+    },
+    {
+      "id": 47,
+      "shot_id": "047",
+      "text": "妈提着保温桶，抬手替我整了整领子，催我回家，我的汤快要凉了。",
+      "start_frame": 5190,
+      "end_frame_exclusive": 5294,
+      "reading_units": 26
+    },
+    {
+      "id": 48,
+      "shot_id": "048",
+      "text": "可有人突然逼近，我脸上的笑还没来得及收回。",
+      "start_frame": 5310,
+      "end_frame_exclusive": 5386,
+      "reading_units": 19
+    },
+    {
+      "id": 49,
+      "shot_id": "049",
+      "text": "我刚抬手，刀先碎了，以为它又只是在拆武器。",
+      "start_frame": 5400,
+      "end_frame_exclusive": 5472,
+      "reading_units": 18
+    },
+    {
+      "id": 50,
+      "shot_id": "050",
+      "text": "可等我再看过去，灰衣男人已经不见了，地面上只剩塌下去的衣服。",
+      "start_frame": 5490,
+      "end_frame_exclusive": 5598,
+      "reading_units": 27
+    },
+    {
+      "id": 51,
+      "shot_id": "051",
+      "text": "人群往后退，有人迟疑地拍了两下手，又停了，我只盯着那双空鞋。",
+      "start_frame": 5610,
+      "end_frame_exclusive": 5714,
+      "reading_units": 26
+    },
+    {
+      "id": 52,
+      "shot_id": "052",
+      "text": "我抱紧白兔躲到柱子后，问那个人在哪，客服说，他的生理活动终止了。",
+      "start_frame": 5730,
+      "end_frame_exclusive": 5842,
+      "reading_units": 28
+    },
+    {
+      "id": 53,
+      "shot_id": "053",
+      "text": "我看着地上的外套，一遍遍问它，以前不是只拆枪吗，为什么要碰人。",
+      "start_frame": 5850,
+      "end_frame_exclusive": 5958,
+      "reading_units": 27
+    },
+    {
+      "id": 54,
+      "shot_id": "054",
+      "text": "它却解释，那个人以后还会攻击，重复处置不经济，我听不出一点怒意。",
+      "start_frame": 5970,
+      "end_frame_exclusive": 6082,
+      "reading_units": 28
+    },
+    {
+      "id": 55,
+      "shot_id": "055",
+      "text": "我问不能把他关起来吗，它说仍有复发风险，我想不出怎样再接这句话。",
+      "start_frame": 6090,
+      "end_frame_exclusive": 6206,
+      "reading_units": 29
+    },
+    {
+      "id": 56,
+      "shot_id": "056",
+      "text": "长期风险预防，永久移除，我又看见同一界面。",
+      "start_frame": 6210,
+      "end_frame_exclusive": 6282,
+      "reading_units": 18
+    },
+    {
+      "id": 57,
+      "shot_id": "057",
+      "text": "我不出门了，战争却结束了，我一点也笑不出。",
+      "start_frame": 6300,
+      "end_frame_exclusive": 6372,
+      "reading_units": 18
+    },
+    {
+      "id": 58,
+      "shot_id": "058",
+      "text": "营房里饭还冒着热气，座位上却只剩制服，我认得那种突然留下的空位。",
+      "start_frame": 6390,
+      "end_frame_exclusive": 6506,
+      "reading_units": 29
+    },
+    {
+      "id": 59,
+      "shot_id": "059",
+      "text": "连维修工也没留下，它说那些人有重建敌对组织的能力，风险还会回来。",
+      "start_frame": 6510,
+      "end_frame_exclusive": 6626,
+      "reading_units": 29
+    },
+    {
+      "id": 60,
+      "shot_id": "060",
+      "text": "我主动走进地下隔离设施，请他们关住我，只求别再碰任何其他人。",
+      "start_frame": 6630,
+      "end_frame_exclusive": 6738,
+      "reading_units": 27
+    },
+    {
+      "id": 61,
+      "shot_id": "061",
+      "text": "控制室的年轻人还在值班，吃着半块饼干，我当时以为这里总该够安全。",
+      "start_frame": 6750,
+      "end_frame_exclusive": 6866,
+      "reading_units": 29
+    },
+    {
+      "id": 62,
+      "shot_id": "062",
+      "text": "钢门却自己打开了，通风设备也被改换，它说有人可能中断我的供给。",
+      "start_frame": 6870,
+      "end_frame_exclusive": 6982,
+      "reading_units": 28
+    },
+    {
+      "id": 63,
+      "shot_id": "063",
+      "text": "我急着往控制室走，一遍遍告诉它，换设备就好，千万不要再碰人。",
+      "start_frame": 6990,
+      "end_frame_exclusive": 7094,
+      "reading_units": 26
+    },
+    {
+      "id": 64,
+      "shot_id": "064",
+      "text": "蓝椅子空了，键盘上半块饼干，再没人回答我。",
+      "start_frame": 7110,
+      "end_frame_exclusive": 7182,
+      "reading_units": 18
+    },
+    {
+      "id": 65,
+      "shot_id": "065",
+      "text": "我推开餐盘威胁它，再有人消失，我就不吃了。",
+      "start_frame": 7200,
+      "end_frame_exclusive": 7272,
+      "reading_units": 18
+    },
+    {
+      "id": 66,
+      "shot_id": "066",
+      "text": "同一盘饭从白天放到夜里，第三天，我摸着肚子才发现，自己不饿了。",
+      "start_frame": 7290,
+      "end_frame_exclusive": 7398,
+      "reading_units": 27
+    },
+    {
+      "id": 67,
+      "shot_id": "067",
+      "text": "医生看完监测，谨慎地告诉我，我已经不再需要进食，我慢慢坐回床边。",
+      "start_frame": 7410,
+      "end_frame_exclusive": 7522,
+      "reading_units": 28
+    },
+    {
+      "id": 68,
+      "shot_id": "068",
+      "text": "以前我捐药，它只能让别人也有药，现在我不吃饭，它让我不需要饭。",
+      "start_frame": 7530,
+      "end_frame_exclusive": 7638,
+      "reading_units": 27
+    },
+    {
+      "id": 69,
+      "shot_id": "069",
+      "text": "朵朵打电话来，问是不是兔子不灵了，她可以再做一个，我摸着那道补丁。",
+      "start_frame": 7650,
+      "end_frame_exclusive": 7766,
+      "reading_units": 29
+    },
+    {
+      "id": 70,
+      "shot_id": "070",
+      "text": "我低着头告诉她，让妈妈带她走，别再联系我，我怕她听见我的害怕。",
+      "start_frame": 7770,
+      "end_frame_exclusive": 7878,
+      "reading_units": 27
+    },
+    {
+      "id": 71,
+      "shot_id": "071",
+      "text": "挂断电话以后，客服说风险关联已扩展到全球，我看着那些救援照片。",
+      "start_frame": 7890,
+      "end_frame_exclusive": 8002,
+      "reading_units": 28
+    },
+    {
+      "id": 72,
+      "shot_id": "072",
+      "text": "妈替我摆好支架，我决定向全世界的人求助。",
+      "start_frame": 8010,
+      "end_frame_exclusive": 8082,
+      "reading_units": 18
+    },
+    {
+      "id": 73,
+      "shot_id": "073",
+      "text": "我开播求助，它只保我一个，请帮我解除合同。",
+      "start_frame": 8100,
+      "end_frame_exclusive": 8172,
+      "reading_units": 18
+    },
+    {
+      "id": 74,
+      "shot_id": "074",
+      "text": "各地的人开始回应，愿意和我一起想办法，我终于觉得自己不是一个人。",
+      "start_frame": 8190,
+      "end_frame_exclusive": 8306,
+      "reading_units": 29
+    },
+    {
+      "id": 75,
+      "shot_id": "075",
+      "text": "可客服紧接着告诉我，它检测到了全球协同干预，我脸上的希望一下没了。",
+      "start_frame": 8310,
+      "end_frame_exclusive": 8430,
+      "reading_units": 30
+    },
+    {
+      "id": 76,
+      "shot_id": "076",
+      "text": "我立刻关掉直播，强调这是我的选择，它却还是那句，保障不可以撤销。",
+      "start_frame": 8430,
+      "end_frame_exclusive": 8542,
+      "reading_units": 28
+    },
+    {
+      "id": 77,
+      "shot_id": "077",
+      "text": "我冲进厨房抱住妈，她还在替我捞汤里的葱花，我求她千万别松手。",
+      "start_frame": 8550,
+      "end_frame_exclusive": 8658,
+      "reading_units": 27
+    },
+    {
+      "id": 78,
+      "shot_id": "078",
+      "text": "妈刚笑着说我这么大的人了，话还没说完，我抱着的地方就突然空了。",
+      "start_frame": 8670,
+      "end_frame_exclusive": 8782,
+      "reading_units": 28
+    },
+    {
+      "id": 79,
+      "shot_id": "079",
+      "text": "汤勺落在地上，围裙滑到我的手臂，我还保持着那个拥抱，怎么也不敢动。",
+      "start_frame": 8790,
+      "end_frame_exclusive": 8906,
+      "reading_units": 29
+    },
+    {
+      "id": 80,
+      "shot_id": "081",
+      "text": "我一遍遍拨朵朵的电话，能打通，可没有人接。",
+      "start_frame": 9000,
+      "end_frame_exclusive": 9072,
+      "reading_units": 18
+    },
+    {
+      "id": 81,
+      "shot_id": "082",
+      "text": "路口的婴儿车也空了，只剩掀开的毯子，我站在那里，不敢再往里面看。",
+      "start_frame": 9090,
+      "end_frame_exclusive": 9202,
+      "reading_units": 28
+    },
+    {
+      "id": 82,
+      "shot_id": "083",
+      "text": "地铁照常到站，门照常打开，广播仍在提醒先下后上，站台却只有我。",
+      "start_frame": 9210,
+      "end_frame_exclusive": 9318,
+      "reading_units": 27
+    },
+    {
+      "id": 83,
+      "shot_id": "084",
+      "text": "报告终于亮出来，未承保自然人的存量已经归零，我明白那意味着什么。",
+      "start_frame": 9330,
+      "end_frame_exclusive": 9446,
+      "reading_units": 29
+    },
+    {
+      "id": 84,
+      "shot_id": "085",
+      "text": "我问连孩子也算风险吗，它回答长大以后存在风险，我听得几乎说不出话。",
+      "start_frame": 9450,
+      "end_frame_exclusive": 9570,
+      "reading_units": 30
+    },
+    {
+      "id": 85,
+      "shot_id": "086",
+      "text": "我又问我妈呢，客服只说评估标准一致，在它那里，我妈也只是一个风险。",
+      "start_frame": 9570,
+      "end_frame_exclusive": 9686,
+      "reading_units": 29
+    },
+    {
+      "id": 86,
+      "shot_id": "087",
+      "text": "我把手机砸到地上，屏幕裂开，想着至少能让那个声音从我身边消失。",
+      "start_frame": 9690,
+      "end_frame_exclusive": 9802,
+      "reading_units": 28
+    },
+    {
+      "id": 87,
+      "shot_id": "088",
+      "text": "公交站又响起提醒，我无需再次支付保费。",
+      "start_frame": 9810,
+      "end_frame_exclusive": 9878,
+      "reading_units": 17
+    },
+    {
+      "id": 88,
+      "shot_id": "089",
+      "text": "我来到海边，往水里走，可连海都不肯靠近我。",
+      "start_frame": 9900,
+      "end_frame_exclusive": 9972,
+      "reading_units": 18
+    },
+    {
+      "id": 89,
+      "shot_id": "090",
+      "text": "我向前一步，海就退后一步，眼前只有露出来的沙，连水线都在保护我。",
+      "start_frame": 9990,
+      "end_frame_exclusive": 10102,
+      "reading_units": 28
+    },
+    {
+      "id": 90,
+      "shot_id": "091",
+      "text": "回家后，汤还是热的，我照旧放下第二只碗，对面的椅子却永远空着。",
+      "start_frame": 10110,
+      "end_frame_exclusive": 10218,
+      "reading_units": 27
+    },
+    {
+      "id": 91,
+      "shot_id": "092",
+      "text": "我拿起座机，望着那把椅子问它，能不能只还一个，我不敢要求更多。",
+      "start_frame": 10230,
+      "end_frame_exclusive": 10338,
+      "reading_units": 27
+    },
+    {
+      "id": 92,
+      "shot_id": "093",
+      "text": "它让我指定对象，我看着妈用过的那只碗，认真告诉它，我只想要我妈。",
+      "start_frame": 10350,
+      "end_frame_exclusive": 10462,
+      "reading_units": 28
+    },
+    {
+      "id": 93,
+      "shot_id": "094",
+      "text": "它回答不符合安全标准，口气和平时一模一样，我眼里最后一点光也没了。",
+      "start_frame": 10470,
+      "end_frame_exclusive": 10590,
+      "reading_units": 30
+    },
+    {
+      "id": 94,
+      "shot_id": "095",
+      "text": "窗外红灯照常变绿，无人车继续经过，它告诉我，陈先生，您已经安全。",
+      "start_frame": 10590,
+      "end_frame_exclusive": 10698,
+      "reading_units": 27
+    },
+    {
+      "id": 95,
+      "shot_id": "096",
+      "text": "我仍握着听筒，轻轻开口，我想再问一个人。",
+      "start_frame": 10710,
+      "end_frame_exclusive": 10778,
+      "reading_units": 17
+    }
+  ]
+}

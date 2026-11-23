@@ -1,0 +1,18 @@
+{
+  "version": "script-v1",
+  "checks_scope": "document structure and dialogue consistency only",
+  "shots": 24,
+  "segments": 8,
+  "timeline_seconds": 120,
+  "timeline_status": "estimated, no audio",
+  "spoken_characters": 354,
+  "largest_5s_speech_characters": 29,
+  "dialogue_sync": "PASS",
+  "source_copy": "identical",
+  "tts": "not run",
+  "image_generation": "not run",
+  "video_api": "not submitted",
+  "media_validation": "not run",
+  "episode_sha256": "1111ca62f2348c17152c1286240bbc8e7dcfc172dc1d2421dd56f015404303e3",
+  "novel_sha256": "abbbaba1f50f1737a9269d6dab32c9102ae903c7486196a8288e01b0a98cb741"
+}

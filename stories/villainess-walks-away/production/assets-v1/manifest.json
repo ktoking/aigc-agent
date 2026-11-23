@@ -1,0 +1,537 @@
+{
+  "version": "assets-v1",
+  "date": "2026-10-29",
+  "mode": "built-in imagegen",
+  "generated_count": 31,
+  "source_reference": "assets/style/user-style-reference-v1.png",
+  "assets": [
+    {
+      "id": "XIE",
+      "path": "assets/characters/XIE/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-e6fb76e3-0c1d-4d10-b802-4b16f1f4e88b.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Match input image1 as STYLE ONLY: premium semi-realistic Chinese 3D romance animation, refined adult proportions, natural skin with soft subtle pores, beautifully grouped hair strands, brown realistic eyes, restrained expression, warm gold rim light and soft neutral key. One coherent landscape 3:2 character-reference board, dark warm-gray seamless studio. Large face-and-shoulders portrait on left, three smaller full-body front, side and rear views of SAME character on right, shoes visible, clean spacing. No labels, lettering, watermark, no grids or tiny texture, no plastic skin or anime huge eyes. Deliberately create a DISTINCT facial identity, do not reuse the input man's face. Subject: 谢闻川 Xie Wenchuan, Chinese adult male29, heart surgeon. Slightly longer oval face, slender refined nose, gentle narrow brown eyes, composed tender gaze; cool ash-brown neatly swept short hair, no gray old-man appearance. White doctor's coat over pale-gray collar shirt, charcoal tailored trousers, black clean shoes. Slim elegant physique; no stethoscope needed, no medical gloves, no blood, no mask. Distinct from the masculine angular input face.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "bac9577888737a6027c82444202289e894f6302494bce0ae4cdc9685777ca4ed",
+      "bytes": 2187590,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "LIN",
+      "path": "assets/characters/LIN/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-39784ef9-c5ad-4d8e-8505-f8234c81121e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Match input image1 as STYLE ONLY: premium semi-realistic Chinese 3D romance animation, refined adult proportions, natural skin with soft subtle pores, beautifully grouped hair strands, brown realistic eyes, restrained expression, warm gold rim light and soft neutral key. One coherent landscape 3:2 character-reference board, dark warm-gray seamless studio. Large face-and-shoulders portrait on left, three smaller full-body front, side and rear views of SAME character on right, shoes visible, clean spacing. No labels, lettering, watermark, no grids or tiny texture, no plastic skin or anime huge eyes. Deliberately create a DISTINCT facial identity, do not reuse the input man's face. Subject: 林栀 Lin Zhi, Chinese adult woman26, independent designer. Shoulder-length straight dark brown bob with tucked ear, soft blunt ends, warm brown round-almond eyes, modest natural oval face, thoughtful alert expression. Pale-blue cotton shirt tucked into beige straight-leg trousers, dark brown flat loafers, no handbag or tools. Distinct identity from the long-haired female lead; confident professional adult, no childish features.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "60a8550d2a51a1002b9d85bbeeea0fdef6a4b0734796ef2995c1493553531839",
+      "bytes": 2338806,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "GU",
+      "path": "assets/characters/GU/reference-v1.png",
+      "prompt": "Use case: stylized-concept. Premium Chinese romantic 3D cinematic character render. Match the input's semi-realistic 3D male beauty aesthetics, refined adult anatomy, lifelike soft skin, subtle pores not over-textured, individually grouped hair strands, restrained brown eyes, warm gold rim light, cinematic soft key light. Clean large forms, matte materials, no plastic skin, no anime huge eyes, no excessive sharpness, no text or watermark. Input image1 is aesthetic reference; create Gu Yanci, distinct handsome Chinese adult man age29, mature defined jaw, dark brown eyes, neat black side-part short hair with a few soft strands, restrained cool demeanor. Dark charcoal tailored suit, white shirt, slim black tie, black leather oxford shoes. Single coherent character reference board, landscape 3:2, dark warm-gray seamless studio backdrop. Large expressive face-and-shoulder portrait on left, three smaller full-body front side rear views of SAME man on right, no text no labels, shoes visible. Maintain same facial identity throughout, elegant tall realistic physique, not excessively muscular. Warm golden edge light with soft neutral face illumination matching the input, no blue cyberpunk lighting, no accessories or props.",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-7f5c574f-3b89-428e-ad39-2aa9bf29a649.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966",
+      "bytes": 2205266,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "PEI",
+      "path": "assets/characters/PEI/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-7855f0ad-3d3e-40bd-81a1-3505812bf406.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Match input image1 as STYLE ONLY: premium semi-realistic Chinese 3D romance animation, refined adult proportions, natural skin with soft subtle pores, beautifully grouped hair strands, brown realistic eyes, restrained expression, warm gold rim light and soft neutral key. One coherent landscape 3:2 character-reference board, dark warm-gray seamless studio. Large face-and-shoulders portrait on left, three smaller full-body front, side and rear views of SAME character on right, shoes visible, clean spacing. No labels, lettering, watermark, no grids or tiny texture, no plastic skin or anime huge eyes. Deliberately create a DISTINCT facial identity, do not reuse the input man's face. Subject: 裴既明 Pei Jiming, Chinese adult male27, celebrated pop singer. Vibrant medium auburn reddish-brown softly tousled hair, clearly distinct from black-haired actors, sharper fox-like brown eyes, lively asymmetric but restrained half-smile, subtly arched brows, youthful adult defined cheekbones. Black modern minimal jacket over charcoal T shirt, slim black trousers, black boots, one small silver ear stud. No makeup glitter, no instruments or sunglasses. Lean tall adult physique, confident direct gaze.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "bffff0a08b0cc92dfab0bca7727725da05de3407b9762cdb47b36380c8ace10f",
+      "bytes": 2186927,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "SU_GOWN",
+      "path": "assets/characters/SU/reference-gown-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-55d7194b-65d1-4a1f-a79f-2507a430e74e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is exact identity and board layout reference. Preserve SAME female face, brown eyes, long middle-parted black hair, age24, silver studs and body proportions. Change ONLY clothing: elegant black floor-length sleeveless formal evening gown with modest square neckline, tailored flowing satin skirt, black modest heels. No fire or smoke on this wardrobe reference, no jewelry besides existing studs, no ring. Landscape 3:2 coherent reference board large portrait left, same woman front side back fullbody right. Dark warm-gray seamless studio. Do not create another identity.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "e8a72fa3597c42454efbf981ec90a649f3091338c97fac22bf361daaa5641ff4",
+      "bytes": 2175123,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "SU",
+      "path": "assets/characters/SU/reference-sleepwear-v1.png",
+      "prompt": "Use case: stylized-concept. Premium Chinese romantic 3D cinematic character render. Match the input's semi-realistic 3D male beauty aesthetics, refined adult anatomy, lifelike soft skin, subtle pores not over-textured, individually grouped hair strands, restrained brown eyes, warm gold rim light, cinematic soft key light. Clean large forms, matte materials, no plastic skin, no anime huge eyes, no excessive sharpness, no text or watermark. Input image 1 is STYLE ONLY, do not reproduce its male subject. Generate a single coherent female character reference board, landscape 3:2, elegant warm charcoal seamless studio backdrop. Su Wantang, Chinese adult woman 24 nearly25, black long middle-parted hair reaching chest, brown almond eyes, softly tapered oval face, natural lips, small silver stud earrings, calm composed expression. Ivory long-sleeve modest silk sleepwear blouse and matching loose full-length pajama trousers, fully clothed, no lingerie. Layout: large beautiful face-and-shoulder portrait on left, three smaller full body front, side and rear views of THE SAME woman on right, feet fully visible, neutral poses, clear spacing no panels no labels. Face identity and hairstyle consistent across views, relaxed hands with anatomically correct fingers. No ring needed on reference board; ring is separate prop.",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-2ef2ce00-7b50-4c57-86b1-ea41200e7571.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "24c4d4fa27f8c12f8d8910f7d4c90d3647750d432f47eefb76f351f599c14f6a",
+      "bytes": 2317413,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "SU_COMMUTE",
+      "path": "assets/characters/SU/reference-commute-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-9448effd-4d97-4060-ad8f-f2b64a5c07c8.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is exact identity and board layout reference. Preserve the SAME female face, brown eyes, long middle-parted black hair, age24, silver studs and body proportions across all views. Change ONLY clothing: crisp modest white long-sleeved button blouse tucked into black high-waisted tailored straight-leg trousers, black low-heeled closed-toe shoes, no ring on either hand. Landscape 3:2 board: large beautiful face-and-shoulder portrait left; front, side, back fullbody views of same woman right; warm dark-gray seamless studio, feet and hands visible. No new character, no male.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e",
+      "bytes": 2166841,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "QIN",
+      "path": "assets/characters/QIN/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-65382186-823f-463c-b0d6-fbc2fac58dc7.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Match input image1 as STYLE ONLY: premium semi-realistic Chinese 3D romance animation, refined adult proportions, natural skin with soft subtle pores, beautifully grouped hair strands, brown realistic eyes, restrained expression, warm gold rim light and soft neutral key. One coherent landscape 3:2 character-reference board, dark warm-gray seamless studio. Large face-and-shoulders portrait on left, three smaller full-body front, side and rear views of SAME character on right, shoes visible, clean spacing. No labels, lettering, watermark, no grids or tiny texture, no plastic skin or anime huge eyes. Deliberately create a DISTINCT facial identity, do not reuse the input man's face. Subject: 秦野 Qin Ye, Chinese adult male28, private bodyguard. Athletic sturdy realistic build, broader squared jaw, straight heavy brows, close neat black crew-cut with short tapered sides, deep-set dark brown eyes, protective serious expression, visibly different more grounded facial identity from the input. Plain dark charcoal lightweight zip jacket over black crew-neck tee, black functional trousers, black simple boots, no weapons or armor. Mature rugged handsome, clean-shaven.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "6a29f46bc527234897802acf329a1ff6ee6bb3cf149329020f101749defd1310",
+      "bytes": 2212788,
+      "category": "characters",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "AGREEMENT",
+      "path": "assets/props/AGREEMENT/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-a90d55d3-0555-471d-89d8-2ac00cae6519.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 STYLE only, no people. Single coherent overhead prop asset flatlay, landscape3:2, matte dark walnut desk. Exactly TWO separate identical white A4 legal agreement copies side by side, black slim capped ballpoint pen centered below papers, ONE closed black simple document folder behind, ONE black modern smartphone to right with blank neutral dark screen. Papers have faint light-gray lines and two empty signature rules near bottom, no readable words or names, no seals, no identifiable private data. No rings or ring boxes in this prop kit. Refined cinematic 3D materials, clear silhouettes, soft warm daylight, no clutter, no duplicates beyond the two required agreement copies.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9",
+      "bytes": 2305022,
+      "category": "props",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "SYSTEM",
+      "path": "assets/props/SYSTEM/interface-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-03c158f9-5b6c-4adc-97eb-1a9d732ae44c.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Single production overlay asset for a premium Chinese 3D romance fantasy drama. Transparent background with clean alpha. Restrained fine red and soft warm-white floating holographic interface, one wide thin rectangular notification banner at top, below it four equally sized vertical profile-card frames in a row, cards EMPTY with faint neutral gray silhouettes only, and four blank tiny meter lines below cards. Minimal elegant clean strokes, subtle dimensional glass edges, soft translucent centers. Do not include the input man, no faces, no extra objects, NO readable letters or numbers at all, no logos or watermarks. Input1 is only the refined soft cinematic visual language; this is a flat compositing overlay, not an in-world giant holographic machine. Landscape3:2.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "e5ee26044c0df8e4497e40030cf32103e8f7a57e79465cd82717de9205d144a7",
+      "bytes": 2007541,
+      "category": "props",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "RING",
+      "path": "assets/props/RING/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-41d7cbfe-404f-4d59-a3b4-3f71d954b4aa.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is ONLY render quality, no human. Generate a single clean product reference board landscape3:2 for ONE engagement ring and ONE small navy-blue velvet hinged ring box shown in multiple states. LEFT: large three-quarter close-up of open rectangular navy velvet ring box with ONE silver solitaire diamond engagement ring seated vertically. RIGHT: smaller same box CLOSED plus separate side view of the SAME silver solitaire ring to specify shape, clearly spaced reference views not additional story props. Neutral warm-gray studio surface, soft warm edge light, restrained natural diamond sparkle, matte navy velvet, no gold ring, no extra jewelry, no letters, no collage panels. Ring band simple silver, single clear round brilliant stone, no ornate halo.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8",
+      "bytes": 2353707,
+      "category": "props",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "BED",
+      "path": "assets/scenes/BED/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-b03b0885-f92f-4037-9df6-241d4684656a.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Image1 is STYLE QUALITY reference only, no person should appear. Generate one single empty bedroom environment master, landscape16:9, luxurious restrained modern Chinese penthouse suite. Cream upholstered bed centered-right with ivory linen, bedside walnut cabinet close to bed, a tall simple full-length mirror beside the bed on far right angled so plausible reflection shows room, large window on left soft late-morning warm daylight, warm-gray wall, dry matte oak floor, no visible outdoors rain. Only necessary furniture, minimal tasteful bedding folds, clean ordered surfaces, no objects multiplying. Movie set spatially readable, 28mm eye-level wide composition, no collage, no labels.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "cf94eb4d71080256e03c3e03b339700bd720da11c94376086be28a8dd395c1a4",
+      "bytes": 2173433,
+      "category": "scenes",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "DESK",
+      "path": "assets/scenes/DESK/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-5fc82263-12ce-4ffe-9bab-b6783c48021b.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is the bedroom SET and lighting reference. Create a single empty adjacent home work area in SAME penthouse, landscape16:9. Walnut writing desk next to large daylight window on left, warm-gray wall, cream simple desk chair, matte oak dry floor. Eye-level 35mm three-quarter camera showing desk surface clearly and hints of same bedroom through right opening. On desk only one slim dark laptop with neutral blank gray screen, one black smartphone, two identical white paper document copies, one closed deep navy velvet small ring box, one black pen, one black slim document folder. No people, no text or brands, no extra objects, no fancy monitors. Clean and orderly; maintain same daylight tone and material language.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "d4409f671de53cc32452038c1e100d426dec033212e886849fe401d937967435",
+      "bytes": 2005940,
+      "category": "scenes",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "OFFICE",
+      "path": "assets/scenes/OFFICE/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-be24018d-e67b-4d05-814f-e043c2bd5f03.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Image1 STYLE QUALITY reference only; DO NOT include man. Single empty executive office environment master, landscape16:9, restrained modern wealthy Chinese corporate office. A large walnut desk on RIGHT half, dark executive chair behind desk on right, tall daylight window behind chair and desk, matte graphite-gray wall. One closed wooden entrance door on LEFT wall clearly visible and a clear walking route from door to the visitor side of desk. One simple visitor chair front-left of desk, dry matte wood floor, no wet reflective marble, no clutter, only black pen on desk. Camera from visitor side, clear coherent spatial axis; door must stay LEFT and executive chair RIGHT. Soft warm afternoon sunlight with subtle golden edge light. No people no text no logos.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56",
+      "bytes": 2072683,
+      "category": "scenes",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "FIRE",
+      "path": "assets/scenes/FIRE/reference-v1.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-0db27ab7-450b-4084-bb0f-907dc1c2e245.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 only STYLE quality, DO NOT include the man. One single empty luxury birthday banquet hall environment, landscape16:9, night interior, modern Chinese wealthy hotel, restrained ivory tables, dark walnut door at rear partly obscured by light gray smoke, warm small amber wall lights. SMALL localized orange flames on a fallen cream tablecloth at bottom left, no bodies, no gore, no destruction spectacle, no wet floor. Scene is a recalled dangerous birthday event, recognizable coherent hotel hall, spatially clear exit, dramatic warm rim lighting, large clean shapes, not full screen smoke, no text, no guests.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "2b4cc5af4ea5a857060c0941542f183877bc1b4df2cf9a72920dc3464081bd33",
+      "bytes": 2081989,
+      "category": "scenes",
+      "review": "assistant visually reviewed; user selection pending"
+    },
+    {
+      "id": "S01_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_01_00-15s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-cccb3b9e-60e9-4934-8a08-aeeb47cd071e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Input1 exact Su Wantang identity and ivory pajamas; image2 bedroom layout/lighting; image3 only ring design, do not show prop sheet. Opening instant: SAME adult woman just awake seated at edge of cream bed, black long hair over shoulders, looks toward a small subtle blank translucent RED notification banner suspended in front-left, banner not covering face. Her LEFT hand resting on ivory bedding, ONE silver solitaire ring visibly worn on left ring finger, other hand relaxed. Natural alarm contained in gaze, not screaming. Eye-level medium-close three-quarter portrait, golden morning edge light from left window; mirror at right softly in background. Keep room dry and tidy. No text in banner, no men, no extra fingers, no extra rings.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "a2550ef67ec7a77dfe818ef32454bc942523202fee3d0e66f332ab1e1a269488",
+      "bytes": 2129168,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_01_00-15s/frames/first-frame.png"
+    },
+    {
+      "id": "S01_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_01_00-15s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-c550e812-c62f-49a8-83d0-113b47388839.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-gown-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/FIRE/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 exact SAME Su Wantang face/hair and BLACK GOWN, image2 birthday hall. This is a brief remembered birthday fire, not current bedroom. One adult woman only, low medium shot showing her alarmed but restrained face and black satin gown; a few SMALL orange flames catch the outer bottom skirt hem near floor, distant doorway partly obscured by a little smoke. No injury, no burnt skin, no gore, no imminent body destruction, flames stay on lower fabric only. Warm golden rim light, dark amber background, composition makes the black gown and blocked exit readable. Do not include pajamas, office or other actors. No captions or text.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "574a85bf476066300fc1b38ece5919cd94a8543f2f85d0518459b0c00eadeb67",
+      "bytes": 2266992,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_01_00-15s/frames/last-frame.png"
+    },
+    {
+      "id": "S03_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_03_30-45s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-eb853cd8-851f-40de-96e1-8f71ffa0aaf4.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/DESK/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 exact Su identity and WHITE BLOUSE BLACK TROUSERS, image2 home desk and attached bedroom lighting, image3 NAVY CLOSED RING BOX design only. New shot after wardrobe change, SAME woman seated at home desk viewing personal assets on slim laptop. Laptop screen only soft gray table rows, no readable words or exact money. One closed navy box beside two paper agreement copies, black pen and black phone. Left hand visible without ring, right hand on trackpad. Medium three-quarter portrait includes face and clear working desk; camera outside screen so no duplicate person on laptop. Warm daylight, calm practical focus.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "230433ddfa5a5120de22198e0e3055dfabd3cc30ad6bab64e7be1e74f7502d09",
+      "bytes": 2091561,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_03_30-45s/frames/first-frame.png"
+    },
+    {
+      "id": "S03_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_03_30-45s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-ec370cb9-cc02-4d35-a30e-da811afbc8c1.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/DESK/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Input1 SAME Su identity white blouse black trousers, input2 desk set, input3 TWO white agreement copies one black pen one phone/folder designs, input4 closed navy box. End of lawyer call: SAME woman at desk holding ONE black smartphone to RIGHT ear with right hand. Her left hand, bare no ring, presses near blank fee clause of ONE of the TWO white agreement copies. ONE black pen lies between copies, closed navy ring box off to side. No laptop chart floating, no extra papers, no signatures or text (reserved for compositing). Calm decisive expression, natural phone hand anatomy, desk lower third, eyes in upper middle, golden daylight.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "2a82bfb33af8d144c809e37f4493941ec6e7f25e0e04313f06d426fc34abd098",
+      "bytes": 2104898,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_03_30-45s/frames/last-frame.png"
+    },
+    {
+      "id": "S02_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-6efd74a5-76fa-4855-8dc8-b2f394c933bf.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 exact woman face and ivory pajamas, image2 clean BEDROOM, image3 ring design only. Return from fire MEMORY to real morning: one SAME adult woman sitting on bed in ivory pajamas with NO fire, NO smoke, NO burns. Four small translucent blank portrait-card panels horizontally in her sightline at chest level off to side, four empty profile silhouette areas and no words. She studies cards skeptically. Left hand on lap wearing ONE silver solitaire ring on left ring finger. Medium portrait includes natural face and enough bedroom to recognize it, warm neutral daylight. No men physically in room; UI is thin flat glass not bright sci-fi machinery.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "4c04645cd20f086194ba0d6760b12ef2486bf4de4cfa68b884b8f10d68427270",
+      "bytes": 2131141,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_02_15-30s/frames/first-frame.png"
+    },
+    {
+      "id": "S02_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-ae067108-2922-4034-9191-6a61fc82c9e0.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 female identity and ivory pajamas, image2 bedroom, image3 navy box design. End of refusing攻略: one SAME woman seated on edge of bed, upright calm decided expression, her RIGHT hand rests lightly on top of ONE CLOSED navy velvet ring box on bedside cabinet beside her; ring has been placed INSIDE, lid fully closed, no ring visible outside box. Her LEFT hand lies naturally on her ivory trouser lap with visibly BARE ring finger. Medium close portrait includes face, both hands and small box, golden daylight, room dry clean. System panels faded away, no text, no men. Exactly one box, no loose ring.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "355d74d3784cf30a7fc55b03079fb3f9d85a758be67481b77f874ed64a195085",
+      "bytes": 2052021,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_02_15-30s/frames/last-frame.png"
+    },
+    {
+      "id": "S05_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_05_60-75s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-342301e7-d493-4b31-86f8-312a3f801a15.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 Su exact female identity white blouse black trousers, image2 Gu exact male identity dark charcoal suit white shirt black tie, image3 office spatial layout, image4 two document copies/black folder/black pen/phone designs. Only these TWO adult people. Keep Su LEFT visitor side, Gu RIGHT behind desk in dark chair, entrance on LEFT. Warm restrained afternoon light and SAME faces. No ring on woman's hand; no flirty smile, tears, physical grabbing or romantic contact. Any documents only faint gray lines, no readable text. Start of negotiation: Su standing LEFT has opened black folder and gently slides EXACTLY TWO white agreement copies side-by-side to Gu on right, her bare hands on near edge of papers. Gu seated RIGHT leaning slightly back, has not reached for papers, looking skeptically up at her. One black pen on desk beside him. No ring box on desk yet. Clear two-person medium portrait, both faces in frame in three-quarter view, papers bottom third, left doorway softly visible.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "b2cd19ee5f7b462a838091e92bb591a7bb570e77d803cda0555133d0560142ca",
+      "bytes": 2110533,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_05_60-75s/frames/first-frame.png"
+    },
+    {
+      "id": "S05_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_05_60-75s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-f23654e9-64c0-4980-9725-31b111ab31b5.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 Su exact female identity white blouse black trousers, image2 Gu exact male identity dark charcoal suit white shirt black tie, image3 office spatial layout, image4 two document copies/black folder/black pen/phone designs. Only these TWO adult people. Keep Su LEFT visitor side, Gu RIGHT behind desk in dark chair, entrance on LEFT. Warm restrained afternoon light and SAME faces. No ring on woman's hand; no flirty smile, tears, physical grabbing or romantic contact. Any documents only faint gray lines, no readable text. End of skeptical exchange: Gu seated RIGHT in close three-quarter view, brow subtly tightening, lips just finished speaking; Su standing LEFT opposite him remains composed, face visible in three-quarter near-left. EXACTLY TWO agreement copies remain flat on desk centered between them, black folder on woman's side, one black pen by man. He still has not signed or picked up pen. No ring box on desk yet, no ring on her hand. Eye-level medium-close dramatic portrait, clear eyeline and restrained tension.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "fa4fb612b73991890cb8719d3e1a57a95295daa7964231c0fc3fdb868b730a5b",
+      "bytes": 2064479,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_05_60-75s/frames/last-frame.png"
+    },
+    {
+      "id": "S07_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_07_90-105s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-541f8e52-e0f8-493f-b91c-a3666ea5f4b2.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 SAME Su female face and white blouse/black trousers, image2 SAME Gu male face and charcoal suit white shirt black tie, image3 office set with door LEFT and desk/chair RIGHT, image4 document/pen/folder designs, image5 ring and NAVY velvet box. Only TWO adult characters, no other actors. Su is visitor standing LEFT of desk, Gu seated behind desk RIGHT. Refined warm afternoon light, calm restrained tension, no smiles or romantic touch, her hands BARE no rings. Papers show gray lines, signatures reserved for postproduction no readable text. Start of signing hesitation: Gu seated RIGHT holds ONE black pen in his RIGHT hand, nib hovering about1cm above bottom signature line on one of TWO white agreement copies, not yet touching paper. He raises eyes to Su standing LEFT waiting upright with relaxed arms. Single OPEN navy ring box with ONE ring remains near his right forearm, black folder on visitor side, phone flat on left side. Closer medium portrait, pen-paper relationship in foreground and faces upper portion, natural anatomically correct hands. Do not make woman sign now; only man holds pen.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "aeab514e7fd3ccd0b78c83dd2988f1f8135de57634122220dd249baa5150a4d4",
+      "bytes": 2160198,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_07_90-105s/frames/first-frame.png"
+    },
+    {
+      "id": "S07_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_07_90-105s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-6b018206-301a-48ce-85a2-66713e552918.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 SAME Su female face and white blouse/black trousers, image2 SAME Gu male face and charcoal suit white shirt black tie, image3 office set with door LEFT and desk/chair RIGHT, image4 document/pen/folder designs, image5 ring and NAVY velvet box. Only TWO adult characters, no other actors. Su is visitor standing LEFT of desk, Gu seated behind desk RIGHT. Refined warm afternoon light, calm restrained tension, no smiles or romantic touch, her hands BARE no rings. Papers show gray lines, signatures reserved for postproduction no readable text. End after both documents signed: Su has collected ONE agreement copy inside CLOSED black folder held against her left torso, turns her body toward LEFT doorway to leave; her bare RIGHT hand relaxed. Gu stays seated RIGHT, one remaining white agreement copy on HIS desk and ONE black pen set down. Single OPEN NAVY box containing ONE silver solitaire ring stays on desk beside Gu. No additional loose document on woman's side, exactly ONE paper copy left on desk. She remains near visitor side of desk but moving left. Medium wide portrait preserves office spatial axis and both faces, no embracing or blocking.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "1e09969a31915a51a7d07643183d5c24ec5117c02339be69edc103a5548f9c79",
+      "bytes": 2116434,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_07_90-105s/frames/last-frame.png"
+    },
+    {
+      "id": "S04_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_04_45-60s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-094e8c12-06a8-480b-ba8d-c2642fe7f1dc.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/DESK/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 exact female identity white blouse/black trousers, image2 home desk. One SAME woman just confirming a one-way flight on laptop, she holds black smartphone in right hand near laptop to save itinerary, left hand on trackpad. Screens show ONLY neat blank neutral rectangular itinerary blocks and ONE simple small airplane glyph, NO readable text, no names or dates. Two paper agreement copies and closed navy ring box still on desk, black folder ready. Medium-close three-quarter view with face and laptop, warm sun, bare left ring finger. No men or outdoor airport; she remains at home.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "7ba7077dca16dfe98e36e55c6cd4423cda684a21c10cfb1145c619fbe42ab4e8",
+      "bytes": 2072160,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_04_45-60s/frames/first-frame.png"
+    },
+    {
+      "id": "S04_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_04_45-60s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-60ab7363-f41a-412a-b266-6dcb7bec9816.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 Su exact female identity white blouse black trousers, image2 Gu exact male identity dark charcoal suit white shirt black tie, image3 office spatial layout, image4 two document copies/black folder/black pen/phone designs. Only these TWO adult people. Keep Su LEFT visitor side, Gu RIGHT behind desk in dark chair, entrance on LEFT. Warm restrained afternoon light and SAME faces. No ring on woman's hand; no flirty smile, tears, physical grabbing or romantic contact. Any documents only faint gray lines, no readable text. End of arrival: woman stands front-left of walnut desk, just places CLOSED slim black document folder flat on desk in front of man, right hand resting on folder, left arm naturally at her side. Man remains seated at far right, calm guarded look toward her. Keep no loose papers yet, navy ring box is still INSIDE her bag and not on desk. Full-height medium-wide vertical establishes both people, desk and left doorway, no laptop in office. Visitor chair slightly moved away so woman has clear standing space.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "04bf5c4df5da9b02927f96970681c5b33178152304729a6e70f7cf0cc765898a",
+      "bytes": 2176003,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_04_45-60s/frames/last-frame.png"
+    },
+    {
+      "id": "S08_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_08_105-120s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-286950d1-007a-4178-8856-7666b3e315e7.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 SAME Su female face and white blouse/black trousers, image2 SAME Gu male face and charcoal suit white shirt black tie, image3 office set with door LEFT and desk/chair RIGHT, image4 document/pen/folder designs, image5 ring and NAVY velvet box. Only TWO adult characters, no other actors. Su is visitor standing LEFT of desk, Gu seated behind desk RIGHT. Refined warm afternoon light, calm restrained tension, no smiles or romantic touch, her hands BARE no rings. Papers show gray lines, signatures reserved for postproduction no readable text. Start of calling her back: Su in LEFT foreground near CLOSED LEFT doorway, viewed rear-three-quarter with recognizable side face, holding closed black document folder against LEFT hip; RIGHT hand reaching toward simple brass door handle but not yet pressing. She pauses and begins turning her head back toward Gu. Gu sits at his RIGHT background desk leaning forward slightly, lips parted as saying wait, not standing. OPEN navy box and ONE remaining agreement copy on desk. Frame places woman left foreground face clear, man smaller but recognizable right background, dry room, no system UI yet.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "8c6e484e475485588db1da05e673193a647103dd052572b6cd51195c8a839352",
+      "bytes": 2155149,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_08_105-120s/frames/first-frame.png"
+    },
+    {
+      "id": "S08_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_08_105-120s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-194c61cb-4ad3-48c4-ad0b-801434aee8ac.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 SAME Su female face and white blouse/black trousers, image2 SAME Gu male face and charcoal suit white shirt black tie, image3 office set with door LEFT and desk/chair RIGHT, image4 document/pen/folder designs, image5 ring and NAVY velvet box. Only TWO adult characters, no other actors. Su is visitor standing LEFT of desk, Gu seated behind desk RIGHT. Refined warm afternoon light, calm restrained tension, no smiles or romantic touch, her hands BARE no rings. Papers show gray lines, signatures reserved for postproduction no readable text. FINAL SHOT after she says she has not booked a return: Su LEFT foreground at doorway, RIGHT hand naturally on brass door handle, door OPEN a narrow gap into clean softly lit hallway; face turned half back calmly to Gu, closed black folder under LEFT forearm. Gu still seated RIGHT background behind desk, looking toward her, no grabbing or tearful desperate expression. OPEN navy ring box with ONE ring and ONE white agreement copy remain on desk near him; do not put ring in her hand. Close-medium portrait favors her clear face upper middle and open door gap, with man and desk readable through depth. One subtle EMPTY thin red system notification at extreme top-right corner, no words or numbers, not covering faces. Scene ends with her still choosing to leave.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "08643a0a1014b9f38f3a6c13717e8d058adc6130bf0ec3a105b4c51d9446627b",
+      "bytes": 2125504,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_08_105-120s/frames/last-frame.png"
+    },
+    {
+      "id": "S06_FIRST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_06_75-90s/frames/first-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-6b03931d-e405-432f-a17b-e422385484a8.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 Su exact female identity white blouse black trousers, image2 Gu exact male identity dark charcoal suit white shirt black tie, image3 office spatial layout, image4 two document copies/black folder/black pen/phone designs. Only these TWO adult people. Keep Su LEFT visitor side, Gu RIGHT behind desk in dark chair, entrance on LEFT. Warm restrained afternoon light and SAME faces. No ring on woman's hand; no flirty smile, tears, physical grabbing or romantic contact. Any documents only faint gray lines, no readable text. Image5 only navy ring-box design. Start of providing evidence: Su standing LEFT holds her ONE black smartphone toward Gu with RIGHT hand at comfortable desk height; screen shows blank pale-gray chat-message blocks, NO readable words. Gu seated RIGHT looking DOWN at phone, not secretly at the camera. Su's left hand beside a SMALL CLOSED navy ring box now on desk near man. TWO agreement copies still flat, black pen lies by Gu. Medium vertical two-person shot, phone visible between them, no extra hands or duplicate devices. No signed handwriting yet.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "75c1945ee400eb1e0bd28a4538b5343858348ea4a8113b8169dfc37ff324b73f",
+      "bytes": 2185975,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_06_75-90s/frames/first-frame.png"
+    },
+    {
+      "id": "S06_LAST",
+      "path": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_06_75-90s/frames/last-frame.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-da6e87be-84dc-44c1-b101-e7cddc5f086f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+      ],
+      "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 SAME Su female face and white blouse/black trousers, image2 SAME Gu male face and charcoal suit white shirt black tie, image3 office set with door LEFT and desk/chair RIGHT, image4 document/pen/folder designs, image5 ring and NAVY velvet box. Only TWO adult characters, no other actors. Su is visitor standing LEFT of desk, Gu seated behind desk RIGHT. Refined warm afternoon light, calm restrained tension, no smiles or romantic touch, her hands BARE no rings. Papers show gray lines, signatures reserved for postproduction no readable text. End of apology: Su standing left has set phone down by her black folder and withdrawn hands, face calm as she finishes apology. Gu seated right looking down at TWO white agreement copies neatly aligned on desk, his RIGHT hand near but NOT HOLDING the ONE black pen. A single OPEN small navy ring box beside his right forearm contains ONE silver solitaire ring, clearly readable shape. No other ring or extra box. Medium portrait showing both faces and tabletop; signatures not yet rendered.",
+      "mode": "built-in imagegen",
+      "status": "generated",
+      "sha256": "6e6b1f9d36ece57628c393cba1c2321c96fe9b540a65a479a1d33e49706a3f51",
+      "bytes": 2173548,
+      "category": "frames",
+      "review": "assistant visually reviewed; user selection pending",
+      "original_path": "episodes/EP001_no-more-chasing/segment_06_75-90s/frames/last-frame.png"
+    }
+  ],
+  "repackaging_note": "旧15秒分段图片已移至episode/archive/segments-15s；当前四段30秒使用production/segments-30s-v1/manifest.json。"
+}

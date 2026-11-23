@@ -1,0 +1,21 @@
+{
+  "planPath": "production/最后一名突击手-G02至G12补齐视频执行计划-Fast-v1.json",
+  "approval": "用户已通过askUser同意完整总方案，最多10次新提交，第05段只查原任务",
+  "maxNewSubmissions": 10,
+  "newSubmissionsUsed": 3,
+  "remainingNewSubmissions": 7,
+  "jobs": {
+    "G02": {"nodeId":"75b53b3b-15a2-4595-b132-0a304f711980","taskId":"e0236aba-5aef-4e04-a3ed-b66c89114c58","status":"running","model":"seedance_2_0_fast","submissionCount":1},
+    "G03": {"nodeId":"5adf77fd-0246-46d0-bb15-7be74fe2e9b3","status":"awaitingPreviousResult","submissionCount":0},
+    "G04": {"nodeId":"2d563bb2-5bf6-450f-83db-42a8b2fc5d34","status":"planned","submissionCount":0},
+    "G05": {"nodeId":"798d0ba6-889f-4fa7-85ee-6e5bca7c6f6f","taskId":"be5f2796-846f-48e0-b81a-8f61038a2022","status":"failed_resultUnknown","newSubmissionAllowed":false,"error":"Object has been destroyed；原任务结果未知，仅查询，不新开"},
+    "G06": {"nodeId":"4ee75634-9ec9-450f-95fe-39d2efd9d0e6","status":"awaitingPreviousResult","submissionCount":0},
+    "G07": {"nodeId":"816d4680-6b5e-4e53-83ec-08250c72018e","status":"awaitingPreviousResult","submissionCount":0},
+    "G08": {"nodeId":"3f7aa128-4c84-4c2a-9a47-c2e572d1c54f","status":"awaitingPreviousResult","submissionCount":0},
+    "G09": {"nodeId":"9d582b62-064b-40dd-97fd-81c09f2910c4","taskId":"21b66765-374e-4992-82f2-d2bb875a1b11","status":"running","model":"seedance_2_0_fast","submissionCount":1},
+    "G10": {"nodeId":"af2c2c0a-ae73-49de-aff8-2bb779aa2c05","status":"awaitingPreviousResult","submissionCount":0},
+    "G11": {"nodeId":"8693a1e1-56be-41f2-8050-0cdc335e5150","status":"awaitingPreviousResult","submissionCount":0},
+    "G12": {"nodeId":"e1aa26b0-688d-464c-bd29-9785a23c50dd","taskId":"79f90d2f-e599-49a9-90fd-b9cecc6b55d4","status":"running","model":"seedance_2_0_fast","submissionCount":1}
+  },
+  "notes": "整批方案已获批准，不需逐段重复询问相同算力方案。G02/G09/G12均按已确认完整prompt、唯一真实图片、imageReference模式、16:9、自动时长提交并回读running；声音请求在prompt中，实际音轨未核验。其余7个允许新提交的片段已有节点和固定方案，但需核对前段真实末态/采用及参考后配置生成，不将计划状态冒充实际输出。G05只查原任务，结果未知不新开。无额外重试，不换号。"
+}

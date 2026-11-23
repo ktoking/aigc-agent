@@ -1,0 +1,14 @@
+{
+  "id": "DESK",
+  "path": "episodes/EP001_no-more-chasing/segment_02_30-60s/frames/ref-home-desk.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-5fc82263-12ce-4ffe-9bab-b6783c48021b.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is the bedroom SET and lighting reference. Create a single empty adjacent home work area in SAME penthouse, landscape16:9. Walnut writing desk next to large daylight window on left, warm-gray wall, cream simple desk chair, matte oak dry floor. Eye-level 35mm three-quarter camera showing desk surface clearly and hints of same bedroom through right opening. On desk only one slim dark laptop with neutral blank gray screen, one black smartphone, two identical white paper document copies, one closed deep navy velvet small ring box, one black pen, one black slim document folder. No people, no text or brands, no extra objects, no fancy monitors. Clean and orderly; maintain same daylight tone and material language.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "assets/scenes/DESK/reference-v1.png",
+  "repackaged_from": "assets/scenes/DESK/reference-v1.png",
+  "pack_version": "segments-30s-v1"
+}

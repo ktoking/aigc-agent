@@ -1,0 +1,14 @@
+{
+  "id": "RING",
+  "path": "episodes/EP001_no-more-chasing/segment_02_30-60s/frames/ref-ring.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-41d7cbfe-404f-4d59-a3b4-3f71d954b4aa.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is ONLY render quality, no human. Generate a single clean product reference board landscape3:2 for ONE engagement ring and ONE small navy-blue velvet hinged ring box shown in multiple states. LEFT: large three-quarter close-up of open rectangular navy velvet ring box with ONE silver solitaire diamond engagement ring seated vertically. RIGHT: smaller same box CLOSED plus separate side view of the SAME silver solitaire ring to specify shape, clearly spaced reference views not additional story props. Neutral warm-gray studio surface, soft warm edge light, restrained natural diamond sparkle, matte navy velvet, no gold ring, no extra jewelry, no letters, no collage panels. Ring band simple silver, single clear round brilliant stone, no ornate halo.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "assets/props/RING/reference-v1.png",
+  "repackaged_from": "assets/props/RING/reference-v1.png",
+  "pack_version": "segments-30s-v1"
+}

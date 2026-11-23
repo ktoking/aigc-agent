@@ -1,0 +1,82 @@
+{
+  "version": "segments-30s-v1",
+  "segment": 3,
+  "duration_seconds": 30,
+  "start_seconds": 60,
+  "end_seconds": 90,
+  "status": "reference_images_ready_video_not_submitted",
+  "reference_count": 10,
+  "inputs": [
+    {
+      "order": 1,
+      "file": "first-frame.png",
+      "role": "0秒首帧状态，只定义段首",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_05_60-75s/frames/first-frame.png",
+      "sha256": "b2cd19ee5f7b462a838091e92bb591a7bb570e77d803cda0555133d0560142ca"
+    },
+    {
+      "order": 2,
+      "file": "last-frame.png",
+      "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_06_75-90s/frames/last-frame.png",
+      "sha256": "6e6b1f9d36ece57628c393cba1c2321c96fe9b540a65a479a1d33e49706a3f51"
+    },
+    {
+      "order": 3,
+      "file": "keyframe_before-15s.png",
+      "role": "约15秒前的内部关键状态，按对应镜头使用",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_05_60-75s/frames/last-frame.png",
+      "sha256": "fa4fb612b73991890cb8719d3e1a57a95295daa7964231c0fc3fdb868b730a5b"
+    },
+    {
+      "order": 4,
+      "file": "keyframe_after-15s.png",
+      "role": "约15秒后的内部关键状态，作为中段节拍参考",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_06_75-90s/frames/first-frame.png",
+      "sha256": "75c1945ee400eb1e0bd28a4538b5343858348ea4a8113b8169dfc37ff324b73f"
+    },
+    {
+      "order": 5,
+      "file": "ref-su-commute.png",
+      "role": "苏晚棠身份和通勤装；无戒指，表情克制",
+      "source": "assets/characters/SU/reference-commute-v1.png",
+      "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e"
+    },
+    {
+      "order": 6,
+      "file": "ref-gu.png",
+      "role": "顾砚辞身份和深灰西装，怀疑与核对，不演成深爱",
+      "source": "assets/characters/GU/reference-v1.png",
+      "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966"
+    },
+    {
+      "order": 7,
+      "file": "ref-office.png",
+      "role": "办公室左门右桌、来客站位和正反打轴线",
+      "source": "assets/scenes/OFFICE/reference-v1.png",
+      "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56"
+    },
+    {
+      "order": 8,
+      "file": "ref-agreement.png",
+      "role": "协议两份、黑笔一支、手机与文件夹，均为道具形态参考",
+      "source": "assets/props/AGREEMENT/reference-v1.png",
+      "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9"
+    },
+    {
+      "order": 9,
+      "file": "ref-ring.png",
+      "role": "15秒后戒盒上桌，由闭合变打开，盒内只一枚钻戒",
+      "source": "assets/props/RING/reference-v1.png",
+      "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+    },
+    {
+      "order": 10,
+      "file": "ref-style.png",
+      "role": "只参考偏写实3D肤质、头发层次、柔和主光与暖轮廓光；不替换演员脸、服装或场景",
+      "source": "assets/style/user-style-reference-v1.png",
+      "sha256": "b418bd915276c4240adf2456b01672f3e287e0181060222bb56fb251c708bc66"
+    }
+  ],
+  "rule": "本段指定十张参考图，按order1—10编号；图片为身份、空间、道具和关键状态参考，不将十张图平均机械轮播。只读取本段frames/。"
+}

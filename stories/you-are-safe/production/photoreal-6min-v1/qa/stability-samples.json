@@ -1,0 +1,86 @@
+{
+  "method": "十个镜头中，叠化结束后的两帧灰度差；只辅助固定构图稳定性，不当作独立几何抖动证明",
+  "samples": [
+    {
+      "id": "001",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.0008333333333333334
+    },
+    {
+      "id": "004",
+      "sample_frames": [
+        10,
+        112
+      ],
+      "gray_mean_abs_difference": 0.0015972222222222223
+    },
+    {
+      "id": "025",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.002638888888888889
+    },
+    {
+      "id": "033",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.00125
+    },
+    {
+      "id": "049",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.0013194444444444445
+    },
+    {
+      "id": "061",
+      "sample_frames": [
+        10,
+        112
+      ],
+      "gray_mean_abs_difference": 0.0011111111111111111
+    },
+    {
+      "id": "078",
+      "sample_frames": [
+        10,
+        112
+      ],
+      "gray_mean_abs_difference": 0.003125
+    },
+    {
+      "id": "080",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.0018055555555555555
+    },
+    {
+      "id": "089",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.0015972222222222223
+    },
+    {
+      "id": "096",
+      "sample_frames": [
+        10,
+        82
+      ],
+      "gray_mean_abs_difference": 0.001875
+    }
+  ],
+  "max_mean_difference": 0.003125
+}

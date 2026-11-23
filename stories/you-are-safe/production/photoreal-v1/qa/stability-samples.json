@@ -1,0 +1,185 @@
+{
+  "shots": [
+    {
+      "id": "01-truck",
+      "sample_frames": [
+        20,
+        112
+      ],
+      "gray_pixel_mean_abs_diff": 0.0006076388888888889,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "02-contract",
+      "sample_frames": [
+        20,
+        144
+      ],
+      "gray_pixel_mean_abs_diff": 0.0020486111111111113,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "03-medicine",
+      "sample_frames": [
+        20,
+        152
+      ],
+      "gray_pixel_mean_abs_diff": 0.00265625,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "04-duoduo",
+      "sample_frames": [
+        20,
+        152
+      ],
+      "gray_pixel_mean_abs_diff": 0.0025694444444444445,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "05-donation",
+      "sample_frames": [
+        20,
+        160
+      ],
+      "gray_pixel_mean_abs_diff": 0.0028125,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "06-free-medicine",
+      "sample_frames": [
+        20,
+        164
+      ],
+      "gray_pixel_mean_abs_diff": 0.0022916666666666667,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "07-checkpoint",
+      "sample_frames": [
+        20,
+        156
+      ],
+      "gray_pixel_mean_abs_diff": 0.0022916666666666667,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "08-welcome",
+      "sample_frames": [
+        20,
+        152
+      ],
+      "gray_pixel_mean_abs_diff": 0.0019965277777777776,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "09-attack",
+      "sample_frames": [
+        20,
+        140
+      ],
+      "gray_pixel_mean_abs_diff": 0.0021527777777777778,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "10-removal",
+      "sample_frames": [
+        20,
+        145
+      ],
+      "gray_pixel_mean_abs_diff": 0.0016319444444444445,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "11-cost",
+      "sample_frames": [
+        20,
+        160
+      ],
+      "gray_pixel_mean_abs_diff": 0.002673611111111111,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "12-no-food",
+      "sample_frames": [
+        20,
+        207
+      ],
+      "gray_pixel_mean_abs_diff": 0.0028993055555555556,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "13-live",
+      "sample_frames": [
+        20,
+        184
+      ],
+      "gray_pixel_mean_abs_diff": 0.0021180555555555558,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "14-hug",
+      "sample_frames": [
+        20,
+        156
+      ],
+      "gray_pixel_mean_abs_diff": 0.0018923611111111112,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "15-mother-gone",
+      "sample_frames": [
+        20,
+        183
+      ],
+      "gray_pixel_mean_abs_diff": 0.005694444444444445,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "16-call",
+      "sample_frames": [
+        20,
+        164
+      ],
+      "gray_pixel_mean_abs_diff": 0.0022569444444444442,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "17-empty-train",
+      "sample_frames": [
+        20,
+        155
+      ],
+      "gray_pixel_mean_abs_diff": 0.0011111111111111111,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "18-zero",
+      "sample_frames": [
+        20,
+        194
+      ],
+      "gray_pixel_mean_abs_diff": 0.002395833333333333,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "19-empty-chair",
+      "sample_frames": [
+        20,
+        162
+      ],
+      "gray_pixel_mean_abs_diff": 0.001857638888888889,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    },
+    {
+      "id": "20-safe",
+      "sample_frames": [
+        20,
+        182
+      ],
+      "gray_pixel_mean_abs_diff": 0.002482638888888889,
+      "note": "像素差只支持静帧稳定性检查，不单独证明几何无抖动"
+    }
+  ],
+  "max_mean_difference": 0.005694444444444445
+}

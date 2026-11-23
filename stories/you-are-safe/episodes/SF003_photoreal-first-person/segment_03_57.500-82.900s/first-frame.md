@@ -1,0 +1,3 @@
+# 实际编码first帧
+
+从成片第1725帧提取，1920×1080。文件frames/first-frame.png，SHA256：1921816379febe2f0e0d4cfd8a20ecf7e0c0474058eb5765809219360d58adae。此为已交付视频画面证据，不冒称API生成的首尾帧控制输入。

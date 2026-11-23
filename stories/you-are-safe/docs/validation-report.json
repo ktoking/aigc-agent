@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "text_structure_status": "PASS",
+  "errors": [],
+  "source_sha256": "13b3e51bed8ef62c31e4750bd8f050c43999bc3c3642814a27234d6e2aceac8b",
+  "versions": [
+    {
+      "version": "SF001_6min-source",
+      "duration_seconds": 360,
+      "segments": 12,
+      "shots": 96,
+      "average_shot_seconds": 3.75,
+      "frames_planned": 24,
+      "frames_present": 0,
+      "segment_metrics": [
+        {
+          "segment": 1,
+          "declared_han": 4429,
+          "measured_han": 4429,
+          "chars": 5109,
+          "spoken_han": 62
+        },
+        {
+          "segment": 2,
+          "declared_han": 4285,
+          "measured_han": 4285,
+          "chars": 4959,
+          "spoken_han": 63
+        },
+        {
+          "segment": 3,
+          "declared_han": 4299,
+          "measured_han": 4299,
+          "chars": 4974,
+          "spoken_han": 69
+        },
+        {
+          "segment": 4,
+          "declared_han": 4288,
+          "measured_han": 4288,
+          "chars": 4963,
+          "spoken_han": 38
+        },
+        {
+          "segment": 5,
+          "declared_han": 4269,
+          "measured_han": 4269,
+          "chars": 4929,
+          "spoken_han": 47
+        },
+        {
+          "segment": 6,
+          "declared_han": 4269,
+          "measured_han": 4269,
+          "chars": 4945,
+          "spoken_han": 28
+        },
+        {
+          "segment": 7,
+          "declared_han": 4277,
+          "measured_han": 4277,
+          "chars": 4946,
+          "spoken_han": 46
+        },
+        {
+          "segment": 8,
+          "declared_han": 4257,
+          "measured_han": 4257,
+          "chars": 4923,
+          "spoken_han": 55
+        },
+        {
+          "segment": 9,
+          "declared_han": 4277,
+          "measured_han": 4277,
+          "chars": 4952,
+          "spoken_han": 80
+        },
+        {
+          "segment": 10,
+          "declared_han": 4292,
+          "measured_han": 4292,
+          "chars": 4959,
+          "spoken_han": 51
+        },
+        {
+          "segment": 11,
+          "declared_han": 4270,
+          "measured_han": 4270,
+          "chars": 4934,
+          "spoken_han": 48
+        },
+        {
+          "segment": 12,
+          "declared_han": 4246,
+          "measured_han": 4246,
+          "chars": 4919,
+          "spoken_han": 46
+        }
+      ]
+    },
+    {
+      "version": "SF002_2min-adaptation",
+      "duration_seconds": 120,
+      "segments": 8,
+      "shots": 32,
+      "average_shot_seconds": 3.75,
+      "frames_planned": 16,
+      "frames_present": 0,
+      "segment_metrics": [
+        {
+          "segment": 1,
+          "spoken_han": 30,
+          "director_han": 3990,
+          "director_chars": 4671,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 2,
+          "spoken_han": 34,
+          "director_han": 4102,
+          "director_chars": 4838,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 3,
+          "spoken_han": 22,
+          "director_han": 4110,
+          "director_chars": 4873,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 4,
+          "spoken_han": 22,
+          "director_han": 4002,
+          "director_chars": 4716,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 5,
+          "spoken_han": 29,
+          "director_han": 4022,
+          "director_chars": 4719,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 6,
+          "spoken_han": 22,
+          "director_han": 4107,
+          "director_chars": 4786,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 7,
+          "spoken_han": 27,
+          "director_han": 3883,
+          "director_chars": 4535,
+          "detailed_shots": 4
+        },
+        {
+          "segment": 8,
+          "spoken_han": 21,
+          "director_han": 3922,
+          "director_chars": 4573,
+          "detailed_shots": 4
+        }
+      ]
+    }
+  ],
+  "speech_audition_priority": [
+    {
+      "version": "SF001_6min-source",
+      "segment": 9,
+      "shot": 4,
+      "han": 17,
+      "han_per_second": 4.25,
+      "line": "旁白：以前，它让别人有药。现在，它让我不需要饭。"
+    }
+  ],
+  "speech_heuristic": "仅汉字/镜头秒数；大于4提示优先试听，不代表已证明过快；小于等于4也不代表音频通过",
+  "media_status": "NOT_RUN",
+  "api_generation_status": "NOT_RUN",
+  "human_design_review": "OPEN：原稿问题及两分钟风险见design-review.md与adaptation-notes-2min.md",
+  "note": "PASS仅指本脚本列举的文本、目录、同步、原文保真检查；不含语义自动证明、模型生成或成片验收"
+}

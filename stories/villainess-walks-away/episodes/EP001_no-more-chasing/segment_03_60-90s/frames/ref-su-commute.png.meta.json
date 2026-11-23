@@ -1,0 +1,14 @@
+{
+  "id": "SU_COMMUTE",
+  "path": "episodes/EP001_no-more-chasing/segment_03_60-90s/frames/ref-su-commute.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-9448effd-4d97-4060-ad8f-f2b64a5c07c8.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is exact identity and board layout reference. Preserve the SAME female face, brown eyes, long middle-parted black hair, age24, silver studs and body proportions across all views. Change ONLY clothing: crisp modest white long-sleeved button blouse tucked into black high-waisted tailored straight-leg trousers, black low-heeled closed-toe shoes, no ring on either hand. Landscape 3:2 board: large beautiful face-and-shoulder portrait left; front, side, back fullbody views of same woman right; warm dark-gray seamless studio, feet and hands visible. No new character, no male.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "assets/characters/SU/reference-commute-v1.png",
+  "repackaged_from": "assets/characters/SU/reference-commute-v1.png",
+  "pack_version": "segments-30s-v1"
+}

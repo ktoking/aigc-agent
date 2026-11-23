@@ -1,0 +1,82 @@
+{
+  "version": "segments-30s-v1",
+  "segment": 4,
+  "duration_seconds": 30,
+  "start_seconds": 90,
+  "end_seconds": 120,
+  "status": "reference_images_ready_video_not_submitted",
+  "reference_count": 10,
+  "inputs": [
+    {
+      "order": 1,
+      "file": "first-frame.png",
+      "role": "0秒首帧状态，只定义段首",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_07_90-105s/frames/first-frame.png",
+      "sha256": "aeab514e7fd3ccd0b78c83dd2988f1f8135de57634122220dd249baa5150a4d4"
+    },
+    {
+      "order": 2,
+      "file": "last-frame.png",
+      "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_08_105-120s/frames/last-frame.png",
+      "sha256": "08643a0a1014b9f38f3a6c13717e8d058adc6130bf0ec3a105b4c51d9446627b"
+    },
+    {
+      "order": 3,
+      "file": "keyframe_before-15s.png",
+      "role": "约15秒前的内部关键状态，按对应镜头使用",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_07_90-105s/frames/last-frame.png",
+      "sha256": "1e09969a31915a51a7d07643183d5c24ec5117c02339be69edc103a5548f9c79"
+    },
+    {
+      "order": 4,
+      "file": "keyframe_after-15s.png",
+      "role": "约15秒后的内部关键状态，作为中段节拍参考",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_08_105-120s/frames/first-frame.png",
+      "sha256": "8c6e484e475485588db1da05e673193a647103dd052572b6cd51195c8a839352"
+    },
+    {
+      "order": 5,
+      "file": "ref-su-commute.png",
+      "role": "苏晚棠身份与通勤装，无戒，最后持文件夹离开",
+      "source": "assets/characters/SU/reference-commute-v1.png",
+      "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e"
+    },
+    {
+      "order": 6,
+      "file": "ref-gu.png",
+      "role": "顾砚辞身份与深灰西装，桌后坐着追问，不拦人或强行拉扯",
+      "source": "assets/characters/GU/reference-v1.png",
+      "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966"
+    },
+    {
+      "order": 7,
+      "file": "ref-office.png",
+      "role": "左门右桌轴线与桌至门的行走路线",
+      "source": "assets/scenes/OFFICE/reference-v1.png",
+      "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56"
+    },
+    {
+      "order": 8,
+      "file": "ref-agreement.png",
+      "role": "先两份签字后双方各留一份，笔签完落桌；文字和签名后期合成",
+      "source": "assets/props/AGREEMENT/reference-v1.png",
+      "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9"
+    },
+    {
+      "order": 9,
+      "file": "ref-ring.png",
+      "role": "打开的深蓝戒盒与单枚戒指全段留在顾桌上，不回到女主手上",
+      "source": "assets/props/RING/reference-v1.png",
+      "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+    },
+    {
+      "order": 10,
+      "file": "ref-system.png",
+      "role": "20—25秒系统异常提示的二维风格，仅女主感知；不画大型实体设备",
+      "source": "assets/props/SYSTEM/interface-v1.png",
+      "sha256": "e5ee26044c0df8e4497e40030cf32103e8f7a57e79465cd82717de9205d144a7"
+    }
+  ],
+  "rule": "本段指定十张参考图，按order1—10编号；图片为身份、空间、道具和关键状态参考，不将十张图平均机械轮播。只读取本段frames/。"
+}

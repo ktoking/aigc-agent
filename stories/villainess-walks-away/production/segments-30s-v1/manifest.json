@@ -1,0 +1,367 @@
+{
+  "version": "segments-30s-v1",
+  "duration": 120,
+  "segment_count": 4,
+  "segment_duration": 30,
+  "images_per_segment": 10,
+  "selected_image_files": 40,
+  "source_assets": "assets-v1, no image regeneration",
+  "segments": [
+    {
+      "segment": 1,
+      "title": "死亡任务与拒绝攻略",
+      "path": "episodes/EP001_no-more-chasing/segment_01_00-30s",
+      "start": 0,
+      "end": 30,
+      "duration": 30,
+      "reference_count": 10,
+      "inputs": [
+        {
+          "order": 1,
+          "file": "first-frame.png",
+          "role": "0秒首帧状态，只定义段首",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_01_00-15s/frames/first-frame.png",
+          "sha256": "a2550ef67ec7a77dfe818ef32454bc942523202fee3d0e66f332ab1e1a269488"
+        },
+        {
+          "order": 2,
+          "file": "last-frame.png",
+          "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/last-frame.png",
+          "sha256": "355d74d3784cf30a7fc55b03079fb3f9d85a758be67481b77f874ed64a195085"
+        },
+        {
+          "order": 3,
+          "file": "keyframe_before-15s.png",
+          "role": "约15秒前的内部关键状态，按对应镜头使用",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_01_00-15s/frames/last-frame.png",
+          "sha256": "574a85bf476066300fc1b38ece5919cd94a8543f2f85d0518459b0c00eadeb67"
+        },
+        {
+          "order": 4,
+          "file": "keyframe_after-15s.png",
+          "role": "约15秒后的内部关键状态，作为中段节拍参考",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/first-frame.png",
+          "sha256": "4c04645cd20f086194ba0d6760b12ef2486bf4de4cfa68b884b8f10d68427270"
+        },
+        {
+          "order": 5,
+          "file": "ref-su-sleep.png",
+          "role": "只锁苏晚棠脸、长发、耳钉与卧室米白睡衣；参考板多视图不复制到成片",
+          "source": "assets/characters/SU/reference-sleepwear-v1.png",
+          "sha256": "24c4d4fa27f8c12f8d8910f7d4c90d3647750d432f47eefb76f351f599c14f6a"
+        },
+        {
+          "order": 6,
+          "file": "ref-su-gown.png",
+          "role": "只锁10—15秒原书记忆中的同一女主与黑礼服；不把礼服带回卧室",
+          "source": "assets/characters/SU/reference-gown-v1.png",
+          "sha256": "e8a72fa3597c42454efbf981ec90a649f3091338c97fac22bf361daaa5641ff4"
+        },
+        {
+          "order": 7,
+          "file": "ref-bedroom.png",
+          "role": "卧室布局、自然光、床和镜子",
+          "source": "assets/scenes/BED/reference-v1.png",
+          "sha256": "cf94eb4d71080256e03c3e03b339700bd720da11c94376086be28a8dd395c1a4"
+        },
+        {
+          "order": 8,
+          "file": "ref-fire-hall.png",
+          "role": "仅10—15秒生日宴记忆的空间与火烟，其他时间不得出现火烟",
+          "source": "assets/scenes/FIRE/reference-v1.png",
+          "sha256": "2b4cc5af4ea5a857060c0941542f183877bc1b4df2cf9a72920dc3464081bd33"
+        },
+        {
+          "order": 9,
+          "file": "ref-ring.png",
+          "role": "一枚银色钻戒与一只深蓝戒盒，控制摘下、装盒、闭盒顺序；道具多视图只作形态参考",
+          "source": "assets/props/RING/reference-v1.png",
+          "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+        },
+        {
+          "order": 10,
+          "file": "ref-system.png",
+          "role": "系统二维提示与四档案卡的视觉；头像、数值和文字留后期，仅女主感知",
+          "source": "assets/props/SYSTEM/interface-v1.png",
+          "sha256": "e5ee26044c0df8e4497e40030cf32103e8f7a57e79465cd82717de9205d144a7"
+        }
+      ],
+      "shots": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06"
+      ]
+    },
+    {
+      "segment": 2,
+      "title": "准备离开与带协议赴约",
+      "path": "episodes/EP001_no-more-chasing/segment_02_30-60s",
+      "start": 30,
+      "end": 60,
+      "duration": 30,
+      "reference_count": 10,
+      "inputs": [
+        {
+          "order": 1,
+          "file": "first-frame.png",
+          "role": "0秒首帧状态，只定义段首",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_03_30-45s/frames/first-frame.png",
+          "sha256": "230433ddfa5a5120de22198e0e3055dfabd3cc30ad6bab64e7be1e74f7502d09"
+        },
+        {
+          "order": 2,
+          "file": "last-frame.png",
+          "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_04_45-60s/frames/last-frame.png",
+          "sha256": "04bf5c4df5da9b02927f96970681c5b33178152304729a6e70f7cf0cc765898a"
+        },
+        {
+          "order": 3,
+          "file": "keyframe_before-15s.png",
+          "role": "约15秒前的内部关键状态，按对应镜头使用",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_03_30-45s/frames/last-frame.png",
+          "sha256": "2a82bfb33af8d144c809e37f4493941ec6e7f25e0e04313f06d426fc34abd098"
+        },
+        {
+          "order": 4,
+          "file": "keyframe_after-15s.png",
+          "role": "约15秒后的内部关键状态，作为中段节拍参考",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_04_45-60s/frames/first-frame.png",
+          "sha256": "7ba7077dca16dfe98e36e55c6cd4423cda684a21c10cfb1145c619fbe42ab4e8"
+        },
+        {
+          "order": 5,
+          "file": "ref-su-commute.png",
+          "role": "苏晚棠身份与白衬衫黑裤通勤装，手上无戒",
+          "source": "assets/characters/SU/reference-commute-v1.png",
+          "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e"
+        },
+        {
+          "order": 6,
+          "file": "ref-gu.png",
+          "role": "仅25—30秒办公室里的顾砚辞身份与深灰西装；不得出现在家中书桌区",
+          "source": "assets/characters/GU/reference-v1.png",
+          "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966"
+        },
+        {
+          "order": 7,
+          "file": "ref-home-desk.png",
+          "role": "0—25秒家中书桌、日光及电脑位置",
+          "source": "assets/scenes/DESK/reference-v1.png",
+          "sha256": "d4409f671de53cc32452038c1e100d426dec033212e886849fe401d937967435"
+        },
+        {
+          "order": 8,
+          "file": "ref-office.png",
+          "role": "25—30秒办公室左门右桌的空间布局，地点以硬切切换",
+          "source": "assets/scenes/OFFICE/reference-v1.png",
+          "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56"
+        },
+        {
+          "order": 9,
+          "file": "ref-agreement.png",
+          "role": "两份协议、一支黑笔、一个手机与黑色文件夹；不复制道具板排版",
+          "source": "assets/props/AGREEMENT/reference-v1.png",
+          "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9"
+        },
+        {
+          "order": 10,
+          "file": "ref-ring.png",
+          "role": "家中闭合戒盒；赴约时盒在包内，不能提前摆在顾桌上",
+          "source": "assets/props/RING/reference-v1.png",
+          "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+        }
+      ],
+      "shots": [
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    },
+    {
+      "segment": 3,
+      "title": "退婚谈判与承担过错",
+      "path": "episodes/EP001_no-more-chasing/segment_03_60-90s",
+      "start": 60,
+      "end": 90,
+      "duration": 30,
+      "reference_count": 10,
+      "inputs": [
+        {
+          "order": 1,
+          "file": "first-frame.png",
+          "role": "0秒首帧状态，只定义段首",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_05_60-75s/frames/first-frame.png",
+          "sha256": "b2cd19ee5f7b462a838091e92bb591a7bb570e77d803cda0555133d0560142ca"
+        },
+        {
+          "order": 2,
+          "file": "last-frame.png",
+          "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_06_75-90s/frames/last-frame.png",
+          "sha256": "6e6b1f9d36ece57628c393cba1c2321c96fe9b540a65a479a1d33e49706a3f51"
+        },
+        {
+          "order": 3,
+          "file": "keyframe_before-15s.png",
+          "role": "约15秒前的内部关键状态，按对应镜头使用",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_05_60-75s/frames/last-frame.png",
+          "sha256": "fa4fb612b73991890cb8719d3e1a57a95295daa7964231c0fc3fdb868b730a5b"
+        },
+        {
+          "order": 4,
+          "file": "keyframe_after-15s.png",
+          "role": "约15秒后的内部关键状态，作为中段节拍参考",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_06_75-90s/frames/first-frame.png",
+          "sha256": "75c1945ee400eb1e0bd28a4538b5343858348ea4a8113b8169dfc37ff324b73f"
+        },
+        {
+          "order": 5,
+          "file": "ref-su-commute.png",
+          "role": "苏晚棠身份和通勤装；无戒指，表情克制",
+          "source": "assets/characters/SU/reference-commute-v1.png",
+          "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e"
+        },
+        {
+          "order": 6,
+          "file": "ref-gu.png",
+          "role": "顾砚辞身份和深灰西装，怀疑与核对，不演成深爱",
+          "source": "assets/characters/GU/reference-v1.png",
+          "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966"
+        },
+        {
+          "order": 7,
+          "file": "ref-office.png",
+          "role": "办公室左门右桌、来客站位和正反打轴线",
+          "source": "assets/scenes/OFFICE/reference-v1.png",
+          "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56"
+        },
+        {
+          "order": 8,
+          "file": "ref-agreement.png",
+          "role": "协议两份、黑笔一支、手机与文件夹，均为道具形态参考",
+          "source": "assets/props/AGREEMENT/reference-v1.png",
+          "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9"
+        },
+        {
+          "order": 9,
+          "file": "ref-ring.png",
+          "role": "15秒后戒盒上桌，由闭合变打开，盒内只一枚钻戒",
+          "source": "assets/props/RING/reference-v1.png",
+          "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+        },
+        {
+          "order": 10,
+          "file": "ref-style.png",
+          "role": "只参考偏写实3D肤质、头发层次、柔和主光与暖轮廓光；不替换演员脸、服装或场景",
+          "source": "assets/style/user-style-reference-v1.png",
+          "sha256": "b418bd915276c4240adf2456b01672f3e287e0181060222bb56fb251c708bc66"
+        }
+      ],
+      "shots": [
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18"
+      ]
+    },
+    {
+      "segment": 4,
+      "title": "签字与反常追问",
+      "path": "episodes/EP001_no-more-chasing/segment_04_90-120s",
+      "start": 90,
+      "end": 120,
+      "duration": 30,
+      "reference_count": 10,
+      "inputs": [
+        {
+          "order": 1,
+          "file": "first-frame.png",
+          "role": "0秒首帧状态，只定义段首",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_07_90-105s/frames/first-frame.png",
+          "sha256": "aeab514e7fd3ccd0b78c83dd2988f1f8135de57634122220dd249baa5150a4d4"
+        },
+        {
+          "order": 2,
+          "file": "last-frame.png",
+          "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_08_105-120s/frames/last-frame.png",
+          "sha256": "08643a0a1014b9f38f3a6c13717e8d058adc6130bf0ec3a105b4c51d9446627b"
+        },
+        {
+          "order": 3,
+          "file": "keyframe_before-15s.png",
+          "role": "约15秒前的内部关键状态，按对应镜头使用",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_07_90-105s/frames/last-frame.png",
+          "sha256": "1e09969a31915a51a7d07643183d5c24ec5117c02339be69edc103a5548f9c79"
+        },
+        {
+          "order": 4,
+          "file": "keyframe_after-15s.png",
+          "role": "约15秒后的内部关键状态，作为中段节拍参考",
+          "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_08_105-120s/frames/first-frame.png",
+          "sha256": "8c6e484e475485588db1da05e673193a647103dd052572b6cd51195c8a839352"
+        },
+        {
+          "order": 5,
+          "file": "ref-su-commute.png",
+          "role": "苏晚棠身份与通勤装，无戒，最后持文件夹离开",
+          "source": "assets/characters/SU/reference-commute-v1.png",
+          "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e"
+        },
+        {
+          "order": 6,
+          "file": "ref-gu.png",
+          "role": "顾砚辞身份与深灰西装，桌后坐着追问，不拦人或强行拉扯",
+          "source": "assets/characters/GU/reference-v1.png",
+          "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966"
+        },
+        {
+          "order": 7,
+          "file": "ref-office.png",
+          "role": "左门右桌轴线与桌至门的行走路线",
+          "source": "assets/scenes/OFFICE/reference-v1.png",
+          "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56"
+        },
+        {
+          "order": 8,
+          "file": "ref-agreement.png",
+          "role": "先两份签字后双方各留一份，笔签完落桌；文字和签名后期合成",
+          "source": "assets/props/AGREEMENT/reference-v1.png",
+          "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9"
+        },
+        {
+          "order": 9,
+          "file": "ref-ring.png",
+          "role": "打开的深蓝戒盒与单枚戒指全段留在顾桌上，不回到女主手上",
+          "source": "assets/props/RING/reference-v1.png",
+          "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+        },
+        {
+          "order": 10,
+          "file": "ref-system.png",
+          "role": "20—25秒系统异常提示的二维风格，仅女主感知；不画大型实体设备",
+          "source": "assets/props/SYSTEM/interface-v1.png",
+          "sha256": "e5ee26044c0df8e4497e40030cf32103e8f7a57e79465cd82717de9205d144a7"
+        }
+      ],
+      "shots": [
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24"
+      ]
+    }
+  ]
+}

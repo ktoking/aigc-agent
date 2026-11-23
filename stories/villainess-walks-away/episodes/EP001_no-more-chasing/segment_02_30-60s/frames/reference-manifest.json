@@ -1,0 +1,82 @@
+{
+  "version": "segments-30s-v1",
+  "segment": 2,
+  "duration_seconds": 30,
+  "start_seconds": 30,
+  "end_seconds": 60,
+  "status": "reference_images_ready_video_not_submitted",
+  "reference_count": 10,
+  "inputs": [
+    {
+      "order": 1,
+      "file": "first-frame.png",
+      "role": "0秒首帧状态，只定义段首",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_03_30-45s/frames/first-frame.png",
+      "sha256": "230433ddfa5a5120de22198e0e3055dfabd3cc30ad6bab64e7be1e74f7502d09"
+    },
+    {
+      "order": 2,
+      "file": "last-frame.png",
+      "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_04_45-60s/frames/last-frame.png",
+      "sha256": "04bf5c4df5da9b02927f96970681c5b33178152304729a6e70f7cf0cc765898a"
+    },
+    {
+      "order": 3,
+      "file": "keyframe_before-15s.png",
+      "role": "约15秒前的内部关键状态，按对应镜头使用",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_03_30-45s/frames/last-frame.png",
+      "sha256": "2a82bfb33af8d144c809e37f4493941ec6e7f25e0e04313f06d426fc34abd098"
+    },
+    {
+      "order": 4,
+      "file": "keyframe_after-15s.png",
+      "role": "约15秒后的内部关键状态，作为中段节拍参考",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_04_45-60s/frames/first-frame.png",
+      "sha256": "7ba7077dca16dfe98e36e55c6cd4423cda684a21c10cfb1145c619fbe42ab4e8"
+    },
+    {
+      "order": 5,
+      "file": "ref-su-commute.png",
+      "role": "苏晚棠身份与白衬衫黑裤通勤装，手上无戒",
+      "source": "assets/characters/SU/reference-commute-v1.png",
+      "sha256": "21582c5265dae0173614cdffa354c44087d25167d65b0e88df8ba2755db0986e"
+    },
+    {
+      "order": 6,
+      "file": "ref-gu.png",
+      "role": "仅25—30秒办公室里的顾砚辞身份与深灰西装；不得出现在家中书桌区",
+      "source": "assets/characters/GU/reference-v1.png",
+      "sha256": "c474a52d1b930c1cf3309340c88d88602e53da757dcf75cd04c75e9322f82966"
+    },
+    {
+      "order": 7,
+      "file": "ref-home-desk.png",
+      "role": "0—25秒家中书桌、日光及电脑位置",
+      "source": "assets/scenes/DESK/reference-v1.png",
+      "sha256": "d4409f671de53cc32452038c1e100d426dec033212e886849fe401d937967435"
+    },
+    {
+      "order": 8,
+      "file": "ref-office.png",
+      "role": "25—30秒办公室左门右桌的空间布局，地点以硬切切换",
+      "source": "assets/scenes/OFFICE/reference-v1.png",
+      "sha256": "7f58e83f338f31c31eef41f80ae2bae8ab4b907f89776562dd899a0011cd9c56"
+    },
+    {
+      "order": 9,
+      "file": "ref-agreement.png",
+      "role": "两份协议、一支黑笔、一个手机与黑色文件夹；不复制道具板排版",
+      "source": "assets/props/AGREEMENT/reference-v1.png",
+      "sha256": "ad3b6d3e83a4f876d51ea7046332e037980f88a3e5936da76531bc078518b7e9"
+    },
+    {
+      "order": 10,
+      "file": "ref-ring.png",
+      "role": "家中闭合戒盒；赴约时盒在包内，不能提前摆在顾桌上",
+      "source": "assets/props/RING/reference-v1.png",
+      "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+    }
+  ],
+  "rule": "本段指定十张参考图，按order1—10编号；图片为身份、空间、道具和关键状态参考，不将十张图平均机械轮播。只读取本段frames/。"
+}

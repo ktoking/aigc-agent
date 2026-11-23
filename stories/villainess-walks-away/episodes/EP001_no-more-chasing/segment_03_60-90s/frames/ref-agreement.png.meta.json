@@ -1,0 +1,14 @@
+{
+  "id": "AGREEMENT",
+  "path": "episodes/EP001_no-more-chasing/segment_03_60-90s/frames/ref-agreement.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-a90d55d3-0555-471d-89d8-2ac00cae6519.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 STYLE only, no people. Single coherent overhead prop asset flatlay, landscape3:2, matte dark walnut desk. Exactly TWO separate identical white A4 legal agreement copies side by side, black slim capped ballpoint pen centered below papers, ONE closed black simple document folder behind, ONE black modern smartphone to right with blank neutral dark screen. Papers have faint light-gray lines and two empty signature rules near bottom, no readable words or names, no seals, no identifiable private data. No rings or ring boxes in this prop kit. Refined cinematic 3D materials, clear silhouettes, soft warm daylight, no clutter, no duplicates beyond the two required agreement copies.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "assets/props/AGREEMENT/reference-v1.png",
+  "repackaged_from": "assets/props/AGREEMENT/reference-v1.png",
+  "pack_version": "segments-30s-v1"
+}

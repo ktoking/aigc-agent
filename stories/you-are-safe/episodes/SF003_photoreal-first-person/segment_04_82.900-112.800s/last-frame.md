@@ -1,0 +1,3 @@
+# 实际编码last帧
+
+从成片第3383帧提取，1920×1080。文件frames/last-frame.png，SHA256：cf21c9e2317b2b50ae5e675c8babaf1f1098879e4a07ddfac0226cc6c13f7c85。此为已交付视频画面证据，不冒称API生成的首尾帧控制输入。

@@ -1,0 +1,30 @@
+{
+  "approvedPlan": "production/最后一名突击手-剩余八段现有多图视频计划v2.json",
+  "approval": "用户已确认8段各1次；本轮用户告知已修复并要求继续，对此前未启动项执行已确认方案",
+  "providerId": "doubaoLocal",
+  "modelId": "seedance_2_0_fast",
+  "ratio": "16:9",
+  "duration": "Studio自动",
+  "referencePolicy": "每段输入全部实际已有图，03/04/06/07/08/09/11各4张，10为3张，共31张引用；不用概览板冒充独立图，不以静图瑕疵排除候选生成，不做轮播",
+  "jobs": {
+    "G03": {"nodeId":"5adf77fd-0246-46d0-bb15-7be74fe2e9b3","taskId":"2fb24cb1-1893-4946-a21b-0a8d2809e101","status":"running","resumable":true,"currentRoundSubmissions":1,"previousAttempt":"332798e3-3bfe-4ef9-b4ae-dceccfcaf9ab未启动、入口未识别；未生成视频"},
+    "G04": {"nodeId":"2d563bb2-5bf6-450f-83db-42a8b2fc5d34","taskId":"2d45256e-aac0-4d43-9589-3c3d06e6402d","status":"running","resumable":true,"submissionCount":1,"independence":"楼梯间新场景的原稿已给定起态，非接续未完成肢体动作；持枪状态来自原稿及已确认资产，最终仍核对剪辑交界"},
+    "G06": {"nodeId":"4ee75634-9ec9-450f-95fe-39d2efd9d0e6","status":"configured_awaitingG05ActualEnd","submissionCount":0},
+    "G07": {"nodeId":"816d4680-6b5e-4e53-83ec-08250c72018e","status":"configured_awaitingG06ActualEnd","submissionCount":0},
+    "G08": {"nodeId":"3f7aa128-4c84-4c2a-9a47-c2e572d1c54f","status":"configured_awaitingG07ActualEnd","submissionCount":0},
+    "G09": {"nodeId":"9d582b62-064b-40dd-97fd-81c09f2910c4","taskId":"3e7592e2-847a-4a24-bd03-ebf3818bb934","status":"running","resumable":true,"submissionCount":1,"previousAttempt":"单图旧任务21b66765-374e-4992-82f2-d2bb875a1b11未发送生成且已退回预扣额度"},
+    "G10": {"nodeId":"af2c2c0a-ae73-49de-aff8-2bb779aa2c05","status":"configured_awaitingG09ActualEnd","submissionCount":0},
+    "G11": {"nodeId":"8693a1e1-56be-41f2-8050-0cdc335e5150","status":"configured_awaitingG10ActualEnd","submissionCount":0}
+  },
+  "allEightPrepared": "8个节点均已写入批准的完整v2提示词，31条实际IMAGE输入已核对并接入；均为本机Fast、imageReference模式、16:9、自动时长。没有文本追加入边，没有伪造图号。",
+  "G05": {"nodeId":"798d0ba6-889f-4fa7-85ee-6e5bca7c6f6f","taskId":"be5f2796-846f-48e0-b81a-8f61038a2022","status":"resultUnknown","error":"Object has been destroyed","newGenerationAllowed":false,"pendingSeparatePlan":"production/最后一名突击手-G05单独补交方案v2.md"},
+  "availableVideos": [
+    {"segment":1,"path":"assets/64039b25-b697-405c-8946-62769f818f92/video84d8a6ced1734d48acb401057bd6038d0.mp4"},
+    {"segment":2,"path":"assets/75b53b3b-15a2-4595-b132-0a304f711980/videoe0236aba5aef4e04a3edb66c89114c580.mp4"},
+    {"segment":12,"path":"assets/e1aa26b0-688d-464c-bd29-9785a23c50dd/video79f90d2fe59949a990fdb9cecc6b55d40.mp4"}
+  ],
+  "ffmpegNowAvailable": true,
+  "mediaChecks": "G01/G02/G12已ffprobe，均1280x720、24fps，视频流10.041667秒，容器/音频10.08秒，AAC 44.1kHz双声道。volumedetect均有非静音信号：G01平均-18.9dB，G02平均-21.5dB，G12平均-43.0dB。未试听，不保证台词正确。",
+  "visualChecks": "已读G01/G02/G12每秒1帧抽帧板：G02末态在汽车后持枪，可用于衔接候选；G12固定机位拾起头盔流程可见。仅抽样，不等于完整观看或无穿帮。G01在freezedetect阈值-50dB/0.35秒下无freeze事件，不能据此否认用户报告的运动卡顿；可能是动作节奏/姿态衔接而非完全静帧。原视频有供应商生成水印，未擅自去除。",
+  "finalFilm": "尚未合成，不能将3条已返回片段称为完整成片。"
+}

@@ -1,0 +1,52 @@
+# 图片生成与本地合成导演单
+
+镜065，240—243秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. ONLY Chen Mo in LIGHT BLUE PATIENT PAJAMAS sits in a clean WHITE HOSPITAL OBSERVATION ROOM after isolation, pushes a full untouched hospital FOOD TRAY away on overbed table, smartphone lies beside tray. Clear dry hospital light, white bed and medical monitor unobtrusive behind. No navy jacket, no home kitchen, no mother or other people, no injury, no feeding procedures.
+
+镜066，243—247秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. ONLY Chen Mo in same LIGHT BLUE PATIENT PAJAMAS sits on a white HOSPITAL OBSERVATION ROOM bed beside an overbed table with UNTOUCHED FULL FOOD TRAY. One hand lightly rests on abdomen as he realizes he is not hungry. Normal DAYLIGHT from clean hospital window, same clean white ward atmosphere. No navy jacket, no home, no mother, no other people, no pain/injuries.
+
+镜067，247—251秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第9段，第3镜，不需要进食。
+画面：医生看监测结果，转头看陈默，语气谨慎；陈默听完缓慢坐回床边，眼神失去力量。
+视角：双人中景，参考四十毫米正常透视，机位约在成年人物胸口至眼睛之间。
+
+
+镜068，251—255秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第9段，第4镜，以前与现在。
+画面：床头白青药盒与未动餐盘并排，陈默的手先碰药盒又停在餐盘边，两种筹码同时入画。
+视角：物件特写，参考七十五毫米近摄视角，机位与关键表面保持轻微斜角以保留厚度。
+
+
+镜069，255—259秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第9段，第5镜，兔子是不是不灵。
+画面：硬切家中，电话里的童声响起，陈默拿起左耳蓝补丁兔子，拇指摸旧缝线，眼睛湿但不哭喊。
+视角：人物头肩近景，参考六十五毫米肖像透视，摄影机与角色眼睛基本等高。
+家中固定布局：木餐桌及两椅居中，干净窗在左，右后方开放厨房，桌边有有线座机。
+
+镜070，259—263秒。
+Generate a NEW single 16:9 landscape fictional Chinese live-action photoreal film still. Normal clear daylight, clean dry matte surfaces, natural skin and ordinary realistic colors, no rain/puddles/fog/gritty grade/oversharpening. No text/logo/captions or collage. If reference man appears, preserve ONLY his face/hair/body identity: Chen Mo29 narrow face short side-parted black hair, normal navy jacket offwhite tee black trousers white sneakers, unless hospital clothing is specified below. DO NOT copy any phone, street, background or other people from references. Show EXACTLY the people requested below, no mother/women/child added unless explicitly requested in the scene. ONLY Chen Mo sits at wooden table of his simple bright apartment, clean window LEFT and open kitchen RIGHT BACK. Navy jacket, white cloth rabbit in LEFT arm. He speaks quietly into a SMARTPHONE held to right ear, tender worried expression. His right hand holds a MOBILE phone, NOT a landline handset; any landline is idle on table. No mother, no girl or other people.
+
+镜071，263—267秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第9段，第7镜，全球风险。
+画面：挂断电话，陈默看墙上的几张救援照片，手慢慢放下；客服仍从手机发声。
+视角：越肩中近景，参考五十毫米透视，摄影机位于指定人物肩后同一侧。
+家中固定布局：木餐桌及两椅居中，干净窗在左，右后方开放厨房，桌边有有线座机。
+
+镜072，267—270秒。
+制作一张全新16:9横屏真人电影写实静帧，一张完整画面，不是拼图或分镜表。参考图片只锁定同一部影片的虚构角色身份、服装及正常自然摄影风格，不复制参考的场景或人数。陈默29岁东亚男性、窄长脸、黑短发右分缝、左眉尾浅缺口，日常深蓝夹克灰白衫黑裤旧白鞋；医院治疗时浅蓝病服，后期仅轻微胡茬疲劳，不变老。陈母58岁灰黑低髻米色针织衫，只有家中厨房才有浅绿围裙。朵朵9岁淡紫帽淡黄开衫浅蓝裤，朵母34岁黑马尾灰褐外套。白兔全白，仅自身左耳一小块蓝布补丁。药盒白底单条青横线，不含文字。
+视觉：正常生活摄影，柔和自然日光或普通洁净室内灯，健康自然肤色、清楚适度的明暗，颜色自然真实。室外晴朗干燥，路面哑光无水，窗户干净无雨滴；不要阴雨、潮湿天气、积水、雾霾、阴森脏旧、油腻反光、过量颗粒、过锐、密集微纹理、青橙重调色。洪水和海岸仅保留情节必需水体，天气仍清朗。矿井仅必要少量岩尘，工作灯让动作可见。夜景只用普通生活灯，不脏暗。无汉字、无字幕、无文字、无水印、无logo。手机白色空白界面，无乱码。非超人、非法术、非发光能量罩。单张静帧选取动作最可读的关键状态，不要用重影表现连续动作。横向三分构图，人物脸与道具清晰，底部留适度字幕安全区。
+本张剧情位置：第9段，第8镜，还有人在。
+画面：母亲走入把支架放在餐桌，陈默坐直把手机卡上去，母亲转身去厨房，陈默按下开播。
+视角：双人中景，参考四十毫米正常透视，机位约在成年人物胸口至眼睛之间。
+家中固定布局：木餐桌及两椅居中，干净窗在左，右后方开放厨房，桌边有有线座机。
+
+视频合成：8张单镜图固定构图，不使用zoompan。30fps，按原版3/4秒镜头时间，镜间叠化0.1秒占后镜时段。无音轨，无烧录字幕；文字由独立SRT展示。

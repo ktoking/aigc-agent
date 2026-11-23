@@ -1,0 +1,44 @@
+{
+  "provider": "built-in imagegen",
+  "images": [
+    {
+      "id": "R1",
+      "name": "自然纪实",
+      "slug": "r1-natural-drama",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a15d18-b3e9-7fe0-95cd-a06c08c7278a/exec-a604c086-784a-4706-9c3d-219d40834c86.png",
+      "file": "r1-natural-drama.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "13613e6ff9a4c0f36b9dfdb2b97d4678fab7f85a3b4261705aafcbb6dc9992d9",
+      "status": "candidate_pending_user_style_choice",
+      "production_frame": false
+    },
+    {
+      "id": "R2",
+      "name": "冷暖电影写实",
+      "slug": "r2-cinematic-cool-warm",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a15d18-b3e9-7fe0-95cd-a06c08c7278a/exec-95896b8f-324b-4a00-9dc7-ddb277c1e13c.png",
+      "file": "r2-cinematic-cool-warm.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "694af1d3bcf163fb729e7cf2d3b3b2e6d3c6afcd4ebf044762c0e6607297caaf",
+      "status": "candidate_pending_user_style_choice",
+      "production_frame": false
+    },
+    {
+      "id": "R3",
+      "name": "低调悬疑写实",
+      "slug": "r3-low-key-suspense",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a15d18-b3e9-7fe0-95cd-a06c08c7278a/exec-63b55f6c-c8d2-4475-bb51-c806ad391b5f.png",
+      "file": "r3-low-key-suspense.png",
+      "width": 940,
+      "height": 1672,
+      "sha256": "391ab3b0484640887ae44473d83fef41b078e90611195cf0f3471e9dba298e5f",
+      "status": "candidate_pending_user_style_choice",
+      "production_frame": false
+    }
+  ],
+  "visual_review": "三组均已查看，实际输出为竖向三联板，单格是横幅场景；仅作摄影风格比较，不能视为已通过的9:16正式镜头图。人物、耳补丁左右、持物手与拥抱手部尚须在正式单镜生成时统一。",
+  "selected": "R2",
+  "selection_source": "用户明确选择R2冷暖电影写实"
+}

@@ -1,0 +1,111 @@
+{
+  "engine": "FFmpeg libx264",
+  "camera": "locked_static",
+  "transition_frames": 4,
+  "transition_inside_incoming_clip": true,
+  "frames": 3384,
+  "audio": false,
+  "subtitles_burned": false,
+  "rendered_clips": [
+    {
+      "id": "01-truck",
+      "frames": 120,
+      "file": "clips/01-truck.mp4"
+    },
+    {
+      "id": "02-contract",
+      "frames": 152,
+      "file": "clips/02-contract.mp4"
+    },
+    {
+      "id": "03-medicine",
+      "frames": 160,
+      "file": "clips/03-medicine.mp4"
+    },
+    {
+      "id": "04-duoduo",
+      "frames": 160,
+      "file": "clips/04-duoduo.mp4"
+    },
+    {
+      "id": "05-donation",
+      "frames": 168,
+      "file": "clips/05-donation.mp4"
+    },
+    {
+      "id": "06-free-medicine",
+      "frames": 172,
+      "file": "clips/06-free-medicine.mp4"
+    },
+    {
+      "id": "07-checkpoint",
+      "frames": 164,
+      "file": "clips/07-checkpoint.mp4"
+    },
+    {
+      "id": "08-welcome",
+      "frames": 160,
+      "file": "clips/08-welcome.mp4"
+    },
+    {
+      "id": "09-attack",
+      "frames": 148,
+      "file": "clips/09-attack.mp4"
+    },
+    {
+      "id": "10-removal",
+      "frames": 153,
+      "file": "clips/10-removal.mp4"
+    },
+    {
+      "id": "11-cost",
+      "frames": 168,
+      "file": "clips/11-cost.mp4"
+    },
+    {
+      "id": "12-no-food",
+      "frames": 215,
+      "file": "clips/12-no-food.mp4"
+    },
+    {
+      "id": "13-live",
+      "frames": 192,
+      "file": "clips/13-live.mp4"
+    },
+    {
+      "id": "14-hug",
+      "frames": 164,
+      "file": "clips/14-hug.mp4"
+    },
+    {
+      "id": "15-mother-gone",
+      "frames": 191,
+      "file": "clips/15-mother-gone.mp4"
+    },
+    {
+      "id": "16-call",
+      "frames": 172,
+      "file": "clips/16-call.mp4"
+    },
+    {
+      "id": "17-empty-train",
+      "frames": 163,
+      "file": "clips/17-empty-train.mp4"
+    },
+    {
+      "id": "18-zero",
+      "frames": 202,
+      "file": "clips/18-zero.mp4"
+    },
+    {
+      "id": "19-empty-chair",
+      "frames": 170,
+      "file": "clips/19-empty-chair.mp4"
+    },
+    {
+      "id": "20-safe",
+      "frames": 190,
+      "file": "clips/20-safe.mp4"
+    }
+  ]
+}

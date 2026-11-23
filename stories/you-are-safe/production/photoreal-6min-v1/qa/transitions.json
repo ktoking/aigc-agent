@@ -1,0 +1,410 @@
+{
+  "status": "PASS",
+  "transition_frames": 3,
+  "transition_seconds": 0.1,
+  "transition_count": 95,
+  "adds_to_runtime": false,
+  "method": "encoded first five frames compared with three-frame linear blend; tolerance 5 gray levels; ten boundaries sampled",
+  "samples": [
+    {
+      "shot": "002",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 1.1861,
+          "distance_to_incoming": 69.0479
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 1.096,
+          "distance_to_incoming": 46.1192
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 1.1333,
+          "distance_to_incoming": 23.1353
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 1.2728,
+          "distance_to_incoming": 1.2728
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 1.2685,
+          "distance_to_incoming": 1.2685
+        }
+      ]
+    },
+    {
+      "shot": "009",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.9802,
+          "distance_to_incoming": 76.4766
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.9073,
+          "distance_to_incoming": 51.1708
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.7817,
+          "distance_to_incoming": 25.6222
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.6353,
+          "distance_to_incoming": 0.6353
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.633,
+          "distance_to_incoming": 0.633
+        }
+      ]
+    },
+    {
+      "shot": "025",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.6017,
+          "distance_to_incoming": 64.5056
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.7881,
+          "distance_to_incoming": 43.1058
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.9665,
+          "distance_to_incoming": 21.6518
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 1.1035,
+          "distance_to_incoming": 1.1035
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 1.0997,
+          "distance_to_incoming": 1.0997
+        }
+      ]
+    },
+    {
+      "shot": "041",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.976,
+          "distance_to_incoming": 64.5338
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.9397,
+          "distance_to_incoming": 43.1072
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 1.003,
+          "distance_to_incoming": 21.6083
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 1.1253,
+          "distance_to_incoming": 1.1253
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 1.1223,
+          "distance_to_incoming": 1.1223
+        }
+      ]
+    },
+    {
+      "shot": "057",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.6829,
+          "distance_to_incoming": 82.0842
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.7142,
+          "distance_to_incoming": 54.5968
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.7192,
+          "distance_to_incoming": 27.2388
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.6207,
+          "distance_to_incoming": 0.6207
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.6178,
+          "distance_to_incoming": 0.6178
+        }
+      ]
+    },
+    {
+      "shot": "073",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.8125,
+          "distance_to_incoming": 54.9665
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.8217,
+          "distance_to_incoming": 36.6654
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.7913,
+          "distance_to_incoming": 18.3374
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.6928,
+          "distance_to_incoming": 0.6928
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.689,
+          "distance_to_incoming": 0.689
+        }
+      ]
+    },
+    {
+      "shot": "078",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.804,
+          "distance_to_incoming": 19.6542
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.893,
+          "distance_to_incoming": 13.2499
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.8474,
+          "distance_to_incoming": 6.7851
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.7046,
+          "distance_to_incoming": 0.7046
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.7,
+          "distance_to_incoming": 0.7
+        }
+      ]
+    },
+    {
+      "shot": "081",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.794,
+          "distance_to_incoming": 76.7041
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.794,
+          "distance_to_incoming": 51.1251
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.746,
+          "distance_to_incoming": 25.566
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.6159,
+          "distance_to_incoming": 0.6159
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.6144,
+          "distance_to_incoming": 0.6144
+        }
+      ]
+    },
+    {
+      "shot": "089",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.9312,
+          "distance_to_incoming": 64.1119
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.91,
+          "distance_to_incoming": 42.9647
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.7995,
+          "distance_to_incoming": 21.4697
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.7296,
+          "distance_to_incoming": 0.7296
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.7288,
+          "distance_to_incoming": 0.7288
+        }
+      ]
+    },
+    {
+      "shot": "096",
+      "frames": [
+        {
+          "frame": 0,
+          "relative_seconds": 0.0,
+          "expected_incoming_alpha": 0.0,
+          "mean_abs_error": 0.9585,
+          "distance_to_incoming": 60.4101
+        },
+        {
+          "frame": 1,
+          "relative_seconds": 0.03333333333333333,
+          "expected_incoming_alpha": 0.3333333333333333,
+          "mean_abs_error": 0.9149,
+          "distance_to_incoming": 40.3615
+        },
+        {
+          "frame": 2,
+          "relative_seconds": 0.06666666666666667,
+          "expected_incoming_alpha": 0.6666666666666666,
+          "mean_abs_error": 0.8733,
+          "distance_to_incoming": 20.1713
+        },
+        {
+          "frame": 3,
+          "relative_seconds": 0.1,
+          "expected_incoming_alpha": 1.0,
+          "mean_abs_error": 0.8162,
+          "distance_to_incoming": 0.8162
+        },
+        {
+          "frame": 4,
+          "relative_seconds": 0.13333333333333333,
+          "expected_incoming_alpha": 1,
+          "mean_abs_error": 0.8153,
+          "distance_to_incoming": 0.8153
+        }
+      ]
+    }
+  ]
+}
