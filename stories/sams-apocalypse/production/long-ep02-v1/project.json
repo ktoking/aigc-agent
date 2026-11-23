@@ -1,0 +1,1801 @@
+{
+  "name": "山姆避难记·第二集：门外的人",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "gap_seconds": 0.1,
+  "dissolve_seconds": 0.1,
+  "characters_per_second": 7.386899563318777,
+  "assets": {
+    "s01": "assets/s01-v2.png",
+    "s02": "assets/s02-v2.png",
+    "s03": "assets/s03-v2.png",
+    "s04": "assets/s04-v2.png",
+    "s05": "assets/s05-v2.png",
+    "s06": "assets/s06.png",
+    "s07": "assets/s07.png",
+    "s08": "assets/s08-v2.png",
+    "s09": "assets/s09.png",
+    "s10": "assets/s10.png",
+    "s11": "assets/s11.png",
+    "s12": "assets/s12.png",
+    "s13": "assets/s13.png",
+    "s14": "assets/s14.png",
+    "s15": "assets/s15.png",
+    "s16": "assets/s16.png",
+    "s17": "assets/s17.png",
+    "s18": "assets/s18.png",
+    "s19": "assets/s19.png",
+    "s20": "assets/s20.png",
+    "s21": "assets/s21.png",
+    "s22": "assets/s22-v2.png",
+    "s23": "assets/s23-v2.png",
+    "s24": "assets/s24.png",
+    "s25": "assets/s25-v2.png",
+    "s26": "assets/s26.png",
+    "s27": "assets/s27-v2.png",
+    "s28": "assets/s28-v2.png",
+    "s29": "assets/s29.png",
+    "s30": "assets/s30.png",
+    "s31": "assets/s31.png",
+    "s32": "assets/s32.png",
+    "s33": "assets/s33.png",
+    "s34": "assets/s34.png",
+    "s35": "assets/s35.png",
+    "s36": "assets/s36.png",
+    "s37": "assets/s37.png",
+    "s38": "assets/s38.png",
+    "s39": "assets/s39.png",
+    "s40": "assets/s40.png",
+    "s41": "assets/s41.png",
+    "s42": "assets/s42.png",
+    "s43": "assets/s43.png",
+    "s44": "assets/s44.png",
+    "s45": "assets/s45-v2.png",
+    "s46": "assets/s46.png",
+    "s47": "assets/s47.png",
+    "s48": "assets/s48.png",
+    "s49": "assets/s49.png",
+    "s50": "assets/s50-v2.png",
+    "s51": "assets/s51.png",
+    "s52": "assets/s52.png",
+    "s53": "assets/s53.png",
+    "s54": "assets/s54.png",
+    "s55": "assets/s55.png",
+    "s56": "assets/s56.png",
+    "s57": "assets/s57.png",
+    "s58": "assets/s58.png",
+    "s59": "assets/s59-v2.png",
+    "s60": "assets/s60.png",
+    "s61": "assets/s61-v2.png",
+    "s62": "assets/s62.png",
+    "s63": "assets/s63.png",
+    "s64": "assets/s64-v2.png",
+    "s65": "assets/s65-v2.png",
+    "s66": "assets/s66.png",
+    "s67": "assets/s67.png",
+    "s68": "assets/s68-v2.png",
+    "s69": "assets/s69-v2.png",
+    "s70": "assets/s70.png",
+    "s71": "assets/s71.png",
+    "s72": "assets/s72-v2.png"
+  },
+  "episodes": [
+    {
+      "id": "LONG-EP02-C01",
+      "title": "01 发电机的代价",
+      "cues": [
+        {
+          "text": "门外那个人，居然对着摄像头笑了。",
+          "asset": "s01",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我刚想叫许棠来看，他已经举起一块纸板。",
+          "asset": "s01",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "上面只有四个字：知道有人。",
+          "asset": "s01",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "发电机救了冷库，也把我们暴露了。",
+          "asset": "s01",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我第一反应是关掉机器。",
+          "asset": "s02",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠按住我的手，让我先看温度记录。",
+          "asset": "s02",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "停电前后，冷库已经升了温。",
+          "asset": "s02",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "现在全关，损失的可能不止今晚这顿牛排。",
+          "asset": "s02",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她没有拿棉被去捂发电机。",
+          "asset": "s03",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "那东西要散热，还要排废气。",
+          "asset": "s03",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们能做的，是减少负载和开机时间。",
+          "asset": "s03",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "想让整家山姆继续营业，那点油根本不够。",
+          "asset": "s03",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我第一次发现，囤得多也会变成负担。",
+          "asset": "s04",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "一排排冷柜，都在等着喝油。",
+          "asset": "s04",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我舍不得的那些东西，正在和监控抢最后一点电。",
+          "asset": "s04",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "可惜现在没人替我付电费。",
+          "asset": "s04",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们只保留一间小冷库。",
+          "asset": "s05",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "还能确认安全的食物集中过去，其余按温度记录处理。",
+          "asset": "s05",
+          "duration_frames": 89,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠拦下我手里的肉。",
+          "asset": "s05",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "闻着没坏，不等于还能吃。",
+          "asset": "s05",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我只好放回去。",
+          "asset": "s05",
+          "duration_frames": 24,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "监控和对讲暂时接原有备用电池。",
+          "asset": "s06",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "卖场照明全关。",
+          "asset": "s06",
+          "duration_frames": 24,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们记下油量和实际负载，再按温度决定何时开机。",
+          "asset": "s06",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我把半箱冰淇淋划掉时，心疼得像亲手辞退自己。",
+          "asset": "s06",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "机器停下，外面安静了一阵。",
+          "asset": "s07",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我以为那些人会走。",
+          "asset": "s07",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "再看监控，灰外套身后又多了几个人。",
+          "asset": "s07",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他们没去找车，反而沿着墙，摸向了我们的卸货门。",
+          "asset": "s07",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C02",
+      "title": "02 门外不是一个人",
+      "cues": [
+        {
+          "text": "天刚亮，对讲机就响了。",
+          "asset": "s08",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "外面六个人，领头的叫周强。",
+          "asset": "s08",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他说他们一整天没吃东西，只想借个地方躲。",
+          "asset": "s08",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我还没回答，他已经替所有人做了决定。",
+          "asset": "s08",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "这么大个超市，你们两个住得完吗。",
+          "asset": "s09",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他朝摄像头喊，吃的又不是你的。",
+          "asset": "s09",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我看着他身后紧闭的卷帘门，想起店长那圈牙印。",
+          "asset": "s09",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "手始终没碰开门键。",
+          "asset": "s09",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠把纸推过来，要我先问人数和伤情。",
+          "asset": "s10",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强打断她，说都什么时候了，还搞登记。",
+          "asset": "s10",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我只问了一遍。",
+          "asset": "s10",
+          "duration_frames": 24,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "六个人里，有没有人被咬伤，或者发热。",
+          "asset": "s10",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他没有回答，反倒开始拍门。",
+          "asset": "s11",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "里面有年轻姑娘吧，她忍心看着我们饿死吗。",
+          "asset": "s11",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我听得火往上冒。",
+          "asset": "s11",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠却把对讲音量调小，说别让他替你决定怎么活。",
+          "asset": "s11",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我说可以给一份应急食物，但不接纳整队人。",
+          "asset": "s12",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "放下手里的工具，离开门口，我们再想办法送。",
+          "asset": "s12",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强立刻换了语气。",
+          "asset": "s12",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "既然肯给，开一道缝不就完了。",
+          "asset": "s12",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我盯着内门的插销，突然明白了。",
+          "asset": "s13",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他想要的不是这顿饭，是让我先把规则破一次。",
+          "asset": "s13",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我告诉他，送东西和开门是两回事。",
+          "asset": "s13",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "门外一下没了声音。",
+          "asset": "s13",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "接着，一个戴眼镜的女人走到镜头下。",
+          "asset": "s14",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她叫林岚，带着父亲。",
+          "asset": "s14",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她没催我开门，只问能不能给两瓶水。",
+          "asset": "s14",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我第一次注意到，这六个人并不是一条心。",
+          "asset": "s14",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C03",
+      "title": "03 把山姆变成基地",
+      "cues": [
+        {
+          "text": "许棠问我，真要守住这里，最先该搬什么。",
+          "asset": "s15",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我脱口而出，大米。",
+          "asset": "s15",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她摇头，把床指给我看。",
+          "asset": "s15",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们睡在监控室旁边，一旦卸货通道出事，连退路都没有。",
+          "asset": "s15",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我选了靠内墙的一块货架区，离外窗远，能通往两条内侧通道。",
+          "asset": "s16",
+          "duration_frames": 101,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "以前这里只堆纸品。",
+          "asset": "s16",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "现在它得装下我们的床、饮水，还有半夜惊醒之后能伸手摸到的东西。",
+          "asset": "s16",
+          "duration_frames": 114,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "重箱放低处，轻物上架，主通道留出来。",
+          "asset": "s17",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我本来想用货架把门堵死，许棠问，着火了你从哪走。",
+          "asset": "s17",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我把刚推过去的架子，又老老实实拉了回来。",
+          "asset": "s17",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "先前清点的十八箱水，只是两排货架的家底。",
+          "asset": "s18",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我重新核对已拆的箱子，把喝掉的、给许棠的，都记进去。",
+          "asset": "s18",
+          "duration_frames": 89,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "今天送出去的水，也必须从这里扣。",
+          "asset": "s18",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠负责电池和灯。",
+          "asset": "s19",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我负责把常温食物按日期排好。",
+          "asset": "s19",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "拆开的放前面，备用的别乱动。",
+          "asset": "s19",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "以前嫌盘点麻烦，现在少一支手电，都可能让我们摸黑找半天。",
+          "asset": "s19",
+          "duration_frames": 101,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "外面能看见的地方，我们尽量不亮灯。",
+          "asset": "s20",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "生活区隔出吃饭和休息的位置，垃圾单独封好。",
+          "asset": "s20",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "没花一分钱，却忙得像刚买了套房。",
+          "asset": "s20",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "只是物业和邻居，都不太正常。",
+          "asset": "s20",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们把两份应急背包放在通道口，不锁进柜子。",
+          "asset": "s21",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠试走了一遍，才肯坐下。",
+          "asset": "s21",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我看着那两张并排的床，第一次觉得，这里有点像能过日子的地方。",
+          "asset": "s21",
+          "duration_frames": 110,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C04",
+      "title": "04 不开门也能给水",
+      "cues": [
+        {
+          "text": "午后，门外又在催。",
+          "asset": "s22",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我翻出收货区的旧图纸，发现墙里有只传票据的小铁盒。",
+          "asset": "s22",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "它不通人，里外各有一个盖子。",
+          "asset": "s22",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "以前我天天路过，连正眼都没看过。",
+          "asset": "s22",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠先检查盒子的固定和外盖。",
+          "asset": "s23",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们做了空盒测试，确认一边关严，另一边才打开。",
+          "asset": "s23",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "卷帘门不用动。",
+          "asset": "s23",
+          "duration_frames": 24,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "能送水，也不等于该把整仓库都搬出去。",
+          "asset": "s23",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我装了六份小包，每份一瓶水和一点饼干。",
+          "asset": "s24",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "不是承诺长期供养，是先给他们喘口气。",
+          "asset": "s24",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "包上不写货架位置，也不说剩多少。",
+          "asset": "s24",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "说多了，连好心都会变成价目表。",
+          "asset": "s24",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "每次只放一份，关内盖，再让外面取。",
+          "asset": "s25",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "对讲里，我把规则说得清清楚楚。",
+          "asset": "s25",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强问有没有牛排。",
+          "asset": "s25",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我看了眼自己碗里的压缩饼干，差点被气笑。",
+          "asset": "s25",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "监控里，六份东西出来，他一个人拿走了四份。",
+          "asset": "s26",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "林岚伸手，他说先统一保管。",
+          "asset": "s26",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "跟着他就有饭吃，不听安排，谁也别想分。",
+          "asset": "s26",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我攥紧了对讲机。",
+          "asset": "s26",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我没和他争谁更有良心，只对着镜头说，刚才六份，每人一份。",
+          "asset": "s27",
+          "duration_frames": 97,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "林岚，你们拿到没有。",
+          "asset": "s27",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她抬头看摄像头，摇了摇头。",
+          "asset": "s27",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强的脸，终于挂不住了。",
+          "asset": "s27",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他把两份丢到地上，骂我挑拨。",
+          "asset": "s28",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "林岚捡起来，带父亲离开了门口。",
+          "asset": "s28",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我这才发现，真正着急喝水的人，根本没力气一直喊。",
+          "asset": "s28",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "一直替别人说话的人，反而吃得最快。",
+          "asset": "s28",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C05",
+      "title": "05 冷库里的损失",
+      "cues": [
+        {
+          "text": "我还盯着监控，冷库的提醒又响了。",
+          "asset": "s29",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠看完记录，说不能再拖。",
+          "asset": "s29",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们已经舍掉一批食品，可剩下的还在耗电。",
+          "asset": "s29",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "门外的人没进来，时间却一直在偷我们的库存。",
+          "asset": "s29",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "晚上吃的，是确认还能用的一小份食物。",
+          "asset": "s30",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们没搞满汉全席，也没为省电吃可疑的肉。",
+          "asset": "s30",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我嚼着最后那口热饭，忽然觉得，能安心坐十分钟，比牛排还奢侈。",
+          "asset": "s30",
+          "duration_frames": 106,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我开始给物资换个分法。",
+          "asset": "s31",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "不是贵的和便宜的，而是不靠电能留的、马上得用的、已经不能碰的。",
+          "asset": "s31",
+          "duration_frames": 110,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "一整座山姆，终于从我眼里的宝箱，变成了一道每天都要做的选择题。",
+          "asset": "s31",
+          "duration_frames": 114,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠也没说修好就能永远有电。",
+          "asset": "s32",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她把每次开机的时间、温度和油量并排记。",
+          "asset": "s32",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我负责盯监控。",
+          "asset": "s32",
+          "duration_frames": 24,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "账本一页页往后翻，我们才知道哪些计划是真的，哪些只是想得美。",
+          "asset": "s32",
+          "duration_frames": 110,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "第二天，我们清出了卫生区。",
+          "asset": "s33",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "饮用水不拿去冲地，脏物和吃的分开。",
+          "asset": "s33",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我以前觉得囤货就是把车装满。",
+          "asset": "s33",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "真住下来才知道，吃进去容易，后面的麻烦得每天有人收拾。",
+          "asset": "s33",
+          "duration_frames": 97,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "最有用的新东西，居然是几块橡胶垫。",
+          "asset": "s34",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "推车轮子修好，容易碰响的金属垫住。",
+          "asset": "s34",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "夜里搬一箱水，不再像宣布开业。",
+          "asset": "s34",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠说，建设有时候，就是让自己少犯一次蠢。",
+          "asset": "s34",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "刚把生活区收拾好，监控里就出了事。",
+          "asset": "s35",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "那个跟着周强的黑夹克，绕到了侧墙。",
+          "asset": "s35",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他没有找水，也没有找避难处。",
+          "asset": "s35",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他在一扇门前停下，低头拿出了工具。",
+          "asset": "s35",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C06",
+      "title": "06 有人试门",
+      "cues": [
+        {
+          "text": "我把对讲接过去，叫他离门远一点。",
+          "asset": "s36",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他反而笑了，说只是替我们检查隐患。",
+          "asset": "s36",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强站在远处不说话。",
+          "asset": "s36",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我忽然想起，他们第一次拍门时，那只一直没放下的工具袋。",
+          "asset": "s36",
+          "duration_frames": 97,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠没有冲出去。",
+          "asset": "s37",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她从内侧复核门栓，让我看住另外几个监控。",
+          "asset": "s37",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们守的是一栋楼，不能两个人都围着同一扇门。",
+          "asset": "s37",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "门外每多一点动静，里面就少一点犯错的余地。",
+          "asset": "s37",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强终于开口，说这门不结实，早晚会被丧尸弄开。",
+          "asset": "s38",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "不如让他们住进来，一起守。",
+          "asset": "s38",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我听明白了。",
+          "asset": "s38",
+          "duration_frames": 20,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他先把危险带到门口，再向我们推销他自己的保护。",
+          "asset": "s38",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我告诉他，再碰门，今晚连传递盒都停。",
+          "asset": "s39",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他立刻骂我拿食物威胁人。",
+          "asset": "s39",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我看着监控，心跳快得发疼，还是说完了那句话。",
+          "asset": "s39",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "你现在做的事，正在威胁里面两个人。",
+          "asset": "s39",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "黑夹克偏要敲给我听。",
+          "asset": "s40",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "第三下落下时，停车场那几个人影同时转了头。",
+          "asset": "s40",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强先看到，扭头就跑。",
+          "asset": "s40",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "刚才还站在一起喊公平的人，转眼谁都顾不上谁。",
+          "asset": "s40",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我关掉面向外墙的工作灯，没追着骂，也没在门里庆祝。",
+          "asset": "s41",
+          "duration_frames": 89,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "丧尸留在了侧门外。",
+          "asset": "s41",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强跑得掉，门却不会自己搬家。",
+          "asset": "s41",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他惹出来的麻烦，最后还是得我们守着。",
+          "asset": "s41",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们轮流休息，把薄弱位置重新记了一遍。",
+          "asset": "s42",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "能从内部加固的处理，不能确认的单独标出来。",
+          "asset": "s42",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我才明白，拒绝别人不是爽完就结束。",
+          "asset": "s42",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "说了不，还得有本事把这个不守住。",
+          "asset": "s42",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C07",
+      "title": "07 第一笔交换",
+      "cues": [
+        {
+          "text": "下午，林岚又来了。",
+          "asset": "s43",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "这次她手里不是空瓶，是一台小收音机。",
+          "asset": "s43",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她说自己做过物业后勤，不敢保证机器好不好，但愿意拿它，换一点能带走的食物。",
+          "asset": "s43",
+          "duration_frames": 134,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她把电池盖打开给镜头看，里面已经没电了。",
+          "asset": "s44",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她没有说自己知道救援秘密，也没喊以后报答。",
+          "asset": "s44",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我反而愿意多听两句。",
+          "asset": "s44",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "至少这次，东西和条件都摆在明面上。",
+          "asset": "s44",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我和许棠商量，用一份试机电池和两个人一天的应急食物交换。",
+          "asset": "s45",
+          "duration_frames": 106,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "机器先测，合不合用都把话说清。",
+          "asset": "s45",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "林岚答应了，还问能不能换成常温的，她父亲走不了太远。",
+          "asset": "s45",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "收音机从盒子里送进来时，我突然有点紧张。",
+          "asset": "s46",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "这几天，我看见的世界只剩几块监控屏。",
+          "asset": "s46",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "那台旧机器比我巴掌大一点，却可能装着我们最缺的东西，外面的消息。",
+          "asset": "s46",
+          "duration_frames": 118,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠装上电池，先出来一阵杂音。",
+          "asset": "s47",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们换了几个位置，终于听见断断续续的人声。",
+          "asset": "s47",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "只说避免聚集，等待后续通知。",
+          "asset": "s47",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "没有撤离时间，也没有包我们平安的神奇坐标。",
+          "asset": "s47",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我照约定送出食物，把电池也记入消耗。",
+          "asset": "s48",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "林岚没有顺势问能不能住进来。",
+          "asset": "s48",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "临走前，她只说了一句，侧墙那扇门晚上有人去过，不止今天这一次。",
+          "asset": "s48",
+          "duration_frames": 110,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我调出昨夜的回放。",
+          "asset": "s49",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "黑夹克确实来过，还搬着一只矮箱子。",
+          "asset": "s49",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他不是在研究门锁，而是仰头看门上面的墙。",
+          "asset": "s49",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我顺着他的目光看过去，后背慢慢绷紧了。",
+          "asset": "s49",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C08",
+      "title": "08 真正的薄弱处",
+      "cues": [
+        {
+          "text": "那儿有一块旧检修盖，通向夹层。",
+          "asset": "s50",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "不是秘密地道，旧图纸上就有，只是我以前从没负责过。",
+          "asset": "s50",
+          "duration_frames": 89,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠说先别猜外面能不能进去。",
+          "asset": "s50",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "今天就把内侧能看到的部分查清楚。",
+          "asset": "s50",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她在边框上找到新的擦痕。",
+          "asset": "s51",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "里面没有人，固定件也还在，但有一处已经松了。",
+          "asset": "s51",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我盯着那条细缝，忽然觉得门外所有吵闹，都可能只是让我们一直盯着门。",
+          "asset": "s51",
+          "duration_frames": 122,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们按原有结构处理松动处，没有堵死通风，也没乱拆电线。",
+          "asset": "s52",
+          "duration_frames": 97,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "然后补了一个能看见这段走廊的旧摄像头。",
+          "asset": "s52",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "刚接好，备用电量又掉了一格。",
+          "asset": "s52",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "多一只眼睛，也得付账。",
+          "asset": "s52",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我把想留着的电器一件件收回箱子。",
+          "asset": "s53",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "游戏机先别想，热水也不能随开随有。",
+          "asset": "s53",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "住在山姆听着像人生巅峰，真正的升级，却是学会接受今天比昨天少用一点。",
+          "asset": "s53",
+          "duration_frames": 126,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "整理园艺货架时，我翻到几包种子，兴冲冲拿去找许棠。",
+          "asset": "s54",
+          "duration_frames": 89,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她看了眼天花板，问我拿什么晒太阳。",
+          "asset": "s54",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我又把育苗盘放下了。",
+          "asset": "s54",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "先活过这一周，再考虑当农场主。",
+          "asset": "s54",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "最后真正落地的，是新的轮班和每天一次的巡查。",
+          "asset": "s55",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "温度、门、油、水，少一项都不行。",
+          "asset": "s55",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠写到夜班时停了笔，说你昨晚没睡够，今天前半夜我来。",
+          "asset": "s55",
+          "duration_frames": 97,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我开了一罐水果，给她多盛了一点。",
+          "asset": "s56",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她低头看碗，问这算加班费吗。",
+          "asset": "s56",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我说算房租。",
+          "asset": "s56",
+          "duration_frames": 20,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她终于笑了。",
+          "asset": "s56",
+          "duration_frames": 20,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "外面再乱，能有人接住一句废话，这地方才不只是个仓库。",
+          "asset": "s56",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C09",
+      "title": "09 门外的选择",
+      "cues": [
+        {
+          "text": "傍晚，周强又回来了。",
+          "asset": "s57",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "这次推着一只旧喇叭。",
+          "asset": "s57",
+          "duration_frames": 37,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他说今晚不开门，就让整条街都知道我们有吃的。",
+          "asset": "s57",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我看着监控，忽然觉得，这个人比门外那些东西更懂得找软处下手。",
+          "asset": "s57",
+          "duration_frames": 110,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我差点和他吵起来。",
+          "asset": "s58",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠指了指喇叭的电池仓。",
+          "asset": "s58",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "盖子开着，里面空的。",
+          "asset": "s58",
+          "duration_frames": 32,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "当然，也可能是障眼法。",
+          "asset": "s58",
+          "duration_frames": 36,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我没拿自己的命赌，只问周强一句，声响起来，你准备躲哪。",
+          "asset": "s58",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他回头看身后的人，说里面迟早会开门。",
+          "asset": "s59",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "刚才跟他一起试门的那个人，却往后退了。",
+          "asset": "s59",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "大家都饿，可谁也不想站在喇叭旁边，替他的胆子付命。",
+          "asset": "s59",
+          "duration_frames": 89,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我告诉他们，接纳的条件不会因为喊得响就改。",
+          "asset": "s60",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "愿意停止试门，可以隔墙谈交换。",
+          "asset": "s60",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "想拿整栋楼冒险，我不会配合。",
+          "asset": "s60",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "说完，我把对讲放下，没有再给周强接着表演的机会。",
+          "asset": "s60",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "林岚站起来，扶父亲往岗亭方向走。",
+          "asset": "s61",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "另外两个人跟了过去。",
+          "asset": "s61",
+          "duration_frames": 36,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她没有替我说好话，只说要等救援，就别把丧尸喊来。",
+          "asset": "s61",
+          "duration_frames": 85,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我看着那队人散开，手心里的汗才慢慢凉下来。",
+          "asset": "s61",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "周强一脚踢翻空箱，声音在墙根回荡。",
+          "asset": "s62",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "黑夹克骂了他一句，先跑了。",
+          "asset": "s62",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "他一个人站了几秒，终于也退到车后。",
+          "asset": "s62",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "门没开，但这场争执没有真正结束。",
+          "asset": "s62",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠提醒我，今天人散了，不代表明天不会回来。",
+          "asset": "s63",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们没有出去赶人，也没把食物摆在外面当诱饵。",
+          "asset": "s63",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "该关的关好，该值的班照值。",
+          "asset": "s63",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "守住这里，不是赢一场嘴仗就够。",
+          "asset": "s63",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    },
+    {
+      "id": "LONG-EP02-C10",
+      "title": "10 第一晚像个家",
+      "cues": [
+        {
+          "text": "夜里，我又盘了一遍今天的消耗。",
+          "asset": "s64",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "送出去的，吃掉的，用完的电池，都有去处。",
+          "asset": "s64",
+          "duration_frames": 65,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "剩下的数量没有神奇变多，可每样东西放在哪，我终于心里有底。",
+          "asset": "s64",
+          "duration_frames": 106,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠收好工具，坐在床边揉手。",
+          "asset": "s65",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我本来还想问明天能不能再腾一排货架。",
+          "asset": "s65",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "看见她手上的红印，又把话咽了回去。",
+          "asset": "s65",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "基地可以慢慢建，搭档可没有第二个备用的。",
+          "asset": "s65",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我把热饭推过去，让她先吃。",
+          "asset": "s66",
+          "duration_frames": 45,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她抬头问，今天怎么不催进度。",
+          "asset": "s66",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我说老板反省了，不能光给水果罐头还让人通宵。",
+          "asset": "s66",
+          "duration_frames": 81,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "她笑着踢了踢桌脚，叫我把自己那碗也端来。",
+          "asset": "s66",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "吃完，我接了后半夜的班。",
+          "asset": "s67",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "停车场终于安静，侧门外的影子也散了一些。",
+          "asset": "s67",
+          "duration_frames": 73,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "以前夜班最盼天亮，因为能下班。",
+          "asset": "s67",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "现在盼天亮，是想确认我们又撑过了一晚。",
+          "asset": "s67",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "快天亮时，收音机突然清楚了一点。",
+          "asset": "s68",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "断续的人声里提到，部分区域将尝试恢复供电。",
+          "asset": "s68",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我一下坐直，又没敢叫醒许棠。",
+          "asset": "s68",
+          "duration_frames": 49,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "这不是时间表，更不是保证，可能只是我们听漏了前半句。",
+          "asset": "s68",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我把听到的片段记下来，准备等她醒了再核对。",
+          "asset": "s69",
+          "duration_frames": 77,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "刚放下笔，右上角那块监控黑了。",
+          "asset": "s69",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "不是全店停电，另外几个画面还亮着。",
+          "asset": "s69",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我慢慢抬头，那是新补上的走廊镜头。",
+          "asset": "s69",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我叫醒许棠，两个人停在走廊口。",
+          "asset": "s70",
+          "duration_frames": 53,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "地上多了一颗螺丝，检修盖还关着。",
+          "asset": "s70",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "也许是我们白天漏收的，也许不是。",
+          "asset": "s70",
+          "duration_frames": 57,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我不敢弯腰去捡，先让她照住了头顶。",
+          "asset": "s70",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "上面传来很轻的一声响。",
+          "asset": "s71",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "一下，停住，再一下。",
+          "asset": "s71",
+          "duration_frames": 28,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "不是卷帘门那种撞击声。",
+          "asset": "s71",
+          "duration_frames": 41,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "许棠抓住我的袖口，示意我退回拐角。",
+          "asset": "s71",
+          "duration_frames": 61,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我们刚修好的家，头顶竟像有人在慢慢走。",
+          "asset": "s71",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我忽然想起，周强离开前，最后看了一眼的不是卸货门，是屋檐。",
+          "asset": "s72",
+          "duration_frames": 101,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "难道我们昨天守住的，只是他们想让我们盯住的那扇门。",
+          "asset": "s72",
+          "duration_frames": 93,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        },
+        {
+          "text": "我把灯抬起来，这一次，敲击声就在正上方。",
+          "asset": "s72",
+          "duration_frames": 69,
+          "timing_basis": "text_estimate_calibrated_to_user_reference_10min_not_audio_aligned"
+        }
+      ]
+    }
+  ]
+}

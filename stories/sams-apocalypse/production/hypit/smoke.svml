@@ -1,0 +1,26 @@
+<?svml using="@hypit/markup@1"?>
+<svml>
+  <import as="time" from="@hypit/timeline-author@1"/>
+  <import as="space" from="@hypit/spatial@1"/>
+  <import as="media" from="@hypit/media@1"/>
+  <import as="visual" from="@hypit/visual-track@1"/>
+  <import as="film" from="@hypit/film@1"/>
+  <import as="html" from="@hypit/html-video@1"/>
+  <import as="look" source="./look.svs"/>
+  <time:Clock id="clock" frame-rate="30"/>
+  <time:Timeline id="program" clock={clock} end="3s"/>
+  <space:Canvas id="canvas" width="960" height="540"/>
+  <space:Extent id="picture-size" width="1672" height="941"/>
+  <media:Image id="master" src="../../assets/style/episode-01-master.png"/>
+  <visual:Motion id="push">
+    <visual:Pose at="start" scale="1.02" origin-x="0.5" origin-y="0.5" easing="linear"/>
+    <visual:Pose at="end" scale="1.1" origin-x="0.5" origin-y="0.5"/>
+  </visual:Motion>
+  <visual:Track id="picture" timeline={program.timeline}>
+    <visual:Clip id="opening" image={master} extent={picture-size} during={program.window} frame={canvas.bounds} z="1" fit="cover" motion={push}/>
+  </visual:Track>
+  <film:Film id="main" canvas={canvas.canvas} timeline={program.timeline} appearance={look.film.main}>
+    <film:Track source={picture.visual}/>
+  </film:Film>
+  <html:Video id="final" composition={main.composition} timeline={program.timeline}/>
+</svml>

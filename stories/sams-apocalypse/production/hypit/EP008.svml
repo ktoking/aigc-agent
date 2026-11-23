@@ -1,0 +1,148 @@
+<?svml using="@hypit/markup@1"?>
+<svml>
+<import as="time" from="@hypit/timeline-author@1"/>
+<import as="space" from="@hypit/spatial@1"/>
+<import as="media" from="@hypit/media@1"/>
+<import as="visual" from="@hypit/visual-track@1"/>
+<import as="film" from="@hypit/film@1"/>
+<import as="html" from="@hypit/html-video@1"/>
+<import as="look" source="./look.svs"/>
+<time:Clock id="clock" frame-rate="30"/>
+<time:Timeline id="program" clock={clock} end="60s">
+<time:Window id="shot-01" from="0s" until="4.2s"/>
+<time:Window id="shot-02" from="4s" until="7.7s"/>
+<time:Window id="shot-03" from="7.5s" until="11.7s"/>
+<time:Window id="shot-04" from="11.5s" until="15.2s"/>
+<time:Window id="shot-05" from="15s" until="19.2s"/>
+<time:Window id="shot-06" from="19s" until="22.7s"/>
+<time:Window id="shot-07" from="22.5s" until="26.7s"/>
+<time:Window id="shot-08" from="26.5s" until="30.2s"/>
+<time:Window id="shot-09" from="30s" until="34.2s"/>
+<time:Window id="shot-10" from="34s" until="37.7s"/>
+<time:Window id="shot-11" from="37.5s" until="41.7s"/>
+<time:Window id="shot-12" from="41.5s" until="45.2s"/>
+<time:Window id="shot-13" from="45s" until="49.2s"/>
+<time:Window id="shot-14" from="49s" until="52.7s"/>
+<time:Window id="shot-15" from="52.5s" until="56.7s"/>
+<time:Window id="shot-16" from="56.5s" until="60s"/>
+</time:Timeline>
+<space:Canvas id="canvas" width="1920" height="1080"/>
+<space:Extent id="extent-e8-01" width="1672" height="941"/>
+<media:Image id="asset-e8-01" src="../../episodes/EP008_power-outage/segment_01_00-15s/frames/e8-01.png"/>
+<space:Extent id="extent-e8-02" width="1672" height="941"/>
+<media:Image id="asset-e8-02" src="../../episodes/EP008_power-outage/segment_01_00-15s/frames/e8-02.png"/>
+<space:Extent id="extent-e8-03" width="1672" height="941"/>
+<media:Image id="asset-e8-03" src="../../episodes/EP008_power-outage/segment_02_15-30s/frames/e8-03.png"/>
+<space:Extent id="extent-e8-04" width="1672" height="941"/>
+<media:Image id="asset-e8-04" src="../../episodes/EP008_power-outage/segment_02_15-30s/frames/e8-04.png"/>
+<space:Extent id="extent-e8-05" width="1672" height="941"/>
+<media:Image id="asset-e8-05" src="../../episodes/EP008_power-outage/segment_03_30-45s/frames/e8-05.png"/>
+<space:Extent id="extent-e8-06" width="1672" height="941"/>
+<media:Image id="asset-e8-06" src="../../episodes/EP008_power-outage/segment_03_30-45s/frames/e8-06.png"/>
+<space:Extent id="extent-e8-07" width="1672" height="940"/>
+<media:Image id="asset-e8-07" src="../../episodes/EP008_power-outage/segment_04_45-60s/frames/e8-07.png"/>
+<space:Extent id="extent-e8-08" width="1672" height="941"/>
+<media:Image id="asset-e8-08" src="../../episodes/EP008_power-outage/segment_04_45-60s/frames/e8-08.png"/>
+<visual:Motion id="motion-shot-01">
+<visual:Pose at="start" scale="1.025000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="6f" scale="1.026905" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.065000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-02">
+<visual:Pose at="start" scale="1.140000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.138108" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.105000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-03">
+<visual:Pose at="start" scale="1.025000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.026905" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.065000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-04">
+<visual:Pose at="start" scale="1.105000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.106892" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.140000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-05">
+<visual:Pose at="start" scale="1.065000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.063095" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.025000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-06">
+<visual:Pose at="start" scale="1.105000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.106892" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.140000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-07">
+<visual:Pose at="start" scale="1.025000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.026905" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.065000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-08">
+<visual:Pose at="start" scale="1.140000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.138108" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.105000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-09">
+<visual:Pose at="start" scale="1.025000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.026905" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.065000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-10">
+<visual:Pose at="start" scale="1.105000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.106892" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.140000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-11">
+<visual:Pose at="start" scale="1.065000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.063095" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.025000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-12">
+<visual:Pose at="start" scale="1.105000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.106892" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.140000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-13">
+<visual:Pose at="start" scale="1.025000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.026905" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.065000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-14">
+<visual:Pose at="start" scale="1.140000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.138108" x="-8.9189" y="-0.2162" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.105000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-15">
+<visual:Pose at="start" scale="1.025000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.026905" x="7.2381" y="-0.1905" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.065000" x="-8.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Motion id="motion-shot-16">
+<visual:Pose at="start" scale="1.105000" x="-10.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+<visual:Pose at="6f" scale="1.107000" x="-8.8571" y="-0.2286" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+<visual:Pose at="end" scale="1.140000" x="10.0000" y="-4.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+</visual:Motion>
+<visual:Track id="picture" timeline={program.timeline}>
+<visual:Clip id="shot-01" image={asset-e8-01} extent={extent-e8-01} during={program.shot-01} frame={canvas.bounds} z="1" fit="cover" motion={motion-shot-01}/>
+<visual:Clip id="shot-02" image={asset-e8-01} extent={extent-e8-01} during={program.shot-02} frame={canvas.bounds} z="2" fit="cover" motion={motion-shot-02}/>
+<visual:Clip id="shot-03" image={asset-e8-02} extent={extent-e8-02} during={program.shot-03} frame={canvas.bounds} z="3" fit="cover" motion={motion-shot-03}/>
+<visual:Clip id="shot-04" image={asset-e8-02} extent={extent-e8-02} during={program.shot-04} frame={canvas.bounds} z="4" fit="cover" motion={motion-shot-04}/>
+<visual:Clip id="shot-05" image={asset-e8-03} extent={extent-e8-03} during={program.shot-05} frame={canvas.bounds} z="5" fit="cover" motion={motion-shot-05}/>
+<visual:Clip id="shot-06" image={asset-e8-03} extent={extent-e8-03} during={program.shot-06} frame={canvas.bounds} z="6" fit="cover" motion={motion-shot-06}/>
+<visual:Clip id="shot-07" image={asset-e8-04} extent={extent-e8-04} during={program.shot-07} frame={canvas.bounds} z="7" fit="cover" motion={motion-shot-07}/>
+<visual:Clip id="shot-08" image={asset-e8-04} extent={extent-e8-04} during={program.shot-08} frame={canvas.bounds} z="8" fit="cover" motion={motion-shot-08}/>
+<visual:Clip id="shot-09" image={asset-e8-05} extent={extent-e8-05} during={program.shot-09} frame={canvas.bounds} z="9" fit="cover" motion={motion-shot-09}/>
+<visual:Clip id="shot-10" image={asset-e8-05} extent={extent-e8-05} during={program.shot-10} frame={canvas.bounds} z="10" fit="cover" motion={motion-shot-10}/>
+<visual:Clip id="shot-11" image={asset-e8-06} extent={extent-e8-06} during={program.shot-11} frame={canvas.bounds} z="11" fit="cover" motion={motion-shot-11}/>
+<visual:Clip id="shot-12" image={asset-e8-06} extent={extent-e8-06} during={program.shot-12} frame={canvas.bounds} z="12" fit="cover" motion={motion-shot-12}/>
+<visual:Clip id="shot-13" image={asset-e8-07} extent={extent-e8-07} during={program.shot-13} frame={canvas.bounds} z="13" fit="cover" motion={motion-shot-13}/>
+<visual:Clip id="shot-14" image={asset-e8-07} extent={extent-e8-07} during={program.shot-14} frame={canvas.bounds} z="14" fit="cover" motion={motion-shot-14}/>
+<visual:Clip id="shot-15" image={asset-e8-08} extent={extent-e8-08} during={program.shot-15} frame={canvas.bounds} z="15" fit="cover" motion={motion-shot-15}/>
+<visual:Clip id="shot-16" image={asset-e8-08} extent={extent-e8-08} during={program.shot-16} frame={canvas.bounds} z="16" fit="cover" motion={motion-shot-16}/>
+</visual:Track>
+<film:Film id="main" canvas={canvas.canvas} timeline={program.timeline} appearance={look.film.main}>
+<film:Track source={picture.visual}/>
+</film:Film>
+<html:Video id="final" composition={main.composition} timeline={program.timeline}/>
+</svml>

@@ -1,0 +1,133 @@
+<?svml using="@hypit/markup@1"?>
+<svml>
+  <import as="time" from="@hypit/timeline-author@1"/>
+  <import as="space" from="@hypit/spatial@1"/>
+  <import as="media" from="@hypit/media@1"/>
+  <import as="visual" from="@hypit/visual-track@1"/>
+  <import as="film" from="@hypit/film@1"/>
+  <import as="html" from="@hypit/html-video@1"/>
+  <import as="look" source="./look.svs"/>
+  <time:Clock id="clock" frame-rate="30"/>
+  <time:Timeline id="program" clock={clock} end="60s">
+    <time:Window id="opening" from="0s" until="4.2s"/>
+    <time:Window id="yesterday" from="4s" until="7.2s"/>
+    <time:Window id="take-anything" from="7s" until="11.7s"/>
+    <time:Window id="flashback" from="11.5s" until="18.2s"/>
+    <time:Window id="parking-monitor" from="18s" until="23.2s"/>
+    <time:Window id="close-shutter" from="23s" until="26.7s"/>
+    <time:Window id="wait-until-morning" from="26.5s" until="30.2s"/>
+    <time:Window id="water-and-cans" from="30s" until="37.2s"/>
+    <time:Window id="coldroom" from="37s" until="39.7s"/>
+    <time:Window id="full-cart" from="39.5s" until="45.2s"/>
+    <time:Window id="make-bed" from="45s" until="49.2s"/>
+    <time:Window id="visitor-reveal" from="49s" until="56.7s"/>
+    <time:Window id="spare-keys" from="56.5s" until="60s"/>
+  </time:Timeline>
+  <space:Canvas id="canvas" width="1920" height="1080"/>
+  <space:Extent id="extent-cart" width="1672" height="941"/>
+  <media:Image id="asset-cart" src="../../episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-01-cart.png"/>
+  <space:Extent id="extent-work" width="1672" height="941"/>
+  <media:Image id="asset-work" src="../../episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-02-work.png"/>
+  <space:Extent id="extent-flee" width="1672" height="941"/>
+  <media:Image id="asset-flee" src="../../episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-03-flee.png"/>
+  <space:Extent id="extent-monitor" width="1672" height="941"/>
+  <media:Image id="asset-monitor" src="../../episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-04-monitor.png"/>
+  <space:Extent id="extent-shutter" width="1672" height="941"/>
+  <media:Image id="asset-shutter" src="../../episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-05-shutter.png"/>
+  <space:Extent id="extent-night" width="1672" height="941"/>
+  <media:Image id="asset-night" src="../../episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-06-night.png"/>
+  <space:Extent id="extent-resources" width="1672" height="941"/>
+  <media:Image id="asset-resources" src="../../episodes/EP001_own-the-store/segment_03_30-45s/frames/shot-07-resources.png"/>
+  <space:Extent id="extent-cold" width="1672" height="941"/>
+  <media:Image id="asset-cold" src="../../episodes/EP001_own-the-store/segment_03_30-45s/frames/shot-08-coldroom.png"/>
+  <space:Extent id="extent-bed" width="1672" height="941"/>
+  <media:Image id="asset-bed" src="../../episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-09-bed.png"/>
+  <space:Extent id="extent-manager" width="1672" height="941"/>
+  <media:Image id="asset-manager" src="../../episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-10-manager.png"/>
+  <space:Extent id="extent-keys" width="1672" height="941"/>
+  <media:Image id="asset-keys" src="../../episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-11-keys.png"/>
+  <visual:Motion id="motion-opening">
+    <visual:Pose at="start" scale="1.015000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="6f" scale="1.018333" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.085000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-yesterday">
+    <visual:Pose at="start" scale="1.060000" x="-20.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.060000" x="-17.5000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.060000" x="20.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-take-anything">
+    <visual:Pose at="start" scale="1.120000" x="-35.0000" y="-8.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.123404" x="-35.0000" y="-8.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.200000" x="-35.0000" y="-8.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-flashback">
+    <visual:Pose at="start" scale="1.030000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.032090" x="-0.4478" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.100000" x="-15.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-parking-monitor">
+    <visual:Pose at="start" scale="1.025000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.028654" x="-1.3462" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.120000" x="-35.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-close-shutter">
+    <visual:Pose at="start" scale="1.020000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.023784" x="0.4324" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.090000" x="8.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-wait-until-morning">
+    <visual:Pose at="start" scale="1.090000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.086486" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.025000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-water-and-cans">
+    <visual:Pose at="start" scale="1.065000" x="26.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.065000" x="24.5556" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.065000" x="-26.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-coldroom">
+    <visual:Pose at="start" scale="1.025000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.029815" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.090000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-full-cart">
+    <visual:Pose at="start" scale="1.150000" x="-28.0000" y="-18.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.147544" x="-27.4386" y="-17.6491" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.080000" x="-12.0000" y="-8.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-make-bed">
+    <visual:Pose at="start" scale="1.025000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.028095" x="-0.7143" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.090000" x="-15.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-visitor-reveal">
+    <visual:Pose at="start" scale="1.025000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.029545" x="-1.8182" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.200000" x="-70.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Motion id="motion-spare-keys">
+    <visual:Pose at="start" scale="1.030000" x="0.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="0" easing="linear"/>
+    <visual:Pose at="6f" scale="1.036286" x="-1.6000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+    <visual:Pose at="end" scale="1.140000" x="-28.0000" y="0.0000" origin-x="0.5" origin-y="0.5" opacity="1" easing="linear"/>
+  </visual:Motion>
+  <visual:Track id="picture" timeline={program.timeline}>
+    <visual:Clip id="opening" image={asset-cart} extent={extent-cart} during={program.opening} frame={canvas.bounds} z="1" fit="cover" motion={motion-opening}/>
+    <visual:Clip id="yesterday" image={asset-work} extent={extent-work} during={program.yesterday} frame={canvas.bounds} z="2" fit="cover" motion={motion-yesterday}/>
+    <visual:Clip id="take-anything" image={asset-cart} extent={extent-cart} during={program.take-anything} frame={canvas.bounds} z="3" fit="cover" motion={motion-take-anything}/>
+    <visual:Clip id="flashback" image={asset-flee} extent={extent-flee} during={program.flashback} frame={canvas.bounds} z="4" fit="cover" motion={motion-flashback}/>
+    <visual:Clip id="parking-monitor" image={asset-monitor} extent={extent-monitor} during={program.parking-monitor} frame={canvas.bounds} z="5" fit="cover" motion={motion-parking-monitor}/>
+    <visual:Clip id="close-shutter" image={asset-shutter} extent={extent-shutter} during={program.close-shutter} frame={canvas.bounds} z="6" fit="cover" motion={motion-close-shutter}/>
+    <visual:Clip id="wait-until-morning" image={asset-night} extent={extent-night} during={program.wait-until-morning} frame={canvas.bounds} z="7" fit="cover" motion={motion-wait-until-morning}/>
+    <visual:Clip id="water-and-cans" image={asset-resources} extent={extent-resources} during={program.water-and-cans} frame={canvas.bounds} z="8" fit="cover" motion={motion-water-and-cans}/>
+    <visual:Clip id="coldroom" image={asset-cold} extent={extent-cold} during={program.coldroom} frame={canvas.bounds} z="9" fit="cover" motion={motion-coldroom}/>
+    <visual:Clip id="full-cart" image={asset-cart} extent={extent-cart} during={program.full-cart} frame={canvas.bounds} z="10" fit="cover" motion={motion-full-cart}/>
+    <visual:Clip id="make-bed" image={asset-bed} extent={extent-bed} during={program.make-bed} frame={canvas.bounds} z="11" fit="cover" motion={motion-make-bed}/>
+    <visual:Clip id="visitor-reveal" image={asset-manager} extent={extent-manager} during={program.visitor-reveal} frame={canvas.bounds} z="12" fit="cover" motion={motion-visitor-reveal}/>
+    <visual:Clip id="spare-keys" image={asset-keys} extent={extent-keys} during={program.spare-keys} frame={canvas.bounds} z="13" fit="cover" motion={motion-spare-keys}/>
+  </visual:Track>
+  <film:Film id="main" canvas={canvas.canvas} timeline={program.timeline} appearance={look.film.main}>
+    <film:Track source={picture.visual}/>
+  </film:Film>
+  <html:Video id="final" composition={main.composition} timeline={program.timeline}/>
+</svml>

@@ -1,0 +1,14 @@
+{
+  "objective": "Audio narration and burned Chinese captions; no independent SRT/VTT",
+  "status": "COMPLETE",
+  "production": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep02-v2",
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP02-v2",
+  "manifest": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP02-v2/manifest.json",
+  "image_count": 120,
+  "voice_cues": 276,
+  "duration_seconds": 592.3666666666667,
+  "active_delivery_server_session": 45692,
+  "active_cloudflare_session": 72400,
+  "player_url": "https://spine-warrant-elvis-almost.trycloudflare.com/",
+  "note": "All media generation, audio processing, full rendering and automatic verification completed. Do not regenerate billed assets. Playback checked at 1x in opening, danger and ending; full human watch/listening not claimed."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "references/style-and-hero.png",
+    "purpose": "主角身份、服装、卖场、画风",
+    "sha256": "6687197086d3e96b3187fab2ec83aebd52f3a2faaa6340c066a253c877dd47b7",
+    "bytes": 2904412
+  },
+  {
+    "file": "references/xu-tang.png",
+    "purpose": "只锁许棠外观，不继承背景开门状态",
+    "sha256": "7590db3ec191480b5320f85f4cabf40fb53f99aa7378ccc2b93cb53b0a448dc8",
+    "bytes": 2131237
+  },
+  {
+    "file": "references/manager-on-monitor.png",
+    "purpose": "店长身份、监控呈现；并非直接室外视角参考",
+    "sha256": "b3ac82ed1ed942065722c6d13f9c4b1768b3bb2401a60fe85a45399b797fdd93",
+    "bytes": 1921794
+  },
+  {
+    "file": "references/security-room.png",
+    "purpose": "监控室布局和主角，画面中的昨夜事件不跨时点复用",
+    "sha256": "43dc2f9c0f497263e2dfd80db3d54f743daab62cbed117a17352c5e8dfb7cdc5",
+    "bytes": 1882345
+  }
+]

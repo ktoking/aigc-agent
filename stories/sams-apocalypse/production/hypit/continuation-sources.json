@@ -1,0 +1,602 @@
+{
+  "female-master": {
+    "id": "female-master",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-00560b8d-e16b-4091-a00c-b300d1b8d8c5.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Match the reference's round white head, black dot eyes, clear black outlines and restrained cel shading. Human adult bodies with simple round cartoon faces. Readable large shapes, moderate environment detail, no dense microtexture, no photo realism, no collage, no split panels, no text/captions, no speech bubbles, no watermark. Reference supplies style only. Establish new adult female Xu Tang, 26, dark brown hair in a LOW ponytail, simple round WHITE face and black dot eyes, small calm smile, orange repair jacket over gray shirt, charcoal work trousers, black work shoes, blue-gray tool bag held in one hand and empty transparent water bottle in other. Full body, standing beside an open white maintenance van outside a gray-blue warehouse loading shutter with yellow bollards. Late afternoon. Woman only. Do not copy the male.",
+    "status": "accepted",
+    "role": "identity-reference-only",
+    "review": "身份通过。背景开门不用于正片，只做女性外观参考。"
+  },
+  "e2-01": {
+    "id": "e2-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-d0cda3a7-4e67-4a42-8fa7-959252aabb6f.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Match the reference's round white head, black dot eyes, clear black outlines and restrained cel shading. Human adult bodies with simple round cartoon faces. Readable large shapes, moderate environment detail, no dense microtexture, no photo realism, no collage, no split panels, no text/captions, no speech bubbles, no watermark. Reference supplies male identity and security-room visual language. Interior security room, sage-gray walls, three black monitors on gray desk along left wall, rear-right gray door with narrow window. Male in teal beanie/mustard hoodie/navy vest seated, concerned, his hand hovering above a plain green door-release button beside black intercom. Monitor shows the brown-haired bespectacled manager OUTSIDE closed blue-gray loading shutter concealing his left forearm with right hand; red lanyard, white shirt/navy vest. No one enters.",
+    "status": "accepted",
+    "review": "人物与门状态复核",
+    "corrected": false
+  },
+  "e2-02": {
+    "id": "e2-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-89846e91-8b1e-4b30-80b6-dde3fe6a90ce.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Match the reference's round white head, black dot eyes, clear black outlines and restrained cel shading. Human adult bodies with simple round cartoon faces. Readable large shapes, moderate environment detail, no dense microtexture, no photo realism, no collage, no split panels, no text/captions, no speech bubbles, no watermark. Reference supplies manager identity and exterior location. Medium close view from outdoor CCTV angle: same brown-haired manager in black rectangular glasses, white shirt, navy vest, RED lanyard, holding two silver keys in right hand and covering LEFT forearm against his chest. Closed gray-blue rolling shutter behind him and yellow bollard. Worried stern expression. His bite remains concealed under left sleeve. Daylight. Entire view outdoors, no monitor border.",
+    "status": "accepted",
+    "review": "人物与门状态复核",
+    "corrected": false
+  },
+  "e2-03": {
+    "id": "e2-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-3ee29c6b-c5e2-4017-923e-2adedcb75379.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Match the reference's round white head, black dot eyes, clear black outlines and restrained cel shading. Human adult bodies with simple round cartoon faces. Readable large shapes, moderate environment detail, no dense microtexture, no photo realism, no collage, no split panels, no text/captions, no speech bubbles, no watermark. Same manager from reference, exterior at closed loading shutter. Waist-up dramatic view: he has raised his LEFT forearm toward outdoor camera, white sleeve slipped down to reveal an unmistakable small oval semicircle of reddish tooth bruises on forearm. No dripping blood or gore. Right hand holds silver keys. His white round face, brown hair, rectangular glasses and RED lanyard unchanged. Tight focus on forearm bite and angry frightened face. Outdoors daylight.",
+    "status": "accepted",
+    "review": "人物与门状态复核",
+    "corrected": false
+  },
+  "e2-05": {
+    "id": "e2-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-2bb38127-7613-4f48-926e-415aee451a95.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Match the reference's round white head, black dot eyes, clear black outlines and restrained cel shading. Human adult bodies with simple round cartoon faces. Readable large shapes, moderate environment detail, no dense microtexture, no photo realism, no collage, no split panels, no text/captions, no speech bubbles, no watermark. Reference supplies male identity. Close view INSIDE blue-gray loading shutter: male teal beanie/mustard hoodie/navy vest braces a heavy horizontal sliding steel security bolt fully in its bracket. Closed shutter fills background; interior concrete wall and yellow safety stripe. Male's both hands on the bolt, determined anxious face visible in profile. No one else, no opening, no outdoor scene visible.",
+    "status": "accepted",
+    "review": "人物与门状态复核",
+    "corrected": false
+  },
+  "e2-07": {
+    "id": "e2-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-5f68ce7c-4fcc-4889-9bfc-a377edbcbeb3.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Match the reference's round white head, black dot eyes, clear black outlines and restrained cel shading. Human adult bodies with simple round cartoon faces. Readable large shapes, moderate environment detail, no dense microtexture, no photo realism, no collage, no split panels, no text/captions, no speech bubbles, no watermark. Reference supplies manager identity and outside shutter. The same manager now visibly unresponsive infected, pale grayish round face, unfocused small black eyes, messy brown hair, black rectangular glasses, white shirt/navy vest/red lanyard, left sleeve low exposing small bitten forearm. Forehead pressed into the CLOSED steel rolling shutter, arms slack, bent posture. Side-angle outdoor medium shot with yellow bollard. Creepy restrained cartoon horror, no gore, no open door, no protagonist outside.",
+    "status": "accepted",
+    "review": "人物与门状态复核",
+    "corrected": false
+  },
+  "e2-04": {
+    "id": "e2-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-68002017-3d41-4c1a-86ea-5007323cc43f.png",
+    "prompt": "Edit this exact comic frame. KEEP the male, teal beanie, mustard hoodie, navy vest, seated position, intercom, withdrawing hand, room and desk. ONLY correct ALL monitor contents: remove the woman completely. Main monitor shows the brown short-haired male MANAGER in black rectangular glasses, white shirt, navy vest and RED lanyard outside CLOSED gray-blue rolling shutter, no open doorway. Small other monitors show closed doors and empty exterior. There is no woman in this episode. No new characters elsewhere, no captions or text. Keep 16:9.",
+    "status": "accepted",
+    "review": "修正后目视通过",
+    "corrected": true
+  },
+  "e2-06": {
+    "id": "e2-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-778ff1f0-7d22-4fa0-a667-73b6e0bc5b9e.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室外近景，店长的右手把银色钥匙插进蓝灰卷帘门外锁，门仍紧闭；白衬衫袖、蓝马甲、红挂绳边缘。视角不出现室内货架。",
+    "status": "accepted",
+    "review": "人物与门状态复核",
+    "corrected": false
+  },
+  "e2-08": {
+    "id": "e2-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-081920ca-c6b9-428e-977d-7bb0f939fa54.png",
+    "prompt": "Edit exact 16:9 comic frame, preserve accepted identity, composition and style except following correction: Replace ONLY monitor imagery. Main monitor shows infected MANAGER (male, short brown hair, black rectangular glasses, white shirt/navy vest/RED lanyard), forehead against OUTSIDE a CLOSED blue-gray loading SHUTTER, arms limp. Other monitors show empty exterior and closed shutters. Completely remove all women from ALL monitors. Keep protagonist's startled face and intercom, sage-gray security room. No woman exists in this episode. No subtitles, no text overlays, no watermark.",
+    "status": "accepted",
+    "review": "修正后目视通过",
+    "corrected": true
+  },
+  "e3-01": {
+    "id": "e3-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-05a939b8-241d-4a7b-a743-2b6b5a447d69.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 第一天下午，男主在超市两排高货架间推空蓝色平板车，拿小本和手电，开始盘货。明亮中性灯。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e3-02": {
+    "id": "e3-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-97013d4e-17d4-4ca0-9a03-43a0fc99e877.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 男主蹲在成箱瓶装水旁，拿铅笔在清单上记数。只展示部分堆放齐整的水箱，不能把画面数量当全店库存；不需文字数字。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e3-03": {
+    "id": "e3-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-1e7284ca-f1bd-4c22-b2fc-4f0acb47561c.png",
+    "prompt": "Edit this exact 16:9 comic frame. Remove the woman ENTIRELY from the left side, leave a natural empty store aisle in her place. Retain the SAME male in teal beanie mustard hoodie and navy vest making inventory notes, the food cart and shelves of rice, cans, noodles, jerky and nuts. He is ALONE inside the entire shop. Do not add any other person anywhere. Keep the rest identical, no subtitles no text overlays.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e3-04": {
+    "id": "e3-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-d379c3ba-77aa-415d-9d9c-4b66d95efaf2.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 男主抱着盘点本看向高大仓储货架，蓝立柱橘横梁，满载常温食品，强透视。表情踏实而惊喜。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e3-05": {
+    "id": "e3-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-8c5b7641-8a31-4b4b-aaa1-49edd6f8cbc1.png",
+    "prompt": "Edit this exact 16:9 comic frame preserving all other content and style. Remove the woman in background ENTIRELY; restore naturally empty bedding aisle behind her. Male protagonist is ALONE checking the bread package's expiry date. Keep male, bread, flashlight batteries and camp beds. No other person in shop. No new people, no subtitles, no watermark.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e3-06": {
+    "id": "e3-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-cdfb6f7a-3fb4-4449-aff8-b25a5ffb8622.png",
+    "prompt": "Edit this exact 16:9 comic frame preserving all other content and style. Remove the woman and her tool bag ENTIRELY from inside room, fill background with the same CLOSED gray door. Remove the tiny person from all monitor screens. Main monitor instead shows a white maintenance VAN OUTSIDE, its side door slightly opening but woman not yet visible. Keep the male holding bread, startled as he looks at monitor, his teal hat/yellow hoodie/navy vest and existing gray desk/room. He is ALONE inside. No new people, no subtitles, no watermark.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e3-07": {
+    "id": "e3-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-bd5d80fc-8db4-441f-aac4-4b4982e2a3b1.png",
+    "prompt": "Edit exact 16:9 comic frame, preserve accepted identity, composition and style except following correction: REMOVE the male ENTIRELY from right of image, replace with natural empty loading apron. Retain the woman beside open white van, her orange jacket, LOW brown ponytail, toolbag and empty bottle. The large gray-blue warehouse rolling shutter behind remains completely CLOSED. Only ONE woman in the entire image. Male protagonist is safely inside and never visible outside. No subtitles, no text overlays, no watermark.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e3-08": {
+    "id": "e3-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-c52d4b02-0c72-4b32-a0c4-bb0674c1ab11.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室外中近景许棠举起空透明水瓶朝上方摄像头招手，橘夹克、灰T恤、灰工装裤、深棕低马尾、圆白脸黑点眼。背后白车与闭合蓝灰卷帘门，阳光偏晚。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e4-01": {
+    "id": "e4-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-adae0763-df10-45ad-88ea-4b11c1497e1a.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 门外许棠站在白色维修车旁，举起一张简洁维保工单给监控，蓝灰工具包放脚边，空瓶在旁，灰蓝卷帘门紧闭。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e4-02": {
+    "id": "e4-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-87848351-3023-4640-95f3-9039e5fca38f.png",
+    "prompt": "Edit exact 16:9 comic frame, preserve accepted identity, composition and style except following correction: REMOVE the woman and tool bag ENTIRELY from beside male inside security room. Male is ALONE indoors comparing work order on his desk to camera image. Replace left main MONITOR content with the orange-jacket low-ponytail woman standing OUTSIDE by white van holding up a work order matching his desk paper. Add no person elsewhere. Security room solid sage-gray walls, three monitors along left gray desk, not a huge open viewing window; retain CLOSED exterior loading shutter as camera image only. No subtitles, no text overlays, no watermark.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e4-03": {
+    "id": "e4-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-96cb513b-4454-4eb8-9082-28dad874615e.png",
+    "prompt": "Edit exact 16:9 comic frame, preserve accepted identity, composition and style except following correction: REMOVE the male ENTIRELY, fill his position with natural empty concrete. Keep ONLY the female technician, orange jacket, low brown ponytail, pointing out boxes obstructing condenser intake. Change her pointing hand toward the blocked intake, not up to sky. Keep empty boxes, equipment, closed shutter and outdoor loading apron. No male outdoors, no additional characters. No subtitles, no text overlays, no watermark.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e4-04": {
+    "id": "e4-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-97ca45eb-0b68-4076-ab50-3fea21500238.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 许棠在室外冷凝器旁把堵住进风口的空纸箱搬开，蓝灰工具包放安全处，双脚落地稳定，未拆电箱。男主不在室外。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e4-05": {
+    "id": "e4-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-38db72d7-2935-4b2f-a77d-7d481a5665af.png",
+    "prompt": "Edit this exact 16:9 comic frame. REMOVE the woman and toolbag ENTIRELY from behind male, fill with naturally empty store aisle. Male is ALONE indoors checking cold-room control display while holding radio, receiving the outside technician's advice remotely. Keep his identity, outfit, cold-room door completely closed and green/red panel lights; keep all else unchanged. No other character, no subtitles, no text overlays.",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": true
+  },
+  "e4-06": {
+    "id": "e4-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-7ec1a873-afc2-4b06-9562-7221d0fc8cd3.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室外许棠在已清空进风口的冷凝外机旁，手扶工具包，肩膀放松，透气护网无杂物遮挡，暮色，女主无伤。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e4-07": {
+    "id": "e4-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-dde1e5c4-b2c0-4eac-9a65-90b4095cbdbb.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室内朝收货缓冲间看：前景男主位于关闭的带玻璃内门后，隔窗看对面独立矩形收货间，最远处外卷帘门也关闭。清楚两道边界，许棠还在外侧可不入画，房内无人。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e4-08": {
+    "id": "e4-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-0ee7e7e9-7afa-4189-9b79-cfe11c905e70.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室外许棠平静地指向收货缓冲间的侧窗，另一手拿空水瓶，橘夹克和低马尾；蓝灰卷帘门仍关着，男主不在她这侧。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "accepted",
+    "review": "逐图检查；提前同处或男主出现在室外的版本已修正",
+    "corrected": false
+  },
+  "e5-01": {
+    "id": "e5-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-25404933-5043-4a31-b680-c4604af2edcb.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 男主独自在空收货缓冲间放一箱水、面包、叠好米色被子和有盖便携厕所，外卷帘门关着，带窄玻璃内门在身后。许棠尚未进入。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e5-02": {
+    "id": "e5-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-279c89b8-2a24-47be-af0f-7d34276bad0b.png",
+    "prompt": "Edit this exact 16:9 comic frame. KEEP the closed glass internal door separating male foreground and orange-jacket woman in receiving buffer room. ONLY replace outdoor scenery behind male on LEFT with INTERIOR sage-gray warehouse corridor and overhead electric light. Male is indoors in safe store, NEVER outside. Woman remains seated behind CLOSED glass door in buffer room, with large exterior shutter behind her fully CLOSED. Both characters on opposite sides of closed glass internal door, keep identities, props. No outdoor view anywhere, no other people, no text.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e5-03": {
+    "id": "e5-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-869bbaf1-22b8-48cc-b0fe-6e53990a8f2b.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 夜里近景男主把盘点清单贴在内门玻璃的自己这一面，纸张简单图标行线；玻璃另一侧许棠拿纸笔认真看。两人之间的门闭合。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e5-04": {
+    "id": "e5-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-619f079f-2501-4b77-be2f-9815069af886.png",
+    "prompt": "Edit exact 16:9 comic frame. REMOVE male ENTIRELY from beside woman, restore empty receiving-room bench behind his old position. Xu Tang is ALONE in this closed observation room sitting on blanket writing list. Keep orange jacket low ponytail toolbag water paper towels black trash bags lantern and closed glass door. Absolutely no man in this room or reflected in glass. No subtitles.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e5-05": {
+    "id": "e5-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-9fa179a5-edf6-4946-9ad0-ce161719b7f1.png",
+    "prompt": "Edit this exact 16:9 comic frame. Replace OUTDOOR scenery behind foreground male on left with INTERIOR sage-gray safe-store corridor. Male is indoors in store. Preserve the closed GLASS INTERNAL DOOR between him and woman, woman inside observation buffer room behind the glass holding equipment plan. Behind her replace office desk/laptop with simple receiving-room shelf and folded cream blanket, large gray exterior rolling shutter fully CLOSED. Two different indoor sides of CLOSED glass door, no outside scenery, no open door, keep identities and diagram, no text.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e5-06": {
+    "id": "e5-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-b7fcf469-96a2-458b-9c8f-12cd1e5f762c.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 夜间男主独自在卖场安全区把散乱纸箱搬上蓝平板车，货架旁通道保持净空，手电放旁边，没有堵门障碍物。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e5-07": {
+    "id": "e5-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-2d158cdc-8484-4616-bdeb-a53160f90271.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 清晨男主在门边办公椅上醒来，青绿帽、黄衣、蓝马甲不变。带玻璃内门在旁，透过去能看到橘衣许棠靠缓冲间墙睡，蓝灰包抱在怀里。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e5-08": {
+    "id": "e5-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-4dc81a8a-d8a3-4a29-b75a-121408e19b82.png",
+    "prompt": "Generate a new single 16:9 comic shot in THIS exact interior closed glass-door scene, same male and female identities. Change to dawn morning: the male in teal beanie yellow hoodie navy vest on LEFT safe-store side gently knocks one white finger on CLOSED INTERNAL GLASS DOOR. On RIGHT behind the glass in separate receiving observation room, orange-jacket low-brown-ponytail woman has just awakened sitting on cream blanket leaning against gray wall, embracing blue-gray toolbag, looks up with a tired gentle smile. Back of her receiving room is a completely CLOSED gray rolling shutter, shelves of cartons. Gentle morning light from high skylight. Both indoors opposite sides of CLOSED GLASS INTERNAL DOOR. No van, no car, no outdoor view, no extra characters, no paper blocking faces, no text or subtitle or watermark. Restrained clean 2D cel shading.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-01": {
+    "id": "e6-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-51d6cbc3-67b0-4efa-a7f5-8c612f4698b4.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Remove ALL visible blue-tag keys, keyrings and dangling keys from ENTIRE image (from door, fridge, bag, and/or table wherever seen). Restore natural plain surfaces in those exact spots. No key exists in this shot. Preserve people, same outfit, room layout, pose and food exactly. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-02": {
+    "id": "e6-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-bc2ebf40-df7f-4327-8e8f-30256f7e8387.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 许棠刚进卖场把空透明水瓶放进整齐的回收袋，男主在旁拿物资本看着，温和神情。橘外套低马尾固定。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e6-03": {
+    "id": "e6-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-2b52320b-0ec0-4a83-99e5-2d1df4a7916b.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Remove ALL visible blue-tag keys, keyrings and dangling keys from ENTIRE image (from door, fridge, bag, and/or table wherever seen). Restore natural plain surfaces in those exact spots. No key exists in this shot. Preserve people, same outfit, room layout, pose and food exactly. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-04": {
+    "id": "e6-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-71e16407-094e-4614-97b0-909f9ca3506a.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Remove ALL visible blue-tag keys, keyrings and dangling keys from ENTIRE image (from door, fridge, bag, and/or table wherever seen). Restore natural plain surfaces in those exact spots. No key exists in this shot. Preserve people, same outfit, room layout, pose and food exactly. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-05": {
+    "id": "e6-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-9e1ce42b-41d7-420b-bad6-82cb2b2b5672.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Remove ALL visible blue-tag keys, keyrings and dangling keys from ENTIRE image (from door, fridge, bag, and/or table wherever seen). Restore natural plain surfaces in those exact spots. No key exists in this shot. Preserve people, same outfit, room layout, pose and food exactly. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-06": {
+    "id": "e6-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-fca0d65f-5235-4e7d-805f-4be9cf9e5b5f.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Remove ALL visible blue-tag keys, keyrings and dangling keys from ENTIRE image (from door, fridge, bag, and/or table wherever seen). Restore natural plain surfaces in those exact spots. No key exists in this shot. Preserve people, same outfit, room layout, pose and food exactly. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-07": {
+    "id": "e6-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-7ff46924-34ef-44fa-ae72-d37388f419c7.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Keep male offering the SINGLE short silver key with BLUE square tag. Replace BOTH plates of salmon/rice/vegetables with mostly EMPTY DINNER PLATES bearing a few steak crumbs and fork, the dinner has already been eaten. There is no fish or rice meal. Keep key as focus. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e6-08": {
+    "id": "e6-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-a6bc15fc-e1b8-4581-8e60-26cb0002258d.png",
+    "prompt": "Edit this exact 16:9 comic frame with ONE targeted continuity correction. Remove ALL extra croissants on both plates; keep ONLY the single croissant torn into two halves held by the woman's two hands, one half being offered to man. Plates mostly empty with crumbs. Keep the single blue-tag silver key on woman's side. Change outside window to twilight/early night. Do not change character identities. No text overlays or subtitle or watermark.",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": true
+  },
+  "e2-04-rejected-original": {
+    "id": "e2-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-6e6b428a-8c21-4a78-ac64-c1fad7ff91bf.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 监控室近景，男主把手从绿色开门按钮撤开，另一手握黑色对讲机，脸上从犹豫变为坚定。显示器只显示门外店长，不是房内客人。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e2-08-rejected-original": {
+    "id": "e2-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-dfe2205c-b192-46e3-b89c-702007dafece.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 男主在监控室退后半步，握住黑色对讲机，惊惧和一滴冷汗，身后显示器显示店长额头抵住门。室内门闭合。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e3-03-rejected-original": {
+    "id": "e3-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-8ec60ede-273c-4ca0-ac70-e46ea89aebad.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 低机位货架近景：罐头箱、成袋大米、泡面箱、肉干和坚果罐整齐分区，男主拿本检查。高货架向远处延伸。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e3-05-rejected-original": {
+    "id": "e3-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-bdf2b03f-64f7-42ec-90b5-d4c23f443dba.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 商品近景：男主黄色袖白色手拿一袋牛角面包检查包装日期，小本价格被划掉的简洁笔迹，旁边手电电池，远处折叠床和被子。无可读文字。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e3-06-rejected-original": {
+    "id": "e3-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-c3876c50-bdb5-4f7a-b55e-dd47226575cc.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 男主在监控桌旁抱一袋面包，正准备吃，突然抬头看屏幕。三监视器沿左墙，青灰墙，灰门后右。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e3-07-rejected-original": {
+    "id": "e3-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-97017f91-0260-4393-9238-712c9b251a5e.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 下午室外全幅镜头：白色维修面包车侧门打开，许棠从车旁站起，橘色维修夹克，深棕低马尾，蓝灰工具包，空透明水瓶。离紧闭卷帘门至少几步。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e4-02-rejected-original": {
+    "id": "e4-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-8415279b-f0eb-4322-9a31-3acca4cdc9b4.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 监控室男主把桌上的门店维保记录和屏幕中许棠举的工单比对，两张纸只画简单行线和相同的小标记，不生成可读文字。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e4-03-rejected-original": {
+    "id": "e4-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-4cf879e1-4912-4f05-8ab1-216cd5e4fff6.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室外冷库冷凝外机，大型灰色有护网的设备和封闭电箱，进风口前倒着几个空纸箱；许棠从几步外指给上方监控看。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e4-05-rejected-original": {
+    "id": "e4-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-7d3430bc-8626-4991-9ee2-63aa95c01d43.png",
+    "prompt": "Use case: illustration-story. Create ONE full-frame 16:9 landscape shot for a clean colored 2D survival comic. Reference 1 provides exact male identity and drawing style (white round head, black dot eyes, teal knitted beanie, mustard hoodie, navy vest, charcoal pants); reference 2 when supplied provides female identity ONLY (white round head, black dot eyes, dark brown LOW ponytail, orange repair jacket, gray shirt, charcoal work trousers, blue-gray tool bag). Keep these identities. Clean black outlines, restrained cel shading, readable large shapes, moderate detail. New composition as described, never copy an open door from reference: every door state must obey scene. No subtitles, no caption text, no bubbles, no grid, no collage, no watermark, no photorealism. 室内冷库门外男主按照对讲机说明检查小温控面板；冷库门保持关闭，面板绿灯和一盏小红灯，干净设备轮廓。 女主外貌参考只锁定身份，不继承参考图打开的仓库门。门必须按这张场景说明保持关闭。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e5-02-rejected-original": {
+    "id": "e5-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-11b44f7f-13ed-48f1-96dc-3448da2e4290.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 傍晚许棠已在缓冲间内，蹲下拿瓶水，外卷帘门关闭；前景男主位于关闭带玻璃的内门另一侧，两人隔玻璃相望，未共处一室。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片",
+    "corrected": false
+  },
+  "e5-04-rejected-original": {
+    "id": "e5-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-b579fa1d-3764-412b-8176-9cbdebb9fb2c.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 缓冲间许棠坐在折好的被子旁，拿笔在纸上补记垃圾袋、纸巾和照明，旁边蓝灰工具包和水；背景玻璃门关闭。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片",
+    "corrected": false
+  },
+  "e5-05-rejected-original": {
+    "id": "e5-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-f47c5a7e-0de9-4b64-ba28-c12f07788335.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 夜间过肩镜头男主看玻璃另一边许棠举起设备平面草图，只有简洁冷库、备用设备房框图，没有接线示意；玻璃门闭合。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片",
+    "corrected": false
+  },
+  "e5-08-rejected-original": {
+    "id": "e5-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-612c6deb-e301-4f2d-8d3d-e897e22ef80a.png",
+    "prompt": "Use case: illustration-story. ONE 16:9 full-frame landscape clean colored 2D comic shot. Reference 1 is exact male identity and drawing style; reference 2 is Xu Tang female identity ONLY. Male round white head, black dot eyes, teal beanie, mustard hoodie/navy vest; woman round white head, black dot eyes, low brown ponytail, ORANGE repair jacket, gray pants, blue-gray tool bag. Restrained cel shading, large readable shapes, no tiny textures, no overlays, no subtitles, no split-panels, no text, no watermarks. NEVER copy the open shutter from female reference; obey closed-door states. 清晨从男主这边看玻璃：男主白色手指轻敲窗，许棠在对面睁开眼露出疲倦但温和微笑，抱蓝灰工具包，米色被子在腿边，门仍关着。",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片",
+    "corrected": false
+  },
+  "e6-01-rejected-original": {
+    "id": "e6-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-8878f539-6325-417b-bcc5-f6d9c7dad2c3.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 第二天傍晚，外卷帘门仍关闭，男主站卖场内伸手打开带玻璃的内门迎接许棠从缓冲间进入。两人都健康，无咬伤，许棠拎蓝灰工具包。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e6-03-rejected-original": {
+    "id": "e6-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-e61f4fd8-2f31-461f-b1dd-1965240af742.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 员工茶水间近景：安全电磁炉上平底锅两块正在煎的牛排，桌边一大碗新鲜草莓，黄色衣袖男主握夹子略紧张；后方橘衣许棠看着锅，温暖灯光。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e6-04-rejected-original": {
+    "id": "e6-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-fff4c964-f4bb-4b66-9599-f32725350eb9.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 同一茶水间许棠接过夹子翻牛排，男主在旁拿包装说明尴尬小笑。平底锅在电磁炉上，旁边草莓碗和两个盘子，不冒大烟。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e6-05-rejected-original": {
+    "id": "e6-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-84a1e9e6-3e29-4c2b-890d-7262947944c4.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 两人在员工茶水间小方桌对面坐着吃牛排草莓牛角包，两套餐具、两个杯子；桌旁黑色对讲机和物资本。温暖真实日常，小圆白脸点眼，橘衣女主低马尾。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e6-06-rejected-original": {
+    "id": "e6-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-36408846-2e1c-4d3c-9087-35c2fab85efd.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 同一小餐桌两人已吃了一些，男主指向盘点本，许棠拿设备本点头，友善合作。两盘牛排、草莓碗、两只杯，窗外天色晚。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e6-07-rejected-original": {
+    "id": "e6-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-79528c02-4850-49f0-8034-dcd887a83441.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 桌面特写：男主黄色衣袖白色手把一把短银钥匙配单独蓝色塑料方形钥匙牌放在许棠的餐盘旁，女主橘袖的手尚未拿。钥匙与店长两把裸银长钥匙明显不同。食物盘和杯子背景。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e6-08-rejected-original": {
+    "id": "e6-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-1a52229d-e944-4276-9931-c5902064ec70.png",
+    "prompt": "Use case: illustration-story. ONE full-frame landscape 16:9 clean colored 2D comic shot. References lock identities and style ONLY: male white round face, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal trousers. Xu Tang: white round face and black dot eyes, low dark brown ponytail, orange jacket, gray shirt, charcoal trousers, blue-gray tool bag. Clean shapes, moderate detail, cel shading, no collage, no subtitles/bubbles/watermarks. New scene: 同一桌许棠把最后一个牛角包掰成两半把一半递给男主，男主伸手接，蓝牌单银钥匙放她旁边，桌上双人餐具。两人温和小笑，不亲吻。 Only the two healthy protagonists, no manager or other people. Uniform ponytail, colors, proportions. Room warm gray walls, gray kitchenette, light brown small square table, blue-gray chairs. Key ONLY one short silver key with blue square tag, never manager keyring.",
+    "status": "rejected",
+    "review": "被连续性修正版替换，不进入正片"
+  },
+  "e7-01": {
+    "id": "e7-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-42314542-54fe-4555-a776-ffb2fe66db19.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 第三天白天两人共同推蓝色平板车搬被子与生活用品到监控室旁休息室，男主黄帽衫蓝马甲青绿帽，女主橘衣低马尾带工具包。通道整洁。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-02": {
+    "id": "e7-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-e6b91ee9-72a5-4e5e-83ec-a233af414744.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 员工休息室新场景，两张分开的绿色折叠床各有米色被子，中间过道和一张小边桌，灰蓝储物柜，暖白顶灯；两人各整理一张床。没有第三张床没有双人床。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-03": {
+    "id": "e7-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-7cd4b9f8-1e9b-484f-8b01-170b0c4ab363.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 超市安全生活区，男主把瓶装饮用水放独立货架，远侧清洁用品与饮水明显分开；常温粮与临期食物两个分区。通道无散乱购物车，女主检查清单。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-04": {
+    "id": "e7-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-c026944c-b719-481d-b46b-9a15e25d1f28.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 两人在与生活区隔离的设备间门口检查已安装的封闭工业备用柴油发电机和燃料表。女主拿设备记录，男主手电照向表盘。机器尚未启动，室外通风百叶敞通，无操作接线。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-05": {
+    "id": "e7-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-b6e272bd-2b9b-4013-bdce-280a2dab2bba.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 傍晚员工小茶水间两人围坐小桌定明日计划，女主拿记录本旁边一杯热牛奶，男主拿一袋肉干，桌上两套餐具和食品。轻松日常。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-06": {
+    "id": "e7-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-c4df2da4-059d-41f4-b710-1415639667ea.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 中近景许棠拿铅笔温和指向清单中的肉干袋小图标，男主抱一袋肉干不好意思地笑，自己的盘点本摊桌上，简单行线无可读字。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-07": {
+    "id": "e7-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-395e7dc5-3f5a-4b1c-b9ee-7e0b05b13a10.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 深夜监控室三块显示器在左墙灰桌，许棠坐上值班椅把一杯温牛奶留在桌上，男主站旁拿清单准备离开，房后右是灰门。屏幕外面仍有零散丧尸。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e7-08": {
+    "id": "e7-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-7f99b8c1-b04b-4fba-8584-bf222e48749d.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. Male protagonist ONLY. Reference locks male style and identity: round WHITE head, black dot eyes, teal beanie, mustard hoodie, navy vest, charcoal pants. No other character.夜里男主在休息室自己的绿色折叠床上闭眼睡着，青绿帽放枕旁、黄色衣服仍在身上，门关闭，另一张床空着，床头一杯牛奶和小本。平静暖暗灯。",
+    "status": "accepted",
+    "review": "逐图目视通过；修正门边界、观察期位置和钥匙提前出现",
+    "corrected": false
+  },
+  "e8-01": {
+    "id": "e8-01",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-bce0287d-43d9-47af-a5d2-9cd2b845dd2e.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 第四夜超市大卖场市电中断，顶灯全灭，两人站在货架间戴头灯。男主黄衣蓝马甲青绿帽上头灯，女主橘衣低马尾头灯。黑暗可读蓝灰色调，不要纯黑，画面焦点两个光束。",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": false
+  },
+  "e8-02": {
+    "id": "e8-02",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-d1f4f27d-62e2-4d81-b994-eb17692092d6.png",
+    "prompt": "Edit exact 16:9 comic shot preserving people, props, geography and action except this lighting/continuity correction: Keep dark interior and two headlamp characters, CLOSED cold-room door. Turn OFF every distant building window light outside high window: entire city has a power outage. Dim unlit building silhouettes only. Keep readable cool blue ambient moonlight. No captions or speech bubbles or watermark.",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": true
+  },
+  "e8-03": {
+    "id": "e8-03",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-55b166d0-5d42-40bb-a610-61bdfe00b0aa.png",
+    "prompt": "Edit exact 16:9 comic shot preserving people, props, geography and action except this lighting/continuity correction: Change DAYLIGHT scene to FOURTH NIGHT power outage: outside is dark blue moonlit sky and dim unlit warehouse silhouettes; NO daylight or sun. Turn overhead ceiling lamps OFF. Light the two characters and enclosed industrial generator with their white headlamps and man's flashlight plus small generator control panel green status light. Add simple headlamp on man's teal hat and woman's forehead, matching their earlier night image. Keep ventilation louvers, industrial exhaust ducts and full enclosed stationary diesel generator, same composition. No captions or speech bubbles or watermark.",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": true
+  },
+  "e8-04": {
+    "id": "e8-04",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-9bbdfa1b-9aa7-44fd-9978-73b2b78dfb9d.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 一排原有配电控制面板，不画接线细节；女主用笔在用电计划圈出三个简单图标：监控、通信、冷库；男主拿对讲机。部分小绿灯亮，环境仍暗。",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": false
+  },
+  "e8-05": {
+    "id": "e8-05",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-d1ea8b21-43b9-4c48-9a88-8bfeefaa4491.png",
+    "prompt": "Edit exact 16:9 comic shot preserving people, props, geography and action except this lighting/continuity correction: Citywide power outage: turn OFF all street lights, parking lot lamps, and distant storefront/window interior lights. Only cool moonlight and one tiny emergency wall lamp on nearby equipment building. Keep zombies visible in moonlight. Simplify zombie heads into clean rounded pale cartoon faces with small black eyes matching soft comic style; remove grotesque detailed sunken eye sockets/teeth. No blood. Keep closed equipment building, yellow bollards and approaching crowd. No captions or speech bubbles or watermark.",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": true
+  },
+  "e8-06": {
+    "id": "e8-06",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-fd562332-2e87-4a95-ba2e-20068f55d5a9.png",
+    "prompt": "Use case: illustration-story. ONE full-frame 16:9 landscape clean colored 2D comic shot. Restrained cel shading, black outlines, clear large shapes, no over-detail, no collage, no captions or speech bubbles or watermark. References 1 and 2 lock male and female identity ONLY, ignore their backgrounds. Male white round head/dot eyes/teal beanie/mustard hoodie/navy vest/charcoal pants; female Xu Tang white round head/dot eyes/LOW brown ponytail/orange repair jacket/gray shirt/charcoal pants/blue-gray tool bag. The two protagonists only. 监控室男主近景表情紧张，许棠橘衣低马尾在旁指着监视器。三块显示器中的一块显示人影向通风设备区聚集。桌上燃料记录和冷库记录，照明压暗，头灯。",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": false
+  },
+  "e8-07": {
+    "id": "e8-07",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-8e5fef14-3ce9-4056-b2e0-36da3ad3a7ae.png",
+    "prompt": "Edit exact 16:9 comic shot preserving people, props, geography and action except this lighting/continuity correction: Relight entire security room for NIGHT POWER OUTAGE: dim blue-gray ambient, all shop lights visible behind window or on CCTV are OFF. Monitors keep glowing dimly with exterior moonlit CCTV. Table lit by the small warm battery emergency lamp already on left. Male and female same identities outfits and documents, add their simple headlamps. Preserve readable face shapes and tables, avoid pure black. No bright overhead lighting. No captions or speech bubbles or watermark.",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": true
+  },
+  "e8-08": {
+    "id": "e8-08",
+    "path": "/Users/kaiyi.wang/.codex/generated_images/01a143d1-26d2-76d2-8aad-d9baa68c7225/exec-88969ce7-649e-4a29-a3eb-c52f2ca610ce.png",
+    "prompt": "Edit exact 16:9 comic shot preserving people, props, geography and action except this lighting/continuity correction: Citywide power outage at night: turn OFF all streetlamps, parking lot lamps and distant storefront/windows lights. Only cool blue MOONLIGHT and one tiny emergency wall lamp above nearest CLOSED equipment/loading door. Keep all zombie crowd approaching same direction and composition. Clean 2D black-outline comic style, reduce gritty tiny textures, no gore, no text. No captions or speech bubbles or watermark.",
+    "status": "accepted",
+    "review": "夜景与停电光线修正后目视通过",
+    "corrected": true
+  }
+}

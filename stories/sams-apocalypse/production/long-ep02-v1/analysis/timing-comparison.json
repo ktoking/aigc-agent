@@ -1,0 +1,2049 @@
+{
+  "method": "Whisper word timestamps plus sequence alignment; ASR can misrecognize; not forced phoneme alignment",
+  "rows": [
+    {
+      "index": 1,
+      "text": "丧尸爆发后，我住进了整座山姆。",
+      "srt_start": 0.0,
+      "srt_end": 1.9333333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 0.0,
+      "asr_end": 1.86,
+      "start_delta": 0.0,
+      "end_delta": 0.07333333333333325
+    },
+    {
+      "index": 2,
+      "text": "昨天，我还在这里搬货。",
+      "srt_start": 2.033333333333333,
+      "srt_end": 3.5,
+      "match_fraction": 1.0,
+      "asr_start": 2.1,
+      "asr_end": 3.5,
+      "start_delta": -0.06666666666666687,
+      "end_delta": 0.0
+    },
+    {
+      "index": 3,
+      "text": "今天，货架上的东西，我随便拿。",
+      "srt_start": 3.6,
+      "srt_end": 5.766666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 3.74,
+      "asr_end": 5.78,
+      "start_delta": -0.14000000000000012,
+      "end_delta": -0.013333333333333641
+    },
+    {
+      "index": 4,
+      "text": "事情得从昨晚说起。",
+      "srt_start": 5.866666666666666,
+      "srt_end": 7.2,
+      "match_fraction": 1.0,
+      "asr_start": 6.04,
+      "asr_end": 7.04,
+      "start_delta": -0.17333333333333378,
+      "end_delta": 0.16000000000000014
+    },
+    {
+      "index": 5,
+      "text": "闭店后，同事们突然往外跑。",
+      "srt_start": 7.3,
+      "srt_end": 9.066666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 7.42,
+      "asr_end": 9.0,
+      "start_delta": -0.1200000000000001,
+      "end_delta": 0.06666666666666643
+    },
+    {
+      "index": 6,
+      "text": "我追到监控前，看见停车场里有人扑倒了店长。",
+      "srt_start": 9.166666666666666,
+      "srt_end": 11.766666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 9.3,
+      "asr_end": 11.74,
+      "start_delta": -0.13333333333333464,
+      "end_delta": 0.026666666666667282
+    },
+    {
+      "index": 7,
+      "text": "我立刻关下卸货区的卷帘门。",
+      "srt_start": 11.866666666666667,
+      "srt_end": 13.5,
+      "match_fraction": 0.75,
+      "asr_start": 12.02,
+      "asr_end": 13.3,
+      "start_delta": -0.15333333333333243,
+      "end_delta": 0.1999999999999993
+    },
+    {
+      "index": 8,
+      "text": "在监控室里，躲了一夜。",
+      "srt_start": 13.6,
+      "srt_end": 15.1,
+      "match_fraction": 1.0,
+      "asr_start": 13.72,
+      "asr_end": 15.08,
+      "start_delta": -0.120000000000001,
+      "end_delta": 0.019999999999999574
+    },
+    {
+      "index": 9,
+      "text": "天亮，外面还在砸门。",
+      "srt_start": 15.2,
+      "srt_end": 16.666666666666668,
+      "match_fraction": 0.875,
+      "asr_start": 15.34,
+      "asr_end": 16.62,
+      "start_delta": -0.14000000000000057,
+      "end_delta": 0.046666666666666856
+    },
+    {
+      "index": 10,
+      "text": "我身后却是整排饮用水、成箱罐头。",
+      "srt_start": 16.766666666666666,
+      "srt_end": 18.833333333333332,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 16.9,
+      "asr_end": 18.8,
+      "start_delta": -0.13333333333333286,
+      "end_delta": 0.03333333333333144
+    },
+    {
+      "index": 11,
+      "text": "冷库还在运转。",
+      "srt_start": 18.933333333333334,
+      "srt_end": 19.8,
+      "match_fraction": 0.8333333333333334,
+      "asr_start": 19.1,
+      "asr_end": 19.8,
+      "start_delta": -0.16666666666666785,
+      "end_delta": 0.0
+    },
+    {
+      "index": 12,
+      "text": "以前舍不得买的牛肉干和坚果，我装了满满一车。",
+      "srt_start": 19.9,
+      "srt_end": 22.4,
+      "match_fraction": 0.95,
+      "asr_start": 20.04,
+      "asr_end": 22.34,
+      "start_delta": -0.14000000000000057,
+      "end_delta": 0.05999999999999872
+    },
+    {
+      "index": 13,
+      "text": "第一次，没看价签。",
+      "srt_start": 22.5,
+      "srt_end": 23.833333333333332,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 22.34,
+      "asr_end": 23.72,
+      "start_delta": 0.16000000000000014,
+      "end_delta": 0.11333333333333329
+    },
+    {
+      "index": 14,
+      "text": "我把露营床搬进监控室，铺好被子。",
+      "srt_start": 23.933333333333334,
+      "srt_end": 26.2,
+      "match_fraction": 1.0,
+      "asr_start": 23.9,
+      "asr_end": 26.22,
+      "start_delta": 0.03333333333333499,
+      "end_delta": -0.019999999999999574
+    },
+    {
+      "index": 15,
+      "text": "刚坐下，卸货门外就多了一个人。",
+      "srt_start": 26.3,
+      "srt_end": 28.333333333333332,
+      "match_fraction": 0.8461538461538461,
+      "asr_start": 26.22,
+      "asr_end": 28.26,
+      "start_delta": 0.08000000000000185,
+      "end_delta": 0.07333333333333059
+    },
+    {
+      "index": 16,
+      "text": "我放大画面。",
+      "srt_start": 28.433333333333334,
+      "srt_end": 29.266666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 28.26,
+      "asr_end": 29.24,
+      "start_delta": 0.173333333333332,
+      "end_delta": 0.026666666666667282
+    },
+    {
+      "index": 17,
+      "text": "是店长。",
+      "srt_start": 29.366666666666667,
+      "srt_end": 29.8,
+      "match_fraction": 1.0,
+      "asr_start": 29.24,
+      "asr_end": 30.06,
+      "start_delta": 0.1266666666666687,
+      "end_delta": -0.259999999999998
+    },
+    {
+      "index": 18,
+      "text": "他手里，攥着备用钥匙。",
+      "srt_start": 29.9,
+      "srt_end": 31.366666666666667,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 30.06,
+      "asr_end": 31.6,
+      "start_delta": -0.16000000000000014,
+      "end_delta": -0.23333333333333428
+    },
+    {
+      "index": 19,
+      "text": "店长回来了，手里还拿着备用钥匙。",
+      "srt_start": 31.466666666666665,
+      "srt_end": 33.53333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 31.6,
+      "asr_end": 33.44,
+      "start_delta": -0.1333333333333364,
+      "end_delta": 0.09333333333333371
+    },
+    {
+      "index": 20,
+      "text": "我刚想开门，忽然看见他一直捂着胳膊。",
+      "srt_start": 33.63333333333333,
+      "srt_end": 35.766666666666666,
+      "match_fraction": 0.9375,
+      "asr_start": 33.44,
+      "asr_end": 35.8,
+      "start_delta": 0.19333333333333513,
+      "end_delta": -0.03333333333333144
+    },
+    {
+      "index": 21,
+      "text": "我隔着对讲机，让他把袖子卷起来。",
+      "srt_start": 35.86666666666667,
+      "srt_end": 37.63333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 35.8,
+      "asr_end": 37.84,
+      "start_delta": 0.06666666666666998,
+      "end_delta": -0.20666666666667055
+    },
+    {
+      "index": 22,
+      "text": "他没有动。",
+      "srt_start": 37.733333333333334,
+      "srt_end": 38.36666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 37.84,
+      "asr_end": 38.38,
+      "start_delta": -0.10666666666666913,
+      "end_delta": -0.013333333333335418
+    },
+    {
+      "index": 23,
+      "text": "他说只是摔了一跤，还让我别忘了谁给我发工资。",
+      "srt_start": 38.46666666666667,
+      "srt_end": 40.93333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 38.38,
+      "asr_end": 40.88,
+      "start_delta": 0.086666666666666,
+      "end_delta": 0.05333333333332746
+    },
+    {
+      "index": 24,
+      "text": "可他一抬手，袖口滑下去了。",
+      "srt_start": 41.03333333333333,
+      "srt_end": 42.733333333333334,
+      "match_fraction": 1.0,
+      "asr_start": 40.88,
+      "asr_end": 42.88,
+      "start_delta": 0.15333333333332888,
+      "end_delta": -0.14666666666666828
+    },
+    {
+      "index": 25,
+      "text": "小臂上，清清楚楚一圈牙印。",
+      "srt_start": 42.833333333333336,
+      "srt_end": 44.7,
+      "match_fraction": 0.6363636363636364,
+      "asr_start": 42.88,
+      "asr_end": 44.7,
+      "start_delta": -0.046666666666666856,
+      "end_delta": 0.0
+    },
+    {
+      "index": 26,
+      "text": "我把手从按钮上拿开。",
+      "srt_start": 44.8,
+      "srt_end": 45.9,
+      "match_fraction": 1.0,
+      "asr_start": 44.7,
+      "asr_end": 45.94,
+      "start_delta": 0.09999999999999432,
+      "end_delta": -0.03999999999999915
+    },
+    {
+      "index": 27,
+      "text": "我先扣死了门内的插销。",
+      "srt_start": 46.0,
+      "srt_end": 47.13333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 45.94,
+      "asr_end": 47.14,
+      "start_delta": 0.060000000000002274,
+      "end_delta": -0.006666666666667709
+    },
+    {
+      "index": 28,
+      "text": "钥匙能打开外锁，却抽不开里面这道闩。",
+      "srt_start": 47.233333333333334,
+      "srt_end": 49.5,
+      "match_fraction": 0.8125,
+      "asr_start": 47.62,
+      "asr_end": 49.26,
+      "start_delta": -0.38666666666666316,
+      "end_delta": 0.240000000000002
+    },
+    {
+      "index": 29,
+      "text": "他骂了我很久。",
+      "srt_start": 49.6,
+      "srt_end": 50.36666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 49.64,
+      "asr_end": 50.4,
+      "start_delta": -0.03999999999999915,
+      "end_delta": -0.03333333333333144
+    },
+    {
+      "index": 30,
+      "text": "我坐在监控前，始终没碰开门键。",
+      "srt_start": 50.46666666666667,
+      "srt_end": 52.5,
+      "match_fraction": 1.0,
+      "asr_start": 50.4,
+      "asr_end": 52.46,
+      "start_delta": 0.06666666666666998,
+      "end_delta": 0.03999999999999915
+    },
+    {
+      "index": 31,
+      "text": "后来，骂声停了。",
+      "srt_start": 52.6,
+      "srt_end": 53.7,
+      "match_fraction": 0.8333333333333334,
+      "asr_start": 52.46,
+      "asr_end": 53.92,
+      "start_delta": 0.14000000000000057,
+      "end_delta": -0.21999999999999886
+    },
+    {
+      "index": 32,
+      "text": "他不再抬头看摄像头，开始用额头一下一下撞门。",
+      "srt_start": 53.8,
+      "srt_end": 56.766666666666666,
+      "match_fraction": 0.95,
+      "asr_start": 53.92,
+      "asr_end": 56.62,
+      "start_delta": -0.12000000000000455,
+      "end_delta": 0.14666666666666828
+    },
+    {
+      "index": 33,
+      "text": "那一刻，我后背全是冷汗。",
+      "srt_start": 56.86666666666667,
+      "srt_end": 58.6,
+      "match_fraction": 1.0,
+      "asr_start": 56.88,
+      "asr_end": 58.54,
+      "start_delta": -0.013333333333335418,
+      "end_delta": 0.060000000000002274
+    },
+    {
+      "index": 34,
+      "text": "刚才只要再快一点，我就把他放进来了。",
+      "srt_start": 58.7,
+      "srt_end": 60.7,
+      "match_fraction": 0.9375,
+      "asr_start": 58.54,
+      "asr_end": 60.8,
+      "start_delta": 0.1600000000000037,
+      "end_delta": -0.09999999999999432
+    },
+    {
+      "index": 35,
+      "text": "下午，店长不在门口了。",
+      "srt_start": 60.8,
+      "srt_end": 62.233333333333334,
+      "match_fraction": 1.0,
+      "asr_start": 60.8,
+      "asr_end": 62.4,
+      "start_delta": 0.0,
+      "end_delta": -0.1666666666666643
+    },
+    {
+      "index": 36,
+      "text": "我才敢推着车去盘点物资。",
+      "srt_start": 62.333333333333336,
+      "srt_end": 63.9,
+      "match_fraction": 0.9090909090909091,
+      "asr_start": 62.4,
+      "asr_end": 63.84,
+      "start_delta": -0.06666666666666288,
+      "end_delta": 0.05999999999999517
+    },
+    {
+      "index": 37,
+      "text": "整家山姆一天清不完，我先记监控室附近的两排货架。",
+      "srt_start": 64.0,
+      "srt_end": 67.03333333333333,
+      "match_fraction": 0.9545454545454546,
+      "asr_start": 63.84,
+      "asr_end": 66.96,
+      "start_delta": 0.1599999999999966,
+      "end_delta": 0.07333333333333769
+    },
+    {
+      "index": 38,
+      "text": "瓶装水，十八箱。",
+      "srt_start": 67.13333333333334,
+      "srt_end": 68.13333333333334,
+      "match_fraction": 1.0,
+      "asr_start": 66.96,
+      "asr_end": 68.58,
+      "start_delta": 0.17333333333334622,
+      "end_delta": -0.44666666666665833
+    },
+    {
+      "index": 39,
+      "text": "罐头十二箱，大米十二袋，每袋十公斤。",
+      "srt_start": 68.23333333333333,
+      "srt_end": 70.0,
+      "match_fraction": 0.6666666666666666,
+      "asr_start": 68.58,
+      "asr_end": 70.28,
+      "start_delta": -0.346666666666664,
+      "end_delta": -0.28000000000000114
+    },
+    {
+      "index": 40,
+      "text": "泡面八箱，肉干六箱，坚果四箱。",
+      "srt_start": 70.1,
+      "srt_end": 72.4,
+      "match_fraction": 0.9166666666666666,
+      "asr_start": 70.28,
+      "asr_end": 72.62,
+      "start_delta": -0.18000000000000682,
+      "end_delta": -0.21999999999999886
+    },
+    {
+      "index": 41,
+      "text": "后面的货架，还一眼望不到头。",
+      "srt_start": 72.5,
+      "srt_end": 74.26666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 72.62,
+      "asr_end": 74.32,
+      "start_delta": -0.12000000000000455,
+      "end_delta": -0.05333333333332746
+    },
+    {
+      "index": 42,
+      "text": "我以前只知道搬货累，现在看什么都亲切。",
+      "srt_start": 74.36666666666666,
+      "srt_end": 76.63333333333334,
+      "match_fraction": 0.8235294117647058,
+      "asr_start": 74.32,
+      "asr_end": 76.42,
+      "start_delta": 0.046666666666666856,
+      "end_delta": 0.21333333333333826
+    },
+    {
+      "index": 43,
+      "text": "我又找了床、被子、手电和电池。",
+      "srt_start": 76.73333333333333,
+      "srt_end": 79.0,
+      "match_fraction": 1.0,
+      "asr_start": 76.7,
+      "asr_end": 79.14,
+      "start_delta": 0.03333333333333144,
+      "end_delta": -0.14000000000000057
+    },
+    {
+      "index": 44,
+      "text": "最贵的牛排还在冷库，面包却快到期了。",
+      "srt_start": 79.1,
+      "srt_end": 81.36666666666666,
+      "match_fraction": 0.875,
+      "asr_start": 79.14,
+      "asr_end": 81.48,
+      "start_delta": -0.04000000000000625,
+      "end_delta": -0.11333333333334394
+    },
+    {
+      "index": 45,
+      "text": "我把本子上的价格划掉，改成了保质期。",
+      "srt_start": 81.46666666666667,
+      "srt_end": 82.66666666666667,
+      "match_fraction": 0.9375,
+      "asr_start": 81.48,
+      "asr_end": 83.56,
+      "start_delta": -0.013333333333335418,
+      "end_delta": -0.8933333333333309
+    },
+    {
+      "index": 46,
+      "text": "今晚，先吃面包。",
+      "srt_start": 82.76666666666667,
+      "srt_end": 83.8,
+      "match_fraction": 0.0
+    },
+    {
+      "index": 47,
+      "text": "我抱着面包回监控室，画面里突然有东西动了。",
+      "srt_start": 83.9,
+      "srt_end": 86.63333333333334,
+      "match_fraction": 0.8947368421052632,
+      "asr_start": 83.56,
+      "asr_end": 86.82,
+      "start_delta": 0.3400000000000034,
+      "end_delta": -0.1866666666666532
+    },
+    {
+      "index": 48,
+      "text": "卸货区那辆白色面包车，车门开了。",
+      "srt_start": 86.73333333333333,
+      "srt_end": 88.8,
+      "match_fraction": 1.0,
+      "asr_start": 86.82,
+      "asr_end": 89.18,
+      "start_delta": -0.0866666666666589,
+      "end_delta": -0.38000000000000966
+    },
+    {
+      "index": 49,
+      "text": "一个女人举着空水瓶，朝摄像头招手。",
+      "srt_start": 88.9,
+      "srt_end": 91.2,
+      "match_fraction": 0.6666666666666666,
+      "asr_start": 89.18,
+      "asr_end": 91.28,
+      "start_delta": -0.28000000000000114,
+      "end_delta": -0.0799999999999983
+    },
+    {
+      "index": 50,
+      "text": "那辆车，昨晚就停在那里。",
+      "srt_start": 91.3,
+      "srt_end": 92.86666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 91.4,
+      "asr_end": 92.96,
+      "start_delta": -0.10000000000000853,
+      "end_delta": -0.09333333333333371
+    },
+    {
+      "index": 51,
+      "text": "我没有开门，让她先站远一点。",
+      "srt_start": 92.96666666666667,
+      "srt_end": 94.5,
+      "match_fraction": 0.9166666666666666,
+      "asr_start": 92.96,
+      "asr_end": 94.7,
+      "start_delta": 0.006666666666674814,
+      "end_delta": -0.20000000000000284
+    },
+    {
+      "index": 52,
+      "text": "她叫许棠，是来修冷库的。",
+      "srt_start": 94.6,
+      "srt_end": 96.1,
+      "match_fraction": 0.6,
+      "asr_start": 95.08,
+      "asr_end": 96.4,
+      "start_delta": -0.480000000000004,
+      "end_delta": -0.30000000000001137
+    },
+    {
+      "index": 53,
+      "text": "昨晚取工具时外面出了事，她躲回维修车，没敢下来。",
+      "srt_start": 96.2,
+      "srt_end": 99.5,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 96.4,
+      "asr_end": 99.74,
+      "start_delta": -0.20000000000000284,
+      "end_delta": -0.23999999999999488
+    },
+    {
+      "index": 54,
+      "text": "她举起的工单，和店里的记录对得上。",
+      "srt_start": 99.6,
+      "srt_end": 101.5,
+      "match_fraction": 0.6666666666666666,
+      "asr_start": 99.88,
+      "asr_end": 101.6,
+      "start_delta": -0.28000000000000114,
+      "end_delta": -0.09999999999999432
+    },
+    {
+      "index": 55,
+      "text": "我正想问她有没有受伤，冷库先报警了。",
+      "srt_start": 101.6,
+      "srt_end": 103.73333333333333,
+      "match_fraction": 0.875,
+      "asr_start": 101.6,
+      "asr_end": 103.74,
+      "start_delta": 0.0,
+      "end_delta": -0.006666666666660603
+    },
+    {
+      "index": 56,
+      "text": "她听见动静，让我看装卸区的外机。",
+      "srt_start": 103.83333333333333,
+      "srt_end": 106.0,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 103.98,
+      "asr_end": 105.9,
+      "start_delta": -0.14666666666667538,
+      "end_delta": 0.09999999999999432
+    },
+    {
+      "index": 57,
+      "text": "散热口前，倒着一堆纸箱。",
+      "srt_start": 106.1,
+      "srt_end": 107.86666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 105.9,
+      "asr_end": 107.76,
+      "start_delta": 0.19999999999998863,
+      "end_delta": 0.10666666666665492
+    },
+    {
+      "index": 58,
+      "text": "她放下工具包，先把纸箱挪开了。",
+      "srt_start": 107.96666666666667,
+      "srt_end": 109.8,
+      "match_fraction": 0.8461538461538461,
+      "asr_start": 108.2,
+      "asr_end": 109.88,
+      "start_delta": -0.23333333333333428,
+      "end_delta": -0.0799999999999983
+    },
+    {
+      "index": 59,
+      "text": "我照着她的说明，看温控屏上的变化。",
+      "srt_start": 109.9,
+      "srt_end": 111.86666666666666,
+      "match_fraction": 0.8,
+      "asr_start": 109.88,
+      "asr_end": 112.02,
+      "start_delta": 0.020000000000010232,
+      "end_delta": -0.15333333333333599
+    },
+    {
+      "index": 60,
+      "text": "十几分钟后，报警灯才熄了。",
+      "srt_start": 111.96666666666667,
+      "srt_end": 113.7,
+      "match_fraction": 0.8181818181818182,
+      "asr_start": 112.02,
+      "asr_end": 113.84,
+      "start_delta": -0.05333333333332746,
+      "end_delta": -0.14000000000000057
+    },
+    {
+      "index": 61,
+      "text": "她确实懂这套设备。",
+      "srt_start": 113.8,
+      "srt_end": 115.03333333333333,
+      "match_fraction": 0.875,
+      "asr_start": 114.04,
+      "asr_end": 114.94,
+      "start_delta": -0.2400000000000091,
+      "end_delta": 0.09333333333333371
+    },
+    {
+      "index": 62,
+      "text": "可我还是没有立刻打开卖场的门。",
+      "srt_start": 115.13333333333334,
+      "srt_end": 116.4,
+      "match_fraction": 1.0,
+      "asr_start": 114.94,
+      "asr_end": 116.6,
+      "start_delta": 0.19333333333334224,
+      "end_delta": -0.19999999999998863
+    },
+    {
+      "index": 63,
+      "text": "她看见我犹豫，指了指两道门之间的收货间。",
+      "srt_start": 116.5,
+      "srt_end": 118.7,
+      "match_fraction": 0.7777777777777778,
+      "asr_start": 116.98,
+      "asr_end": 118.78,
+      "start_delta": -0.480000000000004,
+      "end_delta": -0.0799999999999983
+    },
+    {
+      "index": 64,
+      "text": "她说，先让她待在那里，水和吃的放进去就行。",
+      "srt_start": 118.8,
+      "srt_end": 121.5,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 119.04,
+      "asr_end": 121.6,
+      "start_delta": -0.2400000000000091,
+      "end_delta": -0.09999999999999432
+    },
+    {
+      "index": 65,
+      "text": "等我愿意相信她，再开里面那道门。",
+      "srt_start": 121.6,
+      "srt_end": 123.36666666666666,
+      "match_fraction": 0.9285714285714286,
+      "asr_start": 121.6,
+      "asr_end": 123.6,
+      "start_delta": 0.0,
+      "end_delta": -0.23333333333333428
+    },
+    {
+      "index": 66,
+      "text": "她连床都没要。",
+      "srt_start": 123.46666666666667,
+      "srt_end": 124.4,
+      "match_fraction": 0.8333333333333334,
+      "asr_start": 123.74,
+      "asr_end": 124.34,
+      "start_delta": -0.2733333333333263,
+      "end_delta": 0.060000000000002274
+    },
+    {
+      "index": 67,
+      "text": "我把水、面包、被子和便携厕所放进收货间。",
+      "srt_start": 124.5,
+      "srt_end": 127.5,
+      "match_fraction": 0.8823529411764706,
+      "asr_start": 124.34,
+      "asr_end": 127.18,
+      "start_delta": 0.1599999999999966,
+      "end_delta": 0.3199999999999932
+    },
+    {
+      "index": 68,
+      "text": "关好内门，才让她从外面进来。",
+      "srt_start": 127.6,
+      "srt_end": 129.3,
+      "match_fraction": 0.9166666666666666,
+      "asr_start": 127.34,
+      "asr_end": 129.42,
+      "start_delta": 0.2599999999999909,
+      "end_delta": -0.11999999999997613
+    },
+    {
+      "index": 69,
+      "text": "她主动留在那里观察。",
+      "srt_start": 129.4,
+      "srt_end": 130.43333333333334,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 129.7,
+      "asr_end": 130.58,
+      "start_delta": -0.29999999999998295,
+      "end_delta": -0.14666666666667538
+    },
+    {
+      "index": 70,
+      "text": "我们之间，隔着一道带玻璃的门。",
+      "srt_start": 130.53333333333333,
+      "srt_end": 132.03333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 130.58,
+      "asr_end": 132.24,
+      "start_delta": -0.04666666666668107,
+      "end_delta": -0.20666666666667766
+    },
+    {
+      "index": 71,
+      "text": "晚上，我把盘好的物资清单贴给她看。",
+      "srt_start": 132.13333333333333,
+      "srt_end": 134.26666666666668,
+      "match_fraction": 0.8666666666666667,
+      "asr_start": 132.24,
+      "asr_end": 134.48,
+      "start_delta": -0.10666666666668334,
+      "end_delta": -0.21333333333330984
+    },
+    {
+      "index": 72,
+      "text": "她看完，把纸巾、垃圾袋和备用照明补了上去。",
+      "srt_start": 134.36666666666667,
+      "srt_end": 137.13333333333333,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 134.7,
+      "asr_end": 137.3,
+      "start_delta": -0.3333333333333144,
+      "end_delta": -0.16666666666668561
+    },
+    {
+      "index": 73,
+      "text": "我惦记着能吃什么。",
+      "srt_start": 137.23333333333332,
+      "srt_end": 138.2,
+      "match_fraction": 0.75,
+      "asr_start": 137.3,
+      "asr_end": 138.38,
+      "start_delta": -0.0666666666666913,
+      "end_delta": -0.18000000000000682
+    },
+    {
+      "index": 74,
+      "text": "她惦记着，吃完以后怎么过日子。",
+      "srt_start": 138.3,
+      "srt_end": 140.0,
+      "match_fraction": 0.7692307692307693,
+      "asr_start": 138.66,
+      "asr_end": 140.26,
+      "start_delta": -0.3599999999999852,
+      "end_delta": -0.2599999999999909
+    },
+    {
+      "index": 75,
+      "text": "我熟悉货架，她熟悉设备。",
+      "srt_start": 140.1,
+      "srt_end": 141.73333333333332,
+      "match_fraction": 0.9,
+      "asr_start": 140.26,
+      "asr_end": 141.9,
+      "start_delta": -0.1599999999999966,
+      "end_delta": -0.16666666666668561
+    },
+    {
+      "index": 76,
+      "text": "我把安全区和通道标给她，她给我圈出了冷库和备用电的位置。",
+      "srt_start": 141.83333333333334,
+      "srt_end": 145.16666666666666,
+      "match_fraction": 0.8461538461538461,
+      "asr_start": 141.9,
+      "asr_end": 145.16,
+      "start_delta": -0.06666666666666288,
+      "end_delta": 0.006666666666660603
+    },
+    {
+      "index": 77,
+      "text": "整整一夜，我们都没怎么睡。",
+      "srt_start": 145.26666666666668,
+      "srt_end": 147.06666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 145.16,
+      "asr_end": 146.84,
+      "start_delta": 0.10666666666668334,
+      "end_delta": 0.22666666666665947
+    },
+    {
+      "index": 78,
+      "text": "那道门，却谁也没催着打开。",
+      "srt_start": 147.16666666666666,
+      "srt_end": 148.9,
+      "match_fraction": 1.0,
+      "asr_start": 147.16,
+      "asr_end": 148.96,
+      "start_delta": 0.006666666666660603,
+      "end_delta": -0.060000000000002274
+    },
+    {
+      "index": 79,
+      "text": "天亮时，我在椅子上睡醒了。",
+      "srt_start": 149.0,
+      "srt_end": 150.66666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 148.96,
+      "asr_end": 150.8,
+      "start_delta": 0.03999999999999204,
+      "end_delta": -0.13333333333335418
+    },
+    {
+      "index": 80,
+      "text": "隔着玻璃，她也靠着墙睡着了，工具包还抱在怀里。",
+      "srt_start": 150.76666666666668,
+      "srt_end": 153.86666666666667,
+      "match_fraction": 0.9,
+      "asr_start": 150.8,
+      "asr_end": 153.8,
+      "start_delta": -0.03333333333333144,
+      "end_delta": 0.06666666666666288
+    },
+    {
+      "index": 81,
+      "text": "我轻轻敲了一下窗。",
+      "srt_start": 153.96666666666667,
+      "srt_end": 155.06666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 153.8,
+      "asr_end": 154.92,
+      "start_delta": 0.1666666666666572,
+      "end_delta": 0.14666666666667538
+    },
+    {
+      "index": 82,
+      "text": "她睁开眼，我忽然觉得，今天没那么难熬了。",
+      "srt_start": 155.16666666666666,
+      "srt_end": 157.73333333333332,
+      "match_fraction": 0.8823529411764706,
+      "asr_start": 155.4,
+      "asr_end": 157.72,
+      "start_delta": -0.2333333333333485,
+      "end_delta": 0.013333333333321207
+    },
+    {
+      "index": 83,
+      "text": "第二天傍晚，她在收货间待满了一天。",
+      "srt_start": 157.83333333333334,
+      "srt_end": 159.93333333333334,
+      "match_fraction": 0.9333333333333333,
+      "asr_start": 157.72,
+      "asr_end": 159.9,
+      "start_delta": 0.11333333333334394,
+      "end_delta": 0.03333333333333144
+    },
+    {
+      "index": 84,
+      "text": "没有发现咬伤，精神也一直清醒。",
+      "srt_start": 160.03333333333333,
+      "srt_end": 162.0,
+      "match_fraction": 0.9230769230769231,
+      "asr_start": 159.9,
+      "asr_end": 162.0,
+      "start_delta": 0.13333333333332575,
+      "end_delta": 0.0
+    },
+    {
+      "index": 85,
+      "text": "我们再次核对完昨晚的经过，我打开了内门。",
+      "srt_start": 162.1,
+      "srt_end": 164.3,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 162.0,
+      "asr_end": 164.22,
+      "start_delta": 0.09999999999999432,
+      "end_delta": 0.0800000000000125
+    },
+    {
+      "index": 86,
+      "text": "她进来后，先把空水瓶放进了回收袋。",
+      "srt_start": 164.4,
+      "srt_end": 166.66666666666666,
+      "match_fraction": 0.9333333333333333,
+      "asr_start": 164.64,
+      "asr_end": 166.62,
+      "start_delta": -0.23999999999998067,
+      "end_delta": 0.046666666666652645
+    },
+    {
+      "index": 87,
+      "text": "我挑了两块快到期的牛排，又洗了一大碗草莓。",
+      "srt_start": 166.76666666666668,
+      "srt_end": 169.06666666666666,
+      "match_fraction": 0.8947368421052632,
+      "asr_start": 166.62,
+      "asr_end": 169.08,
+      "start_delta": 0.14666666666667538,
+      "end_delta": -0.013333333333349628
+    },
+    {
+      "index": 88,
+      "text": "她看着锅，问我会不会煎。",
+      "srt_start": 169.16666666666666,
+      "srt_end": 170.8,
+      "match_fraction": 0.9,
+      "asr_start": 169.4,
+      "asr_end": 170.78,
+      "start_delta": -0.2333333333333485,
+      "end_delta": 0.020000000000010232
+    },
+    {
+      "index": 89,
+      "text": "我说，包装上写着。",
+      "srt_start": 170.9,
+      "srt_end": 172.16666666666666,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 170.78,
+      "asr_end": 172.16,
+      "start_delta": 0.12000000000000455,
+      "end_delta": 0.006666666666660603
+    },
+    {
+      "index": 90,
+      "text": "她接过夹子，把快糊的那块翻了个面。",
+      "srt_start": 172.26666666666668,
+      "srt_end": 174.36666666666667,
+      "match_fraction": 0.5333333333333333,
+      "asr_start": 172.72,
+      "asr_end": 174.38,
+      "start_delta": -0.45333333333331893,
+      "end_delta": -0.013333333333321207
+    },
+    {
+      "index": 91,
+      "text": "这是出事后，我第一次和人坐着吃饭。",
+      "srt_start": 174.46666666666667,
+      "srt_end": 176.26666666666668,
+      "match_fraction": 0.9333333333333333,
+      "asr_start": 174.38,
+      "asr_end": 176.42,
+      "start_delta": 0.08666666666667311,
+      "end_delta": -0.15333333333330756
+    },
+    {
+      "index": 92,
+      "text": "她问我，明天想做什么。",
+      "srt_start": 176.36666666666667,
+      "srt_end": 177.76666666666668,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 176.6,
+      "asr_end": 177.8,
+      "start_delta": -0.23333333333332007,
+      "end_delta": -0.03333333333333144
+    },
+    {
+      "index": 93,
+      "text": "我说，把旁边的休息室收拾出来，再把剩下的货架清一遍。",
+      "srt_start": 177.86666666666667,
+      "srt_end": 180.86666666666667,
+      "match_fraction": 0.9565217391304348,
+      "asr_start": 177.8,
+      "asr_end": 181.04,
+      "start_delta": 0.06666666666666288,
+      "end_delta": -0.1733333333333178
+    },
+    {
+      "index": 94,
+      "text": "她点点头，说设备归她。",
+      "srt_start": 180.96666666666667,
+      "srt_end": 182.6,
+      "match_fraction": 0.7777777777777778,
+      "asr_start": 181.22,
+      "asr_end": 182.5,
+      "start_delta": -0.2533333333333303,
+      "end_delta": 0.09999999999999432
+    },
+    {
+      "index": 95,
+      "text": "吃完，我把监控室的备用钥匙放在她碗边。",
+      "srt_start": 182.7,
+      "srt_end": 185.06666666666666,
+      "match_fraction": 0.9411764705882353,
+      "asr_start": 182.68,
+      "asr_end": 185.1,
+      "start_delta": 0.01999999999998181,
+      "end_delta": -0.03333333333333144
+    },
+    {
+      "index": 96,
+      "text": "她没急着拿，先看了我一眼。",
+      "srt_start": 185.16666666666666,
+      "srt_end": 186.73333333333332,
+      "match_fraction": 0.9090909090909091,
+      "asr_start": 185.4,
+      "asr_end": 186.84,
+      "start_delta": -0.2333333333333485,
+      "end_delta": -0.10666666666668334
+    },
+    {
+      "index": 97,
+      "text": "我说，今晚我值前半夜，后半夜换你。",
+      "srt_start": 186.83333333333334,
+      "srt_end": 189.13333333333333,
+      "match_fraction": 0.9285714285714286,
+      "asr_start": 186.84,
+      "asr_end": 189.16,
+      "start_delta": -0.006666666666660603,
+      "end_delta": -0.026666666666670835
+    },
+    {
+      "index": 98,
+      "text": "她这才收起钥匙，把最后一块牛角包分给了我。",
+      "srt_start": 189.23333333333332,
+      "srt_end": 191.63333333333333,
+      "match_fraction": 0.7894736842105263,
+      "asr_start": 189.46,
+      "asr_end": 191.62,
+      "start_delta": -0.2266666666666879,
+      "end_delta": 0.013333333333321207
+    },
+    {
+      "index": 99,
+      "text": "第三天，我负责盘货、搬东西，许棠负责查设备。",
+      "srt_start": 191.73333333333332,
+      "srt_end": 195.0,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 191.62,
+      "asr_end": 194.96,
+      "start_delta": 0.11333333333331552,
+      "end_delta": 0.03999999999999204
+    },
+    {
+      "index": 100,
+      "text": "监控室旁边的休息室，被我们收拾了出来。",
+      "srt_start": 195.1,
+      "srt_end": 197.2,
+      "match_fraction": 0.9411764705882353,
+      "asr_start": 194.96,
+      "asr_end": 197.24,
+      "start_delta": 0.13999999999998636,
+      "end_delta": -0.040000000000020464
+    },
+    {
+      "index": 101,
+      "text": "她有了自己的床。",
+      "srt_start": 197.3,
+      "srt_end": 198.26666666666668,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 197.58,
+      "asr_end": 198.16,
+      "start_delta": -0.28000000000000114,
+      "end_delta": 0.10666666666668334
+    },
+    {
+      "index": 102,
+      "text": "我的被子，也终于不用总铺在椅子上。",
+      "srt_start": 198.36666666666667,
+      "srt_end": 200.5,
+      "match_fraction": 1.0,
+      "asr_start": 198.16,
+      "asr_end": 200.44,
+      "start_delta": 0.20666666666667766,
+      "end_delta": 0.060000000000002274
+    },
+    {
+      "index": 103,
+      "text": "水和清洁用品分开，常温粮和临期食品分开。",
+      "srt_start": 200.6,
+      "srt_end": 203.33333333333334,
+      "match_fraction": 0.8888888888888888,
+      "asr_start": 200.44,
+      "asr_end": 203.38,
+      "start_delta": 0.1599999999999966,
+      "end_delta": -0.046666666666652645
+    },
+    {
+      "index": 104,
+      "text": "吃剩的包装及时收走，通道一直留空。",
+      "srt_start": 203.43333333333334,
+      "srt_end": 205.7,
+      "match_fraction": 0.8,
+      "asr_start": 203.82,
+      "asr_end": 205.68,
+      "start_delta": -0.38666666666665606,
+      "end_delta": 0.01999999999998181
+    },
+    {
+      "index": 105,
+      "text": "我们还清出了备用电的设备间。",
+      "srt_start": 205.8,
+      "srt_end": 207.26666666666668,
+      "match_fraction": 0.9230769230769231,
+      "asr_start": 205.68,
+      "asr_end": 207.16,
+      "start_delta": 0.12000000000000455,
+      "end_delta": 0.10666666666668334
+    },
+    {
+      "index": 106,
+      "text": "油箱里有油，但能撑多久，得看我们怎么用。",
+      "srt_start": 207.36666666666667,
+      "srt_end": 209.86666666666667,
+      "match_fraction": 0.8823529411764706,
+      "asr_start": 207.6,
+      "asr_end": 209.9,
+      "start_delta": -0.23333333333332007,
+      "end_delta": -0.03333333333333144
+    },
+    {
+      "index": 107,
+      "text": "每天晚上，我们先定第二天吃什么，再定第二天做什么。",
+      "srt_start": 209.96666666666667,
+      "srt_end": 212.76666666666668,
+      "match_fraction": 1.0,
+      "asr_start": 209.9,
+      "asr_end": 212.98,
+      "start_delta": 0.06666666666666288,
+      "end_delta": -0.21333333333330984
+    },
+    {
+      "index": 108,
+      "text": "她喝热牛奶不放糖。",
+      "srt_start": 212.86666666666667,
+      "srt_end": 213.73333333333332,
+      "match_fraction": 0.875,
+      "asr_start": 213.12,
+      "asr_end": 213.98,
+      "start_delta": -0.2533333333333303,
+      "end_delta": -0.2466666666666697
+    },
+    {
+      "index": 109,
+      "text": "我总想多拿一袋肉干。",
+      "srt_start": 213.83333333333334,
+      "srt_end": 214.96666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 213.98,
+      "asr_end": 215.18,
+      "start_delta": -0.14666666666664696,
+      "end_delta": -0.21333333333333826
+    },
+    {
+      "index": 110,
+      "text": "她不拦我，只让我吃完记得在清单上减掉。",
+      "srt_start": 215.06666666666666,
+      "srt_end": 217.13333333333333,
+      "match_fraction": 0.8235294117647058,
+      "asr_start": 215.3,
+      "asr_end": 217.16,
+      "start_delta": -0.2333333333333485,
+      "end_delta": -0.026666666666670835
+    },
+    {
+      "index": 111,
+      "text": "半夜交班，她把温好的牛奶放在了桌上。",
+      "srt_start": 217.23333333333332,
+      "srt_end": 218.93333333333334,
+      "match_fraction": 0.0
+    },
+    {
+      "index": 112,
+      "text": "我第一次放心地关上休息室的门。",
+      "srt_start": 219.03333333333333,
+      "srt_end": 220.46666666666667,
+      "match_fraction": 0.9285714285714286,
+      "asr_start": 217.92,
+      "asr_end": 219.46,
+      "start_delta": 1.113333333333344,
+      "end_delta": 1.0066666666666606
+    },
+    {
+      "index": 113,
+      "text": "外面仍然有丧尸。",
+      "srt_start": 220.56666666666666,
+      "srt_end": 221.76666666666668,
+      "match_fraction": 0.8571428571428571,
+      "asr_start": 220.06,
+      "asr_end": 220.88,
+      "start_delta": 0.5066666666666606,
+      "end_delta": 0.8866666666666845
+    },
+    {
+      "index": 114,
+      "text": "可我睡着的时候，终于有人替我看着那扇门了。",
+      "srt_start": 221.86666666666667,
+      "srt_end": 224.3,
+      "match_fraction": 0.9473684210526315,
+      "asr_start": 221.84,
+      "asr_end": 224.62,
+      "start_delta": 0.026666666666670835,
+      "end_delta": -0.3199999999999932
+    },
+    {
+      "index": 115,
+      "text": "第四天晚上，整座山姆突然黑了。",
+      "srt_start": 224.4,
+      "srt_end": 226.36666666666667,
+      "match_fraction": 0.9230769230769231,
+      "asr_start": 224.62,
+      "asr_end": 226.54,
+      "start_delta": -0.21999999999999886,
+      "end_delta": -0.1733333333333178
+    },
+    {
+      "index": 116,
+      "text": "我第一反应是冷库。",
+      "srt_start": 226.46666666666667,
+      "srt_end": 227.56666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 226.54,
+      "asr_end": 227.6,
+      "start_delta": -0.07333333333332348,
+      "end_delta": -0.03333333333333144
+    },
+    {
+      "index": 117,
+      "text": "许棠已经戴上头灯，先让我别开冷库门。",
+      "srt_start": 227.66666666666666,
+      "srt_end": 229.96666666666667,
+      "match_fraction": 0.875,
+      "asr_start": 227.6,
+      "asr_end": 229.9,
+      "start_delta": 0.06666666666666288,
+      "end_delta": 0.06666666666666288
+    },
+    {
+      "index": 118,
+      "text": "窗外，整条街的灯也灭了。",
+      "srt_start": 230.06666666666666,
+      "srt_end": 231.63333333333333,
+      "match_fraction": 1.0,
+      "asr_start": 229.9,
+      "asr_end": 231.88,
+      "start_delta": 0.1666666666666572,
+      "end_delta": -0.2466666666666697
+    },
+    {
+      "index": 119,
+      "text": "我们按事先列好的清单，保留监控、通信和一间冷库。",
+      "srt_start": 231.73333333333332,
+      "srt_end": 234.86666666666667,
+      "match_fraction": 0.8095238095238095,
+      "asr_start": 231.88,
+      "asr_end": 234.86,
+      "start_delta": -0.14666666666667538,
+      "end_delta": 0.006666666666660603
+    },
+    {
+      "index": 120,
+      "text": "备用发电机启动了。",
+      "srt_start": 234.96666666666667,
+      "srt_end": 236.03333333333333,
+      "match_fraction": 0.875,
+      "asr_start": 235.2,
+      "asr_end": 236.06,
+      "start_delta": -0.23333333333332007,
+      "end_delta": -0.026666666666670835
+    },
+    {
+      "index": 121,
+      "text": "灯重新亮起来时，我刚松了一口气。",
+      "srt_start": 236.13333333333333,
+      "srt_end": 238.16666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 236.06,
+      "asr_end": 238.18,
+      "start_delta": 0.07333333333332348,
+      "end_delta": -0.013333333333349628
+    },
+    {
+      "index": 122,
+      "text": "许棠却让我去看停车场。",
+      "srt_start": 238.26666666666668,
+      "srt_end": 239.4,
+      "match_fraction": 0.9,
+      "asr_start": 238.18,
+      "asr_end": 239.5,
+      "start_delta": 0.08666666666667311,
+      "end_delta": -0.09999999999999432
+    },
+    {
+      "index": 123,
+      "text": "刚才还散着的人影，正往设备间这边走。",
+      "srt_start": 239.5,
+      "srt_end": 241.73333333333332,
+      "match_fraction": 1.0,
+      "asr_start": 239.5,
+      "asr_end": 241.78,
+      "start_delta": 0.0,
+      "end_delta": -0.04666666666668107
+    },
+    {
+      "index": 124,
+      "text": "城市安静下来以后，机器的声音传得格外远。",
+      "srt_start": 241.83333333333334,
+      "srt_end": 244.3,
+      "match_fraction": 1.0,
+      "asr_start": 241.78,
+      "asr_end": 244.32,
+      "start_delta": 0.05333333333334167,
+      "end_delta": -0.01999999999998181
+    },
+    {
+      "index": 125,
+      "text": "我们有吃的，有水，也有油。",
+      "srt_start": 244.4,
+      "srt_end": 246.16666666666666,
+      "match_fraction": 1.0,
+      "asr_start": 244.32,
+      "asr_end": 246.3,
+      "start_delta": 0.0800000000000125,
+      "end_delta": -0.13333333333335418
+    },
+    {
+      "index": 126,
+      "text": "可每用一会儿电，门外就多几张脸。",
+      "srt_start": 246.26666666666668,
+      "srt_end": 248.13333333333333,
+      "match_fraction": 0.9285714285714286,
+      "asr_start": 246.3,
+      "asr_end": 248.18,
+      "start_delta": -0.03333333333333144,
+      "end_delta": -0.04666666666668107
+    },
+    {
+      "index": 127,
+      "text": "我把用电清单摊在桌上，许棠把冷库记录放到旁边。",
+      "srt_start": 248.23333333333332,
+      "srt_end": 251.26666666666668,
+      "match_fraction": 0.9047619047619048,
+      "asr_start": 248.18,
+      "asr_end": 251.32,
+      "start_delta": 0.05333333333331325,
+      "end_delta": -0.05333333333331325
+    },
+    {
+      "index": 128,
+      "text": "我们得重新安排机器的运行，既省油，也少暴露自己。",
+      "srt_start": 251.36666666666667,
+      "srt_end": 254.36666666666667,
+      "match_fraction": 1.0,
+      "asr_start": 251.32,
+      "asr_end": 254.36,
+      "start_delta": 0.04666666666668107,
+      "end_delta": 0.006666666666660603
+    },
+    {
+      "index": 129,
+      "text": "我抬头看监控。",
+      "srt_start": 254.46666666666667,
+      "srt_end": 255.2,
+      "match_fraction": 1.0,
+      "asr_start": 254.36,
+      "asr_end": 255.52,
+      "start_delta": 0.10666666666665492,
+      "end_delta": -0.3200000000000216
+    },
+    {
+      "index": 130,
+      "text": "停车场最远处，又有一片人影转向了我们。",
+      "srt_start": 255.3,
+      "srt_end": 257.6666666666667,
+      "match_fraction": 0.17647058823529413,
+      "asr_start": 255.52,
+      "asr_end": 256.28,
+      "start_delta": -0.21999999999999886,
+      "end_delta": 1.386666666666713
+    }
+  ],
+  "text_difference_candidates": [
+    {
+      "op": "replace",
+      "old": "卸货",
+      "asr": "西火"
+    },
+    {
+      "op": "replace",
+      "old": "帘",
+      "asr": "链"
+    },
+    {
+      "op": "replace",
+      "old": "砸",
+      "asr": "擦"
+    },
+    {
+      "op": "replace",
+      "old": "成箱",
+      "asr": "城乡"
+    },
+    {
+      "op": "replace",
+      "old": "库",
+      "asr": "酷"
+    },
+    {
+      "op": "replace",
+      "old": "坚",
+      "asr": "监"
+    },
+    {
+      "op": "replace",
+      "old": "签",
+      "asr": "钱"
+    },
+    {
+      "op": "replace",
+      "old": "坐",
+      "asr": "做"
+    },
+    {
+      "op": "replace",
+      "old": "货",
+      "asr": "后"
+    },
+    {
+      "op": "replace",
+      "old": "攥",
+      "asr": "钻"
+    },
+    {
+      "op": "replace",
+      "old": "想",
+      "asr": "讲"
+    },
+    {
+      "op": "replace",
+      "old": "清清楚楚",
+      "asr": "轻轻处处"
+    },
+    {
+      "op": "replace",
+      "old": "钥匙",
+      "asr": "要是"
+    },
+    {
+      "op": "replace",
+      "old": "闩",
+      "asr": "酸"
+    },
+    {
+      "op": "replace",
+      "old": "停",
+      "asr": "痛"
+    },
+    {
+      "op": "replace",
+      "old": "再",
+      "asr": "在"
+    },
+    {
+      "op": "replace",
+      "old": "他",
+      "asr": "它"
+    },
+    {
+      "op": "replace",
+      "old": "着",
+      "asr": "著"
+    },
+    {
+      "op": "replace",
+      "old": "记",
+      "asr": "寄"
+    },
+    {
+      "op": "delete",
+      "old": "每袋十公斤",
+      "asr": ""
+    },
+    {
+      "op": "replace",
+      "old": "坚",
+      "asr": "捡"
+    },
+    {
+      "op": "replace",
+      "old": "累",
+      "asr": "类"
+    },
+    {
+      "op": "replace",
+      "old": "亲切",
+      "asr": "清清"
+    },
+    {
+      "op": "replace",
+      "old": "库",
+      "asr": "酷"
+    },
+    {
+      "op": "replace",
+      "old": "却",
+      "asr": "区"
+    },
+    {
+      "op": "replace",
+      "old": "划",
+      "asr": "画"
+    },
+    {
+      "op": "delete",
+      "old": "今晚先吃面包",
+      "asr": ""
+    },
+    {
+      "op": "replace",
+      "old": "监",
+      "asr": "间"
+    },
+    {
+      "op": "replace",
+      "old": "室",
+      "asr": "制"
+    },
+    {
+      "op": "replace",
+      "old": "朝摄像头",
+      "asr": "潮涉想吐"
+    },
+    {
+      "op": "replace",
+      "old": "手",
+      "asr": "式"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "棠是",
+      "asr": "唐只"
+    },
+    {
+      "op": "delete",
+      "old": "的",
+      "asr": ""
+    },
+    {
+      "op": "replace",
+      "old": "取",
+      "asr": "去"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "敢",
+      "asr": "赶"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "的工",
+      "asr": "了公"
+    },
+    {
+      "op": "replace",
+      "old": "对得",
+      "asr": "队子"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "了她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "区",
+      "asr": "去"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "挪",
+      "asr": "裸"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "温控",
+      "asr": "闻孔"
+    },
+    {
+      "op": "replace",
+      "old": "灯",
+      "asr": "登"
+    },
+    {
+      "op": "replace",
+      "old": "熄",
+      "asr": "吸"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "指",
+      "asr": "只"
+    },
+    {
+      "op": "replace",
+      "old": "货间她",
+      "asr": "获机他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "货间",
+      "asr": "获机"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "盘",
+      "asr": "谈"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她看",
+      "asr": "他探"
+    },
+    {
+      "op": "replace",
+      "old": "惦",
+      "asr": "电"
+    },
+    {
+      "op": "replace",
+      "old": "着",
+      "asr": "者"
+    },
+    {
+      "op": "replace",
+      "old": "她惦",
+      "asr": "他电"
+    },
+    {
+      "op": "replace",
+      "old": "着",
+      "asr": "者"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她她",
+      "asr": "他他"
+    },
+    {
+      "op": "replace",
+      "old": "库",
+      "asr": "酷"
+    },
+    {
+      "op": "replace",
+      "old": "电",
+      "asr": "店"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "抱",
+      "asr": "包"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "熬",
+      "asr": "好"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "咬",
+      "asr": "养"
+    },
+    {
+      "op": "replace",
+      "old": "核",
+      "asr": "合"
+    },
+    {
+      "op": "delete",
+      "old": "内",
+      "asr": ""
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "门它"
+    },
+    {
+      "op": "replace",
+      "old": "洗",
+      "asr": "写"
+    },
+    {
+      "op": "replace",
+      "old": "莓她",
+      "asr": "配它"
+    },
+    {
+      "op": "replace",
+      "old": "着她接过",
+      "asr": "成它结果"
+    },
+    {
+      "op": "replace",
+      "old": "糊",
+      "asr": "福"
+    },
+    {
+      "op": "replace",
+      "old": "那块",
+      "asr": "蛋坏"
+    },
+    {
+      "op": "replace",
+      "old": "个",
+      "asr": "的"
+    },
+    {
+      "op": "replace",
+      "old": "坐",
+      "asr": "做"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "它"
+    },
+    {
+      "op": "replace",
+      "old": "架",
+      "asr": "下"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "它"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "塔"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "值",
+      "asr": "只"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "牛角",
+      "asr": "扭脚"
+    },
+    {
+      "op": "delete",
+      "old": "了",
+      "asr": ""
+    },
+    {
+      "op": "replace",
+      "old": "棠",
+      "asr": "唐"
+    },
+    {
+      "op": "replace",
+      "old": "查",
+      "asr": "茶"
+    },
+    {
+      "op": "delete",
+      "old": "了",
+      "asr": ""
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "临期",
+      "asr": "零七"
+    },
+    {
+      "op": "replace",
+      "old": "吃剩",
+      "asr": "市政"
+    },
+    {
+      "op": "replace",
+      "old": "留",
+      "asr": "流"
+    },
+    {
+      "op": "replace",
+      "old": "电",
+      "asr": "店"
+    },
+    {
+      "op": "replace",
+      "old": "油",
+      "asr": "邮"
+    },
+    {
+      "op": "replace",
+      "old": "油",
+      "asr": "邮"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "她",
+      "asr": "他"
+    },
+    {
+      "op": "replace",
+      "old": "减掉半夜交班她把温好的牛奶放在了桌上",
+      "asr": "紧扬"
+    },
+    {
+      "op": "replace",
+      "old": "心",
+      "asr": "性"
+    },
+    {
+      "op": "replace",
+      "old": "尸",
+      "asr": "失"
+    },
+    {
+      "op": "replace",
+      "old": "那",
+      "asr": "大"
+    },
+    {
+      "op": "replace",
+      "old": "姆",
+      "asr": "谱"
+    },
+    {
+      "op": "replace",
+      "old": "棠",
+      "asr": "唐"
+    },
+    {
+      "op": "replace",
+      "old": "戴",
+      "asr": "带"
+    },
+    {
+      "op": "replace",
+      "old": "按事",
+      "asr": "暗示"
+    },
+    {
+      "op": "replace",
+      "old": "留",
+      "asr": "有"
+    },
+    {
+      "op": "replace",
+      "old": "库备",
+      "asr": "户被"
+    },
+    {
+      "op": "replace",
+      "old": "棠",
+      "asr": "唐"
+    },
+    {
+      "op": "replace",
+      "old": "每",
+      "asr": "没"
+    },
+    {
+      "op": "replace",
+      "old": "棠",
+      "asr": "唐"
+    },
+    {
+      "op": "replace",
+      "old": "库",
+      "asr": "酷"
+    },
+    {
+      "op": "replace",
+      "old": "最远处又有一片人影转向了我们",
+      "asr": "已经全都是丧尸"
+    }
+  ]
+}

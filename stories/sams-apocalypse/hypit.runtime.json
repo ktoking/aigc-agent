@@ -1,0 +1,25 @@
+{
+  "format": "hypit.runtime-local@1",
+  "dataRoot": ".hypit/runtimes/local",
+  "credentials": {},
+  "endpoints": {
+    "media.local": {
+      "use": "@hypit/media-local",
+      "config": {
+        "ffmpegPath": "/opt/homebrew/bin/ffmpeg",
+        "ffprobePath": "/opt/homebrew/bin/ffprobe"
+      }
+    },
+    "html.local": {
+      "use": "@hypit/provider-html-local",
+      "config": {
+        "chromePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "workers": 2,
+        "browserCapacity": 2,
+        "defaultConcurrency": 1,
+        "ffmpegPath": "/opt/homebrew/bin/ffmpeg",
+        "ffprobePath": "/opt/homebrew/bin/ffprobe"
+      }
+    }
+  }
+}

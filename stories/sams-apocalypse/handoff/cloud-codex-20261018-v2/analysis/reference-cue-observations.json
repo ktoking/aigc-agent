@@ -1,0 +1,192 @@
+{
+  "sample_hz": 5,
+  "boundary_uncertainty_seconds": 0.2,
+  "method": "OCR matched to approved lines; not ASR or voice-end detection",
+  "cues": [
+    {
+      "cue": 1,
+      "text": "丧尸爆发后，我住进了整座山姆。",
+      "characters": 13,
+      "old_start": 0,
+      "old_end": 4,
+      "old_duration": 4,
+      "sampled_start": 0.0,
+      "sampled_end": 2.4,
+      "sampled_duration": 2.4,
+      "sampled_cps": 5.417
+    },
+    {
+      "cue": 2,
+      "text": "昨天，我还在这里搬货。",
+      "characters": 9,
+      "old_start": 4,
+      "old_end": 7,
+      "old_duration": 3,
+      "sampled_start": 3.0,
+      "sampled_end": 5.0,
+      "sampled_duration": 2.0,
+      "sampled_cps": 4.5
+    },
+    {
+      "cue": 3,
+      "text": "今天，货架上的东西，我随便拿。",
+      "characters": 12,
+      "old_start": 7,
+      "old_end": 11.5,
+      "old_duration": 4.5,
+      "sampled_start": 5.4,
+      "sampled_end": 8.2,
+      "sampled_duration": 2.8,
+      "sampled_cps": 4.286
+    },
+    {
+      "cue": 4,
+      "text": "事情得从昨晚说起。",
+      "characters": 8,
+      "old_start": 11.5,
+      "old_end": 15,
+      "old_duration": 3.5,
+      "sampled_start": 8.8,
+      "sampled_end": 10.4,
+      "sampled_duration": 1.6,
+      "sampled_cps": 5.0
+    },
+    {
+      "cue": 5,
+      "text": "闭店后，同事们突然往外跑。",
+      "characters": 11,
+      "old_start": 15,
+      "old_end": 18,
+      "old_duration": 3,
+      "sampled_start": 10.8,
+      "sampled_end": 13.0,
+      "sampled_duration": 2.2,
+      "sampled_cps": 5.0
+    },
+    {
+      "cue": 6,
+      "text": "我追到监控前，看见停车场里有人扑倒了店长。",
+      "characters": 19,
+      "old_start": 18,
+      "old_end": 23,
+      "old_duration": 5,
+      "sampled_start": 13.4,
+      "sampled_end": 16.8,
+      "sampled_duration": 3.4,
+      "sampled_cps": 5.588
+    },
+    {
+      "cue": 7,
+      "text": "我立刻关下卸货区的卷帘门。",
+      "characters": 12,
+      "old_start": 23,
+      "old_end": 26.5,
+      "old_duration": 3.5,
+      "sampled_start": 17.4,
+      "sampled_end": 19.4,
+      "sampled_duration": 2.0,
+      "sampled_cps": 6.0
+    },
+    {
+      "cue": 8,
+      "text": "在监控室里，躲了一夜。",
+      "characters": 9,
+      "old_start": 26.5,
+      "old_end": 30,
+      "old_duration": 3.5,
+      "sampled_start": 19.8,
+      "sampled_end": 21.8,
+      "sampled_duration": 2.0,
+      "sampled_cps": 4.5
+    },
+    {
+      "cue": 9,
+      "text": "天亮，外面还在砸门。",
+      "characters": 8,
+      "old_start": 30,
+      "old_end": 33,
+      "old_duration": 3,
+      "sampled_start": 22.2,
+      "sampled_end": 24.2,
+      "sampled_duration": 2.0,
+      "sampled_cps": 4.0
+    },
+    {
+      "cue": 10,
+      "text": "我身后却是整排饮用水、成箱罐头。",
+      "characters": 14,
+      "old_start": 33,
+      "old_end": 37,
+      "old_duration": 4,
+      "sampled_start": 24.6,
+      "sampled_end": 27.2,
+      "sampled_duration": 2.6,
+      "sampled_cps": 5.385
+    },
+    {
+      "cue": 11,
+      "text": "冷库还在运转。",
+      "characters": 6,
+      "old_start": 37,
+      "old_end": 39.5,
+      "old_duration": 2.5,
+      "sampled_start": 27.8,
+      "sampled_end": 29.0,
+      "sampled_duration": 1.2,
+      "sampled_cps": 5.0
+    },
+    {
+      "cue": 12,
+      "text": "以前舍不得买的牛肉干和坚果，我装了满满一车。",
+      "characters": 20,
+      "old_start": 39.5,
+      "old_end": 43.5,
+      "old_duration": 4.0,
+      "sampled_start": 29.2,
+      "sampled_end": 32.4,
+      "sampled_duration": 3.2,
+      "sampled_cps": 6.25
+    },
+    {
+      "cue": 15,
+      "text": "刚坐下，卸货门外就多了一个人。",
+      "characters": 13,
+      "old_start": 49,
+      "old_end": 53,
+      "old_duration": 4,
+      "sampled_start": 35.4,
+      "sampled_end": 38.0,
+      "sampled_duration": 2.6,
+      "sampled_cps": 5.0
+    },
+    {
+      "cue": 16,
+      "text": "我放大画面。",
+      "characters": 5,
+      "old_start": 53,
+      "old_end": 55,
+      "old_duration": 2,
+      "sampled_start": 38.4,
+      "sampled_end": 39.6,
+      "sampled_duration": 1.2,
+      "sampled_cps": 4.167
+    },
+    {
+      "cue": 18,
+      "text": "他手里，攥着备用钥匙。",
+      "characters": 9,
+      "old_start": 56.5,
+      "old_end": 60,
+      "old_duration": 3.5,
+      "sampled_start": 39.8,
+      "sampled_end": 41.8,
+      "sampled_duration": 2.0,
+      "sampled_cps": 4.5
+    }
+  ],
+  "unobserved_original_cues": [
+    13,
+    14,
+    17
+  ]
+}
