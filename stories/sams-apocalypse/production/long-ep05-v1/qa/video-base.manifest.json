@@ -1,0 +1,17 @@
+{
+  "video": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/video-base.mp4",
+  "frames": 16354,
+  "duration_seconds": 545.1333333333333,
+  "subtitles_burned": true,
+  "independent_subtitle_files": false,
+  "source_images": 113,
+  "voice_model": "speech-2.8-turbo",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "api_speed": 1.2,
+  "post_audio_speed_change": false,
+  "caption_commas_as_spaces": true,
+  "caption_full_stops_removed": true,
+  "video_sha256": "74eb7e503226a2d011cdf1a70718acf73f2d2a4c5182e190f9fff802f91d8eb0",
+  "audio_sha256": "4d1e74e9b15bab067c6209e4670e2a490379688e6a74bbce07a9dba3ba27c3a3",
+  "render_style": "Fixed camera, image-only 3-frame dissolves, clear captions on separate layer"
+}

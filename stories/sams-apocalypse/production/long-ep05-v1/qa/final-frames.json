@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "frame_samples": [
+    0,
+    4,
+    8,
+    30,
+    3322,
+    3323,
+    3325,
+    8177,
+    16344,
+    16349,
+    16353
+  ],
+  "frame_mean_rgb": [
+    0.0,
+    52.8176539994856,
+    107.35198431069959,
+    107.3282187178498,
+    63.75733072916667,
+    63.75769965277778,
+    64.28889724794239,
+    52.74650028935185,
+    101.16282021604938,
+    48.99989728009259,
+    0.0
+  ],
+  "endpoint_fades": "PASS first/last black and monotonic sampled ramps",
+  "shot_count": 113,
+  "shot_range_seconds": [
+    4.0,
+    5.9
+  ],
+  "external_gap_frames": 3,
+  "dissolve_frames": 3,
+  "caption_punctuation": "PASS",
+  "human_full_watch": "NOT_RUN",
+  "human_full_listen": "NOT_RUN"
+}

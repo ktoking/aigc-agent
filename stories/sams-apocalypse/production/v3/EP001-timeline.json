@@ -1,0 +1,590 @@
+{
+  "episode": 1,
+  "title": "昨晚我还在搬货，今天我住进了超市",
+  "fps": 30,
+  "characters": 192,
+  "frame_count": 1152,
+  "duration_seconds": 38.4,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 252,
+      "directory": "segment_01_0.00-8.40s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 252,
+      "end_frame_exclusive": 558,
+      "directory": "segment_02_8.40-18.60s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 558,
+      "end_frame_exclusive": 888,
+      "directory": "segment_03_18.60-29.60s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 888,
+      "end_frame_exclusive": 1152,
+      "directory": "segment_04_29.60-38.40s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "丧尸爆发后，我住进了整座山姆。",
+      "characters": 13,
+      "start_frame": 0,
+      "end_frame_exclusive": 78,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "昨天，我还在这里搬货。",
+      "characters": 9,
+      "start_frame": 78,
+      "end_frame_exclusive": 132,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "今天，货架上的东西，我随便拿。",
+      "characters": 12,
+      "start_frame": 132,
+      "end_frame_exclusive": 204,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "事情得从昨晚说起。",
+      "characters": 8,
+      "start_frame": 204,
+      "end_frame_exclusive": 252,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "闭店后，同事们突然往外跑。",
+      "characters": 11,
+      "start_frame": 252,
+      "end_frame_exclusive": 318,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "我追到监控前，看见停车场里有人扑倒了店长。",
+      "characters": 19,
+      "start_frame": 318,
+      "end_frame_exclusive": 432,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我立刻关下卸货区的卷帘门。",
+      "characters": 12,
+      "start_frame": 432,
+      "end_frame_exclusive": 504,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "在监控室里，躲了一夜。",
+      "characters": 9,
+      "start_frame": 504,
+      "end_frame_exclusive": 558,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "天亮，外面还在砸门。",
+      "characters": 8,
+      "start_frame": 558,
+      "end_frame_exclusive": 606,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "我身后却是整排饮用水、成箱罐头。",
+      "characters": 14,
+      "start_frame": 606,
+      "end_frame_exclusive": 690,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "冷库还在运转。",
+      "characters": 6,
+      "start_frame": 690,
+      "end_frame_exclusive": 726,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "以前舍不得买的牛肉干和坚果，我装了满满一车。",
+      "characters": 20,
+      "start_frame": 726,
+      "end_frame_exclusive": 846,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 3,
+      "text": "第一次，没看价签。",
+      "characters": 7,
+      "start_frame": 846,
+      "end_frame_exclusive": 888,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "我把露营床搬进监控室，铺好被子。",
+      "characters": 14,
+      "start_frame": 888,
+      "end_frame_exclusive": 972,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "刚坐下，卸货门外就多了一个人。",
+      "characters": 13,
+      "start_frame": 972,
+      "end_frame_exclusive": 1050,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "我放大画面。",
+      "characters": 5,
+      "start_frame": 1050,
+      "end_frame_exclusive": 1080,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 17,
+      "segment": 4,
+      "text": "是店长。",
+      "characters": 3,
+      "start_frame": 1080,
+      "end_frame_exclusive": 1098,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 18,
+      "segment": 4,
+      "text": "他手里，攥着备用钥匙。",
+      "characters": 9,
+      "start_frame": 1098,
+      "end_frame_exclusive": 1152,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "25f310666e2b358434a9f66d648450f4c57778e26dbc58c969315b4e0a790775",
+  "assets": {
+    "cart": {
+      "segment": 1,
+      "file": "shot-01-cart.png",
+      "source": "masterImage",
+      "description": "主角推着装满食物的购物车站在仓储卖场",
+      "path": "episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-01-cart.png"
+    },
+    "work": {
+      "segment": 1,
+      "file": "shot-02-work.png",
+      "source": "img-02-work",
+      "description": "昨夜主角把纸箱搬上理货推车",
+      "path": "episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-02-work.png"
+    },
+    "flee": {
+      "segment": 1,
+      "file": "shot-03-flee.png",
+      "source": "img-03-flee",
+      "description": "主角停住脚步，两名同事往夜间出口逃跑",
+      "path": "episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-03-flee.png"
+    },
+    "monitor": {
+      "segment": 2,
+      "file": "shot-04-monitor.png",
+      "source": "img-04-monitor",
+      "description": "主角从监控看到停车场中被扑倒的店长",
+      "path": "episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-04-monitor.png"
+    },
+    "shutter": {
+      "segment": 2,
+      "file": "shot-05-shutter.png",
+      "source": "img-05-shutter",
+      "description": "主角按下墙上按钮，卸货卷帘门降下",
+      "path": "episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-05-shutter.png"
+    },
+    "night": {
+      "segment": 2,
+      "file": "shot-06-night.png",
+      "source": "img-06-night",
+      "description": "主角在监控室椅子上抱膝躲过一夜",
+      "path": "episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-06-night.png"
+    },
+    "resources": {
+      "segment": 3,
+      "file": "shot-07-resources.png",
+      "source": "img-07-resources",
+      "description": "清晨的卖场里整排饮用水与罐头",
+      "path": "episodes/EP001_own-the-store/segment_03_30-45s/frames/shot-07-resources.png"
+    },
+    "cold": {
+      "segment": 3,
+      "file": "shot-08-coldroom.png",
+      "source": "coldImage",
+      "description": "仍在运转的冷库，亮着绿色状态灯",
+      "path": "episodes/EP001_own-the-store/segment_03_30-45s/frames/shot-08-coldroom.png"
+    },
+    "bed": {
+      "segment": 4,
+      "file": "shot-09-bed.png",
+      "source": "img-09-bed",
+      "description": "同一间监控室里布置露营床和被子",
+      "path": "episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-09-bed.png"
+    },
+    "manager": {
+      "segment": 4,
+      "file": "shot-10-manager.png",
+      "source": "img-10-manager",
+      "description": "监控画面里店长站在关闭的卸货门外",
+      "path": "episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-10-manager.png"
+    },
+    "keys": {
+      "segment": 4,
+      "file": "shot-11-keys.png",
+      "source": "img-11-keys-v2",
+      "description": "店长手中两把备用钥匙，门仍关闭",
+      "path": "episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-11-keys.png"
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "cart",
+      "start_frame": 0,
+      "end_frame_exclusive": 78,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "work",
+      "start_frame": 78,
+      "end_frame_exclusive": 132,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "cart",
+      "start_frame": 132,
+      "end_frame_exclusive": 204,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "flee",
+      "start_frame": 204,
+      "end_frame_exclusive": 318,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "monitor",
+      "start_frame": 318,
+      "end_frame_exclusive": 432,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "shutter",
+      "start_frame": 432,
+      "end_frame_exclusive": 504,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "night",
+      "start_frame": 504,
+      "end_frame_exclusive": 558,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "resources",
+      "start_frame": 558,
+      "end_frame_exclusive": 690,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "shot-09",
+      "asset": "cold",
+      "start_frame": 690,
+      "end_frame_exclusive": 726,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "shot-10",
+      "asset": "cart",
+      "start_frame": 726,
+      "end_frame_exclusive": 888,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "shot-11",
+      "asset": "bed",
+      "start_frame": 888,
+      "end_frame_exclusive": 972,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "shot-12",
+      "asset": "manager",
+      "start_frame": 972,
+      "end_frame_exclusive": 1098,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        15,
+        17
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "keys",
+      "start_frame": 1098,
+      "end_frame_exclusive": 1152,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        18,
+        18
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "camera": "locked_static_frame",
+  "merge_adjacent_same_asset": true,
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}

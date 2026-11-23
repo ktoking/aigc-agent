@@ -1,0 +1,13 @@
+{
+  "v2": {
+    "frames_compared": 83,
+    "mean_adjacent_frame_luma_difference": 1.8852997831325302,
+    "max": 4.85692
+  },
+  "v3": {
+    "frames_compared": 179,
+    "mean_adjacent_frame_luma_difference": 0.0003717604044692737,
+    "max": 0.00376302
+  },
+  "note": "同一静帧段的编码画面相邻帧差；v3固定构图，剩余差异主要为有损编码噪声。不是音频检测。"
+}

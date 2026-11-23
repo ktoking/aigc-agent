@@ -1,0 +1,43 @@
+{
+  "version": "v1",
+  "segment": "segment_06_75-90s",
+  "status": "planned_missing",
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "purpose": "本段0秒起始构图和角色道具初始状态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "purpose": "本段15秒结束状态与下一段衔接；不是要求整段从首帧直接变形到尾帧",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-classroom-cast.png",
+      "purpose": "林桃、许星、顾岩各自身份与座位；此参考是角色卡，卡片布局文字不得进入画面",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-old-unit.png",
+      "purpose": "旧机同心圆肩环和窄眼灯带，始终与家用小满不同",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-classroom-layout.png",
+      "purpose": "讲台、教学罩、电源台与第二排座位的空间",
+      "status": "missing",
+      "generated": false
+    }
+  ],
+  "note": "当前无真实图像。仅在真实文件生成并核对用途后修改状态；故事板表格不上传。"
+}

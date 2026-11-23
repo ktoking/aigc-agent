@@ -1,0 +1,487 @@
+{
+  "episode": 2,
+  "title": "店长，我不能给你开门",
+  "fps": 30,
+  "characters": 196,
+  "frame_count": 1176,
+  "duration_seconds": 39.2,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 288,
+      "directory": "segment_01_0.00-9.60s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 288,
+      "end_frame_exclusive": 594,
+      "directory": "segment_02_9.60-19.80s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 594,
+      "end_frame_exclusive": 864,
+      "directory": "segment_03_19.80-28.80s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 864,
+      "end_frame_exclusive": 1176,
+      "directory": "segment_04_28.80-39.20s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "店长回来了，手里还拿着备用钥匙。",
+      "characters": 14,
+      "start_frame": 0,
+      "end_frame_exclusive": 84,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "我刚想开门，忽然看见他一直捂着胳膊。",
+      "characters": 16,
+      "start_frame": 84,
+      "end_frame_exclusive": 180,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "我隔着对讲机，让他把袖子卷起来。",
+      "characters": 14,
+      "start_frame": 180,
+      "end_frame_exclusive": 264,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "他没有动。",
+      "characters": 4,
+      "start_frame": 264,
+      "end_frame_exclusive": 288,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "他说只是摔了一跤，还让我别忘了谁给我发工资。",
+      "characters": 20,
+      "start_frame": 288,
+      "end_frame_exclusive": 408,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "可他一抬手，袖口滑下去了。",
+      "characters": 11,
+      "start_frame": 408,
+      "end_frame_exclusive": 474,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "小臂上，清清楚楚一圈牙印。",
+      "characters": 11,
+      "start_frame": 474,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "我把手从按钮上拿开。",
+      "characters": 9,
+      "start_frame": 540,
+      "end_frame_exclusive": 594,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我先扣死了门内的插销。",
+      "characters": 10,
+      "start_frame": 594,
+      "end_frame_exclusive": 654,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "钥匙能打开外锁，却抽不开里面这道闩。",
+      "characters": 16,
+      "start_frame": 654,
+      "end_frame_exclusive": 750,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "他骂了我很久。",
+      "characters": 6,
+      "start_frame": 750,
+      "end_frame_exclusive": 786,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "我坐在监控前，始终没碰开门键。",
+      "characters": 13,
+      "start_frame": 786,
+      "end_frame_exclusive": 864,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "后来，骂声停了。",
+      "characters": 6,
+      "start_frame": 864,
+      "end_frame_exclusive": 900,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "他不再抬头看摄像头，开始用额头一下一下撞门。",
+      "characters": 20,
+      "start_frame": 900,
+      "end_frame_exclusive": 1020,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "那一刻，我后背全是冷汗。",
+      "characters": 10,
+      "start_frame": 1020,
+      "end_frame_exclusive": 1080,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "刚才只要再快一点，我就把他放进来了。",
+      "characters": 16,
+      "start_frame": 1080,
+      "end_frame_exclusive": 1176,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "a6504d8d9b10a7e57529b62f9381b760476ae7b6b712a6c7a682149f92990c81",
+  "assets": {
+    "e2-01": {
+      "id": "e2-01",
+      "episode": 2,
+      "segment": 1,
+      "title": "男主悬停开门按钮",
+      "description": "男主在监控室盯着店长，手悬在开门按钮上。三块显示器沿左墙灰桌，后右灰门带窄窗。",
+      "refs": [
+        "style"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_01_00-15s/frames/e2-01.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-02": {
+      "id": "e2-02",
+      "episode": 2,
+      "segment": 1,
+      "title": "店长藏起胳膊",
+      "description": "室外卷帘门前店长捂住左胳膊，右手持两把银色钥匙。",
+      "refs": [
+        "manager"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_01_00-15s/frames/e2-02.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-03": {
+      "id": "e2-03",
+      "episode": 2,
+      "segment": 2,
+      "title": "袖口下的咬伤",
+      "description": "店长在室外抬起左胳膊，袖口滑落，小臂露出一圈清楚但不血腥的红色牙印。",
+      "refs": [
+        "manager"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_02_15-30s/frames/e2-03.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-04": {
+      "id": "e2-04",
+      "episode": 2,
+      "segment": 2,
+      "title": "男主收回手",
+      "description": "监控室近景，男主把手从绿色开门按钮撤开，另一手握黑色对讲机，脸上从犹豫变为坚定。显示器只显示门外店长，不是房内客人。",
+      "refs": [
+        "style"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_02_15-30s/frames/e2-04.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-05": {
+      "id": "e2-05",
+      "episode": 2,
+      "segment": 3,
+      "title": "扣死内插销",
+      "description": "男主在卷帘门内侧扣死水平钢插销，闭合门，不见室外。",
+      "refs": [
+        "style"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_03_30-45s/frames/e2-05.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-06": {
+      "id": "e2-06",
+      "episode": 2,
+      "segment": 3,
+      "title": "外锁转不动门",
+      "description": "室外近景，店长的右手把银色钥匙插进蓝灰卷帘门外锁，门仍紧闭；白衬衫袖、蓝马甲、红挂绳边缘。视角不出现室内货架。",
+      "refs": [
+        "manager"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_03_30-45s/frames/e2-06.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-07": {
+      "id": "e2-07",
+      "episode": 2,
+      "segment": 4,
+      "title": "店长反应恶化",
+      "description": "店长神志恶化，低头用额头抵住紧闭卷帘门，眼神失焦，四肢无力，没有血腥。",
+      "refs": [
+        "manager"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_04_45-60s/frames/e2-07.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e2-08": {
+      "id": "e2-08",
+      "episode": 2,
+      "segment": 4,
+      "title": "男主后怕",
+      "description": "男主在监控室退后半步，握住黑色对讲机，惊惧和一滴冷汗，身后显示器显示店长额头抵住门。室内门闭合。",
+      "refs": [
+        "style"
+      ],
+      "path": "episodes/EP002_keep-the-door-closed/segment_04_45-60s/frames/e2-08.png",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "e2-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 180,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "e2-02",
+      "start_frame": 180,
+      "end_frame_exclusive": 288,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "e2-03",
+      "start_frame": 288,
+      "end_frame_exclusive": 474,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "e2-04",
+      "start_frame": 474,
+      "end_frame_exclusive": 594,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "e2-05",
+      "start_frame": 594,
+      "end_frame_exclusive": 750,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "e2-06",
+      "start_frame": 750,
+      "end_frame_exclusive": 864,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "e2-07",
+      "start_frame": 864,
+      "end_frame_exclusive": 1020,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "e2-08",
+      "start_frame": 1020,
+      "end_frame_exclusive": 1176,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        0,
+        0
+      ],
+      "cues": [
+        15,
+        16
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "camera": "locked_static_frame",
+  "merge_adjacent_same_asset": true,
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}

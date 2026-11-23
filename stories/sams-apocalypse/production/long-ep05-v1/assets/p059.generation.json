@@ -1,0 +1,11 @@
+{
+  "id": "p059",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bcc5eb5a-ca31-4617-ae8d-d848d917461f.png",
+  "args": {
+    "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只将主显示器中离开的棕色SUV改成浅灰单排驾驶室加白色方形封闭货箱的小型厢式货车，车仍在二维屏幕里。不能是SUV、皮卡或油罐车，画面不另加人。保持室内男主、电台、电脑及构图不变。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p059-original.png"
+    ]
+  }
+}

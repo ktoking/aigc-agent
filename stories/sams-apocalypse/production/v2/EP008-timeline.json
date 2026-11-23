@@ -1,0 +1,669 @@
+{
+  "episode": 8,
+  "title": "停电以后，超市开始倒计时",
+  "fps": 30,
+  "characters": 223,
+  "frame_count": 1338,
+  "duration_seconds": 44.6,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 282,
+      "directory": "segment_01_0.00-9.40s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 282,
+      "end_frame_exclusive": 600,
+      "directory": "segment_02_9.40-20.00s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 600,
+      "end_frame_exclusive": 948,
+      "directory": "segment_03_20.00-31.60s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 948,
+      "end_frame_exclusive": 1338,
+      "directory": "segment_04_31.60-44.60s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "第四天晚上，整座山姆突然黑了。",
+      "characters": 13,
+      "start_frame": 0,
+      "end_frame_exclusive": 78,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "我第一反应是冷库。",
+      "characters": 8,
+      "start_frame": 78,
+      "end_frame_exclusive": 126,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "许棠已经戴上头灯，先让我别开冷库门。",
+      "characters": 16,
+      "start_frame": 126,
+      "end_frame_exclusive": 222,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "窗外，整条街的灯也灭了。",
+      "characters": 10,
+      "start_frame": 222,
+      "end_frame_exclusive": 282,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "我们按事先列好的清单，保留监控、通信和一间冷库。",
+      "characters": 21,
+      "start_frame": 282,
+      "end_frame_exclusive": 408,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "备用发电机启动了。",
+      "characters": 8,
+      "start_frame": 408,
+      "end_frame_exclusive": 456,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "灯重新亮起来时，我刚松了一口气。",
+      "characters": 14,
+      "start_frame": 456,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "许棠却让我去看停车场。",
+      "characters": 10,
+      "start_frame": 540,
+      "end_frame_exclusive": 600,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "刚才还散着的人影，正往设备间这边走。",
+      "characters": 16,
+      "start_frame": 600,
+      "end_frame_exclusive": 696,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "城市安静下来以后，机器的声音传得格外远。",
+      "characters": 18,
+      "start_frame": 696,
+      "end_frame_exclusive": 804,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我们有吃的，有水，也有油。",
+      "characters": 10,
+      "start_frame": 804,
+      "end_frame_exclusive": 864,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "可每用一会儿电，门外就多几张脸。",
+      "characters": 14,
+      "start_frame": 864,
+      "end_frame_exclusive": 948,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "我把用电清单摊在桌上，许棠把冷库记录放到旁边。",
+      "characters": 21,
+      "start_frame": 948,
+      "end_frame_exclusive": 1074,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "我们得重新安排机器的运行，既省油，也少暴露自己。",
+      "characters": 21,
+      "start_frame": 1074,
+      "end_frame_exclusive": 1200,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "我抬头看监控。",
+      "characters": 6,
+      "start_frame": 1200,
+      "end_frame_exclusive": 1236,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "停车场最远处，又有一片人影转向了我们。",
+      "characters": 17,
+      "start_frame": 1236,
+      "end_frame_exclusive": 1338,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "7a5f96b0c92d363aa4de114cfc2368ce3c61e68dfa074bbe8cf5e4721989fc54",
+  "assets": {
+    "e8-01": {
+      "id": "e8-01",
+      "episode": 8,
+      "segment": 1,
+      "title": "超市突然暗了",
+      "description": "第四夜超市大卖场市电中断，顶灯全灭，两人站在货架间戴头灯。男主黄衣蓝马甲青绿帽上头灯，女主橘衣低马尾头灯。黑暗可读蓝灰色调，不要纯黑，画面焦点两个光束。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_01_00-15s/frames/e8-01.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e8-02": {
+      "id": "e8-02",
+      "episode": 8,
+      "segment": 1,
+      "title": "先别开冷库",
+      "description": "冷库门前许棠抬手示意男主别开门，两人戴头灯，紧闭冷库门和暗的温控屏，透过远处高窗看到无灯的城市轮廓，蓝灰暗光保持可读。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_01_00-15s/frames/e8-02.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e8-03": {
+      "id": "e8-03",
+      "episode": 8,
+      "segment": 2,
+      "title": "启动备用电",
+      "description": "独立通风设备间门口许棠站在封闭工业柴油备用发电机控制面板旁按正常启动按钮，男主拿用电清单和手电。室外排风百叶清楚，机组完整封闭，禁止裸线或室内小汽油机。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_02_15-30s/frames/e8-03.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e8-04": {
+      "id": "e8-04",
+      "episode": 8,
+      "segment": 2,
+      "title": "只留关键负载",
+      "description": "一排原有配电控制面板，不画接线细节；女主用笔在用电计划圈出三个简单图标：监控、通信、冷库；男主拿对讲机。部分小绿灯亮，环境仍暗。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_02_15-30s/frames/e8-04.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e8-05": {
+      "id": "e8-05",
+      "episode": 8,
+      "segment": 3,
+      "title": "停车场开始聚集",
+      "description": "全幅室外夜景，如户外监控视角，无文字覆盖：超市设备区通风百叶旁出现几只缓慢游荡丧尸，停车场更远处人影转头走来。封闭设备房灰墙，黄色安全柱，冷蓝月光，不血腥。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_03_30-45s/frames/e8-05.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e8-06": {
+      "id": "e8-06",
+      "episode": 8,
+      "segment": 3,
+      "title": "亮灯之后的代价",
+      "description": "监控室男主近景表情紧张，许棠橘衣低马尾在旁指着监视器。三块显示器中的一块显示人影向通风设备区聚集。桌上燃料记录和冷库记录，照明压暗，头灯。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_03_30-45s/frames/e8-06.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e8-07": {
+      "id": "e8-07",
+      "episode": 8,
+      "segment": 4,
+      "title": "两个人一起做选择",
+      "description": "俯视监控桌，两人的黄袖和橘袖手分放在用电清单、燃料记录、冷库温度记录旁；男主与许棠上半身在画边，桌有黑对讲机、应急灯，三监视器沿左墙。表格只简单行线不需要文字。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_04_45-60s/frames/e8-07.png",
+      "width": 1672,
+      "height": 940
+    },
+    "e8-08": {
+      "id": "e8-08",
+      "episode": 8,
+      "segment": 4,
+      "title": "远处更多人影",
+      "description": "更宽的室外停车场夜景，前景封闭设备区百叶与紧闭卸货门，更远处成片十几个人影从暗停车场朝超市转向。冷蓝月光，仓库一盏小应急灯，悬念压迫但无血腥。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP008_power-outage/segment_04_45-60s/frames/e8-08.png",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "e8-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 78,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "e8-01",
+      "start_frame": 78,
+      "end_frame_exclusive": 126,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "e8-02",
+      "start_frame": 126,
+      "end_frame_exclusive": 222,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "e8-02",
+      "start_frame": 222,
+      "end_frame_exclusive": 282,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "e8-03",
+      "start_frame": 282,
+      "end_frame_exclusive": 408,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "e8-03",
+      "start_frame": 408,
+      "end_frame_exclusive": 456,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "e8-04",
+      "start_frame": 456,
+      "end_frame_exclusive": 540,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "e8-04",
+      "start_frame": 540,
+      "end_frame_exclusive": 600,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "shot-09",
+      "asset": "e8-05",
+      "start_frame": 600,
+      "end_frame_exclusive": 696,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "shot-10",
+      "asset": "e8-05",
+      "start_frame": 696,
+      "end_frame_exclusive": 804,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "shot-11",
+      "asset": "e8-06",
+      "start_frame": 804,
+      "end_frame_exclusive": 864,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "shot-12",
+      "asset": "e8-06",
+      "start_frame": 864,
+      "end_frame_exclusive": 948,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "e8-07",
+      "start_frame": 948,
+      "end_frame_exclusive": 1074,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "shot-14",
+      "asset": "e8-07",
+      "start_frame": 1074,
+      "end_frame_exclusive": 1200,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "shot-15",
+      "asset": "e8-08",
+      "start_frame": 1200,
+      "end_frame_exclusive": 1236,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "shot-16",
+      "asset": "e8-08",
+      "start_frame": 1236,
+      "end_frame_exclusive": 1338,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        16,
+        16
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}

@@ -1,0 +1,52 @@
+{
+  "style": "A",
+  "style_selection": "用户：A吧",
+  "status": "three_core_references_generated",
+  "mode": "built_in_imagegen",
+  "reference_image": "assets/style/selected-style-A.png",
+  "assets": [
+    {
+      "id": "lin-tao-out",
+      "target": "assets/characters/lin-tao/reference-out-v1.png",
+      "prompt": "assets/production-A-v1/lin-tao-out.prompt.txt",
+      "status": "generated_reference",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-45d0ecf4-9587-49a6-87bf-c52f2ec229e2.png",
+      "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a",
+      "width": 1672,
+      "height": 941,
+      "review": "参考A的脸型与3D材质，奶白短外套、浅桃上衣、海军蓝及膝裙、薄荷书包完整；实际视图为正面、人物右侧面、背面。发夹实际位人物右侧，与所选A一致，采用实图统一文字锁。",
+      "user_character_approval": "not_separately_requested_or_recorded"
+    },
+    {
+      "id": "lin-tao-home",
+      "target": "assets/characters/lin-tao/reference-home-v1.png",
+      "prompt": "assets/production-A-v1/lin-tao-home.prompt.txt",
+      "status": "generated_reference",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-0e46299e-ce8a-4181-b51f-729a9c5068fc.png",
+      "sha256": "d4c891c59780e049c4df240ac4914348aa5c6f777bfae4cd8c0ca7d016f62e26",
+      "width": 1672,
+      "height": 941,
+      "review": "脸型与出门版一致方向，浅桃长袖长裤睡衣、白拖鞋、无发夹与书包；实际视图为正面、人物右侧面、背面。右腕环在前面为画面左、背面为画面右。",
+      "user_character_approval": "not_separately_requested_or_recorded"
+    },
+    {
+      "id": "xiao-man",
+      "target": "assets/characters/xiao-man/reference-three-view-v1.png",
+      "prompt": "assets/production-A-v1/xiao-man.prompt.txt",
+      "status": "generated_reference",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-7e13927e-a09e-4ef4-b199-12fb452abf2d.png",
+      "sha256": "b466e7caafbc855ab806d89cd4c5405efd61d68b92044fd3bbd20ef298203144",
+      "width": 1672,
+      "height": 941,
+      "review": "前侧背视图含同一暖白圆角头身、两点琥珀眼、薄荷关节和双侧轮，双手空出便于以后递接道具；背部服务面板为本参考补全。",
+      "user_character_approval": "not_separately_requested_or_recorded"
+    }
+  ],
+  "style_approved": true,
+  "reference_images": [
+    "assets/style/selected-style-A.png"
+  ],
+  "review_scope": "画风/人物衣着/基本结构目视复核；非工程正交图，不宣称完整视频一致性验证",
+  "orientation_convention": "女主出门发夹与助力环均在人自身右侧；正面画面左，背面画面右；侧面实际是人物右侧面。居家不佩发夹。",
+  "prompt_result_difference": "原提示词要求左侧发夹与左侧面，实际结果延续A的右侧发夹/右侧面；保留原始请求作来源记录，统一现行制作文字到实图。"
+}

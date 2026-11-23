@@ -1,0 +1,35 @@
+{
+  "title": "星穹学院",
+  "date": "2026-10-29",
+  "tool": "built-in imagegen",
+  "status": "style_candidates_unselected",
+  "assets": [
+    {
+      "index": 1,
+      "file": "01-lin-tao-cinematic.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-0998a1a6-948d-406a-9882-fd7bc4121845.png",
+      "prompt_file": "01-lin-tao-cinematic.prompt.txt",
+      "sha256": "7643e2e4f03b088ea325d24b66c0fe573e1acbf9f7a1975155cb101eae5b27ef",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "index": 2,
+      "file": "02-friendship-engineering.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-16e54858-8ef0-4d72-a103-d6ed7333a3b6.png",
+      "prompt_file": "02-friendship-engineering.prompt.txt",
+      "sha256": "c5a295c8c3e403a81887141b51cba0a03b12ae9507e39c39a13d641e18f55ec2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "index": 3,
+      "file": "03-kinetic-training.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-f53cda04-5dab-45c6-970f-7116b0c5d9f3.png",
+      "prompt_file": "03-kinetic-training.prompt.txt",
+      "sha256": "ef6eed871d874c98ac3eb1064357cf6d9174241cb7b973399151515811ed2706",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

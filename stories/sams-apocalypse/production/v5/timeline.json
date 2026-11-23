@@ -1,0 +1,3330 @@
+{
+  "version": 5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "frames": 7343,
+  "duration_seconds": 244.76666666666668,
+  "audio_source": "../v4/analysis/compacted.wav",
+  "audio_policy": "retain entire existing narration/music mix; no speech regeneration or music replacement",
+  "transition_frames": 4,
+  "camera": "locked_static",
+  "jobs": [
+    {
+      "id": "e1-cart",
+      "episode": 1,
+      "description": "主角推着装满食物的购物车站在仓储卖场",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-01-cart.png",
+      "path": "assets/e1-cart.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-work",
+      "episode": 1,
+      "description": "昨夜主角把纸箱搬上理货推车",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-02-work.png",
+      "path": "assets/e1-work.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-flee",
+      "episode": 1,
+      "description": "主角停住脚步，两名同事往夜间出口逃跑",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_01_00-15s/frames/shot-03-flee.png",
+      "path": "assets/e1-flee.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-monitor",
+      "episode": 1,
+      "description": "主角从监控看到停车场中被扑倒的店长",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-04-monitor.png",
+      "path": "assets/e1-monitor.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-shutter",
+      "episode": 1,
+      "description": "主角按下墙上按钮，卸货卷帘门降下",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-05-shutter.png",
+      "path": "assets/e1-shutter.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-night",
+      "episode": 1,
+      "description": "主角在监控室椅子上抱膝躲过一夜",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_02_15-30s/frames/shot-06-night.png",
+      "path": "assets/e1-night.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-resources",
+      "episode": 1,
+      "description": "清晨的卖场里整排饮用水与罐头",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_03_30-45s/frames/shot-07-resources.png",
+      "path": "assets/e1-resources.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-cold",
+      "episode": 1,
+      "description": "仍在运转的冷库，亮着绿色状态灯",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_03_30-45s/frames/shot-08-coldroom.png",
+      "path": "assets/e1-cold.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-bed",
+      "episode": 1,
+      "description": "同一间监控室里布置露营床和被子",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-09-bed.png",
+      "path": "assets/e1-bed.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-manager",
+      "episode": 1,
+      "description": "监控画面里店长站在关闭的卸货门外",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-10-manager.png",
+      "path": "assets/e1-manager.png",
+      "status": "pending"
+    },
+    {
+      "id": "e1-keys",
+      "episode": 1,
+      "description": "店长手中两把备用钥匙，门仍关闭",
+      "title": "",
+      "original_path": "episodes/EP001_own-the-store/segment_04_45-60s/frames/shot-11-keys.png",
+      "path": "assets/e1-keys.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-01",
+      "episode": 2,
+      "description": "男主在监控室盯着店长，手悬在开门按钮上。三块显示器沿左墙灰桌，后右灰门带窄窗。",
+      "title": "男主悬停开门按钮",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_01_00-15s/frames/e2-01.png",
+      "path": "assets/e2-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-02",
+      "episode": 2,
+      "description": "室外卷帘门前店长捂住左胳膊，右手持两把银色钥匙。",
+      "title": "店长藏起胳膊",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_01_00-15s/frames/e2-02.png",
+      "path": "assets/e2-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-03",
+      "episode": 2,
+      "description": "店长在室外抬起左胳膊，袖口滑落，小臂露出一圈清楚但不血腥的红色牙印。",
+      "title": "袖口下的咬伤",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_02_15-30s/frames/e2-03.png",
+      "path": "assets/e2-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-04",
+      "episode": 2,
+      "description": "监控室近景，男主把手从绿色开门按钮撤开，另一手握黑色对讲机，脸上从犹豫变为坚定。显示器只显示门外店长，不是房内客人。",
+      "title": "男主收回手",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_02_15-30s/frames/e2-04.png",
+      "path": "assets/e2-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-05",
+      "episode": 2,
+      "description": "男主在卷帘门内侧扣死水平钢插销，闭合门，不见室外。",
+      "title": "扣死内插销",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_03_30-45s/frames/e2-05.png",
+      "path": "assets/e2-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-06",
+      "episode": 2,
+      "description": "室外近景，店长的右手把银色钥匙插进蓝灰卷帘门外锁，门仍紧闭；白衬衫袖、蓝马甲、红挂绳边缘。视角不出现室内货架。",
+      "title": "外锁转不动门",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_03_30-45s/frames/e2-06.png",
+      "path": "assets/e2-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-07",
+      "episode": 2,
+      "description": "店长神志恶化，低头用额头抵住紧闭卷帘门，眼神失焦，四肢无力，没有血腥。",
+      "title": "店长反应恶化",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_04_45-60s/frames/e2-07.png",
+      "path": "assets/e2-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e2-08",
+      "episode": 2,
+      "description": "男主在监控室退后半步，握住黑色对讲机，惊惧和一滴冷汗，身后显示器显示店长额头抵住门。室内门闭合。",
+      "title": "男主后怕",
+      "original_path": "episodes/EP002_keep-the-door-closed/segment_04_45-60s/frames/e2-08.png",
+      "path": "assets/e2-08.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-01",
+      "episode": 3,
+      "description": "第一天下午，男主在超市两排高货架间推空蓝色平板车，拿小本和手电，开始盘货。明亮中性灯。",
+      "title": "推车去抽盘",
+      "original_path": "episodes/EP003_first-inventory/segment_01_00-15s/frames/e3-01.png",
+      "path": "assets/e3-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-02",
+      "episode": 3,
+      "description": "男主蹲在成箱瓶装水旁，拿铅笔在清单上记数。只展示部分堆放齐整的水箱，不能把画面数量当全店库存；不需文字数字。",
+      "title": "水箱与记录",
+      "original_path": "episodes/EP003_first-inventory/segment_01_00-15s/frames/e3-02.png",
+      "path": "assets/e3-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-03",
+      "episode": 3,
+      "description": "低机位货架近景：罐头箱、成袋大米、泡面箱、肉干和坚果罐整齐分区，男主拿本检查。高货架向远处延伸。",
+      "title": "常温食品家底",
+      "original_path": "episodes/EP003_first-inventory/segment_02_15-30s/frames/e3-03.png",
+      "path": "assets/e3-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-04",
+      "episode": 3,
+      "description": "男主抱着盘点本看向高大仓储货架，蓝立柱橘横梁，满载常温食品，强透视。表情踏实而惊喜。",
+      "title": "看不到头的货架",
+      "original_path": "episodes/EP003_first-inventory/segment_02_15-30s/frames/e3-04.png",
+      "path": "assets/e3-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-05",
+      "episode": 3,
+      "description": "商品近景：男主黄色袖白色手拿一袋牛角面包检查包装日期，小本价格被划掉的简洁笔迹，旁边手电电池，远处折叠床和被子。无可读文字。",
+      "title": "保质期优先",
+      "original_path": "episodes/EP003_first-inventory/segment_03_30-45s/frames/e3-05.png",
+      "path": "assets/e3-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-06",
+      "episode": 3,
+      "description": "男主在监控桌旁抱一袋面包，正准备吃，突然抬头看屏幕。三监视器沿左墙，青灰墙，灰门后右。",
+      "title": "先吃面包",
+      "original_path": "episodes/EP003_first-inventory/segment_03_30-45s/frames/e3-06.png",
+      "path": "assets/e3-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-07",
+      "episode": 3,
+      "description": "下午室外全幅镜头：白色维修面包车侧门打开，许棠从车旁站起，橘色维修夹克，深棕低马尾，蓝灰工具包，空透明水瓶。离紧闭卷帘门至少几步。",
+      "title": "白车门打开",
+      "original_path": "episodes/EP003_first-inventory/segment_04_45-60s/frames/e3-07.png",
+      "path": "assets/e3-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e3-08",
+      "episode": 3,
+      "description": "室外中近景许棠举起空透明水瓶朝上方摄像头招手，橘夹克、灰T恤、灰工装裤、深棕低马尾、圆白脸黑点眼。背后白车与闭合蓝灰卷帘门，阳光偏晚。",
+      "title": "她举起空瓶",
+      "original_path": "episodes/EP003_first-inventory/segment_04_45-60s/frames/e3-08.png",
+      "path": "assets/e3-08.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-01",
+      "episode": 4,
+      "description": "门外许棠站在白色维修车旁，举起一张简洁维保工单给监控，蓝灰工具包放脚边，空瓶在旁，灰蓝卷帘门紧闭。",
+      "title": "维修工单",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_01_00-15s/frames/e4-01.png",
+      "path": "assets/e4-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-02",
+      "episode": 4,
+      "description": "监控室男主把桌上的门店维保记录和屏幕中许棠举的工单比对，两张纸只画简单行线和相同的小标记，不生成可读文字。",
+      "title": "核对记录",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_01_00-15s/frames/e4-02.png",
+      "path": "assets/e4-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-03",
+      "episode": 4,
+      "description": "室外冷库冷凝外机，大型灰色有护网的设备和封闭电箱，进风口前倒着几个空纸箱；许棠从几步外指给上方监控看。",
+      "title": "外机前纸箱",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_02_15-30s/frames/e4-03.png",
+      "path": "assets/e4-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-04",
+      "episode": 4,
+      "description": "许棠在室外冷凝器旁把堵住进风口的空纸箱搬开，蓝灰工具包放安全处，双脚落地稳定，未拆电箱。男主不在室外。",
+      "title": "先挪开纸箱",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_02_15-30s/frames/e4-04.png",
+      "path": "assets/e4-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-05",
+      "episode": 4,
+      "description": "室内冷库门外男主按照对讲机说明检查小温控面板；冷库门保持关闭，面板绿灯和一盏小红灯，干净设备轮廓。",
+      "title": "看温控屏",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_03_30-45s/frames/e4-05.png",
+      "path": "assets/e4-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-06",
+      "episode": 4,
+      "description": "室外许棠在已清空进风口的冷凝外机旁，手扶工具包，肩膀放松，透气护网无杂物遮挡，暮色，女主无伤。",
+      "title": "告警解除",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_03_30-45s/frames/e4-06.png",
+      "path": "assets/e4-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-07",
+      "episode": 4,
+      "description": "室内朝收货缓冲间看：前景男主位于关闭的带玻璃内门后，隔窗看对面独立矩形收货间，最远处外卷帘门也关闭。清楚两道边界，许棠还在外侧可不入画，房内无人。",
+      "title": "两门之间",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_04_45-60s/frames/e4-07.png",
+      "path": "assets/e4-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e4-08",
+      "episode": 4,
+      "description": "室外许棠平静地指向收货缓冲间的侧窗，另一手拿空水瓶，橘夹克和低马尾；蓝灰卷帘门仍关着，男主不在她这侧。",
+      "title": "她指向观察处",
+      "original_path": "episodes/EP004_cold-chain-technician/segment_04_45-60s/frames/e4-08.png",
+      "path": "assets/e4-08.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-01",
+      "episode": 5,
+      "description": "男主独自在空收货缓冲间放一箱水、面包、叠好米色被子和有盖便携厕所，外卷帘门关着，带窄玻璃内门在身后。许棠尚未进入。",
+      "title": "先放生活物资",
+      "original_path": "episodes/EP005_first-night-apart/segment_01_00-15s/frames/e5-01.png",
+      "path": "assets/e5-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-02",
+      "episode": 5,
+      "description": "傍晚许棠已在缓冲间内，蹲下拿瓶水，外卷帘门关闭；前景男主位于关闭带玻璃的内门另一侧，两人隔玻璃相望，未共处一室。",
+      "title": "隔着内门",
+      "original_path": "episodes/EP005_first-night-apart/segment_01_00-15s/frames/e5-02.png",
+      "path": "assets/e5-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-03",
+      "episode": 5,
+      "description": "夜里近景男主把盘点清单贴在内门玻璃的自己这一面，纸张简单图标行线；玻璃另一侧许棠拿纸笔认真看。两人之间的门闭合。",
+      "title": "贴上物资清单",
+      "original_path": "episodes/EP005_first-night-apart/segment_02_15-30s/frames/e5-03.png",
+      "path": "assets/e5-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-04",
+      "episode": 5,
+      "description": "缓冲间许棠坐在折好的被子旁，拿笔在纸上补记垃圾袋、纸巾和照明，旁边蓝灰工具包和水；背景玻璃门关闭。",
+      "title": "她补生活用品",
+      "original_path": "episodes/EP005_first-night-apart/segment_02_15-30s/frames/e5-04.png",
+      "path": "assets/e5-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-05",
+      "episode": 5,
+      "description": "夜间过肩镜头男主看玻璃另一边许棠举起设备平面草图，只有简洁冷库、备用设备房框图，没有接线示意；玻璃门闭合。",
+      "title": "隔窗交换计划",
+      "original_path": "episodes/EP005_first-night-apart/segment_03_30-45s/frames/e5-05.png",
+      "path": "assets/e5-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-06",
+      "episode": 5,
+      "description": "夜间男主独自在卖场安全区把散乱纸箱搬上蓝平板车，货架旁通道保持净空，手电放旁边，没有堵门障碍物。",
+      "title": "清出安全通道",
+      "original_path": "episodes/EP005_first-night-apart/segment_03_30-45s/frames/e5-06.png",
+      "path": "assets/e5-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-07",
+      "episode": 5,
+      "description": "清晨男主在门边办公椅上醒来，青绿帽、黄衣、蓝马甲不变。带玻璃内门在旁，透过去能看到橘衣许棠靠缓冲间墙睡，蓝灰包抱在怀里。",
+      "title": "男主在椅上醒来",
+      "original_path": "episodes/EP005_first-night-apart/segment_04_45-60s/frames/e5-07.png",
+      "path": "assets/e5-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e5-08",
+      "episode": 5,
+      "description": "清晨从男主这边看玻璃：男主白色手指轻敲窗，许棠在对面睁开眼露出疲倦但温和微笑，抱蓝灰工具包，米色被子在腿边，门仍关着。",
+      "title": "玻璃后的早安",
+      "original_path": "episodes/EP005_first-night-apart/segment_04_45-60s/frames/e5-08.png",
+      "path": "assets/e5-08.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-01",
+      "episode": 6,
+      "description": "第二天傍晚，外卷帘门仍关闭，男主站卖场内伸手打开带玻璃的内门迎接许棠从缓冲间进入。两人都健康，无咬伤，许棠拎蓝灰工具包。",
+      "title": "内门终于打开",
+      "original_path": "episodes/EP006_dinner-for-two/segment_01_00-15s/frames/e6-01.png",
+      "path": "assets/e6-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-02",
+      "episode": 6,
+      "description": "许棠刚进卖场把空透明水瓶放进整齐的回收袋，男主在旁拿物资本看着，温和神情。橘外套低马尾固定。",
+      "title": "她先回收空瓶",
+      "original_path": "episodes/EP006_dinner-for-two/segment_01_00-15s/frames/e6-02.png",
+      "path": "assets/e6-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-03",
+      "episode": 6,
+      "description": "员工茶水间近景：安全电磁炉上平底锅两块正在煎的牛排，桌边一大碗新鲜草莓，黄色衣袖男主握夹子略紧张；后方橘衣许棠看着锅，温暖灯光。",
+      "title": "两块牛排",
+      "original_path": "episodes/EP006_dinner-for-two/segment_02_15-30s/frames/e6-03.png",
+      "path": "assets/e6-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-04",
+      "episode": 6,
+      "description": "同一茶水间许棠接过夹子翻牛排，男主在旁拿包装说明尴尬小笑。平底锅在电磁炉上，旁边草莓碗和两个盘子，不冒大烟。",
+      "title": "她接过夹子",
+      "original_path": "episodes/EP006_dinner-for-two/segment_02_15-30s/frames/e6-04.png",
+      "path": "assets/e6-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-05",
+      "episode": 6,
+      "description": "两人在员工茶水间小方桌对面坐着吃牛排草莓牛角包，两套餐具、两个杯子；桌旁黑色对讲机和物资本。温暖真实日常，小圆白脸点眼，橘衣女主低马尾。",
+      "title": "第一次两人吃饭",
+      "original_path": "episodes/EP006_dinner-for-two/segment_03_30-45s/frames/e6-05.png",
+      "path": "assets/e6-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-06",
+      "episode": 6,
+      "description": "同一小餐桌两人已吃了一些，男主指向盘点本，许棠拿设备本点头，友善合作。两盘牛排、草莓碗、两只杯，窗外天色晚。",
+      "title": "明天怎么分工",
+      "original_path": "episodes/EP006_dinner-for-two/segment_03_30-45s/frames/e6-06.png",
+      "path": "assets/e6-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-07",
+      "episode": 6,
+      "description": "桌面特写：男主黄色衣袖白色手把一把短银钥匙配单独蓝色塑料方形钥匙牌放在许棠的餐盘旁，女主橘袖的手尚未拿。钥匙与店长两把裸银长钥匙明显不同。食物盘和杯子背景。",
+      "title": "递出蓝标钥匙",
+      "original_path": "episodes/EP006_dinner-for-two/segment_04_45-60s/frames/e6-07.png",
+      "path": "assets/e6-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e6-08",
+      "episode": 6,
+      "description": "同一桌许棠把最后一个牛角包掰成两半把一半递给男主，男主伸手接，蓝牌单银钥匙放她旁边，桌上双人餐具。两人温和小笑，不亲吻。",
+      "title": "分最后的牛角包",
+      "original_path": "episodes/EP006_dinner-for-two/segment_04_45-60s/frames/e6-08.png",
+      "path": "assets/e6-08.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-01",
+      "episode": 7,
+      "description": "第三天白天两人共同推蓝色平板车搬被子与生活用品到监控室旁休息室，男主黄帽衫蓝马甲青绿帽，女主橘衣低马尾带工具包。通道整洁。",
+      "title": "共同整理生活区",
+      "original_path": "episodes/EP007_a-place-to-live/segment_01_00-15s/frames/e7-01.png",
+      "path": "assets/e7-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-02",
+      "episode": 7,
+      "description": "员工休息室新场景，两张分开的绿色折叠床各有米色被子，中间过道和一张小边桌，灰蓝储物柜，暖白顶灯；两人各整理一张床。没有第三张床没有双人床。",
+      "title": "两张独立的床",
+      "original_path": "episodes/EP007_a-place-to-live/segment_01_00-15s/frames/e7-02.png",
+      "path": "assets/e7-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-03",
+      "episode": 7,
+      "description": "超市安全生活区，男主把瓶装饮用水放独立货架，远侧清洁用品与饮水明显分开；常温粮与临期食物两个分区。通道无散乱购物车，女主检查清单。",
+      "title": "物资分区",
+      "original_path": "episodes/EP007_a-place-to-live/segment_02_15-30s/frames/e7-03.png",
+      "path": "assets/e7-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-04",
+      "episode": 7,
+      "description": "两人在与生活区隔离的设备间门口检查已安装的封闭工业备用柴油发电机和燃料表。女主拿设备记录，男主手电照向表盘。机器尚未启动，室外通风百叶敞通，无操作接线。",
+      "title": "有限备用设备",
+      "original_path": "episodes/EP007_a-place-to-live/segment_02_15-30s/frames/e7-04.png",
+      "path": "assets/e7-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-05",
+      "episode": 7,
+      "description": "傍晚员工小茶水间两人围坐小桌定明日计划，女主拿记录本旁边一杯热牛奶，男主拿一袋肉干，桌上两套餐具和食品。轻松日常。",
+      "title": "晚饭与明日计划",
+      "original_path": "episodes/EP007_a-place-to-live/segment_03_30-45s/frames/e7-05.png",
+      "path": "assets/e7-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-06",
+      "episode": 7,
+      "description": "中近景许棠拿铅笔温和指向清单中的肉干袋小图标，男主抱一袋肉干不好意思地笑，自己的盘点本摊桌上，简单行线无可读字。",
+      "title": "吃完记得扣库存",
+      "original_path": "episodes/EP007_a-place-to-live/segment_03_30-45s/frames/e7-06.png",
+      "path": "assets/e7-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-07",
+      "episode": 7,
+      "description": "深夜监控室三块显示器在左墙灰桌，许棠坐上值班椅把一杯温牛奶留在桌上，男主站旁拿清单准备离开，房后右是灰门。屏幕外面仍有零散丧尸。",
+      "title": "交班的温牛奶",
+      "original_path": "episodes/EP007_a-place-to-live/segment_04_45-60s/frames/e7-07.png",
+      "path": "assets/e7-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e7-08",
+      "episode": 7,
+      "description": "夜里男主在休息室自己的绿色折叠床上闭眼睡着，青绿帽放枕旁、黄色衣服仍在身上，门关闭，另一张床空着，床头一杯牛奶和小本。平静暖暗灯。",
+      "title": "终于能安心睡",
+      "original_path": "episodes/EP007_a-place-to-live/segment_04_45-60s/frames/e7-08.png",
+      "path": "assets/e7-08.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-01",
+      "episode": 8,
+      "description": "第四夜超市大卖场市电中断，顶灯全灭，两人站在货架间戴头灯。男主黄衣蓝马甲青绿帽上头灯，女主橘衣低马尾头灯。黑暗可读蓝灰色调，不要纯黑，画面焦点两个光束。",
+      "title": "超市突然暗了",
+      "original_path": "episodes/EP008_power-outage/segment_01_00-15s/frames/e8-01.png",
+      "path": "assets/e8-01.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-02",
+      "episode": 8,
+      "description": "冷库门前许棠抬手示意男主别开门，两人戴头灯，紧闭冷库门和暗的温控屏，透过远处高窗看到无灯的城市轮廓，蓝灰暗光保持可读。",
+      "title": "先别开冷库",
+      "original_path": "episodes/EP008_power-outage/segment_01_00-15s/frames/e8-02.png",
+      "path": "assets/e8-02.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-03",
+      "episode": 8,
+      "description": "独立通风设备间门口许棠站在封闭工业柴油备用发电机控制面板旁按正常启动按钮，男主拿用电清单和手电。室外排风百叶清楚，机组完整封闭，禁止裸线或室内小汽油机。",
+      "title": "启动备用电",
+      "original_path": "episodes/EP008_power-outage/segment_02_15-30s/frames/e8-03.png",
+      "path": "assets/e8-03.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-04",
+      "episode": 8,
+      "description": "一排原有配电控制面板，不画接线细节；女主用笔在用电计划圈出三个简单图标：监控、通信、冷库；男主拿对讲机。部分小绿灯亮，环境仍暗。",
+      "title": "只留关键负载",
+      "original_path": "episodes/EP008_power-outage/segment_02_15-30s/frames/e8-04.png",
+      "path": "assets/e8-04.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-05",
+      "episode": 8,
+      "description": "全幅室外夜景，如户外监控视角，无文字覆盖：超市设备区通风百叶旁出现几只缓慢游荡丧尸，停车场更远处人影转头走来。封闭设备房灰墙，黄色安全柱，冷蓝月光，不血腥。",
+      "title": "停车场开始聚集",
+      "original_path": "episodes/EP008_power-outage/segment_03_30-45s/frames/e8-05.png",
+      "path": "assets/e8-05.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-06",
+      "episode": 8,
+      "description": "监控室男主近景表情紧张，许棠橘衣低马尾在旁指着监视器。三块显示器中的一块显示人影向通风设备区聚集。桌上燃料记录和冷库记录，照明压暗，头灯。",
+      "title": "亮灯之后的代价",
+      "original_path": "episodes/EP008_power-outage/segment_03_30-45s/frames/e8-06.png",
+      "path": "assets/e8-06.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-07",
+      "episode": 8,
+      "description": "俯视监控桌，两人的黄袖和橘袖手分放在用电清单、燃料记录、冷库温度记录旁；男主与许棠上半身在画边，桌有黑对讲机、应急灯，三监视器沿左墙。表格只简单行线不需要文字。",
+      "title": "两个人一起做选择",
+      "original_path": "episodes/EP008_power-outage/segment_04_45-60s/frames/e8-07.png",
+      "path": "assets/e8-07.png",
+      "status": "pending"
+    },
+    {
+      "id": "e8-08",
+      "episode": 8,
+      "description": "更宽的室外停车场夜景，前景封闭设备区百叶与紧闭卸货门，更远处成片十几个人影从暗停车场朝超市转向。冷蓝月光，仓库一盏小应急灯，悬念压迫但无血腥。",
+      "title": "远处更多人影",
+      "original_path": "episodes/EP008_power-outage/segment_04_45-60s/frames/e8-08.png",
+      "path": "assets/e8-08.png",
+      "status": "pending"
+    }
+  ],
+  "shots": [
+    {
+      "id": "EP001-shot-01",
+      "episode": 1,
+      "asset": "e1-cart",
+      "start_frame": 0,
+      "end_frame_exclusive": 58,
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EP001-shot-02",
+      "episode": 1,
+      "asset": "e1-work",
+      "start_frame": 58,
+      "end_frame_exclusive": 102,
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "EP001-shot-03",
+      "episode": 1,
+      "asset": "e1-cart",
+      "start_frame": 102,
+      "end_frame_exclusive": 167,
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "EP001-shot-04",
+      "episode": 1,
+      "asset": "e1-flee",
+      "start_frame": 167,
+      "end_frame_exclusive": 260,
+      "cues": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "EP001-shot-05",
+      "episode": 1,
+      "asset": "e1-monitor",
+      "start_frame": 260,
+      "end_frame_exclusive": 338,
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "EP001-shot-06",
+      "episode": 1,
+      "asset": "e1-shutter",
+      "start_frame": 338,
+      "end_frame_exclusive": 387,
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "EP001-shot-07",
+      "episode": 1,
+      "asset": "e1-night",
+      "start_frame": 387,
+      "end_frame_exclusive": 432,
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "EP001-shot-08",
+      "episode": 1,
+      "asset": "e1-resources",
+      "start_frame": 432,
+      "end_frame_exclusive": 538,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP001-shot-09",
+      "episode": 1,
+      "asset": "e1-cold",
+      "start_frame": 538,
+      "end_frame_exclusive": 564,
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "EP001-shot-10",
+      "episode": 1,
+      "asset": "e1-cart",
+      "start_frame": 564,
+      "end_frame_exclusive": 679,
+      "cues": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "EP001-shot-11",
+      "episode": 1,
+      "asset": "e1-bed",
+      "start_frame": 679,
+      "end_frame_exclusive": 747,
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "EP001-shot-12",
+      "episode": 1,
+      "asset": "e1-manager",
+      "start_frame": 747,
+      "end_frame_exclusive": 846,
+      "cues": [
+        15,
+        17
+      ]
+    },
+    {
+      "id": "EP001-shot-13",
+      "episode": 1,
+      "asset": "e1-keys",
+      "start_frame": 846,
+      "end_frame_exclusive": 890,
+      "cues": [
+        18,
+        18
+      ]
+    },
+    {
+      "id": "EP002-shot-01",
+      "episode": 2,
+      "asset": "e2-01",
+      "start_frame": 890,
+      "end_frame_exclusive": 1016,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP002-shot-02",
+      "episode": 2,
+      "asset": "e2-02",
+      "start_frame": 1016,
+      "end_frame_exclusive": 1088,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP002-shot-03",
+      "episode": 2,
+      "asset": "e2-03",
+      "start_frame": 1088,
+      "end_frame_exclusive": 1213,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP002-shot-04",
+      "episode": 2,
+      "asset": "e2-04",
+      "start_frame": 1213,
+      "end_frame_exclusive": 1302,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP002-shot-05",
+      "episode": 2,
+      "asset": "e2-05",
+      "start_frame": 1302,
+      "end_frame_exclusive": 1404,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP002-shot-06",
+      "episode": 2,
+      "asset": "e2-06",
+      "start_frame": 1404,
+      "end_frame_exclusive": 1488,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP002-shot-07",
+      "episode": 2,
+      "asset": "e2-07",
+      "start_frame": 1488,
+      "end_frame_exclusive": 1610,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP002-shot-08",
+      "episode": 2,
+      "asset": "e2-08",
+      "start_frame": 1610,
+      "end_frame_exclusive": 1722,
+      "cues": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "EP003-shot-01",
+      "episode": 3,
+      "asset": "e3-01",
+      "start_frame": 1722,
+      "end_frame_exclusive": 1812,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP003-shot-02",
+      "episode": 3,
+      "asset": "e3-02",
+      "start_frame": 1812,
+      "end_frame_exclusive": 1933,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP003-shot-03",
+      "episode": 3,
+      "asset": "e3-03",
+      "start_frame": 1933,
+      "end_frame_exclusive": 2055,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP003-shot-04",
+      "episode": 3,
+      "asset": "e3-04",
+      "start_frame": 2055,
+      "end_frame_exclusive": 2176,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP003-shot-05",
+      "episode": 3,
+      "asset": "e3-05",
+      "start_frame": 2176,
+      "end_frame_exclusive": 2312,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP003-shot-06",
+      "episode": 3,
+      "asset": "e3-06",
+      "start_frame": 2312,
+      "end_frame_exclusive": 2379,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP003-shot-07",
+      "episode": 3,
+      "asset": "e3-07",
+      "start_frame": 2379,
+      "end_frame_exclusive": 2523,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP003-shot-08",
+      "episode": 3,
+      "asset": "e3-08",
+      "start_frame": 2523,
+      "end_frame_exclusive": 2639,
+      "cues": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "EP004-shot-01",
+      "episode": 4,
+      "asset": "e4-01",
+      "start_frame": 2639,
+      "end_frame_exclusive": 2730,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP004-shot-02",
+      "episode": 4,
+      "asset": "e4-02",
+      "start_frame": 2730,
+      "end_frame_exclusive": 2886,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP004-shot-03",
+      "episode": 4,
+      "asset": "e4-03",
+      "start_frame": 2886,
+      "end_frame_exclusive": 3015,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP004-shot-04",
+      "episode": 4,
+      "asset": "e4-04",
+      "start_frame": 3015,
+      "end_frame_exclusive": 3123,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP004-shot-05",
+      "episode": 4,
+      "asset": "e4-05",
+      "start_frame": 3123,
+      "end_frame_exclusive": 3234,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP004-shot-06",
+      "episode": 4,
+      "asset": "e4-06",
+      "start_frame": 3234,
+      "end_frame_exclusive": 3309,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP004-shot-07",
+      "episode": 4,
+      "asset": "e4-07",
+      "start_frame": 3309,
+      "end_frame_exclusive": 3456,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP004-shot-08",
+      "episode": 4,
+      "asset": "e4-08",
+      "start_frame": 3456,
+      "end_frame_exclusive": 3537,
+      "cues": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "EP005-shot-01",
+      "episode": 5,
+      "asset": "e5-01",
+      "start_frame": 3537,
+      "end_frame_exclusive": 3678,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP005-shot-02",
+      "episode": 5,
+      "asset": "e5-02",
+      "start_frame": 3678,
+      "end_frame_exclusive": 3754,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP005-shot-03",
+      "episode": 5,
+      "asset": "e5-03",
+      "start_frame": 3754,
+      "end_frame_exclusive": 3901,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP005-shot-04",
+      "episode": 5,
+      "asset": "e5-04",
+      "start_frame": 3901,
+      "end_frame_exclusive": 3981,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP005-shot-05",
+      "episode": 5,
+      "asset": "e5-05",
+      "start_frame": 3981,
+      "end_frame_exclusive": 4130,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP005-shot-06",
+      "episode": 5,
+      "asset": "e5-06",
+      "start_frame": 4130,
+      "end_frame_exclusive": 4236,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP005-shot-07",
+      "episode": 5,
+      "asset": "e5-07",
+      "start_frame": 4236,
+      "end_frame_exclusive": 4379,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP005-shot-08",
+      "episode": 5,
+      "asset": "e5-08",
+      "start_frame": 4379,
+      "end_frame_exclusive": 4489,
+      "cues": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "EP006-shot-01",
+      "episode": 6,
+      "asset": "e6-01",
+      "start_frame": 4489,
+      "end_frame_exclusive": 4611,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP006-shot-02",
+      "episode": 6,
+      "asset": "e6-02",
+      "start_frame": 4611,
+      "end_frame_exclusive": 4745,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP006-shot-03",
+      "episode": 6,
+      "asset": "e6-03",
+      "start_frame": 4745,
+      "end_frame_exclusive": 4863,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP006-shot-04",
+      "episode": 6,
+      "asset": "e6-04",
+      "start_frame": 4863,
+      "end_frame_exclusive": 4964,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP006-shot-05",
+      "episode": 6,
+      "asset": "e6-05",
+      "start_frame": 4964,
+      "end_frame_exclusive": 5060,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP006-shot-06",
+      "episode": 6,
+      "asset": "e6-06",
+      "start_frame": 5060,
+      "end_frame_exclusive": 5199,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP006-shot-07",
+      "episode": 6,
+      "asset": "e6-07",
+      "start_frame": 5199,
+      "end_frame_exclusive": 5317,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP006-shot-08",
+      "episode": 6,
+      "asset": "e6-08",
+      "start_frame": 5317,
+      "end_frame_exclusive": 5458,
+      "cues": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "EP007-shot-01",
+      "episode": 7,
+      "asset": "e7-01",
+      "start_frame": 5458,
+      "end_frame_exclusive": 5619,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP007-shot-02",
+      "episode": 7,
+      "asset": "e7-02",
+      "start_frame": 5619,
+      "end_frame_exclusive": 5712,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP007-shot-03",
+      "episode": 7,
+      "asset": "e7-03",
+      "start_frame": 5712,
+      "end_frame_exclusive": 5862,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP007-shot-04",
+      "episode": 7,
+      "asset": "e7-04",
+      "start_frame": 5862,
+      "end_frame_exclusive": 5981,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP007-shot-05",
+      "episode": 7,
+      "asset": "e7-05",
+      "start_frame": 5981,
+      "end_frame_exclusive": 6091,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP007-shot-06",
+      "episode": 7,
+      "asset": "e7-06",
+      "start_frame": 6091,
+      "end_frame_exclusive": 6187,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP007-shot-07",
+      "episode": 7,
+      "asset": "e7-07",
+      "start_frame": 6187,
+      "end_frame_exclusive": 6281,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP007-shot-08",
+      "episode": 7,
+      "asset": "e7-08",
+      "start_frame": 6281,
+      "end_frame_exclusive": 6390,
+      "cues": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "EP008-shot-01",
+      "episode": 8,
+      "asset": "e8-01",
+      "start_frame": 6390,
+      "end_frame_exclusive": 6482,
+      "cues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "EP008-shot-02",
+      "episode": 8,
+      "asset": "e8-02",
+      "start_frame": 6482,
+      "end_frame_exclusive": 6598,
+      "cues": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "EP008-shot-03",
+      "episode": 8,
+      "asset": "e8-03",
+      "start_frame": 6598,
+      "end_frame_exclusive": 6724,
+      "cues": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "EP008-shot-04",
+      "episode": 8,
+      "asset": "e8-04",
+      "start_frame": 6724,
+      "end_frame_exclusive": 6819,
+      "cues": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "EP008-shot-05",
+      "episode": 8,
+      "asset": "e8-05",
+      "start_frame": 6819,
+      "end_frame_exclusive": 6960,
+      "cues": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "EP008-shot-06",
+      "episode": 8,
+      "asset": "e8-06",
+      "start_frame": 6960,
+      "end_frame_exclusive": 7069,
+      "cues": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "EP008-shot-07",
+      "episode": 8,
+      "asset": "e8-07",
+      "start_frame": 7069,
+      "end_frame_exclusive": 7250,
+      "cues": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "EP008-shot-08",
+      "episode": 8,
+      "asset": "e8-08",
+      "start_frame": 7250,
+      "end_frame_exclusive": 7343,
+      "cues": [
+        15,
+        16
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "丧尸爆发后，我住进了整座山姆。",
+      "characters": 13,
+      "start_frame": 0,
+      "end_frame_exclusive": 78,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 0.0,
+      "source_end": 2.6,
+      "output_start_frame": 0,
+      "output_end_frame_exclusive": 58
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "昨天，我还在这里搬货。",
+      "characters": 9,
+      "start_frame": 78,
+      "end_frame_exclusive": 132,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 2.6,
+      "source_end": 4.4,
+      "output_start_frame": 58,
+      "output_end_frame_exclusive": 102
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "今天，货架上的东西，我随便拿。",
+      "characters": 12,
+      "start_frame": 132,
+      "end_frame_exclusive": 204,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 4.4,
+      "source_end": 6.8,
+      "output_start_frame": 102,
+      "output_end_frame_exclusive": 167
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "事情得从昨晚说起。",
+      "characters": 8,
+      "start_frame": 204,
+      "end_frame_exclusive": 252,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 6.8,
+      "source_end": 8.4,
+      "output_start_frame": 167,
+      "output_end_frame_exclusive": 207
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "闭店后，同事们突然往外跑。",
+      "characters": 11,
+      "start_frame": 252,
+      "end_frame_exclusive": 318,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 8.4,
+      "source_end": 10.6,
+      "output_start_frame": 207,
+      "output_end_frame_exclusive": 260
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "我追到监控前，看见停车场里有人扑倒了店长。",
+      "characters": 19,
+      "start_frame": 318,
+      "end_frame_exclusive": 432,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 10.6,
+      "source_end": 14.4,
+      "output_start_frame": 260,
+      "output_end_frame_exclusive": 338
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我立刻关下卸货区的卷帘门。",
+      "characters": 12,
+      "start_frame": 432,
+      "end_frame_exclusive": 504,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 14.4,
+      "source_end": 16.8,
+      "output_start_frame": 338,
+      "output_end_frame_exclusive": 387
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "在监控室里，躲了一夜。",
+      "characters": 9,
+      "start_frame": 504,
+      "end_frame_exclusive": 558,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 16.8,
+      "source_end": 18.6,
+      "output_start_frame": 387,
+      "output_end_frame_exclusive": 432
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "天亮，外面还在砸门。",
+      "characters": 8,
+      "start_frame": 558,
+      "end_frame_exclusive": 606,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 18.6,
+      "source_end": 20.2,
+      "output_start_frame": 432,
+      "output_end_frame_exclusive": 476
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "我身后却是整排饮用水、成箱罐头。",
+      "characters": 14,
+      "start_frame": 606,
+      "end_frame_exclusive": 690,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 20.2,
+      "source_end": 23.0,
+      "output_start_frame": 476,
+      "output_end_frame_exclusive": 538
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "冷库还在运转。",
+      "characters": 6,
+      "start_frame": 690,
+      "end_frame_exclusive": 726,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 23.0,
+      "source_end": 24.2,
+      "output_start_frame": 538,
+      "output_end_frame_exclusive": 564
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "以前舍不得买的牛肉干和坚果，我装了满满一车。",
+      "characters": 20,
+      "start_frame": 726,
+      "end_frame_exclusive": 846,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 24.2,
+      "source_end": 28.2,
+      "output_start_frame": 564,
+      "output_end_frame_exclusive": 639
+    },
+    {
+      "index": 13,
+      "segment": 3,
+      "text": "第一次，没看价签。",
+      "characters": 7,
+      "start_frame": 846,
+      "end_frame_exclusive": 888,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 28.2,
+      "source_end": 29.6,
+      "output_start_frame": 639,
+      "output_end_frame_exclusive": 679
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "我把露营床搬进监控室，铺好被子。",
+      "characters": 14,
+      "start_frame": 888,
+      "end_frame_exclusive": 972,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 29.6,
+      "source_end": 32.4,
+      "output_start_frame": 679,
+      "output_end_frame_exclusive": 747
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "刚坐下，卸货门外就多了一个人。",
+      "characters": 13,
+      "start_frame": 972,
+      "end_frame_exclusive": 1050,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 32.4,
+      "source_end": 35.0,
+      "output_start_frame": 747,
+      "output_end_frame_exclusive": 808
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "我放大画面。",
+      "characters": 5,
+      "start_frame": 1050,
+      "end_frame_exclusive": 1080,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 35.0,
+      "source_end": 36.0,
+      "output_start_frame": 808,
+      "output_end_frame_exclusive": 833
+    },
+    {
+      "index": 17,
+      "segment": 4,
+      "text": "是店长。",
+      "characters": 3,
+      "start_frame": 1080,
+      "end_frame_exclusive": 1098,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 36.0,
+      "source_end": 36.6,
+      "output_start_frame": 833,
+      "output_end_frame_exclusive": 846
+    },
+    {
+      "index": 18,
+      "segment": 4,
+      "text": "他手里，攥着备用钥匙。",
+      "characters": 9,
+      "start_frame": 1098,
+      "end_frame_exclusive": 1152,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 1,
+      "source_start": 36.6,
+      "source_end": 38.4,
+      "output_start_frame": 846,
+      "output_end_frame_exclusive": 890
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "店长回来了，手里还拿着备用钥匙。",
+      "characters": 14,
+      "start_frame": 0,
+      "end_frame_exclusive": 84,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 38.4,
+      "source_end": 41.199999999999996,
+      "output_start_frame": 890,
+      "output_end_frame_exclusive": 952
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "我刚想开门，忽然看见他一直捂着胳膊。",
+      "characters": 16,
+      "start_frame": 84,
+      "end_frame_exclusive": 180,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 41.199999999999996,
+      "source_end": 44.4,
+      "output_start_frame": 952,
+      "output_end_frame_exclusive": 1016
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "我隔着对讲机，让他把袖子卷起来。",
+      "characters": 14,
+      "start_frame": 180,
+      "end_frame_exclusive": 264,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 44.4,
+      "source_end": 47.2,
+      "output_start_frame": 1016,
+      "output_end_frame_exclusive": 1069
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "他没有动。",
+      "characters": 4,
+      "start_frame": 264,
+      "end_frame_exclusive": 288,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 47.2,
+      "source_end": 48.0,
+      "output_start_frame": 1069,
+      "output_end_frame_exclusive": 1088
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "他说只是摔了一跤，还让我别忘了谁给我发工资。",
+      "characters": 20,
+      "start_frame": 288,
+      "end_frame_exclusive": 408,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 48.0,
+      "source_end": 52.0,
+      "output_start_frame": 1088,
+      "output_end_frame_exclusive": 1162
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "可他一抬手，袖口滑下去了。",
+      "characters": 11,
+      "start_frame": 408,
+      "end_frame_exclusive": 474,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 52.0,
+      "source_end": 54.2,
+      "output_start_frame": 1162,
+      "output_end_frame_exclusive": 1213
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "小臂上，清清楚楚一圈牙印。",
+      "characters": 11,
+      "start_frame": 474,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 54.2,
+      "source_end": 56.4,
+      "output_start_frame": 1213,
+      "output_end_frame_exclusive": 1269
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "我把手从按钮上拿开。",
+      "characters": 9,
+      "start_frame": 540,
+      "end_frame_exclusive": 594,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 56.4,
+      "source_end": 58.2,
+      "output_start_frame": 1269,
+      "output_end_frame_exclusive": 1302
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我先扣死了门内的插销。",
+      "characters": 10,
+      "start_frame": 594,
+      "end_frame_exclusive": 654,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 58.2,
+      "source_end": 60.2,
+      "output_start_frame": 1302,
+      "output_end_frame_exclusive": 1336
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "钥匙能打开外锁，却抽不开里面这道闩。",
+      "characters": 16,
+      "start_frame": 654,
+      "end_frame_exclusive": 750,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 60.2,
+      "source_end": 63.4,
+      "output_start_frame": 1336,
+      "output_end_frame_exclusive": 1404
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "他骂了我很久。",
+      "characters": 6,
+      "start_frame": 750,
+      "end_frame_exclusive": 786,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 63.4,
+      "source_end": 64.6,
+      "output_start_frame": 1404,
+      "output_end_frame_exclusive": 1427
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "我坐在监控前，始终没碰开门键。",
+      "characters": 13,
+      "start_frame": 786,
+      "end_frame_exclusive": 864,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 64.6,
+      "source_end": 67.2,
+      "output_start_frame": 1427,
+      "output_end_frame_exclusive": 1488
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "后来，骂声停了。",
+      "characters": 6,
+      "start_frame": 864,
+      "end_frame_exclusive": 900,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 67.2,
+      "source_end": 68.4,
+      "output_start_frame": 1488,
+      "output_end_frame_exclusive": 1521
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "他不再抬头看摄像头，开始用额头一下一下撞门。",
+      "characters": 20,
+      "start_frame": 900,
+      "end_frame_exclusive": 1020,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 68.4,
+      "source_end": 72.4,
+      "output_start_frame": 1521,
+      "output_end_frame_exclusive": 1610
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "那一刻，我后背全是冷汗。",
+      "characters": 10,
+      "start_frame": 1020,
+      "end_frame_exclusive": 1080,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 72.4,
+      "source_end": 74.4,
+      "output_start_frame": 1610,
+      "output_end_frame_exclusive": 1662
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "刚才只要再快一点，我就把他放进来了。",
+      "characters": 16,
+      "start_frame": 1080,
+      "end_frame_exclusive": 1176,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 2,
+      "source_start": 74.4,
+      "source_end": 77.6,
+      "output_start_frame": 1662,
+      "output_end_frame_exclusive": 1722
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "下午，店长不在门口了。",
+      "characters": 9,
+      "start_frame": 0,
+      "end_frame_exclusive": 54,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 77.6,
+      "source_end": 79.39999999999999,
+      "output_start_frame": 1722,
+      "output_end_frame_exclusive": 1765
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "我才敢推着车去盘点物资。",
+      "characters": 11,
+      "start_frame": 54,
+      "end_frame_exclusive": 120,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 79.39999999999999,
+      "source_end": 81.6,
+      "output_start_frame": 1765,
+      "output_end_frame_exclusive": 1812
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "整家山姆一天清不完，我先记监控室附近的两排货架。",
+      "characters": 22,
+      "start_frame": 120,
+      "end_frame_exclusive": 252,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 81.6,
+      "source_end": 86.0,
+      "output_start_frame": 1812,
+      "output_end_frame_exclusive": 1903
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "瓶装水，十八箱。",
+      "characters": 6,
+      "start_frame": 252,
+      "end_frame_exclusive": 288,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 86.0,
+      "source_end": 87.19999999999999,
+      "output_start_frame": 1903,
+      "output_end_frame_exclusive": 1933
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "罐头十二箱，大米十二袋，每袋十公斤。",
+      "characters": 15,
+      "start_frame": 288,
+      "end_frame_exclusive": 378,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 87.19999999999999,
+      "source_end": 90.19999999999999,
+      "output_start_frame": 1933,
+      "output_end_frame_exclusive": 1986
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "泡面八箱，肉干六箱，坚果四箱。",
+      "characters": 12,
+      "start_frame": 378,
+      "end_frame_exclusive": 450,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 90.19999999999999,
+      "source_end": 92.6,
+      "output_start_frame": 1986,
+      "output_end_frame_exclusive": 2055
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "后面的货架，还一眼望不到头。",
+      "characters": 12,
+      "start_frame": 450,
+      "end_frame_exclusive": 522,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 92.6,
+      "source_end": 95.0,
+      "output_start_frame": 2055,
+      "output_end_frame_exclusive": 2108
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "我以前只知道搬货累，现在看什么都亲切。",
+      "characters": 17,
+      "start_frame": 522,
+      "end_frame_exclusive": 624,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 95.0,
+      "source_end": 98.39999999999999,
+      "output_start_frame": 2108,
+      "output_end_frame_exclusive": 2176
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我又找了床、被子、手电和电池。",
+      "characters": 12,
+      "start_frame": 624,
+      "end_frame_exclusive": 696,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 98.39999999999999,
+      "source_end": 100.8,
+      "output_start_frame": 2176,
+      "output_end_frame_exclusive": 2244
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "最贵的牛排还在冷库，面包却快到期了。",
+      "characters": 16,
+      "start_frame": 696,
+      "end_frame_exclusive": 792,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 100.8,
+      "source_end": 104.0,
+      "output_start_frame": 2244,
+      "output_end_frame_exclusive": 2312
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我把本子上的价格划掉，改成了保质期。",
+      "characters": 16,
+      "start_frame": 792,
+      "end_frame_exclusive": 888,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 104.0,
+      "source_end": 107.19999999999999,
+      "output_start_frame": 2312,
+      "output_end_frame_exclusive": 2348
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "今晚，先吃面包。",
+      "characters": 6,
+      "start_frame": 888,
+      "end_frame_exclusive": 924,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 107.19999999999999,
+      "source_end": 108.39999999999999,
+      "output_start_frame": 2348,
+      "output_end_frame_exclusive": 2379
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "我抱着面包回监控室，画面里突然有东西动了。",
+      "characters": 19,
+      "start_frame": 924,
+      "end_frame_exclusive": 1038,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 108.39999999999999,
+      "source_end": 112.19999999999999,
+      "output_start_frame": 2379,
+      "output_end_frame_exclusive": 2461
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "卸货区那辆白色面包车，车门开了。",
+      "characters": 14,
+      "start_frame": 1038,
+      "end_frame_exclusive": 1122,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 112.19999999999999,
+      "source_end": 115.0,
+      "output_start_frame": 2461,
+      "output_end_frame_exclusive": 2523
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "一个女人举着空水瓶，朝摄像头招手。",
+      "characters": 15,
+      "start_frame": 1122,
+      "end_frame_exclusive": 1212,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 115.0,
+      "source_end": 118.0,
+      "output_start_frame": 2523,
+      "output_end_frame_exclusive": 2592
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "那辆车，昨晚就停在那里。",
+      "characters": 10,
+      "start_frame": 1212,
+      "end_frame_exclusive": 1272,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 3,
+      "source_start": 118.0,
+      "source_end": 120.0,
+      "output_start_frame": 2592,
+      "output_end_frame_exclusive": 2639
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "我没有开门，让她先站远一点。",
+      "characters": 12,
+      "start_frame": 0,
+      "end_frame_exclusive": 72,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 120.0,
+      "source_end": 122.4,
+      "output_start_frame": 2639,
+      "output_end_frame_exclusive": 2685
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "她叫许棠，是来修冷库的。",
+      "characters": 10,
+      "start_frame": 72,
+      "end_frame_exclusive": 132,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 122.4,
+      "source_end": 124.4,
+      "output_start_frame": 2685,
+      "output_end_frame_exclusive": 2730
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "昨晚取工具时外面出了事，她躲回维修车，没敢下来。",
+      "characters": 21,
+      "start_frame": 132,
+      "end_frame_exclusive": 258,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 124.4,
+      "source_end": 128.6,
+      "output_start_frame": 2730,
+      "output_end_frame_exclusive": 2829
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "她举起的工单，和店里的记录对得上。",
+      "characters": 15,
+      "start_frame": 258,
+      "end_frame_exclusive": 348,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 128.6,
+      "source_end": 131.6,
+      "output_start_frame": 2829,
+      "output_end_frame_exclusive": 2886
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "我正想问她有没有受伤，冷库先报警了。",
+      "characters": 16,
+      "start_frame": 348,
+      "end_frame_exclusive": 444,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 131.6,
+      "source_end": 134.8,
+      "output_start_frame": 2886,
+      "output_end_frame_exclusive": 2950
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "她听见动静，让我看装卸区的外机。",
+      "characters": 14,
+      "start_frame": 444,
+      "end_frame_exclusive": 528,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 134.8,
+      "source_end": 137.6,
+      "output_start_frame": 2950,
+      "output_end_frame_exclusive": 3015
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "散热口前，倒着一堆纸箱。",
+      "characters": 10,
+      "start_frame": 528,
+      "end_frame_exclusive": 588,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 137.6,
+      "source_end": 139.6,
+      "output_start_frame": 3015,
+      "output_end_frame_exclusive": 3068
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "她放下工具包，先把纸箱挪开了。",
+      "characters": 13,
+      "start_frame": 588,
+      "end_frame_exclusive": 666,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 139.6,
+      "source_end": 142.2,
+      "output_start_frame": 3068,
+      "output_end_frame_exclusive": 3123
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我照着她的说明，看温控屏上的变化。",
+      "characters": 15,
+      "start_frame": 666,
+      "end_frame_exclusive": 756,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 142.2,
+      "source_end": 145.2,
+      "output_start_frame": 3123,
+      "output_end_frame_exclusive": 3182
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "十几分钟后，报警灯才熄了。",
+      "characters": 11,
+      "start_frame": 756,
+      "end_frame_exclusive": 822,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 145.2,
+      "source_end": 147.4,
+      "output_start_frame": 3182,
+      "output_end_frame_exclusive": 3234
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "她确实懂这套设备。",
+      "characters": 8,
+      "start_frame": 822,
+      "end_frame_exclusive": 870,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 147.4,
+      "source_end": 149.0,
+      "output_start_frame": 3234,
+      "output_end_frame_exclusive": 3271
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "可我还是没有立刻打开卖场的门。",
+      "characters": 14,
+      "start_frame": 870,
+      "end_frame_exclusive": 954,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 149.0,
+      "source_end": 151.8,
+      "output_start_frame": 3271,
+      "output_end_frame_exclusive": 3309
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "她看见我犹豫，指了指两道门之间的收货间。",
+      "characters": 18,
+      "start_frame": 954,
+      "end_frame_exclusive": 1062,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 151.8,
+      "source_end": 155.4,
+      "output_start_frame": 3309,
+      "output_end_frame_exclusive": 3375
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "她说，先让她待在那里，水和吃的放进去就行。",
+      "characters": 18,
+      "start_frame": 1062,
+      "end_frame_exclusive": 1170,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 155.4,
+      "source_end": 159.0,
+      "output_start_frame": 3375,
+      "output_end_frame_exclusive": 3456
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "等我愿意相信她，再开里面那道门。",
+      "characters": 14,
+      "start_frame": 1170,
+      "end_frame_exclusive": 1254,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 159.0,
+      "source_end": 161.8,
+      "output_start_frame": 3456,
+      "output_end_frame_exclusive": 3509
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "她连床都没要。",
+      "characters": 6,
+      "start_frame": 1254,
+      "end_frame_exclusive": 1290,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 4,
+      "source_start": 161.8,
+      "source_end": 163.0,
+      "output_start_frame": 3509,
+      "output_end_frame_exclusive": 3537
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "我把水、面包、被子和便携厕所放进收货间。",
+      "characters": 17,
+      "start_frame": 0,
+      "end_frame_exclusive": 102,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 163.0,
+      "source_end": 166.4,
+      "output_start_frame": 3537,
+      "output_end_frame_exclusive": 3627
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "关好内门，才让她从外面进来。",
+      "characters": 12,
+      "start_frame": 102,
+      "end_frame_exclusive": 174,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 166.4,
+      "source_end": 168.8,
+      "output_start_frame": 3627,
+      "output_end_frame_exclusive": 3678
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "她主动留在那里观察。",
+      "characters": 9,
+      "start_frame": 174,
+      "end_frame_exclusive": 228,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 168.8,
+      "source_end": 170.6,
+      "output_start_frame": 3678,
+      "output_end_frame_exclusive": 3709
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "我们之间，隔着一道带玻璃的门。",
+      "characters": 13,
+      "start_frame": 228,
+      "end_frame_exclusive": 306,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 170.6,
+      "source_end": 173.2,
+      "output_start_frame": 3709,
+      "output_end_frame_exclusive": 3754
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "晚上，我把盘好的物资清单贴给她看。",
+      "characters": 15,
+      "start_frame": 306,
+      "end_frame_exclusive": 396,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 173.2,
+      "source_end": 176.2,
+      "output_start_frame": 3754,
+      "output_end_frame_exclusive": 3818
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "她看完，把纸巾、垃圾袋和备用照明补了上去。",
+      "characters": 18,
+      "start_frame": 396,
+      "end_frame_exclusive": 504,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 176.2,
+      "source_end": 179.8,
+      "output_start_frame": 3818,
+      "output_end_frame_exclusive": 3901
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我惦记着能吃什么。",
+      "characters": 8,
+      "start_frame": 504,
+      "end_frame_exclusive": 552,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 179.8,
+      "source_end": 181.4,
+      "output_start_frame": 3901,
+      "output_end_frame_exclusive": 3930
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "她惦记着，吃完以后怎么过日子。",
+      "characters": 13,
+      "start_frame": 552,
+      "end_frame_exclusive": 630,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 181.4,
+      "source_end": 184.0,
+      "output_start_frame": 3930,
+      "output_end_frame_exclusive": 3981
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我熟悉货架，她熟悉设备。",
+      "characters": 10,
+      "start_frame": 630,
+      "end_frame_exclusive": 690,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 184.0,
+      "source_end": 186.0,
+      "output_start_frame": 3981,
+      "output_end_frame_exclusive": 4030
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "我把安全区和通道标给她，她给我圈出了冷库和备用电的位置。",
+      "characters": 26,
+      "start_frame": 690,
+      "end_frame_exclusive": 846,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 186.0,
+      "source_end": 191.2,
+      "output_start_frame": 4030,
+      "output_end_frame_exclusive": 4130
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "整整一夜，我们都没怎么睡。",
+      "characters": 11,
+      "start_frame": 846,
+      "end_frame_exclusive": 912,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 191.2,
+      "source_end": 193.4,
+      "output_start_frame": 4130,
+      "output_end_frame_exclusive": 4184
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "那道门，却谁也没催着打开。",
+      "characters": 11,
+      "start_frame": 912,
+      "end_frame_exclusive": 978,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 193.4,
+      "source_end": 195.6,
+      "output_start_frame": 4184,
+      "output_end_frame_exclusive": 4236
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "天亮时，我在椅子上睡醒了。",
+      "characters": 11,
+      "start_frame": 978,
+      "end_frame_exclusive": 1044,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 195.6,
+      "source_end": 197.8,
+      "output_start_frame": 4236,
+      "output_end_frame_exclusive": 4286
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "隔着玻璃，她也靠着墙睡着了，工具包还抱在怀里。",
+      "characters": 20,
+      "start_frame": 1044,
+      "end_frame_exclusive": 1164,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 197.8,
+      "source_end": 201.8,
+      "output_start_frame": 4286,
+      "output_end_frame_exclusive": 4379
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "我轻轻敲了一下窗。",
+      "characters": 8,
+      "start_frame": 1164,
+      "end_frame_exclusive": 1212,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 201.8,
+      "source_end": 203.4,
+      "output_start_frame": 4379,
+      "output_end_frame_exclusive": 4412
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "她睁开眼，我忽然觉得，今天没那么难熬了。",
+      "characters": 17,
+      "start_frame": 1212,
+      "end_frame_exclusive": 1314,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 5,
+      "source_start": 203.4,
+      "source_end": 206.8,
+      "output_start_frame": 4412,
+      "output_end_frame_exclusive": 4489
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "第二天傍晚，她在收货间待满了一天。",
+      "characters": 15,
+      "start_frame": 0,
+      "end_frame_exclusive": 90,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 206.8,
+      "source_end": 209.8,
+      "output_start_frame": 4489,
+      "output_end_frame_exclusive": 4552
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "没有发现咬伤，精神也一直清醒。",
+      "characters": 13,
+      "start_frame": 90,
+      "end_frame_exclusive": 168,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 209.8,
+      "source_end": 212.4,
+      "output_start_frame": 4552,
+      "output_end_frame_exclusive": 4611
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "我们再次核对完昨晚的经过，我打开了内门。",
+      "characters": 18,
+      "start_frame": 168,
+      "end_frame_exclusive": 276,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 212.4,
+      "source_end": 216.0,
+      "output_start_frame": 4611,
+      "output_end_frame_exclusive": 4677
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "她进来后，先把空水瓶放进了回收袋。",
+      "characters": 15,
+      "start_frame": 276,
+      "end_frame_exclusive": 366,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 216.0,
+      "source_end": 219.0,
+      "output_start_frame": 4677,
+      "output_end_frame_exclusive": 4745
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "我挑了两块快到期的牛排，又洗了一大碗草莓。",
+      "characters": 19,
+      "start_frame": 366,
+      "end_frame_exclusive": 480,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 219.0,
+      "source_end": 222.8,
+      "output_start_frame": 4745,
+      "output_end_frame_exclusive": 4814
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "她看着锅，问我会不会煎。",
+      "characters": 10,
+      "start_frame": 480,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 222.8,
+      "source_end": 224.8,
+      "output_start_frame": 4814,
+      "output_end_frame_exclusive": 4863
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我说，包装上写着。",
+      "characters": 7,
+      "start_frame": 540,
+      "end_frame_exclusive": 582,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 224.8,
+      "source_end": 226.20000000000002,
+      "output_start_frame": 4863,
+      "output_end_frame_exclusive": 4901
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "她接过夹子，把快糊的那块翻了个面。",
+      "characters": 15,
+      "start_frame": 582,
+      "end_frame_exclusive": 672,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 226.20000000000002,
+      "source_end": 229.20000000000002,
+      "output_start_frame": 4901,
+      "output_end_frame_exclusive": 4964
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "这是出事后，我第一次和人坐着吃饭。",
+      "characters": 15,
+      "start_frame": 672,
+      "end_frame_exclusive": 762,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 229.20000000000002,
+      "source_end": 232.20000000000002,
+      "output_start_frame": 4964,
+      "output_end_frame_exclusive": 5018
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "她问我，明天想做什么。",
+      "characters": 9,
+      "start_frame": 762,
+      "end_frame_exclusive": 816,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 232.20000000000002,
+      "source_end": 234.0,
+      "output_start_frame": 5018,
+      "output_end_frame_exclusive": 5060
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我说，把旁边的休息室收拾出来，再把剩下的货架清一遍。",
+      "characters": 23,
+      "start_frame": 816,
+      "end_frame_exclusive": 954,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 234.0,
+      "source_end": 238.60000000000002,
+      "output_start_frame": 5060,
+      "output_end_frame_exclusive": 5150
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "她点点头，说设备归她。",
+      "characters": 9,
+      "start_frame": 954,
+      "end_frame_exclusive": 1008,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 238.60000000000002,
+      "source_end": 240.4,
+      "output_start_frame": 5150,
+      "output_end_frame_exclusive": 5199
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "吃完，我把监控室的备用钥匙放在她碗边。",
+      "characters": 17,
+      "start_frame": 1008,
+      "end_frame_exclusive": 1110,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 240.4,
+      "source_end": 243.8,
+      "output_start_frame": 5199,
+      "output_end_frame_exclusive": 5270
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "她没急着拿，先看了我一眼。",
+      "characters": 11,
+      "start_frame": 1110,
+      "end_frame_exclusive": 1176,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 243.8,
+      "source_end": 246.0,
+      "output_start_frame": 5270,
+      "output_end_frame_exclusive": 5317
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "我说，今晚我值前半夜，后半夜换你。",
+      "characters": 14,
+      "start_frame": 1176,
+      "end_frame_exclusive": 1260,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 246.0,
+      "source_end": 248.8,
+      "output_start_frame": 5317,
+      "output_end_frame_exclusive": 5386
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "她这才收起钥匙，把最后一块牛角包分给了我。",
+      "characters": 19,
+      "start_frame": 1260,
+      "end_frame_exclusive": 1374,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 6,
+      "source_start": 248.8,
+      "source_end": 252.60000000000002,
+      "output_start_frame": 5386,
+      "output_end_frame_exclusive": 5458
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "第三天，我负责盘货、搬东西，许棠负责查设备。",
+      "characters": 18,
+      "start_frame": 0,
+      "end_frame_exclusive": 108,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 252.60000000000002,
+      "source_end": 256.20000000000005,
+      "output_start_frame": 5458,
+      "output_end_frame_exclusive": 5556
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "监控室旁边的休息室，被我们收拾了出来。",
+      "characters": 17,
+      "start_frame": 108,
+      "end_frame_exclusive": 210,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 256.20000000000005,
+      "source_end": 259.6,
+      "output_start_frame": 5556,
+      "output_end_frame_exclusive": 5619
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "她有了自己的床。",
+      "characters": 7,
+      "start_frame": 210,
+      "end_frame_exclusive": 252,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 259.6,
+      "source_end": 261.0,
+      "output_start_frame": 5619,
+      "output_end_frame_exclusive": 5648
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "我的被子，也终于不用总铺在椅子上。",
+      "characters": 15,
+      "start_frame": 252,
+      "end_frame_exclusive": 342,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 261.0,
+      "source_end": 264.0,
+      "output_start_frame": 5648,
+      "output_end_frame_exclusive": 5712
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "水和清洁用品分开，常温粮和临期食品分开。",
+      "characters": 18,
+      "start_frame": 342,
+      "end_frame_exclusive": 450,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 264.0,
+      "source_end": 267.6,
+      "output_start_frame": 5712,
+      "output_end_frame_exclusive": 5794
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "吃剩的包装及时收走，通道一直留空。",
+      "characters": 15,
+      "start_frame": 450,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 267.6,
+      "source_end": 270.6,
+      "output_start_frame": 5794,
+      "output_end_frame_exclusive": 5862
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我们还清出了备用电的设备间。",
+      "characters": 13,
+      "start_frame": 540,
+      "end_frame_exclusive": 618,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 270.6,
+      "source_end": 273.20000000000005,
+      "output_start_frame": 5862,
+      "output_end_frame_exclusive": 5906
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "油箱里有油，但能撑多久，得看我们怎么用。",
+      "characters": 17,
+      "start_frame": 618,
+      "end_frame_exclusive": 720,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 273.20000000000005,
+      "source_end": 276.6,
+      "output_start_frame": 5906,
+      "output_end_frame_exclusive": 5981
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "每天晚上，我们先定第二天吃什么，再定第二天做什么。",
+      "characters": 22,
+      "start_frame": 720,
+      "end_frame_exclusive": 852,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 276.6,
+      "source_end": 281.0,
+      "output_start_frame": 5981,
+      "output_end_frame_exclusive": 6065
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "她喝热牛奶不放糖。",
+      "characters": 8,
+      "start_frame": 852,
+      "end_frame_exclusive": 900,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 281.0,
+      "source_end": 282.6,
+      "output_start_frame": 6065,
+      "output_end_frame_exclusive": 6091
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我总想多拿一袋肉干。",
+      "characters": 9,
+      "start_frame": 900,
+      "end_frame_exclusive": 954,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 282.6,
+      "source_end": 284.40000000000003,
+      "output_start_frame": 6091,
+      "output_end_frame_exclusive": 6125
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "她不拦我，只让我吃完记得在清单上减掉。",
+      "characters": 17,
+      "start_frame": 954,
+      "end_frame_exclusive": 1056,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 284.40000000000003,
+      "source_end": 287.8,
+      "output_start_frame": 6125,
+      "output_end_frame_exclusive": 6187
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "半夜交班，她把温好的牛奶放在了桌上。",
+      "characters": 16,
+      "start_frame": 1056,
+      "end_frame_exclusive": 1152,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 287.8,
+      "source_end": 291.0,
+      "output_start_frame": 6187,
+      "output_end_frame_exclusive": 6238
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "我第一次放心地关上休息室的门。",
+      "characters": 14,
+      "start_frame": 1152,
+      "end_frame_exclusive": 1236,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 291.0,
+      "source_end": 293.8,
+      "output_start_frame": 6238,
+      "output_end_frame_exclusive": 6281
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "外面仍然有丧尸。",
+      "characters": 7,
+      "start_frame": 1236,
+      "end_frame_exclusive": 1278,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 293.8,
+      "source_end": 295.20000000000005,
+      "output_start_frame": 6281,
+      "output_end_frame_exclusive": 6317
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "可我睡着的时候，终于有人替我看着那扇门了。",
+      "characters": 19,
+      "start_frame": 1278,
+      "end_frame_exclusive": 1392,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 7,
+      "source_start": 295.20000000000005,
+      "source_end": 299.0,
+      "output_start_frame": 6317,
+      "output_end_frame_exclusive": 6390
+    },
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "第四天晚上，整座山姆突然黑了。",
+      "characters": 13,
+      "start_frame": 0,
+      "end_frame_exclusive": 78,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 299.0,
+      "source_end": 301.6,
+      "output_start_frame": 6390,
+      "output_end_frame_exclusive": 6449
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "我第一反应是冷库。",
+      "characters": 8,
+      "start_frame": 78,
+      "end_frame_exclusive": 126,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 301.6,
+      "source_end": 303.2,
+      "output_start_frame": 6449,
+      "output_end_frame_exclusive": 6482
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "许棠已经戴上头灯，先让我别开冷库门。",
+      "characters": 16,
+      "start_frame": 126,
+      "end_frame_exclusive": 222,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 303.2,
+      "source_end": 306.4,
+      "output_start_frame": 6482,
+      "output_end_frame_exclusive": 6551
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "窗外，整条街的灯也灭了。",
+      "characters": 10,
+      "start_frame": 222,
+      "end_frame_exclusive": 282,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 306.4,
+      "source_end": 308.4,
+      "output_start_frame": 6551,
+      "output_end_frame_exclusive": 6598
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "我们按事先列好的清单，保留监控、通信和一间冷库。",
+      "characters": 21,
+      "start_frame": 282,
+      "end_frame_exclusive": 408,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 308.4,
+      "source_end": 312.6,
+      "output_start_frame": 6598,
+      "output_end_frame_exclusive": 6692
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "备用发电机启动了。",
+      "characters": 8,
+      "start_frame": 408,
+      "end_frame_exclusive": 456,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 312.6,
+      "source_end": 314.2,
+      "output_start_frame": 6692,
+      "output_end_frame_exclusive": 6724
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "灯重新亮起来时，我刚松了一口气。",
+      "characters": 14,
+      "start_frame": 456,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 314.2,
+      "source_end": 317.0,
+      "output_start_frame": 6724,
+      "output_end_frame_exclusive": 6785
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "许棠却让我去看停车场。",
+      "characters": 10,
+      "start_frame": 540,
+      "end_frame_exclusive": 600,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 317.0,
+      "source_end": 319.0,
+      "output_start_frame": 6785,
+      "output_end_frame_exclusive": 6819
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "刚才还散着的人影，正往设备间这边走。",
+      "characters": 16,
+      "start_frame": 600,
+      "end_frame_exclusive": 696,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 319.0,
+      "source_end": 322.2,
+      "output_start_frame": 6819,
+      "output_end_frame_exclusive": 6886
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "城市安静下来以后，机器的声音传得格外远。",
+      "characters": 18,
+      "start_frame": 696,
+      "end_frame_exclusive": 804,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 322.2,
+      "source_end": 325.8,
+      "output_start_frame": 6886,
+      "output_end_frame_exclusive": 6960
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我们有吃的，有水，也有油。",
+      "characters": 10,
+      "start_frame": 804,
+      "end_frame_exclusive": 864,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 325.8,
+      "source_end": 327.8,
+      "output_start_frame": 6960,
+      "output_end_frame_exclusive": 7013
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "可每用一会儿电，门外就多几张脸。",
+      "characters": 14,
+      "start_frame": 864,
+      "end_frame_exclusive": 948,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 327.8,
+      "source_end": 330.6,
+      "output_start_frame": 7013,
+      "output_end_frame_exclusive": 7069
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "我把用电清单摊在桌上，许棠把冷库记录放到旁边。",
+      "characters": 21,
+      "start_frame": 948,
+      "end_frame_exclusive": 1074,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 330.6,
+      "source_end": 334.8,
+      "output_start_frame": 7069,
+      "output_end_frame_exclusive": 7160
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "我们得重新安排机器的运行，既省油，也少暴露自己。",
+      "characters": 21,
+      "start_frame": 1074,
+      "end_frame_exclusive": 1200,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 334.8,
+      "source_end": 339.0,
+      "output_start_frame": 7160,
+      "output_end_frame_exclusive": 7250
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "我抬头看监控。",
+      "characters": 6,
+      "start_frame": 1200,
+      "end_frame_exclusive": 1236,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 339.0,
+      "source_end": 340.2,
+      "output_start_frame": 7250,
+      "output_end_frame_exclusive": 7272
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "停车场最远处，又有一片人影转向了我们。",
+      "characters": 17,
+      "start_frame": 1236,
+      "end_frame_exclusive": 1338,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned",
+      "episode": 8,
+      "source_start": 340.2,
+      "source_end": 343.6,
+      "output_start_frame": 7272,
+      "output_end_frame_exclusive": 7343
+    }
+  ]
+}

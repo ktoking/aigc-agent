@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "actual_encoded_contact_pages_reviewed": [
+    "contact-01.jpg",
+    "contact-04.jpg",
+    "contact-06.jpg"
+  ],
+  "encoded_transition_sequences_reviewed": [
+    "transition-01.jpg",
+    "transition-02.jpg",
+    "transition-03.jpg"
+  ],
+  "picture_has_no_burned_captions_in_reviewed_samples": true,
+  "source": "v5 clean original images; v6 renderer contains no text drawing",
+  "transition_review": "3-frame blend then stable incoming picture; no extra black or waiting frames",
+  "full_normal_speed_human_watch": "NOT_RUN"
+}

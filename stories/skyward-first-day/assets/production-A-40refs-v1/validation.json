@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-28",
+  "status": "PASS",
+  "delivered_files": 40,
+  "unique_source_images": 36,
+  "new_accepted_images": 33,
+  "reused_existing_character_sources": 3,
+  "segments": [
+    {
+      "segment": "segment_01_00-30s",
+      "count": 10,
+      "unique_within_segment": 10,
+      "inputs_match_prompt": true
+    },
+    {
+      "segment": "segment_02_30-60s",
+      "count": 10,
+      "unique_within_segment": 10,
+      "inputs_match_prompt": true
+    },
+    {
+      "segment": "segment_03_60-90s",
+      "count": 10,
+      "unique_within_segment": 10,
+      "inputs_match_prompt": true
+    },
+    {
+      "segment": "segment_04_90-120s",
+      "count": 10,
+      "unique_within_segment": 10,
+      "inputs_match_prompt": true
+    }
+  ],
+  "checks": [
+    "四段frames各恰好10张真实PNG，共40个文件；同段无相同SHA256凑数",
+    "40张PNG签名、各块CRC与IDAT解压均通过，源图与分段副本SHA256一致",
+    "四份导演词的参考图1—10与manifest实际文件顺序完全一致，prompt.md和总合集同步",
+    "10图用途覆盖全部35个SH镜头，120秒/3600帧与70子节拍结构保持",
+    "HTML总览40个图片路径与Markdown入口链接均存在",
+    "便携ZIP包含40张PNG，CRC测试通过，可离线解压查看"
+  ],
+  "zip": "episodes/EP001_first-day/delivery/EP001_A_4x30s_10refs.zip",
+  "zip_bytes": 75885165,
+  "video_generation": "NOT_RUN",
+  "audio_generation": "NOT_RUN",
+  "scope": "图片准备、用途目视复核与文件完整性；非连续视频动作验收"
+}

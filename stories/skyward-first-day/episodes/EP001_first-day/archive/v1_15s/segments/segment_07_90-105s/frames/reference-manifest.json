@@ -1,0 +1,36 @@
+{
+  "version": "v1",
+  "segment": "segment_07_90-105s",
+  "status": "planned_missing",
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "purpose": "本段0秒起始构图和角色道具初始状态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "purpose": "本段15秒结束状态与下一段衔接；不是要求整段从首帧直接变形到尾帧",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-history-world.png",
+      "purpose": "机械环门、悬浮动力核心、早期浮空城、金色指令链的3D动漫历史影像风格",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-classroom-hologram.png",
+      "purpose": "全息底座和投影边界，历史段仍在课堂；边界不能消失成真人历史片",
+      "status": "missing",
+      "generated": false
+    }
+  ],
+  "note": "当前无真实图像。仅在真实文件生成并核对用途后修改状态；故事板表格不上传。"
+}

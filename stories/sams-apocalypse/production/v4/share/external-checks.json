@@ -1,0 +1,38 @@
+{
+  "url": "https://poor-casio-centuries-repository.trycloudflare.com",
+  "checks": [
+    {
+      "file": "index",
+      "status": 200,
+      "bytes": 3251
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v4.zh-CN.srt",
+      "status": 200,
+      "bytes": 10484
+    },
+    {
+      "file": "EP001-EP008_v4_subtitles.zip",
+      "status": 200,
+      "bytes": 4649
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v4.mp4",
+      "offset": 0,
+      "status": 206,
+      "bytes_match": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v4.mp4",
+      "offset": 18040551,
+      "status": 206,
+      "bytes_match": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v4.mp4",
+      "offset": 36080078,
+      "status": 206,
+      "bytes_match": true
+    }
+  ]
+}

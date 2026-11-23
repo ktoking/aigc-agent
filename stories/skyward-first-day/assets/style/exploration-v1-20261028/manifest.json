@@ -1,0 +1,53 @@
+{
+  "version": "style-exploration-v1",
+  "date": "2026-10-28",
+  "purpose": "A版作为全故事画风参考；正式角色与分镜资产另建，不把候选当最终帧",
+  "mode": "built_in_imagegen",
+  "status": "style_selected",
+  "variants": [
+    {
+      "id": "A",
+      "label": "柔和圆润 · 动画电影",
+      "prompt_file": "A-soft-animation-film.prompt.txt",
+      "image_file": "A-soft-animation-film.png",
+      "status": "selected_style_reference",
+      "selected": true,
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-a0e51ac9-3057-4973-80bc-72951b590ae1.png",
+      "sha256": "4ea4e4d3caa5655b1be99bbab9e7c42cdd196ef994c4a50e902fe2a371892db2",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "脸型圆润，光影温暖柔和，动画电影感较强。"
+    },
+    {
+      "id": "B",
+      "label": "精致清透 · 国创3D动漫",
+      "prompt_file": "B-clear-anime-3d.prompt.txt",
+      "image_file": "B-clear-anime-3d.png",
+      "status": "unselected_candidate",
+      "selected": false,
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-1cf0e466-bb6e-4d2e-8847-82afbe3fbc0b.png",
+      "sha256": "38cec6ae640ce273b2d81276531082594ef59f971d30abaa0a07308d4ea4d6c2",
+      "width": 1672,
+      "height": 940,
+      "visual_review": "脸部更修长精致，发丝和环境材质更细，清透3D动漫方向。"
+    },
+    {
+      "id": "C",
+      "label": "鲜明造型 · 潮流3D动画",
+      "prompt_file": "C-graphic-stylized-3d.prompt.txt",
+      "image_file": "C-graphic-stylized-3d.png",
+      "status": "unselected_candidate",
+      "selected": false,
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-0658630c-2041-4856-b227-4d9af9d48233.png",
+      "sha256": "d0275012787ab6f9d570f72856b50c136fc7bff1d75a1ae44b9f7f1c99006e93",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "眉眼更鲜明、眼睛更偏动漫，轮廓和色彩对比更强。"
+    }
+  ],
+  "generated_count": 3,
+  "selected_variant": "A",
+  "review_note": "三张均为3D风格候选，不是正式角色锁图或分段首尾帧。发夹、手环左右及角色跨镜一致性待选定画风后以三视图校准；不宣称已达到最终资产验收。",
+  "selection_date": "2026-10-28",
+  "selection_evidence": "用户回复：A吧"
+}

@@ -1,0 +1,49 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0744a7de5645f3b0e0e8a2241910ca7e",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "他告诉我，司机和装卸工刚刚走回来，货车被扣在旧桥边，车上的配件也没能带回来。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 5897,
+    "audio_sample_rate": 32000,
+    "audio_size": 378628,
+    "bitrate": 128000,
+    "word_count": 38,
+    "invisible_character_ratio": 0,
+    "usage_characters": 72,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/audio/raw/c005.wav",
+  "bytes": 378628,
+  "sha256": "a84870f7a3d8bcf047e804da874f05bc9293e594d5d575ecddfcfce8dcc7f496",
+  "subtitle_files_generated": false
+}

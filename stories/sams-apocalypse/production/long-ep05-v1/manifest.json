@@ -1,0 +1,33 @@
+{
+  "status": "READY_FOR_USER_REVIEW",
+  "authorized": "User restored complete EP05 v2 then explicitly requested story-film-workflow images and final video",
+  "skill": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/skills/story-film-workflow/SKILL.md",
+  "script": "drafts/LONG-EP05-trade-route-v2-narration.txt",
+  "script_sha256": "ceb4d6a639c083690dc221f74f182c8cffb6e600491e4c295156463ffde7e5ed",
+  "script_approved_for_production": true,
+  "voice_cues": 150,
+  "voice": "speech-2.8-turbo / Chinese (Mandarin)_Gentleman / speed1.2 / calm",
+  "cue_gap_seconds": 0.1,
+  "dissolve_seconds": 0.1,
+  "subtitles_burned": true,
+  "independent_subtitles": false,
+  "fixed_camera": true,
+  "reuse_images": false,
+  "music": "Audiomachine Tempt Scandal fixed quiet loop; no ducking",
+  "qa": {
+    "tts": "PASS actual request, audio length and ASR; full human listen NOT_RUN",
+    "images": "PASS 113 unique images; per-image and contact review",
+    "render": "PASS final encoded, captions, finishing and frame checks",
+    "playback": "PASS normal-speed opening, loop-region and ending samples",
+    "script": "PASS source sha matches restored v2 and exact review",
+    "full_human_viewing": "NOT_RUN",
+    "full_human_listening": "NOT_RUN",
+    "user_acceptance": "PENDING"
+  },
+  "hyperframes_usage": "UNKNOWN: CLI not installed; continuing established story FFmpeg engine",
+  "planned_unique_shots": 113,
+  "duration_seconds": 545.1333333333333,
+  "frames": 16354,
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/output/LONG-EP05-v1/video.mp4",
+  "output_sha256": "eb27dc2359f6b87ecd772f1497416ca219a5d352f359ed7b395461d6868416e6"
+}

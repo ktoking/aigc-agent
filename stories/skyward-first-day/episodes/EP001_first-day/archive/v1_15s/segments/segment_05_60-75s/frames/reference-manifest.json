@@ -1,0 +1,43 @@
+{
+  "version": "v1",
+  "segment": "segment_05_60-75s",
+  "status": "planned_missing",
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "purpose": "本段0秒起始构图和角色道具初始状态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "purpose": "本段15秒结束状态与下一段衔接；不是要求整段从首帧直接变形到尾帧",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-out.png",
+      "purpose": "林桃公共场景身份与出门装",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-xu-xing.png",
+      "purpose": "许星的脸、发箍与固定座位",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-classroom-layout.png",
+      "purpose": "前后门、过道、四位展示同学和靠窗座位空间，若带标注，仅用于路线理解，不渲染文字箭头",
+      "status": "missing",
+      "generated": false
+    }
+  ],
+  "note": "当前无真实图像。仅在真实文件生成并核对用途后修改状态；故事板表格不上传。"
+}

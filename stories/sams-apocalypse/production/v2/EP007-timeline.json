@@ -1,0 +1,669 @@
+{
+  "episode": 7,
+  "title": "我们把山姆，过成了家",
+  "fps": 30,
+  "characters": 232,
+  "frame_count": 1392,
+  "duration_seconds": 46.4,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 342,
+      "directory": "segment_01_0.00-11.40s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 342,
+      "end_frame_exclusive": 720,
+      "directory": "segment_02_11.40-24.00s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 720,
+      "end_frame_exclusive": 1056,
+      "directory": "segment_03_24.00-35.20s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 1056,
+      "end_frame_exclusive": 1392,
+      "directory": "segment_04_35.20-46.40s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "第三天，我负责盘货、搬东西，许棠负责查设备。",
+      "characters": 18,
+      "start_frame": 0,
+      "end_frame_exclusive": 108,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "监控室旁边的休息室，被我们收拾了出来。",
+      "characters": 17,
+      "start_frame": 108,
+      "end_frame_exclusive": 210,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "她有了自己的床。",
+      "characters": 7,
+      "start_frame": 210,
+      "end_frame_exclusive": 252,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "我的被子，也终于不用总铺在椅子上。",
+      "characters": 15,
+      "start_frame": 252,
+      "end_frame_exclusive": 342,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "水和清洁用品分开，常温粮和临期食品分开。",
+      "characters": 18,
+      "start_frame": 342,
+      "end_frame_exclusive": 450,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "吃剩的包装及时收走，通道一直留空。",
+      "characters": 15,
+      "start_frame": 450,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我们还清出了备用电的设备间。",
+      "characters": 13,
+      "start_frame": 540,
+      "end_frame_exclusive": 618,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "油箱里有油，但能撑多久，得看我们怎么用。",
+      "characters": 17,
+      "start_frame": 618,
+      "end_frame_exclusive": 720,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "每天晚上，我们先定第二天吃什么，再定第二天做什么。",
+      "characters": 22,
+      "start_frame": 720,
+      "end_frame_exclusive": 852,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "她喝热牛奶不放糖。",
+      "characters": 8,
+      "start_frame": 852,
+      "end_frame_exclusive": 900,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我总想多拿一袋肉干。",
+      "characters": 9,
+      "start_frame": 900,
+      "end_frame_exclusive": 954,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "她不拦我，只让我吃完记得在清单上减掉。",
+      "characters": 17,
+      "start_frame": 954,
+      "end_frame_exclusive": 1056,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "半夜交班，她把温好的牛奶放在了桌上。",
+      "characters": 16,
+      "start_frame": 1056,
+      "end_frame_exclusive": 1152,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "我第一次放心地关上休息室的门。",
+      "characters": 14,
+      "start_frame": 1152,
+      "end_frame_exclusive": 1236,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "外面仍然有丧尸。",
+      "characters": 7,
+      "start_frame": 1236,
+      "end_frame_exclusive": 1278,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "可我睡着的时候，终于有人替我看着那扇门了。",
+      "characters": 19,
+      "start_frame": 1278,
+      "end_frame_exclusive": 1392,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "891a48fb2d372dfb0a8ab3a5e9d85d87f4f8af6e83b75eaaffae5599994bd222",
+  "assets": {
+    "e7-01": {
+      "id": "e7-01",
+      "episode": 7,
+      "segment": 1,
+      "title": "共同整理生活区",
+      "description": "第三天白天两人共同推蓝色平板车搬被子与生活用品到监控室旁休息室，男主黄帽衫蓝马甲青绿帽，女主橘衣低马尾带工具包。通道整洁。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_01_00-15s/frames/e7-01.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-02": {
+      "id": "e7-02",
+      "episode": 7,
+      "segment": 1,
+      "title": "两张独立的床",
+      "description": "员工休息室新场景，两张分开的绿色折叠床各有米色被子，中间过道和一张小边桌，灰蓝储物柜，暖白顶灯；两人各整理一张床。没有第三张床没有双人床。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_01_00-15s/frames/e7-02.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-03": {
+      "id": "e7-03",
+      "episode": 7,
+      "segment": 2,
+      "title": "物资分区",
+      "description": "超市安全生活区，男主把瓶装饮用水放独立货架，远侧清洁用品与饮水明显分开；常温粮与临期食物两个分区。通道无散乱购物车，女主检查清单。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_02_15-30s/frames/e7-03.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-04": {
+      "id": "e7-04",
+      "episode": 7,
+      "segment": 2,
+      "title": "有限备用设备",
+      "description": "两人在与生活区隔离的设备间门口检查已安装的封闭工业备用柴油发电机和燃料表。女主拿设备记录，男主手电照向表盘。机器尚未启动，室外通风百叶敞通，无操作接线。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_02_15-30s/frames/e7-04.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-05": {
+      "id": "e7-05",
+      "episode": 7,
+      "segment": 3,
+      "title": "晚饭与明日计划",
+      "description": "傍晚员工小茶水间两人围坐小桌定明日计划，女主拿记录本旁边一杯热牛奶，男主拿一袋肉干，桌上两套餐具和食品。轻松日常。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_03_30-45s/frames/e7-05.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-06": {
+      "id": "e7-06",
+      "episode": 7,
+      "segment": 3,
+      "title": "吃完记得扣库存",
+      "description": "中近景许棠拿铅笔温和指向清单中的肉干袋小图标，男主抱一袋肉干不好意思地笑，自己的盘点本摊桌上，简单行线无可读字。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_03_30-45s/frames/e7-06.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-07": {
+      "id": "e7-07",
+      "episode": 7,
+      "segment": 4,
+      "title": "交班的温牛奶",
+      "description": "深夜监控室三块显示器在左墙灰桌，许棠坐上值班椅把一杯温牛奶留在桌上，男主站旁拿清单准备离开，房后右是灰门。屏幕外面仍有零散丧尸。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_04_45-60s/frames/e7-07.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e7-08": {
+      "id": "e7-08",
+      "episode": 7,
+      "segment": 4,
+      "title": "终于能安心睡",
+      "description": "夜里男主在休息室自己的绿色折叠床上闭眼睡着，青绿帽放枕旁、黄色衣服仍在身上，门关闭，另一张床空着，床头一杯牛奶和小本。平静暖暗灯。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP007_a-place-to-live/segment_04_45-60s/frames/e7-08.png",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "e7-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 108,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "e7-01",
+      "start_frame": 108,
+      "end_frame_exclusive": 210,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "e7-02",
+      "start_frame": 210,
+      "end_frame_exclusive": 252,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "e7-02",
+      "start_frame": 252,
+      "end_frame_exclusive": 342,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "e7-03",
+      "start_frame": 342,
+      "end_frame_exclusive": 450,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "e7-03",
+      "start_frame": 450,
+      "end_frame_exclusive": 540,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "e7-04",
+      "start_frame": 540,
+      "end_frame_exclusive": 618,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "e7-04",
+      "start_frame": 618,
+      "end_frame_exclusive": 720,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "shot-09",
+      "asset": "e7-05",
+      "start_frame": 720,
+      "end_frame_exclusive": 852,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "shot-10",
+      "asset": "e7-05",
+      "start_frame": 852,
+      "end_frame_exclusive": 900,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "shot-11",
+      "asset": "e7-06",
+      "start_frame": 900,
+      "end_frame_exclusive": 954,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "shot-12",
+      "asset": "e7-06",
+      "start_frame": 954,
+      "end_frame_exclusive": 1056,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "e7-07",
+      "start_frame": 1056,
+      "end_frame_exclusive": 1152,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "shot-14",
+      "asset": "e7-07",
+      "start_frame": 1152,
+      "end_frame_exclusive": 1236,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "shot-15",
+      "asset": "e7-08",
+      "start_frame": 1236,
+      "end_frame_exclusive": 1278,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "shot-16",
+      "asset": "e7-08",
+      "start_frame": 1278,
+      "end_frame_exclusive": 1392,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        16,
+        16
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}

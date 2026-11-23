@@ -1,0 +1,296 @@
+{
+  "status": "automated_passed_visual_review_pending",
+  "frames": 7343,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "full_decode_clean": "passed",
+  "full_decode_captioned": "passed",
+  "audio_packet_hash_exact": true,
+  "audio_packet_sha256": "SHA256=86918efda3574870b8e29ab9c749a0a74bfd95fc0848701a1dc442d764fafed5",
+  "srt_vtt_bytes_exact_to_v4": true,
+  "cues": 130,
+  "stable_shot_max_mean_luma_change": 0.005015432098765432,
+  "stable_shots": [
+    {
+      "shot": "EP001-shot-01",
+      "max_mean_luma_change": 0.00038580246913580245
+    },
+    {
+      "shot": "EP001-shot-02",
+      "max_mean_luma_change": 0.0011574074074074073
+    },
+    {
+      "shot": "EP001-shot-03",
+      "max_mean_luma_change": 0.0011574074074074073
+    },
+    {
+      "shot": "EP001-shot-04",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP001-shot-05",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP001-shot-06",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP001-shot-07",
+      "max_mean_luma_change": 0.003472222222222222
+    },
+    {
+      "shot": "EP001-shot-08",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP001-shot-09",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP001-shot-10",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP001-shot-11",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP001-shot-12",
+      "max_mean_luma_change": 0.0028935185185185184
+    },
+    {
+      "shot": "EP001-shot-13",
+      "max_mean_luma_change": 0.0028935185185185184
+    },
+    {
+      "shot": "EP002-shot-01",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP002-shot-02",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP002-shot-03",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP002-shot-04",
+      "max_mean_luma_change": 0.002700617283950617
+    },
+    {
+      "shot": "EP002-shot-05",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP002-shot-06",
+      "max_mean_luma_change": 0.002700617283950617
+    },
+    {
+      "shot": "EP002-shot-07",
+      "max_mean_luma_change": 0.001736111111111111
+    },
+    {
+      "shot": "EP002-shot-08",
+      "max_mean_luma_change": 0.0036651234567901233
+    },
+    {
+      "shot": "EP003-shot-01",
+      "max_mean_luma_change": 0.0011574074074074073
+    },
+    {
+      "shot": "EP003-shot-02",
+      "max_mean_luma_change": 0.001736111111111111
+    },
+    {
+      "shot": "EP003-shot-03",
+      "max_mean_luma_change": 0.001736111111111111
+    },
+    {
+      "shot": "EP003-shot-04",
+      "max_mean_luma_change": 0.0030864197530864196
+    },
+    {
+      "shot": "EP003-shot-05",
+      "max_mean_luma_change": 0.0013503086419753086
+    },
+    {
+      "shot": "EP003-shot-06",
+      "max_mean_luma_change": 0.004050925925925926
+    },
+    {
+      "shot": "EP003-shot-07",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP003-shot-08",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP004-shot-01",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP004-shot-02",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP004-shot-03",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP004-shot-04",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP004-shot-05",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP004-shot-06",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP004-shot-07",
+      "max_mean_luma_change": 0.004050925925925926
+    },
+    {
+      "shot": "EP004-shot-08",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP005-shot-01",
+      "max_mean_luma_change": 0.0028935185185185184
+    },
+    {
+      "shot": "EP005-shot-02",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP005-shot-03",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP005-shot-04",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP005-shot-05",
+      "max_mean_luma_change": 0.003279320987654321
+    },
+    {
+      "shot": "EP005-shot-06",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP005-shot-07",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP005-shot-08",
+      "max_mean_luma_change": 0.005015432098765432
+    },
+    {
+      "shot": "EP006-shot-01",
+      "max_mean_luma_change": 0.0013503086419753086
+    },
+    {
+      "shot": "EP006-shot-02",
+      "max_mean_luma_change": 0.0021219135802469135
+    },
+    {
+      "shot": "EP006-shot-03",
+      "max_mean_luma_change": 0.0013503086419753086
+    },
+    {
+      "shot": "EP006-shot-04",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP006-shot-05",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP006-shot-06",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP006-shot-07",
+      "max_mean_luma_change": 0.002700617283950617
+    },
+    {
+      "shot": "EP006-shot-08",
+      "max_mean_luma_change": 0.0009645061728395061
+    },
+    {
+      "shot": "EP007-shot-01",
+      "max_mean_luma_change": 0.0013503086419753086
+    },
+    {
+      "shot": "EP007-shot-02",
+      "max_mean_luma_change": 0.0030864197530864196
+    },
+    {
+      "shot": "EP007-shot-03",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP007-shot-04",
+      "max_mean_luma_change": 0.0015432098765432098
+    },
+    {
+      "shot": "EP007-shot-05",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP007-shot-06",
+      "max_mean_luma_change": 0.0013503086419753086
+    },
+    {
+      "shot": "EP007-shot-07",
+      "max_mean_luma_change": 0.0028935185185185184
+    },
+    {
+      "shot": "EP007-shot-08",
+      "max_mean_luma_change": 0.004822530864197531
+    },
+    {
+      "shot": "EP008-shot-01",
+      "max_mean_luma_change": 0.0028935185185185184
+    },
+    {
+      "shot": "EP008-shot-02",
+      "max_mean_luma_change": 0.003472222222222222
+    },
+    {
+      "shot": "EP008-shot-03",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP008-shot-04",
+      "max_mean_luma_change": 0.0019290123456790122
+    },
+    {
+      "shot": "EP008-shot-05",
+      "max_mean_luma_change": 0.0021219135802469135
+    },
+    {
+      "shot": "EP008-shot-06",
+      "max_mean_luma_change": 0.0023148148148148147
+    },
+    {
+      "shot": "EP008-shot-07",
+      "max_mean_luma_change": 0.002507716049382716
+    },
+    {
+      "shot": "EP008-shot-08",
+      "max_mean_luma_change": 0.004243827160493827
+    }
+  ],
+  "visual_review": "pending",
+  "full_normal_speed_listening": "NOT_RUN"
+}

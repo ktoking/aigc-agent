@@ -1,0 +1,12 @@
+{
+  "id": "p094",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5545772a-d681-41db-b96f-52077cfb576b.png",
+  "args": {
+    "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只替换两个显示器的内容：左屏为同一棕补丁A在旧桥铁皮棚外蹲着、面罩摘到颈部的录像；右屏为同一A穿浅灰防护服、戴完整兜帽护目镜灰半面罩在山姆外门举送货单的此前录像。不得画SUV、空院子替代人物。两屏只是二维录像，室内实体只有原青绿帽男主。保持其余画面。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p094-original.png",
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0744abdc4e82776a3b989f53e1096328",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "第二天，油库通知我，参与的人和车已经出发。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 3500,
+    "audio_sample_rate": 32000,
+    "audio_size": 225164,
+    "bitrate": 128000,
+    "word_count": 21,
+    "invisible_character_ratio": 0,
+    "usage_characters": 39,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/audio/raw/c107.wav",
+  "bytes": 225164,
+  "sha256": "c83447108313086c1036ad860e6bab680fddec73afe57674f12cc92d49856e05",
+  "subtitle_files_generated": false
+}

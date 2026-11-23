@@ -1,0 +1,669 @@
+{
+  "episode": 5,
+  "title": "我们隔着一道门，过了第一夜",
+  "fps": 30,
+  "characters": 219,
+  "frame_count": 1314,
+  "duration_seconds": 43.8,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 306,
+      "directory": "segment_01_0.00-10.20s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 306,
+      "end_frame_exclusive": 630,
+      "directory": "segment_02_10.20-21.00s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 630,
+      "end_frame_exclusive": 978,
+      "directory": "segment_03_21.00-32.60s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 978,
+      "end_frame_exclusive": 1314,
+      "directory": "segment_04_32.60-43.80s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "我把水、面包、被子和便携厕所放进收货间。",
+      "characters": 17,
+      "start_frame": 0,
+      "end_frame_exclusive": 102,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "关好内门，才让她从外面进来。",
+      "characters": 12,
+      "start_frame": 102,
+      "end_frame_exclusive": 174,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "她主动留在那里观察。",
+      "characters": 9,
+      "start_frame": 174,
+      "end_frame_exclusive": 228,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "我们之间，隔着一道带玻璃的门。",
+      "characters": 13,
+      "start_frame": 228,
+      "end_frame_exclusive": 306,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "晚上，我把盘好的物资清单贴给她看。",
+      "characters": 15,
+      "start_frame": 306,
+      "end_frame_exclusive": 396,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "她看完，把纸巾、垃圾袋和备用照明补了上去。",
+      "characters": 18,
+      "start_frame": 396,
+      "end_frame_exclusive": 504,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我惦记着能吃什么。",
+      "characters": 8,
+      "start_frame": 504,
+      "end_frame_exclusive": 552,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "她惦记着，吃完以后怎么过日子。",
+      "characters": 13,
+      "start_frame": 552,
+      "end_frame_exclusive": 630,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我熟悉货架，她熟悉设备。",
+      "characters": 10,
+      "start_frame": 630,
+      "end_frame_exclusive": 690,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "我把安全区和通道标给她，她给我圈出了冷库和备用电的位置。",
+      "characters": 26,
+      "start_frame": 690,
+      "end_frame_exclusive": 846,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "整整一夜，我们都没怎么睡。",
+      "characters": 11,
+      "start_frame": 846,
+      "end_frame_exclusive": 912,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "那道门，却谁也没催着打开。",
+      "characters": 11,
+      "start_frame": 912,
+      "end_frame_exclusive": 978,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "天亮时，我在椅子上睡醒了。",
+      "characters": 11,
+      "start_frame": 978,
+      "end_frame_exclusive": 1044,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "隔着玻璃，她也靠着墙睡着了，工具包还抱在怀里。",
+      "characters": 20,
+      "start_frame": 1044,
+      "end_frame_exclusive": 1164,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "我轻轻敲了一下窗。",
+      "characters": 8,
+      "start_frame": 1164,
+      "end_frame_exclusive": 1212,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "她睁开眼，我忽然觉得，今天没那么难熬了。",
+      "characters": 17,
+      "start_frame": 1212,
+      "end_frame_exclusive": 1314,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "de15e945eb222fc87cbb70cc249aab6893e370ff402ca628b1b098dea010b939",
+  "assets": {
+    "e5-01": {
+      "id": "e5-01",
+      "episode": 5,
+      "segment": 1,
+      "title": "先放生活物资",
+      "description": "男主独自在空收货缓冲间放一箱水、面包、叠好米色被子和有盖便携厕所，外卷帘门关着，带窄玻璃内门在身后。许棠尚未进入。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_01_00-15s/frames/e5-01.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-02": {
+      "id": "e5-02",
+      "episode": 5,
+      "segment": 1,
+      "title": "隔着内门",
+      "description": "傍晚许棠已在缓冲间内，蹲下拿瓶水，外卷帘门关闭；前景男主位于关闭带玻璃的内门另一侧，两人隔玻璃相望，未共处一室。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_01_00-15s/frames/e5-02.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-03": {
+      "id": "e5-03",
+      "episode": 5,
+      "segment": 2,
+      "title": "贴上物资清单",
+      "description": "夜里近景男主把盘点清单贴在内门玻璃的自己这一面，纸张简单图标行线；玻璃另一侧许棠拿纸笔认真看。两人之间的门闭合。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_02_15-30s/frames/e5-03.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-04": {
+      "id": "e5-04",
+      "episode": 5,
+      "segment": 2,
+      "title": "她补生活用品",
+      "description": "缓冲间许棠坐在折好的被子旁，拿笔在纸上补记垃圾袋、纸巾和照明，旁边蓝灰工具包和水；背景玻璃门关闭。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_02_15-30s/frames/e5-04.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-05": {
+      "id": "e5-05",
+      "episode": 5,
+      "segment": 3,
+      "title": "隔窗交换计划",
+      "description": "夜间过肩镜头男主看玻璃另一边许棠举起设备平面草图，只有简洁冷库、备用设备房框图，没有接线示意；玻璃门闭合。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_03_30-45s/frames/e5-05.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-06": {
+      "id": "e5-06",
+      "episode": 5,
+      "segment": 3,
+      "title": "清出安全通道",
+      "description": "夜间男主独自在卖场安全区把散乱纸箱搬上蓝平板车，货架旁通道保持净空，手电放旁边，没有堵门障碍物。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_03_30-45s/frames/e5-06.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-07": {
+      "id": "e5-07",
+      "episode": 5,
+      "segment": 4,
+      "title": "男主在椅上醒来",
+      "description": "清晨男主在门边办公椅上醒来，青绿帽、黄衣、蓝马甲不变。带玻璃内门在旁，透过去能看到橘衣许棠靠缓冲间墙睡，蓝灰包抱在怀里。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_04_45-60s/frames/e5-07.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e5-08": {
+      "id": "e5-08",
+      "episode": 5,
+      "segment": 4,
+      "title": "玻璃后的早安",
+      "description": "清晨从男主这边看玻璃：男主白色手指轻敲窗，许棠在对面睁开眼露出疲倦但温和微笑，抱蓝灰工具包，米色被子在腿边，门仍关着。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP005_first-night-apart/segment_04_45-60s/frames/e5-08.png",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "e5-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 102,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "e5-01",
+      "start_frame": 102,
+      "end_frame_exclusive": 174,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "e5-02",
+      "start_frame": 174,
+      "end_frame_exclusive": 228,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "e5-02",
+      "start_frame": 228,
+      "end_frame_exclusive": 306,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "e5-03",
+      "start_frame": 306,
+      "end_frame_exclusive": 396,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "e5-03",
+      "start_frame": 396,
+      "end_frame_exclusive": 504,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "e5-04",
+      "start_frame": 504,
+      "end_frame_exclusive": 552,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "e5-04",
+      "start_frame": 552,
+      "end_frame_exclusive": 630,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "shot-09",
+      "asset": "e5-05",
+      "start_frame": 630,
+      "end_frame_exclusive": 690,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "shot-10",
+      "asset": "e5-05",
+      "start_frame": 690,
+      "end_frame_exclusive": 846,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "shot-11",
+      "asset": "e5-06",
+      "start_frame": 846,
+      "end_frame_exclusive": 912,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "shot-12",
+      "asset": "e5-06",
+      "start_frame": 912,
+      "end_frame_exclusive": 978,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "e5-07",
+      "start_frame": 978,
+      "end_frame_exclusive": 1044,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "shot-14",
+      "asset": "e5-07",
+      "start_frame": 1044,
+      "end_frame_exclusive": 1164,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "shot-15",
+      "asset": "e5-08",
+      "start_frame": 1164,
+      "end_frame_exclusive": 1212,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "shot-16",
+      "asset": "e5-08",
+      "start_frame": 1212,
+      "end_frame_exclusive": 1314,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        16,
+        16
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}

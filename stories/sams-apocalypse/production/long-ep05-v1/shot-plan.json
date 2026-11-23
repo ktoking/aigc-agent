@@ -1,0 +1,2619 @@
+[
+  {
+    "id": "p001",
+    "asset": "assets/p001.png",
+    "start_frame": 0,
+    "end_frame_exclusive": 121,
+    "duration_frames": 121,
+    "seconds": 4.033333333333333,
+    "paragraphs": [
+      1,
+      2
+    ],
+    "cue_ids": [
+      "c001",
+      "c002"
+    ],
+    "cast": "truck,bridge,raiders,driver",
+    "event": "白色厢式小货车停在完整旧桥前，前方两辆废轿车横挡。三名浅灰防护服男子拦车，左臂蓝胶带原司机留在驾驶位；远景能看清无法通过。",
+    "prompt_file": "prompts/p001.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "154b7bd00e44a3b9cf69d5d731f5f04b7532c4c8a5c8e098bf94d9d4adc54400"
+  },
+  {
+    "id": "p002",
+    "asset": "assets/p002.png",
+    "start_frame": 121,
+    "end_frame_exclusive": 242,
+    "duration_frames": 121,
+    "seconds": 4.033333333333333,
+    "paragraphs": [
+      1,
+      2
+    ],
+    "cue_ids": [
+      "c002"
+    ],
+    "cast": "none",
+    "event": "山姆独立机房内，既有发电机与独立储油设施正常可用，干燥整洁，无床无窗，无人、无手臂；不表现新一趟加油。",
+    "prompt_file": "prompts/p002.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "a3f5794b86900ac2027e82765eedfaa25cb8d49b58f3f1d90aced98c0b62f4be"
+  },
+  {
+    "id": "p003",
+    "asset": "assets/p003.png",
+    "start_frame": 242,
+    "end_frame_exclusive": 413,
+    "duration_frames": 171,
+    "seconds": 5.7,
+    "paragraphs": [
+      3,
+      4
+    ],
+    "cue_ids": [
+      "c003",
+      "c004"
+    ],
+    "cast": "male",
+    "event": "男主在干净后仓把一箱工作鞋放到平板推车上，旁边是一箱工作手套；只出现男主，门关闭。",
+    "prompt_file": "prompts/p003.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "eab1014e2053de62c24355d63983f5660af7f1441bc2473f288f463d7887aca9"
+  },
+  {
+    "id": "p004",
+    "asset": "assets/p004.png",
+    "start_frame": 413,
+    "end_frame_exclusive": 577,
+    "duration_frames": 164,
+    "seconds": 5.466666666666667,
+    "paragraphs": [
+      3,
+      4
+    ],
+    "cue_ids": [
+      "c005"
+    ],
+    "cast": "truck,bridge",
+    "event": "桥边铁皮棚旁，被扣的小型白厢货车停住，两个配件箱仍在货箱内，货主未能取走；无人无手臂，桥完好但废车挡路。",
+    "prompt_file": "prompts/p004.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "f1355d43962d8cdc750e9d02772f6dc3daa2ddd4276b7f283e5d0946a4ff2cb0"
+  },
+  {
+    "id": "p005",
+    "asset": "assets/p005.png",
+    "start_frame": 577,
+    "end_frame_exclusive": 740,
+    "duration_frames": 163,
+    "seconds": 5.433333333333334,
+    "paragraphs": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "cue_ids": [
+      "c006",
+      "c007"
+    ],
+    "cast": "bridge,raiders",
+    "event": "完整旧桥右侧铁皮棚已被三名浅灰防护服男子占据，两辆废轿车横在桥头，只有这三名外人，均戴好防护面罩护目镜与兜帽。",
+    "prompt_file": "prompts/p005.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "1acf99515a6bf1e541a368551ed170399c36ca5d6a4d97f6d315e936d5b022aa"
+  },
+  {
+    "id": "p006",
+    "asset": "assets/p006.png",
+    "start_frame": 740,
+    "end_frame_exclusive": 917,
+    "duration_frames": 177,
+    "seconds": 5.9,
+    "paragraphs": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "cue_ids": [
+      "c007",
+      "c008"
+    ],
+    "cast": "truck,raiders,driver",
+    "event": "货车驾驶室外，带棕补丁的A拦住左臂蓝胶带原司机，另一人站在打开的车门旁翻找纸张；电影中景，不展示伤害方法，无血。",
+    "prompt_file": "prompts/p006.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "ecf83aa6e5fb755863f0d111be1147ed00d105c423345d66de751b8893a73c10"
+  },
+  {
+    "id": "p007",
+    "asset": "assets/p007.png",
+    "start_frame": 917,
+    "end_frame_exclusive": 1072,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "cue_ids": [
+      "c009",
+      "c010"
+    ],
+    "cast": "truck,bridge,driver",
+    "event": "原司机和一名装卸工穿完整防护服，空手离开桥头向回走，身后货车仍被扣在铁皮棚旁；只出现这两个工作人员。",
+    "prompt_file": "prompts/p007.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "6577f6ffe6c692bcb8408be7ab9aabf910cb4c80e0f79cbe2be9c505f410efbf"
+  },
+  {
+    "id": "p008",
+    "asset": "assets/p008.png",
+    "start_frame": 1072,
+    "end_frame_exclusive": 1228,
+    "duration_frames": 156,
+    "seconds": 5.2,
+    "paragraphs": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "cue_ids": [
+      "c010",
+      "c011"
+    ],
+    "cast": "bridge,raiders",
+    "event": "A拿送货单朝离去的司机方向示意，B和C站在被扣货车旁，三人把守临时路障；桥未塌，无血无枪械操作。",
+    "prompt_file": "prompts/p008.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "d1fe1e78fc93ff817b7cfb5c0f415ab6ffc99e372e2c81d64bde91a15088c12e"
+  },
+  {
+    "id": "p009",
+    "asset": "assets/p009.png",
+    "start_frame": 1228,
+    "end_frame_exclusive": 1358,
+    "duration_frames": 130,
+    "seconds": 4.333333333333333,
+    "paragraphs": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "cue_ids": [
+      "c012",
+      "c013"
+    ],
+    "cast": "male",
+    "event": "监控房男主握电台询问原司机情况，另一只手停在记录本上，神情认真坚定，不开门。",
+    "prompt_file": "prompts/p009.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "68c23afd820bd316697571a2d857e6b97f04fb8b815938c8d32c75781a60261c"
+  },
+  {
+    "id": "p010",
+    "asset": "assets/p010.png",
+    "start_frame": 1358,
+    "end_frame_exclusive": 1488,
+    "duration_frames": 130,
+    "seconds": 4.333333333333333,
+    "paragraphs": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "cue_ids": [
+      "c013",
+      "c014"
+    ],
+    "cast": "bridge,truck",
+    "event": "叙事回忆：几天前的同一旧桥，小货车可正常驶过，桥头没有废车路障、没有占棚人、没有收费牌；零人物。",
+    "prompt_file": "prompts/p010.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "c6124783de417ed59e7881e84ec0f8dce959192d40868d006ade07910faea48a"
+  },
+  {
+    "id": "p011",
+    "asset": "assets/p011.png",
+    "start_frame": 1488,
+    "end_frame_exclusive": 1618,
+    "duration_frames": 130,
+    "seconds": 4.333333333333333,
+    "paragraphs": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "cue_ids": [
+      "c014",
+      "c015"
+    ],
+    "cast": "foreman",
+    "event": "油库负责人在封闭办公室向电台核实时间，一张日历和记录本放在桌上，字不必清楚；只出现负责人。",
+    "prompt_file": "prompts/p011.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "972cf81efba848a76ad5286b898b093b6f84ce2c1d1e434b063fc98531377376"
+  },
+  {
+    "id": "p012",
+    "asset": "assets/p012.png",
+    "start_frame": 1618,
+    "end_frame_exclusive": 1748,
+    "duration_frames": 130,
+    "seconds": 4.333333333333333,
+    "paragraphs": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "cue_ids": [
+      "c015",
+      "c016"
+    ],
+    "cast": "bridge",
+    "event": "回忆昨晚：旧桥头刚被两辆废轿车横挡，棚旁几盏普通灯亮着，天色昏暗且干燥；零人物零手臂，不画塌桥。",
+    "prompt_file": "prompts/p012.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "98d235c5389c262e790b044841ab667472ea1b3a4781493579aa602fccd15d22"
+  },
+  {
+    "id": "p013",
+    "asset": "assets/p013.png",
+    "start_frame": 1748,
+    "end_frame_exclusive": 1909,
+    "duration_frames": 161,
+    "seconds": 5.366666666666666,
+    "paragraphs": [
+      13,
+      14,
+      15
+    ],
+    "cue_ids": [
+      "c017",
+      "c018"
+    ],
+    "cast": "male",
+    "event": "男主把旧送货单放在桌旁，用电台询问绕行道路；桌上几张简单地图只画粗线，不画军事部署。",
+    "prompt_file": "prompts/p013.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "30ee833fad19502cd4e0538b843be2ff7783306e25c94888cc6365063cd3a30b"
+  },
+  {
+    "id": "p014",
+    "asset": "assets/p014.png",
+    "start_frame": 1909,
+    "end_frame_exclusive": 2060,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      13,
+      14,
+      15
+    ],
+    "cue_ids": [
+      "c019",
+      "c020"
+    ],
+    "cast": "none",
+    "event": "城区入口的封控路障和禁止通行牌，背景昏黄尘土，完整路面不能驶入；零人物，无人闯卡，不画战术地图。",
+    "prompt_file": "prompts/p014.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "c0177c43fada2f075414b212d072173e8c50211de52bdd1cd02208fda632e7a1"
+  },
+  {
+    "id": "p015",
+    "asset": "assets/p015.png",
+    "start_frame": 2060,
+    "end_frame_exclusive": 2211,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      13,
+      14,
+      15
+    ],
+    "cue_ids": [
+      "c020",
+      "c021"
+    ],
+    "cast": "bridge",
+    "event": "俯斜远景，完整短桥连接两边物流园公路，桥头废车挡住车道，旁边小路狭窄；只表现环境，无人物。",
+    "prompt_file": "prompts/p015.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "51332493d1be0eca444524ee0ddea6e049def079a9d4e8f45b9511555333666a"
+  },
+  {
+    "id": "p016",
+    "asset": "assets/p016.png",
+    "start_frame": 2211,
+    "end_frame_exclusive": 2358,
+    "duration_frames": 147,
+    "seconds": 4.9,
+    "paragraphs": [
+      16,
+      17,
+      18
+    ],
+    "cue_ids": [
+      "c022",
+      "c023"
+    ],
+    "cast": "male",
+    "event": "男主在电台前报出以前的几个收货地点，桌上翻开的记录本只有简单地点条目，镜头为侧面中景。",
+    "prompt_file": "prompts/p016.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "62c2ce8cb1cee8485670412bb83fb841beddf04b0705a412f4d2e40f7e4f0fb0"
+  },
+  {
+    "id": "p017",
+    "asset": "assets/p017.png",
+    "start_frame": 2358,
+    "end_frame_exclusive": 2516,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      16,
+      17,
+      18
+    ],
+    "cue_ids": [
+      "c023"
+    ],
+    "cast": "none",
+    "event": "一条仅容人步行的狭窄便道，倒下的护栏和路肩令货车无法通过；干燥黄尘的郊区，不画男女主。",
+    "prompt_file": "prompts/p017.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "63e49df1cdce605e74e80d0a9879c45ffc61749b0c922366b7e25408270e2044"
+  },
+  {
+    "id": "p018",
+    "asset": "assets/p018.png",
+    "start_frame": 2516,
+    "end_frame_exclusive": 2657,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      16,
+      17,
+      18
+    ],
+    "cue_ids": [
+      "c024"
+    ],
+    "cast": "driver",
+    "event": "原司机在封控区入口远处停步，完整防尘装备和左上臂蓝胶带清楚；身后货车不出现，他没有越过封控。",
+    "prompt_file": "prompts/p018.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "93d1a7fce3db2072bf92159aec403f63f6663a23b35897f704f8ee6d80f168a7"
+  },
+  {
+    "id": "p019",
+    "asset": "assets/p019.png",
+    "start_frame": 2657,
+    "end_frame_exclusive": 2800,
+    "duration_frames": 143,
+    "seconds": 4.766666666666667,
+    "paragraphs": [
+      16,
+      17,
+      18
+    ],
+    "cue_ids": [
+      "c025",
+      "c026"
+    ],
+    "cast": "male",
+    "event": "男主在同一页纸上记录几条绕行失败的回复，把车钥匙放在桌边，表示暂不出车；不画军用路线规划。",
+    "prompt_file": "prompts/p019.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "2264ea4f9caca16ff9107069003b327bd8e26421f775b6d123bf2e247f4007ff"
+  },
+  {
+    "id": "p020",
+    "asset": "assets/p020.png",
+    "start_frame": 2800,
+    "end_frame_exclusive": 2944,
+    "duration_frames": 144,
+    "seconds": 4.8,
+    "paragraphs": [
+      16,
+      17,
+      18
+    ],
+    "cue_ids": [
+      "c026",
+      "c027"
+    ],
+    "cast": "foreman",
+    "event": "油库负责人收起车辆钥匙，和电台保持联系，办公室里一张货单留在桌面；只有负责人，神情严肃。",
+    "prompt_file": "prompts/p020.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "01d9e335212bd245edc3867cfd2346bc29ef0aeaa0452ca32724bed7025792ab"
+  },
+  {
+    "id": "p021",
+    "asset": "assets/p021.png",
+    "start_frame": 2944,
+    "end_frame_exclusive": 3078,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c028",
+      "c029"
+    ],
+    "cast": "both",
+    "event": "许棠把用油记录递到男主桌前，两人在封闭内侧核对既有储油余量，表情镇定；仅两人，不在室外。",
+    "prompt_file": "prompts/p021.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "116f15e77a0076ee68c75ba22a543fe0892bdf42df5556df4d3a5da88b070a9a"
+  },
+  {
+    "id": "p022",
+    "asset": "assets/p022.png",
+    "start_frame": 3078,
+    "end_frame_exclusive": 3212,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c029",
+      "c030"
+    ],
+    "cast": "none",
+    "event": "独立设备室里既有发电机正常工作，封闭燃油设施与完好的管线在后面，干燥整齐，零人物零手臂。",
+    "prompt_file": "prompts/p022.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "46b69f284485b6dc16f9f0bc89fd23fa0688bdbdad2ee4580d5ab42ead0bf68a"
+  },
+  {
+    "id": "p023",
+    "asset": "assets/p023.png",
+    "start_frame": 3212,
+    "end_frame_exclusive": 3346,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c030",
+      "c031",
+      "c032"
+    ],
+    "cast": "male",
+    "event": "男主把装工作鞋的箱子从平板推车搬回货架，保留原交换，门仍锁闭；只有男主。",
+    "prompt_file": "prompts/p023.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "9e402b0b7495f41ca1e66fbd95d40570eba0e99df800f33ded1e0301da488de4"
+  },
+  {
+    "id": "p024",
+    "asset": "assets/p024.png",
+    "start_frame": 3346,
+    "end_frame_exclusive": 3479,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      19,
+      20,
+      21
+    ],
+    "cue_ids": [
+      "c032"
+    ],
+    "cast": "bridge",
+    "event": "夜间桥边，一辆运工具的小货车也被扣在棚旁，与白色配件厢货分开停放；废车路障仍在，空镜零人物。",
+    "prompt_file": "prompts/p024.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "1ca21ae4e2bd9beda043e2c97cbdf4718fa42049fbebe002c78ccd3a17b729be"
+  },
+  {
+    "id": "p025",
+    "asset": "assets/p025.png",
+    "start_frame": 3479,
+    "end_frame_exclusive": 3612,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      22,
+      23,
+      24
+    ],
+    "cue_ids": [
+      "c033",
+      "c034"
+    ],
+    "cast": "truck,sealed",
+    "event": "第二天上午同一白厢货车停到山姆外围院子，旧卸货大口仍钢板封死，侧小门关闭；零人物零手臂，不能画油罐车。",
+    "prompt_file": "prompts/p025.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "bdeffd69c72da234b80b424b964343fac2826a3f4eaa618b1079e594b3c35f9d"
+  },
+  {
+    "id": "p026",
+    "asset": "assets/p026.png",
+    "start_frame": 3612,
+    "end_frame_exclusive": 3745,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      22,
+      23,
+      24
+    ],
+    "cue_ids": [
+      "c034",
+      "c035"
+    ],
+    "cast": "truck,raiders,sealed",
+    "event": "三名冒充送货的A/B/C从白厢货车下来，都戴好浅灰防护服兜帽护目镜面罩，A有棕色胸补丁，手举一张货单；三人只在封闭侧门外。",
+    "prompt_file": "prompts/p026.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "ee0f35cbc8c8365e2aae49390c3b335a6c4833a0704e0557e7b71d2cc90c784c"
+  },
+  {
+    "id": "p027",
+    "asset": "assets/p027.png",
+    "start_frame": 3745,
+    "end_frame_exclusive": 3878,
+    "duration_frames": 133,
+    "seconds": 4.433333333333334,
+    "paragraphs": [
+      22,
+      23,
+      24
+    ],
+    "cue_ids": [
+      "c035",
+      "c036"
+    ],
+    "cast": "raiders,sealed",
+    "event": "棕补丁A在侧门外按墙上通话器，另一手举货单，后面B/C等待；门锁闭，大卸货口钢板完整。",
+    "prompt_file": "prompts/p027.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "76a0363ea5d3a34f32e02417f6dfb4ecbd65c20de8ad9d8bbf7e8742de337c22"
+  },
+  {
+    "id": "p028",
+    "asset": "assets/p028.png",
+    "start_frame": 3878,
+    "end_frame_exclusive": 4012,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      25,
+      26,
+      27
+    ],
+    "cue_ids": [
+      "c037"
+    ],
+    "cast": "raiders,sealed",
+    "event": "棕补丁A站在外门通话器前声称来送货，举着单子朝上方摄像头，B/C留在外院，只有三名外人。",
+    "prompt_file": "prompts/p028.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "5f71b1f6c3204d911dad4d03a4cc3cb0b923db1132f9e6680f3ff02f405c4588"
+  },
+  {
+    "id": "p029",
+    "asset": "assets/p029.png",
+    "start_frame": 4012,
+    "end_frame_exclusive": 4146,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      25,
+      26,
+      27
+    ],
+    "cue_ids": [
+      "c037",
+      "c038"
+    ],
+    "cast": "male",
+    "event": "男主在监控台前按通话键追问车辆怎么放回，目光冷静，门锁钥匙未碰；一个男主实体。",
+    "prompt_file": "prompts/p029.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "829f517f1f21f65743bc06b3c2278c8addae30d40abb03d841856634c8c381b1"
+  },
+  {
+    "id": "p030",
+    "asset": "assets/p030.png",
+    "start_frame": 4146,
+    "end_frame_exclusive": 4280,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      25,
+      26,
+      27
+    ],
+    "cue_ids": [
+      "c038",
+      "c039"
+    ],
+    "cast": "raiders,truck",
+    "event": "戴面罩的A指一下身后原白厢货车，拿单子解释，B站在箱门边；只A和B，干燥黄色天光。",
+    "prompt_file": "prompts/p030.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "bf016f51d17611f8d34b434fa8361a27584049dafdb3e7882d02da4d379dbd7a"
+  },
+  {
+    "id": "p031",
+    "asset": "assets/p031.png",
+    "start_frame": 4280,
+    "end_frame_exclusive": 4404,
+    "duration_frames": 124,
+    "seconds": 4.133333333333334,
+    "paragraphs": [
+      25,
+      26,
+      27
+    ],
+    "cue_ids": [
+      "c039",
+      "c040"
+    ],
+    "cast": "male",
+    "event": "男主在显示器上逐一看三张被面罩遮住的脸，屏幕内人物只是二维影像，房间里只有男主；不让强盗站进室内。",
+    "prompt_file": "prompts/p031.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "185bd387648c7636151882cb5bae9c804dc659e8563912a2f4454d46e6e1cfe0"
+  },
+  {
+    "id": "p032",
+    "asset": "assets/p032.png",
+    "start_frame": 4404,
+    "end_frame_exclusive": 4549,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      25,
+      26,
+      27
+    ],
+    "cue_ids": [
+      "c041"
+    ],
+    "cast": "driver",
+    "event": "原司机的叙事回忆：左上臂蓝胶带司机在上一回外围交接区搬修门材料，防护穿戴完整；一人，不是现在重新送达。",
+    "prompt_file": "prompts/p032.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "b7e0be912a4021286cfa372ec573b6f7188aa0a5f1495b9749b3bcf2bd60ab18"
+  },
+  {
+    "id": "p033",
+    "asset": "assets/p033.png",
+    "start_frame": 4549,
+    "end_frame_exclusive": 4700,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      28,
+      29,
+      30
+    ],
+    "cue_ids": [
+      "c042",
+      "c043"
+    ],
+    "cast": "male",
+    "event": "男主仍坐监控台前，示意对方把单子举近镜头，钥匙留在桌上，没有开门。",
+    "prompt_file": "prompts/p033.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "47f2a9ab30418cc1ee3462ccb8857a5f885616b337eccd5a3308d8a3da092f36"
+  },
+  {
+    "id": "p034",
+    "asset": "assets/p034.png",
+    "start_frame": 4700,
+    "end_frame_exclusive": 4851,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      28,
+      29,
+      30
+    ],
+    "cue_ids": [
+      "c043",
+      "c044"
+    ],
+    "cast": "raiders",
+    "event": "外围地上打开的纸箱里是真实机油桶与滤芯盒，B戴防护手套扶箱盖，只有B一人，东西干净包装完好。",
+    "prompt_file": "prompts/p034.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "9b44cce20b24404a25a9c5d389523f4511d6336138b4f4e8b49d352823aabd90"
+  },
+  {
+    "id": "p035",
+    "asset": "assets/p035.png",
+    "start_frame": 4851,
+    "end_frame_exclusive": 4985,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "cue_ids": [
+      "c045",
+      "c046"
+    ],
+    "cast": "male",
+    "event": "男主按通话键要求把货放外侧，抬眼等对方报回程货物；不走到外面。",
+    "prompt_file": "prompts/p035.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "848848e067dfea95525a5461f457fcc61042d35d0c43fdd603e1d8a7d8fb40fa"
+  },
+  {
+    "id": "p036",
+    "asset": "assets/p036.png",
+    "start_frame": 4985,
+    "end_frame_exclusive": 5119,
+    "duration_frames": 134,
+    "seconds": 4.466666666666667,
+    "paragraphs": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "cue_ids": [
+      "c046"
+    ],
+    "cast": "raiders,sealed",
+    "event": "A在侧门外催促装货，指向门内，B站配件箱旁，C留在货车附近；三人全在外面，门关闭。",
+    "prompt_file": "prompts/p036.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "10e4b8db1d24985eda2c0b878279d4c81fff221b1c0ea2db4311a2ad05a20914"
+  },
+  {
+    "id": "p037",
+    "asset": "assets/p037.png",
+    "start_frame": 5119,
+    "end_frame_exclusive": 5256,
+    "duration_frames": 137,
+    "seconds": 4.566666666666666,
+    "paragraphs": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "cue_ids": [
+      "c046",
+      "c047",
+      "c048"
+    ],
+    "cast": "none",
+    "event": "平板车上清楚摆着工作鞋盒和成盒手套，旁边模糊记录着尺码数量；零人物零手臂，不加大米罐头来混淆。",
+    "prompt_file": "prompts/p037.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "6233791068caa172f00d00b80bb45039e394446a16dbe9db121b6fcb8cc989ac"
+  },
+  {
+    "id": "p038",
+    "asset": "assets/p038.png",
+    "start_frame": 5256,
+    "end_frame_exclusive": 5386,
+    "duration_frames": 130,
+    "seconds": 4.333333333333333,
+    "paragraphs": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "cue_ids": [
+      "c049"
+    ],
+    "cast": "male",
+    "event": "男主把原送货单与单独记录的鞋手套订单并排，单子内容不同，坚定而沉稳；不要画长篇文字海报。",
+    "prompt_file": "prompts/p038.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "a888b2b3bc8f485898905b5ee07f8c4584ed4f4982ba6d1347a0693fd0b235f0"
+  },
+  {
+    "id": "p039",
+    "asset": "assets/p039.png",
+    "start_frame": 5386,
+    "end_frame_exclusive": 5536,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "cue_ids": [
+      "c050"
+    ],
+    "cast": "raiders,sealed",
+    "event": "A拿货单加条件，戴手套的手往关闭侧门方向示意，姿态急躁；B在旁看门，均防护完整。",
+    "prompt_file": "prompts/p039.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "fd9b85ecc2058287b6cc519acd4a192cea68037b56167130bdf9688c6dcbcc48"
+  },
+  {
+    "id": "p040",
+    "asset": "assets/p040.png",
+    "start_frame": 5536,
+    "end_frame_exclusive": 5686,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "cue_ids": [
+      "c050",
+      "c051",
+      "c052"
+    ],
+    "cast": "raiders,sealed",
+    "event": "C把空手推车拉到关闭的侧门外，车上没有任何货，门一丝未开；只C一个人，大口钢板仍封住。",
+    "prompt_file": "prompts/p040.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "3220e99250f864050369d403446724cf14c36c20256c6cbe5bd26bc115fa9e9b"
+  },
+  {
+    "id": "p041",
+    "asset": "assets/p041.png",
+    "start_frame": 5686,
+    "end_frame_exclusive": 5850,
+    "duration_frames": 164,
+    "seconds": 5.466666666666667,
+    "paragraphs": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "cue_ids": [
+      "c052"
+    ],
+    "cast": "female",
+    "event": "许棠在封闭内门旁确认门没开，手放在身侧，神情专注坚定；只有她一个人，不画锁具结构。",
+    "prompt_file": "prompts/p041.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "962e6501622a9e120caf3118f7892de3ac10a549bb2a5a758d8422895a08aa38"
+  },
+  {
+    "id": "p042",
+    "asset": "assets/p042.png",
+    "start_frame": 5850,
+    "end_frame_exclusive": 5986,
+    "duration_frames": 136,
+    "seconds": 4.533333333333333,
+    "paragraphs": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "cue_ids": [
+      "c053"
+    ],
+    "cast": "raiders",
+    "event": "A在外侧通话器边挥手催装车，单子拿在另一手，面罩和棕补丁清楚；只A，干燥黄尘背景。",
+    "prompt_file": "prompts/p042.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "feb64ba189a8a07f9ba52f2a0ecb8d7cd161f2754329c08975bf951a72311332"
+  },
+  {
+    "id": "p043",
+    "asset": "assets/p043.png",
+    "start_frame": 5986,
+    "end_frame_exclusive": 6112,
+    "duration_frames": 126,
+    "seconds": 4.2,
+    "paragraphs": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "cue_ids": [
+      "c054",
+      "c055"
+    ],
+    "cast": "male",
+    "event": "男主拿起原有电台联系油库，门外通话器暂时放在桌边；近中景，神色冷静。",
+    "prompt_file": "prompts/p043.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "705674bc921ae9c7a43a338d5aa886c3ffbb5adb4d4568df7238236b1b265a4b"
+  },
+  {
+    "id": "p044",
+    "asset": "assets/p044.png",
+    "start_frame": 6112,
+    "end_frame_exclusive": 6243,
+    "duration_frames": 131,
+    "seconds": 4.366666666666666,
+    "paragraphs": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "cue_ids": [
+      "c056"
+    ],
+    "cast": "foreman",
+    "event": "油库负责人在基地办公室马上拿电台回信，身后车辆钥匙仍挂在柜旁；只一个负责人。",
+    "prompt_file": "prompts/p044.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "35d0b556264fb16ce3406aacff7a7ae32a150f4742531e98545942d126cdd219"
+  },
+  {
+    "id": "p045",
+    "asset": "assets/p045.png",
+    "start_frame": 6243,
+    "end_frame_exclusive": 6385,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "cue_ids": [
+      "c057",
+      "c058"
+    ],
+    "cast": "male",
+    "event": "男主听到基地核实消息后放下笔，看向显示器，脸色坚定，钥匙仍未拿起；一人。",
+    "prompt_file": "prompts/p045.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "cbab4944c64595dc6da6e7383f5180ee519d8a5556f4556d4dba529a082173b0"
+  },
+  {
+    "id": "p046",
+    "asset": "assets/p046.png",
+    "start_frame": 6385,
+    "end_frame_exclusive": 6505,
+    "duration_frames": 120,
+    "seconds": 4.0,
+    "paragraphs": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "cue_ids": [
+      "c059"
+    ],
+    "cast": "driver",
+    "event": "原司机站在油库封闭办公室电台前说明没有赎车和新送货，只有原司机，面罩挂颈、蓝胶带可见。",
+    "prompt_file": "prompts/p046.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "33fbc920c11ddc21ce30f8dd5296bf2d091ffe888a216ae7c090df0962a3a448"
+  },
+  {
+    "id": "p047",
+    "asset": "assets/p047.png",
+    "start_frame": 6505,
+    "end_frame_exclusive": 6646,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      43,
+      44,
+      45
+    ],
+    "cue_ids": [
+      "c060",
+      "c061"
+    ],
+    "cast": "male",
+    "event": "男主把原本准备交货的推车从厚内门后拉走，明确收回交易准备，门完全锁闭。",
+    "prompt_file": "prompts/p047.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "9ede8603fe5c84cfb8ab2a7e5ce49cedee7f403a102f0a18e3ec8cf3cbe9b40d"
+  },
+  {
+    "id": "p048",
+    "asset": "assets/p048.png",
+    "start_frame": 6646,
+    "end_frame_exclusive": 6787,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      43,
+      44,
+      45
+    ],
+    "cue_ids": [
+      "c061",
+      "c062"
+    ],
+    "cast": "raiders,sealed",
+    "event": "外面A举着单子等，B把配件箱搬近摄像头，C站空推车旁；三人全在关闭侧门外，不增第四人。",
+    "prompt_file": "prompts/p048.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "4ef3b78f9dacbc79a3c69a1c4604f679009244b9e01de03a16422425dee9ce30"
+  },
+  {
+    "id": "p049",
+    "asset": "assets/p049.png",
+    "start_frame": 6787,
+    "end_frame_exclusive": 6935,
+    "duration_frames": 148,
+    "seconds": 4.933333333333334,
+    "paragraphs": [
+      43,
+      44,
+      45
+    ],
+    "cue_ids": [
+      "c062",
+      "c063"
+    ],
+    "cast": "male",
+    "event": "男主在监控房保存门口录像，显示器只平面呈现三名冒充者，室内只有一个男主。",
+    "prompt_file": "prompts/p049.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "68778176d75cf3418ff1c47580a9f32e4eb334812ae6aa0b7efb95e13e93f9f0"
+  },
+  {
+    "id": "p050",
+    "asset": "assets/p050.png",
+    "start_frame": 6935,
+    "end_frame_exclusive": 7070,
+    "duration_frames": 135,
+    "seconds": 4.5,
+    "paragraphs": [
+      43,
+      44,
+      45
+    ],
+    "cue_ids": [
+      "c064"
+    ],
+    "cast": "none",
+    "event": "桌上原送货单、鞋手套订单与一块普通录像存储设备分开放置，零人物零手臂，画面不堆文字。",
+    "prompt_file": "prompts/p050.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "6bbc789b3bd2316df08ba8fe6305c8507c3dfcb76829f95632973ab8323d3430"
+  },
+  {
+    "id": "p051",
+    "asset": "assets/p051.png",
+    "start_frame": 7070,
+    "end_frame_exclusive": 7202,
+    "duration_frames": 132,
+    "seconds": 4.4,
+    "paragraphs": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c065"
+    ],
+    "cast": "male",
+    "event": "男主对着桌面通话器坚定拒绝开门，侧面近景，手边钥匙未动。",
+    "prompt_file": "prompts/p051.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "060fa93662a21d14c82472e01edee8b8313cfbd07c53286a1e29025b96fb49d6"
+  },
+  {
+    "id": "p052",
+    "asset": "assets/p052.png",
+    "start_frame": 7202,
+    "end_frame_exclusive": 7334,
+    "duration_frames": 132,
+    "seconds": 4.4,
+    "paragraphs": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c065",
+      "c066",
+      "c067"
+    ],
+    "cast": "raiders",
+    "event": "外院A慢慢把单子放下，皱眉看摄像头，浅灰防护服棕补丁身份稳定；只一人。",
+    "prompt_file": "prompts/p052.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "294b2b0e13e4bcf355be75f26c6958b07898f9f21db99cf983a10c509e30d878"
+  },
+  {
+    "id": "p053",
+    "asset": "assets/p053.png",
+    "start_frame": 7334,
+    "end_frame_exclusive": 7466,
+    "duration_frames": 132,
+    "seconds": 4.4,
+    "paragraphs": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c067",
+      "c068"
+    ],
+    "cast": "raiders,sealed",
+    "event": "A站在锁闭侧门前摊手强行索要桥费，B/C站身后，配件箱仍外放，三人无一进门。",
+    "prompt_file": "prompts/p053.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "e4d91703c89dcf417aecbbdb823a703c838284ab89cd551e2e3102b58905e71f"
+  },
+  {
+    "id": "p054",
+    "asset": "assets/p054.png",
+    "start_frame": 7466,
+    "end_frame_exclusive": 7597,
+    "duration_frames": 131,
+    "seconds": 4.366666666666666,
+    "paragraphs": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "cue_ids": [
+      "c068",
+      "c069"
+    ],
+    "cast": "both",
+    "event": "男主关掉门口通话，许棠在监控台把侧门画面单独调大；房间中只有男女主，外面的人只在二维屏幕里。",
+    "prompt_file": "prompts/p054.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "768116a20a0474c66fd5e0d86672fb0007881ce960720a16b63c7f9073ebb8e1"
+  },
+  {
+    "id": "p055",
+    "asset": "assets/p055.png",
+    "start_frame": 7597,
+    "end_frame_exclusive": 7743,
+    "duration_frames": 146,
+    "seconds": 4.866666666666666,
+    "paragraphs": [
+      50,
+      51,
+      52
+    ],
+    "cue_ids": [
+      "c070"
+    ],
+    "cast": "raiders,sealed",
+    "event": "A抬脚踢关闭的侧小门，B站旁边拉门把手，C站远处；电影中远景只表现无效动作结果，不画破锁细节，门无破洞。",
+    "prompt_file": "prompts/p055.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "b709f5eed077d308b2e9fc4687b1efabec725ea142732868ccb8e2297c217f9e"
+  },
+  {
+    "id": "p056",
+    "asset": "assets/p056.png",
+    "start_frame": 7743,
+    "end_frame_exclusive": 7890,
+    "duration_frames": 147,
+    "seconds": 4.9,
+    "paragraphs": [
+      50,
+      51,
+      52
+    ],
+    "cue_ids": [
+      "c070",
+      "c071",
+      "c072"
+    ],
+    "cast": "sealed",
+    "event": "旧大卸货口已彻底用整块钢板封住的外观近中景，旁边侧门仍关闭；无人无手臂，不显示锚固施工图。",
+    "prompt_file": "prompts/p056.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "2815bff3a9cd401996740ef71eea0e8373f991b4e981783707860638a5a74492"
+  },
+  {
+    "id": "p057",
+    "asset": "assets/p057.png",
+    "start_frame": 7890,
+    "end_frame_exclusive": 8036,
+    "duration_frames": 146,
+    "seconds": 4.866666666666666,
+    "paragraphs": [
+      50,
+      51,
+      52
+    ],
+    "cue_ids": [
+      "c072",
+      "c073"
+    ],
+    "cast": "female",
+    "event": "许棠留在厚内门内侧看侧门监控，门后没有待搬货物，神情沉稳，不走出去。",
+    "prompt_file": "prompts/p057.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "66a0dd174a2622682d22dfb20b8c335c1b0abaf89114eee556da2c3d5998d0f9"
+  },
+  {
+    "id": "p058",
+    "asset": "assets/p058.png",
+    "start_frame": 8036,
+    "end_frame_exclusive": 8176,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      53,
+      54
+    ],
+    "cue_ids": [
+      "c074"
+    ],
+    "cast": "truck,raiders",
+    "event": "B/C把装配件的箱子重新搬上同一白厢货车，A站外侧，三人准备撤走，无新柴油。",
+    "prompt_file": "prompts/p058.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "b3151a00400d29d484dd8d7738fdfc488f0cd43edf96ad2cd9fa6cc35c7f261c"
+  },
+  {
+    "id": "p059",
+    "asset": "assets/p059.png",
+    "start_frame": 8176,
+    "end_frame_exclusive": 8315,
+    "duration_frames": 139,
+    "seconds": 4.633333333333334,
+    "paragraphs": [
+      53,
+      54
+    ],
+    "cue_ids": [
+      "c074",
+      "c075"
+    ],
+    "cast": "male",
+    "event": "男主在监控台保存离去车辆的录像，然后拿起电台，室内一个人，背景门始终关闭。",
+    "prompt_file": "prompts/p059.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "0d402710c1cdee56e4abd607db04eef2beb7aa636b6f54c055428eb91a9ff17e"
+  },
+  {
+    "id": "p060",
+    "asset": "assets/p060.png",
+    "start_frame": 8315,
+    "end_frame_exclusive": 8465,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "cue_ids": [
+      "c076",
+      "c077"
+    ],
+    "cast": "male",
+    "event": "男主把经过向油库电台讲清，桌上送货单与保存的录像设备并排，表情严肃。",
+    "prompt_file": "prompts/p060.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "9f846958848244b462305b805fae8d23787e7cc23a23fc5f43ce397453a01ff8"
+  },
+  {
+    "id": "p061",
+    "asset": "assets/p061.png",
+    "start_frame": 8465,
+    "end_frame_exclusive": 8615,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "cue_ids": [
+      "c077",
+      "c078",
+      "c079"
+    ],
+    "cast": "foreman,driver",
+    "event": "油库封闭办公室，负责人让原司机听电台里冒充者的声音，司机认真辨认，蓝臂带清楚，只有两人。",
+    "prompt_file": "prompts/p061.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "f247e242ce338cffa516211827a50bb24f1e3e7774f89eccdb4cab04ea2f0066"
+  },
+  {
+    "id": "p062",
+    "asset": "assets/p062.png",
+    "start_frame": 8615,
+    "end_frame_exclusive": 8755,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "cue_ids": [
+      "c079",
+      "c080"
+    ],
+    "cast": "male",
+    "event": "男主在电台前主动问如何处理桥头，已经将原交换箱放回仓内，姿态坚硬冷静。",
+    "prompt_file": "prompts/p062.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "c785e6a3049609051a06d77d7e2a98ef9d4c708b3c79115fd827fd2fcab74a49"
+  },
+  {
+    "id": "p063",
+    "asset": "assets/p063.png",
+    "start_frame": 8755,
+    "end_frame_exclusive": 8914,
+    "duration_frames": 159,
+    "seconds": 5.3,
+    "paragraphs": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "cue_ids": [
+      "c081",
+      "c082"
+    ],
+    "cast": "foreman",
+    "event": "油库负责人在桌前听另一车主请求取回工具车，空钥匙圈和车辆单据放桌面；只负责人一个人。",
+    "prompt_file": "prompts/p063.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "91a95894e4917832f4a48e49888cf41fbd1fe3c20ac64a61af03ce121afdaa3f"
+  },
+  {
+    "id": "p064",
+    "asset": "assets/p064.png",
+    "start_frame": 8914,
+    "end_frame_exclusive": 9059,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c083",
+      "c084"
+    ],
+    "cast": "foreman",
+    "event": "油库封闭办公室，负责人和两名留守工人核对值班安排，桌上只是值班条目，绝不画战术部署地图；三人。",
+    "prompt_file": "prompts/p064.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "2ee767077ec846c8669b050ce39ccb423acf686c374af07817db4b8de97a0b1b"
+  },
+  {
+    "id": "p065",
+    "asset": "assets/p065.png",
+    "start_frame": 9059,
+    "end_frame_exclusive": 9204,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c084",
+      "c085"
+    ],
+    "cast": "male",
+    "event": "男主通过电台提出承担外出物资，身后可见整齐的水粮和劳保用品货架；一人。",
+    "prompt_file": "prompts/p065.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "efc50ee9fe2b40a6efe8682cc4a998e4047145e39639e89a3136fbd0f8c50fdb"
+  },
+  {
+    "id": "p066",
+    "asset": "assets/p066.png",
+    "start_frame": 9204,
+    "end_frame_exclusive": 9350,
+    "duration_frames": 146,
+    "seconds": 4.866666666666666,
+    "paragraphs": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c085",
+      "c086"
+    ],
+    "cast": "male",
+    "event": "男主在订单旁另记今后护送费用，电台放旁边，表情务实坚决，不画清楚长文字。",
+    "prompt_file": "prompts/p066.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "bfda49daa9b6562055e74db747bd9350c18076085c113ddaf7e6521282bab3c6"
+  },
+  {
+    "id": "p067",
+    "asset": "assets/p067.png",
+    "start_frame": 9350,
+    "end_frame_exclusive": 9496,
+    "duration_frames": 146,
+    "seconds": 4.866666666666666,
+    "paragraphs": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c086",
+      "c087",
+      "c088"
+    ],
+    "cast": "foreman",
+    "event": "负责人在基地普通会议桌旁听取三名工人的意见，四人面罩挂颈；仅普通商议，不展示袭击计划、武器操作或具体部署。",
+    "prompt_file": "prompts/p067.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "93c34aced352665a0a4304c3cb6215ae3853db27489fa3a12c9998c44426732a"
+  },
+  {
+    "id": "p068",
+    "asset": "assets/p068.png",
+    "start_frame": 9496,
+    "end_frame_exclusive": 9641,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "cue_ids": [
+      "c088"
+    ],
+    "cast": "none",
+    "event": "基地院内几辆待用普通车辆与独立储油罐各自放置，干燥黄尘天空；零人物无军队，不画行动路线。",
+    "prompt_file": "prompts/p068.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "6d45a5366201b2e5b8cac09c301800235d58de74eeacfbc36bc4c9e5493223a2"
+  },
+  {
+    "id": "p069",
+    "asset": "assets/p069.png",
+    "start_frame": 9641,
+    "end_frame_exclusive": 9782,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      63,
+      64
+    ],
+    "cue_ids": [
+      "c089",
+      "c090"
+    ],
+    "cast": "foreman",
+    "event": "油库负责人和运工具车的中年车主在封闭办公室核对失物记录，只有两人，车主穿深蓝工装；普通补偿协商。",
+    "prompt_file": "prompts/p069.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "c0f6b6b23050e846d73384c4f37337e9b01b8cf3b9c97f133bfd85cb871f64c0"
+  },
+  {
+    "id": "p070",
+    "asset": "assets/p070.png",
+    "start_frame": 9782,
+    "end_frame_exclusive": 9922,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      63,
+      64
+    ],
+    "cue_ids": [
+      "c090",
+      "c091",
+      "c092"
+    ],
+    "cast": "male",
+    "event": "男主在电台前确认继续备货，把几张需求单并到一起，只有男主。",
+    "prompt_file": "prompts/p070.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "05f8e6aab20702916e9c24bfe7e82d6a73acbbee2d10debb11dee9a037e776e2"
+  },
+  {
+    "id": "p071",
+    "asset": "assets/p071.png",
+    "start_frame": 9922,
+    "end_frame_exclusive": 10062,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      63,
+      64
+    ],
+    "cue_ids": [
+      "c092",
+      "c093"
+    ],
+    "cast": "male",
+    "event": "男主在显示器上停住三名冒充者的画面，另存身份记录；屏幕外只有一个男主，不把外人画进房间。",
+    "prompt_file": "prompts/p071.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "1314ab97e554106fa94fbf65b96ac1a01060d7c3bafac9c886fe28b54046cc99"
+  },
+  {
+    "id": "p072",
+    "asset": "assets/p072.png",
+    "start_frame": 10062,
+    "end_frame_exclusive": 10203,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      63,
+      64
+    ],
+    "cue_ids": [
+      "c093",
+      "c094"
+    ],
+    "cast": "none",
+    "event": "录像设备与三张模糊人物截图放在工作桌上，旁边订单已归好；无人无手臂，不画警方通缉海报。",
+    "prompt_file": "prompts/p072.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "dad0783af31c9e180581ee78a0385111ec277c9586c643ff896724e8bbdeeaab"
+  },
+  {
+    "id": "p073",
+    "asset": "assets/p073.png",
+    "start_frame": 10203,
+    "end_frame_exclusive": 10354,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      65,
+      66,
+      67
+    ],
+    "cue_ids": [
+      "c095",
+      "c096"
+    ],
+    "cast": "both",
+    "event": "男女主走到干净后仓劳保和食品货架前挑选余货，只有两人，有序大形，不画无限货海。",
+    "prompt_file": "prompts/p073.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "e9baf0137fa9578f5b348dc068953e1d45e5195d88394c9d48c7cf0ffdd6275a"
+  },
+  {
+    "id": "p074",
+    "asset": "assets/p074.png",
+    "start_frame": 10354,
+    "end_frame_exclusive": 10514,
+    "duration_frames": 160,
+    "seconds": 5.333333333333333,
+    "paragraphs": [
+      65,
+      66,
+      67
+    ],
+    "cue_ids": [
+      "c097"
+    ],
+    "cast": "female",
+    "event": "许棠把工作手套、头灯与未拆电池分开放进小箱，桌上没有武器零件；一人。",
+    "prompt_file": "prompts/p074.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "8833f0e21948fd71b1c44a96a1c67f20fd75300405fb27b638847fd144230d39"
+  },
+  {
+    "id": "p075",
+    "asset": "assets/p075.png",
+    "start_frame": 10514,
+    "end_frame_exclusive": 10654,
+    "duration_frames": 140,
+    "seconds": 4.666666666666667,
+    "paragraphs": [
+      65,
+      66,
+      67
+    ],
+    "cue_ids": [
+      "c098"
+    ],
+    "cast": "none",
+    "event": "近处少量支援箱已封好，深处留用水和粮食仍整齐放在货架，两组分开明显；无人无手臂。",
+    "prompt_file": "prompts/p075.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "22b7f65261c5e2c90121cb8c51548ea6d32e551c948eb1b4a38119e610f292f5"
+  },
+  {
+    "id": "p076",
+    "asset": "assets/p076.png",
+    "start_frame": 10654,
+    "end_frame_exclusive": 10799,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "cue_ids": [
+      "c099",
+      "c100"
+    ],
+    "cast": "male",
+    "event": "男主在电台前核对对方缺的食物与消耗品，面前箱子数量有限，只有男主。",
+    "prompt_file": "prompts/p076.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "86193037c1b8a38fc2219356deacdd9248bb62152200aa2db576254ff7e359a4"
+  },
+  {
+    "id": "p077",
+    "asset": "assets/p077.png",
+    "start_frame": 10799,
+    "end_frame_exclusive": 10944,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "cue_ids": [
+      "c100",
+      "c101",
+      "c102"
+    ],
+    "cast": "bridge",
+    "event": "旧桥路障仍在，两辆废轿车未撤，货车不能过；空镜无人，没有物资已跨桥的错误。",
+    "prompt_file": "prompts/p077.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "049adda8c9034646febad3713ad76edcb58a763eba4ebbae3dd1563d0816d352"
+  },
+  {
+    "id": "p078",
+    "asset": "assets/p078.png",
+    "start_frame": 10944,
+    "end_frame_exclusive": 11081,
+    "duration_frames": 137,
+    "seconds": 4.566666666666666,
+    "paragraphs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "cue_ids": [
+      "c102"
+    ],
+    "cast": "foreman",
+    "event": "油库负责人在基地内从自有货架取出有限水与罐头，准备先垫供本次出行；只有负责人，不画山姆的货已经运来。",
+    "prompt_file": "prompts/p078.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "0643d85e0caba0fba3659e12d1230eb8ce9d1be02586ec0e14b12f669ec63cdc"
+  },
+  {
+    "id": "p079",
+    "asset": "assets/p079.png",
+    "start_frame": 11081,
+    "end_frame_exclusive": 11224,
+    "duration_frames": 143,
+    "seconds": 4.766666666666667,
+    "paragraphs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "cue_ids": [
+      "c103",
+      "c104"
+    ],
+    "cast": "both",
+    "event": "男女主在仓内把补还的水罐头和另谈的报酬分成两批箱子，全部停在关闭厚内门后；只有两人。",
+    "prompt_file": "prompts/p079.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "5d30457b70159f0a1b40d43365135c55056f842472c73f8455f5fa10155381be"
+  },
+  {
+    "id": "p080",
+    "asset": "assets/p080.png",
+    "start_frame": 11224,
+    "end_frame_exclusive": 11374,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "cue_ids": [
+      "c105"
+    ],
+    "cast": "male",
+    "event": "男主在本地监控电脑上分别保存三名冒充者的画面，电台在旁边但没有传输视频，室内只男主。",
+    "prompt_file": "prompts/p080.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "ec375862b719c3f6a356e4abbdf91091f236d5a32b9c618d0ca3a3c911bfb392"
+  },
+  {
+    "id": "p081",
+    "asset": "assets/p081.png",
+    "start_frame": 11374,
+    "end_frame_exclusive": 11523,
+    "duration_frames": 149,
+    "seconds": 4.966666666666667,
+    "paragraphs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "cue_ids": [
+      "c105",
+      "c106"
+    ],
+    "cast": "none",
+    "event": "内门后的支援箱均已封好，两批货分开放置，侧门与核心内门各自关闭，零人物零手臂，没有外运。",
+    "prompt_file": "prompts/p081.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "4954e375af1f62891d472fcb51e8197e290129005a08224a3d3bb07fe4aa0c94"
+  },
+  {
+    "id": "p082",
+    "asset": "assets/p082.png",
+    "start_frame": 11523,
+    "end_frame_exclusive": 11680,
+    "duration_frames": 157,
+    "seconds": 5.233333333333333,
+    "paragraphs": [
+      72,
+      73,
+      74
+    ],
+    "cue_ids": [
+      "c107",
+      "c108"
+    ],
+    "cast": "foreman",
+    "event": "翌日油库基地，负责人在封闭办公室用电台通知已出发，桌上是一般值班记录；不展示战术或路线。",
+    "prompt_file": "prompts/p082.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "47cbff102042831559e12201700e6cd635a7e9ba6bfd192b924fc44bdd0ca4ac"
+  },
+  {
+    "id": "p083",
+    "asset": "assets/p083.png",
+    "start_frame": 11680,
+    "end_frame_exclusive": 11838,
+    "duration_frames": 158,
+    "seconds": 5.266666666666667,
+    "paragraphs": [
+      72,
+      73,
+      74
+    ],
+    "cue_ids": [
+      "c108",
+      "c109",
+      "c110"
+    ],
+    "cast": "none",
+    "event": "监控桌上的电台与保存的门外冒充送货视频，视频仅在显示器里呈现三个人；无人无手臂。",
+    "prompt_file": "prompts/p083.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "64d62c4d6312601e9826049b3cbaa5cf326a1f64b55e53fa57d615261c00df6e"
+  },
+  {
+    "id": "p084",
+    "asset": "assets/p084.png",
+    "start_frame": 11838,
+    "end_frame_exclusive": 11995,
+    "duration_frames": 157,
+    "seconds": 5.233333333333333,
+    "paragraphs": [
+      72,
+      73,
+      74
+    ],
+    "cue_ids": [
+      "c110",
+      "c111"
+    ],
+    "cast": "male",
+    "event": "当天下午男主拿起电台听到桥路已清，神情稍松但认真确认，不画庆祝夸张笑。",
+    "prompt_file": "prompts/p084.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "a982644a833e0b9d065d6943c74b3df74612a7d6f6e20867461d8cdcfba83244"
+  },
+  {
+    "id": "p085",
+    "asset": "assets/p085.png",
+    "start_frame": 11995,
+    "end_frame_exclusive": 12156,
+    "duration_frames": 161,
+    "seconds": 5.366666666666666,
+    "paragraphs": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c112",
+      "c113"
+    ],
+    "cast": "bridge,raiders",
+    "event": "结果画面：桥边铁皮棚外八名成年拦路者受控坐着，A棕补丁/B瘦高/C圆脸在其中，几位基地人员远处看守；全景无血无刑罚，不展示控制技巧。",
+    "prompt_file": "prompts/p085.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "c701088095857380c4eed05214be8c410837c0a63ff4847e3d3c16f5e07e4970"
+  },
+  {
+    "id": "p086",
+    "asset": "assets/p086.png",
+    "start_frame": 12156,
+    "end_frame_exclusive": 12311,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c114",
+      "c115"
+    ],
+    "cast": "truck,bridge",
+    "event": "追回的白厢货车和另一工具车停在已开始清理的桥边，车体完整可开，两箱配件在货车后箱中，零人物。",
+    "prompt_file": "prompts/p086.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "167f4a7078e9ee55d972f6dd1041b43dbb2c58f215a834e58944659b49cb8f57"
+  },
+  {
+    "id": "p087",
+    "asset": "assets/p087.png",
+    "start_frame": 12311,
+    "end_frame_exclusive": 12466,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c115",
+      "c116"
+    ],
+    "cast": "none",
+    "event": "封闭基地医务角落，一名成年工作人员前臂已包扎白纱布，旁边普通急救包；无血无伤口细节，一人，不画治疗操作。",
+    "prompt_file": "prompts/p087.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "e74941466f6f484992b5320d676603a9f62befa5ed0d57ee6ed20e6bd413ed26"
+  },
+  {
+    "id": "p088",
+    "asset": "assets/p088.png",
+    "start_frame": 12466,
+    "end_frame_exclusive": 12621,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "cue_ids": [
+      "c116",
+      "c117"
+    ],
+    "cast": "female",
+    "event": "许棠从后仓药品柜取原封干净敷料，放进待交支援箱，只有许棠，柜内有序。",
+    "prompt_file": "prompts/p088.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "29edbcccbb44870a1291b5ea291f3fb0f46edfc376987c08bf748d4c7f1cceff"
+  },
+  {
+    "id": "p089",
+    "asset": "assets/p089.png",
+    "start_frame": 12621,
+    "end_frame_exclusive": 12772,
+    "duration_frames": 151,
+    "seconds": 5.033333333333333,
+    "paragraphs": [
+      79,
+      80,
+      81,
+      82
+    ],
+    "cue_ids": [
+      "c118",
+      "c119"
+    ],
+    "cast": "male",
+    "event": "较后时间男主在监控房观看带回的行车记录仪录像，屏幕里是旧桥，室内只有男主，不让外人进入核心。",
+    "prompt_file": "prompts/p089.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "d3ee9aa22c0ce3ad30547012599a8147cd2733a39578d5d2b5889356da26b52b"
+  },
+  {
+    "id": "p090",
+    "asset": "assets/p090.png",
+    "start_frame": 12772,
+    "end_frame_exclusive": 12911,
+    "duration_frames": 139,
+    "seconds": 4.633333333333334,
+    "paragraphs": [
+      79,
+      80,
+      81,
+      82
+    ],
+    "cue_ids": [
+      "c119",
+      "c120"
+    ],
+    "cast": "bridge,truck",
+    "event": "回放内容的新电影画面：行动前铁皮棚前立着木牌“过桥交粮”，白厢货车与工具车被扣在棚边，两辆废车仍横挡。零人物。",
+    "prompt_file": "prompts/p090.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "2faa9e50cd17bbd80850ce0011d801c3be826342ebd5292b025e3d2ea1792a89"
+  },
+  {
+    "id": "p091",
+    "asset": "assets/p091.png",
+    "start_frame": 12911,
+    "end_frame_exclusive": 13066,
+    "duration_frames": 155,
+    "seconds": 5.166666666666667,
+    "paragraphs": [
+      79,
+      80,
+      81,
+      82
+    ],
+    "cue_ids": [
+      "c121",
+      "c122"
+    ],
+    "cast": "bridge,raiders",
+    "event": "回放中B持一根下垂铁棍站在棚口，听到远处声响后后退，表情惊惧；只B，面罩完整，远景，不画开枪人、射击教学或受伤。",
+    "prompt_file": "prompts/p091.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "93289131a826d2b4250d1987425b434e9634ba0db9bf44194d2b28e7eb5e488c"
+  },
+  {
+    "id": "p092",
+    "asset": "assets/p092.png",
+    "start_frame": 13066,
+    "end_frame_exclusive": 13226,
+    "duration_frames": 160,
+    "seconds": 5.333333333333333,
+    "paragraphs": [
+      79,
+      80,
+      81,
+      82
+    ],
+    "cue_ids": [
+      "c122",
+      "c123"
+    ],
+    "cast": "bridge",
+    "event": "回放结果：棚边几根铁棍已丢地上，两个拦路者被带离车前，基地人员正常站立看守；电影远景无血，不示范按压技巧或武器操作。",
+    "prompt_file": "prompts/p092.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "305949abaabe9ce3a49d4d9035148d5d4a44c5d958916c6325c8db8e14556438"
+  },
+  {
+    "id": "p093",
+    "asset": "assets/p093.png",
+    "start_frame": 13226,
+    "end_frame_exclusive": 13378,
+    "duration_frames": 152,
+    "seconds": 5.066666666666666,
+    "paragraphs": [
+      79,
+      80,
+      81,
+      82
+    ],
+    "cue_ids": [
+      "c124",
+      "c125"
+    ],
+    "cast": "raiders,bridge",
+    "event": "后续录像：棕补丁A独自蹲在棚外，面罩已摘到颈部，脸与参考左一一致，手边一张搜出的配件单；只有A，不画施虐。",
+    "prompt_file": "prompts/p093.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "eca4bc1e01b4dd8a451eb0e0a8ccaf6d4a49c525e336f8fb921ee750bd81e2d1"
+  },
+  {
+    "id": "p094",
+    "asset": "assets/p094.png",
+    "start_frame": 13378,
+    "end_frame_exclusive": 13530,
+    "duration_frames": 152,
+    "seconds": 5.066666666666666,
+    "paragraphs": [
+      79,
+      80,
+      81,
+      82
+    ],
+    "cue_ids": [
+      "c125",
+      "c126"
+    ],
+    "cast": "male",
+    "event": "男主暂停监视器中的A画面，认真比对门前录像，两个屏幕仅是二维，实体只一个男主。",
+    "prompt_file": "prompts/p094.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "a1d24c90e0ec636004d1fcb9202e8cc973cd58bb3feb564110aba83e7e333974"
+  },
+  {
+    "id": "p095",
+    "asset": "assets/p095.png",
+    "start_frame": 13530,
+    "end_frame_exclusive": 13672,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c127",
+      "c128"
+    ],
+    "cast": "foreman",
+    "event": "负责人在基地室内核对被扣货物登记，原车主在门外等，画面实体只负责人，干净有序不画审讯。",
+    "prompt_file": "prompts/p095.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "8d62f51bf57d518b1cc9a02ffe5db3f37e4e9e570189ed51e2bac213dbf4b0ab"
+  },
+  {
+    "id": "p096",
+    "asset": "assets/p096.png",
+    "start_frame": 13672,
+    "end_frame_exclusive": 13813,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c128",
+      "c129",
+      "c130"
+    ],
+    "cast": "none",
+    "event": "找回的几箱工具和日用品分别编号等待认领，放在基地普通货架上，零人物零手臂，不画没收食品作为战利品。",
+    "prompt_file": "prompts/p096.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "48bb290a0577deeb2b7682e5d877d707cef3919459d70bc1db4a336d580f501b"
+  },
+  {
+    "id": "p097",
+    "asset": "assets/p097.png",
+    "start_frame": 13813,
+    "end_frame_exclusive": 13954,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c130",
+      "c131"
+    ],
+    "cast": "none",
+    "event": "桌面配件单留白处多了大米瓶装水罐头等手写项目，项目少量可辨，其余不堆字；零人物零手臂。",
+    "prompt_file": "prompts/p097.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "2fab23907ca33947431d481d11e43b11d974e2c8b32a50d6de1658b0168d2b1e"
+  },
+  {
+    "id": "p098",
+    "asset": "assets/p098.png",
+    "start_frame": 13954,
+    "end_frame_exclusive": 14096,
+    "duration_frames": 142,
+    "seconds": 4.733333333333333,
+    "paragraphs": [
+      83,
+      84,
+      85
+    ],
+    "cue_ids": [
+      "c131"
+    ],
+    "cast": "male",
+    "event": "男主将被篡改的货单与自己原记录并排看，神情冷静确认对方索货一致，只有男主。",
+    "prompt_file": "prompts/p098.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "c50d612c4345c5a5809056631c3348c4ef2fe369f9700afccc85a201e1a978e6"
+  },
+  {
+    "id": "p099",
+    "asset": "assets/p099.png",
+    "start_frame": 14096,
+    "end_frame_exclusive": 14241,
+    "duration_frames": 145,
+    "seconds": 4.833333333333333,
+    "paragraphs": [
+      86,
+      87,
+      88
+    ],
+    "cue_ids": [
+      "c132",
+      "c133"
+    ],
+    "cast": "bridge",
+    "event": "工具车主穿完整防护服站在领回的工具车后查看工具，车体完好，车厢只剩部分工具，一人；桥边路障已撤开。",
+    "prompt_file": "prompts/p099.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "2e56f66a5cf3f3bb85ce55d0bbcfb678289898736fc339251b95fd1da606e1ef"
+  },
+  {
+    "id": "p100",
+    "asset": "assets/p100.png",
+    "start_frame": 14241,
+    "end_frame_exclusive": 14371,
+    "duration_frames": 130,
+    "seconds": 4.333333333333333,
+    "paragraphs": [
+      86,
+      87,
+      88
+    ],
+    "cue_ids": [
+      "c133"
+    ],
+    "cast": "bridge",
+    "event": "两辆挡路废轿车已经挪到桥外侧空地，完整桥面通畅，铁皮棚前收费木牌已拆下放倒；零人物零手臂。",
+    "prompt_file": "prompts/p100.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "cc28c4461c9f2b7bb2aec53f29567093702e13a2e54431b66fcb718e45231c14"
+  },
+  {
+    "id": "p101",
+    "asset": "assets/p101.png",
+    "start_frame": 14371,
+    "end_frame_exclusive": 14521,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      86,
+      87,
+      88
+    ],
+    "cue_ids": [
+      "c134",
+      "c135"
+    ],
+    "cast": "foreman",
+    "event": "负责人在电台旁核对后续货车护送人员名单，只普通出车登记，不画战术路线或作战部署。",
+    "prompt_file": "prompts/p101.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "a01c27488170931e06050a46282d7f6e470a996be93d4ac0eae9327a0cc71747"
+  },
+  {
+    "id": "p102",
+    "asset": "assets/p102.png",
+    "start_frame": 14521,
+    "end_frame_exclusive": 14670,
+    "duration_frames": 149,
+    "seconds": 4.966666666666667,
+    "paragraphs": [
+      86,
+      87,
+      88
+    ],
+    "cue_ids": [
+      "c135",
+      "c136"
+    ],
+    "cast": "male",
+    "event": "男主在内侧电台前约原司机送配件，桌上待交工作鞋手套与支援单分开，只有男主。",
+    "prompt_file": "prompts/p102.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "f50fd17b3b5bd3b725caf39e401e0b4fa2e32f15b5c28420353b7a2f0784f1c2"
+  },
+  {
+    "id": "p103",
+    "asset": "assets/p103.png",
+    "start_frame": 14670,
+    "end_frame_exclusive": 14820,
+    "duration_frames": 150,
+    "seconds": 5.0,
+    "paragraphs": [
+      86,
+      87,
+      88
+    ],
+    "cue_ids": [
+      "c136",
+      "c137"
+    ],
+    "cast": "bridge",
+    "event": "工具小车已通过清空的旧桥，车道无废车无收费牌，黄尘天空不变；零人物。",
+    "prompt_file": "prompts/p103.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "da51675dff7dfb456ad623a2a572443173002e5fd80834b0df689a2ec0f31bb7"
+  },
+  {
+    "id": "p104",
+    "asset": "assets/p104.png",
+    "start_frame": 14820,
+    "end_frame_exclusive": 14969,
+    "duration_frames": 149,
+    "seconds": 4.966666666666667,
+    "paragraphs": [
+      89,
+      90,
+      91
+    ],
+    "cue_ids": [
+      "c138",
+      "c139"
+    ],
+    "cast": "truck,sealed",
+    "event": "再隔一天，原白厢货车再次停到山姆外围，钢板封口和关闭侧门完好；零人物零手臂，没有油罐车。",
+    "prompt_file": "prompts/p104.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "24f2b573ed8aacfde227e3bdf7e09bb2dc6b22ed4cc754ba9aff82ddc0666ff9"
+  },
+  {
+    "id": "p105",
+    "asset": "assets/p105.png",
+    "start_frame": 14969,
+    "end_frame_exclusive": 15136,
+    "duration_frames": 167,
+    "seconds": 5.566666666666666,
+    "paragraphs": [
+      89,
+      90,
+      91
+    ],
+    "cue_ids": [
+      "c140",
+      "c141"
+    ],
+    "cast": "female",
+    "event": "许棠在内侧收货桌核对收到的机油桶和滤芯盒，新外包装完整，门外人员不出现；只有许棠。",
+    "prompt_file": "prompts/p105.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "df899f517d9f9ef52e33e377660bf31139a35295a73df5d7453450af52f6cb14"
+  },
+  {
+    "id": "p106",
+    "asset": "assets/p106.png",
+    "start_frame": 15136,
+    "end_frame_exclusive": 15303,
+    "duration_frames": 167,
+    "seconds": 5.566666666666666,
+    "paragraphs": [
+      89,
+      90,
+      91
+    ],
+    "cue_ids": [
+      "c141",
+      "c142"
+    ],
+    "cast": "driver,truck",
+    "event": "原司机在外围把已交付的工作鞋与手套箱装进白色小货车，防护穿戴完整，只有司机。",
+    "prompt_file": "prompts/p106.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "6c3baf75c5417445885f7d5c2435df566bf00d051d8efdfb7078136bb4e606a5"
+  },
+  {
+    "id": "p107",
+    "asset": "assets/p107.png",
+    "start_frame": 15303,
+    "end_frame_exclusive": 15468,
+    "duration_frames": 165,
+    "seconds": 5.5,
+    "paragraphs": [
+      92,
+      93,
+      94
+    ],
+    "cue_ids": [
+      "c143",
+      "c144"
+    ],
+    "cast": "sealed",
+    "event": "外围另一辆普通支援小货车旁整齐摆水罐头与敷料箱，戴防护装备的两名工作人员核对，不能有男女主在室外。",
+    "prompt_file": "prompts/p107.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "bf8cac80c6eded51e0e03f621dc170ed1cdd1dc64d06e63a664929a929a3e7ff"
+  },
+  {
+    "id": "p108",
+    "asset": "assets/p108.png",
+    "start_frame": 15468,
+    "end_frame_exclusive": 15630,
+    "duration_frames": 162,
+    "seconds": 5.4,
+    "paragraphs": [
+      92,
+      93,
+      94
+    ],
+    "cue_ids": [
+      "c144",
+      "c145"
+    ],
+    "cast": "both",
+    "event": "男女主在内侧核对交付清单，补还与报酬两项分别勾记，已经收下的机油滤芯放旁边，只有两人。",
+    "prompt_file": "prompts/p108.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "3e4382761f5daa6f6f99ce2f470a5f0d31da1e293601c8ad8195ee49ca7095c9"
+  },
+  {
+    "id": "p109",
+    "asset": "assets/p109.png",
+    "start_frame": 15630,
+    "end_frame_exclusive": 15793,
+    "duration_frames": 163,
+    "seconds": 5.433333333333334,
+    "paragraphs": [
+      92,
+      93,
+      94
+    ],
+    "cue_ids": [
+      "c146"
+    ],
+    "cast": "none",
+    "event": "独立设备柜前原油量记录本、保养件说明与未来订单归在一起；无人无手臂，不凭空新增柴油。",
+    "prompt_file": "prompts/p109.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "7963dfb498ab53affa921be9abf2996313f4411b28717eaa56788149114547ef"
+  },
+  {
+    "id": "p110",
+    "asset": "assets/p110.png",
+    "start_frame": 15793,
+    "end_frame_exclusive": 15965,
+    "duration_frames": 172,
+    "seconds": 5.733333333333333,
+    "paragraphs": [
+      92,
+      93,
+      94
+    ],
+    "cue_ids": [
+      "c147"
+    ],
+    "cast": "bridge",
+    "event": "清出的旧桥旁一辆普通护送车辆正常停靠查看通行，桥面通畅没有新路障；远景无人，无武器操作。",
+    "prompt_file": "prompts/p110.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "d34c2fa3e4276363dcaaf081f67bb8a306f2a8d368d6cf3d5598619855c7747c"
+  },
+  {
+    "id": "p111",
+    "asset": "assets/p111.png",
+    "start_frame": 15965,
+    "end_frame_exclusive": 16106,
+    "duration_frames": 141,
+    "seconds": 4.7,
+    "paragraphs": [
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c148"
+    ],
+    "cast": "driver,truck",
+    "event": "原司机在装好鞋手套箱的小货车旁用电台联系基地，左臂蓝胶带、完整面罩护目镜兜帽稳定，只有司机。",
+    "prompt_file": "prompts/p111.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "7e89a8381134e501925e65274d4daa8e86004a6488087594123d6db9bc9f6d5b"
+  },
+  {
+    "id": "p112",
+    "asset": "assets/p112.png",
+    "start_frame": 16106,
+    "end_frame_exclusive": 16230,
+    "duration_frames": 124,
+    "seconds": 4.133333333333334,
+    "paragraphs": [
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c149",
+      "c150"
+    ],
+    "cast": "male",
+    "event": "男主回到监控台，屏幕里两辆货车依次离开外院，室内只有男主；影像只在二维屏幕中。",
+    "prompt_file": "prompts/p112.json",
+    "transition_location": "cue_gap",
+    "duration_exception": null,
+    "selected_image_sha256": "33ab5a214868d9ee9493151bd63fcd27619531d2b4b189cb4d6e7e42c075efc6"
+  },
+  {
+    "id": "p113",
+    "asset": "assets/p113.png",
+    "start_frame": 16230,
+    "end_frame_exclusive": 16354,
+    "duration_frames": 124,
+    "seconds": 4.133333333333334,
+    "paragraphs": [
+      95,
+      96
+    ],
+    "cue_ids": [
+      "c150"
+    ],
+    "cast": "truck,sealed",
+    "event": "结尾外院远景，同一白厢货车跟另一普通小货车依次开远，山姆钢板封口和关闭小门完好，黄尘天空，零人物。",
+    "prompt_file": "prompts/p113.json",
+    "transition_location": "within_continuous_speech_no_extra_wait",
+    "duration_exception": null,
+    "selected_image_sha256": "4dd1150ccee896729be2d34a4cb0174771db82cb3639153b447043991eee6d6e"
+  }
+]

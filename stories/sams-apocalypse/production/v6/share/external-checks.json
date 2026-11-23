@@ -1,0 +1,52 @@
+{
+  "url": "https://sacred-announcements-actions-routes.trycloudflare.com/v6",
+  "checks": [
+    {
+      "file": "index.html",
+      "http": 200,
+      "bytes_exact": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v6_silent.zh-CN.srt",
+      "http": 200,
+      "bytes_exact": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v6_silent.zh-CN.vtt",
+      "http": 200,
+      "bytes_exact": true
+    },
+    {
+      "file": "EP001-EP008_v6_subtitles.zip",
+      "http": 200,
+      "bytes_exact": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v6_silent.mp4",
+      "range": [
+        0,
+        4095
+      ],
+      "http": 206,
+      "bytes_exact": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v6_silent.mp4",
+      "range": [
+        22625549,
+        22629644
+      ],
+      "http": 206,
+      "bytes_exact": true
+    },
+    {
+      "file": "EP001-EP008_sams_apocalypse_v6_silent.mp4",
+      "range": [
+        45247003,
+        45251098
+      ],
+      "http": 206,
+      "bytes_exact": true
+    }
+  ]
+}

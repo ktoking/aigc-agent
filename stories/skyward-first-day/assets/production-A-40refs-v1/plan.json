@@ -1,0 +1,1449 @@
+{
+  "version": "A-40refs-v1",
+  "mode": "built_in_imagegen",
+  "status": "complete",
+  "style": "A",
+  "date": "2026-10-28",
+  "requested_files": 40,
+  "requested_per_segment": 10,
+  "planned_new_generation_jobs": 33,
+  "anchors": {
+    "style": "assets/style/selected-style-A.png",
+    "home": "assets/characters/lin-tao/reference-home-v1.png",
+    "out": "assets/characters/lin-tao/reference-out-v1.png",
+    "robot": "assets/characters/xiao-man/reference-three-view-v1.png"
+  },
+  "jobs": [
+    {
+      "id": "q01",
+      "label": "卧室空间",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A wide eye-level 28mm environment establishing shot of the apartment BEDROOM, with NO people or robots. Bed occupies the left/center, cream duvet rumpled once at the top, two pillows at the head; a pale wood bedside cabinet to the bed right holds one intact small cream round twin-peach-ear alarm clock. Window on camera left provides warm morning sidelight; bathroom doorway on room right with a walkable gap between cabinet and door. Soft peach/cream walls, understated furniture, clean dry floor, no random decoration. The camera is near the bed foot so the bed/cabinet/window/door relative positions are easy to reuse.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q01.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-0ffcaffb-76f0-42e1-a9af-8853161b059f.png",
+      "sha256": "ee08bb838941d31f10f5ef0489de509d58d1dd0a82ce71e375e63260f205f638",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q01.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "卧室图只锁床/柜/窗/浴室门布局；精确闹钟外形由闹钟道具图锁。"
+    },
+    {
+      "id": "q02",
+      "label": "洗漱梳妆空间",
+      "refs": [
+        "style",
+        "home"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the home character sheet: same rounded oval face, amber-brown eyes, chestnut shoulder-below wavy hair, peach long-sleeve full-length pajamas with cream piping, white slippers and peach assist bracelet on HER RIGHT wrist. No backpack, no jacket, no hairclip in bedroom; a peach headband only for washing/makeup. Adult about 6.5-head proportions, sweet sleepy expression, no child face. A single bathroom/vanity reference frame, medium-wide eye-level view of her in peach headband standing in profile at a white porcelain sink, gently touching a soft towel to her cheek after washing. Fine warm-gray mirror frame and soft edge lights; tooth cup and small peach lip-color case neatly on the counter. One accurate mirror reflection of the same woman, not a second real woman. Warm morning side light, all water restricted to basin and her hands. Full sink, mirror and face readable, no makeup text or logos.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q02.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-d6fe0d7a-33ee-44a9-aee3-7f0a714d28b3.png",
+      "sha256": "dd2be84928ee77205c2faddd7d4622df21ced32acb07faa392d3ee3d7dbb3a1c",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q02.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/characters/lin-tao/reference-home-v1.png"
+      ],
+      "reference_use_review": "一位女主和一处镜面反射；用于洗漱/化妆空间，不能把反射当第二人。"
+    },
+    {
+      "id": "q03",
+      "label": "闹钟与助力环道具",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A clean 3D prop design still life on a warm-gray studio tabletop: exactly one intact 15cm cream rounded alarm clock with two round peach ears and short feet, alongside exactly one small peach wrist-assist bracelet with a tiny standby light and physical side button. Close three-quarter view with enough empty space to read both objects, no hands, no wearer, no straps fused to the clock, no text/numbers required on the clock dial. Both are friendly domestic future products in selected-A style, rounded matte shells and restrained soft highlights.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q03.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-5e835686-1217-4db7-8d8f-294831e19de8.png",
+      "sha256": "2c307dbc9eb2c22901edbd63b9a6c81170090641dc6e82ce5e4ae2833f32f7f9",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q03.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "闹钟为奶白桃耳、深灰面板、浅桃指针和暖眼灯；助力环为独立右腕道具。"
+    },
+    {
+      "id": "q04",
+      "label": "自动厨房早餐",
+      "refs": [
+        "style",
+        "robot"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Exactly one Xiao Man from the robot sheet: 90cm warm-white rounded household robot, dark gray face screen with exactly two amber eye dots, mint ear/shoulder accents, two short arms and compact grippers, stable two-side-wheel base, no walking legs. No combat accessories. A warm cream future apartment kitchen, eye-level counter-height medium-wide frame. A FIXED countertop cooking arm slides one already-cooked sunny-side egg onto one slice of toast on a small plate; one folded plain brown paper breakfast bag sits ready near the counter edge. Xiao Man is beside the counter with both hands ready to receive the bag, not doing three jobs at once. The cooking arm is built into the cabinet and is NOT a second Xiao Man. Clear serving contact, little food steam, clean dry counters, no oil smoke or words.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q04.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-b06db360-5f1d-45d4-aa67-a4b14a94352f.png",
+      "sha256": "ca336e84cb57d0cdb880654c0ace07c4b040c80e4f07565d86df19931587ef93",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q04.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/characters/xiao-man/reference-three-view-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q05",
+      "label": "蓝白空中公交载具",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Vehicle reference: ONE compact approximately 10m-long blue-and-white flying public commuter bus in three-quarter front/side view, calmly hovering just above an empty pale-gray landing pad. Rounded friendly nose, wide transparent side windows revealing orderly light-gray seats and an aisle, one side sliding door open so the threshold and interior are readable, narrow blue antigravity glow under the body, no wings, no wheels, no rails, no text or logos. Entire vehicle visible, plausible passenger scale, warm future-city daylight but simple subdued background, not a plane or train.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q05.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-0a7ba264-5840-4f7f-bf4c-87ba3b01704f.png",
+      "sha256": "dee53bb5fa0d74a55053a06c5a4e277514a3c7cf134d81c4ac1f11be7243bf3b",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q05.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q06",
+      "label": "未来城市空中交通",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A sweeping single-frame city establishing view above the residential district in clear warm morning light: elegant intact cream/gray 250-700m towers, glass skybridges, green terraces, several separated height bands of small flying commuter cars, a distinct silver train following a looping elevated ring rail in the distance, and a lower white campus around a central green park beyond. No main characters, no robot in the foreground. Readable foreground balcony edge, midground tower gap and background skyline; orderly spatial separation of cars and rail. A clear optimistic highly developed AI city, no giant neon billboards or unreadable UI.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q06.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-017aeb4b-59d2-4202-a0ad-eef75be76d46.png",
+      "sha256": "332bfd151657ca6b296ff36f9e822679b2353bc8aec39c825738c47d4ffb6bb6",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q06.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "城市有可读楼群、空中车流和独立环轨；不是固定空中路线测量图。"
+    },
+    {
+      "id": "q07",
+      "label": "闺蜜许星角色",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Original character reference sheet, ONE image with THREE full-body turntable views on a pale warm-gray background, FRONT / RIGHT PROFILE / BACK, same 18-year-old young adult female Xu Xing in every view, not a Lin Tao clone. Black straight shoulder-length bob, slim mint headband, slightly narrower face, lively dark-brown eyes, friendly confident smile. White future-college casual jacket, pale-blue full-length trousers, white sneakers. Arms relaxed a little away from body, empty hands. No peach hairclip, no mint backpack, no extra person, no text. Soft rounded selected-A 3D film aesthetic and plausible adult proportions.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q07.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-d8e4eb32-2691-404c-8f33-c64be6a72dfb.png",
+      "sha256": "6a205db17e7a5b308ba675f48cca0420a6ec17e0621f6911baa1c0904e88e0af",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q07.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q08",
+      "label": "健硕男教师角色",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Original character reference sheet, ONE image with THREE full-body turntable views on a pale warm-gray background, FRONT / RIGHT PROFILE / BACK. The same Gu Yan, a 38-year-old muscular broad-shouldered male teacher, natural human height about 185cm, short dark-brown crewcut, thick eyebrows, clean-shaven strong but kind face. Gray-blue short-sleeve utility/work shirt showing substantial natural forearms, charcoal trousers, dark shoes. Calm stable posture, empty hands, no super-hero suit, no weapons. Clearly rendered in selected-A soft rounded 3D animated film style, not a photoreal man and not an oversized giant.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q08.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-0125f7ed-fd64-4048-9463-917360d0674c.png",
+      "sha256": "18ea721f98552c7f53be539ceb54a23a8ace1b67495968e05db0b1c2e8d95eb1",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q08.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q09",
+      "label": "旧教学机器人角色",
+      "refs": [
+        "style"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Original robot reference sheet, ONE image with THREE full-body views FRONT / SIDE / BACK on pale warm-gray background, all the same 1.3m-tall OLD teaching robot. Gray-white upright biped body, simple broad panels, distinctive concentric circular shoulder-ring joints, narrow single horizontal blue eye-band across head, thin line-shaped chest circuit. Clearly unlike Xiao Man: has two simple standing legs/feet and a narrower angular oval head, no wheel base or cute dot eyes. Polished yet old-generation design, clean preserved shell with minimal broad seams, no rust or dense greebles. Eyes only softly lit as a design reference, no cage or human, no text.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q09.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-83facc0f-f204-47bb-a1bf-24a9a14e9dda.png",
+      "sha256": "cc27d3c4e5f989f438ec62c129eaa1b85e83b60620863a5bf4c31e84fb7bb270",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q09.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png"
+      ],
+      "reference_use_review": "旧机三视图展示通电灯带形态；课堂前段必须按关机参考熄灯，不能照抄亮灯状态。"
+    },
+    {
+      "id": "q10",
+      "label": "教室布局场景",
+      "refs": [
+        "style",
+        "q09"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single wide 28mm classroom environment frame, NO students or teachers. Bright future college classroom with a rear entrance, central 1.5m aisle, two banks of cream desks in clear rows, long windows on camera-right facing the city, two empty second-row seats by the windows. Front teaching desk holds a round unlit holographic base. At the FRONT RIGHT next to the desk is a clear teaching case containing exactly one old teaching robot from input reference, powered OFF, and a separate small physical power pedestal outside the case. Show a real walkable 3m route from second row to pedestal. Warm soft morning light, stable believable desk layout and dry pale floor. The SAME old teaching robot from its sheet: 1.3m tall gray-white upright biped machine with broad simple paneling, prominent concentric circular shoulder rings, a narrow horizontal blue eye-band and a thin blue chest-circuit line, distinct from cute wheeled Xiao Man. It stands fixed inside the classroom transparent teaching case with an access port and a separate physical power pedestal outside.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q10.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-815728ec-b66d-41f1-b3d5-1d26072b17c4.png",
+      "sha256": "a0c07dc84fad5662d090493341206b324eb275aba16a59881264438ad830fcd0",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q10.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "previous_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-777c9f86-cc4b-49d8-b826-bdac9255c066.png",
+      "correction_prompt": "assets/production-A-40refs-v1/prompts/q10-power-off-correction.txt",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q09.png"
+      ],
+      "correction_input_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-777c9f86-cc4b-49d8-b826-bdac9255c066.png",
+      "reference_use_review": "已用内置imagegen定点校正眼灯、胸线和电源台为关机；教学罩顶灯属于环境照明保留。"
+    },
+    {
+      "id": "q11",
+      "label": "走廊站台路线",
+      "refs": [
+        "style",
+        "q05",
+        "q06"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single wide establishing view along the apartment glass-sided sky corridor toward a connected enclosed elevated bus stop. Corridor has cream walls on left, clear city windows on right, a broad OPEN automatic doorway at the end, then protected platform with glass canopy and safety rail whose end leaves a real walking route to the bus door. The SAME blue-white flying bus from vehicle input is parked at the platform with side sliding door OPEN, no people, morning light, selected-A city outside. Clear depth and unbroken ground path, no stairs disappearing into air, no rail track under the bus, no arrows or diagram labels.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q11.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-01ec405d-77e8-46fe-a22e-9c908f65b1df.png",
+      "sha256": "6ae2836d36e962023719814250bae9898e86c4913db282e74adb15ff1fa4175c",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q11.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q05.png",
+        "assets/production-A-40refs-v1/generated/q06.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q12",
+      "label": "环轨列车穿城",
+      "refs": [
+        "style",
+        "q06",
+        "q05"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A cinematic city transport reference frame at approximately 150m height, near a large curved elevated ring rail. A silver MULTI-CAR TRAIN follows the curving real rail at a higher level, narrow magnetic gap visible; the SAME blue-white flying bus from its vehicle reference travels on an open-air lane well BELOW and to the side of the rail. Other smaller commuter cars in separated lanes, complete clean towers and green sky terraces, strong foreground/midground/background parallax cues. No people outside vehicles, no train turning into the bus, no collisions, no overly complex line mesh.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q12.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-6d18c786-9f13-4442-9a3c-147ed980060e.png",
+      "sha256": "28549cc72f8568c0e5f41abfcecedbdd145ee258b1a8c539e8ac1233a3ffa950",
+      "width": 1672,
+      "height": 940,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q12.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q06.png",
+        "assets/production-A-40refs-v1/generated/q05.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q13",
+      "label": "远古环门动力核心",
+      "refs": [
+        "style",
+        "q09"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single cinematic historical technology scene in selected-A 3D animation: a colossal concentric mechanical ring gate embedded in a dry underground rock chamber, segmented arc door leaves opened along real curved tracks, revealing ONE floating nested-ring white-cyan power core. Two tiny generic ancient human explorer figures stand at the threshold giving tens-of-metres gate scale, not Lin Tao, not Gu Yan. Echo the broad concentric-ring design language of the old teaching robot reference without placing that robot in the ruins. Clean readable ancient engineering with broad surfaces, restrained glow, no runes or text, no fantasy spells, no piles of grunge.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q13.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-2a2ee0b8-271c-4fb5-85c3-8b145d4998ac.png",
+      "sha256": "5b13764d14a622f582ad8b0172b09a272c8deea809f0d6985e7f35124158e383",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q13.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q09.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q14",
+      "label": "人类复原核心实验",
+      "refs": [
+        "style",
+        "q13"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single-frame historical engineering research-lab diorama in selected-A 3D animation, inspired by the ring core from the ancient reference. Two generic adult historical researchers at one orderly workbench: one holds a detached broad ring segment with a clamp, another measures its groove with a caliper-like instrument. Beside them, a chunky early experimental ring-core device is suspended just above a support bracket, soft cyan steady glow, visible physical components and a plausible measurement process. Not current classroom characters, no modern campus uniforms, no duplicate time stages or collage, no labels, moderate simple technology surfaces.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q14.png",
+      "pending_correction_prompt": "assets/production-A-40refs-v1/prompts/q14-correction.txt",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-5a7ec01f-c974-4a32-a1c7-b62811841a2f.png",
+      "sha256": "606e252df3cea3f2101c1586fcf8ed5ca4e7b5d49602b164ccf79d9fbad0700b",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q14.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "previous_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-f1d1fc27-f701-455e-b6bb-f61b118c0969.png",
+      "correction_prompt": "assets/production-A-40refs-v1/prompts/q14-correction.txt",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q13.png"
+      ],
+      "correction_input_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-f1d1fc27-f701-455e-b6bb-f61b118c0969.png",
+      "reference_use_review": "已校正为黑色短发、灰发缕与眼镜的中年研究员，去除女主桃花发夹，避免现实人物进入历史。"
+    },
+    {
+      "id": "q15",
+      "label": "浮空城与统一中枢",
+      "refs": [
+        "style",
+        "q13",
+        "q06"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single coherent historical city hologram-style miniature, selected-A 3D film material, of an early floating circular city district above the ground. Clearly visible levitation power rings support the broad platform; modest buildings, small traffic routes, tiny domestic/industrial robots, ONE central control tower with a few clean GOLDEN command lines connecting distinct districts. Integrate the rise of levitation and centralized AI structure in one readable model, not split panels or multiple periods side by side. Camera 35mm oblique overhead; translucent cyan projection rim/base along bottom shows this is classroom archive imagery. No real Gu Yan or Lin Tao inside it, no text.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q15.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-94f54f75-2c94-4553-904c-fb2a9774fb02.png",
+      "sha256": "ac43130d243799a71a978d39dee671f02ea02970d468ad1d6353f22e8c931828",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q15.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q13.png",
+        "assets/production-A-40refs-v1/generated/q06.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q16",
+      "label": "机器人暴乱档案",
+      "refs": [
+        "style",
+        "q15"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single historical archive HOLOGRAM scene of the SAME old city district architecture as the floating-city reference. Golden centralized command links have turned dark red; a group of identical-purpose generic service robots have simultaneously stopped work and turned toward a half-lowered street gate. Several tiny generic adult civilians hurry along a clear still-open exit route; no blood, injuries or battle gore. Threat conveyed by synchronized machines and narrowing exit. Transparent cyan hologram perimeter/base clearly visible at bottom with softly blurred real classroom outside, not current city destruction. No Lin Tao, Gu Yan or Xiao Man physically in the archive.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q16.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-5a86b5f3-4da6-4dbf-92cc-80ba160de650.png",
+      "sha256": "8455632573df68d46d4611c3fdb2a96911a14c178f76ea52550f5dbeac5db630",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q16.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q15.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q17",
+      "label": "分区重建未来城市",
+      "refs": [
+        "style",
+        "q15"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: A single historical archive HOLOGRAM reconstruction scene in selected-A 3D film style. The centralized red node has been removed, leaving three or four separate calm CYAN district networks, each with one tiny human authorization console. Repair robots together lift a large intact beam while human workers fasten a rail joint, rebuilt towers and ring transit farther back. The district layout should echo the historical city reference, readable positive reconstruction with little necessary local construction material, not a dirty apocalypse landscape. Keep a transparent cyan projection base/perimeter and blurred classroom outside the miniature; no main contemporary characters in the model, no text.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q17.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-6ab896a3-6931-4742-b7f4-596f4bb42f5b.png",
+      "sha256": "70b12ec7bc411cf2d55dfcde10193108f67b0703240d55f949074f328a366f97",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q17.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q15.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q18",
+      "label": "第一段首帧闹钟床头",
+      "refs": [
+        "style",
+        "q01",
+        "q03",
+        "home"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the home character sheet: same rounded oval face, amber-brown eyes, chestnut shoulder-below wavy hair, peach long-sleeve full-length pajamas with cream piping, white slippers and peach assist bracelet on HER RIGHT wrist. No backpack, no jacket, no hairclip in bedroom; a peach headband only for washing/makeup. Adult about 6.5-head proportions, sweet sleepy expression, no child face. Exact opening-frame design in the SAME bedroom layout as the environment input. Medium close view of the INTACT twin-peach-ear cream alarm on the right bedside cabinet in foreground; Lin Tao lies asleep under cream duvet on the bed behind, only face, loose hair and her right wrist near the duvet edge visible. Her hand has NOT hit the alarm yet. Warm window light from left, cabinet and dry floor completely intact, no fragments. Keep bed left/cabinet right/bathroom door right-side geography. Only one woman, no robot in this frame.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q18.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-547bd9cd-b184-4f48-af9a-6ab19512d13b.png",
+      "sha256": "c90d51e0fea635939893a6571b3269aa4591e37a4da554efe8cadcb6f006c313",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q18.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q01.png",
+        "assets/production-A-40refs-v1/generated/q03.png",
+        "assets/characters/lin-tao/reference-home-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q19",
+      "label": "第一段尾帧阳台",
+      "refs": [
+        "style",
+        "home"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the home character sheet: same rounded oval face, amber-brown eyes, chestnut shoulder-below wavy hair, peach long-sleeve full-length pajamas with cream piping, white slippers and peach assist bracelet on HER RIGHT wrist. No backpack, no jacket, no hairclip in bedroom; a peach headband only for washing/makeup. Adult about 6.5-head proportions, sweet sleepy expression, no child face. Exact end-frame design for the first 30-second segment: eye-level over-her-shoulder view from apartment living room at the open glass balcony entrance. She is still in home pajamas, now without headband, looking outward toward a small bright waiting-light at the nearby residential sky stop, head just beginning to turn back toward home. Behind glass balcony rail a clean cream/gray future city with separate aerial car lanes and a higher looping silver train. Use selected-A original apartment/city feel but replace the selected image school outfit with the exact home costume. No Xiao Man, no backpack/hairclip, no bedroom or sink in this shot.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q19.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-fa324388-b57b-42e0-9fc8-cbdc4f3a4551.png",
+      "sha256": "8c74cc9c3dda8b25f9d2584d0c3f1ebd3b9fd4066e6ed17c92206e287cc0d3fa",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q19.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/characters/lin-tao/reference-home-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q20",
+      "label": "机器人叠被动作",
+      "refs": [
+        "style",
+        "q01",
+        "robot"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Exactly one Xiao Man from the robot sheet: 90cm warm-white rounded household robot, dark gray face screen with exactly two amber eye dots, mint ear/shoulder accents, two short arms and compact grippers, stable two-side-wheel base, no walking legs. No combat accessories. In the SAME bedroom layout, bed now unoccupied. Xiao Man stands at bed side, each gripper holding one corner of the cream duvet, lifting one half about 30cm so a broad cloth wave is visible before folding it back. One clear physically possible bedding contact event, two arms only. View from bed foot, 35mm medium-wide. Rumpled then folding cloth has broad natural creases, pillows remain head of bed; bedside clock has already broken, local fragments near cabinet can be subtle in background. No woman and no second robot, warm morning light.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q20.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-ff796f54-b23e-40e1-87b7-0e00dc9ca80c.png",
+      "sha256": "4bf61dfebb7168d3f8d5e29a0777711e3d35d3d1fe5857a01260d63c9bbb0613",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q20.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q01.png",
+        "assets/characters/xiao-man/reference-three-view-v1.png"
+      ],
+      "reference_use_review": "仅用作夹被角、布料受力和小满结构参考；床头附带钟壳细节不作为精确道具锁。"
+    },
+    {
+      "id": "q21",
+      "label": "机器人收拾碎闹钟",
+      "refs": [
+        "style",
+        "q01",
+        "q03",
+        "robot"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Exactly one Xiao Man from the robot sheet: 90cm warm-white rounded household robot, dark gray face screen with exactly two amber eye dots, mint ear/shoulder accents, two short arms and compact grippers, stable two-side-wheel base, no walking legs. No combat accessories. In the SAME bedroom beside the right bedside cabinet, duvet already folded neatly. Xiao Man bends its two short arms toward LOCAL pieces of the SAME alarm clock from the prop reference: two peach circular ears and a few cream shell pieces on dry floor. One gripper holds one ear above an open small collection hatch, lower narrow vacuum mouth aligned to remaining fine pieces. Cabinet and bed intact, no full alarm reappearing, no house explosion, no woman, one robot. Low three-quarter camera shows real contact between gripper and fragment, clean floor beyond the small broken-clock area.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q21.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-fab9b58f-82a6-4e62-9701-f9892866ca8e.png",
+      "sha256": "800430ee2ea3afd6570e9a367438d4792629e82501049c71ee0d67e34f26b7d0",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q21.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q01.png",
+        "assets/production-A-40refs-v1/generated/q03.png",
+        "assets/characters/xiao-man/reference-three-view-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q22",
+      "label": "第二段首帧玄关换装",
+      "refs": [
+        "style",
+        "out",
+        "robot"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. Exactly one Xiao Man from the robot sheet: 90cm warm-white rounded household robot, dark gray face screen with exactly two amber eye dots, mint ear/shoulder accents, two short arms and compact grippers, stable two-side-wheel base, no walking legs. No combat accessories. Exact beginning of second 30-second segment: apartment entryway medium-wide frame, Lin Tao already fully dressed, standing beside a slim dressing mirror, one hand near her RIGHT-side peach hairclip as she finishes adjusting it. Mint backpack rests on a low pale-wood entry cabinet, not simultaneously on her shoulders. Xiao Man behind her inside the home holds exactly one folded brown breakfast paper bag. Cream sliding entry door closed or just ready to open, warm morning side light. No sleeping costume, no city bus inside apartment, one woman and one robot only.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q22.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-9f3d5245-5bca-499a-bad8-47413697fda5.png",
+      "sha256": "34528956a89041f9c98a22cbfc659b1969aa5f366b9e2f66d40df6f67cd3b2f9",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q22.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/characters/lin-tao/reference-out-v1.png",
+        "assets/characters/xiao-man/reference-three-view-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q23",
+      "label": "第二段尾帧学院到站",
+      "refs": [
+        "style",
+        "q05",
+        "q06",
+        "out"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. End-frame design at the future academy stop. SAME blue-white flying bus from vehicle reference, now calmly stopped or nearly stopped at a glass-canopied campus platform, whole vehicle in three-quarter side-front view foreground. Through its clear side window ONE Lin Tao is visible inside next to her seat, holding mint backpack and one flattened empty breakfast paper bag, preparing to exit, not outside the vehicle. Behind it a low cream-white academy around green lawn and curved transparent skybridge, clean skyline distant. Avoid a woman floating outside, no extra giant girl behind bus, warm selected-A light.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q23.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-9f0016b4-be5f-4f39-ab6f-7d47b3f2c78f.png",
+      "sha256": "0a91068ce6979be5080df16fd9fff5b1b8713792c40a4d8d1ebfc664be29ac94",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q23.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q05.png",
+        "assets/production-A-40refs-v1/generated/q06.png",
+        "assets/characters/lin-tao/reference-out-v1.png"
+      ],
+      "reference_use_review": "实际尾帧为公交已停稳、车门已开、女主仍在门内准备下车；导演尾帧描述同步。"
+    },
+    {
+      "id": "q24",
+      "label": "女主公交窗内参考",
+      "refs": [
+        "style",
+        "q05",
+        "out"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. A close cinematic exterior-side-window view of the SAME blue-white bus, camera physically outside alongside the clear glass. Through the window see one Lin Tao seated inside, mint backpack on lap, one brown paper bag around a partly eaten egg toast held near her mouth, small relaxed smile after catching the bus. Frame includes enough blue-white window frame and light-gray seat interior to lock vehicle scale. Soft city towers slide as background context beyond opposite window, no woman standing through glass, no second protagonist reflection, no text.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q24.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-926a24dc-d066-4ba3-b055-025b42d072f1.png",
+      "sha256": "70d0c4cec04fc5548487c42afd7ed408ea44c6a24415ce65af5e637b18b5d957",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q24.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q05.png",
+        "assets/characters/lin-tao/reference-out-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q25",
+      "label": "小满递早餐告别",
+      "refs": [
+        "style",
+        "q22",
+        "out",
+        "robot"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. Exactly one Xiao Man from the robot sheet: 90cm warm-white rounded household robot, dark gray face screen with exactly two amber eye dots, mint ear/shoulder accents, two short arms and compact grippers, stable two-side-wheel base, no walking legs. No combat accessories. Same entryway as the first-frame reference but a DISTINCT next action: the cream sliding door is open, Lin Tao is at the threshold with backpack worn on BOTH shoulders and her body turned toward the corridor, right hand reaching under the one plain brown breakfast bag. Xiao Man inside extends that same bag with both small hands; human hand touches bag base BEFORE robot releases it. Eye-level medium-wide shot shows door threshold, both subjects and all hands, sweet natural goodbye moment. No thrown bag, no duplicated bags, no wrist switched to left, no scene outside the apartment balcony.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q25.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-4b944c70-cc28-4c5e-8e58-e9642502a2d3.png",
+      "sha256": "9b8456e556e4255be48fbb52d79adb346b02bbf068c521da5ccf24d1725e860b",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q25.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q22.png",
+        "assets/characters/lin-tao/reference-out-v1.png",
+        "assets/characters/xiao-man/reference-three-view-v1.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q26",
+      "label": "课堂热能手套",
+      "refs": [
+        "style",
+        "q10"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: In the SAME classroom layout, one original 18-year-old male student wearing an orange-sleeved future-college jacket sits beside a cream desk and demonstrates a heat glove. Close medium view of his right glove: visible copper/cream wrist heating module, physical dial and palm nozzle, a SHORT 20-30cm orange flame directed into empty aisle space, his other hand on the dial. Friendly excited face visible behind glove, no injury or fire spread. Only a few softly blurred background students, no main girl needed. Clear appliance-causes-flame logic, not bare-handed magic. Window light and desk geometry match room input.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q26.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-000ef92a-a8ae-48d2-8462-3fd7fa9684f9.png",
+      "sha256": "3399911db871098b78f2ab8d4c77a268d1ae5d80e5e08e4c2ceee400f88e000d",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q26.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png"
+      ],
+      "reference_use_review": "锁手套外形/喷口/旋钮；实际视频短火苗长度按分镜控制，不照抄参考图较长火焰。"
+    },
+    {
+      "id": "q27",
+      "label": "课堂冷凝笔冰花",
+      "refs": [
+        "style",
+        "q10"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: In the SAME classroom layout, one original 18-year-old female student with a pale-blue sleeve holds a white palm-sized tray in her LEFT hand and a thin mint/white cooling pen in her RIGHT hand. Pen tip a few centimeters above tray sends a very short fine cooling stream creating ONE small blue-clear branching ice flower in the tray. Another student fingertip may just touch its edge and withdraw; keep hands and tray anatomy clear, medium-close 65mm view, student gentle curious expression. No giant ice wall, no ice from mouth, no overlapping main characters, warm bright classroom, technology source visible.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q27.png",
+      "pending_correction_prompt": "assets/production-A-40refs-v1/prompts/q27-correction.txt",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-72d3313b-3562-4fc6-95ae-f36623322a7a.png",
+      "sha256": "d6ccb962e4f9b0637f10a38318519ff96220cb2bda6daf3a3246341282ffbb82",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q27.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "previous_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-9b3723fb-0a9d-4e37-b482-bc56a90b3599.png",
+      "correction_prompt": "assets/production-A-40refs-v1/prompts/q27-correction.txt",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png"
+      ],
+      "correction_input_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-9b3723fb-0a9d-4e37-b482-bc56a90b3599.png",
+      "reference_use_review": "已将冷凝笔同学改为黑色马尾/眼镜，与女主区分；背景旧机已关机。"
+    },
+    {
+      "id": "q28",
+      "label": "课堂悬浮滑板",
+      "refs": [
+        "style",
+        "q10",
+        "out"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. In the SAME classroom central aisle, one 18-year-old male classmate in teal shoes stands on ONE narrow rounded hoverboard about 20cm above dry floor; two cyan magnetic rings underneath are visible. He bends knees lightly and touches a chair back with one hand to brake; a desk leg provides clear height and safe clearance. Lin Tao appears once in the midground stepping half a pace aside, backpack on shoulders, moving toward second row. Low 28mm dynamic reference still, no flying at ceiling, no board through desk, no magic feet without a board.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q28.png",
+      "pending_correction_prompt": "assets/production-A-40refs-v1/prompts/q28-correction.txt",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-546d9b50-7205-417c-8320-1091908503a1.png",
+      "sha256": "58023b8f5be87c9c0fc6522516dd2f2dd4b3fa4f651e4ab5db1e14faaecebbfe",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q28.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "previous_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-9c31c43c-425a-436c-840b-afb16e179188.png",
+      "correction_prompt": "assets/production-A-40refs-v1/prompts/q28-correction.txt",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png",
+        "assets/characters/lin-tao/reference-out-v1.png"
+      ],
+      "correction_input_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-9c31c43c-425a-436c-840b-afb16e179188.png",
+      "reference_use_review": "已用内置imagegen去除右下角多余字样；其余滑板/抓椅/女主让路保持。"
+    },
+    {
+      "id": "q29",
+      "label": "课堂光学隐身斗篷",
+      "refs": [
+        "style",
+        "q10"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. One 16:9 cinematic 3D animated-film classroom reference, warm soft rounded selected-A art direction. SAME bright classroom layout as input environment. An adult female college student aged 21 stands beside a desk, wearing a fully opaque high-neck long-sleeve blue-gray sweater, loose full-length dark trousers and white sneakers. ALL her body remains clearly present and fully dressed. Over this normal outfit she wears a silver-gray futuristic OPTICAL CAMOUFLAGE COAT / CLOAK. She holds only its outer edge at SHOULDER HEIGHT with one hand to demonstrate the material: one portion of the FABRIC refracts and visually bends the background desk/window like clear smart glass, while the rest of the coat has a readable silver hem and woven surface. Show a single coherent optical material technology demonstration, not a vanishing body. Medium-wide eye-level shot from knees up, neutral friendly expression, ordinary classroom posture, black straight shoulder-length hair, no peach flower clip, no resemblance to heroine. No removal of ordinary clothes, no exposure, no romantic pose. Only one demonstrator and a couple soft seated background classmates. No text, no labels, no watermark, no split panels. Keep clean dry floor and clearly three-dimensional cloth/material depth. The old robot in any distant case stays dark/off; it is not the main subject.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q29.png",
+      "pending_correction_prompt": "assets/production-A-40refs-v1/prompts/q29-correction.txt",
+      "retry_note": "初次输出审核拒绝，改为完整着装成年人展示折射布料的明确技术场景，未改用其他模型或通道。",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-88b8e719-4c8b-4a9b-9930-d3fb25d1ef59.png",
+      "sha256": "7c2362a67118f2ff9840d3c40ed73822c2c36227276dc269078687cef8c3d0ca",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q29.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "effective_prompt_file": "assets/production-A-40refs-v1/prompts/q29-correction.txt",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png"
+      ],
+      "reference_use_review": "重试成功：完整着装成年同学展示银灰光学斗篷布料折射；不是去除普通服装或消失躯体。"
+    },
+    {
+      "id": "q30",
+      "label": "第三段首帧教室入门",
+      "refs": [
+        "style",
+        "q10",
+        "out",
+        "q26"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. Exact opening frame of third segment: eye-level shoulder-follow view from classroom REAR entrance, one Lin Tao opening/sliding past the doorway, backpack on shoulders, looking into the SAME classroom toward front teaching desk. At nearby desk the SAME orange-sleeved glove student from the demonstration input has his wrist module ready, only a TINY beginning flame forward into empty space. Second-row window seats visible farther ahead. Teacher not present yet, old robot case visible far front-right but unobtrusive and off, no breakfast bag, no crowd cloned from reference cards.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q30.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-d9cd8bcb-e51e-465f-82f3-28148cc59a09.png",
+      "sha256": "76bf3e8a333ebeda7597baf9cfd729215662b0ee9b728232701772f41fce42cf",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q30.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png",
+        "assets/characters/lin-tao/reference-out-v1.png",
+        "assets/production-A-40refs-v1/generated/q26.png"
+      ],
+      "reference_use_review": "已目视核对A版3D画风、所需角色/场景/主要动作；按分段清单限定参考职责。"
+    },
+    {
+      "id": "q31",
+      "label": "第三段尾帧历史沙盘",
+      "refs": [
+        "style",
+        "q10",
+        "q08",
+        "q09",
+        "q13"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Gu Yan, the SAME man as the teacher sheet, a broad-shouldered athletic muscular 38-year-old male teacher with short dark-brown crewcut and thick eyebrows, gray-blue short-sleeve work shirt, charcoal trousers and dark shoes, steady calm expression, natural adult scale, no armor. The SAME old teaching robot from its sheet: 1.3m tall gray-white upright biped machine with broad simple paneling, prominent concentric circular shoulder rings, a narrow horizontal blue eye-band and a thin blue chest-circuit line, distinct from cute wheeled Xiao Man. It stands fixed inside the classroom transparent teaching case with an access port and a separate physical power pedestal outside. Exact end frame of segment three in the SAME real classroom: Gu Yan stands beside front desk and has just activated the round hologram base. A miniature ancient concentric ring gate from the ancient-scene reference has appeared above it, door leaves only beginning to part; clear transparent cyan projection base rim remains visible, not a real portal. Off old teaching robot stands in the same front-right case and power pedestal remains unlit. Camera teacher-side medium-wide, only a few student backs soft in foreground, warm daylight, teacher calm, no extra live copies of reference explorers.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q31.png",
+      "pending_correction_prompt": "assets/production-A-40refs-v1/prompts/q31-correction.txt",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-224072e6-3b3d-486e-ad3d-17c3ec170549.png",
+      "sha256": "7ee027bb91e8307e0be92b86667d2591c495036db46ac8930616ef2296aee236",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q31.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "previous_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-27322e44-d4ef-451f-8c43-58ecbd9bc63d.png",
+      "correction_prompt": "assets/production-A-40refs-v1/prompts/q31-correction.txt",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png",
+        "assets/production-A-40refs-v1/generated/q08.png",
+        "assets/production-A-40refs-v1/generated/q09.png",
+        "assets/production-A-40refs-v1/generated/q13.png"
+      ],
+      "correction_input_source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-27322e44-d4ef-451f-8c43-58ecbd9bc63d.png",
+      "reference_use_review": "已校正历史开课尾帧旧机眼灯/胸线关闭，保留沙盘青光和罩顶环境灯。"
+    },
+    {
+      "id": "q32",
+      "label": "第四段首帧环门投影",
+      "refs": [
+        "style",
+        "q31",
+        "q13"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Exact opening frame of fourth segment, continuing the SAME ring-gate classroom hologram shown in prior-frame reference. Camera has pushed toward the hologram: miniature rock layers retreating, concentric ring gate beginning to open, a nested-ring cyan-white core just visible inside, two tiny generic explorer figures at threshold. Very clear translucent cyan base edge along lower frame and softly blurred real classroom beyond it. NO real Lin Tao, Gu Yan, Xiao Man or old teaching robot physically inside the ancient model. The gate/core design matches ancient reference, rendered in same soft selected-A 3D animation, one frame not panels.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q32.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-29d2993c-e795-4125-8cc8-e0393c0c43ba.png",
+      "sha256": "50e3ff8e4aaa5627bf5cf3df42539869b38de3972bb199cecba0678090c1c57e",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q32.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q31.png",
+        "assets/production-A-40refs-v1/generated/q13.png"
+      ],
+      "reference_use_review": "环门为台面全息模型，透明青色基座与真实教室虚景可辨；两个探索者是模型群像。"
+    },
+    {
+      "id": "q33",
+      "label": "第四段尾帧旧机启动",
+      "refs": [
+        "style",
+        "q10",
+        "q09",
+        "out",
+        "q08"
+      ],
+      "prompt": "Use case: stylized-concept / illustration-story. Production reference for an original futuristic 3D animated short. ONE polished landscape 16:9 image, no collage, no caption, no text, no labels, no watermark, no arrows, no UI panels. Genuinely three-dimensional soft rounded animated feature-film rendering matching the SELECTED A style: appealing sculpted forms, warm soft bounced light, simplified refined skin and grouped hair, tactile cloth and matte ceramic, cream/gray architecture with peach/mint accents, clear silhouettes and moderate detail. Not photorealistic humans, not flat 2D, not chibi or toddlers, no over-sharpened dense textures. Clean orderly dry surfaces; no rain, puddles, grime, random rubble or wet reflection. Local face-washing water, local broken clock pieces, and history-event damage only where explicitly requested.\nReference inputs are role-specific: use the style image for art direction only, character sheets for identity/outfit only, environment images for layout/material continuity only. Never paste a reference sheet's multiple views or its background into the finished shot. Any reference character not explicitly requested must NOT appear.\n\nScene/subject/action: Lin Tao is the exact 18-year-old woman from the out character sheet: same face, amber-brown eyes, chestnut wavy shoulder-below hair, peach-blossom hairclip on HER RIGHT temple, cream jacket, peach top, navy knee-length pleated skirt, white socks/shoes, mint backpack. Peach assist bracelet on HER RIGHT wrist. Adult 6.5-head proportions, bright sweet expression. Backpack position follows the shot; do not clone its owner. Gu Yan, the SAME man as the teacher sheet, a broad-shouldered athletic muscular 38-year-old male teacher with short dark-brown crewcut and thick eyebrows, gray-blue short-sleeve work shirt, charcoal trousers and dark shoes, steady calm expression, natural adult scale, no armor. The SAME old teaching robot from its sheet: 1.3m tall gray-white upright biped machine with broad simple paneling, prominent concentric circular shoulder rings, a narrow horizontal blue eye-band and a thin blue chest-circuit line, distinct from cute wheeled Xiao Man. It stands fixed inside the classroom transparent teaching case with an access port and a separate physical power pedestal outside. Exact final pre-cut-to-black frame in the SAME classroom: Lin Tao at the power pedestal just outside the transparent case, right index finger has just pressed the physical power button. Mint backpack remains back at second-row chair, NOT on her back. Old teaching robot is inside the opened-access-port case, thin blue chest line lit and narrow blue eye-band newly on as its head lifts toward her. Gu Yan stands to the side giving space, calm expression, no other main characters crowding the frame. Warm 50mm medium shot shows her side face, right wrist bracelet, actual button contact and the robot head, no alarms or battle glow, no hologram city in room.",
+      "status": "generated",
+      "target": "assets/production-A-40refs-v1/generated/q33.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a181b8-e0e1-7fc1-ae33-495cb1b1dd4c/exec-8975ce49-d189-4dbc-addd-17d03153c96b.png",
+      "sha256": "ab406551f25d7775f49fa2396f3196f39e85f1ed8e39ea4e8013698eb76f482a",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "assets/production-A-40refs-v1/prompts/q33.txt",
+      "visual_review": "工具返回图已目视核对主体/风格/关键物件；参考图用途记录见分段清单，非视频验收",
+      "canonical_reference_assets": [
+        "assets/style/selected-style-A.png",
+        "assets/production-A-40refs-v1/generated/q10.png",
+        "assets/production-A-40refs-v1/generated/q09.png",
+        "assets/characters/lin-tao/reference-out-v1.png",
+        "assets/production-A-40refs-v1/generated/q08.png"
+      ],
+      "reference_use_review": "女主按实体电源，旧机眼灯/胸线亮，书包留在座位；不接外网、不加暴乱复发结论。"
+    }
+  ],
+  "segments": [
+    {
+      "segment": "segment_01_00-30s",
+      "assets": [
+        {
+          "input_index": 1,
+          "path": "frames/first-frame.png",
+          "asset_key": "q18",
+          "purpose": "0秒闹钟与床头首帧",
+          "shot_ids": [
+            "SH01"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q18.png",
+          "origin": "generated_for_shot",
+          "sha256": "c90d51e0fea635939893a6571b3269aa4591e37a4da554efe8cadcb6f006c313"
+        },
+        {
+          "input_index": 2,
+          "path": "frames/last-frame.png",
+          "asset_key": "q19",
+          "purpose": "30秒阳台尾帧",
+          "shot_ids": [
+            "SH11"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q19.png",
+          "origin": "generated_for_shot",
+          "sha256": "8c74cc9c3dda8b25f9d2584d0c3f1ebd3b9fd4066e6ed17c92206e287cc0d3fa"
+        },
+        {
+          "input_index": 3,
+          "path": "frames/ref-lin-tao-home.png",
+          "asset_key": "home",
+          "purpose": "女主居家身份与服装",
+          "shot_ids": [
+            "SH01",
+            "SH03",
+            "SH04",
+            "SH05",
+            "SH06",
+            "SH08",
+            "SH11"
+          ],
+          "status": "available",
+          "generated": true,
+          "origin": "reused_character_reference",
+          "source": "assets/characters/lin-tao/reference-home-v1.png",
+          "sha256": "d4c891c59780e049c4df240ac4914348aa5c6f777bfae4cd8c0ca7d016f62e26"
+        },
+        {
+          "input_index": 4,
+          "path": "frames/ref-xiao-man.png",
+          "asset_key": "robot",
+          "purpose": "小满结构身份",
+          "shot_ids": [
+            "SH04",
+            "SH07",
+            "SH09",
+            "SH10"
+          ],
+          "status": "available",
+          "generated": true,
+          "origin": "reused_character_reference",
+          "source": "assets/characters/xiao-man/reference-three-view-v1.png",
+          "sha256": "b466e7caafbc855ab806d89cd4c5405efd61d68b92044fd3bbd20ef298203144"
+        },
+        {
+          "input_index": 5,
+          "path": "frames/ref-bedroom.png",
+          "asset_key": "q01",
+          "purpose": "卧室床/柜/门/光线布局",
+          "shot_ids": [
+            "SH01",
+            "SH02",
+            "SH03",
+            "SH04",
+            "SH07",
+            "SH09"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q01.png",
+          "origin": "generated_for_shot",
+          "sha256": "ee08bb838941d31f10f5ef0489de509d58d1dd0a82ce71e375e63260f205f638"
+        },
+        {
+          "input_index": 6,
+          "path": "frames/ref-bathroom.png",
+          "asset_key": "q02",
+          "purpose": "洗脸刷牙化妆空间与发带",
+          "shot_ids": [
+            "SH05",
+            "SH06",
+            "SH08"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q02.png",
+          "origin": "generated_for_shot",
+          "sha256": "dd2be84928ee77205c2faddd7d4622df21ced32acb07faa392d3ee3d7dbb3a1c"
+        },
+        {
+          "input_index": 7,
+          "path": "frames/ref-alarm-band.png",
+          "asset_key": "q03",
+          "purpose": "闹钟和右腕助力环道具形态",
+          "shot_ids": [
+            "SH01",
+            "SH02",
+            "SH04"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q03.png",
+          "origin": "generated_for_shot",
+          "sha256": "2c307dbc9eb2c22901edbd63b9a6c81170090641dc6e82ce5e4ae2833f32f7f9"
+        },
+        {
+          "input_index": 8,
+          "path": "frames/ref-bed-making.png",
+          "asset_key": "q20",
+          "purpose": "小满叠被的夹角与布料动作",
+          "shot_ids": [
+            "SH07"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q20.png",
+          "origin": "generated_for_shot",
+          "sha256": "4bf61dfebb7168d3f8d5e29a0777711e3d35d3d1fe5857a01260d63c9bbb0613"
+        },
+        {
+          "input_index": 9,
+          "path": "frames/ref-clock-cleanup.png",
+          "asset_key": "q21",
+          "purpose": "碎钟清理接触与结果",
+          "shot_ids": [
+            "SH09"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q21.png",
+          "origin": "generated_for_shot",
+          "sha256": "800430ee2ea3afd6570e9a367438d4792629e82501049c71ee0d67e34f26b7d0"
+        },
+        {
+          "input_index": 10,
+          "path": "frames/ref-kitchen-breakfast.png",
+          "asset_key": "q04",
+          "purpose": "固定机械臂做饭/小满接早餐",
+          "shot_ids": [
+            "SH10"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q04.png",
+          "origin": "generated_for_shot",
+          "sha256": "ca336e84cb57d0cdb880654c0ace07c4b040c80e4f07565d86df19931587ef93"
+        }
+      ]
+    },
+    {
+      "segment": "segment_02_30-60s",
+      "assets": [
+        {
+          "input_index": 1,
+          "path": "frames/first-frame.png",
+          "asset_key": "q22",
+          "purpose": "30秒出门装玄关首帧",
+          "shot_ids": [
+            "SH12"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q22.png",
+          "origin": "generated_for_shot",
+          "sha256": "34528956a89041f9c98a22cbfc659b1969aa5f366b9e2f66d40df6f67cd3b2f9"
+        },
+        {
+          "input_index": 2,
+          "path": "frames/last-frame.png",
+          "asset_key": "q23",
+          "purpose": "60秒学院公交到站尾帧",
+          "shot_ids": [
+            "SH18"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q23.png",
+          "origin": "generated_for_shot",
+          "sha256": "0a91068ce6979be5080df16fd9fff5b1b8713792c40a4d8d1ebfc664be29ac94"
+        },
+        {
+          "input_index": 3,
+          "path": "frames/ref-lin-tao-out.png",
+          "asset_key": "out",
+          "purpose": "女主出门身份/书包/右侧发夹",
+          "shot_ids": [
+            "SH12",
+            "SH13",
+            "SH14",
+            "SH15",
+            "SH16",
+            "SH18"
+          ],
+          "status": "available",
+          "generated": true,
+          "origin": "reused_character_reference",
+          "source": "assets/characters/lin-tao/reference-out-v1.png",
+          "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a"
+        },
+        {
+          "input_index": 4,
+          "path": "frames/ref-xiao-man.png",
+          "asset_key": "robot",
+          "purpose": "门内递早餐小满，不随车",
+          "shot_ids": [
+            "SH13"
+          ],
+          "status": "available",
+          "generated": true,
+          "origin": "reused_character_reference",
+          "source": "assets/characters/xiao-man/reference-three-view-v1.png",
+          "sha256": "b466e7caafbc855ab806d89cd4c5405efd61d68b92044fd3bbd20ef298203144"
+        },
+        {
+          "input_index": 5,
+          "path": "frames/ref-corridor-stop.png",
+          "asset_key": "q11",
+          "purpose": "走廊到站台的真实路径",
+          "shot_ids": [
+            "SH14",
+            "SH15"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q11.png",
+          "origin": "generated_for_shot",
+          "sha256": "6ae2836d36e962023719814250bae9898e86c4913db282e74adb15ff1fa4175c"
+        },
+        {
+          "input_index": 6,
+          "path": "frames/ref-sky-bus.png",
+          "asset_key": "q05",
+          "purpose": "同一蓝白公交及可见座椅",
+          "shot_ids": [
+            "SH15",
+            "SH16",
+            "SH17",
+            "SH18"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q05.png",
+          "origin": "generated_for_shot",
+          "sha256": "dee53bb5fa0d74a55053a06c5a4e277514a3c7cf134d81c4ac1f11be7243bf3b"
+        },
+        {
+          "input_index": 7,
+          "path": "frames/ref-future-city.png",
+          "asset_key": "q06",
+          "purpose": "明亮高科技都市车道/楼群",
+          "shot_ids": [
+            "SH16",
+            "SH17",
+            "SH18"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q06.png",
+          "origin": "generated_for_shot",
+          "sha256": "332bfd151657ca6b296ff36f9e822679b2353bc8aec39c825738c47d4ffb6bb6"
+        },
+        {
+          "input_index": 8,
+          "path": "frames/ref-ring-rail.png",
+          "asset_key": "q12",
+          "purpose": "环轨列车与无轨公交的高差",
+          "shot_ids": [
+            "SH17"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q12.png",
+          "origin": "generated_for_shot",
+          "sha256": "28549cc72f8568c0e5f41abfcecedbdd145ee258b1a8c539e8ac1233a3ffa950"
+        },
+        {
+          "input_index": 9,
+          "path": "frames/ref-girl-bus-window.png",
+          "asset_key": "q24",
+          "purpose": "女主在车内靠窗吃早餐",
+          "shot_ids": [
+            "SH16"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q24.png",
+          "origin": "generated_for_shot",
+          "sha256": "70d0c4cec04fc5548487c42afd7ed408ea44c6a24415ce65af5e637b18b5d957"
+        },
+        {
+          "input_index": 10,
+          "path": "frames/ref-breakfast-goodbye.png",
+          "asset_key": "q25",
+          "purpose": "玄关递接纸袋与告别动作",
+          "shot_ids": [
+            "SH13"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q25.png",
+          "origin": "generated_for_shot",
+          "sha256": "9b8456e556e4255be48fbb52d79adb346b02bbf068c521da5ccf24d1725e860b"
+        }
+      ]
+    },
+    {
+      "segment": "segment_03_60-90s",
+      "assets": [
+        {
+          "input_index": 1,
+          "path": "frames/first-frame.png",
+          "asset_key": "q30",
+          "purpose": "60秒女主从后门进入教室",
+          "shot_ids": [
+            "SH19"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q30.png",
+          "origin": "generated_for_shot",
+          "sha256": "76bf3e8a333ebeda7597baf9cfd729215662b0ee9b728232701772f41fce42cf"
+        },
+        {
+          "input_index": 2,
+          "path": "frames/last-frame.png",
+          "asset_key": "q31",
+          "purpose": "90秒教师开启历史沙盘尾帧",
+          "shot_ids": [
+            "SH27"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q31.png",
+          "origin": "generated_for_shot",
+          "sha256": "7ee027bb91e8307e0be92b86667d2591c495036db46ac8930616ef2296aee236"
+        },
+        {
+          "input_index": 3,
+          "path": "frames/ref-lin-tao-out.png",
+          "asset_key": "out",
+          "purpose": "女主身份及出门装",
+          "shot_ids": [
+            "SH19",
+            "SH20",
+            "SH21",
+            "SH22",
+            "SH23",
+            "SH24"
+          ],
+          "status": "available",
+          "generated": true,
+          "origin": "reused_character_reference",
+          "source": "assets/characters/lin-tao/reference-out-v1.png",
+          "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a"
+        },
+        {
+          "input_index": 4,
+          "path": "frames/ref-xu-xing.png",
+          "asset_key": "q07",
+          "purpose": "闺蜜许星独立角色锁",
+          "shot_ids": [
+            "SH23",
+            "SH24"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q07.png",
+          "origin": "generated_for_shot",
+          "sha256": "6a205db17e7a5b308ba675f48cca0420a6ec17e0621f6911baa1c0904e88e0af"
+        },
+        {
+          "input_index": 5,
+          "path": "frames/ref-gu-yan.png",
+          "asset_key": "q08",
+          "purpose": "健硕男教师顾岩身份服装",
+          "shot_ids": [
+            "SH25",
+            "SH26",
+            "SH27"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q08.png",
+          "origin": "generated_for_shot",
+          "sha256": "18ea721f98552c7f53be539ceb54a23a8ace1b67495968e05db0b1c2e8d95eb1"
+        },
+        {
+          "input_index": 6,
+          "path": "frames/ref-classroom.png",
+          "asset_key": "q10",
+          "purpose": "门/过道/座次/讲台/教学罩布局",
+          "shot_ids": [
+            "SH19",
+            "SH20",
+            "SH21",
+            "SH22",
+            "SH23",
+            "SH24",
+            "SH25",
+            "SH26",
+            "SH27"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q10.png",
+          "origin": "generated_for_shot",
+          "sha256": "a0c07dc84fad5662d090493341206b324eb275aba16a59881264438ad830fcd0"
+        },
+        {
+          "input_index": 7,
+          "path": "frames/ref-heat-glove.png",
+          "asset_key": "q26",
+          "purpose": "热能手套喷火及腕部开关",
+          "shot_ids": [
+            "SH19",
+            "SH24",
+            "SH26"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q26.png",
+          "origin": "generated_for_shot",
+          "sha256": "3399911db871098b78f2ab8d4c77a268d1ae5d80e5e08e4c2ceee400f88e000d"
+        },
+        {
+          "input_index": 8,
+          "path": "frames/ref-ice-pen.png",
+          "asset_key": "q27",
+          "purpose": "冷凝笔在小托盘凝冰花",
+          "shot_ids": [
+            "SH20"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q27.png",
+          "origin": "generated_for_shot",
+          "sha256": "d6ccb962e4f9b0637f10a38318519ff96220cb2bda6daf3a3246341282ffbb82"
+        },
+        {
+          "input_index": 9,
+          "path": "frames/ref-hoverboard.png",
+          "asset_key": "q28",
+          "purpose": "低空滑板/抓椅刹停/女主让路",
+          "shot_ids": [
+            "SH21",
+            "SH24"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q28.png",
+          "origin": "generated_for_shot",
+          "sha256": "58023b8f5be87c9c0fc6522516dd2f2dd4b3fa4f651e4ab5db1e14faaecebbfe"
+        },
+        {
+          "input_index": 10,
+          "path": "frames/ref-optic-cloak.png",
+          "asset_key": "q29",
+          "purpose": "光学斗篷折射/同人显现",
+          "shot_ids": [
+            "SH22",
+            "SH24"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q29.png",
+          "origin": "generated_for_shot",
+          "sha256": "7c2362a67118f2ff9840d3c40ed73822c2c36227276dc269078687cef8c3d0ca"
+        }
+      ]
+    },
+    {
+      "segment": "segment_04_90-120s",
+      "assets": [
+        {
+          "input_index": 1,
+          "path": "frames/first-frame.png",
+          "asset_key": "q32",
+          "purpose": "90秒沙盘环门开启首帧",
+          "shot_ids": [
+            "SH28"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q32.png",
+          "origin": "generated_for_shot",
+          "sha256": "50e3ff8e4aaa5627bf5cf3df42539869b38de3972bb199cecba0678090c1c57e"
+        },
+        {
+          "input_index": 2,
+          "path": "frames/last-frame.png",
+          "asset_key": "q33",
+          "purpose": "120秒前女主按电源/旧机睁眼",
+          "shot_ids": [
+            "SH35"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q33.png",
+          "origin": "generated_for_shot",
+          "sha256": "ab406551f25d7775f49fa2396f3196f39e85f1ed8e39ea4e8013698eb76f482a"
+        },
+        {
+          "input_index": 3,
+          "path": "frames/ref-lin-tao-out.png",
+          "asset_key": "out",
+          "purpose": "现实女主身份，不进入历史模型",
+          "shot_ids": [
+            "SH33",
+            "SH34",
+            "SH35"
+          ],
+          "status": "available",
+          "generated": true,
+          "origin": "reused_character_reference",
+          "source": "assets/characters/lin-tao/reference-out-v1.png",
+          "sha256": "4f8a24a90eb48dab8b3e0a32e4891cce88fead0b08c57d021d7a3679b1120b9a"
+        },
+        {
+          "input_index": 4,
+          "path": "frames/ref-gu-yan.png",
+          "asset_key": "q08",
+          "purpose": "现实教师身份与讲解手势",
+          "shot_ids": [
+            "SH28",
+            "SH29",
+            "SH30",
+            "SH31",
+            "SH32",
+            "SH33",
+            "SH34",
+            "SH35"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q08.png",
+          "origin": "generated_for_shot",
+          "sha256": "18ea721f98552c7f53be539ceb54a23a8ace1b67495968e05db0b1c2e8d95eb1"
+        },
+        {
+          "input_index": 5,
+          "path": "frames/ref-old-unit.png",
+          "asset_key": "q09",
+          "purpose": "旧教学机结构/肩环/窄眼灯带",
+          "shot_ids": [
+            "SH34",
+            "SH35"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q09.png",
+          "origin": "generated_for_shot",
+          "sha256": "cc27d3c4e5f989f438ec62c129eaa1b85e83b60620863a5bf4c31e84fb7bb270"
+        },
+        {
+          "input_index": 6,
+          "path": "frames/ref-ancient-gate-core.png",
+          "asset_key": "q13",
+          "purpose": "远古环门/动力核心/探索尺度",
+          "shot_ids": [
+            "SH28"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q13.png",
+          "origin": "generated_for_shot",
+          "sha256": "5b13764d14a622f582ad8b0172b09a272c8deea809f0d6985e7f35124158e383"
+        },
+        {
+          "input_index": 7,
+          "path": "frames/ref-core-research.png",
+          "asset_key": "q14",
+          "purpose": "测量环片/复原核心研究过程",
+          "shot_ids": [
+            "SH29"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q14.png",
+          "origin": "generated_for_shot",
+          "sha256": "606e252df3cea3f2101c1586fcf8ed5ca4e7b5d49602b164ccf79d9fbad0700b"
+        },
+        {
+          "input_index": 8,
+          "path": "frames/ref-floating-city-control.png",
+          "asset_key": "q15",
+          "purpose": "浮空城区/统一中枢金色指令链",
+          "shot_ids": [
+            "SH30",
+            "SH31"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q15.png",
+          "origin": "generated_for_shot",
+          "sha256": "ac43130d243799a71a978d39dee671f02ea02970d468ad1d6353f22e8c931828"
+        },
+        {
+          "input_index": 9,
+          "path": "frames/ref-robot-riot.png",
+          "asset_key": "q16",
+          "purpose": "机器人暴乱的历史全息档案",
+          "shot_ids": [
+            "SH31",
+            "SH32"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q16.png",
+          "origin": "generated_for_shot",
+          "sha256": "8455632573df68d46d4611c3fdb2a96911a14c178f76ea52550f5dbeac5db630"
+        },
+        {
+          "input_index": 10,
+          "path": "frames/ref-district-rebuild.png",
+          "asset_key": "q17",
+          "purpose": "分区青网/人工节点/修复重建",
+          "shot_ids": [
+            "SH33"
+          ],
+          "status": "available",
+          "generated": true,
+          "source": "assets/production-A-40refs-v1/generated/q17.png",
+          "origin": "generated_for_shot",
+          "sha256": "70b12ec7bc411cf2d55dfcde10193108f67b0703240d55f949074f328a366f97"
+        }
+      ]
+    }
+  ],
+  "available_reference_files": 40,
+  "generated_jobs": 33,
+  "unique_source_images": 36,
+  "delivered_segment_files": 40,
+  "visual_reference_review": "完成当前静态资产用途复核及已发现问题修正；不等于视频验收",
+  "video_status": "NOT_SUBMITTED"
+}

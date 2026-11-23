@@ -1,0 +1,1507 @@
+{
+  "status": "PASS",
+  "script": "restored complete v2; exact SHA256",
+  "tts_cues": 150,
+  "tts_requests": "all actual provider success, exact source text, Gentleman1.2/calm",
+  "asr": "150 phonetic matches; full human listening NOT_RUN",
+  "frames": 16354,
+  "seconds": 545.1333333333333,
+  "shots": 113,
+  "unique_image_hashes": 113,
+  "shot_seconds": [
+    4.0,
+    5.9
+  ],
+  "external_gap_frames": 3,
+  "dissolve_frames": 3,
+  "subtitles": "burned; comma to space; full stop removed; no SRT/VTT",
+  "assets": [
+    {
+      "id": "p001",
+      "path": "assets/p001.png",
+      "sha256": "154b7bd00e44a3b9cf69d5d731f5f04b7532c4c8a5c8e098bf94d9d4adc54400",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2b8cb236-bcd1-4741-809d-5488875eacf2.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+      ]
+    },
+    {
+      "id": "p002",
+      "path": "assets/p002.png",
+      "sha256": "a3f5794b86900ac2027e82765eedfaa25cb8d49b58f3f1d90aced98c0b62f4be",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c2941e57-095f-43c4-bdf8-f8a6be8ba88c.png",
+      "references": []
+    },
+    {
+      "id": "p003",
+      "path": "assets/p003.png",
+      "sha256": "eab1014e2053de62c24355d63983f5660af7f1441bc2473f288f463d7887aca9",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b6bfc77b-0bd4-47bd-b08a-09a407286e6c.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p004",
+      "path": "assets/p004.png",
+      "sha256": "f1355d43962d8cdc750e9d02772f6dc3daa2ddd4276b7f283e5d0946a4ff2cb0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c207153b-4ae5-4e97-96b5-48c8174ed4e6.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p005",
+      "path": "assets/p005.png",
+      "sha256": "1acf99515a6bf1e541a368551ed170399c36ca5d6a4d97f6d315e936d5b022aa",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9f9d6c7f-f1e1-4c57-8641-1105cb3b0435.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p006",
+      "path": "assets/p006.png",
+      "sha256": "ecf83aa6e5fb755863f0d111be1147ed00d105c423345d66de751b8893a73c10",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7940055b-7464-4e8e-a43c-bd2436400c6b.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p006-original.png"
+      ]
+    },
+    {
+      "id": "p007",
+      "path": "assets/p007.png",
+      "sha256": "6577f6ffe6c692bcb8408be7ab9aabf910cb4c80e0f79cbe2be9c505f410efbf",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7c8d0b47-f8ee-4b92-8716-3845d8de94d2.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+      ]
+    },
+    {
+      "id": "p008",
+      "path": "assets/p008.png",
+      "sha256": "d1fe1e78fc93ff817b7cfb5c0f415ab6ffc99e372e2c81d64bde91a15088c12e",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-44eba520-eb97-485a-a986-94f15a0468a7.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p008-original.png"
+      ]
+    },
+    {
+      "id": "p009",
+      "path": "assets/p009.png",
+      "sha256": "68c23afd820bd316697571a2d857e6b97f04fb8b815938c8d32c75781a60261c",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f40ab880-78a1-431c-9021-ebe9b3f6926c.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p009-original.png"
+      ]
+    },
+    {
+      "id": "p010",
+      "path": "assets/p010.png",
+      "sha256": "c6124783de417ed59e7881e84ec0f8dce959192d40868d006ade07910faea48a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-04bf4180-0389-4ec9-b890-012e1ef905c9.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png"
+      ]
+    },
+    {
+      "id": "p011",
+      "path": "assets/p011.png",
+      "sha256": "972cf81efba848a76ad5286b898b093b6f84ce2c1d1e434b063fc98531377376",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6949ead8-b933-4640-aa98-4e56379f7442.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p012",
+      "path": "assets/p012.png",
+      "sha256": "98d235c5389c262e790b044841ab667472ea1b3a4781493579aa602fccd15d22",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-af703b51-2aaf-448f-9007-2eec25f5fdc4.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p013",
+      "path": "assets/p013.png",
+      "sha256": "30ee833fad19502cd4e0538b843be2ff7783306e25c94888cc6365063cd3a30b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2b770d2d-c6ff-4c9d-800f-27749f62cc7e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p014",
+      "path": "assets/p014.png",
+      "sha256": "c0177c43fada2f075414b212d072173e8c50211de52bdd1cd02208fda632e7a1",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-fc0e74d3-c872-4527-9f88-5a7b49cfb2f4.png",
+      "references": []
+    },
+    {
+      "id": "p015",
+      "path": "assets/p015.png",
+      "sha256": "51332493d1be0eca444524ee0ddea6e049def079a9d4e8f45b9511555333666a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-00620935-5c69-4177-9b6e-07aeb5c40784.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p016",
+      "path": "assets/p016.png",
+      "sha256": "62c2ce8cb1cee8485670412bb83fb841beddf04b0705a412f4d2e40f7e4f0fb0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2e8e15dd-a0ed-42e2-b863-d96766a028b8.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p017",
+      "path": "assets/p017.png",
+      "sha256": "63e49df1cdce605e74e80d0a9879c45ffc61749b0c922366b7e25408270e2044",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b8669a26-33f3-4e15-ae3c-68f5f0c6e457.png",
+      "references": []
+    },
+    {
+      "id": "p018",
+      "path": "assets/p018.png",
+      "sha256": "93d1a7fce3db2072bf92159aec403f63f6663a23b35897f704f8ee6d80f168a7",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-03cda265-239b-4148-ab1f-5924aab48330.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+      ]
+    },
+    {
+      "id": "p019",
+      "path": "assets/p019.png",
+      "sha256": "2264ea4f9caca16ff9107069003b327bd8e26421f775b6d123bf2e247f4007ff",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b51e5ad1-8579-43c6-b722-2bb60fe4874d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p020",
+      "path": "assets/p020.png",
+      "sha256": "01d9e335212bd245edc3867cfd2346bc29ef0aeaa0452ca32724bed7025792ab",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2f83eced-535d-4964-9b50-96d078203e44.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p021",
+      "path": "assets/p021.png",
+      "sha256": "116f15e77a0076ee68c75ba22a543fe0892bdf42df5556df4d3a5da88b070a9a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bbcd7c24-b986-428a-b1b6-4e1136f6e13c.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p022",
+      "path": "assets/p022.png",
+      "sha256": "46b69f284485b6dc16f9f0bc89fd23fa0688bdbdad2ee4580d5ab42ead0bf68a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-26175c42-1737-47ec-b016-aca718be6143.png",
+      "references": []
+    },
+    {
+      "id": "p023",
+      "path": "assets/p023.png",
+      "sha256": "9e402b0b7495f41ca1e66fbd95d40570eba0e99df800f33ded1e0301da488de4",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9cb82f52-11f0-4133-8a04-7547dbfb9f22.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p024",
+      "path": "assets/p024.png",
+      "sha256": "1ca21ae4e2bd9beda043e2c97cbdf4718fa42049fbebe002c78ccd3a17b729be",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-31106f09-6fda-4058-9215-d791fb687dee.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p025",
+      "path": "assets/p025.png",
+      "sha256": "bdeffd69c72da234b80b424b964343fac2826a3f4eaa618b1079e594b3c35f9d",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-585cd942-2de8-47ed-ab53-7a382e3e2371.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p026",
+      "path": "assets/p026.png",
+      "sha256": "ee0f35cbc8c8365e2aae49390c3b335a6c4833a0704e0557e7b71d2cc90c784c",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e0bb4b8b-616f-4a24-8a89-1dc7e51880d6.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p027",
+      "path": "assets/p027.png",
+      "sha256": "76a0363ea5d3a34f32e02417f6dfb4ecbd65c20de8ad9d8bbf7e8742de337c22",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-cf246d25-0b5c-43dc-8c00-3d6a395aff53.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p028",
+      "path": "assets/p028.png",
+      "sha256": "5f71b1f6c3204d911dad4d03a4cc3cb0b923db1132f9e6680f3ff02f405c4588",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-951da781-5705-4076-962b-e0191d237227.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p029",
+      "path": "assets/p029.png",
+      "sha256": "829f517f1f21f65743bc06b3c2278c8addae30d40abb03d841856634c8c381b1",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ec6ac7a5-4313-4db2-89bf-488220a13723.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p030",
+      "path": "assets/p030.png",
+      "sha256": "bf016f51d17611f8d34b434fa8361a27584049dafdb3e7882d02da4d379dbd7a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ca76eb83-4175-41c7-ad61-b4ee13fe7eb4.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png"
+      ]
+    },
+    {
+      "id": "p031",
+      "path": "assets/p031.png",
+      "sha256": "185bd387648c7636151882cb5bae9c804dc659e8563912a2f4454d46e6e1cfe0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-0daa8160-1f4b-479a-b806-d5e0cfd6ab80.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p031-original.png"
+      ]
+    },
+    {
+      "id": "p032",
+      "path": "assets/p032.png",
+      "sha256": "b7e0be912a4021286cfa372ec573b6f7188aa0a5f1495b9749b3bcf2bd60ab18",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2ac8f35c-7680-4ee7-bb88-bda68b8fd97d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+      ]
+    },
+    {
+      "id": "p033",
+      "path": "assets/p033.png",
+      "sha256": "47f2a9ab30418cc1ee3462ccb8857a5f885616b337eccd5a3308d8a3da092f36",
+      "size": [
+        1671,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-986a1934-76e7-4bc6-92fb-82f2e6a2da6d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p033-original.png"
+      ]
+    },
+    {
+      "id": "p034",
+      "path": "assets/p034.png",
+      "sha256": "9b44cce20b24404a25a9c5d389523f4511d6336138b4f4e8b49d352823aabd90",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3dca0b90-2efa-444a-aa1b-10f0670b97af.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p035",
+      "path": "assets/p035.png",
+      "sha256": "848848e067dfea95525a5461f457fcc61042d35d0c43fdd603e1d8a7d8fb40fa",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d7f4112b-c47c-4653-8a3a-49dc39b1b24d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p036",
+      "path": "assets/p036.png",
+      "sha256": "10e4b8db1d24985eda2c0b878279d4c81fff221b1c0ea2db4311a2ad05a20914",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c56293f5-8c71-4a58-9175-9a60ddb3ea75.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p037",
+      "path": "assets/p037.png",
+      "sha256": "6233791068caa172f00d00b80bb45039e394446a16dbe9db121b6fcb8cc989ac",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7dafbd19-a0b3-4ac9-b335-dfc73dd7899a.png",
+      "references": []
+    },
+    {
+      "id": "p038",
+      "path": "assets/p038.png",
+      "sha256": "a888b2b3bc8f485898905b5ee07f8c4584ed4f4982ba6d1347a0693fd0b235f0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-07eec190-12cb-463d-aca6-69e9749529be.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p039",
+      "path": "assets/p039.png",
+      "sha256": "fd9b85ecc2058287b6cc519acd4a192cea68037b56167130bdf9688c6dcbcc48",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d3852431-3d57-4fcd-a7e6-0f43e6fc589f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p040",
+      "path": "assets/p040.png",
+      "sha256": "3220e99250f864050369d403446724cf14c36c20256c6cbe5bd26bc115fa9e9b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-dbd87344-4df7-44cc-8757-b37d897dddba.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p041",
+      "path": "assets/p041.png",
+      "sha256": "962e6501622a9e120caf3118f7892de3ac10a549bb2a5a758d8422895a08aa38",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-38dd4734-d9df-47f4-8f34-5aaea9a49cf3.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p042",
+      "path": "assets/p042.png",
+      "sha256": "feb64ba189a8a07f9ba52f2a0ecb8d7cd161f2754329c08975bf951a72311332",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e883c1ae-0c99-4c6f-99e4-c31d5dcc0800.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p043",
+      "path": "assets/p043.png",
+      "sha256": "705674bc921ae9c7a43a338d5aa886c3ffbb5adb4d4568df7238236b1b265a4b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bd4f95cf-d4e6-4b8a-bef6-f32ad8b312ea.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p044",
+      "path": "assets/p044.png",
+      "sha256": "35d0b556264fb16ce3406aacff7a7ae32a150f4742531e98545942d126cdd219",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-033b125f-f645-4fbb-8864-2ae566020a86.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p045",
+      "path": "assets/p045.png",
+      "sha256": "cbab4944c64595dc6da6e7383f5180ee519d8a5556f4556d4dba529a082173b0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c02f941b-6f00-4508-ae49-4f453a3b6b7f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p046",
+      "path": "assets/p046.png",
+      "sha256": "33fbc920c11ddc21ce30f8dd5296bf2d091ffe888a216ae7c090df0962a3a448",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-cb29ca8a-9dca-46e8-b9f3-e6907856b772.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+      ]
+    },
+    {
+      "id": "p047",
+      "path": "assets/p047.png",
+      "sha256": "9ede8603fe5c84cfb8ab2a7e5ce49cedee7f403a102f0a18e3ec8cf3cbe9b40d",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bfa901f2-d058-4b55-8ee0-6c0094df2efb.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p048",
+      "path": "assets/p048.png",
+      "sha256": "4ef3b78f9dacbc79a3c69a1c4604f679009244b9e01de03a16422425dee9ce30",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ca03f605-29e9-477f-a825-a1d00bf141c1.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p049",
+      "path": "assets/p049.png",
+      "sha256": "68778176d75cf3418ff1c47580a9f32e4eb334812ae6aa0b7efb95e13e93f9f0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-122409bf-96db-4308-a3ba-883f9a83f2da.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p050",
+      "path": "assets/p050.png",
+      "sha256": "6bbc789b3bd2316df08ba8fe6305c8507c3dfcb76829f95632973ab8323d3430",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e17f8150-154f-434e-86b9-2c17987d8844.png",
+      "references": []
+    },
+    {
+      "id": "p051",
+      "path": "assets/p051.png",
+      "sha256": "060fa93662a21d14c82472e01edee8b8313cfbd07c53286a1e29025b96fb49d6",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5139875a-6c48-4d85-aade-822cff9df992.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p052",
+      "path": "assets/p052.png",
+      "sha256": "294b2b0e13e4bcf355be75f26c6958b07898f9f21db99cf983a10c509e30d878",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-56b5c70a-43fa-442e-a202-6876af455783.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p053",
+      "path": "assets/p053.png",
+      "sha256": "e4d91703c89dcf417aecbbdb823a703c838284ab89cd551e2e3102b58905e71f",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2f67890d-b7ed-49c2-8ae4-c5a83ed4a1b5.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p054",
+      "path": "assets/p054.png",
+      "sha256": "768116a20a0474c66fd5e0d86672fb0007881ce960720a16b63c7f9073ebb8e1",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6989984d-6129-446f-8e80-d40561c48cba.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p055",
+      "path": "assets/p055.png",
+      "sha256": "b709f5eed077d308b2e9fc4687b1efabec725ea142732868ccb8e2297c217f9e",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5874bdf1-02e6-472d-90b0-76553f7daaf2.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p056",
+      "path": "assets/p056.png",
+      "sha256": "2815bff3a9cd401996740ef71eea0e8373f991b4e981783707860638a5a74492",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2d724239-7bee-46e3-841d-1cf66af10aa3.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p057",
+      "path": "assets/p057.png",
+      "sha256": "66a0dd174a2622682d22dfb20b8c335c1b0abaf89114eee556da2c3d5998d0f9",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bf3739d4-9ffd-4d1a-bd0f-4464e52d7b62.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p058",
+      "path": "assets/p058.png",
+      "sha256": "b3151a00400d29d484dd8d7738fdfc488f0cd43edf96ad2cd9fa6cc35c7f261c",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e106f5c6-d13c-4ed1-b67b-c40d6a5de35e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p059",
+      "path": "assets/p059.png",
+      "sha256": "0d402710c1cdee56e4abd607db04eef2beb7aa636b6f54c055428eb91a9ff17e",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bcc5eb5a-ca31-4617-ae8d-d848d917461f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p059-original.png"
+      ]
+    },
+    {
+      "id": "p060",
+      "path": "assets/p060.png",
+      "sha256": "9f846958848244b462305b805fae8d23787e7cc23a23fc5f43ce397453a01ff8",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ab356d59-7e00-49fd-a1b5-0d5ed4265716.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p061",
+      "path": "assets/p061.png",
+      "sha256": "f247e242ce338cffa516211827a50bb24f1e3e7774f89eccdb4cab04ea2f0066",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-ae35c892-93a0-415f-a789-bd3f5f5598b4.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+      ]
+    },
+    {
+      "id": "p062",
+      "path": "assets/p062.png",
+      "sha256": "c785e6a3049609051a06d77d7e2a98ef9d4c708b3c79115fd827fd2fcab74a49",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2ef4e319-8b20-4883-8f7f-713de5633282.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p063",
+      "path": "assets/p063.png",
+      "sha256": "91a95894e4917832f4a48e49888cf41fbd1fe3c20ac64a61af03ce121afdaa3f",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-287a8373-4e5d-438b-b81e-9e0b67a5e159.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p064",
+      "path": "assets/p064.png",
+      "sha256": "2ee767077ec846c8669b050ce39ccb423acf686c374af07817db4b8de97a0b1b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-89366183-7909-4a2b-b43d-622104734596.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p065",
+      "path": "assets/p065.png",
+      "sha256": "efc50ee9fe2b40a6efe8682cc4a998e4047145e39639e89a3136fbd0f8c50fdb",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4e954c4b-2359-4905-8e23-157fa0a7da7b.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p066",
+      "path": "assets/p066.png",
+      "sha256": "bfda49daa9b6562055e74db747bd9350c18076085c113ddaf7e6521282bab3c6",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4fac926e-b819-4d11-9bbe-ca6099ce8c9f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p067",
+      "path": "assets/p067.png",
+      "sha256": "93c34aced352665a0a4304c3cb6215ae3853db27489fa3a12c9998c44426732a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b57dbc74-09bb-4034-b3d9-6bddf1f848c2.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p068",
+      "path": "assets/p068.png",
+      "sha256": "6d45a5366201b2e5b8cac09c301800235d58de74eeacfbc36bc4c9e5493223a2",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-b7b47660-e41e-4460-b7ea-2facec200646.png",
+      "references": []
+    },
+    {
+      "id": "p069",
+      "path": "assets/p069.png",
+      "sha256": "c0f6b6b23050e846d73384c4f37337e9b01b8cf3b9c97f133bfd85cb871f64c0",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f2f1f845-0cde-4134-a8a0-d393aa5f349c.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p070",
+      "path": "assets/p070.png",
+      "sha256": "05f8e6aab20702916e9c24bfe7e82d6a73acbbee2d10debb11dee9a037e776e2",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7bc4a5a6-5fba-4bca-9979-e116c03c346d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p071",
+      "path": "assets/p071.png",
+      "sha256": "1314ab97e554106fa94fbf65b96ac1a01060d7c3bafac9c886fe28b54046cc99",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-07903199-5ceb-4be4-9753-b120171cb753.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p072",
+      "path": "assets/p072.png",
+      "sha256": "dad0783af31c9e180581ee78a0385111ec277c9586c643ff896724e8bbdeeaab",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-fa783713-008b-44f5-938b-9434ba851a27.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p073",
+      "path": "assets/p073.png",
+      "sha256": "e9baf0137fa9578f5b348dc068953e1d45e5195d88394c9d48c7cf0ffdd6275a",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e6298fb4-d3da-4f83-98c6-915e69224d6f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p074",
+      "path": "assets/p074.png",
+      "sha256": "8833f0e21948fd71b1c44a96a1c67f20fd75300405fb27b638847fd144230d39",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a676fa0e-3bc6-4dc0-956b-2161245c5e62.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p075",
+      "path": "assets/p075.png",
+      "sha256": "22b7f65261c5e2c90121cb8c51548ea6d32e551c948eb1b4a38119e610f292f5",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-335d07cc-1d3e-4649-ab79-bf8e7bea9f4f.png",
+      "references": []
+    },
+    {
+      "id": "p076",
+      "path": "assets/p076.png",
+      "sha256": "86193037c1b8a38fc2219356deacdd9248bb62152200aa2db576254ff7e359a4",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-be4e8686-d0aa-414a-a63c-117881bcc280.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p077",
+      "path": "assets/p077.png",
+      "sha256": "049adda8c9034646febad3713ad76edcb58a763eba4ebbae3dd1563d0816d352",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2ab8c705-b0c1-4582-804d-563ab0ebf8f2.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p078",
+      "path": "assets/p078.png",
+      "sha256": "0643d85e0caba0fba3659e12d1230eb8ce9d1be02586ec0e14b12f669ec63cdc",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-40213568-22e9-4e22-b7ef-e9b4887e129c.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p079",
+      "path": "assets/p079.png",
+      "sha256": "5d30457b70159f0a1b40d43365135c55056f842472c73f8455f5fa10155381be",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3ee6e50a-a5c8-4157-98ef-ea8ce455c6e7.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p080",
+      "path": "assets/p080.png",
+      "sha256": "ec375862b719c3f6a356e4abbdf91091f236d5a32b9c618d0ca3a3c911bfb392",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8848c87f-3140-468c-86bb-8700df9bed29.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p081",
+      "path": "assets/p081.png",
+      "sha256": "4954e375af1f62891d472fcb51e8197e290129005a08224a3d3bb07fe4aa0c94",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2e5ac0c2-a6fa-444c-a850-b4b297b02093.png",
+      "references": []
+    },
+    {
+      "id": "p082",
+      "path": "assets/p082.png",
+      "sha256": "47cbff102042831559e12201700e6cd635a7e9ba6bfd192b924fc44bdd0ca4ac",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-18f1fcc1-dfac-4588-99b9-4e73b962c468.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p083",
+      "path": "assets/p083.png",
+      "sha256": "64d62c4d6312601e9826049b3cbaa5cf326a1f64b55e53fa57d615261c00df6e",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6b5151b4-387b-4781-8a66-7246ff229638.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p084",
+      "path": "assets/p084.png",
+      "sha256": "a982644a833e0b9d065d6943c74b3df74612a7d6f6e20867461d8cdcfba83244",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c1ce48e0-6a76-4d7e-ab75-6abd4f1f5af0.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p085",
+      "path": "assets/p085.png",
+      "sha256": "c701088095857380c4eed05214be8c410837c0a63ff4847e3d3c16f5e07e4970",
+      "size": [
+        1671,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-685c7373-dd2a-46fd-9c77-a585d0ac4743.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p085-original.png"
+      ]
+    },
+    {
+      "id": "p086",
+      "path": "assets/p086.png",
+      "sha256": "167f4a7078e9ee55d972f6dd1041b43dbb2c58f215a834e58944659b49cb8f57",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-db6a9e23-092c-4ff9-a94e-318726d0ad72.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p087",
+      "path": "assets/p087.png",
+      "sha256": "e74941466f6f484992b5320d676603a9f62befa5ed0d57ee6ed20e6bd413ed26",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-f1f5af8b-5812-4e7d-b5a2-4c7d30ace6ee.png",
+      "references": []
+    },
+    {
+      "id": "p088",
+      "path": "assets/p088.png",
+      "sha256": "29edbcccbb44870a1291b5ea291f3fb0f46edfc376987c08bf748d4c7f1cceff",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-1afab67c-c21a-490a-b340-da1efa54626d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p089",
+      "path": "assets/p089.png",
+      "sha256": "d3ee9aa22c0ce3ad30547012599a8147cd2733a39578d5d2b5889356da26b52b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-37250432-2a7c-4d48-be04-80a32561655a.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p089-original.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p090",
+      "path": "assets/p090.png",
+      "sha256": "2faa9e50cd17bbd80850ce0011d801c3be826342ebd5292b025e3d2ea1792a89",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-7ffa5afa-8da7-4b59-9ae7-cf543c49382d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png"
+      ]
+    },
+    {
+      "id": "p091",
+      "path": "assets/p091.png",
+      "sha256": "93289131a826d2b4250d1987425b434e9634ba0db9bf44194d2b28e7eb5e488c",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-9d78db12-86a9-4a24-b49c-b02a379e0f61.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    {
+      "id": "p092",
+      "path": "assets/p092.png",
+      "sha256": "305949abaabe9ce3a49d4d9035148d5d4a44c5d958916c6325c8db8e14556438",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d70d49bb-f5f5-4ec3-a2e9-49418f15ca5f.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p093",
+      "path": "assets/p093.png",
+      "sha256": "eca4bc1e01b4dd8a451eb0e0a8ccaf6d4a49c525e336f8fb921ee750bd81e2d1",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e033b7f5-05fb-42d9-b7dc-0c25720b6dae.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p094",
+      "path": "assets/p094.png",
+      "sha256": "a1d24c90e0ec636004d1fcb9202e8cc973cd58bb3feb564110aba83e7e333974",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-61b6ceea-1d6d-4640-b881-154d25e6c09d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p094-second.png"
+      ]
+    },
+    {
+      "id": "p095",
+      "path": "assets/p095.png",
+      "sha256": "8d62f51bf57d518b1cc9a02ffe5db3f37e4e9e570189ed51e2bac213dbf4b0ab",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-49d9b771-c2e2-4dd1-be70-df7485a20d90.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p096",
+      "path": "assets/p096.png",
+      "sha256": "48bb290a0577deeb2b7682e5d877d707cef3919459d70bc1db4a336d580f501b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-d906f027-d4c8-4b94-bc5f-1c8760d755ca.png",
+      "references": []
+    },
+    {
+      "id": "p097",
+      "path": "assets/p097.png",
+      "sha256": "2fab23907ca33947431d481d11e43b11d974e2c8b32a50d6de1658b0168d2b1e",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-2fcfd595-9bce-45d6-8e1a-5839d7b7620c.png",
+      "references": []
+    },
+    {
+      "id": "p098",
+      "path": "assets/p098.png",
+      "sha256": "c50d612c4345c5a5809056631c3348c4ef2fe369f9700afccc85a201e1a978e6",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-97a985ab-c4fd-4785-b548-000b535f5e06.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p099",
+      "path": "assets/p099.png",
+      "sha256": "2e56f66a5cf3f3bb85ce55d0bbcfb678289898736fc339251b95fd1da606e1ef",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5b8976fc-9e00-4a6c-baac-25a7747f606e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p100",
+      "path": "assets/p100.png",
+      "sha256": "cc28c4461c9f2b7bb2aec53f29567093702e13a2e54431b66fcb718e45231c14",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-61e0fe7f-2c86-4637-9649-93b1735f53ad.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p101",
+      "path": "assets/p101.png",
+      "sha256": "a01c27488170931e06050a46282d7f6e470a996be93d4ac0eae9327a0cc71747",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-4c989c6b-a46a-41a4-a4e1-9a0be86df981.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/foreman-neutral.png"
+      ]
+    },
+    {
+      "id": "p102",
+      "path": "assets/p102.png",
+      "sha256": "f50fd17b3b5bd3b725caf39e401e0b4fa2e32f15b5c28420353b7a2f0784f1c2",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-95985c72-b767-4acd-ab37-f6b3e5343b42.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png"
+      ]
+    },
+    {
+      "id": "p103",
+      "path": "assets/p103.png",
+      "sha256": "da51675dff7dfb456ad623a2a572443173002e5fd80834b0df689a2ec0f31bb7",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-da2361bf-6034-4388-a210-4f89f2dddf10.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p104",
+      "path": "assets/p104.png",
+      "sha256": "24f2b573ed8aacfde227e3bdf7e09bb2dc6b22ed4cc754ba9aff82ddc0666ff9",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-c3d69aaa-cccf-4a85-908f-86e02a54faa9.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p105",
+      "path": "assets/p105.png",
+      "sha256": "df899f517d9f9ef52e33e377660bf31139a35295a73df5d7453450af52f6cb14",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-5530690f-ef06-4d3a-b459-fbe5fa5acb72.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p106",
+      "path": "assets/p106.png",
+      "sha256": "6c3baf75c5417445885f7d5c2435df566bf00d051d8efdfb7078136bb4e606a5",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-334ba445-e057-44bb-b98f-4ad1b1715323.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png"
+      ]
+    },
+    {
+      "id": "p107",
+      "path": "assets/p107.png",
+      "sha256": "bf8cac80c6eded51e0e03f621dc170ed1cdd1dc64d06e63a664929a929a3e7ff",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-bcdea210-bb36-4068-806f-c344564919dd.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    {
+      "id": "p108",
+      "path": "assets/p108.png",
+      "sha256": "3e4382761f5daa6f6f99ce2f470a5f0d31da1e293601c8ad8195ee49ca7095c9",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-a5548e53-18d3-4394-9236-532e007ac96d.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/female-neutral.png"
+      ]
+    },
+    {
+      "id": "p109",
+      "path": "assets/p109.png",
+      "sha256": "7963dfb498ab53affa921be9abf2996313f4411b28717eaa56788149114547ef",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-91216931-7a05-4f32-94b0-1c37be723b29.png",
+      "references": []
+    },
+    {
+      "id": "p110",
+      "path": "assets/p110.png",
+      "sha256": "d34c2fa3e4276363dcaaf081f67bb8a306f2a8d368d6cf3d5598619855c7747c",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-3e136a83-e3cc-4386-b0e6-b96f080b4d4e.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    {
+      "id": "p111",
+      "path": "assets/p111.png",
+      "sha256": "7e89a8381134e501925e65274d4daa8e86004a6488087594123d6db9bc9f6d5b",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-70b3ef4a-7b46-4aaa-8a99-76c9c880e462.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png"
+      ]
+    },
+    {
+      "id": "p112",
+      "path": "assets/p112.png",
+      "sha256": "33ab5a214868d9ee9493151bd63fcd27619531d2b4b189cb4d6e7e42c075efc6",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8877866f-45ec-42c7-a930-626010345eb8.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/male-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png"
+      ]
+    },
+    {
+      "id": "p113",
+      "path": "assets/p113.png",
+      "sha256": "4dd1150ccee896729be2d34a4cb0174771db82cb3639153b447043991eee6d6e",
+      "size": [
+        1672,
+        941
+      ],
+      "generated_source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-6b6628bb-63d7-4198-8e1f-bf1d7a6402c3.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    }
+  ],
+  "contact_visual_review": "PASS: five sheets plus per-image review; 12 corrected shots, p094 second correction",
+  "render": "PENDING"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "automated_passed_visual_review_pending",
+  "full_decode": "passed",
+  "frames": 7730,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio_streams": 0,
+  "embedded_subtitle_streams": 0,
+  "subtitle_cues": 130,
+  "subtitle_text_exact": true,
+  "cue_durations_preserved": true,
+  "gap_count": 129,
+  "all_srt_gaps_ms": 100,
+  "dissolve_count": 68,
+  "all_dissolves_frames": 3,
+  "max_dissolve_weight_mean_luma_error": 0.592850387096405,
+  "max_static_mean_luma_change": 0.005401234608143568,
+  "visual_review": "pending"
+}

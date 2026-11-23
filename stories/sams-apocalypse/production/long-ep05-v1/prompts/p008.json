@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只把远处道路中央正在驶离的白色小货车替换为横挡车道的两辆废轿车（一黑一浅灰），远处不允许其他货车通行。近处被扣白厢货车、三名人物、单子、路障链与电影影调保持。",
+  "transparent_background": false,
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p008-original.png"
+  ]
+}

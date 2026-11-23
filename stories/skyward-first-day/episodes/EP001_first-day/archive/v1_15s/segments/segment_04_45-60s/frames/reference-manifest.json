@@ -1,0 +1,36 @@
+{
+  "version": "v1",
+  "segment": "segment_04_45-60s",
+  "status": "planned_missing",
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "purpose": "本段0秒起始构图和角色道具初始状态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "purpose": "本段15秒结束状态与下一段衔接；不是要求整段从首帧直接变形到尾帧",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-bus.png",
+      "purpose": "女主坐在公交透明窗内的脸、服装与书包",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-city-route.png",
+      "purpose": "蓝白公交、分层飞行车道、环城轨道、学院相对位置；若带线路标注，只用于理解路径，标注不进画面",
+      "status": "missing",
+      "generated": false
+    }
+  ],
+  "note": "当前无真实图像。仅在真实文件生成并核对用途后修改状态；故事板表格不上传。"
+}

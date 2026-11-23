@@ -1,0 +1,43 @@
+{
+  "version": "v1",
+  "segment": "segment_03_30-45s",
+  "status": "planned_missing",
+  "assets": [
+    {
+      "input_index": 1,
+      "path": "frames/first-frame.png",
+      "purpose": "本段0秒起始构图和角色道具初始状态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 2,
+      "path": "frames/last-frame.png",
+      "purpose": "本段15秒结束状态与下一段衔接；不是要求整段从首帧直接变形到尾帧",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 3,
+      "path": "frames/ref-lin-tao-out.png",
+      "purpose": "林桃出门装身份、发夹与书包",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 4,
+      "path": "frames/ref-xiao-man.png",
+      "purpose": "门内递早餐的小满形态",
+      "status": "missing",
+      "generated": false
+    },
+    {
+      "input_index": 5,
+      "path": "frames/ref-bus-stop.png",
+      "purpose": "走廊通站台路径、蓝白空中公交车门与座位",
+      "status": "missing",
+      "generated": false
+    }
+  ],
+  "note": "当前无真实图像。仅在真实文件生成并核对用途后修改状态；故事板表格不上传。"
+}

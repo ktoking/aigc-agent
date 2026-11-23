@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只替换主显示器里的行车记录录像画面：必须是短灰色混凝土双车道小桥、低矮混凝土栏杆，右边有铁皮棚，桥头两辆废轿车横挡，干燥昏黄天空。绝不画高大钢桁架桥或悬索桥。保持男主与室内构图不变。",
+  "transparent_background": false,
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p089-original.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+  ]
+}

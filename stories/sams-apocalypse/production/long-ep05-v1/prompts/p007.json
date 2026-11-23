@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: photorealistic-natural. 生成一张全新单幅16:9横向真人电影静帧，用于山姆核灾第五集。不是拼图分镜表，不是旧图裁切。自然可信中国成年人，中等细节，清楚大形，克制电影光。室内有序干净干燥、完整墙面和哑光地面；室外黄尘污染天空但干燥不湿，完整建筑，不画满地垃圾。无字幕标题水印，底部普通场景留给后期字幕。冲突只拍虚构电影事件和结果，不展示战术部署、武器操作、制造或使用教程。不继承演员参考的灰棚背景。\n时序与空间：核灾后，山姆核心后仓和地下住处完整，独立机房一直在运行。上集旧大卸货洞已用钢板封死，侧小门与转角后厚内门保留并关闭。外人只在外围，不能进核心后仓、监控房或地下住处；男女主只在封闭内侧活动。地下室没有窗户或直通室外开口。 桥头路障尚未清除，两辆废车挡桥；本集没有新增柴油交付。\n参考职责：车辆参考只锁同一辆浅灰单排驾驶室、白色方形封闭货箱小型厢式货车；不是油罐车皮卡军车，牌照模糊。 桥参考只锁地点：完整可通小货车的双车道短混凝土桥，低栏杆，右侧铁皮棚。路障状态严格按本镜事件，通路后两辆废轿车移开、收费牌拆下；桥始终没塌。 原司机取司机参考，约35岁较窄脸短发，浅灰白防护服左上臂蓝色胶带，无棕补丁；室外戴好兜帽护目镜半面罩，室内可挂颈。\n本镜唯一可见事件：原司机和一名装卸工穿完整防护服，空手离开桥头向回走，身后货车仍被扣在铁皮棚旁；只出现这两个工作人员。\n机位要求：参考只锁演员、车和地点身份，不照搬参考机位，依本镜事件重新构图。",
+  "transparent_background": false,
+  "referenced_image_paths": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/truck-neutral.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/driver-neutral.png"
+  ]
+}

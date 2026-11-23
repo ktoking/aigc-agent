@@ -1,0 +1,669 @@
+{
+  "episode": 4,
+  "title": "她没求我开门，先帮了我一个忙",
+  "fps": 30,
+  "characters": 215,
+  "frame_count": 1290,
+  "duration_seconds": 43.0,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 348,
+      "directory": "segment_01_0.00-11.60s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 348,
+      "end_frame_exclusive": 666,
+      "directory": "segment_02_11.60-22.20s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 666,
+      "end_frame_exclusive": 954,
+      "directory": "segment_03_22.20-31.80s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 954,
+      "end_frame_exclusive": 1290,
+      "directory": "segment_04_31.80-43.00s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "我没有开门，让她先站远一点。",
+      "characters": 12,
+      "start_frame": 0,
+      "end_frame_exclusive": 72,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "她叫许棠，是来修冷库的。",
+      "characters": 10,
+      "start_frame": 72,
+      "end_frame_exclusive": 132,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "昨晚取工具时外面出了事，她躲回维修车，没敢下来。",
+      "characters": 21,
+      "start_frame": 132,
+      "end_frame_exclusive": 258,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "她举起的工单，和店里的记录对得上。",
+      "characters": 15,
+      "start_frame": 258,
+      "end_frame_exclusive": 348,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "我正想问她有没有受伤，冷库先报警了。",
+      "characters": 16,
+      "start_frame": 348,
+      "end_frame_exclusive": 444,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "她听见动静，让我看装卸区的外机。",
+      "characters": 14,
+      "start_frame": 444,
+      "end_frame_exclusive": 528,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "散热口前，倒着一堆纸箱。",
+      "characters": 10,
+      "start_frame": 528,
+      "end_frame_exclusive": 588,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "她放下工具包，先把纸箱挪开了。",
+      "characters": 13,
+      "start_frame": 588,
+      "end_frame_exclusive": 666,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "我照着她的说明，看温控屏上的变化。",
+      "characters": 15,
+      "start_frame": 666,
+      "end_frame_exclusive": 756,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "十几分钟后，报警灯才熄了。",
+      "characters": 11,
+      "start_frame": 756,
+      "end_frame_exclusive": 822,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "她确实懂这套设备。",
+      "characters": 8,
+      "start_frame": 822,
+      "end_frame_exclusive": 870,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "可我还是没有立刻打开卖场的门。",
+      "characters": 14,
+      "start_frame": 870,
+      "end_frame_exclusive": 954,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "她看见我犹豫，指了指两道门之间的收货间。",
+      "characters": 18,
+      "start_frame": 954,
+      "end_frame_exclusive": 1062,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "她说，先让她待在那里，水和吃的放进去就行。",
+      "characters": 18,
+      "start_frame": 1062,
+      "end_frame_exclusive": 1170,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "等我愿意相信她，再开里面那道门。",
+      "characters": 14,
+      "start_frame": 1170,
+      "end_frame_exclusive": 1254,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "她连床都没要。",
+      "characters": 6,
+      "start_frame": 1254,
+      "end_frame_exclusive": 1290,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "2a19927ffd3c3ab00c9796c550bdb5fc4a0f87a7837dbf07cdfa29e45dfc0fc0",
+  "assets": {
+    "e4-01": {
+      "id": "e4-01",
+      "episode": 4,
+      "segment": 1,
+      "title": "维修工单",
+      "description": "门外许棠站在白色维修车旁，举起一张简洁维保工单给监控，蓝灰工具包放脚边，空瓶在旁，灰蓝卷帘门紧闭。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_01_00-15s/frames/e4-01.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-02": {
+      "id": "e4-02",
+      "episode": 4,
+      "segment": 1,
+      "title": "核对记录",
+      "description": "监控室男主把桌上的门店维保记录和屏幕中许棠举的工单比对，两张纸只画简单行线和相同的小标记，不生成可读文字。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_01_00-15s/frames/e4-02.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-03": {
+      "id": "e4-03",
+      "episode": 4,
+      "segment": 2,
+      "title": "外机前纸箱",
+      "description": "室外冷库冷凝外机，大型灰色有护网的设备和封闭电箱，进风口前倒着几个空纸箱；许棠从几步外指给上方监控看。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_02_15-30s/frames/e4-03.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-04": {
+      "id": "e4-04",
+      "episode": 4,
+      "segment": 2,
+      "title": "先挪开纸箱",
+      "description": "许棠在室外冷凝器旁把堵住进风口的空纸箱搬开，蓝灰工具包放安全处，双脚落地稳定，未拆电箱。男主不在室外。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_02_15-30s/frames/e4-04.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-05": {
+      "id": "e4-05",
+      "episode": 4,
+      "segment": 3,
+      "title": "看温控屏",
+      "description": "室内冷库门外男主按照对讲机说明检查小温控面板；冷库门保持关闭，面板绿灯和一盏小红灯，干净设备轮廓。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_03_30-45s/frames/e4-05.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-06": {
+      "id": "e4-06",
+      "episode": 4,
+      "segment": 3,
+      "title": "告警解除",
+      "description": "室外许棠在已清空进风口的冷凝外机旁，手扶工具包，肩膀放松，透气护网无杂物遮挡，暮色，女主无伤。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_03_30-45s/frames/e4-06.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-07": {
+      "id": "e4-07",
+      "episode": 4,
+      "segment": 4,
+      "title": "两门之间",
+      "description": "室内朝收货缓冲间看：前景男主位于关闭的带玻璃内门后，隔窗看对面独立矩形收货间，最远处外卷帘门也关闭。清楚两道边界，许棠还在外侧可不入画，房内无人。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_04_45-60s/frames/e4-07.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e4-08": {
+      "id": "e4-08",
+      "episode": 4,
+      "segment": 4,
+      "title": "她指向观察处",
+      "description": "室外许棠平静地指向收货缓冲间的侧窗，另一手拿空水瓶，橘夹克和低马尾；蓝灰卷帘门仍关着，男主不在她这侧。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP004_cold-chain-technician/segment_04_45-60s/frames/e4-08.png",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "e4-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 72,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "e4-01",
+      "start_frame": 72,
+      "end_frame_exclusive": 132,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "e4-02",
+      "start_frame": 132,
+      "end_frame_exclusive": 258,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "e4-02",
+      "start_frame": 258,
+      "end_frame_exclusive": 348,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "e4-03",
+      "start_frame": 348,
+      "end_frame_exclusive": 444,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "e4-03",
+      "start_frame": 444,
+      "end_frame_exclusive": 528,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "e4-04",
+      "start_frame": 528,
+      "end_frame_exclusive": 588,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "e4-04",
+      "start_frame": 588,
+      "end_frame_exclusive": 666,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "shot-09",
+      "asset": "e4-05",
+      "start_frame": 666,
+      "end_frame_exclusive": 756,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "shot-10",
+      "asset": "e4-05",
+      "start_frame": 756,
+      "end_frame_exclusive": 822,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "shot-11",
+      "asset": "e4-06",
+      "start_frame": 822,
+      "end_frame_exclusive": 870,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "shot-12",
+      "asset": "e4-06",
+      "start_frame": 870,
+      "end_frame_exclusive": 954,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "e4-07",
+      "start_frame": 954,
+      "end_frame_exclusive": 1062,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "shot-14",
+      "asset": "e4-07",
+      "start_frame": 1062,
+      "end_frame_exclusive": 1170,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "shot-15",
+      "asset": "e4-08",
+      "start_frame": 1170,
+      "end_frame_exclusive": 1254,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "shot-16",
+      "asset": "e4-08",
+      "start_frame": 1254,
+      "end_frame_exclusive": 1290,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        16,
+        16
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}

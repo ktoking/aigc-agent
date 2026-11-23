@@ -1,0 +1,31 @@
+{
+  "url": "https://lender-exploration-frequency-burns.trycloudflare.com",
+  "type": "temporary_cloudflare_tunnel",
+  "requires_local_machine_online": true,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 4774,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/EP001-EP008_sams_apocalypse_v2.zh-CN.srt",
+      "status": 200,
+      "bytes": 10484,
+      "content_type": "application/x-subrip"
+    },
+    {
+      "path": "/EP001-EP008_v2_subtitles.zip",
+      "status": 200,
+      "bytes": 11166,
+      "content_type": "application/zip"
+    },
+    {
+      "path": "/EP001-EP008_sams_apocalypse_v2.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 0-1023/114820044"
+    }
+  ]
+}

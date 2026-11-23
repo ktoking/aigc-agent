@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:5196/",
+  "playback_rate": 1,
+  "sequential_playback_from_start_to_ended": "passed",
+  "observed_times_seconds": [
+    0,
+    88.8,
+    213.11,
+    244.766667
+  ],
+  "ended_evidence": "player displays 播放完毕 via video ended event",
+  "video_and_captions_visual_sample": "passed",
+  "chapter_buttons_present": 8,
+  "full_continuous_human_listening": "NOT_RUN; original encoded audio preserved exactly",
+  "browser_errors_observed": false
+}

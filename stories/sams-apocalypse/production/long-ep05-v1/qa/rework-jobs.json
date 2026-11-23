@@ -1,0 +1,138 @@
+[
+  {
+    "id": "p006",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。仅修正左侧棕补丁A的防护兜帽：把兜帽戴上盖住全部头发，保持脸、面罩、护目镜、棕补丁、动作、人物数量与背景原样。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p006.png"
+      ]
+    },
+    "reason": "仅修正左侧棕补丁A的防护兜帽：把兜帽戴上盖住全部头发，保持脸、面罩、护目镜、棕补丁、动作、人物数量与背景原样。"
+  },
+  {
+    "id": "p008",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只把远处道路中央正在驶离的白色小货车替换为横挡车道的两辆废轿车（一黑一浅灰），远处不允许其他货车通行。近处被扣白厢货车、三名人物、单子、路障链与电影影调保持。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p008.png"
+      ]
+    },
+    "reason": "只把远处道路中央正在驶离的白色小货车替换为横挡车道的两辆废轿车（一黑一浅灰），远处不允许其他货车通行。近处被扣白厢货车、三名人物、单子、路障链与电影影调保持。"
+  },
+  {
+    "id": "p009",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只替换左上角显示器内的桥头影像为山姆空外围院子，院内无车辆无人物。这个房间没有桥头远程实时监控。保持男主青绿帽黄帽衫深蓝马甲、表情、电台、桌面、其余构图完全一致。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p009.png"
+      ]
+    },
+    "reason": "只替换左上角显示器内的桥头影像为山姆空外围院子，院内无车辆无人物。这个房间没有桥头远程实时监控。保持男主青绿帽黄帽衫深蓝马甲、表情、电台、桌面、其余构图完全一致。"
+  },
+  {
+    "id": "p031",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只修正监视器内三名外人的衣服：全部改为浅灰色连帽防护服、灰半面罩、透明护目镜，棕补丁只在左侧A胸口。不能穿棕色夹克或黑色斗篷。屏幕三人仍二维，房间实体只有同一青绿帽男主。其他全保留。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p031.png"
+      ]
+    },
+    "reason": "只修正监视器内三名外人的衣服：全部改为浅灰色连帽防护服、灰半面罩、透明护目镜，棕补丁只在左侧A胸口。不能穿棕色夹克或黑色斗篷。屏幕三人仍二维，房间实体只有同一青绿帽男主。其他全保留。"
+  },
+  {
+    "id": "p033",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只修正显示器里面举货单的男子，衣服改为浅灰连帽防护服、透明护目镜与灰半面罩，胸前小棕色补丁。不是棕色夹克。保持他只在二维屏幕里，室内青绿帽黄帽衫男主和所有其他构图不变。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p033.png"
+      ]
+    },
+    "reason": "只修正显示器里面举货单的男子，衣服改为浅灰连帽防护服、透明护目镜与灰半面罩，胸前小棕色补丁。不是棕色夹克。保持他只在二维屏幕里，室内青绿帽黄帽衫男主和所有其他构图不变。"
+  },
+  {
+    "id": "p059",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只将主显示器中离开的棕色SUV改成浅灰单排驾驶室加白色方形封闭货箱的小型厢式货车，车仍在二维屏幕里。不能是SUV、皮卡或油罐车，画面不另加人。保持室内男主、电台、电脑及构图不变。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p059.png"
+      ]
+    },
+    "reason": "只将主显示器中离开的棕色SUV改成浅灰单排驾驶室加白色方形封闭货箱的小型厢式货车，车仍在二维屏幕里。不能是SUV、皮卡或油罐车，画面不另加人。保持室内男主、电台、电脑及构图不变。"
+  },
+  {
+    "id": "p085",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。电影场景人数修正：铁皮棚旁当前坐着的受控拦路者人数不足，改为刚好八名成年男子，分两组各四名错开坐着，头和肩能独立辨认。三名基地看守仍站着且与八名坐者分开，所有人穿完整防尘服兜帽面罩。桥面已清空，无施暴无伤口，保持原场景影调与桥棚身份。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p085.png"
+      ]
+    },
+    "reason": "电影场景人数修正：铁皮棚旁当前坐着的受控拦路者人数不足，改为刚好八名成年男子，分两组各四名错开坐着，头和肩能独立辨认。三名基地看守仍站着且与八名坐者分开，所有人穿完整防尘服兜帽面罩。桥面已清空，无施暴无伤口，保持原场景影调与桥棚身份。"
+  },
+  {
+    "id": "p089",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只替换主显示器里的行车记录录像画面：必须是短灰色混凝土双车道小桥、低矮混凝土栏杆，右边有铁皮棚，桥头两辆废轿车横挡，干燥昏黄天空。绝不画高大钢桁架桥或悬索桥。保持男主与室内构图不变。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p089.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png"
+      ]
+    },
+    "reason": "只替换主显示器里的行车记录录像画面：必须是短灰色混凝土双车道小桥、低矮混凝土栏杆，右边有铁皮棚，桥头两辆废轿车横挡，干燥昏黄天空。绝不画高大钢桁架桥或悬索桥。保持男主与室内构图不变。"
+  },
+  {
+    "id": "p094",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只替换两个显示器的内容：左屏为同一棕补丁A在旧桥铁皮棚外蹲着、面罩摘到颈部的录像；右屏为同一A穿浅灰防护服、戴完整兜帽护目镜灰半面罩在山姆外门举送货单的此前录像。不得画SUV、空院子替代人物。两屏只是二维录像，室内实体只有原青绿帽男主。保持其余画面。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/assets/p094.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    "reason": "只替换两个显示器的内容：左屏为同一棕补丁A在旧桥铁皮棚外蹲着、面罩摘到颈部的录像；右屏为同一A穿浅灰防护服、戴完整兜帽护目镜灰半面罩在山姆外门举送货单的此前录像。不得画SUV、空院子替代人物。两屏只是二维录像，室内实体只有原青绿帽男主。保持其余画面。"
+  },
+  {
+    "id": "p048",
+    "args": {
+      "prompt": "Use case: photorealistic-natural. 全新单幅16:9真人电影静帧，自然中国成年人，适度细节，干燥哑光，黄色尘天空，无字幕标题水印。参考只锁三名外人的身份与场景，不继承灰背景。A方脸棕补丁，B瘦高无补丁，C圆脸无补丁。室外防护服兜帽护目镜半面罩完整，外人不能进入仓库，钢板封口完整。只画室外现场，三名外人在关闭侧门外，B搬箱近墙上摄像头；绝不画显示器、房间、室内观看者。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/warehouse-sealed-reference.png"
+      ]
+    },
+    "reason": "只画室外现场，三名外人在关闭侧门外，B搬箱近墙上摄像头；绝不画显示器、房间、室内观看者。"
+  },
+  {
+    "id": "p052",
+    "args": {
+      "prompt": "Use case: photorealistic-natural. 全新单幅16:9真人电影静帧，自然中国成年人，适度细节，干燥哑光，黄色尘天空，无字幕标题水印。参考只锁三名外人的身份与场景，不继承灰背景。A方脸棕补丁，B瘦高无补丁，C圆脸无补丁。室外防护服兜帽护目镜半面罩完整，外人不能进入仓库，钢板封口完整。只画外院棕补丁A一人，他手中的货单已经放低，表情烦躁；直接电影中近景，背景关闭小门，绝不画屏幕、显示器、观看者。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    "reason": "只画外院棕补丁A一人，他手中的货单已经放低，表情烦躁；直接电影中近景，背景关闭小门，绝不画屏幕、显示器、观看者。"
+  },
+  {
+    "id": "p091",
+    "args": {
+      "prompt": "Use case: photorealistic-natural. 全新单幅16:9真人电影静帧，自然中国成年人，适度细节，干燥哑光，黄色尘天空，无字幕标题水印。参考只锁三名外人的身份与场景，不继承灰背景。A方脸棕补丁，B瘦高无补丁，C圆脸无补丁。室外防护服兜帽护目镜半面罩完整，外人不能进入仓库，钢板封口完整。只画B一人站在铁皮棚口的中近景，瘦高长脸被面罩部分挡住，浅灰防护兜帽盖全部头发、护目镜，铁棍垂下；正在害怕地后退一步。画面聚焦他的身体和棚壁，不出现完整桥面，不画开枪或枪械操作，不画屏幕。",
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/bridge-reference.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/references/raiders-neutral.png"
+      ]
+    },
+    "reason": "只画B一人站在铁皮棚口的中近景，瘦高长脸被面罩部分挡住，浅灰防护兜帽盖全部头发、护目镜，铁棍垂下；正在害怕地后退一步。画面聚焦他的身体和棚壁，不出现完整桥面，不画开枪或枪械操作，不画屏幕。"
+  }
+]

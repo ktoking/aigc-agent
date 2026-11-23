@@ -1,0 +1,11 @@
+{
+  "id": "p033",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-986a1934-76e7-4bc6-92fb-82f2e6a2da6d.png",
+  "args": {
+    "prompt": "Use case: precise-object-edit / identity-preserve. 修改参考1这张16:9真人电影静帧，保持原画幅、写实质感、干净干燥布景、无字幕水印。只修正显示器里面举货单的男子，衣服改为浅灰连帽防护服、透明护目镜与灰半面罩，胸前小棕色补丁。不是棕色夹克。保持他只在二维屏幕里，室内青绿帽黄帽衫男主和所有其他构图不变。",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/qa/rejected/p033-original.png"
+    ]
+  }
+}

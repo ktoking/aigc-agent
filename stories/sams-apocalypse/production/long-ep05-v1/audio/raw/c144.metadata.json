@@ -1,0 +1,49 @@
+{
+  "provider": "MiniMax",
+  "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+  "http_status": 200,
+  "base_status_code": 0,
+  "trace_id": "0744ad4e158c43f7a1dd99b48cea7e2c",
+  "preset": "documentary",
+  "direction": "清楚可信，概念和数字读准确，句群之间有层次，避免每句都重音。",
+  "request": {
+    "model": "speech-2.8-turbo",
+    "text": "补还油库垫付的水和罐头先点清，出力的报酬随后交完，干净敷料也装上了车。",
+    "stream": false,
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "emotion": "calm",
+      "speed": 1.2,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "audio_setting": {
+      "sample_rate": 32000,
+      "format": "wav",
+      "channel": 1
+    },
+    "language_boost": "Chinese",
+    "output_format": "hex",
+    "subtitle_enable": false,
+    "pronunciation_dict": {
+      "tone": [
+        "许棠/(xu3)(tang2)"
+      ]
+    }
+  },
+  "extra_info": {
+    "audio_length": 5800,
+    "audio_sample_rate": 32000,
+    "audio_size": 372364,
+    "bitrate": 128000,
+    "word_count": 35,
+    "invisible_character_ratio": 0,
+    "usage_characters": 67,
+    "audio_format": "wav",
+    "audio_channel": 1
+  },
+  "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/sams-apocalypse/production/long-ep05-v1/audio/raw/c144.wav",
+  "bytes": 372364,
+  "sha256": "a7f5cda2622c7ffb01e6eb2e35f71b2e3b8d5edbcfe8b2fd780baa6de0119e98",
+  "subtitle_files_generated": false
+}

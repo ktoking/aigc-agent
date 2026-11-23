@@ -1,0 +1,669 @@
+{
+  "episode": 6,
+  "title": "整座山姆，终于有两个人吃饭了",
+  "fps": 30,
+  "characters": 229,
+  "frame_count": 1374,
+  "duration_seconds": 45.8,
+  "segments": [
+    {
+      "segment": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 366,
+      "directory": "segment_01_0.00-12.20s"
+    },
+    {
+      "segment": 2,
+      "start_frame": 366,
+      "end_frame_exclusive": 672,
+      "directory": "segment_02_12.20-22.40s"
+    },
+    {
+      "segment": 3,
+      "start_frame": 672,
+      "end_frame_exclusive": 1008,
+      "directory": "segment_03_22.40-33.60s"
+    },
+    {
+      "segment": 4,
+      "start_frame": 1008,
+      "end_frame_exclusive": 1374,
+      "directory": "segment_04_33.60-45.80s"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "segment": 1,
+      "text": "第二天傍晚，她在收货间待满了一天。",
+      "characters": 15,
+      "start_frame": 0,
+      "end_frame_exclusive": 90,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 2,
+      "segment": 1,
+      "text": "没有发现咬伤，精神也一直清醒。",
+      "characters": 13,
+      "start_frame": 90,
+      "end_frame_exclusive": 168,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 3,
+      "segment": 1,
+      "text": "我们再次核对完昨晚的经过，我打开了内门。",
+      "characters": 18,
+      "start_frame": 168,
+      "end_frame_exclusive": 276,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 4,
+      "segment": 1,
+      "text": "她进来后，先把空水瓶放进了回收袋。",
+      "characters": 15,
+      "start_frame": 276,
+      "end_frame_exclusive": 366,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 5,
+      "segment": 2,
+      "text": "我挑了两块快到期的牛排，又洗了一大碗草莓。",
+      "characters": 19,
+      "start_frame": 366,
+      "end_frame_exclusive": 480,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 6,
+      "segment": 2,
+      "text": "她看着锅，问我会不会煎。",
+      "characters": 10,
+      "start_frame": 480,
+      "end_frame_exclusive": 540,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 7,
+      "segment": 2,
+      "text": "我说，包装上写着。",
+      "characters": 7,
+      "start_frame": 540,
+      "end_frame_exclusive": 582,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 8,
+      "segment": 2,
+      "text": "她接过夹子，把快糊的那块翻了个面。",
+      "characters": 15,
+      "start_frame": 582,
+      "end_frame_exclusive": 672,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 9,
+      "segment": 3,
+      "text": "这是出事后，我第一次和人坐着吃饭。",
+      "characters": 15,
+      "start_frame": 672,
+      "end_frame_exclusive": 762,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 10,
+      "segment": 3,
+      "text": "她问我，明天想做什么。",
+      "characters": 9,
+      "start_frame": 762,
+      "end_frame_exclusive": 816,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 11,
+      "segment": 3,
+      "text": "我说，把旁边的休息室收拾出来，再把剩下的货架清一遍。",
+      "characters": 23,
+      "start_frame": 816,
+      "end_frame_exclusive": 954,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 12,
+      "segment": 3,
+      "text": "她点点头，说设备归她。",
+      "characters": 9,
+      "start_frame": 954,
+      "end_frame_exclusive": 1008,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 13,
+      "segment": 4,
+      "text": "吃完，我把监控室的备用钥匙放在她碗边。",
+      "characters": 17,
+      "start_frame": 1008,
+      "end_frame_exclusive": 1110,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 14,
+      "segment": 4,
+      "text": "她没急着拿，先看了我一眼。",
+      "characters": 11,
+      "start_frame": 1110,
+      "end_frame_exclusive": 1176,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 15,
+      "segment": 4,
+      "text": "我说，今晚我值前半夜，后半夜换你。",
+      "characters": 14,
+      "start_frame": 1176,
+      "end_frame_exclusive": 1260,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    },
+    {
+      "index": 16,
+      "segment": 4,
+      "text": "她这才收起钥匙，把最后一块牛角包分给了我。",
+      "characters": 19,
+      "start_frame": 1260,
+      "end_frame_exclusive": 1374,
+      "gap_after_frames": 0,
+      "timing_basis": "text_estimate_not_audio_aligned"
+    }
+  ],
+  "script_sha256": "acfbb353adf0a9268b4f2dd392159e5e3453981be78b1ce5b014d9bff47462ea",
+  "assets": {
+    "e6-01": {
+      "id": "e6-01",
+      "episode": 6,
+      "segment": 1,
+      "title": "内门终于打开",
+      "description": "第二天傍晚，外卷帘门仍关闭，男主站卖场内伸手打开带玻璃的内门迎接许棠从缓冲间进入。两人都健康，无咬伤，许棠拎蓝灰工具包。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_01_00-15s/frames/e6-01.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-02": {
+      "id": "e6-02",
+      "episode": 6,
+      "segment": 1,
+      "title": "她先回收空瓶",
+      "description": "许棠刚进卖场把空透明水瓶放进整齐的回收袋，男主在旁拿物资本看着，温和神情。橘外套低马尾固定。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_01_00-15s/frames/e6-02.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-03": {
+      "id": "e6-03",
+      "episode": 6,
+      "segment": 2,
+      "title": "两块牛排",
+      "description": "员工茶水间近景：安全电磁炉上平底锅两块正在煎的牛排，桌边一大碗新鲜草莓，黄色衣袖男主握夹子略紧张；后方橘衣许棠看着锅，温暖灯光。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_02_15-30s/frames/e6-03.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-04": {
+      "id": "e6-04",
+      "episode": 6,
+      "segment": 2,
+      "title": "她接过夹子",
+      "description": "同一茶水间许棠接过夹子翻牛排，男主在旁拿包装说明尴尬小笑。平底锅在电磁炉上，旁边草莓碗和两个盘子，不冒大烟。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_02_15-30s/frames/e6-04.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-05": {
+      "id": "e6-05",
+      "episode": 6,
+      "segment": 3,
+      "title": "第一次两人吃饭",
+      "description": "两人在员工茶水间小方桌对面坐着吃牛排草莓牛角包，两套餐具、两个杯子；桌旁黑色对讲机和物资本。温暖真实日常，小圆白脸点眼，橘衣女主低马尾。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_03_30-45s/frames/e6-05.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-06": {
+      "id": "e6-06",
+      "episode": 6,
+      "segment": 3,
+      "title": "明天怎么分工",
+      "description": "同一小餐桌两人已吃了一些，男主指向盘点本，许棠拿设备本点头，友善合作。两盘牛排、草莓碗、两只杯，窗外天色晚。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_03_30-45s/frames/e6-06.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-07": {
+      "id": "e6-07",
+      "episode": 6,
+      "segment": 4,
+      "title": "递出蓝标钥匙",
+      "description": "桌面特写：男主黄色衣袖白色手把一把短银钥匙配单独蓝色塑料方形钥匙牌放在许棠的餐盘旁，女主橘袖的手尚未拿。钥匙与店长两把裸银长钥匙明显不同。食物盘和杯子背景。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_04_45-60s/frames/e6-07.png",
+      "width": 1672,
+      "height": 941
+    },
+    "e6-08": {
+      "id": "e6-08",
+      "episode": 6,
+      "segment": 4,
+      "title": "分最后的牛角包",
+      "description": "同一桌许棠把最后一个牛角包掰成两半把一半递给男主，男主伸手接，蓝牌单银钥匙放她旁边，桌上双人餐具。两人温和小笑，不亲吻。",
+      "refs": [
+        "style",
+        "female"
+      ],
+      "path": "episodes/EP006_dinner-for-two/segment_04_45-60s/frames/e6-08.png",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "e6-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 90,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shot-02",
+      "asset": "e6-01",
+      "start_frame": 90,
+      "end_frame_exclusive": 168,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "shot-03",
+      "asset": "e6-02",
+      "start_frame": 168,
+      "end_frame_exclusive": 276,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "shot-04",
+      "asset": "e6-02",
+      "start_frame": 276,
+      "end_frame_exclusive": 366,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "shot-05",
+      "asset": "e6-03",
+      "start_frame": 366,
+      "end_frame_exclusive": 480,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "shot-06",
+      "asset": "e6-03",
+      "start_frame": 480,
+      "end_frame_exclusive": 540,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "shot-07",
+      "asset": "e6-04",
+      "start_frame": 540,
+      "end_frame_exclusive": 582,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "shot-08",
+      "asset": "e6-04",
+      "start_frame": 582,
+      "end_frame_exclusive": 672,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "shot-09",
+      "asset": "e6-05",
+      "start_frame": 672,
+      "end_frame_exclusive": 762,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "shot-10",
+      "asset": "e6-05",
+      "start_frame": 762,
+      "end_frame_exclusive": 816,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        10,
+        10
+      ]
+    },
+    {
+      "id": "shot-11",
+      "asset": "e6-06",
+      "start_frame": 816,
+      "end_frame_exclusive": 954,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "shot-12",
+      "asset": "e6-06",
+      "start_frame": 954,
+      "end_frame_exclusive": 1008,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        12,
+        12
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "e6-07",
+      "start_frame": 1008,
+      "end_frame_exclusive": 1110,
+      "scale": [
+        1.065,
+        1.025
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "shot-14",
+      "asset": "e6-07",
+      "start_frame": 1110,
+      "end_frame_exclusive": 1176,
+      "scale": [
+        1.105,
+        1.14
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "shot-15",
+      "asset": "e6-08",
+      "start_frame": 1176,
+      "end_frame_exclusive": 1260,
+      "scale": [
+        1.025,
+        1.065
+      ],
+      "x": [
+        8,
+        -8
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "shot-16",
+      "asset": "e6-08",
+      "start_frame": 1260,
+      "end_frame_exclusive": 1374,
+      "scale": [
+        1.14,
+        1.105
+      ],
+      "x": [
+        -10,
+        10
+      ],
+      "y": [
+        0,
+        -4
+      ],
+      "cues": [
+        16,
+        16
+      ]
+    }
+  ],
+  "transition": "direct_cuts_no_added_frames",
+  "engine": "FFmpeg libx264",
+  "audio": false,
+  "subtitles_burned": false
+}
