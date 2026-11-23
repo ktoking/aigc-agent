@@ -1,0 +1,65 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/render-master.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Duration: 00:01:05.50, start: 0.000000, bitrate: 7238 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 7036 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/本座今日不飞-搞笑配乐字幕版.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    comment         : AI-generated source footage. Music by Kevin MacLeod (incompetech.com), CC BY 4.0. Excerpted and mixed to picture.
+    title           : 本座今日不飞 · 搞笑配乐字幕版
+    artist          : 西瓜终结者AIGC
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 7036 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.11.100 aac
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+frame=  471 fps=0.0 q=-1.0 size=    7936KiB time=00:00:12.24 bitrate=5309.1kbits/s speed=24.3x elapsed=0:00:00.50    
+frame=  873 fps=864 q=-1.0 size=   19712KiB time=00:00:25.62 bitrate=6302.6kbits/s speed=25.4x elapsed=0:00:01.00    
+frame= 1257 fps=830 q=-1.0 size=   30976KiB time=00:00:38.44 bitrate=6600.9kbits/s speed=25.4x elapsed=0:00:01.51    
+frame= 1659 fps=822 q=-1.0 size=   45568KiB time=00:00:51.81 bitrate=7203.8kbits/s speed=25.7x elapsed=0:00:02.01    
+[Parsed_loudnorm_0 @ 0x153a04500] 
+{
+	"input_i" : "-18.03",
+	"input_tp" : "-3.06",
+	"input_lra" : "6.60",
+	"input_thresh" : "-30.40",
+	"output_i" : "-15.97",
+	"output_tp" : "-2.00",
+	"output_lra" : "5.60",
+	"output_thresh" : "-28.12",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.03"
+}
+frame= 1965 fps=779 q=-1.0 size=   58112KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.52    
+[mp4 @ 0x1539046d0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x153904600] video:56261KiB audio:2017KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.097648%
+frame= 1965 fps=772 q=-1.0 Lsize=   58335KiB time=00:01:05.50 bitrate=7295.9kbits/s speed=25.7x elapsed=0:00:02.54    
+[aac @ 0x153906210] Qavg: 5134.133

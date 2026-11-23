@@ -1,0 +1,218 @@
+{
+  "version": "v1-r1-prompt-completeness-20261117",
+  "scope": "文件、时间线、参考真实性和提示词字段的自动核验，语义审读另见qa-checklist.md",
+  "result": "PASS",
+  "errors": [],
+  "duration_seconds": 120,
+  "segments": [
+    {
+      "id": "segment_01_00-15s",
+      "shots": 6,
+      "prompt_characters": 3535,
+      "prompt_non_whitespace_characters": 3391,
+      "dialogue_lines": 3,
+      "spoken_characters_estimate": 29,
+      "speech_window_seconds": 10.9,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_02_15-30s",
+      "shots": 6,
+      "prompt_characters": 3448,
+      "prompt_non_whitespace_characters": 3302,
+      "dialogue_lines": 4,
+      "spoken_characters_estimate": 33,
+      "speech_window_seconds": 12.2,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_03_30-45s",
+      "shots": 6,
+      "prompt_characters": 3423,
+      "prompt_non_whitespace_characters": 3279,
+      "dialogue_lines": 3,
+      "spoken_characters_estimate": 24,
+      "speech_window_seconds": 11.7,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_04_45-60s",
+      "shots": 6,
+      "prompt_characters": 3556,
+      "prompt_non_whitespace_characters": 3410,
+      "dialogue_lines": 4,
+      "spoken_characters_estimate": 33,
+      "speech_window_seconds": 12.7,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_05_60-75s",
+      "shots": 6,
+      "prompt_characters": 3460,
+      "prompt_non_whitespace_characters": 3316,
+      "dialogue_lines": 3,
+      "spoken_characters_estimate": 31,
+      "speech_window_seconds": 11.7,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_06_75-90s",
+      "shots": 6,
+      "prompt_characters": 3594,
+      "prompt_non_whitespace_characters": 3448,
+      "dialogue_lines": 4,
+      "spoken_characters_estimate": 35,
+      "speech_window_seconds": 13.1,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_07_90-105s",
+      "shots": 6,
+      "prompt_characters": 3526,
+      "prompt_non_whitespace_characters": 3382,
+      "dialogue_lines": 3,
+      "spoken_characters_estimate": 32,
+      "speech_window_seconds": 13.5,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": false
+    },
+    {
+      "id": "segment_08_105-120s",
+      "shots": 6,
+      "prompt_characters": 3869,
+      "prompt_non_whitespace_characters": 3718,
+      "dialogue_lines": 5,
+      "spoken_characters_estimate": 26,
+      "speech_window_seconds": 11.0,
+      "camera_fields_complete": true,
+      "timeline_covered_seconds": 15,
+      "existing_principal_character_references": 2,
+      "planned_story_keyframes": 2,
+      "keyframes_generated": false,
+      "background_reference_pending": true
+    }
+  ],
+  "total_shots": 48,
+  "dialogue_total_lines": 29,
+  "timing_status": "TEXT_ESTIMATE_NOT_AUDIO_MEASURED",
+  "media_status": "SCRIPT_DESIGN_MEDIA_PENDING",
+  "generated_video_audio_subtitle_files": [],
+  "prompt_reference_baselines": [
+    {
+      "episode": "EP001_today-we-walk",
+      "samples": [
+        {
+          "path": "episodes/EP001_today-we-walk/segment_01_00-15s/director-promt.txt",
+          "characters": 3097,
+          "non_whitespace_characters": 3009,
+          "sha256": "c3c75b6c0a500f6843d15a69f280b0b33e7a400705413339ec7530344f11f5eb"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_02_15-30s/director-promt.txt",
+          "characters": 3277,
+          "non_whitespace_characters": 3182,
+          "sha256": "dfc3b5486674485421f82b78f25ae06aea4c800cab847056178491ef5e232910"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_03_30-45s/director-promt.txt",
+          "characters": 3490,
+          "non_whitespace_characters": 3395,
+          "sha256": "f1cb769904febd22fab82fa22ec751004b0b468f0401dbeeb0993892f5716163"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_04_45-60s/director-promt.txt",
+          "characters": 3877,
+          "non_whitespace_characters": 3775,
+          "sha256": "47d1d3abfc576f40337be4d2e7e976df7cc818e508c6d2960d3d9f1950451c7f"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_05_60-75s/director-promt.txt",
+          "characters": 3420,
+          "non_whitespace_characters": 3326,
+          "sha256": "c7e108e09821a9dbab97d726a57009b17f4b9c6c35707ed855a6c129ecf86823"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_06_75-90s/director-promt.txt",
+          "characters": 3720,
+          "non_whitespace_characters": 3623,
+          "sha256": "c68b6786c05563c8c6bf84f6b75a402fb0d4d9341f2f4da4611ec8f5a6442707"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_07_90-105s/director-promt.txt",
+          "characters": 3741,
+          "non_whitespace_characters": 3644,
+          "sha256": "c696a70e839bc766b0c5b08d5d28770c0ed2f670f9187d83ab85a6d696056365"
+        },
+        {
+          "path": "episodes/EP001_today-we-walk/segment_08_105-120s/director-promt.txt",
+          "characters": 4251,
+          "non_whitespace_characters": 4154,
+          "sha256": "00f11bf966099d83847bd0f2ef90a8f7ec27fdfb78c467c1e7a587c69c739dfc"
+        }
+      ]
+    },
+    {
+      "episode": "EP002_just_a_frown",
+      "samples": [
+        {
+          "path": "episodes/EP002_just_a_frown/segment_01_00-15s/director-promt.txt",
+          "characters": 2458,
+          "non_whitespace_characters": 2370,
+          "sha256": "c913dfc856acfd5212d717e0b3b1254d1e221db7c743bd2afde36dc57e781863"
+        },
+        {
+          "path": "episodes/EP002_just_a_frown/segment_02_15-30s/director-promt.txt",
+          "characters": 2843,
+          "non_whitespace_characters": 2750,
+          "sha256": "a6698c956b9ad2c4938583e4464a5a68194f732adfacc49ad1fd7b87ca633a4a"
+        },
+        {
+          "path": "episodes/EP002_just_a_frown/segment_03_30-45s/director-promt.txt",
+          "characters": 2368,
+          "non_whitespace_characters": 2291,
+          "sha256": "1381292d3a0ff613d750d745f4950015e5a8cc31239ee3a9f939b336dfb3dd2a"
+        },
+        {
+          "path": "episodes/EP002_just_a_frown/segment_04_45-60s/director-promt.txt",
+          "characters": 2475,
+          "non_whitespace_characters": 2397,
+          "sha256": "028bab145dbf32472140c31de2186fb3d3de030abebfd397f21f3a07a0c54f58"
+        }
+      ]
+    }
+  ]
+}

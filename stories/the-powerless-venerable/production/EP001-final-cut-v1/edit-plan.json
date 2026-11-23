@@ -1,0 +1,92 @@
+{
+  "episode": "EP001_today-we-walk",
+  "duration": 122.9,
+  "intro_duration": 2.1,
+  "body_duration": 120.8,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "profile": "../../templates/editing-profile.json",
+  "segments": [
+    {
+      "segment": 1,
+      "input_id": "input-01",
+      "title": "开局尊者，技能全灰",
+      "local": "assets/source/input-01.mp4",
+      "global_start": 2.1,
+      "duration": 15.1
+    },
+    {
+      "segment": 2,
+      "input_id": "input-02",
+      "title": "咒语、吐丝、御剑",
+      "local": "assets/source/input-02.mp4",
+      "global_start": 17.2,
+      "duration": 15.1
+    },
+    {
+      "segment": 3,
+      "input_id": "input-03",
+      "title": "他怕穿帮，弟子怕被看穿",
+      "local": "assets/source/input-03.mp4",
+      "global_start": 32.3,
+      "duration": 15.1
+    },
+    {
+      "segment": 4,
+      "input_id": "input-04",
+      "title": "三千阶与有轮子的车",
+      "local": "assets/source/input-04.mp4",
+      "global_start": 47.4,
+      "duration": 15.1
+    },
+    {
+      "segment": 5,
+      "input_id": "input-05",
+      "title": "会赶车就行",
+      "local": "assets/source/input-05.mp4",
+      "global_start": 62.5,
+      "duration": 15.1
+    },
+    {
+      "segment": 6,
+      "input_id": "input-06",
+      "title": "这道门绕不开",
+      "local": "assets/source/input-06.mp4",
+      "global_start": 77.6,
+      "duration": 15.1
+    },
+    {
+      "segment": 7,
+      "input_id": "input-08",
+      "title": "今日不动兵器",
+      "local": "assets/source/input-08.mp4",
+      "global_start": 92.7,
+      "duration": 15.1
+    },
+    {
+      "segment": 8,
+      "input_id": "input-07",
+      "title": "好，那便徒手",
+      "local": "assets/source/input-07.mp4",
+      "global_start": 107.8,
+      "duration": 15.1
+    }
+  ],
+  "source_subtitle_cleanup": {
+    "input": "input-07",
+    "seconds": [
+      0,
+      3.3
+    ],
+    "region": [
+      1680,
+      1935,
+      600,
+      180
+    ],
+    "reason": "源片烧录字那便旋手，按语音统一为那便徒手"
+  }
+}

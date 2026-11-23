@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "剧本文字与规划文件；不代表喜剧效果或实际音画通过",
+  "version": "v1",
+  "segments": 8,
+  "duration_seconds": 120,
+  "shots": 41,
+  "per_segment": [
+    {
+      "segment": "segment_01_00-15s",
+      "shots": 5,
+      "planned_voice_spans": 3,
+      "character_refs": 2
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "shots": 5,
+      "planned_voice_spans": 3,
+      "character_refs": 4
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "shots": 5,
+      "planned_voice_spans": 3,
+      "character_refs": 4
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "shots": 6,
+      "planned_voice_spans": 5,
+      "character_refs": 5
+    },
+    {
+      "segment": "segment_05_60-75s",
+      "shots": 5,
+      "planned_voice_spans": 6,
+      "character_refs": 5
+    },
+    {
+      "segment": "segment_06_75-90s",
+      "shots": 5,
+      "planned_voice_spans": 4,
+      "character_refs": 6
+    },
+    {
+      "segment": "segment_07_90-105s",
+      "shots": 5,
+      "planned_voice_spans": 4,
+      "character_refs": 6
+    },
+    {
+      "segment": "segment_08_105-120s",
+      "shots": 5,
+      "planned_voice_spans": 3,
+      "character_refs": 6
+    }
+  ],
+  "new_story_keyframes_generated": false,
+  "audio_generated": false,
+  "video_generated": false,
+  "role_assets_reused": 6,
+  "maximum_planned_chinese_characters_per_second": "<7（只用于发现赶读风险，非实测）"
+}

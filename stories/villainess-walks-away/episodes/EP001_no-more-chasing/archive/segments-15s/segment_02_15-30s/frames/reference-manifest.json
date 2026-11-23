@@ -1,0 +1,49 @@
+{
+  "version": "assets-v1",
+  "status": "images generated, not video submitted",
+  "inputs": [
+    {
+      "order": 1,
+      "file": "first-frame.png",
+      "role": "段首构图、状态；与上一段为剪辑衔接，不要求同图",
+      "sha256": "4c04645cd20f086194ba0d6760b12ef2486bf4de4cfa68b884b8f10d68427270"
+    },
+    {
+      "order": 2,
+      "file": "last-frame.png",
+      "role": "段尾完成状态；不得提前出现段尾动作",
+      "sha256": "355d74d3784cf30a7fc55b03079fb3f9d85a758be67481b77f874ed64a195085"
+    },
+    {
+      "order": 3,
+      "file": "ref-su-sleep.png",
+      "source": "assets/characters/SU/reference-sleepwear-v1.png",
+      "role": "苏晚棠身份及睡衣",
+      "sha256": "24c4d4fa27f8c12f8d8910f7d4c90d3647750d432f47eefb76f351f599c14f6a"
+    },
+    {
+      "order": 4,
+      "file": "ref-scene.png",
+      "source": "assets/scenes/BED/reference-v1.png",
+      "role": "卧室空间及早晨光线",
+      "sha256": "cf94eb4d71080256e03c3e03b339700bd720da11c94376086be28a8dd395c1a4"
+    },
+    {
+      "order": 5,
+      "file": "ref-ring.png",
+      "source": "assets/props/RING/reference-v1.png",
+      "role": "同一戒盒和戒指形态，多视图仅用于理解道具",
+      "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+    }
+  ],
+  "auxiliary": [
+    {
+      "file": "aux-system.png",
+      "source": "assets/props/SYSTEM/interface-v1.png",
+      "role": "系统底板供后期合成，不默认上传",
+      "selected": false,
+      "sha256": "e5ee26044c0df8e4497e40030cf32103e8f7a57e79465cd82717de9205d144a7"
+    }
+  ],
+  "rules": "人物多视图仅锁身份，不把参考图排版带进成片；辅助图不默认上传；本轮未生成视频。"
+}

@@ -1,0 +1,585 @@
+{
+  "episode": "EP002_just_a_frown",
+  "generator": "built-in image_gen",
+  "dialogue_revision": "r1-20261117",
+  "planned_keyframe_counts": [
+    2,
+    3,
+    3,
+    3
+  ],
+  "jobs": [
+    {
+      "id": "C07",
+      "kind": "character",
+      "character_id": "C07",
+      "name": "裴长庚／鹤归上人",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+      "reference_paths": [],
+      "prompt": "生成一张16:9人物三视图资产图，电影级写实仙侠CG，纯浅灰背景，三列分别为正面、右侧面、背面全身，最右侧附一张同一人的面部近景。每列是同一位老者，头脚完整。\n裴长庚外观七十余岁，清瘦高挑，银白长发整齐挽髻，以旧白玉直簪固定，白眉与白长须垂到胸前，眼角皱纹自然清楚，脸部清瘦、鼻梁挺直、目光清明，资深而从容。浅灰白交领长袍、烟青宽披肩、墨灰束腰与墨色布鞋，袖口垂顺，双手自然垂落、筋骨可辨。服装以大形和少量收边表现精致。无武器、盔甲、法相或光环，站在地面。像高预算仙侠电影中有修为有阅历的白发老宗师，皮肤与布料有真实质感，表情克制。画面无文字、水印、网格、卡通、过量微纹理。",
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-4c7c9409-f0c5-4918-8580-27f7e9edc260.png",
+      "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [],
+      "visual_review_notes": "白发长须、旧玉簪与烟青披肩明确，正侧背和脸部同一位资深老者。"
+    },
+    {
+      "id": "C06A",
+      "kind": "character",
+      "character_id": "C06A",
+      "name": "车夫",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06A/C06A-driver-turnaround-v1.png",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png"
+      ],
+      "prompt": "将输入人物图上排的壮实中年车夫独立制作成一张16:9人物资产图。保持上排那个人原本的宽国字脸、短胡茬、粗眉、棕褐头巾、棕褐卷袖短袍、灰白内衣、亚麻束带、深裤与布靴，保持同一张脸和体格。左起正面、右侧面、背面三个全身视图等高排列，右侧附同一人的面部近景，头脚完整，手自然放松，纯浅灰背景。整张只有上排这位车夫的多视图。电影级写实CG，真实布料和皮肤，清楚大形。无另一个清瘦弟子，无其他人、法术、武器、文字、水印或网格。",
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-e8a8e4e4-ea97-4351-9a77-29125b75fdd5.png",
+      "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ],
+      "visual_review_notes": "独立提取既有车夫脸和棕褐衣装，三个全身与近景一致。"
+    },
+    {
+      "id": "01-A",
+      "kind": "keyframe",
+      "segment_id": "segment_01_00-15s",
+      "anchor_seconds": 4.8,
+      "title": "急到说不出话，眉心拧紧",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+      "reference_ids": [
+        "C01",
+        "PREV"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n85mm男主车窗胸上近景，画面只有谢无咎一个实体人物。他一只手抓灰褐布帘，另一只手按窗沿，眉心紧锁、嘴唇微微打开想挤出一个字，眼睛朝路侧求助，喉结微动。脸上是憋住的恐慌，努力端着尊者仪态。玉簪与白衣青襟锁定，手心与眉心没有光、纹路或气浪。窗外远处白璃法相只以虚焦青金光影提示方向，画面里不出现可辨的其他角色。\n输入图顺序为图1对应C01，图2对应PREV。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v2.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-9f3888f1-ebd4-4f4e-b821-c9a36ae7e4af.png",
+      "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v2.png",
+          "sha256": "c80c7338795309b3a881a2bd5fada31d5656482c03deacd47683da72b0bcb493"
+        }
+      ],
+      "visual_review_notes": "男主皱眉卡词、空手抓帘，只有男主脸可辨，外部法相虚焦。"
+    },
+    {
+      "id": "01-B",
+      "kind": "keyframe",
+      "segment_id": "segment_01_00-15s",
+      "anchor_seconds": 10.5,
+      "title": "弟子误认霸体，掌门拿旧事对上",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+      "reference_ids": [
+        "C03",
+        "C04",
+        "C05",
+        "C06A",
+        "PREV"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n50mm路侧群体中景，画面有五位实体人物：杏衣陆青、棕褐头巾车夫、棕袍玄衡在左前景，白衣男主在木车窗里，雾蓝衣白璃在右后方。陆青惊慌拉住车夫后退，玄衡一只手按着陆青肩头、目光沉重看车窗里眉头紧锁的男主。白璃空掌回收、转成防守，背后青金半身元神同步收掌。沈照月和搬货弟子留在镜头外。车前座空着。只有上述五个人，每人一次。\n输入图顺序为图1对应C03，图2对应C04，图3对应C05，图4对应C06A，图5对应PREV。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06A/C06A-driver-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v2.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-4a63cdf2-f797-41a6-8738-a75768c4abcd.png",
+      "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06A/C06A-driver-turnaround-v1.png",
+          "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+        },
+        {
+          "index": 5,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v2.png",
+          "sha256": "c80c7338795309b3a881a2bd5fada31d5656482c03deacd47683da72b0bcb493"
+        }
+      ],
+      "visual_review_notes": "五名实体人物为主角、白璃、玄衡、陆青、车夫；元神属于白璃，未加其他同门。"
+    },
+    {
+      "id": "02-A",
+      "kind": "keyframe",
+      "segment_id": "segment_02_15-30s",
+      "anchor_seconds": 2.8,
+      "title": "传闻越说越吓人",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-a-v1.png",
+      "reference_ids": [
+        "C05",
+        "C06A",
+        "01-A",
+        "01-B"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n65mm陆青和车夫双人中近景，杏衣陆青刚压低声讲完霸体传闻，嘴微张、眼睛紧张看向车窗方向；壮实车夫站他身旁捧着马鞭，先看自己的马又看空前座，刚想回去的脚停住。远后景可带白衣男主在车窗里皱眉的半张脸。画面只出现这三位实体演员，主次以陆青和车夫的反应为主，其他人留在画外。\n输入图顺序为图1对应C05，图2对应C06A，图3对应01-A，图4对应01-B。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06A/C06A-driver-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-b-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-1bd6c541-9e41-4adb-8def-d5c6e6de0de0.png",
+      "sha256": "4c8e48009863e2af07c9d729998889c7f123d7521f361b136544e75404175886",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06A/C06A-driver-turnaround-v1.png",
+          "sha256": "a9f6e92a40fcb68a54da3b885daeb4a9fe976906944e22d8f4e2e06f75f0a1a0"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+          "sha256": "32787b123daf8bb09634566958302e2e6b1c491c084c10493eefe35096bd3251"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+        }
+      ],
+      "visual_review_notes": "陆青与车夫近景，窗内主角第三人；未加入玄衡、沈照月或搬货弟子。"
+    },
+    {
+      "id": "02-B",
+      "kind": "keyframe",
+      "segment_id": "segment_02_15-30s",
+      "anchor_seconds": 10.4,
+      "title": "白璃请留手，男主更卡住",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-b-v1.png",
+      "reference_ids": [
+        "C03",
+        "C01",
+        "01-B"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n50mm车窗与白璃的双人中景，画面只有白衣谢无咎和雾蓝衣白璃两位实体人物。白璃收回双手在胸前郑重拱手，认真请对方留手，身后巨大青金女性元神双掌停稳、转成防守轮廓；刀完整在右腰鞘。窗内男主拧着眉，手推着帘却叫不出话，目光朝远路侧看。木车位置和空驾驶座清楚，马只带入局部。无其他可辨人物，无男主灵光。\n输入图顺序为图1对应C03，图2对应C01，图3对应01-B。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-b-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b03d940a-a7e7-4f51-917b-77d8e0ee2e5d.png",
+      "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "sha256": "3af3ce1cbc2c9943081932639b2b3fd62deced9d28ded366e1227c8bb63dd5b3"
+        }
+      ],
+      "visual_review_notes": "主角与白璃二人、白璃元神停掌，刀在鞘。"
+    },
+    {
+      "id": "02-C",
+      "kind": "keyframe",
+      "segment_id": "segment_02_15-30s",
+      "anchor_seconds": 14.3,
+      "title": "白发老者驾鹤入场",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+      "reference_ids": [
+        "C07",
+        "C02",
+        "02-B"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n28mm从平地车道仰看山门上空。画面实体人物为青衣沈照月、白发裴长庚、车窗内可辨的谢无咎，最多三人。沈照月在马头侧握缰抬头，云侧巨大丹顶白鹤收翼准备落地，颈侧青玉铃清楚，裴长庚坐前鞍，长须烟青披肩随风。后鞍空着且靠背、低扶手可辨。木车窗和男主留在画面左下角，白璃元神可以在更远处以青金半透明轮廓入画。画面不加围观者。天衡迎客鹤是巨大丹顶白鹤，真实长颈、尖喙、红顶、黑白颈纹、黑色翼尖羽，翼展八至九米，只有两翼两足，颈侧一枚青玉铃。背上牢固系着古朴双人木鞍，前后两座都带低靠背和低扶手，脚旁有固定踏板。老者坐前座，后座空着供男主稍后乘坐。落地时仙鹤伏低、侧边展开两级低木踏板。主角身体由真实座位和脚踏承托，飞行由裴长庚御鹤。\n输入图顺序为图1对应C07，图2对应C02，图3对应02-B。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-b-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-9b67f95e-deff-4f28-a0f7-383097647730.png",
+      "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-b-v1.png",
+          "sha256": "5a47285ff7e9aa86457c11c3b6a56e2eb134a59d787d99a8d8fac943ae9335e9"
+        }
+      ],
+      "visual_review_notes": "裴长庚骑鹤入场，后鞍空，沈照月牵马抬头，主角在窗内，元神仅在远后方。"
+    },
+    {
+      "id": "03-A",
+      "kind": "keyframe",
+      "segment_id": "segment_03_30-45s",
+      "anchor_seconds": 4.4,
+      "title": "白发老宗师先向车窗赔罪",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-a-v1.png",
+      "reference_ids": [
+        "C07",
+        "C01",
+        "02-C",
+        "C03"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n50mm平视中景，实体人物只有三位：裴长庚在木车窗外正向白衣谢无咎拱手赔罪，腰背挺直、白发长须与皱纹清楚，主角仍坐窗内，肩膀稍松又赶快端正；雾蓝衣白璃在右后方拱手等候，青金半身元神仍在她身后。巨型白鹤已经落地伏低，收起双翼，双人木鞍与低踏板在侧后清楚。背景沿同一青石山门车道，不画其他人。天衡迎客鹤是巨大丹顶白鹤，真实长颈、尖喙、红顶、黑白颈纹、黑色翼尖羽，翼展八至九米，只有两翼两足，颈侧一枚青玉铃。背上牢固系着古朴双人木鞍，前后两座都带低靠背和低扶手，脚旁有固定踏板。老者坐前座，后座空着供男主稍后乘坐。落地时仙鹤伏低、侧边展开两级低木踏板。主角身体由真实座位和脚踏承托，飞行由裴长庚御鹤。\n输入图顺序为图1对应C07，图2对应C01，图3对应02-C，图4对应C03。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-f18fe26f-3f9e-44e5-9560-ba159a653a2b.png",
+      "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+          "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        }
+      ],
+      "visual_review_notes": "三名实体演员，老者拱手赔罪，主角在窗内，白璃师礼等待，鹤已落地伏低。"
+    },
+    {
+      "id": "03-B",
+      "kind": "keyframe",
+      "segment_id": "segment_03_30-45s",
+      "anchor_seconds": 10.7,
+      "title": "一转身就是师傅",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+      "reference_ids": [
+        "C07",
+        "C03",
+        "C01",
+        "03-A"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n65mm裴长庚和白璃双人中近景。白发长须老宗师转向白璃，神情严肃，抬一只普通空手示意先停；白璃面对师傅行师礼，嘴微张想解释，元神在背后停着还没有收尽。男主可在左后方车窗中有半身，脸端着、目光悄悄看向老者。三位实体人物各一，白璃刀仍收鞘，巨鹤伏在侧后。真实皮肤纹理、布料和电影自然光，衣色脸形继承前图。\n输入图顺序为图1对应C07，图2对应C03，图3对应C01，图4对应03-A。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-a-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b1ef06e4-df2c-4ce9-8daa-6d4c3cd394c9.png",
+      "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-a-v1.png",
+          "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+        }
+      ],
+      "visual_review_notes": "师傅抬掌制止白璃，主角在车窗，三人身份一致，元神仍在。"
+    },
+    {
+      "id": "03-C",
+      "kind": "keyframe",
+      "segment_id": "segment_03_30-45s",
+      "anchor_seconds": 14.4,
+      "title": "法相收回，危险落下",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-c-v1.png",
+      "reference_ids": [
+        "03-A",
+        "03-B",
+        "02-C"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n28mm三人中广景。裴长庚站在车窗与白璃之间，白发长须、烟青披肩自然垂落。白璃合拢指尖、双臂放低，身后青金元神从双臂肩背化作稀薄灵雾收回，只留下正在消散的半身轮廓，不再完整立着。男主在窗内看着元神消退，抓帘的手略松，帘角回落。伏低白鹤在侧后，双人木鞍、低扶手和展开踏板可辨。只有三位实体人物，其他同门不入画。天衡迎客鹤是巨大丹顶白鹤，真实长颈、尖喙、红顶、黑白颈纹、黑色翼尖羽，翼展八至九米，只有两翼两足，颈侧一枚青玉铃。背上牢固系着古朴双人木鞍，前后两座都带低靠背和低扶手，脚旁有固定踏板。老者坐前座，后座空着供男主稍后乘坐。落地时仙鹤伏低、侧边展开两级低木踏板。主角身体由真实座位和脚踏承托，飞行由裴长庚御鹤。\n输入图顺序为图1对应03-A，图2对应03-B，图3对应02-C。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-f6b24419-cf83-4ee2-a506-e36517da98cb.png",
+      "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-a-v1.png",
+          "sha256": "7797bc0ca743f48cf1e4767f58dc585f94ab6420935e5c51d978f19228e4309e"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+          "sha256": "80b190d4919f8cad1853504653646606f3554595acfe24123ff6780271aa7491"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+          "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+        }
+      ],
+      "visual_review_notes": "白璃元神化薄雾收回中，末段消失的动作节点成立，三名实体演员。"
+    },
+    {
+      "id": "04-A",
+      "kind": "keyframe",
+      "segment_id": "segment_04_45-60s",
+      "anchor_seconds": 5.0,
+      "title": "气息敛尽，老者又误判了",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-a-v1.png",
+      "reference_ids": [
+        "C07",
+        "C01",
+        "03-C"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n65mm裴长庚与谢无咎双人中近景。白发老者闭嘴用眼睛打量刚从木车下来的男主，眼神从谨慎变为钦佩，手掌侧引向伏低白鹤。男主已站回实地、拢好白色宽袖，肩背端正但指尖稍紧，脸上努力平静，身上没有灵压光效。白鹤后鞍在两人旁边，朴素木扶手与低脚踏清楚。画面只有这两位实体演员，无完整元神。背景同一平地车道、木车、青石山门。天衡迎客鹤是巨大丹顶白鹤，真实长颈、尖喙、红顶、黑白颈纹、黑色翼尖羽，翼展八至九米，只有两翼两足，颈侧一枚青玉铃。背上牢固系着古朴双人木鞍，前后两座都带低靠背和低扶手，脚旁有固定踏板。老者坐前座，后座空着供男主稍后乘坐。落地时仙鹤伏低、侧边展开两级低木踏板。主角身体由真实座位和脚踏承托，飞行由裴长庚御鹤。\n输入图顺序为图1对应C07，图2对应C01，图3对应03-C。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。\n此时白璃的元神已经完全收回，空中只保留真实云层与光线，不再出现巨型人形、蓝金法相轮廓或元神残影。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-c-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-0c250370-794d-40d1-b477-ce782f152bf8.png",
+      "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-c-v1.png",
+          "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+        }
+      ],
+      "visual_review_notes": "主角已落地，老者引鹤与打量主角，两名实体演员，元神已全消。"
+    },
+    {
+      "id": "04-B",
+      "kind": "keyframe",
+      "segment_id": "segment_04_45-60s",
+      "anchor_seconds": 10.8,
+      "title": "如此甚好，袖内攥紧扶手",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+      "reference_ids": [
+        "C07",
+        "C01",
+        "02-C",
+        "03-C",
+        "04-A"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n50mm双人鹤鞍侧面中景，白鹤仍伏在地上，收翼。裴长庚坐前鞍，烟青披肩和白须垂落，一只手轻抬准备御鹤；谢无咎坐后鞍，头背端正、嘴唇闭合、眼睛只敢盯老者后背，双脚踩固定脚踏，双手藏在宽袖里抓紧真实低木扶手，手指关节用力可辨。木鞍前后座确实固定在同一鹤背，皮带受力可信。只有两位演员在鹤背，后座无第三人，身体与脚都有承托。画面可带少量同一山门车道背景。天衡迎客鹤是巨大丹顶白鹤，真实长颈、尖喙、红顶、黑白颈纹、黑色翼尖羽，翼展八至九米，只有两翼两足，颈侧一枚青玉铃。背上牢固系着古朴双人木鞍，前后两座都带低靠背和低扶手，脚旁有固定踏板。老者坐前座，后座空着供男主稍后乘坐。落地时仙鹤伏低、侧边展开两级低木踏板。主角身体由真实座位和脚踏承托，飞行由裴长庚御鹤。\n输入图顺序为图1对应C07，图2对应C01，图3对应02-C，图4对应03-C，图5对应04-A。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。\n此时白璃的元神已经完全收回，空中只保留真实云层与光线，不再出现巨型人形、蓝金法相轮廓或元神残影。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-c-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-a-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-2669cb6a-a3c2-4cdb-a812-665724fb87a8.png",
+      "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+          "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_03_30-45s/frames/keyframe-03-c-v1.png",
+          "sha256": "06c87a00e4642d83b32840e7fd6e5b3274dddc8d427327fbeaa7947597f8365b"
+        },
+        {
+          "index": 5,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-a-v1.png",
+          "sha256": "fa8356a9bfc4faa7025e7c6370083456deafbe9d1f53831a182acfaf1828c319"
+        }
+      ],
+      "visual_review_notes": "前座老者、后座主角，双脚与身体有木鞍承托，主角抓扶手。"
+    },
+    {
+      "id": "04-C",
+      "kind": "keyframe",
+      "segment_id": "segment_04_45-60s",
+      "anchor_seconds": 13.8,
+      "title": "驾鹤离场，躲过切磋",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-c-v1.png",
+      "reference_ids": [
+        "C07",
+        "C01",
+        "C03",
+        "04-B",
+        "02-C"
+      ],
+      "prompt": "16:9完整横屏电影画面，高预算东方仙侠电影的写实CG，角色脸和衣服严格继承当前新阵容，真实摄影式光照与空气透视，木材、石材、皮肤、羽毛有可信材质，适度精细度和清楚大形，克制锐度与微纹理。画面无文字、标注、水印、字幕、拼贴与游戏UI。人物表情自然，身体与手指结构正确。谢无咎27岁、白衣孔雀青襟、白玉直簪，剑在左腰鞘内，当前无任何仙力和护体，紧张只表现为皱眉、吞咽、抓帘或攥扶手。白璃33岁、赤棕高马尾、雾蓝衣靛蓝护肩、深紫腰带、古铜弯刀完整在右腰鞘。元神在需要出现的镜头归白璃，形式为四倍高青金女性半身，一对灵体手臂与体积灵雾，具体显隐按本张镜头要求。元神不是额外真人。场景继承前集平地车道、青石拱形山门、灰褐篷顶四轮木车、一匹棕马，正常晚日光向，地面干燥。严格按下列镜头人物名单构图。\n28mm地面仰拍中广景，巨型白鹤刚双足离地、双翼下压飞向山门上方的云侧航路，羽毛和空气受力真实。鹤背只有两个人，白发裴长庚在前座抬手御鹤，白衣谢无咎在后座坐得笔直，脚在固定脚踏、手仍抓低扶手。地面右侧只留雾蓝衣白璃仰头目送，刀收右腰鞘，元神已经完全收回，其他人不入画。木车和棕马仍停在平坦车道。镜头要看得见两人座位前后关系，主角自己没有施法与轻身飞行。天衡迎客鹤是巨大丹顶白鹤，真实长颈、尖喙、红顶、黑白颈纹、黑色翼尖羽，翼展八至九米，只有两翼两足，颈侧一枚青玉铃。背上牢固系着古朴双人木鞍，前后两座都带低靠背和低扶手，脚旁有固定踏板。老者坐前座，后座空着供男主稍后乘坐。落地时仙鹤伏低、侧边展开两级低木踏板。主角身体由真实座位和脚踏承托，飞行由裴长庚御鹤。\n输入图顺序为图1对应C07，图2对应C01，图3对应C03，图4对应04-B，图5对应02-C。角色三视图只继承脸、发型和衣服，前场图只继承场景和实际出镜人物。\n此时白璃的元神已经完全收回，空中只保留真实云层与光线，不再出现巨型人形、蓝金法相轮廓或元神残影。",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png"
+      ],
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-38c2b5ef-97c7-4304-ac8d-d57b74daecc9.png",
+      "sha256": "cf824c7f89e903f9132c96beced321e7ccd295747371a7e81f1e2a42c8576b67",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C07/C07-pei-changgeng-turnaround-v1.png",
+          "sha256": "ae8ca278117041ca481d180683bbe0f1e859e30d4a90a906be915d3f0a4427a7"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "sha256": "25424cd647dadef5c0b7f0c076df10c5ef22b7899be28521df520ab694e26531"
+        },
+        {
+          "index": 5,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP002_just_a_frown/segment_02_15-30s/frames/keyframe-02-c-v1.png",
+          "sha256": "00b5e5fb3bccdf240df052283e95c096c60c90d3a5a646f84758144c16f81ab5"
+        }
+      ],
+      "visual_review_notes": "两人乘鹤离地，地面只白璃目送，元神已收，主角无施法。"
+    }
+  ],
+  "status": "SELECTED_IMAGES_READY"
+}

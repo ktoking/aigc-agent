@@ -1,0 +1,78 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/story-dissolved-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+    comment         : vid:v0269cg10004dbuov8a7dld2p0clvjs0
+  Duration: 00:01:00.40, start: 0.000000, bitrate: 24133 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160, 24132 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 h264_videotoolbox
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/creator-intro-4k.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Duration: 00:00:02.10, start: 0.000000, bitrate: 410 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 405 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+Input #2, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/series-cold-open-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+  Duration: 00:00:05.30, start: 0.000000, bitrate: 22709 kb/s
+  Stream #2:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160, 22451 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 h264_videotoolbox
+  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 248 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #3, concat, from 'assets/captions.ffconcat':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #3:0: Video: png, rgba(pc, gbr/unknown/unknown), 3840x2160, 30 fps, 30 tbr, 30 tbn
+[aist#4:0/pcm_f32le @ 0x136108e40] Guessed Channel Layout: stereo
+Input #4, wav, from 'assets/mixed.wav':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Duration: 00:01:07.80, bitrate: 3072 kb/s
+  Stream #4:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+Stream mapping:
+  Stream #0:0 (h264) -> settb:default
+  Stream #1:0 (h264) -> fps:default
+  Stream #2:0 (h264) -> fps:default
+  Stream #3:0 (png) -> fps:default
+  format:default -> Stream #0:0 (h264_videotoolbox)
+  Stream #4:0 -> #0:1 (pcm_f32le (native) -> aac (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x122990000] No accelerated colorspace conversion found from yuv420p to rgba.
+[swscaler @ 0x122990000] [swscaler @ 0x1229a0000] No accelerated colorspace conversion found from yuv420p to rgba.
+[swscaler @ 0x122990000] [swscaler @ 0x1229b0000] No accelerated colorspace conversion found from yuv420p to rgba.
+Output #0, mp4, to '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP004_just_a_bowl_of_noodles/output/.EP004_正在输出.mp4':
+  Metadata:
+    title           : 本座今日不飞 本座只想吃碗面
+    artist          : 西瓜终结者AIGC
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 24000 kb/s, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 h264_videotoolbox
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 aac
+[mp4 @ 0x136106290] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x136106190] video:199722KiB audio:2056KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.029375%
+frame= 2034 fps= 54 q=-0.0 Lsize=  201837KiB time=00:01:07.76 bitrate=24399.2kbits/s speed= 1.8x elapsed=0:00:37.70    
+[aac @ 0x13610b4f0] Qavg: 3807.063

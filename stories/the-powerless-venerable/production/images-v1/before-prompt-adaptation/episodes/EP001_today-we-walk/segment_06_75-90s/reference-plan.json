@@ -1,0 +1,44 @@
+{
+  "script_version": "v3",
+  "status": "CHARACTER_REFERENCES_ONLY",
+  "characters": [
+    {
+      "index": 1,
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "C01脸、发型与服装，不将三视图复制成多个人"
+    },
+    {
+      "index": 2,
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-reference.png",
+      "role": "C02脸、发型与服装，不将三视图复制成多个人"
+    },
+    {
+      "index": 3,
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-reference.png",
+      "role": "C04脸、发型与服装，不将三视图复制成多个人"
+    },
+    {
+      "index": 4,
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-reference.png",
+      "role": "C05脸、发型与服装，不将三视图复制成多个人"
+    },
+    {
+      "index": 5,
+      "character_id": "C06",
+      "path": "frames/C06-two-guards-reference.png",
+      "role": "C06脸、发型与服装，不将三视图复制成多个人"
+    },
+    {
+      "index": 6,
+      "character_id": "C03",
+      "path": "frames/C03-bai-li-reference.png",
+      "role": "C03脸、发型与服装，不将三视图复制成多个人"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": false
+}

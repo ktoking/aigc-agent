@@ -1,0 +1,15 @@
+{
+  "id": "S06_FIRST",
+  "path": "episodes/EP001_no-more-chasing/segment_06_75-90s/frames/first-frame.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-6b03931d-e405-432f-a17b-e422385484a8.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 Su exact female identity white blouse black trousers, image2 Gu exact male identity dark charcoal suit white shirt black tie, image3 office spatial layout, image4 two document copies/black folder/black pen/phone designs. Only these TWO adult people. Keep Su LEFT visitor side, Gu RIGHT behind desk in dark chair, entrance on LEFT. Warm restrained afternoon light and SAME faces. No ring on woman's hand; no flirty smile, tears, physical grabbing or romantic contact. Any documents only faint gray lines, no readable text. Image5 only navy ring-box design. Start of providing evidence: Su standing LEFT holds her ONE black smartphone toward Gu with RIGHT hand at comfortable desk height; screen shows blank pale-gray chat-message blocks, NO readable words. Gu seated RIGHT looking DOWN at phone, not secretly at the camera. Su's left hand beside a SMALL CLOSED navy ring box now on desk near man. TWO agreement copies still flat, black pen lies by Gu. Medium vertical two-person shot, phone visible between them, no extra hands or duplicate devices. No signed handwriting yet.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

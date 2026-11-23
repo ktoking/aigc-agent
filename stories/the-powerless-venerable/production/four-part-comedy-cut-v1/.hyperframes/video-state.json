@@ -1,0 +1,2605 @@
+{
+  "version": 1,
+  "historyId": "82329956-28da-4af0-bf0d-08177bb1baa3",
+  "currentRevision": "1d41c88f-8043-4a13-91cf-3295d6a01261",
+  "pendingChanges": false,
+  "files": {
+    "BGM候选试听.html": {
+      "hash": "2db87da64277f14863d6d5e45def0cd88f0f810468c1c6e0f45501242aca100c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/2d/2db87da64277f14863d6d5e45def0cd88f0f810468c1c6e0f45501242aca100c"
+    },
+    "SPEC.md": {
+      "hash": "d6c7532b38f87736ea4f1161a41480b5f922823e0a5162379b6787a66bbeaa88",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d6/d6c7532b38f87736ea4f1161a41480b5f922823e0a5162379b6787a66bbeaa88"
+    },
+    "assets/bgm/Fluffing a Duck-preview.m4a": {
+      "hash": "6b633dff6214150eb0bdc270d30d8245ea7605a1e6cc51e78e138b484c9ca469",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6b/6b633dff6214150eb0bdc270d30d8245ea7605a1e6cc51e78e138b484c9ca469"
+    },
+    "assets/bgm/Monkeys Spinning Monkeys-preview.m4a": {
+      "hash": "102ad21e4c6e2ad0c59ad69c515db6016e01012b208924c0d729bedb891e328b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/10/102ad21e4c6e2ad0c59ad69c515db6016e01012b208924c0d729bedb891e328b"
+    },
+    "assets/bgm/Sneaky Snitch-preview.m4a": {
+      "hash": "37febe846b52007aaaf489fd2b4cd049184f0302c94cfab3ab14f3b7deb325c1",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/37/37febe846b52007aaaf489fd2b4cd049184f0302c94cfab3ab14f3b7deb325c1"
+    },
+    "assets/bgm/license.txt": {
+      "hash": "479019ed42fd8384c63c04bd95dc6d0e0e0da505ddd6f567a13018c724f8416d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/47/479019ed42fd8384c63c04bd95dc6d0e0e0da505ddd6f567a13018c724f8416d"
+    },
+    "assets/bgm/sources.json": {
+      "hash": "257af1ce9c8f7e6598e6b6be89d4df2838eae9807d6e0382b17d5872e17ca4b4",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/25/257af1ce9c8f7e6598e6b6be89d4df2838eae9807d6e0382b17d5872e17ca4b4"
+    },
+    "assets/captions.json": {
+      "hash": "a2805b97492f53b4a8ec62e3fbb7d6c73b076183a908991bfd62cb8ba688d6de",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a2/a2805b97492f53b4a8ec62e3fbb7d6c73b076183a908991bfd62cb8ba688d6de"
+    },
+    "compositions/captions.html": {
+      "hash": "481326b847fd6c3303187182d6d0fafd299a963ed8940ac3004bb150d3bdbf15",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/48/481326b847fd6c3303187182d6d0fafd299a963ed8940ac3004bb150d3bdbf15"
+    },
+    "compositions/credits.html": {
+      "hash": "395c0668f94f587a07f738e02bc7e8376362293c4327c57c8cf77096b2211c8b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/39/395c0668f94f587a07f738e02bc7e8376362293c4327c57c8cf77096b2211c8b"
+    },
+    "compositions/intro.html": {
+      "hash": "725e69c75bc62238b5c236be397e56ebeb8cfedd0e131e2f15a819e2e6435a4c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/72/725e69c75bc62238b5c236be397e56ebeb8cfedd0e131e2f15a819e2e6435a4c"
+    },
+    "hyperframes.json": {
+      "hash": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/35/35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    "index.html": {
+      "hash": "f49c1b8a7acb658cc39ccbc6602b405b32d18a41619b2d58ff8cf0b038bdbc18",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f4/f49c1b8a7acb658cc39ccbc6602b405b32d18a41619b2d58ff8cf0b038bdbc18"
+    },
+    "input-manifest.json": {
+      "hash": "18c1999151eeca293dd290936f6e615b6c375b8266b6dcb2442a9459955f73d1",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/18/18c1999151eeca293dd290936f6e615b6c375b8266b6dcb2442a9459955f73d1"
+    },
+    "music-edit.json": {
+      "hash": "fc935a20fe3cfe54b73bfc75d0838f93de8fa0bc32beda55d422f718aeeabf72",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fc/fc935a20fe3cfe54b73bfc75d0838f93de8fa0bc32beda55d422f718aeeabf72"
+    },
+    "output/发布时保留的音乐署名.txt": {
+      "hash": "6b7e91b0b3ce13b9d49300a4a1f26587ca4e8bf33865a2da6b4239b6241f25b4",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6b/6b7e91b0b3ce13b9d49300a4a1f26587ca4e8bf33865a2da6b4239b6241f25b4"
+    },
+    "output/本座今日不飞-四段合辑.srt": {
+      "hash": "3acc61bf816daa46660f0ad9a58848d2ac99a91c48ae5086e87800c4ed5b95f3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3a/3acc61bf816daa46660f0ad9a58848d2ac99a91c48ae5086e87800c4ed5b95f3"
+    },
+    "package-lock.json": {
+      "hash": "769f0a340b10ef4eada812f0fd444bfb86f065ebdf752d86d0e2ec7dac6974a3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/76/769f0a340b10ef4eada812f0fd444bfb86f065ebdf752d86d0e2ec7dac6974a3"
+    },
+    "package.json": {
+      "hash": "984289c54d09602779f30765eec58f01ed4b4ad8680fb468e8d3bec37785ab95",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/98/984289c54d09602779f30765eec58f01ed4b4ad8680fb468e8d3bec37785ab95"
+    },
+    "qa/clip-01-0.jpg": {
+      "hash": "f5a4460d6bce4dfa43b49c72527a561bf7578175f2abbd1fd1da6405630160f5",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f5/f5a4460d6bce4dfa43b49c72527a561bf7578175f2abbd1fd1da6405630160f5"
+    },
+    "qa/clip-01-1.jpg": {
+      "hash": "35a5846947a40b83326ff92786ef2bfa10b91eba6b3e74d8805cb629d73b0332",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/35/35a5846947a40b83326ff92786ef2bfa10b91eba6b3e74d8805cb629d73b0332"
+    },
+    "qa/clip-01-2.jpg": {
+      "hash": "698d55c05a94c8dc4095ccd52090cff58355ce3cb2bec1d0497e793cf3ee0470",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/69/698d55c05a94c8dc4095ccd52090cff58355ce3cb2bec1d0497e793cf3ee0470"
+    },
+    "qa/clip-01.wav": {
+      "hash": "7aab81a2016169c4c2de81206b49f17e2615b31b566192c1620e2154fee65d40",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/7a/7aab81a2016169c4c2de81206b49f17e2615b31b566192c1620e2154fee65d40"
+    },
+    "qa/clip-02-0.jpg": {
+      "hash": "de455b247141d1cc9408ba9ae23a107985b04c795f2d90c6e14619dfb26b7b9d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/de/de455b247141d1cc9408ba9ae23a107985b04c795f2d90c6e14619dfb26b7b9d"
+    },
+    "qa/clip-02-1.jpg": {
+      "hash": "0019c7159307db0fc48f0ff30393be2240b691234779432a2a0a7917cb02c220",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/00/0019c7159307db0fc48f0ff30393be2240b691234779432a2a0a7917cb02c220"
+    },
+    "qa/clip-02-2.jpg": {
+      "hash": "bbeda5475cdd0e53f05fc4cee1675d9cf9ced3472e99760b1a4febee4d9404fb",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bb/bbeda5475cdd0e53f05fc4cee1675d9cf9ced3472e99760b1a4febee4d9404fb"
+    },
+    "qa/clip-02.wav": {
+      "hash": "dee0727c2f71f09d222a589e21c887198fbd19958a2c33bf848f2f6a76798762",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/de/dee0727c2f71f09d222a589e21c887198fbd19958a2c33bf848f2f6a76798762"
+    },
+    "qa/clip-03-0.jpg": {
+      "hash": "b0806a0acf59b96c24f67d88011283d8611ba8420e87c6197d2da836dd04d143",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b0806a0acf59b96c24f67d88011283d8611ba8420e87c6197d2da836dd04d143"
+    },
+    "qa/clip-03-1.jpg": {
+      "hash": "21ab17df122a15b9392b4489bcd5f60ebe4eaed58628baeef8f076be54ff1d5c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/21/21ab17df122a15b9392b4489bcd5f60ebe4eaed58628baeef8f076be54ff1d5c"
+    },
+    "qa/clip-03-2.jpg": {
+      "hash": "26f6e92671d20128c3cb013cf9c26bdee0e59907239e844ad0bef8edd237f720",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/26/26f6e92671d20128c3cb013cf9c26bdee0e59907239e844ad0bef8edd237f720"
+    },
+    "qa/clip-03.wav": {
+      "hash": "1d9576a168c4f4567a79e5638b8cf4910e3bf33198e3c4ac2c347f18fb2e126e",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/1d/1d9576a168c4f4567a79e5638b8cf4910e3bf33198e3c4ac2c347f18fb2e126e"
+    },
+    "qa/clip-04-0.jpg": {
+      "hash": "5e3193e534e7d0832916cc8ee6a5bc24376b852ece56a655abe3ea970ae10f4c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5e/5e3193e534e7d0832916cc8ee6a5bc24376b852ece56a655abe3ea970ae10f4c"
+    },
+    "qa/clip-04-1.jpg": {
+      "hash": "3d23a9239f368ada2c05c79991344761fab829da7ef06fea0aeee5ade7f081d2",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3d/3d23a9239f368ada2c05c79991344761fab829da7ef06fea0aeee5ade7f081d2"
+    },
+    "qa/clip-04-2.jpg": {
+      "hash": "b23a074009bad6460a8f9a17291cce8482d65a15500286c980f7faf9d4df296d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b2/b23a074009bad6460a8f9a17291cce8482d65a15500286c980f7faf9d4df296d"
+    },
+    "qa/clip-04.wav": {
+      "hash": "30b3c902403aae25ffbc00d2669dd0ce189c4d1f248cd74f20c25221a3763d34",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/30/30b3c902403aae25ffbc00d2669dd0ce189c4d1f248cd74f20c25221a3763d34"
+    },
+    "qa/contact-sheet.jpg": {
+      "hash": "3a97e278bac4c61cb075430d256ab5a8ea630c8d58bd9b8f19b6edd22858cb52",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3a/3a97e278bac4c61cb075430d256ab5a8ea630c8d58bd9b8f19b6edd22858cb52"
+    },
+    "qa/hyperframes-check.json": {
+      "hash": "3753b4247d34b53aa859efe53b990aff57e22c886ee30182d991b7c7ba8959ff",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/37/3753b4247d34b53aa859efe53b990aff57e22c886ee30182d991b7c7ba8959ff"
+    },
+    "qa/music-analysis.json": {
+      "hash": "8ae497929e149b02d0a97c2fc8473eecb6748b0820b8c3612182f33a087fb72d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8a/8ae497929e149b02d0a97c2fc8473eecb6748b0820b8c3612182f33a087fb72d"
+    },
+    "qa/transcript-01.json": {
+      "hash": "60f01a96d98e8c191556cc7f3d2e7b34cb7730f0032fc944f41aeaf6bfe56069",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/60/60f01a96d98e8c191556cc7f3d2e7b34cb7730f0032fc944f41aeaf6bfe56069"
+    },
+    "qa/transcript-02.json": {
+      "hash": "21a9a45b50e47364e0a67dbbfe554977db4ce842ec14eac7738653869a05e3ca",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/21/21a9a45b50e47364e0a67dbbfe554977db4ce842ec14eac7738653869a05e3ca"
+    },
+    "qa/transcript-03.json": {
+      "hash": "465d5deea02472325dac225c5d1e8e2b3797b301d99a90db6c57a274cb1f2e25",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/46/465d5deea02472325dac225c5d1e8e2b3797b301d99a90db6c57a274cb1f2e25"
+    },
+    "qa/transcript-04.json": {
+      "hash": "d9589bf4a13b9fc0f22b47bb4a9f3a6d0ba75eefdd7b70699c319e460b5904bd",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d9/d9589bf4a13b9fc0f22b47bb4a9f3a6d0ba75eefdd7b70699c319e460b5904bd"
+    },
+    "assets/bgm/Fluffing a Duck.mp3": {
+      "hash": "cb23b1833c35e391de10d998d6a40cfc760565ce31d23014c86025523ca8239b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/cb/cb23b1833c35e391de10d998d6a40cfc760565ce31d23014c86025523ca8239b"
+    },
+    "assets/bgm/Monkeys Spinning Monkeys.mp3": {
+      "hash": "a5bb345c23849ad0786aa0bc5157a9f2d4039660fe00282e55754d475f36dc14",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a5/a5bb345c23849ad0786aa0bc5157a9f2d4039660fe00282e55754d475f36dc14"
+    },
+    "assets/bgm/Sneaky Snitch.mp3": {
+      "hash": "db1710333d68a215277f77e4e17e1a64bf4ed38f87c70f8d0f56b16b6aa4f884",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/db/db1710333d68a215277f77e4e17e1a64bf4ed38f87c70f8d0f56b16b6aa4f884"
+    },
+    "assets/bgm-edited.wav": {
+      "hash": "a7eeb678d5b9947e0d7a72b4ca53d830eeddd4372f8f42ce5b10835d14bfe7ae",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a7/a7eeb678d5b9947e0d7a72b4ca53d830eeddd4372f8f42ce5b10835d14bfe7ae"
+    },
+    "assets/clip-01.mp4": {
+      "hash": "37c1b95b5e6d3a556088457dffc8875d5ad6fd66cc2e72f622b4aeeb8ecbc2a9",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/37/37c1b95b5e6d3a556088457dffc8875d5ad6fd66cc2e72f622b4aeeb8ecbc2a9"
+    },
+    "assets/clip-02.mp4": {
+      "hash": "7081a281a5809256db4c4c0d2a3e9b3b72f5201f5fa64c97db005340b0950e5d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/70/7081a281a5809256db4c4c0d2a3e9b3b72f5201f5fa64c97db005340b0950e5d"
+    },
+    "assets/clip-03.mp4": {
+      "hash": "8cef7720ddafb8c4bf2aa469a5aaab42d8fa2318632c90d5f0c8ade9c6bf7a09",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8c/8cef7720ddafb8c4bf2aa469a5aaab42d8fa2318632c90d5f0c8ade9c6bf7a09"
+    },
+    "assets/clip-04.mp4": {
+      "hash": "9918456d5f48848ff4e191868a3d82cbca830dedbcc5108ea4db492018d8755c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/99/9918456d5f48848ff4e191868a3d82cbca830dedbcc5108ea4db492018d8755c"
+    },
+    "assets/dialogue.wav": {
+      "hash": "057d5d5b32a47fd999259e00fdd9e3a69bec711e9b405e6d1c5e7917b2318e24",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/05/057d5d5b32a47fd999259e00fdd9e3a69bec711e9b405e6d1c5e7917b2318e24"
+    },
+    "assets/story-dissolved.mp4": {
+      "hash": "7260134eefd661363f643fa491c78f02979986830d0aca602d8942f61ed8442c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/72/7260134eefd661363f643fa491c78f02979986830d0aca602d8942f61ed8442c"
+    },
+    "qa/hyperframes-check.log": {
+      "hash": "84afa366f63c7e005a672db58d0d229724f4194e0a1755adc6f955eafc35eda3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/84/84afa366f63c7e005a672db58d0d229724f4194e0a1755adc6f955eafc35eda3"
+    },
+    "qa/snapshot-review.log": {
+      "hash": "1be34181328dd087654bb3a7b05bb7dfa005442263584406d6b50d0eb01a624b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/1b/1be34181328dd087654bb3a7b05bb7dfa005442263584406d6b50d0eb01a624b"
+    },
+    "assets/bgm/official-track-metadata.json": {
+      "hash": "8ebd2c10b1cadff0b2d0e45ca27bf879f6c66bd1cbc863be6ef66c5534055f0d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8e/8ebd2c10b1cadff0b2d0e45ca27bf879f6c66bd1cbc863be6ef66c5534055f0d"
+    },
+    "qa/preview.log": {
+      "hash": "fcc312b8ffd8459d1d34f4744a7c668f3e9e0250489ba5552b42e6ec598b5ced",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fc/fcc312b8ffd8459d1d34f4744a7c668f3e9e0250489ba5552b42e6ec598b5ced"
+    },
+    "qa/snapshot-details.log": {
+      "hash": "b09695e0f4c82002bf888a6201257e81664d0e0725bf13dc5b4727f94536ac90",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b09695e0f4c82002bf888a6201257e81664d0e0725bf13dc5b4727f94536ac90"
+    },
+    "qa/render.log": {
+      "hash": "79c1319ec7894652200b7e5b64f22fb658fb8668e36ae3c40def63ab4ad0c9a8",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/79/79c1319ec7894652200b7e5b64f22fb658fb8668e36ae3c40def63ab4ad0c9a8"
+    },
+    "REVIEW.md": {
+      "hash": "a8b980090d3fdaba3710e3bcd7d2c4d0465b14f4d7a75cb0b0c11a76fb79a7ae",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a8/a8b980090d3fdaba3710e3bcd7d2c4d0465b14f4d7a75cb0b0c11a76fb79a7ae"
+    },
+    "qa/loudness-master.log": {
+      "hash": "60377a71cc24209621be2a47b0a47a1ceffec951b0e199fa04ced6f9e02588b4",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/60/60377a71cc24209621be2a47b0a47a1ceffec951b0e199fa04ced6f9e02588b4"
+    },
+    "qa/loudness-master.json": {
+      "hash": "ca71c0063cfd722c363e6bdbca08b30c35ffd3e1834175c7a1689c1b8926b30a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ca/ca71c0063cfd722c363e6bdbca08b30c35ffd3e1834175c7a1689c1b8926b30a"
+    },
+    "output/本座今日不飞-搞笑配乐字幕版.mp4": {
+      "hash": "bc9723400e20dc711abec39b7b68cba4335713c1b4e6eb4e34e3448185f67ef3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bc/bc9723400e20dc711abec39b7b68cba4335713c1b4e6eb4e34e3448185f67ef3"
+    },
+    "qa/final-encode.log": {
+      "hash": "d542159bee18332307b981e74703c0be36f58ef627ca496ca5944648caffdefb",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d5/d542159bee18332307b981e74703c0be36f58ef627ca496ca5944648caffdefb"
+    },
+    "qa/loudness-final.log": {
+      "hash": "4d27230c1214b502d19bb639343fa21a876e926a96a018bbfe481476147c89c2",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4d/4d27230c1214b502d19bb639343fa21a876e926a96a018bbfe481476147c89c2"
+    },
+    "qa/loudness-final.json": {
+      "hash": "242c737fa8f44d16c2483bddb3eeb118cbfa4ea51e0fadf295398996b03e0f2e",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/24/242c737fa8f44d16c2483bddb3eeb118cbfa4ea51e0fadf295398996b03e0f2e"
+    },
+    "qa/final-probe.json": {
+      "hash": "5ddfd00fc939f1c590bd938d0211343d8217f22f2deae2aa656aaee78d1ef7c1",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5d/5ddfd00fc939f1c590bd938d0211343d8217f22f2deae2aa656aaee78d1ef7c1"
+    },
+    "qa/rendered-speech-transcript.json": {
+      "hash": "fa978500570dc2c6ed1964105184e7884572f97604d82005ae3ac7005b00043a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fa/fa978500570dc2c6ed1964105184e7884572f97604d82005ae3ac7005b00043a"
+    },
+    "qa/final-frame-00.jpg": {
+      "hash": "3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+    },
+    "qa/final-frame-01.jpg": {
+      "hash": "6e3e357bdf114d9215022299fe0189d6eac657ac6d3fa944431d04b5430a56b8",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6e/6e3e357bdf114d9215022299fe0189d6eac657ac6d3fa944431d04b5430a56b8"
+    },
+    "qa/final-frame-02.jpg": {
+      "hash": "90934020a1e38ef2597185b73254caaedbd5ffbb1893adfccb9d5280d92bcd07",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/90/90934020a1e38ef2597185b73254caaedbd5ffbb1893adfccb9d5280d92bcd07"
+    },
+    "qa/final-frame-03.jpg": {
+      "hash": "90934020a1e38ef2597185b73254caaedbd5ffbb1893adfccb9d5280d92bcd07",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/90/90934020a1e38ef2597185b73254caaedbd5ffbb1893adfccb9d5280d92bcd07"
+    },
+    "qa/final-frame-04.jpg": {
+      "hash": "6366fa36b53a4ebf7fc0c376f2f4bde728a302c4fe2975e36a2a5a5892563da1",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/63/6366fa36b53a4ebf7fc0c376f2f4bde728a302c4fe2975e36a2a5a5892563da1"
+    },
+    "qa/final-frame-05.jpg": {
+      "hash": "a9f255d82a394d546b2100896849db39c9136215c3531472b9a63e4634bc00ab",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a9/a9f255d82a394d546b2100896849db39c9136215c3531472b9a63e4634bc00ab"
+    },
+    "qa/final-frame-06.jpg": {
+      "hash": "0ea99ecc3564789cb6970f22c46b3f750dbc8d0e9ce20d8b00f4652720972860",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0e/0ea99ecc3564789cb6970f22c46b3f750dbc8d0e9ce20d8b00f4652720972860"
+    },
+    "qa/final-frame-07.jpg": {
+      "hash": "2369052b858e1d544aa31c1f3890a96960581c61f9534bed22d1cf7562c25824",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/2369052b858e1d544aa31c1f3890a96960581c61f9534bed22d1cf7562c25824"
+    },
+    "qa/final-frame-08.jpg": {
+      "hash": "ed3b35ed46812989049b20536279957e73d14df9e21bb99499f7e4b3f5927afc",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/ed3b35ed46812989049b20536279957e73d14df9e21bb99499f7e4b3f5927afc"
+    },
+    "qa/final-frame-09.jpg": {
+      "hash": "d410316299a187a7939e24348bc07510d4cb0bce84f22e6645cafef938dadb33",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d4/d410316299a187a7939e24348bc07510d4cb0bce84f22e6645cafef938dadb33"
+    },
+    "qa/final-frame-10.jpg": {
+      "hash": "5db29312a9556b224d6427c2ddd020625b573fe9b0af15e1b0b316fecc2565f3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5d/5db29312a9556b224d6427c2ddd020625b573fe9b0af15e1b0b316fecc2565f3"
+    },
+    "qa/final-frame-11.jpg": {
+      "hash": "f571a4b6c2f835b42c69659629dd2b99a1cae553a86b9ae5c4b0e549c4a7033a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f5/f571a4b6c2f835b42c69659629dd2b99a1cae553a86b9ae5c4b0e549c4a7033a"
+    },
+    "qa/final-frame-12.jpg": {
+      "hash": "edccb56d8ba08c4c4e403fee698457f70486d45bd278f14b52614e664aaa1f53",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/edccb56d8ba08c4c4e403fee698457f70486d45bd278f14b52614e664aaa1f53"
+    },
+    "qa/final-frame-13.jpg": {
+      "hash": "df01411fed2b6d07303ec55b87370e659594e4312f86c5379307b442dc72a736",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/df/df01411fed2b6d07303ec55b87370e659594e4312f86c5379307b442dc72a736"
+    },
+    "qa/final-frame-14.jpg": {
+      "hash": "44a5a259468e4bfd7ba3690d31f18357c4ba0b285789d615fd349851ca91c647",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/44/44a5a259468e4bfd7ba3690d31f18357c4ba0b285789d615fd349851ca91c647"
+    },
+    "qa/final-frame-15.jpg": {
+      "hash": "3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+    },
+    "qa/final-contact-sheet.jpg": {
+      "hash": "ced36b5b252e5f53669dd19f8d0753e219aa449d213f7cb2d633f1096571cc90",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ce/ced36b5b252e5f53669dd19f8d0753e219aa449d213f7cb2d633f1096571cc90"
+    },
+    "qa/final-validation.json": {
+      "hash": "437b58a6b1d08f88cfc67815e63ebbc6314aeb3559a98dabad639c567c3162c2",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/43/437b58a6b1d08f88cfc67815e63ebbc6314aeb3559a98dabad639c567c3162c2"
+    },
+    "qa/timeline-before-groovy.json": {
+      "hash": "2851ea6dc9296b1bb4046582dcf0686c9047c4b9cecda0c80bf35ce7ef46cbe8",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/28/2851ea6dc9296b1bb4046582dcf0686c9047c4b9cecda0c80bf35ce7ef46cbe8"
+    },
+    "revisions/before-groovy-v2/index.html": {
+      "hash": "c7db670a662131c2e14a55175a192fd4db38fd98eb00e142573ce2eb6413290c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c7/c7db670a662131c2e14a55175a192fd4db38fd98eb00e142573ce2eb6413290c"
+    },
+    "revisions/before-groovy-v2/compositions/intro.html": {
+      "hash": "a3ae5954c66afe62ccd66cd8003d3c5299ead08f7796bc261e44019000da4c31",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a3/a3ae5954c66afe62ccd66cd8003d3c5299ead08f7796bc261e44019000da4c31"
+    },
+    "revisions/before-groovy-v2/compositions/credits.html": {
+      "hash": "395c0668f94f587a07f738e02bc7e8376362293c4327c57c8cf77096b2211c8b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/39/395c0668f94f587a07f738e02bc7e8376362293c4327c57c8cf77096b2211c8b"
+    },
+    "revisions/before-groovy-v2/SPEC.md": {
+      "hash": "32b7a36ad00c7961cbc6859c3afba56a76f58f91365e5840ea0faf458870dd81",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/32/32b7a36ad00c7961cbc6859c3afba56a76f58f91365e5840ea0faf458870dd81"
+    },
+    "revisions/before-groovy-v2/REVIEW.md": {
+      "hash": "685b77f72b66073abd9b13b1860384b29f0e469389c517bdbd7f7ac9d5c7091b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/68/685b77f72b66073abd9b13b1860384b29f0e469389c517bdbd7f7ac9d5c7091b"
+    },
+    "revisions/before-groovy-v2/music-edit.json": {
+      "hash": "d7030959282331fe7a9bf8dfccc93d8eac9f0ac9e4200acad9af1e9f9ff72f5e",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d7/d7030959282331fe7a9bf8dfccc93d8eac9f0ac9e4200acad9af1e9f9ff72f5e"
+    },
+    "qa/groovy-netease-search.json": {
+      "hash": "b410c8a9797e0435ade29ec565e1c9952fc736a74ae095b8808263bdb1cf1a03",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b4/b410c8a9797e0435ade29ec565e1c9952fc736a74ae095b8808263bdb1cf1a03"
+    },
+    "assets/bgm/Groovy Hammond-Aiert Erkoreka.mp3": {
+      "hash": "8a27effd592c54523254262c4f23aafa474fce9a1905c9e4e3807e0836943d3e",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8a/8a27effd592c54523254262c4f23aafa474fce9a1905c9e4e3807e0836943d3e"
+    },
+    "assets/bgm/groovy-source.json": {
+      "hash": "807b66eb093227ed323ed966bb5335297c6e77d4cdf908dc5739617a931ad590",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/80/807b66eb093227ed323ed966bb5335297c6e77d4cdf908dc5739617a931ad590"
+    },
+    "assets/bgm-groovy-edited.wav": {
+      "hash": "a62fe7d58c31ccef3789c3b919b729c805e2cd6bc096be5357cb3dedc404d993",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a6/a62fe7d58c31ccef3789c3b919b729c805e2cd6bc096be5357cb3dedc404d993"
+    },
+    "output/Groovy-Hammond-曲目信息.txt": {
+      "hash": "ffe136f11fd6fd4abc63ee3870d3a90e9752edbed0ac82995f2bdf0382402dec",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ff/ffe136f11fd6fd4abc63ee3870d3a90e9752edbed0ac82995f2bdf0382402dec"
+    },
+    "qa/check-groovy-v2.json": {
+      "hash": "3f5f1b921f3dceb11e5224e352dbb2110ac9a4589f3258d56d65612e19984e58",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3f5f1b921f3dceb11e5224e352dbb2110ac9a4589f3258d56d65612e19984e58"
+    },
+    "qa/check-groovy-v2.log": {
+      "hash": "84a98ec9b369689479636556ed79538f0d870c2e50cdb23db7e3ed550cd850d4",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/84/84a98ec9b369689479636556ed79538f0d870c2e50cdb23db7e3ed550cd850d4"
+    },
+    "qa/snapshot-groovy-v2.log": {
+      "hash": "d272c67f95172369b268f3035a9c270b92427014bf650d232642675e8e7d4577",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d2/d272c67f95172369b268f3035a9c270b92427014bf650d232642675e8e7d4577"
+    },
+    "qa/render-groovy-v2.log": {
+      "hash": "d13cb4d41d39ab4cc0d6207fdef861ce6614dc9c83810d86fe3db22f3a7fad64",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d1/d13cb4d41d39ab4cc0d6207fdef861ce6614dc9c83810d86fe3db22f3a7fad64"
+    },
+    "qa/groovy-v2-loudness-master.log": {
+      "hash": "4a087fafeace43109c646316efc87c7a24aa590bb32e3cee4136644d6f97c7e7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4a/4a087fafeace43109c646316efc87c7a24aa590bb32e3cee4136644d6f97c7e7"
+    },
+    "qa/groovy-v2-loudness-master.json": {
+      "hash": "b948f78d934ad4a40d6001a98b565430912eb2da83b97b019bbf67295e65faee",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b9/b948f78d934ad4a40d6001a98b565430912eb2da83b97b019bbf67295e65faee"
+    },
+    "output/本座今日不飞-Groovy-Hammond版-v2.mp4": {
+      "hash": "897bb1bd3bbd0cb0347133100060bc6d2cb7ea40c8b077d848516a9e628b2a1c",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/89/897bb1bd3bbd0cb0347133100060bc6d2cb7ea40c8b077d848516a9e628b2a1c"
+    },
+    "qa/groovy-v2-final-encode.log": {
+      "hash": "664432a780f675acd1bf733d7ebfd19010821fcbbcc77605c0a46d9a4ec19daa",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/66/664432a780f675acd1bf733d7ebfd19010821fcbbcc77605c0a46d9a4ec19daa"
+    },
+    "qa/groovy-v2-loudness-final.log": {
+      "hash": "b583fd0fe49116825c6635553f8c03240b70eb344cc0f1fc98b585f6736dada0",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b5/b583fd0fe49116825c6635553f8c03240b70eb344cc0f1fc98b585f6736dada0"
+    },
+    "qa/groovy-v2-loudness-final.json": {
+      "hash": "d479dd4ca43a3dda6e73b04e14e8c507d98de3d477ba087e5cf6ffe06e2ee597",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d4/d479dd4ca43a3dda6e73b04e14e8c507d98de3d477ba087e5cf6ffe06e2ee597"
+    },
+    "qa/groovy-v2-final-probe.json": {
+      "hash": "ccb16d13462d7bde70c84b81b05bfdbb7fc9cecbbde56724a5adc1ef9dc20e81",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/cc/ccb16d13462d7bde70c84b81b05bfdbb7fc9cecbbde56724a5adc1ef9dc20e81"
+    },
+    "qa/groovy-v2-final-frame-00.jpg": {
+      "hash": "3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+    },
+    "qa/groovy-v2-final-frame-01.jpg": {
+      "hash": "a83d5d88ab61ec7849843ed6e59250c5c8c3b19d82c30b7ba742a5b53ae2e3d3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a8/a83d5d88ab61ec7849843ed6e59250c5c8c3b19d82c30b7ba742a5b53ae2e3d3"
+    },
+    "qa/groovy-v2-final-frame-02.jpg": {
+      "hash": "bc479ce30b5648907a5e0d9591888321ee22d4b6ef1e7845481bfd6f7a7b601b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bc/bc479ce30b5648907a5e0d9591888321ee22d4b6ef1e7845481bfd6f7a7b601b"
+    },
+    "qa/groovy-v2-final-frame-03.jpg": {
+      "hash": "bc479ce30b5648907a5e0d9591888321ee22d4b6ef1e7845481bfd6f7a7b601b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bc/bc479ce30b5648907a5e0d9591888321ee22d4b6ef1e7845481bfd6f7a7b601b"
+    },
+    "qa/groovy-v2-final-frame-04.jpg": {
+      "hash": "3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+    },
+    "qa/groovy-v2-final-frame-05.jpg": {
+      "hash": "d093b9637c7c808b85df5cf1e4f134b3169c4fd995975827a782f6389d14e6c2",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d0/d093b9637c7c808b85df5cf1e4f134b3169c4fd995975827a782f6389d14e6c2"
+    },
+    "qa/groovy-v2-final-frame-06.jpg": {
+      "hash": "0ea99ecc3564789cb6970f22c46b3f750dbc8d0e9ce20d8b00f4652720972860",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0e/0ea99ecc3564789cb6970f22c46b3f750dbc8d0e9ce20d8b00f4652720972860"
+    },
+    "qa/groovy-v2-final-frame-07.jpg": {
+      "hash": "2369052b858e1d544aa31c1f3890a96960581c61f9534bed22d1cf7562c25824",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/2369052b858e1d544aa31c1f3890a96960581c61f9534bed22d1cf7562c25824"
+    },
+    "qa/groovy-v2-final-frame-08.jpg": {
+      "hash": "ed3b35ed46812989049b20536279957e73d14df9e21bb99499f7e4b3f5927afc",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/ed3b35ed46812989049b20536279957e73d14df9e21bb99499f7e4b3f5927afc"
+    },
+    "qa/groovy-v2-final-frame-09.jpg": {
+      "hash": "d410316299a187a7939e24348bc07510d4cb0bce84f22e6645cafef938dadb33",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d4/d410316299a187a7939e24348bc07510d4cb0bce84f22e6645cafef938dadb33"
+    },
+    "qa/groovy-v2-final-frame-10.jpg": {
+      "hash": "5db29312a9556b224d6427c2ddd020625b573fe9b0af15e1b0b316fecc2565f3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5d/5db29312a9556b224d6427c2ddd020625b573fe9b0af15e1b0b316fecc2565f3"
+    },
+    "qa/groovy-v2-final-frame-11.jpg": {
+      "hash": "f571a4b6c2f835b42c69659629dd2b99a1cae553a86b9ae5c4b0e549c4a7033a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f5/f571a4b6c2f835b42c69659629dd2b99a1cae553a86b9ae5c4b0e549c4a7033a"
+    },
+    "qa/groovy-v2-final-frame-12.jpg": {
+      "hash": "edccb56d8ba08c4c4e403fee698457f70486d45bd278f14b52614e664aaa1f53",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/edccb56d8ba08c4c4e403fee698457f70486d45bd278f14b52614e664aaa1f53"
+    },
+    "qa/groovy-v2-final-frame-13.jpg": {
+      "hash": "df01411fed2b6d07303ec55b87370e659594e4312f86c5379307b442dc72a736",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/df/df01411fed2b6d07303ec55b87370e659594e4312f86c5379307b442dc72a736"
+    },
+    "qa/groovy-v2-final-frame-14.jpg": {
+      "hash": "05d5710dee02ba5aa4b407085df1340705689873529ebcae6a529ea4d4c3ee24",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/05/05d5710dee02ba5aa4b407085df1340705689873529ebcae6a529ea4d4c3ee24"
+    },
+    "qa/groovy-v2-final-frame-15.jpg": {
+      "hash": "3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+    },
+    "qa/groovy-v2-final-contact-sheet.jpg": {
+      "hash": "f47bb32599cceddc6b6a7a25b6517c1ba174e17cd729ac8d7f0a6fabd8a7f6c3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f4/f47bb32599cceddc6b6a7a25b6517c1ba174e17cd729ac8d7f0a6fabd8a7f6c3"
+    },
+    "qa/groovy-v2-final-validation.json": {
+      "hash": "398b56ff6e1116f2291b1bc55e782da7cbfad4d3dbf9e93a80c4fe4e082bafb5",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/39/398b56ff6e1116f2291b1bc55e782da7cbfad4d3dbf9e93a80c4fe4e082bafb5"
+    },
+    "qa/timeline-before-v3.json": {
+      "hash": "e944e4f3042e07f837fa62b6539c8968f4232da74700d94405e02cc33f6e044a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e9/e944e4f3042e07f837fa62b6539c8968f4232da74700d94405e02cc33f6e044a"
+    },
+    "revisions/before-fixed-bgm-v3/index.html": {
+      "hash": "97b2cfff1f9a512871e74ac9452caa6469f699e8db8a0291a939f834b1b485e3",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/97/97b2cfff1f9a512871e74ac9452caa6469f699e8db8a0291a939f834b1b485e3"
+    },
+    "revisions/before-fixed-bgm-v3/compositions/intro.html": {
+      "hash": "b020ec59e1018d1086cacea7bfcf055d3e3d7ee3ff1a9bbc0c3ec71219f3d13e",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b020ec59e1018d1086cacea7bfcf055d3e3d7ee3ff1a9bbc0c3ec71219f3d13e"
+    },
+    "revisions/before-fixed-bgm-v3/SPEC.md": {
+      "hash": "9bb740033f347b8b5d10cdb1be13e8d622fb726c1a17d43e23660cb14e9adf75",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/9b/9bb740033f347b8b5d10cdb1be13e8d622fb726c1a17d43e23660cb14e9adf75"
+    },
+    "revisions/before-fixed-bgm-v3/REVIEW.md": {
+      "hash": "67a3840f81aaf17bbcad739ae2983274e4a8ad117b802a81ad66f80627cf65b9",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/67/67a3840f81aaf17bbcad739ae2983274e4a8ad117b802a81ad66f80627cf65b9"
+    },
+    "revisions/before-fixed-bgm-v3/music-edit.json": {
+      "hash": "c0e8820565eada478f0e821a93a10a7ca85bb135eb880e1a120f1656ffccf559",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c0/c0e8820565eada478f0e821a93a10a7ca85bb135eb880e1a120f1656ffccf559"
+    },
+    "assets/fonts/CormorantGaramond-Italic.ttf": {
+      "hash": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0f/0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    "assets/bgm-groovy-fixed-v3.wav": {
+      "hash": "97abd102efff19cb39ea488c9b4f709390a28fb818d9a19e9fa78cdedfa75109",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/97/97abd102efff19cb39ea488c9b4f709390a28fb818d9a19e9fa78cdedfa75109"
+    },
+    "qa/v3-music-gain-check.json": {
+      "hash": "b43bd592c81c91cf42312c68e3bebad525a76f6a6c91eba463023fee34bec29f",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b4/b43bd592c81c91cf42312c68e3bebad525a76f6a6c91eba463023fee34bec29f"
+    },
+    "assets/fonts/CreatorSongti-Light.ttf": {
+      "hash": "def13661f3940c73c288c79ffaf50336763a14822ef12c4a62b37391247b8d62",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/de/def13661f3940c73c288c79ffaf50336763a14822ef12c4a62b37391247b8d62"
+    },
+    "assets/fonts/CormorantGaramond-Regular.ttf": {
+      "hash": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b2/b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    "qa/check-fixed-v3.json": {
+      "hash": "910564e7de5e1b19c54ec5aaea40edbcc2f1aeff42e11c4145eb28cc7f1bfff9",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/91/910564e7de5e1b19c54ec5aaea40edbcc2f1aeff42e11c4145eb28cc7f1bfff9"
+    },
+    "qa/check-fixed-v3.log": {
+      "hash": "28e83b9e8a45e30af3eecc2bb009d39555be71fff20aca08818934ab591fc143",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/28/28e83b9e8a45e30af3eecc2bb009d39555be71fff20aca08818934ab591fc143"
+    },
+    "qa/snapshot-fixed-v3.log": {
+      "hash": "6c1146ebddf77b43cda5b7f211c0705d18766f493d5c502468f9145f30b29b3b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6c/6c1146ebddf77b43cda5b7f211c0705d18766f493d5c502468f9145f30b29b3b"
+    },
+    "qa/render-fixed-v3.log": {
+      "hash": "5b49d67ce0959b86e0a45d692624f1526468a0404d7358cfa103610daecfe67b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5b/5b49d67ce0959b86e0a45d692624f1526468a0404d7358cfa103610daecfe67b"
+    },
+    "assets/fonts/CormorantGaramond-OFL.txt": {
+      "hash": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/60/60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    "qa/v3-master-levels.log": {
+      "hash": "64ab8c109d6a7700f316a6a526bcab95439f3f8630303c3985f162d34542d064",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/64/64ab8c109d6a7700f316a6a526bcab95439f3f8630303c3985f162d34542d064"
+    },
+    "output/本座今日不飞-固定配乐优雅片头版-v3.mp4": {
+      "hash": "f15941394cc9b3b3d79c3282c853eec24dfd173e26dbf4514d6e5fae98ce12cc",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f1/f15941394cc9b3b3d79c3282c853eec24dfd173e26dbf4514d6e5fae98ce12cc"
+    },
+    "qa/v3-final-encode.log": {
+      "hash": "d51fce6c348055aaec8d1a6cfbc9d05d7675923bec2c7e9c1face3a3d1d94ba6",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d5/d51fce6c348055aaec8d1a6cfbc9d05d7675923bec2c7e9c1face3a3d1d94ba6"
+    },
+    "qa/v3-final-levels.log": {
+      "hash": "1534db891e546a189d6b03cc9a48386838ad118bca7bd66169c80ce47ed09d6f",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/15/1534db891e546a189d6b03cc9a48386838ad118bca7bd66169c80ce47ed09d6f"
+    },
+    "qa/v3-final-probe.json": {
+      "hash": "ed2d72fb6a2fd3a1df80e74c91715dde59a4c129ed8e32d525468a5dd897323d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/ed2d72fb6a2fd3a1df80e74c91715dde59a4c129ed8e32d525468a5dd897323d"
+    },
+    "qa/v3-rendered-music-coefficients.json": {
+      "hash": "8ea28721fd5145a03f7579ba972cdfd3b9311dc8e3222a2f795548d0f2599e1b",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8e/8ea28721fd5145a03f7579ba972cdfd3b9311dc8e3222a2f795548d0f2599e1b"
+    },
+    "qa/v3-frame-00.jpg": {
+      "hash": "f3f58c163da1d693975fc0e61b6b7ba0965ed9c37fe1d6cf014021241d95f33a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f3/f3f58c163da1d693975fc0e61b6b7ba0965ed9c37fe1d6cf014021241d95f33a"
+    },
+    "qa/v3-frame-01.jpg": {
+      "hash": "80db0ae546a65c01a449ae8491f2574a22a133231439407912830e5a4dacf7e2",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/80/80db0ae546a65c01a449ae8491f2574a22a133231439407912830e5a4dacf7e2"
+    },
+    "qa/v3-frame-02.jpg": {
+      "hash": "ecb344efc9299184731d4c197adb63ef6ad24a2d0ac8fa8ef63a954bed962130",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ec/ecb344efc9299184731d4c197adb63ef6ad24a2d0ac8fa8ef63a954bed962130"
+    },
+    "qa/v3-frame-03.jpg": {
+      "hash": "8551a2f6fe3a6fcd24a6a308d11f032049d8ba120dbbba779449f462dc505196",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/85/8551a2f6fe3a6fcd24a6a308d11f032049d8ba120dbbba779449f462dc505196"
+    },
+    "qa/v3-frame-04.jpg": {
+      "hash": "1724092479b8eada9bfb6821ab05c575eee0ca4146f3f0d5e97419699414ebb8",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/17/1724092479b8eada9bfb6821ab05c575eee0ca4146f3f0d5e97419699414ebb8"
+    },
+    "qa/v3-frame-05.jpg": {
+      "hash": "f74be6ad5e66349349ab929a4a218e4725a5c0bb90e516d1038a6fe178f209ce",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f7/f74be6ad5e66349349ab929a4a218e4725a5c0bb90e516d1038a6fe178f209ce"
+    },
+    "qa/v3-frame-06.jpg": {
+      "hash": "6c7b2d0cbee7d3b2dbfddda1f93bd564ee90110a904ee60ee29d10248c96024e",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6c/6c7b2d0cbee7d3b2dbfddda1f93bd564ee90110a904ee60ee29d10248c96024e"
+    },
+    "qa/v3-frame-07.jpg": {
+      "hash": "f3f58c163da1d693975fc0e61b6b7ba0965ed9c37fe1d6cf014021241d95f33a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f3/f3f58c163da1d693975fc0e61b6b7ba0965ed9c37fe1d6cf014021241d95f33a"
+    },
+    "qa/v3-final-contact-sheet.jpg": {
+      "hash": "0d7082aa2be809980a2e67caf4e9e8578ec85c9187415c3b98593ce3b835c710",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0d/0d7082aa2be809980a2e67caf4e9e8578ec85c9187415c3b98593ce3b835c710"
+    },
+    "qa/v3-opener.png": {
+      "hash": "ced90365d80d07ec82b581983cc825651e4f753c3d10326adac0964f82ade3cf",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ce/ced90365d80d07ec82b581983cc825651e4f753c3d10326adac0964f82ade3cf"
+    },
+    "qa/v3-final-validation.json": {
+      "hash": "3c507b217893ae84c5fa031695a3521ad43ef461ae5e7db17d677b5a9876b39a",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3c/3c507b217893ae84c5fa031695a3521ad43ef461ae5e7db17d677b5a9876b39a"
+    }
+  },
+  "revisions": {
+    "c8df2ecd-4c51-4f51-a371-f14f48a85352": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904370077,
+      "endedAt": 1794904370123,
+      "files": {
+        "assets/bgm-edited.wav": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6b/6b009c69aab37fe7428ea633466ed9d6524e6f80bb33fd870ae0914378b39e44",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a7/a7eeb678d5b9947e0d7a72b4ca53d830eeddd4372f8f42ce5b10835d14bfe7ae"
+        },
+        "assets/captions.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/9c/9c7bbc421e96f6b1c09fcc61c393663bf6c3ac8de5ea4421cfc41ee38c8a006a",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a2/a2805b97492f53b4a8ec62e3fbb7d6c73b076183a908991bfd62cb8ba688d6de"
+        },
+        "compositions/captions.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f3/f3eedce0c9be290f19fc10002c04832d9474cf2187e55e4a9256fc6ec903cd90",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4c/4c9546827aeec97eb0868465d406cec8adba8947b1ed55f8652897d5baa654f0"
+        },
+        "compositions/credits.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/236bb16182f55093b6bf667c86213de1b45f5f74d25315bd2185a7e43f3f9b5f",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/39/395c0668f94f587a07f738e02bc7e8376362293c4327c57c8cf77096b2211c8b"
+        },
+        "compositions/intro.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/62/6245e0e72214bf6d62597557f14e0b07b1f9e27deba73102f2164f1fe886dc13",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a3/a3ae5954c66afe62ccd66cd8003d3c5299ead08f7796bc261e44019000da4c31"
+        },
+        "index.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/32/3274efe18f36e38cc51538f9b2814060f2170de4e57dfd880f07d46c15353c73",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c7/c7db670a662131c2e14a55175a192fd4db38fd98eb00e142573ce2eb6413290c"
+        },
+        "music-edit.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0c/0c38e7d2609d5225067437f42280ae75dac229ee89e657d289dc79f38c227931",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d7/d7030959282331fe7a9bf8dfccc93d8eac9f0ac9e4200acad9af1e9f9ff72f5e"
+        },
+        "output/本座今日不飞-四段合辑.srt": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d9/d9ccce90b65793f609b5ad7a27a60aeb6127733a3fd8cac96ed927bed920d7d1",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3a/3acc61bf816daa46660f0ad9a58848d2ac99a91c48ae5086e87800c4ed5b95f3"
+        },
+        "qa/hyperframes-check.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4a/4a8f0e5b2e1a322a019b096c694a39cacf2ba5f4aca1126b060b9db555aff2e6"
+        },
+        "qa/music-analysis.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4e/4e5630a0b0eec50d29e4e520eaab1e9fd4c63b4af9e44994a5b129dcdd77b7f2",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8a/8ae497929e149b02d0a97c2fc8473eecb6748b0820b8c3612182f33a087fb72d"
+        },
+        "SPEC.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/7a/7aec50f4ee8c8b2897577fcb4b3693b6e7c27f02f85305d05f12b99526a55651",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/32/32b7a36ad00c7961cbc6859c3afba56a76f58f91365e5840ea0faf458870dd81"
+        }
+      }
+    },
+    "e5fde3d2-bc1c-443f-b7ea-f3d6eb51a404": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904390081,
+      "endedAt": 1794904390095,
+      "files": {
+        "qa/hyperframes-check.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/37/3753b4247d34b53aa859efe53b990aff57e22c886ee30182d991b7c7ba8959ff"
+        },
+        "qa/hyperframes-check.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4a/4a8f0e5b2e1a322a019b096c694a39cacf2ba5f4aca1126b060b9db555aff2e6",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/84/84afa366f63c7e005a672db58d0d229724f4194e0a1755adc6f955eafc35eda3"
+        },
+        "qa/snapshot-review.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/15/15e1aea3d3c73ed7747d87731ce6c5d6ae1695b95d81ebc267a4af1d1fabcab0"
+        }
+      }
+    },
+    "5314a75d-f9f9-4f60-9dca-6a8899df2d6e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904438838,
+      "endedAt": 1794904438888,
+      "files": {
+        "assets/bgm/official-track-metadata.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8e/8ebd2c10b1cadff0b2d0e45ca27bf879f6c66bd1cbc863be6ef66c5534055f0d"
+        },
+        "qa/preview.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "qa/snapshot-details.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/88/8821bf349901cd4dff7ce431bb050041d0f89344597f725dae80e952c2ffd089"
+        },
+        "qa/snapshot-review.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/15/15e1aea3d3c73ed7747d87731ce6c5d6ae1695b95d81ebc267a4af1d1fabcab0",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/1b/1be34181328dd087654bb3a7b05bb7dfa005442263584406d6b50d0eb01a624b"
+        }
+      }
+    },
+    "6b562d38-2b0d-4756-a497-03350bec8b91": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904444437,
+      "endedAt": 1794904444453,
+      "files": {
+        "qa/preview.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fc/fcc312b8ffd8459d1d34f4744a7c668f3e9e0250489ba5552b42e6ec598b5ced"
+        },
+        "qa/snapshot-details.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/88/8821bf349901cd4dff7ce431bb050041d0f89344597f725dae80e952c2ffd089",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f2/f2cead18461852f9721a666e44c29354cb2557169712b374599e7a2427e43dce"
+        }
+      }
+    },
+    "3f400d4c-52b1-49be-b5b5-abfafb112880": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904455374,
+      "endedAt": 1794904457376,
+      "files": {
+        "qa/snapshot-details.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f2/f2cead18461852f9721a666e44c29354cb2557169712b374599e7a2427e43dce",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b09695e0f4c82002bf888a6201257e81664d0e0725bf13dc5b4727f94536ac90"
+        }
+      }
+    },
+    "82630cd8-032e-4e21-9c7e-c91d4149d57f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904487280,
+      "endedAt": 1794904489281,
+      "files": {
+        "qa/render.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    "4044ed7d-d56a-449f-aabc-79b0a3c0a003": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904492326,
+      "endedAt": 1794904492327,
+      "files": {
+        "qa/render.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3b/3bac1b83d0d90590125d7dcaf25e4925e53e5f64179cfd45b0cf367d2729df6b"
+        }
+      }
+    },
+    "423d10ac-cccc-4fa4-9df6-0b11cf6c3617": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904543465,
+      "endedAt": 1794904545488,
+      "files": {
+        "qa/render.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3b/3bac1b83d0d90590125d7dcaf25e4925e53e5f64179cfd45b0cf367d2729df6b",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/56/56bfb7e91f08a831dbdb6ee44fea0d3fb33e2b0c4b590165f47593ec0f41c465"
+        },
+        "REVIEW.md": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4c/4cd3031615373eff4dc3aec53b8d42cc35663ecab4e0f04389c60ba970e7f9f3"
+        }
+      }
+    },
+    "6aefd6c2-92b1-43c4-96d6-c652f072ec08": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904555555,
+      "endedAt": 1794904557556,
+      "files": {
+        "qa/render.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/56/56bfb7e91f08a831dbdb6ee44fea0d3fb33e2b0c4b590165f47593ec0f41c465",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/79/79c1319ec7894652200b7e5b64f22fb658fb8668e36ae3c40def63ab4ad0c9a8"
+        }
+      }
+    },
+    "94df2207-86e8-4df6-9cfb-bb661a7c5254": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904621468,
+      "endedAt": 1794904623474,
+      "files": {
+        "output/本座今日不飞-搞笑配乐字幕版.mp4": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/64/64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b"
+        },
+        "qa/loudness-master.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ca/ca71c0063cfd722c363e6bdbca08b30c35ffd3e1834175c7a1689c1b8926b30a"
+        },
+        "qa/loudness-master.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/eb/ebe14c042cb6863782cb86dc8891c745507156a310fa57ea044ef021f14537ce"
+        }
+      }
+    },
+    "65bda5e6-aad8-49e5-815f-9e8a0c2abd4c": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904624412,
+      "endedAt": 1794904626413,
+      "files": {
+        "output/本座今日不飞-搞笑配乐字幕版.mp4": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/64/64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0f/0f981105c1c4203b7fc8e788c743deeb2e7d277a4ec7b3e845250899110a7071"
+        },
+        "qa/final-encode.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/73/73c3ac9401bfb407f230e8ddfe0309aa094ff57e17c9265cc0a41af093b99991"
+        }
+      }
+    },
+    "9228c86d-05f0-4c3b-853b-049b3edaccb8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904626708,
+      "endedAt": 1794904628718,
+      "files": {
+        "qa/final-probe.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/93/93f34f475cc5867f66aee7292ced723772fa9365d5f91240d6f47968f91418b9"
+        },
+        "qa/loudness-final.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/25/256c4f75afbbeebbf5b18684b7418c85bc2ad0278efd1a783938d3d1ef571013"
+        },
+        "qa/loudness-final.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/78/7852dbfb783596c7276a6274825ce44a05995e9b2c425bde7a2066761e92b03f"
+        }
+      }
+    },
+    "c7abaf71-c8af-41df-94d6-d3c992c3908d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904650035,
+      "endedAt": 1794904652036,
+      "files": {
+        "qa/rendered-speech-transcript.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fa/fa978500570dc2c6ed1964105184e7884572f97604d82005ae3ac7005b00043a"
+        }
+      }
+    },
+    "1bab51aa-1bfd-4d8d-9254-e0f6032e9a9a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904673423,
+      "endedAt": 1794904675724,
+      "files": {
+        "output/本座今日不飞-搞笑配乐字幕版.mp4": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0f/0f981105c1c4203b7fc8e788c743deeb2e7d277a4ec7b3e845250899110a7071",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b6/b6fe5431073cb2006ac2c0b50cb80e91ebfc9e59a830bb9e0c2726d57e4f2467"
+        },
+        "qa/loudness-master.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/eb/ebe14c042cb6863782cb86dc8891c745507156a310fa57ea044ef021f14537ce",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/60/60377a71cc24209621be2a47b0a47a1ceffec951b0e199fa04ced6f9e02588b4"
+        }
+      }
+    },
+    "9c26de6a-5fd6-4f56-b758-ca4f6002766f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904676067,
+      "endedAt": 1794904678069,
+      "files": {
+        "output/本座今日不飞-搞笑配乐字幕版.mp4": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b6/b6fe5431073cb2006ac2c0b50cb80e91ebfc9e59a830bb9e0c2726d57e4f2467",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bc/bc9723400e20dc711abec39b7b68cba4335713c1b4e6eb4e34e3448185f67ef3"
+        },
+        "qa/final-encode.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/73/73c3ac9401bfb407f230e8ddfe0309aa094ff57e17c9265cc0a41af093b99991",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d5/d542159bee18332307b981e74703c0be36f58ef627ca496ca5944648caffdefb"
+        }
+      }
+    },
+    "4dc2ec20-072b-45c8-8d7e-3ebe0c30a0bb": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904678341,
+      "endedAt": 1794904683029,
+      "files": {
+        "qa/final-contact-sheet.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ce/ced36b5b252e5f53669dd19f8d0753e219aa449d213f7cb2d633f1096571cc90"
+        },
+        "qa/final-frame-00.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+        },
+        "qa/final-frame-01.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6e/6e3e357bdf114d9215022299fe0189d6eac657ac6d3fa944431d04b5430a56b8"
+        },
+        "qa/final-frame-02.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/90/90934020a1e38ef2597185b73254caaedbd5ffbb1893adfccb9d5280d92bcd07"
+        },
+        "qa/final-frame-03.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/90/90934020a1e38ef2597185b73254caaedbd5ffbb1893adfccb9d5280d92bcd07"
+        },
+        "qa/final-frame-04.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/63/6366fa36b53a4ebf7fc0c376f2f4bde728a302c4fe2975e36a2a5a5892563da1"
+        },
+        "qa/final-frame-05.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a9/a9f255d82a394d546b2100896849db39c9136215c3531472b9a63e4634bc00ab"
+        },
+        "qa/final-frame-06.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0e/0ea99ecc3564789cb6970f22c46b3f750dbc8d0e9ce20d8b00f4652720972860"
+        },
+        "qa/final-frame-07.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/2369052b858e1d544aa31c1f3890a96960581c61f9534bed22d1cf7562c25824"
+        },
+        "qa/final-frame-08.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/ed3b35ed46812989049b20536279957e73d14df9e21bb99499f7e4b3f5927afc"
+        },
+        "qa/final-frame-09.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d4/d410316299a187a7939e24348bc07510d4cb0bce84f22e6645cafef938dadb33"
+        },
+        "qa/final-frame-10.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5d/5db29312a9556b224d6427c2ddd020625b573fe9b0af15e1b0b316fecc2565f3"
+        },
+        "qa/final-frame-11.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f5/f571a4b6c2f835b42c69659629dd2b99a1cae553a86b9ae5c4b0e549c4a7033a"
+        },
+        "qa/final-frame-12.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/edccb56d8ba08c4c4e403fee698457f70486d45bd278f14b52614e664aaa1f53"
+        },
+        "qa/final-frame-13.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/df/df01411fed2b6d07303ec55b87370e659594e4312f86c5379307b442dc72a736"
+        },
+        "qa/final-frame-14.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/44/44a5a259468e4bfd7ba3690d31f18357c4ba0b285789d615fd349851ca91c647"
+        },
+        "qa/final-frame-15.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+        },
+        "qa/final-probe.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/93/93f34f475cc5867f66aee7292ced723772fa9365d5f91240d6f47968f91418b9",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5d/5ddfd00fc939f1c590bd938d0211343d8217f22f2deae2aa656aaee78d1ef7c1"
+        },
+        "qa/final-validation.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fe/fe9f0d0bc41472bc51ed70e9395f0fffd0c5a25df529b65a12bb8741cc603ed3"
+        },
+        "qa/loudness-final.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/25/256c4f75afbbeebbf5b18684b7418c85bc2ad0278efd1a783938d3d1ef571013",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/24/242c737fa8f44d16c2483bddb3eeb118cbfa4ea51e0fadf295398996b03e0f2e"
+        },
+        "qa/loudness-final.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/78/7852dbfb783596c7276a6274825ce44a05995e9b2c425bde7a2066761e92b03f",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4d/4d27230c1214b502d19bb639343fa21a876e926a96a018bbfe481476147c89c2"
+        },
+        "REVIEW.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4c/4cd3031615373eff4dc3aec53b8d42cc35663ecab4e0f04389c60ba970e7f9f3",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/68/685b77f72b66073abd9b13b1860384b29f0e469389c517bdbd7f7ac9d5c7091b"
+        }
+      }
+    },
+    "d19a3a90-4c21-4a25-8ba3-91255fcb0049": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794904701153,
+      "endedAt": 1794904703154,
+      "files": {
+        "qa/final-validation.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fe/fe9f0d0bc41472bc51ed70e9395f0fffd0c5a25df529b65a12bb8741cc603ed3",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/43/437b58a6b1d08f88cfc67815e63ebbc6314aeb3559a98dabad639c567c3162c2"
+        }
+      }
+    },
+    "324625ba-de48-40b9-826b-30c821b5cb01": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Groovy Hammond与黑屏静音修订",
+      "startedAt": 1794905223598,
+      "endedAt": 1794905477183,
+      "files": {
+        "assets/bgm-groovy-edited.wav": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/1d/1d8045136c48de09b4f4c77dcee9083eba464885e37ae99b3d50e1db30c474d4"
+        },
+        "assets/bgm/Groovy Hammond-Aiert Erkoreka.mp3": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8a/8a27effd592c54523254262c4f23aafa474fce9a1905c9e4e3807e0836943d3e"
+        },
+        "assets/bgm/groovy-source.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/80/807b66eb093227ed323ed966bb5335297c6e77d4cdf908dc5739617a931ad590"
+        },
+        "compositions/captions.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4c/4c9546827aeec97eb0868465d406cec8adba8947b1ed55f8652897d5baa654f0",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/48/481326b847fd6c3303187182d6d0fafd299a963ed8940ac3004bb150d3bdbf15"
+        },
+        "compositions/intro.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a3/a3ae5954c66afe62ccd66cd8003d3c5299ead08f7796bc261e44019000da4c31",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b020ec59e1018d1086cacea7bfcf055d3e3d7ee3ff1a9bbc0c3ec71219f3d13e"
+        },
+        "index.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c7/c7db670a662131c2e14a55175a192fd4db38fd98eb00e142573ce2eb6413290c",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/97/97b2cfff1f9a512871e74ac9452caa6469f699e8db8a0291a939f834b1b485e3"
+        },
+        "music-edit.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d7/d7030959282331fe7a9bf8dfccc93d8eac9f0ac9e4200acad9af1e9f9ff72f5e",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f0/f041f29bf0c8cb32857b080426a74990c12d026a7f44683e13b9b34c76bd61d2"
+        },
+        "output/Groovy-Hammond-曲目信息.txt": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ff/ffe136f11fd6fd4abc63ee3870d3a90e9752edbed0ac82995f2bdf0382402dec"
+        },
+        "qa/check-groovy-v2.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "qa/check-groovy-v2.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c8/c80482439766e402909481e1e18d21cc327b4c07865974092443e6ba0b3ed3cd"
+        },
+        "qa/groovy-netease-search.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b4/b410c8a9797e0435ade29ec565e1c9952fc736a74ae095b8808263bdb1cf1a03"
+        },
+        "qa/timeline-before-groovy.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/28/2851ea6dc9296b1bb4046582dcf0686c9047c4b9cecda0c80bf35ce7ef46cbe8"
+        },
+        "REVIEW.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/68/685b77f72b66073abd9b13b1860384b29f0e469389c517bdbd7f7ac9d5c7091b",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/62/62a754d25d6ccc597ec5d715bd192a7fd2443ef8281359a4543da16908faf220"
+        },
+        "revisions/before-groovy-v2/compositions/credits.html": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/39/395c0668f94f587a07f738e02bc7e8376362293c4327c57c8cf77096b2211c8b"
+        },
+        "revisions/before-groovy-v2/compositions/intro.html": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a3/a3ae5954c66afe62ccd66cd8003d3c5299ead08f7796bc261e44019000da4c31"
+        },
+        "revisions/before-groovy-v2/index.html": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c7/c7db670a662131c2e14a55175a192fd4db38fd98eb00e142573ce2eb6413290c"
+        },
+        "revisions/before-groovy-v2/music-edit.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d7/d7030959282331fe7a9bf8dfccc93d8eac9f0ac9e4200acad9af1e9f9ff72f5e"
+        },
+        "revisions/before-groovy-v2/REVIEW.md": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/68/685b77f72b66073abd9b13b1860384b29f0e469389c517bdbd7f7ac9d5c7091b"
+        },
+        "revisions/before-groovy-v2/SPEC.md": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/32/32b7a36ad00c7961cbc6859c3afba56a76f58f91365e5840ea0faf458870dd81"
+        },
+        "SPEC.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/32/32b7a36ad00c7961cbc6859c3afba56a76f58f91365e5840ea0faf458870dd81",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/9b/9bb740033f347b8b5d10cdb1be13e8d622fb726c1a17d43e23660cb14e9adf75"
+        }
+      }
+    },
+    "e90cc984-c9a2-45ce-9645-dd3c20c4a966": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Groovy Hammond与黑屏静音修订",
+      "startedAt": 1794905223598,
+      "endedAt": 1794905514672,
+      "files": {
+        "qa/check-groovy-v2.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3f5f1b921f3dceb11e5224e352dbb2110ac9a4589f3258d56d65612e19984e58"
+        },
+        "qa/check-groovy-v2.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c8/c80482439766e402909481e1e18d21cc327b4c07865974092443e6ba0b3ed3cd",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/84/84a98ec9b369689479636556ed79538f0d870c2e50cdb23db7e3ed550cd850d4"
+        },
+        "qa/snapshot-groovy-v2.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/2352de069c3a3b321cb2a5b5c529d53ec900f6c6bdeeb13006bba046cf476ae7"
+        }
+      }
+    },
+    "c429ad9b-b9de-4794-80a8-3a9346fe519d": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Groovy Hammond与黑屏静音修订",
+      "startedAt": 1794905223598,
+      "endedAt": 1794905552101,
+      "files": {
+        "assets/bgm-groovy-edited.wav": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/1d/1d8045136c48de09b4f4c77dcee9083eba464885e37ae99b3d50e1db30c474d4",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a6/a62fe7d58c31ccef3789c3b919b729c805e2cd6bc096be5357cb3dedc404d993"
+        },
+        "music-edit.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f0/f041f29bf0c8cb32857b080426a74990c12d026a7f44683e13b9b34c76bd61d2",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c0/c0e8820565eada478f0e821a93a10a7ca85bb135eb880e1a120f1656ffccf559"
+        },
+        "qa/render-groovy-v2.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ad/ad0c0f2bfd01c0e31834edffc44c8080dcc1834e604600ea25a5a1df7e35348b"
+        },
+        "qa/snapshot-groovy-v2.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/2352de069c3a3b321cb2a5b5c529d53ec900f6c6bdeeb13006bba046cf476ae7",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d2/d272c67f95172369b268f3035a9c270b92427014bf650d232642675e8e7d4577"
+        }
+      }
+    },
+    "d3ad6132-3bad-45e9-a248-8e473099005d": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Groovy Hammond与黑屏静音修订",
+      "startedAt": 1794905223598,
+      "endedAt": 1794905822399.8154,
+      "files": {
+        "output/本座今日不飞-Groovy-Hammond版-v2.mp4": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/89/897bb1bd3bbd0cb0347133100060bc6d2cb7ea40c8b077d848516a9e628b2a1c"
+        },
+        "qa/groovy-v2-final-contact-sheet.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f4/f47bb32599cceddc6b6a7a25b6517c1ba174e17cd729ac8d7f0a6fabd8a7f6c3"
+        },
+        "qa/groovy-v2-final-encode.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/66/664432a780f675acd1bf733d7ebfd19010821fcbbcc77605c0a46d9a4ec19daa"
+        },
+        "qa/groovy-v2-final-frame-00.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+        },
+        "qa/groovy-v2-final-frame-01.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a8/a83d5d88ab61ec7849843ed6e59250c5c8c3b19d82c30b7ba742a5b53ae2e3d3"
+        },
+        "qa/groovy-v2-final-frame-02.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bc/bc479ce30b5648907a5e0d9591888321ee22d4b6ef1e7845481bfd6f7a7b601b"
+        },
+        "qa/groovy-v2-final-frame-03.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/bc/bc479ce30b5648907a5e0d9591888321ee22d4b6ef1e7845481bfd6f7a7b601b"
+        },
+        "qa/groovy-v2-final-frame-04.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+        },
+        "qa/groovy-v2-final-frame-05.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d0/d093b9637c7c808b85df5cf1e4f134b3169c4fd995975827a782f6389d14e6c2"
+        },
+        "qa/groovy-v2-final-frame-06.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0e/0ea99ecc3564789cb6970f22c46b3f750dbc8d0e9ce20d8b00f4652720972860"
+        },
+        "qa/groovy-v2-final-frame-07.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/23/2369052b858e1d544aa31c1f3890a96960581c61f9534bed22d1cf7562c25824"
+        },
+        "qa/groovy-v2-final-frame-08.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/ed3b35ed46812989049b20536279957e73d14df9e21bb99499f7e4b3f5927afc"
+        },
+        "qa/groovy-v2-final-frame-09.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d4/d410316299a187a7939e24348bc07510d4cb0bce84f22e6645cafef938dadb33"
+        },
+        "qa/groovy-v2-final-frame-10.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5d/5db29312a9556b224d6427c2ddd020625b573fe9b0af15e1b0b316fecc2565f3"
+        },
+        "qa/groovy-v2-final-frame-11.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f5/f571a4b6c2f835b42c69659629dd2b99a1cae553a86b9ae5c4b0e549c4a7033a"
+        },
+        "qa/groovy-v2-final-frame-12.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/edccb56d8ba08c4c4e403fee698457f70486d45bd278f14b52614e664aaa1f53"
+        },
+        "qa/groovy-v2-final-frame-13.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/df/df01411fed2b6d07303ec55b87370e659594e4312f86c5379307b442dc72a736"
+        },
+        "qa/groovy-v2-final-frame-14.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/05/05d5710dee02ba5aa4b407085df1340705689873529ebcae6a529ea4d4c3ee24"
+        },
+        "qa/groovy-v2-final-frame-15.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3f/3fd276c4468f0dfb7d273156d265cb8a30f2791956f1ed3aff3be853b49513f7"
+        },
+        "qa/groovy-v2-final-probe.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/cc/ccb16d13462d7bde70c84b81b05bfdbb7fc9cecbbde56724a5adc1ef9dc20e81"
+        },
+        "qa/groovy-v2-final-validation.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/39/398b56ff6e1116f2291b1bc55e782da7cbfad4d3dbf9e93a80c4fe4e082bafb5"
+        },
+        "qa/groovy-v2-loudness-final.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d4/d479dd4ca43a3dda6e73b04e14e8c507d98de3d477ba087e5cf6ffe06e2ee597"
+        },
+        "qa/groovy-v2-loudness-final.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b5/b583fd0fe49116825c6635553f8c03240b70eb344cc0f1fc98b585f6736dada0"
+        },
+        "qa/groovy-v2-loudness-master.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b9/b948f78d934ad4a40d6001a98b565430912eb2da83b97b019bbf67295e65faee"
+        },
+        "qa/groovy-v2-loudness-master.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/4a/4a087fafeace43109c646316efc87c7a24aa590bb32e3cee4136644d6f97c7e7"
+        },
+        "qa/render-groovy-v2.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ad/ad0c0f2bfd01c0e31834edffc44c8080dcc1834e604600ea25a5a1df7e35348b",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d1/d13cb4d41d39ab4cc0d6207fdef861ce6614dc9c83810d86fe3db22f3a7fad64"
+        },
+        "REVIEW.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/62/62a754d25d6ccc597ec5d715bd192a7fd2443ef8281359a4543da16908faf220",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/67/67a3840f81aaf17bbcad739ae2983274e4a8ad117b802a81ad66f80627cf65b9"
+        }
+      }
+    },
+    "14b03d95-a5e4-45c8-bd5d-69f9d098de1e": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "固定BGM降低15%与优雅英文片头",
+      "startedAt": 1794906311852,
+      "endedAt": 1794906632711,
+      "files": {
+        "assets/bgm-groovy-fixed-v3.wav": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/97/97abd102efff19cb39ea488c9b4f709390a28fb818d9a19e9fa78cdedfa75109"
+        },
+        "assets/fonts/CormorantGaramond-Italic.ttf": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0f/0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+        },
+        "assets/fonts/CormorantGaramond-Regular.ttf": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b2/b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+        },
+        "assets/fonts/CreatorSongti-Light.ttf": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/de/def13661f3940c73c288c79ffaf50336763a14822ef12c4a62b37391247b8d62"
+        },
+        "compositions/intro.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b020ec59e1018d1086cacea7bfcf055d3e3d7ee3ff1a9bbc0c3ec71219f3d13e",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/72/725e69c75bc62238b5c236be397e56ebeb8cfedd0e131e2f15a819e2e6435a4c"
+        },
+        "index.html": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/97/97b2cfff1f9a512871e74ac9452caa6469f699e8db8a0291a939f834b1b485e3",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f4/f49c1b8a7acb658cc39ccbc6602b405b32d18a41619b2d58ff8cf0b038bdbc18"
+        },
+        "music-edit.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c0/c0e8820565eada478f0e821a93a10a7ca85bb135eb880e1a120f1656ffccf559",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/fc/fc935a20fe3cfe54b73bfc75d0838f93de8fa0bc32beda55d422f718aeeabf72"
+        },
+        "qa/check-fixed-v3.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "qa/check-fixed-v3.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/16/16bbdc45c4dacd05e47a8472577b6ccf135c3d13bf8546eb7a8f6047ad3bbdac"
+        },
+        "qa/timeline-before-v3.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e9/e944e4f3042e07f837fa62b6539c8968f4232da74700d94405e02cc33f6e044a"
+        },
+        "qa/v3-music-gain-check.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b4/b43bd592c81c91cf42312c68e3bebad525a76f6a6c91eba463023fee34bec29f"
+        },
+        "REVIEW.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/67/67a3840f81aaf17bbcad739ae2983274e4a8ad117b802a81ad66f80627cf65b9",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b9/b99e823f448588086b28ce694e02ca3c1e623752b7211a9a9fd32e65c5d8704a"
+        },
+        "revisions/before-fixed-bgm-v3/compositions/intro.html": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b0/b020ec59e1018d1086cacea7bfcf055d3e3d7ee3ff1a9bbc0c3ec71219f3d13e"
+        },
+        "revisions/before-fixed-bgm-v3/index.html": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/97/97b2cfff1f9a512871e74ac9452caa6469f699e8db8a0291a939f834b1b485e3"
+        },
+        "revisions/before-fixed-bgm-v3/music-edit.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/c0/c0e8820565eada478f0e821a93a10a7ca85bb135eb880e1a120f1656ffccf559"
+        },
+        "revisions/before-fixed-bgm-v3/REVIEW.md": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/67/67a3840f81aaf17bbcad739ae2983274e4a8ad117b802a81ad66f80627cf65b9"
+        },
+        "revisions/before-fixed-bgm-v3/SPEC.md": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/9b/9bb740033f347b8b5d10cdb1be13e8d622fb726c1a17d43e23660cb14e9adf75"
+        },
+        "SPEC.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/9b/9bb740033f347b8b5d10cdb1be13e8d622fb726c1a17d43e23660cb14e9adf75",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d6/d6c7532b38f87736ea4f1161a41480b5f922823e0a5162379b6787a66bbeaa88"
+        }
+      }
+    },
+    "f5d22c82-819c-4412-a1a2-6c150d787bcb": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "固定BGM降低15%与优雅英文片头",
+      "startedAt": 1794906311852,
+      "endedAt": 1794906649757,
+      "files": {
+        "qa/check-fixed-v3.json": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/91/910564e7de5e1b19c54ec5aaea40edbcc2f1aeff42e11c4145eb28cc7f1bfff9"
+        },
+        "qa/check-fixed-v3.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/16/16bbdc45c4dacd05e47a8472577b6ccf135c3d13bf8546eb7a8f6047ad3bbdac",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/28/28e83b9e8a45e30af3eecc2bb009d39555be71fff20aca08818934ab591fc143"
+        },
+        "qa/snapshot-fixed-v3.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/af/af248b9957c2d36ddf253e84bc121861dcac9424c984db3a71b77e59aa207030"
+        }
+      }
+    },
+    "4da9d60d-ce0c-44ee-a7a8-5cce50e37c1d": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "固定BGM降低15%与优雅英文片头",
+      "startedAt": 1794906311852,
+      "endedAt": 1794906727346,
+      "files": {
+        "qa/render-fixed-v3.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/80/800e869cc7bb1c37b63b79fbc562dbd092ea90836e22d3295fae17a001b8b8aa"
+        },
+        "qa/snapshot-fixed-v3.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/af/af248b9957c2d36ddf253e84bc121861dcac9424c984db3a71b77e59aa207030",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6c/6c1146ebddf77b43cda5b7f211c0705d18766f493d5c502468f9145f30b29b3b"
+        }
+      }
+    },
+    "a82f3037-4cde-459f-ae6f-c33a8c10e8b8": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "固定BGM降低15%与优雅英文片头",
+      "startedAt": 1794906311852,
+      "endedAt": 1794907083731.0598,
+      "files": {
+        "assets/fonts/CormorantGaramond-OFL.txt": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/60/60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+        },
+        "output/本座今日不飞-固定配乐优雅片头版-v3.mp4": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f1/f15941394cc9b3b3d79c3282c853eec24dfd173e26dbf4514d6e5fae98ce12cc"
+        },
+        "qa/render-fixed-v3.log": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/80/800e869cc7bb1c37b63b79fbc562dbd092ea90836e22d3295fae17a001b8b8aa",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/5b/5b49d67ce0959b86e0a45d692624f1526468a0404d7358cfa103610daecfe67b"
+        },
+        "qa/v3-final-contact-sheet.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/0d/0d7082aa2be809980a2e67caf4e9e8578ec85c9187415c3b98593ce3b835c710"
+        },
+        "qa/v3-final-encode.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/d5/d51fce6c348055aaec8d1a6cfbc9d05d7675923bec2c7e9c1face3a3d1d94ba6"
+        },
+        "qa/v3-final-levels.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/15/1534db891e546a189d6b03cc9a48386838ad118bca7bd66169c80ce47ed09d6f"
+        },
+        "qa/v3-final-probe.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ed/ed2d72fb6a2fd3a1df80e74c91715dde59a4c129ed8e32d525468a5dd897323d"
+        },
+        "qa/v3-final-validation.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/3c/3c507b217893ae84c5fa031695a3521ad43ef461ae5e7db17d677b5a9876b39a"
+        },
+        "qa/v3-frame-00.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f3/f3f58c163da1d693975fc0e61b6b7ba0965ed9c37fe1d6cf014021241d95f33a"
+        },
+        "qa/v3-frame-01.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/80/80db0ae546a65c01a449ae8491f2574a22a133231439407912830e5a4dacf7e2"
+        },
+        "qa/v3-frame-02.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ec/ecb344efc9299184731d4c197adb63ef6ad24a2d0ac8fa8ef63a954bed962130"
+        },
+        "qa/v3-frame-03.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/85/8551a2f6fe3a6fcd24a6a308d11f032049d8ba120dbbba779449f462dc505196"
+        },
+        "qa/v3-frame-04.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/17/1724092479b8eada9bfb6821ab05c575eee0ca4146f3f0d5e97419699414ebb8"
+        },
+        "qa/v3-frame-05.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f7/f74be6ad5e66349349ab929a4a218e4725a5c0bb90e516d1038a6fe178f209ce"
+        },
+        "qa/v3-frame-06.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/6c/6c7b2d0cbee7d3b2dbfddda1f93bd564ee90110a904ee60ee29d10248c96024e"
+        },
+        "qa/v3-frame-07.jpg": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/f3/f3f58c163da1d693975fc0e61b6b7ba0965ed9c37fe1d6cf014021241d95f33a"
+        },
+        "qa/v3-master-levels.log": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/64/64ab8c109d6a7700f316a6a526bcab95439f3f8630303c3985f162d34542d064"
+        },
+        "qa/v3-opener.png": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/ce/ced90365d80d07ec82b581983cc825651e4f753c3d10326adac0964f82ade3cf"
+        },
+        "qa/v3-rendered-music-coefficients.json": {
+          "before": null,
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/8e/8ea28721fd5145a03f7579ba972cdfd3b9311dc8e3222a2f795548d0f2599e1b"
+        },
+        "REVIEW.md": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/b9/b99e823f448588086b28ce694e02ca3c1e623752b7211a9a9fd32e65c5d8704a",
+          "after": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/a8/a8b980090d3fdaba3710e3bcd7d2c4d0465b14f4d7a75cb0b0c11a76fb79a7ae"
+        }
+      }
+    },
+    "1d41c88f-8043-4a13-91cf-3295d6a01261": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794981665999,
+      "endedAt": 1794981668000,
+      "files": {
+        "assets/fonts/PingFang.ttc": {
+          "before": "/Users/kaiyi.wang/.cache/hyperframes/history/82329956-28da-4af0-bf0d-08177bb1baa3/blobs/83/8320b6e1abb8e82da13109ae91d74854fd800a320f62f8b5c038a4a3635dacdc",
+          "after": null
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "065e2073-d401-4551-9861-610debc7108c"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "422e9dea-70cd-445b-830b-8f4eb4bda3b6",
+        "scope": "project",
+        "report": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/checks/422e9dea-70cd-445b-830b-8f4eb4bda3b6.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794904303546,
+        "contentHash": "be9e2a6132a1e5e79170c85d15cf2c27805a53c378080e2ef9b678abdaaa4b5f",
+        "revision": null,
+        "inputFingerprint": "d4480cb274405d00fda9e0a112dcff3d206792f08a068d14e2c5360e3f9f3713",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "a1694650-8c8b-42fe-bcbb-1900e454f185",
+        "scope": "project",
+        "report": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/checks/a1694650-8c8b-42fe-bcbb-1900e454f185.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794904378113,
+        "contentHash": "747a2348846c2f7af827ee0dcf45415fbb0def4abdf70676bb1130d9ade94fb7",
+        "revision": null,
+        "inputFingerprint": "a4c265839ab6436d9047242904e3e4f8d0b323accde2bf1b75c79b3027f2a951",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "f9c14ea7-2da8-4249-a77c-15c911e32c82",
+        "scope": "project",
+        "report": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/checks/f9c14ea7-2da8-4249-a77c-15c911e32c82.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794905485912,
+        "contentHash": "af1f9c063e758ee0eac75f6cfb4b2a49e8f52aefdb832980fae1974e4626a0c7",
+        "revision": null,
+        "inputFingerprint": "b198c52391b0224e2fbb37196b748d9405ed3487355b7abbe3ac0ab7b95da624",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "065e2073-d401-4551-9861-610debc7108c",
+        "scope": "project",
+        "report": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/checks/065e2073-d401-4551-9861-610debc7108c.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794906645299,
+        "contentHash": "4790bdb257eaaae70ab3a7ae6e0ffc783aa3f11ed177aa7bf2d63e73e1a148d6",
+        "revision": null,
+        "inputFingerprint": "dc8f6e78bb549b13b7f65a6c789d6d254255aa7cac0679f8e12c11cbeb59c820",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-6"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-0",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/beat-01-at-0.3s.png",
+        "time": 0.3,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "intro"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "96b8917b5dc3a4f2d7bbe902c064dad1ecf48c52c0e323618227b1e769440b15",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-1",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/beat-02-at-1.05s.png",
+        "time": 1.05,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "intro mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "96b8917b5dc3a4f2d7bbe902c064dad1ecf48c52c0e323618227b1e769440b15",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-2",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/beat-03-at-2.4s.png",
+        "time": 2.4,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "story-picture"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "b5c12d21710c3d7c349fc9d1f9e899d7c4cbec60383d5d21d72e1c5a00e51074",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-3",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/beat-04-at-32.3s.png",
+        "time": 32.3,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "story-picture mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "93238287ef5dffa9be6b9f2f7c3b76e3f9219cf2e373f198435faa2b6bdc503e",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-4",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/beat-05-at-62.8s.png",
+        "time": 62.8,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "credits"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "9fce648d7ad2c091dff2e921b059ef9952c30906ef504aee19f9ad8f7a19e2b1",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-5",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/beat-06-at-64s.png",
+        "time": 64,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "credits mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "9fce648d7ad2c091dff2e921b059ef9952c30906ef504aee19f9ad8f7a19e2b1",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-6",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-01-1-at-1.9s.png",
+        "time": 1.9,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "5525ff7675784e42508d236ef6f30db7b432272767ce95d3fb1433c74b408c02",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-7",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-01-2-at-2s.png",
+        "time": 2,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "8dbb5bbf17eea968f41667c9100e84e1c954d71dfd6f136e920f200b8a376a2e",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-8",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-01-3-at-2.1s.png",
+        "time": 2.1,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut intro -> story-picture"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "7a5175f59992a07616d58b06a310b2a3909c43df6d406a736ef54995563a09ed",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-9",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-01-4-at-2.2s.png",
+        "time": 2.2,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400049,
+        "contentHash": "fe452effc2878fca4daddea451678d20c907ad56fdc0bdba3d06bfab342f87bf",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-10",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-01-5-at-2.3s.png",
+        "time": 2.3,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400050,
+        "contentHash": "a9b4d1cf150d6b3fe8b0864078b85eb035b3eacf329449f8371cdcb367d8f7ed",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-11",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-02-1-at-62.3s.png",
+        "time": 62.3,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400050,
+        "contentHash": "abc527fb29694ebbaf2afff5a052e08dd7a0cde3c28a1d6300a5e1bbad8be59c",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-12",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-02-2-at-62.4s.png",
+        "time": 62.4,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400050,
+        "contentHash": "ef3f7c58ad9c0be8be93d6cd0cac4e43b4692b65d76f0412429af16c9e9e3d45",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-13",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-02-3-at-62.5s.png",
+        "time": 62.5,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut story-picture -> credits"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400050,
+        "contentHash": "7a5175f59992a07616d58b06a310b2a3909c43df6d406a736ef54995563a09ed",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-14",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-02-4-at-62.6s.png",
+        "time": 62.6,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400050,
+        "contentHash": "74417110c7b6f03bb60a48f3f439847f64c7da98f10028e54ad18df09406ab56",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bb87144d-95a9-4fbd-bc3d-8be21c017651-15",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/29181584-3dd7-49c8-8dfa-fd6425aa13e4/seam-02-5-at-62.7s.png",
+        "time": 62.7,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904400050,
+        "contentHash": "0876b0ca95e112835bc77eacdcc18c4f16276e8f4f353cc5d94c31cbe540b9e8",
+        "revision": null,
+        "inputFingerprint": "6ac7fb03cd6d3452d4ccb52a3f35f369ea95174d1f214fd72eee45634f043b02",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-0",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-00-at-20.3s.png",
+        "time": 20.3,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454408,
+        "contentHash": "18de92920a876a49fe71427945b776d5adf41bdf1d60573da7d9d4fcd9c0be14",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-1",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-01-at-23.1s.png",
+        "time": 23.1,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454409,
+        "contentHash": "9f798529547ca07fee7b2c8c54d059a3cf5a21b7bd954f62560e477da4dcba60",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-2",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-02-at-26.6s.png",
+        "time": 26.6,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454409,
+        "contentHash": "fce9ca8cf505d6788788427a63a16d0cc123bac035a731a09f9ecb1a1875048a",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-3",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-03-at-33.7s.png",
+        "time": 33.7,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454409,
+        "contentHash": "d1c9b87f4c6d1377859bbf2f1f9510a09aed296622f7887fde2782c1c883b316",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-4",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-04-at-50.5s.png",
+        "time": 50.5,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454410,
+        "contentHash": "11855c79e6487afaa67ee39118638fb82bb2d76f3d5da19c4eba56261a171123",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-5",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-05-at-59.9s.png",
+        "time": 59.9,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454410,
+        "contentHash": "ec7da42617079df671255942b0caa5149f02b309c411d89eb1ef408d813b6f75",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-6",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-06-at-65.467s.png",
+        "time": 65.466667,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454410,
+        "contentHash": "7a5175f59992a07616d58b06a310b2a3909c43df6d406a736ef54995563a09ed",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "90f5c6a0-9fac-45aa-b376-0200e5c4a6ed-7",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/97b38d78-8a02-49f9-a024-6a5247e518d3/frame-07-at-65.25s.png",
+        "time": 65.25,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794904454411,
+        "contentHash": "add22f08887ba492697bef894dd38998c3aeda7481f05a373a3f029d74613a55",
+        "revision": null,
+        "inputFingerprint": "656d4785c78f454468bb317c9116572bbb5453207bd8221cf4a2a3f0d75e968e",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-0",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-00-at-0.15s.png",
+        "time": 0.15,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523060,
+        "contentHash": "4c7313f6877fdbd4960e37977511015a2d4fdf1d3a83639e1091a5c6d3c08394",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-1",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-01-at-0.6s.png",
+        "time": 0.6,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523060,
+        "contentHash": "ea2c287958538f7e20b940303b9129ec39b39f62626e2e2f033415e32a05208b",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-2",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-02-at-1.8s.png",
+        "time": 1.8,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523060,
+        "contentHash": "ea2c287958538f7e20b940303b9129ec39b39f62626e2e2f033415e32a05208b",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-3",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-03-at-2.1s.png",
+        "time": 2.1,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523060,
+        "contentHash": "7a5175f59992a07616d58b06a310b2a3909c43df6d406a736ef54995563a09ed",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-4",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-04-at-2.4s.png",
+        "time": 2.4,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523061,
+        "contentHash": "b5c12d21710c3d7c349fc9d1f9e899d7c4cbec60383d5d21d72e1c5a00e51074",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-5",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-05-at-62.167s.png",
+        "time": 62.166667,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523061,
+        "contentHash": "53982d70ccb2b19df203955e2786e30b4815c492098df320d01360e5ee77945a",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-6",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-06-at-62.333s.png",
+        "time": 62.333333,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523061,
+        "contentHash": "18af6560144c2dd34075c2acd0d8328eae432703118e2331339a7c3a0d486a7a",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-7",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-07-at-62.467s.png",
+        "time": 62.466667,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523061,
+        "contentHash": "7a5175f59992a07616d58b06a310b2a3909c43df6d406a736ef54995563a09ed",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bf898a4f-ad7e-443b-a12b-65470fc36fb7-8",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/3df9d109-4f80-4280-bc3b-cef7c7624d4e/frame-08-at-62.25s.png",
+        "time": 62.25,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794905523061,
+        "contentHash": "d61915c46fa5b1ddc36c8e5e7b6bff65ecdf87866b236eef357120574779ae50",
+        "revision": null,
+        "inputFingerprint": "516d7fab65cec082a56f6cafd2061d01a05be0ec0a72baa5dc985a7f8eb3da9b",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-0",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-00-at-0.15s.png",
+        "time": 0.15,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656080,
+        "contentHash": "5a6cfc505f34cdb1cecf93fe79916bc0fa60e2c7d02c7215de141170a925aca3",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-1",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-01-at-0.4s.png",
+        "time": 0.4,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656080,
+        "contentHash": "1dd203c898360d716c58cb6fe9f81cdaa9fc894897ebb6b0d440524fff42b83f",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-2",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-02-at-0.9s.png",
+        "time": 0.9,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656080,
+        "contentHash": "1dd203c898360d716c58cb6fe9f81cdaa9fc894897ebb6b0d440524fff42b83f",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-3",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-03-at-1.7s.png",
+        "time": 1.7,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656081,
+        "contentHash": "1dd203c898360d716c58cb6fe9f81cdaa9fc894897ebb6b0d440524fff42b83f",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-4",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-04-at-2s.png",
+        "time": 2,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656081,
+        "contentHash": "4e33fe6a03334c5e9ff0bcb12002f5087b135b782bace9b234c834b311f31859",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-5",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-05-at-2.4s.png",
+        "time": 2.4,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656081,
+        "contentHash": "b5c12d21710c3d7c349fc9d1f9e899d7c4cbec60383d5d21d72e1c5a00e51074",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "bea98a7f-0b9e-438c-a653-0a6aee4ceec4-6",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/snapshots/17de9c64-f986-4c01-b894-94089f263f17/frame-06-at-62.25s.png",
+        "time": 62.25,
+        "metadata": {
+          "width": 1280,
+          "height": 720,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794906656081,
+        "contentHash": "d61915c46fa5b1ddc36c8e5e7b6bff65ecdf87866b236eef357120574779ae50",
+        "revision": null,
+        "inputFingerprint": "5f6a4b84bd643b13533e58b72321ba9305a7456b58dbf37f4e4c146f0ec7b644",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "50c0256d-eecd-4ea7-b915-f42d3a64db12",
+      "completedAt": 1794906809703,
+      "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/fixed-v3-master.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,1 @@
+本段首尾帧、人物与场景参考已实际保存。默认按reference-manifest.json的inputs顺序选五图，auxiliary仅辅助查阅。人物参考板中的多视图不作为成片布局。

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "version": "v1",
+  "scope": "EP002文字与已有角色输入，声音时长待制作实测",
+  "duration_seconds": 60,
+  "segments": 4,
+  "shots": 20,
+  "per_segment": [
+    {
+      "segment": "segment_01_00-15s",
+      "shots": 5,
+      "voice_spans": 6,
+      "actual_character_references": 6,
+      "missing_character_references": [],
+      "planned_story_keyframes": 2
+    },
+    {
+      "segment": "segment_02_15-30s",
+      "shots": 5,
+      "voice_spans": 5,
+      "actual_character_references": 6,
+      "missing_character_references": [
+        "C07"
+      ],
+      "planned_story_keyframes": 2
+    },
+    {
+      "segment": "segment_03_30-45s",
+      "shots": 5,
+      "voice_spans": 4,
+      "actual_character_references": 6,
+      "missing_character_references": [
+        "C07"
+      ],
+      "planned_story_keyframes": 2
+    },
+    {
+      "segment": "segment_04_45-60s",
+      "shots": 5,
+      "voice_spans": 5,
+      "actual_character_references": 6,
+      "missing_character_references": [
+        "C07"
+      ],
+      "planned_story_keyframes": 2
+    }
+  ],
+  "maximum_planned_chinese_characters_per_second": 4.48,
+  "semantic_review": "qa-checklist.md，L01–L06与S01–S06逐句审读PASS",
+  "new_character_reference_status": "C07待生成",
+  "story_keyframes_generated": false,
+  "audio_generated": false,
+  "video_generated": false
+}

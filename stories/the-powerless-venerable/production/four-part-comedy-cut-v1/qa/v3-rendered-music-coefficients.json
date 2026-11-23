@@ -1,0 +1,68 @@
+{
+  "codec_alignment_samples": 0,
+  "windows": [
+    {
+      "seconds": 4,
+      "voice_coefficient": 0.99893,
+      "music_coefficient": 0.2365
+    },
+    {
+      "seconds": 9,
+      "voice_coefficient": 0.99699,
+      "music_coefficient": 0.23699
+    },
+    {
+      "seconds": 14,
+      "voice_coefficient": 0.99536,
+      "music_coefficient": 0.23787
+    },
+    {
+      "seconds": 19,
+      "voice_coefficient": 0.99631,
+      "music_coefficient": 0.23585
+    },
+    {
+      "seconds": 24,
+      "voice_coefficient": 0.98303,
+      "music_coefficient": 0.23645
+    },
+    {
+      "seconds": 29,
+      "voice_coefficient": 0.9917,
+      "music_coefficient": 0.23592
+    },
+    {
+      "seconds": 34,
+      "voice_coefficient": 1.00436,
+      "music_coefficient": 0.23635
+    },
+    {
+      "seconds": 39,
+      "voice_coefficient": 0.99205,
+      "music_coefficient": 0.23644
+    },
+    {
+      "seconds": 44,
+      "voice_coefficient": 0.99377,
+      "music_coefficient": 0.23514
+    },
+    {
+      "seconds": 49,
+      "voice_coefficient": 0.99348,
+      "music_coefficient": 0.23618
+    },
+    {
+      "seconds": 54,
+      "voice_coefficient": 0.97183,
+      "music_coefficient": 0.23655
+    },
+    {
+      "seconds": 59,
+      "voice_coefficient": 0.99813,
+      "music_coefficient": 0.23656
+    }
+  ],
+  "music_coefficient_min": 0.23514,
+  "music_coefficient_max": 0.23787,
+  "target_coefficient": 0.238
+}

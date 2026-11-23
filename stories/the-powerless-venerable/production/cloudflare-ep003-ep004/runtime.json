@@ -1,0 +1,61 @@
+{
+  "origin": "http://127.0.0.1:64995",
+  "origin_pid": 10958,
+  "tunnel_pid": 10965,
+  "mode": "temporary Cloudflare Quick Tunnel",
+  "public_index": "https://developing-gen-music-gay.trycloudflare.com/",
+  "episodes": [
+    {
+      "page": "https://developing-gen-music-gay.trycloudflare.com/ep003.html",
+      "file": "https://developing-gen-music-gay.trycloudflare.com/ep003.mp4",
+      "bytes": 206100472,
+      "verified_ranges": [
+        {
+          "status": 206,
+          "start": 0,
+          "end": 16383,
+          "byte_match": true
+        },
+        {
+          "status": 206,
+          "start": 103050236,
+          "end": 103066619,
+          "byte_match": true
+        },
+        {
+          "status": 206,
+          "start": 206084088,
+          "end": 206100471,
+          "byte_match": true
+        }
+      ],
+      "page_status": 200
+    },
+    {
+      "page": "https://developing-gen-music-gay.trycloudflare.com/ep004.html",
+      "file": "https://developing-gen-music-gay.trycloudflare.com/ep004.mp4",
+      "bytes": 206681253,
+      "verified_ranges": [
+        {
+          "status": 206,
+          "start": 0,
+          "end": 16383,
+          "byte_match": true
+        },
+        {
+          "status": 206,
+          "start": 103340626,
+          "end": 103357009,
+          "byte_match": true
+        },
+        {
+          "status": 206,
+          "start": 206664869,
+          "end": 206681252,
+          "byte_match": true
+        }
+      ],
+      "page_status": 200
+    }
+  ]
+}

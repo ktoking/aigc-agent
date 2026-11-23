@@ -1,0 +1,16 @@
+{
+  "id": "S02_LAST",
+  "path": "episodes/EP001_no-more-chasing/segment_01_00-30s/frames/last-frame.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-ae067108-2922-4034-9191-6a61fc82c9e0.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 female identity and ivory pajamas, image2 bedroom, image3 navy box design. End of refusing攻略: one SAME woman seated on edge of bed, upright calm decided expression, her RIGHT hand rests lightly on top of ONE CLOSED navy velvet ring box on bedside cabinet beside her; ring has been placed INSIDE, lid fully closed, no ring visible outside box. Her LEFT hand lies naturally on her ivory trouser lap with visibly BARE ring finger. Medium close portrait includes face, both hands and small box, golden daylight, room dry clean. System panels faded away, no text, no men. Exactly one box, no loose ring.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "episodes/EP001_no-more-chasing/segment_02_15-30s/frames/last-frame.png",
+  "repackaged_from": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/last-frame.png",
+  "pack_version": "segments-30s-v1"
+}

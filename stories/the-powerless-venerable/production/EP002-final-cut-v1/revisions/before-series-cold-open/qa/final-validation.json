@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "name": "complete video and audio decode",
+      "status": "PASS"
+    },
+    {
+      "name": "4K H264 at 30fps and 1875 frames",
+      "status": "PASS"
+    },
+    {
+      "name": "AAC stereo at 48kHz",
+      "status": "PASS"
+    },
+    {
+      "name": "duration 62.5s",
+      "status": "PASS"
+    },
+    {
+      "name": "all subtitles ordered and within their source segment",
+      "status": "PASS"
+    },
+    {
+      "name": "pure black first, first story, and last frames after decode",
+      "status": "PASS"
+    },
+    {
+      "name": "silent opener and negligible AAC tail leakage",
+      "status": "PASS"
+    },
+    {
+      "name": "effective BGM gain matches 0.119",
+      "status": "PASS"
+    },
+    {
+      "name": "final true peak under -1 dBTP",
+      "status": "PASS"
+    }
+  ],
+  "technical": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "30/1",
+        "nb_frames": "1875"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "nb_frames": "2931"
+      }
+    ],
+    "format": {
+      "duration": "62.500000",
+      "size": "190384809"
+    }
+  },
+  "source_order": [
+    "EP002第01段《尊者皱眉了》视频制作.mp4",
+    "EP002第01段《尊者皱眉了》视频制作 (1).mp4",
+    "老宗师先赔了罪.mp4",
+    "老宗师先赔了罪 (1).mp4"
+  ],
+  "subtitle_count": 24,
+  "subtitle_method": "actual speech ASR timestamps, reviewed against episode dialogue",
+  "bgm": "Groovy Hammond",
+  "bgm_gain_recovered": 0.11868581658237719,
+  "bgm_loop_joins": [],
+  "intro_peak": 0.0,
+  "final_black_tail_rms": 2.8347625402602716e-07,
+  "final_true_peak_dbtp": -2.3,
+  "sha256": "2920585329126d9823a9010c45a32da1ff6e311c0daa56b93033464fab454b33",
+  "full_human_audio_listening": "not performed"
+}

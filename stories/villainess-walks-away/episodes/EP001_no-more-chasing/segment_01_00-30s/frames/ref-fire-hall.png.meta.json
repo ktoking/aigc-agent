@@ -1,0 +1,14 @@
+{
+  "id": "FIRE",
+  "path": "episodes/EP001_no-more-chasing/segment_01_00-30s/frames/ref-fire-hall.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-0db27ab7-450b-4084-bb0f-907dc1c2e245.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 only STYLE quality, DO NOT include the man. One single empty luxury birthday banquet hall environment, landscape16:9, night interior, modern Chinese wealthy hotel, restrained ivory tables, dark walnut door at rear partly obscured by light gray smoke, warm small amber wall lights. SMALL localized orange flames on a fallen cream tablecloth at bottom left, no bodies, no gore, no destruction spectacle, no wet floor. Scene is a recalled dangerous birthday event, recognizable coherent hotel hall, spatially clear exit, dramatic warm rim lighting, large clean shapes, not full screen smoke, no text, no guests.",
+  "mode": "built-in imagegen",
+  "status": "generated",
+  "original_generated_path": "assets/scenes/FIRE/reference-v1.png",
+  "repackaged_from": "assets/scenes/FIRE/reference-v1.png",
+  "pack_version": "segments-30s-v1"
+}

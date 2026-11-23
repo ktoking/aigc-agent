@@ -1,0 +1,48 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/fixed-v3-master.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Duration: 00:01:02.50, start: 0.000000, bitrate: 7562 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 7366 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 188 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/本座今日不飞-固定配乐优雅片头版-v3.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    comment         : AI-generated source footage. Groovy Hammond by Aiert Erkoreka. Fixed BGM channel gain 0.238.
+    title           : 本座今日不飞 · 固定配乐优雅片头版
+    artist          : 西瓜终结者AIGC
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 7366 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.11.100 aac
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+frame= 1268 fps=0.0 q=-1.0 size=   33536KiB time=00:00:41.64 bitrate=6597.3kbits/s speed=82.7x elapsed=0:00:00.50    
+[mp4 @ 0x154e04700] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x154e045f0] video:56205KiB audio:1910KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.093568%
+frame= 1875 fps=0.0 q=-1.0 Lsize=   58169KiB time=00:01:02.50 bitrate=7624.4kbits/s speed=82.4x elapsed=0:00:00.75    
+[aac @ 0x154e062e0] Qavg: 3441.829

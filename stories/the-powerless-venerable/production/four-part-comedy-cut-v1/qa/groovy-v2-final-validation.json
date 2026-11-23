@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/本座今日不飞-Groovy-Hammond版-v2.mp4",
+  "bytes": 59554116,
+  "sha256": "897bb1bd3bbd0cb0347133100060bc6d2cb7ea40c8b077d848516a9e628b2a1c",
+  "duration_seconds": 62.5,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "frames": 1875,
+  "captions": 36,
+  "dissolve_seconds": 0.2,
+  "picture_fade_seconds": 0.3,
+  "bgm_fade_seconds": 0.3,
+  "integrated_lufs": -15.88,
+  "true_peak_dbtp": -1.92,
+  "full_decode": "PASS",
+  "first_and_last_frame": "BLACK",
+  "input_files_unchanged": true,
+  "sampled_frames": [
+    {
+      "seconds": 0,
+      "mean_rgb": 0.0,
+      "max_rgb": 0
+    },
+    {
+      "seconds": 0.15,
+      "mean_rgb": 0.51,
+      "max_rgb": 134
+    },
+    {
+      "seconds": 0.6,
+      "mean_rgb": 0.912,
+      "max_rgb": 242
+    },
+    {
+      "seconds": 1.8,
+      "mean_rgb": 0.912,
+      "max_rgb": 242
+    },
+    {
+      "seconds": 2.1,
+      "mean_rgb": 0.0,
+      "max_rgb": 0
+    },
+    {
+      "seconds": 2.4,
+      "mean_rgb": 113.776,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 17.3,
+      "mean_rgb": 107.293,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 20.3,
+      "mean_rgb": 128.887,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 26.6,
+      "mean_rgb": 135.443,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 32.4,
+      "mean_rgb": 104.136,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 39.7,
+      "mean_rgb": 107.277,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 47.5,
+      "mean_rgb": 100.524,
+      "max_rgb": 221
+    },
+    {
+      "seconds": 50.5,
+      "mean_rgb": 103.088,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 60.3,
+      "mean_rgb": 97.934,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 62.333333,
+      "mean_rgb": 34.808,
+      "max_rgb": 117
+    },
+    {
+      "seconds": 62.466667,
+      "mean_rgb": 0.0,
+      "max_rgb": 0
+    }
+  ],
+  "audio_review": "转写与响度测量，未经人工试听",
+  "decoded_pcm_seconds_before_silence_padding": 62.42133333333334,
+  "tail_measurement_note": "AAC解码流末尾按播放器行为补静音至容器结束时间",
+  "opening_black_rms_dbfs": -240.0,
+  "last_black_frame_rms_dbfs": -240.0,
+  "intro_text": "Create By 西瓜终结者AIGC",
+  "ending_text": "NONE",
+  "bgm": "Groovy Hammond — Aiert Erkoreka",
+  "decoded_frame_visual_review": "PASS",
+  "opening_and_ending_audio": "PASS"
+}

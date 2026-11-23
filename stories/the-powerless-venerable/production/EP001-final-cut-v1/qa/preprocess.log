@@ -1,0 +1,183 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-01.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0369cg10004dbu1d727dld1144qso5g
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "10d68b6d-853c-4fa4-b27e-dde672507dae", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 9078 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 8973 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-02.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0d69cg10004dbu1d9i7dld7nbbo2ct0
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "9c673115-0383-4f3a-a407-c41f5be54da8", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 9744 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 9641 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #2, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-03.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0369cg10004dbu1eaq7dld64cem7cgg
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "86379b38-88a6-4a2a-bc9d-3ccf7096b9fc", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 11772 kb/s
+  Stream #2:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 11676 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #3, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-04.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0369cg10004dbu1e2i7dld1n0regnlg
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "a5fc841f-05ff-4abf-a84b-8e8372e276e3", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 14351 kb/s
+  Stream #3:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 14264 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #3:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #4, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-05.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0269cg10004dbu1ds27dld0sbdeg9r0
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "9561d2f6-dcfe-4928-b652-a5610aa1f6b2", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 11349 kb/s
+  Stream #4:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 11252 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #4:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #5, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-06.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0369cg10004dbu1e3i7dld28coqs8fg
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "89a56c23-8708-4c22-bac0-85db1cebd343", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 12565 kb/s
+  Stream #5:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 12472 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #5:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #6, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-08.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0269cg10004dbu1j8i7dld0rlk56800
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "ca812395-e0ed-4c09-99ba-0c3838dff455", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 11091 kb/s
+  Stream #6:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 10993 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #6:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #7, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/source/input-07.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0d69cg10004dbu1em27dlda58q728dg
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "e6736033-4429-403c-a431-cdbadb6cd190", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 16574 kb/s
+  Stream #7:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 16494 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #7:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 (h264) -> fps:default
+  Stream #0:1 (aac) -> aresample:default
+  Stream #1:0 (h264) -> fps:default
+  Stream #1:1 (aac) -> aresample:default
+  Stream #2:0 (h264) -> fps:default
+  Stream #2:1 (aac) -> aresample:default
+  Stream #3:0 (h264) -> fps:default
+  Stream #3:1 (aac) -> aresample:default
+  Stream #4:0 (h264) -> fps:default
+  Stream #4:1 (aac) -> aresample:default
+  Stream #5:0 (h264) -> fps:default
+  Stream #5:1 (aac) -> aresample:default
+  Stream #6:0 (h264) -> fps:default
+  Stream #6:1 (aac) -> aresample:default
+  Stream #7:0 (h264) -> delogo:default
+  Stream #7:1 (aac) -> aresample:default
+  trim:default -> Stream #0:0 (h264_videotoolbox)
+  aresample:default -> Stream #1:0 (pcm_f32le)
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/story-dissolved-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0369cg10004dbu1d727dld1144qso5g
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "10d68b6d-853c-4fa4-b27e-dde672507dae", "ReservedCode1": ""}
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 24000 kb/s, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 h264_videotoolbox
+[h264_videotoolbox @ 0x15a90c110] Color range not set for yuv420p. Using MPEG range.
+Output #1, wav, to '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/dialogue.wav':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    ICMT            : vid:v0369cg10004dbu1d727dld1144qso5g
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "10d68b6d-853c-4fa4-b27e-dde672507dae", "ReservedCode1": ""}
+    ISFT            : Lavf62.3.100
+  Stream #1:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_f32le
+[mp4 @ 0x159e128c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x159e127b0] video:355142KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.005904%
+[out#1/wav @ 0x159e13190] video:0KiB audio:45300KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000297%
+frame= 3624 fps= 29 q=-0.0 Lsize=  355163KiB time=00:02:00.76 bitrate=24091.9kbits/s speed=0.971x elapsed=0:02:04.35    

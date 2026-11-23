@@ -1,0 +1,98 @@
+ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.6)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0.1_4 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/story-dissolved-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+    comment         : vid:v0269cg10004dbu14fq7dld8v2dhe0ug
+  Duration: 00:01:00.40, start: 0.000000, bitrate: 24114 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160, 24112 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 h264_videotoolbox
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/creator-intro-4k.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Duration: 00:00:02.10, start: 0.000000, bitrate: 410 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 405 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+Input #2, concat, from 'assets/captions.ffconcat':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #2:0: Video: png, rgba(pc, gbr/unknown/unknown), 3840x2160, 30 fps, 30 tbr, 30 tbn
+[aist#3:0/pcm_f32le @ 0x11e106010] Guessed Channel Layout: stereo
+Input #3, wav, from 'assets/dialogue.wav':
+  Metadata:
+    comment         : vid:v0269cg10004dbu14fq7dld8v2dhe0ug
+    encoder         : Lavf62.3.100
+  Duration: 00:01:00.40, bitrate: 3072 kb/s
+  Stream #3:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+[aist#4:0/pcm_f32le @ 0x11e408000] Guessed Channel Layout: stereo
+Input #4, wav, from 'assets/bgm-loop.wav':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Duration: 00:01:00.40, bitrate: 3072 kb/s
+  Stream #4:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+Input #5, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/branding/series-cold-open/EP001_穿越自述_4K.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+  Duration: 00:00:05.30, start: 0.000000, bitrate: 22711 kb/s
+  Stream #5:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160, 22451 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 h264_videotoolbox
+  Stream #5:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 249 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 (h264) -> settb:default
+  Stream #1:0 (h264) -> fps:default
+  Stream #2:0 (png) -> fps:default
+  Stream #3:0 (pcm_f32le) -> aformat:default
+  Stream #4:0 (pcm_f32le) -> volume:default
+  Stream #5:0 (h264) -> fps:default
+  Stream #5:1 (aac) -> aresample:default
+  format:default -> Stream #0:0 (h264_videotoolbox)
+  concat:out:a0 -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[swscaler @ 0x130110000] No accelerated colorspace conversion found from yuv420p to rgba.
+[swscaler @ 0x130110000] [swscaler @ 0x142618000] No accelerated colorspace conversion found from yuv420p to rgba.
+[swscaler @ 0x130110000] [swscaler @ 0x142628000] No accelerated colorspace conversion found from yuv420p to rgba.
+Output #0, mp4, to '/private/tmp/powerless-series-hook/EP002_署名后接穿越自述_4K.mp4':
+  Metadata:
+    title           : 本座今日不飞 第二集 本座只是皱了个眉
+    artist          : 西瓜终结者AIGC
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 24000 kb/s, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 h264_videotoolbox
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 aac
+[mp4 @ 0x11e5076f0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x11e5075e0] video:199470KiB audio:2048KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.029419%
+frame= 2034 fps= 37 q=-0.0 Lsize=  201576KiB time=00:01:07.76 bitrate=24367.6kbits/s speed=1.23x elapsed=0:00:54.92    
+[aac @ 0x11e509cf0] Qavg: 3767.686

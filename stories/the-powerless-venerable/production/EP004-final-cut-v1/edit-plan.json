@@ -1,0 +1,88 @@
+{
+  "episode": "EP004",
+  "title": "本座只想吃碗面",
+  "body_seconds": 60.4,
+  "body_start_seconds": 7.4,
+  "total_seconds": 67.8,
+  "profile": "2026-11-18-continuous-bgm-v4",
+  "dissolve_seconds": 0.2,
+  "source_burned_subtitles_found": false,
+  "source_caption_check": "bottom region at 4fps with Vision OCR, matched flags reviewed visually",
+  "source_segments": [
+    {
+      "segment": 1,
+      "source_id": 5,
+      "source_file": "EP003第05段《讲完没讲的课，先找口饭》视频制作.mp4",
+      "title": "讲完没讲的课，先找口饭",
+      "asset": "assets/source/clip-01.mp4",
+      "global_start": 7.4,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "49b329aea2e569526ea4a648c05348aebadfd268d75a2a6c5c39c130d6bc5ec2"
+    },
+    {
+      "segment": 2,
+      "source_id": 6,
+      "source_file": "EP003第05段《讲完没讲的课，先找口饭》视频制作 (1).mp4",
+      "title": "九转龙髓丹",
+      "asset": "assets/source/clip-02.mp4",
+      "global_start": 22.5,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "b761db04e737e0eb0111f6d1cbaeeb8464ef605155858b7c7e17629c63b05580"
+    },
+    {
+      "segment": 3,
+      "source_id": 7,
+      "source_file": "《偷偷要碗清汤面》视频制作.mp4",
+      "title": "偷偷要碗清汤面",
+      "asset": "assets/source/clip-03.mp4",
+      "global_start": 37.6,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "6f1dfbec3b9c73cb3d4a5d2c8b2e57518e2ec3e778b396051488c7f8d21544d5"
+    },
+    {
+      "segment": 4,
+      "source_id": 8,
+      "source_file": "《偷偷要碗清汤面》视频制作 (1).mp4",
+      "title": "仙宴改素面",
+      "asset": "assets/source/clip-04.mp4",
+      "global_start": 52.7,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "f0d61b810870bd3450bfd656f6b73500c079a5505617c1eba44da2be2da5d000"
+    }
+  ],
+  "bgm": {
+    "title": "Groovy Hammond",
+    "gain": 0.119,
+    "start_seconds": 2.1,
+    "end_seconds": 67.8,
+    "continuous_across_story_cut": true
+  }
+}

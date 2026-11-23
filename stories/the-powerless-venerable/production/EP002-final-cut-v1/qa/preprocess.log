@@ -1,0 +1,107 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/source/segment-01.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0269cg10004dbu14fq7dld8v2dhe0ug
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "c1b07010-5b6d-466c-845f-b89e8d49d9e5", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 12972 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 12880 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/source/segment-02.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0d69cg10004dbu14ra7dld090qjflpg
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "fc2f3754-a25e-4742-88e4-f1fb63475025", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 17255 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 17178 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #2, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/source/segment-03.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0d69cg10004dbukera7dld8u6lfjug0
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "5bc4c876-e29e-46a3-9569-84a7ae5ed174", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 13724 kb/s
+  Stream #2:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 13635 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Input #3, mov,mp4,m4a,3gp,3g2,mj2, from 'assets/source/segment-04.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0369cg10004dbukj7i7dld6msbad47g
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "750d9daa-c46b-4948-95c6-1f707c601785", "ReservedCode1": ""}
+    encoder         : Lavf58.76.100
+  Duration: 00:00:15.09, start: 0.000000, bitrate: 13179 kb/s
+  Stream #3:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 13088 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+  Stream #3:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 (h264) -> delogo:default
+  Stream #0:1 (aac) -> aresample:default
+  Stream #1:0 (h264) -> fps:default
+  Stream #1:1 (aac) -> aresample:default
+  Stream #2:0 (h264) -> fps:default
+  Stream #2:1 (aac) -> aresample:default
+  Stream #3:0 (h264) -> fps:default
+  Stream #3:1 (aac) -> aresample:default
+  trim:default -> Stream #0:0 (h264_videotoolbox)
+  aresample:default -> Stream #1:0 (pcm_f32le)
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'assets/story-dissolved-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : vid:v0269cg10004dbu14fq7dld8v2dhe0ug
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "c1b07010-5b6d-466c-845f-b89e8d49d9e5", "ReservedCode1": ""}
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 24000 kb/s, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 h264_videotoolbox
+[h264_videotoolbox @ 0x152409820] Color range not set for yuv420p. Using MPEG range.
+Output #1, wav, to 'assets/dialogue.wav':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    ICMT            : vid:v0269cg10004dbu14fq7dld8v2dhe0ug
+    AIGC            : {"Label": "1", "ContentProducer": "001191110102MACQD9K64010000", "ProduceID": "c1b07010-5b6d-466c-845f-b89e8d49d9e5", "ReservedCode1": ""}
+    ISFT            : Lavf62.3.100
+  Stream #1:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_f32le
+[mp4 @ 0x1524086c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x1524085e0] video:177785KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.006177%
+[out#1/wav @ 0x1526045c0] video:0KiB audio:22650KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000595%
+frame= 1812 fps= 53 q=-0.0 Lsize=  177796KiB time=00:01:00.36 bitrate=24127.6kbits/s speed=1.77x elapsed=0:00:34.12    

@@ -1,0 +1,661 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+<meta name="hf-scene-parts" content="{&quot;shared&quot;:&quot;d7f2be052e9e3f79&quot;,&quot;scenes&quot;:{&quot;intro&quot;:&quot;07eac5b926e35497&quot;,&quot;captions&quot;:&quot;5ae7ad221f5ebaee&quot;}}">
+<script data-hf-media-codec-map>window.__HF_MEDIA_SOURCE_FACTS__={"/assets/story-dissolved.mp4":{"width":1280,"height":720,"bitDepth":8,"bitrate":3857760,"frameRate":30,"variableFrameRate":false,"codec":"h264"}};</script><script data-hf-gsap-fallback>
+(function(){
+  var cdnBase="/api/vendor/npm/gsap@3.15.0/dist/";
+  var loaded={};
+  function loadFallback(file){
+    if(loaded[file])return loaded[file];
+    return loaded[file]=new Promise(function(ok,fail){
+      var s=document.createElement("script");
+      s.src=cdnBase+file;s.hfGsapFallback=true;s.onload=ok;s.onerror=fail;
+      document.head.appendChild(s);
+    });
+  }
+  document.addEventListener("error",function(e){
+    var t=e.target;
+    if(!t||t.tagName!=="SCRIPT"||!t.src||t.hfGsapFallback)return;
+    var m=t.src.match(/gsap[^/]*\/dist\/(.+\.js)/);
+    if(m)loadFallback(m[1]).catch(function(){
+      reportError(new Error("GSAP could not load from "+t.src+" or "+cdnBase+m[1]+", so this preview's animations will not play."));
+    });
+  },true);
+})();
+</script>
+<meta name="hyperframes-gsap-base-url" content="/api/vendor/npm">
+<meta name="hyperframes-studio-preview"><script>(function(){var seen=window.__hfPreviewErrors=[],kinds=window.__hfPreviewErrorKinds=[],known={SyntaxError:1,TypeError:1,ReferenceError:1,RangeError:1},runtime="/api/runtime.js";
+addEventListener("error",function(e){seen.push(e.message||String(e));
+var name=e.error&&e.error.constructor&&e.error.constructor.name,path="";
+try{var url=e.filename&&new URL(e.filename,window.location.href);if(url&&url.origin===window.location.origin)path=url.pathname}catch(_){}
+kinds.push({name:known[name]===1?name:"other",origin:!path?"unknown":path===runtime?"runtime":path.indexOf("/api/projects/")===0?"project":"studio"})});})();</script>
+<script data-hyperframes-preview-runtime="1" src="/api/runtime.js"></script>
+<base href="/api/projects/four-part-comedy-cut-v1/preview/">
+<script type="importmap">{"imports":{"/":"/api/projects/four-part-comedy-cut-v1/preview/","/api/projects/four-part-comedy-cut-v1/preview/":"/api/projects/four-part-comedy-cut-v1/preview/"}}</script><style data-hf-scene-fonts="">@font-face{font-family:CreatorSong;src:url('assets/fonts/CreatorSongti-Light.ttf');font-weight:300;font-style:normal}
+@font-face{font-family:CreatorSerif;src:url('assets/fonts/CormorantGaramond-Italic.ttf');font-weight:300 700;font-style:italic}
+@font-face{font-family:CreatorRoman;src:url('assets/fonts/CormorantGaramond-Regular.ttf');font-weight:300 700;font-style:normal}
+@font-face{font-family:StorySans;src:url('assets/fonts/PingFang.ttc')}</style><style data-hyperframes-text-rendering="true">html,body,*{text-rendering:geometricPrecision}</style><script data-hf-after-fonts-fallback="">document.addEventListener("DOMContentLoaded", function () {
+  if (window.__hfAfterFontsClaimed) return;
+  var T = "text/hf-after-fonts";
+  var all = [].slice.call(document.querySelectorAll('script[type="text/hf-after-fonts"], script[type="text/hf-after-fonts+module"]'));
+  if (!all.length) return;
+  console.warn("[hyperframes] the runtime has no web-font gate; composition scripts run without waiting for fonts");
+  var late = function (el) { return el.type !== T || el.matches('[defer][src], [defer][data-hf-inlined-src]'); };
+  var queue = all.filter(function (el) { return !late(el); }).concat(all.filter(late));
+  (function next() {
+    var el = queue.shift();
+    if (!el) return;
+    var s = document.createElement("script");
+    for (var i = 0; i < el.attributes.length; i++) s.setAttribute(el.attributes[i].name, el.attributes[i].value);
+    if (el.type === T) s.removeAttribute("type"); else s.type = "module";
+    s.async = el.hasAttribute("async");
+    s.text = el.text;
+    var waits = s.type !== "module" && s.hasAttribute("src") && !s.async && !s.noModule;
+    if (waits) { s.addEventListener("load", next); s.addEventListener("error", next); }
+    el.replaceWith(s);
+    if (!waits) next();
+  })();
+});
+//# sourceURL=hyperframes://after-fonts-fallback</script><meta charset="utf-8"><meta name="viewport" content="width=1280,height=720"><title>本座今日不飞 · 四段喜剧合辑</title><script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script><style>body{margin:0;background:#000}#root{position:relative;width:100%;height:100%;overflow:hidden}#story-picture{position:absolute;inset:0;width:1280px;height:720px;object-fit:contain;z-index:1}#fade-curtain{position:absolute;inset:0;background:#000;z-index:5;pointer-events:none}</style><style data-hf-scene="intro">[data-composition-id="intro"] [data-hf-authored-id="root"]{position:absolute;inset:0;background:#000;color:#fff}
+[data-composition-id="intro"] .intro-brand{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+[data-composition-id="intro"] .brand-by{font-family:CreatorSerif,serif;font-style:italic;font-size:34px;font-weight:400;letter-spacing:1px;line-height:1.2;margin:0 0 18px}
+[data-composition-id="intro"] .brand-name{font-family:CreatorSong,serif;font-size:44px;font-weight:300;letter-spacing:5px;line-height:1.35;margin:0}
+[data-composition-id="intro"] .brand-latin{font-family:CreatorRoman,serif;font-size:43px;font-weight:400;letter-spacing:4px;margin-left:7px}
+[data-composition-id="intro"] .brand-rule{width:116px;height:1px;background:rgba(255,255,255,.35);margin:23px 0 18px}
+[data-composition-id="intro"] .brand-caption{font-family:CreatorRoman,serif;font-size:20px;font-weight:400;letter-spacing:3.7px;line-height:1.4;margin:0;color:#eee}</style><style data-hf-scene="captions">[data-composition-id="captions"] [data-hf-authored-id="root"]{position:absolute;inset:0}
+[data-composition-id="captions"] .subtitle{position:absolute;left:128px;right:128px;bottom:72px;text-align:center;height:56px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:StorySans,sans-serif;font-size:36px;font-weight:600;letter-spacing:1px;line-height:1.32}
+[data-composition-id="captions"] .subtitle span{display:inline-block;padding:4px 14px 6px;background:rgba(0,0,0,.28);border-radius:5px;-webkit-text-stroke:1px rgba(0,0,0,.72);paint-order:stroke fill;text-shadow:0 2px 5px rgba(0,0,0,.8)}</style>
+<meta name="hyperframes-project-signature" content="2cd118be25d502d8f2b96c63">
+</head><body>
+<div data-hf-id="hf-fm5m" id="root" data-composition-id="main" data-start="0" data-duration="62.5" data-width="1280" data-height="720">
+<video data-hf-render-id="story-picture" data-hf-id="hf-lpxz" id="story-picture" class="clip" src="assets/story-dissolved.mp4" data-start="2.1" data-duration="60.4" data-track-index="0" muted playsinline data-end="62.5" data-has-audio="false"></video>
+<div data-composition-file="compositions/intro.html" data-hf-scene="intro" data-hf-id="hf-q5al" id="intro" class="clip" data-composition-id="intro" data-start="0" data-duration="2.1" data-width="1280" data-height="720" data-track-index="1" data-track-kind="graphics" style="z-index:6"><div style="width:1280px;height:720px" data-hf-inner-root="true" data-hf-authored-id="root" data-hf-id="hf-dwwf" data-width="1280" data-height="720"><div data-hf-id="hf-j542" id="intro-brand" class="intro-brand"><p data-hf-id="hf-mbbd" class="brand-by">Create By</p><p data-hf-id="hf-gwnf" class="brand-name">西瓜终结者<span data-hf-id="hf-w13x" class="brand-latin">AIGC</span></p><div data-hf-id="hf-w9an" class="brand-rule" data-layout-ignore=""></div><p data-hf-id="hf-k4pk" class="brand-caption">AI-GENERATED CINEMA</p></div></div></div>
+<div data-composition-file="compositions/captions.html" data-no-timeline="" data-hf-scene="captions" data-hf-id="hf-4nyp" id="captions" class="clip" data-composition-id="captions" data-start="0" data-duration="62.5" data-width="1280" data-height="720" data-track-index="2" data-track-kind="captions" style="z-index:4"><div style="width:1280px;height:720px" data-hf-inner-root="true" data-hf-authored-id="root" data-hf-id="hf-5lxb" data-width="1280" data-height="720" data-no-timeline=""><div data-hf-id="hf-2imf" id="caption-01" class="clip subtitle" data-start="2.12" data-duration="1.1" data-track-index="0"><span data-hf-id="hf-fre1">我穿越了</span></div>
+<div data-hf-id="hf-o23o" id="caption-02" class="clip subtitle" data-start="3.22" data-duration="1.78" data-track-index="0"><span data-hf-id="hf-top8">成了修仙界的镇宗大尊者</span></div>
+<div data-hf-id="hf-y36m" id="caption-03" class="clip subtitle" data-start="5.18" data-duration="1.92" data-track-index="0"><span data-hf-id="hf-9a14">可我半点仙力都没有啊！</span></div>
+<div data-hf-id="hf-t04j" id="caption-04" class="clip subtitle" data-start="7.54" data-duration="0.68" data-track-index="0"><span data-hf-id="hf-ryak">尊者</span></div>
+<div data-hf-id="hf-wgpq" id="caption-05" class="clip subtitle" data-start="8.44" data-duration="1.61" data-track-index="0"><span data-hf-id="hf-pir0">今日赴天衡宗会盟</span></div>
+<div data-hf-id="hf-rw6w" id="caption-06" class="clip subtitle" data-start="10.32" data-duration="1.48" data-track-index="0"><span data-hf-id="hf-tp1j">诸位尊者已在等候</span></div>
+<div data-hf-id="hf-25r0" id="caption-07" class="clip subtitle" data-start="12.34" data-duration="0.91" data-track-index="0"><span data-hf-id="hf-jqta">请登云</span></div>
+<div data-hf-id="hf-1bof" id="caption-08" class="clip subtitle" data-start="15.11" data-duration="0.79" data-track-index="0"><span data-hf-id="hf-njqs">怎么办？</span></div>
+<div data-hf-id="hf-cl2p" id="caption-09" class="clip subtitle" data-start="16.15" data-duration="1.03" data-track-index="0"><span data-hf-id="hf-5xv7">我连飞都不会！</span></div>
+<div data-hf-id="hf-l3jd" id="caption-10" class="clip subtitle" data-start="17.2" data-duration="1.68" data-track-index="0"><span data-hf-id="hf-6lfz">咒语？先试一个！</span></div>
+<div data-hf-id="hf-p2vx" id="caption-11" class="clip subtitle" data-start="19.04" data-duration="1.56" data-track-index="0"><span data-hf-id="hf-g24e">妈咪贝贝烘——飞！</span></div>
+<div data-hf-id="hf-btr5" id="caption-12" class="clip subtitle" data-start="21.88" data-duration="0.62" data-track-index="0"><span data-hf-id="hf-ad9d">蛛丝……</span></div>
+<div data-hf-id="hf-itq7" id="caption-13" class="clip subtitle" data-start="22.8" data-duration="0.62" data-track-index="0"><span data-hf-id="hf-qw7c">走你！</span></div>
+<div data-hf-id="hf-r02q" id="caption-14" class="clip subtitle" data-start="24.02" data-duration="0.6" data-track-index="0"><span data-hf-id="hf-lo1v">御剑</span></div>
+<div data-hf-id="hf-i0lt" id="caption-15" class="clip subtitle" data-start="24.92" data-duration="0.38" data-track-index="0"><span data-hf-id="hf-3dg9">起！</span></div>
+<div data-hf-id="hf-bu4v" id="caption-16" class="clip subtitle" data-start="26.04" data-duration="1.06" data-track-index="0"><span data-hf-id="hf-9xiz">起啊！</span></div>
+<div data-hf-id="hf-9dpx" id="caption-17" class="clip subtitle" data-start="29.78" data-duration="1.12" data-track-index="0"><span data-hf-id="hf-qo08">尊者怎么不动？</span></div>
+<div data-hf-id="hf-jjdn" id="caption-18" class="clip subtitle" data-start="31.42" data-duration="0.78" data-track-index="0"><span data-hf-id="hf-6f0e">云有问题？</span></div>
+<div data-hf-id="hf-pz86" id="caption-19" class="clip subtitle" data-start="32.3" data-duration="0.92" data-track-index="0"><span data-hf-id="hf-hdmd">时辰未到……</span></div>
+<div data-hf-id="hf-2179" id="caption-20" class="clip subtitle" data-start="33.5" data-duration="1.35" data-track-index="0"><span data-hf-id="hf-16un">尊者看出来了？</span></div>
+<div data-hf-id="hf-5qd7" id="caption-21" class="clip subtitle" data-start="35.5" data-duration="1.54" data-track-index="0"><span data-hf-id="hf-us59">难道礼单漏了什么？</span></div>
+<div data-hf-id="hf-whuf" id="caption-22" class="clip subtitle" data-start="37.22" data-duration="1.16" data-track-index="0"><span data-hf-id="hf-hvmw">弟、弟子知错</span></div>
+<div data-hf-id="hf-2pzd" id="caption-23" class="clip subtitle" data-start="38.68" data-duration="0.39" data-track-index="0"><span data-hf-id="hf-o8iy">啊？</span></div>
+<div data-hf-id="hf-hw42" id="caption-24" class="clip subtitle" data-start="39.32" data-duration="1.23" data-track-index="0"><span data-hf-id="hf-1ebu">他怎么先自首了？</span></div>
+<div data-hf-id="hf-9u4z" id="caption-25" class="clip subtitle" data-start="40.86" data-duration="1.42" data-track-index="0"><span data-hf-id="hf-impe">本、本座今日……</span></div>
+<div data-hf-id="hf-89qw" id="caption-26" class="clip subtitle" data-start="42.7" data-duration="1.76" data-track-index="0"><span data-hf-id="hf-gt9n">步行，亲近门人</span></div>
+<div data-hf-id="hf-s86i" id="caption-27" class="clip subtitle" data-start="44.7" data-duration="1.22" data-track-index="0"><span data-hf-id="hf-tb8j">收剑，随行</span></div>
+<div data-hf-id="hf-3fan" id="caption-28" class="clip subtitle" data-start="47.51" data-duration="1.13" data-track-index="0"><span data-hf-id="hf-8vxv">山门多远？</span></div>
+<div data-hf-id="hf-c8lr" id="caption-29" class="clip subtitle" data-start="48.75" data-duration="1.31" data-track-index="0"><span data-hf-id="hf-zuv3">三千级石阶</span></div>
+<div data-hf-id="hf-pr3t" id="caption-30" class="clip subtitle" data-start="50.25" data-duration="1.33" data-track-index="0"><span data-hf-id="hf-w8af">备……备车</span></div>
+<div data-hf-id="hf-msgm" id="caption-31" class="clip subtitle" data-start="51.91" data-duration="0.63" data-track-index="0"><span data-hf-id="hf-u54p">备车？</span></div>
+<div data-hf-id="hf-6yp6" id="caption-32" class="clip subtitle" data-start="52.91" data-duration="1.33" data-track-index="0"><span data-hf-id="hf-ugt9">要、要有轮子的</span></div>
+<div data-hf-id="hf-x7a8" id="caption-33" class="clip subtitle" data-start="55.31" data-duration="1.39" data-track-index="0"><span data-hf-id="hf-p94m">难道是运粮车？</span></div>
+<div data-hf-id="hf-hao8" id="caption-34" class="clip subtitle" data-start="56.95" data-duration="0.67" data-track-index="0"><span data-hf-id="hf-dr25">就那辆</span></div>
+<div data-hf-id="hf-8xyv" id="caption-35" class="clip subtitle" data-start="59.64" data-duration="1.25" data-track-index="0"><span data-hf-id="hf-la4q">白璃尊者的拜帖——</span></div>
+<div data-hf-id="hf-pii0" id="caption-36" class="clip subtitle" data-start="60.96" data-duration="1.24" data-track-index="0"><span data-hf-id="hf-tach">上、上车再说</span></div></div></div>
+<div data-hf-id="hf-gq9z" id="fade-curtain" data-layout-ignore=""></div>
+<audio data-hf-render-id="dialogue" data-hf-id="hf-ufrp" id="dialogue" class="clip" src="assets/dialogue.wav" data-start="2.1" data-duration="60.4" data-track-index="3" data-audio-group="voiceover" data-volume="1" data-end="62.5"></audio>
+<audio data-hf-render-id="music-bed" data-hf-id="hf-aqph" id="music-bed" class="clip" src="assets/bgm-groovy-fixed-v3.wav" data-start="2.1" data-duration="60.4" data-track-index="4" data-volume="0.238" data-end="62.5"></audio>
+</div><script type="text/hf-after-fonts">const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fade-curtain", { opacity: 1 }, { opacity: 0, duration: 0.3, ease: "none" }, 2.1);
+tl.to("#fade-curtain", { opacity: 1, duration: 0.3, ease: "none" }, 62.166667);
+window.__timelines["main"] = tl;</script><script type="text/hf-after-fonts" data-hf-scene="intro">(function() {
+  (function() {
+    "use strict";
+    (() => {
+      function I(e) {
+        return e ? /[\w-]/.test(e) || e.charCodeAt(0) >= 128 : false;
+      }
+      function _(e) {
+        return e === " " || e === "	" || e === `
+` || e === "\r" || e === "\f";
+      }
+      var j = /^[0-9a-fA-F]{1,6}/;
+      function G(e) {
+        let n = e >= 55296 && e <= 57343;
+        return e === 0 || e > 1114111 || n ? 65533 : e;
+      }
+      function $(e, n) {
+        return e[n] === "\r" && e[n + 1] === `
+` ? n + 2 : _(e[n]) ? n + 1 : n;
+      }
+      function R(e, n) {
+        let t = e[n + 1];
+        if (t === void 0 || /[\n\r\f]/.test(t)) return null;
+        let i = j.exec(e.slice(n + 1, n + 7));
+        if (!i) return { value: t, end: n + 2 };
+        let o = G(Number.parseInt(i[0], 16));
+        return { value: String.fromCodePoint(o), end: $(e, n + 1 + i[0].length) };
+      }
+      function H(e, n) {
+        let t = (o) => I(o) && !/[0-9-]/.test(o), i = (o) => e[o] === "\\" && R(e, o) !== null;
+        return e[n] === "-" ? e[n + 1] === "-" || t(e[n + 1]) || i(n + 1) : t(e[n]) || i(n);
+      }
+      function y(e, n) {
+        let t = n;
+        for (; e.startsWith("/*", t); ) {
+          let i = e.indexOf("*/", t + 2);
+          t = i < 0 ? e.length : i + 2;
+        }
+        return t;
+      }
+      function A(e, n) {
+        let t = y(e, n);
+        for (; _(e[t]); ) t = y(e, t + 1);
+        return t;
+      }
+      function h(e, n) {
+        if (!H(e, n)) return null;
+        let t = n, i = "";
+        for (; t < e.length; ) {
+          let o = e[t];
+          if (o === "\\") {
+            let a = R(e, t);
+            if (!a) break;
+            i += a.value, t = a.end;
+            continue;
+          }
+          if (!I(o)) break;
+          i += o, t += 1;
+        }
+        return t === n ? null : { value: i, end: t };
+      }
+      var C = 45;
+      function T(e) {
+        return e >= 48 && e <= 57;
+      }
+      function z(e) {
+        return e >= 128 || e === C || e === 95 || T(e) || e >= 65 && e <= 90 || e >= 97 && e <= 122;
+      }
+      function J(e, n) {
+        let t = e.charCodeAt(n);
+        return t >= 1 && t <= 31 || t === 127 ? true : T(t) ? n === 0 || n === 1 && e.charCodeAt(0) === C : false;
+      }
+      function k(e) {
+        let n = "";
+        for (let t = 0; t < e.length; t += 1) {
+          let i = e.charCodeAt(t), o = e[t];
+          i === 0 ? n += "\uFFFD" : J(e, t) ? n += `\\${i.toString(16)} ` : t === 0 && e.length === 1 && i === C ? n += `\\${o}` : z(i) ? n += o : n += `\\${o}`;
+        }
+        return n;
+      }
+      var W = /\/\*(?:[^*]|\*(?!\/))*\*\/|\\(?:[0-9a-fA-F]{1,6}(?:\r\n|[ \t\r\n\f])?|[\s\S])|"(?:[^"\\]|\\[\s\S])*"|'(?:[^'\\]|\\[\s\S])*'|\[(?:\/\*(?:[^*]|\*(?!\/))*\*\/|\\[\s\S]|"(?:[^"\\]|\\[\s\S])*"|'(?:[^'\\]|\\[\s\S])*'|[^\]"'\\/]|\/(?!\*))*\]/g;
+      function Q(e) {
+        let n = new Array(e.length).fill(true);
+        for (let t of e.matchAll(W)) {
+          let i = t.index;
+          n.fill(false, i, i + t[0].length);
+        }
+        return n;
+      }
+      function q(e, n, t) {
+        if (n.length === 0 || !e.includes("#")) return e;
+        let i = new Set(n), o = Q(e), a = "", u = 0;
+        for (; u < e.length; ) {
+          let d = o[u] && e[u] === "#" ? h(e, u + 1) : null;
+          d && i.has(d.value) ? (a += t(d.value), u = d.end) : (a += e[u], u += 1);
+        }
+        return a;
+      }
+      function X(e) {
+        let n = "";
+        for (let t = 0; t < e.length; t += 1) {
+          if (e[t] === "\\") {
+            let i = e[t + 1];
+            if (i !== void 0 && /[\n\r\f]/.test(i)) {
+              t = $(e, t + 1) - 1;
+              continue;
+            }
+            let o = R(e, t);
+            if (o) {
+              n += o.value, t = o.end - 1;
+              continue;
+            }
+          }
+          n += e[t];
+        }
+        return n;
+      }
+      function N(e) {
+        return Array.from(e, (n) => {
+          let t = n.charCodeAt(0);
+          return t === 0 ? "\uFFFD" : t < 32 || t === 127 ? `\\${t.toString(16)} ` : n === '"' || n === "\\" ? `\\${n}` : n;
+        }).join("");
+      }
+      function Y(e, n) {
+        return e ? { kind: "any" } : n === void 0 ? { kind: "none" } : { kind: "named", prefix: n };
+      }
+      function Z(e, n) {
+        return e[n] === "|" && e[n + 1] !== "=";
+      }
+      function B(e, n) {
+        let t = e[n] === "*", i = t ? { value: "*", end: n + 1 } : h(e, n), o = y(e, i?.end ?? n);
+        if (!Z(e, o)) return t ? null : i ? { token: i, namespace: { kind: "none" } } : null;
+        let a = h(e, y(e, o + 1));
+        return a ? { token: a, namespace: Y(t, i?.value) } : null;
+      }
+      function K(e) {
+        if (e[0] !== "[") return null;
+        let n = A(e, 1), t = B(e, n);
+        if (!t) return null;
+        let { token: i, namespace: o } = t;
+        return { name: i.value, rawName: e.slice(n, i.end), namespace: o, end: i.end };
+      }
+      function ee(e, n) {
+        let t = /^(?:"((?:\\[\s\S]|[^"\\])*)"|'((?:\\[\s\S]|[^'\\])*)')/.exec(e.slice(n));
+        return t ? { value: X(t[1] ?? t[2]), end: n + t[0].length } : h(e, n);
+      }
+      function ne(e, n) {
+        let t = A(e, n), i = h(e, t);
+        if (i) {
+          if (!/^[is]$/i.test(i.value)) return null;
+          t = A(e, i.end);
+        }
+        return e[t] !== "]" || t !== e.length - 1 ? null : { flag: i?.value };
+      }
+      function F(e) {
+        let n = K(e);
+        if (!n) return null;
+        let t = A(e, n.end), o = ["=", "~=", "|=", "^=", "$=", "*="].find((d) => e.startsWith(d, t));
+        if (!o) return null;
+        let a = ee(e, A(e, t + o.length));
+        if (!a) return null;
+        let u = ne(e, a.end);
+        return u ? { name: n.name, rawName: n.rawName, namespace: n.namespace, operator: o, value: a.value, flag: u.flag } : null;
+      }
+      function E(e, n) {
+        return e.replace(W, (t) => t.startsWith("[") ? n(t) : t);
+      }
+      var re = "data-hf-svg-reference-aliases";
+      function O(e, n, t, i) {
+        let o = { "=": (s, r) => s === r, "~=": (s, r) => s.split(/[ \t\r\n\f]+/).includes(r), "|=": (s, r) => s === r || s.startsWith(r + "-"), "^=": (s, r) => s.startsWith(r), "$=": (s, r) => s.endsWith(r), "*=": (s, r) => s.includes(r) }, a = (s, r, l) => !r && l !== "=" && l !== "|=" ? false : o[l](s, r), u = (s) => s.replace(/[A-Z]/g, (r) => r.toLowerCase()), d = (s) => {
+          let r = F(s);
+          if (!r) return s;
+          let { name: l, rawName: g, namespace: m, operator: b, value: D, flag: w } = r;
+          if (m.kind === "named" != (i !== void 0)) return s;
+          let x = w?.toLowerCase() === "i" ? u : (S) => S, L = u(l), P = t.filter((S) => {
+            let V = m.kind === "none" ? S.name : S.localName, U = m.kind === "named" ? i.get(m.prefix) : null;
+            return (m.kind === "any" || S.namespaceURI === U) && u(V) === L;
+          }), v = /* @__PURE__ */ new Set([s]);
+          for (let S of P) a(x(S.before), x(D), b) && v.add(`[${g}="${N(S.after)}"${w ? ` ${w}` : ""}]`);
+          return v.size === 1 ? s : `:is(${[...v].join(", ")})`;
+        };
+        if (i) return E(e, d);
+        let p = new Map(n.map(({ id: s, replacement: r }) => [s, r])), f = /* @__PURE__ */ new Map();
+        for (let s of t) {
+          if (s.name !== "id" || s.before === s.after || p.has(s.before)) continue;
+          let r = f.get(s.before);
+          r || (r = /* @__PURE__ */ new Set([`#${k(s.before)}`]), f.set(s.before, r)), r.add(`#${k(s.after)}`);
+        }
+        for (let [s, r] of f) p.set(s, `:is(${[...r].join(", ")})`);
+        let c = q(e, [...p.keys()], (s) => p.get(s));
+        return E(c, d);
+      }
+      function se(e, n, t = true) {
+        let i = [], a = (t ? [...e.querySelectorAll(`[${n}]`)] : []).map((d) => d.getAttribute(n)), u = e.getAttribute?.(n);
+        u && a.unshift(u);
+        for (let d of a) {
+          let p;
+          try {
+            p = JSON.parse(d);
+          } catch {
+            continue;
+          }
+          if (!Array.isArray(p)) continue;
+          let f = p;
+          for (let c of f) {
+            if (!ie(c)) continue;
+            let { name: s, localName: r, namespaceURI: l, before: g, after: m } = c;
+            i.push({ name: s, localName: r, namespaceURI: l, before: g, after: m });
+          }
+        }
+        return i;
+      }
+      function ie(e) {
+        if (!e || typeof e != "object") return false;
+        let { name: n, localName: t, namespaceURI: i, before: o, after: a } = e;
+        return typeof n == "string" && typeof t == "string" && (i === null || typeof i == "string") && typeof o == "string" && typeof a == "string";
+      }
+      function oe(e) {
+        let n = [], t = [], i = false, o, a = /* @__PURE__ */ new WeakMap(), u = (f, c) => {
+          for (let s of f) {
+            if ("selectorText" in s) {
+              let r = s, l = a.get(r), g = r.selectorText, m = l?.applied === g ? l.authored : g, b = O(m, [], t, c);
+              b !== g && (r.selectorText = b), b === m ? a.delete(r) : a.set(r, { authored: m, applied: r.selectorText });
+            }
+            "cssRules" in s && u(s.cssRules, c);
+          }
+        }, d = () => {
+          if (t.length) for (let f of e.document.styleSheets) {
+            let c;
+            try {
+              c = f.cssRules;
+            } catch {
+              continue;
+            }
+            let s = /* @__PURE__ */ new Map();
+            for (let r of c) {
+              if (!("namespaceURI" in r)) continue;
+              let { prefix: l, namespaceURI: g } = r;
+              l && s.set(l, g || null);
+            }
+            s.size && u(c, s);
+          }
+        }, p = { rewrite: (f, c = []) => {
+          if (typeof f != "string" || !f.includes("#") && !f.includes("[")) return f;
+          let s = O(f, c.length ? [...c, ...n] : n, t);
+          if (s !== f) {
+            if (!o) {
+              let r = e.document.createElement("div");
+              o = r.matches.bind(r);
+            }
+            o(f);
+          }
+          return s;
+        }, refresh() {
+          t = se(e.document, re).filter((r) => r.before !== r.after);
+          let f = new Set(t.filter((r) => r.name === "id").map((r) => r.before)), c = /* @__PURE__ */ new Set();
+          n = [];
+          for (let r of e.document.querySelectorAll("[data-hf-authored-id][id]")) {
+            let l = r.getAttribute("data-hf-authored-id");
+            if (!l || l === r.id || c.has(l) || f.has(l)) continue;
+            c.add(l);
+            let g = N(l);
+            n.push({ id: l, replacement: `:is(#${k(l)}, [data-hf-authored-id="${g}"])` });
+          }
+          if (d(), i || !n.length && !t.length) return;
+          let s = e.Element.prototype;
+          s.querySelector = new Proxy(s.querySelector, { apply(r, l, g) {
+            return Reflect.apply(r, l, [p.rewrite(g[0])]);
+          } }), s.querySelectorAll = new Proxy(s.querySelectorAll, { apply(r, l, g) {
+            return Reflect.apply(r, l, [p.rewrite(g[0])]);
+          } }), i = true;
+        } };
+        e.__hfSvgSelectorAliases = p, p.refresh();
+      }
+      function M() {
+        let e = window;
+        e.__hfSvgSelectorAliases || oe(e);
+      }
+      M();
+    })();
+  })();
+  var __hfCompId = "intro";
+  var __hfTimelineCompId = "intro";
+  var __hfErrorLabel = "[HyperFrames] composition script error:";
+  var __hfAuthoredRootId = "root";
+  var __hfCompositionSrc = "compositions/intro.html";
+  var __hfAuthoredRootAttr = "data-hf-authored-id";
+  var __hfEscapeAttr = function(value) {
+    return (value + "").replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+  };
+  var __hfRootSelector = '[data-composition-id="intro"]';
+  var __hfRoot = null;
+  var __hfRootSelectorPattern = `\\[\\s*data-composition-id\\s*=\\s*(?:"intro"|'intro')\\s*\\]`;
+  var __hfTimelineRootSelectorPattern = `\\[\\s*data-composition-id\\s*=\\s*(?:"intro"|'intro')\\s*\\]`;
+  var __hfTimingSelectorPattern = `\\s*\\[\\s*data-(?:start|duration)\\s*=\\s*(?:"[^"]*"|'[^']*')\\s*\\]`;
+  var __hfAuthoredRootSelector = __hfAuthoredRootId ? "[" + __hfAuthoredRootAttr + '="' + __hfEscapeAttr(__hfAuthoredRootId) + '"]' : "";
+  var __hfAuthoredRootEntries = __hfAuthoredRootSelector ? [{ id: __hfAuthoredRootId, replacement: __hfAuthoredRootSelector }] : [];
+  var __hfNormalizeSelector = function(selector) {
+    if (!__hfCompId || typeof selector !== "string") return selector;
+    var normalized = selector.replace(new RegExp(__hfRootSelectorPattern + "(?:" + __hfTimingSelectorPattern + ")+", "g"), __hfRootSelector).replace(new RegExp("(?:" + __hfTimingSelectorPattern + ")+" + __hfRootSelectorPattern, "g"), __hfRootSelector).replace(new RegExp(__hfRootSelectorPattern, "g"), __hfRootSelector);
+    if (__hfTimelineCompId !== __hfCompId) {
+      normalized = normalized.replace(new RegExp(__hfTimelineRootSelectorPattern, "g"), __hfRootSelector);
+    }
+    return window.__hfSvgSelectorAliases.rewrite(normalized, __hfAuthoredRootEntries);
+  };
+  var __hfFindRoot = function() {
+    if (!__hfRoot && __hfRootSelector) {
+      __hfRoot = window.document.querySelector(__hfRootSelector);
+    }
+    return __hfRoot;
+  };
+  var __hfContains = function(node) {
+    var root = __hfFindRoot();
+    return !root || node === root || root.contains(node);
+  };
+  var __hfQueryAll = function(selector) {
+    var root = __hfFindRoot();
+    if (!root || typeof selector !== "string") {
+      return window.document.querySelectorAll(selector);
+    }
+    return Array.prototype.filter.call(window.document.querySelectorAll(__hfNormalizeSelector(selector)), function(node) {
+      return __hfContains(node);
+    });
+  };
+  var __hfQueryOne = function(selector) {
+    var matches = __hfQueryAll(selector);
+    return matches[0] || null;
+  };
+  var __hfGetElementById = function(id) {
+    var found = window.document.getElementById(id);
+    if (found && __hfContains(found)) return found;
+    var root = __hfFindRoot();
+    if (!root) return found || null;
+    var idValue = id + "";
+    if (__hfAuthoredRootId && __hfAuthoredRootId === idValue && root.getAttribute && root.getAttribute(__hfAuthoredRootAttr) === idValue) {
+      return root;
+    }
+    if (root.id === idValue) return root;
+    if (typeof root.querySelector !== "function") return null;
+    try {
+      var authoredRootMatch = root.querySelector("[" + __hfAuthoredRootAttr + '="' + __hfEscapeAttr(idValue) + '"]');
+      if (authoredRootMatch) return authoredRootMatch;
+    } catch {
+    }
+    if (typeof CSS !== "undefined" && CSS && typeof CSS.escape === "function") {
+      try {
+        return root.querySelector("#" + CSS.escape(idValue)) || null;
+      } catch {
+      }
+    }
+    try {
+      return root.querySelector('[id="' + __hfEscapeAttr(idValue) + '"]') || null;
+    } catch {
+    }
+    return null;
+  };
+  var __hfScopedDocument = typeof Proxy === "function" ? new Proxy(window.document, {
+    get: function(target, prop, receiver) {
+      if (prop === "querySelector") return __hfQueryOne;
+      if (prop === "querySelectorAll") return __hfQueryAll;
+      if (prop === "getElementById") return __hfGetElementById;
+      var value = Reflect.get(target, prop, target);
+      return typeof value === "function" ? value.bind(target) : value;
+    }
+  }) : window.document;
+  var __hfTimelineRegistryProxy = null;
+  var __hfGetTimelineRegistry = function() {
+    window.__timelines = window.__timelines || {};
+    if (!__hfCompId || __hfCompId === __hfTimelineCompId || typeof Proxy !== "function") {
+      return window.__timelines;
+    }
+    if (!__hfTimelineRegistryProxy) {
+      __hfTimelineRegistryProxy = new Proxy(window.__timelines, {
+        get: function(target, prop, receiver) {
+          if (prop !== __hfCompId) {
+            return Reflect.get(target, prop, target);
+          }
+          var runtimeValue = Reflect.get(target, __hfTimelineCompId, target);
+          return runtimeValue === void 0 ? Reflect.get(target, prop, target) : runtimeValue;
+        },
+        set: function(target, prop, value, receiver) {
+          if (prop !== __hfCompId) {
+            return Reflect.set(target, prop, value, target);
+          }
+          var authoredValue = Reflect.get(target, __hfCompId, target);
+          var ownsAuthored = authoredValue === void 0 || authoredValue === Reflect.get(target, __hfTimelineCompId, target);
+          var runtimeSet = Reflect.set(target, __hfTimelineCompId, value, target);
+          if (!ownsAuthored) return runtimeSet;
+          return Reflect.set(target, __hfCompId, value, target) && runtimeSet;
+        }
+      });
+    }
+    return __hfTimelineRegistryProxy;
+  };
+  var __hfScopedWindow = typeof Proxy === "function" ? new Proxy(window, {
+    get: function(target, prop, receiver) {
+      if (prop === "__timelines") return __hfGetTimelineRegistry();
+      if (prop === "__hyperframes") return __hfScopedHyperframes;
+      var value = Reflect.get(target, prop, target);
+      return typeof value === "function" && value.prototype === void 0 ? value.bind(target) : value;
+    },
+    set: function(target, prop, value, receiver) {
+      if (prop === "__timelines") {
+        if (value === __hfTimelineRegistryProxy) return true;
+        target.__timelines = value || {};
+        __hfTimelineRegistryProxy = null;
+        return true;
+      }
+      return Reflect.set(target, prop, value, target);
+    }
+  }) : window;
+  var __hfResolveGsapTarget = function(target) {
+    if (typeof target !== "string" && !Array.isArray(target)) return target;
+    var resolved = typeof target === "string" ? __hfQueryAll(target) : target.reduce(function(resolved2, item) {
+      if (typeof item === "string") {
+        return resolved2.concat(Array.prototype.slice.call(__hfQueryAll(item)));
+      }
+      resolved2.push(item);
+      return resolved2;
+    }, []);
+    if (!resolved.length) {
+      var originalTarget = String(target);
+      resolved = [];
+      resolved.toString = function() {
+        return originalTarget;
+      };
+    }
+    return resolved;
+  };
+  var __hfScopeTimeline = function(timeline) {
+    if (!timeline || timeline.__hfScopedCompositionRoot === __hfFindRoot()) return timeline;
+    ["to", "from", "fromTo", "set"].forEach(function(method) {
+      var original = timeline[method];
+      if (typeof original !== "function") return;
+      timeline[method] = function(target) {
+        var args = Array.prototype.slice.call(arguments);
+        args[0] = __hfResolveGsapTarget(target);
+        return original.apply(timeline, args);
+      };
+    });
+    try {
+      Object.defineProperty(timeline, "__hfScopedCompositionRoot", {
+        value: __hfFindRoot(),
+        configurable: true
+      });
+    } catch {
+    }
+    return timeline;
+  };
+  var __hfBaseGsap = typeof gsap === "undefined" ? window.gsap : gsap;
+  var __hfScopedGsap = !__hfBaseGsap || typeof Proxy !== "function" ? __hfBaseGsap : new Proxy(__hfBaseGsap, {
+    get: function(target, prop, receiver) {
+      if (prop === "timeline") {
+        return function() {
+          return __hfScopeTimeline(target.timeline.apply(target, arguments));
+        };
+      }
+      if (prop === "to" || prop === "from" || prop === "fromTo" || prop === "set") {
+        return function(firstArg) {
+          var args = Array.prototype.slice.call(arguments);
+          args[0] = __hfResolveGsapTarget(firstArg);
+          return target[prop].apply(target, args);
+        };
+      }
+      if (prop === "utils" && target.utils && typeof Proxy === "function") {
+        return new Proxy(target.utils, {
+          get: function(utilsTarget, utilsProp, utilsReceiver) {
+            if (utilsProp === "toArray") {
+              return function(firstArg) {
+                var args = Array.prototype.slice.call(arguments);
+                args[0] = __hfResolveGsapTarget(firstArg);
+                return utilsTarget.toArray.apply(utilsTarget, args);
+              };
+            }
+            if (utilsProp === "selector") {
+              return function(base) {
+                var baseEl = typeof base === "string" ? __hfQueryOne(base) : base;
+                var root = baseEl || __hfFindRoot();
+                return function(selector) {
+                  if (!root || typeof selector !== "string") return [];
+                  return Array.prototype.filter.call(
+                    window.document.querySelectorAll(__hfNormalizeSelector(selector)),
+                    function(node) {
+                      return node === root || typeof root.contains === "function" && root.contains(node);
+                    }
+                  );
+                };
+              };
+            }
+            var value2 = Reflect.get(utilsTarget, utilsProp, utilsTarget);
+            return typeof value2 === "function" ? value2.bind(utilsTarget) : value2;
+          }
+        });
+      }
+      var value = Reflect.get(target, prop, target);
+      return typeof value === "function" ? value.bind(target) : value;
+    }
+  });
+  var __hfBaseHyperframes = window.__hyperframes;
+  var __hfScopedHyperframes = !__hfBaseHyperframes ? __hfBaseHyperframes : Object.assign({}, __hfBaseHyperframes, {
+    assetUrl: function(path) {
+      var page = window.document.baseURI;
+      return new URL(path, __hfCompositionSrc ? new URL(__hfCompositionSrc, page) : page).href;
+    },
+    getVariables: function() {
+      var byComp = window.__hfVariablesByComp;
+      var scoped = byComp && __hfTimelineCompId ? byComp[__hfTimelineCompId] : null;
+      return scoped ? Object.assign({}, scoped) : {};
+    }
+  });
+  var __hfRun = function() {
+    var report = window.__hfScriptState;
+    if (typeof report === "function") report("start", __hfCompositionSrc || "index.html");
+    try {
+      (function(document, gsap2, window2, __hyperframes) {
+        const tl = gsap2.timeline({ paused: true });
+        tl.fromTo("#intro-brand", { opacity: 0, y: 4 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, 0);
+        tl.to("#intro-brand", { opacity: 0, duration: 0.3, ease: "none" }, 1.8);
+        window2.__timelines["intro"] = tl;
+      }).call(window, __hfScopedDocument, __hfScopedGsap, __hfScopedWindow, __hfScopedHyperframes);
+    } catch (_err) {
+      console.error(__hfErrorLabel, __hfCompId, _err);
+    } finally {
+      if (typeof report === "function") report("finish", __hfCompositionSrc || "index.html");
+    }
+  };
+  var __hfRecordAnimations = function(run) {
+    if (window.__hfSceneAnimations === void 0) {
+      window.__hfSceneAnimations = window.document.querySelector('meta[name="hf-scene-parts"]') ? {} : null;
+    }
+    var byComp = window.__hfSceneAnimations;
+    var globalTimeline = __hfBaseGsap && __hfBaseGsap.globalTimeline;
+    if (!byComp || !globalTimeline || !__hfTimelineCompId) return run();
+    var before = globalTimeline.getChildren(false);
+    var autoRemove = globalTimeline.autoRemoveChildren;
+    globalTimeline.autoRemoveChildren = false;
+    run();
+    globalTimeline.autoRemoveChildren = autoRemove;
+    var recorded = byComp[__hfTimelineCompId] = byComp[__hfTimelineCompId] || [];
+    globalTimeline.getChildren(false).forEach(function(animation) {
+      if (before.indexOf(animation) >= 0) return;
+      recorded.push(animation);
+      if (autoRemove && !animation.getChildren && animation.totalProgress() === 1) globalTimeline.remove(animation);
+    });
+  };
+  __hfFindRoot();
+  __hfRecordAnimations(__hfRun);
+})();</script></body></html>

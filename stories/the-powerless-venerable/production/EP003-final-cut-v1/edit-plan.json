@@ -1,0 +1,88 @@
+{
+  "episode": "EP003",
+  "title": "本座一句都没说",
+  "body_seconds": 60.4,
+  "body_start_seconds": 7.4,
+  "total_seconds": 67.8,
+  "profile": "2026-11-18-continuous-bgm-v4",
+  "dissolve_seconds": 0.2,
+  "source_burned_subtitles_found": false,
+  "source_caption_check": "bottom region at 4fps with Vision OCR, matched flags reviewed visually",
+  "source_segments": [
+    {
+      "segment": 1,
+      "source_id": 1,
+      "source_file": "都站着，等谁开口.mp4",
+      "title": "都站着，等谁开口",
+      "asset": "assets/source/clip-01.mp4",
+      "global_start": 7.4,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "37c2c0cb083a12f1ca76f18c42182109186c6b08748f1a1681c338eccddd3293"
+    },
+    {
+      "segment": 2,
+      "source_id": 2,
+      "source_file": "都站着，等谁开口 (1).mp4",
+      "title": "筑基是什么",
+      "asset": "assets/source/clip-02.mp4",
+      "global_start": 22.5,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "5fb86ba077075e3b0d6355050e61f2f1b273bf0bf744d7e94a350e057bab8215"
+    },
+    {
+      "segment": 3,
+      "source_id": 4,
+      "source_file": "《一个时辰，谁也不敢先下课》视频制作 (1).mp4",
+      "title": "一个时辰，谁也不敢先下课",
+      "asset": "assets/source/clip-03.mp4",
+      "global_start": 37.6,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "f154e2682575c2bdded669ce89001c33bd55501738a8f67bd3f3f3af3db54aaa"
+    },
+    {
+      "segment": 4,
+      "source_id": 3,
+      "source_file": "《一个时辰，谁也不敢先下课》视频制作.mp4",
+      "title": "大道无言，满场都悟了",
+      "asset": "assets/source/clip-04.mp4",
+      "global_start": 52.7,
+      "source_info": {
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "duration": "15.041667",
+        "nb_frames": "361"
+      },
+      "duration_seconds": 15.1,
+      "sha256": "e955075d111bc49bdcd7ee3c3d7bc08a960de95b640550d57fdd37b46b961330"
+    }
+  ],
+  "bgm": {
+    "title": "Groovy Hammond",
+    "gain": 0.119,
+    "start_seconds": 2.1,
+    "end_seconds": 67.8,
+    "continuous_across_story_cut": true
+  }
+}

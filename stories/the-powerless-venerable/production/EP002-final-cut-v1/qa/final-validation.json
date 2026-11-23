@@ -1,0 +1,328 @@
+{
+  "technical": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "30/1",
+        "nb_frames": "2034"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "nb_frames": "3180"
+      }
+    ],
+    "format": {
+      "duration": "67.800000"
+    }
+  },
+  "checks": [
+    "complete decode",
+    "4K30 and 67.8s",
+    "silent opening credits",
+    "self-introduction positioned after credits",
+    "black final frame",
+    "27 subtitles match updated timeline",
+    "video stream identical",
+    "continuous original BGM waveform across 7.4s cut",
+    "single gain and clean opener dialogue",
+    "full decode after remix"
+  ],
+  "hook_start": 2.1,
+  "hook_end": 7.4,
+  "intro_start": 0,
+  "body_start": 7.4,
+  "body_duration": 60.4,
+  "subtitles": [
+    {
+      "id": 1,
+      "kind": "series_cold_open",
+      "start": 2.12,
+      "end": 3.22,
+      "text": "我穿越了"
+    },
+    {
+      "id": 2,
+      "kind": "series_cold_open",
+      "start": 3.22,
+      "end": 5.05,
+      "text": "成了修仙界的镇宗大尊者"
+    },
+    {
+      "id": 3,
+      "kind": "series_cold_open",
+      "start": 5.52,
+      "end": 7.09,
+      "text": "可我半点仙力都没有啊！"
+    },
+    {
+      "id": 4,
+      "segment": 1,
+      "local_start": 0.98,
+      "local_end": 2.83,
+      "start": 8.38,
+      "end": 10.23,
+      "text": "谢道友，请赐教。",
+      "image": "assets/captions/001.png"
+    },
+    {
+      "id": 5,
+      "segment": 1,
+      "local_start": 4.2,
+      "local_end": 5.08,
+      "start": 11.6,
+      "end": 12.48,
+      "text": "怎么办？",
+      "image": "assets/captions/002.png"
+    },
+    {
+      "id": 6,
+      "segment": 1,
+      "local_start": 5.28,
+      "local_end": 6.57,
+      "start": 12.68,
+      "end": 13.97,
+      "text": "嘴也不听使唤了！",
+      "image": "assets/captions/003.png"
+    },
+    {
+      "id": 7,
+      "segment": 1,
+      "local_start": 6.9,
+      "local_end": 8.4,
+      "start": 14.3,
+      "end": 15.8,
+      "text": "本……我……",
+      "image": "assets/captions/004.png"
+    },
+    {
+      "id": 8,
+      "segment": 1,
+      "local_start": 8.46,
+      "local_end": 9.08,
+      "start": 15.86,
+      "end": 16.48,
+      "text": "快撤！",
+      "image": "assets/captions/005.png"
+    },
+    {
+      "id": 9,
+      "segment": 1,
+      "local_start": 9.18,
+      "local_end": 10.22,
+      "start": 16.58,
+      "end": 17.62,
+      "text": "尊者要进入霸体了！",
+      "image": "assets/captions/006.png"
+    },
+    {
+      "id": 10,
+      "segment": 1,
+      "local_start": 10.58,
+      "local_end": 12.79,
+      "start": 17.98,
+      "end": 20.19,
+      "text": "上次破阵前，他也是这副神色。",
+      "image": "assets/captions/007.png"
+    },
+    {
+      "id": 11,
+      "segment": 1,
+      "local_start": 13.36,
+      "local_end": 14.56,
+      "start": 20.76,
+      "end": 21.96,
+      "text": "要动真格了？",
+      "image": "assets/captions/008.png"
+    },
+    {
+      "id": 12,
+      "segment": 2,
+      "local_start": 0.0,
+      "local_end": 2.65,
+      "start": 22.5,
+      "end": 25.15,
+      "text": "传说见过霸体全开的，都被抹杀了！",
+      "image": "assets/captions/009.png"
+    },
+    {
+      "id": 13,
+      "segment": 2,
+      "local_start": 2.66,
+      "local_end": 4.32,
+      "start": 25.16,
+      "end": 26.82,
+      "text": "别给我加戏啊！",
+      "image": "assets/captions/010.png"
+    },
+    {
+      "id": 14,
+      "segment": 2,
+      "local_start": 4.5,
+      "local_end": 5.93,
+      "start": 27.0,
+      "end": 28.43,
+      "text": "这谁顶得住啊？",
+      "image": "assets/captions/011.png"
+    },
+    {
+      "id": 15,
+      "segment": 2,
+      "local_start": 6.16,
+      "local_end": 7.7,
+      "start": 28.66,
+      "end": 30.2,
+      "text": "竟要以霸体指点我？",
+      "image": "assets/captions/012.png"
+    },
+    {
+      "id": 16,
+      "segment": 2,
+      "local_start": 8.0,
+      "local_end": 9.72,
+      "start": 30.5,
+      "end": 32.22,
+      "text": "还请……留手。",
+      "image": "assets/captions/013.png"
+    },
+    {
+      "id": 17,
+      "segment": 2,
+      "local_start": 10.66,
+      "local_end": 11.91,
+      "start": 33.16,
+      "end": 34.41,
+      "text": "天衡宗的迎客鹤！",
+      "image": "assets/captions/014.png"
+    },
+    {
+      "id": 18,
+      "segment": 3,
+      "local_start": 4.14,
+      "local_end": 6.83,
+      "start": 41.74,
+      "end": 44.43,
+      "text": "谢道友恕罪，老夫来迟了。",
+      "image": "assets/captions/015.png"
+    },
+    {
+      "id": 19,
+      "segment": 3,
+      "local_start": 7.16,
+      "local_end": 9.65,
+      "start": 44.76,
+      "end": 47.25,
+      "text": "镇宗大尊者，岂容你在此胡闹！",
+      "image": "assets/captions/016.png"
+    },
+    {
+      "id": 20,
+      "segment": 3,
+      "local_start": 9.72,
+      "local_end": 10.87,
+      "start": 47.32,
+      "end": 48.47,
+      "text": "师尊，弟子只是——",
+      "image": "assets/captions/017.png"
+    },
+    {
+      "id": 21,
+      "segment": 3,
+      "local_start": 10.88,
+      "local_end": 11.68,
+      "start": 48.48,
+      "end": 49.28,
+      "text": "先收了法相。",
+      "image": "assets/captions/018.png"
+    },
+    {
+      "id": 22,
+      "segment": 4,
+      "local_start": 0.0,
+      "local_end": 2.96,
+      "start": 52.7,
+      "end": 55.66,
+      "text": "请道友移驾，同赴会盟。",
+      "image": "assets/captions/019.png"
+    },
+    {
+      "id": 23,
+      "segment": 4,
+      "local_start": 3.56,
+      "local_end": 5.58,
+      "start": 56.26,
+      "end": 58.28,
+      "text": "气息敛得如此干净……",
+      "image": "assets/captions/020.png"
+    },
+    {
+      "id": 24,
+      "segment": 4,
+      "local_start": 5.78,
+      "local_end": 7.58,
+      "start": 58.48,
+      "end": 60.28,
+      "text": "大尊者又精进了。",
+      "image": "assets/captions/021.png"
+    },
+    {
+      "id": 25,
+      "segment": 4,
+      "local_start": 7.74,
+      "local_end": 8.8,
+      "start": 60.44,
+      "end": 61.5,
+      "text": "道友，请坐。",
+      "image": "assets/captions/022.png"
+    },
+    {
+      "id": 26,
+      "segment": 4,
+      "local_start": 9.2,
+      "local_end": 10.04,
+      "start": 61.9,
+      "end": 62.74,
+      "text": "如此甚好。",
+      "image": "assets/captions/023.png"
+    },
+    {
+      "id": 27,
+      "segment": 4,
+      "local_start": 10.36,
+      "local_end": 12.17,
+      "start": 63.06,
+      "end": 64.87,
+      "text": "坐稳，抓紧，别往下看。",
+      "image": "assets/captions/024.png"
+    }
+  ],
+  "audio": {
+    "true_peak_dbtp": -2.6,
+    "intro_silent_peak": 0.0,
+    "full_human_listening": "not_performed",
+    "configured_bgm_gain": 0.119,
+    "effective_bgm_gain_around_cut": 0.11883625206263014,
+    "bgm_starts_seconds": 2.1,
+    "bgm_source_position_at_story_cut_seconds": 5.3,
+    "video_stream_unchanged": true,
+    "source_music_samples_match_at_cut": true
+  },
+  "picture": {
+    "resolution": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "visual_review_path": "qa/hook-review.jpg"
+  },
+  "sha256": "d26d31e1196059ad285172125b16ffee9f797386bdf5902bed10e81e46d3d9dd",
+  "intro_end": 2.1
+}

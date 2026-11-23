@@ -1,0 +1,115 @@
+{
+  "generator": "built-in image_gen",
+  "script_revision": "r2-20261117",
+  "interpretation": "用户原神按修仙语境理解为元神法相",
+  "jobs": [
+    {
+      "id": "08-A-v2",
+      "title": "白璃爆气显元神，众人退避",
+      "anchor_seconds": 5.3,
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v2.png",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png"
+      ],
+      "prompt": "16:9横屏，电影级写实仙侠CG，实体角色与木石材质采用真实摄影光线、自然表面和空气透视，法相用高质量电影体积特效。人物脸、发型、衣服、木车和棕马严格继承输入参考。画面主体只有七位既有演员，另有一个由白璃产生的巨大半透明元神法相。白璃赤棕高马尾、雾蓝劲装、深紫束腰、古铜弯刀完整收入右腰鞘；谢无咎白衣青襟、玉簪，坐在车窗内。法相约本体四倍高，仅上半身和一对手臂可见，青金色半透明体积灵雾凝成，脸部和高马尾轮廓呼应白璃，是同一个完整灵体。元神应有体积、透光、云雾遮挡和现场反光，衣褶用大形，气势宏大。法相明确在白璃正后方上空，细青金灵雾连接她的背后，清晰交代力量归属。男主手上完全没有光。无文字、水印、字幕、游戏UI、霓虹线框、卡通星光、额外真人、血迹与伤口。保持当前山门平地车道、灰褐篷顶木马车与一匹棕马的布局。\n关键帧A，白璃刚说完好那便徒手的瞬间。28mm低机位中广景，白璃在右前侧空地，两拳停在腰侧，沉肩展背，脚下气浪向四周低矮扩开，赤棕马尾和雾蓝衣摆向后扬起。她背后的巨大青金女性元神上半身已经凝实，头、肩、两条灵体手臂完整进入画面，占画面右半上方，压迫感来自尺度和实体光影。左侧白衣男主在木车窗内抬眼看巨大法相，手抓窗框；车夫此刻仍坐驾驶位，沈照月在马头旁准备牵缰，玄衡与杏衣陆青、灰绿搬货弟子在车后路侧被气势惊动，还没完全撤开。气浪通过车帘、马鬃与极少贴地薄尘表现，马蹄仍在地上。保持七个人各一个，法相只有一个，白璃本体双脚落地。输入图1锁布局，图2白璃、图3男主、图4两位劳作弟子、图5玄衡。",
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-df0c46f6-adb3-43a5-92cf-ae4d3d552513.png",
+      "sha256": "e3f36ba6dbf5a73bcd7ebe4f37c42829fbd900f818b67ec0cf71a0eaf5b35cdb",
+      "width": 1672,
+      "height": 941,
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v1.png",
+          "sha256": "a0273f065cb8d6cc50c85295030d23ccc6bef0becb915c6bd03bea0af4f4fb45",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/images-v2-segment08/superseded-frames/keyframe-08-a-v1.png"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png"
+        },
+        {
+          "index": 5,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png"
+        }
+      ],
+      "adaptation_note": "图中车夫已下地，将锚点设为5.3秒，清场下车在3–6秒发生。",
+      "visual_review": "PASS",
+      "visual_review_notes": "白璃新造型与青金半身元神同框，法相归白璃，七名实体角色可辨，主角在车内无施法，单刀在鞘。"
+    },
+    {
+      "id": "08-B-v2",
+      "title": "法相随本体起掌，众人全退",
+      "anchor_seconds": 14.2,
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v2.png",
+      "reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png"
+      ],
+      "prompt": "16:9横屏，电影级写实仙侠CG，实体角色与木石材质采用真实摄影光线、自然表面和空气透视，法相用高质量电影体积特效。人物脸、发型、衣服、木车和棕马严格继承输入参考。画面主体只有七位既有演员，另有一个由白璃产生的巨大半透明元神法相。白璃赤棕高马尾、雾蓝劲装、深紫束腰、古铜弯刀完整收入右腰鞘；谢无咎白衣青襟、玉簪，坐在车窗内。法相约本体四倍高，仅上半身和一对手臂可见，青金色半透明体积灵雾凝成，脸部和高马尾轮廓呼应白璃，是同一个完整灵体。元神应有体积、透光、云雾遮挡和现场反光，衣褶用大形，气势宏大。法相明确在白璃正后方上空，细青金灵雾连接她的背后，清晰交代力量归属。男主手上完全没有光。无文字、水印、字幕、游戏UI、霓虹线框、卡通星光、额外真人、血迹与伤口。保持当前山门平地车道、灰褐篷顶木马车与一匹棕马的布局。\n关键帧B，35mm偏低机位中广景，左边木车侧窗里男主抓着被风掀起的帘角，嘴唇闭合，眼睛望向已撤开的众人，紧绷恐慌。驾驶前座清楚地空着。右前景白璃踏前半步、举一只空掌待招，背后约四倍高的青金半身元神也举起对应的一只灵体手掌，形成大小两层同方向掌势；另一灵体手臂自然垂落，只有两条手臂，不画武器。法相头肩与抬掌轮廓清楚，半透明雾有体积，不能遮住人物脸。玄衡、杏衣陆青、棕褐头巾车夫、灰绿搬货弟子已站在远后方安全路侧，沈照月在棕马头侧牵住缰绳。气流从白璃吹向车帘，车与马留原地。输入图1锁旧构图和退人位置，图2锁同一元神设计，图3锁白璃，图4锁主角，图5锁沈照月。",
+      "status": "GENERATED",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-75326f63-79b4-4348-ac88-c405e7c0f585.png",
+      "sha256": "c80c7338795309b3a881a2bd5fada31d5656482c03deacd47683da72b0bcb493",
+      "width": 1672,
+      "height": 941,
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v1.png",
+          "sha256": "4441595632c15caf213f1e09abb558cfbc41c96a12139c68fb2aa3a7e14b76b2",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/images-v2-segment08/superseded-frames/keyframe-08-b-v1.png"
+        },
+        {
+          "index": 2,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v2.png",
+          "sha256": "e3f36ba6dbf5a73bcd7ebe4f37c42829fbd900f818b67ec0cf71a0eaf5b35cdb",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v2.png"
+        },
+        {
+          "index": 3,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png"
+        },
+        {
+          "index": 4,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png"
+        },
+        {
+          "index": 5,
+          "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png"
+        }
+      ],
+      "visual_review": "PASS",
+      "visual_review_notes": "白璃新造型与青金半身元神同框，法相归白璃，七名实体角色可辨，主角在车内无施法，单刀在鞘。"
+    }
+  ],
+  "status": "SELECTED_IMAGES_READY"
+}

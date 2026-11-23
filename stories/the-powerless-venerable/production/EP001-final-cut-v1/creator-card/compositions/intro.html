@@ -1,0 +1,16 @@
+<template>
+<style>
+@font-face{font-family:CreatorSong;src:url('assets/fonts/CreatorSongti-Light.ttf');font-weight:300;font-style:normal}
+@font-face{font-family:CreatorSerif;src:url('assets/fonts/CormorantGaramond-Italic.ttf');font-weight:300 700;font-style:italic}
+@font-face{font-family:CreatorRoman;src:url('assets/fonts/CormorantGaramond-Regular.ttf');font-weight:300 700;font-style:normal}
+#root{position:absolute;inset:0;background:#000;color:#fff}
+.design-space{position:absolute;inset:0;width:1280px;height:720px;transform:scale(3);transform-origin:top left}
+.intro-brand{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.brand-by{font-family:CreatorSerif,serif;font-style:italic;font-size:34px;font-weight:400;letter-spacing:1px;line-height:1.2;margin:0 0 18px}
+.brand-name{font-family:CreatorSong,serif;font-size:44px;font-weight:300;letter-spacing:5px;line-height:1.35;margin:0}
+.brand-latin{font-family:CreatorRoman,serif;font-size:43px;font-weight:400;letter-spacing:4px;margin-left:7px}
+.brand-rule{width:116px;height:1px;background:rgba(255,255,255,.35);margin:23px 0 18px}
+.brand-caption{font-family:CreatorRoman,serif;font-size:20px;font-weight:400;letter-spacing:3.7px;line-height:1.4;margin:0;color:#eee}
+</style>
+<div id="root" data-composition-id="intro" data-width="3840" data-height="2160" data-duration="2.1"><div class="design-space"><div id="intro-brand" class="intro-brand"><p class="brand-by">Create By</p><p class="brand-name">西瓜终结者<span class="brand-latin">AIGC</span></p><div class="brand-rule" data-layout-ignore></div><p class="brand-caption">AI-GENERATED CINEMA</p></div></div></div>
+<script>const tl=gsap.timeline({paused:true});tl.fromTo('#intro-brand',{opacity:0,y:4},{opacity:1,y:0,duration:.3,ease:'power2.out'},0);tl.to('#intro-brand',{opacity:0,duration:.3,ease:'none'},1.8);window.__timelines['intro']=tl;</script></template>

@@ -1,0 +1,1097 @@
+{
+  "story_id": "the-powerless-venerable",
+  "episode": "EP001_today-we-walk",
+  "script_version": "v3",
+  "dialogue_revision": "r1-20261117",
+  "generator": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "C01",
+      "kind": "character",
+      "character_id": "C01",
+      "name": "谢无咎",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+      "prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n27岁东方青年男性，修长端正体型，干净的长椭圆脸，细长沉静眼睛、柔和剑眉、鼻梁挺直，清俊而略显不适应身份。乌黑长发半束高髻，后发垂到背中，只用一根温润白玉直簪固定。象牙白交领宽袖长袍，深孔雀青色宽襟与领缘，青灰内衫，腰束简洁深青带和一枚青白玉佩，衣摆少量暗青云纹。肩部是柔软布料，双手空着放松，左腕普通白色内衬。唯一青霜长剑完整收入左腰墨青色素剑鞘，露小幅古银剑柄。身份是青玄宗镇宗大尊者，表情克制，有些绷着，不邪魅。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "reference_paths": [],
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-2eb89937-04ea-45f0-a301-8980c235ff3d.png",
+      "generation_reference_paths": [],
+      "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "白衣青襟与玉簪清楚，正侧背及脸部同一人，剑收左腰鞘，手自然。",
+      "generation_prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n27岁东方青年男性，修长端正体型，干净的长椭圆脸，细长沉静眼睛、柔和剑眉、鼻梁挺直，清俊而略显不适应身份。乌黑长发半束高髻，后发垂到背中，只用一根温润白玉直簪固定。象牙白交领宽袖长袍，深孔雀青色宽襟与领缘，青灰内衫，腰束简洁深青带和一枚青白玉佩，衣摆少量暗青云纹。肩部是柔软布料，双手空着放松，左腕普通白色内衬。唯一青霜长剑完整收入左腰墨青色素剑鞘，露小幅古银剑柄。身份是青玄宗镇宗大尊者，表情克制，有些绷着，不邪魅。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "generation_inputs": []
+    },
+    {
+      "id": "C02",
+      "kind": "character",
+      "character_id": "C02",
+      "name": "沈照月",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+      "prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n29岁东方女性，清晰鹅蛋脸，杏眼、平直眉、自然唇，沉着能干。深棕黑长发低束，鬓边一股细辫收进后髻，用一枚扁平矩形青玉梳固定，无额坠。穿松石青窄袖长外衫，米白交领内裙，深青束腰，裙摆垂直利落，少量银扣和腰间文书小囊。全身无甲，双手自然放松，鞋是深青短靴。姿态像负责行程与宗门内务的护法，正常健康，目光认真。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "reference_paths": [],
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-e15593fd-0793-4076-8dc6-c6576fbb6ac6.png",
+      "generation_reference_paths": [],
+      "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "青衣内务护法，低束发与矩形玉梳，四视图服装和脸一致。",
+      "generation_prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n29岁东方女性，清晰鹅蛋脸，杏眼、平直眉、自然唇，沉着能干。深棕黑长发低束，鬓边一股细辫收进后髻，用一枚扁平矩形青玉梳固定，无额坠。穿松石青窄袖长外衫，米白交领内裙，深青束腰，裙摆垂直利落，少量银扣和腰间文书小囊。全身无甲，双手自然放松，鞋是深青短靴。姿态像负责行程与宗门内务的护法，正常健康，目光认真。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "generation_inputs": []
+    },
+    {
+      "id": "C03",
+      "kind": "character",
+      "character_id": "C03",
+      "name": "白璃",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+      "prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n33岁东方女性，修长运动型身材，小麦色健康肤色，略方的成熟面部轮廓，眼尾平直、英气眉、鼻梁清楚。深赤棕色长发扎高马尾，用一枚小巧古铜圆扣束住，额前少量碎发，头上没有任何角。穿雾蓝斜襟旅行劲装长袍，靛蓝布质短护肩，袖子利落，深紫腰带，深蓝长靴。唯一弯刀完整收入右腰古铜色弯鞘，有短深紫刀穗；双手自然放松。她是邻宗同位女尊者，神情自信认真，有一点直爽，面部干净无红色画纹。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "reference_paths": [],
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-43ec781c-06d7-4354-b027-9beaff3f1eee.png",
+      "generation_reference_paths": [],
+      "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "赤棕高马尾与雾蓝衣装，古铜弯刀收鞘，角色外形独立。",
+      "generation_prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n33岁东方女性，修长运动型身材，小麦色健康肤色，略方的成熟面部轮廓，眼尾平直、英气眉、鼻梁清楚。深赤棕色长发扎高马尾，用一枚小巧古铜圆扣束住，额前少量碎发，头上没有任何角。穿雾蓝斜襟旅行劲装长袍，靛蓝布质短护肩，袖子利落，深紫腰带，深蓝长靴。唯一弯刀完整收入右腰古铜色弯鞘，有短深紫刀穗；双手自然放松。她是邻宗同位女尊者，神情自信认真，有一点直爽，面部干净无红色画纹。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "generation_inputs": []
+    },
+    {
+      "id": "C04",
+      "kind": "character",
+      "character_id": "C04",
+      "name": "玄衡",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+      "prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n54岁东方男性，厚实中等身材，较圆的宽脸、眼角自然细纹，温和但谨慎的眼睛，灰黑短须与小山羊胡，须长只到锁骨上。灰黑头发梳整齐小髻，用低矮古铜宗主冠固定。棕褐色宽袖宗主外袍，暖灰内衣，藏青色领缘和宽腰带，简洁古铜圆扣，衣摆一条低调金线。肩部是布料，无金属肩甲，左腰直剑完整收入深褐鞘。站姿端正，手自然垂落，表情像认真负责的掌门。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "reference_paths": [],
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-903f3817-ee9b-483a-bf66-5799d9d23846.png",
+      "generation_reference_paths": [],
+      "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "圆宽脸、短须、棕褐宗主袍与低古铜冠，形象独立。",
+      "generation_prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n54岁东方男性，厚实中等身材，较圆的宽脸、眼角自然细纹，温和但谨慎的眼睛，灰黑短须与小山羊胡，须长只到锁骨上。灰黑头发梳整齐小髻，用低矮古铜宗主冠固定。棕褐色宽袖宗主外袍，暖灰内衣，藏青色领缘和宽腰带，简洁古铜圆扣，衣摆一条低调金线。肩部是布料，无金属肩甲，左腰直剑完整收入深褐鞘。站姿端正，手自然垂落，表情像认真负责的掌门。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "generation_inputs": []
+    },
+    {
+      "id": "C05",
+      "kind": "character",
+      "character_id": "C05",
+      "name": "陆青",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+      "prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n19岁东方青年男性，略圆的少年脸、圆而清亮的眼睛、浓但不锋利的眉毛、小巧直鼻，朝气又容易紧张，面颊略丰润，与谢无咎有明显不同的五官。黑发束小高髻，额前短碎发，用浅褐布条系住。浅杏色朴素长外袍，米白交领底衫，茶褐束腰，腰侧小布袋和左腰收鞘练功剑，深褐布鞋。服装轻软清楚，无皮甲。双手自然放松，表情认真里带一点忐忑。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "reference_paths": [],
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-d7eef12c-98ce-4a7a-b374-af5008cfaa78.png",
+      "generation_reference_paths": [],
+      "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "圆少年脸、浅杏袍与浅褐头带，与男主面孔区分。",
+      "generation_prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张人物基准资产图，左到右正面全身、右侧面全身、背面全身三个视图等高排列，右侧附该人物同一张脸的近景。头脚完整，人物保持一致的身高、发型、服装和道具位置。\n19岁东方青年男性，略圆的少年脸、圆而清亮的眼睛、浓但不锋利的眉毛、小巧直鼻，朝气又容易紧张，面颊略丰润，与谢无咎有明显不同的五官。黑发束小高髻，额前短碎发，用浅褐布条系住。浅杏色朴素长外袍，米白交领底衫，茶褐束腰，腰侧小布袋和左腰收鞘练功剑，深褐布鞋。服装轻软清楚，无皮甲。双手自然放松，表情认真里带一点忐忑。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "generation_inputs": []
+    },
+    {
+      "id": "C06",
+      "kind": "character",
+      "character_id": "C06",
+      "name": "外门车夫与搬货弟子",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+      "prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张双人三视图基准图，上下两排、每排三个完整全身，纯灰背景。\n上下两排分别画两个全新普通宗门劳作弟子的三视图。上排车夫46岁男性，壮实宽肩、国字脸、浓眉、短胡茬，头戴黑褐布巾，穿棕褐卷袖短袍、暖灰内衣、亚麻束带、深褐长裤与布靴，宽厚手掌，表情朴实谨慎。下排搬货弟子21岁男性，身形清瘦、窄长脸、有少量自然雀斑，黑发低丸髻，穿浅灰绿短褂、米白内衫、褐腰绳、灰裤布鞋，表情机灵但恭敬。每排正面、右侧面、背面全身各一个，同排同一人，两人脸和衣色要明显不同。手空着、腰间无兵器，两人都没有皮甲。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "reference_paths": [],
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-8fe0ceaf-a49e-48b5-aa12-b3c30a5a7bec.png",
+      "generation_reference_paths": [],
+      "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "上下两排车夫与搬货弟子，各自正侧背同一人，衣色脸型可分。",
+      "generation_prompt": "全新原创人物阵容，东方仙侠电影感写实3D CG，人物五官自然、衣服大形清楚、适度精细度。横屏16:9，柔和明暗塑形，脸部清楚、克制表情，衣服用大块干净材质与少量精巧收边，浅灰棚拍背景。\n用途为《本座今日不飞》新人物三视图。生成一张双人三视图基准图，上下两排、每排三个完整全身，纯灰背景。\n上下两排分别画两个全新普通宗门劳作弟子的三视图。上排车夫46岁男性，壮实宽肩、国字脸、浓眉、短胡茬，头戴黑褐布巾，穿棕褐卷袖短袍、暖灰内衣、亚麻束带、深褐长裤与布靴，宽厚手掌，表情朴实谨慎。下排搬货弟子21岁男性，身形清瘦、窄长脸、有少量自然雀斑，黑发低丸髻，穿浅灰绿短褂、米白内衫、褐腰绳、灰裤布鞋，表情机灵但恭敬。每排正面、右侧面、背面全身各一个，同排同一人，两人脸和衣色要明显不同。手空着、腰间无兵器，两人都没有皮甲。\n表情和站姿自然。画面无文字、标注、水印、场景、法术、发光武器、游戏UI和现代服饰。不要额外人物，不画受伤、血迹、格线，适度细节，五官清楚。",
+      "generation_inputs": []
+    },
+    {
+      "id": "01-A",
+      "kind": "keyframe",
+      "segment_id": "segment_01_00-15s",
+      "segment_number": 1,
+      "character_ids": [
+        "C01",
+        "C04",
+        "C05"
+      ],
+      "anchor_seconds": 2.0,
+      "title": "袖内试法，手里空空",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第1段的单张剧情关键帧《袖内试法，手里空空》，捕捉约段内2.0秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n65mm三分之二侧面胸上近景，谢无咎脸与胸前袖内右手同时清楚可见，象牙白袖口与孔雀青领缘作画面锚点。镜头可以看进向内打开的袖口，他两指并起用力，掌心完全没有光或反应，嘴唇闭合，眼睛往手上瞄，脸上稍不适应却维持端正。左腰长剑在鞘。背景虚化的干燥石云台、短廊、冷灰云海与远山。画面只有一个谢无咎，绝不生成术法。这是人物近景，其他角色不必挤进画面。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-5b1eb797-624b-47f8-909f-a5b3558d6a04.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png"
+      ],
+      "sha256": "272156ce0b30750a78389519dd45d3c947407607affbde13c60d26a2486b1c96",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "男主白衣袖内并指，手部无灵光，脸和玉簪一致。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第1段的单张剧情关键帧《袖内试法，手里空空》，捕捉约段内2.0秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n65mm三分之二侧面胸上近景，谢无咎脸与胸前袖内右手同时清楚可见，象牙白袖口与孔雀青领缘作画面锚点。镜头可以看进向内打开的袖口，他两指并起用力，掌心完全没有光或反应，嘴唇闭合，眼睛往手上瞄，脸上稍不适应却维持端正。左腰长剑在鞘。背景虚化的干燥石云台、短廊、冷灰云海与远山。画面只有一个谢无咎，绝不生成术法。这是人物近景，其他角色不必挤进画面。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。\n输入图1锁谢无咎脸、服装和玉簪。输入图2锁同一云台石面、廊柱、山景与左侧暖光；本图对男主取近景。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+        }
+      ]
+    },
+    {
+      "id": "01-B",
+      "kind": "keyframe",
+      "segment_id": "segment_01_00-15s",
+      "segment_number": 1,
+      "character_ids": [
+        "C01",
+        "C04",
+        "C05"
+      ],
+      "anchor_seconds": 11.8,
+      "title": "尊者请登云",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第1段的单张剧情关键帧《尊者请登云》，捕捉约段内11.8秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm侧面三人中广景。云台石面在画面前下方，台外云海，后方接有短廊。谢无咎站左前景实地，身体笔直却把脚尖牢牢停在台沿内，右手藏袖。陆青在他右后方低头拱手相请，右手指向台外低浮云团，一缕极薄青光只连接陆青右指与云，说明是陆青的法术。玄衡在后方石廊口恭敬持青色折帖。主角与云相隔半步，既没有站上云也没有腾空。三位演员各一人。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-01a2941c-606c-4a81-a3d6-0e31dc5362ae.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "三人位置清楚，男主双脚在石台，陆青手指与云相连，玄衡持青帖。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第1段的单张剧情关键帧《尊者请登云》，捕捉约段内11.8秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm侧面三人中广景。云台石面在画面前下方，台外云海，后方接有短廊。谢无咎站左前景实地，身体笔直却把脚尖牢牢停在台沿内，右手藏袖。陆青在他右后方低头拱手相请，右手指向台外低浮云团，一缕极薄青光只连接陆青右指与云，说明是陆青的法术。玄衡在后方石廊口恭敬持青色折帖。主角与云相隔半步，既没有站上云也没有腾空。三位演员各一人。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。\n输入图1只锁定C01新人物外形。输入图2只锁定C04新人物外形。输入图3只锁定C05新人物外形",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ]
+    },
+    {
+      "id": "02-A",
+      "kind": "keyframe",
+      "segment_id": "segment_02_15-30s",
+      "segment_number": 2,
+      "character_ids": [
+        "C01",
+        "C04",
+        "C05"
+      ],
+      "anchor_seconds": 5.7,
+      "title": "袖内吐丝式手势",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_02_15-30s/frames/keyframe-02-a-v1.png",
+      "prompt": "生成一张16:9完整电影画面。电影感写实国风3D CG，干净大形，柔和暖边光与冷灰云海。主体只有谢无咎一人，严格继承参考图1与2的白衣青襟男主脸、白玉簪和宽袖。\n65mm近景同时拍清他的侧脸与右手，背景是参考图2同一云台廊柱和虚化远山。谢无咎穿象牙白宽袖袍、深孔雀青宽襟、青灰内衫，右手藏在自己白色大袖朝内的一侧，只有前侧摄影机看得到。中指和无名指向掌心弯起，拇指、食指、小指张开，做蜘蛛侠吐丝式弹腕。左手轻扶右袖外缘。五根手指结构自然清楚，右手只出现一只。脸努力端着但眼睛正偷看手心，嘴唇闭合。剑在左腰鞘里。\n重点是白衣男主自己在偷偷试手势。画面没有其他人物，没有蛛丝、灵光、烟、气流、现代服装、UI、字幕、文字和水印。手掌完全没有任何效果。整体克制、正常仙侠电影质感。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-acfa8f81-2179-4900-8cc3-0038379d7b3d.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-a-v1.png"
+      ],
+      "sha256": "778ec84bb925d1013b33d4708201caba8a8c11f74d13d63a9893d4242eeb3a7c",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "rejected_attempts": [
+        {
+          "path": "stories/the-powerless-venerable/production/images-v1/rejected/02-A-wrong-actor.png",
+          "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-25bf58ab-f6eb-47ec-a475-b7ef759c04a7.png",
+          "reason": "手势被画到陆青身上，主角在后方，演员归属错误"
+        }
+      ],
+      "visual_review_notes": "已重绘为男主做吐丝手势，手型可读，空掌无丝和能量。",
+      "generation_prompt": "生成一张16:9完整电影画面。电影感写实国风3D CG，干净大形，柔和暖边光与冷灰云海。主体只有谢无咎一人，严格继承参考图1与2的白衣青襟男主脸、白玉簪和宽袖。\n65mm近景同时拍清他的侧脸与右手，背景是参考图2同一云台廊柱和虚化远山。谢无咎穿象牙白宽袖袍、深孔雀青宽襟、青灰内衫，右手藏在自己白色大袖朝内的一侧，只有前侧摄影机看得到。中指和无名指向掌心弯起，拇指、食指、小指张开，做蜘蛛侠吐丝式弹腕。左手轻扶右袖外缘。五根手指结构自然清楚，右手只出现一只。脸努力端着但眼睛正偷看手心，嘴唇闭合。剑在左腰鞘里。\n重点是白衣男主自己在偷偷试手势。画面没有其他人物，没有蛛丝、灵光、烟、气流、现代服装、UI、字幕、文字和水印。手掌完全没有任何效果。整体克制、正常仙侠电影质感。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-a-v1.png",
+          "sha256": "272156ce0b30750a78389519dd45d3c947407607affbde13c60d26a2486b1c96"
+        }
+      ]
+    },
+    {
+      "id": "02-B",
+      "kind": "keyframe",
+      "segment_id": "segment_02_15-30s",
+      "segment_number": 2,
+      "character_ids": [
+        "C01",
+        "C04",
+        "C05"
+      ],
+      "anchor_seconds": 13.3,
+      "title": "尊者不动，弟子出汗",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_02_15-30s/frames/keyframe-02-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第2段的单张剧情关键帧《尊者不动，弟子出汗》，捕捉约段内13.3秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n85mm以陆青的脸、额角与半身为清晰主体，正常真实的细汗从鬓角滑下，后领小片发深，脸色紧张，眼睛来回看台前与云，手臂仍维持相请姿势。前景边缘带入谢无咎不动的象牙白袍与孔雀青领缘背影，手藏宽袖。玄衡在后方石廊口略虚化，低头检查青色折帖。三人站位与01-B一致，云仍在台外，保持相同白日和石廊。既有尊者长久沉默的压力，也有弟子不敢催促的认真。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-1de3855c-0c3d-4442-bdd8-9287066299d7.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png"
+      ],
+      "sha256": "705060ff10555bc4b1e1c2d0aa8bd58ccac46a87f534bf9ec9ee1f80b0310084",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "陆青紧张出汗，主角背影与玄衡查帖同时可辨。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第2段的单张剧情关键帧《尊者不动，弟子出汗》，捕捉约段内13.3秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n85mm以陆青的脸、额角与半身为清晰主体，正常真实的细汗从鬓角滑下，后领小片发深，脸色紧张，眼睛来回看台前与云，手臂仍维持相请姿势。前景边缘带入谢无咎不动的象牙白袍与孔雀青领缘背影，手藏宽袖。玄衡在后方石廊口略虚化，低头检查青色折帖。三人站位与01-B一致，云仍在台外，保持相同白日和石廊。既有尊者长久沉默的压力，也有弟子不敢催促的认真。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。\n输入图1是主视觉陆青（浅杏袍少年），图2是玄衡（棕袍中年掌门），图3是谢无咎（白衣青襟），图4锁同一云台与光线。取陆青紧张出汗的近景，其他两人按脚本在虚焦层次。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+        }
+      ]
+    },
+    {
+      "id": "03-A",
+      "kind": "keyframe",
+      "segment_id": "segment_03_30-45s",
+      "segment_number": 3,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05"
+      ],
+      "anchor_seconds": 4.5,
+      "title": "时辰与礼单，谁都心虚",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-a-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第3段的单张剧情关键帧《时辰与礼单，谁都心虚》，捕捉约段内4.5秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm陆青与玄衡双人中近景，谢无咎象牙白袍与孔雀青领缘的背影只占左前景少量画幅。陆青额角与后领汗湿，刚从天色收回目光，拱手低头、身体前倾，准备主动认错；玄衡在其后半步，皱眉低头检查青色会盟折帖，把封口按紧。两张脸区分清楚，未跪地。台外低云与后方短廊连续，沈照月仅在廊深处候行程，可作小幅清晰可辨人物。无可读文字，表情真实，男主没有读心法术。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-afc989af-e4a5-422c-8f18-b2ee09ad961e.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_02_15-30s/frames/keyframe-02-b-v1.png"
+      ],
+      "sha256": "567aabc87e57f41d6d126ee65536e9cf3c614b1d57bc19ac981efe33d2b0d52a",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "陆青拱手、玄衡查青帖，沈照月在廊内等待，各人脸服清楚。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第3段的单张剧情关键帧《时辰与礼单，谁都心虚》，捕捉约段内4.5秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm陆青与玄衡双人中近景，谢无咎象牙白袍与孔雀青领缘的背影只占左前景少量画幅。陆青额角与后领汗湿，刚从天色收回目光，拱手低头、身体前倾，准备主动认错；玄衡在其后半步，皱眉低头检查青色会盟折帖，把封口按紧。两张脸区分清楚，未跪地。台外低云与后方短廊连续，沈照月仅在廊深处候行程，可作小幅清晰可辨人物。无可读文字，表情真实，男主没有读心法术。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。\n输入图1陆青，图2玄衡，图3谢无咎，图4沈照月，图5同一云台环境。主要拍陆青低头拱手认错与玄衡低头看青色礼帖，主角仅在前景有白衣肩背，沈照月在廊内等候。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_02_15-30s/frames/keyframe-02-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_02_15-30s/frames/keyframe-02-b-v1.png",
+          "sha256": "705060ff10555bc4b1e1c2d0aa8bd58ccac46a87f534bf9ec9ee1f80b0310084"
+        }
+      ]
+    },
+    {
+      "id": "03-B",
+      "kind": "keyframe",
+      "segment_id": "segment_03_30-45s",
+      "segment_number": 3,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05"
+      ],
+      "anchor_seconds": 14.5,
+      "title": "本座步行，大家收剑随行",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第3段的单张剧情关键帧《本座步行，大家收剑随行》，捕捉约段内14.5秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm短廊侧面中景。谢无咎已经转身从台沿走进实地短廊，一只脚向前落地，嘴唇刚合、神色硬撑。陆青跟在其侧后，按着未出鞘的左腰剑，汗仍在额角。玄衡在后侧将自己的直剑收回左腰鞘，只能出现一把剑、剑尖即将入鞘，另一手拿青色折帖。沈照月合拢空行路线随行。台外云在身后自然退开，主角与四人都在石地，不浮空。四位演员各一人，保持廊道宽阔清楚。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-f6fe98ab-1c5f-4dcb-a027-f8180854dcac.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png"
+      ],
+      "sha256": "f154c07a4a0061ee17008f00e9c30818a7af43f6ea21bf8650b0c7eee1d2b51d",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "四人步行，玄衡收剑，鞋落石地。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第3段的单张剧情关键帧《本座步行，大家收剑随行》，捕捉约段内14.5秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm短廊侧面中景。谢无咎已经转身从台沿走进实地短廊，一只脚向前落地，嘴唇刚合、神色硬撑。陆青跟在其侧后，按着未出鞘的左腰剑，汗仍在额角。玄衡在后侧将自己的直剑收回左腰鞘，只能出现一把剑、剑尖即将入鞘，另一手拿青色折帖。沈照月合拢空行路线随行。台外云在身后自然退开，主角与四人都在石地，不浮空。四位演员各一人，保持廊道宽阔清楚。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带。\n输入图1谢无咎，图2沈照月，图3玄衡，图4陆青，图5同一石云台和短廊。四人转入廊内，男主白衣青襟在前，陆青浅杏袍跟随，棕袍玄衡收剑，松石青衣沈照月加入。主体正在走路，各人脚在石地。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C05/C05-lu-qing-new-cast-turnaround-v1.png",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_01_00-15s/frames/keyframe-01-b-v1.png",
+          "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+        }
+      ]
+    },
+    {
+      "id": "04-A",
+      "kind": "keyframe",
+      "segment_id": "segment_04_45-60s",
+      "segment_number": 4,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 6.5,
+      "title": "三千阶与没有轮子的云辇",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-a-v1.png",
+      "prompt": "编辑输入图1，保持其16:9构图、六位人物、前景华丽悬浮云辇、台阶、石栏、山路、山景和光线。\n只把画面右后方的普通运粮马车改为输入图2那一辆同样的木车：四个粗木轮，深木板车身，灰褐油布拱顶，侧面方窗和素色布帘，一匹棕马。车仍留在原图1远景原位置，比例合理，不移到前景，不遮挡六位人物。壮实黑褐头巾车夫留在马头旁，浅灰绿衣搬货弟子在尾部搬走最后一袋粮。粮袋放车尾卸下，不堆到篷顶。\n原图1白衣谢无咎指地面的动作、青衣沈照月施法、棕袍玄衡与杏袍陆青保持完整。无轮云辇仍悬浮，普通有轮木车仍落地。这是同一场景两种车的明确对比。电影感国风CG，无文字与水印。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-1c1a15fe-7141-4df4-88d3-aa7b8011c409.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/images-v1/rejected/04-A-cart-design-mismatch.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png"
+      ],
+      "sha256": "85602fcb3126d9517de0aac1b08b079386a5c51f2dac7212316a25f9e6f0d3e7",
+      "width": 1671,
+      "height": 941,
+      "visual_review": "PASS",
+      "rejected_attempts": [
+        {
+          "path": "stories/the-powerless-venerable/production/images-v1/rejected/04-A-cart-design-mismatch.png",
+          "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-ff9f31e0-132f-4a08-9b50-711a8cfdf479.png",
+          "reason": "背景运粮车为敞车，与后续有篷侧窗木车不一致"
+        }
+      ],
+      "visual_review_notes": "云辇无轮悬浮，背景木车已修为后续相同的篷顶侧窗车，台阶与车道分开。",
+      "generation_prompt": "编辑输入图1，保持其16:9构图、六位人物、前景华丽悬浮云辇、台阶、石栏、山路、山景和光线。\n只把画面右后方的普通运粮马车改为输入图2那一辆同样的木车：四个粗木轮，深木板车身，灰褐油布拱顶，侧面方窗和素色布帘，一匹棕马。车仍留在原图1远景原位置，比例合理，不移到前景，不遮挡六位人物。壮实黑褐头巾车夫留在马头旁，浅灰绿衣搬货弟子在尾部搬走最后一袋粮。粮袋放车尾卸下，不堆到篷顶。\n原图1白衣谢无咎指地面的动作、青衣沈照月施法、棕袍玄衡与杏袍陆青保持完整。无轮云辇仍悬浮，普通有轮木车仍落地。这是同一场景两种车的明确对比。电影感国风CG，无文字与水印。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/images-v1/rejected/04-A-cart-design-mismatch.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/images-v1/rejected/04-A-cart-design-mismatch.png",
+          "sha256": "1c53f15f8a0fa5ac0ba6b23b42100f446a75fd0d70388099ec9f308b8c401166"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "sha256": "b5ad4a4be1037368d14ad2a92f44f825aa1b45203560de4f505e181d91d1be97"
+        }
+      ]
+    },
+    {
+      "id": "04-B",
+      "kind": "keyframe",
+      "segment_id": "segment_04_45-60s",
+      "segment_number": 4,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 14.0,
+      "title": "有轮子的才敢坐",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第4段的单张剧情关键帧《有轮子的才敢坐》，捕捉约段内14.0秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm普通木马车侧面中景，车有四个木轮、一匹棕马、木踏板、侧窗与灰褐布帘，与04-A背景同一辆。谢无咎已经坐进车窗内，右手抓着帘边，刚想躲进去；沈照月在窗外举着小幅米色白璃拜帖等待继续报告。玄衡持较大的青色会盟折帖站在其后，陆青靠在旁边。壮实车夫在车前驾驶位旁牵缰，瘦搬货弟子在车后路侧。云辇停在远后方平台，普通马车没发动，人物头手自然，别把两封帖合并。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-18cd6d57-d45e-46a3-8e27-050550866112.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "b5ad4a4be1037368d14ad2a92f44f825aa1b45203560de4f505e181d91d1be97",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "普通木车、灰褐篷顶与方窗清楚，两封帖区分，男主在车内，车夫已坐前座。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第4段的单张剧情关键帧《有轮子的才敢坐》，捕捉约段内14.0秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm普通木马车侧面中景，车有四个木轮、一匹棕马、木踏板、侧窗与灰褐布帘，与04-A背景同一辆。谢无咎已经坐进车窗内，右手抓着帘边，刚想躲进去；沈照月在窗外举着小幅米色白璃拜帖等待继续报告。玄衡持较大的青色会盟折帖站在其后，陆青靠在旁边。壮实车夫在车前驾驶位旁牵缰，瘦搬货弟子在车后路侧。云辇停在远后方平台，普通马车没发动，人物头手自然，别把两封帖合并。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1锁山路平台和两种车的材质，图2锁四位修士新脸，图3锁谢无咎，图4锁沈照月，图5锁车夫及搬货弟子。主画面是一辆简陋运粮木马车：四个木轮、一匹棕马、粗木板低矮车厢、灰褐油布拱顶、侧面方窗与布帘，造型朴素实用。先建立后半集始终一致的这辆车；男主坐在车侧窗内，脚不悬空。华丽云辇仅在远背景。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/images-v1/rejected/04-A-cart-design-mismatch.png",
+          "sha256": "1c53f15f8a0fa5ac0ba6b23b42100f446a75fd0d70388099ec9f308b8c401166"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+          "sha256": "f154c07a4a0061ee17008f00e9c30818a7af43f6ea21bf8650b0c7eee1d2b51d"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    },
+    {
+      "id": "05-A",
+      "kind": "keyframe",
+      "segment_id": "segment_05_60-75s",
+      "segment_number": 5,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 7.7,
+      "title": "你留下，得有人会驾车",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-a-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第5段的单张剧情关键帧《你留下，得有人会驾车》，捕捉约段内7.7秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm木马车侧窗与车夫双人主关系，视线同高。谢无咎坐在窗内，脸端着，右手普通地指向窗外壮实车夫，示意你留下，手指无光。车夫在驾驶位旁捧着马鞭，先看自己再看旁边玄衡，略吃惊而恭敬。玄衡在中后景让开道路，沈照月在窗边侧后拿小拜帖，陆青被她轻轻挡在路侧；瘦搬货弟子在后侧接缰后退开。保持04-B同一棕马、四轮木车、侧窗与布帘，车仍停着。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-0c49ea71-f59e-48bb-8406-cdda58f5f7c6.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "16ff5f4221919e3ab7451a64a8df338cd27445d9c7099e16fd9246f760e432be",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "男主普通指人，车夫下车捧鞭，驾驶位暂空，六人各一。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第5段的单张剧情关键帧《你留下，得有人会驾车》，捕捉约段内7.7秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm木马车侧窗与车夫双人主关系，视线同高。谢无咎坐在窗内，脸端着，右手普通地指向窗外壮实车夫，示意你留下，手指无光。车夫在驾驶位旁捧着马鞭，先看自己再看旁边玄衡，略吃惊而恭敬。玄衡在中后景让开道路，沈照月在窗边侧后拿小拜帖，陆青被她轻轻挡在路侧；瘦搬货弟子在后侧接缰后退开。保持04-B同一棕马、四轮木车、侧窗与布帘，车仍停着。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1锁同一辆灰褐油布篷顶、木板方窗四轮车以及六个人物站位，图2男主，图3上下排车夫与搬货弟子，图4掌门，图5沈照月。车夫此刻误会自己也被遣回，已经从前座下来，站在车窗外捧着马鞭，男主右手普通地指向他，请他留下。马车驾驶位暂时空着。重点是这两人的眼神与普通指人动作，无灵光。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "sha256": "b5ad4a4be1037368d14ad2a92f44f825aa1b45203560de4f505e181d91d1be97"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        }
+      ]
+    },
+    {
+      "id": "05-B",
+      "kind": "keyframe",
+      "segment_id": "segment_05_60-75s",
+      "segment_number": 5,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 14.3,
+      "title": "专业车夫坐上前座",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第5段的单张剧情关键帧《专业车夫坐上前座》，捕捉约段内14.3秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm从马车前侧看完整驾驶位，壮实车夫一脚踏车辕刚坐稳，双手握棕马缰绳，马鞭收在手边，不抽打马。谢无咎在车侧窗内稍微放松肩背，袖内手还抓布帘。玄衡侧身让开车道，陆青想跟而被沈照月一只平常手轻挡，瘦搬货弟子退到路边。马和四轮木车造型完全继承，车没有开始跑，地面干净、山门在前方车道尽头可见。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-22a9ba9d-69b7-4f3b-bd65-e24af04f105d.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "车夫重新上座握缰，沈照月挡陆青，车与马造型连续。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第5段的单张剧情关键帧《专业车夫坐上前座》，捕捉约段内14.3秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm从马车前侧看完整驾驶位，壮实车夫一脚踏车辕刚坐稳，双手握棕马缰绳，马鞭收在手边，不抽打马。谢无咎在车侧窗内稍微放松肩背，袖内手还抓布帘。玄衡侧身让开车道，陆青想跟而被沈照月一只平常手轻挡，瘦搬货弟子退到路边。马和四轮木车造型完全继承，车没有开始跑，地面干净、山门在前方车道尽头可见。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1与2锁马车、棕马、同一平台和所有演员，图3上下排锁车夫和搬货弟子，图4男主，图5沈照月。调整摄影机到车前侧，重点看到壮实车夫重新上驾驶位握缰，和沈照月挡住想跟随的杏衣陆青，玄衡让路。主角坐车窗里，普通车四轮全落地，灰褐油布拱顶与前图一模一样。山门可在车前方远景露出。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_04_45-60s/frames/keyframe-04-b-v1.png",
+          "sha256": "b5ad4a4be1037368d14ad2a92f44f825aa1b45203560de4f505e181d91d1be97"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-a-v1.png",
+          "sha256": "16ff5f4221919e3ab7451a64a8df338cd27445d9c7099e16fd9246f760e432be"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        }
+      ]
+    },
+    {
+      "id": "06-A",
+      "kind": "keyframe",
+      "segment_id": "segment_06_75-90s",
+      "segment_number": 6,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06",
+        "C03"
+      ],
+      "anchor_seconds": 6.7,
+      "title": "刚想苟住，又来一位尊者",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-a-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第6段的单张剧情关键帧《刚想苟住，又来一位尊者》，捕捉约段内6.7秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n65mm从车窗外向内的中近景，谢无咎刚掀开灰褐布帘，嘴唇欲言又止，另一只手在内侧抓紧坐垫边缘。沈照月在窗外把米色小拜帖收好，神情正常认真。驾驶位上壮实车夫握缰，棕马安静，远处车道只有一道青石山门，两旁峭壁和山壁不能绕行。玄衡、陆青、瘦搬货弟子在后方路侧送行，可只占虚化的小位置。本帧白璃尚未出现，不提前画入。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-500951a3-787c-4b78-8375-22ee3d26e709.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "bfee8b95bdc59b09ef909292b13e39c19a986c43d872e1a134db32e70563459b",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "车窗近景对应掀帘问绕路，沈照月收小帖，前方车道经过青石拱门。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第6段的单张剧情关键帧《刚想苟住，又来一位尊者》，捕捉约段内6.7秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n65mm从车窗外向内的中近景，谢无咎刚掀开灰褐布帘，嘴唇欲言又止，另一只手在内侧抓紧坐垫边缘。沈照月在窗外把米色小拜帖收好，神情正常认真。驾驶位上壮实车夫握缰，棕马安静，远处车道只有一道青石山门，两旁峭壁和山壁不能绕行。玄衡、陆青、瘦搬货弟子在后方路侧送行，可只占虚化的小位置。本帧白璃尚未出现，不提前画入。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘。\n输入图1锁同一马车与车夫位置，图2男主，图3沈照月，图4车夫和搬货弟子。以车窗近景为主，主角和沈照月的脸清楚，篷顶、方窗布帘和旧木板严格继承。主角掀开帘问能否绕路，手指抓紧坐垫。车夫仍在前座。远处阶上门是宗门内院门，实际下山车道在右下平路经一座独立青石拱门，车辆不爬石阶。白璃尚未出镜。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+          "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    },
+    {
+      "id": "06-B",
+      "kind": "keyframe",
+      "segment_id": "segment_06_75-90s",
+      "segment_number": 6,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06",
+        "C03"
+      ],
+      "anchor_seconds": 14.4,
+      "title": "唯一山门，被白璃挡住",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第6段的单张剧情关键帧《唯一山门，被白璃挡住》，捕捉约段内14.4秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n28mm木车前侧中广景，棕马头朝前方唯一青石山门，画面能同时看见车侧窗内掀帘停住的谢无咎、前座壮实车夫和车道前方白璃。白璃深赤棕高马尾、古铜束发扣、雾蓝劲装与靛蓝布护肩，双脚刚落向实地，脚下残留一缕来自她自身的薄云，弯刀仍完整在右腰鞘内。她在距棕马鼻端三米以外路上正面站定，不攻击马。沈照月在窗旁，玄衡、陆青和瘦搬货弟子在车后路侧，正常敬重或警觉。人物全不重复，场景干净。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-fee4f2da-6181-46f1-9124-a80497362ffd.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "90575872b8b58afa6cc4a7f39cca7e3760c3be4c872da1d78ef727c73ead9ba1",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "白璃在平坦车道落地，刀在鞘，七位演员各一，马与车仍停着。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第6段的单张剧情关键帧《唯一山门，被白璃挡住》，捕捉约段内14.4秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n28mm木车前侧中广景，棕马头朝前方唯一青石山门，画面能同时看见车侧窗内掀帘停住的谢无咎、前座壮实车夫和车道前方白璃。白璃深赤棕高马尾、古铜束发扣、雾蓝劲装与靛蓝布护肩，双脚刚落向实地，脚下残留一缕来自她自身的薄云，弯刀仍完整在右腰鞘内。她在距棕马鼻端三米以外路上正面站定，不攻击马。沈照月在窗旁，玄衡、陆青和瘦搬货弟子在车后路侧，正常敬重或警觉。人物全不重复，场景干净。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘。\n输入图1锁车道、青石拱形出口与窗内外关系；图2锁完整木车与其余人；图3白璃，图4男主，图5上下排车夫和搬货弟子。镜头转至车前侧中广景，车在左，棕马朝右前青石拱门，雾蓝衣赤棕高马尾的白璃在马鼻端三米以外刚落地挡住平坦车道，脚下只有她的微弱残云，刀仍收鞘。车夫在前座，男主坐窗内，沈照月在车窗边。三位送行者可留车后路侧。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-a-v1.png",
+          "sha256": "bfee8b95bdc59b09ef909292b13e39c19a986c43d872e1a134db32e70563459b"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+          "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    },
+    {
+      "id": "07-A",
+      "kind": "keyframe",
+      "segment_id": "segment_07_90-105s",
+      "segment_number": 7,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 4.4,
+      "title": "谢道友，请赐一招",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第7段的单张剧情关键帧《谢道友，请赐一招》，捕捉约段内4.4秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm平视中景，木车侧窗在画面左侧，白璃在车前三米处居右，两人同框。谢无咎在窗内扶帘，外表努力镇定，眼睛盯住刀尖。白璃认真行平辈邀招礼，右手握唯一一把古铜色弯刀，刀刃横在自己身前、尖朝远离棕马和车夫的空地，不朝平民。她站地面，刀周只有非常克制的气流。壮实车夫在前座握缰，其他四人退在车后路侧看，不跪白璃。保持同一车、马、山门与光线。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-78be13a1-eeb9-430a-b9a0-fa4c69f71bbf.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png"
+      ],
+      "sha256": "2b1614616f45329940f2dcbf72ad121a9851dc9c52693f5c1ccf23de931ca10e",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "白璃持唯一弯刀邀招，刀尖朝空地，男主仍坐车窗内，众人平视。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第7段的单张剧情关键帧《谢道友，请赐一招》，捕捉约段内4.4秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm平视中景，木车侧窗在画面左侧，白璃在车前三米处居右，两人同框。谢无咎在窗内扶帘，外表努力镇定，眼睛盯住刀尖。白璃认真行平辈邀招礼，右手握唯一一把古铜色弯刀，刀刃横在自己身前、尖朝远离棕马和车夫的空地，不朝平民。她站地面，刀周只有非常克制的气流。壮实车夫在前座握缰，其他四人退在车后路侧看，不跪白璃。保持同一车、马、山门与光线。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1锁同一木车、棕马、青石拱门与七个人的位置，图2白璃的脸和雾蓝衣装，图3男主，图4车夫与搬货弟子，图5其余修士新脸。平视拍白璃与窗内谢无咎，白璃右手出鞘一把弯刀横在自己身前作邀招礼，右腰只有空刀鞘，刀尖指向右侧空地，离棕马和其他人有安全距离。别把刀画在男主手里。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_06_75-90s/frames/keyframe-06-b-v1.png",
+          "sha256": "90575872b8b58afa6cc4a7f39cca7e3760c3be4c872da1d78ef727c73ead9ba1"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_03_30-45s/frames/keyframe-03-b-v1.png",
+          "sha256": "f154c07a4a0061ee17008f00e9c30818a7af43f6ea21bf8650b0c7eee1d2b51d"
+        }
+      ]
+    },
+    {
+      "id": "07-B",
+      "kind": "keyframe",
+      "segment_id": "segment_07_90-105s",
+      "segment_number": 7,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 13.4,
+      "title": "不动兵器，被听成别的意思",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第7段的单张剧情关键帧《不动兵器，被听成别的意思》，捕捉约段内13.4秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n65mm车窗内外双人中近景。谢无咎坐窗内，向白璃举起左手空掌示停，手指完整自然，掌心不发光，右手在车内暗抓坐垫边缘；嘴微张，正努力说修仙话，神情有一点勉强。白璃看向他的空掌认真点头，右手把唯一弯刀转向右腰鞘口，刀尖正入鞘，刀绝不变成两把，左手仍空着。其他人在远后景即可，马车、棕马与唯一山门一致。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-2cf0e1d3-d00a-47a7-9ca9-0a3a15a98450.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png"
+      ],
+      "sha256": "6e02a09c5bd16455fe4b28d8f7d093887f533445f26e43eb39f697bed72f47a6",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "男主空掌示停，白璃正收单刀入鞘，两人脸清楚，无男主法术。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第7段的单张剧情关键帧《不动兵器，被听成别的意思》，捕捉约段内13.4秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n65mm车窗内外双人中近景。谢无咎坐窗内，向白璃举起左手空掌示停，手指完整自然，掌心不发光，右手在车内暗抓坐垫边缘；嘴微张，正努力说修仙话，神情有一点勉强。白璃看向他的空掌认真点头，右手把唯一弯刀转向右腰鞘口，刀尖正入鞘，刀绝不变成两把，左手仍空着。其他人在远后景即可，马车、棕马与唯一山门一致。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1锁双方站位和马车山门，图2白璃，图3谢无咎，图4沈照月，图5车身。把摄影机推进到窗内外双人近景，谢无咎举左手空掌表示先停，五指清楚、无光，右手在车内抓垫子。白璃看见后点头，正把手中唯一弯刀的尖端放进右腰刀鞘，右手刀柄、刀身、鞘口的关系真实，只有一把刀。两张脸是主视觉，其他人只占背景。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+          "sha256": "2b1614616f45329940f2dcbf72ad121a9851dc9c52693f5c1ccf23de931ca10e"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_05_60-75s/frames/keyframe-05-b-v1.png",
+          "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+        }
+      ]
+    },
+    {
+      "id": "08-A",
+      "kind": "keyframe",
+      "segment_id": "segment_08_105-120s",
+      "segment_number": 8,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 5.3,
+      "title": "掌门清场，把车夫也撤了",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第8段的单张剧情关键帧《掌门清场，把车夫也撤了》，捕捉约段内5.3秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm木车前侧中广景。白璃已将弯刀完整收进右腰鞘，双手空着准备徒手，站在车前的空地上。玄衡一只手护住陆青，带着瘦搬货弟子和刚离开驾驶位的壮实车夫退往路侧；车夫一脚刚落地，驾驶位已空。沈照月在棕马头侧牵住缰绳安抚，谢无咎在侧窗内朝离开的车夫伸出一半的手，马上想缩回去。所有七位演员各一人，动作清楚，没有乱跑的人海。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-0b582abf-6ce1-4892-b866-adc2b6e6b6bf.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-b-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "a0273f065cb8d6cc50c85295030d23ccc6bef0becb915c6bd03bea0af4f4fb45",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "玄衡带三人撤离，沈照月牵马，前座已空，白璃刀在鞘。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第8段的单张剧情关键帧《掌门清场，把车夫也撤了》，捕捉约段内5.3秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n35mm木车前侧中广景。白璃已将弯刀完整收进右腰鞘，双手空着准备徒手，站在车前的空地上。玄衡一只手护住陆青，带着瘦搬货弟子和刚离开驾驶位的壮实车夫退往路侧；车夫一脚刚落地，驾驶位已空。沈照月在棕马头侧牵住缰绳安抚，谢无咎在侧窗内朝离开的车夫伸出一半的手，马上想缩回去。所有七位演员各一人，动作清楚，没有乱跑的人海。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1锁场景与全部演员，图2锁谢无咎和白璃近景，图3上下排车夫与搬货弟子，图4玄衡，图5沈照月。全图只有七人。棕马前座已经空了，车夫从前座下地跟着玄衡和陆青向路侧退，灰绿搬货弟子也退，沈照月走到马头一侧握缰安抚。白璃唯一弯刀完整在右腰鞘里，双手空着。男主坐窗内，看着司机离开伸出半只手。空前座要清楚。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-a-v1.png",
+          "sha256": "2b1614616f45329940f2dcbf72ad121a9851dc9c52693f5c1ccf23de931ca10e"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-b-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_07_90-105s/frames/keyframe-07-b-v1.png",
+          "sha256": "6e02a09c5bd16455fe4b28d8f7d093887f533445f26e43eb39f697bed72f47a6"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C04/C04-xuanheng-new-cast-turnaround-v1.png",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        }
+      ]
+    },
+    {
+      "id": "08-B",
+      "kind": "keyframe",
+      "segment_id": "segment_08_105-120s",
+      "segment_number": 8,
+      "character_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "anchor_seconds": 14.2,
+      "title": "她认真起掌，他连司机都没了",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-b-v1.png",
+      "prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第8段的单张剧情关键帧《她认真起掌，他连司机都没了》，捕捉约段内14.2秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm车前右侧中景，白璃在右前景半侧身，空手立一掌，前脚向实地踏半步但还没击出，弯刀完整在右腰鞘。由她掌侧产生一缕克制气流，吹起木车侧窗的灰褐布帘，方向明确从她到帘。谢无咎在左侧车窗内坐着，面上硬撑平静，袖内手抓紧帘角，眼神紧张；他双手无光、没有屏障。驾驶位明显空着。沈照月在马头侧牵马，玄衡、陆青、壮实车夫、瘦搬货弟子在较远路侧，人物数量准确。棕马镇定，背景仍是同一道青石山门。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。",
+      "status": "GENERATED",
+      "cast_design_version": "new-cast-v1",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-b8584e84-193d-424e-840b-5ee41cc474f7.png",
+      "generation_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png"
+      ],
+      "sha256": "4441595632c15caf213f1e09abb558cfbc41c96a12139c68fb2aa3a7e14b76b2",
+      "width": 1672,
+      "height": 941,
+      "visual_review": "PASS",
+      "visual_review_notes": "白璃空手起掌，风掀帘，男主抓帘、驾驶位空，七人无重复。",
+      "generation_prompt": "电影感写实国风3D CG，人物严格继承本轮新阵容三视图中的脸、发型、服装。横屏16:9。画面干净有秩序，冷灰蓝云海与柔暖侧逆光，适度精细度，衣甲用清楚的大块形体和少量雕花，避免过锐、鳞片网纹、密集微纹理。无文字、标注、格线、水印、字幕、现代物品、游戏UI、Q版、歪嘴或卡通汗滴。\n用途是《本座今日不飞》EP001第8段的单张剧情关键帧《她认真起掌，他连司机都没了》，捕捉约段内14.2秒。生成一张完整电影画面，绝不是分镜拼贴或角色三视图。\n输入参考的角色三视图只继承脸、发型、服装，图上的多视角只代表同一人，剧情中每位各一人。追加的前帧参考只锁空间、车辆和光线。\n50mm车前右侧中景，白璃在右前景半侧身，空手立一掌，前脚向实地踏半步但还没击出，弯刀完整在右腰鞘。由她掌侧产生一缕克制气流，吹起木车侧窗的灰褐布帘，方向明确从她到帘。谢无咎在左侧车窗内坐着，面上硬撑平静，袖内手抓紧帘角，眼神紧张；他双手无光、没有屏障。驾驶位明显空着。沈照月在马头侧牵马，玄衡、陆青、壮实车夫、瘦搬货弟子在较远路侧，人物数量准确。棕马镇定，背景仍是同一道青石山门。\n关键连续性：谢无咎当前没有任何仙力、护体或飞行能力，一切无效手势都是普通人动作，嘴唇在心声时闭合。门人正常认真，幽默由反差动作与紧张产生。全员无旧伤无血，武器及手掌不要自带强光。\n本轮人物外形锁定：谢无咎穿象牙白宽袖长袍、深孔雀青领缘、白玉直簪；沈照月穿松石青窄袖外衫和米白内裙、矩形玉梳；白璃穿雾蓝劲装、靛蓝布护肩，深赤棕高马尾古铜扣，右腰古铜弯刀鞘；玄衡穿棕褐宗主袍、藏青领缘，圆宽脸灰黑短须与低古铜冠；陆青穿浅杏长袍、茶褐束腰，圆少年脸与浅褐布头带；外门车夫与搬货弟子穿车夫棕褐卷袖短袍黑褐头巾、搬货弟子浅灰绿短褂低丸髻。\n输入图1锁清场后七人的位置、空前座、木车、棕马和青石山门。图2男主，图3白璃，图4沈照月，图5车夫与搬货弟子。摄影机推进、同时拍到右前景白璃空手起掌和左边窗内男主抓帘，两人眼神清楚。白璃向前踏半步，掌还没击出。风只通过灰褐布帘朝车内掀起表现，掌侧轻微空气折射即可，不画能量射线。主角袖内手紧抓帘、另一手空着，手上完全无光。驾驶前座明确空着。其余人物已在路侧或牵马，不能再坐到前座。",
+      "generation_inputs": [
+        {
+          "index": 1,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/segment_08_105-120s/frames/keyframe-08-a-v1.png",
+          "sha256": "a0273f065cb8d6cc50c85295030d23ccc6bef0becb915c6bd03bea0af4f4fb45"
+        },
+        {
+          "index": 2,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C01/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 3,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C03/C03-bai-li-new-cast-turnaround-v1.png",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 4,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C02/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "path_at_submission": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "retained_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/assets/characters/C06/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    }
+  ],
+  "cast_design_version": "new-cast-v1",
+  "discarded_attempts": [
+    {
+      "id": "C01-old-template",
+      "source_path": "/Users/kaiyi.wang/.codex/generated_images/01a1e35b-cece-7ee3-ada0-92c56ce2c584/exec-7e342a51-3406-48b3-b792-7a95558d488d.png",
+      "reason": "用户要求换全新人物阵容，不采用旧模板"
+    }
+  ],
+  "status": "SELECTED_IMAGES_READY"
+}

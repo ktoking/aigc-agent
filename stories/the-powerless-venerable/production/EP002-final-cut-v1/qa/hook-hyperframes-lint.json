@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 1,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "timeline_track_too_dense",
+      "severity": "warning",
+      "message": "This HTML file has 24 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+      "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate.",
+      "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP002-final-cut-v1/compositions/captions.html"
+    }
+  ],
+  "filesScanned": 2,
+  "unmountedCompositions": [],
+  "_meta": {
+    "version": "0.9.65",
+    "updateAvailable": false,
+    "skillsOutdated": 6,
+    "skillsMissing": 0
+  }
+}

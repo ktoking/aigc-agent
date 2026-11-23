@@ -1,0 +1,13 @@
+{
+  "id": "S03_FIRST",
+  "path": "episodes/EP001_no-more-chasing/segment_03_30-45s/frames/first-frame.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-eb853cd8-851f-40de-96e1-8f71ffa0aaf4.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/DESK/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 exact Su identity and WHITE BLOUSE BLACK TROUSERS, image2 home desk and attached bedroom lighting, image3 NAVY CLOSED RING BOX design only. New shot after wardrobe change, SAME woman seated at home desk viewing personal assets on slim laptop. Laptop screen only soft gray table rows, no readable words or exact money. One closed navy box beside two paper agreement copies, black pen and black phone. Left hand visible without ring, right hand on trackpad. Medium three-quarter portrait includes face and clear working desk; camera outside screen so no duplicate person on laptop. Warm daylight, calm practical focus.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

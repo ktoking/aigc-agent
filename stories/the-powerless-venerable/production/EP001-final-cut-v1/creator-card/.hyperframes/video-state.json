@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "historyId": "ab8113fd-1b1a-46c2-aa7c-da802444d0d4",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/fonts/CormorantGaramond-Italic.ttf": {
+      "hash": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/0f/0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    "assets/fonts/CormorantGaramond-OFL.txt": {
+      "hash": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/60/60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    "assets/fonts/CreatorSongti-Light.ttf": {
+      "hash": "def13661f3940c73c288c79ffaf50336763a14822ef12c4a62b37391247b8d62",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/de/def13661f3940c73c288c79ffaf50336763a14822ef12c4a62b37391247b8d62"
+    },
+    "compositions/intro.html": {
+      "hash": "9ce96ec30bf28db68c7e124b8dd7732684d63acb2b9ece28a5f507bd2cf95150",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/9c/9ce96ec30bf28db68c7e124b8dd7732684d63acb2b9ece28a5f507bd2cf95150"
+    },
+    "hyperframes.json": {
+      "hash": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/35/35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    "index.html": {
+      "hash": "90238ce0392a912a2ad66f21a3388c203e2ba40e035e8f5b0ce0d2d7239c8533",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/90/90238ce0392a912a2ad66f21a3388c203e2ba40e035e8f5b0ce0d2d7239c8533"
+    },
+    "package.json": {
+      "hash": "984289c54d09602779f30765eec58f01ed4b4ad8680fb468e8d3bec37785ab95",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/98/984289c54d09602779f30765eec58f01ed4b4ad8680fb468e8d3bec37785ab95"
+    },
+    "assets/fonts/CormorantGaramond-Regular.ttf": {
+      "hash": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/b2/b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    "assets/fonts/PingFang.ttc": {
+      "hash": "8320b6e1abb8e82da13109ae91d74854fd800a320f62f8b5c038a4a3635dacdc",
+      "content": "/Users/kaiyi.wang/.cache/hyperframes/history/ab8113fd-1b1a-46c2-aa7c-da802444d0d4/blobs/83/8320b6e1abb8e82da13109ae91d74854fd800a320f62f8b5c038a4a3635dacdc"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "e14a47ea-02aa-4696-a6d8-4d0f823c0989"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "e14a47ea-02aa-4696-a6d8-4d0f823c0989",
+        "scope": "project",
+        "report": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/creator-card/.hyperframes/artifacts/checks/e14a47ea-02aa-4696-a6d8-4d0f823c0989.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794908117516,
+        "contentHash": "d59e80f0c1e2021a73ab42c57ff3d8a3efb08e989b7cbfaf4ef0197ee670d23e",
+        "revision": null,
+        "inputFingerprint": "02a5a112e64a8ec7ff4983bfe374abccbaf7f4ee5e6ff61899dd3449b12245e6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "68746685-1b28-4a1d-a071-ac635b78ab1d-2"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "68746685-1b28-4a1d-a071-ac635b78ab1d-0",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/creator-card/.hyperframes/artifacts/snapshots/0534020e-3b37-47db-bf12-039cdbb61347/frame-00-at-0.6s.png",
+        "time": 0.6,
+        "metadata": {
+          "width": 3840,
+          "height": 2160,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794908124263,
+        "contentHash": "673be13d3a879f1a088983526f0fc1ffab7e02c8bd4258493e095e46955a9c2a",
+        "revision": null,
+        "inputFingerprint": "02a5a112e64a8ec7ff4983bfe374abccbaf7f4ee5e6ff61899dd3449b12245e6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "68746685-1b28-4a1d-a071-ac635b78ab1d-1",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/creator-card/.hyperframes/artifacts/snapshots/0534020e-3b37-47db-bf12-039cdbb61347/frame-01-at-1.7s.png",
+        "time": 1.7,
+        "metadata": {
+          "width": 3840,
+          "height": 2160,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794908124263,
+        "contentHash": "673be13d3a879f1a088983526f0fc1ffab7e02c8bd4258493e095e46955a9c2a",
+        "revision": null,
+        "inputFingerprint": "02a5a112e64a8ec7ff4983bfe374abccbaf7f4ee5e6ff61899dd3449b12245e6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "68746685-1b28-4a1d-a071-ac635b78ab1d-2",
+        "image": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/creator-card/.hyperframes/artifacts/snapshots/0534020e-3b37-47db-bf12-039cdbb61347/frame-02-at-2.037s.png",
+        "time": 2.037,
+        "metadata": {
+          "width": 3840,
+          "height": 2160,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794908124263,
+        "contentHash": "948a4c28aad4e89c198fadec9908a5e984ba1a5bf59e7f4530c2916318f55252",
+        "revision": null,
+        "inputFingerprint": "02a5a112e64a8ec7ff4983bfe374abccbaf7f4ee5e6ff61899dd3449b12245e6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "5f1f5bd5-5eb2-487e-a615-7e5e57db8abe",
+      "completedAt": 1794908216408,
+      "output": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/creator-intro-4k.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

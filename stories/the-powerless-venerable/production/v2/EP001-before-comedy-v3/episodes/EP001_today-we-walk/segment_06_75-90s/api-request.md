@@ -1,0 +1,15 @@
+# 第06段任务状态
+
+NOT_SUBMITTED。当前只是剧本设计＋演员三视图。未生成新剧情帧、配音或视频。
+
+意图：15秒，16:9。候选模型、15秒支持及实际输入数量均在进入制作时核验，不填假任务ID。
+
+已有角色参考：
+参考图1＝frames/C01-xie-wujiu-reference.png：谢无咎身份与服装，不复制多视图实体。
+参考图2＝frames/C02-shen-zhaoyue-reference.png：沈照月身份与服装，不复制多视图实体。
+参考图3＝frames/C04-xuanheng-reference.png：玄衡身份与服装，不复制多视图实体。
+参考图4＝frames/C05-lu-qing-reference.png：陆青身份与服装，不复制多视图实体。
+参考图5＝frames/C06-two-guards-reference.png：外门车夫与搬货弟子身份与服装，不复制多视图实体。
+参考图6＝frames/C03-bai-li-reference.png：白璃身份与服装；只在本段末作为来访者御空落下，不是主角施法。
+
+最终输入应为2张关键帧＋实际出场人物三视图，均放本段frames；补帧后同步导演文本及编号。

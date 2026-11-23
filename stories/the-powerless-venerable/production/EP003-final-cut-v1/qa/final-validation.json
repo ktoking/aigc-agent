@@ -1,0 +1,46 @@
+{
+  "technical": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "30/1",
+        "nb_frames": "2034"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "nb_frames": "3180"
+      }
+    ],
+    "format": {
+      "duration": "67.800000"
+    }
+  },
+  "source_order": [
+    "都站着，等谁开口.mp4",
+    "都站着，等谁开口 (1).mp4",
+    "《一个时辰，谁也不敢先下课》视频制作 (1).mp4",
+    "《一个时辰，谁也不敢先下课》视频制作.mp4"
+  ],
+  "subtitle_count": 22,
+  "intro_peak": 0.0,
+  "full_decode": "PASS",
+  "ending_black": "PASS",
+  "song_timeline_single_track": true,
+  "waveform_unchanged_at_story_boundary": true,
+  "music_source_position_at_story_cut_seconds": 5.3,
+  "effective_gain_at_cut": 0.11880405146035064,
+  "configured_bgm_gain": 0.119,
+  "fixed_master_gain": 1.0,
+  "final_true_peak_dbtp": -2.5,
+  "sha256": "6c8875e2e9c40ccec32556f5bd16c569c94bc1ef977eae97aadc719490e682be",
+  "full_human_audio_review": "not_performed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "SU_GOWN",
+  "path": "assets/characters/SU/reference-gown-v1.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-55d7194b-65d1-4a1f-a79f-2507a430e74e.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Input1 is exact identity and board layout reference. Preserve SAME female face, brown eyes, long middle-parted black hair, age24, silver studs and body proportions. Change ONLY clothing: elegant black floor-length sleeveless formal evening gown with modest square neckline, tailored flowing satin skirt, black modest heels. No fire or smoke on this wardrobe reference, no jewelry besides existing studs, no ring. Landscape 3:2 coherent reference board large portrait left, same woman front side back fullbody right. Dark warm-gray seamless studio. Do not create another identity.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

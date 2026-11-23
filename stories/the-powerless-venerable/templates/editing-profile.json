@@ -1,0 +1,107 @@
+{
+  "version": "2026-11-18-continuous-bgm-v4",
+  "scope": "本座今日不飞故事包后期成片",
+  "canvas": {
+    "aspect_ratio": "16:9",
+    "resolution": "match_source",
+    "fps": 30
+  },
+  "series_cold_open": {
+    "from_episode": 2,
+    "position": "after_creator_intro_before_story",
+    "start_seconds": 2.1,
+    "duration_seconds": 5.3,
+    "source_episode": "EP001_today-we-walk",
+    "source_master_range_seconds": [2.1, 7.4],
+    "asset": "assets/branding/series-cold-open/EP001_穿越自述_4K.mp4",
+    "subtitle_sidecar": "assets/branding/series-cold-open/EP001_穿越自述.srt",
+    "subtitles_burned_in": true,
+    "audio_baked_in": true,
+    "audio_contains_episode_bgm": false,
+    "transition_from_credit_card": "cut",
+    "included_in_story_duration": false
+  },
+  "intro": {
+    "duration_seconds": 2.1,
+    "template": "templates/creator-intro.html",
+    "text": [
+      "Create By",
+      "西瓜终结者 AIGC",
+      "AI-GENERATED CINEMA"
+    ],
+    "style": "black_background_white_serif",
+    "fade_in_seconds": 0.3,
+    "fade_out_seconds": 0.3,
+    "design_canvas": [
+      1280,
+      720
+    ],
+    "scale": "match_output_canvas"
+  },
+  "video": {
+    "opening_fade_seconds": 0.3,
+    "ending_fade_seconds": 0.3,
+    "dissolve_seconds": 0.2,
+    "transition_handle": "outgoing_frame_hold",
+    "dialogue_policy": "retain_complete_speech"
+  },
+  "subtitles": {
+    "enabled": true,
+    "source": "actual_audio_transcription_reviewed_against_script",
+    "base_canvas": [
+      1280,
+      720
+    ],
+    "font": "assets/branding/fonts/PingFang.ttc",
+    "font_px_at_720p": 36,
+    "bottom_container_margin_at_720p": 72,
+    "text_color": "white",
+    "background_opacity": 0.28
+  },
+  "bgm": {
+    "source": "assets/audio/bgm/Groovy-Hammond-Aiert-Erkoreka.mp3",
+    "title": "Groovy Hammond",
+    "artist": "Aiert Erkoreka",
+    "gain": 0.119,
+    "previous_gain": 0.238,
+    "relative_gain": 0.5,
+    "body_gain": "constant",
+    "start_at": "series_cold_open_if_present_else_story",
+    "continuous_across_series_cold_open_to_story": true,
+    "fade_at_series_cold_open_to_story": false,
+    "loop_to_story_end": true,
+    "loop_join_crossfade_seconds": 0.04,
+    "fade_in_seconds": 0.3,
+    "fade_out_seconds": 0.3,
+    "play_during_intro_black": false,
+    "play_during_ending_black": false,
+    "dynamic_ducking": false,
+    "editorial_rest": false,
+    "loop_source_section_seconds": [
+      0,
+      96
+    ],
+    "loop_join_method": "equal_power_crossfade"
+  },
+  "master_audio": {
+    "voice_gain": 1,
+    "normalization": "fixed_peak_trim_only",
+    "maximum_true_peak_dbtp": -1,
+    "source_audio_preparation": {
+      "integrated_lufs": -18,
+      "maximum_true_peak_dbtp": -2,
+      "lra": 10
+    }
+  },
+  "ending": {
+    "text": null,
+    "hold_black_seconds": 0
+  },
+  "delivery": {
+    "container": "mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "audio_channels": 2
+  }
+}

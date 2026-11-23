@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/本座今日不飞-固定配乐优雅片头版-v3.mp4",
+  "bytes": 59565364,
+  "sha256": "f15941394cc9b3b3d79c3282c853eec24dfd173e26dbf4514d6e5fae98ce12cc",
+  "duration_seconds": 62.5,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "frames": 1875,
+  "captions": 36,
+  "channel_gain_before": 0.28,
+  "channel_gain_after": 0.238,
+  "linear_gain_ratio": 0.85,
+  "body_gain_constant": true,
+  "body_waveform_max_error": 3.051839303225279e-05,
+  "reference_pcm_encoding": "源曲按标准16位PCM幅值范围转换",
+  "dynamic_ducking": false,
+  "music_rests": false,
+  "master_fixed_peak_trim_db": -0.030000000000000027,
+  "integrated_lufs": -18.02,
+  "true_peak_dbtp": -1.99,
+  "opening_black_rms_dbfs": -240.0,
+  "ending_black_rms_dbfs": -119.67,
+  "audio_review": "响度及音量曲线测量，未经人工试听",
+  "intro_text": [
+    "Create By",
+    "西瓜终结者 AIGC",
+    "AI-GENERATED CINEMA"
+  ],
+  "production_source_hashes_match_initial_inputs": true,
+  "full_decode": "PASS",
+  "decoded_frame_visual_review": "PASS",
+  "rendered_music_coefficient_range": [
+    0.23514,
+    0.23787
+  ],
+  "rendered_fixed_gain_check": "PASS"
+}

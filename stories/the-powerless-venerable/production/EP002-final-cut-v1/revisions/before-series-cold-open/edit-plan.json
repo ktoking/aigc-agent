@@ -1,0 +1,98 @@
+{
+  "episode": "EP002_just_a_frown",
+  "duration": 62.5,
+  "intro_duration": 2.1,
+  "body_duration": 60.4,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "profile": "../../templates/editing-profile.json",
+  "segments": [
+    {
+      "segment": 1,
+      "source_filename": "EP002第01段《尊者皱眉了》视频制作.mp4",
+      "local": "assets/source/segment-01.mp4",
+      "title": "尊者皱眉了",
+      "source_duration": 15.092971,
+      "source_resolution": [
+        3840,
+        2160
+      ],
+      "source_fps": "24/1",
+      "global_start": 2.1,
+      "duration": 15.1,
+      "sha256": "700bb906979f4a490014a8c98ac0257ae5ab02c01eaf1a21adaca43bffb46e83"
+    },
+    {
+      "segment": 2,
+      "source_filename": "EP002第01段《尊者皱眉了》视频制作 (1).mp4",
+      "local": "assets/source/segment-02.mp4",
+      "title": "传闻越说越吓人",
+      "source_duration": 15.092971,
+      "source_resolution": [
+        3840,
+        2160
+      ],
+      "source_fps": "24/1",
+      "global_start": 17.2,
+      "duration": 15.1,
+      "sha256": "56a81846ca3736f309ba96555b27e7f8d2ea52ac19b416876d8f6fda17bd9bc4"
+    },
+    {
+      "segment": 3,
+      "source_filename": "老宗师先赔了罪.mp4",
+      "local": "assets/source/segment-03.mp4",
+      "title": "老宗师先赔了罪",
+      "source_duration": 15.092971,
+      "source_resolution": [
+        3840,
+        2160
+      ],
+      "source_fps": "24/1",
+      "global_start": 32.3,
+      "duration": 15.1,
+      "sha256": "be53e61828bc93a695b54d0b6155d296d40a0951a98aaa54dad908529656545e"
+    },
+    {
+      "segment": 4,
+      "source_filename": "老宗师先赔了罪 (1).mp4",
+      "local": "assets/source/segment-04.mp4",
+      "title": "如此甚好",
+      "source_duration": 15.092971,
+      "source_resolution": [
+        3840,
+        2160
+      ],
+      "source_fps": "24/1",
+      "global_start": 47.4,
+      "duration": 15.1,
+      "sha256": "e0df534d6d6f3e0bcbbc9e935252b039b523b424284c30d4caad8d63f668fe4b"
+    }
+  ],
+  "transitions": {
+    "duration": 0.2,
+    "outgoing_frame_hold": true,
+    "incoming_global_starts": [
+      17.2,
+      32.3,
+      47.4
+    ]
+  },
+  "input_burned_captions": {
+    "status": "cleaned",
+    "segment": 1,
+    "source_seconds": [
+      13.25,
+      14.65
+    ],
+    "region": [
+      1634,
+      1942,
+      575,
+      147
+    ],
+    "text": "要动真格了"
+  }
+}

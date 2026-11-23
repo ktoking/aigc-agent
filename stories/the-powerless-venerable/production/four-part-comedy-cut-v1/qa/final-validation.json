@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "file": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/本座今日不飞-搞笑配乐字幕版.mp4",
+  "bytes": 59734796,
+  "sha256": "bc9723400e20dc711abec39b7b68cba4335713c1b4e6eb4e34e3448185f67ef3",
+  "duration_seconds": 65.5,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "frames": 1965,
+  "captions": 36,
+  "dissolve_seconds": 0.2,
+  "picture_fade_seconds": 0.3,
+  "bgm_fade_seconds": 0.3,
+  "integrated_lufs": -16.03,
+  "true_peak_dbtp": -1.99,
+  "full_decode": "PASS",
+  "first_and_last_frame": "BLACK",
+  "input_files_unchanged": true,
+  "sampled_frames": [
+    {
+      "seconds": 0,
+      "mean_rgb": 0.0,
+      "max_rgb": 0
+    },
+    {
+      "seconds": 0.15,
+      "mean_rgb": 0.785,
+      "max_rgb": 149
+    },
+    {
+      "seconds": 0.35,
+      "mean_rgb": 1.404,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 1,
+      "mean_rgb": 1.404,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 2.2,
+      "mean_rgb": 37.643,
+      "max_rgb": 94
+    },
+    {
+      "seconds": 5.7,
+      "mean_rgb": 120.448,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 17.3,
+      "mean_rgb": 107.293,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 20.3,
+      "mean_rgb": 128.887,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 26.6,
+      "mean_rgb": 135.443,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 32.4,
+      "mean_rgb": 104.136,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 39.7,
+      "mean_rgb": 107.277,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 47.5,
+      "mean_rgb": 100.524,
+      "max_rgb": 221
+    },
+    {
+      "seconds": 50.5,
+      "mean_rgb": 103.088,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 60.3,
+      "mean_rgb": 97.934,
+      "max_rgb": 255
+    },
+    {
+      "seconds": 64,
+      "mean_rgb": 1.737,
+      "max_rgb": 224
+    },
+    {
+      "seconds": 65.466667,
+      "mean_rgb": 0.0,
+      "max_rgb": 0
+    }
+  ],
+  "audio_review": "转写与响度测量，未经人工试听",
+  "decoded_contact_sheet_visual_review": "PASS",
+  "rendered_speech_transcription": "已对最终混音转写，主要对白均保留，见rendered-speech-transcript.json"
+}

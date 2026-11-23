@@ -1,0 +1,82 @@
+{
+  "version": "segments-30s-v1",
+  "segment": 1,
+  "duration_seconds": 30,
+  "start_seconds": 0,
+  "end_seconds": 30,
+  "status": "reference_images_ready_video_not_submitted",
+  "reference_count": 10,
+  "inputs": [
+    {
+      "order": 1,
+      "file": "first-frame.png",
+      "role": "0秒首帧状态，只定义段首",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_01_00-15s/frames/first-frame.png",
+      "sha256": "a2550ef67ec7a77dfe818ef32454bc942523202fee3d0e66f332ab1e1a269488"
+    },
+    {
+      "order": 2,
+      "file": "last-frame.png",
+      "role": "30秒目标尾帧状态，不得提前出现尾段动作",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/last-frame.png",
+      "sha256": "355d74d3784cf30a7fc55b03079fb3f9d85a758be67481b77f874ed64a195085"
+    },
+    {
+      "order": 3,
+      "file": "keyframe_before-15s.png",
+      "role": "约15秒前的内部关键状态，按对应镜头使用",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_01_00-15s/frames/last-frame.png",
+      "sha256": "574a85bf476066300fc1b38ece5919cd94a8543f2f85d0518459b0c00eadeb67"
+    },
+    {
+      "order": 4,
+      "file": "keyframe_after-15s.png",
+      "role": "约15秒后的内部关键状态，作为中段节拍参考",
+      "source": "episodes/EP001_no-more-chasing/archive/segments-15s/segment_02_15-30s/frames/first-frame.png",
+      "sha256": "4c04645cd20f086194ba0d6760b12ef2486bf4de4cfa68b884b8f10d68427270"
+    },
+    {
+      "order": 5,
+      "file": "ref-su-sleep.png",
+      "role": "只锁苏晚棠脸、长发、耳钉与卧室米白睡衣；参考板多视图不复制到成片",
+      "source": "assets/characters/SU/reference-sleepwear-v1.png",
+      "sha256": "24c4d4fa27f8c12f8d8910f7d4c90d3647750d432f47eefb76f351f599c14f6a"
+    },
+    {
+      "order": 6,
+      "file": "ref-su-gown.png",
+      "role": "只锁10—15秒原书记忆中的同一女主与黑礼服；不把礼服带回卧室",
+      "source": "assets/characters/SU/reference-gown-v1.png",
+      "sha256": "e8a72fa3597c42454efbf981ec90a649f3091338c97fac22bf361daaa5641ff4"
+    },
+    {
+      "order": 7,
+      "file": "ref-bedroom.png",
+      "role": "卧室布局、自然光、床和镜子",
+      "source": "assets/scenes/BED/reference-v1.png",
+      "sha256": "cf94eb4d71080256e03c3e03b339700bd720da11c94376086be28a8dd395c1a4"
+    },
+    {
+      "order": 8,
+      "file": "ref-fire-hall.png",
+      "role": "仅10—15秒生日宴记忆的空间与火烟，其他时间不得出现火烟",
+      "source": "assets/scenes/FIRE/reference-v1.png",
+      "sha256": "2b4cc5af4ea5a857060c0941542f183877bc1b4df2cf9a72920dc3464081bd33"
+    },
+    {
+      "order": 9,
+      "file": "ref-ring.png",
+      "role": "一枚银色钻戒与一只深蓝戒盒，控制摘下、装盒、闭盒顺序；道具多视图只作形态参考",
+      "source": "assets/props/RING/reference-v1.png",
+      "sha256": "c2da1b6d6acc1a3fb31ae7122ce9b03cfbd1ae257af898d6c892d0f1dec853c8"
+    },
+    {
+      "order": 10,
+      "file": "ref-system.png",
+      "role": "系统二维提示与四档案卡的视觉；头像、数值和文字留后期，仅女主感知",
+      "source": "assets/props/SYSTEM/interface-v1.png",
+      "sha256": "e5ee26044c0df8e4497e40030cf32103e8f7a57e79465cd82717de9205d144a7"
+    }
+  ],
+  "rule": "本段指定十张参考图，按order1—10编号；图片为身份、空间、道具和关键状态参考，不将十张图平均机械轮播。只读取本段frames/。"
+}

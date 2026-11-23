@@ -1,0 +1,53 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/output/render-master.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Duration: 00:01:05.50, start: 0.000000, bitrate: 7238 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 7036 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_s16le
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+size=N/A time=00:00:13.50 bitrate=N/A speed=26.7x elapsed=0:00:00.50    
+size=N/A time=00:00:28.40 bitrate=N/A speed=28.1x elapsed=0:00:01.01    
+size=N/A time=00:00:43.70 bitrate=N/A speed=28.8x elapsed=0:00:01.51    
+size=N/A time=00:00:58.00 bitrate=N/A speed=28.7x elapsed=0:00:02.02    
+[Parsed_loudnorm_0 @ 0x130404410] 
+{
+	"input_i" : "-18.03",
+	"input_tp" : "-3.06",
+	"input_lra" : "6.60",
+	"input_thresh" : "-30.40",
+	"output_i" : "-15.78",
+	"output_tp" : "-2.00",
+	"output_lra" : "5.50",
+	"output_thresh" : "-27.92",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.22"
+}
+[out#0/null @ 0x130105d00] video:0KiB audio:49136KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:05.60 bitrate=N/A speed=29.3x elapsed=0:00:02.23    

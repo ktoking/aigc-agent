@@ -1,0 +1,61 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/episodes/EP001_today-we-walk/output/EP001_本座今日不飞_4K.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    title           : 本座今日不飞 第一集
+    artist          : 西瓜终结者AIGC
+    encoder         : Lavf62.3.100
+    comment         : AI-generated footage. Groovy Hammond by Aiert Erkoreka. Fixed BGM gain 0.119.
+  Duration: 00:02:02.90, start: 0.000000, bitrate: 24362 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160, 24104 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 h264_videotoolbox
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 251 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    title           : 本座今日不飞 第一集
+    artist          : 西瓜终结者AIGC
+    comment         : AI-generated footage. Groovy Hammond by Aiert Erkoreka. Fixed BGM gain 0.119.
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.11.100 pcm_s16le
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+size=N/A time=00:00:12.90 bitrate=N/A speed=25.8x elapsed=0:00:00.50    
+size=N/A time=00:00:27.40 bitrate=N/A speed=27.2x elapsed=0:00:01.00    
+size=N/A time=00:00:42.20 bitrate=N/A speed=  28x elapsed=0:00:01.50    
+size=N/A time=00:00:56.90 bitrate=N/A speed=28.2x elapsed=0:00:02.01    
+size=N/A time=00:01:03.30 bitrate=N/A speed=25.2x elapsed=0:00:02.51    
+size=N/A time=00:01:12.80 bitrate=N/A speed=24.1x elapsed=0:00:03.01    
+size=N/A time=00:01:16.90 bitrate=N/A speed=21.8x elapsed=0:00:03.52    
+size=N/A time=00:01:27.80 bitrate=N/A speed=21.8x elapsed=0:00:04.02    
+size=N/A time=00:01:41.60 bitrate=N/A speed=22.4x elapsed=0:00:04.52    
+size=N/A time=00:01:56.70 bitrate=N/A speed=23.2x elapsed=0:00:05.03    
+[Parsed_loudnorm_0 @ 0x13de0ac20] 
+{
+	"input_i" : "-19.57",
+	"input_tp" : "-1.19",
+	"input_lra" : "5.90",
+	"input_thresh" : "-29.80",
+	"output_i" : "-18.13",
+	"output_tp" : "-2.00",
+	"output_lra" : "6.40",
+	"output_thresh" : "-28.34",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.13"
+}
+[out#0/null @ 0x11de04fb0] video:0KiB audio:92176KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:02:03.00 bitrate=N/A speed=23.7x elapsed=0:00:05.18    

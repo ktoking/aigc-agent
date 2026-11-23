@@ -1,0 +1,74 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/story-dissolved-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+    comment         : vid:v0369cg10004dbu1d727dld1144qso5g
+  Duration: 00:02:00.80, start: 0.000000, bitrate: 24085 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160, 24083 kb/s, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 h264_videotoolbox
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/creator-intro-4k.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.9.59
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.3.100
+  Duration: 00:00:02.10, start: 0.000000, bitrate: 410 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 405 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc62.11.100 libx264
+Input #2, concat, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/captions.ffconcat':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #2:0: Video: png, rgba(pc, gbr/unknown/unknown), 3840x2160, 30 fps, 30 tbr, 30 tbn
+[aist#3:0/pcm_f32le @ 0x13a806860] Guessed Channel Layout: stereo
+Input #3, wav, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/dialogue.wav':
+  Metadata:
+    comment         : vid:v0369cg10004dbu1d727dld1144qso5g
+    encoder         : Lavf62.3.100
+  Duration: 00:02:00.80, bitrate: 3072 kb/s
+  Stream #3:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+[aist#4:0/pcm_f32le @ 0x10b704270] Guessed Channel Layout: stereo
+Input #4, wav, from '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/assets/bgm-loop.wav':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Duration: 00:02:00.80, bitrate: 3072 kb/s
+  Stream #4:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s
+Stream mapping:
+  Stream #0:0 (h264) -> settb:default
+  Stream #1:0 (h264) -> fps:default
+  Stream #2:0 (png) -> fps:default
+  Stream #3:0 (pcm_f32le) -> aformat:default
+  Stream #4:0 (pcm_f32le) -> volume:default
+  format:default -> Stream #0:0 (h264_videotoolbox)
+  aformat:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[swscaler @ 0x120130000] No accelerated colorspace conversion found from yuv420p to rgba.
+[swscaler @ 0x120130000] [swscaler @ 0x130140000] No accelerated colorspace conversion found from yuv420p to rgba.
+[swscaler @ 0x120130000] [swscaler @ 0x120620000] No accelerated colorspace conversion found from yuv420p to rgba.
+Output #0, mp4, to '/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/EP001-final-cut-v1/output/EP001-master-4k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : AI-generated footage. Groovy Hammond by Aiert Erkoreka. Fixed BGM gain 0.119.
+    artist          : 西瓜终结者AIGC
+    title           : 本座今日不飞 第一集
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 24000 kb/s, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 h264_videotoolbox
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.11.100 aac
+[mp4 @ 0x10b704d40] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x10b704c60] video:361623KiB audio:3760KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.029095%
+frame= 3687 fps= 54 q=-0.0 Lsize=  365490KiB time=00:02:02.86 bitrate=24368.6kbits/s speed= 1.8x elapsed=0:01:08.15    
+[aac @ 0x13aa06ea0] Qavg: 2500.005

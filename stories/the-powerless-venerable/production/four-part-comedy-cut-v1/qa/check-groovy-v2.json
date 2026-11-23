@@ -1,0 +1,213 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 3
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 62.5,
+    "samples": [
+      3.472,
+      10.417,
+      17.361,
+      24.306,
+      31.25,
+      38.194,
+      45.139,
+      52.083,
+      59.028
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3.472,
+      17.361,
+      31.25,
+      45.139,
+      59.028
+    ],
+    "checked": 3,
+    "passed": 3
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Create By 西瓜终结者AIGC\" (6 words) is on screen 1.80 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Create By 西瓜终结者AIGC",
+        "selector": "p.brand-title",
+        "dataAttributes": {},
+        "sourceFile": "compositions/intro.html",
+        "bbox": {
+          "x": 410.02,
+          "y": 337,
+          "width": 459.96000000000004,
+          "height": 46
+        },
+        "time": 0.172,
+        "words": 6,
+        "seconds": 1.797,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 0,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 0.125,
+            "opacity": 0.33,
+            "heightPx": 46
+          },
+          {
+            "time": 0.25,
+            "opacity": 0.78,
+            "heightPx": 46
+          },
+          {
+            "time": 0.375,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 0.5,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 0.625,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 1.5,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 1.625,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 1.75,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 1.875,
+            "opacity": 0.78,
+            "heightPx": 46
+          },
+          {
+            "time": 2,
+            "opacity": 0.33,
+            "heightPx": 46
+          },
+          {
+            "time": 2.125,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.25,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 500
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "f9c14ea7-2da8-4249-a77c-15c911e32c82",
+    "revision": null,
+    "report": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/the-powerless-venerable/production/four-part-comedy-cut-v1/.hyperframes/artifacts/checks/f9c14ea7-2da8-4249-a77c-15c911e32c82.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.9.59",
+    "latestVersion": "0.9.59",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-17T08:25:58.130Z",
+    "skillsOutdated": 0,
+    "skillsMissing": 0
+  }
+}

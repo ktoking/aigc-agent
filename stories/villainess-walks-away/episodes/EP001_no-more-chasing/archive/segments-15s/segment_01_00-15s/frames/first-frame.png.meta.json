@@ -1,0 +1,13 @@
+{
+  "id": "S01_FIRST",
+  "path": "episodes/EP001_no-more-chasing/segment_01_00-15s/frames/first-frame.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-cccb3b9e-60e9-4934-8a08-aeeb47cd071e.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-sleepwear-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/BED/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Input1 exact Su Wantang identity and ivory pajamas; image2 bedroom layout/lighting; image3 only ring design, do not show prop sheet. Opening instant: SAME adult woman just awake seated at edge of cream bed, black long hair over shoulders, looks toward a small subtle blank translucent RED notification banner suspended in front-left, banner not covering face. Her LEFT hand resting on ivory bedding, ONE silver solitaire ring visibly worn on left ring finger, other hand relaxed. Natural alarm contained in gaze, not screaming. Eye-level medium-close three-quarter portrait, golden morning edge light from left window; mirror at right softly in background. Keep room dry and tidy. No text in banner, no men, no extra fingers, no extra rings.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

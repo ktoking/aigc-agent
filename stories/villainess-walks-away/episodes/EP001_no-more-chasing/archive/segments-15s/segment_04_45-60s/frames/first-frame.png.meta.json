@@ -1,0 +1,12 @@
+{
+  "id": "S04_FIRST",
+  "path": "episodes/EP001_no-more-chasing/segment_04_45-60s/frames/first-frame.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-094e8c12-06a8-480b-ba8d-c2642fe7f1dc.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/DESK/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 exact female identity white blouse/black trousers, image2 home desk. One SAME woman just confirming a one-way flight on laptop, she holds black smartphone in right hand near laptop to save itinerary, left hand on trackpad. Screens show ONLY neat blank neutral rectangular itinerary blocks and ONE simple small airplane glyph, NO readable text, no names or dates. Two paper agreement copies and closed navy ring box still on desk, black folder ready. Medium-close three-quarter view with face and laptop, warm sun, bare left ring finger. No men or outdoor airport; she remains at home.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

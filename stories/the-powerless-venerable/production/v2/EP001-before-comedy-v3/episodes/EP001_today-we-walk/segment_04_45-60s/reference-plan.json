@@ -1,0 +1,37 @@
+{
+  "status": "CHARACTER_REFERENCES_ONLY",
+  "characters": [
+    {
+      "index": 1,
+      "character_id": "C01",
+      "path": "frames/C01-xie-wujiu-reference.png",
+      "role": "谢无咎身份与服装，不复制多视图实体"
+    },
+    {
+      "index": 2,
+      "character_id": "C02",
+      "path": "frames/C02-shen-zhaoyue-reference.png",
+      "role": "沈照月身份与服装，不复制多视图实体"
+    },
+    {
+      "index": 3,
+      "character_id": "C04",
+      "path": "frames/C04-xuanheng-reference.png",
+      "role": "玄衡身份与服装，不复制多视图实体"
+    },
+    {
+      "index": 4,
+      "character_id": "C05",
+      "path": "frames/C05-lu-qing-reference.png",
+      "role": "陆青身份与服装，不复制多视图实体"
+    },
+    {
+      "index": 5,
+      "character_id": "C06",
+      "path": "frames/C06-two-guards-reference.png",
+      "role": "外门车夫与搬货弟子身份与服装，不复制多视图实体"
+    }
+  ],
+  "planned_story_keyframes": 2,
+  "keyframes_generated": false
+}

@@ -1,0 +1,43 @@
+{
+  "revision": "v2-groovy",
+  "title": "Groovy Hammond",
+  "artist": "Aiert Erkoreka",
+  "music_start": 2.1,
+  "music_end": 62.466667,
+  "clip_duration": 60.4,
+  "fade_in_seconds": 0.3,
+  "fade_out_seconds": 0.3,
+  "rests_absolute_seconds": [
+    [
+      20.42,
+      21.0,
+      "飞失败"
+    ],
+    [
+      23.2,
+      23.75,
+      "吐丝失败"
+    ],
+    [
+      26.77,
+      27.4,
+      "御剑失败"
+    ],
+    [
+      38.65,
+      39.15,
+      "听见弟子认错"
+    ],
+    [
+      49.9,
+      50.24,
+      "三千阶后的迟疑"
+    ]
+  ],
+  "opening_black": "silent",
+  "closing_black": "silent, no text",
+  "intro_text": "Create By 西瓜终结者AIGC",
+  "duration": 62.5,
+  "first_audible_picture_frame_seconds": 2.133333,
+  "music_last_nonzero_seconds": 62.466646
+}

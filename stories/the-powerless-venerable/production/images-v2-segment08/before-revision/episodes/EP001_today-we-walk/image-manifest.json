@@ -1,0 +1,992 @@
+{
+  "status": "IMAGES_READY",
+  "story_id": "the-powerless-venerable",
+  "episode": "EP001_today-we-walk",
+  "script_version": "v3",
+  "dialogue_revision": "r1-20261117",
+  "visual_version": "new-cast-v1-frames-v1",
+  "generator": "built-in image_gen",
+  "selected_unique_images": 22,
+  "story_keyframes": 16,
+  "character_sheets": 6,
+  "represented_people": 7,
+  "segments": [
+    {
+      "segment_id": "segment_01_00-15s",
+      "title": "开局尊者，技能全灰",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "01-A",
+          "path": "frames/keyframe-01-a-v1.png",
+          "anchor_seconds": 2.0,
+          "title": "袖内试法，手里空空",
+          "sha256": "272156ce0b30750a78389519dd45d3c947407607affbde13c60d26a2486b1c96"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "01-B",
+          "path": "frames/keyframe-01-b-v1.png",
+          "anchor_seconds": 11.8,
+          "title": "尊者请登云",
+          "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "01-A",
+          "path": "frames/keyframe-01-a-v1.png",
+          "anchor_seconds": 2.0,
+          "title": "袖内试法，手里空空",
+          "sha256": "272156ce0b30750a78389519dd45d3c947407607affbde13c60d26a2486b1c96"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "01-B",
+          "path": "frames/keyframe-01-b-v1.png",
+          "anchor_seconds": 11.8,
+          "title": "尊者请登云",
+          "sha256": "7a88c86decb118e61be7d259a792f6898aedcbe3ff006a823eb6c5a155ea496f"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_02_15-30s",
+      "title": "咒语吐丝御剑，全都没用",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "02-A",
+          "path": "frames/keyframe-02-a-v1.png",
+          "anchor_seconds": 5.7,
+          "title": "袖内吐丝式手势",
+          "sha256": "778ec84bb925d1013b33d4708201caba8a8c11f74d13d63a9893d4242eeb3a7c"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "02-B",
+          "path": "frames/keyframe-02-b-v1.png",
+          "anchor_seconds": 13.3,
+          "title": "尊者不动，弟子出汗",
+          "sha256": "705060ff10555bc4b1e1c2d0aa8bd58ccac46a87f534bf9ec9ee1f80b0310084"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "02-A",
+          "path": "frames/keyframe-02-a-v1.png",
+          "anchor_seconds": 5.7,
+          "title": "袖内吐丝式手势",
+          "sha256": "778ec84bb925d1013b33d4708201caba8a8c11f74d13d63a9893d4242eeb3a7c"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "02-B",
+          "path": "frames/keyframe-02-b-v1.png",
+          "anchor_seconds": 13.3,
+          "title": "尊者不动，弟子出汗",
+          "sha256": "705060ff10555bc4b1e1c2d0aa8bd58ccac46a87f534bf9ec9ee1f80b0310084"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_03_30-45s",
+      "title": "他怕穿帮，弟子怕被看穿",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "03-A",
+          "path": "frames/keyframe-03-a-v1.png",
+          "anchor_seconds": 4.5,
+          "title": "时辰与礼单，谁都心虚",
+          "sha256": "567aabc87e57f41d6d126ee65536e9cf3c614b1d57bc19ac981efe33d2b0d52a"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "03-B",
+          "path": "frames/keyframe-03-b-v1.png",
+          "anchor_seconds": 14.5,
+          "title": "本座步行，大家收剑随行",
+          "sha256": "f154c07a4a0061ee17008f00e9c30818a7af43f6ea21bf8650b0c7eee1d2b51d"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "03-A",
+          "path": "frames/keyframe-03-a-v1.png",
+          "anchor_seconds": 4.5,
+          "title": "时辰与礼单，谁都心虚",
+          "sha256": "567aabc87e57f41d6d126ee65536e9cf3c614b1d57bc19ac981efe33d2b0d52a"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "03-B",
+          "path": "frames/keyframe-03-b-v1.png",
+          "anchor_seconds": 14.5,
+          "title": "本座步行，大家收剑随行",
+          "sha256": "f154c07a4a0061ee17008f00e9c30818a7af43f6ea21bf8650b0c7eee1d2b51d"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_04_45-60s",
+      "title": "三千阶，换有轮子的",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "04-A",
+          "path": "frames/keyframe-04-a-v1.png",
+          "anchor_seconds": 6.5,
+          "title": "三千阶与没有轮子的云辇",
+          "sha256": "85602fcb3126d9517de0aac1b08b079386a5c51f2dac7212316a25f9e6f0d3e7"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "04-B",
+          "path": "frames/keyframe-04-b-v1.png",
+          "anchor_seconds": 14.0,
+          "title": "有轮子的才敢坐",
+          "sha256": "b5ad4a4be1037368d14ad2a92f44f825aa1b45203560de4f505e181d91d1be97"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "04-A",
+          "path": "frames/keyframe-04-a-v1.png",
+          "anchor_seconds": 6.5,
+          "title": "三千阶与没有轮子的云辇",
+          "sha256": "85602fcb3126d9517de0aac1b08b079386a5c51f2dac7212316a25f9e6f0d3e7"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "04-B",
+          "path": "frames/keyframe-04-b-v1.png",
+          "anchor_seconds": 14.0,
+          "title": "有轮子的才敢坐",
+          "sha256": "b5ad4a4be1037368d14ad2a92f44f825aa1b45203560de4f505e181d91d1be97"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_05_60-75s",
+      "title": "会赶车就行",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "05-A",
+          "path": "frames/keyframe-05-a-v1.png",
+          "anchor_seconds": 7.7,
+          "title": "你留下，得有人会驾车",
+          "sha256": "16ff5f4221919e3ab7451a64a8df338cd27445d9c7099e16fd9246f760e432be"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "05-B",
+          "path": "frames/keyframe-05-b-v1.png",
+          "anchor_seconds": 14.3,
+          "title": "专业车夫坐上前座",
+          "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "05-A",
+          "path": "frames/keyframe-05-a-v1.png",
+          "anchor_seconds": 7.7,
+          "title": "你留下，得有人会驾车",
+          "sha256": "16ff5f4221919e3ab7451a64a8df338cd27445d9c7099e16fd9246f760e432be"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "05-B",
+          "path": "frames/keyframe-05-b-v1.png",
+          "anchor_seconds": 14.3,
+          "title": "专业车夫坐上前座",
+          "sha256": "0a7caf86aae1b6523917d9c215cf89c4a3294101341a79f5d2d420b52d1db3dd"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_06_75-90s",
+      "title": "这道门绕不开",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "06-A",
+          "path": "frames/keyframe-06-a-v1.png",
+          "anchor_seconds": 6.7,
+          "title": "刚想苟住，又来一位尊者",
+          "sha256": "bfee8b95bdc59b09ef909292b13e39c19a986c43d872e1a134db32e70563459b"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "06-B",
+          "path": "frames/keyframe-06-b-v1.png",
+          "anchor_seconds": 14.4,
+          "title": "唯一山门，被白璃挡住",
+          "sha256": "90575872b8b58afa6cc4a7f39cca7e3760c3be4c872da1d78ef727c73ead9ba1"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "role": "白璃",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "06-A",
+          "path": "frames/keyframe-06-a-v1.png",
+          "anchor_seconds": 6.7,
+          "title": "刚想苟住，又来一位尊者",
+          "sha256": "bfee8b95bdc59b09ef909292b13e39c19a986c43d872e1a134db32e70563459b"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "06-B",
+          "path": "frames/keyframe-06-b-v1.png",
+          "anchor_seconds": 14.4,
+          "title": "唯一山门，被白璃挡住",
+          "sha256": "90575872b8b58afa6cc4a7f39cca7e3760c3be4c872da1d78ef727c73ead9ba1"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "role": "白璃",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_07_90-105s",
+      "title": "今日不动兵器",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "07-A",
+          "path": "frames/keyframe-07-a-v1.png",
+          "anchor_seconds": 4.4,
+          "title": "谢道友，请赐一招",
+          "sha256": "2b1614616f45329940f2dcbf72ad121a9851dc9c52693f5c1ccf23de931ca10e"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "07-B",
+          "path": "frames/keyframe-07-b-v1.png",
+          "anchor_seconds": 13.4,
+          "title": "不动兵器，被听成别的意思",
+          "sha256": "6e02a09c5bd16455fe4b28d8f7d093887f533445f26e43eb39f697bed72f47a6"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "role": "白璃",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "07-A",
+          "path": "frames/keyframe-07-a-v1.png",
+          "anchor_seconds": 4.4,
+          "title": "谢道友，请赐一招",
+          "sha256": "2b1614616f45329940f2dcbf72ad121a9851dc9c52693f5c1ccf23de931ca10e"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "07-B",
+          "path": "frames/keyframe-07-b-v1.png",
+          "anchor_seconds": 13.4,
+          "title": "不动兵器，被听成别的意思",
+          "sha256": "6e02a09c5bd16455fe4b28d8f7d093887f533445f26e43eb39f697bed72f47a6"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "role": "白璃",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    },
+    {
+      "segment_id": "segment_08_105-120s",
+      "title": "好，那便徒手",
+      "story_keyframes": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "08-A",
+          "path": "frames/keyframe-08-a-v1.png",
+          "anchor_seconds": 5.3,
+          "title": "掌门清场，把车夫也撤了",
+          "sha256": "a0273f065cb8d6cc50c85295030d23ccc6bef0becb915c6bd03bea0af4f4fb45"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "08-B",
+          "path": "frames/keyframe-08-b-v1.png",
+          "anchor_seconds": 14.2,
+          "title": "她认真起掌，他连司机都没了",
+          "sha256": "4441595632c15caf213f1e09abb558cfbc41c96a12139c68fb2aa3a7e14b76b2"
+        }
+      ],
+      "characters": [
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "role": "白璃",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ],
+      "references": [
+        {
+          "index": 1,
+          "kind": "story_keyframe",
+          "id": "08-A",
+          "path": "frames/keyframe-08-a-v1.png",
+          "anchor_seconds": 5.3,
+          "title": "掌门清场，把车夫也撤了",
+          "sha256": "a0273f065cb8d6cc50c85295030d23ccc6bef0becb915c6bd03bea0af4f4fb45"
+        },
+        {
+          "index": 2,
+          "kind": "story_keyframe",
+          "id": "08-B",
+          "path": "frames/keyframe-08-b-v1.png",
+          "anchor_seconds": 14.2,
+          "title": "她认真起掌，他连司机都没了",
+          "sha256": "4441595632c15caf213f1e09abb558cfbc41c96a12139c68fb2aa3a7e14b76b2"
+        },
+        {
+          "index": 3,
+          "kind": "character",
+          "character_id": "C01",
+          "path": "frames/C01-xie-wujiu-new-cast-turnaround-v1.png",
+          "role": "谢无咎",
+          "sha256": "7d824ca44fc3493128b895a1badf165255651545dc69a90624e034cdd7b1430e"
+        },
+        {
+          "index": 4,
+          "kind": "character",
+          "character_id": "C02",
+          "path": "frames/C02-shen-zhaoyue-new-cast-turnaround-v1.png",
+          "role": "沈照月",
+          "sha256": "c43afdf2072adb5c79b8e7d6944e9ff6f5b8c4064aa67831409c605646a7f11f"
+        },
+        {
+          "index": 5,
+          "kind": "character",
+          "character_id": "C03",
+          "path": "frames/C03-bai-li-new-cast-turnaround-v1.png",
+          "role": "白璃",
+          "sha256": "27f675da9885e2591251b660c0ddae7726017fd5472c533cef6ff73f90a8a5cd"
+        },
+        {
+          "index": 6,
+          "kind": "character",
+          "character_id": "C04",
+          "path": "frames/C04-xuanheng-new-cast-turnaround-v1.png",
+          "role": "玄衡",
+          "sha256": "d0bedb6cf3e36266fab3252613af98146736ab13401d911b689b173488bf94a9"
+        },
+        {
+          "index": 7,
+          "kind": "character",
+          "character_id": "C05",
+          "path": "frames/C05-lu-qing-new-cast-turnaround-v1.png",
+          "role": "陆青",
+          "sha256": "bc85362e91a87868b8c6662ca76d5a46b8d8bd68efd8045298e6d60f7e7a7fd3"
+        },
+        {
+          "index": 8,
+          "kind": "character",
+          "character_id": "C06",
+          "path": "frames/C06-driver-and-loader-new-cast-turnaround-v1.png",
+          "role": "外门车夫与搬货弟子",
+          "sha256": "970cd4e8474ac7024e1a1b1b9558e6e6ea76c1163aa9e988373cb9e1c8b3f570"
+        }
+      ]
+    }
+  ],
+  "generation_record": "../../production/images-v1/image-jobs.json"
+}

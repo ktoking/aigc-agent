@@ -1,0 +1,24 @@
+{
+  "requested_track": "Try (Latin Zumba version)",
+  "selection": "Groovy Hammond",
+  "artist": "Aiert Erkoreka",
+  "reason": "Public search did not verify the specified Try recording. User authorized the original BGM as fallback.",
+  "source": "assets/audio/bgm/Groovy-Hammond-Aiert-Erkoreka.mp3",
+  "gain": 0.119,
+  "constant_gain": true,
+  "loop_source_section": [
+    0,
+    96
+  ],
+  "loop_crossfade_seconds": 0.04,
+  "loop_joins_seconds": [],
+  "fade_seconds": 0.3,
+  "intro_silent": true,
+  "end_black_silent": true,
+  "global_start_seconds": 2.1,
+  "global_story_boundary_seconds": 7.4,
+  "global_end_seconds": 67.8,
+  "music_source_elapsed_at_story_start_seconds": 5.3,
+  "continuity": "single_track_across_self_introduction_and_episode",
+  "no_fade_or_restart_at_story_boundary": true
+}

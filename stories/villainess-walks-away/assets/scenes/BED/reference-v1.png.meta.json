@@ -1,0 +1,11 @@
+{
+  "id": "BED",
+  "path": "assets/scenes/BED/reference-v1.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-b03b0885-f92f-4037-9df6-241d4684656a.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/style/user-style-reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Image1 is STYLE QUALITY reference only, no person should appear. Generate one single empty bedroom environment master, landscape16:9, luxurious restrained modern Chinese penthouse suite. Cream upholstered bed centered-right with ivory linen, bedside walnut cabinet close to bed, a tall simple full-length mirror beside the bed on far right angled so plausible reflection shows room, large window on left soft late-morning warm daylight, warm-gray wall, dry matte oak floor, no visible outdoors rain. Only necessary furniture, minimal tasteful bedding folds, clean ordered surfaces, no objects multiplying. Movie set spatially readable, 28mm eye-level wide composition, no collage, no labels.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

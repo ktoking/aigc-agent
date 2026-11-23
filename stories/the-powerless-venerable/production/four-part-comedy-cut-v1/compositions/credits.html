@@ -1,0 +1,11 @@
+<template>
+<style>
+@font-face{font-family:StorySans;src:url('assets/fonts/PingFang.ttc')}
+#root{position:absolute;inset:0;background:#000;color:#fff;font-family:StorySans,sans-serif}
+.credit-text{position:absolute;inset:0;text-align:center;display:flex;flex-direction:column;justify-content:center;gap:15px}
+.credit-name{font-size:29px;font-weight:400;letter-spacing:3px;margin:0}
+.credit-line{font-size:19px;font-weight:400;letter-spacing:.5px;margin:0;line-height:1.55}
+</style>
+<div id="root" data-composition-id="credits" data-width="1280" data-height="720" data-duration="3">
+<div id="credits-content" class="credit-text"><p class="credit-name">西瓜终结者AIGC</p><p class="credit-line">Music · Kevin MacLeod · incompetech.com</p><p class="credit-line">Monkeys Spinning Monkeys / Sneaky Snitch</p><p class="credit-line">CC BY 4.0 · creativecommons.org/licenses/by/4.0</p></div></div>
+<script>const tl=gsap.timeline({paused:true});tl.fromTo('#credits-content',{opacity:0},{opacity:1,duration:.3,ease:'none'},0);tl.to('#credits-content',{opacity:0,duration:.3,ease:'none'},2.666667);window.__timelines['credits']=tl;</script></template>

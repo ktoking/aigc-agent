@@ -1,0 +1,15 @@
+{
+  "id": "S07_FIRST",
+  "path": "episodes/EP001_no-more-chasing/segment_07_90-105s/frames/first-frame.png",
+  "source": "/Users/kaiyi.wang/.codex/generated_images/01a18659-84a5-7512-8369-c35392f6919c/exec-541f8e52-e0f8-493f-b91c-a3666ea5f4b2.png",
+  "references": [
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/SU/reference-commute-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/characters/GU/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/scenes/OFFICE/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/AGREEMENT/reference-v1.png",
+    "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/villainess-walks-away/assets/props/RING/reference-v1.png"
+  ],
+  "prompt": "Use case: stylized-concept. Premium semi-realistic Chinese 3D cinematic drama matching supplied image render quality: fine natural soft skin, refined adult proportions, softly grouped hair, warm golden edge light, neutral soft key, clean readable large shapes and moderate realistic detail. Not flat anime, not cartoon, not plastic skin, no oversharpening or dense repetitive textures. No text, captions, logos, watermark. Single cinematic narrative frame, portrait9:16, no collage, no character sheet, no labels or subtitles. Reference character boards ONLY lock the one actor face/clothes; do not reproduce their multiple views. Image1 SAME Su female face and white blouse/black trousers, image2 SAME Gu male face and charcoal suit white shirt black tie, image3 office set with door LEFT and desk/chair RIGHT, image4 document/pen/folder designs, image5 ring and NAVY velvet box. Only TWO adult characters, no other actors. Su is visitor standing LEFT of desk, Gu seated behind desk RIGHT. Refined warm afternoon light, calm restrained tension, no smiles or romantic touch, her hands BARE no rings. Papers show gray lines, signatures reserved for postproduction no readable text. Start of signing hesitation: Gu seated RIGHT holds ONE black pen in his RIGHT hand, nib hovering about1cm above bottom signature line on one of TWO white agreement copies, not yet touching paper. He raises eyes to Su standing LEFT waiting upright with relaxed arms. Single OPEN navy ring box with ONE ring remains near his right forearm, black folder on visitor side, phone flat on left side. Closer medium portrait, pen-paper relationship in foreground and faces upper portion, natural anatomically correct hands. Do not make woman sign now; only man holds pen.",
+  "mode": "built-in imagegen",
+  "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+  "technical": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "30/1",
+        "nb_frames": "2034"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "nb_frames": "3180"
+      }
+    ],
+    "format": {
+      "duration": "67.800000"
+    }
+  },
+  "source_order": [
+    "EP003第05段《讲完没讲的课，先找口饭》视频制作.mp4",
+    "EP003第05段《讲完没讲的课，先找口饭》视频制作 (1).mp4",
+    "《偷偷要碗清汤面》视频制作.mp4",
+    "《偷偷要碗清汤面》视频制作 (1).mp4"
+  ],
+  "subtitle_count": 20,
+  "intro_peak": 0.0,
+  "full_decode": "PASS",
+  "ending_black": "PASS",
+  "song_timeline_single_track": true,
+  "waveform_unchanged_at_story_boundary": true,
+  "music_source_position_at_story_cut_seconds": 5.3,
+  "effective_gain_at_cut": 0.11885394304921425,
+  "configured_bgm_gain": 0.119,
+  "fixed_master_gain": 1.0,
+  "final_true_peak_dbtp": -1.8,
+  "sha256": "869752dd3ee017957edc9f37c4a0fd92b0116a3c8a2eafe2aa6aa98ca0f38861",
+  "full_human_audio_review": "not_performed"
+}
