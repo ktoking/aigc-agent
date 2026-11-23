@@ -1,0 +1,23 @@
+{
+  "version": "v7-motion-rework",
+  "review_date": "2026-11-04",
+  "source_video": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/output/video.mp4",
+  "source_sha256": "77fde300550a80b0de6766f984a28bdb0b31d3b5b70d2a32bf64bc94820f4144",
+  "source_transport_status": "SUCCEEDED",
+  "source_quality_status": "REJECTED",
+  "inspection": "30张1秒间隔抽帧；另检查4—8秒与11—16秒的0.5秒间隔序列",
+  "observed": [
+    "主体躯干与四足位移少，技能段落间反复回到近似站姿",
+    "4—8秒陨石由下坠改为横向飞离，未完成清楚的落地碎裂",
+    "约13—15秒命中后仍保留长弹道与持续接触光点，投射物生命周期不完整",
+    "藤蔓段龙主动摆脱与施法者被拖动的因果较弱",
+    "刺客近景时后排人物与队伍布局有生成漂移"
+  ],
+  "user_reported": [
+    "导弹卡在巨龙脚上"
+  ],
+  "user_reported_verification": "脚部挂弹按用户反馈列为必修；当前密集抽帧明确确认的是命中后的弹道持续，未将二者混作同一观测证据。",
+  "new_video_status": "NOT_SUBMITTED",
+  "reference_policy": "不再将旧10张站姿关键帧作为逐帧目标一并上传",
+  "connection_attempt": "豆包原生应用连接超时，未尝试生成提交"
+}

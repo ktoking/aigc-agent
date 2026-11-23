@@ -1,0 +1,528 @@
+{
+  "version": "segment-01-references-v1",
+  "date": "2026-11-03",
+  "story": "obsidian-dragon-hunt",
+  "episode": "EP001_valsak_v3_seasons",
+  "segment": "segment_01_00-30s",
+  "tool": "built-in image_gen.imagegen",
+  "scope": "10张连续性参考图；非视频、非已验收首尾帧",
+  "plans": [
+    {
+      "id": "ref-01",
+      "slug": "spring-map-catch",
+      "time": "00-04s",
+      "shot": "SH01",
+      "cast": [
+        "RANGER",
+        "ORC",
+        "MAGE"
+      ],
+      "season": "spring",
+      "anchor": null,
+      "event": "Wide-medium view of LEIA halfway through a small slip on a stepping stone in calf-deep clear water. GROOM is already firmly grounded beside her, one large hand supports her upper arm while his other hand has caught her unfolded parchment map. The map contains ONLY a simple black dragon silhouette and route marks, no lettering. She looks sheepish but safe; he looks sincerely concerned, not angry. SEVIEN stands on the bank at frame-right, extending a patient hand for the map, cold composed face. Show the actual supporting hand, stone and planted legs; no damsel swoon or floating pose. Exactly THREE characters. A bow is stowed, not in her hands. Wide meadow and river make the opening spatially clear.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-02",
+      "slug": "spring-water-play",
+      "time": "04-08s",
+      "shot": "SH02",
+      "cast": [
+        "RANGER",
+        "ORC",
+        "ROBOT"
+      ],
+      "season": "spring",
+      "anchor": "ref-01",
+      "event": "A warm comic medium-wide frame just to the RIGHT along the same stream. LEIA, now standing safely, laughs and flicks a modest arc of water toward GROOM's broad green face. He blinks in honest surprise with the beginning of a slow smile, hands open and relaxed. BASTION crouches nearby at the river edge, studying its cupped articulated hands as water visibly drains through the finger gaps. Exactly THREE characters, no extra people. Make expressions and the robot's puzzled slight head tilt readable; water is a small plausible splash rather than an explosion. No map in the water; it has already been rescued.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-02_spring-water-play.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-02_spring-water-play.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-03",
+      "slug": "spring-elf-care",
+      "time": "08-10s",
+      "shot": "SH03",
+      "cast": [
+        "ELF",
+        "RANGER"
+      ],
+      "season": "spring",
+      "anchor": "ref-01",
+      "event": "On the grassy dry bank beside the SAME stream, SERINE kneels calmly to tie LEIA's loosened brown boot laces. LEIA is upright with that foot resting on a LOW flat stone, looking down with an embarrassed little smile and holding her own backpack straps so she balances safely. SERINE's silver hair and robes drape naturally, both hands clearly working the laces; her expression is caring and matter-of-fact, no preaching. Exactly TWO adult characters. Eye-level medium-wide composition includes feet, hands and faces, meadow river and mountains behind. No romantic kneeling, no injuries, no extra characters.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-03_spring-elf-care.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-03_spring-elf-care.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-04",
+      "slug": "spring-mage-map",
+      "time": "10-12s",
+      "shot": "SH03",
+      "cast": [
+        "MAGE"
+      ],
+      "season": "spring",
+      "anchor": "ref-01",
+      "event": "SEVIEN alone walks slowly camera-right along the same meadow bank, immaculate midnight-blue high-collar robes, cold handsome mature face. He calmly uses one gloved finger to sweep a few water droplets off the rescued parchment map, then begins folding its existing creases precisely. Parchment carries only a small black dragon silhouette, no text. The humor is his restrained patient look as the party's quiet organizer; no exaggerated grin. Medium-wide frame from knees up, distant spring river and mountains at left. A CLOSE dark tree trunk begins entering at extreme RIGHT, occupying only the rightmost 15 percent as a setup for a later lateral occlusion transition. It must not hide him. Exactly one person.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-04_spring-mage-map.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-04_spring-mage-map.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-05",
+      "slug": "summer-team-wardrobe",
+      "time": "12-14s",
+      "shot": "SH04",
+      "cast": [
+        "ORC",
+        "RANGER",
+        "ELF",
+        "ROBOT",
+        "DRAGONBORN",
+        "MAGE"
+      ],
+      "season": "summer",
+      "anchor": null,
+      "event": "ESTABLISHING MASTER KEYFRAME of exactly SIX familiar teammates in their specified summer swim outfits, seen at eye level from dry land. No lineup posing: each is doing a small natural rest-stop action. Spatial order from image LEFT to RIGHT: GROOM at shallow water edge; LEIA beside him holding a normal wooden fishing bow lowered; SERINE near the wicker basket on dry sand; BASTION just behind her examining its swim ring; EMBER next to the spread black towel; SEVIEN near the palms and travel bag, tidying a folded navy towel. Keep all six full or nearly full body and their faces readable, no background crowd. This image establishes their canonical swimwear for all subsequent beach frames. There is not yet a fish rain or magic. Rolled map remains on the supply bag. Friendly understated vacation-like pause during a long hunt, premium fantasy 3D, no modern logos.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe.prompt.txt",
+      "references_override": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png"
+      ],
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-06",
+      "slug": "summer-ranger-first-fish",
+      "time": "14-16s",
+      "shot": "SH04",
+      "cast": [
+        "RANGER",
+        "ELF"
+      ],
+      "season": "summer",
+      "anchor": "ref-05",
+      "event": "Use the summer master frame to preserve exact swim outfits, cove and colors. LEIA stands ankle-deep near shore proudly lifting ONE small intact silver fish just above a shallow wicker basket, normal bow lowered in her other hand with its ordinary fishing arrow and attached thin retrieval cord recovered safely. No giant magic arrow, no blood or wounds emphasized. Her auburn braid, short pointed ears and mischievous delighted grin are recognizable. SERINE in matching master-frame silver-blue swimwear stands on dry sand beside the basket with an affectionate amused smile. Exactly TWO characters, others offscreen. Medium-wide narrative composition, hands visible, not a glamour close-up. Fish is small enough that the proud expression is funny.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-07",
+      "slug": "summer-dragonborn-fish-farewell",
+      "time": "16-20s",
+      "shot": "SH05",
+      "cast": [
+        "DRAGONBORN",
+        "ORC",
+        "RANGER"
+      ],
+      "season": "summer",
+      "anchor": "ref-05",
+      "event": "Same summer cove and swimwear. On the dry sand EMBER kneels next to the BLACK BATH TOWEL with ONE small intact silver fish laid on it, and carefully folds the towel's two corners as if arranging an absurdly solemn tiny farewell; no actual coffin, tombstone, blood or gore. He looks entirely deadpan, head lowered slightly, two black horns, golden eyes, small neck scales. Beside him GROOM is innocently following the ritual with one large hand resting over his chest, solemn sincere green face. LEIA stands behind them in her forest-green swim outfit with her proud grin interrupted by a baffled open-mouthed look. Exactly THREE characters. Film-comedy composition at eye level, clear dry sand, no other fish yet. Keep this affectionate understated black humor, no menacing threat.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-07_summer-dragonborn-fish-farewell.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-07_summer-dragonborn-fish-farewell.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-08",
+      "slug": "summer-mage-fish-fountain",
+      "time": "20-24s",
+      "shot": "SH06",
+      "cast": [
+        "MAGE",
+        "ROBOT",
+        "RANGER"
+      ],
+      "season": "summer",
+      "anchor": "ref-05",
+      "event": "SEVIEN in the exact navy swim shorts, open ivory linen shirt and blue pendant from the summer master stands calmly on dry sand, cold but quietly endearing face, raises just TWO fingers. In the shallow sea several meters behind him ONE elegant muted blue arcane circle glows UNDER the water, and a compact broad column of water lifts ABOUT TWENTY intact small silver fish into an arc above it. Make fish recognizable, separated and physically thrown upward with droplets, not a ring of floating dead fish. This is a small controlled water-pressure spell, not a hurricane or meteor. BASTION at frame-right hugs its inflatable swim ring and tilts its mechanical head upward, cyan eyes. LEIA at frame-left stares wide-eyed, ordinary bow lowered safely. Exactly THREE characters. Wide cinematic framing shows caster, source water and trajectory together, no gore, no dense sparkling noise.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-08_summer-mage-fish-fountain.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-08_summer-mage-fish-fountain.prompt.txt",
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-09",
+      "slug": "summer-fish-rain-laughter",
+      "time": "24-28s",
+      "shot": "SH07",
+      "cast": [
+        "ORC",
+        "RANGER",
+        "ELF",
+        "ROBOT",
+        "DRAGONBORN",
+        "MAGE"
+      ],
+      "season": "summer",
+      "anchor": "ref-05",
+      "event": "Warm ensemble payoff in the exact master-frame cove and swimwear: exactly SIX teammates, same left-to-right spatial order, reacting to the small fish shower. Fish are FALLING toward the wicker basket and the black towel bag, not hovering; show about a dozen airborne fish in separated natural arcs and several already caught. SERINE laughs while moving the basket under them. EMBER has immediately repurposed the SAME black bath towel into a sagging open sack to catch fish, face stubbornly deadpan. LEIA laughs with a hand resting on GROOM's shoulder, and he laughs broadly, steady and kind. BASTION with waist swim ring mimics a little shoulder shake and delighted head tilt, no human mouth. SEVIEN on the right wipes one droplet from his cheek with a barely perceptible smile. Plausible hands, balanced grounded bodies, all six identities distinct. Medium-wide eye-level ensemble, no crowd, no explosive fish gore, no exaggerated anime faces.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-09_summer-fish-rain-laughter.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-09_summer-fish-rain-laughter.prompt.txt",
+      "references_override": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png"
+      ],
+      "status": "GENERATED_REVIEWABLE"
+    },
+    {
+      "id": "ref-10",
+      "slug": "summer-pack-and-pan-exit",
+      "time": "28-30s",
+      "shot": "SH08",
+      "cast": [
+        "ORC",
+        "RANGER",
+        "ELF",
+        "ROBOT",
+        "DRAGONBORN",
+        "MAGE"
+      ],
+      "season": "summer",
+      "anchor": "ref-05",
+      "event": "END-OF-SEGMENT continuity keyframe shortly BEFORE the full palm-trunk occlusion. Same six adult teammates, cove and swimsuits, now packing after the fish shower has COMPLETELY ENDED. SEVIEN tidies the full wicker basket and holds the rolled dragon-tracking map plus a small travel bag. EMBER carries the closed black-towel fish sack, deadpan. LEIA still smiles beside GROOM; SERINE checks the supplies; BASTION still wears its purple-blue shorts and swim ring. They take their first steps camera-right along the dry shoreline, not instantly changed into travel outfits. A dark close PALM TRUNK occupies the rightmost 25–30 percent of frame as the camera pans right toward an occlusion, but ALL SIX characters are still readable to its left. Sea and right limestone headland remain behind. No autumn leaves or second season in the same image, no fish still in the air, no text.",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-10_summer-pack-and-pan-exit-v2.png",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-10_summer-pack-and-pan-exit.prompt.txt",
+      "references_override": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png"
+      ],
+      "status": "GENERATED_REVIEWABLE"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "ref-01",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-0ee842be-ac70-4ebf-a539-acd2e19a7267.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch.png"
+      ],
+      "revision": "Edit this cinematic frame minimally. Keep ALL three characters' exact identities, expressions, bodies, positions, costumes, lighting, river, mountains, flowers and composition unchanged. There must be exactly ONE parchment map in the entire image: the large map already held by the orc in the image-left foreground, with its black dragon silhouette. REMOVE the extra small parchment from the auburn ranger woman's outstretched right hand near the human mage. Her same right hand should instead be an EMPTY natural open hand reaching toward the mage for balance. Preserve the mage's empty open hand and the orc's supporting grip on her upper arm. Do not replace the duplicate paper with any other object. No new people, no text or other edits.",
+      "previous_take": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch.png",
+      "previous_take_archived": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/takes/ref-01_spring-map-catch.png",
+      "title": "浅河失足与接图",
+      "time_window": "00-04s",
+      "storyboard_unit": "SH01",
+      "season": "spring",
+      "cast": [
+        "RANGER",
+        "ORC",
+        "MAGE"
+      ],
+      "width": 1671,
+      "height": 941,
+      "sha256": "921d274fea76cd3088538b358fe2deefb392b9c9dfbb4e68b044eb757fb6de63",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "已将重复地图改成一张，兽人持图、游侠空手扶稳；三人脸与春季场景可读。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/takes/ref-01_spring-map-catch.png"
+      ]
+    },
+    {
+      "id": "ref-02",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-02_spring-water-play.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-ccd1a690-e5a8-4bac-bfac-46dccc4b0a65.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ORC/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png"
+      ],
+      "title": "泼水嬉闹与机器人漏水",
+      "time_window": "04-08s",
+      "storyboard_unit": "SH02",
+      "season": "spring",
+      "cast": [
+        "RANGER",
+        "ORC",
+        "ROBOT"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "bd15c0ee6caabf79ab8a670de458c7b83c3dcb28294c483b6fc7ff21aebdfe60",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "三人独立动作可读，机器人机械指缝漏水，游侠与兽人有不同反应。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-02_spring-water-play.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ORC/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png"
+      ]
+    },
+    {
+      "id": "ref-03",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-03_spring-elf-care.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-912ccbb5-f738-4a6e-a036-448c02c983fa.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png"
+      ],
+      "title": "瑟琳系靴带",
+      "time_window": "08-10s",
+      "storyboard_unit": "SH03",
+      "season": "spring",
+      "cast": [
+        "ELF",
+        "RANGER"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "496affc0c4ffab604488a1043faff113d675fbfc352cd0c05e7159998bb152b3",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "两人身份与服装保持，母亲式照顾通过手、靴带与表情表达。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-03_spring-elf-care.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png"
+      ]
+    },
+    {
+      "id": "ref-04",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-04_spring-mage-map.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-2b8c54b4-59e6-4603-9f20-d326b407e989.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png"
+      ],
+      "title": "法师收整地图",
+      "time_window": "10-12s",
+      "storyboard_unit": "SH03",
+      "season": "spring",
+      "cast": [
+        "MAGE"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "c929e8e0cfa9663b27e2e0a3e6bd25eb6d0599f93c54d40442fe25c8dee59dc2",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "法师冷脸、单张黑龙地图与春树遮挡准备明确。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-04_spring-mage-map.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png"
+      ]
+    },
+    {
+      "id": "ref-05",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-284b3657-ad8b-4a1f-a35f-7443add81390.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe.png"
+      ],
+      "revision": "Make a very small continuity correction ONLY. Preserve all SIX characters, their exact faces, hair, horns/ears, poses, swimsuits, mechanical construction, towels, beach, sea, headland, boat wreck and lighting unchanged. The wicker fish basket in front of the silver-haired elf woman must be COMPLETELY EMPTY at this early point before fishing: remove every fish from inside the basket and reveal the natural empty woven inner bottom. Keep the basket itself, its size, rim, handle, position and the elf woman's hands resting on the rim unchanged. Do not add fish anywhere else. No other edits, no text.",
+      "previous_take": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe.png",
+      "previous_take_archived": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/takes/ref-05_summer-team-wardrobe.png",
+      "title": "夏季六人造型与海岸",
+      "time_window": "12-14s",
+      "storyboard_unit": "SH04",
+      "season": "summer",
+      "cast": [
+        "ORC",
+        "RANGER",
+        "ELF",
+        "ROBOT",
+        "DRAGONBORN",
+        "MAGE"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "e411357aae5e093daffb14bd04b6bea6d74f596f6c650777f3fab5fb18a78776",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "六人齐备，基础特征保持，夏装B和海岸作为后续参照；已把提前出现的鱼清空。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/takes/ref-05_summer-team-wardrobe.png"
+      ]
+    },
+    {
+      "id": "ref-06",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-f6bdfe7e-2792-4931-a41d-b94a7569f5bc.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ],
+      "title": "游侠射中第一条鱼",
+      "time_window": "14-16s",
+      "storyboard_unit": "SH04",
+      "season": "summer",
+      "cast": [
+        "RANGER",
+        "ELF"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "7eb2631ccb3d97d8262c7914734d22dea0d5d8bc9348a916a6c480eddc031e7a",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "仅一条普通小鱼、普通弓和细绳，鱼篮仍空，未使用战斗巨箭。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ]
+    },
+    {
+      "id": "ref-07",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-07_summer-dragonborn-fish-farewell.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-7dc323c0-504a-4869-b74a-bcd3bad67512.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ORC/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ],
+      "title": "龙裔的小鱼告别",
+      "time_window": "16-20s",
+      "storyboard_unit": "SH05",
+      "season": "summer",
+      "cast": [
+        "DRAGONBORN",
+        "ORC",
+        "RANGER"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "95fd7b8ffac373f2df6b78465da5b9c5826a590135da43e320127eb2cf8ef533",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "黑巾、小鱼与三人反应明确，鱼篮未先填满，无血腥或碑文字。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-07_summer-dragonborn-fish-farewell.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ORC/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ]
+    },
+    {
+      "id": "ref-08",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-08_summer-mage-fish-fountain.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-8edb4dec-5eaf-4cc6-9d10-d8c416e476a7.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ],
+      "title": "法师召唤鱼雨",
+      "time_window": "20-24s",
+      "storyboard_unit": "SH06",
+      "season": "summer",
+      "cast": [
+        "MAGE",
+        "ROBOT",
+        "RANGER"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "6a7f0ffcc32141b6f9aa548c2eaed8a6964a853b3bef4087fcfd1049daaf059c",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "法师、游侠、机器人三人；可见海面法阵、水柱与鱼的来源。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-08_summer-mage-fish-fountain.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ]
+    },
+    {
+      "id": "ref-09",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-09_summer-fish-rain-laughter.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-f2e223f7-c2b8-4fc2-934e-69dfd12d53f7.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ],
+      "title": "六人接鱼大笑",
+      "time_window": "24-28s",
+      "storyboard_unit": "SH07",
+      "season": "summer",
+      "cast": [
+        "ORC",
+        "RANGER",
+        "ELF",
+        "ROBOT",
+        "DRAGONBORN",
+        "MAGE"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "c8a9b954db764613cd48429a3c1940d37d386da827c378a096c3de00184b67d3",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "六人齐备，各自表情不同，鱼篮与黑巾袋装鱼，机器人仍为机械体。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-09_summer-fish-rain-laughter.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png"
+      ]
+    },
+    {
+      "id": "ref-10",
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-10_summer-pack-and-pan-exit-v2.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-85e35f40-0f0d-4b48-b54e-6db76b78ec04.png",
+      "references": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-10_summer-pack-and-pan-exit.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.png"
+      ],
+      "revision": "Perform a strictly minimal continuity correction on the FIRST input image, preserving the exact six characters, faces, costumes, poses, proportions, beach, right foreground palm, light, camera and composition. Correct ONLY these two existing props: (1) The wicker basket carried by the silver-haired elf woman should visibly contain several small intact SILVER FISH from the earlier catch. Add 5 to 7 small fish lying naturally INSIDE the basket, partially visible through its open top around her hand, not spilling and not floating. Preserve her basket grip and keep all fingers anatomically unchanged. (2) Put the ordinary slender brown recurved WOODEN FISHING BOW from the SECOND reference image into the auburn half-elf ranger woman's free hand hanging beside her thigh, so she carries her bow away. Keep her other arm and the orc's friendly arm around her unchanged. Bow is lowered safely, no arrow nocked, no magic. The second image is a PROP reference for the bow only; do not import any people, poses or extra basket. Everything else in the first image must remain unchanged. No fish in the air, no extra hands, no text.",
+      "previous_take": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-10_summer-pack-and-pan-exit.png",
+      "previous_take_archived": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/takes/ref-10_summer-pack-and-pan-exit.png",
+      "title": "带走补给与弓",
+      "time_window": "28-30s",
+      "storyboard_unit": "SH08",
+      "season": "summer",
+      "cast": [
+        "ORC",
+        "RANGER",
+        "ELF",
+        "ROBOT",
+        "DRAGONBORN",
+        "MAGE"
+      ],
+      "width": 1672,
+      "height": 941,
+      "sha256": "1557ec29eba4acb6b214c99386af1617efb1c08a6ff92faeb5b9a04f42a5b327",
+      "status": "GENERATED_REVIEWABLE",
+      "visual_review": "六人开始离开，已补回所携弓与篮中鱼，无空中鱼；棕榈仅部分遮挡，是尾帧前参考而非30秒全遮挡尾帧。",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-10_summer-pack-and-pan-exit.prompt.txt",
+      "available_reference_paths": [
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/takes/ref-10_summer-pack-and-pan-exit.png",
+        "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.png"
+      ]
+    }
+  ],
+  "review_summary": "逐张已查看生成结果，检查角色、人数、道具先后和季节服装；三处局部修正版本单独留档。供用户审阅，不代表最终选图或视频连续性验收。",
+  "scope_notes": [
+    "4张春季、6张夏季；不是四季整片全部参考。",
+    "ref-04和ref-10为遮挡前构图，满屏遮挡首尾帧尚未另制。",
+    "夏季泳装场景参考已建立，但独立泳装三视图未生成。",
+    "没有运行视频或配音任务。"
+  ],
+  "generated_for_revision": "v3-before-in-place-v4",
+  "current_revision": "v4-in-place",
+  "current_use_document": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/current-reference-use.md"
+}

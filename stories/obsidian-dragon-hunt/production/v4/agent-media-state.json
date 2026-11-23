@@ -1,0 +1,837 @@
+{
+  "root": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt",
+  "ep": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons",
+  "lib": {
+    "ORC": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ORC/turnaround-v1/three-view.png",
+    "RANGER": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/turnaround-v1/three-view.png",
+    "MAGE": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/turnaround-v1/three-view.png",
+    "ROBOT": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/turnaround-v1/three-view.png",
+    "ELF": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+    "BORN": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/turnaround-v1/three-view.png",
+    "MAGE_LOOK": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/MAGE/look-reference-v1.png",
+    "RANGER_LOOK": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/RANGER/look-reference-v1.png",
+    "SPRING_GROUP": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+    "SUMMER_GROUP": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-05_summer-team-wardrobe-v2.png",
+    "OLD_FISH": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.png",
+    "OLD_SPELL": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-08_summer-mage-fish-fountain.png",
+    "OLD_LAUGH": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-09_summer-fish-rain-laughter.png"
+  },
+  "jobs": [
+    {
+      "id": "A_DRAGON",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/VALSAK/turnaround-v4/three-view.png",
+      "refs": [],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nCreate a professional THREE-VIEW full-body turnaround of VALSAK, an original gigantic black obsidian fire dragon: exactly FRONT, strict LEFT PROFILE, and BACK, all four feet grounded, wings FOLDED in all views. Landscape sheet, neutral light-gray studio background, same model scale and baseline; side-view area may be wider to fit the long tail, no clipping. Four powerful walking legs and a separate pair of batlike wings growing at the shoulder blades, thick heavy body, long muscular neck, tapering spined tail. About32m total length,38m spread wingspan,6m shoulder height. Broad angular predatory skull, amber slit eyes, TWO swept-back obsidian horns, dark charcoal large armor plates, sparse dark-red/orange seam glow at throat/chest, no chest jewel. Mouth relaxed, no fire. Intact model, NO wounds or broken plates. Keep exact horn shape, limbs, plate design and body proportions across all three orientations. Not a skinny snake, not a two-legged wyvern, not a hydra. Clean broad plates, selective detail, no uniform tiny scale grid. No labels, scale marks or text.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/VALSAK/turnaround-v4/three-view.prompt.txt"
+    },
+    {
+      "id": "A_KING",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/KING/reference-v4.png",
+      "refs": [
+        "MAGE"
+      ],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nOne NEW elderly HUMAN king, distinct from the reference mage (reference STYLE only): age60, weary weathered face, short silver hair and trimmed silver beard, no pointed ears or horns. Full-body three-quarter neutral standing pose on plain warm gray studio background. Practical scorched dark-red royal mantle over dark steel ceremonial armor, modest silver crown, one bandaged forearm. Silver royal emblem of a CROWN above THREE mountain peaks on cloak clasp, same simple heraldic shape will be used on flags and a red wax seal. He holds a parchment dragon-hunt map scroll tied with the red sealed cord; a black dragon silhouette is visible on a small opened portion, no writing. Restrained dignified gaze and believable human proportions. Exactly one person, no court entourage, no throne, no text, no triumphant pose.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/KING/reference-v4.prompt.txt"
+    },
+    {
+      "id": "A_WEAPONS",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/props/team-weapons-v4.png",
+      "refs": [
+        "ORC",
+        "MAGE_LOOK",
+        "RANGER_LOOK"
+      ],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nA clean production PROP ASSET BOARD on light gray background, four well-separated objects, not people: LEFT a heavy two-handed orc battleaxe about1.5m with black-steel crescent blade, short rear hook, bronze structural edging and dark wrapped steel shaft (NOT a hammer); center-left a slender ordinary brown wooden recurved ranger bow with taut string and one plain corded fishing arrow; center-right a giant2.5m piercing arrow with metal spine, restrained pale-cyan magic edge and mechanical barbs shown CLOSED; RIGHT the mage's1.8m charcoal and silver staff with angular blue crystal matching his reference. Preserve purposeful functional designs, no random spikes, no legible labels, no surrounding characters, no floating battlefield spell effects. Objects complete with margins, consistent material presentation.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/props/team-weapons-v4.prompt.txt"
+    },
+    {
+      "id": "A_STINGER",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/props/dragon-slayer-stinger-v4.png",
+      "refs": [
+        "BORN"
+      ],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nProduction asset sheet for ONE special assassin weapon in TWO clearly separated mechanical states: closed0.5m FOREARM-folded assembly and fully unfolded1.4m narrow TRIANGULAR dragon-slayer stinger. Dark forged metal, restrained antique-gold joints, thin dark-red heat-conduction groove. Three rigid telescoping/hinged blade sections align into a single straight thrusting point with mechanical locking collar; no floppy chain, no massive sword blade. Show wrist brace attachment and the same parts in both states, no wearer. Neutral gray background, clean realistic CG materials. Match the black-gold/red-clasp visual language of the reference dragonborn, but no human, text or labels.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/props/dragon-slayer-stinger-v4.prompt.txt"
+    },
+    {
+      "id": "A_ROBOT",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/combat-v4/three-view.png",
+      "refs": [
+        "ROBOT"
+      ],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nCreate a FULL-BODY THREE-VIEW turnaround FRONT, LEFT SIDE PROFILE facing left, BACK of the SAME robot in the reference, neutral warm-gray studio, equal height, relaxed standing, all feet and head visible. Preserve exact ivory/bronze armored body, angular face, cyan eyes/chest core, mechanical fingers and joints, purple mantle (shift mantle slightly aside only enough to reveal the back module). Add ONE integrated compact shoulder/back missile pack: EXACTLY SIX launch tubes total, arranged THREE on each shoulder/back side, purposeful slim geometry, six small missile nose caps visible in rear/side view; not giant rocket wings. Add a small retracted utility flame nozzle at each wrist, no fire. Preserve coherent engineering and the same body, no human skin. No missiles firing, no floating objects, no text.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/combat-v4/three-view.prompt.txt"
+    },
+    {
+      "id": "A_ASSASSIN",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/assassin-a1-v4/three-view-v2.png",
+      "refs": [
+        "BORN",
+        "@A_STINGER"
+      ],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nFRONT, LEFT PROFILE facing left, BACK full-body turnaround of the SAME adult male human-dragon hybrid, neutral gray studio and planted neutral stance. Preserve exact face, short black hair, two swept-back black horns, golden slit eyes, neck-side copper-black scales, adult body build; no tail/wings. A1 ASSASSIN OUTFIT evolves from his black-gold longcoat: coat skirts shorten and fold to waist, fitted dark articulated armor, discreet burgundy lining, high collar and a close hood with actual horn openings, a lower-face half-mask leaving eyes and horn bases readable. Right wrist carries the CLOSED stinger from second reference (open version shown only as prop reference, do not put1.4m blade through his leg). No floating magic, no new face, no bulky sci-fi suit, no labels. Maintain asymmetrical gold shoulder protection and dark-red clasp.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/assassin-a1-v4/three-view.prompt.txt"
+    },
+    {
+      "id": "A_VALLEY",
+      "type": "asset",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/scenes/BONE_VALLEY_V4/layout-master.png",
+      "refs": [
+        "@A_DRAGON"
+      ],
+      "prompt": "Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors.\n\nOne high southeast elevated MASTER ESTABLISHING of the dragon-bone valley at winter dusk, no labels, map grid or arrows. Valley about150m north-south and110m across. Far/north at image upper-right a shallow bone lair holding the SAME intact black dragon ASLEEP, folded wings, chest breathing, head pointing toward southern foreground. Center open broad dry black-rock arena; an ancient broken pale rib arch near center-front, low eastern bone ledge at image RIGHT, elevated ranger ledge further southern-right; south rocky entrance foreground-left. Basalt pillars and cracks flank arena east/west, sparse old snow only in shade; no castle, lava river, jungle or rain. Warm northwest sunset, cool ambient, readable dark creature against lighter stone. No heroes, no battle damage, only necessary old flags/helmets near dragon lair. This locks geography for all fight frames.",
+      "status": "PLANNED",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/scenes/BONE_VALLEY_V4/layout-master.prompt.txt"
+    },
+    {
+      "id": "S1_01",
+      "type": "reference",
+      "segment": 1,
+      "index": 1,
+      "title": "恶龙袭城",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-01.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_KING"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nOpening kingdom attack. One same obsidian dragon flying above a pale-stone royal city, four legs tucked beneath body and TWO enormous separate bat wings bearing its weight. A short orange breath strikes ONE tower, stone fragments begin falling, a dark-red banner bearing a SILVER CROWN ABOVE THREE PEAKS burns at one corner and falls. Dramatic broad readable medieval architecture, no gore, no crowds in foreground, no heroes. Crown emblem matches king asset. Camera low city-side, no text. Dragon intact, no neck wound.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-01.prompt.txt"
+    },
+    {
+      "id": "S1_02",
+      "type": "reference",
+      "segment": 1,
+      "index": 2,
+      "title": "国王交付地图",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-02.png",
+      "refs": [
+        "SPRING_GROUP",
+        "ELF",
+        "ROBOT",
+        "BORN",
+        "@A_KING"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nExactly SEVEN people in a damaged royal courtyard: the KING from image5 faces SIX teammates. Image1 contains ORC(left),RANGER(center),MAGE(right) identities; images2/3/4 are ELF/ROBOT/DRAGONBORN turnarounds, each one identity. In foreground king hands the mage ONE parchment hunt map with black dragon silhouette and red wax seal bearing the silver crown/three-peaks emblem. Others stand seriously behind the mage in A0 outfits. No extra guards, no speaking mouths, no kneeling ceremony. Scorched tower stone and same red emblem flag in background. Clear handoff, no duplicate map.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-02.prompt.txt"
+    },
+    {
+      "id": "S1_03",
+      "type": "reference",
+      "segment": 1,
+      "index": 3,
+      "title": "六人接受托付出城",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-03.png",
+      "refs": [
+        "@S1_02",
+        "@A_KING"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame SIX teammates from previous courtyard image, same A0 gear, taking first steps camera-right through scorched city gate toward distant mountain road. Mage carries the single rolled hunt map and red sealed cord, orc checks others have followed, ranger grips stowed bow strap. King is OFFSCREEN; exactly six teammates, no seventh person. Near dark gatepost enters at right15percent for later lateral occlusion. Serious measured departure, no vacation smiles, no new outfits, no text.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-03.prompt.txt"
+    },
+    {
+      "id": "S1_04",
+      "type": "reference",
+      "segment": 1,
+      "index": 4,
+      "title": "春河互助",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-04.png",
+      "refs": [],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\n",
+      "status": "REUSE_PENDING",
+      "reuse": "SPRING_GROUP",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-04.prompt.txt"
+    },
+    {
+      "id": "S1_05",
+      "type": "reference",
+      "segment": 1,
+      "index": 5,
+      "title": "夏季捕鱼补给",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-05.png",
+      "refs": [],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\n",
+      "status": "REUSE_PENDING",
+      "reuse": "OLD_FISH",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-05.prompt.txt"
+    },
+    {
+      "id": "S1_06",
+      "type": "reference",
+      "segment": 1,
+      "index": 6,
+      "title": "法师鱼雨",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-06.png",
+      "refs": [],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\n",
+      "status": "REUSE_PENDING",
+      "reuse": "OLD_SPELL",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-06.prompt.txt"
+    },
+    {
+      "id": "S1_07",
+      "type": "reference",
+      "segment": 1,
+      "index": 7,
+      "title": "接鱼短笑",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-07.png",
+      "refs": [],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\n",
+      "status": "REUSE_PENDING",
+      "reuse": "OLD_LAUGH",
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-07.prompt.txt"
+    },
+    {
+      "id": "S1_08",
+      "type": "reference",
+      "segment": 1,
+      "index": 8,
+      "title": "秋山背人与藤桥",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-08.png",
+      "refs": [
+        "SPRING_GROUP",
+        "ELF",
+        "ROBOT",
+        "BORN"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nAutumn mountain route, exactly SIX original teammates in A0 plus practical travel cloaks. Image1 identifies orc/ranger/mage; other sheets elf/robot/dragonborn. Honest massive orc CARRIES the tired auburn ranger piggyback safely with hands supporting outer thighs, quiver shifted sideways, ranger holds map seriously. Reliable silver-haired elf at bridge near end has just tightened thick vines anchoring to BOTH basalt banks, supporting an existing broken6m wooden bridge skeleton. Robot waits with one heavy foot testing near planks, mage indicates mountain pass, dragonborn follows. Show feet, sagging bridge and root anchors, natural autumn leaves, all adults. No cartoon floating bridge, no upside-down-map gag, no background crowd.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-08.prompt.txt"
+    },
+    {
+      "id": "S1_09",
+      "type": "reference",
+      "segment": 1,
+      "index": 9,
+      "title": "冬夜双火取暖",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-09.png",
+      "refs": [
+        "SPRING_GROUP",
+        "ELF",
+        "@A_ROBOT",
+        "BORN"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nExactly SIX same teammates at a compact winter camp against wind-sheltering rock wall, thick winter cloaks over recognizable A0 colors. Robot still fully mechanical uses small wrist nozzle to ignite already-arranged wood in a stone fire ring; human-dragon man on opposite side adds a SMALL dark-red palm flame, no giant spell. Orc and auburn ranger already hold cups; cold-faced silver-black-haired human mage hands the last cup to reliable silver-haired elf who shields wind. Everyone tired but quietly warm, no big laughter, no human drinks for robot. Snow outside camp, keep all clothes away from fire, fire has real wood source, no summer outfits.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-09.prompt.txt"
+    },
+    {
+      "id": "S1_10",
+      "type": "reference",
+      "segment": 1,
+      "index": 10,
+      "title": "发现睡龙与埋伏",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-10.png",
+      "refs": [
+        "@A_VALLEY",
+        "SPRING_GROUP",
+        "ELF",
+        "@A_ROBOT",
+        "BORN"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame winter-dusk valley as image1 master. Exactly SIX teammates, identifiable chiefly by silhouette and color, at southeastern approach and final ambush positions, no duplicates from turnaround sheets: orc central-west foreground near rib, ranger at right raised ledge with hand moving toward bow, mage southwest rock, robot south rock, elf southeast rock planting two seeds, dragonborn at east wall. Dragon asleep in north lair, SAME intact model. Thick outer winter cloaks neatly stored behind south entry rock; team now original A0 armor. High southeast angle makes all six and both approach routes legible, sparse shaded snow, no attack magic yet. Map is with mage, no king. Serious alert expressions.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-10.prompt.txt"
+    },
+    {
+      "id": "S2_01",
+      "type": "reference",
+      "segment": 2,
+      "index": 1,
+      "title": "游侠搭弦",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-01.png",
+      "refs": [
+        "RANGER",
+        "@A_VALLEY",
+        "@S1_10",
+        "@A_WEAPONS"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nAt the established eastern raised ranger ledge, close medium shot of same auburn half-elf adult ranger in A0 green leather taking a plain arrow and fitting its nock to the bow string. Calm concentrated green eyes, short pointed ears, feet grounded, quiver on back. Ordinary wooden bow matches prop asset. Background far north lair softly blurred; do not put other heroes at her side. No arrow has fired, no giant arrow yet, no summer outfit.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-01.prompt.txt"
+    },
+    {
+      "id": "S2_02",
+      "type": "reference",
+      "segment": 2,
+      "index": 2,
+      "title": "穿透巨箭成形",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-02.png",
+      "refs": [
+        "RANGER",
+        "@A_WEAPONS",
+        "@S2_01"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame ranger at SAME ledge pulls bow fully. A giant2.5m pale-cyan-edged piercing arrow has extended from the plain arrow core, mechanical barbs CLOSED, consistent prop design. Both arms and shoulder tension visible, slight forearm tremor, exact mature face. Arrow points north toward sleeping dragon OFFSCREEN. Neutral focused expression, real string contact, no extra hands, no spell circle around her head, no other characters.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-02.prompt.txt"
+    },
+    {
+      "id": "S2_03",
+      "type": "reference",
+      "segment": 2,
+      "index": 3,
+      "title": "贴箭飞行",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-03.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@A_WEAPONS",
+        "@S2_02"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nFPV-like keyframe directly behind and slightly ABOVE the giant arrow in flight, its sharp nose and long metal spine visible leading toward SAME SLEEPING dragon far ahead in northern lair. Canyon rocks and rib arch rush past in perspective, but image sharp enough to read trajectory. Arrow basically straight, not curving like a drone; no actual drone. Dragon still asleep with folded wings and intact neck. No heroes next to flying arrow, no panels or text.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-03.prompt.txt"
+    },
+    {
+      "id": "S2_04",
+      "type": "reference",
+      "segment": 2,
+      "index": 4,
+      "title": "恶龙猛然睁眼",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-04.png",
+      "refs": [
+        "@A_DRAGON",
+        "@S2_03"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nExtreme cinematic close-up of SAME obsidian dragon's head in sleeping lair just as ONE visible amber slit eye snaps OPEN, eyelids tense, familiar two swept horns partly in frame. Thick large dark plates, restrained orange seams, no wounds. Near foreground cyan arrow glow reflected only faintly in eye, not lodged in eye. Head still low, background same bones. Menacing alert intelligence, not a cute pet, no text.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-04.prompt.txt"
+    },
+    {
+      "id": "S2_05",
+      "type": "reference",
+      "segment": 2,
+      "index": 5,
+      "title": "龙息熔箭",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-05.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_WEAPONS",
+        "@S2_04",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSide three-quarter readable confrontation: SAME dragon, chest still near northern sleeping nest, has raised neck and emits ONE short intense orange breath toward incoming cyan metal giant arrow. Arrow nose glows red, core bends, a few heavy molten drops continue forward/down while cyan edge disperses. Show mouth-to-fire-to-arrow connection, entire arrow has not hit dragon. No extra dragons or heroes, intact throat armor, no city. Fire must not fill whole image and hide contact.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-05.prompt.txt"
+    },
+    {
+      "id": "S2_06",
+      "type": "reference",
+      "segment": 2,
+      "index": 6,
+      "title": "巨龙起身咆哮",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-06.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S2_05"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nLow southeast wide view in same lair. Dragon plants front paws and pushes enormous chest up, hindquarters following, TWO separate wings unfurl, four walking feet readable. Head facing southern intruders, open mouth in roar, hot throat but no current breath beam. Bones and a few old flags around nest, same geography. Physical weight through bent elbows and claws, not floating. No wound to neck or wrist yet, no random foreground heroes.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-06.prompt.txt"
+    },
+    {
+      "id": "S2_07",
+      "type": "reference",
+      "segment": 2,
+      "index": 7,
+      "title": "后肢蓄力起跳",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-07.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S2_06"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSAME dragon launching from north lair toward central arena: hindlegs extended from a visible push-off scar, wings in ONE strong downstroke, forelegs beginning to lift. Long neck and tail lag slightly, belly only few meters above ground, no high soaring. Side/southeast camera shows origin rock and intended central landing corridor with pale rib arch. No limb loss, four legs plus two wings. Dragon intact, no neck wound. Dust starts at push-off, not already whole-valley fog.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-07.prompt.txt"
+    },
+    {
+      "id": "S2_08",
+      "type": "reference",
+      "segment": 2,
+      "index": 8,
+      "title": "前爪着地承重",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-08.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S2_07"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nCentral arena landing: SAME dragon FRONT CLAWS touch ground first, elbows deeply flexing, chest continuing down, hindfeet following, tail still higher trailing north. Ground deforms and a low dust ring only at contacts. Head points south, same rib arch front-east marker and eastern low ledge. Full huge body readable with both wings braking, four feet distinct. This is low short-pounce landing, not superhero hovering. No neck wound or missile damage yet.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-08.prompt.txt"
+    },
+    {
+      "id": "S2_09",
+      "type": "reference",
+      "segment": 2,
+      "index": 9,
+      "title": "兽人抵住爪击",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-09.png",
+      "refs": [
+        "ORC",
+        "@A_DRAGON",
+        "@A_WEAPONS",
+        "@S2_08"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nHonest massive armored ORC braces the same black-steel hooked battleaxe horizontally against the SIDE of dragon's western foreclaw sweeping south. Show contact, both hands, bent knees, feet carving two3m trenches; shoulders compressed and armor denting. He redirects lateral force, not holding the entire dragon overhead. Dragon still full six-appendage anatomy, collar intact. Southeast low camera sees under jaw to far/west paw and orc. Claw larger than orc torso. No blood spray, no floating feet.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-09.prompt.txt"
+    },
+    {
+      "id": "S2_10",
+      "type": "reference",
+      "segment": 2,
+      "index": 10,
+      "title": "借力劈开腕甲",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-10.png",
+      "refs": [
+        "ORC",
+        "@A_WEAPONS",
+        "@S2_09",
+        "@A_DRAGON"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame orc and SAME western foreleg, continuous pose after redirect: orc steps inward and turns hips to drive axe blade into wrist-side armor seam. One local plate crack and a chip on axe edge, NOT severed limb. His shoulder plate stays dented, both hands grip, knees absorb recoil. Dragon withdraws this paw slightly; throat/collar still intact. Close-medium contact composition, same arena dry ground and trenches. No hammer, no new giant neck wound.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_02_30-60s/frames/current-references-v1/ref-10.prompt.txt"
+    },
+    {
+      "id": "S3_01",
+      "type": "reference",
+      "segment": 3,
+      "index": 1,
+      "title": "法师召唤陨石",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-01.png",
+      "refs": [
+        "MAGE",
+        "@A_WEAPONS",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nCold powerful human mage at fixed southwest rock in A0 navy robes, staff raised and feet planted. THREE restrained rocky arcane rings align high in sky, one burning3m-class meteor beginning to descend toward dragon's eastern neck-shoulder. Camera southeast medium-wide includes mage lower-left and far central dragon silhouette, no portrait duplication. He remains composed but fingers tighten. No ice or water spell, no meteor already touching ground.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-01.prompt.txt"
+    },
+    {
+      "id": "S3_02",
+      "type": "reference",
+      "segment": 3,
+      "index": 2,
+      "title": "巨龙察觉天火",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-02.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S3_01",
+        "@S2_10"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nWide southeast battlefield: dragon in central arena raises head to notice descending meteor; begins rearward3m step, one foot shifting BEFORE body. Existing western wrist crack only. Burning meteor in upper frame follows an oblique path toward EAST collar; heroes remain far south, no one under impact. Four legs and separate wings visible, same rib arch/low ledge. No collar crack yet, no multiple meteors.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-02.prompt.txt"
+    },
+    {
+      "id": "S3_03",
+      "type": "reference",
+      "segment": 3,
+      "index": 3,
+      "title": "陨石擦裂东颈肩",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-03.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S3_02"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nMoment of GLANCING meteor strike on SAME dragon's EAST neck-shoulder collar: large external plate fractures, meteor main mass continues toward north-rear ground at world(8,90), not centered through spine. Dragon has completed only3m northward retreat, recoil passes through neck then chest. Show first EAST COLLAR damage that later attacks reuse, western wrist crack persists. Rock fragments arc outward, limited dust, no instant kill, no huge blood. Same valley markers.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-03.prompt.txt"
+    },
+    {
+      "id": "S3_04",
+      "type": "reference",
+      "segment": 3,
+      "index": 4,
+      "title": "机械体首轮四弹",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-04.png",
+      "refs": [
+        "@A_ROBOT",
+        "@A_VALLEY",
+        "@S3_03"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSAME robot at south rock, combat armor and SIX-tube shoulder/back pack matching asset. First salvo exactly FOUR small missiles have launched in alternating sequence, four trails aimed north at damaged eastern collar, TWO missiles still visibly seated, four spent tubes dark. Grounded wide stance, small firing recoil, cyan optics focused. No grenade minigun, no extra rocket wings, no magic floating globe. Dragon distant, collar damaged, robot no summer ring or shorts.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-04.prompt.txt"
+    },
+    {
+      "id": "S3_05",
+      "type": "reference",
+      "segment": 3,
+      "index": 5,
+      "title": "龙息截击两枚导弹",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-05.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S3_04",
+        "@S3_03"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nWide side battlefield: same damaged dragon turns head toward south and breathes a short fire stream that detonates EXACTLY TWO incoming missiles in midair ahead of body; TWO other small missiles pass farther to the east toward existing collar crack. Clear separated trajectories and two localized airbursts, no hero struck, no dense full-frame fire. Dragon western wrist crack and eastern glancing collar break persist. Not four missiles all exploding on neck.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-05.prompt.txt"
+    },
+    {
+      "id": "S3_06",
+      "type": "reference",
+      "segment": 3,
+      "index": 6,
+      "title": "余弹命中旧裂甲",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-06.png",
+      "refs": [
+        "@A_DRAGON",
+        "@S3_03",
+        "@S3_05",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nClose medium of EAST neck-shoulder: TWO remaining first-salvo missiles impact edges of the SAME meteor crack, knocking off a few outer dark plates; inner membrane still protected, dragon recoils but stands. Orange blast light restrained, falling heavy plate fragments, no chest jewel and no second unrelated weakpoint. Context shows same right/east low bone ledge. No fully exposed red sac yet, no black full-screen smoke.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-06.prompt.txt"
+    },
+    {
+      "id": "S3_07",
+      "type": "reference",
+      "segment": 3,
+      "index": 7,
+      "title": "精灵藤蔓束足",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-07.png",
+      "refs": [
+        "ELF",
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S3_06"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nReliable silver-haired high elf at southeast casting rock kneels with one palm on ground, A0 pearl/indigo robes, calm focused face. Roots visibly grow along ground fissures from her prepared seeds toward dragon feet; thick vines make first CONTACT, loop ankles then root into flank basalt cracks. Show near casting hand and far feet within same depth. Dragon collar already damaged, still can move neck/wings. No silver chains, no complete paralysis, no floating vines without roots.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-07.prompt.txt"
+    },
+    {
+      "id": "S3_08",
+      "type": "reference",
+      "segment": 3,
+      "index": 8,
+      "title": "恶龙烧断第一圈藤",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-08.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S3_07"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame dragon points mouth DOWN toward front-foot vines, short orange flame chars their bark; a forepaw tugs and BREAKS the weakened first loop with visible fiber recoil. Rear ankle vines remain intact and rooted, not all vanish. Same eastern collar damage and western wrist crack, dragon tries stepping through gap but has not escaped valley. Low eastern angle preserves mouth-fire-vine relation, a piece of elf's robe/hand may be far southeast but no extra people. No whole-vine instant ash disappearance.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-08.prompt.txt"
+    },
+    {
+      "id": "S3_09",
+      "type": "reference",
+      "segment": 3,
+      "index": 9,
+      "title": "龙裔变装成刺客",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-09.png",
+      "refs": [
+        "BORN",
+        "@A_ASSASSIN",
+        "@A_STINGER",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame horned human-dragon man at east wall, midway A0→A1: one hand on original red clasp, coat skirts folding to waist and dark thin plates locking, close hood rising with proper horn holes, lower half-mask settling; exact face/gold eyes/horns unchanged. Right forearm stinger still FOLDED and mechanically locking, not full-length through leg. One actual character, not before/after split screen. Main reference A1 is final state, depict plausible folding process. No teleport, no smoke hiding body, no summer outfit or fire dragon spell.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-09.prompt.txt"
+    },
+    {
+      "id": "S3_10",
+      "type": "reference",
+      "segment": 3,
+      "index": 10,
+      "title": "刺客沿东壁绕行",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-10.png",
+      "refs": [
+        "@A_ASSASSIN",
+        "@A_STINGER",
+        "@A_VALLEY",
+        "@S3_08"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nA1 assassin same gold eyes/horns, low purposeful sprint along EAST rock wall from south toward low pale bone ledge near dragon's EAST collar. Feet push and land visibly, trailing cloak tabs follow inertia, three rocky landmarks keep route readable. Dragon has existing wrist/collar damage, some front vines broken, rear roots remain. No teleport blur or invisibility, no airborne superman. Camera east side tracking parallel, stinger CLOSED until approach.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/current-references-v1/ref-10.prompt.txt"
+    },
+    {
+      "id": "S4_01",
+      "type": "reference",
+      "segment": 4,
+      "index": 1,
+      "title": "巨龙试图再起跳",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-01.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_VALLEY",
+        "@S3_08"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nDragon in same central position lowers hindquarters preparing to leap away, wings spread but FEET STILL ON GROUND. Reinforced vines tightening at hind ankles, eastern collar and western wrist damaged from previous attacks. Old front burnt loops remain on ground. Strong muscular compression and tail counterbalance, no new airborne state. Southeast wide composition, no meteor again, no healed armor.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-01.prompt.txt"
+    },
+    {
+      "id": "S4_02",
+      "type": "reference",
+      "segment": 4,
+      "index": 2,
+      "title": "兽人与精灵共同牵制",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-02.png",
+      "refs": [
+        "ORC",
+        "ELF",
+        "@A_WEAPONS",
+        "@A_DRAGON",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nOne wide tactical keyframe with honest ORC at WEST forepaw hook of battleaxe engaged in existing wrist crack, shoulder drives shaft, rear boot wedged into broken bone slot; he is dragged half a step, not effortlessly still. Far SOUTHEAST high ELF presses both hands down, new coarse roots wrap rear ankles and bite two basalt flanks. Dragon jump preparation fails with feet grounded, neck still free enough to struggle. Same EAST collar crack. Preserve large distances, do not place elf physically beside orc or under belly.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-02.prompt.txt"
+    },
+    {
+      "id": "S4_03",
+      "type": "reference",
+      "segment": 4,
+      "index": 3,
+      "title": "机械体最后两弹",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-03.png",
+      "refs": [
+        "@A_ROBOT",
+        "@S3_04",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame south-position robot now launches its FINAL TWO missiles from the previously occupied two shoulder tubes. The other FOUR tubes visibly empty/dark, then all SIX empty after salvo. Combat pack matches asset, body grounded, focused cyan eyes. Two trails aim toward SAME eastern neck-shoulder crack, not down toward allies. No six fresh missiles or reload. No summer ring. Frame clear shoulder engineering and firing recoil, same south rock.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-03.prompt.txt"
+    },
+    {
+      "id": "S4_04",
+      "type": "reference",
+      "segment": 4,
+      "index": 4,
+      "title": "二轮爆压掀甲",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-04.png",
+      "refs": [
+        "@A_DRAGON",
+        "@S3_06",
+        "@S4_03",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nThe final TWO missile impacts peel up loosened EAST COLLAR plates at SAME meteor/first-salvo wound. Exposed edge now lifts, but a tough red/orange throat-sac MEMBRANE remains intact underneath. Dragon tries turning head but constrained feet and pulling vines slow it, not frozen in time. Heavy plate fragments fall, limited explosion light, no giant chest crystal. Keep same neck side and old scratches, no completely new hole elsewhere.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-04.prompt.txt"
+    },
+    {
+      "id": "S4_05",
+      "type": "reference",
+      "segment": 4,
+      "index": 5,
+      "title": "游侠第二次放箭",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-05.png",
+      "refs": [
+        "RANGER",
+        "@A_WEAPONS",
+        "@S2_02",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame adult auburn ranger at exact original eastern elevated ledge, green A0 outfit and braid, releasing SECOND and final giant pale-cyan piercing arrow. More strain and tiny tremor, face focused, no playful grin. Mechanical barbs CLOSED in flight. Bowstring recoils naturally, arrow points north toward already-opened eastern collar. No extra ordinary fishing arrow, no new spell ring, no summer clothes. Background keeps same canyon and damaged dragon far ahead.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-05.prompt.txt"
+    },
+    {
+      "id": "S4_06",
+      "type": "reference",
+      "segment": 4,
+      "index": 6,
+      "title": "巨箭楔开同一甲缝",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-06.png",
+      "refs": [
+        "@A_DRAGON",
+        "@A_WEAPONS",
+        "@S4_04"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nClose lateral view of SAME east collar wound: giant arrow has struck OUTER PLATE EDGES, mechanical barbs OPEN as wedge holding TWO heavy black plates apart, thick shaft trembles and projects outward safely. Intact glowing red throat-sac membrane now exposed behind it. Arrow is not already through the membrane or entire neck. Old meteor scar and missile edges persist; no hands or assassin in wound yet. Clear future entry space beside shaft, no blood spray, no duplicated arrows.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-06.prompt.txt"
+    },
+    {
+      "id": "S4_07",
+      "type": "reference",
+      "segment": 4,
+      "index": 7,
+      "title": "刺客短跃落地",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-07.png",
+      "refs": [
+        "@A_ASSASSIN",
+        "@A_STINGER",
+        "@S4_06",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame A1 horned assassin has just landed EAST of open collar after short jump from1.2m low bone ledge: left foot contacts, right foot following, ankle-knee-hip flex and short skid, no floating. Both head/horns and feet visible in full-body medium-wide. Right wrist stinger unfolds/locks to1.4m and points toward wedge-open membrane but HAS NOT touched it. Arrow wedge remains in same wound, vines hold feet, dragon still alive and moving. No aerial stabbing, no teleport or new pose after contact.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-07.prompt.txt"
+    },
+    {
+      "id": "S4_08",
+      "type": "reference",
+      "segment": 4,
+      "index": 8,
+      "title": "双手推进猎龙刺",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-08.png",
+      "refs": [
+        "@A_ASSASSIN",
+        "@A_STINGER",
+        "@S4_06",
+        "@A_DRAGON"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nSame assassin NOW grounded and one half-step closer, left hand bracing right wrist to thrust the1.4m triangular stinger through exposed thin red throat-sac membrane beside the wedged giant arrow. Shoulder drives after blade meets resistance, dark-red conduction groove glows, orange pressure reflux INSIDE neck/chest. Dragon roar breaks, eye loses focus, not head severed. Keep original face/hood/horns, same wound and arrow, clear two hands and wrist attachment. No giant new energy beam or point-blank missile.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-08.prompt.txt"
+    },
+    {
+      "id": "S4_09",
+      "type": "reference",
+      "segment": 4,
+      "index": 9,
+      "title": "巨龙失力分次倒地",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-09.png",
+      "refs": [
+        "@A_DRAGON",
+        "@S4_08",
+        "@A_VALLEY",
+        "ORC"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nWide southeast valley: dragon WEST front knee buckles first, chest coming down, head/neck falling west-south, hindquarters/tail lag north. Assassin already withdrawn safely to EAST with stinger retracted clear of neck; ORC has unhooked axe and retreats farther WEST outside head landing radius, shoulder dent and axe chip preserved. Vines sag as weight drops, arrow shaft bends against stone. All four legs/two wings still part of same body. Dust starts at impacts, no all-body rigid flip or extra heroes.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-09.prompt.txt"
+    },
+    {
+      "id": "S4_10",
+      "type": "reference",
+      "segment": 4,
+      "index": 10,
+      "title": "六人确认生还",
+      "target": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-10.png",
+      "refs": [
+        "SPRING_GROUP",
+        "ELF",
+        "@A_ROBOT",
+        "BORN",
+        "@A_VALLEY"
+      ],
+      "prompt": "ONE standalone widescreen 16:9 film keyframe, not a storyboard collage. Premium western fantasy cinematic stylized-realistic 3D, same sophisticated AAA game CG character sculpting as the team references, realistic PBR materials, restrained fine texture, expressive mature anatomy, natural hair and skin SSS. Clear large silhouettes, controlled muted grading. No plastic skin, flat cartoon, dense fish-scale texture noise, oversharpening, text, labels, UI or watermark. Reference turnaround sheets contain multiple views of ONE identity, never clone them into multiple actors. Preserve identity and the exact location/time state specified. Camera remains east/southeast of north-south battle axis; north lair behind dragon, southern team in foreground. Hard dry black-rock valley with broken rib arch and east low bone ledge, few patches of old snow only in shade, warm northwestern late sun and cool sky fill. Physically grounded contact, clear hands/feet, readable weapons, no motion blur hiding impacts. Dragon always FOUR separate walking legs PLUS TWO wings, same head/horns/tail and size; not a wyvern. Do not add unnamed heroes or extra dragons.\n\nFinal calm aftermath: SAME SIX teammates remain in their distinct positions around dead dragon, no king or seventh person. Orc at west rib supporting dented axe, ranger on eastern high ledge lowers bow and finds everyone, human mage southwest leaning on staff, mechanical robot south with SIX EMPTY missile tubes and dimmer core, elf southeast kneeling tired by slack roots, dragonborn EAST of dead neck retracting lower half-mask (A1 armor stays, recognizable face/horns exposed). Same dragon corpse center-west, no breath, seam fire fully extinguished, bent arrow and broken vines remain. High southeast wide enough to read geography and all six silhouettes, no sudden group posed atop dragon. Quiet relief, not victory joke.",
+      "status": "PLANNED",
+      "reuse": null,
+      "prompt_path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_04_90-120s/frames/current-references-v1/ref-10.prompt.txt"
+    }
+  ],
+  "done": {
+    "S1_04": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-04.png",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-01_spring-map-catch-v2.png",
+      "reused": true
+    },
+    "S1_05": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-05.png",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-06_summer-ranger-first-fish.png",
+      "reused": true
+    },
+    "S1_06": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-06.png",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-08_summer-mage-fish-fountain.png",
+      "reused": true
+    },
+    "S1_07": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/current-references-v1/ref-07.png",
+      "source": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_01_00-30s/frames/references-v1/ref-09_summer-fish-rain-laughter.png",
+      "reused": true
+    },
+    "A_DRAGON": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/VALSAK/turnaround-v4/three-view.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-ecbcf1bc-5ca6-4f26-9f09-075ea50bb48a.png"
+    },
+    "A_KING": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/KING/reference-v4.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-f2ee9825-8bde-400e-83ad-71a0669f73fd.png"
+    },
+    "A_WEAPONS": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/props/team-weapons-v4.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-ed0caa70-353e-4883-9a16-c6c14d0ce251.png"
+    },
+    "A_STINGER": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/props/dragon-slayer-stinger-v4.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-bd0ed57e-2a05-469a-9d6f-b33a738b3677.png"
+    },
+    "A_ROBOT": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/combat-v4/three-view.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-9117df99-e1dc-46c5-a7fb-479555196c86.png"
+    },
+    "A_ASSASSIN": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/assassin-a1-v4/three-view-v2.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-6e4f4e3b-2cb8-47d5-a6df-4e583bed4bb5.png"
+    },
+    "A_VALLEY": {
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/scenes/BONE_VALLEY_V4/layout-master.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a19f83-9b09-7be0-9d1a-7220367c602a/exec-e74a8826-3245-4a80-8aeb-d3c08bb80dbe.png"
+    }
+  },
+  "runner": "(async function(id) {\n const jobs=load(\"epv4_jobs\"),done=load(\"epv4_done\"),lib=load(\"epv4_lib\"),root=load(\"epv4_root\"),j=jobs.find(x=>x.id===id);\n if(!j)throw Error(\"Unknown job \"+id);if(done[id]){text({id,status:\"already_saved\",path:done[id].path});return;}\n const refs=j.refs.map(v=>v.startsWith(\"@\")?done[v.slice(1)]?.path:lib[v]);if(refs.some(x=>!x)||refs.length>5)throw Error(\"Reference dependency/limit \"+id);\n const args={prompt:j.prompt,transparent_background:false};if(refs.length)args.referenced_image_paths=refs;\n const r=await tools.image_gen__imagegen(args);generatedImage(r);\n const source=r.output_hint.match(/\\/Users\\/[^\\s]+\\/exec-[\\w-]+\\.png/)[0], quote=v=>\"'\"+v.replace(/'/g,\"'\\\\''\")+\"'\";\n const record={status:\"GENERATED_REVIEWABLE\",source,path:j.target,actual_references:refs};\n const code=\"from pathlib import Path; import sys,json,shutil,hashlib,struct; src=Path(sys.argv[1]);dst=Path(sys.argv[2]);mfile=Path(sys.argv[3]);rec=json.loads(sys.argv[5]);assert not dst.exists();shutil.copy2(src,dst);data=dst.read_bytes();rec['sha256']=hashlib.sha256(data).hexdigest();rec['width'],rec['height']=struct.unpack('>II',data[16:24]);m=json.loads(mfile.read_text());next(j for j in m['jobs'] if j['id']==sys.argv[4]).update(rec);mfile.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\\\\n',encoding='utf-8');print(json.dumps(dict(id=sys.argv[4],saved=str(dst),width=rec['width'],height=rec['height']),ensure_ascii=False))\";\n const copied=await tools.exec_command({cmd:\"python3 -c \"+quote(code)+\" \"+[source,j.target,root+\"/production/v4/media-production-manifest.json\",id,JSON.stringify(record)].map(quote).join(\" \"),max_output_tokens:500});\n if(copied.exit_code!==0)throw Error(copied.output);text(copied.output);done[id]={path:j.target,source};store(\"epv4_done\",done);\n})"
+}

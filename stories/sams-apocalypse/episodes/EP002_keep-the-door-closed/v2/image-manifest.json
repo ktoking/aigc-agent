@@ -1,0 +1,106 @@
+{
+  "e2-01": {
+    "id": "e2-01",
+    "episode": 2,
+    "segment": 1,
+    "title": "男主悬停开门按钮",
+    "description": "男主在监控室盯着店长，手悬在开门按钮上。三块显示器沿左墙灰桌，后右灰门带窄窗。",
+    "refs": [
+      "style"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_01_00-15s/frames/e2-01.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-02": {
+    "id": "e2-02",
+    "episode": 2,
+    "segment": 1,
+    "title": "店长藏起胳膊",
+    "description": "室外卷帘门前店长捂住左胳膊，右手持两把银色钥匙。",
+    "refs": [
+      "manager"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_01_00-15s/frames/e2-02.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-03": {
+    "id": "e2-03",
+    "episode": 2,
+    "segment": 2,
+    "title": "袖口下的咬伤",
+    "description": "店长在室外抬起左胳膊，袖口滑落，小臂露出一圈清楚但不血腥的红色牙印。",
+    "refs": [
+      "manager"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_02_15-30s/frames/e2-03.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-04": {
+    "id": "e2-04",
+    "episode": 2,
+    "segment": 2,
+    "title": "男主收回手",
+    "description": "监控室近景，男主把手从绿色开门按钮撤开，另一手握黑色对讲机，脸上从犹豫变为坚定。显示器只显示门外店长，不是房内客人。",
+    "refs": [
+      "style"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_02_15-30s/frames/e2-04.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-05": {
+    "id": "e2-05",
+    "episode": 2,
+    "segment": 3,
+    "title": "扣死内插销",
+    "description": "男主在卷帘门内侧扣死水平钢插销，闭合门，不见室外。",
+    "refs": [
+      "style"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_03_30-45s/frames/e2-05.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-06": {
+    "id": "e2-06",
+    "episode": 2,
+    "segment": 3,
+    "title": "外锁转不动门",
+    "description": "室外近景，店长的右手把银色钥匙插进蓝灰卷帘门外锁，门仍紧闭；白衬衫袖、蓝马甲、红挂绳边缘。视角不出现室内货架。",
+    "refs": [
+      "manager"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_03_30-45s/frames/e2-06.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-07": {
+    "id": "e2-07",
+    "episode": 2,
+    "segment": 4,
+    "title": "店长反应恶化",
+    "description": "店长神志恶化，低头用额头抵住紧闭卷帘门，眼神失焦，四肢无力，没有血腥。",
+    "refs": [
+      "manager"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_04_45-60s/frames/e2-07.png",
+    "width": 1672,
+    "height": 941
+  },
+  "e2-08": {
+    "id": "e2-08",
+    "episode": 2,
+    "segment": 4,
+    "title": "男主后怕",
+    "description": "男主在监控室退后半步，握住黑色对讲机，惊惧和一滴冷汗，身后显示器显示店长额头抵住门。室内门闭合。",
+    "refs": [
+      "style"
+    ],
+    "path": "episodes/EP002_keep-the-door-closed/segment_04_45-60s/frames/e2-08.png",
+    "width": 1672,
+    "height": 941
+  }
+}

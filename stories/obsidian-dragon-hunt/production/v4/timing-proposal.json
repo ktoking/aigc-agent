@@ -1,0 +1,64 @@
+{
+  "version": "v4-in-place",
+  "status": "APPLIED_IN_PLACE",
+  "total_seconds": 120,
+  "segment_seconds": 30,
+  "segments": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 30,
+      "title": "受灾、受命与四季追猎"
+    },
+    {
+      "index": 2,
+      "start": 30,
+      "end": 60,
+      "title": "巨箭惊龙与抵爪"
+    },
+    {
+      "index": 3,
+      "start": 60,
+      "end": 90,
+      "title": "陨石导弹与刺客绕行"
+    },
+    {
+      "index": 4,
+      "start": 90,
+      "end": 120,
+      "title": "合击刺杀与撤离"
+    }
+  ],
+  "opening_phases": [
+    {
+      "start": 0,
+      "end": 8,
+      "function": "袭城、国王托付、出发"
+    },
+    {
+      "start": 8,
+      "end": 26,
+      "function": "四季赶路补给中的短暂放松"
+    },
+    {
+      "start": 26,
+      "end": 30,
+      "function": "发现目标、压时设伏、交给搭弦"
+    }
+  ],
+  "battle_mapping": {
+    "source": "episodes/EP001_valsak_v3_seasons/timeline.json",
+    "source_start": 60,
+    "source_end": 150,
+    "target_start": 30,
+    "target_end": 120,
+    "offset_seconds": -30,
+    "source_revision": "v3-before-apply（内容原指纹见pre-apply-audit.json）"
+  },
+  "dialogue": false,
+  "narration": false,
+  "subtitles": false,
+  "existing_images_modified": false,
+  "existing_episode_modified": true,
+  "target_episode": "episodes/EP001_valsak_v3_seasons"
+}

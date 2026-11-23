@@ -1,0 +1,25 @@
+{
+  "status": "APPLIED_IN_PLACE",
+  "episode": "episodes/EP001_valsak_v3_seasons",
+  "deleted_segment": "segment_02_30-60s（原秋冬旅途，仅旧文本，已并入新开场）",
+  "renamed_segments": [
+    [
+      "segment_03_60-90s",
+      "segment_02_30-60s"
+    ],
+    [
+      "segment_04_90-120s",
+      "segment_03_60-90s"
+    ],
+    [
+      "segment_05_120-150s",
+      "segment_04_90-120s"
+    ]
+  ],
+  "current_segment_count": 4,
+  "total_seconds": 120,
+  "preserved_png_files": 25,
+  "image_hashes_match": true,
+  "new_episode_directory_created": false,
+  "media_generated": false
+}

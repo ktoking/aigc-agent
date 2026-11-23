@@ -1,0 +1,29 @@
+{
+  "provider": "GPT built-in imagegen",
+  "images": [
+    {
+      "file": "01-cold-blue-cinema.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-8af156e4-d0e7-453c-ba3b-e73103e93634.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "eecb637f9dc371b9114f2f9f280936be100d3cd8bba9d8c57996d3c89b55a15a",
+      "status": "candidate"
+    },
+    {
+      "file": "02-blackout-flashlight.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-e46589c3-8e08-4f61-9bba-5c5d03eb898f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c20a732a51219fc311b91f255255cf7c8f77014b66d104ebb0539fccecc90fc5",
+      "status": "candidate"
+    },
+    {
+      "file": "03-damp-industrial-realism.png",
+      "source": "/Users/kaiyi.wang/.codex/generated_images/01a14d86-9c8e-7120-b241-3ea4477546f2/exec-dad2b73a-8088-4d33-a864-972c8c64a76d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "531e98fa833adb766f31b79bd0f84726c2bb0cafccd333251e268047c1b5e0e7",
+      "status": "candidate"
+    }
+  ]
+}

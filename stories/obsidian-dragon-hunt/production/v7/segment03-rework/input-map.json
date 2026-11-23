@@ -1,0 +1,43 @@
+{
+  "version": "v7",
+  "duration": 30,
+  "ratio": "16:9",
+  "references": [
+    {
+      "index": 1,
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/episodes/EP001_valsak_v3_seasons/segment_03_60-90s/frames/motion-v7/first-frame.png",
+      "purpose": "动作预备首帧：仅图1决定0秒构图；法师、兽人及三头龙已在相互威胁",
+      "sha256": "4afb76b716d6e46120e34095babcb4f3227f46f57a85507dcbab7e44a1a7b167"
+    },
+    {
+      "index": 2,
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/VALSAK/three-head-v6/three-view.png",
+      "purpose": "三头龙身份与结构：同一龙的三视图，只取模型，不复制视图或站姿",
+      "sha256": "5a94b3f387a199ec9e56171f59ed19aa492f9238ec6f7c276c5cd12c8e600143"
+    },
+    {
+      "index": 3,
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ROBOT/combat-v6/three-view.png",
+      "purpose": "机器人身份与肩舱：每肩三管，初始全装，首轮4枚后每肩剩1枚",
+      "sha256": "4a32e79b7848dd811a1af8844328d2ffbe12f2538f6b2066011005e1bf799086"
+    },
+    {
+      "index": 4,
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/ELF/turnaround-v1/three-view.png",
+      "purpose": "精灵身份：同一瑟琳的三视图，只取脸、银发和月白靛蓝袍",
+      "sha256": "4ce11a90ecc3342ca4c73ca8ae0d2317f31d05bae746d5af7c20ab1cd6f84ade"
+    },
+    {
+      "index": 5,
+      "path": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/obsidian-dragon-hunt/assets/characters/DRAGONBORN/assassin-a1-v4/three-view-v2.png",
+      "purpose": "刺客A1身份：同一烬的三视图，只取脸、角、装备和右腕挂点；先跑动后变装",
+      "sha256": "a7202833fa7040eede435a2bdbcd6df618657645635be60b8d61096b0113d883"
+    }
+  ],
+  "excluded": [
+    "旧十张近似站姿关键帧不作时间顺序约束",
+    "含完整导弹抵住皮肤的命中静帧不作持续状态",
+    "不把中途的烧藤或命中图指定为首帧"
+  ],
+  "submit_status": "NOT_SUBMITTED"
+}
