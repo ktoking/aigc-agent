@@ -7,7 +7,7 @@
   "resolution": "480p",
   "generate_audio": true,
   "prompt_file": "director-promt.txt",
-  "prompt_sha256": "a14611f487b7b44a7e2a2ad6704e6a377e85e9db3c06a929631538706bf2c122",
+  "prompt_sha256": "96a05238f771a430d4ce0499a6b232b6a659ae243f9fae57eb6a70efd827db1a",
   "first_frame": null,
   "last_frame": null,
   "auto_images": false,
@@ -17,5 +17,5 @@
   "sequence": 2,
   "previous_segment": "segment_01_00-15s",
   "generation_policy": "sequential_wait_download_review_stop_on_error",
-  "director_revision": "2026-11-23-cinematic-director-v1"
+  "director_revision": "2026-11-23-ep005-director-layout-v2"
 }

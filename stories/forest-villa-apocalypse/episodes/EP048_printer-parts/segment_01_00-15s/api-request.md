@@ -1,10 +1,10 @@
 # EP048 Segment 1 视频交接
 
-版本：2026-11-12-four-15s。导演稿：2026-11-23-cinematic-director-v1；时码为文字预排，未生成视频。
+版本：2026-11-12-four-15s。导演稿：2026-11-23-ep005-director-layout-v2；时码为文字预排，未生成视频。
 
 - model=doubao-seedance-2-5-260628（沿用既定目标；本次未验证账号或服务端参数）。
 - duration=15，ratio=16:9，resolution=480p，generate_audio=true。
-- prompt_file=director-promt.txt；SHA256=972543281e31c47fd4d1071c26b29a6ddd35ac094eeeafdd32379ef1f969d9c0；prompt.md逐字一致。
+- prompt_file=director-promt.txt；SHA256=47f00c3e4393d63388fc36352f613f82076b0480ca502dc0a47f9e8ecce40c10；prompt.md逐字一致。
 - first_frame=null，last_frame=null，auto_images=false。
 - 台词46个有效字；4字/秒粗估11.5秒，非实测语音。
 - 只按reference-assets.json上传具名数字人和图片；九项包括人物，无旧首尾帧。

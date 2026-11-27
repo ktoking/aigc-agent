@@ -284,7 +284,7 @@ def validate_reference_labels(labels: list[str], count: int, option: str) -> lis
 
 def parse_prompt_reference_lines(prompt: str) -> dict[int, str]:
     references: dict[int, str] = {}
-    for match in re.finditer(r"^参考图(\d+)[：:]\s*(.+)$", prompt, re.MULTILINE):
+    for match in re.finditer(r"^参考图(\d+)[：:＝=][ \t]*(.+)$", prompt, re.MULTILINE):
         index = int(match.group(1))
         if index in references:
             raise ArkVideoError(f"duplicate prompt reference number: 参考图{index}")
@@ -368,7 +368,7 @@ def validate_prompt_reference_map(
                 )
         return reference_map
 
-    first_reference = re.search(r"^参考图\d+[：:]", prompt, re.MULTILINE)
+    first_reference = re.search(r"^参考图\d+[：:＝=]", prompt, re.MULTILINE)
     identity_header = prompt[: first_reference.start()] if first_reference else prompt
     for reference in digital_humans:
         name = reference.name or "未具名数字人"

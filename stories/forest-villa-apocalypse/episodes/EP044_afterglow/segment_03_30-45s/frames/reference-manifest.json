@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-12-four-15s",
+  "revision": "2026-11-23-ep044-team-fight-v6",
   "source": "../reference-assets.json",
   "first_last_frames": false,
   "references": [
@@ -19,52 +19,47 @@
     },
     {
       "number": 3,
-      "label": "正确别墅冬季总景",
-      "kind": "scene_or_prop",
-      "file": "参考图3.png",
-      "uri": null
+      "label": "人物三视图_冬狼",
+      "kind": "character_turnaround",
+      "file": "参考图3_人物三视图_冬狼.png",
+      "uri": null,
+      "shots": [
+        "L01"
+      ]
     },
     {
       "number": 4,
-      "label": "同一关闭黑门",
-      "kind": "scene_or_prop",
-      "file": "参考图4.png",
-      "uri": null
+      "label": "人物三视图_叶凝霜",
+      "kind": "character_turnaround",
+      "file": "参考图4_人物三视图_叶凝霜.png",
+      "uri": null,
+      "shots": [
+        "L02",
+        "L04"
+      ]
     },
     {
       "number": 5,
-      "label": "墙外冰封倒地轮廓",
+      "label": "场景闭合黑门",
       "kind": "scene_or_prop",
-      "file": "参考图5.png",
-      "uri": null
+      "file": "参考图5_场景闭合黑门.png",
+      "uri": null,
+      "shots": [
+        "L01",
+        "L02",
+        "L03",
+        "L04"
+      ]
     },
     {
       "number": 6,
-      "label": "凝霜银白长发无脸头模",
-      "kind": "scene_or_prop",
-      "file": "参考图6.png",
-      "uri": null
-    },
-    {
-      "number": 7,
-      "label": "凝霜白色冬装",
-      "kind": "outfit",
-      "file": "参考图7.png",
-      "uri": null
-    },
-    {
-      "number": 8,
-      "label": "冬狼现代黑色冬装",
-      "kind": "outfit",
-      "file": "参考图8.png",
-      "uri": null
-    },
-    {
-      "number": 9,
-      "label": "原双门人工交易槽",
-      "kind": "scene_or_prop",
-      "file": "参考图9.png",
-      "uri": null
+      "label": "关键帧门外雪靴结冰",
+      "kind": "action_keyframe",
+      "file": "参考图6_关键帧门外雪靴结冰.png",
+      "uri": null,
+      "shots": [
+        "L03"
+      ]
     }
   ]
 }

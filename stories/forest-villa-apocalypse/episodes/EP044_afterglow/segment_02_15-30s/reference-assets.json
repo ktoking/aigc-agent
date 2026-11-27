@@ -1,15 +1,19 @@
 {
-  "revision": "2026-11-12-four-15s",
+  "revision": "2026-11-23-ep044-team-fight-v6",
   "numbering": "exact_api_image_order_including_digital_humans",
   "first_last_frames": false,
   "digital_humans": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt"
+    },
     {
       "name": "许砚",
       "asset": "asset-20260320075237-29hdx"
     },
     {
-      "name": "冬狼",
-      "asset": "asset-20260720205729-l4dfh"
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb"
     }
   ],
   "api_submission": {
@@ -23,9 +27,20 @@
     "planned_total_images": 9,
     "auto_images": false,
     "local_reference_files_complete": true,
-    "note": "九项为本项目规划，不代表已验证模型上限或账号权限。仅按清单取图，不扫描历史目录，不传首尾帧，尚未提交。"
+    "note": "仅按清单顺序提交；关键帧作为普通参考图，不作为强制首尾帧。数量不代表已验证账号或模型限制。"
   },
   "references": [
+    {
+      "name": "白棠",
+      "asset": "asset-20260320075131-k78qt",
+      "uri": "asset://asset-20260320075131-k78qt",
+      "description": "利落低马尾；鼠尾草绿短款工装外套、浅灰圆领上衣、深灰直筒工装裤、黑色防滑工作靴。能独立判断生产与库存，有心疼劳动、期待收成和熟人间的幽默。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "白棠",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 1
+    },
     {
       "name": "许砚",
       "asset": "asset-20260320075237-29hdx",
@@ -35,100 +50,105 @@
       "label": "许砚",
       "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
       "status": "user_registered_identity",
-      "number": 1
-    },
-    {
-      "name": "冬狼",
-      "asset": "asset-20260720205729-l4dfh",
-      "uri": "asset://asset-20260720205729-l4dfh",
-      "description": "利落黑短发；黑色厚防风长外套、深灰高领内搭、黑色工装长裤、黑色防滑雪地靴。习惯控制别人，听见停火才敢靠近；失去优势后情绪变化可见，不狂笑。只锁本人脸与身份，不沿用资产原衣。",
-      "kind": "digital_human",
-      "label": "冬狼",
-      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
-      "status": "user_registered_identity",
       "number": 2
     },
     {
-      "key": "villa",
-      "kind": "scene_or_prop",
-      "label": "正确别墅冬季总景",
-      "file": "assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png",
-      "planned_file": null,
-      "scope": "正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
-      "number": 3,
-      "segment_file": "frames/参考图3.png"
+      "name": "沈知夏",
+      "asset": "asset-20260310030618-88hlb",
+      "uri": "asset://asset-20260310030618-88hlb",
+      "description": "深栗色侧分微卷长发过肩；暗酒红医护工装外套、黑色刷手服内搭、炭灰工装裤、黑色防滑短靴。成熟克制，专业意见独立；会坚持休息与复核，不无条件附和。只锁本人脸与身份，不沿用资产原衣。",
+      "kind": "digital_human",
+      "label": "沈知夏",
+      "scope": "只锁本人身份与脸；基础服装和发型服从本段完整描述",
+      "status": "user_registered_identity",
+      "number": 3
     },
     {
-      "key": "gateStrain",
-      "kind": "scene_or_prop",
-      "label": "受撞锁座",
-      "file": "assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png",
-      "planned_file": null,
-      "scope": "原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
+      "key": "turnaround_白棠",
+      "name": "白棠",
+      "label": "人物三视图_白棠",
+      "kind": "character_turnaround",
+      "file": "docs/revisions/2026-11-12-pre-15s/episodes/EP044_afterglow/segment_01_00-30s/frames/参考图02_人物三视图_白棠.png",
+      "scope": "正侧背只参考白棠的冬装、发型和体态；本人容貌以对应数字人为准，不生成并排人影",
+      "shots": [
+        "L02"
+      ],
+      "status": "existing_turnaround_visually_checked",
       "number": 4,
-      "segment_file": "frames/参考图4.png"
+      "segment_file": "frames/参考图4_人物三视图_白棠.png"
+    },
+    {
+      "key": "turnaround_许砚",
+      "name": "许砚",
+      "label": "人物三视图_许砚",
+      "kind": "character_turnaround",
+      "file": "docs/revisions/2026-11-12-pre-15s/episodes/EP044_afterglow/segment_01_00-30s/frames/参考图01_人物三视图_许砚.png",
+      "scope": "正侧背只参考许砚的冬装、发型和体态；本人容貌以对应数字人为准，不生成并排人影",
+      "shots": [
+        "L03",
+        "L04"
+      ],
+      "status": "existing_turnaround_visually_checked",
+      "number": 5,
+      "segment_file": "frames/参考图5_人物三视图_许砚.png"
+    },
+    {
+      "key": "turnaround_沈知夏",
+      "name": "沈知夏",
+      "label": "人物三视图_沈知夏",
+      "kind": "character_turnaround",
+      "file": "docs/revisions/2026-11-12-pre-15s/episodes/EP044_afterglow/segment_01_00-30s/frames/参考图04_人物三视图_沈知夏.png",
+      "scope": "正侧背只参考沈知夏的冬装、发型和体态；本人容貌以对应数字人为准，不生成并排人影",
+      "shots": [
+        "L04"
+      ],
+      "status": "existing_turnaround_visually_checked",
+      "number": 6,
+      "segment_file": "frames/参考图6_人物三视图_沈知夏.png"
+    },
+    {
+      "key": "control",
+      "label": "场景别墅控制室",
+      "scope": "只锁控制台与屏幕边框；屏内人物只为远景无脸轮廓",
+      "shots": [
+        "L02"
+      ],
+      "kind": "scene_or_prop",
+      "file": "assets/production/ep036-defrost-and-intel/references/modern-winter-intel-control-room-16x9.png",
+      "status": "existing_scene_or_prop_visually_checked",
+      "number": 7,
+      "segment_file": "frames/参考图7_场景别墅控制室.png"
     },
     {
       "key": "turret",
+      "label": "道具唯一阳台炮台",
+      "scope": "只参考外壳形状，仍在原二楼阳台，不复制第二座，不展示内部",
+      "shots": [
+        "L01"
+      ],
       "kind": "scene_or_prop",
-      "label": "唯一阳台炮台",
       "file": "assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png",
-      "planned_file": null,
-      "scope": "唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
-      "number": 5,
-      "segment_file": "frames/参考图5.png"
-    },
-    {
-      "key": "armorDefense",
-      "kind": "scene_or_prop",
-      "label": "外骨骼抵门受力",
-      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png",
-      "planned_file": null,
-      "scope": "同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
-      "number": 6,
-      "segment_file": "frames/参考图6.png"
-    },
-    {
-      "key": "armorCooling",
-      "kind": "scene_or_prop",
-      "label": "外骨骼过热停用",
-      "file": "assets/production/ep042-044-reference-refresh/references/exoskeleton-overheat-joint-16x9.png",
-      "planned_file": null,
-      "scope": "外骨骼同款关节、过热警示与停用状态；不锁新人物或新装甲；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
-      "number": 7,
-      "segment_file": "frames/参考图7.png"
-    },
-    {
-      "key": "outfit_许砚",
-      "kind": "outfit",
-      "label": "许砚炭灰工装",
-      "file": "assets/characters/FVA_XU_YAN_001/references/xu-yan-winter-work-outfit-flatlay-16x9.png",
-      "planned_file": null,
-      "scope": "许砚无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
+      "status": "existing_scene_or_prop_visually_checked",
       "number": 8,
-      "segment_file": "frames/参考图8.png"
+      "segment_file": "frames/参考图8_道具唯一阳台炮台.png"
     },
     {
-      "key": "outfit_冬狼",
-      "kind": "outfit",
-      "label": "冬狼现代黑色冬装",
-      "file": "assets/production/ep042-044-reference-refresh/references/wolf-winter-long-coat-flatlay-16x9.png",
-      "planned_file": null,
-      "scope": "冬狼无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果",
-      "status": "existing_candidate_pending_new_shot_review",
+      "key": "brace-overheat",
+      "label": "关键帧护臂过热",
+      "scope": "只参考同一护臂、外门和单枚暖色过热灯；警示亮后护臂下沉，知夏让它重新撑住，不复刻静态姿势",
+      "shots": [
+        "L03"
+      ],
+      "kind": "action_keyframe",
+      "file": "assets/production/ep044-named-references/brace-overheat-16x9.png",
+      "status": "imagegen_visually_checked",
       "number": 9,
-      "segment_file": "frames/参考图9.png"
+      "segment_file": "frames/参考图9_关键帧护臂过热.png"
     }
   ],
   "exclusions": [
-    "不上传未出场角色",
-    "不上传旧三视图、旧关键帧或历史output",
-    "不把本地文件存在视为视频人物一致性通过"
+    "不上传非本段出场人物三视图",
+    "不上传旧30秒关键帧或历史output",
+    "不扫描frames整目录上传"
   ]
 }

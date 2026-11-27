@@ -1,0 +1,321 @@
+{
+  "toonflowCanvas": true,
+  "nodes": [
+    {
+      "id": "ef17d157-3fc4-4077-ad9f-b21248e81377",
+      "type": "remote-textNode",
+      "initialized": false,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "EP001《封层》｜正文与逐镜稿",
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": [
+              "VIDEO",
+              "IMAGE",
+              "STRING",
+              "FILE"
+            ],
+            "label": "视频、图片、文本、文件输入"
+          },
+          {
+            "id": "text",
+            "type": "source",
+            "dataType": "STRING",
+            "label": "文本输出"
+          }
+        ],
+        "outputs": {},
+        "model": "[\"Toonflow\",\"deepseek-v4.1-flash\"]",
+        "textPath": "assets/ef17d157-3fc4-4077-ad9f-b21248e81377/content.md",
+        "promptModel": [
+          [
+            {
+              "type": "Write",
+              "text": ""
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10a22e03-bfa8-4801-bbb4-cd09a02b2ee3",
+      "type": "remote-textNode",
+      "initialized": false,
+      "position": {
+        "x": 411.7182130584193,
+        "y": 6.735395189003441
+      },
+      "data": {
+        "label": "EP001《封层》｜拍摄修订稿 B",
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": [
+              "VIDEO",
+              "IMAGE",
+              "STRING",
+              "FILE"
+            ],
+            "label": "视频、图片、文本、文件输入"
+          },
+          {
+            "id": "text",
+            "type": "source",
+            "dataType": "STRING",
+            "label": "文本输出"
+          }
+        ],
+        "outputs": {},
+        "model": "[\"Toonflow\",\"deepseek-v4.1-flash\"]",
+        "textPath": "assets/10a22e03-bfa8-4801-bbb4-cd09a02b2ee3/content.md"
+      }
+    },
+    {
+      "id": "440a3b68-31b0-4200-b1d0-3a6744541c8c",
+      "type": "remote-textNode",
+      "initialized": false,
+      "position": {
+        "x": 900,
+        "y": 0
+      },
+      "data": {
+        "label": "EP001《封层》｜制作总览与资产盘点",
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": [
+              "VIDEO",
+              "IMAGE",
+              "STRING",
+              "FILE"
+            ],
+            "label": "视频、图片、文本、文件输入"
+          },
+          {
+            "id": "text",
+            "type": "source",
+            "dataType": "STRING",
+            "label": "文本输出"
+          }
+        ],
+        "outputs": {},
+        "textPath": "assets/440a3b68-31b0-4200-b1d0-3a6744541c8c/content.md",
+        "model": "[\"Toonflow\",\"deepseek-v4.1-flash\"]"
+      }
+    },
+    {
+      "id": "aa9e962a-a4b5-4f3c-8965-5d63fe9c6e54",
+      "type": "remote-imageGenerationNode",
+      "initialized": false,
+      "position": {
+        "x": 1234.7846441947565,
+        "y": -123.99812734082397
+      },
+      "data": {
+        "label": "场景母图 01｜云梯城七塔",
+        "prompt": "《孢海》云梯城七塔外景空间母图，9:16 竖幅，真人电影环境摄影与可信影视 CG，单张静帧。灾后第十七年初晨，从云海上方以稳定的三分之四侧角望向同一座塔城。画面中恰好七座各五百层的巨塔：近景两座、中景三座、远景两座；七座塔冠彼此错开，剪影可逐一数清，不被裁出画面，不出现第八座高塔。四号主塔在画面右侧近景，塔冠是低矮弧形玻璃温室穹顶，晨光反射朝左上。从穹顶下方到入云处可追踪同一根连续笔直的窗柱。两道主要跨塔廊桥错层联接，远近分明，桥内有克制的实用灯，其他连接仅作背景。塔身是灾前粗壮旧骨架上的钢结构与混凝土增建，外露梁、窄玻璃和新旧接缝可辨，但保留完整大形，不堆满细小纹理。下方是连成一片的灰白孢海，深阴处仅泛微弱青绿，云面盖住地表与塔基；高处暖金晨光擦亮塔冠，塔身以偏冷的自然阴影拉开层次。前景桥梁不遮挡七个塔冠，留出站得住的垂直尺度。无人物、无飞船、无怪物、无霓虹、无文字、楼层数字、片名、标注与水印。",
+        "promptModel": [
+          [
+            {
+              "type": "Write",
+              "text": "《孢海》云梯城七塔外景空间母图，9:16 竖幅，真人电影环境摄影与可信影视 CG，单张静帧。灾后第十七年初晨，从云海上方以稳定的三分之四侧角望向同一座塔城。画面中恰好七座各五百层的巨塔：近景两座、中景三座、远景两座；七座塔冠彼此错开，剪影可逐一数清，不被裁出画面，不出现第八座高塔。四号主塔在画面右侧近景，塔冠是低矮弧形玻璃温室穹顶，晨光反射朝左上。从穹顶下方到入云处可追踪同一根连续笔直的窗柱。两道主要跨塔廊桥错层联接，远近分明，桥内有克制的实用灯，其他连接仅作背景。塔身是灾前粗壮旧骨架上的钢结构与混凝土增建，外露梁、窄玻璃和新旧接缝可辨，但保留完整大形，不堆满细小纹理。下方是连成一片的灰白孢海，深阴处仅泛微弱青绿，云面盖住地表与塔基；高处暖金晨光擦亮塔冠，塔身以偏冷的自然阴影拉开层次。前景桥梁不遮挡七个塔冠，留出站得住的垂直尺度。无人物、无飞船、无怪物、无霓虹、无文字、楼层数字、片名、标注与水印。"
+            }
+          ]
+        ],
+        "inpaintPrompt": "",
+        "inpaintPromptModel": [],
+        "model": "[\"codex\",\"codexImage\"]",
+        "size": "auto",
+        "ratio": "9:16",
+        "other": {},
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": [
+              "IMAGE",
+              "STRING"
+            ],
+            "label": "图片、文本输入"
+          },
+          {
+            "id": "image",
+            "type": "source",
+            "dataType": "IMAGE",
+            "label": "图片输出"
+          }
+        ],
+        "outputs": {
+          "image": {
+            "dataType": "IMAGE",
+            "value": {
+              "url": "assets/aa9e962a-a4b5-4f3c-8965-5d63fe9c6e54/image7a51e8f9b1134f2e8eb12b3188e792e60.png",
+              "mimeType": "image/png"
+            }
+          }
+        },
+        "mediaTask": {
+          "taskId": "7a51e8f9-b113-4f2e-8eb1-2b3188e792e6",
+          "directory": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/spore-sea",
+          "canvasPath": "画布1.json",
+          "nodeId": "aa9e962a-a4b5-4f3c-8965-5d63fe9c6e54",
+          "mediaType": "image",
+          "providerId": "codex",
+          "modelId": "codexImage",
+          "state": "succeeded",
+          "resumable": false,
+          "applied": true
+        }
+      }
+    },
+    {
+      "id": "02cb208f-5d9d-4dca-88e6-f4fadf720c75",
+      "type": "remote-imageGenerationNode",
+      "initialized": false,
+      "position": {
+        "x": 1422.9775280898878,
+        "y": -126.15168539325845
+      },
+      "data": {
+        "label": "场景母图 02｜23／24 层闸口",
+        "prompt": "《孢海》四号塔 23／24 层撤离闸口空间母图，9:16 竖幅，真人写实电影实景，单张无人物环境主视图。机位在短梯的一侧、略低于高侧平台，斜看完整的高差与通道：画面左下是 23 层北廊，左后墙有固定通风格栅和一处密封窄窗；中景一段短而直的楼梯带连续护栏，从左下升至右上；唯一一扇灰白上提式防火隔离闸设在楼梯的上端门槛，门板升起、通路敞开，但厚门框、两侧导槽以及上方整块门板下缘均清楚可辨；画面右上是 24 层接应平台，闸内有一小块可供接人和转身的空间，再接向上通道。高侧门柱装一个小读卡器及一枚无字状态灯；可见墙上固定两块彼此独立、不显示内容的深色面板，一块狭长作计时，一块略宽作过闸统计，供后期贴读数。建筑用蓝灰混凝土、灰白哑光钢和少量旧锈红，灯具给出看得见来源的冷白光，在台阶、护栏和闸下缘留下清楚的受光层次。窗外绝无日光，黑色雨线只在密封玻璃外，室内总体干燥干净，只在低侧门边有一处局部旧湿痕。空间有生活磨损但通道不堆物，不把它画成敞开的户外工地。无人物、人影、藤蔓、烟雾、室内雨、警报红光、额外门扇、箭头、数字、文字与水印。",
+        "promptModel": [
+          [
+            {
+              "type": "Write",
+              "text": "《孢海》四号塔 23／24 层撤离闸口空间母图，9:16 竖幅，真人写实电影实景，单张无人物环境主视图。机位在短梯的一侧、略低于高侧平台，斜看完整的高差与通道：画面左下是 23 层北廊，左后墙有固定通风格栅和一处密封窄窗；中景一段短而直的楼梯带连续护栏，从左下升至右上；唯一一扇灰白上提式防火隔离闸设在楼梯的上端门槛，门板升起、通路敞开，但厚门框、两侧导槽以及上方整块门板下缘均清楚可辨；画面右上是 24 层接应平台，闸内有一小块可供接人和转身的空间，再接向上通道。高侧门柱装一个小读卡器及一枚无字状态灯；可见墙上固定两块彼此独立、不显示内容的深色面板，一块狭长作计时，一块略宽作过闸统计，供后期贴读数。建筑用蓝灰混凝土、灰白哑光钢和少量旧锈红，灯具给出看得见来源的冷白光，在台阶、护栏和闸下缘留下清楚的受光层次。窗外绝无日光，黑色雨线只在密封玻璃外，室内总体干燥干净，只在低侧门边有一处局部旧湿痕。空间有生活磨损但通道不堆物，不把它画成敞开的户外工地。无人物、人影、藤蔓、烟雾、室内雨、警报红光、额外门扇、箭头、数字、文字与水印。"
+            }
+          ]
+        ],
+        "inpaintPrompt": "",
+        "inpaintPromptModel": [],
+        "model": "[\"codex\",\"codexImage\"]",
+        "size": "auto",
+        "ratio": "9:16",
+        "other": {},
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": [
+              "IMAGE",
+              "STRING"
+            ],
+            "label": "图片、文本输入"
+          },
+          {
+            "id": "image",
+            "type": "source",
+            "dataType": "IMAGE",
+            "label": "图片输出"
+          }
+        ],
+        "outputs": {
+          "image": {
+            "dataType": "IMAGE",
+            "value": {
+              "url": "assets/02cb208f-5d9d-4dca-88e6-f4fadf720c75/image10612f815eae4d719aa2f9fe871349e30.png",
+              "mimeType": "image/png"
+            }
+          }
+        },
+        "mediaTask": {
+          "taskId": "10612f81-5eae-4d71-9aa2-f9fe871349e3",
+          "directory": "/Users/kaiyi.wang/IdeaProjects/ktoking/aigc-agent/stories/spore-sea",
+          "canvasPath": "画布1.json",
+          "nodeId": "02cb208f-5d9d-4dca-88e6-f4fadf720c75",
+          "mediaType": "image",
+          "providerId": "codex",
+          "modelId": "codexImage",
+          "state": "succeeded",
+          "resumable": false,
+          "applied": true
+        }
+      }
+    },
+    {
+      "id": "602995b7-88ad-4e3d-9331-4fefaf27b072",
+      "type": "remote-imageNode",
+      "initialized": false,
+      "position": {
+        "x": 1350,
+        "y": 740
+      },
+      "data": {
+        "label": "已采用｜云梯城七塔 · 空间参考",
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": "IMAGE",
+            "label": "来源图片"
+          },
+          {
+            "id": "image",
+            "type": "source",
+            "dataType": "IMAGE",
+            "label": "图片输出"
+          }
+        ],
+        "outputs": {
+          "image": {
+            "dataType": "IMAGE",
+            "value": {
+              "url": "assets/aa9e962a-a4b5-4f3c-8965-5d63fe9c6e54/image7a51e8f9b1134f2e8eb12b3188e792e60.png",
+              "mimeType": "image/png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "638d1f82-ded4-4ef6-b14a-a8499554ce3c",
+      "type": "remote-imageNode",
+      "initialized": false,
+      "position": {
+        "x": 1830,
+        "y": 740
+      },
+      "data": {
+        "label": "已采用｜23／24 层闸口 · 空间参考",
+        "handles": [
+          {
+            "id": "in",
+            "type": "target",
+            "dataType": "IMAGE",
+            "label": "来源图片"
+          },
+          {
+            "id": "image",
+            "type": "source",
+            "dataType": "IMAGE",
+            "label": "图片输出"
+          }
+        ],
+        "outputs": {
+          "image": {
+            "dataType": "IMAGE",
+            "value": {
+              "url": "assets/02cb208f-5d9d-4dca-88e6-f4fadf720c75/image10612f815eae4d719aa2f9fe871349e30.png",
+              "mimeType": "image/png"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "edges": [],
+  "viewport": {
+    "x": 58,
+    "y": -2129.1424409652705,
+    "zoom": 0.5869894099848714
+  }
+}

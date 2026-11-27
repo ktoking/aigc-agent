@@ -128,6 +128,23 @@ class ArkVideoReferenceMapTest(unittest.TestCase):
             qa_path.write_text(json.dumps({"status": "passed"}), encoding="utf-8")
             ark_video.require_previous_segment_qa(segment_02)
 
+    def test_ep005_style_reference_lines_preserve_api_order(self) -> None:
+        digital_humans = ark_video.validate_digital_humans(["许砚=asset://asset-xu"])
+        prompt = "\n".join([
+            "参考输入",
+            "",
+            "参考图1＝asset://asset-xu，许砚，只锁脸和身份。",
+            "参考图2＝frames/参考图2.png，原别墅，文件已存在。",
+        ])
+        refs = ark_video.validate_prompt_reference_map(
+            prompt, digital_humans, [Path("frames/参考图2.png")], [], ["原别墅"], [],
+        )
+        self.assertEqual([r["label"] for r in refs], ["许砚", "原别墅"])
+
+    def test_mixed_reference_delimiters_still_reject_duplicate_indices(self) -> None:
+        with self.assertRaisesRegex(ark_video.ArkVideoError, "duplicate prompt reference"):
+            ark_video.parse_prompt_reference_lines("参考图1：旧别墅\n参考图1＝原别墅")
+
 
 if __name__ == "__main__":
     unittest.main()

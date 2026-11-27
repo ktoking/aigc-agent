@@ -1,64 +1,22 @@
-# 本段资产引用
+# 本段参考图
 
-本次拆段不新增图像内容，沿用已经生成的场景与道具；缺图0张。人物只用数字人URI。
-原生图记录见assets/production/ep044-050-seedance25/generation-record.json；不把它当成本次新生图记录。
+| 序号 | 标签 | 本段文件或asset URI | 指定镜头与用途 |
+| --- | --- | --- | --- |
+| 1 | 冬狼 | asset://asset-20260720205729-l4dfh | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 2 | 许砚 | asset://asset-20260320075237-29hdx | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 3 | 白棠 | asset://asset-20260320075131-k78qt | 只锁本人身份与脸；基础服装和发型服从本段完整描述 |
+| 4 | 人物三视图_冬狼 | frames/参考图4_人物三视图_冬狼.png | L01：正侧背只参考冬狼的冬装、发型和体态；本人容貌以对应数字人为准，不生成并排人影 |
+| 5 | 人物三视图_许砚 | frames/参考图5_人物三视图_许砚.png | L03：正侧背只参考许砚的冬装、发型和体态；本人容貌以对应数字人为准，不生成并排人影 |
+| 6 | 人物三视图_白棠 | frames/参考图6_人物三视图_白棠.png | L04：正侧背只参考白棠的冬装、发型和体态；本人容貌以对应数字人为准，不生成并排人影 |
+| 7 | 场景雪中别墅 | frames/参考图7_场景雪中别墅.png | L01：只锁同一栋现代三层别墅、阳台、围墙及黑门相对位置，不复制画中机位 |
+| 8 | 场景别墅控制室 | frames/参考图8_场景别墅控制室.png | L04：只锁控制台、屏幕和房间格局，屏幕内容按本镜重绘 |
+| 9 | 关键帧护臂抵门 | frames/参考图9_关键帧护臂抵门.png | L02：只参考院内护臂抵门与受撞但仍扣住的锁座，不锁人物脸，不把门拍开 |
 
-## 参考图4：正确别墅冬季总景
+- 人物三视图_冬狼来源：docs/revisions/2026-11-12-pre-15s/episodes/EP044_afterglow/segment_02_30-60s/frames/参考图02_人物三视图_冬狼.png
+- 人物三视图_许砚来源：docs/revisions/2026-11-12-pre-15s/episodes/EP044_afterglow/segment_01_00-30s/frames/参考图01_人物三视图_许砚.png
+- 人物三视图_白棠来源：docs/revisions/2026-11-12-pre-15s/episodes/EP044_afterglow/segment_01_00-30s/frames/参考图02_人物三视图_白棠.png
+- 场景雪中别墅来源：assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png
+- 场景别墅控制室来源：assets/production/ep036-defrost-and-intel/references/modern-winter-intel-control-room-16x9.png
+- 关键帧护臂抵门来源：assets/production/ep044-named-references/gate-held-shut-16x9.png
 
-资产：assets/production/ep036-defrost-and-intel/references/canonical-villa-overcast-snow-16x9.png
-
-本段副本：frames/参考图4.png
-
-用途：正确冬日别墅总景，只锁建筑、围墙、外门与院内位置，屋顶服从原图；图中没有人物；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果
-
-状态：existing_candidate_pending_new_shot_review；拆段后的使用时点仍须在实际视频生成前复核。
-
-## 参考图5：受撞锁座
-
-资产：assets/production/ep042-044-reference-refresh/references/black-gate-center-latch-strain-16x9.png
-
-本段副本：frames/参考图5.png
-
-用途：原黑门中央锁座受撞变形，门板主体仍完整；只锁旧状态，不把结果提前修好；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果
-
-状态：existing_candidate_pending_new_shot_review；拆段后的使用时点仍须在实际视频生成前复核。
-
-## 参考图6：唯一阳台炮台
-
-资产：assets/production/ep042-044-reference-refresh/references/auto-turret-isolated-16x9.png
-
-本段副本：frames/参考图6.png
-
-用途：唯一自动炮台外形；安装位置在二楼阳台，弹药状态严格按当镜，不能复制第二座；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果
-
-状态：existing_candidate_pending_new_shot_review；拆段后的使用时点仍须在实际视频生成前复核。
-
-## 参考图7：外骨骼抵门受力
-
-资产：assets/production/ep042-044-reference-refresh/references/exoskeleton-forearm-brace-gate-16x9.png
-
-本段副本：frames/参考图7.png
-
-用途：同一防护外骨骼护臂抵住黑门的接触与受力；测试架不出现在正片，角色身份只用数字人；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果
-
-状态：existing_candidate_pending_new_shot_review；拆段后的使用时点仍须在实际视频生成前复核。
-
-## 参考图8：原现代控制室机位
-
-资产：assets/production/ep036-defrost-and-intel/references/modern-winter-intel-control-room-16x9.png
-
-本段副本：frames/参考图8.png
-
-用途：只锁原监控台、屏幕边框和室内布局；屏幕内容依本镜重绘，不继承图上其他建筑或车辆；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果
-
-状态：existing_candidate_pending_new_shot_review；拆段后的使用时点仍须在实际视频生成前复核。
-
-## 参考图9：白棠鼠尾草绿工装
-
-资产：assets/characters/FVA_BAI_TANG_001/references/bai-tang-survival-outfit-flatlay-16x9.png
-
-本段副本：frames/参考图9.png
-
-用途：白棠无脸服装参考，服装必须与本段完整文字一致；不据此生成其他人脸；只取外观与对应局部，破损、成熟程度、通电和物资数量严格按本镜，不能提前套用后期结果
-
-状态：existing_candidate_pending_new_shot_review；拆段后的使用时点仍须在实际视频生成前复核。
+关键帧生成说明见assets/production/ep044-named-references/generation-record.md。
